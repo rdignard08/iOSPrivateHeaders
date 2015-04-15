@@ -1,0 +1,93 @@
+
+@interface UIKeyboardCandidateGridCell : UICollectionViewCell {
+
+    BOOL _dummy;
+    BOOL _usesGroupHeaderAppearance;
+    BOOL _shouldShowCandidateNumber;
+    BOOL _secondaryCandidateAppearance;
+    BOOL _emphasizedAppearance;
+    i _candidatesVisualStyle;
+    @"NSString" _text;
+    @"NSString" _alternativeText;
+    Q _candidateNumber;
+    Q _edges;
+    d _rowHeight;
+    d _rightPadding;
+    {?="idiom"b6"landscape"b1"split"b1"appearance"b8"rendering"b16} _visualStyling;
+    q _textAlignment;
+    d _cellPadding;
+    d _minimumWidth;
+    @"UILabel" _textLabel;
+    @"UILabel" _alternativeTextLabel;
+    @"UILabel" _candidateNumberLabel;
+    {CGSize="width"d"height"d} _size;
+    {CGSize="width"d"height"d} _candidateNumberSize;
+    {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _visibleBounds;
+}
+ + (id) reuseIdentifier;
+ + (BOOL) drawsSideBorders;
+ + (^{CGColor=}) legacy_outlineShadowColorForVisualStyling:({?=b6b1b1b8b16})acandidatesVisualStyle:(i)b;
+ + (^{CGColor=}) legacy_outlineColorForVisualStyling:({?=b6b1b1b8b16})acandidatesVisualStyle:(i)b;
+ + (d) rightPaddingForIndex;
+ + ({CGSize=dd}) sizeForGroupHeader:(id)avisualStyle:(i)b;
+ + (d) widthForCandidate:(id)acandidateNumber:(Q)bvisualStyle:(i)c;
+
+ - ({CGSize=dd}) size;
+ - (void) dealloc;
+ - (void) setRowHeight:(d)a;
+ - (d) rowHeight;
+ - (void) setEdges:(Q)a;
+ - (void) setTextAlignment:(q)a;
+ - (void) setText:(id)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) visibleBounds;
+ - (void) setHighlighted:(BOOL)a;
+ - (void) setMinimumWidth:(d)a;
+ - (d) minimumWidth;
+ - (void) prepareForReuse;
+ - (void) setSelected:(BOOL)a;
+ - (id) textLabel;
+ - (q) textAlignment;
+ - (void) setVisualStyling:({?=b6b1b1b8b16})a;
+ - ({?=b6b1b1b8b16}) visualStyling;
+ - (void) setCandidatesVisualStyle:(i)a;
+ - (i) candidatesVisualStyle;
+ - (BOOL) dummy;
+ - (void) setAlternativeText:(id)a;
+ - (void) setShouldShowCandidateNumber:(BOOL)a;
+ - (BOOL) shouldShowCandidateNumber;
+ - (Q) candidateNumber;
+ - (BOOL) usesGroupHeaderAppearance;
+ - (void) setVisibleBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) updateLabels;
+ - (void) applyLayoutAttributes:(id)a;
+ - (void) setDummy:(BOOL)a;
+ - (void) setUsesGroupHeaderAppearance:(BOOL)a;
+ - (Q) edges;
+ - (void) setRightPadding:(d)a;
+ - (void) setCellPadding:(d)a;
+ - (void) setCandidateNumber:(Q)a;
+ - (BOOL) secondaryCandidateAppearance;
+ - (void) setSecondaryCandidateAppearance:(BOOL)a;
+ - (BOOL) emphasizedAppearance;
+ - (void) setEmphasizedAppearance:(BOOL)a;
+ - (void) drawBackgroundAndBorders;
+ - (id) alternativeTextLabel;
+ - (id) candidateNumberLabel;
+ - (void) setTextLabel:(id)a;
+ - (d) rightPadding;
+ - (BOOL) canShowCandidateNumber;
+ - (void) setAlternativeTextLabel:(id)a;
+ - (void) setCandidateNumberLabel:(id)a;
+ - (void) updateLabelColors;
+ - (void) updateGroupHeaderLabelPosition;
+ - ({CGSize=dd}) candidateNumberSize;
+ - (void) setCandidateNumberSize:({CGSize=dd})a;
+ - (void) setSize:({CGSize=dd})a;
+ - (d) cellPadding;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) alternativeText;
+ - (id) text;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+
+
+@end

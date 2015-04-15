@@ -1,0 +1,8 @@
+
+@interface WebCoreScrollView : WAKScrollView {
+
+}
+
+
+
+@end

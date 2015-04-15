@@ -1,0 +1,97 @@
+
+@interface CSIGenerator : NSObject {
+
+    {CGSize="width"d"height"d} _size;
+    @"NSString" _name;
+    @"NSString" _utiType;
+    @"NSMutableArray" _slices;
+    @"NSMutableArray" _bitmaps;
+    @"NSMutableArray" _metrics;
+    BOOL _isFPOHint;
+    BOOL _isExcludedFromFilter;
+    BOOL _isVectorBased;
+    q _templateRenderingMode;
+    BOOL _allowsMultiPassEncoding;
+    s _colorSpaceID;
+    s _layout;
+    I _scaleFactor;
+    @"CUIPSDGradient" _gradient;
+    @"NSData" _rawData;
+    @"CUIShapeEffectPreset" _effectPreset;
+    i _blendMode;
+    d _opacity;
+    @"NSDate" _modtime;
+    I _pixelFormat;
+    i _exifOrientation;
+    Q _rowbytes;
+}
+@property (nonatomic, copy, readwrite) NSString* name;
+@property (nonatomic, copy, readwrite) NSString* utiType;
+@property (nonatomic, assign, readwrite) NSNumber* isRenditionFPO;
+@property (nonatomic, assign, readwrite) NSNumber* isVectorBased;
+@property (nonatomic, assign, readwrite) NSNumber* templateRenderingMode;
+@property (nonatomic, assign, readwrite, isExcludedFromContrastFilter) NSNumber* excludedFromContrastFilter;
+@property (nonatomic, assign, readwrite) NSNumber* colorSpaceID;
+@property (nonatomic, assign, readwrite) NSNumber* scaleFactor;
+@property (nonatomic, assign, readwrite) NSNumber* pixelFormat;
+@property (nonatomic, assign, readwrite) NSNumber* allowsMultiPassEncoding;
+@property (nonatomic, assign, readwrite) NSNumber* exifOrientation;
+@property (nonatomic, retain, readwrite) CUIPSDGradient* gradient;
+@property (nonatomic, retain, readwrite) CUIShapeEffectPreset* effectPreset;
+@property (nonatomic, assign, readwrite) NSNumber* blendMode;
+@property (nonatomic, assign, readwrite) NSNumber* opacity;
+@property (nonatomic, copy, readwrite) NSDate* modtime;
+ + (void) initialize;
+ + (void) setFileCompression:(i)a;
+ + (i) fileCompression;
+
+ - (void) dealloc;
+ - (id) name;
+ - (I) scaleFactor;
+ - (void) setTemplateRenderingMode:(q)a;
+ - (void) setExifOrientation:(i)a;
+ - (void) setName:(id)a;
+ - (void) setEffectPreset:(id)a;
+ - (q) templateRenderingMode;
+ - (id) modtime;
+ - (i) blendMode;
+ - (BOOL) allowsMultiPassEncoding;
+ - (void) _addNodes:(id)atoNodeList:(^{_csigradientdatanode=Ifdddddddd})b;
+ - (void) formatCSIHeader:(^{_csiheader=IIIIIIIb4b28{_csimetadata=ISS[128c]}I{_csibitmaplist=I[0I]}})a;
+ - (void) writeHeader:(^{_csiheader=IIIIIIIb4b28{_csimetadata=ISS[128c]}I{_csibitmaplist=I[0I]}})atoData:(id)b;
+ - (Q) writeResourcesToData:(id)a;
+ - (Q) writeGradientToData:(id)a;
+ - (Q) writeRawDataToData:(id)a;
+ - (Q) writeBitmap:(id)atoData:(id)bcompress:(BOOL)c;
+ - (id) initWithCanvasSize:({CGSize=dd})asliceCount:(I)blayout:(s)c;
+ - (id) initWithShapeEffectPreset:(id)aforScaleFactor:(I)b;
+ - (id) initWithRawData:(id)apixelFormat:(I)blayout:(s)c;
+ - (void) addBitmap:(id)a;
+ - (void) addSliceRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) addMetrics:({?={CGSize=dd}{CGSize=dd}{CGSize=dd}})a;
+ - (id) CSIRepresentationWithCompression:(BOOL)a;
+ - (id) utiType;
+ - (void) setUtiType:(id)a;
+ - (BOOL) isRenditionFPO;
+ - (void) setIsRenditionFPO:(BOOL)a;
+ - (BOOL) isVectorBased;
+ - (void) setIsVectorBased:(BOOL)a;
+ - (BOOL) isExcludedFromContrastFilter;
+ - (void) setExcludedFromContrastFilter:(BOOL)a;
+ - (s) colorSpaceID;
+ - (void) setColorSpaceID:(s)a;
+ - (id) gradient;
+ - (void) setGradient:(id)a;
+ - (void) setScaleFactor:(I)a;
+ - (I) pixelFormat;
+ - (void) setPixelFormat:(I)a;
+ - (id) effectPreset;
+ - (void) setBlendMode:(i)a;
+ - (void) setModtime:(id)a;
+ - (i) exifOrientation;
+ - (void) setAllowsMultiPassEncoding:(BOOL)a;
+ - (d) opacity;
+ - (void) setOpacity:(d)a;
+
+
+@end

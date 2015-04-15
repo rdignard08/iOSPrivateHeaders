@@ -1,0 +1,8 @@
+
+@interface DOMComment : DOMCharacterData {
+
+}
+
+
+
+@end

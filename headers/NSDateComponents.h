@@ -1,0 +1,93 @@
+
+@protocol NSCopying, NSSecureCoding;
+@interface NSDateComponents : NSObject <NSCopying, NSSecureCoding> {
+
+}
+@property (atomic, copy, readwrite) NSCalendar* calendar;
+@property (atomic, copy, readwrite) NSTimeZone* timeZone;
+@property (atomic, assign, readwrite) NSNumber* era;
+@property (atomic, assign, readwrite) NSNumber* year;
+@property (atomic, assign, readwrite) NSNumber* month;
+@property (atomic, assign, readwrite) NSNumber* day;
+@property (atomic, assign, readwrite) NSNumber* hour;
+@property (atomic, assign, readwrite) NSNumber* minute;
+@property (atomic, assign, readwrite) NSNumber* second;
+@property (atomic, assign, readwrite) NSNumber* nanosecond;
+@property (atomic, assign, readwrite) NSNumber* weekday;
+@property (atomic, assign, readwrite) NSNumber* weekdayOrdinal;
+@property (atomic, assign, readwrite) NSNumber* quarter;
+@property (atomic, assign, readwrite) NSNumber* weekOfMonth;
+@property (atomic, assign, readwrite) NSNumber* weekOfYear;
+@property (atomic, assign, readwrite) NSNumber* yearForWeekOfYear;
+@property (atomic, assign, readwrite, isLeapMonth) NSNumber* leapMonth;
+@property (atomic, copy, readonly) NSDate* date;
+@property (atomic, assign, readonly, isValidDate) NSNumber* validDate;
+ + (Q) smaller:(BOOL)acomponentsRelativeToComponent:(Q)b;
+ + (Q) _ui_smallerComponentsRelativeToComponent:(Q)a;
+ + (Q) _ui_largerComponentsRelativeToComponent:(Q)a;
+ + (id) _ui_namesForComponents:(Q)a;
+ + (BOOL) supportsSecureCoding;
+ + (id) allocWithZone:(^{_NSZone=})a;
+
+ - (q) _ui_valueForComponent:(Q)a;
+ - (void) _ui_setValue:(q)aforComponent:(Q)b;
+ - (id) _ui_conciseDescription;
+ - (void) _ui_setComponents:(id)a;
+ - (BOOL) isSameMonthAsComponents:(id)a;
+ - (BOOL) isSameYearAsComponents:(id)a;
+ - (BOOL) isSameDayAsComponents:(id)a;
+ - (void) encodeWithCoder:(id)a;
+ - (id) initWithCoder:(id)a;
+ - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) description;
+ - (void) dealloc;
+ - (Q) hash;
+ - (BOOL) isEqual:(id)a;
+ - (void) setYear:(q)a;
+ - (void) setMonth:(q)a;
+ - (void) setDay:(q)a;
+ - (void) setHour:(q)a;
+ - (void) setMinute:(q)a;
+ - (void) setSecond:(q)a;
+ - (void) setTimeZone:(id)a;
+ - (id) date;
+ - (id) timeZone;
+ - (q) era;
+ - (q) year;
+ - (q) month;
+ - (q) day;
+ - (q) yearForWeekOfYear;
+ - (q) weekOfYear;
+ - (q) weekday;
+ - (q) hour;
+ - (q) minute;
+ - (q) second;
+ - (q) nanosecond;
+ - (q) valueForComponent:(Q)a;
+ - (void) setEra:(q)a;
+ - (void) setNanosecond:(q)a;
+ - (void) setYearForWeekOfYear:(q)a;
+ - (void) setWeekOfYear:(q)a;
+ - (void) setWeekday:(q)a;
+ - (BOOL) isLeapMonth;
+ - (id) calendar;
+ - (void) setValue:(q)aforComponent:(Q)b;
+ - (BOOL) isLeapMonthSet;
+ - (void) setLeapMonth:(BOOL)a;
+ - (void) setWeek:(q)a;
+ - (void) setWeekOfMonth:(q)a;
+ - (void) setWeekdayOrdinal:(q)a;
+ - (void) setQuarter:(q)a;
+ - (q) week;
+ - (q) weekOfMonth;
+ - (q) weekdayOrdinal;
+ - (q) quarter;
+ - (void) setCalendar:(id)a;
+ - (BOOL) isValidDate;
+ - (BOOL) isValidDateInCalendar:(id)a;
+ - (id) init;
+ - (void) encodeWithCoder:(id)a;
+ - (id) initWithCoder:(id)a;
+
+
+@end

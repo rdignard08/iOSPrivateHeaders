@@ -1,0 +1,8 @@
+
+@interface FBSWorkspaceDestroySceneRequestEvent : FBSWorkspaceSceneEvent {
+
+}
+
+
+
+@end

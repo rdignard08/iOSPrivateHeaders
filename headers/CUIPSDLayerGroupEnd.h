@@ -1,0 +1,8 @@
+
+@interface CUIPSDLayerGroupEnd : CUIPSDLayer {
+
+}
+
+
+
+@end

@@ -1,0 +1,93 @@
+
+@protocol UIKeyboardCandidateList;
+@interface UIAutocorrectInlinePrompt : UIView <UIKeyboardCandidateList> {
+
+    {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_originalTypedTextRect;
+    @"NSString" m_typedText;
+    @"NSString" m_correction;
+    @"NSArray" m_usageTrackingTypes;
+    @"NSMutableArray" m_typedTextViews;
+    @"UIView" m_correctionView;
+    @"UIView" m_correctionAnimationView;
+    @"UIView" m_typedTextAnimationView;
+    @"UIView" m_correctionShadowView;
+    BOOL m_fits;
+    BOOL m_mouseDown;
+    id m_delegate;
+    q m_index;
+    i m_promptTextType;
+    d m_originalTypedTextRectCorrectionAmount;
+    d m_maxX;
+    BOOL _showHiddenCandidatesOnly;
+    I m_usageTrackingMask;
+    @"TIKeyboardCandidateResultSet" _candidateResultSet;
+}
+
+ - (void) dealloc;
+ - (BOOL) pointInside:({CGPoint=dd})awithEvent:(id)b;
+ - (BOOL) gestureRecognizerShouldBegin:(id)a;
+ - (BOOL) pointInside:({CGPoint=dd})aforEvent:(^{__GSEvent=})b;
+ - (void) touchesBegan:(id)awithEvent:(id)b;
+ - (void) touchesMoved:(id)awithEvent:(id)b;
+ - (void) touchesEnded:(id)awithEvent:(id)b;
+ - (void) touchesCancelled:(id)awithEvent:(id)b;
+ - (void) showCandidateAtIndex:(Q)a;
+ - (void) showNextCandidate;
+ - (void) setCandidates:(id)ainlineText:(id)binlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})cmaxX:(d)dlayout:(BOOL)e;
+ - (id) statisticsIdentifier;
+ - (BOOL) isExtendedList;
+ - (BOOL) isHiddenCandidatesList;
+ - (void) setUIKeyboardCandidateListDelegate:(id)a;
+ - (BOOL) showCandidate:(id)a;
+ - (void) showPreviousCandidate;
+ - (void) showNextPage;
+ - (void) showPreviousPage;
+ - (void) showNextRow;
+ - (void) showPreviousRow;
+ - (Q) currentIndex;
+ - (void) candidateAcceptedAtIndex:(Q)a;
+ - (id) keyboardBehaviors;
+ - (Q) selectedSortIndex;
+ - (void) setCandidates:(id)atype:(i)binlineText:(id)cinlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})dmaxX:(d)elayout:(BOOL)f;
+ - (void) candidatesDidChange;
+ - (void) revealHiddenCandidates;
+ - (id) inlineText;
+ - (void) setSelectedItem:(Q)a;
+ - (i) textEffectsVisibilityLevel;
+ - (void) setCandidateResultSet:(id)a;
+ - (Q) index;
+ - (BOOL) showHiddenCandidatesOnly;
+ - (void) setShowHiddenCandidatesOnly:(BOOL)a;
+ - (I) usageTrackingMask;
+ - (id) activeCandidateList;
+ - (void) setUsageTrackingMask:(I)a;
+ - (void) setCorrection:(id)atypedText:(id)binRect:({CGRect={CGPoint=dd}{CGSize=dd}})cmaxX:(d)d;
+ - (void) addTypedTextRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (BOOL) prepareForAnimation:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) typedTextView;
+ - (id) correctionView;
+ - (id) correctionAnimationView;
+ - (id) correctionShadowView;
+ - (id) typedText;
+ - (id) correction;
+ - (void) removePromptSubviews;
+ - (void) setCandidateObject:(id)acandidateSet:(id)btype:(i)ctypedText:(id)dinRect:({CGRect={CGPoint=dd}{CGSize=dd}})emaxX:(d)fshowHiddenCandidatesOnly:(BOOL)g;
+ - (Q) numberOfShownItems;
+ - (void) setCandidateSet:(id)ashowHiddenCandidatesOnly:(BOOL)b;
+ - (d) maximumCandidateWidth;
+ - (void) _candidateSelected:(id)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) horizontallySquishedCorrectionFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) correctionFrameFromDesiredFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atextHeight:(i)bwithExtraGap:(d)c;
+ - (BOOL) isAcceptableTextEffectsFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aafterScrollBy:(d)b;
+ - (void) dismiss;
+ - (i) textEffectsVisibilityLevelInKeyboardWindow;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) shadowFrameForFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) typedTextAnimationView;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) currentCandidate;
+ - (BOOL) hasCandidates;
+ - (id) candidateResultSet;
+ - (id) candidates;
+
+
+@end

@@ -1,0 +1,8 @@
+
+@interface UITestOneAppearanceContainer : UIDeviceAppearanceContainer {
+
+}
+
+
+
+@end

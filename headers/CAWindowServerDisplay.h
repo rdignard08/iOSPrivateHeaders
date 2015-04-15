@@ -1,0 +1,98 @@
+
+@interface CAWindowServerDisplay : NSObject {
+
+    ^v _impl;
+}
+@property (atomic, assign, readonly) NSNumber* bounds;
+@property (atomic, assign, readwrite) NSNumber* scale;
+@property (atomic, assign, readonly) NSString* name;
+@property (atomic, assign, readonly) NSString* deviceName;
+@property (atomic, assign, readonly) NSNumber* displayId;
+@property (atomic, assign, readonly) NSString* uniqueId;
+@property (atomic, assign, readonly) NSNumber* rendererFlags;
+@property (atomic, assign, readonly) NSSet* clones;
+@property (atomic, assign, readonly) CAWindowServerDisplay* cloneMaster;
+@property (atomic, assign, readwrite, isBlanked) NSNumber* blanked;
+@property (atomic, copy, readwrite) NSString* orientation;
+@property (atomic, assign, readwrite) NSNumber* overscanAmount;
+@property (atomic, assign, readwrite) NSNumber* invertsColors;
+@property (atomic, assign, readwrite, isGrayscale) NSNumber* grayscale;
+@property (atomic, assign, readwrite) NSNumber* contrast;
+@property (atomic, assign, readwrite) NSNumber* maximumBrightness;
+@property (atomic, assign, readwrite) NSNumber* minimumRefreshRate;
+@property (atomic, assign, readwrite) NSNumber* maximumRefreshRate;
+@property (atomic, assign, readwrite) NSNumber* idealRefreshRate;
+@property (atomic, assign, readwrite) NSNumber* usesPreferredModeRefreshRate;
+@property (nonatomic, copy, readwrite) NSString* colorMode;
+@property (atomic, assign, readwrite) NSNumber* allowsVirtualModes;
+@property (atomic, assign, readwrite, isMirroringEnabled) NSNumber* mirroringEnabled;
+@property (atomic, assign, readwrite) NSNumber* tag;
+@property (atomic, copy, readwrite) NSString* TVMode;
+@property (atomic, copy, readwrite) NSString* TVSignalType;
+@property (atomic, assign, readwrite, isSecure) NSNumber* secure;
+
+ - (d) scale;
+ - (id) description;
+ - (void) dealloc;
+ - (void) invalidate;
+ - (id) name;
+ - (void) setContrast:(f)a;
+ - (void) setSecure:(BOOL)a;
+ - (void) setTag:(q)a;
+ - (d) overscanAmount;
+ - (f) contrast;
+ - (BOOL) isSecure;
+ - (I) displayId;
+ - (id) orientation;
+ - (void) setOrientation:(id)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
+ - (void) setScale:(d)a;
+ - (id) deviceName;
+ - (void) update;
+ - (id) colorMode;
+ - (void) setColorMode:(id)a;
+ - (BOOL) allowsVirtualModes;
+ - (void) setAllowsVirtualModes:(BOOL)a;
+ - (void) setMirroringEnabled:(BOOL)a;
+ - (BOOL) isMirroringEnabled;
+ - (I) rendererFlags;
+ - (I) clientPortOfContextId:(I)a;
+ - (I) taskPortOfContextId:(I)a;
+ - (void) addClone:(id)aoptions:(id)b;
+ - (id) _initWithCADisplayServer:(^{Server=^^?{SpinLock={?=i}}{Mutex={_opaque_pthread_mutex_t=q[56c]}}^{Display}^{__CFString}^{ContextItem}QQ{SpinLock={?=i}}^{PendingOperation}^{Context}^{Shape}I^{Context}^{Renderer}ddb1b1b1})a;
+ - (I) contextIdAtPosition:({CGPoint=dd})a;
+ - (I) clientPortAtPosition:({CGPoint=dd})a;
+ - ({CGPoint=dd}) convertPoint:({CGPoint=dd})atoContextId:(I)b;
+ - ({CGPoint=dd}) convertPoint:({CGPoint=dd})afromContextId:(I)b;
+ - (id) clones;
+ - (void) addClone:(id)a;
+ - (void) removeClone:(id)a;
+ - (void) removeAllClones;
+ - (id) cloneMaster;
+ - (void) setBlanked:(BOOL)a;
+ - (BOOL) isBlanked;
+ - (void) willUnblank;
+ - (void) setOverscanAmount:(d)a;
+ - (void) setInvertsColors:(BOOL)a;
+ - (BOOL) invertsColors;
+ - (void) setGrayscale:(BOOL)a;
+ - (BOOL) isGrayscale;
+ - (void) setMaximumBrightness:(f)a;
+ - (f) maximumBrightness;
+ - (void) setMinimumRefreshRate:(f)a;
+ - (f) minimumRefreshRate;
+ - (void) setMaximumRefreshRate:(f)a;
+ - (f) maximumRefreshRate;
+ - (void) setIdealRefreshRate:(f)a;
+ - (f) idealRefreshRate;
+ - (void) setUsesPreferredModeRefreshRate:(BOOL)a;
+ - (BOOL) usesPreferredModeRefreshRate;
+ - (void) setTVMode:(id)a;
+ - (id) TVMode;
+ - (void) setTVSignalType:(id)a;
+ - (id) TVSignalType;
+ - (q) tag;
+ - (id) uniqueId;
+
+
+@end

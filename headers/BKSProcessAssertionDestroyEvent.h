@@ -1,0 +1,8 @@
+
+@interface BKSProcessAssertionDestroyEvent : BKSProcessAssertionEvent {
+
+}
+
+
+
+@end

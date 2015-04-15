@@ -1,0 +1,93 @@
+
+@protocol UIGestureRecognizerDelegate, _UIAlertActionRepresenting;
+@interface _UIAlertControllerActionView : UIView <UIGestureRecognizerDelegate, _UIAlertActionRepresenting> {
+
+    @"NSLayoutConstraint" _minimumHeightConstraint;
+    @"UIView" labelContainerView;
+    @"NSLayoutConstraint" _labelContainerLeadingConstraint;
+    @"NSLayoutConstraint" _labelContainerTrailingConstraint;
+    @"UILabel" label;
+    @"UILabel" descriptiveLabel;
+    @"UIImageView" imageView;
+    @"UIImageView" checkView;
+    @"UIView<UIAlertControllerBackgroundView>" highlightedBackgroundContainerView;
+    @"NSMutableArray" highlightedBackgroundConstraints;
+    @"NSMutableArray" havingDescriptiveLabelConstraints;
+    @"NSMutableArray" notHavingDescriptiveLabelConstraints;
+    @"NSLayoutConstraint" _descriptiveLabelWidthConstraint;
+    @"NSMutableArray" _contentViewControllerConstraints;
+    @"UIView" _contentViewControllerContainerView;
+    @"UIAlertAction" _action;
+    @"UIAlertControllerVisualStyle" _visualStyle;
+    id selectedTarget;
+    SEL selectedAction;
+    id highlightTarget;
+    SEL highlightAction;
+    BOOL _hasDescriptiveText;
+    @"UITapGestureRecognizer" _selectGestureRecognizer;
+    BOOL _discrete;
+    BOOL _highlighted;
+}
+
+ - (id) description;
+ - (void) dealloc;
+ - (void) touchesBegan:(id)awithEvent:(id)b;
+ - (void) touchesMoved:(id)awithEvent:(id)b;
+ - (void) touchesEnded:(id)awithEvent:(id)b;
+ - (void) touchesCancelled:(id)awithEvent:(id)b;
+ - (void) _physicalButtonsBegan:(id)awithEvent:(id)b;
+ - (void) _physicalButtonsEnded:(id)awithEvent:(id)b;
+ - (void) _physicalButtonsCancelled:(id)awithEvent:(id)b;
+ - (id) action;
+ - (void) traitCollectionDidChange:(id)a;
+ - (id) tintColor;
+ - (void) focusedViewDidChange;
+ - (BOOL) canBecomeFocused;
+ - (void) tintColorDidChange;
+ - (void) _updateStyle;
+ - (void) setHighlighted:(BOOL)a;
+ - (BOOL) isHighlighted;
+ - (void) setAction:(id)a;
+ - (void) _updateBackgroundView;
+ - (void) setHighlighted:(BOOL)aanimated:(BOOL)b;
+ - (void) _uninstallSelectGestureRecognizer;
+ - (void) _installSelectGestureRecognizer;
+ - (void) _selectGestureChanged:(id)a;
+ - (id) visualStyle;
+ - (void) setVisualStyle:(id)a;
+ - (void) _action:(id)achangedToTitle:(id)b;
+ - (void) _action:(id)achangedToTitleTextAlignment:(q)b;
+ - (void) _action:(id)achangedToEnabled:(BOOL)b;
+ - (void) _action:(id)achangedToChecked:(BOOL)b;
+ - (void) _action:(id)achangedToBeDefault:(BOOL)b;
+ - (void) _action:(id)aupdatedImageTintColor:(id)b;
+ - (void) _action:(id)aupdatedTitleTextColor:(id)b;
+ - (void) _contentSizeChanged;
+ - (void) _prepareConstraints;
+ - (void) _updateFontSize;
+ - (id) _touchForEvent:(id)a;
+ - (void) _triggerSelect;
+ - (q) _physicalButtonTypeForSelectGesture;
+ - (q) _physicalButtonTypeForBackGesture;
+ - (BOOL) _buttonsShouldShowPressedState:(id)a;
+ - (void) _recomputeTextColor;
+ - (id) _computedTintColor;
+ - (BOOL) discrete;
+ - (id) _titleFont;
+ - (d) _minimumLabelScaleFactor;
+ - (void) _prepareConstraintsForDescriptiveText:(BOOL)a;
+ - (void) _updateTextAlignmentForDescriptiveText:(BOOL)atitleTextAlignment:(q)b;
+ - (void) _updateLabelContainerConstraints;
+ - (void) _recomputeBackgroundColor;
+ - (void) _updateMinimumHeight;
+ - (BOOL) _idiomSupportsSelectGesture:(q)a;
+ - (void) setAlignedDescriptiveLabelTextWidth:(d)a;
+ - (d) alignedDescriptiveLabelTextWidth;
+ - (d) currentDescriptiveLabelTextWidth;
+ - (void) setSelectedTarget:(id)aaction:(SEL)b;
+ - (void) setHighlightTarget:(id)aaction:(SEL)b;
+ - (void) setDiscrete:(BOOL)a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+
+
+@end

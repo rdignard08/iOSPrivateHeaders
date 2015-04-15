@@ -1,0 +1,8 @@
+
+@interface nil : nil {
+
+}
+
+
+
+@end

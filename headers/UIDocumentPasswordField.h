@@ -1,0 +1,8 @@
+
+@interface UIDocumentPasswordField : UITextField {
+
+}
+
+
+
+@end

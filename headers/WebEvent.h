@@ -1,0 +1,91 @@
+
+@interface WebEvent : NSObject {
+
+    i _type;
+    d _timestamp;
+    {CGPoint="x"d"y"d} _locationInWindow;
+    @"NSString" _characters;
+    @"NSString" _charactersIgnoringModifiers;
+    I _modifierFlags;
+    BOOL _keyRepeating;
+    BOOL _popupVariant;
+    Q _keyboardFlags;
+    S _keyCode;
+    BOOL _tabKey;
+    i _characterSet;
+    f _deltaX;
+    f _deltaY;
+    I _touchCount;
+    @"NSArray" _touchLocations;
+    @"NSArray" _touchIdentifiers;
+    @"NSArray" _touchPhases;
+    BOOL _isGesture;
+    f _gestureScale;
+    f _gestureRotation;
+    BOOL _wasHandled;
+}
+@property (nonatomic, assign, readonly) NSNumber* type;
+@property (nonatomic, assign, readonly) NSNumber* timestamp;
+@property (nonatomic, assign, readonly) NSNumber* locationInWindow;
+@property (nonatomic, retain, readonly) NSString* characters;
+@property (nonatomic, retain, readonly) NSString* charactersIgnoringModifiers;
+@property (nonatomic, assign, readonly) NSNumber* modifierFlags;
+@property (nonatomic, assign, readonly, isKeyRepeating) NSNumber* keyRepeating;
+@property (nonatomic, assign, readonly, isPopupVariant) NSNumber* popupVariant;
+@property (nonatomic, assign, readonly) NSNumber* keyboardFlags;
+@property (nonatomic, assign, readonly) NSNumber* keyCode;
+@property (nonatomic, assign, readonly, isTabKey) NSNumber* tabKey;
+@property (nonatomic, assign, readonly) NSNumber* characterSet;
+@property (nonatomic, assign, readonly) NSNumber* deltaX;
+@property (nonatomic, assign, readonly) NSNumber* deltaY;
+@property (nonatomic, assign, readonly) NSNumber* touchCount;
+@property (nonatomic, retain, readonly) NSArray* touchLocations;
+@property (nonatomic, retain, readonly) NSArray* touchIdentifiers;
+@property (nonatomic, retain, readonly) NSArray* touchPhases;
+@property (nonatomic, assign, readonly) NSNumber* isGesture;
+@property (nonatomic, assign, readonly) NSNumber* gestureScale;
+@property (nonatomic, assign, readonly) NSNumber* gestureRotation;
+@property (nonatomic, assign, readwrite) NSNumber* wasHandled;
+
+ - (id) description;
+ - (id) .cxx_construct;
+ - (void) dealloc;
+ - (id) initWithKeyEventType:(i)atimeStamp:(d)bcharacters:(id)ccharactersIgnoringModifiers:(id)dmodifiers:(I)eisRepeating:(BOOL)fwithFlags:(Q)gkeyCode:(S)hisTabKey:(BOOL)icharacterSet:(i)j;
+ - (id) initWithMouseEventType:(i)atimeStamp:(d)blocation:({CGPoint=dd})c;
+ - (BOOL) wasHandled;
+ - (id) initWithScrollWheelEventWithTimeStamp:(d)alocation:({CGPoint=dd})bdeltaX:(f)cdeltaY:(f)d;
+ - (id) initWithTouchEventType:(i)atimeStamp:(d)blocation:({CGPoint=dd})cmodifiers:(I)dtouchCount:(I)etouchLocations:(id)ftouchIdentifiers:(id)gtouchPhases:(id)hisGesture:(BOOL)igestureScale:(f)jgestureRotation:(f)k;
+ - (i) type;
+ - (i) characterSet;
+ - (BOOL) isPopupVariant;
+ - (d) timestamp;
+ - (BOOL) isTabKey;
+ - (Q) keyboardFlags;
+ - (S) keyCode;
+ - (f) deltaX;
+ - (f) deltaY;
+ - (void) setWasHandled:(BOOL)a;
+ - ({CGPoint=dd}) locationInWindow;
+ - (id) charactersIgnoringModifiers;
+ - (f) gestureScale;
+ - (f) gestureRotation;
+ - (BOOL) isGesture;
+ - (I) touchCount;
+ - (id) touchIdentifiers;
+ - (id) touchLocations;
+ - (id) touchPhases;
+ - (I) modifierFlags;
+ - (id) characters;
+ - (BOOL) isKeyRepeating;
+ - (id) _touchPhaseDescription:(i)a;
+ - (id) _characterSetDescription;
+ - (id) _touchLocationsDescription:(id)a;
+ - (id) _touchIdentifiersDescription;
+ - (id) _touchPhasesDescription;
+ - (id) _typeDescription;
+ - (id) _eventDescription;
+ - (id) initWithKeyEventType:(i)atimeStamp:(d)bcharacters:(id)ccharactersIgnoringModifiers:(id)dmodifiers:(I)eisRepeating:(BOOL)fisPopupVariant:(BOOL)gkeyCode:(S)hisTabKey:(BOOL)icharacterSet:(i)j;
+ - (id) _modiferFlagsDescription;
+
+
+@end

@@ -1,0 +1,95 @@
+
+@interface WebViewPrivate : NSObject {
+
+    ^{Page=} page;
+    {RefPtr<WebViewGroup>="m_ptr"^{WebViewGroup}} group;
+    id UIDelegate;
+    id UIDelegateForwarder;
+    id resourceProgressDelegate;
+    id downloadDelegate;
+    id policyDelegate;
+    id policyDelegateForwarder;
+    id frameLoadDelegate;
+    id frameLoadDelegateForwarder;
+    @"<WebFormDelegate>" formDelegate;
+    id editingDelegate;
+    id editingDelegateForwarder;
+    id scriptDebugDelegate;
+    id historyDelegate;
+    id resourceProgressDelegateForwarder;
+    id formDelegateForwarder;
+    @"WebInspector" inspector;
+    @"WebNodeHighlight" currentNodeHighlight;
+    BOOL allowsUndo;
+    f zoomMultiplier;
+    BOOL zoomsTextOnly;
+    @"NSString" applicationNameForUserAgent;
+    {String="m_impl"{RefPtr<WTF::StringImpl>="m_ptr"^{StringImpl}}} userAgent;
+    BOOL userAgentOverridden;
+    @"WebPreferences" preferences;
+    BOOL useSiteSpecificSpoofing;
+    @"NSURL" userStyleSheetLocation;
+    @"WAKWindow" hostWindow;
+    i programmaticFocusCount;
+    {WebResourceDelegateImplementationCache="didCancelAuthenticationChallengeFunc"^?"didReceiveAuthenticationChallengeFunc"^?"canAuthenticateAgainstProtectionSpaceFunc"^?"connectionPropertiesFunc"^?"webThreadDidFinishLoadingFromDataSourceFunc"^?"webThreadDidFailLoadingWithErrorFromDataSourceFunc"^?"webThreadIdentifierForRequestFunc"^?"webThreadDidLoadResourceFromMemoryCacheFunc"^?"webThreadWillSendRequestFunc"^?"webThreadDidReceiveResponseFunc"^?"webThreadDidReceiveContentLengthFunc"^?"webThreadWillCacheResponseFunc"^?"identifierForRequestFunc"^?"willSendRequestFunc"^?"didReceiveResponseFunc"^?"didReceiveContentLengthFunc"^?"didFinishLoadingFromDataSourceFunc"^?"didFailLoadingWithErrorFromDataSourceFunc"^?"didLoadResourceFromMemoryCacheFunc"^?"willCacheResponseFunc"^?"plugInFailedWithErrorFunc"^?"shouldUseCredentialStorageFunc"^?"shouldPaintBrokenImageForURLFunc"^?} resourceLoadDelegateImplementations;
+    {WebFrameLoadDelegateImplementationCache="didCreateJavaScriptContextForFrameFunc"^?"didClearWindowObjectForFrameFunc"^?"didClearWindowObjectForFrameInScriptWorldFunc"^?"didClearInspectorWindowObjectForFrameFunc"^?"windowScriptObjectAvailableFunc"^?"didHandleOnloadEventsForFrameFunc"^?"didReceiveServerRedirectForProvisionalLoadForFrameFunc"^?"didCancelClientRedirectForFrameFunc"^?"willPerformClientRedirectToURLDelayFireDateForFrameFunc"^?"didChangeLocationWithinPageForFrameFunc"^?"didPushStateWithinPageForFrameFunc"^?"didReplaceStateWithinPageForFrameFunc"^?"didPopStateWithinPageForFrameFunc"^?"willCloseFrameFunc"^?"didStartProvisionalLoadForFrameFunc"^?"didReceiveTitleForFrameFunc"^?"didCommitLoadForFrameFunc"^?"didFailProvisionalLoadWithErrorForFrameFunc"^?"didFailLoadWithErrorForFrameFunc"^?"didFinishLoadForFrameFunc"^?"didFirstLayoutInFrameFunc"^?"didFirstVisuallyNonEmptyLayoutInFrameFunc"^?"didLayoutFunc"^?"didReceiveIconForFrameFunc"^?"didFinishDocumentLoadForFrameFunc"^?"didDisplayInsecureContentFunc"^?"didRunInsecureContentFunc"^?"didDetectXSSFunc"^?"didRemoveFrameFromHierarchyFunc"^?"webThreadDidLayoutFunc"^?} frameLoadDelegateImplementations;
+    {WebScriptDebugDelegateImplementationCache="didParseSourceExpectsBaseLineNumber"B"exceptionWasRaisedExpectsHasHandlerFlag"B"didParseSourceFunc"^?"failedToParseSourceFunc"^?"exceptionWasRaisedFunc"^?} scriptDebugDelegateImplementations;
+    {WebHistoryDelegateImplementationCache="navigatedFunc"^?"clientRedirectFunc"^?"serverRedirectFunc"^?"deprecatedSetTitleFunc"^?"setTitleFunc"^?"populateVisitedLinksFunc"^?} historyDelegateImplementations;
+    ^v observationInfo;
+    BOOL closed;
+    BOOL closing;
+    BOOL shouldCloseWithWindow;
+    BOOL mainFrameDocumentReady;
+    BOOL drawsBackground;
+    BOOL tabKeyCyclesThroughElementsChanged;
+    BOOL becomingFirstResponder;
+    BOOL becomingFirstResponderFromOutside;
+    BOOL usesPageCache;
+    ^{CGColor=} backgroundColor;
+    @"NSString" mediaStyle;
+    BOOL hasSpellCheckerDocumentTag;
+    q spellCheckerDocumentTag;
+    BOOL isStopping;
+    id UIKitDelegate;
+    id UIKitDelegateForwarder;
+    id WebMailDelegate;
+    BOOL allowsMessaging;
+    @"NSMutableSet" _caretChangeListeners;
+    @"<WebCaretChangeListener>" _caretChangeListener;
+    {CGSize="width"d"height"d} fixedLayoutSize;
+    BOOL mainViewIsScrollingOrZooming;
+    i didDrawTiles;
+    {Mutex="m_mutex"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}} pendingFixedPositionLayoutRectMutex;
+    {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} pendingFixedPositionLayoutRect;
+    {HashMap<unsigned long, WTF::RetainPtr<id>, WTF::IntHash<unsigned long>, WTF::HashTraits<unsigned long>, WTF::HashTraits<WTF::RetainPtr<id> > >="m_impl"{HashTable<unsigned long, WTF::KeyValuePair<unsigned long, WTF::RetainPtr<id> >, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<unsigned long, WTF::RetainPtr<id> > >, WTF::IntHash<unsigned long>, WTF::HashMap<unsigned long, WTF::RetainPtr<id>, WTF::IntHash<unsigned long>, WTF::HashTraits<unsigned long>, WTF::HashTraits<WTF::RetainPtr<id> > >::KeyValuePairTraits, WTF::HashTraits<unsigned long> >="m_table"^{KeyValuePair<unsigned long, WTF::RetainPtr<id> >}"m_tableSize"i"m_tableSizeMask"i"m_keyCount"i"m_deletedCount"i}} identifierMap;
+    BOOL _keyboardUIModeAccessed;
+    i _keyboardUIMode;
+    BOOL shouldUpdateWhileOffscreen;
+    BOOL includesFlattenedCompositingLayersWhenDrawingToBitmap;
+    BOOL needsOneShotDrawingSynchronization;
+    BOOL postsAcceleratedCompositingNotifications;
+    {RefPtr<LayerFlushController>="m_ptr"^{LayerFlushController}} layerFlushController;
+    {CGSize="width"d"height"d} lastLayoutSize;
+    @"WebVideoFullscreenController" fullscreenController;
+    @"WebIndicateLayer" indicateLayer;
+    @"<WebGeolocationProvider>" _geolocationProvider;
+    @"<WebDeviceOrientationProvider>" m_deviceOrientationProvider;
+    @"<WebNotificationProvider>" _notificationProvider;
+    {RefPtr<WebCore::HistoryItem>="m_ptr"^{HistoryItem}} _globalHistoryItem;
+    BOOL interactiveFormValidationEnabled;
+    i validationMessageTimerMagnification;
+    f customDeviceScaleFactor;
+    @"WebFixedPositionContent" _fixedPositionContent;
+    {RetainPtr<NSData>="m_ptr"^v} sourceApplicationAuditData;
+    BOOL _didPerformFirstNavigation;
+}
+ + (void) initialize;
+
+ - (id) .cxx_construct;
+ - (void) .cxx_destruct;
+ - (void) dealloc;
+ - (void) finalize;
+ - (id) init;
+
+
+@end

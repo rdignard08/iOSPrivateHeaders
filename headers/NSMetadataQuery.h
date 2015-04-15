@@ -1,0 +1,95 @@
+
+@interface NSMetadataQuery : NSObject {
+
+    Q _flags;
+    d _interval;
+    [11@] _private;
+    ^v _reserved;
+}
+@property (atomic, assign, readwrite) NSNumber* delegate;
+@property (atomic, copy, readwrite) NSPredicate* predicate;
+@property (atomic, copy, readwrite) NSArray* sortDescriptors;
+@property (atomic, copy, readwrite) NSArray* valueListAttributes;
+@property (atomic, copy, readwrite) NSArray* groupingAttributes;
+@property (atomic, assign, readwrite) NSNumber* notificationBatchingInterval;
+@property (atomic, copy, readwrite) NSArray* searchScopes;
+@property (atomic, copy, readwrite) NSArray* searchItems;
+@property (atomic, retain, readwrite) NSOperationQueue* operationQueue;
+@property (atomic, assign, readonly, isStarted) NSNumber* started;
+@property (atomic, assign, readonly, isGathering) NSNumber* gathering;
+@property (atomic, assign, readonly, isStopped) NSNumber* stopped;
+@property (atomic, assign, readonly) NSNumber* resultCount;
+@property (atomic, copy, readonly) NSArray* results;
+@property (atomic, copy, readonly) NSDictionary* valueLists;
+@property (atomic, copy, readonly) NSArray* groupedResults;
+ + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
+ + (id) keyPathsForValuesAffectingValueForKey:(id)a;
+ + (void) didEndPossibleFileOperation:(id)a;
+ + (Class) _stitchingClass;
+ + (id) willBeginPossibleMoveOfItemAtURL:(id)atoURL:(id)b;
+ + (id) willBeginPossibleDeletionOfItemAtURL:(id)a;
+ + (id) willBeginPossibleCreationOfItemAtURL:(id)a;
+
+ - (id) operationQueue;
+ - (void) _validateInvocationContext;
+ - (void) _validatePredicate:(id)awithScopes:(id)b;
+ - (void) _recreateQuery;
+ - (id) valueListAttributes;
+ - (id) groupingAttributes;
+ - (id) _sortingAttributes;
+ - (void) _setBatchingParams;
+ - (void) setPredicate:(id)a;
+ - (id) searchItems;
+ - (void) setSearchItems:(id)a;
+ - (id) _externalDocumentsBundleIdentifier;
+ - (void) _postNotificationName:(id)auserInfo:(id)b;
+ - (void) _update;
+ - (void) _disableAutoUpdates;
+ - (void) _resetQueryState;
+ - (void) _noteNote1:(id)a;
+ - (void) _noteNote2:(id)a;
+ - (void) _noteNote3:(id)a;
+ - (void) _noteNote4:(id)a;
+ - (void) _inOriginalContextInvokeBlock:(@?)a;
+ - (void) _noteNote5:(id)a;
+ - (Q) resultCount;
+ - (void) enumerateResultsWithOptions:(Q)ausingBlock:(@?)b;
+ - (void) disableUpdates;
+ - (void) enableUpdates;
+ - (void) _enableAutoUpdates;
+ - (id) valueOfAttribute:(id)aforResultAtIndex:(Q)b;
+ - (id) sortDescriptors;
+ - (void) setValueListAttributes:(id)a;
+ - (void) setGroupingAttributes:(id)a;
+ - (id) _allAttributes;
+ - (d) notificationBatchingInterval;
+ - (void) setNotificationBatchingInterval:(d)a;
+ - (id) searchScopes;
+ - (id) searchItemURLs;
+ - (void) setSearchItemURLs:(id)a;
+ - (void) _setExternalDocumentsBundleIdentifier:(id)a;
+ - (id) _queryString;
+ - (BOOL) isGathering;
+ - (BOOL) isStopped;
+ - (id) resultAtIndex:(Q)a;
+ - (void) enumerateResultsUsingBlock:(@?)a;
+ - (void) _zapResultArrayIfIdenticalTo:(id)a;
+ - (Q) indexOfResult:(id)a;
+ - (id) valueLists;
+ - (id) groupedResults;
+ - (void) dealloc;
+ - (void) finalize;
+ - (void) setDelegate:(id)a;
+ - (void) stopQuery;
+ - (void) setOperationQueue:(id)a;
+ - (void) setSearchScopes:(id)a;
+ - (BOOL) startQuery;
+ - (id) results;
+ - (void) setSortDescriptors:(id)a;
+ - (BOOL) isStarted;
+ - (id) init;
+ - (id) delegate;
+ - (id) predicate;
+
+
+@end

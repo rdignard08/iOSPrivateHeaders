@@ -1,0 +1,16 @@
+
+@interface _NSKeyedUnarchiverHelper : NSObject {
+
+    @"NSArray" _white;
+    I _lastRef;
+    @"NSMutableArray" _allowedClasses;
+}
+
+ - (id) allowedClassNames;
+ - (void) setAllowedClassNames:(id)a;
+ - (BOOL) classNameAllowed:(Class)a;
+ - (void) dealloc;
+ - (id) init;
+
+
+@end

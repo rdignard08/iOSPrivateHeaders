@@ -1,0 +1,8 @@
+
+@interface UIPadAppearanceContainer : UIDeviceAppearanceContainer {
+
+}
+
+
+
+@end

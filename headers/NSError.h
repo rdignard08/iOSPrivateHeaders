@@ -1,0 +1,96 @@
+
+@protocol NSCopying, NSSecureCoding;
+@interface NSError : NSObject <NSCopying, NSSecureCoding> {
+
+    ^v _reserved;
+    q _code;
+    @"NSString" _domain;
+    @"NSDictionary" _userInfo;
+}
+@property (nonatomic, retain, readwrite) NSNumber* extraData;
+@property (atomic, copy, readonly) NSString* domain;
+@property (atomic, assign, readonly) NSNumber* code;
+@property (atomic, copy, readonly) NSDictionary* userInfo;
+@property (atomic, copy, readonly) NSString* localizedDescription;
+@property (atomic, copy, readonly) NSString* localizedFailureReason;
+@property (atomic, copy, readonly) NSString* localizedRecoverySuggestion;
+@property (atomic, copy, readonly) NSArray* localizedRecoveryOptions;
+@property (atomic, retain, readonly) NSNumber* recoveryAttempter;
+@property (atomic, copy, readonly) NSString* helpAnchor;
+ + (id) hs_homeSharingErrorWithCode:(q)auserInfo:(id)b;
+ + (id) hs_cloudErrorWithCode:(q)auserInfo:(id)b;
+ + (id) ml_errorWithCode:(Q)adescription:(id)b;
+ + (id) ml_errorWithCode:(Q)a;
+ + (id) MCErrorWithDomain:(id)acode:(q)bdescriptionArray:(id)cerrorType:(id)d;
+ + (id) MCErrorWithDomain:(id)acode:(q)bdescriptionArray:(id)csuggestion:(id)dUSEnglishSuggestion:(id)eunderlyingError:(id)ferrorType:(id)g;
+ + (id) MCErrorWithDomain:(id)acode:(q)bdescription:(id)cerrorType:(id)d;
+ + (id) MCErrorWithDomain:(id)acode:(q)bdescriptionArray:(id)cunderlyingError:(id)derrorType:(id)e;
+ + (id) _webKitErrorWithDomain:(id)acode:(i)bURL:(id)c;
+ + (void) _registerWebKitErrors;
+ + (id) _webkit_errorWithDomain:(id)acode:(i)bURL:(id)c;
+ + (id) _webKitErrorWithCode:(i)afailingURL:(id)b;
+ + (void) _webkit_addErrorsWithCodesAndDescriptions:(id)ainDomain:(id)b;
+ + (id) bs_timeoutError;
+ + (BOOL) supportsSecureCoding;
+ + (void) _registerFormatter:(^?)aforErrorKey:(id)bparameters:(r*)c;
+ + (void) _registerBuiltInFormatters;
+ + (void) _web_addErrorsWithCodesAndDescriptions:(id)ainDomain:(id)b;
+ + (id) _web_errorWithDomain:(id)acode:(q)bfailingURL:(id)c;
+ + (id) _web_errorWithDomain:(id)acode:(q)bURL:(id)c;
+ + (id) errorWithDomain:(id)acode:(q)buserInfo:(id)c;
+
+ - (id) errorBySettingFatalError:(BOOL)a;
+ - (BOOL) isEqual:(id)acompareUserInfo:(BOOL)b;
+ - (BOOL) isFatalError;
+ - (id) initWithXPCEncoding:(id)a;
+ - (id) copyXPCEncoding;
+ - (id) MCVerboseDescription;
+ - (id) MCFindPrimaryError;
+ - (id) MCUSEnglishDescription;
+ - (id) MCUSEnglishSuggestion;
+ - (id) MCCopyAsPrimaryError;
+ - (BOOL) MCContainsErrorDomain:(id)acode:(q)b;
+ - (id) MCErrorType;
+ - (id) ac_secureCodingError;
+ - (id) extraData;
+ - (Q) HTTPStatusCode;
+ - (void) setExtraData:(id)a;
+ - (id) _initWithPluginErrorCode:(i)acontentURL:(id)bpluginPageURL:(id)cpluginName:(id)dMIMEType:(id)e;
+ - (id) _webkit_initWithDomain:(id)acode:(i)bURL:(id)c;
+ - (BOOL) bs_isCancelledError;
+ - (BOOL) bs_isTimeoutError;
+ - (id) _cocoaErrorString:(id)a;
+ - (id) _cocoaErrorStringWithKind:(id)avariant:(id)b;
+ - (id) _cocoaErrorStringWithKind:(id)a;
+ - (^{__CFString=}) _retainedUserInfoCallBackForKey:(id)a;
+ - (id) localizedRecoveryOptions;
+ - (id) recoveryAttempter;
+ - (id) helpAnchor;
+ - (q) _collectApplicableUserInfoFormatters:(^^{?})amax:(q)b;
+ - (id) _formatCocoaErrorString:(id)aparameters:(r*)bapplicableFormatters:(^^{?})ccount:(q)d;
+ - (id) _cocoaErrorString:(id)afromBundle:(id)btableName:(id)c;
+ - (id) _web_initWithDomain:(id)acode:(q)bfailingURL:(id)c;
+ - (id) _web_failingURL;
+ - (BOOL) _web_errorIsInDomain:(id)a;
+ - (id) _web_localizedDescription;
+ - (id) replacementObjectForPortCoder:(id)a;
+ - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) description;
+ - (void) dealloc;
+ - (void) finalize;
+ - (id) domain;
+ - (q) code;
+ - (id) localizedDescription;
+ - (id) localizedFailureReason;
+ - (id) localizedRecoverySuggestion;
+ - (id) userInfo;
+ - (Q) hash;
+ - (BOOL) isEqual:(id)a;
+ - (Q) _cfTypeID;
+ - (id) initWithDomain:(id)acode:(q)buserInfo:(id)c;
+ - (void) encodeWithCoder:(id)a;
+ - (id) initWithCoder:(id)a;
+ - (id) _web_initWithDomain_nowarn:(id)acode:(q)bURL:(id)c;
+
+
+@end

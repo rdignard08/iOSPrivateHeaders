@@ -1,0 +1,98 @@
+
+@interface CUIShapeEffectStack : NSObject {
+
+    f shapeOpacity;
+    f outputOpacity;
+    I outputBlendMode;
+    BOOL hasColorOverlay;
+    {?="blendMode"I"fillRed"f"fillGreen"f"fillBlue"f"fillOpacity"f} colorOverlay;
+    BOOL hasInnerGradient;
+    {?="beginRed"f"beginGreen"f"beginBlue"f"endRed"f"endGreen"f"endBlue"f"gradientOpacity"f} innerGradient;
+    BOOL hasInnerGlow;
+    {?="blendMode"I"glowRed"f"glowGreen"f"glowBlue"f"glowOpacity"f"glowSize"f} innerGlow;
+    BOOL hasInnerShadow;
+    {?="blendMode"I"shadowRed"f"shadowGreen"f"shadowBlue"f"shadowBlurSize"f"shadowOpacity"f"shadowOffsetAmount"f"shadowOffsetAngle"f"shadowOffset"{CGPoint="x"d"y"d}} insideShadow;
+    BOOL hasOuterGlow;
+    {?="glowRed"f"glowGreen"f"glowBlue"f"glowOpacity"f"glowSize"f"glowSpread"f} outerGlow;
+    BOOL hasEngraveShadow;
+    {?="engraveRed"f"engraveGreen"f"engraveBlue"f"engraveOpacity"f"engraveBlurSize"f"engraveSpread"f"engraveOffsetAmount"f"engraveOffsetAngle"f"engraveOffset"{CGPoint="x"d"y"d}} engraveShadow;
+    BOOL hasExtraShadow;
+    {?="engraveRed"f"engraveGreen"f"engraveBlue"f"engraveOpacity"f"engraveBlurSize"f"engraveSpread"f"engraveOffsetAmount"f"engraveOffsetAngle"f"engraveOffset"{CGPoint="x"d"y"d}} extraShadow;
+    BOOL hasBevelEmboss;
+    {?="embossSize"f"embossSoften"f"embossAngle"f"embossAltitude"f"highlightRed"f"highlightGreen"f"highlightBlue"f"highlightOpacity"f"shadowRed"f"shadowGreen"f"shadowBlue"f"shadowOpacity"f} emboss;
+    f scalefactor;
+    i renderStrategy;
+}
+@property (atomic, assign, readonly) NSNumber* outputBlendMode;
+ + (id) colorWithRed:(f)agreen:(f)bblue:(f)calpha:(f)d;
+ + (id) sharedCIContext;
+ + (id) shapeEffectSingleBlurFrom:(id)awithInteriorFill:(id)boffset:({CGPoint=dd})cblurSize:(f)dinnerGlowRed:(f)einnerGlowGreen:(f)finnerGlowBlue:(f)ginnerGlowOpacity:(f)hinnerShadowRed:(f)iinnerShadowGreen:(f)jinnerShadowBlue:(f)kinnerShadowOpacity:(f)louterGlowRed:(f)mouterGlowGreen:(f)nouterGlowBlue:(f)oouterGlowOpacity:(f)pouterShadowRed:(f)qouterShadowGreen:(f)routerShadowBlue:(f)souterShadowOpacity:(f)thasInsideShadowBlur:(BOOL)uhasOutsideShadowBlur:(BOOL)v;
+ + (id) innerGlowFrom:(id)awithRadius:(f)bred:(f)cgreen:(f)dblue:(f)eopacity:(f)f;
+ + (id) innerShadowFrom:(id)awithOffset:({CGPoint=dd})bradius:(f)cred:(f)dgreen:(f)eblue:(f)fopacity:(f)g;
+ + (id) adjustOpacity:(id)aby:(f)b;
+ + (id) blend:(id)aover:(id)bblendKind:(I)c;
+ + (id) gradientWithParameters:(^{?=fffffff})ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ + (id) outerGlowFrom:(id)awithSize:(I)bspread:(I)cred:(f)dgreen:(f)eblue:(f)fopacity:(f)g;
+ + (id) outerShadowFrom:(id)awithOffset:({CGPoint=dd})bsize:(I)cspread:(I)dred:(f)egreen:(f)fblue:(f)gopacity:(f)h;
+ + (id) bevelEmbossFrom:(id)awithSize:(I)bsoften:(I)cangle:(f)daltitude:(f)ehighlightRed:(f)fhighlightGreen:(f)ghighlightBlue:(f)hhighlightOpacity:(f)ishadowRed:(f)jshadowGreen:(f)kshadowBlue:(f)lshadowOpacity:(f)m;
+ + (id) composite:(id)ainto:(id)b;
+ + (id) composite:(id)aover:(id)b;
+ + (id) imageFromBlendWithMask:(id)aforeground:(id)bbackground:(id)c;
+ + (id) preferredCIContextOptions;
+ + (id) offset:(id)aby:({CGPoint=dd})b;
+ + (id) pixelZoomed:(id)ascale:(i)babout:({CGPoint=dd})c;
+ + (id) unsharpMask:(id)aradius:(f)bintensity:(f)c;
+ + (id) composite:(id)aoutOf:(id)b;
+ + (id) composite:(id)aatop:(id)b;
+ + (id) image:(id)awithOpacity:(f)b;
+ + (id) invert:(id)a;
+ + (id) blur:(id)aradius:(f)b;
+ + (id) colorWithGray:(f)aalpha:(f)b;
+ + (id) rectangle:({CGRect={CGPoint=dd}{CGSize=dd}})awithRed:(f)bgreen:(f)cblue:(f)dalpha:(f)e;
+ + (id) shadowFrom:(id)ared:(f)bgreen:(f)cblue:(f)dopacity:(f)e;
+
+ - (id) effectPreset;
+ - (id) initWithEffectPreset:(id)a;
+ - (id) processedImageFromShapeImage:(id)awithScale:(d)b;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) effectPaddingWithScale:(d)a;
+ - (I) outputBlendMode;
+ - (i) cgBlendModeForOutputBlending;
+ - (void) scaleEffectParametersBy:(d)a;
+ - (void) _updateRenderStrategyFromEffect:(I)a;
+ - (void) _precompositeColorOverlayInnerGradient;
+ - (void) _setShapeOpacityFromPreset:(id)aatIndex:(I)b;
+ - (void) _setOutputOpacityFromPreset:(id)aatIndex:(I)b;
+ - (void) _setColorFillFromPreset:(id)aatIndex:(I)b;
+ - (void) _setInteriorGradientFromPreset:(id)aatIndex:(I)b;
+ - (void) _addInnerGlowFromPreset:(id)aatIndex:(I)b;
+ - (void) _addInnerShadowFromPreset:(id)aatIndex:(I)b;
+ - (void) _addOuterGlowFromPreset:(id)aatIndex:(I)b;
+ - (void) _addEngraveShadowFromPreset:(id)aatIndex:(I)b;
+ - (void) _addBevelEmbossFromPreset:(id)aatIndex:(I)b;
+ - (void) _addExtraShadowFromPreset:(id)aatIndex:(I)b;
+ - (void) applyCustomForegroundColor:(^{CGColor=})atintEffectColors:(BOOL)b;
+ - (id) imageWithAdjustedShapeOpacityOfImage:(id)a;
+ - (id) imageWithInteriorGradientFillOfImage:(id)a;
+ - (id) imageWithColorOverlayOfImage:(id)a;
+ - (id) imageWithInnerGlowOfImage:(id)a;
+ - (id) imageWithInnerShadowOfImage:(id)a;
+ - (id) imageWithOuterGlowOfImage:(id)a;
+ - (id) imageWithEngraveShadowOfImage:(id)a;
+ - (id) imageWithExtraShadowOfImage:(id)a;
+ - (id) imageWithBevelEmbossOfImage:(id)a;
+ - (id) imageWithAdjustedOutputOpacityOfImage:(id)a;
+ - (id) imageWithSingleBlurShapeEffectOfImage:(id)awithInteriorFill:(id)b;
+ - (id) optimizedSingleBlurEffectCompositeWithShapeImage:(id)a;
+ - (id) standardEffectCompositeWithShapeImage:(id)a;
+ - (id) compositeEffectStackWithShapeImage:(id)awithScale:(d)b;
+ - (^{CGImage=}) newFlattenedImageFromShapeCGImage:(^{CGImage=})awithScale:(d)b;
+ - (void) updateOutputBlendingWithInteriorFillHeuristic;
+ - (void) applyCustomForegroundColor:(^{CGColor=})a;
+ - ({?=dddd}) effectInsetsWithScale:(d)a;
+ - (id) processedImageFromShapeImage:(id)a;
+ - (^{CGImage=}) newFlattenedImageFromShapeCGImage:(^{CGImage=})awithScale:(d)bciContext:(id)c;
+ - (^{CGImage=}) newFlattenedImageFromShapeCGImage:(^{CGImage=})a;
+ - (id) processedImageFromShapePath:(^{CGPath=})ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+
+
+@end

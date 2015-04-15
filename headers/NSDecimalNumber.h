@@ -1,0 +1,90 @@
+
+@interface NSDecimalNumber : NSNumber {
+
+    b8 _exponent;
+    b4 _length;
+    b1 _isNegative;
+    b1 _isCompact;
+    b1 _reserved;
+    b1 _hasExternalRefCount;
+    b16 _refs;
+    [0S] _mantissa;
+}
+ + (BOOL) supportsSecureCoding;
+ + (id) numberWithUnsignedLongLong:(Q)a;
+ + (id) zero;
+ + (id) decimalNumberWithDecimal:({?=b8b4b1b1b18[8S]})a;
+ + (id) numberWithFloat:(f)a;
+ + (id) numberWithChar:(c)a;
+ + (id) numberWithUnsignedChar:(C)a;
+ + (id) numberWithShort:(s)a;
+ + (id) numberWithUnsignedShort:(S)a;
+ + (id) numberWithUnsignedInt:(I)a;
+ + (id) numberWithLong:(q)a;
+ + (id) notANumber;
+ + (id) defaultBehavior;
+ + (id) decimalNumberWithMantissa:(Q)aexponent:(s)bisNegative:(BOOL)c;
+ + (id) decimalNumberWithString:(id)a;
+ + (id) decimalNumberWithString:(id)alocale:(id)b;
+ + (id) minimumDecimalNumber;
+ + (id) maximumDecimalNumber;
+ + (id) one;
+ + (void) setDefaultBehavior:(id)a;
+ + (id) allocWithZone:(^{_NSZone=})a;
+ + (id) numberWithInt:(i)a;
+ + (id) numberWithLongLong:(q)a;
+ + (id) numberWithInteger:(q)a;
+ + (id) numberWithBool:(BOOL)a;
+ + (id) numberWithUnsignedInteger:(Q)a;
+ + (id) numberWithDouble:(d)a;
+ + (id) numberWithUnsignedLong:(Q)a;
+
+ - (Class) classForCoder;
+ - (BOOL) _allowsDirectEncoding;
+ - (void) getValue:(^v)a;
+ - (S) unsignedShortValue;
+ - (C) unsignedCharValue;
+ - ({?=b8b4b1b1b18[8S]}) decimalValue;
+ - (id) decimalNumberByDividingBy:(id)a;
+ - (id) initWithString:(id)alocale:(id)b;
+ - (id) initWithDecimal:({?=b8b4b1b1b18[8S]})a;
+ - (id) initWithMantissa:(Q)aexponent:(s)bisNegative:(BOOL)c;
+ - (id) decimalNumberByAdding:(id)awithBehavior:(id)b;
+ - (id) decimalNumberBySubtracting:(id)awithBehavior:(id)b;
+ - (id) decimalNumberByMultiplyingBy:(id)awithBehavior:(id)b;
+ - (id) decimalNumberByDividingBy:(id)awithBehavior:(id)b;
+ - (id) decimalNumberByRaisingToPower:(Q)awithBehavior:(id)b;
+ - (id) decimalNumberByMultiplyingByPowerOf10:(s)awithBehavior:(id)b;
+ - (id) decimalNumberByMultiplyingBy:(id)a;
+ - (id) decimalNumberByAdding:(id)a;
+ - (id) decimalNumberBySubstracting:(id)a;
+ - (id) decimalNumberBySubstracting:(id)awithBehavior:(id)b;
+ - (id) decimalNumberBySubtracting:(id)a;
+ - (id) decimalNumberByRaisingToPower:(Q)a;
+ - (id) decimalNumberByMultiplyingByPowerOf10:(s)a;
+ - (id) decimalNumberByRoundingAccordingToBehavior:(id)a;
+ - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) description;
+ - (id) copy;
+ - (BOOL) isEqual:(id)a;
+ - (BOOL) boolValue;
+ - (q) compare:(id)a;
+ - (d) doubleValue;
+ - (BOOL) _getCString:(*)alength:(i)bmultiplier:(d)c;
+ - (id) descriptionWithLocale:(id)a;
+ - (q) longValue;
+ - (Q) unsignedLongValue;
+ - (r*) objCType;
+ - (I) unsignedIntValue;
+ - (c) charValue;
+ - (s) shortValue;
+ - (i) intValue;
+ - (q) longLongValue;
+ - (f) floatValue;
+ - (Q) unsignedLongLongValue;
+ - (id) initWithString:(id)a;
+ - (void) encodeWithCoder:(id)a;
+ - (id) initWithCoder:(id)a;
+
+
+@end

@@ -1,0 +1,97 @@
+
+@protocol NSCoding, NSCopying;
+@interface CIImage : NSObject <NSCoding, NSCopying> {
+
+    ^v _priv;
+}
+ + (id) imageWithData:(id)a;
+ + (id) imageWithCGImage:(^{CGImage=})a;
+ + (id) imageWithBitmapData:(id)abytesPerRow:(Q)bsize:({CGSize=dd})cformat:(i)dcolorSpace:(^{CGColorSpace=})e;
+ + (id) imageWithInternalRepresentation:(^v)a;
+ + (id) imageWithCGImage:(^{CGImage=})aoptions:(id)b;
+ + (id) imageWithCVPixelBuffer:(^{__CVBuffer=})aoptions:(id)b;
+ + (id) imageWithContentsOfURL:(id)aoptions:(id)b;
+ + (id) imageWithContentsOfFile:(id)aoptions:(id)b;
+ + (id) emptyImage;
+ + (id) imageWithBitmapData:(id)abytesPerRow:(Q)bsize:({CGSize=dd})cformat:(i)doptions:(id)e;
+ + (id) imageWithTexture:(I)asize:({CGSize=dd})bflipped:(BOOL)ccolorSpace:(^{CGColorSpace=})d;
+ + (id) imageWithTexture:(I)asize:({CGSize=dd})boptions:(id)c;
+ + (id) imageWithCVPixelBuffer:(^{__CVBuffer=})a;
+ + (id) imageWithColor:(id)a;
+ + (id) noiseImage;
+ + (id) noiseImagePadded;
+ + (id) imageWithData:(id)aoptions:(id)b;
+ + (id) imageWithContentsOfURL:(id)a;
+ + (id) imageWithContentsOfFile:(id)a;
+
+ - (id) initWithImage:(id)aoptions:(id)b;
+ - (id) initWithImage:(id)a;
+ - (id) initWithContentsOfFile:(id)a;
+ - (id) TIFFRepresentation;
+ - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) description;
+ - (void) dealloc;
+ - (void) encodeWithCoder:(id)a;
+ - (id) initWithCoder:(id)a;
+ - (id) properties;
+ - (id) initWithData:(id)a;
+ - (id) initWithContentsOfURL:(id)a;
+ - (id) initWithData:(id)aoptions:(id)b;
+ - (id) filteredImage:(id)akeysAndValues:(id)b;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) extent;
+ - (^v) _internalRepresentation;
+ - (id) _initWithInternalRepresentation:(^v)a;
+ - (id) imageByApplyingTransform:({CGAffineTransform=dddddd})a;
+ - (id) _imageByMatchingColorSpaceToWorkingSpace:(^{CGColorSpace=})a;
+ - (id) initWithCGImage:(^{CGImage=})aoptions:(id)b;
+ - (id) _initNaiveWithCGImage:(^{CGImage=})aoptions:(id)b;
+ - (id) _initWithIOSurface:(^{__IOSurface=})aoptions:(id)b;
+ - (id) initWithBitmapData:(id)abytesPerRow:(Q)bsize:({CGSize=dd})cformat:(i)doptions:(id)e;
+ - (id) initWithBitmapData:(id)abytesPerRow:(Q)bsize:({CGSize=dd})cformat:(i)dcolorSpace:(^{CGColorSpace=})e;
+ - (id) _initWithBitmapData:(id)abytesPerRow:(Q)bsize:({CGSize=dd})cformat:(i)doptions:(id)e;
+ - (id) initWithTexture:(I)asize:({CGSize=dd})bflipped:(BOOL)ccolorSpace:(^{CGColorSpace=})d;
+ - (id) initWithTexture:(I)asize:({CGSize=dd})boptions:(id)c;
+ - (id) initWithCVPixelBuffer:(^{__CVBuffer=})aoptions:(id)b;
+ - (id) initWithColor:(id)a;
+ - (id) initWithColorR:(d)aG:(d)bB:(d)cA:(d)d;
+ - ({CGAffineTransform=dddddd}) imageTransformForOrientation:(i)a;
+ - (id) initWithCGImageSource:(^{CGImageSource=})aindex:(Q)boptions:(id)c;
+ - (id) initWithContentsOfURL:(id)aoptions:(id)b;
+ - (id) initWithContentsOfFile:(id)aoptions:(id)b;
+ - (id) initWithCGImage:(^{CGImage=})a;
+ - (id) initWithCVPixelBuffer:(^{__CVBuffer=})a;
+ - (id) imageByApplyingOrientation:(i)a;
+ - (id) imageByCroppingToRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) imageByClampingToExtent;
+ - (id) imageByCompositingOverImage:(id)a;
+ - (id) _imageByPremultiplying;
+ - (id) _imageByUnpremultiplying;
+ - (id) _imageByApplyingGamma:(d)a;
+ - (id) _imageByApplyingBlur:(d)a;
+ - (id) _imageByMatchingWorkingSpaceToColorSpace:(^{CGColorSpace=})a;
+ - (id) _imageByMatchingColorSpaceWorkingSpace:(^{CGColorSpace=})a;
+ - (id) _imageByRenderingToIntermediate;
+ - (id) imageByApplyingFilter:(id)awithInputParameters:(id)b;
+ - (void) printTree;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) regionOfInterestForImage:(id)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ - (id) smartToneStatistics;
+ - (id) smartColorStatistics;
+ - (id) smartToneAdjustmentsForValue:(d)aandStatistics:(id)b;
+ - (id) smartColorAdjustmentsForValue:(d)aandStatistics:(id)b;
+ - (id) _autoRedEyeFilterWithFeatures:(id)aimageProperties:(id)bcontext:(id)coptions:(id)d;
+ - (id) _scaleImageToMaxDimension:(I)a;
+ - (id) getAutoRotateFilter:(id)aciImage:(id)brgbRows:(id)cinputRect:({CGRect={CGPoint=dd}{CGSize=dd}})drotateCropRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})e;
+ - (void) getAutocropRect:(id)arotateXfrm:({CGAffineTransform=dddddd})binputImageRect:({CGRect={CGPoint=dd}{CGSize=dd}})cclipRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})d;
+ - (id) autoAdjustmentFiltersWithOptions:(id)a;
+ - (id) autoAdjustmentFiltersWithImageProperties:(id)aoptions:(id)b;
+ - (id) _dictForFeature:(id)ascale:(d)bimageHeight:(f)c;
+ - (id) autoAdjustmentFilters;
+ - (id) autoRedEyeFilterWithFeatures:(id)aimageProperties:(id)boptions:(id)c;
+ - (id) autoRedEyeFilterWithFeatures:(id)aoptions:(id)b;
+ - (id) smartBlackAndWhiteStatistics;
+ - (id) smartBlackAndWhiteAdjustmentsForValue:(d)aandStatistics:(id)b;
+ - (id) autoRotateFilterFFT:(id)aimage:(^{CGImage=})binputRect:({CGRect={CGPoint=dd}{CGSize=dd}})c;
+ - ({CGPoint=dd}) calcIntersection:({CGPoint=dd})aslope1:({CGPoint=dd})bpt2:({CGPoint=dd})cslope2:({CGPoint=dd})d;
+
+
+@end

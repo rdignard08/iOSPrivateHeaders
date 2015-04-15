@@ -1,0 +1,8 @@
+
+@interface UIInputViewSlideTransition : UIInputViewTransition {
+
+}
+
+
+
+@end

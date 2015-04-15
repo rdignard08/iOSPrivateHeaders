@@ -1,0 +1,93 @@
+
+@protocol UIKeyboardInput, UITextInputPrivate;
+@interface UIDefaultKeyboardInput : UIView <UIKeyboardInput, UITextInputPrivate> {
+
+    @"UITextInputTraits" m_traits;
+}
+
+ - (void) dealloc;
+ - (void) forwardInvocation:(id)a;
+ - (id) methodSignatureForSelector:(SEL)a;
+ - (void) setText:(id)a;
+ - (void) setSecure:(BOOL)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) visibleBounds;
+ - (BOOL) isEditing;
+ - (id) interactionAssistant;
+ - (id) selectionView;
+ - (void) setSelectionWithPoint:({CGPoint=dd})a;
+ - (void) takeTraitsFrom:(id)a;
+ - (id) beginningOfDocument;
+ - (id) endOfDocument;
+ - (id) textRangeFromPosition:(id)atoPosition:(id)b;
+ - (id) textInRange:(id)a;
+ - (id) inputDelegate;
+ - (void) setSelectedTextRange:(id)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) caretRectForPosition:(id)a;
+ - (BOOL) hasText;
+ - (void) deleteBackward;
+ - (void) replaceRange:(id)awithText:(id)b;
+ - (id) selectedTextRange;
+ - (id) markedTextRange;
+ - (id) markedTextStyle;
+ - (void) setMarkedTextStyle:(id)a;
+ - (void) unmarkText;
+ - (id) positionFromPosition:(id)aoffset:(q)b;
+ - (id) positionFromPosition:(id)ainDirection:(q)boffset:(q)c;
+ - (q) comparePosition:(id)atoPosition:(id)b;
+ - (q) offsetFromPosition:(id)atoPosition:(id)b;
+ - (id) positionWithinRange:(id)afarthestInDirection:(q)b;
+ - (id) characterRangeByExtendingPosition:(id)ainDirection:(q)b;
+ - (void) setInputDelegate:(id)a;
+ - (id) tokenizer;
+ - (q) baseWritingDirectionForPosition:(id)ainDirection:(q)b;
+ - (void) setBaseWritingDirection:(q)aforRange:(id)b;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) firstRectForRange:(id)a;
+ - (id) selectionRectsForRange:(id)a;
+ - (id) closestPositionToPoint:({CGPoint=dd})a;
+ - (id) closestPositionToPoint:({CGPoint=dd})awithinRange:(id)b;
+ - (id) characterRangeAtPoint:({CGPoint=dd})a;
+ - (void) selectAll;
+ - (id) textColorForCaretSelection;
+ - ({_NSRange=QQ}) selectionRange;
+ - (BOOL) hasContent;
+ - (void) updateSelection;
+ - (BOOL) becomesEditableWithGestures;
+ - (void) setBecomesEditableWithGestures:(BOOL)a;
+ - (id) fontForCaretSelection;
+ - (id) rangeEnclosingPosition:(id)awithGranularity:(q)binDirection:(q)c;
+ - (BOOL) isPosition:(id)aatBoundary:(q)binDirection:(q)c;
+ - (id) positionFromPosition:(id)atoBoundary:(q)binDirection:(q)c;
+ - (BOOL) isPosition:(id)awithinTextUnit:(q)binDirection:(q)c;
+ - (BOOL) acceptsEmoji;
+ - (void) setAcceptsEmoji:(BOOL)a;
+ - (BOOL) forceEnableDictation;
+ - (void) setForceEnableDictation:(BOOL)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) caretRect;
+ - (void) replaceCurrentWordWithText:(id)a;
+ - (void) confirmMarkedText:(id)a;
+ - (S) characterInRelationToCaretSelection:(i)a;
+ - (S) characterAfterCaretSelection;
+ - (id) rectsForNSRange:({_NSRange=QQ})a;
+ - (id) nextUnperturbedDictationResultBoundaryFromPosition:(id)a;
+ - (i) wordOffsetInRange:(id)a;
+ - (BOOL) selectionAtDocumentStart;
+ - (BOOL) selectionAtWordStart;
+ - (id) rangeByMovingCurrentSelection:(i)a;
+ - (id) rangeByExtendingCurrentSelection:(i)a;
+ - (void) extendCurrentSelection:(i)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) convertCaretRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (BOOL) isShowingPlaceholder;
+ - (void) setupPlaceholderTextIfNeeded;
+ - (id) delegate;
+ - (BOOL) isSecure;
+ - (id) textInputTraits;
+ - (BOOL) isEditable;
+ - (S) characterBeforeCaretSelection;
+ - (void) setMarkedText:(id)aselectedRange:({_NSRange=QQ})b;
+ - (void) insertText:(id)a;
+ - (i) selectionState;
+ - (BOOL) hasSelection;
+ - (id) text;
+
+
+@end

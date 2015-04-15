@@ -1,0 +1,8 @@
+
+@interface FBSUIApplicationLaunchEvent : FBSWorkspaceEvent {
+
+}
+
+
+
+@end

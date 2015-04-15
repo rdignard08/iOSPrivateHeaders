@@ -1,0 +1,8 @@
+
+@interface NSURLSessionUploadTask : NSURLSessionDataTask {
+
+}
+
+
+
+@end

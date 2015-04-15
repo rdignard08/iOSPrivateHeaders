@@ -2,8 +2,8 @@
 @protocol _UIViewServiceDeputyXPCInterface;
 @interface _UIViewServiceViewControllerDeputyXPCInterface : NSObject <_UIViewServiceDeputyXPCInterface> {
 
-    NSXPCInterface _exportedInterface;
-    NSXPCInterface _remoteViewControllerInterface;
+    NSXPCInterface* _exportedInterface;
+    NSXPCInterface* _remoteViewControllerInterface;
 }
  + (id) interfaceWithExportedInterface:(id)aremoteViewControllerInterface:(id)b;
 

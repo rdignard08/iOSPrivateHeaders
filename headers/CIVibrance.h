@@ -2,8 +2,8 @@
 @protocol _CIFilterProperties;
 @interface CIVibrance : CIFilter <_CIFilterProperties> {
 
-    CIImage inputImage;
-    NSNumber inputAmount;
+    CIImage* inputImage;
+    NSNumber* inputAmount;
 }
  + (id) customAttributes;
 

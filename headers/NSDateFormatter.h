@@ -1,10 +1,10 @@
 
 @interface NSDateFormatter : NSFormatter {
 
-    NSMutableDictionary _attributes;
+    NSMutableDictionary* _attributes;
     ^{__CFDateFormatter=} _formatter;
     unsigned long long _counter;
-    NSObject<OS_dispatch_semaphore> _lock;
+    NSObject<OS_dispatch_semaphore>* _lock;
 }
  + (void) setDefaultFormatterBehavior:(unsigned long long)a;
  + (unsigned long long) defaultFormatterBehavior;

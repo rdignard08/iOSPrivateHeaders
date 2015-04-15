@@ -1,7 +1,7 @@
 
 @interface NSHTTPCookieStorage : NSObject {
 
-    NSHTTPCookieStorageInternal _internal;
+    NSHTTPCookieStorageInternal* _internal;
 }
 @property (atomic, copy, readonly) NSArray* cookies;
 @property (atomic, assign, readwrite) NSNumber* cookieAcceptPolicy;

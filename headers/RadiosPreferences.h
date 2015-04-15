@@ -3,10 +3,10 @@
 
     ^{__SCPreferences=} _prefs;
     int _applySkipCount;
-    <RadiosPreferencesDelegate> _delegate;
+    <RadiosPreferencesDelegate>* _delegate;
     BOOL _isCachedAirplaneModeValid;
     BOOL _cachedAirplaneMode;
-    NSObject<OS_dispatch_queue> _dispatchQueue;
+    NSObject<OS_dispatch_queue>* _dispatchQueue;
     BOOL notifyForExternalChangeOnly;
 }
 @property (nonatomic, assign, readwrite) NSNumber* airplaneMode;

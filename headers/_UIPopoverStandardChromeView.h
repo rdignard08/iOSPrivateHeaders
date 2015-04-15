@@ -1,12 +1,12 @@
 
 @interface _UIPopoverStandardChromeView : UIPopoverBackgroundView {
 
-    UIView _arrowView;
-    UIView _leftCapView;
-    UIView _rightCapView;
-    _UIBackdropView _blurView;
-    NSArray _dimmingViews;
-    UIColor _popoverBackgroundColor;
+    UIView* _arrowView;
+    UIView* _leftCapView;
+    UIView* _rightCapView;
+    _UIBackdropView* _blurView;
+    NSArray* _dimmingViews;
+    UIColor* _popoverBackgroundColor;
     double _arrowOffset;
     unsigned long long _arrowDirection;
     long long _backgroundStyle;

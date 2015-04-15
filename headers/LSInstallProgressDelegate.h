@@ -2,18 +2,18 @@
 @protocol NSXPCListenerDelegate, LSInstallProgressProtocol;
 @interface LSInstallProgressDelegate : NSObject <NSXPCListenerDelegate, LSInstallProgressProtocol> {
 
-    NSMutableDictionary _observers;
-    LSInstallProgressList _progresses;
-    NSMutableOrderedSet _orderedInstalls;
-    NSMutableDictionary _installIndexes;
-    NSMutableSet _inactiveInstalls;
-    LSObserverTimer installsStartedTimer;
-    LSObserverTimer iconsUpdatedTimer;
-    LSObserverTimer installsUpdatedTimer;
-    LSObserverTimer installsFinishedTimer;
-    LSObserverTimer didUninstallTimer;
-    NSObject<OS_dispatch_queue> _installControlsQueue;
-    NSObject<OS_dispatch_queue> _observersQueue;
+    NSMutableDictionary* _observers;
+    LSInstallProgressList* _progresses;
+    NSMutableOrderedSet* _orderedInstalls;
+    NSMutableDictionary* _installIndexes;
+    NSMutableSet* _inactiveInstalls;
+    LSObserverTimer* installsStartedTimer;
+    LSObserverTimer* iconsUpdatedTimer;
+    LSObserverTimer* installsUpdatedTimer;
+    LSObserverTimer* installsFinishedTimer;
+    LSObserverTimer* didUninstallTimer;
+    NSObject<OS_dispatch_queue>* _installControlsQueue;
+    NSObject<OS_dispatch_queue>* _observersQueue;
     BOOL _usingNetwork;
 }
 

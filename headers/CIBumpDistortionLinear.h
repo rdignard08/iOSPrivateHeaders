@@ -1,11 +1,11 @@
 
 @interface CIBumpDistortionLinear : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputCenter;
-    NSNumber inputRadius;
-    NSNumber inputAngle;
-    NSNumber inputScale;
+    CIImage* inputImage;
+    CIVector* inputCenter;
+    NSNumber* inputRadius;
+    NSNumber* inputAngle;
+    NSNumber* inputScale;
 }
  + (id) customAttributes;
 

@@ -2,11 +2,11 @@
 @protocol NSCopying;
 @interface UIKBGradient : NSObject <NSCopying> {
 
-    NSString _gradientName;
-    NSString _flatColorName;
-    NSString _startColorName;
-    NSString _endColorName;
-    NSArray _colors;
+    NSString* _gradientName;
+    NSString* _flatColorName;
+    NSString* _startColorName;
+    NSString* _endColorName;
+    NSArray* _colors;
     double _middleLocation;
     double _opacity;
     BOOL _horizontal;

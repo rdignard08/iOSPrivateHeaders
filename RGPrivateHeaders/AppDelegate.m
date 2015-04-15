@@ -307,7 +307,7 @@ void indent_n_times(const char* indent, long count, FILE* file) {
         NSString* string = [NSString stringWithUTF8String:encoding];
         NSArray* components = [string componentsSeparatedByString:@"\""];
         if (components.count == 3) {
-            return [components[1] UTF8String];
+            return [[NSString stringWithFormat:@"%@*", components[1]] UTF8String];
         }
     }
     return encoding;

@@ -1,7 +1,7 @@
 
 @interface _NSProgressWithRemoteParent : NSProgress {
 
-    NSXPCConnection _parentConnection;
+    NSXPCConnection* _parentConnection;
     unsigned long long _sequence;
 }
 

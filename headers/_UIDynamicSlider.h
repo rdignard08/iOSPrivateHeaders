@@ -5,11 +5,11 @@
     double _thumbVelocity;
     {CGPoint="x"d"y"d} _thumbPreviousPoint;
     double _thumbPreviousTime;
-    UIView _thumbDynamicsView;
-    _UIDynamicSliderAnimator _animator;
-    UIGravityBehavior _gravityBehavior;
-    UIPushBehavior _pushBehavior;
-    UIDynamicItemBehavior _itemBehavior;
+    UIView* _thumbDynamicsView;
+    _UIDynamicSliderAnimator* _animator;
+    UIGravityBehavior* _gravityBehavior;
+    UIPushBehavior* _pushBehavior;
+    UIDynamicItemBehavior* _itemBehavior;
 }
 
  - (void) dealloc;

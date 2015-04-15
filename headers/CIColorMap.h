@@ -1,9 +1,9 @@
 
 @interface CIColorMap : CIFilter {
 
-    CIImage inputImage;
-    CIImage inputGradientImage;
-    CIImage cachedGradientImage;
+    CIImage* inputImage;
+    CIImage* inputGradientImage;
+    CIImage* cachedGradientImage;
 }
  + (id) customAttributes;
 

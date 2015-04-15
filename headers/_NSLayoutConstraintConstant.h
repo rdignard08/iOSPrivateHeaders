@@ -2,7 +2,7 @@
 @protocol NSCoding, NSCopying;
 @interface _NSLayoutConstraintConstant : NSObject <NSCoding, NSCopying> {
 
-    NSString _symbolicValue;
+    NSString* _symbolicValue;
     double _numericValue;
 }
 @property (nonatomic, copy, readonly) NSString* symbolicValue;

@@ -3,7 +3,7 @@
 
     BOOL _loadDidFinish;
     BOOL _loadDidSucceed;
-    NSURL _baseURL;
+    NSURL* _baseURL;
 }
 
  - (void) dealloc;

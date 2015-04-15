@@ -1,7 +1,7 @@
 
 @interface UIAlertControllerVisualStyleActionSheet : UIAlertControllerVisualStyle {
 
-    UIAlertControllerDescriptor _descriptor;
+    UIAlertControllerDescriptor* _descriptor;
 }
 
  - (void) dealloc;

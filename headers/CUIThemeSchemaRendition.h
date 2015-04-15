@@ -1,7 +1,7 @@
 
 @interface CUIThemeSchemaRendition : CUIThemeRendition {
 
-    NSDictionary cuiInfo;
+    NSDictionary* cuiInfo;
     unsigned long long _nimages;
     [9^{CGImage}] _image;
     [9{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}] _layoutRects;
@@ -10,7 +10,7 @@
     long long _columnSlices;
     long long _rowSlices;
     {?="top"d"left"d"bottom"d"right"d} _contentInsets;
-    CUIPSDGradient _gradient;
+    CUIPSDGradient* _gradient;
 }
 
  - (double) scale;

@@ -4,9 +4,9 @@
     id _internal;
     unsigned long long _memoryCapacity;
     unsigned long long _currentLength;
-    NSMutableDictionary _memoryStorage;
-    NSMutableArray _memoryStorageLRU;
-    NSObject<OS_dispatch_queue> _memoryQueue;
+    NSMutableDictionary* _memoryStorage;
+    NSMutableArray* _memoryStorageLRU;
+    NSObject<OS_dispatch_queue>* _memoryQueue;
 }
  + (void) initialize;
 

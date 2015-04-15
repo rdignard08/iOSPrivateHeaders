@@ -1,7 +1,7 @@
 
 @interface UITableViewVisibleCells : NSMutableArray {
 
-    NSMutableArray _array;
+    NSMutableArray* _array;
 }
 
  - (void) removeLastObject;

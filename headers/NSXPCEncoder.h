@@ -1,11 +1,11 @@
 
 @interface NSXPCEncoder : NSXPCCoder {
 
-    NSObject<OS_xpc_object> _oolObjects;
-    NSXPCConnection _connection;
+    NSObject<OS_xpc_object>* _oolObjects;
+    NSXPCConnection* _connection;
     ^{__CFDictionary=} _replacedObjects;
     ^{__CFDictionary=} _replacedByDelegateObjects;
-    <NSXPCEncoderDelegate> _delegate;
+    <NSXPCEncoderDelegate>* _delegate;
     BOOL _askForReplacement;
     ^^v _encoder;
     unsigned long long _genericIndex;

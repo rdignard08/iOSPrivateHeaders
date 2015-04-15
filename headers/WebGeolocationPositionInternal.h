@@ -1,7 +1,7 @@
 
 @interface WebGeolocationPositionInternal : NSObject {
 
-    m_ptr _position;
+    m_ptr* _position;
 }
 
  - (id) .cxx_construct;

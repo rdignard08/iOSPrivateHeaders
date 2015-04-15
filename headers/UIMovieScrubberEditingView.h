@@ -1,12 +1,12 @@
 
 @interface UIMovieScrubberEditingView : UIView {
 
-    UIImageView _leftImageView;
-    UIImageView _middleImageView;
-    UIImageView _rightImageView;
-    NSArray _activeImages;
-    NSArray _activeNoEditImages;
-    NSArray _inactiveImages;
+    UIImageView* _leftImageView;
+    UIImageView* _middleImageView;
+    UIImageView* _rightImageView;
+    NSArray* _activeImages;
+    NSArray* _activeNoEditImages;
+    NSArray* _inactiveImages;
     BOOL _enabled;
     BOOL _editing;
     double _edgeInset;

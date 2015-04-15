@@ -2,12 +2,12 @@
 @protocol UIPickerViewDataSource, UIPickerViewDelegate, UITableViewDataSource, UITableViewDelegate;
 @interface UIPrintRangeViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, UITableViewDataSource, UITableViewDelegate> {
 
-    UIPrintPanelViewController _printPanelViewController;
+    UIPrintPanelViewController* _printPanelViewController;
     long long _pageCount;
     {_NSRange="location"Q"length"Q} _pageRange;
-    UIPickerView _fromPicker;
-    UIPickerView _toPicker;
-    UITableView _tableView;
+    UIPickerView* _fromPicker;
+    UIPickerView* _toPicker;
+    UITableView* _tableView;
     double _pickerWidth;
 }
 

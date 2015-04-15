@@ -1,9 +1,9 @@
 
 @interface RGResponseObject : NSObject {
 
-    NSArray _responseBody;
-    NSError _error;
-    NSManagedObjectContext _context;
+    NSArray* _responseBody;
+    NSError* _error;
+    NSManagedObjectContext* _context;
 }
 @property (nonatomic, retain, readwrite) NSArray* responseBody;
 @property (nonatomic, retain, readwrite) NSError* error;

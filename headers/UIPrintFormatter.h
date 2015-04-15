@@ -2,7 +2,7 @@
 @protocol NSCopying;
 @interface UIPrintFormatter : NSObject <NSCopying> {
 
-    UIPrintPageRenderer _printPageRenderer;
+    UIPrintPageRenderer* _printPageRenderer;
     double _maximumContentHeight;
     double _maximumContentWidth;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _contentInsets;

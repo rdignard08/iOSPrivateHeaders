@@ -3,7 +3,7 @@
 
     id _undoStack;
     id _redoStack;
-    NSArray _runLoopModes;
+    NSArray* _runLoopModes;
     unsigned long long _NSUndoManagerPrivate1;
     id _target;
     id _proxy;

@@ -2,7 +2,7 @@
 @protocol WebCoreFrameView;
 @interface WebFrameView : WAKView <WebCoreFrameView> {
 
-    WebFrameViewPrivate _private;
+    WebFrameViewPrivate* _private;
 }
  + (id) _viewTypesAllowImageTypeOmission:(BOOL)a;
  + (Class) _viewClassForMIMEType:(id)aallowingPlugins:(BOOL)b;

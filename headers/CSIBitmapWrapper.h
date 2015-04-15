@@ -2,8 +2,8 @@
 @interface CSIBitmapWrapper : NSObject {
 
     ^{CGContext=} _bitmapContext;
-    NSData _pixelData;
-    NSData _rawData;
+    NSData* _pixelData;
+    NSData* _rawData;
     unsigned int _pixelFormat;
     unsigned int _width;
     unsigned int _height;

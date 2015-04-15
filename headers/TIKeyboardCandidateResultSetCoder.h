@@ -1,8 +1,8 @@
 
 @interface TIKeyboardCandidateResultSetCoder : NSObject {
 
-    NSMutableData _mutableData;
-    NSData _data;
+    NSMutableData* _mutableData;
+    NSData* _data;
     unsigned long long _offset;
 }
 @property (nonatomic, retain, readwrite) NSData* data;

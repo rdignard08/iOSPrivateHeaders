@@ -1,10 +1,10 @@
 
 @interface NSFileReactorProxy : NSObject {
 
-    NSObject<OS_xpc_object> _client;
+    NSObject<OS_xpc_object>* _client;
     id _reactorID;
     @? _messageSender;
-    NSFileAccessNode _itemLocation;
+    NSFileAccessNode* _itemLocation;
 }
 
  - (id) descriptionWithIndenting:(id)a;

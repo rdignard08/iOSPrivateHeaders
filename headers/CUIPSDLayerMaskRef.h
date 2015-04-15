@@ -1,7 +1,7 @@
 
 @interface CUIPSDLayerMaskRef : NSObject {
 
-    CUIPSDLayerRef _layerRef;
+    CUIPSDLayerRef* _layerRef;
     BOOL _isVectorMask;
 }
 

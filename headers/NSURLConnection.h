@@ -2,7 +2,7 @@
 @protocol NSURLAuthenticationChallengeSender;
 @interface NSURLConnection : NSObject <NSURLAuthenticationChallengeSender> {
 
-    NSURLConnectionInternal _internal;
+    NSURLConnectionInternal* _internal;
 }
 @property (atomic, copy, readonly) NSURLRequest* originalRequest;
 @property (atomic, copy, readonly) NSURLRequest* currentRequest;

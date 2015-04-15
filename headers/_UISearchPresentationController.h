@@ -2,10 +2,10 @@
 @protocol _UISearchControllerPresenting;
 @interface _UISearchPresentationController : UIPresentationController <_UISearchControllerPresenting> {
 
-    _UISearchPresentationAssistant _assistant;
-    UIView _placeholderView;
-    NSMapTable _excisedSearchBarConstraitMap;
-    NSMapTable _placeholderConstraitMap;
+    _UISearchPresentationAssistant* _assistant;
+    UIView* _placeholderView;
+    NSMapTable* _excisedSearchBarConstraitMap;
+    NSMapTable* _placeholderConstraitMap;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _finalFrameForContainerView;
     {?="searchBarWasTableHeaderView"b1"excisedSearchBarDuringPresentation"b1"searchBarWantedAutolayoutBeforeExcision"b1} _controllerFlags;
 }

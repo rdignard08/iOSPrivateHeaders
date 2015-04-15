@@ -1,7 +1,7 @@
 
 @interface WebUserContentURLPattern : NSObject {
 
-    WebUserContentURLPatternPrivate _private;
+    WebUserContentURLPatternPrivate* _private;
 }
 
  - (void) dealloc;

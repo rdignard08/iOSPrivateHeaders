@@ -1,7 +1,7 @@
 
 @interface UIKeyboardEmojiSectionHeader : UICollectionReusableView {
 
-    UILabel _emojiSectionHeader;
+    UILabel* _emojiSectionHeader;
 }
 
  - (void) dealloc;

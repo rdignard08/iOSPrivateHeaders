@@ -1,16 +1,16 @@
 
 @interface CUIShapeEffectBlur1 : CIFilter {
 
-    CIImage inputImage;
-    CIImage inputFill;
-    CIVector inputOffset;
-    NSNumber inputRadius;
-    CIColor inputGlowColorInner;
-    CIColor inputGlowColorOuter;
-    CIColor inputShadowColorInner;
-    CIColor inputShadowColorOuter;
-    NSNumber inputShadowBlurInner;
-    NSNumber inputShadowBlurOuter;
+    CIImage* inputImage;
+    CIImage* inputFill;
+    CIVector* inputOffset;
+    NSNumber* inputRadius;
+    CIColor* inputGlowColorInner;
+    CIColor* inputGlowColorOuter;
+    CIColor* inputShadowColorInner;
+    CIColor* inputShadowColorOuter;
+    NSNumber* inputShadowBlurInner;
+    NSNumber* inputShadowBlurOuter;
 }
  + (id) customAttributes;
 

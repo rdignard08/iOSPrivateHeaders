@@ -1,9 +1,9 @@
 
 @interface UIAlertMediaButton : UIAlertButton {
 
-    UIImageView _checkmarkView;
-    UIImage _tableIcon;
-    UIImage _highlightedTableIcon;
+    UIImageView* _checkmarkView;
+    UIImage* _tableIcon;
+    UIImage* _highlightedTableIcon;
 }
 
  - (void) dealloc;

@@ -1,11 +1,11 @@
 
 @interface CIVignetteEffect : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputCenter;
-    NSNumber inputRadius;
-    NSNumber inputIntensity;
-    NSNumber inputFalloff;
+    CIImage* inputImage;
+    CIVector* inputCenter;
+    NSNumber* inputRadius;
+    NSNumber* inputIntensity;
+    NSNumber* inputFalloff;
 }
  + (id) customAttributes;
 

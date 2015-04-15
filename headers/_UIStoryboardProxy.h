@@ -1,7 +1,7 @@
 
 @interface _UIStoryboardProxy : NSObject {
 
-    UIStoryboard _storyboard;
+    UIStoryboard* _storyboard;
 }
 
  - (id) description;

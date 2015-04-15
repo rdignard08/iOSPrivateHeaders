@@ -4,8 +4,8 @@
 
     float _progress;
     id _placeholderItem;
-    NSString _activityType;
-    NSString _status;
+    NSString* _activityType;
+    NSString* _status;
     id _providedItem;
 }
 

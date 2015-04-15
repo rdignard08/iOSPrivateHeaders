@@ -1,7 +1,7 @@
 
 @interface _NSIndexSetEnumerator : NSEnumerator {
 
-    NSIndexSet _indexSet;
+    NSIndexSet* _indexSet;
     unsigned long long _index;
 }
 

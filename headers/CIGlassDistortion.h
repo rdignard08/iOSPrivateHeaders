@@ -1,10 +1,10 @@
 
 @interface CIGlassDistortion : CIFilter {
 
-    CIImage inputImage;
-    CIImage inputTexture;
-    CIVector inputCenter;
-    NSNumber inputScale;
+    CIImage* inputImage;
+    CIImage* inputTexture;
+    CIVector* inputCenter;
+    NSNumber* inputScale;
 }
  + (id) customAttributes;
 

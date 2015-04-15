@@ -1,11 +1,11 @@
 
 @interface CIColorCrossPolynomial : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputCoefficients;
-    CIVector inputRedCoefficients;
-    CIVector inputGreenCoefficients;
-    CIVector inputBlueCoefficients;
+    CIImage* inputImage;
+    CIVector* inputCoefficients;
+    CIVector* inputRedCoefficients;
+    CIVector* inputGreenCoefficients;
+    CIVector* inputBlueCoefficients;
 }
  + (id) customAttributes;
 

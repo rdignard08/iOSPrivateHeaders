@@ -1,7 +1,7 @@
 
 @interface UISelectionGrabber : UIView {
 
-    UISelectionGrabberDot m_dotView;
+    UISelectionGrabberDot* m_dotView;
     BOOL m_isDotted;
     BOOL m_activeFlattened;
     BOOL m_alertFlattened;

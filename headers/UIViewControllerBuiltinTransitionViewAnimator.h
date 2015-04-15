@@ -2,12 +2,12 @@
 @protocol UIViewControllerAnimatedTransitioning;
 @interface UIViewControllerBuiltinTransitionViewAnimator : NSObject <UIViewControllerAnimatedTransitioning> {
 
-    <UIViewControllerContextTransitioning> _transitionContext;
+    <UIViewControllerContextTransitioning>* _transitionContext;
     BOOL _removeFromView;
     int _transition;
     id _delegate;
-    UIView _toView;
-    UIView _fromView;
+    UIView* _toView;
+    UIView* _fromView;
 }
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 @property (nonatomic, assign, readwrite) UIView* toView;

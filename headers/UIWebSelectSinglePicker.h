@@ -2,11 +2,11 @@
 @protocol UIWebFormControl, UIPickerViewDataSource, UIPickerViewDelegate;
 @interface UIWebSelectSinglePicker : UIPickerView <UIWebFormControl, UIPickerViewDataSource, UIPickerViewDelegate> {
 
-    DOMHTMLSelectElement _selectNode;
-    NSArray _optionItems;
-    <UIWebSelectedItemPrivate> _selectedOptionItem;
+    DOMHTMLSelectElement* _selectNode;
+    NSArray* _optionItems;
+    <UIWebSelectedItemPrivate>* _selectedOptionItem;
     long long _selectedIndex;
-    <UIWebSelectedItemPrivate> _optionToSelectWhenDone;
+    <UIWebSelectedItemPrivate>* _optionToSelectWhenDone;
     long long _indexToSelectWhenDone;
 }
 

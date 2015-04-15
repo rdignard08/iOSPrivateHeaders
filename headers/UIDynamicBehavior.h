@@ -1,10 +1,10 @@
 
 @interface UIDynamicBehavior : NSObject {
 
-    UIDynamicAnimator _context;
-    NSMutableArray _items;
-    NSMutableArray _behaviors;
-    NSMutableArray _addedBehaviors;
+    UIDynamicAnimator* _context;
+    NSMutableArray* _items;
+    NSMutableArray* _behaviors;
+    NSMutableArray* _addedBehaviors;
     BOOL __isPrimitiveBehavior;
     @? _action;
 }

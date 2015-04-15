@@ -12,8 +12,8 @@
     double _elasticWidth;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _imageBounds;
     {?="_isRTL"b1"_vAdvance"b1"_flipped"b1"_usesSimpleTextEffects"b1"_reserved"b28} _flags;
-    CUICatalog _catalog;
-    CUIStyleEffectConfiguration _styleEffects;
+    CUICatalog* _catalog;
+    CUIStyleEffectConfiguration* _styleEffects;
 }
 @property (nonatomic, retain, readwrite) CUICatalog* cuiCatalog;
 @property (nonatomic, retain, readwrite) CUIStyleEffectConfiguration* cuiStyleEffects;

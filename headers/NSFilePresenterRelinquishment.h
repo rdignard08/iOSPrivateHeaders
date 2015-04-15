@@ -1,7 +1,7 @@
 
 @interface NSFilePresenterRelinquishment : NSObject {
 
-    NSCountedSet _blockingAccessClaimIDs;
+    NSCountedSet* _blockingAccessClaimIDs;
     @? _reacquirer;
 }
 

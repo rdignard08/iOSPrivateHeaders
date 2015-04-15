@@ -3,7 +3,7 @@
 @interface _UIViewServiceUIBehaviorProxy : _UITargetedProxy <_UIViewServiceUIBehaviorInterface> {
 
     int _remotePID;
-    _UIViewServiceFencingControlProxy _fencingControlProxy;
+    _UIViewServiceFencingControlProxy* _fencingControlProxy;
     int __automatic_invalidation_retainCount;
     BOOL __automatic_invalidation_invalidated;
 }

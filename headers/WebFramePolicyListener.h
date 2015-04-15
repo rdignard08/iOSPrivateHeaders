@@ -2,7 +2,7 @@
 @protocol WebPolicyDecisionListener, WebFormSubmissionListener;
 @interface WebFramePolicyListener : NSObject <WebPolicyDecisionListener, WebFormSubmissionListener> {
 
-    m_ptr _frame;
+    m_ptr* _frame;
     {function<void (WebCore::PolicyAction)>="__buf_"{type="__lx"[24C]}"__f_"^{__base<void (WebCore::PolicyAction)>}} _policyFunction;
 }
  + (void) initialize;

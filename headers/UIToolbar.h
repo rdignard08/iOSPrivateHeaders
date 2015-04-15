@@ -3,24 +3,24 @@
 @interface UIToolbar : UIView <_UIShadowedView, _UIBackdropViewGraphicsQualityChangeDelegate, _UIBarPositioningInternal, UIBarPositioning> {
 
     id _delegate;
-    NSArray _items;
-    UIColor _barTintColor;
+    NSArray* _items;
+    UIColor* _barTintColor;
     {?="barStyle"b3"mode"b2"wasEnabled"b1"downButtonSentAction"b1"barTranslucence"b3"isLocked"b1"backgroundLayoutNeedsUpdate"b1"hasCustomBackgroundView"b1} _toolbarFlags;
     ^{__CFDictionary=} _groups;
-    NSArray _buttonItems;
+    NSArray* _buttonItems;
     long long _currentButtonGroup;
     long long _pressedTag;
     double _extraEdgeInsets;
     id _appearanceStorage;
-    _UIBackdropView _adaptiveBackdrop;
-    UIImageView _backgroundView;
-    UIView _shadowView;
+    _UIBackdropView* _adaptiveBackdrop;
+    UIImageView* _backgroundView;
+    UIView* _shadowView;
     BOOL _isAdaptiveToolbarDisabled;
     BOOL _wantsLetterpressContent;
     BOOL _centerTextButtons;
     BOOL _collapsed;
     long long _barPosition;
-    NSString _backdropViewLayerGroupName;
+    NSString* _backdropViewLayerGroupName;
 }
  + (double) defaultHeight;
  + (double) defaultHeightForBarSize:(int)a;

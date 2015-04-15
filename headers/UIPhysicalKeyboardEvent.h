@@ -2,13 +2,13 @@
 @interface UIPhysicalKeyboardEvent : UIPhysicalButtonsEvent {
 
     int _inputFlags;
-    NSString _modifiedInput;
-    NSString _unmodifiedInput;
-    NSString _shiftModifiedInput;
-    NSString _commandModifiedInput;
-    NSString _markedInput;
+    NSString* _modifiedInput;
+    NSString* _unmodifiedInput;
+    NSString* _shiftModifiedInput;
+    NSString* _commandModifiedInput;
+    NSString* _markedInput;
     long long _modifierFlags;
-    NSString _privateInput;
+    NSString* _privateInput;
 }
  + (id) _eventWithInput:(id)ainputFlags:(int)b;
 

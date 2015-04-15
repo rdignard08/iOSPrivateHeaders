@@ -1,7 +1,7 @@
 
 @interface UIWebViewWebViewDelegate : NSObject {
 
-    UIWebView uiWebView;
+    UIWebView* uiWebView;
 }
 
  - (id) initWithUIWebView:(id)a;

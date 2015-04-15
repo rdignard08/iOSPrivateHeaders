@@ -1,7 +1,7 @@
 
 @interface NSDirectorySubpathsOperation : NSDirectoryTraversalOperation {
 
-    NSMutableArray _subpaths;
+    NSMutableArray* _subpaths;
 }
  + (id) directorySubpathsOperationAtPath:(id)a;
  + (id) _errorWithErrno:(int)aatPath:(id)b;

@@ -2,8 +2,8 @@
 @interface NSURLQueue : NSObject {
 
     unsigned long long count;
-    NSURLQueueNode head;
-    NSURLQueueNode tail;
+    NSURLQueueNode* head;
+    NSURLQueueNode* tail;
     id monitor;
     BOOL waitOnTake;
     BOOL _pad1;

@@ -3,8 +3,8 @@
 @interface _UIViewServiceSessionManager : NSObject <NSXPCListenerDelegate> {
 
     int _lock;
-    NSXPCListener _listener;
-    NSMutableArray _sessions;
+    NSXPCListener* _listener;
+    NSMutableArray* _sessions;
     int _connectionNotificationToken;
 }
  + (BOOL) hasActiveSessions;

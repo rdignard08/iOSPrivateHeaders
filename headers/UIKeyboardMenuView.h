@@ -2,9 +2,9 @@
 @protocol UITableViewDataSource, UITableViewDelegate, UIDimmingViewDelegate;
 @interface UIKeyboardMenuView : UIView <UITableViewDataSource, UITableViewDelegate, UIDimmingViewDelegate> {
 
-    UIInputSwitcherTableView m_table;
-    UIInputSwitcherShadowView m_shadowView;
-    UIInputSwitcherSelectionExtraView m_selExtraView;
+    UIInputSwitcherTableView* m_table;
+    UIInputSwitcherShadowView* m_shadowView;
+    UIInputSwitcherSelectionExtraView* m_selExtraView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_referenceRect;
     double m_pointerOffset;
     BOOL m_scrollable;
@@ -14,15 +14,15 @@
     {CGPoint="x"d"y"d} m_point;
     double m_scrollStartTime;
     int m_scrollDirection;
-    NSTimer m_scrollTimer;
+    NSTimer* m_scrollTimer;
     int m_visibleRows;
     int m_firstVisibleRow;
     int m_mode;
-    UIDimmingView m_dimmingView;
+    UIDimmingView* m_dimmingView;
     BOOL _usesStraightLeftEdge;
     BOOL _usesDarkTheme;
-    UIKBTree _referenceKey;
-    UIKeyboardLayoutStar _layout;
+    UIKBTree* _referenceKey;
+    UIKeyboardLayoutStar* _layout;
 }
  + (id) viewThatContainsBaseKey;
 

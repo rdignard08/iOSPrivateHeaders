@@ -2,8 +2,8 @@
 @protocol NSSecureCoding;
 @interface TIUserDictionaryTransaction : NSObject <NSSecureCoding> {
 
-    TIUserDictionaryEntryValue _valueToDelete;
-    TIUserDictionaryEntryValue _valueToInsert;
+    TIUserDictionaryEntryValue* _valueToDelete;
+    TIUserDictionaryEntryValue* _valueToInsert;
 }
 @property (nonatomic, retain, readwrite) TIUserDictionaryEntryValue* valueToDelete;
 @property (nonatomic, retain, readwrite) TIUserDictionaryEntryValue* valueToInsert;

@@ -4,26 +4,26 @@
 
     ^{SessionConnectionLoadable=^^?qqqq^^?^^?@} _loaderClient;
     ^{URLConnectionLoader=^^?^{__CFAllocator}^^?CC^{InterfaceRequiredForLoader}@^^?^^?^{PerformanceTiming}@q^{RedirectionRecorder}CCC@Cd^{URLProtocol}@C^{CoreSchedulingSet}ddQ{ConfigFlags=b1b1b1b1b1b1b1}CCCC} _loader;
-    NSObject<OS_dispatch_queue> _workQueue;
+    NSObject<OS_dispatch_queue>* _workQueue;
     BOOL _canceled;
     long long _suspended;
-    NSURLResponse _currentResponse;
-    NSObject<OS_dispatch_data> _pendingData;
+    NSURLResponse* _currentResponse;
+    NSObject<OS_dispatch_data>* _pendingData;
     long long _pendingCompletion;
     unsigned long long _didReceiveResponseDisposition;
-    NSError _pendingError;
+    NSError* _pendingError;
     int _state;
-    NSURLResponse _cacheResponse;
-    NSObject<OS_dispatch_data> _cacheData;
+    NSURLResponse* _cacheResponse;
+    NSObject<OS_dispatch_data>* _cacheData;
     unsigned long long _cacheDataMax;
     long long _clientBufferLength;
-    NSObject<OS_dispatch_data> _sniffData;
-    NSURLResponse _sniffResponse;
+    NSObject<OS_dispatch_data>* _sniffData;
+    NSURLResponse* _sniffResponse;
     BOOL _isMixedReplace;
     BOOL _didCheckMixedReplace;
-    NSURLSessionTask _task;
-    <SessionConnectionDelegate> _delegate;
-    NSObject<OS_dispatch_queue> _delegateQueue;
+    NSURLSessionTask* _task;
+    <SessionConnectionDelegate>* _delegate;
+    NSObject<OS_dispatch_queue>* _delegateQueue;
 }
 @property (atomic, copy, readwrite) NSURLSessionTask* task;
 @property (atomic, retain, readwrite) NSNumber* delegate;

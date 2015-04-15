@@ -1,34 +1,34 @@
 
 @interface CIBurstImageSetInternal : NSObject {
 
-    NSObject<OS_dispatch_queue> dq;
-    NSObject<OS_dispatch_queue> dq_yuvdump;
-    NSObject<OS_dispatch_semaphore> sem;
-    NSMutableArray clusterArray;
+    NSObject<OS_dispatch_queue>* dq;
+    NSObject<OS_dispatch_queue>* dq_yuvdump;
+    NSObject<OS_dispatch_semaphore>* sem;
+    NSMutableArray* clusterArray;
     int temporalOrder;
     int maxNumPendingFrames;
     BOOL enableAnalysis;
     int dummyAnalysisCount;
     BOOL enableFaceCore;
     BOOL enableDumpYUV;
-    NSString burstCoverSelection;
+    NSString* burstCoverSelection;
     BOOL isAction;
     BOOL isPortrait;
-    CIBurstImageFaceAnalysisContext faceAnalysisContext;
-    CIBurstYUVImage overrideImage;
-    NSDictionary overrideProps;
-    NSMutableArray allImageIdentifiers;
-    NSCountedSet faceIDCounts;
-    NSMutableDictionary statsByImageIdentifier;
-    NSMutableDictionary clusterByImageIdentifier;
-    NSString burstLogFileName;
+    CIBurstImageFaceAnalysisContext* faceAnalysisContext;
+    CIBurstYUVImage* overrideImage;
+    NSDictionary* overrideProps;
+    NSMutableArray* allImageIdentifiers;
+    NSCountedSet* faceIDCounts;
+    NSMutableDictionary* statsByImageIdentifier;
+    NSMutableDictionary* clusterByImageIdentifier;
+    NSString* burstLogFileName;
     ^{__sFILE=*iiss{__sbuf=*i}i^v^?^?^?^?{__sbuf=*i}^{__sFILEX}i[3C][1C]{__sbuf=*i}iq} burstLogFileHandle;
-    CIBurstActionClassifier actionClassifier;
+    CIBurstActionClassifier* actionClassifier;
     int curClusterIndexToProcess;
-    NSMutableArray bestImageIdentifiersArray;
+    NSMutableArray* bestImageIdentifiersArray;
     int _version;
-    NSString burstId;
-    NSString _versionString;
+    NSString* burstId;
+    NSString* _versionString;
 }
 @property (atomic, assign, readwrite) NSMutableArray* clusterArray;
 @property (atomic, assign, readwrite) NSNumber* temporalOrder;

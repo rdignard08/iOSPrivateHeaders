@@ -1,9 +1,9 @@
 
 @interface NSConcreteNotification : NSNotification {
 
-    NSString name;
+    NSString* name;
     id object;
-    NSDictionary userInfo;
+    NSDictionary* userInfo;
     BOOL dyingObject;
 }
  + (id) newTempNotificationWithName:(id)aobject:(id)buserInfo:(id)c;

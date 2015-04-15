@@ -2,11 +2,11 @@
 @interface _UIDocumentPickerContainerMetadataItem : _UIDocumentPickerContainerItem {
 
     long long _cachedType;
-    NSString _cachedTitle;
-    NSString _cachedSubtitle;
-    NSString _cachedSubtitle2;
-    NSArray _cachedTags;
-    NSURL _cachedURL;
+    NSString* _cachedTitle;
+    NSString* _cachedSubtitle;
+    NSString* _cachedSubtitle2;
+    NSArray* _cachedTags;
+    NSURL* _cachedURL;
 }
 
  - (id) title;

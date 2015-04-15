@@ -1,13 +1,13 @@
 
 @interface BSPlatform : NSObject {
 
-    NSString _productVersion;
-    NSString _productBuildVersion;
-    NSString _productHardwareModel;
-    NSString _productType;
-    NSString _productClass;
-    NSString _uniqueDeviceIdentifier;
-    NSString _localizedProductName;
+    NSString* _productVersion;
+    NSString* _productBuildVersion;
+    NSString* _productHardwareModel;
+    NSString* _productType;
+    NSString* _productClass;
+    NSString* _uniqueDeviceIdentifier;
+    NSString* _localizedProductName;
     BOOL _hasGasGauge;
     BOOL _isInternalInstall;
     BOOL _isMultiCore;

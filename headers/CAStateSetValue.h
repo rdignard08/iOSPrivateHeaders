@@ -1,7 +1,7 @@
 
 @interface CAStateSetValue : CAStateElement {
 
-    NSString _keyPath;
+    NSString* _keyPath;
     id _value;
 }
 

@@ -1,9 +1,9 @@
 
 @interface CIColorClamp : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputMinComponents;
-    CIVector inputMaxComponents;
+    CIImage* inputImage;
+    CIVector* inputMinComponents;
+    CIVector* inputMaxComponents;
 }
  + (id) customAttributes;
 

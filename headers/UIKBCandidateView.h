@@ -2,11 +2,11 @@
 @protocol UIKeyboardCandidateGridCollectionViewControllerDelegate;
 @interface UIKBCandidateView : UIKBKeyView <UIKeyboardCandidateGridCollectionViewControllerDelegate> {
 
-    UIView _clippingView;
-    UIView _topBorder;
+    UIView* _clippingView;
+    UIView* _topBorder;
     unsigned long long _selectedSortIndex;
-    UIKeyboardCandidateGridCollectionViewController _collectionViewController;
-    UIKeyboardCandidateSortControl _scrollViewSortControl;
+    UIKeyboardCandidateGridCollectionViewController* _collectionViewController;
+    UIKeyboardCandidateSortControl* _scrollViewSortControl;
     {?="idiom"b6"landscape"b1"split"b1"appearance"b8"rendering"b16} _visualStyling;
 }
 

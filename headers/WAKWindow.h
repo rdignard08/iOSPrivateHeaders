@@ -1,21 +1,21 @@
 
 @interface WAKWindow : WAKResponder {
 
-    CALayer _hostLayer;
+    CALayer* _hostLayer;
     ^{LegacyTileCache=@{RetainPtr<CGImage *>=^v}BBB{RetainPtr<LegacyTileCacheTombstone>=^v}ii{IntSize=ii}BBBBBB{OwnPtr<WebCore::LegacyTileGrid>=^{LegacyTileGrid}}{OwnPtr<WebCore::LegacyTileGrid>=^{LegacyTileGrid}}{Timer<WebCore::LegacyTileCache>=^^?dddiI^{Vector<WebCore::TimerBase *, 0, WTF::CrashOnOverflow>}{function<void ()>={type=[24C]}^{__base<void ()>}}}{Vector<WebCore::IntRect, 0, WTF::CrashOnOverflow>=^{IntRect}II}fff{Mutex={_opaque_pthread_mutex_t=q[56c]}}{Mutex={_opaque_pthread_mutex_t=q[56c]}}{Mutex={_opaque_pthread_mutex_t=q[56c]}}B} _tileCache;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frozenVisibleRect;
-    CALayer _rootLayer;
+    CALayer* _rootLayer;
     {CGSize="width"d"height"d} _screenSize;
     {CGSize="width"d"height"d} _availableScreenSize;
     double _screenScale;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frame;
-    WAKView _contentView;
-    WAKView _responderView;
-    WAKView _nextResponder;
+    WAKView* _contentView;
+    WAKView* _responderView;
+    WAKView* _nextResponder;
     BOOL _visible;
     BOOL _useOrientationDependentFontAntialiasing;
     BOOL _entireWindowVisibleForTesting;
-    lockword_ _exposedScrollViewRectLock;
+    lockword_* _exposedScrollViewRectLock;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _exposedScrollViewRect;
 }
  + (void) setOrientationProvider:(id)a;

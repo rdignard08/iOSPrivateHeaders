@@ -1,7 +1,7 @@
 
 @interface _CFPrefsSynchronizer : NSObject {
 
-    NSObject<OS_dispatch_source> _synchTimer;
+    NSObject<OS_dispatch_source>* _synchTimer;
     ^{__CFSet=} _dirtySources;
     {_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]} _CFPrefsDirtySourcesLock;
     BOOL _active;

@@ -4,8 +4,8 @@
     {CGPoint="x"d"y"d} _anchorPoint;
     {CGPoint="x"d"y"d} _anchorPointA;
     {CGPoint="x"d"y"d} _anchorPointB;
-    PKExtendedPhysicsBody _anchorBody;
-    PKPhysicsJoint _joint;
+    PKExtendedPhysicsBody* _anchorBody;
+    PKPhysicsJoint* _joint;
     double _damping;
     double _frequency;
     double _length;

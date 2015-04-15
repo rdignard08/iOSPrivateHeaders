@@ -1,16 +1,16 @@
 
 @interface _UICharacterStreamingManager : NSObject {
 
-    UITextView _textView;
-    CADisplayLink _streamingAnimationDisplayLink;
+    UITextView* _textView;
+    CADisplayLink* _streamingAnimationDisplayLink;
     BOOL _streamingAnimationActive;
     double _lastAnimationUpdateTimeStamp;
     BOOL _committingFinalResults;
     BOOL _discardNextHypothesis;
-    NSString _previousHypothesis;
-    NSString _lastHypothesis;
-    NSString _targetHypothesis;
-    NSMutableArray _pendingEdits;
+    NSString* _previousHypothesis;
+    NSString* _lastHypothesis;
+    NSString* _targetHypothesis;
+    NSMutableArray* _pendingEdits;
     double _streamingCharacterInsertionRate;
     double _minDurationBetweenHypotheses;
 }

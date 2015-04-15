@@ -2,7 +2,7 @@
 @protocol BSXPCServerClient;
 @interface BSBasicServerClient : NSObject <BSXPCServerClient> {
 
-    NSObject<OS_xpc_object> _connection;
+    NSObject<OS_xpc_object>* _connection;
 }
 @property (nonatomic, retain, readwrite) NSNumber* connection;
  + (id) wrapperWithConnection:(id)a;

@@ -2,8 +2,8 @@
 @protocol NSCopying;
 @interface NSKeyValueProperty : NSObject <NSCopying> {
 
-    NSKeyValueContainerClass _containerClass;
-    NSString _keyPath;
+    NSKeyValueContainerClass* _containerClass;
+    NSString* _keyPath;
 }
 
  - (id) keyPath;

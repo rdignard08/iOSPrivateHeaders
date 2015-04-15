@@ -3,7 +3,7 @@
 
     double _opacity;
     int _blendMode;
-    NSString _name;
+    NSString* _name;
 }
 @property (nonatomic, assign, readwrite) NSNumber* opacity;
 @property (nonatomic, assign, readwrite) NSNumber* blendMode;

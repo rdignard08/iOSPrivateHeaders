@@ -2,13 +2,13 @@
 @protocol UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate;
 @interface UIReferenceLibraryViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UINavigationControllerDelegate> {
 
-    NSString _term;
-    NSArray _definitionValues;
-    UINavigationController _baseNavController;
-    UITableViewController _multiDefViewController;
-    UIViewController _longDefViewController;
+    NSString* _term;
+    NSArray* _definitionValues;
+    UINavigationController* _baseNavController;
+    UITableViewController* _multiDefViewController;
+    UIViewController* _longDefViewController;
     long long _oldPopoverStyle;
-    UIWindow _rotationDecider;
+    UIWindow* _rotationDecider;
     @? _dismissCompletionHandler;
 }
  + (id) _backgroundColor;

@@ -2,8 +2,8 @@
 @protocol NSCopying;
 @interface UIKBCacheToken : NSObject <NSCopying> {
 
-    NSMutableArray _components;
-    NSString _name;
+    NSMutableArray* _components;
+    NSString* _name;
     double _scale;
     int _emptyFields;
     long long _renderFlags;

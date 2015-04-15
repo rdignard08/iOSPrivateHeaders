@@ -1,17 +1,17 @@
 
 @interface NSDateIntervalFormatter : NSFormatter {
 
-    NSLocale _locale;
-    NSCalendar _calendar;
-    NSTimeZone _timeZone;
-    NSString _dateTemplate;
-    NSString _dateTemplateFromStyles;
+    NSLocale* _locale;
+    NSCalendar* _calendar;
+    NSTimeZone* _timeZone;
+    NSString* _dateTemplate;
+    NSString* _dateTemplateFromStyles;
     ^v _formatter;
     unsigned long long _dateStyle;
     unsigned long long _timeStyle;
     BOOL _modified;
     BOOL _useTemplate;
-    NSObject<OS_dispatch_semaphore> _lock;
+    NSObject<OS_dispatch_semaphore>* _lock;
     [4^v] _reserved;
 }
 

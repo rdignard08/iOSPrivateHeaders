@@ -8,9 +8,9 @@
     double _accumulatedDt;
     {PKContactListener="_vptr$b2ContactListener"^^?"_contacts"@"NSMutableDictionary""_contactDelegate"@"<PKPhysicsContactDelegate>"} _contactListener;
     float _speed;
-    NSMutableArray _bodies;
-    NSMutableArray _joints;
-    NSMutableArray _postStepBlocks;
+    NSMutableArray* _bodies;
+    NSMutableArray* _joints;
+    NSMutableArray* _postStepBlocks;
     {PKDebugDrawPacket="_linePoints"{vector<PKPoint, std::__1::allocator<PKPoint> >="__begin_"^{?}"__end_"^{?}"__end_cap_"{__compressed_pair<PKPoint *, std::__1::allocator<PKPoint> >="__first_"^{?}}}"_colors"{vector<PKDebugDrawPacket::color4, std::__1::allocator<PKDebugDrawPacket::color4> >="__begin_"^{?}"__end_"^{?}"__end_cap_"{__compressed_pair<PKDebugDrawPacket::color4 *, std::__1::allocator<PKDebugDrawPacket::color4> >="__first_"^{?}}}} drawPacket;
 }
 @property (nonatomic, assign, readwrite) NSNumber* _doSleep;

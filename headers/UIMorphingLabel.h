@@ -1,16 +1,16 @@
 
 @interface UIMorphingLabel : UIView {
 
-    UIMorphingLabelGlyphSet _srcGlyphSet;
-    UIMorphingLabelGlyphSet _dstGlyphSet;
-    NSMutableArray _hiddenGlyphViews;
-    UIView _colorView;
+    UIMorphingLabelGlyphSet* _srcGlyphSet;
+    UIMorphingLabelGlyphSet* _dstGlyphSet;
+    NSMutableArray* _hiddenGlyphViews;
+    UIView* _colorView;
     [51[51{?="len"Q"dir"Q}]] _memo;
     [100{?="src"{_NSRange="location"Q"length"Q}"dst"{_NSRange="location"Q"length"Q}"isEqual"B}] _alignment;
     unsigned long long _alignmentSize;
     [100d] _alignmentDelays;
-    _UIViewAnimationAttributes _textAnimationAttributes;
-    _UIViewAnimationAttributes _textColorAnimationAttributes;
+    _UIViewAnimationAttributes* _textAnimationAttributes;
+    _UIViewAnimationAttributes* _textColorAnimationAttributes;
     double _lastUpdateTime;
     double _slowdown;
     double _rippleFactor;
@@ -19,9 +19,9 @@
     BOOL _textDidChange;
     BOOL _textColorDidChange;
     BOOL _suppressLayoutSubviews;
-    NSString _text;
-    UIFont _font;
-    UIColor _textColor;
+    NSString* _text;
+    UIFont* _font;
+    UIColor* _textColor;
     long long _textAlignment;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _visibleRect;
 }

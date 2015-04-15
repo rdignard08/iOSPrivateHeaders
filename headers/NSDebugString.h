@@ -1,7 +1,7 @@
 
 @interface NSDebugString : NSString {
 
-    NSString string;
+    NSString* string;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;

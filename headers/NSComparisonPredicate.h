@@ -2,9 +2,9 @@
 @interface NSComparisonPredicate : NSPredicate {
 
     ^v _reserved2;
-    NSPredicateOperator _predicateOperator;
-    NSExpression _lhs;
-    NSExpression _rhs;
+    NSPredicateOperator* _predicateOperator;
+    NSExpression* _lhs;
+    NSExpression* _rhs;
 }
  + (BOOL) supportsSecureCoding;
  + (id) predicateWithLeftExpression:(id)arightExpression:(id)bmodifier:(unsigned long long)ctype:(unsigned long long)doptions:(unsigned long long)e;

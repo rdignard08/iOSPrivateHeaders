@@ -3,7 +3,7 @@
 @interface NSISObjectiveLinearExpression : NSObject <NSISRowBody> {
 
     ^{__CFDictionary=} _priorityMap;
-    NSMutableArray _variablesSortedByPriorityVectors;
+    NSMutableArray* _variablesSortedByPriorityVectors;
     ^{__CFData=} _constant;
 }
 

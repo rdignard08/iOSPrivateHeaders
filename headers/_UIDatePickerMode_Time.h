@@ -4,8 +4,8 @@
     double _timeHourWidth;
     double _timeMinuteWidth;
     double _timeAMPMWidth;
-    NSString _hourFormat;
-    NSString _minuteFormat;
+    NSString* _hourFormat;
+    NSString* _minuteFormat;
 }
  + (long long) datePickerMode;
  + (unsigned long long) extractableCalendarUnits;

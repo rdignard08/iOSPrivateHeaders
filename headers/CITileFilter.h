@@ -1,10 +1,10 @@
 
 @interface CITileFilter : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputCenter;
-    NSNumber inputAngle;
-    NSNumber inputWidth;
+    CIImage* inputImage;
+    CIVector* inputCenter;
+    NSNumber* inputAngle;
+    NSNumber* inputWidth;
 }
  + (id) customAttributes;
 

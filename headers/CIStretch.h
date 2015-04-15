@@ -1,9 +1,9 @@
 
 @interface CIStretch : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputPoint;
-    CIVector inputSize;
+    CIImage* inputImage;
+    CIVector* inputPoint;
+    CIVector* inputSize;
 }
  + (id) customAttributes;
 

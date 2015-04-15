@@ -1,15 +1,15 @@
 
 @interface _UISegmentedControlAppearanceStorage : NSObject {
 
-    UIImage _optionsBackgroundImage;
-    NSMutableDictionary _backgroundImages;
-    NSMutableDictionary _miniBackgroundImages;
-    NSMutableDictionary _dividerImages;
-    NSMutableDictionary _miniDividerImages;
-    NSMutableDictionary _textAttributesForState;
-    NSMutableDictionary _backgroundPositionAdjustmentsForBarMetrics;
-    NSMutableDictionary _contentPositionOffsets;
-    NSMutableDictionary _miniContentPositionOffsets;
+    UIImage* _optionsBackgroundImage;
+    NSMutableDictionary* _backgroundImages;
+    NSMutableDictionary* _miniBackgroundImages;
+    NSMutableDictionary* _dividerImages;
+    NSMutableDictionary* _miniDividerImages;
+    NSMutableDictionary* _textAttributesForState;
+    NSMutableDictionary* _backgroundPositionAdjustmentsForBarMetrics;
+    NSMutableDictionary* _contentPositionOffsets;
+    NSMutableDictionary* _miniContentPositionOffsets;
     BOOL _legacyDontHighlight;
     BOOL _legacySuppressOptionsBackground;
     BOOL _isTiled;

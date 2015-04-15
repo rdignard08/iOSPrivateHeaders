@@ -1,7 +1,7 @@
 
 @interface CISRGBToneCurveToLinear : CIFilter {
 
-    CIImage inputImage;
+    CIImage* inputImage;
 }
  + (id) customAttributes;
 

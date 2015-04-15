@@ -1,11 +1,11 @@
 
 @interface UITextSelectionView : UIView {
 
-    UITextInteractionAssistant m_interactionAssistant;
-    UITextSelection m_selection;
-    NSTimer m_caretTimer;
-    UIView m_caretView;
-    UITextRangeView m_rangeView;
+    UITextInteractionAssistant* m_interactionAssistant;
+    UITextSelection* m_selection;
+    NSTimer* m_caretTimer;
+    UIView* m_caretView;
+    UITextRangeView* m_rangeView;
     BOOL m_caretBlinks;
     BOOL m_caretShowingNow;
     BOOL m_visible;
@@ -14,7 +14,7 @@
     BOOL m_delayShowingCommands;
     BOOL m_dictationReplacementsMode;
     int m_showingCommandsCounter;
-    NSArray m_replacements;
+    NSArray* m_replacements;
     BOOL m_deferSelectionCommands;
     ^{__CFRunLoopObserver=} m_observer;
 }

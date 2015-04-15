@@ -1,7 +1,7 @@
 
 @interface _UITableViewIndexEntry : NSObject {
 
-    UIImage _image;
+    UIImage* _image;
     id _line;
     {CGPoint="x"d"y"d} _baselinePoint;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _bounds;

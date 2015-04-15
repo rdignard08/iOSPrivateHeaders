@@ -3,8 +3,8 @@
 
     ^{__DCSDictionary=} _dictionary;
     BOOL _activated;
-    ASAsset _rawAsset;
-    NSString _definitionLanguage;
+    ASAsset* _rawAsset;
+    NSString* _definitionLanguage;
 }
 @property (atomic, assign, readonly) ASAsset* rawAsset;
 @property (atomic, assign, readonly) NSString* localizedLanguageName;

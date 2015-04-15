@@ -5,16 +5,16 @@
     double _animationEndTime;
     double _animationStartTime;
     double _animationStartValue;
-    UIImage _borderImage;
-    UIImage _centerImage;
+    UIImage* _borderImage;
+    UIImage* _centerImage;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _centerImageInsets;
-    CADisplayLink _displayLink;
-    UIImage _fillImage;
+    CADisplayLink* _displayLink;
+    UIImage* _fillImage;
     BOOL _highlighted;
-    UIImageView _indeterminateView;
+    UIImageView* _indeterminateView;
     BOOL _isAnimating;
     double _progress;
-    UIColor _unhighlightedBackgroundColor;
+    UIColor* _unhighlightedBackgroundColor;
 }
  + (id) _fillImage;
  + (id) _borderImage;

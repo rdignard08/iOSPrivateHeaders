@@ -1,15 +1,15 @@
 
 @interface NSFileReadingWritingClaim : NSFileAccessClaim {
 
-    NSURL _readingURL;
+    NSURL* _readingURL;
     BOOL _readingURLDidChange;
     unsigned long long _readingOptions;
-    NSURL _writingURL;
+    NSURL* _writingURL;
     BOOL _writingURLDidChange;
     unsigned long long _writingOptions;
-    NSFileAccessNode _readingLocation;
-    NSFileAccessNode _writingLocation;
-    NSFileAccessNode _rootNode;
+    NSFileAccessNode* _readingLocation;
+    NSFileAccessNode* _writingLocation;
+    NSFileAccessNode* _rootNode;
     long long _readingLinkResolutionCount;
 }
 

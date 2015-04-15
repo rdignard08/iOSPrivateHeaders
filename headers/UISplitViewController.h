@@ -3,14 +3,14 @@
 @interface UISplitViewController : UIViewController <UIGestureRecognizerDelegate> {
 
     id _delegate;
-    UIBarButtonItem _barButtonItem;
-    UIBarButtonItem _displayModeButtonItem;
-    NSString _buttonTitle;
-    UIPopoverController _hiddenPopoverController;
-    UIView _rotationSnapshotView;
-    UIResponder _postTransitionResponder;
-    UISnapshotView _collapsingMasterSnapshotView;
-    UISnapshotView _collapsingDetailSnapshotView;
+    UIBarButtonItem* _barButtonItem;
+    UIBarButtonItem* _displayModeButtonItem;
+    NSString* _buttonTitle;
+    UIPopoverController* _hiddenPopoverController;
+    UIView* _rotationSnapshotView;
+    UIResponder* _postTransitionResponder;
+    UISnapshotView* _collapsingMasterSnapshotView;
+    UISnapshotView* _collapsingDetailSnapshotView;
     double _masterColumnWidth;
     float _gutterWidth;
     float _cornerRadius;
@@ -18,24 +18,24 @@
     long long _lastPresentedOrientation;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _rotatingFromMasterViewFrame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _rotatingToMasterViewFrame;
-    NSArray _cornerImageViews;
-    UIView _underBarSeparatorView;
+    NSArray* _cornerImageViews;
+    UIView* _underBarSeparatorView;
     unsigned long long _slideTransitionCount;
-    UIView _masterBackgroundView;
+    UIView* _masterBackgroundView;
     BOOL _presentsInFadingPopover;
     BOOL _presentsWithGesture;
-    UIGestureRecognizer _popoverPresentationGestureRecognizer;
+    UIGestureRecognizer* _popoverPresentationGestureRecognizer;
     long long _preferredDisplayMode;
     long long _effectiveTargetDisplayMode;
     long long _pendingDisplayModeChangeCount;
     BOOL _useChangingBoundsLayout;
     {?="validDelegateHiddenMasterOrientations"b5"delegateHiddenMasterOrientations"b5"delegateImplementsShouldHide"b1"hidden"b3"delegateHandlesTogglingMaster"b1"delegateProvidesBackgroundView"b1"delegateWantsUnSlideCallback"b1"masterOnSlide"b1"delegateWantsWillShowCallback"b1"delegateWantsWillHideCallback"b1"delegateWantsWillPresentCallback"b1"delegateWantsNavigationRequests"b1"resizesDetailOnSlide"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"disableDetailFrameChanges"b1"delegateWantsShowViewController"b1"delegateWantsPrivateShowViewController"b1"delegateWantsShowDetailViewController"b1"delegateWantsPrivateShowDetailViewController"b1"delegateWantsCollapseSecondaryViewController"b1"delegateWantsPrivateCollapseSecondaryViewController"b1"delegateWantsSeparateSecondaryViewController"b1"delegateWantsPrivateSeparateSecondaryViewController"b1"delegateWantsPrimaryViewControllerForCollapse"b1"delegateWantsPrivatePrimaryViewControllerForCollapse"b1"delegateWantsPrimaryViewControllerForExpanding"b1"delegateWantsPrivatePrimaryViewControllerForExpanding"b1"collapsedState"b2"primaryHidingState"b2"primaryHidingStateForCurrentOrientation"b2"delegateWantsWillChangeToDisplayMode"b1"delegateWantsTargetDisplayModeForAction"b1"pendingPresentMasterViewController"b1"pendingUpdateTargetDisplayMode"b1"collapsingClockwise"b1"firstResponderChangedFromPostTransitionResponder"b1} _splitViewControllerFlags;
     BOOL _resizeForKeyboard;
-    NSString _displayModeButtonItemTitle;
+    NSString* _displayModeButtonItemTitle;
     double _preferredPrimaryColumnWidthFraction;
     double _minimumPrimaryColumnWidth;
     double _maximumPrimaryColumnWidth;
-    UIViewController __preservedDetailController;
+    UIViewController* __preservedDetailController;
     @? __didChangeBoundsBlock;
     @? __clearPreventRotationHook;
 }

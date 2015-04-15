@@ -3,7 +3,7 @@
 
     int _blendMode;
     double _opacity;
-    CUIColor _color;
+    CUIColor* _color;
     short _angle;
     unsigned long long _distance;
     unsigned long long _blurSize;

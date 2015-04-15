@@ -1,10 +1,10 @@
 
 @interface NSProcessInfo : NSObject {
 
-    NSDictionary environment;
-    NSArray arguments;
-    NSString hostName;
-    NSString name;
+    NSDictionary* environment;
+    NSArray* arguments;
+    NSString* hostName;
+    NSString* name;
     long long automaticTerminationOptOutCounter;
 }
 @property (atomic, copy, readonly) NSDictionary* environment;

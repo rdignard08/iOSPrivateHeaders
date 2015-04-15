@@ -1,9 +1,9 @@
 
 @interface UIMoreNavigationController : UINavigationController {
 
-    UIMoreListController _moreListController;
-    UINavigationController _originalNavigationController;
-    UIViewController _originalRootViewController;
+    UIMoreListController* _moreListController;
+    UINavigationController* _originalNavigationController;
+    UIViewController* _originalRootViewController;
 }
  + (Class) _moreListControllerClass;
 

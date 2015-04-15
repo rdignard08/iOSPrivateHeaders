@@ -1,7 +1,7 @@
 
 @interface CIPremultiply : CIFilter {
 
-    CIImage inputImage;
+    CIImage* inputImage;
 }
  + (id) customAttributes;
 

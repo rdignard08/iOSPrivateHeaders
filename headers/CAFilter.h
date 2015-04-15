@@ -3,7 +3,7 @@
 @interface CAFilter : NSObject <NSCopying, NSMutableCopying, NSCoding> {
 
     unsigned int _type;
-    NSString _name;
+    NSString* _name;
     unsigned int _flags;
     ^v _attr;
     ^v _cache;

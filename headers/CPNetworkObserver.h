@@ -1,8 +1,8 @@
 
 @interface CPNetworkObserver : NSObject {
 
-    NSLock _lock;
-    NSMutableDictionary _reachabilityRequests;
+    NSLock* _lock;
+    NSMutableDictionary* _reachabilityRequests;
     unsigned int _networkReachability;
     ^{__SCNetworkReachability=} _networkReach;
     ^{__CFDictionary=} _networkObservers;

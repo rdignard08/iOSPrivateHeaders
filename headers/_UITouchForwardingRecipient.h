@@ -1,8 +1,8 @@
 
 @interface _UITouchForwardingRecipient : NSObject {
 
-    UIResponder fromResponder;
-    UIResponder responder;
+    UIResponder* fromResponder;
+    UIResponder* responder;
     long long recordedPhase;
     long long autocompletedPhase;
 }

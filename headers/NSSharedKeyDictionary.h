@@ -1,11 +1,11 @@
 
 @interface NSSharedKeyDictionary : NSMutableDictionary {
 
-    NSSharedKeySet _keyMap;
+    NSSharedKeySet* _keyMap;
     unsigned long long _count;
     ^@ _values;
     ^? _ifkIMP;
-    NSMutableDictionary _sideDic;
+    NSMutableDictionary* _sideDic;
     unsigned long long _mutations;
 }
  + (id) sharedKeyDictionaryWithKeySet:(id)a;

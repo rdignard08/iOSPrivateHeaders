@@ -1,9 +1,9 @@
 
 @interface _UIDatePickerMode_Custom : _UIDatePickerMode {
 
-    NSString _originalFormat;
-    NSArray _components;
-    NSArray _sortedComponents;
+    NSString* _originalFormat;
+    NSArray* _components;
+    NSArray* _sortedComponents;
     long long _displayedUnits;
     long long _desiredUnits;
 }

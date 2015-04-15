@@ -2,11 +2,11 @@
 @protocol _UIDocumentPickerServiceInvalidating;
 @interface _UIDocumentPickerContainerViewController : UIViewController <_UIDocumentPickerServiceInvalidating> {
 
-    _UIDocumentPickerViewServiceViewController _weak_serviceViewController;
+    _UIDocumentPickerViewServiceViewController* _weak_serviceViewController;
     BOOL _rootContainer;
-    _UIDocumentPickerContainerModel _model;
-    UIViewController<_UIDocumentPickerContainedViewController> _childViewController;
-    _UINavigationControllerPalette _searchPalette;
+    _UIDocumentPickerContainerModel* _model;
+    UIViewController<_UIDocumentPickerContainedViewController>* _childViewController;
+    _UINavigationControllerPalette* _searchPalette;
 }
 
  - (void) dealloc;

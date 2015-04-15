@@ -2,33 +2,33 @@
 @protocol _UIBackdropViewGraphicsQualityChangeDelegate, _UIShadowedView;
 @interface UITabBar : UIView <_UIBackdropViewGraphicsQualityChangeDelegate, _UIShadowedView> {
 
-    UIView _customizeView;
-    _UITabBarBackgroundView _backgroundView;
-    _UIBackdropView _adaptiveBackdrop;
-    UIView _shadowView;
-    <UITabBarDelegate> _delegate;
-    NSArray _items;
-    UITabBarItem _selectedItem;
-    NSArray _customizationItems;
+    UIView* _customizeView;
+    _UITabBarBackgroundView* _backgroundView;
+    _UIBackdropView* _adaptiveBackdrop;
+    UIView* _shadowView;
+    <UITabBarDelegate>* _delegate;
+    NSArray* _items;
+    UITabBarItem* _selectedItem;
+    NSArray* _customizationItems;
     long long _barOrientation;
     {?="alertShown"b1"wasEnabled"b1"customized"b1"downButtonSentAction"b1"isLocked"b1"backgroundIsPattern"b1"hasCustomBackgroundView"b1"barStyle"b3"barTranslucence"b3"backgroundNeedsUpdate"b1} _tabBarFlags;
-    NSArray _buttonItems;
+    NSArray* _buttonItems;
     ^{__CFArray=} _hiddenItems;
-    _UITabBarAppearanceStorage _appearanceStorage;
+    _UITabBarAppearanceStorage* _appearanceStorage;
     BOOL _dividerImagesChangeWithSelection;
     BOOL _dividerImagesAreInvalid;
     BOOL _hidesShadow;
     BOOL _showsHighlightedState;
     double _nextSelectionSlideDuration;
-    NSMutableArray _dividerImageViews;
+    NSMutableArray* _dividerImageViews;
     long long _itemPositioning;
     double _itemDimension;
     double _itemSpacing;
     long long _barMetrics;
     long long _imageStyle;
     long long _tabBarSizing;
-    UIView _accessoryView;
-    NSString _backdropViewLayerGroupName;
+    UIView* _accessoryView;
+    NSString* _backdropViewLayerGroupName;
 }
  + (void) _initializeForIdiom:(long long)a;
  + (id) _unselectedTabTintColorForView:(id)a;

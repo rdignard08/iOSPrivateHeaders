@@ -3,8 +3,8 @@
 
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _startRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _endRect;
-    UIKBCacheToken _startToken;
-    UIKBCacheToken _endToken;
+    UIKBCacheToken* _startToken;
+    UIKBCacheToken* _endToken;
     BOOL _shiftContents;
     BOOL _delayCrossfade;
     int _normalization;

@@ -2,8 +2,8 @@
 @protocol NSSecureCoding, NSCopying;
 @interface NSURLQueryItem : NSObject <NSSecureCoding, NSCopying> {
 
-    NSString _name;
-    NSString _value;
+    NSString* _name;
+    NSString* _value;
 }
 @property (atomic, assign, readonly) NSString* name;
 @property (atomic, assign, readonly) NSString* value;

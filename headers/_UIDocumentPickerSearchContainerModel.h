@@ -1,7 +1,7 @@
 
 @interface _UIDocumentPickerSearchContainerModel : _UIDocumentPickerURLContainerModel {
 
-    NSString _queryString;
+    NSString* _queryString;
 }
 
  - (void) dealloc;

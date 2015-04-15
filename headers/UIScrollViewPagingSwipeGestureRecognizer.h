@@ -1,7 +1,7 @@
 
 @interface UIScrollViewPagingSwipeGestureRecognizer : UIGestureRecognizer {
 
-    UIDelayedAction _swipeFailureDelay;
+    UIDelayedAction* _swipeFailureDelay;
     {CGPoint="x"d"y"d} _startLocation;
     {CGPoint="x"d"y"d} _lastLocation;
     double _lastTime;

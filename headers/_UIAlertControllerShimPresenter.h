@@ -2,12 +2,12 @@
 @protocol UIPopoverControllerDelegate;
 @interface _UIAlertControllerShimPresenter : NSObject <UIPopoverControllerDelegate> {
 
-    UIPopoverController _popoverController;
-    <UIPopoverControllerDelegate> _popoverDelegate;
-    UIViewController _inPopoverViewController;
-    _UIAlertControllerShimPresenterWindow _window;
-    UIAlertController _alertController;
-    UIAlertView _legacyAlert;
+    UIPopoverController* _popoverController;
+    <UIPopoverControllerDelegate>* _popoverDelegate;
+    UIViewController* _inPopoverViewController;
+    _UIAlertControllerShimPresenterWindow* _window;
+    UIAlertController* _alertController;
+    UIAlertView* _legacyAlert;
 }
 @property (atomic, assign, readwrite) UIAlertController* alertController;
 @property (atomic, assign, readwrite) UIAlertView* legacyAlert;

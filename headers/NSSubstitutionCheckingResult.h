@@ -2,7 +2,7 @@
 @interface NSSubstitutionCheckingResult : NSTextCheckingResult {
 
     {_NSRange="location"Q"length"Q} _range;
-    NSString _replacementString;
+    NSString* _replacementString;
 }
 
  - (id) resultByAdjustingRangesWithOffset:(long long)a;

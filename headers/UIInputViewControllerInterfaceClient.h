@@ -1,7 +1,7 @@
 
 @interface UIInputViewControllerInterfaceClient : NSExtensionContext {
 
-    <_UIIVCInterface> _forwardingInterface;
+    <_UIIVCInterface>* _forwardingInterface;
 }
  + (id) _extensionAuxiliaryHostProtocol;
  + (id) _extensionAuxiliaryVendorProtocol;

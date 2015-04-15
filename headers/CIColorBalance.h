@@ -1,11 +1,11 @@
 
 @interface CIColorBalance : CIFilter {
 
-    CIImage inputImage;
-    CIColor inputColor;
-    NSNumber inputStrength;
-    NSNumber inputWarmth;
-    NSNumber inputDamping;
+    CIImage* inputImage;
+    CIColor* inputColor;
+    NSNumber* inputStrength;
+    NSNumber* inputWarmth;
+    NSNumber* inputDamping;
 }
  + (id) customAttributes;
 

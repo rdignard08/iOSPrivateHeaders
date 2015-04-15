@@ -1,10 +1,10 @@
 
 @interface _UIFlowLayoutItem : NSObject {
 
-    _UIFlowLayoutSection _section;
-    _UIFlowLayoutRow _rowObject;
+    _UIFlowLayoutSection* _section;
+    _UIFlowLayoutRow* _rowObject;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _itemFrame;
-    positionEstimated _itemFlags;
+    positionEstimated* _itemFlags;
 }
 @property (nonatomic, assign, readwrite) _UIFlowLayoutSection* section;
 @property (nonatomic, assign, readwrite) _UIFlowLayoutRow* rowObject;

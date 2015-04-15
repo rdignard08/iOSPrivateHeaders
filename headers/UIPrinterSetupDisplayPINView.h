@@ -1,8 +1,8 @@
 
 @interface UIPrinterSetupDisplayPINView : UIView {
 
-    UILabel _titleLabel;
-    UIButton _nextButton;
+    UILabel* _titleLabel;
+    UIButton* _nextButton;
 }
 
  - (void) dealloc;

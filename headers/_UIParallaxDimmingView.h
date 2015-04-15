@@ -1,10 +1,10 @@
 
 @interface _UIParallaxDimmingView : UIView {
 
-    UIImageView leftEdgeFade;
+    UIImageView* leftEdgeFade;
     BOOL _backgroundIsDimmed;
-    UIColor _dimmingColor;
-    UIView _addingSubview;
+    UIColor* _dimmingColor;
+    UIView* _addingSubview;
 }
  + (id) newDimmingViewWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  + (id) newDimmingViewWrappingView:(id)awithLeftBorder:(double)b;

@@ -2,7 +2,7 @@
 @protocol NSSecureCoding, NSCopying;
 @interface NSURLResponse : NSObject <NSSecureCoding, NSCopying> {
 
-    NSURLResponseInternal _internal;
+    NSURLResponseInternal* _internal;
 }
 @property (atomic, copy, readonly) NSURL* URL;
 @property (atomic, copy, readonly) NSString* MIMEType;

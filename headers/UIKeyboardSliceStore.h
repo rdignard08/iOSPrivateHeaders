@@ -1,7 +1,7 @@
 
 @interface UIKeyboardSliceStore : NSObject {
 
-    NSMutableDictionary _store;
+    NSMutableDictionary* _store;
 }
  + (id) sharedStore;
  + (id) sliceSetForID:(id)a;

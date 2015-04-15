@@ -2,7 +2,7 @@
 @interface UIKBCacheToken_Key : UIKBCacheToken {
 
     (?="styling"{?="idiom"b6"landscape"b1"split"b1"appearance"b8"rendering"b16}"intValue"i) _style;
-    NSString _cacheDisplayString;
+    NSString* _cacheDisplayString;
     int _displayTypeHint;
     int _displayRowHint;
     {CGSize="width"d"height"d} _size;

@@ -3,11 +3,11 @@
 
     BOOL _usesImplicitBounds;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _implicitBoundsInsets;
-    PKExtendedPhysicsBody _implicitBoundsBody;
-    NSMutableDictionary _boundaryBodies;
-    NSMutableDictionary _boundaryPaths;
+    PKExtendedPhysicsBody* _implicitBoundsBody;
+    NSMutableDictionary* _boundaryBodies;
+    NSMutableDictionary* _boundaryPaths;
     unsigned long long _collisionMode;
-    <UICollisionBehaviorDelegate> _collisionDelegate;
+    <UICollisionBehaviorDelegate>* _collisionDelegate;
     unsigned int _groupVID;
     unsigned int _groupBID;
     {?="delegateBeganWithItem"b1"delegateEndedWithItem"b1"delegateBeganWithBoundary"b1"delegateEndedWithBoundary"b1} _collisionBehaviorFlags;

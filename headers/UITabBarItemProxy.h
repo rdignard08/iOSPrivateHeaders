@@ -1,8 +1,8 @@
 
 @interface UITabBarItemProxy : NSObject {
 
-    UITabBarItem _item;
-    UIView _view;
+    UITabBarItem* _item;
+    UIView* _view;
 }
 
  - (id) item;

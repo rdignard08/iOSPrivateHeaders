@@ -2,7 +2,7 @@
 @protocol UIGestureRecognizerDelegate;
 @interface UIDictationFloatingStarkView : UIDictationView <UIGestureRecognizerDelegate> {
 
-    UIDimmingView _dimmingView;
+    UIDimmingView* _dimmingView;
 }
 
  - (void) dealloc;

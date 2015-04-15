@@ -1,7 +1,7 @@
 
 @interface _UIBackdropViewLayer : CALayer {
 
-    _UIBackdropView _backdropView;
+    _UIBackdropView* _backdropView;
 }
 
  - (void) dealloc;

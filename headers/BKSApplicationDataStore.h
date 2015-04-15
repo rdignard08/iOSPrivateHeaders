@@ -1,8 +1,8 @@
 
 @interface BKSApplicationDataStore : NSObject {
 
-    NSString _bundleId;
-    BKSApplicationDataStoreRepositoryClient _client;
+    NSString* _bundleId;
+    BKSApplicationDataStoreRepositoryClient* _client;
     BOOL _clientNeedsCheckin;
 }
  + (void) synchronize;

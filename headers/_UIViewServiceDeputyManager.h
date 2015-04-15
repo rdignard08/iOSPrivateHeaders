@@ -2,11 +2,11 @@
 @protocol _UIViewServiceViewControllerOperatorDelegate;
 @interface _UIViewServiceDeputyManager : NSObject <_UIViewServiceViewControllerOperatorDelegate> {
 
-    NSObject<OS_dispatch_queue> _queue;
-    _UIAsyncInvocation _invalidationInvocation;
-    NSMutableDictionary _connectionHandlers;
-    NSLock _connectionHandlersLock;
-    NSMutableSet _deputies;
+    NSObject<OS_dispatch_queue>* _queue;
+    _UIAsyncInvocation* _invalidationInvocation;
+    NSMutableDictionary* _connectionHandlers;
+    NSLock* _connectionHandlersLock;
+    NSMutableSet* _deputies;
     @? _terminationHandler;
     int __automatic_invalidation_retainCount;
     BOOL __automatic_invalidation_invalidated;

@@ -1,7 +1,7 @@
 
 @interface _UIDelegatingActionActivity : UIActivity {
 
-    UIDocumentInteractionController _documentInteractionController;
+    UIDocumentInteractionController* _documentInteractionController;
     SEL _action;
 }
 

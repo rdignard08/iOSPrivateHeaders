@@ -4,7 +4,7 @@
     int _state;
     BOOL _requiresNewState;
     int _postRotationState;
-    UIInputViewAnimationStyle _animationStyle;
+    UIInputViewAnimationStyle* _animationStyle;
     long long _targetOrientation;
 }
 @property (nonatomic, assign, readwrite) NSNumber* state;

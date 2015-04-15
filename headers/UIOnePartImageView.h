@@ -2,7 +2,7 @@
 @interface UIOnePartImageView : UIView {
 
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _fromRect;
-    UIImage _image;
+    UIImage* _image;
 }
 
  - (void) dealloc;

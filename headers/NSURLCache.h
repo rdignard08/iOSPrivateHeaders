@@ -1,7 +1,7 @@
 
 @interface NSURLCache : NSObject {
 
-    NSURLCacheInternal _internal;
+    NSURLCacheInternal* _internal;
 }
 @property (atomic, assign, readwrite) NSNumber* memoryCapacity;
 @property (atomic, assign, readwrite) NSNumber* diskCapacity;

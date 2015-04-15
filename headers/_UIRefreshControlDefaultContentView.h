@@ -2,13 +2,13 @@
 @interface _UIRefreshControlDefaultContentView : _UIRefreshControlContentView {
 
     BOOL _animationsAreValid;
-    UIImageView _imageView;
-    UILabel _textLabel;
-    UIImageView _arrow;
-    UIActivityIndicatorView _spinner;
-    NSMutableDictionary _snappingTextFromValues;
-    NSMutableDictionary _snappingImageFromValues;
-    NSMutableDictionary _snappingArrowFromValues;
+    UIImageView* _imageView;
+    UILabel* _textLabel;
+    UIImageView* _arrow;
+    UIActivityIndicatorView* _spinner;
+    NSMutableDictionary* _snappingTextFromValues;
+    NSMutableDictionary* _snappingImageFromValues;
+    NSMutableDictionary* _snappingArrowFromValues;
     BOOL _areAnimationsValid;
 }
 

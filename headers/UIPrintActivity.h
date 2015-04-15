@@ -1,7 +1,7 @@
 
 @interface UIPrintActivity : UIActivity {
 
-    UIViewController _wrapperViewController;
+    UIViewController* _wrapperViewController;
 }
 
  - (id) activityType;

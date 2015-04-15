@@ -1,8 +1,8 @@
 
 @interface BSSerializedRequestQueue : NSObject {
 
-    NSObject<OS_dispatch_queue> _serialQueue;
-    NSObject<OS_dispatch_queue> _workQueue;
+    NSObject<OS_dispatch_queue>* _serialQueue;
+    NSObject<OS_dispatch_queue>* _workQueue;
     @? _conditionBlock;
 }
 @property (nonatomic, retain, readonly) NSNumber* serialQueue;

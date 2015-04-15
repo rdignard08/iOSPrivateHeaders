@@ -2,10 +2,10 @@
 @protocol NSCoding;
 @interface UIStoryboardSegueTemplate : NSObject <NSCoding> {
 
-    NSString _identifier;
-    NSString _segueClassName;
-    UIViewController _viewController;
-    NSString _destinationViewControllerIdentifier;
+    NSString* _identifier;
+    NSString* _segueClassName;
+    UIViewController* _viewController;
+    NSString* _destinationViewControllerIdentifier;
     BOOL _performOnViewLoad;
 }
 @property (nonatomic, assign, readonly) NSString* identifier;

@@ -1,9 +1,9 @@
 
 @interface CUINamedData : NSObject {
 
-    CUIRenditionKey _key;
+    CUIRenditionKey* _key;
     unsigned long long _storageRef;
-    NSString _name;
+    NSString* _name;
 }
 @property (nonatomic, copy, readwrite) NSString* name;
 @property (nonatomic, assign, readonly) NSString* utiType;

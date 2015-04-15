@@ -1,15 +1,15 @@
 
 @interface UITextMagnifier : UIView {
 
-    UIView _target;
+    UIView* _target;
     {CGPoint="x"d"y"d} _magnificationPoint;
     {CGPoint="x"d"y"d} _animationPoint;
     {CGPoint="x"d"y"d} _terminalPoint;
     BOOL _terminalPointPlacedCarefully;
-    UIResponder<UITextInput> _text;
-    UITextMagnifierTimeWeightedPoint _weightedPoint;
-    UIView _magnifierRenderer;
-    UIView _autoscrollRenderer;
+    UIResponder<UITextInput>* _text;
+    UITextMagnifierTimeWeightedPoint* _weightedPoint;
+    UIView* _magnifierRenderer;
+    UIView* _autoscrollRenderer;
     int _autoscrollDirections;
 }
  + (id) getLoupeBackgroundColor:(id)a;

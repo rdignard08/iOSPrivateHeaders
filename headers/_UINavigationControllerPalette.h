@@ -6,13 +6,13 @@
     BOOL _paletteIsAboveBar;
     BOOL _visibleWhenPinningBarIsHidden;
     BOOL __palettePinningBarHidden;
-    UIView __backgroundView;
-    UINavigationController _navController;
+    UIView* __backgroundView;
+    UINavigationController* _navController;
     unsigned long long _boundaryEdge;
-    UIViewController __unpinnedController;
+    UIViewController* __unpinnedController;
     id __pinningBar;
-    NSArray __constraints;
-    NSArray __backgroundConstraints;
+    NSArray* __constraints;
+    NSArray* __backgroundConstraints;
     {CGSize="width"d"height"d} __size;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _preferredContentInsets;
 }

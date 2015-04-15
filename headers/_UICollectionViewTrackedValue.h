@@ -2,7 +2,7 @@
 @interface _UICollectionViewTrackedValue : NSObject {
 
     double _trackedValue;
-    NSArray _values;
+    NSArray* _values;
     long long _valuesCount;
     long long _currentIndex;
     BOOL _isAccumulating;

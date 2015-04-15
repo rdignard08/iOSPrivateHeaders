@@ -2,14 +2,14 @@
 @protocol UIWebFindOnPageHighlighter;
 @interface UIWebBrowserFindOnPageHighlighter : NSObject <UIWebFindOnPageHighlighter> {
 
-    NSMutableArray _highlightBubbleViews;
-    NSArray _pdfHighlightViews;
-    UIView _highlightHostView;
-    UIWebBrowserView _browserView;
-    UIWebPDFViewHandler _pdfHandler;
+    NSMutableArray* _highlightBubbleViews;
+    NSArray* _pdfHighlightViews;
+    UIView* _highlightHostView;
+    UIWebBrowserView* _browserView;
+    UIWebPDFViewHandler* _pdfHandler;
     BOOL _zoomToHighlightSelection;
-    <UIWebFindOnPageHighlighterDelegate> _delegate;
-    NSString _searchText;
+    <UIWebFindOnPageHighlighterDelegate>* _delegate;
+    NSString* _searchText;
     unsigned long long _numberOfMatches;
     unsigned long long _highlightedMatchIndex;
 }

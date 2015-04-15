@@ -1,7 +1,7 @@
 
 @interface UIKeyboardAutocorrectionController : NSObject {
 
-    TIAutocorrectionList _autocorrectionList;
+    TIAutocorrectionList* _autocorrectionList;
     BOOL _needsAutocorrection;
     BOOL _deferredAutocorrection;
     BOOL _requestedAutocorrection;

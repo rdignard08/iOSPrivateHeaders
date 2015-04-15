@@ -7,7 +7,7 @@
     unsigned int _webkitDefinedConfigurationFlags;
     {CGSize="width"d"height"d} _availableViewSize;
     BOOL _classicViewportMode;
-    <_UIWebViewportHandlerDelegate> _delegate;
+    <_UIWebViewportHandlerDelegate>* _delegate;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _documentBounds;
 }
 @property (nonatomic, assign, readwrite) NSNumber* delegate;

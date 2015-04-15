@@ -2,12 +2,12 @@
 @protocol _UIRotatingAlertControllerDelegate;
 @interface _UITextViewInteractableItem : NSObject <_UIRotatingAlertControllerDelegate> {
 
-    _UIRotatingAlertController _linkInteractionAlertController;
+    _UIRotatingAlertController* _linkInteractionAlertController;
     BOOL _interactionIsFinished;
-    UITextView _textView;
-    NSArray _actions;
-    NSDictionary _defaultAction;
-    UIWindow _windowForActionSheetPresentation;
+    UITextView* _textView;
+    NSArray* _actions;
+    NSDictionary* _defaultAction;
+    UIWindow* _windowForActionSheetPresentation;
     {_NSRange="location"Q"length"Q} _range;
 }
 @property (nonatomic, assign, readwrite) NSNumber* range;

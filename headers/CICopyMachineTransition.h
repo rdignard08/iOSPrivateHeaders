@@ -1,14 +1,14 @@
 
 @interface CICopyMachineTransition : CIFilter {
 
-    CIImage inputImage;
-    CIImage inputTargetImage;
-    CIVector inputExtent;
-    CIColor inputColor;
-    NSNumber inputTime;
-    NSNumber inputAngle;
-    NSNumber inputWidth;
-    NSNumber inputOpacity;
+    CIImage* inputImage;
+    CIImage* inputTargetImage;
+    CIVector* inputExtent;
+    CIColor* inputColor;
+    NSNumber* inputTime;
+    NSNumber* inputAngle;
+    NSNumber* inputWidth;
+    NSNumber* inputOpacity;
 }
  + (id) customAttributes;
 

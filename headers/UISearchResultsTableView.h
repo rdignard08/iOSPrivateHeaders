@@ -1,9 +1,9 @@
 
 @interface UISearchResultsTableView : UITableView {
 
-    UISearchDisplayController _controller;
+    UISearchDisplayController* _controller;
     double _offsetForNoResultsMessage;
-    UIView _topShadowView;
+    UIView* _topShadowView;
 }
 
  - (void) setContentOffset:({CGPoint=dd})a;

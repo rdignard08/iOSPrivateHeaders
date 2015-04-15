@@ -2,8 +2,8 @@
 @protocol _UIScreenBasedObject;
 @interface UIKBGraphCache : NSObject <_UIScreenBasedObject> {
 
-    UIScreen _screen;
-    NSMutableDictionary _graphCache;
+    UIScreen* _screen;
+    NSMutableDictionary* _graphCache;
 }
 @property (nonatomic, assign, readonly) NSMutableDictionary* graphCache;
 @property (atomic, assign, readonly) UIScreen* _intendedScreen;

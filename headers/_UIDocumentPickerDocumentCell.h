@@ -2,7 +2,7 @@
 @interface _UIDocumentPickerDocumentCell : _UIDocumentPickerCell {
 
     BOOL _enabled;
-    _UIDocumentPickerContainerItem _item;
+    _UIDocumentPickerContainerItem* _item;
 }
 
  - (void) setItem:(id)a;

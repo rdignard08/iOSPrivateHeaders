@@ -1,7 +1,7 @@
 
 @interface CUIThemeSchemaPSDLayer : NSObject {
 
-    NSString name;
+    NSString* name;
 }
 @property (nonatomic, retain, readwrite) NSString* name;
 

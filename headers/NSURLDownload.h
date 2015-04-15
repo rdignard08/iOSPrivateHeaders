@@ -2,7 +2,7 @@
 @protocol NSURLAuthenticationChallengeSender;
 @interface NSURLDownload : NSObject <NSURLAuthenticationChallengeSender> {
 
-    NSURLDownloadInternal _internal;
+    NSURLDownloadInternal* _internal;
 }
 @property (atomic, copy, readonly) NSURLRequest* request;
 @property (atomic, copy, readonly) NSData* resumeData;

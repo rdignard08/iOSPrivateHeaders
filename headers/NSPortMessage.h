@@ -1,9 +1,9 @@
 
 @interface NSPortMessage : NSObject {
 
-    NSPort localPort;
-    NSPort remotePort;
-    NSMutableArray components;
+    NSPort* localPort;
+    NSPort* remotePort;
+    NSMutableArray* components;
     unsigned int msgid;
     ^v reserved2;
     ^v reserved;

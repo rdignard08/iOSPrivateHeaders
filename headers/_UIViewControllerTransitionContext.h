@@ -3,7 +3,7 @@
 @interface _UIViewControllerTransitionContext : NSObject <UIViewControllerContextTransitioningEx> {
 
     double _previousPercentComplete;
-    NSArray _disabledViews;
+    NSArray* _disabledViews;
     {?="interactorImplementsCompletionSpeed"b1"interactorImplementsCompletionCurve"b1"transitionWasCancelled"b1"transitionIsCompleting"b1} _transitionContextFlags;
     BOOL __allowUserInteraction;
     BOOL _rotating;
@@ -11,17 +11,17 @@
     BOOL _isCurrentlyInteractive;
     BOOL _isAnimated;
     BOOL __isPresentation;
-    NSArray __containerViews;
+    NSArray* __containerViews;
     double __percentOffset;
-    <UIViewControllerAnimatedTransitioning> __animator;
-    <UIViewControllerInteractiveTransitioning> __interactor;
-    UIView _containerView;
+    <UIViewControllerAnimatedTransitioning>* __animator;
+    <UIViewControllerInteractiveTransitioning>* __interactor;
+    UIView* _containerView;
     @? __willCompleteHandler;
     @? __completionHandler;
     @? __didCompleteHandler;
     double __completionVelocity;
     long long __completionCurve;
-    _UIViewControllerTransitionCoordinator __auxContext;
+    _UIViewControllerTransitionCoordinator* __auxContext;
     double __duration;
     long long __state;
     @? __interactiveUpdateHandler;

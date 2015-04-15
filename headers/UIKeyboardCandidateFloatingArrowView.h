@@ -1,7 +1,7 @@
 
 @interface UIKeyboardCandidateFloatingArrowView : UICollectionReusableView {
 
-    UIButton _arrowButton;
+    UIButton* _arrowButton;
 }
  + (id) reuseIdentifier;
  + (id) collectionViewKind;

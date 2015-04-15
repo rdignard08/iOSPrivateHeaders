@@ -1,8 +1,8 @@
 
 @interface UICollectionViewUpdateItem : NSObject {
 
-    NSIndexPath _initialIndexPath;
-    NSIndexPath _finalIndexPath;
+    NSIndexPath* _initialIndexPath;
+    NSIndexPath* _finalIndexPath;
     long long _updateAction;
     id _gap;
 }

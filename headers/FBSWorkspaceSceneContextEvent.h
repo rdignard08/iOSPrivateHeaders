@@ -1,7 +1,7 @@
 
 @interface FBSWorkspaceSceneContextEvent : FBSWorkspaceSceneEvent {
 
-    FBSContext _context;
+    FBSContext* _context;
     BOOL _orderOut;
 }
 

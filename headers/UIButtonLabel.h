@@ -2,7 +2,7 @@
 @interface UIButtonLabel : UILabel {
 
     BOOL _reverseShadow;
-    UIButton _button;
+    UIButton* _button;
 }
  + (id) _defaultAttributes;
 

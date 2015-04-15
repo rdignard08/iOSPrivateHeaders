@@ -2,11 +2,11 @@
 @protocol RGDataSourceProtocol;
 @interface RGXMLNode : NSObject <RGDataSourceProtocol> {
 
-    RGXMLNode _parentNode;
-    NSMutableDictionary _attributes;
-    NSArray _childNodes;
-    NSString _name;
-    NSString _innerXML;
+    RGXMLNode* _parentNode;
+    NSMutableDictionary* _attributes;
+    NSArray* _childNodes;
+    NSString* _name;
+    NSString* _innerXML;
 }
 @property (nonatomic, retain, readwrite) NSArray* keys;
 @property (nonatomic, weak, readonly) RGXMLNode* parentNode;

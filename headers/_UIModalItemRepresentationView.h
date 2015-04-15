@@ -2,7 +2,7 @@
 @interface _UIModalItemRepresentationView : UIView {
 
     BOOL _useFakeEffectSource;
-    UIView _fakeEffectSourceView;
+    UIView* _fakeEffectSourceView;
 }
 
  - (void) layoutSubviews;

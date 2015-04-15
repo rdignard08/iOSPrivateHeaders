@@ -1,7 +1,7 @@
 
 @interface _UIBackdropEffectView : UIView {
 
-    CABackdropLayer _backdropLayer;
+    CABackdropLayer* _backdropLayer;
     double _zoom;
 }
  + (Class) layerClass;

@@ -1,7 +1,7 @@
 
 @interface NSKeyValueFastMutableArray : NSKeyValueMutableArray {
 
-    NSKeyValueMutatingArrayMethodSet _mutatingMethods;
+    NSKeyValueMutatingArrayMethodSet* _mutatingMethods;
 }
 
  - (void) removeLastObject;

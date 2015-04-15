@@ -2,11 +2,11 @@
 @protocol _UIBackdropViewGraphicsQualityChangeDelegate;
 @interface _UINavigationPaletteBackground : UIView <_UIBackdropViewGraphicsQualityChangeDelegate> {
 
-    UIColor _barTintColor;
-    UIImageView _shadowView;
-    _UINavigationControllerPalette _palette;
-    UINavigationBar _bar;
-    _UIBackdropView _adaptiveBackdrop;
+    UIColor* _barTintColor;
+    UIImageView* _shadowView;
+    _UINavigationControllerPalette* _palette;
+    UINavigationBar* _bar;
+    _UIBackdropView* _adaptiveBackdrop;
     {?="barTranslucence"b3"barStyle"b3"paletteWantsAdaptiveBackdrop"b1} _navbarFlags;
 }
 

@@ -1,8 +1,8 @@
 
 @interface NSSetExpression : NSExpression {
 
-    NSExpression _left;
-    NSExpression _right;
+    NSExpression* _left;
+    NSExpression* _right;
 }
  + (BOOL) supportsSecureCoding;
 

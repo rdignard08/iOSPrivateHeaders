@@ -2,10 +2,10 @@
 @interface NSKeyValueObservationInfo : NSObject {
 
     int _retainCountMinusOne;
-    NSArray _observances;
+    NSArray* _observances;
     unsigned long long _cachedHash;
     BOOL _cachedIsShareable;
-    NSHashTable _observables;
+    NSHashTable* _observables;
 }
 
  - (id) _initWithObservances:(^@)acount:(unsigned long long)b;

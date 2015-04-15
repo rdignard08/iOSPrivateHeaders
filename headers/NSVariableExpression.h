@@ -1,7 +1,7 @@
 
 @interface NSVariableExpression : NSExpression {
 
-    NSString _variable;
+    NSString* _variable;
 }
  + (BOOL) supportsSecureCoding;
 

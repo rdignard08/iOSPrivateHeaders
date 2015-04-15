@@ -1,9 +1,9 @@
 
 @interface _UIDecompressionInfo : NSObject {
 
-    NSObject<OS_dispatch_semaphore> syncSemaphore;
-    NSObject<OS_dispatch_semaphore> metadataSemaphore;
-    NSData imageData;
+    NSObject<OS_dispatch_semaphore>* syncSemaphore;
+    NSObject<OS_dispatch_semaphore>* metadataSemaphore;
+    NSData* imageData;
     {CGSize="width"d"height"d} maxSize;
     int renderingIntent;
     BOOL decompressionComplete;

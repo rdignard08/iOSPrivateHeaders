@@ -1,8 +1,8 @@
 
 @interface SBSAssertion : NSObject {
 
-    NSString _assertionName;
-    NSString _reason;
+    NSString* _assertionName;
+    NSString* _reason;
     unsigned int _port;
     {_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]} _lock;
 }

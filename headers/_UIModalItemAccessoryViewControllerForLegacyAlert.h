@@ -1,7 +1,7 @@
 
 @interface _UIModalItemAccessoryViewControllerForLegacyAlert : UIViewController {
 
-    UIView _accessoryView;
+    UIView* _accessoryView;
 }
 
  - (void) dealloc;

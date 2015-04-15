@@ -1,7 +1,7 @@
 
 @interface LSResumableActivitiesControlManager : NSObject {
 
-    NSXPCConnection connection;
+    NSXPCConnection* connection;
     id _delegate;
 }
 @property (atomic, assign, readwrite) NSNumber* delegate;

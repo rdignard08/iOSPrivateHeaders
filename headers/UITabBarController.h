@@ -2,27 +2,27 @@
 @protocol UIGestureRecognizerDelegate, UITabBarDelegate, NSCoding;
 @interface UITabBarController : UIViewController <UIGestureRecognizerDelegate, UITabBarDelegate, NSCoding> {
 
-    UITabBar _tabBar;
-    UIView _containerView;
-    UIView _viewControllerTransitionView;
+    UITabBar* _tabBar;
+    UIView* _containerView;
+    UIView* _viewControllerTransitionView;
     id _tabBarItemsToViewControllers;
-    UIViewController _selectedViewController;
-    UIMoreNavigationController _moreNavigationController;
-    NSArray _customizableViewControllers;
-    <UITabBarControllerDelegate><UITabBarControllerDelegate_Private> _delegate;
-    UIViewController _selectedViewControllerDuringWillAppear;
-    UIViewController _transientViewController;
+    UIViewController* _selectedViewController;
+    UIMoreNavigationController* _moreNavigationController;
+    NSArray* _customizableViewControllers;
+    <UITabBarControllerDelegate><UITabBarControllerDelegate_Private>* _delegate;
+    UIViewController* _selectedViewControllerDuringWillAppear;
+    UIViewController* _transientViewController;
     unsigned long long _customMaxItems;
     unsigned long long _defaultMaxItems;
     long long _tabBarPosition;
-    UITapGestureRecognizer _backGestureRecognizer;
-    UITapGestureRecognizer _selectGestureRecognizer;
+    UITapGestureRecognizer* _backGestureRecognizer;
+    UITapGestureRecognizer* _selectGestureRecognizer;
     {?="isShowingMoreItem"b1"needsToRebuildItems"b1"isBarHidden"b1"editButtonOnLeft"b1"barLayoutIsValid"b1"reselectTab"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"preferTabBarFocused"b1} _tabBarControllerFlags;
-    NSMutableArray _moreChildViewControllers;
-    UIView _accessoryView;
-    <UIViewControllerAnimatedTransitioning> __animator;
-    <UIViewControllerInteractiveTransitioning> __interactor;
-    NSString __backdropGroupName;
+    NSMutableArray* _moreChildViewControllers;
+    UIView* _accessoryView;
+    <UIViewControllerAnimatedTransitioning>* __animator;
+    <UIViewControllerInteractiveTransitioning>* __interactor;
+    NSString* __backdropGroupName;
 }
  + (BOOL) _directlySetsContentOverlayInsetsForChildren;
  + (BOOL) doesOverrideSupportedInterfaceOrientations;

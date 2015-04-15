@@ -2,13 +2,13 @@
 @protocol NSURLConnectionRequired, NSURLAuthenticationChallengeSender;
 @interface NSURLConnectionInternal : NSObject <NSURLConnectionRequired, NSURLAuthenticationChallengeSender> {
 
-    NSURLConnection _connection;
-    NSOperationQueue _delegateQueue;
-    NSURL _url;
-    NSURLRequest _originalRequest;
-    NSURLRequest _currentRequest;
+    NSURLConnection* _connection;
+    NSOperationQueue* _delegateQueue;
+    NSURL* _url;
+    NSURLRequest* _originalRequest;
+    NSURLRequest* _currentRequest;
     id _delegate;
-    NSDictionary _connectionProperties;
+    NSDictionary* _connectionProperties;
     BOOL _connectionActive;
 }
 

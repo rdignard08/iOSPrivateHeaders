@@ -6,7 +6,7 @@
     BOOL _isExclusive;
     int _statusBarStyleOverrides;
     int _pid;
-    NSString _uniqueIdentifier;
+    NSString* _uniqueIdentifier;
 }
 @property (nonatomic, assign, readwrite) NSNumber* statusBarStyleOverrides;
 @property (nonatomic, assign, readwrite) NSNumber* pid;

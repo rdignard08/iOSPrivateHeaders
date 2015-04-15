@@ -2,22 +2,22 @@
 @protocol NSCopying;
 @interface UIAlertAction : NSObject <NSCopying> {
 
-    NSString _title;
+    NSString* _title;
     long long _titleTextAlignment;
     BOOL _enabled;
     BOOL _checked;
     BOOL _isDefault;
-    UIColor _imageTintColor;
-    UIColor _titleTextColor;
+    UIColor* _imageTintColor;
+    UIColor* _titleTextColor;
     long long _style;
     @? _handler;
     @? _simpleHandler;
-    UIImage _image;
+    UIImage* _image;
     @? _shouldDismissHandler;
-    NSString __descriptiveText;
-    UIViewController _contentViewController;
-    <_UIAlertActionRepresenting> __representer;
-    UIAlertController __alertController;
+    NSString* __descriptiveText;
+    UIViewController* _contentViewController;
+    <_UIAlertActionRepresenting>* __representer;
+    UIAlertController* __alertController;
 }
 @property (nonatomic, copy, readwrite) NSString* title;
 @property (nonatomic, assign, readwrite) NSNumber* style;

@@ -1,7 +1,7 @@
 
 @interface PEPServiceConfiguration : NSObject {
 
-    NSString _cacheFilePath;
+    NSString* _cacheFilePath;
     BOOL _shouldDownloadNetworkConfigFile;
     double _cachedFileLastModifyDate;
 }

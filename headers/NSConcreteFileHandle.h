@@ -8,15 +8,15 @@
     unsigned short _activity;
     int _error;
     int _resultSocket;
-    NSObject<OS_dispatch_source> _dsrc;
-    NSObject<OS_dispatch_data> _resultData;
-    NSObject<OS_dispatch_queue> _fhQueue;
-    NSObject<OS_dispatch_io> _readChannel;
+    NSObject<OS_dispatch_source>* _dsrc;
+    NSObject<OS_dispatch_data>* _resultData;
+    NSObject<OS_dispatch_queue>* _fhQueue;
+    NSObject<OS_dispatch_io>* _readChannel;
     @? _readabilityHandler;
     @? _writeabilityHandler;
-    NSObject<OS_dispatch_source> _readMonitoringSource;
-    NSObject<OS_dispatch_source> _writeMonitoringSource;
-    NSObject<OS_dispatch_queue> _monitoringQueue;
+    NSObject<OS_dispatch_source>* _readMonitoringSource;
+    NSObject<OS_dispatch_source>* _writeMonitoringSource;
+    NSObject<OS_dispatch_queue>* _monitoringQueue;
 }
 
  - (id) initWithFileDescriptor:(int)acloseOnDealloc:(BOOL)b;

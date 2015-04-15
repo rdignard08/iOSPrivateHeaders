@@ -1,12 +1,12 @@
 
 @interface FontAssetDownloadManager : NSObject {
 
-    fRef fDescriptors;
-    fRef fMandatoryAttributes;
+    fRef* fDescriptors;
+    fRef* fMandatoryAttributes;
     @? fProgressCallbackBlock;
-    NSMutableDictionary fProgressParams;
-    NSMutableDictionary fDownloadOptions;
-    NSSet fPreciousFontLanguages;
+    NSMutableDictionary* fProgressParams;
+    NSMutableDictionary* fDownloadOptions;
+    NSSet* fPreciousFontLanguages;
 }
  + (Class) getASAssetQueryClass;
  + (BOOL) shouldIgnoreFontAsset:(id)a;

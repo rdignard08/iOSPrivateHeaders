@@ -4,9 +4,9 @@
 
     BOOL _authenticationRequired;
     BOOL _destructive;
-    NSString _activationModeString;
-    NSString _identifier;
-    NSString _title;
+    NSString* _activationModeString;
+    NSString* _identifier;
+    NSString* _title;
     unsigned long long _activationMode;
 }
 @property (nonatomic, copy, readwrite) NSString* identifier;

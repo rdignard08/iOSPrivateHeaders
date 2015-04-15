@@ -12,14 +12,14 @@
     {CGPoint="x"d"y"d} endScrollPoint;
     {CGSize="width"d"height"d} visibleSize;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} centerRect;
-    UIGestureAnimation rotationAnimation;
+    UIGestureAnimation* rotationAnimation;
     float rotationDegrees;
     float recentRotationDegrees;
     float minDegrees;
     float maxDegrees;
     float startDegrees;
     float endDegrees;
-    UIGestureAnimation zoomAnimation;
+    UIGestureAnimation* zoomAnimation;
     int zoomRubberBandHysteresisCount;
     float zoomScale;
     float startScale;
@@ -32,7 +32,7 @@
     float zoomFailureDuration;
     float zoomFailureStartScale;
     float zoomAnimationProgress;
-    UIScrollAnimation scrollAnimation;
+    UIScrollAnimation* scrollAnimation;
     {?="pushedRunLoop"b1"isRotatingRight"b1"isZoomRubberBandEnabled"b1"zoomsFromCurrentToMinOrMax"b1"updatesScroller"b1"isAnimatingZoomFailure"b1} flags;
 }
 

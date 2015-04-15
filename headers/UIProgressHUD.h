@@ -1,10 +1,10 @@
 
 @interface UIProgressHUD : UIView {
 
-    UIProgressIndicator _progressIndicator;
-    UILabel _progressMessage;
-    UIImageView _doneView;
-    UIWindow _parentWindow;
+    UIProgressIndicator* _progressIndicator;
+    UILabel* _progressMessage;
+    UIImageView* _doneView;
+    UIWindow* _parentWindow;
     {?="isShowing"b1"isShowingText"b1"fixedFrame"b1"reserved"b30} _progressHUDFlags;
 }
 

@@ -1,7 +1,7 @@
 
 @interface BKSHIDEventRouterManagerBase : NSObject {
 
-    NSArray _eventRouters;
+    NSArray* _eventRouters;
 }
 @property (nonatomic, retain, readwrite) NSArray* eventRouters;
 

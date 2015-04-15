@@ -2,7 +2,7 @@
 @protocol NSCopying, NSSecureCoding;
 @interface NSExtensionItem : NSObject <NSCopying, NSSecureCoding> {
 
-    NSMutableDictionary _userInfo;
+    NSMutableDictionary* _userInfo;
 }
 @property (nonatomic, copy, readwrite) NSAttributedString* attributedTitle;
 @property (nonatomic, copy, readwrite) NSAttributedString* attributedContentText;

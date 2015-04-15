@@ -1,9 +1,9 @@
 
 @interface _NSKeyedUnarchiverHelper : NSObject {
 
-    NSArray _white;
+    NSArray* _white;
     unsigned int _lastRef;
-    NSMutableArray _allowedClasses;
+    NSMutableArray* _allowedClasses;
 }
 
  - (id) allowedClassNames;

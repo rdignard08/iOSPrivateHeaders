@@ -4,9 +4,9 @@
     double reqLim;
     double repLim;
     BOOL remoteUsesKeyedDO;
-    NSSet whitelist;
+    NSSet* whitelist;
     BOOL useKeyedDO;
-    NSConnection parent;
+    NSConnection* parent;
 }
 
  - (void) setWhitelist:(id)a;

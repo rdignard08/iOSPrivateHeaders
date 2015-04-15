@@ -5,9 +5,9 @@
     ^{_CFURLRequest=} _currentRequest;
     ^{__CFDictionary=} _connectionProperties;
     ^{__CFDictionary=} _socketProperties;
-    NSMutableURLRequest _nsCurrentRequest;
-    NSURLRequest _nsOriginalRequest;
-    NSURLSession _session;
+    NSMutableURLRequest* _nsCurrentRequest;
+    NSURLRequest* _nsOriginalRequest;
+    NSURLSession* _session;
     BOOL _is_cellular;
     Class _my_protocolForTask;
     ^{__PerformanceTiming=} __performanceTiming;

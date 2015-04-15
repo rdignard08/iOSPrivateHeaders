@@ -2,7 +2,7 @@
 @interface WAKClipView : WAKView {
 
     BOOL _copiesOnScroll;
-    WAKView _documentView;
+    WAKView* _documentView;
 }
 
  - (void) dealloc;

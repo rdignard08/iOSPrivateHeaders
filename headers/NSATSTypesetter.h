@@ -1,16 +1,16 @@
 
 @interface NSATSTypesetter : NSTypesetter {
 
-    NSAttributedString attributedString;
+    NSAttributedString* attributedString;
     {_NSRange="location"Q"length"Q} paragraphGlyphRange;
     {_NSRange="location"Q"length"Q} paragraphSeparatorGlyphRange;
     double lineFragmentPadding;
-    NSLayoutManager layoutManager;
-    NSArray textContainers;
-    NSTextContainer currentTextContainer;
+    NSLayoutManager* layoutManager;
+    NSArray* textContainers;
+    NSTextContainer* currentTextContainer;
     unsigned long long currentTextContainerIndex;
     {CGSize="width"d"height"d} currentTextContainerSize;
-    NSParagraphStyle currentParagraphStyle;
+    NSParagraphStyle* currentParagraphStyle;
     [8^v] _atsReserved;
     id _private;
 }

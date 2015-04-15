@@ -4,7 +4,7 @@
 
     id _private;
     BOOL m_editing;
-    UIView m_inputView;
+    UIView* m_inputView;
 }
  + (void) initialize;
  + (BOOL) _isCompatibilityTextView;

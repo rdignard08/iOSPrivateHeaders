@@ -1,9 +1,9 @@
 
 @interface CISkyAndGrassAdjust : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputSkyAmount;
-    NSNumber inputGrassAmount;
+    CIImage* inputImage;
+    NSNumber* inputSkyAmount;
+    NSNumber* inputGrassAmount;
 }
  + (id) customAttributes;
 

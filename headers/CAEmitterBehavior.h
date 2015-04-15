@@ -3,7 +3,7 @@
 @interface CAEmitterBehavior : NSObject <NSCoding> {
 
     unsigned int _type;
-    NSString _name;
+    NSString* _name;
     ^v _attr;
     ^v _cache;
     unsigned int _flags;

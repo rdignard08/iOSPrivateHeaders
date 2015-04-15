@@ -1,9 +1,9 @@
 
 @interface UICollectionViewReorderedItem : NSObject {
 
-    UICollectionViewCell _cell;
-    NSIndexPath _originalIndexPath;
-    NSIndexPath _targetIndexPath;
+    UICollectionViewCell* _cell;
+    NSIndexPath* _originalIndexPath;
+    NSIndexPath* _targetIndexPath;
 }
 @property (nonatomic, assign, readonly) UICollectionViewCell* cell;
 @property (nonatomic, retain, readwrite) NSIndexPath* originalIndexPath;

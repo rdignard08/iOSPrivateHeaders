@@ -1,7 +1,7 @@
 
 @interface UIWebDateTimePopoverViewController : UIViewController {
 
-    <UIWebFormControl> _innerWebDateTimeControl;
+    <UIWebFormControl>* _innerWebDateTimeControl;
 }
 
  - (void) dealloc;

@@ -1,7 +1,7 @@
 
 @interface NSConcreteTextStorage : NSTextStorage {
 
-    NSConcreteNotifyingMutableAttributedString _contents;
+    NSConcreteNotifyingMutableAttributedString* _contents;
     {_opaque_pthread_rwlock_t="__sig"q"__opaque"[192c]} _lock;
     {?="_forceFixAttributes"b1"_needLock"b1"_lockInitialized"b1"_inFixingAttributes"b1"_reserved"b28} _pFlags;
 }

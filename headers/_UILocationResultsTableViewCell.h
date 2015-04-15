@@ -2,14 +2,14 @@
 @interface _UILocationResultsTableViewCell : UITableViewCell {
 
     long long _locationImageType;
-    UIImage _customLocationImage;
-    UILabel _searchTextLabel;
-    UILabel _searchDetailTextLabel;
-    UIImageView _searchImageView;
-    NSLayoutConstraint _topMarginConstraint;
-    NSLayoutConstraint _interLabelSpaceConstraint;
-    NSLayoutConstraint _bottomMarginConstraint;
-    UIView _cellHeightStrut;
+    UIImage* _customLocationImage;
+    UILabel* _searchTextLabel;
+    UILabel* _searchDetailTextLabel;
+    UIImageView* _searchImageView;
+    NSLayoutConstraint* _topMarginConstraint;
+    NSLayoutConstraint* _interLabelSpaceConstraint;
+    NSLayoutConstraint* _bottomMarginConstraint;
+    UIView* _cellHeightStrut;
     double _additionalLeftSidePadding;
 }
 

@@ -7,7 +7,7 @@
     BOOL _mediaPlaybackAllowsAirPlay;
     BOOL _suppressesIncrementalRendering;
     unsigned long long _dataDetectorTypes;
-    NSString _customUserAgent;
+    NSString* _customUserAgent;
 }
 @property (nonatomic, assign, readwrite) NSNumber* dataDetectorTypes;
 @property (nonatomic, assign, readwrite) NSNumber* allowsInlineMediaPlayback;

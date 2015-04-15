@@ -2,28 +2,28 @@
 @protocol UIWebPDFViewPrivateDelegate, UIDocumentPasswordViewDelegate, _UIRotatingAlertControllerDelegate, UIWebPDFViewDelegate, _UIWebDoubleTapDelegate, _UIWebRotationDelegate;
 @interface UIWebPDFViewHandler : NSObject <UIWebPDFViewPrivateDelegate, UIDocumentPasswordViewDelegate, _UIRotatingAlertControllerDelegate, UIWebPDFViewDelegate, _UIWebDoubleTapDelegate, _UIWebRotationDelegate> {
 
-    UIWebPDFView _pdfView;
+    UIWebPDFView* _pdfView;
     BOOL _scalesPageToFit;
     double _initialZoomScale;
-    NSObject<UIWebPDFViewHandlerDelegate> _pdfHandlerDelegate;
-    _UIHighlightView _linkHighlightView;
-    UIWebPDFLabelView _pageLabelView;
+    NSObject<UIWebPDFViewHandlerDelegate>* _pdfHandlerDelegate;
+    _UIHighlightView* _linkHighlightView;
+    UIWebPDFLabelView* _pageLabelView;
     BOOL _showPageLabels;
     BOOL _showsShadowsForHTMLContent;
     BOOL _cachedScrollViewShadowsState;
-    UIDocumentPasswordView _passwordEntryView;
-    NSMapTable _searchControllers;
-    UIColor _backgroundColorForUnRenderedContent;
+    UIDocumentPasswordView* _passwordEntryView;
+    NSMapTable* _searchControllers;
+    UIColor* _backgroundColorForUnRenderedContent;
     BOOL _hideActivityIndicatorForUnRenderedContent;
     BOOL _hidePageViewsUntilReadyToRender;
-    WebPDFNSNumberFormatter _labelViewFormatter;
+    WebPDFNSNumberFormatter* _labelViewFormatter;
     {_PDFHistoryItem="restorePending"B"isInitialScale"B"zoomScale"d"contentOffset"{CGPoint="x"d"y"d}} _pendingHistoryItemRestore;
-    _UIRotatingAlertController _linkActionSheet;
-    NSDictionary _linkActionInfo;
-    NSArray _linkActions;
+    _UIRotatingAlertController* _linkActionSheet;
+    NSDictionary* _linkActionInfo;
+    NSArray* _linkActions;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _rectOfInterest;
     BOOL _rectOfInterestConsidersHeight;
-    UIAlertView _currentAlert;
+    UIAlertView* _currentAlert;
 }
 @property (nonatomic, assign, readonly) UIWebPDFView* pdfView;
 @property (nonatomic, assign, readonly) UIView* frontView;

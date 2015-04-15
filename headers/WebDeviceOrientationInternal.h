@@ -1,7 +1,7 @@
 
 @interface WebDeviceOrientationInternal : NSObject {
 
-    m_ptr m_orientation;
+    m_ptr* m_orientation;
 }
 
  - (id) .cxx_construct;

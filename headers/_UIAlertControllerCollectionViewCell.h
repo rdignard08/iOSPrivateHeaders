@@ -1,7 +1,7 @@
 
 @interface _UIAlertControllerCollectionViewCell : UICollectionViewCell {
 
-    _UIAlertControllerActionView _actionView;
+    _UIAlertControllerActionView* _actionView;
 }
 
  - (void) dealloc;

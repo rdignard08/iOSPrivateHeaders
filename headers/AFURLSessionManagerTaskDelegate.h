@@ -2,10 +2,10 @@
 @protocol NSURLSessionTaskDelegate, NSURLSessionDataDelegate, NSURLSessionDownloadDelegate;
 @interface AFURLSessionManagerTaskDelegate : NSObject <NSURLSessionTaskDelegate, NSURLSessionDataDelegate, NSURLSessionDownloadDelegate> {
 
-    AFURLSessionManager _manager;
-    NSMutableData _mutableData;
-    NSProgress _progress;
-    NSURL _downloadFileURL;
+    AFURLSessionManager* _manager;
+    NSMutableData* _mutableData;
+    NSProgress* _progress;
+    NSURL* _downloadFileURL;
     @? _downloadTaskDidFinishDownloading;
     @? _completionHandler;
 }

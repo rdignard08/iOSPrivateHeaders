@@ -1,15 +1,15 @@
 
 @interface _CUINineImagePieces : NSObject {
 
-    CUIImage _center;
-    CUIImage _topLeft;
-    CUIImage _top;
-    CUIImage _topRight;
-    CUIImage _right;
-    CUIImage _bottomRight;
-    CUIImage _bottom;
-    CUIImage _bottomLeft;
-    CUIImage _left;
+    CUIImage* _center;
+    CUIImage* _topLeft;
+    CUIImage* _top;
+    CUIImage* _topRight;
+    CUIImage* _right;
+    CUIImage* _bottomRight;
+    CUIImage* _bottom;
+    CUIImage* _bottomLeft;
+    CUIImage* _left;
     BOOL _tileCenterAndEdges;
 }
 

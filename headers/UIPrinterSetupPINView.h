@@ -2,12 +2,12 @@
 @protocol UITextFieldDelegate;
 @interface UIPrinterSetupPINView : UIControl <UITextFieldDelegate> {
 
-    UILabel _titleLabel;
-    UILabel _enterLabel;
-    UIPasscodeField _passcodeField;
-    UITextField _textEntryField;
-    UILabel _failedLabel;
-    UIImageView _failedBackground;
+    UILabel* _titleLabel;
+    UILabel* _enterLabel;
+    UIPasscodeField* _passcodeField;
+    UITextField* _textEntryField;
+    UILabel* _failedLabel;
+    UIImageView* _failedBackground;
     long long _failedAttemptCount;
 }
 

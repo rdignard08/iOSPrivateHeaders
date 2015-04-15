@@ -1,10 +1,10 @@
 
 @interface SBSStatusBarStyleOverridesAssertion : NSObject {
 
-    SBSStatusBarStyleOverridesAssertionData _assertionData;
+    SBSStatusBarStyleOverridesAssertionData* _assertionData;
     @? _invalidationHandler;
-    NSObject<OS_dispatch_queue> _invalidationQueue;
-    NSRecursiveLock _invalidationLock;
+    NSObject<OS_dispatch_queue>* _invalidationQueue;
+    NSRecursiveLock* _invalidationLock;
 }
 @property (nonatomic, assign, readonly) NSNumber* statusBarStyleOverrides;
 @property (nonatomic, assign, readonly) NSNumber* pid;

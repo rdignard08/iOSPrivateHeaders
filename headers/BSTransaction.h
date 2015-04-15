@@ -2,20 +2,20 @@
 @protocol BSWatchdogProviding;
 @interface BSTransaction : NSObject <BSWatchdogProviding> {
 
-    BSTransaction _parentTransaction;
-    NSMutableSet _lifeAssertions;
+    BSTransaction* _parentTransaction;
+    NSMutableSet* _lifeAssertions;
     BOOL _failed;
     BOOL _interrupted;
     unsigned long long _state;
-    NSString _failureReason;
-    NSDate _startTime;
-    NSMutableDictionary _milestonesToHandlers;
-    NSMutableArray _childTransactions;
-    NSMutableSet _milestones;
-    NSHashTable _observers;
-    NSMutableArray _auditHistory;
+    NSString* _failureReason;
+    NSDate* _startTime;
+    NSMutableDictionary* _milestonesToHandlers;
+    NSMutableArray* _childTransactions;
+    NSMutableSet* _milestones;
+    NSHashTable* _observers;
+    NSMutableArray* _auditHistory;
     BOOL _buildAuditHistory;
-    <BSLogging> _debugLogger;
+    <BSLogging>* _debugLogger;
     @? _completionBlock;
 }
 @property (nonatomic, retain, readonly) NSNumber* queue;

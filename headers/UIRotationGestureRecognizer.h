@@ -10,7 +10,7 @@
     double _previousVelocity;
     {CGPoint="x"d"y"d} _anchorSceneReferencePoint;
     id _transformAnalyzer;
-    UITouch _touches;
+    UITouch* _touches;
     float _preRecognitionWeight;
     float _postRecognitionWeight;
 }

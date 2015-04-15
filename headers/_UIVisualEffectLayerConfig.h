@@ -2,8 +2,8 @@
 @interface _UIVisualEffectLayerConfig : NSObject {
 
     double _opacity;
-    NSString _filterType;
-    UIColor _fillColor;
+    NSString* _filterType;
+    UIColor* _fillColor;
 }
 @property (nonatomic, assign, readonly) NSNumber* opacity;
 @property (nonatomic, assign, readonly) NSString* filterType;

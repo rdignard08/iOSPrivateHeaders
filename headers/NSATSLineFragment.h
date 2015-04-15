@@ -2,7 +2,7 @@
 @interface NSATSLineFragment : NSObject {
 
     ^v _line;
-    NSATSTypesetter _typesetter;
+    NSATSTypesetter* _typesetter;
     {_NSRange="location"Q"length"Q} _glyphRange;
     {_NSRange="location"Q"length"Q} _characterRange;
     double _minPosition;

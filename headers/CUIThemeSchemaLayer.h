@@ -1,8 +1,8 @@
 
 @interface CUIThemeSchemaLayer : NSObject {
 
-    NSArray _renditions;
-    NSString _name;
+    NSArray* _renditions;
+    NSString* _name;
     unsigned long long _index;
 }
 @property (nonatomic, retain, readwrite) NSArray* renditions;

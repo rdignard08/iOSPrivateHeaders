@@ -1,17 +1,17 @@
 
 @interface UIKeyboardFlipTransitionView : UIKeyboardSplitTransitionView {
 
-    CALayer _container;
-    CALayer _frontFace;
-    CALayer _backFace;
-    CALayer _frontDarkening;
-    CALayer _backDarkening;
-    CALayer _backDarkeningLeft;
-    CALayer _backDarkeningRight;
+    CALayer* _container;
+    CALayer* _frontFace;
+    CALayer* _backFace;
+    CALayer* _frontDarkening;
+    CALayer* _backDarkening;
+    CALayer* _backDarkeningLeft;
+    CALayer* _backDarkeningRight;
     BOOL _showingFrontFace;
-    UIKBCacheToken _startKeyplaneToken;
-    UIKBCacheToken _endKeyplaneToken;
-    NSMutableDictionary _controlKeys;
+    UIKBCacheToken* _startKeyplaneToken;
+    UIKBCacheToken* _endKeyplaneToken;
+    NSMutableDictionary* _controlKeys;
     {?="shiftKeys"b1"returnKeys"b1"moreIntlKeys"b1} _rebuildFlags;
 }
 

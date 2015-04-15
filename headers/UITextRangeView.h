@@ -1,12 +1,12 @@
 
 @interface UITextRangeView : UIView {
 
-    UITextSelectionView m_selectionView;
-    UIResponder<UITextInput> m_container;
+    UITextSelectionView* m_selectionView;
+    UIResponder<UITextInput>* m_container;
     int m_mode;
-    NSArray m_rects;
-    NSMutableArray m_rectViews;
-    UITouch m_activeTouch;
+    NSArray* m_rects;
+    NSMutableArray* m_rectViews;
+    UITouch* m_activeTouch;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_startEdge;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_endEdge;
     {CGPoint="x"d"y"d} m_basePoint;
@@ -16,8 +16,8 @@
     double m_initialDistance;
     {CGPoint="x"d"y"d} m_touchOffset;
     double m_firstMovedTime;
-    UISelectionGrabber m_startGrabber;
-    UISelectionGrabber m_endGrabber;
+    UISelectionGrabber* m_startGrabber;
+    UISelectionGrabber* m_endGrabber;
     BOOL m_animateUpdate;
     BOOL m_baseIsStart;
     BOOL m_commandsWereShowing;

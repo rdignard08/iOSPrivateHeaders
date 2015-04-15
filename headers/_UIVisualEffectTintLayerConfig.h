@@ -1,7 +1,7 @@
 
 @interface _UIVisualEffectTintLayerConfig : _UIVisualEffectLayerConfig {
 
-    UIColor _tintColor;
+    UIColor* _tintColor;
 }
  + (id) layerWithTintColor:(id)a;
 

@@ -2,8 +2,8 @@
 @interface UIKBBackdropView : _UIBackdropView {
 
     BOOL _primaryBackdrop;
-    NSMutableArray _secondaryBackdrops;
-    UIKeyboardBackdropCornerView _backdropCornerView;
+    NSMutableArray* _secondaryBackdrops;
+    UIKeyboardBackdropCornerView* _backdropCornerView;
     BOOL _hasUpdatedFrame;
 }
  + (id) unconditionalTriggerNotificationNames;

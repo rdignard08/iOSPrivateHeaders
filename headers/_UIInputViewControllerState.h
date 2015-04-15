@@ -2,8 +2,8 @@
 @protocol NSCopying, NSSecureCoding;
 @interface _UIInputViewControllerState : NSObject <NSCopying, NSSecureCoding> {
 
-    TIDocumentState _documentState;
-    TITextInputTraits _textInputTraits;
+    TIDocumentState* _documentState;
+    TITextInputTraits* _textInputTraits;
 }
 @property (nonatomic, retain, readwrite) TIDocumentState* documentState;
 @property (nonatomic, retain, readwrite) TITextInputTraits* textInputTraits;

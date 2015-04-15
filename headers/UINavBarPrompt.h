@@ -1,8 +1,8 @@
 
 @interface UINavBarPrompt : UIView {
 
-    UILabel _label;
-    UINavigationBar _navBar;
+    UILabel* _label;
+    UINavigationBar* _navBar;
 }
 
  - (void) dealloc;

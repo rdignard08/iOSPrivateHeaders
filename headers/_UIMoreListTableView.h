@@ -1,7 +1,7 @@
 
 @interface _UIMoreListTableView : UITableView {
 
-    UIMoreListController __listController;
+    UIMoreListController* __listController;
 }
 
  - (void) didMoveToWindow;

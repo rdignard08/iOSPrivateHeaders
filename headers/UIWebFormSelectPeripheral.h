@@ -2,8 +2,8 @@
 @protocol UIFormPeripheral;
 @interface UIWebFormSelectPeripheral : NSObject <UIFormPeripheral> {
 
-    DOMHTMLSelectElement _selectionNode;
-    <UIWebFormControl> _selectControl;
+    DOMHTMLSelectElement* _selectionNode;
+    <UIWebFormControl>* _selectControl;
 }
 @property (nonatomic, retain, readwrite) DOMHTMLSelectElement* _selectionNode;
 @property (nonatomic, retain, readwrite) NSNumber* _selectControl;

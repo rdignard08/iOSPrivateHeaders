@@ -1,7 +1,7 @@
 
 @interface CFPrefsPlistSource : CFPrefsSource {
 
-    NSObject<OS_dispatch_group> _synchGroup;
+    NSObject<OS_dispatch_group>* _synchGroup;
     ^{__CFString=} userIdentifier;
     ^{__CFString=} domainIdentifier;
     ^{__CFString=} container;

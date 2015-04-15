@@ -5,8 +5,8 @@
     long long _style;
     BOOL _legacy;
     long long _legibilityStyle;
-    UIColor _foregroundColor;
-    NSNumber _overrideHeight;
+    UIColor* _foregroundColor;
+    NSNumber* _overrideHeight;
 }
 @property (nonatomic, assign, readonly) NSNumber* style;
 @property (nonatomic, assign, readonly, getter=isLegacy) NSNumber* legacy;

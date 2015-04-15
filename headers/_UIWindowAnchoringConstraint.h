@@ -1,7 +1,7 @@
 
 @interface _UIWindowAnchoringConstraint : NSAutoresizingMaskLayoutConstraint {
 
-    UIWindow _window;
+    UIWindow* _window;
 }
 
  - (BOOL) _addToEngine:(id)aintegralizationAdjustment:(double)bmutuallyExclusiveConstraints:(^@)c;

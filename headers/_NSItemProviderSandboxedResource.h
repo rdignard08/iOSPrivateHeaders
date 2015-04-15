@@ -3,8 +3,8 @@
 @interface _NSItemProviderSandboxedResource : NSObject <NSSecureCoding, NSCopying> {
 
     BOOL _accessingSecurityScopedResource;
-    NSURL _resourceURL;
-    NSData _sandboxExtensionToken;
+    NSURL* _resourceURL;
+    NSData* _sandboxExtensionToken;
 }
 @property (nonatomic, copy, readwrite) NSURL* resourceURL;
 @property (nonatomic, copy, readwrite) NSData* sandboxExtensionToken;

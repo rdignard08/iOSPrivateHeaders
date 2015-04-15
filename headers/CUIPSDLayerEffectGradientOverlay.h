@@ -1,7 +1,7 @@
 
 @interface CUIPSDLayerEffectGradientOverlay : CUIPSDLayerEffectComponent {
 
-    CUIPSDGradient _gradient;
+    CUIPSDGradient* _gradient;
 }
 
  - (void) dealloc;

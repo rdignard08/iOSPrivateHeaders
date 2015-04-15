@@ -2,7 +2,7 @@
 @protocol BSXPCCoding;
 @interface BKSProcessAssertionEvent : NSObject <BSXPCCoding> {
 
-    NSString _identifier;
+    NSString* _identifier;
 }
 @property (nonatomic, copy, readwrite) NSString* identifier;
 

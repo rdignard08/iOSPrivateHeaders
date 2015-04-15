@@ -2,12 +2,12 @@
 @interface UIStepper : UIControl {
 
     BOOL _isRtoL;
-    UIImageView _middleView;
-    UIButton _plusButton;
-    UIButton _minusButton;
-    NSTimer _repeatTimer;
+    UIImageView* _middleView;
+    UIButton* _plusButton;
+    UIButton* _minusButton;
+    NSTimer* _repeatTimer;
     long long _repeatCount;
-    NSMutableDictionary _dividerImages;
+    NSMutableDictionary* _dividerImages;
     BOOL _continuous;
     BOOL _autorepeat;
     BOOL _wraps;

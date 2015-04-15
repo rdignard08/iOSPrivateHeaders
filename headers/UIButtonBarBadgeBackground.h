@@ -1,7 +1,7 @@
 
 @interface UIButtonBarBadgeBackground : UIView {
 
-    UIImage _image;
+    UIImage* _image;
 }
 
  - (void) dealloc;

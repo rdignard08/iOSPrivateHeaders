@@ -1,8 +1,8 @@
 
 @interface _UIDocumentPickerOverviewViewControllerCell : UITableViewCell {
 
-    UIImageView _iconView;
-    UIImageView _newlyAddedView;
+    UIImageView* _iconView;
+    UIImageView* _newlyAddedView;
 }
 
  - (void) dealloc;

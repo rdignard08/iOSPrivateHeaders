@@ -2,10 +2,10 @@
 @protocol UIViewControllerKeyboardContextTransitioning;
 @interface UIInputViewAnimationControllerViewControllerContext : NSObject <UIViewControllerKeyboardContextTransitioning> {
 
-    _UIViewControllerTransitionContext _context;
-    <UIInputViewAnimationHost> _host;
-    UIView _from;
-    UIView _to;
+    _UIViewControllerTransitionContext* _context;
+    <UIInputViewAnimationHost>* _host;
+    UIView* _from;
+    UIView* _to;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _fromRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _toRect;
 }

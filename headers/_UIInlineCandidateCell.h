@@ -1,9 +1,9 @@
 
 @interface _UIInlineCandidateCell : UIView {
 
-    NSString _candidate;
+    NSString* _candidate;
     unsigned long long _index;
-    UIFont _font;
+    UIFont* _font;
     {CGSize="width"d"height"d} _stringImageSize;
     BOOL _highlighted;
     id _target;

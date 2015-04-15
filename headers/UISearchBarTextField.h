@@ -1,11 +1,11 @@
 
 @interface UISearchBarTextField : UITextField {
 
-    NSMutableDictionary _customClearButtons;
-    NSMutableDictionary _iconOffsets;
-    NSValue _searchTextOffsetValue;
-    _UISearchBarSearchFieldBackgroundView _effectBackgroundTop;
-    _UISearchBarSearchFieldBackgroundView _effectBackgroundBottom;
+    NSMutableDictionary* _customClearButtons;
+    NSMutableDictionary* _iconOffsets;
+    NSValue* _searchTextOffsetValue;
+    _UISearchBarSearchFieldBackgroundView* _effectBackgroundTop;
+    _UISearchBarSearchFieldBackgroundView* _effectBackgroundBottom;
     BOOL _deferringFirstResponder;
     BOOL _animatePlaceholderOnResignFirstResponder;
     BOOL __preventSelectionViewActivation;

@@ -2,9 +2,9 @@
 @protocol NSXPCListenerDelegate, _NSExtensionContextVending;
 @interface _NSExtensionContextVendor : NSObject <NSXPCListenerDelegate, _NSExtensionContextVending> {
 
-    NSMutableDictionary __extensionServiceConnections;
-    NSMutableDictionary __extensionContexts;
-    NSMutableDictionary __extensionPrincipalObjects;
+    NSMutableDictionary* __extensionServiceConnections;
+    NSMutableDictionary* __extensionContexts;
+    NSMutableDictionary* __extensionPrincipalObjects;
 }
 @property (nonatomic, retain, readwrite, setter=_setExtensionServiceConnections:) NSMutableDictionary* _extensionServiceConnections;
 @property (nonatomic, retain, readwrite, setter=_setExtensionContexts:) NSMutableDictionary* _extensionContexts;

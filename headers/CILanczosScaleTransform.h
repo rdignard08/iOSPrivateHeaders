@@ -1,9 +1,9 @@
 
 @interface CILanczosScaleTransform : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputScale;
-    NSNumber inputAspectRatio;
+    CIImage* inputImage;
+    NSNumber* inputScale;
+    NSNumber* inputAspectRatio;
 }
  + (id) customAttributes;
 

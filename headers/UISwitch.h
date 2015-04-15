@@ -2,9 +2,9 @@
 @protocol UIGestureRecognizerDelegate, NSCoding;
 @interface UISwitch : UIControl <UIGestureRecognizerDelegate, NSCoding> {
 
-    UILongPressGestureRecognizer _pressGesture;
-    UIPanGestureRecognizer _panGesture;
-    UIView<_UISwitchInternalViewProtocol> _control;
+    UILongPressGestureRecognizer* _pressGesture;
+    UIPanGestureRecognizer* _panGesture;
+    UIView<_UISwitchInternalViewProtocol>* _control;
     BOOL _onStateChangedByLongPressGestureRecognizer;
     BOOL _onStateChangedByPanGestureRecognizer;
     BOOL _on;

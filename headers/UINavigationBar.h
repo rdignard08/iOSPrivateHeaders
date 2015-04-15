@@ -2,31 +2,31 @@
 @protocol UIGestureRecognizerDelegate, _UIShadowedView, _UIBasicAnimationFactory, UIStatusBarTinting, _UIBarPositioningInternal, NSCoding, UIBarPositioning;
 @interface UINavigationBar : UIView <UIGestureRecognizerDelegate, _UIShadowedView, _UIBasicAnimationFactory, UIStatusBarTinting, _UIBarPositioningInternal, NSCoding, UIBarPositioning> {
 
-    NSMutableArray _itemStack;
+    NSMutableArray* _itemStack;
     double _rightMargin;
     unsigned int _state;
     id _delegate;
-    UIView _backgroundView;
-    UIView _titleView;
-    NSArray _leftViews;
-    NSArray _rightViews;
-    UIView _prompt;
-    UIView _accessoryView;
-    UIColor _barTintColor;
+    UIView* _backgroundView;
+    UIView* _titleView;
+    NSArray* _leftViews;
+    NSArray* _rightViews;
+    UIView* _prompt;
+    UIView* _accessoryView;
+    UIColor* _barTintColor;
     id _appearanceStorage;
     id _currentAlert;
     {?="animate"b1"animationDisabledCount"b10"transitioningBarStyle"b1"newBarStyle"b3"transitioningToTranslucent"b1"barStyle"b3"barTranslucence"b3"disableLayout"b1"backPressed"b1"animatePromptChange"b1"pendingHideBackButton"b1"titleAutosizesToFit"b1"usingNewAPI"b1"forceFullHeightInLandscape"b1"isLocked"b1"shouldUpdatePromptAfterTransition"b1"crossfadeItems"b1"autoAdjustTitle"b1"isContainedInPopover"b1"needsDrawRect"b1"animationCleanupCancelled"b1"layoutInProgress"b1"dynamicDuration"b1"isInteractive"b1"cancelledTransition"b1"animationCount"b4"backgroundLayoutNeedsUpdate"b1} _navbarFlags;
-    UISwipeGestureRecognizer _popSwipeGestureRecognizer;
-    UIImageView _backIndicatorView;
-    NSMutableArray _slideTransitionClippingViews;
-    _UIViewControllerTransitionContext _navControllerAnimatingContext;
+    UISwipeGestureRecognizer* _popSwipeGestureRecognizer;
+    UIImageView* _backIndicatorView;
+    NSMutableArray* _slideTransitionClippingViews;
+    _UIViewControllerTransitionContext* _navControllerAnimatingContext;
     BOOL _needsUpdateBackIndicatorImage;
     BOOL _wantsLetterpressContent;
     BOOL __condensed;
     long long _barPosition;
     double _requestedMaxBackButtonWidth;
-    NSString _backdropViewLayerGroupName;
-    NSMutableArray __animationIds;
+    NSString* _backdropViewLayerGroupName;
+    NSMutableArray* __animationIds;
 }
  + ({CGSize=dd}) defaultSize;
  + (void) _initializeForIdiom:(long long)a;

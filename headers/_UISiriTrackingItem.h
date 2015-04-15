@@ -5,11 +5,11 @@
     BOOL _isABigReplacement;
     BOOL _isASmallReplacement;
     BOOL _isAnIntroduction;
-    UIImageView _animatedView;
-    UIColor _textColor;
+    UIImageView* _animatedView;
+    UIColor* _textColor;
     double _offscreenXLocation;
     @? _animationCompletionHandler;
-    UIImage _capturedGlyphImage;
+    UIImage* _capturedGlyphImage;
     {_NSRange="location"Q"length"Q} _textRange;
     {_NSRange="location"Q"length"Q} _glyphRange;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _targetFrame;

@@ -3,7 +3,7 @@
 
     BOOL _wantsTraitPropigation;
     long long _hostTintAdjustmentMode;
-    UITraitCollection _hostTraitCollection;
+    UITraitCollection* _hostTraitCollection;
     long long _toWindowOrientation;
     long long _fromWindowOrientation;
 }

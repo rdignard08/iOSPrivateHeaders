@@ -3,7 +3,7 @@
 
     double _imageOffset;
     BOOL _isNewStyle;
-    UIImageView _highlightView;
+    UIImageView* _highlightView;
 }
 
  - (id) title;

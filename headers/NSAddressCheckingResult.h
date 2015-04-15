@@ -2,7 +2,7 @@
 @interface NSAddressCheckingResult : NSTextCheckingResult {
 
     {_NSRange="location"Q"length"Q} _range;
-    NSDictionary _components;
+    NSDictionary* _components;
     id _underlyingResult;
 }
 

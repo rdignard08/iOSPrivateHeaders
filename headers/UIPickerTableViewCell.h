@@ -1,8 +1,8 @@
 
 @interface UIPickerTableViewCell : UITableViewCell {
 
-    UITapGestureRecognizer _tap;
-    UIPickerTableView pickerTable;
+    UITapGestureRecognizer* _tap;
+    UIPickerTableView* pickerTable;
 }
 
  - (void) dealloc;

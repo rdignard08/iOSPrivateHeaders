@@ -1,8 +1,8 @@
 
 @interface CUIScaleClampFilter : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputScale;
+    CIImage* inputImage;
+    NSNumber* inputScale;
 }
  + (id) customAttributes;
 

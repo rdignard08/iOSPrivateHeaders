@@ -1,7 +1,7 @@
 
 @interface WebScriptCallFrame : NSObject {
 
-    WebScriptCallFramePrivate _private;
+    WebScriptCallFramePrivate* _private;
     id _userInfo;
 }
 

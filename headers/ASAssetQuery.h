@@ -2,10 +2,10 @@
 @interface ASAssetQuery : NSObject {
 
     BOOL _queriesLocalAssetInformationOnly;
-    NSPredicate _predicate;
-    NSArray _results;
+    NSPredicate* _predicate;
+    NSArray* _results;
     double _networkTimeout;
-    NSString _assetType;
+    NSString* _assetType;
 }
 @property (nonatomic, retain, readwrite) NSPredicate* predicate;
 @property (nonatomic, assign, readwrite) NSNumber* queriesLocalAssetInformationOnly;

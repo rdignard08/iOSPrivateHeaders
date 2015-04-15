@@ -1,8 +1,8 @@
 
 @interface NSConcreteMutableAttributedString : NSMutableAttributedString {
 
-    NSMutableString mutableString;
-    NSMutableRLEArray mutableAttributes;
+    NSMutableString* mutableString;
+    NSMutableRLEArray* mutableAttributes;
     {?="attributeFixingDisabled"b8""b24} fields;
 }
  + (BOOL) supportsSecureCoding;

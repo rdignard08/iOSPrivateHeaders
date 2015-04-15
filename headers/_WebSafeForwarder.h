@@ -3,7 +3,7 @@
 
     id target;
     id defaultTarget;
-    _WebSafeAsyncForwarder asyncForwarder;
+    _WebSafeAsyncForwarder* asyncForwarder;
     long long asyncForwarderPred;
 }
 

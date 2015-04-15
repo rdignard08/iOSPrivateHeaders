@@ -1,9 +1,9 @@
 
 @interface _UIModalItemActionSheetContentView : _UIModalItemContentView {
 
-    UITableView _otherButtonTableView;
-    UITableView _cancelTableView;
-    _UIBackdropView _effectView;
+    UITableView* _otherButtonTableView;
+    UITableView* _cancelTableView;
+    _UIBackdropView* _effectView;
 }
 
  - (void) dealloc;

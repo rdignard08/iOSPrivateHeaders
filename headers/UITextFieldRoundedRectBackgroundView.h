@@ -1,10 +1,10 @@
 
 @interface UITextFieldRoundedRectBackgroundView : UITextFieldBackgroundView {
 
-    UIImageView _leftCap;
-    UIImageView _center;
-    UIImageView _rightCap;
-    UIImageView _progressFill;
+    UIImageView* _leftCap;
+    UIImageView* _center;
+    UIImageView* _rightCap;
+    UIImageView* _progressFill;
 }
 
  - (void) dealloc;

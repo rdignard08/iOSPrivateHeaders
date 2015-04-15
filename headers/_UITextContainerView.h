@@ -6,8 +6,8 @@
     {CGPoint="x"d"y"d} _textContainerOrigin;
     {CGSize="width"d"height"d} _minSize;
     {CGSize="width"d"height"d} _maxSize;
-    NSTextContainer _textContainer;
-    NSDictionary _linkTextAttributes;
+    NSTextContainer* _textContainer;
+    NSDictionary* _linkTextAttributes;
     {?="textContainerOriginInvalid"b1"verticalLayout"b2"horizontallyResizable"b1"verticallyResizable"b1} _tcvFlags;
 }
  + (Class) layerClass;

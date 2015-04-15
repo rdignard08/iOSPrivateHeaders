@@ -1,10 +1,10 @@
 
 @interface UIKeyboardTaskExecutionContext : NSObject {
 
-    UIKeyboardTaskExecutionContext _parentExecutionContext;
+    UIKeyboardTaskExecutionContext* _parentExecutionContext;
     @? _continuation;
     id _info;
-    UIKeyboardTaskQueue _executionQueue;
+    UIKeyboardTaskQueue* _executionQueue;
 }
 @property (nonatomic, retain, readwrite) NSNumber* info;
 @property (nonatomic, assign, readonly) UIKeyboardTaskQueue* executionQueue;

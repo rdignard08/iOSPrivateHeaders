@@ -1,7 +1,7 @@
 
 @interface _UIRemoteDictionaryViewController : UITableViewController {
 
-    NSArray _availableDictionaries;
+    NSArray* _availableDictionaries;
 }
 
  - (void) dealloc;

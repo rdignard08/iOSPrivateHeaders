@@ -1,7 +1,7 @@
 
 @interface UIStatusBarReturnToCallItemView : UIStatusBarAppIconItemView {
 
-    UILabel _textLabel;
+    UILabel* _textLabel;
 }
 
  - (void) dealloc;

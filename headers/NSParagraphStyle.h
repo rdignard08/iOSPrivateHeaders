@@ -9,7 +9,7 @@
     double _firstLineHeadIndent;
     double _minimumLineHeight;
     double _maximumLineHeight;
-    NSArray _tabStops;
+    NSArray* _tabStops;
     {?="alignment"b4"lineBreakMode"b4"tabStopsIsMutable"b1"isNaturalDirection"b1"rightToLeftDirection"b1"fixedMultiple"b2"refCount"b19} _flags;
     double _defaultTabInterval;
     id _extraData;

@@ -3,10 +3,10 @@
 
     id m_target;
     {CGPoint="x"d"y"d} m_point;
-    UIView<UIAutoscrollContainer> m_scrollContainer;
+    UIView<UIAutoscrollContainer>* m_scrollContainer;
     int m_directions;
     double m_repeatInterval;
-    NSTimer m_timer;
+    NSTimer* m_timer;
     unsigned long long m_count;
     BOOL m_active;
 }

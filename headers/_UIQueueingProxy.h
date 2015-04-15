@@ -3,7 +3,7 @@
 
     int _lock;
     unsigned long long _suspensionCount;
-    NSMutableArray _queuedInvocations;
+    NSMutableArray* _queuedInvocations;
     @? _shouldSuspendInvocationBlock;
 }
  + (id) proxyWithTarget:(id)a;

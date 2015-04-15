@@ -1,14 +1,14 @@
 
 @interface _UISiriStreamingManager : NSObject {
 
-    UITextView _textView;
-    UIView _siriItemView;
-    NSLayoutManager _streamingLayoutManager;
-    NSTextStorage _streamingTextStorage;
-    NSTextContainer _streamingTextContainer;
-    NSMutableArray _words;
-    NSMutableArray _wordTokens;
-    NSArray _wordsToSetAfterAnimations;
+    UITextView* _textView;
+    UIView* _siriItemView;
+    NSLayoutManager* _streamingLayoutManager;
+    NSTextStorage* _streamingTextStorage;
+    NSTextContainer* _streamingTextContainer;
+    NSMutableArray* _words;
+    NSMutableArray* _wordTokens;
+    NSArray* _wordsToSetAfterAnimations;
     unsigned long long _firstIndexToRemoveAfterLineChangeClearingAnimation;
     BOOL _isPerformingLineChangeClearingAnimation;
     BOOL _commitResultsAfterDynamicsFinish;

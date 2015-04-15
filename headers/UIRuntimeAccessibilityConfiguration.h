@@ -1,11 +1,11 @@
 
 @interface UIRuntimeAccessibilityConfiguration : NSObject {
 
-    NSString accessibilityConfigurationHint;
-    NSString accessibilityConfigurationLabel;
-    NSNumber accessibilityConfigurationTraits;
-    NSNumber isAccessibilityConfigurationElement;
-    NSObject object;
+    NSString* accessibilityConfigurationHint;
+    NSString* accessibilityConfigurationLabel;
+    NSNumber* accessibilityConfigurationTraits;
+    NSNumber* isAccessibilityConfigurationElement;
+    NSObject* object;
 }
 @property (nonatomic, retain, readwrite) NSString* accessibilityConfigurationHint;
 @property (nonatomic, retain, readwrite) NSString* accessibilityConfigurationLabel;

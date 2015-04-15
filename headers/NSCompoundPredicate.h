@@ -3,7 +3,7 @@
 
     ^v _reserved2;
     unsigned long long _type;
-    NSArray _subpredicates;
+    NSArray* _subpredicates;
 }
  + (BOOL) supportsSecureCoding;
  + (id) _operatorForType:(unsigned long long)a;

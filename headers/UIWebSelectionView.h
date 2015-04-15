@@ -1,17 +1,17 @@
 
 @interface UIWebSelectionView : UIView {
 
-    UIView _center;
+    UIView* _center;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _selectionFrame;
-    UIWebSelectionHandle _top;
-    UIWebSelectionHandle _right;
-    UIWebSelectionHandle _bottom;
-    UIWebSelectionHandle _left;
-    UIWebSelectionOutline _outline;
-    UIWebTextRangeView _textRangeView;
-    UIWebDocumentView _documentView;
-    UIWebSelectionNode _selectionNode;
-    UIWebSelectionGraph _selectionGraph;
+    UIWebSelectionHandle* _top;
+    UIWebSelectionHandle* _right;
+    UIWebSelectionHandle* _bottom;
+    UIWebSelectionHandle* _left;
+    UIWebSelectionOutline* _outline;
+    UIWebTextRangeView* _textRangeView;
+    UIWebDocumentView* _documentView;
+    UIWebSelectionNode* _selectionNode;
+    UIWebSelectionGraph* _selectionGraph;
     double _growThreshold;
     double _shrinkThreshold;
     {?="scrollingHandle"@"UIWebSelectionHandle""startTime"d"direction"i"timer"@"NSTimer"} _autoscrollData;

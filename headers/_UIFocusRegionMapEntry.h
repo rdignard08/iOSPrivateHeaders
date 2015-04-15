@@ -2,7 +2,7 @@
 @protocol NSSecureCoding;
 @interface _UIFocusRegionMapEntry : NSObject <NSSecureCoding> {
 
-    UIView _associatedView;
+    UIView* _associatedView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frame;
 }
 @property (nonatomic, assign, readwrite) NSNumber* frame;

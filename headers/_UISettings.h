@@ -2,12 +2,12 @@
 @protocol _UISettingsGroupObserver, _UISettingsKeyPathObserver, NSCopying;
 @interface _UISettings : NSObject <_UISettingsGroupObserver, _UISettingsKeyPathObserver, NSCopying> {
 
-    NSHashTable _internal_keyObservers;
-    NSHashTable _internal_keyPathObservers;
-    NSSet _internal_childKeys;
-    NSSet _internal_leafKeys;
-    NSDictionary _internal_keyClasses;
-    NSDictionary _internal_keyStructs;
+    NSHashTable* _internal_keyObservers;
+    NSHashTable* _internal_keyPathObservers;
+    NSSet* _internal_childKeys;
+    NSSet* _internal_leafKeys;
+    NSDictionary* _internal_keyClasses;
+    NSDictionary* _internal_keyStructs;
     BOOL _internal_isObservingPropertiesAndChildren;
 }
  + (id) settingsFromArchiveDictionary:(id)a;

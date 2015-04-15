@@ -1,9 +1,9 @@
 
 @interface UIInputSwitcherTableCellBackgroundView : UIView {
 
-    UITableView _tableView;
-    UITableViewCell _cell;
-    UIKeyboardMenuView _menu;
+    UITableView* _tableView;
+    UITableViewCell* _cell;
+    UIKeyboardMenuView* _menu;
 }
 
  - (void) setTableView:(id)a;

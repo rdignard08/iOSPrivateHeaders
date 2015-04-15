@@ -1,7 +1,7 @@
 
 @interface UIKeyboardCandidatePageControl : UIView {
 
-    UIKeyboardCandidateBarSegmentControl _pageControl;
+    UIKeyboardCandidateBarSegmentControl* _pageControl;
     BOOL _usingVerticalArrows;
 }
  + (id) imageWithColor:(id)asize:({CGSize=dd})b;

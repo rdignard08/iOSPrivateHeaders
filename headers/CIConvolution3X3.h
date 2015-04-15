@@ -1,9 +1,9 @@
 
 @interface CIConvolution3X3 : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputWeights;
-    NSNumber inputBias;
+    CIImage* inputImage;
+    CIVector* inputWeights;
+    NSNumber* inputBias;
 }
  + (id) customAttributes;
 

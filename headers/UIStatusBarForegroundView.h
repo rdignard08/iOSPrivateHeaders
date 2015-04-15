@@ -3,13 +3,13 @@
 
     BOOL _usesVerticalLayout;
     [31B] _itemIsEnabled;
-    UIStatusBarLayoutManager _layoutManagers;
+    UIStatusBarLayoutManager* _layoutManagers;
     int _ignoreDataLevel;
-    NSMutableArray _actionAnimationStack;
-    UIStatusBarComposedData _pendedData;
+    NSMutableArray* _actionAnimationStack;
+    UIStatusBarComposedData* _pendedData;
     int _pendedActions;
     long long _idiom;
-    UIStatusBarForegroundStyleAttributes _foregroundStyle;
+    UIStatusBarForegroundStyleAttributes* _foregroundStyle;
 }
 
  - (void) dealloc;

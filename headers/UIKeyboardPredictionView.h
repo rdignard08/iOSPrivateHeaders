@@ -1,31 +1,31 @@
 
 @interface UIKeyboardPredictionView : UIView {
 
-    UIKBBackgroundView m_backgroundView;
-    UIKeyboardPredictionBarGrabber m_grabber;
-    NSMutableArray m_predictionCells;
+    UIKBBackgroundView* m_backgroundView;
+    UIKeyboardPredictionBarGrabber* m_grabber;
+    NSMutableArray* m_predictionCells;
     unsigned long long m_activeIndex;
     double m_width;
-    NSString m_openQuote;
-    NSString m_closeQuote;
-    UIView m_message;
-    UILabel m_messageLabel;
-    UIKBKeyView m_messageKeyView;
+    NSString* m_openQuote;
+    NSString* m_closeQuote;
+    UIView* m_message;
+    UILabel* m_messageLabel;
+    UIKBKeyView* m_messageKeyView;
     double m_messageShownTime;
     {CGPoint="x"d"y"d} m_initLocation;
     BOOL m_dragging;
     BOOL m_hasLongCandidates;
     BOOL m_currentInputModeEnablePrediction;
-    UIView m_leftDimmingView;
-    UIView m_rightDimmingView;
+    UIView* m_leftDimmingView;
+    UIView* m_rightDimmingView;
     BOOL m_touchOnDimmingView;
     BOOL m_delayActive;
     int _state;
-    UITouch _activeTouch;
-    NSTimer _updateTimer;
-    NSArray _scheduledPredictions;
-    TIKeyboardCandidate _scheduledAutocorrection;
-    NSDate _lastUpdateDate;
+    UITouch* _activeTouch;
+    NSTimer* _updateTimer;
+    NSArray* _scheduledPredictions;
+    TIKeyboardCandidate* _scheduledAutocorrection;
+    NSDate* _lastUpdateDate;
 }
  + (id) sharedInstance;
  + (id) activeInstance;

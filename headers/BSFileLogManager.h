@@ -2,8 +2,8 @@
 @protocol BSFileLoggerDelegate;
 @interface BSFileLogManager : NSObject <BSFileLoggerDelegate> {
 
-    NSObject<OS_dispatch_queue> _queue;
-    NSMutableDictionary _loggersByName;
+    NSObject<OS_dispatch_queue>* _queue;
+    NSMutableDictionary* _loggersByName;
 }
  + (id) sharedInstance;
 

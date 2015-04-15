@@ -1,10 +1,10 @@
 
 @interface CIColorControls : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputSaturation;
-    NSNumber inputBrightness;
-    NSNumber inputContrast;
+    CIImage* inputImage;
+    NSNumber* inputSaturation;
+    NSNumber* inputBrightness;
+    NSNumber* inputContrast;
 }
  + (id) customAttributes;
 

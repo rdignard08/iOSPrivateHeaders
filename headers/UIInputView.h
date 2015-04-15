@@ -3,11 +3,11 @@
 @interface UIInputView : UIView <UISplittableInputView> {
 
     long long _style;
-    UIKBRenderConfig _renderConfig;
+    UIKBRenderConfig* _renderConfig;
     BOOL _suppressBackgroundStyling;
     BOOL _disableSplitSupport;
-    _UIInputViewContent _leftContentView;
-    _UIInputViewContent _rightContentView;
+    _UIInputViewContent* _leftContentView;
+    _UIInputViewContent* _rightContentView;
     double _contentRatio;
     {CGSize="width"d"height"d} _leftContentSize;
     {CGSize="width"d"height"d} _rightContentSize;
@@ -18,12 +18,12 @@
     double _transitionGap;
     double _transitionLeftOffset;
     double _transitionRatio;
-    UIImage _mergedImage;
-    UIImage _splitImage;
-    NSMutableDictionary _mergedSliceMap;
-    NSMutableDictionary _splitSliceMap;
-    NSArray _visibleLayers;
-    CALayer _transitionLayer;
+    UIImage* _mergedImage;
+    UIImage* _splitImage;
+    NSMutableDictionary* _mergedSliceMap;
+    NSMutableDictionary* _splitSliceMap;
+    NSArray* _visibleLayers;
+    CALayer* _transitionLayer;
 }
  + (void) _setupAppearanceIfNecessary;
 

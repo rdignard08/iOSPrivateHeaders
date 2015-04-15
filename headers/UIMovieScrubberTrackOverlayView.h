@@ -6,8 +6,8 @@
     double _maximumValue;
     double _startValue;
     double _endValue;
-    UIImageView _leftFillView;
-    UIImageView _rightFillView;
+    UIImageView* _leftFillView;
+    UIImageView* _rightFillView;
     unsigned int _editingHandle;
     b1 _editing;
     b1 _zoomed;

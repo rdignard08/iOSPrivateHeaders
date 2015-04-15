@@ -2,10 +2,10 @@
 @protocol UIKeyboardEmojiCategoryControl;
 @interface UIKeyboardEmojiCategoryBar : UIKBKeyView <UIKeyboardEmojiCategoryControl> {
 
-    UIKeyboardEmojiCategoryController _categoryController;
+    UIKeyboardEmojiCategoryController* _categoryController;
     int _selected;
-    UIView _scrubView;
-    UIKeyboardEmojiGraphicsTraits _emojiGraphicsTraits;
+    UIView* _scrubView;
+    UIKeyboardEmojiGraphicsTraits* _emojiGraphicsTraits;
     BOOL _isScrubbing;
     double _scrubStartXLocation;
 }

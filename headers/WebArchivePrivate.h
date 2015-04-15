@@ -1,10 +1,10 @@
 
 @interface WebArchivePrivate : NSObject {
 
-    WebResource cachedMainResource;
-    NSArray cachedSubresources;
-    NSArray cachedSubframeArchives;
-    m_ptr coreArchive;
+    WebResource* cachedMainResource;
+    NSArray* cachedSubresources;
+    NSArray* cachedSubframeArchives;
+    m_ptr* coreArchive;
 }
  + (void) initialize;
 

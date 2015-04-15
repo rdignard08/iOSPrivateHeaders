@@ -1,12 +1,12 @@
 
 @interface UIPrintingProgress : NSObject {
 
-    NSString _printerName;
+    NSString* _printerName;
     @? _cancelHandler;
     double _startTime;
     double _displayTime;
-    UIAlertView _alert;
-    UIPrintingProgressViewController _viewController;
+    UIAlertView* _alert;
+    UIPrintingProgressViewController* _viewController;
     BOOL _donePrinting;
     BOOL _forceDisplayAsAlert;
 }

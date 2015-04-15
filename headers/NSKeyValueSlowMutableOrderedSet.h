@@ -1,8 +1,8 @@
 
 @interface NSKeyValueSlowMutableOrderedSet : NSKeyValueMutableOrderedSet {
 
-    NSKeyValueGetter _valueGetter;
-    NSKeyValueSetter _valueSetter;
+    NSKeyValueGetter* _valueGetter;
+    NSKeyValueSetter* _valueSetter;
     BOOL _treatNilValuesLikeEmptyOrderedSets;
     [3c] _padding;
 }

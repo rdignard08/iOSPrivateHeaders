@@ -1,22 +1,22 @@
 
 @interface UIConcreteLocalNotification : UILocalNotification {
 
-    NSDate fireDate;
-    NSTimeZone timeZone;
+    NSDate* fireDate;
+    NSTimeZone* timeZone;
     unsigned long long repeatInterval;
-    NSCalendar repeatCalendar;
+    NSCalendar* repeatCalendar;
     int totalRepeatCount;
     int remainingRepeatCount;
-    CLRegion region;
+    CLRegion* region;
     BOOL regionTriggersOnce;
-    NSString alertBody;
+    NSString* alertBody;
     BOOL hasAction;
-    NSString alertAction;
-    NSString alertLaunchImage;
-    NSString alertTitle;
-    NSString soundName;
+    NSString* alertAction;
+    NSString* alertLaunchImage;
+    NSString* alertTitle;
+    NSString* soundName;
     long long applicationIconBadgeNumber;
-    NSData userInfoData;
+    NSData* userInfoData;
     BOOL hideAlertTitle;
     BOOL allowSnooze;
     int soundType;
@@ -24,10 +24,10 @@
     BOOL resumeApplicationInBackground;
     BOOL fireNotificationsWhenAppRunning;
     BOOL showAlarmStatusBarItem;
-    NSString customLockSliderLabel;
-    NSString firedNotificationName;
-    NSString snoozedNotificationName;
-    NSString category;
+    NSString* customLockSliderLabel;
+    NSString* firedNotificationName;
+    NSString* snoozedNotificationName;
+    NSString* category;
     BOOL isTransient;
 }
 

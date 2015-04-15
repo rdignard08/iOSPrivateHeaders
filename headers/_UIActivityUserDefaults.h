@@ -1,8 +1,8 @@
 
 @interface _UIActivityUserDefaults : NSObject {
 
-    NSString _identifier;
-    NSUserDefaults _userDefaults;
+    NSString* _identifier;
+    NSUserDefaults* _userDefaults;
 }
 @property (nonatomic, copy, readwrite) NSString* identifier;
 @property (nonatomic, retain, readwrite) NSUserDefaults* userDefaults;

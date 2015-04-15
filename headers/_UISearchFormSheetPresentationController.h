@@ -2,8 +2,8 @@
 @protocol _UISearchControllerPresenting;
 @interface _UISearchFormSheetPresentationController : UIPresentationController <_UISearchControllerPresenting> {
 
-    _UISearchPresentationAssistant _assistant;
-    UIView _wrapperView;
+    _UISearchPresentationAssistant* _assistant;
+    UIView* _wrapperView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} finalFrameForContainerView;
 }
 

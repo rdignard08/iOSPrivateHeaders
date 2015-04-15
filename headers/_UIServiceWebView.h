@@ -2,7 +2,7 @@
 @interface _UIServiceWebView : UIWebView {
 
     BOOL _shouldDecidePolicyRemotely;
-    _UIServiceWebViewController _serviceWebViewController;
+    _UIServiceWebViewController* _serviceWebViewController;
 }
 
  - (BOOL) _webView:(id)apresentViewController:(id)banimated:(BOOL)ccompletion:(@?)d;

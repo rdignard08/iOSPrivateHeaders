@@ -1,7 +1,7 @@
 
 @interface UITextRangeImpl : UITextRange {
 
-    DOMRange _domRange;
+    DOMRange* _domRange;
     long long _affinityIfCollapsed;
 }
  + (id) wrapDOMRange:(id)awithAffinity:(long long)b;

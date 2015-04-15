@@ -6,9 +6,9 @@
     double _visibleHeightRatio;
     double _cornerRadius;
     int _sectionLocation;
-    _UITableViewCellActionButton _deleteView;
-    _UITableViewCellActionButton _accessoryView;
-    NSArray _actionButtons;
+    _UITableViewCellActionButton* _deleteView;
+    _UITableViewCellActionButton* _accessoryView;
+    NSArray* _actionButtons;
 }
 
  - (void) dealloc;

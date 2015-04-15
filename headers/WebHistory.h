@@ -1,7 +1,7 @@
 
 @interface WebHistory : NSObject {
 
-    WebHistoryPrivate _historyPrivate;
+    WebHistoryPrivate* _historyPrivate;
 }
 @property (nonatomic, copy, readonly) NSArray* orderedLastVisitedDays;
 @property (nonatomic, assign, readwrite) NSNumber* historyItemLimit;

@@ -1,7 +1,7 @@
 
 @interface _UIScreenTransparentHitTestWindow : UIWindow {
 
-    UIView _hitTestableView;
+    UIView* _hitTestableView;
 }
 
  - (void) dealloc;

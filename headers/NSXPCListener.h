@@ -2,10 +2,10 @@
 @interface NSXPCListener : NSObject {
 
     ^v _xconnection;
-    NSObject<OS_dispatch_queue> _userQueue;
+    NSObject<OS_dispatch_queue>* _userQueue;
     ^v reserved0;
-    <NSXPCListenerDelegate> _delegate;
-    NSString _serviceName;
+    <NSXPCListenerDelegate>* _delegate;
+    NSString* _serviceName;
     unsigned long long _state;
     id _reserved1;
     id _reserved2;

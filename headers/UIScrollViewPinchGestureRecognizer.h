@@ -1,7 +1,7 @@
 
 @interface UIScrollViewPinchGestureRecognizer : UIPinchGestureRecognizer {
 
-    UIScrollView _scrollView;
+    UIScrollView* _scrollView;
     SEL _scrollViewAction;
     b1 _hasParentScrollView;
 }

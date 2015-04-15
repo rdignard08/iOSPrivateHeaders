@@ -2,10 +2,10 @@
 @protocol _UIBackdropViewGraphicsQualityChangeDelegate;
 @interface _UINavigationBarBackground : _UIBarBackgroundImageView <_UIBackdropViewGraphicsQualityChangeDelegate> {
 
-    UIColor _barTintColor;
-    _UINavigationBarAppearanceStorage _appearanceStorage;
-    UIImageView _shadowView;
-    _UIBackdropView _adaptiveBackdrop;
+    UIColor* _barTintColor;
+    _UINavigationBarAppearanceStorage* _appearanceStorage;
+    UIImageView* _shadowView;
+    _UIBackdropView* _adaptiveBackdrop;
     {?="barTranslucence"b3"barStyle"b3"isContainedInPopover"b1"barWantsAdaptiveBackdrop"b1} _navbarBackgroundFlags;
 }
 

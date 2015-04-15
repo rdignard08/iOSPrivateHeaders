@@ -1,9 +1,9 @@
 
 @interface UIKBHandwritingQuadCurvePointFIFO : UIKBHandwritingPointFIFO {
 
-    NSMutableArray _prevPoints;
-    UIBezierPath _path;
-    UIView<UIKBHandwritingStrokeEnabled> _strokeView;
+    NSMutableArray* _prevPoints;
+    UIBezierPath* _path;
+    UIView<UIKBHandwritingStrokeEnabled>* _strokeView;
 }
 
  - (void) clear;

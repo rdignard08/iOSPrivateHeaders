@@ -2,8 +2,8 @@
 @protocol NSXPCProxyCreating, NSSecureCoding;
 @interface _NSXPCDistantObject : NSObject <NSXPCProxyCreating, NSSecureCoding> {
 
-    NSXPCConnection _connection;
-    NSXPCInterface _remoteInterface;
+    NSXPCConnection* _connection;
+    NSXPCInterface* _remoteInterface;
     ^{__CFDictionary=} _knownSelectors;
     int _selectorLock;
     unsigned long long _proxyNumber;

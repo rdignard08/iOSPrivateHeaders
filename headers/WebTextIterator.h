@@ -1,7 +1,7 @@
 
 @interface WebTextIterator : NSObject {
 
-    WebTextIteratorPrivate _private;
+    WebTextIteratorPrivate* _private;
 }
 
  - (id) currentNode;

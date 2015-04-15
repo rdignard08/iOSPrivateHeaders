@@ -3,7 +3,7 @@
 
     unsigned int _childContextId;
     unsigned int _hostContextId;
-    NSObject<OS_xpc_object> _assertionEndpoint;
+    NSObject<OS_xpc_object>* _assertionEndpoint;
 }
  + (BOOL) supportsSecureCoding;
 

@@ -1,7 +1,7 @@
 
 @interface UIRemoteApplication : NSObject {
 
-    NSString _machServiceName;
+    NSString* _machServiceName;
     unsigned int _port;
 }
 

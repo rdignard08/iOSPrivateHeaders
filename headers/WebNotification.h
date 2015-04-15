@@ -1,7 +1,7 @@
 
 @interface WebNotification : NSObject {
 
-    WebNotificationPrivate _private;
+    WebNotificationPrivate* _private;
 }
 
  - (id) title;

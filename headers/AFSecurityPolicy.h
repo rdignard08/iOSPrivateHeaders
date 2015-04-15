@@ -5,8 +5,8 @@
     BOOL _allowInvalidCertificates;
     BOOL _validatesDomainName;
     unsigned long long _SSLPinningMode;
-    NSArray _pinnedCertificates;
-    NSArray _pinnedPublicKeys;
+    NSArray* _pinnedCertificates;
+    NSArray* _pinnedPublicKeys;
 }
 @property (nonatomic, assign, readwrite) NSNumber* SSLPinningMode;
 @property (nonatomic, assign, readwrite) NSNumber* validatesCertificateChain;

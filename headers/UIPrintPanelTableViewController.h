@@ -1,7 +1,7 @@
 
 @interface UIPrintPanelTableViewController : UITableViewController {
 
-    UIPrintPanelViewController _printPanelViewController;
+    UIPrintPanelViewController* _printPanelViewController;
     long long _rangeRow;
     long long _copiesRow;
     long long _duplexRow;

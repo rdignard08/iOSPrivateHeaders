@@ -2,7 +2,7 @@
 @protocol NSCopying, NSCoding;
 @interface UIMotionEffect : NSObject <NSCopying, NSCoding> {
 
-    _UIMotionAnalyzerSettings _preferredMotionAnalyzerSettings;
+    _UIMotionAnalyzerSettings* _preferredMotionAnalyzerSettings;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;

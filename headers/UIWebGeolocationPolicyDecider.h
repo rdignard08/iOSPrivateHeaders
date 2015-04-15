@@ -1,9 +1,9 @@
 
 @interface UIWebGeolocationPolicyDecider : NSObject {
 
-    NSMutableDictionary _sites;
-    NSMutableArray _challenges;
-    NSMapTable _activeChallenges;
+    NSMutableDictionary* _sites;
+    NSMutableArray* _challenges;
+    NSMapTable* _activeChallenges;
 }
  + (void) initialize;
  + (id) sharedPolicyDecider;

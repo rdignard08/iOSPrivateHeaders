@@ -1,7 +1,7 @@
 
 @interface UIStoryboardSegue : NSObject {
 
-    NSString _identifier;
+    NSString* _identifier;
     id _sourceViewController;
     id _destinationViewController;
     @? _performHandler;

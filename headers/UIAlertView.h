@@ -1,14 +1,14 @@
 
 @interface UIAlertView : UIView {
 
-    UIAlertController _alertController;
-    _UIAlertControllerShimPresenter _presenter;
-    NSMutableArray _actions;
+    UIAlertController* _alertController;
+    _UIAlertControllerShimPresenter* _presenter;
+    NSMutableArray* _actions;
     long long _cancelIndex;
     long long _defaultButtonIndex;
     long long _firstOtherButtonIndex;
-    NSString _message;
-    NSString _subtitle;
+    NSString* _message;
+    NSString* _subtitle;
     long long _alertViewStyle;
     BOOL _runsModal;
     id _context;
@@ -18,8 +18,8 @@
     BOOL _handlingAlertActionShouldDismiss;
     BOOL _dismissingAlertController;
     BOOL __currentlyRunningModal;
-    UIViewController externalViewControllerForPresentation;
-    _UIWeakRef _weakDelegate;
+    UIViewController* externalViewControllerForPresentation;
+    _UIWeakRef* _weakDelegate;
 }
  + (void) showAlertViewForTaskWithErrorOnCompletion:(id)adelegate:(id)bcancelButtonTitle:(id)cotherButtonTitles:(id)d;
  + (void) showAlertViewForRequestOperationWithErrorOnCompletion:(id)adelegate:(id)bcancelButtonTitle:(id)cotherButtonTitles:(id)d;

@@ -1,8 +1,8 @@
 
 @interface UIWKSelectionView : UIWebSelectionView {
 
-    UIView<UIWKInteractionViewProtocol> _interactionView;
-    UIWebSelectionHandle _handle;
+    UIView<UIWKInteractionViewProtocol>* _interactionView;
+    UIWebSelectionHandle* _handle;
     BOOL _selectionIsBlock;
     BOOL _thresholdIsValid;
     BOOL _usingGesture;

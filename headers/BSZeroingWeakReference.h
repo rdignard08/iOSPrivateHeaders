@@ -2,7 +2,7 @@
 @interface BSZeroingWeakReference : NSObject {
 
     id _object;
-    NSString _debug;
+    NSString* _debug;
     unsigned long long _objectAddress;
 }
  + (id) referenceWithObject:(id)a;

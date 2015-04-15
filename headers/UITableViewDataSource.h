@@ -2,7 +2,7 @@
 @protocol UITableViewDataSource, UITableViewDelegate, NSCoding;
 @interface UITableViewDataSource : NSObject <UITableViewDataSource, UITableViewDelegate, NSCoding> {
 
-    NSArray _sections;
+    NSArray* _sections;
 }
 @property (nonatomic, copy, readwrite) NSArray* sections;
  + (id) staticDataSourceWithSections:(id)a;

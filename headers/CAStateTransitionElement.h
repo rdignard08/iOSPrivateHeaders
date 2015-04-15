@@ -2,9 +2,9 @@
 @protocol NSCopying, NSCoding;
 @interface CAStateTransitionElement : NSObject <NSCopying, NSCoding> {
 
-    CALayer _target;
-    CAAnimation _animation;
-    NSString _key;
+    CALayer* _target;
+    CAAnimation* _animation;
+    NSString* _key;
     BOOL _enabled;
 }
 @property (atomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;

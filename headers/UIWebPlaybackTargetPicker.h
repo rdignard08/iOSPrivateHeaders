@@ -2,10 +2,10 @@
 @protocol UIPopoverControllerDelegate;
 @interface UIWebPlaybackTargetPicker : UIView <UIPopoverControllerDelegate> {
 
-    MPAVRoutingController _routingController;
-    MPAudioVideoRoutingPopoverController _popoverController;
-    MPAudioVideoRoutingActionSheet _actionSheet;
-    UIWebDocumentView _delegate;
+    MPAVRoutingController* _routingController;
+    MPAudioVideoRoutingPopoverController* _popoverController;
+    MPAudioVideoRoutingActionSheet* _actionSheet;
+    UIWebDocumentView* _delegate;
 }
 
  - (void) dealloc;

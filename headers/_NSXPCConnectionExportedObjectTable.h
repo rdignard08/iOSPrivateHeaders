@@ -1,7 +1,7 @@
 
 @interface _NSXPCConnectionExportedObjectTable : NSObject {
 
-    NSLock _lock;
+    NSLock* _lock;
     ^{__CFDictionary=} _proxyNumberToObject;
     ^{__CFDictionary=} _objectToProxyNumber;
     unsigned long long _next;

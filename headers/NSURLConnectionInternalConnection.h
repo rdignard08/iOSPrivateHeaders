@@ -5,7 +5,7 @@
     int _cfConnLock;
     ^{_CFURLConnection=} _cfConn;
     ^{_CFURLAuthChallenge=} _currCFChallenge;
-    NSURLAuthenticationChallenge _currNSChallenge;
+    NSURLAuthenticationChallenge* _currNSChallenge;
     ^{__CFString=} _fileName;
     BOOL _shouldSkipCancelOnRelease;
     long long _totalBytes;

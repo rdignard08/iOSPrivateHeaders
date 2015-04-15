@@ -1,10 +1,10 @@
 
 @interface CIHistogramDisplayFilter : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputHeight;
-    NSNumber inputHighLimit;
-    NSNumber inputLowLimit;
+    CIImage* inputImage;
+    NSNumber* inputHeight;
+    NSNumber* inputHighLimit;
+    NSNumber* inputLowLimit;
 }
  + (id) customAttributes;
 

@@ -2,15 +2,15 @@
 @interface _UILegibilitySettings : NSObject {
 
     long long _style;
-    UIColor _contentColor;
-    UIColor _primaryColor;
-    UIColor _secondaryColor;
-    UIColor _shadowColor;
+    UIColor* _contentColor;
+    UIColor* _primaryColor;
+    UIColor* _secondaryColor;
+    UIColor* _shadowColor;
     double _shadowRadius;
     double _shadowAlpha;
     double _imageOutset;
     double _minFillHeight;
-    NSString _shadowCompositingFilterName;
+    NSString* _shadowCompositingFilterName;
 }
 @property (nonatomic, assign, readwrite) NSNumber* style;
 @property (nonatomic, retain, readwrite) UIColor* contentColor;

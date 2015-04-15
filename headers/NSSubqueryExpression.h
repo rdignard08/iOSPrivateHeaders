@@ -1,9 +1,9 @@
 
 @interface NSSubqueryExpression : NSExpression {
 
-    NSExpression _collection;
-    NSExpression _variableExpression;
-    NSPredicate _subpredicate;
+    NSExpression* _collection;
+    NSExpression* _variableExpression;
+    NSPredicate* _subpredicate;
 }
  + (BOOL) supportsSecureCoding;
 

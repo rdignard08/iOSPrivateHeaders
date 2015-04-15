@@ -1,8 +1,8 @@
 
 @interface UIViewControllerAction : NSObject {
 
-    UIViewController _viewController;
-    NSString _name;
+    UIViewController* _viewController;
+    NSString* _name;
     int _transition;
     @? _completion;
     double _curlUpRevealedHeight;

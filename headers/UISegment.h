@@ -1,17 +1,17 @@
 
 @interface UISegment : UIImageView {
 
-    UIView _info;
-    _UISegmentedControlAppearanceStorage _appearanceStorage;
+    UIView* _info;
+    _UISegmentedControlAppearanceStorage* _appearanceStorage;
     double _width;
     {CGSize="width"d"height"d} _contentOffset;
     long long _barStyle;
     unsigned long long _rightSegmentState;
-    NSString _badgeValue;
-    _UIBadgeView _badgeView;
+    NSString* _badgeValue;
+    _UIBadgeView* _badgeView;
     id _objectValue;
     {?="style"b3"size"b2"selected"b1"highlighted"b1"showDivider"b1"hasImage"b1"position"b3"autosizeText"b1"isMomentary"b1"wasSelected"b1"needsBackgroundAndContentViewUpdate"b1} _segmentFlags;
-    NSArray _infoConstraints;
+    NSArray* _infoConstraints;
     double _requestedScaleFactor;
 }
  + (id) _backgroundImageWithStorage:(id)astyle:(long long)bmini:(BOOL)cstate:(unsigned long long)dposition:(unsigned int)edrawMode:(^i)fdefaultBlock:(@?)g;

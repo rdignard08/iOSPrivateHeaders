@@ -2,9 +2,9 @@
 @protocol NSCopying, NSSecureCoding;
 @interface TIKeyboardCandidateGroup : NSObject <NSCopying, NSSecureCoding> {
 
-    NSString _title;
-    NSOrderedSet _candidates;
-    NSArray _nonExtensionCandidates;
+    NSString* _title;
+    NSOrderedSet* _candidates;
+    NSArray* _nonExtensionCandidates;
 }
 @property (atomic, copy, readwrite) NSString* title;
 @property (atomic, copy, readwrite) NSOrderedSet* candidates;

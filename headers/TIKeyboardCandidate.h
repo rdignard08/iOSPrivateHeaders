@@ -2,7 +2,7 @@
 @protocol NSCopying, NSSecureCoding, TIKeyboardCandidateCoding;
 @interface TIKeyboardCandidate : NSObject <NSCopying, NSSecureCoding, TIKeyboardCandidateCoding> {
 
-    NSString _alternativeText;
+    NSString* _alternativeText;
 }
 @property (nonatomic, assign, readonly) NSString* candidate;
 @property (nonatomic, assign, readonly) NSString* input;

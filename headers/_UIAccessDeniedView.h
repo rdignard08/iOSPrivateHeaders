@@ -1,11 +1,11 @@
 
 @interface _UIAccessDeniedView : UIView {
 
-    UIImageView _lockView;
-    UILabel _titleLabel;
-    UILabel _messageLabel;
-    NSString _title;
-    NSString _message;
+    UIImageView* _lockView;
+    UILabel* _titleLabel;
+    UILabel* _messageLabel;
+    NSString* _title;
+    NSString* _message;
 }
 
  - (id) title;

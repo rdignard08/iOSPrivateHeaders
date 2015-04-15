@@ -1,7 +1,7 @@
 
 @interface UIInputViewPostPinningReloadState : NSObject {
 
-    UIResponder _responderPreventedFromSettingInputViews;
+    UIResponder* _responderPreventedFromSettingInputViews;
 }
 @property (nonatomic, retain, readwrite) UIResponder* responderToReload;
  + (id) stateWithResponder:(id)a;

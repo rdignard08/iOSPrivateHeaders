@@ -2,9 +2,9 @@
 @protocol BKSSystemApplicationClientDelegate;
 @interface BKSSystemApplication : NSObject <BKSSystemApplicationClientDelegate> {
 
-    NSObject<OS_dispatch_queue> _queue;
-    BKSSystemApplicationClient _client;
-    <BKSSystemApplicationDelegate> _delegate;
+    NSObject<OS_dispatch_queue>* _queue;
+    BKSSystemApplicationClient* _client;
+    <BKSSystemApplicationDelegate>* _delegate;
 }
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 

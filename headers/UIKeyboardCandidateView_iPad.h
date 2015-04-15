@@ -2,7 +2,7 @@
 @protocol UICollectionViewDelegate, UIKeyboardCandidateBarDelegate;
 @interface UIKeyboardCandidateView_iPad : UIKeyboardCandidateView <UICollectionViewDelegate, UIKeyboardCandidateBarDelegate> {
 
-    UIKeyboardCandidatePageControl _pageControl;
+    UIKeyboardCandidatePageControl* _pageControl;
 }
  + (double) defaultExtendedControlHeight;
 

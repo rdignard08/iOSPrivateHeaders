@@ -2,8 +2,8 @@
 @protocol NSCopying;
 @interface _UICollectionViewItemKey : NSObject <NSCopying> {
 
-    NSIndexPath _indexPath;
-    NSString _identifier;
+    NSIndexPath* _indexPath;
+    NSString* _identifier;
     BOOL _isClone;
     unsigned long long _type;
 }

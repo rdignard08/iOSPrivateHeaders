@@ -3,7 +3,7 @@
 
     BOOL _enabled;
     long long _activityCount;
-    NSTimer _activityIndicatorVisibilityTimer;
+    NSTimer* _activityIndicatorVisibilityTimer;
 }
 @property (nonatomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (nonatomic, assign, readonly) NSNumber* isNetworkActivityIndicatorVisible;

@@ -2,8 +2,8 @@
 @protocol NSSecureCoding, NSCopying, QLPreviewItem;
 @interface NSURL : NSObject <NSSecureCoding, NSCopying, QLPreviewItem> {
 
-    NSString _urlString;
-    NSURL _baseURL;
+    NSString* _urlString;
+    NSURL* _baseURL;
     ^v _clients;
     ^v _reserved;
 }

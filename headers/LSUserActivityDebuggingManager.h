@@ -2,11 +2,11 @@
 @interface LSUserActivityDebuggingManager : NSObject {
 
     ^{__asl_object_s=} _client;
-    NSUserDefaults _userDefaults;
-    NSString _logFileDirectoryPath;
-    NSString _logFilePath;
+    NSUserDefaults* _userDefaults;
+    NSString* _logFileDirectoryPath;
+    NSString* _logFilePath;
     int _additionalLogFile;
-    NSObject<OS_dispatch_source> _logRotationTimerSource;
+    NSObject<OS_dispatch_source>* _logRotationTimerSource;
     unsigned long long _lastLogRotationTime;
 }
 @property (atomic, retain, readwrite) NSUserDefaults* userDefaults;

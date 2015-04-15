@@ -1,8 +1,8 @@
 
 @interface CUIThemeSchemaRenditionGroup : NSObject {
 
-    CUIRenditionKey _baseKey;
-    NSArray _renditions;
+    CUIRenditionKey* _baseKey;
+    NSArray* _renditions;
     ^{?=**[5{_renditionkeytoken=SS}]qq[12{?=**qQ}]} _part;
 }
 @property (nonatomic, retain, readwrite) NSArray* renditions;

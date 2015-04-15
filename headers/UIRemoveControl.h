@@ -1,11 +1,11 @@
 
 @interface UIRemoveControl : UIView {
 
-    UIView _target;
+    UIView* _target;
     id _delegate;
-    UIView _removeConfirmationButton;
-    UIRemoveControlMinusButton _minusButton;
-    NSString _label;
+    UIView* _removeConfirmationButton;
+    UIRemoveControlMinusButton* _minusButton;
+    NSString* _label;
     {?="removeButtonVisible"b1"removeConfirmationVisible"b1"removedFromTargetWhenHidden"b1"disableToggleRotate"b1"alwaysHideRemoveButton"b1"editingStyle"b3"reserved"b23} _removeControlFlags;
 }
  + (void) hideAllRemoveConfirmationsInView:(id)a;

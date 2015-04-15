@@ -2,7 +2,7 @@
 @interface _NSXPCConnectionExportInfo : NSObject {
 
     id _exportedObject;
-    NSXPCInterface _exportedInterface;
+    NSXPCInterface* _exportedInterface;
     long long _exportCount;
 }
 @property (atomic, retain, readwrite) NSNumber* exportedObject;

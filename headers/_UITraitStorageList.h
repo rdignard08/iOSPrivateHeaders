@@ -3,8 +3,8 @@
 @interface _UITraitStorageList : NSObject <NSCoding> {
 
     id _topLevelObject;
-    NSArray _traitStorages;
-    NSSet _descendants;
+    NSArray* _traitStorages;
+    NSSet* _descendants;
 }
 @property (nonatomic, weak, readonly) NSNumber* topLevelObject;
 @property (nonatomic, assign, readonly) NSArray* traitStorages;

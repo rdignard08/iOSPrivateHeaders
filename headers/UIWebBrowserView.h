@@ -2,10 +2,10 @@
 @protocol UIWebTouchEventsGestureRecognizerDelegate, UIWebFormAccessoryDelegate, _UIWebRotationDelegate;
 @interface UIWebBrowserView : UIWebDocumentView <UIWebTouchEventsGestureRecognizerDelegate, UIWebFormAccessoryDelegate, _UIWebRotationDelegate> {
 
-    UIWebFormAccessory _accessory;
-    NSObject<UIFormPeripheral> _input;
-    DOMNode _currentAssistedNode;
-    DOMNode _assistedNodeStartingFocusRedirects;
+    UIWebFormAccessory* _accessory;
+    NSObject<UIFormPeripheral>* _input;
+    DOMNode* _currentAssistedNode;
+    DOMNode* _assistedNodeStartingFocusRedirects;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _inputViewBounds;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _addressViewBounds;
     double _lastAdjustmentForScroller;
@@ -17,21 +17,21 @@
     b1 _allowDOMFocusRedirects;
     b1 _hasEditedTextField;
     b1 _alwaysDispatchesScrollEvents;
-    UIWebTouchEventsGestureRecognizer _webTouchEventsGestureRecognizer;
-    UIWebFormDelegate _formDelegate;
-    UIResponder _editingDelegateForEverythingExceptForms;
+    UIWebTouchEventsGestureRecognizer* _webTouchEventsGestureRecognizer;
+    UIWebFormDelegate* _formDelegate;
+    UIResponder* _editingDelegateForEverythingExceptForms;
     unsigned long long _dispatchedTouchEvents;
-    NSMutableArray _deferredTouchEvents;
-    NSHashTable _activeHighlighters;
-    NSMutableSet _overflowScrollViewsPendingInsertion;
-    NSMutableSet _overflowScrollViewsPendingDeletion;
-    NSMutableSet _overflowScrollViews;
-    NSLock _pendingOverflowDataLock;
-    NSMutableArray _pendingOverflowScrolls;
+    NSMutableArray* _deferredTouchEvents;
+    NSHashTable* _activeHighlighters;
+    NSMutableSet* _overflowScrollViewsPendingInsertion;
+    NSMutableSet* _overflowScrollViewsPendingDeletion;
+    NSMutableSet* _overflowScrollViews;
+    NSLock* _pendingOverflowDataLock;
+    NSMutableArray* _pendingOverflowScrolls;
     BOOL _pendingGeometryChangeAfterOverflowScroll;
     {?="all"@"NSMutableArray""html"@"NSMutableArray""javascript"@"NSMutableArray""css"@"NSMutableArray""error"@"NSMutableArray""warning"@"NSMutableArray""tip"@"NSMutableArray""log"@"NSMutableArray"} _messages;
     {?="view"@"UIWebPDFView""timer"@"NSTimer"} _pdf;
-    <UIWebAutoFillDelegate> _autoFillDelegate;
+    <UIWebAutoFillDelegate>* _autoFillDelegate;
 }
  + (void) initialize;
  + (id) getUIWebBrowserViewForWebFrame:(id)a;

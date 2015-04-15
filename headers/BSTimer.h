@@ -1,9 +1,9 @@
 
 @interface BSTimer : NSObject {
 
-    NSObject<OS_dispatch_queue> _queue;
+    NSObject<OS_dispatch_queue>* _queue;
     @? _handler;
-    BSDispatchSource _source;
+    BSDispatchSource* _source;
     double _fireInterval;
     double _repeatInterval;
     double _leewayInterval;

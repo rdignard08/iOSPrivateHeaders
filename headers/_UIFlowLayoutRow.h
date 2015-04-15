@@ -1,8 +1,8 @@
 
 @interface _UIFlowLayoutRow : NSObject {
 
-    NSMutableArray _items;
-    _UIFlowLayoutSection _section;
+    NSMutableArray* _items;
+    _UIFlowLayoutSection* _section;
     {CGSize="width"d"height"d} _rowSize;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _rowFrame;
     long long _index;

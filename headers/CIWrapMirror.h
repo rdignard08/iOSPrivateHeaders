@@ -1,7 +1,7 @@
 
 @interface CIWrapMirror : CIFilter {
 
-    CIImage inputImage;
+    CIImage* inputImage;
 }
  + (id) customAttributes;
 

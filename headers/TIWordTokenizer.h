@@ -1,7 +1,7 @@
 
 @interface TIWordTokenizer : NSObject {
 
-    NSString m_string;
+    NSString* m_string;
     {?="buffer"[64S]"theString"^{__CFString}"directUniCharBuffer"^S"directCStringBuffer"*"rangeToBuffer"{?="location"q"length"q}"bufferedRangeStart"q"bufferedRangeEnd"q} m_inlineBuffer;
     {_NSRange="location"Q"length"Q} m_tokenRange;
     {_NSRange="location"Q"length"Q} m_searchRange;

@@ -2,9 +2,9 @@
 @protocol _UIIVCInterface;
 @interface UIInputViewControllerInterface : TIKeyboardInputManagerStub <_UIIVCInterface> {
 
-    <_UIIVCResponseDelegate> _responseDelegate;
-    <_UIIVCInterface> _forwardingInterface;
-    _UIInputViewControllerState _cachedState;
+    <_UIIVCResponseDelegate>* _responseDelegate;
+    <_UIIVCInterface>* _forwardingInterface;
+    _UIInputViewControllerState* _cachedState;
 }
 
  - (void) dealloc;

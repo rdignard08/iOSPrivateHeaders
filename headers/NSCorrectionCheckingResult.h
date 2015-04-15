@@ -1,7 +1,7 @@
 
 @interface NSCorrectionCheckingResult : NSSubstitutionCheckingResult {
 
-    NSArray _alternativeStrings;
+    NSArray* _alternativeStrings;
 }
 
  - (id) resultByAdjustingRangesWithOffset:(long long)a;

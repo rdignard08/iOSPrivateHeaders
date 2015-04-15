@@ -1,7 +1,7 @@
 
 @interface UIRowMoveUpdateItem : UIUpdateItem {
 
-    NSIndexPath _newIndexPath;
+    NSIndexPath* _newIndexPath;
 }
 
  - (void) dealloc;

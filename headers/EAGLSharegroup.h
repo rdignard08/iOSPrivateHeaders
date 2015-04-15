@@ -2,7 +2,7 @@
 @interface EAGLSharegroup : NSObject {
 
     ^{_EAGLSharegroupPrivate=QiB{__GLDPixelFormatRec=^{__GLDPixelFormatRec}IIIIIIIssssICCCCI}^{__GLISharedRec}} _private;
-    NSString debugLabel;
+    NSString* debugLabel;
 }
 @property (nonatomic, copy, readwrite) NSString* debugLabel;
 

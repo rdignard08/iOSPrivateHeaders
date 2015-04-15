@@ -1,7 +1,7 @@
 
 @interface _UITabBarItemAppearanceStorage : _UIBarItemAppearanceStorage {
 
-    NSValue titleOffset;
+    NSValue* titleOffset;
 }
 
  - (void) dealloc;

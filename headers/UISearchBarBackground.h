@@ -2,9 +2,9 @@
 @protocol _UIBarPositioningInternal;
 @interface UISearchBarBackground : _UIBarBackgroundImageView <_UIBarPositioningInternal> {
 
-    UIColor _barTintColor;
-    NSMutableDictionary _customBackgroundImages;
-    NSMutableDictionary _generatedBackgroundImages;
+    UIColor* _barTintColor;
+    NSMutableDictionary* _customBackgroundImages;
+    NSMutableDictionary* _generatedBackgroundImages;
     long long _barPosition;
     unsigned long long _searchBarStyle;
     b3 _barStyle;

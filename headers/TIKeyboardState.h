@@ -5,17 +5,17 @@
     (?="integerValue"q"fields"{?="userSelectedCurrentCandidate"b1"shouldSkipCandidateSelection"b1"suppressingCandidateSelection"b1"needsCandidateMetadata"b1"keyboardEventsLagging"b1"hardwareKeyboardMode"b1"splitKeyboardMode"b1"wordLearningEnabled"b1"autocorrectionEnabled"b1"shortcutConversionEnabled"b1"candidateSelectionPredictionEnabled"b1"autocapitalizationEnabled"b1}) _mask;
     (?="integerValue"q"fields"{?="displayed"b1"autoDisplayMode"b1}) _autocorrectionListUIState;
     int _shiftState;
-    NSString _clientIdentifier;
-    NSString _inputMode;
-    NSString _recipientIdentifier;
-    TIKeyboardLayout _keyLayout;
-    TIKeyboardLayoutState _layoutState;
-    TIDocumentState _documentState;
-    NSString _inputForMarkedText;
-    NSString _searchStringForMarkedText;
-    TIKeyboardCandidate _currentCandidate;
-    TITextInputTraits _textInputTraits;
-    NSString _responseContext;
+    NSString* _clientIdentifier;
+    NSString* _inputMode;
+    NSString* _recipientIdentifier;
+    TIKeyboardLayout* _keyLayout;
+    TIKeyboardLayoutState* _layoutState;
+    TIDocumentState* _documentState;
+    NSString* _inputForMarkedText;
+    NSString* _searchStringForMarkedText;
+    TIKeyboardCandidate* _currentCandidate;
+    TITextInputTraits* _textInputTraits;
+    NSString* _responseContext;
 }
 @property (nonatomic, copy, readwrite) NSString* clientIdentifier;
 @property (nonatomic, copy, readwrite) NSString* inputMode;

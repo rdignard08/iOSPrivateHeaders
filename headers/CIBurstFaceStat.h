@@ -36,8 +36,8 @@
     float normalizedSmileScore;
     float rollAngle;
     float yawAngle;
-    NSMutableArray FCRSmileAndBlinkFeatures;
-    NSMutableArray faceHOG;
+    NSMutableArray* FCRSmileAndBlinkFeatures;
+    NSMutableArray* faceHOG;
     double timestamp;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} faceRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} normalizedFaceRect;

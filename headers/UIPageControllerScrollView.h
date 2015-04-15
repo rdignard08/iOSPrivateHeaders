@@ -1,7 +1,7 @@
 
 @interface UIPageControllerScrollView : UIScrollView {
 
-    UIPageController _pageController;
+    UIPageController* _pageController;
 }
 
  - (void) layoutSubviews;

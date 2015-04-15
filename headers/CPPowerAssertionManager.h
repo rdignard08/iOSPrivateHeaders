@@ -1,13 +1,13 @@
 
 @interface CPPowerAssertionManager : NSObject {
 
-    NSString _uuid;
-    NSCountedSet _contexts;
-    NSMutableDictionary _groupIdentifierToContexts;
+    NSString* _uuid;
+    NSCountedSet* _contexts;
+    NSMutableDictionary* _groupIdentifierToContexts;
     ^{__CFDictionary=} _contextToGroupIdentifier;
-    NSMutableSet _heldAsideGroupIdentifiers;
-    NSCountedSet _heldAsideContexts;
-    <CPPowerAssertionManagerDelegate> _delegate;
+    NSMutableSet* _heldAsideGroupIdentifiers;
+    NSCountedSet* _heldAsideContexts;
+    <CPPowerAssertionManagerDelegate>* _delegate;
 }
 @property (atomic, assign, readonly) NSString* uuid;
 @property (atomic, assign, readwrite) NSNumber* delegate;

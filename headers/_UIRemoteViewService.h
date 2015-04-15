@@ -1,8 +1,8 @@
 
 @interface _UIRemoteViewService : NSObject {
 
-    NSExtension _extension;
-    NSUUID _contextToken;
+    NSExtension* _extension;
+    NSUUID* _contextToken;
 }
 @property (nonatomic, retain, readwrite) NSExtension* extension;
 @property (nonatomic, retain, readwrite) NSNumber* plugin;

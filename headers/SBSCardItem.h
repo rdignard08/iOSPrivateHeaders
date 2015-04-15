@@ -3,14 +3,14 @@
 @interface SBSCardItem : NSObject <NSCopying, NSSecureCoding> {
 
     BOOL _requiresPasscode;
-    NSString _identifier;
-    NSData _iconData;
-    NSString _title;
-    NSString _body;
-    NSString _bundleName;
-    NSData _attachmentData;
-    NSDictionary _userInfo;
-    UIImage _thumbnail;
+    NSString* _identifier;
+    NSData* _iconData;
+    NSString* _title;
+    NSString* _body;
+    NSString* _bundleName;
+    NSData* _attachmentData;
+    NSDictionary* _userInfo;
+    UIImage* _thumbnail;
 }
 @property (nonatomic, copy, readwrite) NSString* identifier;
 @property (nonatomic, copy, readwrite) NSData* iconData;

@@ -2,10 +2,10 @@
 @protocol ABPeoplePickerNavigationControllerDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate;
 @interface UIAssignToContactActivity : UIActivity <ABPeoplePickerNavigationControllerDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate> {
 
-    UIImage _image;
-    ABPeoplePickerNavigationController _peoplePicker;
+    UIImage* _image;
+    ABPeoplePickerNavigationController* _peoplePicker;
     ^v _person;
-    UIImagePickerController _imagePickerController;
+    UIImagePickerController* _imagePickerController;
 }
 
  - (id) activityType;

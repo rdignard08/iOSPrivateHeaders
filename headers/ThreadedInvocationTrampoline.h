@@ -1,7 +1,7 @@
 
 @interface ThreadedInvocationTrampoline : InvocationTrampoline {
 
-    NSThread _thread;
+    NSThread* _thread;
     BOOL _immediateForMatchingThread;
 }
 

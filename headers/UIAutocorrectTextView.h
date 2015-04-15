@@ -1,10 +1,10 @@
 
 @interface UIAutocorrectTextView : UIView {
 
-    NSString m_string;
+    NSString* m_string;
     int m_type;
     int m_edgeType;
-    UIFont m_textFont;
+    UIFont* m_textFont;
     BOOL m_animating;
     BOOL m_isLongString;
 }

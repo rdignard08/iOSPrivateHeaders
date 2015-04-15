@@ -7,8 +7,8 @@
     BOOL __transitionInterrupted;
     double _completionSpeed;
     long long _completionCurve;
-    NSString __originalFillMode;
-    NSUUID __uuid;
+    NSString* __originalFillMode;
+    NSUUID* __uuid;
 }
 @property (atomic, assign, readonly) NSNumber* duration;
 @property (atomic, assign, readonly) NSNumber* percentComplete;

@@ -2,8 +2,8 @@
 @protocol _UIBasicAnimationFactory;
 @interface UIKeyboardDicationBackgroundGradientView : UIView <_UIBasicAnimationFactory> {
 
-    UIKBRenderConfig _renderConfig;
-    UIDictationView _dictationView;
+    UIKBRenderConfig* _renderConfig;
+    UIDictationView* _dictationView;
 }
 
  - (void) dealloc;

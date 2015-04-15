@@ -2,7 +2,7 @@
 @protocol WebGeolocationProviderInitializationListener;
 @interface WebGeolocationProviderInitializationListener : NSObject <WebGeolocationProviderInitializationListener> {
 
-    m_ptr m_geolocation;
+    m_ptr* m_geolocation;
 }
 
  - (id) .cxx_construct;

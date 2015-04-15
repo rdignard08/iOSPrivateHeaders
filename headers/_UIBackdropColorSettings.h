@@ -6,7 +6,7 @@
     double _averageSaturation;
     double _averageBrightness;
     double _contrast;
-    _UIBackdropViewSettings _parentSettings;
+    _UIBackdropViewSettings* _parentSettings;
     double _previousAverageHue;
     double _previousAverageSaturation;
     double _previousAverageBrightness;

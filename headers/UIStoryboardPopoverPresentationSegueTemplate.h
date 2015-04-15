@@ -2,9 +2,9 @@
 @interface UIStoryboardPopoverPresentationSegueTemplate : UIStoryboardSegueTemplate {
 
     unsigned long long _permittedArrowDirections;
-    NSArray _passthroughViews;
-    UIView _anchorView;
-    UIBarButtonItem _anchorBarButtonItem;
+    NSArray* _passthroughViews;
+    UIView* _anchorView;
+    UIBarButtonItem* _anchorBarButtonItem;
 }
 
  - (void) dealloc;

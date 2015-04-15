@@ -5,9 +5,9 @@
     id _delegate;
     {CGSize="width"d"height"d} _contentSize;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _contentInset;
-    UIImageView _verticalScrollIndicator;
-    UIImageView _horizontalScrollIndicator;
-    _UIStaticScrollBar _staticScrollBar;
+    UIImageView* _verticalScrollIndicator;
+    UIImageView* _horizontalScrollIndicator;
+    _UIStaticScrollBar* _staticScrollBar;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _scrollIndicatorInset;
     double _startOffsetX;
     double _startOffsetY;
@@ -16,7 +16,7 @@
     double _lastUpdateTime;
     double _minimumZoomScale;
     double _maximumZoomScale;
-    UIView _zoomView;
+    UIView* _zoomView;
     double _horizontalVelocity;
     double _verticalVelocity;
     double _previousHorizontalVelocity;
@@ -37,8 +37,8 @@
     id _pan;
     id _swipe;
     id _touchDelayGestureRecognizer;
-    UISwipeGestureRecognizer _lowFidelitySwipeGestureRecognizers;
-    UIScrollView _draggingChildScrollView;
+    UISwipeGestureRecognizer* _lowFidelitySwipeGestureRecognizers;
+    UIScrollView* _draggingChildScrollView;
     {CGPoint="x"d"y"d} _parentAdjustment;
     double _pagingSpringPull;
     double _pagingFriction;
@@ -56,9 +56,9 @@
     BOOL _useContentDimensionVariablesForConstraintLowering;
     id _scrollTestParameters;
     long long _keyboardDismissMode;
-    NSISVariable _contentWidthVariable;
-    NSISVariable _contentHeightVariable;
-    NSArray _automaticContentConstraints;
+    NSISVariable* _contentWidthVariable;
+    NSISVariable* _contentHeightVariable;
+    NSArray* _automaticContentConstraints;
     {CGPoint="x"d"y"d} _zoomAnchorPoint;
 }
  + (SEL) _pinchGestureAction;

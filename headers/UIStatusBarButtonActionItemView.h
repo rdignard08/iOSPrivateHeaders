@@ -1,8 +1,8 @@
 
 @interface UIStatusBarButtonActionItemView : UIStatusBarItemView {
 
-    UIButton _button;
-    UIButton _externalButton;
+    UIButton* _button;
+    UIButton* _externalButton;
 }
 
  - (void) dealloc;

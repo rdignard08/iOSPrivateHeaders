@@ -1,7 +1,7 @@
 
 @interface NSXPCInterface : NSObject {
 
-    Protocol _protocol;
+    Protocol* _protocol;
     ^{__CFDictionary=} _methods2;
     id _reserved1;
 }

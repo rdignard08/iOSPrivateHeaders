@@ -3,8 +3,8 @@
 
     BOOL _disableAlongsideView;
     BOOL _allowCustomTransition;
-    _UIViewControllerTransitionContext _context;
-    _UIViewControllerKeyboardAnimationStyleInfo _info;
+    _UIViewControllerTransitionContext* _context;
+    _UIViewControllerKeyboardAnimationStyleInfo* _info;
 }
  + (id) animationStyleWithContext:(id)auseCustomTransition:(BOOL)b;
  + (id) animationStyleWithContext:(id)a;

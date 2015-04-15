@@ -1,7 +1,7 @@
 
 @interface _UIReplicantLayer : CALayer {
 
-    hasSetContents _layerFlags;
+    hasSetContents* _layerFlags;
 }
 
  - (void) setContents:(id)a;

@@ -2,7 +2,7 @@
 @protocol NSSecureCoding, NSCopying;
 @interface NSURLProtectionSpace : NSObject <NSSecureCoding, NSCopying> {
 
-    NSURLProtectionSpaceInternal _internal;
+    NSURLProtectionSpaceInternal* _internal;
 }
 @property (atomic, copy, readonly) NSString* realm;
 @property (atomic, assign, readonly) NSNumber* receivesCredentialSecurely;

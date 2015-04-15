@@ -2,7 +2,7 @@
 @interface _NSXPCConnectionRequestedReplyInfo : NSObject {
 
     @? _cleanupBlock;
-    NSProgress _progress;
+    NSProgress* _progress;
 }
 @property (atomic, copy, readwrite) NSNumber* cleanupBlock;
 @property (atomic, retain, readwrite) NSProgress* progress;

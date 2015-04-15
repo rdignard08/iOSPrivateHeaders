@@ -1,8 +1,8 @@
 
 @interface WebNodeHighlightView : WAKView {
 
-    WebNodeHighlight _webNodeHighlight;
-    NSMutableArray _layers;
+    WebNodeHighlight* _webNodeHighlight;
+    NSMutableArray* _layers;
 }
 
  - (void) dealloc;

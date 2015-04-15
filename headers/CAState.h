@@ -2,9 +2,9 @@
 @protocol NSCoding, NSCopying;
 @interface CAState : NSObject <NSCoding, NSCopying> {
 
-    NSString _name;
-    NSString _basedOn;
-    NSMutableArray _elements;
+    NSString* _name;
+    NSString* _basedOn;
+    NSMutableArray* _elements;
     double _nextDelay;
     double _previousDelay;
     BOOL _enabled;

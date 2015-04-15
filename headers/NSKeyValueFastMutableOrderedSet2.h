@@ -1,7 +1,7 @@
 
 @interface NSKeyValueFastMutableOrderedSet2 : NSKeyValueFastMutableOrderedSet {
 
-    NSKeyValueGetter _valueGetter;
+    NSKeyValueGetter* _valueGetter;
 }
  + (^{?=Q[4@]}) _proxyNonGCPoolPointer;
 

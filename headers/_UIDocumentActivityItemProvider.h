@@ -1,7 +1,7 @@
 
 @interface _UIDocumentActivityItemProvider : UIActivityItemProvider {
 
-    UIDocumentInteractionController _documentInteractionController;
+    UIDocumentInteractionController* _documentInteractionController;
 }
 
  - (id) item;

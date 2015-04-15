@@ -1,7 +1,7 @@
 
 @interface _UIModalItemAppViewController : UIViewController {
 
-    UIWindow _rotationDelegate;
+    UIWindow* _rotationDelegate;
 }
 
  - (void) dealloc;

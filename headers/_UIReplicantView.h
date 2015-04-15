@@ -1,10 +1,10 @@
 
 @interface _UIReplicantView : UIView {
 
-    _UISlotIdWrapper _slotIdWrapper;
-    UIScreen _screen;
+    _UISlotIdWrapper* _slotIdWrapper;
+    UIScreen* _screen;
     {CGSize="width"d"height"d} _snapshotSize;
-    _UIReplicantContentView _contentView;
+    _UIReplicantContentView* _contentView;
 }
  + (Class) layerClass;
  + (id) snapshotWithView:(id)afromRect:({CGRect={CGPoint=dd}{CGSize=dd}})bcapInsets:({UIEdgeInsets=dddd})cdefer:(BOOL)d;

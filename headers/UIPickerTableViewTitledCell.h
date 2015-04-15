@@ -1,10 +1,10 @@
 
 @interface UIPickerTableViewTitledCell : UIPickerTableViewCell {
 
-    UILabel _titleLabel;
+    UILabel* _titleLabel;
     BOOL _isAttributed;
     BOOL _usesModernStyle;
-    UIColor _textColor;
+    UIColor* _textColor;
 }
 
  - (id) title;

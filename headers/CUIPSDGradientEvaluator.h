@@ -2,10 +2,10 @@
 @protocol NSCoding, NSCopying;
 @interface CUIPSDGradientEvaluator : NSObject <NSCoding, NSCopying> {
 
-    NSArray colorStops;
-    NSArray colorMidpointLocations;
-    NSArray opacityStops;
-    NSArray opacityMidpointLocations;
+    NSArray* colorStops;
+    NSArray* colorMidpointLocations;
+    NSArray* opacityStops;
+    NSArray* opacityMidpointLocations;
     double smoothingCoefficient;
     {_psdGradientColor="red"d"green"d"blue"d"alpha"d} fillColor;
     int blendMode;

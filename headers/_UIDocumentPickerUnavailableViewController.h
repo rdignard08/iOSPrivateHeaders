@@ -1,17 +1,17 @@
 
 @interface _UIDocumentPickerUnavailableViewController : UIViewController {
 
-    UIImageView _leadImageView;
-    UILabel _titleLabel;
-    UILabel _textLabel;
-    UILabel _textLabel2;
-    UIButton _button;
-    NSURL _buttonURL;
-    NSLayoutConstraint _topConstraint;
-    NSLayoutConstraint _imageToTitleConstraint;
-    NSLayoutConstraint _titleToTextConstraint;
-    NSLayoutConstraint _textToTextConstraint;
-    NSLayoutConstraint _textToButtonConstraint;
+    UIImageView* _leadImageView;
+    UILabel* _titleLabel;
+    UILabel* _textLabel;
+    UILabel* _textLabel2;
+    UIButton* _button;
+    NSURL* _buttonURL;
+    NSLayoutConstraint* _topConstraint;
+    NSLayoutConstraint* _imageToTitleConstraint;
+    NSLayoutConstraint* _titleToTextConstraint;
+    NSLayoutConstraint* _textToTextConstraint;
+    NSLayoutConstraint* _textToButtonConstraint;
 }
 
  - (void) dealloc;

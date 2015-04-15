@@ -1,13 +1,13 @@
 
 @interface UIManagedDocument : UIDocument {
 
-    NSManagedObjectContext _managedObjectContext;
-    NSPersistentStoreCoordinator _persistentStoreCoordinator;
-    NSManagedObjectModel _managedObjectModel;
-    NSDictionary _documentMetadata;
+    NSManagedObjectContext* _managedObjectContext;
+    NSPersistentStoreCoordinator* _persistentStoreCoordinator;
+    NSManagedObjectModel* _managedObjectModel;
+    NSDictionary* _documentMetadata;
     {__mdocFlags="shouldWriteAdditionalContent"b1"_reserved"b31} _mdocFlags;
-    NSDictionary persistentStoreOptions;
-    NSString modelConfiguration;
+    NSDictionary* persistentStoreOptions;
+    NSString* modelConfiguration;
 }
  + (void) initialize;
  + (BOOL) isPersistentStoreSynchronizedViaUbiquitousContentWithOptions:(id)a;

@@ -1,8 +1,8 @@
 
 @interface CILumaMap : CIFilter {
 
-    CIImage inputImage;
-    CIImage _tableImage;
+    CIImage* inputImage;
+    CIImage* _tableImage;
 }
  + (id) customAttributes;
 

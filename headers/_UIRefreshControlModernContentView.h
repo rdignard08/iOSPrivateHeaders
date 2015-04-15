@@ -2,11 +2,11 @@
 @interface _UIRefreshControlModernContentView : _UIRefreshControlContentView {
 
     BOOL _animationsAreValid;
-    UIView _replicatorContainer;
-    _UIRefreshControlModernReplicatorView _replicatorView;
-    UIView _seed;
+    UIView* _replicatorContainer;
+    _UIRefreshControlModernReplicatorView* _replicatorView;
+    UIView* _seed;
     BOOL _hasFinishedRevealing;
-    UILabel _textLabel;
+    UILabel* _textLabel;
     BOOL _areAnimationsValid;
     double _currentPopStiffness;
 }

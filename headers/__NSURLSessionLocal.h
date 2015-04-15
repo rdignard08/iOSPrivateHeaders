@@ -4,8 +4,8 @@
 
     unsigned long long _identSeed;
     ^{XTubeManager=^^?^{__CFAllocator}i^{RetainableTypedDict<const CoreSchedulingSet *, TubeManager *>}{_opaque_pthread_mutex_t=q[56c]}{HTTPConnectionCacheLimits=iiiiiiiiii}} _tubeManager;
-    NSMutableDictionary _tasks;
-    NSObject<OS_dispatch_queue> _invalidateQueue;
+    NSMutableDictionary* _tasks;
+    NSObject<OS_dispatch_queue>* _invalidateQueue;
     @? _invalidateCallback;
     r^{XURLCache=^^?^{__CFAllocator}i} _xCache;
     long long _xCacheOnce;
@@ -13,7 +13,7 @@
     long long _xCookiesOnce;
     r^{XCredentialStorage=^^?^{__CFAllocator}i} _xCreds;
     long long _xCredsOnce;
-    NSArray _localProtocolClassesForDefaultSession;
+    NSArray* _localProtocolClassesForDefaultSession;
     BOOL _isInvalid;
 }
 

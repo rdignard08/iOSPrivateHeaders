@@ -1,11 +1,11 @@
 
 @interface UIWebTextRangeView : UIView {
 
-    UIView<UITextInput> m_container;
-    NSArray _rects;
-    NSMutableArray _rectViews;
-    UIWebDragDotView _startDot;
-    UIWebDragDotView _endDot;
+    UIView<UITextInput>* m_container;
+    NSArray* _rects;
+    NSMutableArray* _rectViews;
+    UIWebDragDotView* _startDot;
+    UIWebDragDotView* _endDot;
     BOOL _magnifying;
 }
 

@@ -2,8 +2,8 @@
 @protocol UIWebFormControl;
 @interface UIWebSelectPopover : UIWebFormRotatingAccessoryPopover <UIWebFormControl> {
 
-    UIWebSelectTableViewController _tableViewController;
-    UIKeyboard _keyboard;
+    UIWebSelectTableViewController* _tableViewController;
+    UIKeyboard* _keyboard;
 }
 
  - (void) dealloc;

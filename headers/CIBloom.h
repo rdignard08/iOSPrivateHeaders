@@ -1,9 +1,9 @@
 
 @interface CIBloom : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputRadius;
-    NSNumber inputIntensity;
+    CIImage* inputImage;
+    NSNumber* inputRadius;
+    NSNumber* inputIntensity;
 }
  + (id) customAttributes;
 

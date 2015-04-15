@@ -1,7 +1,7 @@
 
 @interface UIDelayedControlTargetAction : UIControlTargetAction {
 
-    UIEvent _event;
+    UIEvent* _event;
 }
 
  - (void) dealloc;

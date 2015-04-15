@@ -2,7 +2,7 @@
 @protocol NSCoding;
 @interface _UIAttributeTraitStorageRecord : NSObject <NSCoding> {
 
-    UITraitCollection _traitCollection;
+    UITraitCollection* _traitCollection;
     id _value;
 }
 @property (nonatomic, assign, readonly) UITraitCollection* traitCollection;

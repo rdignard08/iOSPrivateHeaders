@@ -7,8 +7,8 @@
     BOOL _secondaryCandidateAppearance;
     BOOL _emphasizedAppearance;
     int _candidatesVisualStyle;
-    NSString _text;
-    NSString _alternativeText;
+    NSString* _text;
+    NSString* _alternativeText;
     unsigned long long _candidateNumber;
     unsigned long long _edges;
     double _rowHeight;
@@ -17,9 +17,9 @@
     long long _textAlignment;
     double _cellPadding;
     double _minimumWidth;
-    UILabel _textLabel;
-    UILabel _alternativeTextLabel;
-    UILabel _candidateNumberLabel;
+    UILabel* _textLabel;
+    UILabel* _alternativeTextLabel;
+    UILabel* _candidateNumberLabel;
     {CGSize="width"d"height"d} _size;
     {CGSize="width"d"height"d} _candidateNumberSize;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _visibleBounds;

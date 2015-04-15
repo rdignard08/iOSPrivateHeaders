@@ -1,10 +1,10 @@
 
 @interface CIPhotoGrain : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputISO;
-    NSNumber inputAmount;
-    NSNumber inputSeed;
+    CIImage* inputImage;
+    NSNumber* inputISO;
+    NSNumber* inputAmount;
+    NSNumber* inputSeed;
 }
 
  - (id) customAttributes;

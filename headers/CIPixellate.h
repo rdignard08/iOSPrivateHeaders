@@ -1,9 +1,9 @@
 
 @interface CIPixellate : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputCenter;
-    NSNumber inputScale;
+    CIImage* inputImage;
+    CIVector* inputCenter;
+    NSNumber* inputScale;
 }
  + (id) customAttributes;
 

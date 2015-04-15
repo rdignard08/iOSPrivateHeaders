@@ -1,10 +1,10 @@
 
 @interface CIBarcodeDetector : CIDetector {
 
-    CIContext context;
+    CIContext* context;
     double _width;
     double _height;
-    NSMutableDictionary featureOptions;
+    NSMutableDictionary* featureOptions;
 }
 
  - (void) setContext:(id)a;

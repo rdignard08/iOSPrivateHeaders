@@ -2,15 +2,15 @@
 @protocol NSSecureCoding;
 @interface LSPlugInKitProxy : LSBundleProxy <NSSecureCoding> {
 
-    NSDictionary _infoPlist;
-    LSBundleProxy _parentBundle;
+    NSDictionary* _infoPlist;
+    LSBundleProxy* _parentBundle;
     unsigned int _parentBundleID;
     BOOL _isOnSystemPartition;
-    NSString _pluginIdentifier;
-    NSString _protocol;
-    NSUUID _pluginUUID;
-    NSDictionary _pluginKitDictionary;
-    NSDate _registrationDate;
+    NSString* _pluginIdentifier;
+    NSString* _protocol;
+    NSUUID* _pluginUUID;
+    NSDictionary* _pluginKitDictionary;
+    NSDate* _registrationDate;
 }
  + (id) plugInKitProxyForPlugin:(unsigned int)a;
  + (id) pluginKitProxyForUUID:(id)a;

@@ -4,18 +4,18 @@
 
     id _delegate;
     long long _transition;
-    UIView _firstResponderViewToRestore;
+    UIView* _firstResponderViewToRestore;
     b1 _isTransitioning;
     double _columnWidth;
     int _columnCount;
-    NSArray _fromViews;
-    NSArray _toViews;
-    NSArray _viewsToRemove;
-    NSArray _viewsToAdd;
-    NSArray _displayedViews;
+    NSArray* _fromViews;
+    NSArray* _toViews;
+    NSArray* _viewsToRemove;
+    NSArray* _viewsToAdd;
+    NSArray* _displayedViews;
     ^{__CFDictionary=} _dividerViews;
     ^{__CFDictionary=} _containerViews;
-    UIColor _dividersColor;
+    UIColor* _dividersColor;
     double _dividersWidth;
 }
  + (double) defaultDurationForTransition:(long long)a;

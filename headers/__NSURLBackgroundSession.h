@@ -3,14 +3,14 @@
 @interface __NSURLBackgroundSession : NSURLSession <NDBackgroundSessionClient, NSURLSessionSubclass> {
 
     unsigned long long _identSeed;
-    <NDBackgroundSessionProtocol> _remoteSession;
-    NSXPCConnection _xpcConn;
-    NSMutableDictionary _tasks;
-    NSMutableArray _taskIDsToFailOnReconnection;
-    NSObject<OS_dispatch_queue> _invalidateQueue;
+    <NDBackgroundSessionProtocol>* _remoteSession;
+    NSXPCConnection* _xpcConn;
+    NSMutableDictionary* _tasks;
+    NSMutableArray* _taskIDsToFailOnReconnection;
+    NSObject<OS_dispatch_queue>* _invalidateQueue;
     @? _invalidateCallback;
-    NSString _appWakeUUID;
-    NSURL _downloadDirectory;
+    NSString* _appWakeUUID;
+    NSURL* _downloadDirectory;
     BOOL _isPrivileged;
     BOOL _isInvalid;
 }

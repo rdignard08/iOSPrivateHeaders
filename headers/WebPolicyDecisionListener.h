@@ -2,7 +2,7 @@
 @protocol WebPolicyDecisionListener;
 @interface WebPolicyDecisionListener : NSObject <WebPolicyDecisionListener> {
 
-    WebPolicyDecisionListenerPrivate _private;
+    WebPolicyDecisionListenerPrivate* _private;
 }
 
  - (Vv) release;

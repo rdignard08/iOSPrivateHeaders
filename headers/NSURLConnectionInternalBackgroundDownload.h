@@ -3,14 +3,14 @@
 @interface NSURLConnectionInternalBackgroundDownload : NSURLConnectionInternal <NSURLConnectionRequired, SSDownloadManagerObserver, SSDownloadHandlerDelegate> {
 
     ^{__CFRunLoopSource=} _source;
-    NSMutableArray _pendingOps;
-    NSCountedSet _runloops;
-    SSDownloadHandler _handler;
-    NSAsyncSSDownloadManager _manager;
+    NSMutableArray* _pendingOps;
+    NSCountedSet* _runloops;
+    SSDownloadHandler* _handler;
+    NSAsyncSSDownloadManager* _manager;
     long long _downloadIdent;
     long long _ctLast;
     BOOL _terminated;
-    NSTimer _deferredStartTimer;
+    NSTimer* _deferredStartTimer;
 }
  + (id) sharedDownloadManagerForMediaKind:(id)apersistenceIdentifier:(id)b;
  + (void) _enableLogging;

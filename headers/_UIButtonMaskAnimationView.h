@@ -2,8 +2,8 @@
 @interface _UIButtonMaskAnimationView : UIView {
 
     unsigned long long _hardEdge;
-    UIView _hardEdgeLine;
-    UIButton _delegate;
+    UIView* _hardEdgeLine;
+    UIButton* _delegate;
 }
 
  - (void) dealloc;

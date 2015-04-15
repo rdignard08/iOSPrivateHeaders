@@ -1,9 +1,9 @@
 
 @interface UIInputViewTransition : NSObject {
 
-    UIInputViewSet oldSet;
-    UIInputViewSet newSet;
-    UIInputViewAnimationStyle animationStyle;
+    UIInputViewSet* oldSet;
+    UIInputViewSet* newSet;
+    UIInputViewAnimationStyle* animationStyle;
     BOOL cancelled;
     int animationState;
     double animationStartTime;
@@ -18,7 +18,7 @@
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} beginFloatingFrameScreen;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} endFloatingFrameScreen;
     int activeClippingModes;
-    UISnapshotView snapshotView;
+    UISnapshotView* snapshotView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} snapshotViewBeginFrame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} snapshotViewEndFrame;
 }

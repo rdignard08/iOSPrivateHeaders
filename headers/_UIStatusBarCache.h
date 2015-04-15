@@ -1,7 +1,7 @@
 
 @interface _UIStatusBarCache : NSObject {
 
-    CPBitmapStore _store;
+    CPBitmapStore* _store;
 }
  + (id) sharedInstance;
 

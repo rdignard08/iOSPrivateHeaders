@@ -1,8 +1,8 @@
 
 @interface _SBSDisplayIdentifiersCache : NSObject {
 
-    NSObject<OS_dispatch_queue> _queue;
-    NSSet _displayIdentifiers;
+    NSObject<OS_dispatch_queue>* _queue;
+    NSSet* _displayIdentifiers;
     int _changedToken;
     @? _changedBlock;
 }

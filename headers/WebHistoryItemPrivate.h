@@ -1,7 +1,7 @@
 
 @interface WebHistoryItemPrivate : NSObject {
 
-    m_ptr _historyItem;
+    m_ptr* _historyItem;
     double _lastVisitedTime;
 }
 

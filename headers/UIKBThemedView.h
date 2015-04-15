@@ -2,8 +2,8 @@
 @protocol UIKBCacheableView;
 @interface UIKBThemedView : UIView <UIKBCacheableView> {
 
-    CALayer _borders;
-    CALayer _background;
+    CALayer* _borders;
+    CALayer* _background;
     BOOL _lightKeyboard;
     BOOL _active;
     BOOL _usePersistentCaching;

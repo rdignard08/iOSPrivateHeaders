@@ -2,10 +2,10 @@
 @protocol NSCopying;
 @interface UIKBMergeAction : NSObject <NSCopying> {
 
-    NSString _remainingKeyName;
-    NSString _disappearingKeyName;
-    NSArray _orderedKeyList;
-    UIKBGeometry _factors;
+    NSString* _remainingKeyName;
+    NSString* _disappearingKeyName;
+    NSArray* _orderedKeyList;
+    UIKBGeometry* _factors;
 }
 @property (nonatomic, retain, readwrite) NSString* remainingKeyName;
 @property (nonatomic, retain, readwrite) NSString* disappearingKeyName;

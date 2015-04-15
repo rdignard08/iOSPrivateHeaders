@@ -1,11 +1,11 @@
 
 @interface NSConcreteTask : NSTask {
 
-    NSObject<OS_dispatch_semaphore> _lock;
-    NSMutableDictionary _dictionary;
+    NSObject<OS_dispatch_semaphore>* _lock;
+    NSMutableDictionary* _dictionary;
     @? _terminationHandler;
-    NSObject<OS_dispatch_source> _dsrc;
-    NSPort _tmpPort;
+    NSObject<OS_dispatch_source>* _dsrc;
+    NSPort* _tmpPort;
     long long _suspendCount;
     int _pid;
     int _platformExitInfo;

@@ -1,8 +1,8 @@
 
 @interface _UITableViewSeparatorView : UIView {
 
-    UITableViewCell _tableCell;
-    UITableView _table;
+    UITableViewCell* _tableCell;
+    UITableView* _table;
 }
 
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})awithTable:(id)b;

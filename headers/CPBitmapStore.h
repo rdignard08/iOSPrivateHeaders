@@ -1,13 +1,13 @@
 
 @interface CPBitmapStore : NSObject {
 
-    NSString _path;
-    NSString _imagePath;
-    NSCache _cache;
+    NSString* _path;
+    NSString* _imagePath;
+    NSCache* _cache;
     int _version;
-    NSString _versionPath;
-    NSObject<OS_dispatch_queue> _serialQueueRemoveImagesBackground;
-    NSObject<OS_dispatch_queue> _serialQueueRemoveImagesDefault;
+    NSString* _versionPath;
+    NSObject<OS_dispatch_queue>* _serialQueueRemoveImagesBackground;
+    NSObject<OS_dispatch_queue>* _serialQueueRemoveImagesDefault;
     BOOL _lockOnRead;
 }
 @property (nonatomic, assign, readonly) NSNumber* version;

@@ -4,11 +4,11 @@
     BOOL _executing;
     BOOL _finished;
     BOOL _sourceIsManaged;
-    NSURL _resourceURL;
-    NSString _applicationIdentifier;
-    NSString _documentIdentifier;
+    NSURL* _resourceURL;
+    NSString* _applicationIdentifier;
+    NSString* _documentIdentifier;
     id _userInfoPlist;
-    NSDictionary _options;
+    NSDictionary* _options;
     id _delegate;
     int _result;
 }

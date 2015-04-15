@@ -2,7 +2,7 @@
 @protocol NSURLConnectionDelegate;
 @interface WebResourceLoaderQuickLookDelegate : NSObject <NSURLConnectionDelegate> {
 
-    m_ptr _resourceLoader;
+    m_ptr* _resourceLoader;
     BOOL _hasSentDidReceiveResponse;
     BOOL _hasFailed;
     ^{QuickLookHandle={RetainPtr<NSURL>=^v}{RetainPtr<QLPreviewConverter>=^v}{RetainPtr<id>=^v}B{RetainPtr<NSFileHandle *>=^v}{RetainPtr<NSURLResponse>=^v}{RefPtr<WebCore::QuickLookHandleClient>=^{QuickLookHandleClient}}} _quickLookHandle;

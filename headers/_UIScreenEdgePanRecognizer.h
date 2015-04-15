@@ -11,7 +11,7 @@
     double _initialTouchTimestamp;
     long long _initialInterfaceOrientation;
     unsigned long long _touchedRegion;
-    UIDelayedAction _recognitionTimer;
+    UIDelayedAction* _recognitionTimer;
     {CGPoint="x"d"y"d} _lastTouchLocation;
     double _lastTouchTimestamp;
     long long _type;
@@ -20,8 +20,8 @@
     unsigned long long _targetEdges;
     long long _state;
     unsigned long long _recognizedRegion;
-    <_UIScreenEdgePanRecognizerDelegate> _delegate;
-    _UIScreenEdgePanRecognizerSettings _settings;
+    <_UIScreenEdgePanRecognizerDelegate>* _delegate;
+    _UIScreenEdgePanRecognizerSettings* _settings;
 }
 @property (nonatomic, assign, readwrite) NSNumber* screenBounds;
 @property (nonatomic, assign, readwrite) NSNumber* targetEdges;

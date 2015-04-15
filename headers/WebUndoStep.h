@@ -1,7 +1,7 @@
 
 @interface WebUndoStep : NSObject {
 
-    m_ptr m_step;
+    m_ptr* m_step;
 }
  + (void) initialize;
  + (id) stepWithUndoStep:({PassRefPtr<WebCore::UndoStep>=^{UndoStep}})a;

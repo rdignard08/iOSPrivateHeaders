@@ -2,8 +2,8 @@
 @protocol _UIServiceWebViewControllerProtocol, WebUIBrowserLoadingControllerDelegate;
 @interface _UIServiceWebViewController : UIViewController <_UIServiceWebViewControllerProtocol, WebUIBrowserLoadingControllerDelegate> {
 
-    _UIServiceWebView _uiWebView;
-    WebUIBrowserLoadingController _loadingController;
+    _UIServiceWebView* _uiWebView;
+    WebUIBrowserLoadingController* _loadingController;
 }
  + (id) _exportedInterface;
  + (id) _remoteViewControllerInterface;

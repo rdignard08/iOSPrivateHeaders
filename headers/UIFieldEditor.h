@@ -2,20 +2,20 @@
 @protocol UITextInputControllerDelegate, NSLayoutManagerDelegate, NSUITextViewCommonMethods, UIAutoscrollContainer, UITextInput, UITextAutoscrolling, UIKeyboardInput;
 @interface UIFieldEditor : UIScrollView <UITextInputControllerDelegate, NSLayoutManagerDelegate, NSUITextViewCommonMethods, UIAutoscrollContainer, UITextInput, UITextAutoscrolling, UIKeyboardInput> {
 
-    UITextInputController _inputController;
-    UITextField _proxiedView;
-    UIAutoscroll _autoscroll;
-    NSTextContainer _textContainer;
-    _UIFieldEditorLayoutManager _layoutManager;
-    _UICascadingTextStorage _textStorage;
+    UITextInputController* _inputController;
+    UITextField* _proxiedView;
+    UIAutoscroll* _autoscroll;
+    NSTextContainer* _textContainer;
+    _UIFieldEditorLayoutManager* _layoutManager;
+    _UICascadingTextStorage* _textStorage;
     {?="delegateRespondsToFieldEditorDidChange"b1"delegateRespondsToShouldInsertText"b1"delegateRespondsToShouldReplaceWithText"b1"suppressScrollToSelection"b1"clearOnNextEdit"b1} _feFlags;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _padding;
-    _UIFieldEditorContentView _contentView;
+    _UIFieldEditorContentView* _contentView;
     {_NSRange="location"Q"length"Q} _unobscuredSecureRange;
-    NSTimer _obscureAllTextTimer;
+    NSTimer* _obscureAllTextTimer;
     {CGPoint="x"d"y"d} _textContainerOrigin;
     double _contentWidth;
-    _UIFieldEditorContentView _passcodeStyleCutoutView;
+    _UIFieldEditorContentView* _passcodeStyleCutoutView;
     {CGPoint="x"d"y"d} _autoscrollContentOffset;
 }
  + (void) releaseSharedInstance;

@@ -2,10 +2,10 @@
 @interface UIToolbarButton : UIControl {
 
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _hitRect;
-    UIView _info;
-    UILabel _label;
-    UIToolbarButtonBadge _badge;
-    _UIPressedIndicatorView _pressedIndicator;
+    UIView* _info;
+    UILabel* _label;
+    UIToolbarButtonBadge* _badge;
+    _UIPressedIndicatorView* _pressedIndicator;
     long long _barStyle;
     long long _style;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _glowAdjust;
@@ -17,7 +17,7 @@
     double _maximumWidth;
     float _labelHeight;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _infoInsets;
-    UIColor _toolbarTintColor;
+    UIColor* _toolbarTintColor;
     BOOL _isAnimatedTrashButton;
     id _appearanceStorage;
     BOOL _isInTopBar;

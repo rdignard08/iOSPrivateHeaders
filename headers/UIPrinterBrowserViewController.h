@@ -2,15 +2,15 @@
 @protocol PKPrinterBrowserDelegate;
 @interface UIPrinterBrowserViewController : UITableViewController <PKPrinterBrowserDelegate> {
 
-    <UIPrinterBrowserOwner> _ownerPanelViewController;
-    PKPrinterBrowser _printerBrowser;
-    NSMutableArray _preferredPrinters;
-    NSMutableArray _otherPrinters;
-    NSMutableArray _filteredOutPrinters;
-    NSArray _lastUsedPrinters;
-    PKPrinter _lockedPrinter;
+    <UIPrinterBrowserOwner>* _ownerPanelViewController;
+    PKPrinterBrowser* _printerBrowser;
+    NSMutableArray* _preferredPrinters;
+    NSMutableArray* _otherPrinters;
+    NSMutableArray* _filteredOutPrinters;
+    NSArray* _lastUsedPrinters;
+    PKPrinter* _lockedPrinter;
     BOOL _loaded;
-    UIPrinterSearchingView _searchingView;
+    UIPrinterSearchingView* _searchingView;
     BOOL _clearCurrentPrinter;
     BOOL _shouldFilterPrinters;
     double _maximumPopoverHeight;

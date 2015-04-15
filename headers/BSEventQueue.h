@@ -1,11 +1,11 @@
 
 @interface BSEventQueue : NSObject {
 
-    NSHashTable _eventQueueLocks;
-    NSMutableArray _eventQueue;
-    NSObject<OS_dispatch_queue> _queue;
-    NSString _name;
-    BSEventQueueEvent _executingEvent;
+    NSHashTable* _eventQueueLocks;
+    NSMutableArray* _eventQueue;
+    NSObject<OS_dispatch_queue>* _queue;
+    NSString* _name;
+    BSEventQueueEvent* _executingEvent;
 }
 @property (nonatomic, retain, readwrite) NSNumber* queue;
 @property (nonatomic, copy, readonly) NSArray* pendingEvents;

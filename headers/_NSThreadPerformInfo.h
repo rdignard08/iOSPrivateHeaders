@@ -4,8 +4,8 @@
     id target;
     SEL selector;
     id argument;
-    NSMutableArray modes;
-    NSCondition waiter;
+    NSMutableArray* modes;
+    NSCondition* waiter;
     char* signalled;
 }
 

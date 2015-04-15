@@ -1,13 +1,13 @@
 
 @interface _UIModalItem : NSObject {
 
-    NSString _title;
-    NSString _message;
-    NSString _cancelButtonTitle;
-    NSString _defaultButtonTitle;
-    NSAttributedString _titleAttributedString;
-    NSAttributedString _messageAttributedString;
-    NSString _subtitleString;
+    NSString* _title;
+    NSString* _message;
+    NSString* _cancelButtonTitle;
+    NSString* _defaultButtonTitle;
+    NSAttributedString* _titleAttributedString;
+    NSAttributedString* _messageAttributedString;
+    NSString* _subtitleString;
     long long _titleMaxLineNumber;
     long long _messageMaxLineNumber;
     long long _numberOfButtonsRows;
@@ -15,14 +15,14 @@
     BOOL _useWifiPickerLayout;
     BOOL _textFieldsHidden;
     BOOL _dontUpdateFrameForKBChanges;
-    NSMutableArray _otherButtonsTitles;
+    NSMutableArray* _otherButtonsTitles;
     long long _itemType;
-    <UIModalItemDelegate> _delegate;
+    <UIModalItemDelegate>* _delegate;
     @? _completionBlock;
     long long _modalItemInputStyle;
-    UIView _popoverTargetView;
+    UIView* _popoverTargetView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _popoverTargetRect;
-    UIViewController _contentViewController;
+    UIViewController* _contentViewController;
     {CGSize="width"d"height"d} _contentViewControllerSize;
     long long _presentAnimationType;
     long long _dismissAnimationType;
@@ -30,25 +30,25 @@
     BOOL _isVisible;
     BOOL _isBeingDismissed;
     BOOL _isHidden;
-    UIViewController _viewController;
-    UIViewController _hostingViewController;
-    UIViewController _anchorViewController;
+    UIViewController* _viewController;
+    UIViewController* _hostingViewController;
+    UIViewController* _anchorViewController;
     long long _defaultButtonIndex;
     long long _cancelButtonIndex;
-    _UIModalItemContentView _contentView;
-    _UIModalItemBackgroundView _backgroundView;
-    _UIModalItemRepresentationView _representedView;
-    NSString _loginString;
-    NSString _passwordString;
-    NSString _loginPlaceholderString;
-    NSString _passwordPlaceholderString;
-    UITextInputTraits _passwordTraits;
-    UITextInputTraits _loginTraits;
+    _UIModalItemContentView* _contentView;
+    _UIModalItemBackgroundView* _backgroundView;
+    _UIModalItemRepresentationView* _representedView;
+    NSString* _loginString;
+    NSString* _passwordString;
+    NSString* _loginPlaceholderString;
+    NSString* _passwordPlaceholderString;
+    UITextInputTraits* _passwordTraits;
+    UITextInputTraits* _loginTraits;
     BOOL _enableFirstOtherButton;
     BOOL _forceVerticalLayout;
     long long _dismissIndex;
     long long cancelButtonIndex;
-    NSArray _buttonTitles;
+    NSArray* _buttonTitles;
 }
 @property (nonatomic, copy, readwrite) NSString* title;
 @property (nonatomic, copy, readwrite) NSString* message;

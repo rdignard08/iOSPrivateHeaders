@@ -2,7 +2,7 @@
 @interface CADisplayMode : NSObject {
 
     ^v _priv;
-    CADisplay _dpy;
+    CADisplay* _dpy;
     unsigned long long _width;
     unsigned long long _height;
 }

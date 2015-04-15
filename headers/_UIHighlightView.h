@@ -1,12 +1,12 @@
 
 @interface _UIHighlightView : UIView {
 
-    UIColor _color;
+    UIColor* _color;
     double _cornerRadius;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _invertedHighlightClipRect;
-    NSArray _cornerRadii;
-    NSMutableArray _innerBounds;
-    NSMutableArray _innerQuads;
+    NSArray* _cornerRadii;
+    NSMutableArray* _innerBounds;
+    NSMutableArray* _innerQuads;
     BOOL _invertHighlight;
 }
 

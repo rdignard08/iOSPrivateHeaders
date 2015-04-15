@@ -1,17 +1,17 @@
 
 @interface UIWebPDFSearchOperation : NSOperation {
 
-    NSMutableArray _results;
+    NSMutableArray* _results;
     unsigned long long _pageIndex;
     unsigned long long _numberOfResultsToSkip;
     unsigned long long _totalResultsCount;
     unsigned long long _currentPageResultCount;
     BOOL _complete;
     unsigned long long startingPageIndex;
-    UIPDFDocument documentToSearch;
-    NSObject<UIWebPDFSearchOperationDelegate> searchDelegate;
+    UIPDFDocument* documentToSearch;
+    NSObject<UIWebPDFSearchOperationDelegate>* searchDelegate;
     double documentScale;
-    NSString searchString;
+    NSString* searchString;
     unsigned long long resultLimit;
 }
 

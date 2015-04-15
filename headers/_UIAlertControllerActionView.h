@@ -2,29 +2,29 @@
 @protocol UIGestureRecognizerDelegate, _UIAlertActionRepresenting;
 @interface _UIAlertControllerActionView : UIView <UIGestureRecognizerDelegate, _UIAlertActionRepresenting> {
 
-    NSLayoutConstraint _minimumHeightConstraint;
-    UIView labelContainerView;
-    NSLayoutConstraint _labelContainerLeadingConstraint;
-    NSLayoutConstraint _labelContainerTrailingConstraint;
-    UILabel label;
-    UILabel descriptiveLabel;
-    UIImageView imageView;
-    UIImageView checkView;
-    UIView<UIAlertControllerBackgroundView> highlightedBackgroundContainerView;
-    NSMutableArray highlightedBackgroundConstraints;
-    NSMutableArray havingDescriptiveLabelConstraints;
-    NSMutableArray notHavingDescriptiveLabelConstraints;
-    NSLayoutConstraint _descriptiveLabelWidthConstraint;
-    NSMutableArray _contentViewControllerConstraints;
-    UIView _contentViewControllerContainerView;
-    UIAlertAction _action;
-    UIAlertControllerVisualStyle _visualStyle;
+    NSLayoutConstraint* _minimumHeightConstraint;
+    UIView* labelContainerView;
+    NSLayoutConstraint* _labelContainerLeadingConstraint;
+    NSLayoutConstraint* _labelContainerTrailingConstraint;
+    UILabel* label;
+    UILabel* descriptiveLabel;
+    UIImageView* imageView;
+    UIImageView* checkView;
+    UIView<UIAlertControllerBackgroundView>* highlightedBackgroundContainerView;
+    NSMutableArray* highlightedBackgroundConstraints;
+    NSMutableArray* havingDescriptiveLabelConstraints;
+    NSMutableArray* notHavingDescriptiveLabelConstraints;
+    NSLayoutConstraint* _descriptiveLabelWidthConstraint;
+    NSMutableArray* _contentViewControllerConstraints;
+    UIView* _contentViewControllerContainerView;
+    UIAlertAction* _action;
+    UIAlertControllerVisualStyle* _visualStyle;
     id selectedTarget;
     SEL selectedAction;
     id highlightTarget;
     SEL highlightAction;
     BOOL _hasDescriptiveText;
-    UITapGestureRecognizer _selectGestureRecognizer;
+    UITapGestureRecognizer* _selectGestureRecognizer;
     BOOL _discrete;
     BOOL _highlighted;
 }

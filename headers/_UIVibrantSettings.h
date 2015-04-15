@@ -2,14 +2,14 @@
 @interface _UIVibrantSettings : NSObject {
 
     long long _style;
-    UIColor _referenceColor;
-    _UILegibilitySettings _legibilitySettings;
+    UIColor* _referenceColor;
+    _UILegibilitySettings* _legibilitySettings;
     double _referenceContrast;
-    UIColor _tintColor;
-    UIColor _shimmerColor;
-    UIColor _chevronShimmerColor;
-    UIColor _highlightColor;
-    UIColor _highlightLimitingColor;
+    UIColor* _tintColor;
+    UIColor* _shimmerColor;
+    UIColor* _chevronShimmerColor;
+    UIColor* _highlightColor;
+    UIColor* _highlightLimitingColor;
 }
 @property (nonatomic, assign, readonly) UIColor* referenceColor;
 @property (nonatomic, assign, readonly) NSNumber* referenceContrast;

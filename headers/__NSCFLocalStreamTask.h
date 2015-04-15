@@ -3,7 +3,7 @@
 @interface __NSCFLocalStreamTask : __NSCFLocalSessionTask <NSURLSessionStreamTaskSubclass> {
 
     ^{__CFWriteStream=} _sinkForResponseBytes;
-    NSObject<OS_dispatch_data> _buffer;
+    NSObject<OS_dispatch_data>* _buffer;
     @? _streamCompletion;
 }
  + (id) rawRequestForHost:(id)aport:(long long)btls:(BOOL)c;

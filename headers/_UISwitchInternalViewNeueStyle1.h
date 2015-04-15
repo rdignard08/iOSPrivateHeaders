@@ -2,24 +2,24 @@
 @protocol _UISwitchInternalViewProtocol;
 @interface _UISwitchInternalViewNeueStyle1 : UIView <_UISwitchInternalViewProtocol> {
 
-    UIView _switchWellView;
-    UIView _leftSwitchWellView;
-    UIView _switchWellContainerView;
-    UIView _leftSwitchWellContainerView;
-    UIView _switchWellImageViewContainer;
-    UIImageView _switchWellOffImageView;
-    UIImageView _switchWellOnImageView;
-    UIImageView _knobView;
-    UIColor _onTintColor;
-    UIColor _tintColor;
+    UIView* _switchWellView;
+    UIView* _leftSwitchWellView;
+    UIView* _switchWellContainerView;
+    UIView* _leftSwitchWellContainerView;
+    UIView* _switchWellImageViewContainer;
+    UIImageView* _switchWellOffImageView;
+    UIImageView* _switchWellOnImageView;
+    UIImageView* _knobView;
+    UIColor* _onTintColor;
+    UIColor* _tintColor;
     BOOL _on;
     BOOL _pressed;
     BOOL _isAlwaysAccessible;
     BOOL _useAlternateColor;
     BOOL _pressedIsHandledByGestureRecognizer;
-    UIColor _thumbTintColor;
-    UIImage _onImage;
-    UIImage _offImage;
+    UIColor* _thumbTintColor;
+    UIImage* _onImage;
+    UIImage* _offImage;
 }
 
  - (void) dealloc;

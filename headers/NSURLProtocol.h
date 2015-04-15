@@ -1,7 +1,7 @@
 
 @interface NSURLProtocol : NSObject {
 
-    NSURLProtocolInternal _internal;
+    NSURLProtocolInternal* _internal;
 }
 @property (atomic, retain, readonly) NSNumber* client;
 @property (atomic, copy, readonly) NSURLRequest* request;

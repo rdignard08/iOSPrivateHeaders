@@ -1,11 +1,11 @@
 
 @interface UIStoryboard : NSObject {
 
-    NSBundle bundle;
-    NSString storyboardFileName;
-    NSDictionary identifierToNibNameMap;
-    NSString designatedEntryPointIdentifier;
-    NSMutableDictionary identifierToUINibMap;
+    NSBundle* bundle;
+    NSString* storyboardFileName;
+    NSDictionary* identifierToNibNameMap;
+    NSString* designatedEntryPointIdentifier;
+    NSMutableDictionary* identifierToUINibMap;
 }
 @property (nonatomic, assign, readonly) NSBundle* bundle;
 @property (atomic, assign, readonly) NSString* name;

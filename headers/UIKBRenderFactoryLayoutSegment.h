@@ -6,10 +6,10 @@
     [3i] _triangleCorners;
     int _edgeCount;
     [3Q] _edges;
-    NSString _cachedKeyNames;
+    NSString* _cachedKeyNames;
     BOOL _requireAllMatches;
     int _states;
-    UIKBRenderTraits _traits;
+    UIKBRenderTraits* _traits;
 }
 @property (nonatomic, assign, readonly) UIKBRenderTraits* traits;
 @property (nonatomic, assign, readwrite) NSNumber* keyStates;

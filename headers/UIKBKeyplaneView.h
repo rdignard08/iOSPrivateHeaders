@@ -2,21 +2,21 @@
 @protocol UIKBCacheableView;
 @interface UIKBKeyplaneView : UIKBSplitImageView <UIKBCacheableView> {
 
-    UIKBTree _keyplane;
-    UIKBTree _defaultKeyplane;
-    UIKBCacheToken _cacheToken;
-    UIKBKeyView _candidateGapView;
-    NSMutableDictionary _subviewIndex;
-    NSMutableDictionary _activeViewIndex;
-    NSMutableDictionary _renderedKeyViews;
-    NSMutableDictionary _delayedDeactivationKeys;
-    NSTimer _activatedTimer;
+    UIKBTree* _keyplane;
+    UIKBTree* _defaultKeyplane;
+    UIKBCacheToken* _cacheToken;
+    UIKBKeyView* _candidateGapView;
+    NSMutableDictionary* _subviewIndex;
+    NSMutableDictionary* _activeViewIndex;
+    NSMutableDictionary* _renderedKeyViews;
+    NSMutableDictionary* _delayedDeactivationKeys;
+    NSTimer* _activatedTimer;
     BOOL _performingDeactivation;
     BOOL _shouldDrawRect;
-    UIKBRenderConfig _renderConfig;
-    UIKBSplitImageView _keyBorders;
-    UIKBSplitImageView _keyBackgrounds;
-    UIKBSplitImageView _keyCaps;
+    UIKBRenderConfig* _renderConfig;
+    UIKBSplitImageView* _keyBorders;
+    UIKBSplitImageView* _keyBackgrounds;
+    UIKBSplitImageView* _keyCaps;
 }
 
  - (void) dealloc;

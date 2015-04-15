@@ -1,14 +1,14 @@
 
 @interface CAStateControllerTransition : NSObject {
 
-    CAStateController _controller;
-    CALayer _layer;
-    CAStateTransition _transition;
+    CAStateController* _controller;
+    CALayer* _layer;
+    CAStateTransition* _transition;
     double _beginTime;
     double _duration;
     float _speed;
-    NSString _masterKey;
-    NSMutableArray _animations;
+    NSString* _masterKey;
+    NSMutableArray* _animations;
 }
 @property (nonatomic, assign, readonly) CALayer* layer;
 @property (nonatomic, assign, readonly) CAStateTransition* transition;

@@ -2,9 +2,9 @@
 @interface _UIModalItemTableViewCell : UITableViewCell {
 
     BOOL _showFullWidthSeparator;
-    UIColor _fullWitdhSeparatorColor;
-    UIView _fullWidthSeparatorView;
-    UIView _topSeparatorView;
+    UIColor* _fullWitdhSeparatorColor;
+    UIView* _fullWidthSeparatorView;
+    UIView* _topSeparatorView;
     BOOL _isEnabled;
 }
 

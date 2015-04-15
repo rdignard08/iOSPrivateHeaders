@@ -1,8 +1,8 @@
 
 @interface NSNetServicesInternal : NSObject {
 
-    NSMutableArray _monitors;
-    NSObject<OS_tcp_listener> _listener;
+    NSMutableArray* _monitors;
+    NSObject<OS_tcp_listener>* _listener;
     ^{__CFRunLoop=} _scheduledRunLoop;
     ^{__CFString=} _scheduledMode;
 }

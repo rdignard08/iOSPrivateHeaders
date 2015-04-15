@@ -2,9 +2,9 @@
 @protocol NSISVariableDelegate;
 @interface NSISPlaybackOperation : NSObject <NSISVariableDelegate> {
 
-    NSMutableDictionary oldIdentsToNewVariables;
-    NSMutableSet variablesToIntegralize;
-    NSMutableSet userObservableVariables;
+    NSMutableDictionary* oldIdentsToNewVariables;
+    NSMutableSet* variablesToIntegralize;
+    NSMutableSet* userObservableVariables;
 }
 
  - (id) unwrapVariable:(id)a;

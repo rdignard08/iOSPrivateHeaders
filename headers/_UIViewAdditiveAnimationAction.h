@@ -2,7 +2,7 @@
 @protocol CAAction;
 @interface _UIViewAdditiveAnimationAction : NSObject <CAAction> {
 
-    CAAnimation _pendingAnimation;
+    CAAnimation* _pendingAnimation;
 }
 @property (nonatomic, retain, readonly) CAAnimation* pendingAnimation;
 

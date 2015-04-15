@@ -4,7 +4,7 @@
 
     unsigned long long _numberOfTouchesRequired;
     unsigned long long _numberOfTapsRequired;
-    NSMutableSet _activeTouches;
+    NSMutableSet* _activeTouches;
     int _currentNumberOfTouches;
     int _currentNumberOfTaps;
     {CGPoint="x"d"y"d} _location;
@@ -13,7 +13,7 @@
     double _allowableMovement;
     double _maximumSingleTapDuration;
     double _maximumIntervalBetweenSuccessiveTaps;
-    NSMutableArray _touches;
+    NSMutableArray* _touches;
     id _delegate;
     b1 _timerOn;
     b1 _noNewTouches;

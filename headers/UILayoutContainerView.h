@@ -7,7 +7,7 @@
     double _cornerRadius;
     BOOL _usesInnerShadow;
     BOOL _shadowViewsInstalled;
-    UIView _shadowView;
+    UIView* _shadowView;
     BOOL _forwardMoveToWindowCallbacks;
 }
 

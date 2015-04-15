@@ -1,13 +1,13 @@
 
 @interface BSWatchdog : NSObject {
 
-    <BSWatchdogDelegate> _delegate;
-    <BSWatchdogProviding> _provider;
-    NSObject<OS_dispatch_queue> _queue;
+    <BSWatchdogDelegate>* _delegate;
+    <BSWatchdogProviding>* _provider;
+    NSObject<OS_dispatch_queue>* _queue;
     double _timeout;
-    BSTimer _timer;
+    BSTimer* _timer;
     @? _completion;
-    NSDate _startDate;
+    NSDate* _startDate;
     BOOL _invalidated;
     BOOL _completed;
     BOOL _hasFired;

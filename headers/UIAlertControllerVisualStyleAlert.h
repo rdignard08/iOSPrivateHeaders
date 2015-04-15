@@ -1,7 +1,7 @@
 
 @interface UIAlertControllerVisualStyleAlert : UIAlertControllerVisualStyle {
 
-    UIAlertControllerDescriptor _descriptor;
+    UIAlertControllerDescriptor* _descriptor;
 }
 
  - (void) dealloc;

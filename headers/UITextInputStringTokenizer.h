@@ -2,7 +2,7 @@
 @protocol UITextInputTokenizer;
 @interface UITextInputStringTokenizer : NSObject <UITextInputTokenizer> {
 
-    UIResponder<UITextInput> _textInput;
+    UIResponder<UITextInput>* _textInput;
 }
 
  - (id) rangeEnclosingPosition:(id)awithGranularity:(long long)binDirection:(long long)c;

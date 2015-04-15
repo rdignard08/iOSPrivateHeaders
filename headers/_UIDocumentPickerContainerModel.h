@@ -2,10 +2,10 @@
 @interface _UIDocumentPickerContainerModel : NSObject {
 
     int _sortOrder;
-    NSArray _pickableTypes;
+    NSArray* _pickableTypes;
     unsigned long long _pickerMode;
-    NSMutableArray _updateHandlers;
-    NSOperationQueue _thumbnailQueue;
+    NSMutableArray* _updateHandlers;
+    NSOperationQueue* _thumbnailQueue;
 }
 @property (nonatomic, assign, readonly) NSArray* modelObjects;
 @property (nonatomic, copy, readwrite) NSArray* pickableTypes;

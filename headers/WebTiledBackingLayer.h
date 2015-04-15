@@ -1,7 +1,7 @@
 
 @interface WebTiledBackingLayer : CALayer {
 
-    m_ptr _tileController;
+    m_ptr* _tileController;
 }
 
  - (id) .cxx_construct;

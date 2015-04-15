@@ -1,8 +1,8 @@
 
 @interface __NSLocalizedString : NSMutableString {
 
-    NSMutableString original;
-    NSDictionary config;
+    NSMutableString* original;
+    NSDictionary* config;
 }
 
  - (id) initWithString:(id)awithFormatConfiguration:(id)b;

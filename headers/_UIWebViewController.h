@@ -1,20 +1,20 @@
 
 @interface _UIWebViewController : UIViewController {
 
-    _UIAsyncInvocation _cancelViewServiceRequest;
-    _UIRemoteWebViewController _remoteViewController;
-    _UIQueueingServiceWebViewControllerProxy _serviceProxy;
+    _UIAsyncInvocation* _cancelViewServiceRequest;
+    _UIRemoteWebViewController* _remoteViewController;
+    _UIQueueingServiceWebViewControllerProxy* _serviceProxy;
     BOOL _hasCalledBeginAppearanceTransition;
     BOOL _hasCalledEndAppearanceTransition;
     BOOL _canGoBack;
     BOOL _canGoForward;
     BOOL _loading;
     float _estimatedProgress;
-    <_UIWebViewControllerDelegate> _delegate;
-    UIBarButtonItem _backBarButtonItem;
-    UIBarButtonItem _forwardBarButtonItem;
-    NSString _pageTitle;
-    NSString _URLString;
+    <_UIWebViewControllerDelegate>* _delegate;
+    UIBarButtonItem* _backBarButtonItem;
+    UIBarButtonItem* _forwardBarButtonItem;
+    NSString* _pageTitle;
+    NSString* _URLString;
 }
 
  - (void) dealloc;

@@ -1,8 +1,8 @@
 
 @interface WebNodeHighlighter : NSObject {
 
-    WebView _inspectedWebView;
-    WebNodeHighlight _currentHighlight;
+    WebView* _inspectedWebView;
+    WebNodeHighlight* _currentHighlight;
 }
 
  - (void) dealloc;

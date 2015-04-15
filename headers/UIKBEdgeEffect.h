@@ -2,11 +2,11 @@
 @protocol UIKBRenderEffect;
 @interface UIKBEdgeEffect : NSObject <UIKBRenderEffect> {
 
-    NSString _colorName;
+    NSString* _colorName;
     unsigned long long _edges;
     double _inset;
     double _weight;
-    UIKBGradient _gradient;
+    UIKBGradient* _gradient;
     double _opacity;
 }
 @property (nonatomic, assign, readwrite) NSNumber* edges;

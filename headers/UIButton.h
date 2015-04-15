@@ -7,17 +7,17 @@
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _contentEdgeInsets;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _titleEdgeInsets;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _imageEdgeInsets;
-    UIImageView _backgroundView;
-    UIImageView _imageView;
-    UILabel _titleView;
+    UIImageView* _backgroundView;
+    UIImageView* _imageView;
+    UILabel* _titleView;
     BOOL _initialized;
     unsigned long long _lastDrawingControlState;
-    UITapGestureRecognizer _selectGestureRecognizer;
+    UITapGestureRecognizer* _selectGestureRecognizer;
     {?="reversesTitleShadowWhenHighlighted"b1"adjustsImageWhenHighlighted"b1"adjustsImageWhenDisabled"b1"autosizeToFit"b1"disabledDimsImage"b1"showsTouchWhenHighlighted"b1"buttonType"b8"shouldHandleScrollerMouseEvent"b1"titleFrozen"b1"resendTraitToImageViews"b2} _buttonFlags;
-    _UIButtonMaskAnimationView _maskAnimationView;
-    UIView _selectionView;
-    UIFont _lazyTitleViewFont;
-    NSArray _contentConstraints;
+    _UIButtonMaskAnimationView* _maskAnimationView;
+    UIView* _selectionView;
+    UIFont* _lazyTitleViewFont;
+    NSArray* _contentConstraints;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _internalTitlePaddingInsets;
 }
  + (id) sharedImageCache;

@@ -3,7 +3,7 @@
 
     BOOL _supportsTaskSuspension;
     BOOL _supportsTaskSuspensionOnLock;
-    BSMachSendRight _taskPort;
+    BSMachSendRight* _taskPort;
 }
 
  - (void) dealloc;

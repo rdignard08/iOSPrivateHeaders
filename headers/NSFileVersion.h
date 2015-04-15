@@ -1,19 +1,19 @@
 
 @interface NSFileVersion : NSObject {
 
-    NSURL _fileURL;
+    NSURL* _fileURL;
     id _addition;
     id _deadVersionIdentifier;
     id _nonLocalVersion;
-    NSURL _contentsURL;
+    NSURL* _contentsURL;
     BOOL _isBackup;
-    NSString _localizedName;
-    NSString _localizedComputerName;
-    NSDate _modificationDate;
+    NSString* _localizedName;
+    NSString* _localizedComputerName;
+    NSDate* _modificationDate;
     BOOL _isResolved;
     BOOL _contentsURLIsAccessed;
-    NSString _clientID;
-    NSString _name;
+    NSString* _clientID;
+    NSString* _name;
     BOOL _discardable;
 }
 @property (atomic, copy, readonly) NSString* originatorName;

@@ -1,12 +1,12 @@
 
 @interface CIColorMatrix : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputRVector;
-    CIVector inputGVector;
-    CIVector inputBVector;
-    CIVector inputAVector;
-    CIVector inputBiasVector;
+    CIImage* inputImage;
+    CIVector* inputRVector;
+    CIVector* inputGVector;
+    CIVector* inputBVector;
+    CIVector* inputAVector;
+    CIVector* inputBiasVector;
 }
  + (id) customAttributes;
 

@@ -9,7 +9,7 @@
     double _rateOfMinimumMovementDecay;
     double _rateOfMaximumMovementDecay;
     unsigned long long _numberOfTouchesRequired;
-    NSMutableArray _touches;
+    NSMutableArray* _touches;
     unsigned long long _direction;
     {CGPoint="x"d"y"d} _startLocation;
     ^{CGPoint=dd} _startLocations;

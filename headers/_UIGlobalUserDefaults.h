@@ -1,8 +1,8 @@
 
 @interface _UIGlobalUserDefaults : NSUserDefaults {
 
-    <UIFoundationGlobalUserDefaultsHelper> _userDefaultsHelper;
-    NSMutableDictionary _userDefaultsDictionary;
+    <UIFoundationGlobalUserDefaultsHelper>* _userDefaultsHelper;
+    NSMutableDictionary* _userDefaultsDictionary;
     unsigned long long _backgroundTaskIdentifier;
 }
 

@@ -1,7 +1,7 @@
 
 @interface BKSProcessAssertionClient : BSBaseXPCClient {
 
-    NSMapTable _assertionHandlersByIdentifier;
+    NSMapTable* _assertionHandlersByIdentifier;
 }
  + (id) sharedInstance;
  + (id) clientQueue;

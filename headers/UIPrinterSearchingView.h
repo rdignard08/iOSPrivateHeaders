@@ -1,9 +1,9 @@
 
 @interface UIPrinterSearchingView : UIView {
 
-    UILabel _searchingLabel;
-    UIActivityIndicatorView _searchingIndicator;
-    NSArray _searchingLabelConstraints;
+    UILabel* _searchingLabel;
+    UIActivityIndicatorView* _searchingIndicator;
+    NSArray* _searchingLabelConstraints;
 }
 
  - (void) dealloc;

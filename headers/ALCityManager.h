@@ -3,7 +3,7 @@
 
     ^{sqlite3=} _db;
     ^{sqlite3=} _localizedDb;
-    CPSearchMatcher _citySearchMatcher;
+    CPSearchMatcher* _citySearchMatcher;
 }
 @property (atomic, assign, readonly) CPSearchMatcher* citySearchMatcher;
  + (id) newCitiesByIdentifierMap:(id)a;

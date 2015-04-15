@@ -3,9 +3,9 @@
 
     @? _task;
     double _timeInterval;
-    UIKeyboardTaskQueue _taskQueue;
-    NSTimer _timer;
-    _UIActionWhenIdle _deferredAction;
+    UIKeyboardTaskQueue* _taskQueue;
+    NSTimer* _timer;
+    _UIActionWhenIdle* _deferredAction;
     @? _enqueuedTask;
 }
 @property (nonatomic, assign, readonly) NSNumber* task;

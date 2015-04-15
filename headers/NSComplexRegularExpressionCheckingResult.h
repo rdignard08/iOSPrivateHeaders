@@ -1,8 +1,8 @@
 
 @interface NSComplexRegularExpressionCheckingResult : NSRegularExpressionCheckingResult {
 
-    NSRegularExpression _regularExpression;
-    NSArray _rangeArray;
+    NSRegularExpression* _regularExpression;
+    NSArray* _rangeArray;
 }
 
  - (unsigned long long) numberOfRanges;

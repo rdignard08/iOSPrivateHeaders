@@ -4,7 +4,7 @@
     SEL m_action;
     int m_position;
     int m_type;
-    UITextReplacement m_textReplacement;
+    UITextReplacement* m_textReplacement;
     double m_contentWidth;
     double m_contentScale;
     double m_additionalContentHeight;

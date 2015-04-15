@@ -1,26 +1,26 @@
 
 @interface UIKeyboardInputModeController : NSObject {
 
-    UIKeyboardInputMode _currentInputMode;
-    NSArray _inputModesWithoutHardwareSupport;
-    NSArray _allExtensions;
-    NSArray _allowedExtensions;
+    UIKeyboardInputMode* _currentInputMode;
+    NSArray* _inputModesWithoutHardwareSupport;
+    NSArray* _allExtensions;
+    NSArray* _allowedExtensions;
     BOOL _skipExtensionInputModes;
     BOOL _cacheNeedsRefresh;
     BOOL _shouldRunContinuousDiscovery;
-    NSArray keyboardInputModes;
-    NSArray keyboardInputModeIdentifiers;
-    NSArray enabledInputModes;
-    NSArray normalizedInputModes;
-    NSArray defaultKeyboardInputModes;
-    NSArray defaultRawInputModes;
-    NSArray defaultInputModes;
-    NSArray defaultNormalizedInputModes;
-    UIKeyboardInputMode _lastUsedInputMode;
-    NSString _inputModeContextIdentifier;
-    <UIKeyboardInputModeControllerDelegate> _delegate;
-    UIKeyboardInputMode _nextInputModeToUse;
-    UIKeyboardInputMode _currentUsedInputMode;
+    NSArray* keyboardInputModes;
+    NSArray* keyboardInputModeIdentifiers;
+    NSArray* enabledInputModes;
+    NSArray* normalizedInputModes;
+    NSArray* defaultKeyboardInputModes;
+    NSArray* defaultRawInputModes;
+    NSArray* defaultInputModes;
+    NSArray* defaultNormalizedInputModes;
+    UIKeyboardInputMode* _lastUsedInputMode;
+    NSString* _inputModeContextIdentifier;
+    <UIKeyboardInputModeControllerDelegate>* _delegate;
+    UIKeyboardInputMode* _nextInputModeToUse;
+    UIKeyboardInputMode* _currentUsedInputMode;
     id _extensionMatchingContext;
 }
 @property (atomic, assign, readonly) NSArray* supportedInputModeIdentifiers;

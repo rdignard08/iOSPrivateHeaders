@@ -1,8 +1,8 @@
 
 @interface CIHueAdjust : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputAngle;
+    CIImage* inputImage;
+    NSNumber* inputAngle;
 }
  + (id) customAttributes;
 

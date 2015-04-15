@@ -1,11 +1,11 @@
 
 @interface UIWebSelection : NSObject {
 
-    UIWebDocumentView _documentView;
-    <UIWebSelectionBlock> _base;
-    <UIWebSelectionBlock> _extent;
+    UIWebDocumentView* _documentView;
+    <UIWebSelectionBlock>* _base;
+    <UIWebSelectionBlock>* _extent;
     {CGSize="width"d"height"d} _desiredSize;
-    UITextSelection _textSelection;
+    UITextSelection* _textSelection;
 }
 @property (nonatomic, assign, readonly) UIWebDocumentView* documentView;
 @property (nonatomic, assign, readonly) UITextSelection* textSelection;

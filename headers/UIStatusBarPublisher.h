@@ -3,7 +3,7 @@
 
     ^{__CFMachPort=} _machPort;
     int _styleOverrides;
-    NSMutableSet _statusBarItems;
+    NSMutableSet* _statusBarItems;
 }
 
  - (void) dealloc;

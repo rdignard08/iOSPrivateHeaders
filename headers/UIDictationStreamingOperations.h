@@ -3,8 +3,8 @@
 
     double _timeAfterInsertion;
     double _timeAfterSelectRange;
-    <UITextInput> _document;
-    NSMutableArray _operations;
+    <UITextInput>* _document;
+    NSMutableArray* _operations;
 }
 @property (nonatomic, retain, readwrite) NSMutableArray* operations;
 

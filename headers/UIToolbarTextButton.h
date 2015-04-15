@@ -1,9 +1,9 @@
 
 @interface UIToolbarTextButton : UIToolbarButton {
 
-    NSString _title;
-    NSString _pressedTitle;
-    NSSet _possibleTitles;
+    NSString* _title;
+    NSString* _pressedTitle;
+    NSSet* _possibleTitles;
 }
 
  - (void) dealloc;

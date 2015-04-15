@@ -1,8 +1,8 @@
 
 @interface FBSUIApplicationSystemService : NSObject {
 
-    NSObject<OS_dispatch_queue> _delegateQueue;
-    <FBSUIApplicationSystemServiceDelegate> _delegate;
+    NSObject<OS_dispatch_queue>* _delegateQueue;
+    <FBSUIApplicationSystemServiceDelegate>* _delegate;
 }
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 @property (nonatomic, assign, readwrite) NSNumber* badgeNumber;

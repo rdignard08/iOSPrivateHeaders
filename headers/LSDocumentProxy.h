@@ -2,9 +2,9 @@
 @interface LSDocumentProxy : LSResourceProxy {
 
     BOOL _sourceIsManaged;
-    NSString _name;
-    NSString _typeIdentifier;
-    NSString _MIMEType;
+    NSString* _name;
+    NSString* _typeIdentifier;
+    NSString* _MIMEType;
 }
  + (id) documentProxyForName:(id)atype:(id)bMIMEType:(id)csourceIsManaged:(BOOL)d;
  + (id) documentProxyForName:(id)atype:(id)bMIMEType:(id)c;

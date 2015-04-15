@@ -2,10 +2,10 @@
 @protocol CAStateRecorder;
 @interface CAStateControllerUndo : NSObject <CAStateRecorder> {
 
-    CAStateControllerUndo _next;
-    CAState _state;
-    NSMutableArray _elements;
-    NSMutableArray _transitions;
+    CAStateControllerUndo* _next;
+    CAState* _state;
+    NSMutableArray* _elements;
+    NSMutableArray* _transitions;
 }
 @property (atomic, assign, readonly) CAStateControllerUndo* next;
 @property (nonatomic, retain, readwrite) CAState* state;

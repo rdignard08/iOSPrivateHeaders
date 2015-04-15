@@ -7,7 +7,7 @@
     ^{CGImageBlockSet=} blockSet;
     ^v releaseMe;
     ^{__CFData=} dataRef;
-    NSArray faces;
+    NSArray* faces;
     int nRepairs;
     int nextRepairTag;
     [32{?="tag"i"pt2"{CGPoint="x"d"y"d}"eyeCase"i"forceCase"i"npixels"i"bignpixels"i"fullNew"{?="baseAddress"*"width"i"height"i"rowSamples"i"rowBytes"i"size"i"samplesPerPixel"i"bytesPerSample"i"resolution"f}"YR"{?="minrow"i"maxrow"i"mincol"i"maxcol"i}"psTemplate"{?="lo"i"med"i"hi"i"average"i}"pupilShadeAlignment"B"matchingTemplate"{?="lo"i"med"i"hi"i"average"i}"faceIndex"i"left"B"IOD"f"data"{?="origHitX"i"origHitY"i"snapHitX"i"snapHitY"i"bitmaskSeedX"i"bitmaskSeedY"i"bitmaskThreshold"i"cornealReflectionSeedX"i"cornealReflectionSeedY"i"cornealReflectionThreshold"i"align"B"mTemplate"{?="lo"i"med"i"hi"i"average"i}"existingTemplate"{?="lo"i"med"i"hi"i"average"i}"averageSkinMapY"i"characterizeCase"i"finalEyeCase"i"IOD"f"O"{?="orientation"i"SNR"f"N90"B"redBitmaskArea"i"imageCenterX"f"imageCenterY"f"halfDiagonalSize"f}"CR"{?="minrow"i"maxrow"i"mincol"i"maxcol"i}}"BI"{?="centroid"{CGPoint="x"d"y"d}"area"i"ovalness"f"contrast"f"mincontrast"f"nborder"i"IR"{?="minrow"i"maxrow"i"mincol"i"maxcol"i}"aspectRatio"f"touchingEdge"B"localmax"i"localmaxrow"i"localmaxcol"i"localfloor"i"rgmean"f"rgstd"f"ymean"f"ystd"f}}] repairs;

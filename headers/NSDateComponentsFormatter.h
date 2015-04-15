@@ -4,10 +4,10 @@
     {_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]} _lock;
     ^v _fmt;
     ^v _unused;
-    NSString _fmtLocaleIdent;
-    NSCalendar _calendar;
-    NSDate _referenceDate;
-    NSNumberFormatter _unitFormatter;
+    NSString* _fmtLocaleIdent;
+    NSCalendar* _calendar;
+    NSDate* _referenceDate;
+    NSNumberFormatter* _unitFormatter;
     unsigned long long _allowedUnits;
     long long _formattingContext;
     long long _unitsStyle;

@@ -1,9 +1,9 @@
 
 @interface NSLinguisticTagger : NSObject {
 
-    NSArray _schemes;
+    NSArray* _schemes;
     unsigned long long _options;
-    NSString _string;
+    NSString* _string;
     id _orthographyArray;
     id _tokenArray;
     id _reserved;

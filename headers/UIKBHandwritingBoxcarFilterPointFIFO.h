@@ -1,7 +1,7 @@
 
 @interface UIKBHandwritingBoxcarFilterPointFIFO : UIKBHandwritingPointFIFO {
 
-    NSMutableArray _prevPoints;
+    NSMutableArray* _prevPoints;
     unsigned long long _width;
 }
 

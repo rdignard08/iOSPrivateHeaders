@@ -1,7 +1,7 @@
 
 @interface _UITextUndoManager : NSUndoManager {
 
-    UITextInputController _inputController;
+    UITextInputController* _inputController;
 }
 
  - (id) inputController;

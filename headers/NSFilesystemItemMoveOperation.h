@@ -2,9 +2,9 @@
 @interface NSFilesystemItemMoveOperation : NSOperation {
 
     id _delegate;
-    NSString _sourcePath;
-    NSString _destinationPath;
-    NSError _error;
+    NSString* _sourcePath;
+    NSString* _destinationPath;
+    NSError* _error;
 }
  + (id) filesystemItemMoveOperationWithSourcePath:(id)adestinationPath:(id)b;
  + (id) _errorWithErrno:(int)asourcePath:(id)bdestinationPath:(id)c;

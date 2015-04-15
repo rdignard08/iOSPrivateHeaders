@@ -15,7 +15,7 @@
     unsigned long long _arrowDirection;
     BOOL _preferLandscapeOrientations;
     BOOL _updatesEnabled;
-    NSMutableArray _candidates;
+    NSMutableArray* _candidates;
 }
 @property (nonatomic, assign, readwrite) NSNumber* contentInset;
 @property (nonatomic, assign, readwrite) NSNumber* arrowHeight;

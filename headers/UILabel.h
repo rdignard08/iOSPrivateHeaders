@@ -3,7 +3,7 @@
 @interface UILabel : UIView <_UIMultilineTextContentSizing, NSCoding> {
 
     {CGSize="width"d"height"d} _size;
-    UIColor _highlightedColor;
+    UIColor* _highlightedColor;
     long long _numberOfLines;
     long long _measuredNumberOfLines;
     double _lastLineBaseline;
@@ -12,12 +12,12 @@
     double _previousFirstLineBaseline;
     double _minimumScaleFactor;
     id _content;
-    NSAttributedString _synthesizedAttributedText;
-    NSMutableDictionary _defaultAttributes;
+    NSAttributedString* _synthesizedAttributedText;
+    NSMutableDictionary* _defaultAttributes;
     double _minimumFontSize;
     long long _lineSpacing;
     id _layout;
-    _UILabelScaledMetrics _scaledMetrics;
+    _UILabelScaledMetrics* _scaledMetrics;
     {?="unused1"b3"highlighted"b1"autosizeTextToFit"b1"autotrackTextToFit"b1"baselineAdjustment"b2"unused2"b2"enabled"b1"wordRoundingEnabled"b1"explicitAlignment"b1"marqueeEnabled"b1"marqueeRunable"b1"marqueeRequired"b1"drawsLetterpress"b1"unused3"b1"usesExplicitPreferredMaxLayoutWidth"b1"determiningPreferredMaxLayoutWidth"b1"inSecondConstraintsPass"b1"drawsDebugBaselines"b1"explicitBaselineOffset"b1"usesSimpleTextEffects"b1"isComplexString"b1"wantsUnderlineForAccessibilityButtonShapesEnabled"b1} _textLabelFlags;
     BOOL __textColorFollowsTintColor;
     double _preferredMaxLayoutWidth;

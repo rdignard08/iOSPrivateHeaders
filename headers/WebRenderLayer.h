@@ -1,9 +1,9 @@
 
 @interface WebRenderLayer : NSObject {
 
-    NSArray children;
-    NSString name;
-    NSString compositingInfo;
+    NSArray* children;
+    NSString* name;
+    NSString* compositingInfo;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} bounds;
     BOOL composited;
     BOOL separator;

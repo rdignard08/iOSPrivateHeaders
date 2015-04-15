@@ -1,7 +1,7 @@
 
 @interface BKSProcessAssertionUpdateEvent : BKSProcessAssertionEvent {
 
-    NSString _name;
+    NSString* _name;
     unsigned int _flags;
 }
 

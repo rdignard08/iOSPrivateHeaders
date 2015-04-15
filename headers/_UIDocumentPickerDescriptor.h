@@ -2,7 +2,7 @@
 @interface _UIDocumentPickerDescriptor : NSObject {
 
     BOOL _newlyAdded;
-    NSExtension _extension;
+    NSExtension* _extension;
 }
 @property (nonatomic, copy, readonly) NSString* identifier;
 @property (nonatomic, copy, readonly) NSString* localizedName;

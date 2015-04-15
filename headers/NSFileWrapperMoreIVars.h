@@ -1,12 +1,12 @@
 
 @interface NSFileWrapperMoreIVars : NSObject {
 
-    NSURL contentsURL;
+    NSURL* contentsURL;
     BOOL contentsMustBeReadWithoutMapping;
     BOOL attributesMustBeWrittenSoNoHardLinking;
-    NSHashTable parents;
-    NSError contentsLazyReadingError;
-    NSDictionary cachedDirectoryChildrenAsDictionary;
+    NSHashTable* parents;
+    NSError* contentsLazyReadingError;
+    NSDictionary* cachedDirectoryChildrenAsDictionary;
 }
 
 

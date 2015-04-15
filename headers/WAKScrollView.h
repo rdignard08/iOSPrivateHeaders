@@ -2,8 +2,8 @@
 @protocol WebCoreFrameScrollView;
 @interface WAKScrollView : WAKView <WebCoreFrameScrollView> {
 
-    WAKView _documentView;
-    WAKClipView _contentView;
+    WAKView* _documentView;
+    WAKClipView* _contentView;
     id _delegate;
     {CGPoint="x"d"y"d} _scrollOrigin;
 }

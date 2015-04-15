@@ -2,14 +2,14 @@
 @protocol CUIStructuredThemeStorage, CUIStructuredThemeStorage2;
 @interface CUIStructuredThemeStore : NSObject <CUIStructuredThemeStorage, CUIStructuredThemeStorage2> {
 
-    NSMutableDictionary _cache;
-    CUICommonAssetStorage _store;
-    NSLock _cacheLock;
-    NSLock _storeLock;
+    NSMutableDictionary* _cache;
+    CUICommonAssetStorage* _store;
+    NSLock* _cacheLock;
+    NSLock* _storeLock;
     unsigned long long _themeIndex;
-    NSString _bundleID;
-    NSCache _assetExistanceCache;
-    NSCache _assetFPOStatus;
+    NSString* _bundleID;
+    NSCache* _assetExistanceCache;
+    NSCache* _assetFPOStatus;
 }
 
  - (id) initWithPath:(id)a;

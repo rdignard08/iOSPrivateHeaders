@@ -1,7 +1,7 @@
 
 @interface FBSWorkspaceCreateSceneRequestEvent : FBSWorkspaceEvent {
 
-    FBSSceneClientSettingsDiff _clientSettings;
+    FBSSceneClientSettingsDiff* _clientSettings;
 }
 
  - (void) dealloc;

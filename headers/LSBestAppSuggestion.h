@@ -2,15 +2,15 @@
 @interface LSBestAppSuggestion : NSObject {
 
     unsigned long long _type;
-    NSUUID _uniqueIdentifier;
-    NSDictionary _options;
-    NSString _bundleIdentifier;
-    NSString _activityType;
-    NSDate _lastUpdateTime;
+    NSUUID* _uniqueIdentifier;
+    NSDictionary* _options;
+    NSString* _bundleIdentifier;
+    NSString* _activityType;
+    NSDate* _lastUpdateTime;
     double _confidence;
-    NSString _originatingDeviceIdentifier;
-    NSString _originatingDeviceName;
-    NSString _originatingDeviceType;
+    NSString* _originatingDeviceIdentifier;
+    NSString* _originatingDeviceName;
+    NSString* _originatingDeviceType;
 }
 @property (atomic, copy, readonly) NSString* userActivityTypeIdentifier;
 @property (atomic, assign, readonly) NSNumber* type;

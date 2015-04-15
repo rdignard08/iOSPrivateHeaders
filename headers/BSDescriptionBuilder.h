@@ -1,8 +1,8 @@
 
 @interface BSDescriptionBuilder : NSObject {
 
-    NSObject _object;
-    NSMutableString _description;
+    NSObject* _object;
+    NSMutableString* _description;
 }
  + (id) descriptionForObject:(id)awithObjectsAndNames:(id)b;
  + (id) builderWithObject:(id)a;

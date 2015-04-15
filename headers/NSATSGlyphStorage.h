@@ -3,18 +3,18 @@
 
     ^{__CTGlyphStorage=} _glyphStorage;
     ^{__CFArray=} _masterRuns;
-    NSATSTypesetter _typesetter;
+    NSATSTypesetter* _typesetter;
     ^{?=@@qqdddd{CGRect={CGPoint=dd}{CGSize=dd}}{?=b1b1b1b1b1b1b1b1b24}} _runs;
     long long _numRuns;
     long long _runBufferSize;
     {_NSRange="location"Q"length"Q} _glyphRange;
     {_NSRange="location"Q"length"Q} _characterRange;
     long long _bufferSize;
-    NSATSGlyphStorage _parent;
+    NSATSGlyphStorage* _parent;
     ^{__CFSet=} _children;
     long long _paraEndElasticCharIndex;
     double _paraEndElasticCharWidth;
-    NSString _textString;
+    NSString* _textString;
     ^{?=q[0{?=S{CGSize=dd}Iqq}]} _stack;
     r^{?=@@qqdddd{CGRect={CGPoint=dd}{CGSize=dd}}{?=b1b1b1b1b1b1b1b1b24}} _lastElasticRun;
     long long _lastElasticRunLocation;

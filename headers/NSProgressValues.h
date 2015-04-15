@@ -2,16 +2,16 @@
 @protocol NSSecureCoding;
 @interface NSProgressValues : NSObject <NSSecureCoding> {
 
-    NSMutableDictionary _userInfo;
-    _NSProgressFraction _selfFraction;
-    _NSProgressFraction _childFraction;
-    NSString _localizedDescription;
-    NSString _localizedAdditionalDescription;
+    NSMutableDictionary* _userInfo;
+    _NSProgressFraction* _selfFraction;
+    _NSProgressFraction* _childFraction;
+    NSString* _localizedDescription;
+    NSString* _localizedAdditionalDescription;
     BOOL _isCancellable;
     BOOL _isPausable;
     BOOL _isCancelled;
     BOOL _isPaused;
-    NSString _kind;
+    NSString* _kind;
     BOOL _isPrioritizable;
 }
  + (BOOL) supportsSecureCoding;

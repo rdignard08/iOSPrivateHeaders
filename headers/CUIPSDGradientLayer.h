@@ -1,7 +1,7 @@
 
 @interface CUIPSDGradientLayer : CUIPSDLayer {
 
-    CUIPSDGradient _gradient;
+    CUIPSDGradient* _gradient;
 }
 
  - (void) dealloc;

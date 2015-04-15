@@ -1,7 +1,7 @@
 
 @interface _UITableViewCellDeleteConfirmationControl_Legacy : UIControl {
 
-    NSString _title;
+    NSString* _title;
 }
  + (id) _backgroundImage;
  + (id) _highlightedBackgroundImage;

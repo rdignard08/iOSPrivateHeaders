@@ -1,8 +1,8 @@
 
 @interface CAStateAddAnimation : CAStateElement {
 
-    NSString _key;
-    CAAnimation _animation;
+    NSString* _key;
+    CAAnimation* _animation;
 }
 
  - (id) keyPath;

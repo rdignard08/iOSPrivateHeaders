@@ -7,14 +7,14 @@
     id _printState;
     BOOL _showsPageRange;
     BOOL _showsPaperSelectionForLoadedPapers;
-    UIPrintInfo _printInfo;
-    <UIPrintInteractionControllerDelegate> _delegate;
-    UIPrintPaper _printPaper;
-    UIPrintPageRenderer _printPageRenderer;
-    UIPrintFormatter _printFormatter;
+    UIPrintInfo* _printInfo;
+    <UIPrintInteractionControllerDelegate>* _delegate;
+    UIPrintPaper* _printPaper;
+    UIPrintPageRenderer* _printPageRenderer;
+    UIPrintFormatter* _printFormatter;
     id _printingItem;
-    NSArray _printingItems;
-    <UIPrintInteractionControllerDelegate> _printActivityDelegate;
+    NSArray* _printingItems;
+    <UIPrintInteractionControllerDelegate>* _printActivityDelegate;
 }
 @property (nonatomic, retain, readwrite) UIPrintInfo* printInfo;
 @property (nonatomic, assign, readwrite) NSNumber* delegate;

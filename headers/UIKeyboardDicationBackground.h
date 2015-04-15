@@ -1,8 +1,8 @@
 
 @interface UIKeyboardDicationBackground : UIView {
 
-    NSArray _shadows;
-    UIKeyboardDicationBackgroundGradientView _gradient;
+    NSArray* _shadows;
+    UIKeyboardDicationBackgroundGradientView* _gradient;
 }
 
  - (void) dealloc;

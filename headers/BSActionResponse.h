@@ -2,8 +2,8 @@
 @protocol NSCopying, BSXPCCoding, BSSettingDescriptionProvider;
 @interface BSActionResponse : NSObject <NSCopying, BSXPCCoding, BSSettingDescriptionProvider> {
 
-    BSSettings _info;
-    NSError _error;
+    BSSettings* _info;
+    NSError* _error;
 }
 @property (nonatomic, copy, readonly) BSSettings* info;
 @property (nonatomic, retain, readonly) NSError* error;

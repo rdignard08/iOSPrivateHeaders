@@ -4,7 +4,7 @@
     BOOL _active;
     BOOL _enabled;
     float _progress;
-    UIColor _fillColor;
+    UIColor* _fillColor;
 }
 
  - (void) setActive:(BOOL)a;

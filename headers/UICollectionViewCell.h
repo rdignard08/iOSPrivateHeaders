@@ -2,10 +2,10 @@
 @protocol UIGestureRecognizerDelegate;
 @interface UICollectionViewCell : UICollectionReusableView <UIGestureRecognizerDelegate> {
 
-    UIView _contentView;
-    UIView _backgroundView;
-    UIView _selectedBackgroundView;
-    UILongPressGestureRecognizer _menuGesture;
+    UIView* _contentView;
+    UIView* _backgroundView;
+    UIView* _selectedBackgroundView;
+    UILongPressGestureRecognizer* _menuGesture;
     id _selectionSegueTemplate;
     id _highlightingSupport;
     {?="selected"b1"highlighted"b1"showingMenu"b1"clearSelectionWhenMenuDisappears"b1"waitingForSelectionAnimationHalfwayPoint"b1} _collectionCellFlags;

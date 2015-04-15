@@ -1,7 +1,7 @@
 
 @interface UIWebTiledView : UIView {
 
-    WAKWindow _wakWindow;
+    WAKWindow* _wakWindow;
     int _inGestureType;
     int _tilingArea;
     BOOL _didFirstTileLayout;

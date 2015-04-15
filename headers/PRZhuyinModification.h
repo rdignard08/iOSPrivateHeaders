@@ -2,7 +2,7 @@
 @interface PRZhuyinModification : PRModification {
 
     {_NSRange="location"Q"length"Q} _range;
-    NSString _replacementString;
+    NSString* _replacementString;
     unsigned long long _modificationType;
     {_NSRange="location"Q"length"Q} _syllableRange;
     {_NSRange="location"Q"length"Q} _additionalSyllableRange;

@@ -2,29 +2,29 @@
 @protocol UITextFieldDelegate;
 @interface UIModalView : UIView <UITextFieldDelegate> {
 
-    <UIModalViewDelegate> _delegate;
-    UILabel _titleLabel;
-    UILabel _subtitleLabel;
-    UILabel _bodyTextLabel;
-    UILabel _taglineTextLabel;
+    <UIModalViewDelegate>* _delegate;
+    UILabel* _titleLabel;
+    UILabel* _subtitleLabel;
+    UILabel* _bodyTextLabel;
+    UILabel* _taglineTextLabel;
     double _startX;
     double _startY;
     id _context;
     long long _cancelButton;
     long long _defaultButton;
     long long _firstOtherButton;
-    UIToolbar _toolbar;
-    UIWindow _originalWindow;
-    UIWindow _dimWindow;
+    UIToolbar* _toolbar;
+    UIWindow* _originalWindow;
+    UIWindow* _dimWindow;
     long long _suspendTag;
     long long _dismissButtonIndex;
     double _bodyTextHeight;
-    NSMutableArray _buttons;
-    NSMutableArray _textFields;
-    UIView _keyboard;
-    UIView _table;
-    UIView _dimView;
-    UIView _sheetView;
+    NSMutableArray* _buttons;
+    NSMutableArray* _textFields;
+    UIView* _keyboard;
+    UIView* _table;
+    UIView* _dimView;
+    UIView* _sheetView;
     {?="numberOfRows"b7"delegateAlertSheetButtonClicked"b1"delegateDidPresentAlertSheet"b1"delegateDidDismissAlertSheet"b1"hideButtonBar"b1"alertStyle"b3"dontDimBackground"b1"dismissSuspended"b1"dontBlockInteraction"b1"sheetWasPoppedUp"b1"animating"b1"hideWhenDoneAnimating"b1"layoutWhenDoneAnimating"b1"titleMaxLineCount"b2"bodyTextMaxLineCount"b3"runsModal"b1"runningModal"b1"addedTextView"b1"addedTableShadows"b1"showOverSBAlerts"b1"showMinTableContent"b1"bodyTextTruncated"b1"orientation"b3"groupsTextFields"b1"delegateBodyTextAlignment"b1"delegateClickedButtonAtIndex"b1"delegateCancel"b1"delegateWillPresent"b1"delegateDidPresent"b1"delegateWillDismiss"b1"delegateDidDismiss"b1"popupFromPoint"b1"extra"b20"dontCallDismissDelegate"b1"useAutomaticKB"b1"shouldHandleFirstKeyUpEvent"b1"cancelWhenDoneAnimating"b1} _modalViewFlags;
 }
  + (void) noteOrientationChangingTo:(long long)a;

@@ -4,7 +4,7 @@
 
     BOOL dataSourceHasBeenSet;
     ^{CGPDFDocument=} _PDFDocument;
-    NSString _title;
+    NSString* _title;
     ^{CGRect={CGPoint=dd}{CGSize=dd}} _pageRects;
 }
  + (^{CGColor=}) shadowColor;

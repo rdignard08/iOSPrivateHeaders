@@ -2,10 +2,10 @@
 @protocol NSXPCConnectionDelegate, _UIViewServiceDeputyManagerDelegate, _UIViewServiceViewControllerOperatorDelegate;
 @interface _UIViewServiceSession : NSObject <NSXPCConnectionDelegate, _UIViewServiceDeputyManagerDelegate, _UIViewServiceViewControllerOperatorDelegate> {
 
-    NSObject<OS_dispatch_queue> _queue;
-    NSXPCConnection _connection;
-    _UIViewServiceDeputyManager _deputyManager;
-    _UIAsyncInvocation _invalidationInvocation;
+    NSObject<OS_dispatch_queue>* _queue;
+    NSXPCConnection* _connection;
+    _UIViewServiceDeputyManager* _deputyManager;
+    _UIAsyncInvocation* _invalidationInvocation;
     @? _terminationHandler;
     int __automatic_invalidation_retainCount;
     BOOL __automatic_invalidation_invalidated;

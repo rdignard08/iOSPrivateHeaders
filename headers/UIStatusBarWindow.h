@@ -1,11 +1,11 @@
 
 @interface UIStatusBarWindow : UIWindow {
 
-    UIStatusBar _statusBar;
+    UIStatusBar* _statusBar;
     long long _orientation;
-    UIStatusBarCorners _topCorners;
+    UIStatusBarCorners* _topCorners;
     double _topCornersOffset;
-    UIStatusBarCorners _bottomCorners;
+    UIStatusBarCorners* _bottomCorners;
     BOOL _cornersHidden;
 }
  + (BOOL) _isSystemWindow;

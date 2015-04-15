@@ -4,8 +4,8 @@
     int _type;
     double _timestamp;
     {CGPoint="x"d"y"d} _locationInWindow;
-    NSString _characters;
-    NSString _charactersIgnoringModifiers;
+    NSString* _characters;
+    NSString* _charactersIgnoringModifiers;
     unsigned int _modifierFlags;
     BOOL _keyRepeating;
     BOOL _popupVariant;
@@ -16,9 +16,9 @@
     float _deltaX;
     float _deltaY;
     unsigned int _touchCount;
-    NSArray _touchLocations;
-    NSArray _touchIdentifiers;
-    NSArray _touchPhases;
+    NSArray* _touchLocations;
+    NSArray* _touchIdentifiers;
+    NSArray* _touchPhases;
     BOOL _isGesture;
     float _gestureScale;
     float _gestureRotation;

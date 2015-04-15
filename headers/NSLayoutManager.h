@@ -2,13 +2,13 @@
 @protocol NSCoding;
 @interface NSLayoutManager : NSObject <NSCoding> {
 
-    NSTextStorage _textStorage;
-    NSGlyphGenerator _glyphGenerator;
-    NSTypesetter _typesetter;
-    NSMutableArray _textContainers;
-    NSStorage _containerUsedRects;
-    NSRunStorage _containerRuns;
-    NSTextContainer _extraLineFragmentContainer;
+    NSTextStorage* _textStorage;
+    NSGlyphGenerator* _glyphGenerator;
+    NSTypesetter* _typesetter;
+    NSMutableArray* _textContainers;
+    NSStorage* _containerUsedRects;
+    NSRunStorage* _containerRuns;
+    NSTextContainer* _extraLineFragmentContainer;
     {__lmFlags="containersAreFull"b1"glyphsMightDrawOutsideLines"b1"backgroundLayoutEnabled"b1"resizingInProgress"b1"allowScreenFonts"b1"cachedRectArrayInUse"b1"displayInvalidationInProgress"b1"insertionPointNeedsUpdate"b1"layoutManagerInDirtyList"b1"originalFontOverride"b1"showInvisibleCharacters"b1"showControlCharacters"b1"delegateRespondsToDidInvalidate"b1"delegateRespondsToDidComplete"b1"glyphFormat"b2"textStorageRespondsToIsEditing"b1"notifyEditedInProgress"b1"containersChanged"b1"isGeneratingGlyphs"b1"hasNonGeneratedGlyphData"b1"syncAlignmentToDirection"b1"defaultAttachmentScaling"b2"usesFontLeading"b1"seenRightToLeft"b1"ignoresViewTransformations"b1"needToFlushGlyph"b1"flipsIfNeeded"b1"allowNonContig"b1"useNonContig"b1"inBackgroundLayout"b1} _lmFlags;
     id _delegate;
     unsigned short _textViewResizeDisableStack;
@@ -23,7 +23,7 @@
     unsigned long long _cachedLocationGlyphIndex;
     {CGPoint="x"d"y"d} _cachedLocation;
     {_NSRange="location"Q"length"Q} _cachedFontCharRange;
-    NSFont _cachedFont;
+    NSFont* _cachedFont;
     unsigned long long _firstUnlaidGlyphIndex;
     unsigned long long _firstUnlaidCharIndex;
     {_NSRange="location"Q"length"Q} _newlyFilledGlyphRange;

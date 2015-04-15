@@ -3,32 +3,32 @@
 @interface UITextView : UIScrollView <UITextLinkInteraction, UITextInputControllerDelegate, UITextAutoscrolling, UIKeyboardInput, UITextInputTraits_Private, _UIMultilineTextContentSizing, _UILayoutBaselineUpdating, UITextInput> {
 
     id _private;
-    NSTextStorage _textStorage;
-    NSTextContainer _textContainer;
-    NSLayoutManager _layoutManager;
-    _UITextContainerView _containerView;
+    NSTextStorage* _textStorage;
+    NSTextContainer* _textContainer;
+    NSLayoutManager* _layoutManager;
+    _UITextContainerView* _containerView;
     id _inputDelegate;
-    <UITextInputTokenizer> _tokenizer;
-    UITextInputController _inputController;
-    UITextInteractionAssistant _interactionAssistant;
-    UITextInputTraits _textInputTraits;
-    UIAutoscroll _autoscroll;
+    <UITextInputTokenizer>* _tokenizer;
+    UITextInputController* _inputController;
+    UITextInteractionAssistant* _interactionAssistant;
+    UITextInputTraits* _textInputTraits;
+    UIAutoscroll* _autoscroll;
     {?="needsScrollToSelectionAfterLayout"b1"isInteractingWithLink"b1"linkInteractionIsLongPress"b1"editable"b1"reentrancyGuard"b1"usesExplicitPreferredMaxLayoutWidth"b1"determiningPreferredMaxLayoutWidth"b1"inSecondConstraintsPass"b1"interactiveSelectionDisabled"b1"selectable"b1"shouldPresentSheetsInAWindowLayeredAboveTheKeyboard"b1} _tvFlags;
     id _linkInteractionItem;
-    _UITextViewRestorableScrollPosition _scrollTarget;
+    _UITextViewRestorableScrollPosition* _scrollTarget;
     {CGPoint="x"d"y"d} _scrollTargetOffset;
     unsigned long long _dataDetectorTypes;
     double _preferredMaxLayoutWidth;
-    UILabel _placeholderLabel;
-    UIView _inputAccessoryView;
-    _UISiriStreamingManager _streamingManager;
-    _UICharacterStreamingManager _characterStreamingManager;
+    UILabel* _placeholderLabel;
+    UIView* _inputAccessoryView;
+    _UISiriStreamingManager* _streamingManager;
+    _UICharacterStreamingManager* _characterStreamingManager;
     long long _siriAnimationStyle;
-    NSDictionary _siriParameters;
+    NSDictionary* _siriParameters;
     double _firstBaselineOffsetFromTop;
     double _lastBaselineOffsetFromBottom;
     BOOL _clearsOnInsertion;
-    UIView _inputView;
+    UIView* _inputView;
 }
  + (BOOL) _isCompatibilityTextView;
  + (id) _bestInterpretationForDictationResult:(id)a;

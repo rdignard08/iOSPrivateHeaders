@@ -1,9 +1,9 @@
 
 @interface NSKeyValueComputedProperty : NSKeyValueProperty {
 
-    NSString _operationName;
-    NSString _operationArgumentKeyPath;
-    NSKeyValueProperty _operationArgumentProperty;
+    NSString* _operationName;
+    NSString* _operationArgumentKeyPath;
+    NSKeyValueProperty* _operationArgumentProperty;
 }
 
  - (void) object:(id)adidAddObservance:(id)brecurse:(BOOL)c;

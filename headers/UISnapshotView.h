@@ -7,14 +7,14 @@
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _edgePadding;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _edgeInsets;
     {CGPoint="x"d"y"d} _contentOffset;
-    UIColor _edgePaddingColor;
-    UIView _imageView;
-    NSMutableArray _edgePaddingViews;
+    UIColor* _edgePaddingColor;
+    UIView* _imageView;
+    NSMutableArray* _edgePaddingViews;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _snapshotRect;
-    UIImageView _shadowView;
+    UIImageView* _shadowView;
     b1 _disableEdgeAntialiasing;
     b1 _disableVerticalStretch;
-    UIColor _statusBarTintColor;
+    UIColor* _statusBarTintColor;
 }
 
  - (void) dealloc;

@@ -1,8 +1,8 @@
 
 @interface _UIQueuingScrollViewState : _UITransitionState {
 
-    UIView _view;
-    UIViewController _viewController;
+    UIView* _view;
+    UIViewController* _viewController;
     BOOL _manual;
 }
 

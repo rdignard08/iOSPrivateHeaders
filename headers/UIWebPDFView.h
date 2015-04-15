@@ -2,15 +2,15 @@
 @protocol UIPDFPageViewDelegate, UIPDFAnnotationControllerDelegate, WebPDFViewPlaceholderDelegate, UIPopoverControllerDelegate, UIGestureRecognizerDelegate;
 @interface UIWebPDFView : UIView <UIPDFPageViewDelegate, UIPDFAnnotationControllerDelegate, WebPDFViewPlaceholderDelegate, UIPopoverControllerDelegate, UIGestureRecognizerDelegate> {
 
-    NSMutableArray _backingLayerImageViews;
+    NSMutableArray* _backingLayerImageViews;
     ^{CGPDFDocument=} _cgPDFDocument;
-    UIPDFDocument _document;
+    UIPDFDocument* _document;
     BOOL _hasScheduledCacheUpdate;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _documentBounds;
-    NSObject<UIWebPDFViewDelegate> _pdfDelegate;
+    NSObject<UIWebPDFViewDelegate>* _pdfDelegate;
     BOOL _delegateRespondsToDidScroll;
-    UITapGestureRecognizer _tapGestureRecognizer;
-    NSURL _documentURL;
+    UITapGestureRecognizer* _tapGestureRecognizer;
+    NSURL* _documentURL;
     BOOL _rotating;
     BOOL _zooming;
     double _initialZoomScale;
@@ -18,15 +18,15 @@
     double _documentScale;
     long long _ignoreContentOffsetChanges;
     {CGPoint="x"d"y"d} _contentOffsetAtScrollStart;
-    NSMutableArray _pageViews;
-    NSArray _pageMinYs;
+    NSMutableArray* _pageViews;
+    NSArray* _pageMinYs;
     BOOL hidePageViewsUntilReadyToRender;
     BOOL hideActivityIndicatorForUnRenderedContent;
     BOOL readyForSnapshot;
-    WebPDFViewPlaceholder pdfPlaceHolderView;
-    UIColor backgroundColorForUnRenderedContent;
-    NSString documentPassword;
-    NSArray pageRects;
+    WebPDFViewPlaceholder* pdfPlaceHolderView;
+    UIColor* backgroundColorForUnRenderedContent;
+    NSString* documentPassword;
+    NSArray* pageRects;
 }
  + (void) initialize;
  + (void) setAsPDFDocRepAndView;

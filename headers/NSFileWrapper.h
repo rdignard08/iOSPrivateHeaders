@@ -2,9 +2,9 @@
 @protocol NSCoding;
 @interface NSFileWrapper : NSObject <NSCoding> {
 
-    NSDictionary _fileAttributes;
-    NSString _preferredFileName;
-    NSString _fileName;
+    NSDictionary* _fileAttributes;
+    NSString* _preferredFileName;
+    NSString* _fileName;
     id _contents;
     id _icon;
     id _moreVars;

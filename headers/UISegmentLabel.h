@@ -1,7 +1,7 @@
 
 @interface UISegmentLabel : UILabel {
 
-    UILabel _associatedLabel;
+    UILabel* _associatedLabel;
 }
 
  - (BOOL) _shouldAnimatePropertyWithKey:(id)a;

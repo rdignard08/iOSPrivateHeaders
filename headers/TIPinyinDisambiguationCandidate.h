@@ -1,7 +1,7 @@
 
 @interface TIPinyinDisambiguationCandidate : TIKeyboardCandidateSingle {
 
-    NSString _label;
+    NSString* _label;
 }
  + (BOOL) supportsSecureCoding;
  + (int) type;

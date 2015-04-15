@@ -1,7 +1,7 @@
 
 @interface _UIBadgeBackground : UIView {
 
-    UIImage _image;
+    UIImage* _image;
 }
 
  - (void) dealloc;

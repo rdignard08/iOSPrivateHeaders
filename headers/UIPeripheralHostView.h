@@ -2,11 +2,11 @@
 @interface UIPeripheralHostView : UIView {
 
     int _explicitLayoutCount;
-    UIKeyboardCornerView _cornerViewLeft;
-    UIKeyboardCornerView _cornerViewRight;
-    UIKBInputBackdropView _inputBackdropView;
-    UIKBInputBackdropView _inputAccessoryBackdropView;
-    UIKBRenderConfig _renderConfig;
+    UIKeyboardCornerView* _cornerViewLeft;
+    UIKeyboardCornerView* _cornerViewRight;
+    UIKBInputBackdropView* _inputBackdropView;
+    UIKBInputBackdropView* _inputAccessoryBackdropView;
+    UIKBRenderConfig* _renderConfig;
 }
 
  - (void) dealloc;

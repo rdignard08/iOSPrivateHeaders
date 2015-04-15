@@ -2,10 +2,10 @@
 @protocol AFMultipartFormData;
 @interface AFStreamingMultipartFormData : NSObject <AFMultipartFormData> {
 
-    NSMutableURLRequest _request;
+    NSMutableURLRequest* _request;
     unsigned long long _stringEncoding;
-    NSString _boundary;
-    AFMultipartBodyStream _bodyStream;
+    NSString* _boundary;
+    AFMultipartBodyStream* _bodyStream;
 }
 @property (nonatomic, copy, readwrite) NSMutableURLRequest* request;
 @property (nonatomic, assign, readwrite) NSNumber* stringEncoding;

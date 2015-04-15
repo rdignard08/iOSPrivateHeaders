@@ -2,7 +2,7 @@
 @protocol UIPickerViewScrollTesting, NSCoding;
 @interface UIDatePicker : UIControl <UIPickerViewScrollTesting, NSCoding> {
 
-    _UIDatePickerView _pickerView;
+    _UIDatePickerView* _pickerView;
     BOOL _useCurrentDateDuringDecoding;
 }
  + (Class) _pickerViewClass;

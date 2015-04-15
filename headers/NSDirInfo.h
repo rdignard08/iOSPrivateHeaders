@@ -1,7 +1,7 @@
 
 @interface NSDirInfo : NSMutableDictionary {
 
-    NSMutableDictionary dict;
+    NSMutableDictionary* dict;
 }
 
  - (id) initWithContentsOfFile:(id)a;

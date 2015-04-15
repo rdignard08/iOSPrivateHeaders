@@ -1,7 +1,7 @@
 
 @interface BSProcessDeathWatcher : NSObject {
 
-    BSDispatchSource _source;
+    BSDispatchSource* _source;
     @? _deathHandler;
 }
 

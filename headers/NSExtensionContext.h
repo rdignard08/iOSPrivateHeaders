@@ -3,13 +3,13 @@
 @interface NSExtensionContext : NSObject <NSSecureCoding, NSCopying, NSXPCListenerDelegate, _NSExtensionAuxHostingBase> {
 
     BOOL __dummyExtension;
-    NSArray _inputItems;
-    NSUUID __UUID;
+    NSArray* _inputItems;
+    NSUUID* __UUID;
     @? __requestCleanUpBlock;
-    <_NSExtensionContextHosting> __extensionHostProxy;
-    <_NSExtensionContextVending> __extensionVendorProxy;
-    NSXPCConnection __auxiliaryConnection;
-    NSXPCListener __auxiliaryListener;
+    <_NSExtensionContextHosting>* __extensionHostProxy;
+    <_NSExtensionContextVending>* __extensionVendorProxy;
+    NSXPCConnection* __auxiliaryConnection;
+    NSXPCListener* __auxiliaryListener;
     id __principalObject;
 }
 @property (nonatomic, copy, readwrite) NSArray* inputItems;

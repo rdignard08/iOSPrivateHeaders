@@ -6,13 +6,13 @@
     double _finishProgress;
     double _finishDuration;
     double _finalTransitionStartTime;
-    CADisplayLink _displayLink;
-    UIKBTree _start;
-    UIKBTree _end;
-    UIView _startView;
-    UIView _endView;
+    CADisplayLink* _displayLink;
+    UIKBTree* _start;
+    UIKBTree* _end;
+    UIView* _startView;
+    UIView* _endView;
     @? _completionBlock;
-    <UIKeyboardKeyplaneTransitionDelegate> _transitionDelegate;
+    <UIKeyboardKeyplaneTransitionDelegate>* _transitionDelegate;
     BOOL _initiallyAtEnd;
 }
 @property (atomic, copy, readwrite) NSNumber* completionBlock;

@@ -1,9 +1,9 @@
 
 @interface UIWebDragDotView : UIView {
 
-    UIColor m_insertionPointColor;
-    UIColor m_selectionBarColor;
-    UIImageView m_dot;
+    UIColor* m_insertionPointColor;
+    UIColor* m_selectionBarColor;
+    UIImageView* m_dot;
     int m_orientation;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_stickFrame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_dotFrame;

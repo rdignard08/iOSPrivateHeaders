@@ -1,7 +1,7 @@
 
 @interface UIWindowLayer : CALayer {
 
-    UIWindow _window;
+    UIWindow* _window;
 }
 
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;

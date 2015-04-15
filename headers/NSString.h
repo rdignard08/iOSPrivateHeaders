@@ -97,9 +97,9 @@
  - (BOOL) validateGSNameAllowingDot:(BOOL)aerror:(^@)b;
  - (id) gs_issueExtension:(r*)aerror:(^@)b;
  - (id) gs_issueReadExtensionIfNeededForPid:(int)a;
- - (long long) _caseInsensitiveNumericCompare:(id)a;
  - (id) urlEncodedString;
  - (id) cutStringByResolvingAndStandardizingPath;
+ - (long long) _caseInsensitiveNumericCompare:(id)a;
  - (id) _ui_secureString;
  - (id) _uikit_stringByTrimmingWhitespaceAndNewlines;
  - (id) _uikit_stringWithWritingDirection:(long long)aasOverride:(BOOL)b;

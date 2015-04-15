@@ -2,17 +2,17 @@
 @protocol _UIBasicAnimationFactory;
 @interface UIDictationLandingView : UIView <_UIBasicAnimationFactory> {
 
-    UITextRange _range;
+    UITextRange* _range;
     id _placeholder;
     BOOL _didHaveText;
     BOOL _willInsertResult;
     double _angle;
     double _diameter;
-    CADisplayLink _displayLink;
+    CADisplayLink* _displayLink;
     double _startTime;
     double _shrinkStartTime;
     BOOL _shrinking;
-    NSOperation _afterShrinkCompletionInvocation;
+    NSOperation* _afterShrinkCompletionInvocation;
 }
  + (id) sharedInstance;
  + (id) activeInstance;

@@ -1,11 +1,11 @@
 
 @interface LSBestAppSuggestionManager : NSObject {
 
-    <LSBestAppSuggestionManagerDelegate> _delegate;
+    <LSBestAppSuggestionManagerDelegate>* _delegate;
     BOOL _listeningForBestAppSuggestions;
     int _bestAppNotificationCount;
-    LSBestAppSuggestion _lastBestAppSuggestion;
-    NSXPCConnection _connection;
+    LSBestAppSuggestion* _lastBestAppSuggestion;
+    NSXPCConnection* _connection;
 }
 @property (atomic, weak, readwrite) NSNumber* delegate;
 @property (atomic, retain, readwrite) NSXPCConnection* connection;

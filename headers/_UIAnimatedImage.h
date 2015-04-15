@@ -1,7 +1,7 @@
 
 @interface _UIAnimatedImage : UIImage {
 
-    NSArray _images;
+    NSArray* _images;
     double _duration;
 }
  + (BOOL) supportsSecureCoding;

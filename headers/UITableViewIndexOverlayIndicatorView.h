@@ -1,9 +1,9 @@
 
 @interface UITableViewIndexOverlayIndicatorView : UIView {
 
-    UILabel _label;
-    UITapGestureRecognizer _tapGestureRecognizer;
-    UITableView _table;
+    UILabel* _label;
+    UITapGestureRecognizer* _tapGestureRecognizer;
+    UITableView* _table;
 }
 
  - (void) dealloc;

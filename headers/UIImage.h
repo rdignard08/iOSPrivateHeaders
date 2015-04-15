@@ -5,8 +5,8 @@
     ^v _imageRef;
     double _scale;
     {?="named"b1"imageOrientation"b3"cached"b1"hasPattern"b1"isCIImage"b1"renderingMode"b2"suppressesAccessibilityHairlineThickening"b1"hasDecompressionInfo"b1} _imageFlags;
-    UITraitCollection _traitCollection;
-    UIImageAsset _imageAsset;
+    UITraitCollection* _traitCollection;
+    UIImageAsset* _imageAsset;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _alignmentRectInsets;
 }
 @property (nonatomic, assign, readonly) NSNumber* leftCapWidth;

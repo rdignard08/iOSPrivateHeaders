@@ -2,13 +2,13 @@
 @protocol NSCoding, NSTextLayoutOrientationProvider;
 @interface NSTextContainer : NSObject <NSCoding, NSTextLayoutOrientationProvider> {
 
-    NSLayoutManager _layoutManager;
+    NSLayoutManager* _layoutManager;
     id _textView;
     {CGSize="width"d"height"d} _size;
     double _lineFragmentPadding;
     unsigned long long _maximumLines;
     {__tcFlags="widthTracksTextView"b1"heightTracksTextView"b1"observingFrameChanges"b1"lineBreakMode"b4"oldAPI"b1"_reserved"b8} _tcFlags;
-    NSArray _exclusionPaths;
+    NSArray* _exclusionPaths;
     ^{CGPath=} _cachedBoundingPath;
     ^{__CFArray=} _cachedClippingAttributes;
     ^{__CFArray=} _cachedBounds;
@@ -16,7 +16,7 @@
     double _cacheBoundsMaxY;
     double _minimumWidth;
     long long _layoutOrientation;
-    NSDictionary _attributesForExtraLineFragment;
+    NSDictionary* _attributesForExtraLineFragment;
 }
 @property (atomic, assign, readonly) NSNumber* isSimpleRectangularTextContainer;
 @property (nonatomic, assign, readwrite) NSLayoutManager* layoutManager;

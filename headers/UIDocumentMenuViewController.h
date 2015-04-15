@@ -2,13 +2,13 @@
 @protocol _UIDocumentPickerRemoteViewControllerContaining, UIAlertControllerContaining;
 @interface UIDocumentMenuViewController : UIViewController <_UIDocumentPickerRemoteViewControllerContaining, UIAlertControllerContaining> {
 
-    <UIDocumentMenuDelegate> _weak_delegate;
+    <UIDocumentMenuDelegate>* _weak_delegate;
     BOOL _dismissDelegateCalled;
-    NSMutableArray _auxiliaryOptions;
-    _UIDocumentPickerRemoteViewController _remoteViewController;
-    UIAlertController _alertController;
+    NSMutableArray* _auxiliaryOptions;
+    _UIDocumentPickerRemoteViewController* _remoteViewController;
+    UIAlertController* _alertController;
     unsigned long long _documentPickerMode;
-    NSURL _uploadURL;
+    NSURL* _uploadURL;
 }
 
  - (void) dealloc;

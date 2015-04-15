@@ -1,10 +1,10 @@
 
 @interface _UIOpenWithAppActivity : UIActivity {
 
-    LSApplicationProxy _appProxy;
+    LSApplicationProxy* _appProxy;
     BOOL _defaultApp;
-    UIDocumentInteractionController _documentInteractionController;
-    NSString _activityType;
+    UIDocumentInteractionController* _documentInteractionController;
+    NSString* _activityType;
 }
  + (long long) activityCategory;
 

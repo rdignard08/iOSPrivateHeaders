@@ -2,7 +2,7 @@
 @interface _NSXPCConnectionImportInfo : NSObject {
 
     unsigned long long _generationCount;
-    NSLock _lock;
+    NSLock* _lock;
     ^{__CFDictionary=} _proxyNumberToCount;
     ^{__CFSet=} _knownProxies;
 }

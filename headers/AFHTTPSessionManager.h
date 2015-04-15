@@ -2,8 +2,8 @@
 @protocol NSSecureCoding, NSCopying;
 @interface AFHTTPSessionManager : AFURLSessionManager <NSSecureCoding, NSCopying> {
 
-    NSURL _baseURL;
-    AFHTTPRequestSerializer<AFURLRequestSerialization> _requestSerializer;
+    NSURL* _baseURL;
+    AFHTTPRequestSerializer<AFURLRequestSerialization>* _requestSerializer;
 }
  + (BOOL) supportsSecureCoding;
  + (id) manager;

@@ -2,7 +2,7 @@
 @interface UIVideoEditorController : UINavigationController {
 
     int _previousStatusBarStyle;
-    NSMutableDictionary _properties;
+    NSMutableDictionary* _properties;
     {?="visible"b1"isCleaningUp"b1"didRevertStatusBar"b1} _flags;
 }
  + (BOOL) canEditVideoAtPath:(id)a;

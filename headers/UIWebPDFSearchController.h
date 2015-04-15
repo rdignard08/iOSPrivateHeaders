@@ -5,11 +5,11 @@
     unsigned long long _resultIndexWhenLimitHit;
     BOOL _notifiedThatSearchBegin;
     unsigned long long _pageIndexWhenLimitHit;
-    NSOperationQueue _searchQueue;
-    NSMutableArray _results;
-    NSString _searchString;
-    UIPDFDocument _documentToSearch;
-    NSObject<UIWebPDFSearchControllerDelegate> searchDelegate;
+    NSOperationQueue* _searchQueue;
+    NSMutableArray* _results;
+    NSString* _searchString;
+    UIPDFDocument* _documentToSearch;
+    NSObject<UIWebPDFSearchControllerDelegate>* searchDelegate;
     unsigned long long startingPageIndex;
     double documentScale;
     unsigned long long resultLimit;

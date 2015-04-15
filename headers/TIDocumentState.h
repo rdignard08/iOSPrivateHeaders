@@ -2,10 +2,10 @@
 @protocol NSSecureCoding;
 @interface TIDocumentState : NSObject <NSSecureCoding> {
 
-    NSString _contextBeforeInput;
-    NSString _markedText;
-    NSString _selectedText;
-    NSString _contextAfterInput;
+    NSString* _contextBeforeInput;
+    NSString* _markedText;
+    NSString* _selectedText;
+    NSString* _contextAfterInput;
     {_NSRange="location"Q"length"Q} _selectedRangeInMarkedText;
 }
 @property (nonatomic, assign, readonly) NSString* contextBeforeInput;

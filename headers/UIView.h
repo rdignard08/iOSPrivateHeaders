@@ -2,30 +2,30 @@
 @protocol _UIScrollNotification, UITextEffectsOrdering, NSISVariableDelegate, NSLayoutItem, NSISEngineDelegate, _UITraitEnvironmentInternal, UIFocusContainer, NSCoding, UIAppearance, UIAppearanceContainer, UIDynamicItem, UITraitEnvironment, UICoordinateSpace;
 @interface UIView : UIResponder <_UIScrollNotification, UITextEffectsOrdering, NSISVariableDelegate, NSLayoutItem, NSISEngineDelegate, _UITraitEnvironmentInternal, UIFocusContainer, NSCoding, UIAppearance, UIAppearanceContainer, UIDynamicItem, UITraitEnvironment, UICoordinateSpace> {
 
-    CALayer _layer;
+    CALayer* _layer;
     id _gestureInfo;
-    NSMutableArray _gestureRecognizers;
-    NSArray _subviewCache;
+    NSMutableArray* _gestureRecognizers;
+    NSArray* _subviewCache;
     float _charge;
     long long _tag;
-    UIViewController _viewDelegate;
-    NSString _backgroundColorSystemColorName;
+    UIViewController* _viewDelegate;
+    NSString* _backgroundColorSystemColorName;
     unsigned long long _countOfMotionEffectsInSubtree;
     unsigned long long _countOfTraitChangeRespondersInDirectSubtree;
     {?="userInteractionDisabled"b1"implementsDrawRect"b1"implementsDidScroll"b1"implementsMouseTracking"b1"implementsIntrinsicContentSize"b1"hasBackgroundColor"b1"isOpaque"b1"becomeFirstResponderWhenCapable"b1"interceptMouseEvent"b1"deallocating"b1"debugFlash"b1"debugSkippedSetNeedsDisplay"b1"debugScheduledDisplayIsRequired"b1"isInAWindow"b1"isAncestorOfFirstResponder"b1"dontAutoresizeSubviews"b1"autoresizeMask"b6"patternBackground"b1"fixedBackgroundPattern"b1"dontAnimate"b1"superLayerIsView"b1"layerKitPatternDrawing"b1"multipleTouchEnabled"b1"exclusiveTouch"b1"hasViewController"b1"needsDidAppearOrDisappear"b1"gesturesEnabled"b1"deliversTouchesForGesturesToSuperview"b1"chargeEnabled"b1"skipsSubviewEnumeration"b1"needsDisplayOnBoundsChange"b1"hasTiledLayer"b1"hasLargeContent"b1"unused"b1"traversalMark"b1"appearanceIsInvalid"b1"monitorsSubtree"b1"hostsAutolayoutEngine"b1"constraintsAreClean"b1"subviewLayoutConstraintsAreClean"b1"intrinsicContentSizeConstraintsAreClean"b1"potentiallyHasDanglyConstraints"b1"doesNotTranslateAutoresizingMaskIntoConstraints"b1"autolayoutIsClean"b1"layoutFlushingDisabled"b1"layingOutFromConstraints"b1"wantsAutolayout"b1"subviewWantsAutolayout"b1"isApplyingValuesFromEngine"b1"isInAutolayout"b1"isSubviewUpdatingAutoresizingConstraints"b1"isUpdatingConstraints"b1"isHostingUpdateConstraintsPassDuringLayout"b1"isRunningEngineLevelConstraintsPass"b1"isUnsatisfiableConstraintsLoggingSuspended"b1"systemLayoutFittingSizeNeedsUpdate"b1"systemLayoutFittingSizeNeedsUpdateInWholeSubtree"b1"isCalculatingSystemLayoutFittingSize"b1"stayHiddenAwaitingReuse"b1"stayHiddenAfterReuse"b1"skippedLayoutWhileHiddenForReuse"b1"hasMaskView"b1"hasVisualAltitude"b1"hasBackdropMaskViews"b1"backdropMaskViewFlags"b5"delaysTouchesForSystemGestures"b1"subclassShouldDelayTouchForSystemGestures"b1"hasMotionEffects"b1"backdropOverlayMode"b2"tintAdjustmentMode"b2"isReferenceView"b1"hasUserInterfaceIdiom"b1"userInterfaceIdiom"b3"ancestorDefinesTintColor"b1"ancestorDefinesTintAdjustmentMode"b1"needsTraitCollectionDidChange"b1"coloredViewBounds"b1"coloredAlignmentRects"b1"coloredHighlightItems"b1"preservesSuperviewMargins"b1"hasGeometryObservers"b1"wantsGeometryChanges"b1"hasTraitStorageList"b1"dontUpdateInferredLayoutMargins"b1} _viewFlags;
     long long _retainCount;
     long long _tintAdjustmentDimmingCount;
     BOOL _shouldArchiveUIAppearanceTags;
-    UIColor _interactionTintColor;
-    NSISVariable _minXVariable;
-    NSISVariable _minYVariable;
-    NSISVariable _boundsWidthVariable;
-    NSISVariable _boundsHeightVariable;
-    NSISEngine _layoutEngine;
-    NSString _layoutDebuggingIdentifier;
-    NSMutableArray _internalConstraints;
-    NSArray _constraintsExceptingSubviewAutoresizingConstraints;
-    UIPresentationController __presentationControllerToNotifyOnLayoutSubviews;
+    UIColor* _interactionTintColor;
+    NSISVariable* _minXVariable;
+    NSISVariable* _minYVariable;
+    NSISVariable* _boundsWidthVariable;
+    NSISVariable* _boundsHeightVariable;
+    NSISEngine* _layoutEngine;
+    NSString* _layoutDebuggingIdentifier;
+    NSMutableArray* _internalConstraints;
+    NSArray* _constraintsExceptingSubviewAutoresizingConstraints;
+    UIPresentationController* __presentationControllerToNotifyOnLayoutSubviews;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _rawLayoutMargins;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _inferredLayoutMargins;
 }

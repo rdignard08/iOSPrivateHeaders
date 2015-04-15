@@ -2,7 +2,7 @@
 @protocol NSCopying, NSCoding;
 @interface NSGlyphInfo : NSObject <NSCopying, NSCoding> {
 
-    NSString _baseString;
+    NSString* _baseString;
 }
  + (BOOL) supportsSecureCoding;
  + (void) initialize;

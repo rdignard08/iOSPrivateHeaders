@@ -2,8 +2,8 @@
 @protocol AVPlayerViewControllerDelegate;
 @interface WebAVPlayerController : NSObject <AVPlayerViewControllerDelegate> {
 
-    WebAVMediaSelectionOption _currentAudioMediaSelectionOption;
-    WebAVMediaSelectionOption _currentLegibleMediaSelectionOption;
+    WebAVMediaSelectionOption* _currentAudioMediaSelectionOption;
+    WebAVMediaSelectionOption* _currentLegibleMediaSelectionOption;
     BOOL _canScanBackward;
     BOOL _canPlay;
     BOOL _canPause;
@@ -12,21 +12,21 @@
     BOOL _hasEnabledAudio;
     BOOL _hasEnabledVideo;
     BOOL _externalPlaybackActive;
-    AVPlayerController _playerControllerProxy;
+    AVPlayerController* _playerControllerProxy;
     ^{WebVideoFullscreenModel=^^?} _delegate;
     double _rate;
     double _contentDuration;
     double _minTime;
     double _maxTime;
     double _contentDurationWithinEndTimes;
-    NSArray _loadedTimeRanges;
+    NSArray* _loadedTimeRanges;
     long long _status;
-    AVValueTiming _timing;
-    NSArray _seekableTimeRanges;
-    NSArray _audioMediaSelectionOptions;
-    NSArray _legibleMediaSelectionOptions;
+    AVValueTiming* _timing;
+    NSArray* _seekableTimeRanges;
+    NSArray* _audioMediaSelectionOptions;
+    NSArray* _legibleMediaSelectionOptions;
     long long _externalPlaybackType;
-    NSString _externalPlaybackAirPlayDeviceLocalizedName;
+    NSString* _externalPlaybackAirPlayDeviceLocalizedName;
     {CGSize="width"d"height"d} _contentDimensions;
 }
 @property (atomic, retain, readwrite) NSNumber* playerControllerProxy;

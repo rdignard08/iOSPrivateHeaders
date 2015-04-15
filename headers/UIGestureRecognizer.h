@@ -1,19 +1,19 @@
 
 @interface UIGestureRecognizer : NSObject {
 
-    NSMutableArray _targets;
-    NSMutableArray _delayedTouches;
-    UIView _view;
-    UITouchesEvent _updateEvent;
-    UIPhysicalButtonsEvent _updateButtonEvent;
-    <UIGestureRecognizerDelegate> _delegate;
-    NSMutableSet _friends;
+    NSMutableArray* _targets;
+    NSMutableArray* _delayedTouches;
+    UIView* _view;
+    UITouchesEvent* _updateEvent;
+    UIPhysicalButtonsEvent* _updateButtonEvent;
+    <UIGestureRecognizerDelegate>* _delegate;
+    NSMutableSet* _friends;
     long long _state;
     {?="delegateShouldBegin"b1"delegateCanPrevent"b1"delegateCanBePrevented"b1"delegateShouldRecognizeSimultaneously"b1"delegateShouldReceiveTouch"b1"delegateShouldRequireFailure"b1"delegateShouldBeRequiredToFail"b1"delegateFailed"b1"privateDelegateShouldBegin"b1"privateDelegateCanPrevent"b1"privateDelegateCanBePrevented"b1"privateDelegateShouldRecognizeSimultaneously"b1"privateDelegateShouldReceiveTouch"b1"privateDelegateShouldRequireFailure"b1"privateDelegateShouldBeRequiredToFail"b1"subclassShouldRequireFailure"b1"subclassShouldBeRequiredToFail"b1"privateSubclassShouldRequireFailure"b1"privateSubclassShouldBeRequiredToFail"b1"hasSubclassDynamicFailureRequirements"b1"hasDelegateDynamicFailureRequirements"b1"queriedFailureRequirements"b1"cancelsTouchesInView"b1"delaysTouchesBegan"b1"delaysTouchesEnded"b1"disabled"b1"dirty"b1"delivered"b1"deliveredEndedOrCancelled"b1"continuous"b1"requiresDelayedBegan"b1"willBeginAfterSatisfyingFailureRequirements"b1"requiresSystemGesturesToFail"b1"acceptsFailureRequirements"b1} _gestureFlags;
-    NSMutableSet _failureRequirements;
-    NSMutableSet _failureDependents;
-    NSMutableSet _dynamicFailureRequirements;
-    NSMutableSet _dynamicFailureDependents;
+    NSMutableSet* _failureRequirements;
+    NSMutableSet* _failureDependents;
+    NSMutableSet* _dynamicFailureRequirements;
+    NSMutableSet* _dynamicFailureDependents;
     id _failureMap;
 }
 @property (nonatomic, assign, readonly) NSNumber* state;

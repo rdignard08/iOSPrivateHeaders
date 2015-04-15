@@ -1,12 +1,12 @@
 
 @interface _UIDocumentPickerOverviewViewController : UITableViewController {
 
-    <_UIDocumentPickerOverviewDelegate> _weak_delegate;
+    <_UIDocumentPickerOverviewDelegate>* _weak_delegate;
     BOOL _manage;
-    NSArray _allPickers;
-    NSString _currentExtensionIdentifier;
-    NSArray _auxiliaryOptions;
-    NSArray _fileTypes;
+    NSArray* _allPickers;
+    NSString* _currentExtensionIdentifier;
+    NSArray* _auxiliaryOptions;
+    NSArray* _fileTypes;
     unsigned long long _mode;
 }
 

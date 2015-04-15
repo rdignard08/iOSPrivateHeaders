@@ -2,9 +2,9 @@
 @interface _UIModalItemTextFiledBGView : _UITextFieldRoundedRectBackgroundViewNeue {
 
     long long _textFieldsCount;
-    UIColor _backgroundColor;
-    UIColor _separatorsColor;
-    UIView _separatorView;
+    UIColor* _backgroundColor;
+    UIColor* _separatorsColor;
+    UIView* _separatorView;
 }
 
  - (void) dealloc;

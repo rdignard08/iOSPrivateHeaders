@@ -2,7 +2,7 @@
 @interface NSInPredicateOperator : NSPredicateOperator {
 
     unsigned long long _flags;
-    NSSubstringPredicateOperator _stringVersion;
+    NSSubstringPredicateOperator* _stringVersion;
 }
  + (BOOL) supportsSecureCoding;
 

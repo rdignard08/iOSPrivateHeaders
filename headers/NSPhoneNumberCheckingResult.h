@@ -2,7 +2,7 @@
 @interface NSPhoneNumberCheckingResult : NSTextCheckingResult {
 
     {_NSRange="location"Q"length"Q} _range;
-    NSString _phoneNumber;
+    NSString* _phoneNumber;
     id _underlyingResult;
 }
 

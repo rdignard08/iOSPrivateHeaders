@@ -2,7 +2,7 @@
 @interface CUIPSDLayerEffectComponent : NSObject {
 
     BOOL _visible;
-    NSString _name;
+    NSString* _name;
 }
 @property (atomic, assign, readwrite) NSNumber* visible;
 @property (atomic, retain, readwrite) NSString* name;

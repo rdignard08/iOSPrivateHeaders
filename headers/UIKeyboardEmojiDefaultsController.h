@@ -1,7 +1,7 @@
 
 @interface UIKeyboardEmojiDefaultsController : NSObject {
 
-    NSMutableDictionary _defaults;
+    NSMutableDictionary* _defaults;
 }
  + (id) sharedController;
 

@@ -2,7 +2,7 @@
 @interface CUIPSDLayoutMetricsChannel : NSObject {
 
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _edgeInsets;
-    NSString _name;
+    NSString* _name;
 }
 @property (nonatomic, assign, readonly) NSNumber* edgeInsets;
 @property (nonatomic, retain, readwrite) NSString* name;

@@ -2,19 +2,19 @@
 @protocol BKSProcessAssertionClientHandler;
 @interface BKSProcessAssertion : NSObject <BKSProcessAssertionClientHandler> {
 
-    BSSignal _invalidationSignal;
+    BSSignal* _invalidationSignal;
     BOOL _acquiring;
     BOOL _acquired;
     int _pid;
-    NSString _identifier;
-    NSString _bundleIdentifier;
-    NSString _name;
+    NSString* _identifier;
+    NSString* _bundleIdentifier;
+    NSString* _name;
     unsigned int _flags;
     unsigned int _reason;
     @? _invalidationHandler;
     @? _acquisitionHandler;
-    BKSProcessAssertionClient _client;
-    NSObject<OS_dispatch_queue> _clientQueue;
+    BKSProcessAssertionClient* _client;
+    NSObject<OS_dispatch_queue>* _clientQueue;
 }
 @property (nonatomic, copy, readwrite) NSString* name;
 @property (nonatomic, assign, readwrite) NSNumber* flags;

@@ -2,12 +2,12 @@
 @protocol UISearchBarDelegate;
 @interface _UIDocumentPickerSearchPaletteView : UIView <UISearchBarDelegate> {
 
-    _UINavigationControllerPalette _palette;
-    _UIDocumentPickerSearchContainerModel _searchModel;
-    UISearchController _searchController;
-    _UIDocumentPickerContainerViewController _resultsController;
-    NSLayoutConstraint _searchFieldLeftConstraint;
-    NSLayoutConstraint _searchFieldRightConstraint;
+    _UINavigationControllerPalette* _palette;
+    _UIDocumentPickerSearchContainerModel* _searchModel;
+    UISearchController* _searchController;
+    _UIDocumentPickerContainerViewController* _resultsController;
+    NSLayoutConstraint* _searchFieldLeftConstraint;
+    NSLayoutConstraint* _searchFieldRightConstraint;
 }
 
  - (void) dealloc;

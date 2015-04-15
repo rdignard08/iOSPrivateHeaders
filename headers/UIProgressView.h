@@ -5,15 +5,15 @@
     long long _progressViewStyle;
     float _progress;
     long long _barStyle;
-    UIColor _progressTintColor;
-    UIColor _trackTintColor;
-    UIImageView _trackView;
-    UIImageView _progressView;
+    UIColor* _progressTintColor;
+    UIColor* _trackTintColor;
+    UIImageView* _trackView;
+    UIImageView* _progressView;
     BOOL _isAnimating;
-    NSArray _trackColors;
-    NSArray _progressColors;
-    UIImage _trackImage;
-    UIImage _progressImage;
+    NSArray* _trackColors;
+    NSArray* _progressColors;
+    UIImage* _trackImage;
+    UIImage* _progressImage;
 }
  + ({CGSize=dd}) defaultSize;
  + (id) _tintedImageForHeight:(double)aandColors:(id)broundingRectCorners:(unsigned long long)c;

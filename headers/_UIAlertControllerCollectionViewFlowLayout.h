@@ -3,9 +3,9 @@
 
     double _alignedDescriptiveLabelTextWidth;
     BOOL _hideSeparators;
-    UIAlertControllerVisualStyle _visualStyle;
+    UIAlertControllerVisualStyle* _visualStyle;
     BOOL _shouldRoundFirstCell;
-    NSArray _actionDelimiterIndices;
+    NSArray* _actionDelimiterIndices;
 }
  + (Class) layoutAttributesClass;
 

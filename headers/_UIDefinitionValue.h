@@ -1,11 +1,11 @@
 
 @interface _UIDefinitionValue : NSObject {
 
-    NSString _localizedDictionaryName;
-    NSString _term;
-    NSAttributedString _definition;
-    NSString _longDefinition;
-    ASAsset _rawAsset;
+    NSString* _localizedDictionaryName;
+    NSString* _term;
+    NSAttributedString* _definition;
+    NSString* _longDefinition;
+    ASAsset* _rawAsset;
 }
 @property (atomic, assign, readonly) NSString* localizedDictionaryName;
 @property (atomic, assign, readonly) NSString* term;

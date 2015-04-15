@@ -3,7 +3,7 @@
 @interface UITraitCollection : NSObject <NSCopying, NSSecureCoding> {
 
     {?="userInterfaceIdiom"q"displayScale"d"touchLevel"q"interactionModel"Q"horizontalSizeClass"q"verticalSizeClass"q} _builtinTraits;
-    NSDictionary _clientDefinedTraits;
+    NSDictionary* _clientDefinedTraits;
 }
 @property (nonatomic, assign, readonly) NSNumber* userInterfaceIdiom;
 @property (nonatomic, assign, readonly) NSNumber* displayScale;

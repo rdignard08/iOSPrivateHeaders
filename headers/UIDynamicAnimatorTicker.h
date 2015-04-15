@@ -1,7 +1,7 @@
 
 @interface UIDynamicAnimatorTicker : NSObject {
 
-    UIDynamicAnimator _animator;
+    UIDynamicAnimator* _animator;
 }
 @property (atomic, assign, readwrite) UIDynamicAnimator* animator;
 

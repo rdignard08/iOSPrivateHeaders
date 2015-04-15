@@ -2,14 +2,14 @@
 @protocol _UIResponderForwardable;
 @interface _UIPhysicalButton : NSObject <_UIResponderForwardable> {
 
-    NSMutableArray _gestureRecognizers;
-    NSMutableArray _forwardingRecord;
+    NSMutableArray* _gestureRecognizers;
+    NSMutableArray* _forwardingRecord;
     BOOL _abandonForwardingRecord;
     double _timestamp;
     long long _phase;
     long long _type;
-    UIWindow _window;
-    UIResponder _responder;
+    UIWindow* _window;
+    UIResponder* _responder;
 }
 @property (nonatomic, assign, readwrite) NSNumber* timestamp;
 @property (nonatomic, assign, readwrite) NSNumber* phase;

@@ -1,8 +1,8 @@
 
 @interface RGAPIClient : AFHTTPSessionManager {
 
-    NSURLSessionConfiguration _sessionConfiguration;
-    <RGSerializationDelegate> _serializationDelegate;
+    NSURLSessionConfiguration* _sessionConfiguration;
+    <RGSerializationDelegate>* _serializationDelegate;
 }
 
  - (id) initWithBaseURL:(id)asessionConfiguration:(id)b;

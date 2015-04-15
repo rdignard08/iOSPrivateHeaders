@@ -1,9 +1,9 @@
 
 @interface _UITableViewCellActionButton : UIButton {
 
-    UITableViewRowAction _action;
+    UITableViewRowAction* _action;
     unsigned long long _style;
-    UIVisualEffect _backgroundEffect;
+    UIVisualEffect* _backgroundEffect;
 }
  + (id) actionButtonWithStyle:(unsigned long long)a;
 

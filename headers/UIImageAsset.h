@@ -2,11 +2,11 @@
 @protocol NSSecureCoding;
 @interface UIImageAsset : NSObject <NSSecureCoding> {
 
-    _UIAssetManager _assetManager;
+    _UIAssetManager* _assetManager;
     BOOL _cacheContents;
-    UITraitCollection _defaultTraitCollection;
+    UITraitCollection* _defaultTraitCollection;
     {?="hasRegisteredImages"b1"supportsBlockGeneration"b1} _assetFlags;
-    NSString _assetName;
+    NSString* _assetName;
     @? _creationBlock;
 }
 @property (nonatomic, copy, readwrite) NSString* assetName;

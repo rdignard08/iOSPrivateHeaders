@@ -1,16 +1,16 @@
 
 @interface CISmartToneFilter : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputExposure;
-    NSNumber inputContrast;
-    NSNumber inputBrightness;
-    NSNumber inputShadows;
-    NSNumber inputHighlights;
-    NSNumber inputBlack;
-    NSNumber inputUseCube;
-    CIImage _cubeImage;
-    CIContext _cubeContext;
+    CIImage* inputImage;
+    NSNumber* inputExposure;
+    NSNumber* inputContrast;
+    NSNumber* inputBrightness;
+    NSNumber* inputShadows;
+    NSNumber* inputHighlights;
+    NSNumber* inputBlack;
+    NSNumber* inputUseCube;
+    CIImage* _cubeImage;
+    CIContext* _cubeContext;
 }
  + (id) customAttributes;
 

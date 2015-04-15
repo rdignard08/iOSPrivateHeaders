@@ -1,8 +1,8 @@
 
 @interface UIKBTree_Compile : UIKBTree {
 
-    NSMutableDictionary symbols;
-    NSMutableDictionary refs;
+    NSMutableDictionary* symbols;
+    NSMutableDictionary* refs;
 }
  + (id) treeOfType:(int)a;
  + (id) uniqueNameWithType:(int)a;

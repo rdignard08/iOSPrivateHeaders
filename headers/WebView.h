@@ -1,7 +1,7 @@
 
 @interface WebView : WAKView {
 
-    WebViewPrivate _private;
+    WebViewPrivate* _private;
 }
  + (void) initialize;
  + (void) _removeUserStyleSheetsFromGroup:(id)aworld:(id)b;

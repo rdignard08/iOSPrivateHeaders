@@ -1,7 +1,7 @@
 
 @interface UITableViewControllerKeyboardSupport : NSObject {
 
-    UITableViewController _tableViewController;
+    UITableViewController* _tableViewController;
     double _adjustmentForKeyboard;
     b1 _viewIsDisappearing;
     b1 _registeredForNotifications;

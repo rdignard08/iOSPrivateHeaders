@@ -1,7 +1,7 @@
 
 @interface UITableViewCellContentView : UIView {
 
-    CALayer _mask;
+    CALayer* _mask;
 }
  + (id) classFallbacksForKeyedArchiver;
 

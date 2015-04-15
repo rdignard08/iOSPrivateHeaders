@@ -1,8 +1,8 @@
 
 @interface UITableViewBackgroundView : UIView {
 
-    UIImageView _gradientImageView;
-    UIView _textureImageView;
+    UIImageView* _gradientImageView;
+    UIView* _textureImageView;
 }
 
  - (void) dealloc;

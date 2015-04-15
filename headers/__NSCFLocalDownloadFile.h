@@ -6,10 +6,10 @@
     BOOL _skipUnlink;
     BOOL _truncateFile;
     int _error;
-    NSObject<OS_dispatch_io> _writeIO;
-    NSObject<OS_dispatch_queue> _workQueue;
-    NSString _path;
-    <__NSCFLocalDownloadFileOpener> _fileProvider;
+    NSObject<OS_dispatch_io>* _writeIO;
+    NSObject<OS_dispatch_queue>* _workQueue;
+    NSString* _path;
+    <__NSCFLocalDownloadFileOpener>* _fileProvider;
     @? _finishCompletion;
 }
 @property (atomic, assign, readwrite) NSNumber* writeIO;

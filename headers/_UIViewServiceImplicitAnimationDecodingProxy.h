@@ -3,7 +3,7 @@
 @interface _UIViewServiceImplicitAnimationDecodingProxy : _UITargetedProxy <_UIViewServiceImplicitAnimationDecodingProxy_EncodingProxyInterface> {
 
     SEL _implicitAnimationSelector;
-    _UIViewAnimationAttributes _animationAttributes;
+    _UIViewAnimationAttributes* _animationAttributes;
 }
  + (id) proxyDecodingAnimationsForTarget:(id)a;
 

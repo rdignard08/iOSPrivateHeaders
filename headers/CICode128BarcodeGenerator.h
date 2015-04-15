@@ -1,7 +1,7 @@
 
 @interface CICode128BarcodeGenerator : CICodeGenerator {
 
-    NSNumber inputQuietSpace;
+    NSNumber* inputQuietSpace;
 }
  + (id) customAttributes;
 

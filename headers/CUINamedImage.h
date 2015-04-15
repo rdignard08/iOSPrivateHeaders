@@ -1,12 +1,12 @@
 
 @interface CUINamedImage : NSObject {
 
-    CUIRenditionKey _key;
+    CUIRenditionKey* _key;
     unsigned long long _storageRef;
-    NSString _name;
+    NSString* _name;
     double _scale;
     {_cuiniproperties="isVectorBased"b1"hasSliceInformation"b1"hasAlignmentInformation"b1"resizingMode"b2"templateRenderingMode"b3"exifOrientation"b4"_reserved"b20} _imageProperties;
-    NSString _signature;
+    NSString* _signature;
 }
 @property (nonatomic, copy, readwrite) NSString* name;
 @property (nonatomic, assign, readonly) NSNumber* image;

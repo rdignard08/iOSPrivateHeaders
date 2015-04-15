@@ -1,13 +1,13 @@
 
 @interface UIClientRotationContext : NSObject {
 
-    UIView _headerView;
-    UIView _footerView;
-    UIView _contentView;
-    UIView _snapshotTargetView;
-    UIView _rotatingSnapshotView;
-    UIView _footerStartSnapshotView;
-    UIView _footerEndSnapshotView;
+    UIView* _headerView;
+    UIView* _footerView;
+    UIView* _contentView;
+    UIView* _snapshotTargetView;
+    UIView* _rotatingSnapshotView;
+    UIView* _footerStartSnapshotView;
+    UIView* _footerEndSnapshotView;
     BOOL _headerWasHidden;
     BOOL _footerWasHidden;
     BOOL _contentWasHidden;
@@ -18,16 +18,16 @@
     long long _fromOrientation;
     long long _toOrientation;
     double _duration;
-    UISnapshotView _headerSnapshotViewStart;
-    UISnapshotView _footerSnapshotViewStart;
-    UISnapshotView _contentSnapshotViewStart;
+    UISnapshotView* _headerSnapshotViewStart;
+    UISnapshotView* _footerSnapshotViewStart;
+    UISnapshotView* _contentSnapshotViewStart;
     double _contentTopAdjustmentStart;
     id _rotatingClient;
     {?="animateContentRotation"B"preserveHeight"B"avoidFadingBottomOfContent"B"skipSnapshotOfEndState"B"preventAdditveAnimations"B"contentStretchRightEdgeInset"d"edgeClip"i} _rotationSettings;
     double contentBottomInset;
-    UIWindow _window;
+    UIWindow* _window;
     BOOL _skipClientRotationCallbacks;
-    NSArray _backdropViews;
+    NSArray* _backdropViews;
 }
 @property (nonatomic, assign, readonly) NSNumber* rotatingClient;
 @property (nonatomic, assign, readonly) UIView* contentView;

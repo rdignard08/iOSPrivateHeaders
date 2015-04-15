@@ -1,7 +1,7 @@
 
 @interface _UIDocumentPickerDocumentTableContainerCell : _UIDocumentPickerDocumentTableCell {
 
-    UIImageView _containerIconView;
+    UIImageView* _containerIconView;
 }
 
  - (void) dealloc;

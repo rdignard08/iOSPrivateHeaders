@@ -1,7 +1,7 @@
 
 @interface _UIDictionaryManager : NSObject {
 
-    NSArray _availableDefinitionDictionaries;
+    NSArray* _availableDefinitionDictionaries;
 }
 @property (atomic, assign, readonly) NSArray* availableDefinitionDictionaries;
  + (void) initialize;

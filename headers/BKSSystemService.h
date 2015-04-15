@@ -1,7 +1,7 @@
 
 @interface BKSSystemService : NSObject {
 
-    FBSSystemService _fbsSystemService;
+    FBSSystemService* _fbsSystemService;
 }
 
  - (void) openURL:(id)aapplication:(id)boptions:(id)cclientPort:(unsigned int)dwithResult:(@?)e;

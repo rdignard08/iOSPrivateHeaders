@@ -1,8 +1,8 @@
 
 @interface _UIMotionEffectEngineClient : NSObject {
 
-    UIMotionEffect _effect;
-    UIView _view;
+    UIMotionEffect* _effect;
+    UIView* _view;
 }
 
  - (id) description;

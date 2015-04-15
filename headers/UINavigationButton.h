@@ -1,17 +1,17 @@
 
 @interface UINavigationButton : UIButton {
 
-    NSSet _possibleTitles;
+    NSSet* _possibleTitles;
     int _style;
     long long _barStyle;
-    UIColor _navigationBarTintColor;
+    UIColor* _navigationBarTintColor;
     {CGSize="width"d"height"d} _boundsAdjustment;
     id _appearanceStorage;
-    NSSet _possibleSystemItems;
+    NSSet* _possibleSystemItems;
     b2 _size;
     b1 _wantsLetterpressContent;
-    UIBarButtonItem _originatingButtonItem;
-    UINavigationItem _originatingNavigationItem;
+    UIBarButtonItem* _originatingButtonItem;
+    UINavigationItem* _originatingNavigationItem;
     BOOL _createdByBarButtonItem;
     BOOL _isFontScaleInvalid;
     BOOL _wantsBlendModeForAccessibilityBackgrounds;
@@ -19,7 +19,7 @@
     double _minimumWidth;
     double _maximumWidth;
     long long _buttonItemStyle;
-    NSDictionary _stylesForSizingTitles;
+    NSDictionary* _stylesForSizingTitles;
     double _fontScaleAdjustment;
     Class _appearanceGuideClass;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} __additionalSelectionInsets;

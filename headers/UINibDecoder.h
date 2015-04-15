@@ -18,7 +18,7 @@
     ^I keyMasks;
     long long inlinedValueKey;
     {UINibDecoderRecursiveState="objectID"q"nextGenericKey"q"nextValueSearchIndex"I"replaced"B} recursiveState;
-    UINibStringIDTable keyIDTable;
+    UINibStringIDTable* keyIDTable;
     id delegate;
     {UIKeyToKeyIDCache="previousKey"[64@"NSString"]"previousKeyID"[64^v]"previousKeyExists"[64B]"hashHits"q"hashHotMisses"q"hashColdMisses"q} keyIDCache;
     {UIKeyAndScopeToValueCache="previousScope"I"previousKey"I"previousValue"^{UINibDecoderValue}} valueCache;

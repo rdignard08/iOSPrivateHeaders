@@ -1,7 +1,7 @@
 
 @interface _UIKeyframe : NSObject {
 
-    NSString _key;
+    NSString* _key;
     id _value;
     double _startTime;
     double _duration;

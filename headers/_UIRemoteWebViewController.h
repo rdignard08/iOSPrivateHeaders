@@ -1,7 +1,7 @@
 
 @interface _UIRemoteWebViewController : _UIRemoteViewController {
 
-    _UIWebViewController _webViewController;
+    _UIWebViewController* _webViewController;
 }
  + (id) exportedInterface;
  + (id) serviceViewControllerInterface;

@@ -1,9 +1,9 @@
 
 @interface CIFalseColor : CIFilter {
 
-    CIImage inputImage;
-    CIColor inputColor0;
-    CIColor inputColor1;
+    CIImage* inputImage;
+    CIColor* inputColor0;
+    CIColor* inputColor1;
 }
  + (id) customAttributes;
 

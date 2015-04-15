@@ -43,8 +43,8 @@
     int _AEDelta;
     int _fullsizeJpegSize;
     int _version;
-    NSString imageId;
-    NSMutableArray faceStatArray;
+    NSString* imageId;
+    NSMutableArray* faceStatArray;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} facesRoiRect;
 }
 @property (atomic, assign, readwrite) NSString* imageId;

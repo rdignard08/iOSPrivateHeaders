@@ -1,11 +1,11 @@
 
 @interface _CIScreenFilter : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputCenter;
-    NSNumber inputAngle;
-    NSNumber inputWidth;
-    NSNumber inputSharpness;
+    CIImage* inputImage;
+    CIVector* inputCenter;
+    NSNumber* inputAngle;
+    NSNumber* inputWidth;
+    NSNumber* inputSharpness;
 }
  + (id) customAttributes;
 

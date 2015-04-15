@@ -1,10 +1,10 @@
 
 @interface UIPrinterSetupPINViewController : UIViewController {
 
-    PKPrinter _printer;
-    UIPrinterSetupConnectingView _connectingView;
-    UIPrinterSetupPINView _PINView;
-    UIScrollView _scrollView;
+    PKPrinter* _printer;
+    UIPrinterSetupConnectingView* _connectingView;
+    UIPrinterSetupPINView* _PINView;
+    UIScrollView* _scrollView;
 }
 
  - (void) dealloc;

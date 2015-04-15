@@ -3,9 +3,9 @@
 
     BOOL _darkStyleOnLegacyApp;
     BOOL _embedded;
-    NSArray _activityGroupViewControllers;
-    NSArray _visibleActivityGroupViewControllers;
-    UILabel _placeholderLabel;
+    NSArray* _activityGroupViewControllers;
+    NSArray* _visibleActivityGroupViewControllers;
+    UILabel* _placeholderLabel;
 }
 
  - (void) dealloc;

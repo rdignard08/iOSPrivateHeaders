@@ -1,8 +1,8 @@
 
 @interface _UIFormSheetPresentationController : UIPresentationController {
 
-    UIDimmingView _dimmingView;
-    UIDropShadowView _dropShadowView;
+    UIDimmingView* _dimmingView;
+    UIDropShadowView* _dropShadowView;
     BOOL _layoutStateShouldAvoidKeyboard;
 }
 

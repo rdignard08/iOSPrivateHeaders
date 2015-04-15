@@ -11,10 +11,10 @@
     BOOL enablesReturnKeyAutomatically;
     BOOL secureTextEntry;
     ^{__CFCharacterSet=} textTrimmingSet;
-    UIColor insertionPointColor;
-    UIColor selectionBarColor;
-    UIColor selectionHighlightColor;
-    UIImage selectionDragDotImage;
+    UIColor* insertionPointColor;
+    UIColor* selectionBarColor;
+    UIColor* selectionHighlightColor;
+    UIImage* selectionDragDotImage;
     unsigned long long insertionPointWidth;
     int textLoupeVisibility;
     int textSelectionBehavior;
@@ -34,8 +34,8 @@
     BOOL useInterfaceLanguageForLocalization;
     BOOL deferBecomingResponder;
     BOOL enablesReturnKeyOnNonWhiteSpaceContent;
-    NSString autocorrectionContext;
-    NSString responseContext;
+    NSString* autocorrectionContext;
+    NSString* responseContext;
     BOOL disablePrediction;
 }
 @property (nonatomic, assign, readwrite) NSNumber* autocapitalizationType;

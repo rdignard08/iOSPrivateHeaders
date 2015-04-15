@@ -1,7 +1,7 @@
 
 @interface FBSWorkspaceSceneUpdateResponseEvent : FBSWorkspaceSceneEvent {
 
-    FBSWorkspaceSceneUpdateResponse _response;
+    FBSWorkspaceSceneUpdateResponse* _response;
 }
 
  - (void) dealloc;

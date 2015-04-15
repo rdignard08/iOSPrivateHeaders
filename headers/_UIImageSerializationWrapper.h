@@ -2,7 +2,7 @@
 @protocol NSCoding;
 @interface _UIImageSerializationWrapper : NSObject <NSCoding> {
 
-    UIImage _image;
+    UIImage* _image;
 }
 
  - (Class) classForCoder;

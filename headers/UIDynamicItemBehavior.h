@@ -4,8 +4,8 @@
     BOOL _useDefaultViewPropertiesApplier;
     BOOL _useCircularBoundingBox;
     {?="elasticityChanged"b1"frictionChanged"b1"densityChanged"b1"resistanceChanged"b1"angularResistanceChanged"b1"rotationEnabledChanged"b1"useDefaultViewPropertiesApplierChanged"b1} _stateFlags;
-    NSMapTable _cachedAngularVelocities;
-    NSMapTable _cachedLinearVelocities;
+    NSMapTable* _cachedAngularVelocities;
+    NSMapTable* _cachedLinearVelocities;
     BOOL _allowsRotation;
     double _elasticity;
     double _friction;

@@ -2,7 +2,7 @@
 @interface _NSXPCConnectionClassCache : NSObject {
 
     int _lock;
-    NSMutableSet _cache;
+    NSMutableSet* _cache;
 }
 
  - (void) clear;

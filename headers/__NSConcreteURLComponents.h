@@ -3,7 +3,7 @@
 @interface __NSConcreteURLComponents : NSURLComponents <NSCopying> {
 
     int _lock;
-    NSString _urlString;
+    NSString* _urlString;
     {_URIParseInfo="userinfoNameOffset"q"userinfoPasswordOffset"q"hostOffset"q"portOffset"q"pathOffset"q"paramOffset"q"queryOffset"q"fragmentOffset"q"endOffset"q"schemeExists"b1"authorityExists"b1"userinfoNameExists"b1"userinfoPasswordExists"b1"hostExists"b1"portExists"b1"paramExists"b1"queryExists"b1"fragmentExists"b1} _parseInfo;
     b1 _schemeComponentValid;
     b1 _userComponentValid;
@@ -13,14 +13,14 @@
     b1 _pathComponentValid;
     b1 _queryComponentValid;
     b1 _fragmentComponentValid;
-    NSString _schemeComponent;
-    NSString _userComponent;
-    NSString _passwordComponent;
-    NSString _hostComponent;
-    NSNumber _portComponent;
-    NSString _pathComponent;
-    NSString _queryComponent;
-    NSString _fragmentComponent;
+    NSString* _schemeComponent;
+    NSString* _userComponent;
+    NSString* _passwordComponent;
+    NSString* _hostComponent;
+    NSNumber* _portComponent;
+    NSString* _pathComponent;
+    NSString* _queryComponent;
+    NSString* _fragmentComponent;
 }
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
 

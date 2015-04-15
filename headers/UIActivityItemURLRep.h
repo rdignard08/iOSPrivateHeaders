@@ -1,8 +1,8 @@
 
 @interface UIActivityItemURLRep : NSObject {
 
-    NSURL _URL;
-    UIImage _thumbnail;
+    NSURL* _URL;
+    UIImage* _thumbnail;
     long long _attachmentURLType;
 }
 @property (nonatomic, retain, readwrite) NSURL* URL;

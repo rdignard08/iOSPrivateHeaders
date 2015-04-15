@@ -1,9 +1,9 @@
 
 @interface CIColorMonochrome : CIFilter {
 
-    CIImage inputImage;
-    CIColor inputColor;
-    NSNumber inputIntensity;
+    CIImage* inputImage;
+    CIColor* inputColor;
+    NSNumber* inputIntensity;
 }
  + (id) customAttributes;
 

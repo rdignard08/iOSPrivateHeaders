@@ -4,10 +4,10 @@
 
     (?="integerValue"q"fields"{?="uppercase"b1"autoshifted"b1"popupVariant"b1"multitap"b1"flick"b1"synthesizedByAcceptingCandidate"b1}) _flags;
     BOOL _backspace;
-    NSString _string;
-    <NSCopying><NSObject><NSSecureCoding> _object;
-    TIKeyboardTouchEvent _touchEvent;
-    TIKeyboardCandidate _acceptedCandidate;
+    NSString* _string;
+    <NSCopying><NSObject><NSSecureCoding>* _object;
+    TIKeyboardTouchEvent* _touchEvent;
+    TIKeyboardCandidate* _acceptedCandidate;
 }
 @property (nonatomic, copy, readwrite) NSString* string;
 @property (nonatomic, copy, readwrite) NSNumber* object;

@@ -5,8 +5,8 @@
     long long _sourceType;
     id _image;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _cropRect;
-    NSArray _mediaTypes;
-    NSMutableDictionary _properties;
+    NSArray* _mediaTypes;
+    NSMutableDictionary* _properties;
     int _previousStatusBarStyle;
     BOOL _previousStatusBarHidden;
     {?="visible"b1"isCleaningUp"b1"savingOptions"b3"didRevertStatusBar"b1} _imagePickerFlags;

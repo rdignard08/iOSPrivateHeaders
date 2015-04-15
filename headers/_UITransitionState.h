@@ -3,7 +3,7 @@
 
     long long _transitionDirection;
     @? _completion;
-    NSDate _beginDate;
+    NSDate* _beginDate;
 }
 @property (nonatomic, assign, readonly) NSNumber* transitionDirection;
 @property (nonatomic, assign, readonly) NSNumber* effectiveTransitionDirection;

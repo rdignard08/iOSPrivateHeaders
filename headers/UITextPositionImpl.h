@@ -1,7 +1,7 @@
 
 @interface UITextPositionImpl : UITextPosition {
 
-    WebVisiblePosition _webVisiblePosition;
+    WebVisiblePosition* _webVisiblePosition;
 }
  + (id) wrapWebVisiblePosition:(id)a;
 

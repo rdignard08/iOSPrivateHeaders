@@ -5,11 +5,11 @@
     ^{__CFDictionary=} objectIDsToObjects;
     ^{__CFArray=} values;
     ^{__CFSet=} encodedObjects;
-    NSMutableData data;
+    NSMutableData* data;
     ^{__CFDictionary=} replacements;
     unsigned int nextObjectID;
     {?="currentObjectID"I"nextAnonymousKey"I} recursiveState;
-    NSMutableSet objectsUniquedByValue;
+    NSMutableSet* objectsUniquedByValue;
     ^{__CFSet=} objectsReplacedWithNil;
     id delegate;
 }

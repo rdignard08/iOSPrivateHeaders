@@ -2,9 +2,9 @@
 @interface UIKeyboardEmojiCategory : NSObject {
 
     int _categoryType;
-    NSArray _emoji;
+    NSArray* _emoji;
     long long _lastVisibleFirstEmojiIndex;
-    NSString _displaySymbol;
+    NSString* _displaySymbol;
 }
 @property (atomic, assign, readwrite) NSNumber* categoryType;
 @property (atomic, retain, readwrite) NSArray* emoji;

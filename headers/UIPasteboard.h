@@ -1,7 +1,7 @@
 
 @interface UIPasteboard : NSObject {
 
-    NSString _name;
+    NSString* _name;
 }
 @property (nonatomic, copy, readwrite) NSString* string;
 @property (nonatomic, copy, readwrite) NSArray* strings;

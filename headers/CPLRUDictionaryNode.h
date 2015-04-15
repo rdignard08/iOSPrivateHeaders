@@ -3,8 +3,8 @@
 
     id _key;
     id _object;
-    CPLRUDictionaryNode next;
-    CPLRUDictionaryNode prev;
+    CPLRUDictionaryNode* next;
+    CPLRUDictionaryNode* prev;
 }
 @property (nonatomic, assign, readonly) NSNumber* key;
 @property (nonatomic, retain, readwrite) NSNumber* object;

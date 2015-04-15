@@ -1,12 +1,12 @@
 
 @interface CAStateControllerLayer : NSObject {
 
-    CALayer _layer;
-    CAState _currentState;
-    CAStateControllerUndo _undoStack;
-    NSMutableArray _transitions;
-    NSTimer _nextTimer;
-    CAState _nextState;
+    CALayer* _layer;
+    CAState* _currentState;
+    CAStateControllerUndo* _undoStack;
+    NSMutableArray* _transitions;
+    NSTimer* _nextTimer;
+    CAState* _nextState;
     float _nextSpeed;
 }
 @property (atomic, assign, readonly) CALayer* layer;

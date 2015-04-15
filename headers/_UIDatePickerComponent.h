@@ -2,7 +2,7 @@
 @interface _UIDatePickerComponent : NSObject {
 
     unsigned long long _equivalentUnit;
-    NSString _formatString;
+    NSString* _formatString;
     unsigned long long _calendarUnit;
     double _width;
     {_NSRange="location"Q"length"Q} _unitRange;

@@ -1,8 +1,8 @@
 
 @interface _UIFlowLayoutSection : NSObject {
 
-    NSMutableArray _items;
-    NSMutableArray _rows;
+    NSMutableArray* _items;
+    NSMutableArray* _rows;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _sectionMargins;
     double _verticalInterstice;
     double _horizontalInterstice;
@@ -10,13 +10,13 @@
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _footerFrame;
     double _headerDimension;
     double _footerDimension;
-    _UIFlowLayoutInfo _layoutInfo;
+    _UIFlowLayoutInfo* _layoutInfo;
     BOOL _isValid;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _validRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _rectToKeepValid;
     {_NSRange="location"Q"length"Q} _validItemRange;
-    NSMutableSet _invalidatedIndexPaths;
+    NSMutableSet* _invalidatedIndexPaths;
     {?="commonRowHorizontalAlignment"i"lastRowHorizontalAlignment"i"rowVerticalAlignment"i} _rowAlignmentOptions;
     BOOL _fixedItemSize;
     {CGSize="width"d"height"d} _itemSize;

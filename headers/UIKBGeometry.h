@@ -2,7 +2,7 @@
 @protocol NSCoding, NSCopying;
 @interface UIKBGeometry : NSObject <NSCoding, NSCopying> {
 
-    NSString m_name;
+    NSString* m_name;
     {?="amount"d"unit"i} m_x;
     {?="amount"d"unit"i} m_y;
     {?="amount"d"unit"i} m_w;

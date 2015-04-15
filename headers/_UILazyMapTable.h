@@ -2,9 +2,9 @@
 @interface _UILazyMapTable : NSObject {
 
     @? _mappingBlock;
-    NSMapTable _keysToClientTables;
-    NSMapTable _keysToValues;
-    NSMapTable _valuesToKeys;
+    NSMapTable* _keysToClientTables;
+    NSMapTable* _keysToValues;
+    NSMapTable* _valuesToKeys;
 }
 
  - (id) description;

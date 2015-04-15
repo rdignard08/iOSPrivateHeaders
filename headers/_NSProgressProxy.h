@@ -1,7 +1,7 @@
 
 @interface _NSProgressProxy : NSProgress {
 
-    <NSProgressPublisher> _forwarder;
+    <NSProgressPublisher>* _forwarder;
     BOOL _isOld;
     @? _unpublishingHandler;
 }

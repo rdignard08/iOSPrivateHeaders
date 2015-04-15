@@ -2,8 +2,8 @@
 @interface LSApplicationWorkspaceRemoteObserver : LSApplicationWorkspaceObserver {
 
     BOOL _observinglsd;
-    NSHashTable _observers;
-    NSObject<OS_dispatch_queue> _progressSubscriptionsQueue;
+    NSHashTable* _observers;
+    NSObject<OS_dispatch_queue>* _progressSubscriptionsQueue;
 }
 
  - (void) setObservinglsd:(BOOL)a;

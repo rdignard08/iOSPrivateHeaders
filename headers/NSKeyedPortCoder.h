@@ -3,16 +3,16 @@
 
     id sndPort;
     id rcvPort;
-    NSMutableDictionary root;
-    NSMutableArray containers;
-    NSMutableArray components;
+    NSMutableDictionary* root;
+    NSMutableArray* containers;
+    NSMutableArray* components;
     BOOL mainDataFinished;
     unsigned long long nextGenericIndex;
     unsigned long long nextOutOfLineGenericIndex;
     BOOL isBycopy;
     BOOL isByref;
     BOOL isValid;
-    NSMutableArray importedObjects;
+    NSMutableArray* importedObjects;
 }
 
  - (long long) versionForClassName:(id)a;

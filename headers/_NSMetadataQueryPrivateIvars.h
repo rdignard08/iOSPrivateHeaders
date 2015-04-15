@@ -1,7 +1,7 @@
 
 @interface _NSMetadataQueryPrivateIvars : NSObject {
 
-    _NSMetadataQueryResultArray resultArray;
+    _NSMetadataQueryResultArray* resultArray;
 }
 
 

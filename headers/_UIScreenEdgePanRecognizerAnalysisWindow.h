@@ -1,10 +1,10 @@
 
 @interface _UIScreenEdgePanRecognizerAnalysisWindow : UIWindow {
 
-    NSMutableArray _failureMessageLabels;
-    UIDelayedAction _messageFadeAction;
-    UIView _backgroundView;
-    _UIScreenEdgePanRecognizer _recognizer;
+    NSMutableArray* _failureMessageLabels;
+    UIDelayedAction* _messageFadeAction;
+    UIView* _backgroundView;
+    _UIScreenEdgePanRecognizer* _recognizer;
     long long _maximumVisibleOverlayItems;
 }
 

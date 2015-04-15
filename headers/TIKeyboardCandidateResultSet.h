@@ -3,19 +3,19 @@
 @interface TIKeyboardCandidateResultSet : NSObject <NSCopying, NSSecureCoding> {
 
     BOOL _excludedExtensionCandidates;
-    NSArray _candidates;
+    NSArray* _candidates;
     unsigned long long _initialSelectedIndex;
-    TIKeyboardCandidate _defaultCandidate;
-    NSArray _sortMethods;
-    NSDictionary _sortMethodGroups;
-    NSDictionary _indexTitles;
-    NSDictionary _showExtensionCandidates;
-    NSArray _initiallyHiddenCandidates;
+    TIKeyboardCandidate* _defaultCandidate;
+    NSArray* _sortMethods;
+    NSDictionary* _sortMethodGroups;
+    NSDictionary* _indexTitles;
+    NSDictionary* _showExtensionCandidates;
+    NSArray* _initiallyHiddenCandidates;
     unsigned long long _generatedCandidateCount;
     unsigned long long _batchCandidateLocation;
     unsigned long long _selectedHiddenCandidateIndex;
-    TIKeyboardIntermediateText _uncommittedText;
-    TIKeyboardCandidate _acceptedCandidate;
+    TIKeyboardIntermediateText* _uncommittedText;
+    TIKeyboardCandidate* _acceptedCandidate;
 }
 @property (nonatomic, retain, readwrite) NSArray* candidates;
 @property (nonatomic, assign, readwrite) NSNumber* initialSelectedIndex;

@@ -2,7 +2,7 @@
 @protocol NSURLConnectionDelegate;
 @interface WebQuickLookHandleAsDelegate : NSObject <NSURLConnectionDelegate> {
 
-    m_ptr m_connectionDelegate;
+    m_ptr* m_connectionDelegate;
 }
 
  - (id) .cxx_construct;

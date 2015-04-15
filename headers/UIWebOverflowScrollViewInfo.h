@@ -1,9 +1,9 @@
 
 @interface UIWebOverflowScrollViewInfo : NSObject {
 
-    UIWebOverflowScrollView _scrollView;
-    CALayer _scrollViewLayer;
-    UIView _oldSuperview;
+    UIWebOverflowScrollView* _scrollView;
+    CALayer* _scrollViewLayer;
+    UIView* _oldSuperview;
 }
 @property (nonatomic, retain, readwrite) UIWebOverflowScrollView* scrollView;
 @property (nonatomic, retain, readwrite) UIView* oldSuperview;

@@ -1,7 +1,7 @@
 
 @interface _UIViewServiceFencingControlProxy : _UIQueueingProxy {
 
-    _UIViewServiceFencingController _fencingController;
+    _UIViewServiceFencingController* _fencingController;
 }
  + (id) proxyWithTarget:(id)afencingController:(id)bexportedProtocol:(id)c;
 

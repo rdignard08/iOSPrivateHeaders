@@ -1,10 +1,10 @@
 
 @interface UICollectionViewUpdateGap : NSObject {
 
-    UICollectionViewUpdateItem _firstUpdateItem;
-    UICollectionViewUpdateItem _lastUpdateItem;
-    NSMutableArray _deleteItems;
-    NSMutableArray _insertItems;
+    UICollectionViewUpdateItem* _firstUpdateItem;
+    UICollectionViewUpdateItem* _lastUpdateItem;
+    NSMutableArray* _deleteItems;
+    NSMutableArray* _insertItems;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _beginningRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _endingRect;
 }

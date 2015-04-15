@@ -1,7 +1,7 @@
 
 @interface UIStatusBarActivityItemView : UIStatusBarItemView {
 
-    UIActivityIndicatorView _activityIndicator;
+    UIActivityIndicatorView* _activityIndicator;
     BOOL _slowActivity;
     BOOL _syncActivity;
     BOOL _newsstandActivity;

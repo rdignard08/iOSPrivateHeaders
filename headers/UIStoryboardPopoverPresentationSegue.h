@@ -2,10 +2,10 @@
 @protocol UIPopoverPresentationControllerDelegate;
 @interface UIStoryboardPopoverPresentationSegue : UIStoryboardSegue <UIPopoverPresentationControllerDelegate> {
 
-    NSArray _passthroughViews;
+    NSArray* _passthroughViews;
     unsigned long long _permittedArrowDirections;
-    UIBarButtonItem _anchorBarButtonItem;
-    UIView _anchorView;
+    UIBarButtonItem* _anchorBarButtonItem;
+    UIView* _anchorView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _anchorRect;
 }
 

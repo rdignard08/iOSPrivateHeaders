@@ -1,26 +1,26 @@
 
 @interface NSFileAccessClaim : NSObject {
 
-    NSObject<OS_xpc_object> _client;
-    NSString _claimID;
-    NSString _purposeIDOrNil;
+    NSObject<OS_xpc_object>* _client;
+    NSString* _claimID;
+    NSString* _purposeIDOrNil;
     BOOL _cameFromSuperarbiter;
     unsigned long long _blockageCount;
     BOOL _didWait;
     BOOL _isRevoked;
-    NSMutableArray _claimerBlockageReasons;
-    NSError _claimerError;
-    NSMutableOrderedSet _pendingClaims;
-    NSMutableSet _blockingClaims;
-    NSMutableSet _blockingReactorIDs;
-    NSMutableArray _providerCancellationProcedures;
-    NSMutableDictionary _reacquisitionProceduresByPresenterID;
-    NSMutableArray _revocationProcedures;
-    NSMutableArray _devaluationProcedures;
-    NSMutableArray _finishingProcedures;
+    NSMutableArray* _claimerBlockageReasons;
+    NSError* _claimerError;
+    NSMutableOrderedSet* _pendingClaims;
+    NSMutableSet* _blockingClaims;
+    NSMutableSet* _blockingReactorIDs;
+    NSMutableArray* _providerCancellationProcedures;
+    NSMutableDictionary* _reacquisitionProceduresByPresenterID;
+    NSMutableArray* _revocationProcedures;
+    NSMutableArray* _devaluationProcedures;
+    NSMutableArray* _finishingProcedures;
     id _claimerOrNil;
-    NSObject<OS_dispatch_semaphore> _claimerWaiterOrNull;
-    NSMutableArray _sandboxTokens;
+    NSObject<OS_dispatch_semaphore>* _claimerWaiterOrNull;
+    NSMutableArray* _sandboxTokens;
 }
  + (BOOL) canReadingItemAtLocation:(id)aoptions:(unsigned long long)bsafelyOverlapWritingItemAtLocation:(id)coptions:(unsigned long long)d;
  + (BOOL) canWritingItemAtLocation:(id)aoptions:(unsigned long long)bsafelyOverlapWritingItemAtLocation:(id)coptions:(unsigned long long)d;

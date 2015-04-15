@@ -1,9 +1,9 @@
 
 @interface BSXPCMessage : NSObject {
 
-    NSObject<OS_xpc_object> _message;
+    NSObject<OS_xpc_object>* _message;
     @? _replyHandler;
-    NSObject<OS_dispatch_queue> _replyQueue;
+    NSObject<OS_dispatch_queue>* _replyQueue;
 }
  + (void) sendMessageWithPacker:(@?)atoConnection:(id)b;
  + (void) sendMessageWithPacker:(@?)atoConnection:(id)breplyHandler:(@?)creplyQueue:(id)d;

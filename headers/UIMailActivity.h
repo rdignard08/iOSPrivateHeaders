@@ -6,8 +6,8 @@
     BOOL _sourceIsManaged;
     BOOL _hasAnyAccount;
     BOOL _hasFilteredAccount;
-    NSString _autosaveIdentifier;
-    MFMailComposeViewController _mailComposeViewController;
+    NSString* _autosaveIdentifier;
+    MFMailComposeViewController* _mailComposeViewController;
 }
  + (long long) activityCategory;
 

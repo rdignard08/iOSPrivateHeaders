@@ -9,19 +9,19 @@
     {CGSize="width"d"height"d} _headerReferenceSize;
     {CGSize="width"d"height"d} _footerReferenceSize;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _sectionInset;
-    _UIFlowLayoutInfo _data;
+    _UIFlowLayoutInfo* _data;
     {CGSize="width"d"height"d} _currentLayoutSize;
-    NSMutableDictionary _insertedItemsAttributesDict;
-    NSMutableDictionary _insertedSectionHeadersAttributesDict;
-    NSMutableDictionary _insertedSectionFootersAttributesDict;
-    NSMutableDictionary _deletedItemsAttributesDict;
-    NSMutableDictionary _deletedSectionHeadersAttributesDict;
-    NSMutableDictionary _deletedSectionFootersAttributesDict;
+    NSMutableDictionary* _insertedItemsAttributesDict;
+    NSMutableDictionary* _insertedSectionHeadersAttributesDict;
+    NSMutableDictionary* _insertedSectionFootersAttributesDict;
+    NSMutableDictionary* _deletedItemsAttributesDict;
+    NSMutableDictionary* _deletedSectionHeadersAttributesDict;
+    NSMutableDictionary* _deletedSectionFootersAttributesDict;
     long long _scrollDirection;
-    NSDictionary _rowAlignmentsOptionsDictionary;
+    NSDictionary* _rowAlignmentsOptionsDictionary;
     {CGPoint="x"d"y"d} _contentOffsetAdjustment;
     {CGSize="width"d"height"d} _contentSizeAdjustment;
-    NSMutableArray _indexPathsToValidate;
+    NSMutableArray* _indexPathsToValidate;
 }
  + (Class) invalidationContextClass;
 

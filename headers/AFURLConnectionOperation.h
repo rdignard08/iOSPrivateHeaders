@@ -3,22 +3,22 @@
 @interface AFURLConnectionOperation : NSOperation <NSURLConnectionDelegate, NSURLConnectionDataDelegate, NSSecureCoding, NSCopying> {
 
     BOOL _shouldUseCredentialStorage;
-    NSOutputStream _outputStream;
-    NSSet _runLoopModes;
-    NSURLRequest _request;
-    NSURLResponse _response;
-    NSError _error;
-    NSData _responseData;
-    NSString _responseString;
+    NSOutputStream* _outputStream;
+    NSSet* _runLoopModes;
+    NSURLRequest* _request;
+    NSURLResponse* _response;
+    NSError* _error;
+    NSData* _responseData;
+    NSString* _responseString;
     unsigned long long _responseStringEncoding;
-    NSURLCredential _credential;
-    AFSecurityPolicy _securityPolicy;
-    NSObject<OS_dispatch_queue> _completionQueue;
-    NSObject<OS_dispatch_group> _completionGroup;
-    NSDictionary _userInfo;
+    NSURLCredential* _credential;
+    AFSecurityPolicy* _securityPolicy;
+    NSObject<OS_dispatch_queue>* _completionQueue;
+    NSObject<OS_dispatch_group>* _completionGroup;
+    NSDictionary* _userInfo;
     long long _state;
-    NSRecursiveLock _lock;
-    NSURLConnection _connection;
+    NSRecursiveLock* _lock;
+    NSURLConnection* _connection;
     long long _totalBytesRead;
     unsigned long long _backgroundTaskIdentifier;
     @? _uploadProgress;

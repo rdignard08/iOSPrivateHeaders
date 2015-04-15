@@ -1,8 +1,8 @@
 
 @interface _UIFontExtraData : NSObject {
 
-    NSData _latin1MappingTable;
-    NSCharacterSet _coveredCharacterSet;
+    NSData* _latin1MappingTable;
+    NSCharacterSet* _coveredCharacterSet;
     double _ascender;
     double _descender;
     double _lineHeight;

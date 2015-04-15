@@ -1,7 +1,7 @@
 
 @interface NSHTTPCookie : NSObject {
 
-    NSHTTPCookieInternal _cookiePrivate;
+    NSHTTPCookieInternal* _cookiePrivate;
 }
 @property (atomic, copy, readonly) NSDictionary* properties;
 @property (atomic, assign, readonly) NSNumber* version;

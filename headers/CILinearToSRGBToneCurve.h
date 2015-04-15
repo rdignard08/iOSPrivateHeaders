@@ -1,7 +1,7 @@
 
 @interface CILinearToSRGBToneCurve : CIFilter {
 
-    CIImage inputImage;
+    CIImage* inputImage;
 }
  + (id) customAttributes;
 

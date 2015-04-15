@@ -1,9 +1,9 @@
 
 @interface UIScrubberTimeView : UIView {
 
-    NSString _time;
-    UIColor _timeColor;
-    UIColor _timeShadowColor;
+    NSString* _time;
+    UIColor* _timeColor;
+    UIColor* _timeShadowColor;
     b2 _align;
 }
 

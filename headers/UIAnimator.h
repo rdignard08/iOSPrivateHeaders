@@ -1,7 +1,7 @@
 
 @interface UIAnimator : NSObject {
 
-    NSMutableArray _animations;
+    NSMutableArray* _animations;
     double _lastUpdateTime;
     [3@] _heartbeat;
     [3i] _heartbeatClientCount;

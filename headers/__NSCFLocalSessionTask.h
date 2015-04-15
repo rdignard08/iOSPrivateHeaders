@@ -6,20 +6,20 @@
     BOOL _pendingResponseDisposition_didFinish;
     BOOL _duetAccountingIsDiscretionary;
     BOOL _didIssueDidFinish;
-    __NSCFURLSessionConnection _cfConn;
-    NSURL _uploadFile;
-    NSData _uploadData;
-    NSInputStream _uploadDataStream;
-    NSObject<OS_dispatch_data> _dataTaskData;
+    __NSCFURLSessionConnection* _cfConn;
+    NSURL* _uploadFile;
+    NSData* _uploadData;
+    NSInputStream* _uploadDataStream;
+    NSObject<OS_dispatch_data>* _dataTaskData;
     @? _dataTaskCompletion;
-    NSObject<OS_dispatch_data> _pendingResponseBytes;
-    __NSURLSessionLocal _localSession;
+    NSObject<OS_dispatch_data>* _pendingResponseBytes;
+    __NSURLSessionLocal* _localSession;
     unsigned long long _suspendCount;
     @? _async_initialization;
-    NSObject<OS_dispatch_source> _resourceTimeout;
-    NSString _duetAccountedBundleID;
+    NSObject<OS_dispatch_source>* _resourceTimeout;
+    NSString* _duetAccountedBundleID;
     ^{HTTPConnectionCacheKey=^^?^{__CFAllocator}iQ^{__CFString}ii^{__CFDictionary}Q^{__CFDictionary}^{NetworkProxy}^{__CFString}ii} _connKey;
-    NSURLSessionConfiguration __configuration;
+    NSURLSessionConfiguration* __configuration;
 }
 
  - (void) suspend;

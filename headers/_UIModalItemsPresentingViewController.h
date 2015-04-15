@@ -1,19 +1,19 @@
 
 @interface _UIModalItemsPresentingViewController : UIViewController {
 
-    NSMutableArray _items;
-    NSMutableArray _itemsViews;
-    NSMutableArray _occludedWindows;
-    UIView _backgroundView;
-    _UIModalItem _currentItem;
-    UIView _currentItemView;
-    UIView _dimmingView;
+    NSMutableArray* _items;
+    NSMutableArray* _itemsViews;
+    NSMutableArray* _occludedWindows;
+    UIView* _backgroundView;
+    _UIModalItem* _currentItem;
+    UIView* _currentItemView;
+    UIView* _dimmingView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _keyboardFrame;
     double _keyboardHeight;
     BOOL _isInTransition;
-    _UIModalItem _itemBeingPresented;
-    _UIModalItem _itemBeingDismissed;
-    UIWindow _rotationDelegate;
+    _UIModalItem* _itemBeingPresented;
+    _UIModalItem* _itemBeingDismissed;
+    UIWindow* _rotationDelegate;
     @? _itemsTransitionCompletion;
 }
 

@@ -2,17 +2,17 @@
 @protocol NSCopying, NSSecureCoding;
 @interface LSUserActivityInfo : NSObject <NSCopying, NSSecureCoding> {
 
-    NSUUID _uuid;
+    NSUUID* _uuid;
     unsigned long long _type;
-    NSDictionary _options;
+    NSDictionary* _options;
     unsigned long long _changeCount;
-    NSDate _activityDate;
-    NSString _title;
-    NSString _typeIdentifier;
-    NSURL _webpageURL;
-    NSData _streamsData;
-    NSData _activityPayload;
-    NSError _error;
+    NSDate* _activityDate;
+    NSString* _title;
+    NSString* _typeIdentifier;
+    NSURL* _webpageURL;
+    NSData* _streamsData;
+    NSData* _activityPayload;
+    NSError* _error;
 }
 @property (atomic, copy, readwrite) NSUUID* uuid;
 @property (atomic, assign, readwrite) NSNumber* type;

@@ -1,11 +1,11 @@
 
 @interface CIRadialGradient : CIFilter {
 
-    CIVector inputCenter;
-    NSNumber inputRadius0;
-    NSNumber inputRadius1;
-    CIColor inputColor0;
-    CIColor inputColor1;
+    CIVector* inputCenter;
+    NSNumber* inputRadius0;
+    NSNumber* inputRadius1;
+    CIColor* inputColor0;
+    CIColor* inputColor1;
 }
  + (id) customAttributes;
 

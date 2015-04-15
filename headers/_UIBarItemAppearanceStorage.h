@@ -1,7 +1,7 @@
 
 @interface _UIBarItemAppearanceStorage : NSObject {
 
-    NSMutableDictionary textAttributesForState;
+    NSMutableDictionary* textAttributesForState;
 }
 
  - (void) dealloc;

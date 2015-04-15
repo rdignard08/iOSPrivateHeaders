@@ -1,8 +1,8 @@
 
 @interface UIPickerTableViewWrapperCell : UIPickerTableViewCell {
 
-    UIView _wrappedView;
-    UIView _wrappedViewContainer;
+    UIView* _wrappedView;
+    UIView* _wrappedViewContainer;
     {CGSize="width"d"height"d} _wrappedViewSize;
 }
 

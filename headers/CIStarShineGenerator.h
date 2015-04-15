@@ -1,14 +1,14 @@
 
 @interface CIStarShineGenerator : CIFilter {
 
-    CIVector inputCenter;
-    CIColor inputColor;
-    NSNumber inputRadius;
-    NSNumber inputCrossScale;
-    NSNumber inputCrossAngle;
-    NSNumber inputCrossOpacity;
-    NSNumber inputCrossWidth;
-    NSNumber inputEpsilon;
+    CIVector* inputCenter;
+    CIColor* inputColor;
+    NSNumber* inputRadius;
+    NSNumber* inputCrossScale;
+    NSNumber* inputCrossAngle;
+    NSNumber* inputCrossOpacity;
+    NSNumber* inputCrossWidth;
+    NSNumber* inputEpsilon;
 }
  + (id) customAttributes;
 

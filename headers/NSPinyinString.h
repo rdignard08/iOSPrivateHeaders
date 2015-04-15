@@ -1,7 +1,7 @@
 
 @interface NSPinyinString : NSString {
 
-    NSString _string;
+    NSString* _string;
     unsigned long long _syllableCount;
     unsigned long long _score;
     unsigned long long _rangeCount;

@@ -1,10 +1,10 @@
 
 @interface BKSApplicationDataStoreRepositoryClient : BSBaseXPCClient {
 
-    NSMutableDictionary _prefetchedKeyCounts;
-    NSMutableDictionary _prefetchedKeyValues;
-    NSMutableDictionary _pendingChangesToPrefetchedKeys;
-    NSObject<OS_dispatch_queue> _prefetchedDataQueue;
+    NSMutableDictionary* _prefetchedKeyCounts;
+    NSMutableDictionary* _prefetchedKeyValues;
+    NSMutableDictionary* _pendingChangesToPrefetchedKeys;
+    NSObject<OS_dispatch_queue>* _prefetchedDataQueue;
 }
 
  - (void) dealloc;

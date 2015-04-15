@@ -1,12 +1,12 @@
 
 @interface _UIModalItemAlertContentView : _UIModalItemContentView {
 
-    _UIModalItemTextFiledBGView _textFieldBGView;
+    _UIModalItemTextFiledBGView* _textFieldBGView;
     BOOL _alertViewIsSetup;
-    UITableView _otherTableView;
-    UIView _2ButtonsSeparators;
-    UIView _tableViewTopSeparator;
-    UIScrollView _labelsScrollView;
+    UITableView* _otherTableView;
+    UIView* _2ButtonsSeparators;
+    UIView* _tableViewTopSeparator;
+    UIScrollView* _labelsScrollView;
     BOOL _itemWantsVerticalButtons;
     BOOL _itemNeedsTwoTableViews;
 }

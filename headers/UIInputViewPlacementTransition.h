@@ -3,13 +3,13 @@
 
     BOOL cancelled;
     int animationState;
-    UIInputViewSetPlacement fromPlacement;
-    UIInputViewSetPlacement toPlacement;
-    UIInputViewAnimationStyle animationStyle;
-    UIInputViewSetNotificationInfo notificationInfo;
+    UIInputViewSetPlacement* fromPlacement;
+    UIInputViewSetPlacement* toPlacement;
+    UIInputViewAnimationStyle* animationStyle;
+    UIInputViewSetNotificationInfo* notificationInfo;
     unsigned long long notifications;
-    <NSObject> animationContext;
-    <UIInputViewAnimationController> animationController;
+    <NSObject>* animationContext;
+    <UIInputViewAnimationController>* animationController;
 }
 @property (nonatomic, retain, readwrite) UIInputViewSetPlacement* fromPlacement;
 @property (nonatomic, retain, readwrite) UIInputViewSetPlacement* toPlacement;

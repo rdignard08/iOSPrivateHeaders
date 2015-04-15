@@ -2,10 +2,10 @@
 @protocol UITextDocumentProxy;
 @interface _UITextDocumentInterface : UIInputViewControllerInterface <UITextDocumentProxy> {
 
-    <_UITextDocumentInterfaceDelegate> _delegate;
-    _UIInputViewControllerState _controllerState;
-    _UIInputViewControllerOutput _controllerOutput;
-    TIKeyboardOutput _keyboardOutput;
+    <_UITextDocumentInterfaceDelegate>* _delegate;
+    _UIInputViewControllerState* _controllerState;
+    _UIInputViewControllerOutput* _controllerOutput;
+    TIKeyboardOutput* _keyboardOutput;
 }
 
  - (void) dealloc;

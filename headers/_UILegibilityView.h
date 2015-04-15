@@ -2,14 +2,14 @@
 @interface _UILegibilityView : UIView {
 
     BOOL _hidesImage;
-    _UILegibilitySettings _settings;
-    UIImage _image;
-    UIImage _shadowImage;
+    _UILegibilitySettings* _settings;
+    UIImage* _image;
+    UIImage* _shadowImage;
     double _strength;
-    UIImageView _imageView;
-    UIImageView _shadowImageView;
-    CAFilter _imageColorFilter;
-    CAFilter _shadowImageColorFilter;
+    UIImageView* _imageView;
+    UIImageView* _shadowImageView;
+    CAFilter* _imageColorFilter;
+    CAFilter* _shadowImageColorFilter;
     long long _options;
 }
 

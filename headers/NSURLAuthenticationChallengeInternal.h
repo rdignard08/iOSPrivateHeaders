@@ -1,12 +1,12 @@
 
 @interface NSURLAuthenticationChallengeInternal : NSObject {
 
-    NSURLProtectionSpace space;
-    NSURLCredential proposedCredential;
+    NSURLProtectionSpace* space;
+    NSURLCredential* proposedCredential;
     long long previousFailureCount;
-    NSURLResponse failureResponse;
-    NSError error;
-    <NSURLAuthenticationChallengeSender> sender;
+    NSURLResponse* failureResponse;
+    NSError* error;
+    <NSURLAuthenticationChallengeSender>* sender;
 }
 
  - (void) dealloc;

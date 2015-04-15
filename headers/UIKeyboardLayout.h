@@ -2,18 +2,18 @@
 @protocol _UIScreenEdgePanRecognizerDelegate;
 @interface UIKeyboardLayout : UIView <_UIScreenEdgePanRecognizerDelegate> {
 
-    UITextInputTraits _inputTraits;
-    UIKBScreenTraits _screenTraits;
-    UIKBTextEditingTraits _textEditingTraits;
-    NSMutableArray _uncommittedTouches;
-    UITouch _activeTouch;
-    UITouch _shiftKeyTouch;
+    UITextInputTraits* _inputTraits;
+    UIKBScreenTraits* _screenTraits;
+    UIKBTextEditingTraits* _textEditingTraits;
+    NSMutableArray* _uncommittedTouches;
+    UITouch* _activeTouch;
+    UITouch* _shiftKeyTouch;
     long long _cursorLocation;
     BOOL _disableInteraction;
-    UIKeyboardTaskQueue _taskQueue;
+    UIKeyboardTaskQueue* _taskQueue;
     BOOL hideKeysUnderIndicator;
     BOOL _isExecutingDeferredTouchTasks;
-    _UIScreenEdgePanRecognizer _screenEdgePanRecognizer;
+    _UIScreenEdgePanRecognizer* _screenEdgePanRecognizer;
     @? _deferredTouchDownTask;
     @? _deferredTouchMovedTask;
     double lastTouchUpTime;

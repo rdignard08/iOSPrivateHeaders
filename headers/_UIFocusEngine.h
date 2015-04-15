@@ -2,32 +2,32 @@
 @protocol UIGestureRecognizerDelegate;
 @interface _UIFocusEngine : NSObject <UIGestureRecognizerDelegate> {
 
-    UIPanGestureRecognizer _panGestureRecognizer;
-    _UIFocusEngineTapGestureRecognizer _tapGestureRecognizer;
+    UIPanGestureRecognizer* _panGestureRecognizer;
+    _UIFocusEngineTapGestureRecognizer* _tapGestureRecognizer;
     {CGPoint="x"d"y"d} _movementOriginPoint;
     {CGPoint="x"d"y"d} _originalTouchPointNormalized;
     {CGPoint="x"d"y"d} _lastTouchPointNormalized;
     {CGPoint="x"d"y"d} _momentumNormalized;
-    _UIDynamicAnimationGroup _touchMomentumAnimationGroup;
-    _UIFocusEngineTargetedDynamicAnimation _scrollAnimationAxisX;
-    _UIFocusEngineTargetedDynamicAnimation _scrollAnimationAxisY;
-    _UIDynamicAnimationGroup _scrollAnimationGroup;
-    NSArray _remoteGestures;
-    _UIFocusEngineTargetedDynamicAnimation _focusDirectionRollbackAnimation;
+    _UIDynamicAnimationGroup* _touchMomentumAnimationGroup;
+    _UIFocusEngineTargetedDynamicAnimation* _scrollAnimationAxisX;
+    _UIFocusEngineTargetedDynamicAnimation* _scrollAnimationAxisY;
+    _UIDynamicAnimationGroup* _scrollAnimationGroup;
+    NSArray* _remoteGestures;
+    _UIFocusEngineTargetedDynamicAnimation* _focusDirectionRollbackAnimation;
     unsigned long long _currentGestureID;
     unsigned int _tickSoundID;
-    UIScrollView _lastScrolledScroll;
+    UIScrollView* _lastScrolledScroll;
     double _lastEdgeScrollEdgeValue;
-    NSUserDefaults _userDefaults;
-    _UIFocusTouchDebugView _touchIndicatorView;
-    NSMapTable _activeScrollViewBounds;
+    NSUserDefaults* _userDefaults;
+    _UIFocusTouchDebugView* _touchIndicatorView;
+    NSMapTable* _activeScrollViewBounds;
     {?="isSettingFocusedView"b1"isTrackingTouch"b1"isContinuingTouchWithMomentum"b1"isAnimatingFocusDirectionRollback"b1"shouldShowDebugOverlays"b1} _flags;
     BOOL _enabled;
     BOOL _shouldShowDebugOverlays;
     BOOL _sendsFocusDirection;
     BOOL _playsSoundOnFocusChange;
-    UIWindow _targetWindow;
-    UIMoveEvent _moveEvent;
+    UIWindow* _targetWindow;
+    UIMoveEvent* _moveEvent;
 }
 @property (nonatomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (nonatomic, assign, readwrite) UIWindow* targetWindow;

@@ -1,7 +1,7 @@
 
 @interface _UIFullscreenPresentationController : _UICurrentContextPresentationController {
 
-    UIView _counterRotatedView;
+    UIView* _counterRotatedView;
     double _counterRotatedAngle;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _counterRotatedOriginalBounds;
     long long _originalOrientation;

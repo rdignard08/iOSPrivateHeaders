@@ -2,7 +2,7 @@
 @protocol UIKBRenderEffect;
 @interface UIKBShadowEffect : NSObject <UIKBRenderEffect> {
 
-    NSString _colorName;
+    NSString* _colorName;
     double _weight;
     {CGSize="width"d"height"d} _offset;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _insets;

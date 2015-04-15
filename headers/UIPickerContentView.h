@@ -1,8 +1,8 @@
 
 @interface UIPickerContentView : UIView {
 
-    UILabel _titleLabel;
-    UIImageView _checkView;
+    UILabel* _titleLabel;
+    UIImageView* _checkView;
     {?="checked"b1"highlighted"b1} _pickerContentViewFlags;
 }
  + (double) _checkmarkOffset;

@@ -5,12 +5,12 @@
     BOOL _reducedWidth;
     BOOL _showHiddenCandidatesOnly;
     int _position;
-    TIKeyboardCandidateResultSet _candidateSet;
-    NSString _inlineText;
+    TIKeyboardCandidateResultSet* _candidateSet;
+    NSString* _inlineText;
     double _maxX;
-    UIKeyboardCandidateGridCollectionViewController _collectionViewController;
-    <UIKeyboardCandidateListDelegate> _candidateListDelegate;
-    UIKeyboardCandidateSortControl _sortSelectionBar;
+    UIKeyboardCandidateGridCollectionViewController* _collectionViewController;
+    <UIKeyboardCandidateListDelegate>* _candidateListDelegate;
+    UIKeyboardCandidateSortControl* _sortSelectionBar;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _inlineRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _previousCollapsedFrame;
 }

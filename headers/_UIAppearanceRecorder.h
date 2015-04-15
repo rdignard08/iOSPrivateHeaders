@@ -1,11 +1,11 @@
 
 @interface _UIAppearanceRecorder : NSObject {
 
-    NSString _classNameToRecord;
+    NSString* _classNameToRecord;
     Class _superclassToRecord;
-    NSArray _containerClassNames;
-    NSMutableArray _customizations;
-    NSArray _unarchivedCustomizations;
+    NSArray* _containerClassNames;
+    NSMutableArray* _customizations;
+    NSArray* _unarchivedCustomizations;
 }
 @property (nonatomic, assign, readonly) NSData* _serializedRepresentation;
 @property (nonatomic, copy, readwrite, setter=_setClassNameToRecord:) NSString* _classNameToRecord;

@@ -1,11 +1,11 @@
 
 @interface _UIParallaxMotionEffect : UIMotionEffect {
 
-    UIMotionEffectGroup _group;
+    UIMotionEffectGroup* _group;
     {UIOffset="horizontal"d"vertical"d} _slideMagnitude;
-    UIInterpolatingMotionEffect _horizontalSlideEffect;
-    UIInterpolatingMotionEffect _verticalSlideEffect;
-    _UITiltMotionEffect _tiltEffect;
+    UIInterpolatingMotionEffect* _horizontalSlideEffect;
+    UIInterpolatingMotionEffect* _verticalSlideEffect;
+    _UITiltMotionEffect* _tiltEffect;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;

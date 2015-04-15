@@ -2,29 +2,29 @@
 @protocol UIAlertControllerContaining, _UIAlertControllerTextFieldViewControllerContaining, UIAlertControllerVisualStyleProviding;
 @interface UIAlertController : UIViewController <UIAlertControllerContaining, _UIAlertControllerTextFieldViewControllerContaining, UIAlertControllerVisualStyleProviding> {
 
-    NSString _message;
-    NSAttributedString _attributedTitle;
-    NSAttributedString _attributedMessage;
-    NSAttributedString _attributedDetailMessage;
-    NSMutableArray _actions;
-    NSMutableArray _actionDelimiterIndices;
-    NSSet _linkedAlertControllers;
-    UIAlertAction _cancelAction;
-    UIAlertAction _defaultAction;
+    NSString* _message;
+    NSAttributedString* _attributedTitle;
+    NSAttributedString* _attributedMessage;
+    NSAttributedString* _attributedDetailMessage;
+    NSMutableArray* _actions;
+    NSMutableArray* _actionDelimiterIndices;
+    NSSet* _linkedAlertControllers;
+    UIAlertAction* _cancelAction;
+    UIAlertAction* _defaultAction;
     long long _resolvedStyle;
     long long _preferredStyle;
-    NSObject<UIAlertControllerVisualStyleProviding> _styleProvider;
-    UIViewController _contentViewController;
-    _UIAlertControllerTextFieldViewController _textFieldViewController;
+    NSObject<UIAlertControllerVisualStyleProviding>* _styleProvider;
+    UIViewController* _contentViewController;
+    _UIAlertControllerTextFieldViewController* _textFieldViewController;
     BOOL _textFieldsHidden;
-    UITapGestureRecognizer _backButtonDismissGestureRecognizer;
+    UITapGestureRecognizer* _backButtonDismissGestureRecognizer;
     id _ownedTransitioningDelegate;
     BOOL _shouldEnsureContentControllerViewIsVisibleOnAppearance;
     BOOL _hidden;
     BOOL __shouldAllowNilParameters;
     BOOL _hasPreservedInputViews;
     BOOL __shouldFlipFrameForShimDismissal;
-    UIPopoverController __compatibilityPopoverController;
+    UIPopoverController* __compatibilityPopoverController;
 }
  + (BOOL) _shouldSendLegacyMethodsFromViewWillTransitionToSize;
  + (id) alertControllerWithTitle:(id)amessage:(id)bpreferredStyle:(long long)c;

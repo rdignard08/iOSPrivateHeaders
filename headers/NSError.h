@@ -4,8 +4,8 @@
 
     ^v _reserved;
     long long _code;
-    NSString _domain;
-    NSDictionary _userInfo;
+    NSString* _domain;
+    NSDictionary* _userInfo;
 }
 @property (nonatomic, retain, readwrite) NSNumber* extraData;
 @property (atomic, copy, readonly) NSString* domain;

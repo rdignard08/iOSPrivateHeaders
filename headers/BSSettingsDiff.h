@@ -2,10 +2,10 @@
 @protocol NSCopying, BSXPCCoding;
 @interface BSSettingsDiff : NSObject <NSCopying, BSXPCCoding> {
 
-    <BSSettingDescriptionProvider> _descriptionProvider;
-    BSMutableSettings _changes;
-    NSHashTable _flagRemovals;
-    NSHashTable _objectRemovals;
+    <BSSettingDescriptionProvider>* _descriptionProvider;
+    BSMutableSettings* _changes;
+    NSHashTable* _flagRemovals;
+    NSHashTable* _objectRemovals;
 }
  + (id) diffFromSettings:(id)atoSettings:(id)b;
  + (id) _newHashTableWithInitialCapacity:(unsigned long long)a;

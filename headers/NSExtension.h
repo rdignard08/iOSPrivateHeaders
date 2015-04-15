@@ -3,24 +3,24 @@
 @interface NSExtension : NSObject <_NSExtensionContextHosting> {
 
     BOOL _observingHostAppStateChanges;
-    NSString _identifier;
-    NSString _version;
-    NSDictionary _attributes;
-    NSDictionary _infoDictionary;
-    NSString _extensionPointIdentifier;
+    NSString* _identifier;
+    NSString* _version;
+    NSDictionary* _attributes;
+    NSDictionary* _infoDictionary;
+    NSString* _extensionPointIdentifier;
     @? _requestCompletionBlock;
     @? _requestCancellationBlock;
     @? _requestInterruptionBlock;
-    <PKPlugIn> __plugIn;
-    NSBundle __extensionBundle;
+    <PKPlugIn>* __plugIn;
+    NSBundle* __extensionBundle;
     @? __requestPostCompletionBlock;
     @? __requestPostCompletionBlockWithItems;
-    NSMutableDictionary __extensionExpirationIdentifiers;
-    NSMutableDictionary __extensionServiceConnections;
-    NSMutableDictionary __extensionContexts;
-    BKSProcessAssertion __extensionProcessAssertion;
+    NSMutableDictionary* __extensionExpirationIdentifiers;
+    NSMutableDictionary* __extensionServiceConnections;
+    NSMutableDictionary* __extensionContexts;
+    BKSProcessAssertion* __extensionProcessAssertion;
     long long __assertionRefCount;
-    NSObject<OS_dispatch_queue> __safePluginQueue;
+    NSObject<OS_dispatch_queue>* __safePluginQueue;
 }
 @property (nonatomic, assign, readonly, getter=_isMarkedNew) NSNumber* _markedNew;
 @property (nonatomic, copy, readwrite) NSString* identifier;

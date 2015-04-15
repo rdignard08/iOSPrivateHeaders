@@ -6,7 +6,7 @@
     {CGPoint="x"d"y"d} topRight;
     {CGPoint="x"d"y"d} bottomLeft;
     {CGPoint="x"d"y"d} bottomRight;
-    NSString messageString;
+    NSString* messageString;
 }
  + (id) barcodeFeatureWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  + (id) barcodeFeaturesWithBoundsArray:(r^{CGRect={CGPoint=dd}{CGSize=dd}})acount:(unsigned long long)b;

@@ -2,7 +2,7 @@
 @protocol NSCopying, NSCoding;
 @interface NSRegularExpression : NSObject <NSCopying, NSCoding> {
 
-    NSString _pattern;
+    NSString* _pattern;
     unsigned long long _options;
     ^v _internal;
     id _reserved1;

@@ -1,7 +1,7 @@
 
 @interface WebScriptWorldPrivate : NSObject {
 
-    m_ptr world;
+    m_ptr* world;
 }
 
  - (id) .cxx_construct;

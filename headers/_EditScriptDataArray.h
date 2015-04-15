@@ -2,8 +2,8 @@
 @protocol _EditScriptData;
 @interface _EditScriptDataArray : NSObject <_EditScriptData> {
 
-    NSArray _data;
-    NSString _cachedStringValue;
+    NSArray* _data;
+    NSString* _cachedStringValue;
 }
 @property (nonatomic, retain, readwrite) NSArray* data;
 @property (nonatomic, retain, readwrite) NSString* cachedStringValue;

@@ -1,7 +1,7 @@
 
 @interface UIKeyboardSplitControlMenu : UIKeyboardMenuView {
 
-    NSMutableArray m_menuOptions;
+    NSMutableArray* m_menuOptions;
     {CGSize="width"d"height"d} m_preferredSize;
     @? _finishSplitTransitionBlock;
 }

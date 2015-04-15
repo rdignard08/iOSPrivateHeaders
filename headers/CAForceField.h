@@ -2,9 +2,9 @@
 @protocol NSCopying, NSMutableCopying, NSCoding;
 @interface CAForceField : NSObject <NSCopying, NSMutableCopying, NSCoding> {
 
-    NSString _name;
-    CALayer _layer;
-    CAValueFunction _function;
+    NSString* _name;
+    CALayer* _layer;
+    CAValueFunction* _function;
     BOOL _enabled;
     ^v _priv;
 }

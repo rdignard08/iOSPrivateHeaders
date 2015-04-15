@@ -1,8 +1,8 @@
 
 @interface WebCoreSharedBufferData : NSData {
 
-    m_ptr sharedBufferDataBuffer;
-    m_ptr sharedBuffer;
+    m_ptr* sharedBufferDataBuffer;
+    m_ptr* sharedBuffer;
 }
  + (void) initialize;
 

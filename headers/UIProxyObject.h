@@ -2,7 +2,7 @@
 @protocol NSCoding;
 @interface UIProxyObject : NSObject <NSCoding> {
 
-    NSString proxiedObjectIdentifier;
+    NSString* proxiedObjectIdentifier;
 }
  + (void) addMappingFromIdentifier:(id)atoObject:(id)bforCoder:(id)c;
  + (void) addMappings:(id)aforCoder:(id)b;

@@ -1,15 +1,15 @@
 
 @interface _UIQueuingScrollView : UIScrollView {
 
-    <_UIQueuingScrollViewDelegate> _qDelegate;
-    <_UIQueuingScrollViewDataSource> _qDataSource;
+    <_UIQueuingScrollViewDelegate>* _qDelegate;
+    <_UIQueuingScrollViewDataSource>* _qDataSource;
     long long _navigationOrientation;
-    NSArray _views;
-    NSArray _wrapperViews;
-    UIView _pendingVisibleView;
+    NSArray* _views;
+    NSArray* _wrapperViews;
+    UIView* _pendingVisibleView;
     double _pageSpacing;
-    NSMutableArray _viewStateQueue;
-    NSMutableArray _completionStateQueue;
+    NSMutableArray* _viewStateQueue;
+    NSMutableArray* _completionStateQueue;
     BOOL _manualScrollInProgress;
     {?="delegateInterestedInPendingScrolls"b1"delegateInterestedInCommittedScrolls"b1"delegateInterestedInCompletedScrolls"b1"delegateInterestedInBailedOutScrolls"b1"delegateInterestedFinishedScrolling"b1"delegateCanVetoSubviewLayout"b1"dataSourceSuppliesBeforeView"b1"dataSourceSuppliesAfterView"b1"dataSourceInterestedInFlushedViews"b1} _delegateFlags;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _disabledScrollingRegion;

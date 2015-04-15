@@ -1,7 +1,7 @@
 
 @interface NSSimpleAttributeDictionaryEnumerator : NSEnumerator {
 
-    NSSimpleAttributeDictionary dictionary;
+    NSSimpleAttributeDictionary* dictionary;
     unsigned long long nextElement;
 }
 

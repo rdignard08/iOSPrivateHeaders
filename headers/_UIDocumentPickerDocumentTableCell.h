@@ -1,16 +1,16 @@
 
 @interface _UIDocumentPickerDocumentTableCell : UITableViewCell {
 
-    _UIDocumentPickerDocumentTableViewController _weak_tableView;
+    _UIDocumentPickerDocumentTableViewController* _weak_tableView;
     BOOL _isContainer;
-    UIImageView _iconView;
-    UILabel _titleLabel;
-    UILabel _subtitleLabel;
-    _UIDocumentPickerContainerItem _item;
-    SKUIItemOfferButton _cloudButton;
-    NSTimer _progressTimer;
+    UIImageView* _iconView;
+    UILabel* _titleLabel;
+    UILabel* _subtitleLabel;
+    _UIDocumentPickerContainerItem* _item;
+    SKUIItemOfferButton* _cloudButton;
+    NSTimer* _progressTimer;
     id _progressSubscriber;
-    UIView _iconCenteringView;
+    UIView* _iconCenteringView;
 }
  + ({CGSize=dd}) thumbnailSize;
  + (double) estimatedHeight;

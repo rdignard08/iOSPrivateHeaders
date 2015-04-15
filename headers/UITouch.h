@@ -8,11 +8,11 @@
     long long _savedPhase;
     unsigned long long _tapCount;
     long long _edgeType;
-    UIWindow _window;
-    UIView _view;
-    UIView _warpedIntoView;
-    NSMutableArray _gestureRecognizers;
-    NSMutableArray _forwardingRecord;
+    UIWindow* _window;
+    UIView* _view;
+    UIView* _warpedIntoView;
+    NSMutableArray* _gestureRecognizers;
+    NSMutableArray* _forwardingRecord;
     {CGPoint="x"d"y"d} _locationInWindow;
     {CGPoint="x"d"y"d} _previousLocationInWindow;
     double _previousPressure;
@@ -23,8 +23,8 @@
     double _pressure;
     {?="_firstTouchForView"b1"_isTap"b1"_isDelayed"b1"_sentTouchesEnded"b1"_abandonForwardingRecord"b1} _touchFlags;
     BOOL _eaten;
-    <_UITouchPhaseChangeDelegate> __phaseChangeDelegate;
-    UIWindow __windowServerHitTestWindow;
+    <_UITouchPhaseChangeDelegate>* __phaseChangeDelegate;
+    UIWindow* __windowServerHitTestWindow;
     {CGSize="width"d"height"d} _displacement;
 }
 @property (nonatomic, assign, readwrite) NSNumber* timestamp;

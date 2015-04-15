@@ -2,10 +2,10 @@
 @protocol _UIKeyboardArbitrationClient, _UIRemoteKeyboardControllerDelegate;
 @interface _UIRemoteKeyboards : NSObject <_UIKeyboardArbitrationClient, _UIRemoteKeyboardControllerDelegate> {
 
-    NSHashTable _windowControllers;
+    NSHashTable* _windowControllers;
     BOOL _currentKeyboard;
-    NSXPCConnection _connection;
-    _UIKeyboardChangedInformation _currentState;
+    NSXPCConnection* _connection;
+    _UIKeyboardChangedInformation* _currentState;
 }
 @property (atomic, assign, readonly) NSNumber* keyboardVisible;
 @property (atomic, assign, readonly) UIWindow* keyboardWindow;

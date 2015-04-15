@@ -1,7 +1,7 @@
 
 @interface UIStateRestorationKeyedUnarchiver : NSKeyedUnarchiver {
 
-    NSDictionary _defaultValues;
+    NSDictionary* _defaultValues;
 }
 
  - (void) dealloc;

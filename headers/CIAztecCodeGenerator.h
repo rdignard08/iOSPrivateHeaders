@@ -1,9 +1,9 @@
 
 @interface CIAztecCodeGenerator : CICodeGenerator {
 
-    NSNumber inputCorrectionLevel;
-    NSNumber inputLayers;
-    NSNumber inputCompactStyle;
+    NSNumber* inputCorrectionLevel;
+    NSNumber* inputLayers;
+    NSNumber* inputCompactStyle;
 }
  + (id) customAttributes;
 

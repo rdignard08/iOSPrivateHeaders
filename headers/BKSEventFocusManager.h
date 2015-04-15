@@ -3,8 +3,8 @@
 
     BOOL _needsFlush;
     BOOL _systemAppControlsFocusOnMainDisplay;
-    NSMutableSet _currentState;
-    NSMutableDictionary _pendingStatesByPriority;
+    NSMutableSet* _currentState;
+    NSMutableDictionary* _pendingStatesByPriority;
 }
 @property (nonatomic, assign, readonly) NSMutableSet* currentState;
 @property (nonatomic, assign, readonly) NSMutableDictionary* pendingStatesByPriority;

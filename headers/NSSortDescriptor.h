@@ -3,7 +3,7 @@
 @interface NSSortDescriptor : NSObject <NSSecureCoding, NSCopying> {
 
     unsigned long long _sortDescriptorFlags;
-    NSString _key;
+    NSString* _key;
     SEL _selector;
     id _selectorOrBlock;
 }

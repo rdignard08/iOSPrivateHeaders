@@ -1,7 +1,7 @@
 
 @interface UIKBKeyInterval : NSObject {
 
-    UIKBTree _key;
+    UIKBTree* _key;
     double _interval;
 }
 @property (nonatomic, retain, readwrite) UIKBTree* key;

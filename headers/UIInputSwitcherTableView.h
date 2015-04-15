@@ -1,7 +1,7 @@
 
 @interface UIInputSwitcherTableView : UITableView {
 
-    UIKeyboardMenuView _menu;
+    UIKeyboardMenuView* _menu;
 }
 
  - (void) selectRowAtIndexPath:(id)aanimated:(BOOL)bscrollPosition:(long long)c;

@@ -1,8 +1,8 @@
 
 @interface CAStateControllerAnimation : NSObject {
 
-    CALayer _layer;
-    NSString _key;
+    CALayer* _layer;
+    NSString* _key;
 }
 @property (nonatomic, assign, readonly) CALayer* layer;
 @property (nonatomic, assign, readonly) NSString* key;

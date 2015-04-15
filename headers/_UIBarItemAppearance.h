@@ -1,7 +1,7 @@
 
 @interface _UIBarItemAppearance : _UIAppearance {
 
-    NSArray _blindViewAppearances;
+    NSArray* _blindViewAppearances;
 }
  + (id) _appearanceForClass:(Class)awithContainerList:(id)b;
  + (id) _rootAppearancesNode;

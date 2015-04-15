@@ -12,13 +12,13 @@
     unsigned long long _numRows;
     unsigned long long _arrayLength;
     ^f _rowHeights;
-    NSMutableIndexSet _forcedNegativeRows;
+    NSMutableIndexSet* _forcedNegativeRows;
     ^d _rowOffsets;
     BOOL _estimatesRowHeights;
     double _sectionHeight;
     long long _headerAlignment;
     long long _footerAlignment;
-    UITableViewRowData _rowData;
+    UITableViewRowData* _rowData;
     BOOL _sectionOffsetValid;
     double _sectionOffset;
     long long _sectionRowOffset;

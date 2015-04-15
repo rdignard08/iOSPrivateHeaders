@@ -1,10 +1,10 @@
 
 @interface WebBasePluginPackage : NSObject {
 
-    NSMutableSet pluginDatabases;
+    NSMutableSet* pluginDatabases;
     {String="m_impl"{RefPtr<WTF::StringImpl>="m_ptr"^{StringImpl}}} path;
     {PluginInfo="name"{String="m_impl"{RefPtr<WTF::StringImpl>="m_ptr"^{StringImpl}}}"file"{String="m_impl"{RefPtr<WTF::StringImpl>="m_ptr"^{StringImpl}}}"desc"{String="m_impl"{RefPtr<WTF::StringImpl>="m_ptr"^{StringImpl}}}"mimes"{Vector<WebCore::MimeClassInfo, 0, WTF::CrashOnOverflow>="m_buffer"^{MimeClassInfo}"m_capacity"I"m_size"I}"isApplicationPlugin"B} pluginInfo;
-    m_ptr cfBundle;
+    m_ptr* cfBundle;
     ^? BP_CreatePluginMIMETypesPreferences;
 }
  + (void) initialize;

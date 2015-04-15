@@ -2,8 +2,8 @@
 @protocol UIScrollViewDelegate;
 @interface _UIWebViewScrollViewDelegateForwarder : NSObject <UIScrollViewDelegate> {
 
-    <UIScrollViewDelegate> _delegate;
-    UIWebView _webView;
+    <UIScrollViewDelegate>* _delegate;
+    UIWebView* _webView;
 }
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 @property (nonatomic, assign, readwrite) UIWebView* webView;

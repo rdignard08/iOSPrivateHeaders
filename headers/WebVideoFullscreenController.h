@@ -1,11 +1,11 @@
 
 @interface WebVideoFullscreenController : NSObject {
 
-    m_ptr _mediaElement;
-    m_ptr _interface;
-    m_ptr _model;
+    m_ptr* _mediaElement;
+    m_ptr* _interface;
+    m_ptr* _model;
     {WebVideoFullscreenControllerChangeObserver="_vptr$WebVideoFullscreenChangeObserver"^^?"_target"@"WebVideoFullscreenController"} _changeObserver;
-    m_ptr _videoFullscreenLayer;
+    m_ptr* _videoFullscreenLayer;
 }
 
  - (id) .cxx_construct;

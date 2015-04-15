@@ -1,13 +1,13 @@
 
 @interface _UIDocumentPickerContainerCell : _UIDocumentPickerCell {
 
-    _UIDocumentPickerContainerItem _item;
-    NSString _containerDisplayName;
-    UIImageView _containerIconView;
+    _UIDocumentPickerContainerItem* _item;
+    NSString* _containerDisplayName;
+    UIImageView* _containerIconView;
     id _observerToken;
-    NSLayoutConstraint _containerIconWidthConstraint;
-    NSLayoutConstraint _containerIconHeightConstraint;
-    NSLayoutConstraint _containerIconBottomConstraint;
+    NSLayoutConstraint* _containerIconWidthConstraint;
+    NSLayoutConstraint* _containerIconHeightConstraint;
+    NSLayoutConstraint* _containerIconBottomConstraint;
 }
 
  - (void) setItem:(id)a;

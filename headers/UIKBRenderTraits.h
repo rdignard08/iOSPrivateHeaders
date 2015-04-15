@@ -2,23 +2,23 @@
 @protocol NSCopying;
 @interface UIKBRenderTraits : NSObject <NSCopying> {
 
-    NSMutableArray _renderEffects;
-    NSMutableArray _foregroundRenderEffects;
+    NSMutableArray* _renderEffects;
+    NSMutableArray* _foregroundRenderEffects;
     BOOL _honorControlOpacity;
     BOOL _controlOpacities;
-    UIKBRenderGeometry _geometry;
-    UIKBGradient _backgroundGradient;
-    UIKBGradient _layeredBackgroundGradient;
-    UIKBGradient _layeredForegroundGradient;
-    UIKBTextStyle _symbolStyle;
-    UIKBTextStyle _secondarySymbolStyle;
-    UIKBTextStyle _fallbackSymbolStyle;
-    NSArray _variantGeometries;
-    UIKBRenderTraits _variantTraits;
-    UIKBRenderTraits _highlightedVariantTraits;
+    UIKBRenderGeometry* _geometry;
+    UIKBGradient* _backgroundGradient;
+    UIKBGradient* _layeredBackgroundGradient;
+    UIKBGradient* _layeredForegroundGradient;
+    UIKBTextStyle* _symbolStyle;
+    UIKBTextStyle* _secondarySymbolStyle;
+    UIKBTextStyle* _fallbackSymbolStyle;
+    NSArray* _variantGeometries;
+    UIKBRenderTraits* _variantTraits;
+    UIKBRenderTraits* _highlightedVariantTraits;
     double _forceOpacity;
     long long _blendForm;
-    NSString _hashString;
+    NSString* _hashString;
 }
 @property (nonatomic, retain, readwrite) UIKBRenderGeometry* geometry;
 @property (nonatomic, retain, readwrite) UIKBGradient* backgroundGradient;

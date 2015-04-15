@@ -2,19 +2,19 @@
 @protocol UIViewControllerPresenting, _UIScrollNotification, NSCoding, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning;
 @interface UISearchController : UIViewController <UIViewControllerPresenting, _UIScrollNotification, NSCoding, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning> {
 
-    UISearchBar _searchBar;
+    UISearchBar* _searchBar;
     int _barPresentationStyle;
-    <UIViewControllerAnimatedTransitioning> _animator;
+    <UIViewControllerAnimatedTransitioning>* _animator;
     id _windowWillAnimateToken;
-    _UISearchControllerDidScrollDelegate _didScrollDelegate;
-    searchBarWasTableHeaderView _controllerFlags;
+    _UISearchControllerDidScrollDelegate* _didScrollDelegate;
+    searchBarWasTableHeaderView* _controllerFlags;
     BOOL _dimsBackgroundDuringPresentation;
     BOOL _hidesNavigationBarDuringPresentation;
     BOOL __showResultsForEmptySearch;
-    UIView _resultsControllerViewContainer;
-    <UISearchResultsUpdating> _searchResultsUpdater;
-    <UISearchControllerDelegate> _delegate;
-    UIViewController _searchResultsController;
+    UIView* _resultsControllerViewContainer;
+    <UISearchResultsUpdating>* _searchResultsUpdater;
+    <UISearchControllerDelegate>* _delegate;
+    UIViewController* _searchResultsController;
     long long __previousSearchBarPosition;
     double __resultsContentScrollViewPresentationOffset;
 }

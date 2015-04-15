@@ -3,9 +3,9 @@
 
     int m_mode;
     double m_pointerOffset;
-    NSArray m_gradientColors;
-    UIKeyboardMenuView _menu;
-    _UIBackdropView _blurView;
+    NSArray* m_gradientColors;
+    UIKeyboardMenuView* _menu;
+    _UIBackdropView* _blurView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _keyRect;
 }
 

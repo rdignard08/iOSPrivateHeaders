@@ -3,8 +3,8 @@
 
     unsigned int _identifier;
     double _level;
-    CAContext _context;
-    <FBSSceneContextDelegate> _delegate;
+    CAContext* _context;
+    <FBSSceneContextDelegate>* _delegate;
     BOOL _shouldObserveContext;
 }
 @property (nonatomic, retain, readonly) CAContext* CAContext;

@@ -1,8 +1,8 @@
 
 @interface CISepiaTone : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputIntensity;
+    CIImage* inputImage;
+    NSNumber* inputIntensity;
 }
  + (id) customAttributes;
 

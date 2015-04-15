@@ -2,7 +2,7 @@
 @protocol NSSecureCoding, NSCopying;
 @interface UIColor : NSObject <NSSecureCoding, NSCopying> {
 
-    NSString _systemColorName;
+    NSString* _systemColorName;
 }
 @property (nonatomic, assign, readonly) NSNumber* CGColor;
 @property (nonatomic, assign, readonly) CIColor* CIColor;

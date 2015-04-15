@@ -1,7 +1,7 @@
 
 @interface CUIPSDImageLayer : CUIPSDLayer {
 
-    CUIImage _image;
+    CUIImage* _image;
 }
 
  - (void) dealloc;

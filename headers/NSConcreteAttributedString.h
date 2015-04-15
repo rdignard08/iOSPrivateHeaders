@@ -1,8 +1,8 @@
 
 @interface NSConcreteAttributedString : NSAttributedString {
 
-    NSString string;
-    NSRLEArray attributes;
+    NSString* string;
+    NSRLEArray* attributes;
 }
 
  - (id) initWithString:(id)aattributes:(id)b;

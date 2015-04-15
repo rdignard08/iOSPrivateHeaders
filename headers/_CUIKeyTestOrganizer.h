@@ -2,7 +2,7 @@
 @interface _CUIKeyTestOrganizer : NSObject {
 
     [16{_renditionkeytoken="identifier"S"value"S}] originalKey;
-    NSArray orderedNonZeroFlexibleAttributes;
+    NSArray* orderedNonZeroFlexibleAttributes;
     unsigned long long flexAttributesCount;
     [16{_renditionkeytoken="identifier"S"value"S}] testKey;
     unsigned long long chooseCount;

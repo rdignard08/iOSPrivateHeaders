@@ -1,9 +1,9 @@
 
 @interface SBLaunchAppListener : NSObject {
 
-    NSString _bundleIdentifier;
+    NSString* _bundleIdentifier;
     @? _block;
-    NSLock _lock;
+    NSLock* _lock;
     BOOL _launched;
     int _notifyToken;
     int _notifyAppExitedToken;

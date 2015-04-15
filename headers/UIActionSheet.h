@@ -2,9 +2,9 @@
 @protocol UIPopoverControllerDelegate;
 @interface UIActionSheet : UIView <UIPopoverControllerDelegate> {
 
-    UIAlertController _alertController;
-    _UIAlertControllerShimPresenter _presenter;
-    NSMutableArray _actions;
+    UIAlertController* _alertController;
+    _UIAlertControllerShimPresenter* _presenter;
+    NSMutableArray* _actions;
     long long _cancelIndex;
     long long _firstOtherButtonIndex;
     long long _destructiveButtonIndex;
@@ -15,7 +15,7 @@
     BOOL _alertControllerShouldDismiss;
     BOOL _handlingAlertActionShouldDismiss;
     BOOL _dismissingAlertController;
-    _UIWeakRef _weakDelegate;
+    _UIWeakRef* _weakDelegate;
 }
  + (BOOL) _isAlertControllerShimClass;
  + (Class) _popoverControllerClass;

@@ -5,8 +5,8 @@
     BOOL _visitedViewIsWindow;
     BOOL _viewHasDefinedTintColor;
     BOOL _viewHasNonAutomaticTintAdjustmentMode;
-    UIView _originalVisitedView;
-    UIView _changedSubview;
+    UIView* _originalVisitedView;
+    UIView* _changedSubview;
 }
 
  - (id) initWithNotificationReasons:(unsigned long long)a;

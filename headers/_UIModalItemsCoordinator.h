@@ -1,12 +1,12 @@
 
 @interface _UIModalItemsCoordinator : NSObject {
 
-    NSMapTable _presentingSessionsMapTable;
-    NSMapTable _sessionForItemMapTable;
-    _UIModalItemSBViewController __viewControllerForSBAlerts;
-    _UIModalItemHostingWindow __hostingWindowForSBAlerts;
-    _UIModalItemAppViewController __viewControllerForAlerts;
-    _UIModalItemHostingWindow __hostingWindowForAlerts;
+    NSMapTable* _presentingSessionsMapTable;
+    NSMapTable* _sessionForItemMapTable;
+    _UIModalItemSBViewController* __viewControllerForSBAlerts;
+    _UIModalItemHostingWindow* __hostingWindowForSBAlerts;
+    _UIModalItemAppViewController* __viewControllerForAlerts;
+    _UIModalItemHostingWindow* __hostingWindowForAlerts;
 }
 @property (nonatomic, retain, readwrite) NSMapTable* presentingSessionsMapTable;
 @property (nonatomic, retain, readwrite) NSMapTable* sessionForItemMapTable;

@@ -1,21 +1,21 @@
 
 @interface UITabBarCustomizeView : UIView {
 
-    UITabBar _tabBar;
-    NSMutableArray _proxies;
-    NSMutableArray _fixedItems;
-    UITabBarItemProxy _draggingProxy;
-    UITabBarItem _draggingItem;
-    UISnapshotView _dragImage;
-    UIImageView _replacementGlow;
-    UITabBarItem _replaceItem;
-    UILabel _titleLabel;
+    UITabBar* _tabBar;
+    NSMutableArray* _proxies;
+    NSMutableArray* _fixedItems;
+    UITabBarItemProxy* _draggingProxy;
+    UITabBarItem* _draggingItem;
+    UISnapshotView* _dragImage;
+    UIImageView* _replacementGlow;
+    UITabBarItem* _replaceItem;
+    UILabel* _titleLabel;
     {CGPoint="x"d"y"d} _startPoint;
     long long _itemsInRowCount;
     double _gridOffset;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _firstItemRect;
-    UITabBarItem _selectedBeforeItem;
-    NSArray _availableItems;
+    UITabBarItem* _selectedBeforeItem;
+    NSArray* _availableItems;
 }
 
  - (void) dealloc;

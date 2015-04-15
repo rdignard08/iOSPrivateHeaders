@@ -1,7 +1,7 @@
 
 @interface PRCandidate : NSObject {
 
-    NSString _string;
+    NSString* _string;
     double _errorScore;
     double _lmScore;
     BOOL _blacklisted;

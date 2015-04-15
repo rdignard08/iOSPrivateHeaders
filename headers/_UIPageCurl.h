@@ -3,11 +3,11 @@
 
     long long _spineLocation;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _contentRect;
-    UIView _contentView;
-    _UIPageCurlState _manualPageCurlState;
-    NSMutableArray _pendingStateQueue;
-    NSMutableArray _activeStateQueue;
-    NSMutableSet _completedStates;
+    UIView* _contentView;
+    _UIPageCurlState* _manualPageCurlState;
+    NSMutableArray* _pendingStateQueue;
+    NSMutableArray* _activeStateQueue;
+    NSMutableSet* _completedStates;
     double _delayBetweenSuccessiveAnimations;
     double _pageDiagonalAngle;
     double _pageDiagonalLength;

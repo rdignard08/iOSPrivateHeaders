@@ -1,12 +1,12 @@
 
 @interface WebNavigationDataPrivate : NSObject {
 
-    NSString url;
-    NSString title;
-    NSURLRequest originalRequest;
-    NSURLResponse response;
+    NSString* url;
+    NSString* title;
+    NSURLRequest* originalRequest;
+    NSURLResponse* response;
     BOOL hasSubstituteData;
-    NSString clientRedirectSource;
+    NSString* clientRedirectSource;
 }
 
  - (void) dealloc;

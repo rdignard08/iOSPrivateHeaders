@@ -3,23 +3,23 @@
 @interface _UIDatePickerView : UIPickerView <UIPickerViewDelegate, UIPickerViewDataSource> {
 
     long long _loadingDate;
-    NSDate _userSuppliedDate;
-    NSDate _userSuppliedMinimumDate;
-    NSDate _userSuppliedMaximumDate;
-    NSLocale _compositeLocale;
-    NSLocale _userProvidedLocale;
-    NSCalendar _userProvidedCalendar;
-    _UIDatePickerChineseCalendar _chineseWrapperCalendar;
-    NSDate _minimumDate;
-    NSDate _maximumDate;
-    NSDateComponents _lastSelectedDateComponents;
+    NSDate* _userSuppliedDate;
+    NSDate* _userSuppliedMinimumDate;
+    NSDate* _userSuppliedMaximumDate;
+    NSLocale* _compositeLocale;
+    NSLocale* _userProvidedLocale;
+    NSCalendar* _userProvidedCalendar;
+    _UIDatePickerChineseCalendar* _chineseWrapperCalendar;
+    NSDate* _minimumDate;
+    NSDate* _maximumDate;
+    NSDateComponents* _lastSelectedDateComponents;
     BOOL _allowsZeroTimeInterval;
-    _UIDatePickerMode _mode;
-    NSTimeZone _timeZone;
+    _UIDatePickerMode* _mode;
+    NSTimeZone* _timeZone;
     double _timeInterval;
-    UILabel _hourLabel;
-    UILabel _minuteLabel;
-    UIDatePicker _datePickerDelegate;
+    UILabel* _hourLabel;
+    UILabel* _minuteLabel;
+    UIDatePicker* _datePickerDelegate;
     id _delegateOfDatePicker;
     int _expectedAMPM;
     {?="staggerTimeIntervals"b1"loadingDateOrTime"b1"highlightsToday"b1"usesBlackChrome"b1} _datePickerFlags;

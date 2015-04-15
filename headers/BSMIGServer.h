@@ -1,7 +1,7 @@
 
 @interface BSMIGServer : NSObject {
 
-    NSString _portName;
+    NSString* _portName;
     unsigned int _port;
     ^{_opaque_pthread_t=q^{__darwin_pthread_handler_rec}[8176c]} _thread;
     ^{mig_subsystem=^?iiIQ[1{routine_descriptor=^?^?II^{?}I}]} _subsystem;

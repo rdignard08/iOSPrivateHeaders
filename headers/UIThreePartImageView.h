@@ -2,7 +2,7 @@
 @interface UIThreePartImageView : UIView {
 
     {?="left"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"middle"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}"right"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}} _slices;
-    UIImage _image;
+    UIImage* _image;
 }
 
  - (void) dealloc;

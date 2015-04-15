@@ -1,9 +1,9 @@
 
 @interface _UIPickerViewTopFrame : UIView {
 
-    UIImage _leftImage;
-    UIImage _middleImage;
-    UIImage _rightImage;
+    UIImage* _leftImage;
+    UIImage* _middleImage;
+    UIImage* _rightImage;
     double _inset;
     double _shift;
 }

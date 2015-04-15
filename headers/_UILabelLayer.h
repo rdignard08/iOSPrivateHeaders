@@ -1,7 +1,7 @@
 
 @interface _UILabelLayer : CALayer {
 
-    _UILabelContentLayer _contentLayer;
+    _UILabelContentLayer* _contentLayer;
     BOOL _contentInsetsValid;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _contentInsets;
 }

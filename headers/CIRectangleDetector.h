@@ -1,10 +1,10 @@
 
 @interface CIRectangleDetector : CIDetector {
 
-    CIContext context;
+    CIContext* context;
     double _width;
     double _height;
-    NSMutableDictionary featureOptions;
+    NSMutableDictionary* featureOptions;
     ^{OpaqueVTPixelTransferSession=} pixelTransferSession;
     ^{__CVBuffer=} interimScaleBuffer;
     ^{__CVBuffer=} scaleBuffer;

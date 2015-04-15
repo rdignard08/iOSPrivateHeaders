@@ -1,10 +1,10 @@
 
 @interface _UIDocumentPickerURLContainerModel : _UIDocumentPickerContainerModel {
 
-    NSArray _modelObjects;
-    NSURL _url;
-    NSString _displayTitle;
-    _UIDocumentPickerDirectoryObserver _observer;
+    NSArray* _modelObjects;
+    NSURL* _url;
+    NSString* _displayTitle;
+    _UIDocumentPickerDirectoryObserver* _observer;
 }
  + (void) _tagColorsDidChange;
  + (id) tagColorsByTag;

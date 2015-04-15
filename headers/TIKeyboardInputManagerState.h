@@ -2,25 +2,25 @@
 @protocol NSCopying, NSSecureCoding;
 @interface TIKeyboardInputManagerState : NSObject <NSCopying, NSSecureCoding> {
 
-    TIKeyboardBehaviors _keyboardBehaviors;
+    TIKeyboardBehaviors* _keyboardBehaviors;
     (?="integerValue"q"fields"{?="canHandleKeyHitTest"b1"ignoresDeadKeys"b1"needsKeyHitTestResults"b1"shouldExtendPriorWord"b1"suppliesCompletions"b1"supportsNumberKeySelection"b1"supportsSetPhraseBoundary"b1"suppressCompletionsForFieldEditor"b1"usesAutoDeleteWord"b1"usesCandidateSelection"b1"commitsAcceptedCandidate"b1"nextInputWouldStartSentence"b1"inputStringIsExemptFromChecker"b1"suppressPlaceholderCandidate"b1"usesAutocorrectionLists"b1}) _mask;
     BOOL _shouldAddModifierSymbolsToWordCharacters;
-    TIKeyboardCandidate _autocorrectionRecordForInputString;
-    NSString _wordSeparator;
+    TIKeyboardCandidate* _autocorrectionRecordForInputString;
+    NSString* _wordSeparator;
     unsigned long long _inputCount;
     unsigned long long _inputIndex;
-    NSString _inputString;
-    TIKeyEventMap _keyEventMap;
-    NSString _replacementForDoubleSpace;
-    NSString _shadowTyping;
+    NSString* _inputString;
+    TIKeyEventMap* _keyEventMap;
+    NSString* _replacementForDoubleSpace;
+    NSString* _shadowTyping;
     unsigned long long _initialCandidateBatchCount;
-    TICharacterSetDescription _wordCharacters;
-    TICharacterSetDescription _shortcutCompletions;
-    TICharacterSetDescription _inputsPreventingAcceptSelectedCandidate;
-    TICharacterSetDescription _inputsToReject;
-    TICharacterSetDescription _terminatorsPreventingAutocorrection;
-    TICharacterSetDescription _terminatorsDeletingAutospace;
-    NSString _searchStringForMarkedText;
+    TICharacterSetDescription* _wordCharacters;
+    TICharacterSetDescription* _shortcutCompletions;
+    TICharacterSetDescription* _inputsPreventingAcceptSelectedCandidate;
+    TICharacterSetDescription* _inputsToReject;
+    TICharacterSetDescription* _terminatorsPreventingAutocorrection;
+    TICharacterSetDescription* _terminatorsDeletingAutospace;
+    NSString* _searchStringForMarkedText;
 }
 @property (nonatomic, assign, readwrite) NSNumber* canHandleKeyHitTest;
 @property (nonatomic, assign, readwrite) NSNumber* ignoresDeadKeys;

@@ -1,16 +1,16 @@
 
 @interface UIApplicationExtensionActivity : UIActivity {
 
-    NSExtension _applicationExtension;
-    NSExtensionItem __injectedExtensionItem;
-    UIViewController _extensionViewController;
+    NSExtension* _applicationExtension;
+    NSExtensionItem* __injectedExtensionItem;
+    UIViewController* _extensionViewController;
     id _extensionContextIdentifier;
-    UIViewController _presenterViewController;
+    UIViewController* _presenterViewController;
     @? _presenterCompletion;
-    _UIActivityBundleHelper _activityBundleHelper;
-    NSString _localizedExtensionBundleName;
-    UIImage _renderedActivityImage;
-    UIImage _renderedActivitySettingsImage;
+    _UIActivityBundleHelper* _activityBundleHelper;
+    NSString* _localizedExtensionBundleName;
+    UIImage* _renderedActivityImage;
+    UIImage* _renderedActivitySettingsImage;
     @? _extensionRequestCleanupCompletion;
 }
  + (long long) activityCategory;

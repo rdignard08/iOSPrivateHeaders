@@ -2,15 +2,15 @@
 @protocol UIGestureRecognizerDelegate;
 @interface UIKBHandwritingView : UIKBKeyView <UIGestureRecognizerDelegate> {
 
-    UIKBHandwritingStrokeView _strokeView;
+    UIKBHandwritingStrokeView* _strokeView;
     double _inkWidth;
     ^{CGColor=} _inkColor;
     ^{CGImage=} _inkMask;
-    NSMutableArray _interpolatedPaths;
-    UIBezierPath _currentPath;
-    UIKBHandwritingStrokePointFIFO _strokeFIFO;
-    UIKBHandwritingBoxcarFilterPointFIFO _smoothingFIFO;
-    UIKBHandwritingQuadCurvePointFIFO _interpolatingFIFO;
+    NSMutableArray* _interpolatedPaths;
+    UIBezierPath* _currentPath;
+    UIKBHandwritingStrokePointFIFO* _strokeFIFO;
+    UIKBHandwritingBoxcarFilterPointFIFO* _smoothingFIFO;
+    UIKBHandwritingQuadCurvePointFIFO* _interpolatingFIFO;
 }
 
  - (void) dealloc;

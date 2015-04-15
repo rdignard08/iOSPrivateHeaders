@@ -2,12 +2,12 @@
 @interface _EditScript : NSObject {
 
     BOOL _orderAtomsAscending;
-    _IntArray2D _distanceMatrix;
+    _IntArray2D* _distanceMatrix;
     long long _currentOperation;
-    <_EditScriptData> _itemAData;
-    <_EditScriptData> _itemBData;
-    NSArray _operationPrecedenceArray;
-    NSMutableArray _script;
+    <_EditScriptData>* _itemAData;
+    <_EditScriptData>* _itemBData;
+    NSArray* _operationPrecedenceArray;
+    NSMutableArray* _script;
 }
 @property (nonatomic, copy, readwrite) NSArray* operationPrecedenceArray;
 @property (nonatomic, retain, readwrite) NSMutableArray* script;

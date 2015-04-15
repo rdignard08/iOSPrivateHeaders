@@ -1,7 +1,7 @@
 
 @interface TIPreferencesController : NSObject {
 
-    NSTimer _synchronizePreferencesTimer;
+    NSTimer* _synchronizePreferencesTimer;
     BOOL dontSynchronizePreferences;
     BOOL isInternalInstall;
 }

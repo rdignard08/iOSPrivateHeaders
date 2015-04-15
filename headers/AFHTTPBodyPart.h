@@ -3,13 +3,13 @@
 @interface AFHTTPBodyPart : NSObject <NSCopying> {
 
     int _phase;
-    NSInputStream _inputStream;
+    NSInputStream* _inputStream;
     unsigned long long _phaseReadOffset;
     BOOL _hasInitialBoundary;
     BOOL _hasFinalBoundary;
     unsigned long long _stringEncoding;
-    NSDictionary _headers;
-    NSString _boundary;
+    NSDictionary* _headers;
+    NSString* _boundary;
     id _body;
     unsigned long long _bodyContentLength;
 }

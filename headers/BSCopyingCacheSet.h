@@ -1,8 +1,8 @@
 
 @interface BSCopyingCacheSet : NSObject {
 
-    NSMutableSet _mutable;
-    NSSet _immutable;
+    NSMutableSet* _mutable;
+    NSSet* _immutable;
 }
 @property (atomic, assign, readonly) NSNumber* count;
 

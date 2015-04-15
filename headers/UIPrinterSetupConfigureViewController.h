@@ -4,10 +4,10 @@
 
     BOOL _addToNetwork;
     BOOL _directPrinting;
-    PKPrinter _printer;
-    NSString _directPasscode;
-    UIButton _finishButton;
-    UIPrinterSetupConnectingView _connectingView;
+    PKPrinter* _printer;
+    NSString* _directPasscode;
+    UIButton* _finishButton;
+    UIPrinterSetupConnectingView* _connectingView;
 }
 
  - (void) dealloc;

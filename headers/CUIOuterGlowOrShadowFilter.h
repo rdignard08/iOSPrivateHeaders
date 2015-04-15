@@ -1,13 +1,13 @@
 
 @interface CUIOuterGlowOrShadowFilter : CIFilter {
 
-    CIImage inputImage;
-    CIVector inputOffset;
-    NSNumber inputRange;
-    NSNumber inputRadius;
-    NSNumber inputSize;
-    NSNumber inputSpread;
-    CIColor inputColor;
+    CIImage* inputImage;
+    CIVector* inputOffset;
+    NSNumber* inputRange;
+    NSNumber* inputRadius;
+    NSNumber* inputSize;
+    NSNumber* inputSpread;
+    CIColor* inputColor;
 }
  + (id) customAttributes;
 

@@ -2,7 +2,7 @@
 @protocol NSCopying, NSCoding;
 @interface UIFontDescriptor : NSObject <NSCopying, NSCoding> {
 
-    NSMutableDictionary _attributes;
+    NSMutableDictionary* _attributes;
     id _reserved1;
     id _reserved2;
     id _reserved3;

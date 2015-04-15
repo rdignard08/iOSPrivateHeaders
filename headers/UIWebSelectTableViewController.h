@@ -2,16 +2,16 @@
 @protocol UIKeyInput;
 @interface UIWebSelectTableViewController : UITableViewController <UIKeyInput> {
 
-    DOMHTMLSelectElement _selectionNode;
-    NSArray _cachedItems;
-    NSArray _groupsAndOptions;
+    DOMHTMLSelectElement* _selectionNode;
+    NSArray* _cachedItems;
+    NSArray* _groupsAndOptions;
     unsigned long long _singleSelectionIndex;
     unsigned long long _singleSelectionSection;
     BOOL _allowsMultipleSelection;
     double _fontSize;
     double _maximumTextWidth;
     long long _textAlignment;
-    UIWebSelectPopover _popover;
+    UIWebSelectPopover* _popover;
 }
 
  - (void) dealloc;

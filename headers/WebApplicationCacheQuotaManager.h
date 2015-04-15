@@ -2,7 +2,7 @@
 @protocol WebQuotaManager;
 @interface WebApplicationCacheQuotaManager : NSObject <WebQuotaManager> {
 
-    WebSecurityOrigin _origin;
+    WebSecurityOrigin* _origin;
 }
 
  - (id) origin;

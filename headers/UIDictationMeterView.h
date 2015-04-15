@@ -1,17 +1,17 @@
 
 @interface UIDictationMeterView : UIButton {
 
-    UIImageView _background;
-    UIImageView _overlay;
-    NSMutableArray _micListeningImages;
-    CALayer _micImageLayer;
-    CALayer _animatingLayer;
-    NSTimer _fillTimer;
+    UIImageView* _background;
+    UIImageView* _overlay;
+    NSMutableArray* _micListeningImages;
+    CALayer* _micImageLayer;
+    CALayer* _animatingLayer;
+    NSTimer* _fillTimer;
     int _phase;
     int _state;
     [5f] _runningPowerLevels;
     unsigned int _powerPointer;
-    CADisplayLink _displayLink;
+    CADisplayLink* _displayLink;
     double _releaseStart;
     float _releaseLevel;
     int _cachedViewMode;

@@ -8,8 +8,8 @@
     int _popupBias;
     double _roundRectRadius;
     long long _flickDirection;
-    NSValue _splitLeftRect;
-    NSValue _splitRightRect;
+    NSValue* _splitLeftRect;
+    NSValue* _splitRightRect;
     {CGPoint="x"d"y"d} _popupSource;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _paddedFrame;

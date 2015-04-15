@@ -2,7 +2,7 @@
 @interface PKPhysicsField : NSObject {
 
     {shared_ptr<PKCField>="__ptr_"^{PKCField}"__cntrl_"^{__shared_weak_count}} _field;
-    PKRegion _region;
+    PKRegion* _region;
      _position;
     float _rotation;
      _scale;

@@ -4,13 +4,13 @@
 
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _selectionBarRect;
     long long _selectionBarRow;
-    NSMutableIndexSet _checkedRows;
+    NSMutableIndexSet* _checkedRows;
     double _lastClickedOffset;
     long long _lastSelectedRow;
     BOOL _usesModernStyle;
-    UIColor _textColor;
+    UIColor* _textColor;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _visibleRect;
-    NSMutableArray _referencingCells;
+    NSMutableArray* _referencingCells;
     {?="allowsMultipleSelection"b1"scrollingDirection"b2"didSelectDisabled"b1"skipRowChangeNotifications"b1"scrollingForSelection"b1"pickerViewImplementsSelectionBarChanged"b2"cancellingAnimation"b1"updatingContentInset"b1} _pickerTableFlags;
 }
 

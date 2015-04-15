@@ -2,7 +2,7 @@
 @protocol NSCopying, NSCoding;
 @interface _UIViewerRelativeDevicePose : NSObject <NSCopying, NSCoding> {
 
-    _UIMotionEffectAcceleratedOutputRange _acceleratedOutputRange;
+    _UIMotionEffectAcceleratedOutputRange* _acceleratedOutputRange;
     double _planarRotationAngle;
     {UIOffset="horizontal"d"vertical"d} _viewerOffset;
 }

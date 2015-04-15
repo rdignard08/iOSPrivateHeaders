@@ -1,12 +1,12 @@
 
 @interface UITextInputArrowKeyHistory : NSObject {
 
-    UITextPosition startPosition;
+    UITextPosition* startPosition;
     long long amount;
     int anchor;
-    UITextPosition start;
-    UITextPosition end;
-    UITextPosition cursor;
+    UITextPosition* start;
+    UITextPosition* end;
+    UITextPosition* cursor;
     BOOL affinityDownstream;
 }
 @property (nonatomic, retain, readwrite) UITextPosition* startPosition;

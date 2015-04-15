@@ -1,14 +1,14 @@
 
 @interface UIInputViewSet : NSObject {
 
-    UIView _inputView;
-    UIView _inputAccessoryView;
+    UIView* _inputView;
+    UIView* _inputAccessoryView;
     BOOL _isSplit;
     double _splitHeightDelta;
-    UIResponder _restorableResponder;
+    UIResponder* _restorableResponder;
     BOOL _restoreUsingBecomeFirstResponder;
-    UIInputViewController _inputViewController;
-    UIInputViewController _accessoryViewController;
+    UIInputViewController* _inputViewController;
+    UIInputViewController* _accessoryViewController;
 }
 @property (nonatomic, assign, readonly) UIKeyboard* keyboard;
 @property (nonatomic, retain, readwrite) UIView* inputView;

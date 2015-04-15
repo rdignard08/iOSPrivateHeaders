@@ -1,12 +1,12 @@
 
 @interface _UIActivityGroupViewFlowLayout : UICollectionViewLayout {
 
-    UILongPressGestureRecognizer _editingGestureRecognizer;
-    NSIndexPath _indexPathForDraggedItem;
+    UILongPressGestureRecognizer* _editingGestureRecognizer;
+    NSIndexPath* _indexPathForDraggedItem;
     double _evaluatedHorizontalItemOffset;
-    NSArray _preparedLayoutAttributes;
-    NSArray _preparedUpdateItems;
-    _UIActivityGroupActivityCell _draggingView;
+    NSArray* _preparedLayoutAttributes;
+    NSArray* _preparedUpdateItems;
+    _UIActivityGroupActivityCell* _draggingView;
     {CGSize="width"d"height"d} _evaluatedItemSize;
     {CGSize="width"d"height"d} _evaluatedContentSize;
     {UIOffset="horizontal"d"vertical"d} _draggingOffset;

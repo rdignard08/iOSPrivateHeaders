@@ -1,10 +1,10 @@
 
 @interface NSFileWritingClaim : NSFileAccessClaim {
 
-    NSURL _url;
+    NSURL* _url;
     BOOL _urlDidChange;
     unsigned long long _options;
-    NSFileAccessNode _location;
+    NSFileAccessNode* _location;
 }
 
  - (id) initWithPurposeID:(id)aurl:(id)boptions:(unsigned long long)cclaimer:(@?)d;

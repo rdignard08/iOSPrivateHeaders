@@ -11,16 +11,16 @@
     @? _prioritizationHandler;
     unsigned long long _flags;
     id _userInfoProxy;
-    NSString _publisherID;
-    NSXPCConnection _connection;
+    NSString* _publisherID;
+    NSXPCConnection* _connection;
     long long _unpublishingBlockageCount;
     long long _disconnectingBlockageCount;
     long long _remoteObserverCount;
-    NSMutableDictionary _acknowledgementHandlersByBundleID;
-    NSMutableDictionary _lastNotificationTimesByKey;
-    NSMutableDictionary _userInfoLastNotificationTimesByKey;
-    NSLock _lock;
-    NSMutableSet _childrenGroups;
+    NSMutableDictionary* _acknowledgementHandlersByBundleID;
+    NSMutableDictionary* _lastNotificationTimesByKey;
+    NSMutableDictionary* _userInfoLastNotificationTimesByKey;
+    NSLock* _lock;
+    NSMutableSet* _childrenGroups;
 }
 @property (nonatomic, assign, readwrite) NSNumber* installState;
 @property (nonatomic, assign, readwrite) NSNumber* installPhase;

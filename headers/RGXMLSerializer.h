@@ -2,10 +2,10 @@
 @protocol NSXMLParserDelegate;
 @interface RGXMLSerializer : NSObject <NSXMLParserDelegate> {
 
-    RGXMLNode _rootNode;
-    NSXMLParser _parser;
-    RGXMLNode _currentNode;
-    NSMutableString _currentString;
+    RGXMLNode* _rootNode;
+    NSXMLParser* _parser;
+    RGXMLNode* _currentNode;
+    NSMutableString* _currentString;
 }
 @property (nonatomic, retain, readwrite) NSXMLParser* parser;
 @property (nonatomic, assign, readonly) RGXMLNode* rootNode;

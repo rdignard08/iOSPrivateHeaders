@@ -1,8 +1,8 @@
 
 @interface UIKBBlurredKeyView : UIKBKeyView {
 
-    UIKBKeyView _keyView;
-    UIKBBackdropView _backdropView;
+    UIKBKeyView* _keyView;
+    UIKBBackdropView* _backdropView;
 }
 
  - (void) dealloc;

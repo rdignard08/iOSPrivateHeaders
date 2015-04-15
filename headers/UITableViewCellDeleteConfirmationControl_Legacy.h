@@ -2,7 +2,7 @@
 @interface UITableViewCellDeleteConfirmationControl_Legacy : UIControl {
 
     BOOL _visible;
-    UITableViewCellDeleteConfirmationGestureRecognizer _deleteConfirmationGesture;
+    UITableViewCellDeleteConfirmationGestureRecognizer* _deleteConfirmationGesture;
 }
  + ({CGSize=dd}) defaultSizeForTitle:(id)a;
 

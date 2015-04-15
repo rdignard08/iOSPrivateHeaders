@@ -5,7 +5,7 @@
     double _baselineOffset;
     double _scaledBaselineOffset;
     double _scaledLineHeight;
-    NSAttributedString _scaledAttributedText;
+    NSAttributedString* _scaledAttributedText;
     {CGSize="width"d"height"d} _targetSize;
     {CGSize="width"d"height"d} _scaledSize;
 }

@@ -1,8 +1,8 @@
 
 @interface UICheckeredPatternView : UIView {
 
-    UIColor m_patternColor;
-    UIColor m_checkerColor;
+    UIColor* m_patternColor;
+    UIColor* m_checkerColor;
     double m_scale;
 }
 

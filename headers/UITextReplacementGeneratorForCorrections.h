@@ -4,8 +4,8 @@
     BOOL _forceHistoryReplacement;
     BOOL _forceAutocorrectionGuesses;
     BOOL _forceSpellingGuesses;
-    UITextChecker _textChecker;
-    TIKeyboardCandidate _autocorrectionRecord;
+    UITextChecker* _textChecker;
+    TIKeyboardCandidate* _autocorrectionRecord;
     unsigned long long _maxEditDistance;
     unsigned long long _maxCountAfterAutocorrectionGuesses;
     unsigned long long _maxCountAfterSpellingGuesses;

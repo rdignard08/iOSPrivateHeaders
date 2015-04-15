@@ -1,8 +1,8 @@
 
 @interface UIStatusBarNewUIStyleAttributes : UIStatusBarStyleAttributes {
 
-    UIColor _backgroundColor;
-    UIColor _foregroundColor;
+    UIColor* _backgroundColor;
+    UIColor* _foregroundColor;
     BOOL _hasBusyBackground;
 }
 

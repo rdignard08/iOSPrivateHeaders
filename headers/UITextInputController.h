@@ -2,29 +2,29 @@
 @protocol UITextInput_Internal, UITextInput, UITextInputAdditions;
 @interface UITextInputController : NSObject <UITextInput_Internal, UITextInput, UITextInputAdditions> {
 
-    <UITextInputDelegate> _inputDelegate;
-    _UITextKitTextRange _selectedTextRange;
-    _UITextInputControllerTokenizer _tokenizer;
-    NSLayoutManager _layoutManager;
-    NSHashTable _observedScrollViews;
-    _UITextServiceSession _definitionSession;
-    _UITextServiceSession _learnSession;
-    UITextInputTraits _textInputTraits;
+    <UITextInputDelegate>* _inputDelegate;
+    _UITextKitTextRange* _selectedTextRange;
+    _UITextInputControllerTokenizer* _tokenizer;
+    NSLayoutManager* _layoutManager;
+    NSHashTable* _observedScrollViews;
+    _UITextServiceSession* _definitionSession;
+    _UITextServiceSession* _learnSession;
+    UITextInputTraits* _textInputTraits;
     {_NSRange="location"Q"length"Q} _markedTextRange;
     {_NSRange="location"Q"length"Q} _markedTextSelection;
     {?="delegateRespondsToTextInputShouldBeginEditing"b1"delegateRespondsToTextInputShouldChangeCharactersInRangeReplacementText"b1"delegateRespondsToTextInputDidChange"b1"delegateRespondsToTextInputDidChangeSelection"b1"delegateRespondsToTextInputWillChangeSelectionFromCharacterRangeToCharacterRange"b1"delegateRespondsToTextInputEditorDidChangeSelection"b1"delegateRespondsToTextInputPrepareAttributedTextForInsertion"b1"textOrSelectionChangeOriginatesWithKeyboard"b1"showingTextStyleOptions"b1"undoRedoInProgress"b1"textOrSelectionChangeOriginatesWithMarkedText"b1"nextSelectionChangeMustUpdate"b1"hasTextAlternatives"b1"suppressDelegateChangeNotifications"b1} _tiFlags;
-    NSArray _extraItemsBeforeTextStyleOptions;
-    UIView<UITextInput> _firstTextView;
-    _UITextUndoManager _undoManager;
-    _UITextUndoOperationTyping _undoOperationForCoalescing;
-    UITextChecker _textChecker;
-    NSSet _whitelistedTypingAttributes;
-    _UIDictationAttachment _dictationPlaceholder;
+    NSArray* _extraItemsBeforeTextStyleOptions;
+    UIView<UITextInput>* _firstTextView;
+    _UITextUndoManager* _undoManager;
+    _UITextUndoOperationTyping* _undoOperationForCoalescing;
+    UITextChecker* _textChecker;
+    NSSet* _whitelistedTypingAttributes;
+    _UIDictationAttachment* _dictationPlaceholder;
     BOOL _allowsEditingTextAttributes;
     BOOL _continuousSpellCheckingEnabled;
-    NSDictionary _emptyStringAttributes;
-    NSDictionary _typingAttributes;
-    <UITextInputControllerDelegate> _delegate;
+    NSDictionary* _emptyStringAttributes;
+    NSDictionary* _typingAttributes;
+    <UITextInputControllerDelegate>* _delegate;
     {_NSRange="location"Q"length"Q} _previousSelectedRange;
 }
 @property (nonatomic, assign, readonly, getter=_proxyTextInput) NSNumber* __content;

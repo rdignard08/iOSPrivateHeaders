@@ -1,7 +1,7 @@
 
 @interface UIKBDimmingView : UIView {
 
-    UIKBTree _keyplane;
+    UIKBTree* _keyplane;
 }
 
  - (void) refreshStyleForKeyplane:(id)a;

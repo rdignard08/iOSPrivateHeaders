@@ -5,11 +5,11 @@
     BOOL _displayedAsMenu;
     BOOL _hasBeenDismissed;
     BOOL _showingSpinner;
-    NSArray _pickableTypes;
+    NSArray* _pickableTypes;
     unsigned long long _pickerMode;
-    NSURL _uploadURL;
-    NSArray _auxiliaryOptions;
-    NSString _currentPickerIdentifier;
+    NSURL* _uploadURL;
+    NSArray* _auxiliaryOptions;
+    NSString* _currentPickerIdentifier;
 }
  + (id) _exportedInterface;
  + (id) _remoteViewControllerInterface;

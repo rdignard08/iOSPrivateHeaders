@@ -2,10 +2,10 @@
 @interface NSDateCheckingResult : NSTextCheckingResult {
 
     {_NSRange="location"Q"length"Q} _range;
-    NSDate _date;
-    NSTimeZone _timeZone;
+    NSDate* _date;
+    NSTimeZone* _timeZone;
     double _duration;
-    NSDate _referenceDate;
+    NSDate* _referenceDate;
     id _underlyingResult;
     BOOL _timeIsSignificant;
     BOOL _timeIsApproximate;

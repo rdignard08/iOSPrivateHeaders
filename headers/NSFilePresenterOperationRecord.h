@@ -1,7 +1,7 @@
 
 @interface NSFilePresenterOperationRecord : NSObject {
 
-    NSString operationDescription;
+    NSString* operationDescription;
     long long state;
     id reactor;
 }

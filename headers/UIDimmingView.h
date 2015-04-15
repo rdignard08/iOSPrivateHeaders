@@ -3,15 +3,15 @@
 @interface UIDimmingView : UIView <UIGestureRecognizerDelegate> {
 
     id _delegate;
-    UIBarButtonItem _highlightedBarButtonItem;
-    UIImageView _highlightedImageView;
-    UIImageView _backgroundGlow;
-    NSArray _passthroughViews;
+    UIBarButtonItem* _highlightedBarButtonItem;
+    UIImageView* _highlightedImageView;
+    UIImageView* _backgroundGlow;
+    NSArray* _passthroughViews;
     BOOL _ignoresTouches;
     BOOL _displayed;
     BOOL _inPassthroughHitTest;
-    UIColor _dimmingColor;
-    UITapGestureRecognizer _singleFingerTapRecognizer;
+    UIColor* _dimmingColor;
+    UITapGestureRecognizer* _singleFingerTapRecognizer;
     BOOL _suppressesBackdrops;
 }
  + (id) defaultDimmingColor;

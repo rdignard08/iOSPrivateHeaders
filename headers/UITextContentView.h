@@ -3,8 +3,8 @@
 @interface UITextContentView : UIView <UITextInput, UITextLinkInteraction, UITextInputTraits> {
 
     id m_delegate;
-    WebFrame m_frame;
-    DOMHTMLElement m_body;
+    WebFrame* m_frame;
+    DOMHTMLElement* m_body;
     int m_marginTop;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} m_selectionInset;
     double m_bottomBufferHeight;
@@ -17,10 +17,10 @@
     BOOL m_hasExplicitTextAlignment;
     BOOL m_allowsEditingTextAttributes;
     BOOL m_usesAttributedText;
-    UITextInteractionAssistant m_interactionAssistant;
-    UIWebDocumentView m_webView;
-    UIFont m_font;
-    UIColor m_textColor;
+    UITextInteractionAssistant* m_interactionAssistant;
+    UIWebDocumentView* m_webView;
+    UIFont* m_font;
+    UIColor* m_textColor;
     long long m_textAlignment;
 }
 

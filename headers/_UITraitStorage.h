@@ -2,9 +2,9 @@
 @protocol NSCoding;
 @interface _UITraitStorage : NSObject <NSCoding> {
 
-    NSMutableArray _records;
+    NSMutableArray* _records;
     id _object;
-    NSString _keyPath;
+    NSString* _keyPath;
 }
 @property (nonatomic, assign, readonly) NSString* keyPath;
 @property (nonatomic, weak, readonly) NSNumber* object;

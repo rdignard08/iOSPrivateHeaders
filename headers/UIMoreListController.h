@@ -2,13 +2,13 @@
 @protocol UITableViewDelegate, UITableViewDataSource;
 @interface UIMoreListController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 
-    UITableView _table;
+    UITableView* _table;
     BOOL _allowsCustomizing;
     BOOL _disableCustomizing;
     BOOL _hideNavigationBar;
-    NSArray _moreViewControllers;
-    UIMoreListCellLayoutManager _layoutManager;
-    UIBarButtonItem _moreEditButtonItem;
+    NSArray* _moreViewControllers;
+    UIMoreListCellLayoutManager* _layoutManager;
+    UIBarButtonItem* _moreEditButtonItem;
     BOOL _moreViewControllersChanged;
 }
 

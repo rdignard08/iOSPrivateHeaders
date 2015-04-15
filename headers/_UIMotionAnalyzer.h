@@ -2,7 +2,7 @@
 @protocol _UISettingsKeyObserver;
 @interface _UIMotionAnalyzer : NSObject <_UISettingsKeyObserver> {
 
-    _UIMotionAnalyzerSettings _settings;
+    _UIMotionAnalyzerSettings* _settings;
     double _smoothingDegree;
     double _referenceShiftSpeed;
     double _distanceMultiplier;
@@ -17,11 +17,11 @@
     double _secondsBeforeIdle;
     double _lockValue;
     double _lockStrength;
-    UIWindow _diagnosticsWindow;
-    UILabel _idleIndicator;
-    UIView _horizontalLockIndicator;
-    UIView _verticalLockIndicator;
-    _UIViewerRelativeDevicePose _viewerRelativeDevicePose;
+    UIWindow* _diagnosticsWindow;
+    UILabel* _idleIndicator;
+    UIView* _horizontalLockIndicator;
+    UIView* _verticalLockIndicator;
+    _UIViewerRelativeDevicePose* _viewerRelativeDevicePose;
 }
 @property (nonatomic, assign, readonly) _UIViewerRelativeDevicePose* viewerRelativeDevicePose;
 

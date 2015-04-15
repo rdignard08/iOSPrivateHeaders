@@ -1,13 +1,13 @@
 
 @interface UINavigationItemView : UIView {
 
-    UINavigationItem _item;
+    UINavigationItem* _item;
     {CGSize="width"d"height"d} _titleSize;
-    UIView _topCrossView;
-    UIView _bottomCrossView;
+    UIView* _topCrossView;
+    UIView* _bottomCrossView;
     BOOL _isCrossFading;
     BOOL _customFontSet;
-    UILabel _label;
+    UILabel* _label;
     BOOL _isFadingInFromCustomAlpha;
 }
 

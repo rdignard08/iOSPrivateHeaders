@@ -1,8 +1,8 @@
 
 @interface NSKeyValueFastMutableCollection2Getter : NSKeyValueProxyGetter {
 
-    NSKeyValueGetter _baseGetter;
-    NSKeyValueMutatingCollectionMethodSet _mutatingMethods;
+    NSKeyValueGetter* _baseGetter;
+    NSKeyValueMutatingCollectionMethodSet* _mutatingMethods;
 }
 
  - (id) mutatingMethods;

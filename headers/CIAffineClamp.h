@@ -1,8 +1,8 @@
 
 @interface CIAffineClamp : CIFilter {
 
-    CIImage inputImage;
-    NSValue inputTransform;
+    CIImage* inputImage;
+    NSValue* inputTransform;
 }
  + (id) customAttributes;
 

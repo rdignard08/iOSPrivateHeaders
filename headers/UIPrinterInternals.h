@@ -1,7 +1,7 @@
 
 @interface UIPrinterInternals : NSObject {
 
-    PKPrinter _printer;
+    PKPrinter* _printer;
 }
 
  - (void) dealloc;

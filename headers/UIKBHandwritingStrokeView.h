@@ -2,7 +2,7 @@
 @protocol UIKBHandwritingStrokeEnabled;
 @interface UIKBHandwritingStrokeView : UIView <UIKBHandwritingStrokeEnabled> {
 
-    UIKBHandwritingView _keyView;
+    UIKBHandwritingView* _keyView;
 }
 
  - (void) dealloc;

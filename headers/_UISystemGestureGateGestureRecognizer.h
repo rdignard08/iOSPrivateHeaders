@@ -4,7 +4,7 @@
     b1 _systemGesturesRecognitionPossible;
     b1 _waitingForSystemGestureStateNotification;
     double _lastTouchTime;
-    NSTimer _delayTimeoutTimer;
+    NSTimer* _delayTimeoutTimer;
 }
 
  - (void) dealloc;

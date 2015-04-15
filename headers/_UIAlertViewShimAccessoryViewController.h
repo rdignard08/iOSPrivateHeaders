@@ -1,7 +1,7 @@
 
 @interface _UIAlertViewShimAccessoryViewController : UIViewController {
 
-    UIViewController _accessoryViewController;
+    UIViewController* _accessoryViewController;
     double _preferredHeight;
 }
 

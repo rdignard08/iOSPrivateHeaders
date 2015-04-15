@@ -3,8 +3,8 @@
 
     unsigned long long _downloadToken;
     unsigned long long _AVAssetDownloadToken;
-    NSURL _URL;
-    NSURL _destinationURL;
+    NSURL* _URL;
+    NSURL* _destinationURL;
 }
 
  - (void) dealloc;

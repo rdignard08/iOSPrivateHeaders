@@ -2,11 +2,11 @@
 @protocol WebPluginManualLoader, WebPluginContainerCheckController;
 @interface WebPluginController : NSObject <WebPluginManualLoader, WebPluginContainerCheckController> {
 
-    WAKView _documentView;
-    WebDataSource _dataSource;
-    NSMutableArray _views;
+    WAKView* _documentView;
+    WebDataSource* _dataSource;
+    NSMutableArray* _views;
     BOOL _started;
-    NSMutableSet _checksInProgress;
+    NSMutableSet* _checksInProgress;
 }
  + (BOOL) isPlugInView:(id)a;
  + (void) addPlugInView:(id)a;

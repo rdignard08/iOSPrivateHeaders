@@ -1,11 +1,11 @@
 
 @interface NSNumberFormatter : NSFormatter {
 
-    NSMutableDictionary _attributes;
+    NSMutableDictionary* _attributes;
     ^{__CFNumberFormatter=} _formatter;
     unsigned long long _counter;
     unsigned long long _behavior;
-    NSRecursiveLock _lock;
+    NSRecursiveLock* _lock;
     unsigned long long _stateBitMask;
     [9^v] _reserved;
 }

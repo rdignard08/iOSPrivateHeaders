@@ -2,7 +2,7 @@
 @protocol NSSecureCoding;
 @interface NSURLAuthenticationChallenge : NSObject <NSSecureCoding> {
 
-    NSURLAuthenticationChallengeInternal _internal;
+    NSURLAuthenticationChallengeInternal* _internal;
 }
 @property (atomic, copy, readonly) NSURLProtectionSpace* protectionSpace;
 @property (atomic, copy, readonly) NSURLCredential* proposedCredential;

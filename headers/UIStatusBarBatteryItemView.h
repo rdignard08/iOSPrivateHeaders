@@ -3,7 +3,7 @@
 
     int _capacity;
     int _state;
-    UIView _accessoryView;
+    UIView* _accessoryView;
 }
 
  - (void) dealloc;

@@ -1,8 +1,8 @@
 
 @interface NSKeyValueSlowMutableSet : NSKeyValueMutableSet {
 
-    NSKeyValueGetter _valueGetter;
-    NSKeyValueSetter _valueSetter;
+    NSKeyValueGetter* _valueGetter;
+    NSKeyValueSetter* _valueSetter;
     BOOL _treatNilValuesLikeEmptySets;
     [3c] _padding;
 }

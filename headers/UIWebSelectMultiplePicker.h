@@ -2,9 +2,9 @@
 @protocol UIWebFormControl, UIPickerViewDataSource, UIPickerViewDelegate;
 @interface UIWebSelectMultiplePicker : UIPickerView <UIWebFormControl, UIPickerViewDataSource, UIPickerViewDelegate> {
 
-    DOMHTMLSelectElement _selectionNode;
-    NSArray _cachedItems;
-    <UIWebSelectedItemPrivate> _singleSelectionItem;
+    DOMHTMLSelectElement* _selectionNode;
+    NSArray* _cachedItems;
+    <UIWebSelectedItemPrivate>* _singleSelectionItem;
     unsigned long long _singleSelectionIndex;
     double _fontSize;
     double _maximumTextWidth;

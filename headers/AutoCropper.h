@@ -1,7 +1,7 @@
 
 @interface AutoCropper : NSObject {
 
-    NSNumber bufferZone;
+    NSNumber* bufferZone;
     BOOL shouldFavorBottom;
     BOOL shouldFavorTop;
     {CGSize="width"d"height"d} originalImageSize;

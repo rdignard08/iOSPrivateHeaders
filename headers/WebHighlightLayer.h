@@ -1,8 +1,8 @@
 
 @interface WebHighlightLayer : CALayer {
 
-    WebNodeHighlightView _view;
-    WebView _webView;
+    WebNodeHighlightView* _view;
+    WebView* _webView;
 }
 
  - (id) actionForKey:(id)a;

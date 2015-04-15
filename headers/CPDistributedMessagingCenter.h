@@ -1,15 +1,15 @@
 
 @interface CPDistributedMessagingCenter : NSObject {
 
-    NSString _centerName;
-    NSLock _lock;
+    NSString* _centerName;
+    NSLock* _lock;
     unsigned int _sendPort;
-    NSOperationQueue _asyncQueue;
+    NSOperationQueue* _asyncQueue;
     ^{__CFRunLoopSource=} _serverSource;
-    NSString _requiredEntitlement;
-    NSMutableDictionary _callouts;
+    NSString* _requiredEntitlement;
+    NSMutableDictionary* _callouts;
     unsigned int _parkedServerPort;
-    CPDistributedMessagingCallout _currentCallout;
+    CPDistributedMessagingCallout* _currentCallout;
     unsigned int _replyPort;
     BOOL _portPassing;
     BOOL _delayedReply;

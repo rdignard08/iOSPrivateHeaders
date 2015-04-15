@@ -2,8 +2,8 @@
 @interface UISnapshotModalViewController : UIViewController {
 
     long long _interfaceOrientation;
-    UIViewController _disappearingViewController;
-    UINavigationController _parentController;
+    UIViewController* _disappearingViewController;
+    UINavigationController* _parentController;
 }
 
  - (void) dealloc;

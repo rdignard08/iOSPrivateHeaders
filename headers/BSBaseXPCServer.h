@@ -1,12 +1,12 @@
 
 @interface BSBaseXPCServer : NSObject {
 
-    NSObject<OS_dispatch_queue> _queue;
-    NSObject<OS_xpc_object> _listenerConnection;
-    NSMutableSet _clients;
+    NSObject<OS_dispatch_queue>* _queue;
+    NSObject<OS_xpc_object>* _listenerConnection;
+    NSMutableSet* _clients;
     BOOL _connectionResumed;
     BOOL _usesAnonymousConnection;
-    NSString _serviceName;
+    NSString* _serviceName;
     int _notifyToken;
 }
 @property (nonatomic, assign, readwrite, getter=usesAnonymousConnection) NSNumber* usesAnonymousConnection;

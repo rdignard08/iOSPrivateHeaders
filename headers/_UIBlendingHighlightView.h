@@ -2,8 +2,8 @@
 @protocol UIAlertControllerBackgroundView;
 @interface _UIBlendingHighlightView : UIView <UIAlertControllerBackgroundView> {
 
-    UIView _colorBurnView;
-    UIView _plusDView;
+    UIView* _colorBurnView;
+    UIView* _plusDView;
 }
  + (id) _blendingSeparatorView;
  + (id) _blendingPressedView;

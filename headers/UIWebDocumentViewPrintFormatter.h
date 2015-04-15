@@ -1,7 +1,7 @@
 
 @interface UIWebDocumentViewPrintFormatter : UIViewPrintFormatter {
 
-    UIWebPaginationInfo _paginationInfo;
+    UIWebPaginationInfo* _paginationInfo;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;

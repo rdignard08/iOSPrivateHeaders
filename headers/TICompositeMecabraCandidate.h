@@ -1,8 +1,8 @@
 
 @interface TICompositeMecabraCandidate : TIMecabraCandidate {
 
-    NSString _remainderCandidateString;
-    NSArray _autoconvertedCandidatePointerValues;
+    NSString* _remainderCandidateString;
+    NSArray* _autoconvertedCandidatePointerValues;
 }
  + (BOOL) supportsSecureCoding;
  + (int) type;

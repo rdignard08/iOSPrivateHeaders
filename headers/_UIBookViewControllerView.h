@@ -1,7 +1,7 @@
 
 @interface _UIBookViewControllerView : UIView {
 
-    UIBookViewController _bookViewController;
+    UIBookViewController* _bookViewController;
 }
 
  - (void) layoutSubviews;

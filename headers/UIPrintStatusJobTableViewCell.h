@@ -1,7 +1,7 @@
 
 @interface UIPrintStatusJobTableViewCell : UITableViewCell {
 
-    UIActivityIndicatorView _activityIndicator;
+    UIActivityIndicatorView* _activityIndicator;
 }
 
  - (void) dealloc;

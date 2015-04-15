@@ -10,12 +10,12 @@
     long long _templateRenderingMode;
     long long _artworkStatus;
     unsigned long long _colorSpaceID;
-    NSString _name;
-    NSData _srcData;
+    NSString* _name;
+    NSData* _srcData;
     long long _validLookGradation;
     double _opacity;
     int _blendMode;
-    NSString _utiType;
+    NSString* _utiType;
     int _exifOrientation;
 }
 @property (nonatomic, assign, readwrite) NSNumber* opacity;

@@ -3,12 +3,12 @@
 
     long long _ended;
     unsigned long long _options;
-    NSString _reason;
+    NSString* _reason;
     unsigned int _systemSleepAssertionID;
-    NSObject<OS_voucher> _voucher;
-    NSObject<OS_voucher> _previousVoucher;
-    <NSObject> _xpcBoost;
-    BKSProcessAssertion _processAssertion;
+    NSObject<OS_voucher>* _voucher;
+    NSObject<OS_voucher>* _previousVoucher;
+    <NSObject>* _xpcBoost;
+    BKSProcessAssertion* _processAssertion;
     @? _expirationHandler;
 }
  + (void) _performActivityWithOptions:(unsigned long long)areason:(id)busingBlock:(@?)c;

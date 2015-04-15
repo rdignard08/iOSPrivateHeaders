@@ -1,11 +1,11 @@
 
 @interface _UIBarBackButtonItemAppearanceStorage : NSObject {
 
-    NSMutableDictionary backgroundImages;
-    NSMutableDictionary miniBackgroundImages;
-    NSValue titlePositionOffset;
-    NSValue miniTitlePositionOffset;
-    NSMutableDictionary backgroundVerticalAdjustmentsForBarMetrics;
+    NSMutableDictionary* backgroundImages;
+    NSMutableDictionary* miniBackgroundImages;
+    NSValue* titlePositionOffset;
+    NSValue* miniTitlePositionOffset;
+    NSMutableDictionary* backgroundVerticalAdjustmentsForBarMetrics;
 }
 @property (nonatomic, retain, readwrite) NSValue* titlePositionOffset;
 @property (nonatomic, retain, readwrite) NSValue* miniTitlePositionOffset;

@@ -4,7 +4,7 @@
     long long _editOperation;
     unsigned long long _indexToEdit;
     unsigned long long _indexInArrayB;
-    NSString _replacementText;
+    NSString* _replacementText;
 }
 @property (nonatomic, assign, readwrite) NSNumber* editOperation;
 @property (nonatomic, assign, readwrite) NSNumber* indexToEdit;

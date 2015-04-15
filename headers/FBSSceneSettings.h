@@ -9,10 +9,10 @@
     BOOL _backgrounded;
     BOOL _occluded;
     BOOL _occludedHasBeenCalculated;
-    NSSet _ignoreOcclusionReasons;
-    NSArray _occlusions;
-    BSSettings _otherSettings;
-    BSSettings _transientLocalSettings;
+    NSSet* _ignoreOcclusionReasons;
+    NSArray* _occlusions;
+    BSSettings* _otherSettings;
+    BSSettings* _transientLocalSettings;
 }
 @property (nonatomic, assign, readonly) NSNumber* frame;
 @property (nonatomic, assign, readonly) NSNumber* level;

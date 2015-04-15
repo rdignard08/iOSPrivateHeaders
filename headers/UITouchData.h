@@ -6,7 +6,7 @@
     double lastTouchUpTimestamp;
     double lastTouchDownTimestamp;
     BOOL touchIsValidTap;
-    UITouch lastTouch;
+    UITouch* lastTouch;
 }
 
 

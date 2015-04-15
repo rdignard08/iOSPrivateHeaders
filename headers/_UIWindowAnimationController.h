@@ -3,7 +3,7 @@
 @interface _UIWindowAnimationController : NSObject <UIViewControllerAnimatedTransitioning> {
 
     BOOL _shouldCrossfade;
-    UIWindow _window;
+    UIWindow* _window;
 }
 @property (nonatomic, assign, readwrite) UIWindow* window;
 @property (nonatomic, assign, readwrite) NSNumber* shouldCrossfade;

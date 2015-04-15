@@ -1,9 +1,9 @@
 
 @interface CIFilterClassDescription : NSObject {
 
-    NSMutableDictionary attributes;
-    NSArray inputKeys;
-    NSArray outputKeys;
+    NSMutableDictionary* attributes;
+    NSArray* inputKeys;
+    NSArray* outputKeys;
 }
  + (id) classDescriptionForClass:(Class)a;
 

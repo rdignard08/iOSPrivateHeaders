@@ -2,9 +2,9 @@
 @protocol _UIShareInvitationViewControllerHost;
 @interface _UIShareInvitationRemoteViewController : _UIRemoteViewController <_UIShareInvitationViewControllerHost> {
 
-    _UISharingViewController _publicController;
-    NSExtension _extension;
-    <NSCopying><NSObject> _extensionRequestIdentifier;
+    _UISharingViewController* _publicController;
+    NSExtension* _extension;
+    <NSCopying><NSObject>* _extensionRequestIdentifier;
 }
  + (id) exportedInterface;
  + (id) serviceViewControllerInterface;

@@ -2,8 +2,8 @@
 @protocol _UIScrollNotification;
 @interface _UISearchControllerDidScrollDelegate : NSObject <_UIScrollNotification> {
 
-    UIScrollView _scrollView;
-    <_UIScrollNotification> _controller;
+    UIScrollView* _scrollView;
+    <_UIScrollNotification>* _controller;
 }
 @property (nonatomic, assign, readwrite) NSNumber* controller;
 @property (nonatomic, assign, readwrite) UIScrollView* scrollView;

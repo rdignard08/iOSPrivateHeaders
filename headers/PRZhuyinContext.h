@@ -1,11 +1,11 @@
 
 @interface PRZhuyinContext : PRAutocorrectionContext {
 
-    NSMutableArray _modifications;
-    NSMutableArray _addedModifications;
-    NSMutableArray _removedModifications;
-    NSMutableArray _addedRemovedModifications;
-    NSMutableArray _prefixes;
+    NSMutableArray* _modifications;
+    NSMutableArray* _addedModifications;
+    NSMutableArray* _removedModifications;
+    NSMutableArray* _addedRemovedModifications;
+    NSMutableArray* _prefixes;
     char* _buffer;
     ^Q _syllableLengthArray;
     ^v _connection;

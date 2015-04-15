@@ -1,7 +1,7 @@
 
 @interface UITableViewLabel : UILabel {
 
-    UITableViewCell _tableCell;
+    UITableViewCell* _tableCell;
 }
 
  - (void) setText:(id)a;

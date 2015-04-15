@@ -2,7 +2,7 @@
 @protocol UICoordinateSpace;
 @interface _UIScreenFixedCoordinateSpace : NSObject <UICoordinateSpace> {
 
-    UIScreen _screen;
+    UIScreen* _screen;
 }
 @property (nonatomic, assign, readwrite, setter=_setScreen:) UIScreen* _screen;
 @property (nonatomic, assign, readonly) NSNumber* bounds;

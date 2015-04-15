@@ -1,10 +1,10 @@
 
 @interface UIKeyboardTouchInfo : NSObject {
 
-    UITouch _touch;
-    UIKBTree _key;
-    UIKBTree _keyplane;
-    UIKBTree _slidOffKey;
+    UITouch* _touch;
+    UIKBTree* _key;
+    UIKBTree* _keyplane;
+    UIKBTree* _slidOffKey;
     {CGPoint="x"d"y"d} _initialPoint;
     {CGPoint="x"d"y"d} _initialDragPoint;
     BOOL _dragged;

@@ -1,13 +1,13 @@
 
 @interface NSAllDescendantPathsEnumerator : NSDirectoryEnumerator {
 
-    NSString path;
-    NSArray contents;
+    NSString* path;
+    NSArray* contents;
     unsigned long long idx;
-    NSString prepend;
-    NSAllDescendantPathsEnumerator under;
-    NSFileAttributes directoryAttributes;
-    NSString pathToLastReportedItem;
+    NSString* prepend;
+    NSAllDescendantPathsEnumerator* under;
+    NSFileAttributes* directoryAttributes;
+    NSString* pathToLastReportedItem;
     unsigned long long depth;
     BOOL cross;
     [3c] _padding;

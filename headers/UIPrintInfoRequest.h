@@ -1,7 +1,7 @@
 
 @interface UIPrintInfoRequest : NSObject {
 
-    PKPrinter _printer;
+    PKPrinter* _printer;
     int _requestState;
     @? _completionHandler;
 }

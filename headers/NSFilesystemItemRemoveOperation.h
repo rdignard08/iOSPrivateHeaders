@@ -2,8 +2,8 @@
 @interface NSFilesystemItemRemoveOperation : NSOperation {
 
     id _delegate;
-    NSString _removePath;
-    NSError _error;
+    NSString* _removePath;
+    NSError* _error;
     ^v _state;
     BOOL _filterUnderbars;
 }

@@ -2,7 +2,7 @@
 @protocol NSSecureCoding, NSCopying, NSMutableCopying;
 @interface NSURLRequest : NSObject <NSSecureCoding, NSCopying, NSMutableCopying> {
 
-    NSURLRequestInternal _internal;
+    NSURLRequestInternal* _internal;
 }
 @property (atomic, copy, readonly) NSString* HTTPMethod;
 @property (atomic, copy, readonly) NSDictionary* allHTTPHeaderFields;

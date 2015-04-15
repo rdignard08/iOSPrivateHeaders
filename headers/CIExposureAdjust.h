@@ -1,8 +1,8 @@
 
 @interface CIExposureAdjust : CIFilter {
 
-    CIImage inputImage;
-    NSNumber inputEV;
+    CIImage* inputImage;
+    NSNumber* inputEV;
 }
  + (id) customAttributes;
 

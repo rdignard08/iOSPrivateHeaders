@@ -1,8 +1,8 @@
 
 @interface WebInspector : NSObject {
 
-    WebView _webView;
-    WebInspectorFrontend _frontend;
+    WebView* _webView;
+    WebInspectorFrontend* _frontend;
 }
 
  - (void) dealloc;

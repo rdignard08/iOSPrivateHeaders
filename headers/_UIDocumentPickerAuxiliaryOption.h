@@ -3,9 +3,9 @@
 @interface _UIDocumentPickerAuxiliaryOption : NSObject <NSSecureCoding> {
 
     BOOL _newlyAdded;
-    NSString _title;
-    UIImage _image;
-    NSString _identifier;
+    NSString* _title;
+    UIImage* _image;
+    NSString* _identifier;
     @? _handler;
     unsigned long long _order;
 }

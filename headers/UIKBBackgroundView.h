@@ -2,10 +2,10 @@
 @protocol UIKBCacheableView;
 @interface UIKBBackgroundView : UIKBSplitImageView <UIKBCacheableView> {
 
-    UIKBTree _keyplane;
-    UITextInputTraits _inputTraits;
+    UIKBTree* _keyplane;
+    UITextInputTraits* _inputTraits;
     int _visualStyle;
-    NSObject _geometryCacheKey;
+    NSObject* _geometryCacheKey;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _splitLeftRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _splitLeftCacheRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _splitRightRect;
@@ -14,7 +14,7 @@
     BOOL _isSplit;
     BOOL _centerFilled;
     BOOL _hasCandidateKeys;
-    UIKBRenderConfig _renderConfig;
+    UIKBRenderConfig* _renderConfig;
 }
 
  - (void) dealloc;

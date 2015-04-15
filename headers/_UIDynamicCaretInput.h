@@ -6,10 +6,10 @@
     long long _fadeCount;
     {CGPoint="x"d"y"d} _lastViewLoc;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _inkedAreaOfBitmapContext;
-    NSTimer _fadeTimer;
-    TIHandwritingStrokes _accumulatedStrokes;
-    UIDelayedAction _committedAction;
-    _UIDynamicCaretDot _dotView;
+    NSTimer* _fadeTimer;
+    TIHandwritingStrokes* _accumulatedStrokes;
+    UIDelayedAction* _committedAction;
+    _UIDynamicCaretDot* _dotView;
 }
 
  - (void) dealloc;

@@ -2,23 +2,23 @@
 @protocol UIGestureRecognizerDelegate;
 @interface _UINavigationInteractiveTransitionBase : UIPercentDrivenInteractiveTransition <UIGestureRecognizerDelegate> {
 
-    UIView _gestureRecognizerView;
-    UIPanGestureRecognizer _gestureRecognizer;
+    UIView* _gestureRecognizerView;
+    UIPanGestureRecognizer* _gestureRecognizer;
     long long __interactionState;
     BOOL __transitionWasStopped;
     BOOL __stoppedTransitionWasCancelled;
-    UIViewController __parent;
+    UIViewController* __parent;
     BOOL __useAugmentedShouldPopDecisionProcedure;
     BOOL __completesTransitionOnEnd;
-    CADisplayLink _displayLink;
+    CADisplayLink* _displayLink;
     [3d] _timestamps;
     [3d] _velocities;
     [3d] _accelerations;
     BOOL _shouldReverseTranslation;
     BOOL _springAnimationIsPending;
     BOOL _inSpringAnimation;
-    _UINavigationParallaxTransition _animationController;
-    <_UINavigationInteractiveTransitionBaseDelegate> _delegate;
+    _UINavigationParallaxTransition* _animationController;
+    <_UINavigationInteractiveTransitionBaseDelegate>* _delegate;
     unsigned long long _sampleCount;
     double _totalDistance;
     double _skipTimeStamp;

@@ -4,10 +4,10 @@
     unsigned int nimages;
     [16^{CGImage}] image;
     ^{CGImage=} unslicedImage;
-    CUIRenditionMetrics _renditionMetrics;
-    CUIRenditionSliceInformation _sliceInformation;
-    _CSIRenditionBlockData _cachedBlockDataBGRX;
-    _CSIRenditionBlockData _cachedBlockDataRGBX;
+    CUIRenditionMetrics* _renditionMetrics;
+    CUIRenditionSliceInformation* _sliceInformation;
+    _CSIRenditionBlockData* _cachedBlockDataBGRX;
+    _CSIRenditionBlockData* _cachedBlockDataRGBX;
     unsigned long long _sourceRowbytes;
 }
 

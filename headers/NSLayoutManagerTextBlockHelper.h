@@ -1,7 +1,7 @@
 
 @interface NSLayoutManagerTextBlockHelper : NSObject {
 
-    @"NSTextBlock" _block;
+    NSTextBlock _block;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _layoutRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _boundsRect;
 }

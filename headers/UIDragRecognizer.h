@@ -6,13 +6,13 @@
     {CGPoint="x"d"y"d} _startPosition;
     BOOL _restrictsToAngle;
     double _angle;
-    @"UITouch" _touch;
-    @"UIDelayedAction" _tooSlow;
+    UITouch _touch;
+    UIDelayedAction _tooSlow;
     double _startAngle;
     double _quietPeriod;
     BOOL _canBeginDrag;
     SEL _checkCanBeginDrag;
-    @"UIDelayedAction" ignoreTouch;
+    UIDelayedAction ignoreTouch;
 }
 
  - (void) dealloc;

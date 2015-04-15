@@ -1,8 +1,8 @@
 
 @interface _UICAPackageView : UIView {
 
-    @"CAPackage" _package;
-    @"NSArray" _rootViews;
+    CAPackage _package;
+    NSArray _rootViews;
 }
  + (BOOL) _shouldCatchDecodingExceptions;
  + (id) _buildViewHierarchyFrom:(id)apublishedObjectViewClassMap:(id)binto:(id)c;

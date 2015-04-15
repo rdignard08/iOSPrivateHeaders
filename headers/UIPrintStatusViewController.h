@@ -1,8 +1,8 @@
 
 @interface UIPrintStatusViewController : UINavigationController {
 
-    @"UIPopoverController" _poverController;
-    @"<UIPrintStatusDelegate>" _printStatusDelegate;
+    UIPopoverController _poverController;
+    <UIPrintStatusDelegate> _printStatusDelegate;
 }
 
  - (void) dealloc;

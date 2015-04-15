@@ -1,7 +1,7 @@
 
 @interface _UITextInputControllerTokenizer : UITextInputStringTokenizer {
 
-    @"UITextInputController" _textInput;
+    UITextInputController _textInput;
     ^{__CFStringTokenizer=} _tokenizer;
     int _tokenizerType;
 }

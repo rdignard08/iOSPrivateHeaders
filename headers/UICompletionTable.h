@@ -2,7 +2,7 @@
 @protocol UITableViewDelegate, UITableViewDataSource;
 @interface UICompletionTable : UIView <UITableViewDelegate, UITableViewDataSource> {
 
-    @"UICompletionTablePrivate" _private;
+    UICompletionTablePrivate _private;
 }
  + (id) _shadowImage;
  + (id) _cellFont;

@@ -1,7 +1,7 @@
 
 @interface _UIDocumentPickerManagementViewController : UITableViewController {
 
-    @"NSArray" _allPickers;
+    NSArray _allPickers;
 }
 
  - (void) tableView:(id)awillDisplayCell:(id)bforRowAtIndexPath:(id)c;

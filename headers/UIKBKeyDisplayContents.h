@@ -6,14 +6,14 @@
     BOOL _fillPath;
     BOOL _force1xImages;
     BOOL _stringKeycapOverImage;
-    @"NSString" _displayString;
-    @"NSString" _displayStringImage;
-    @"NSString" _secondaryDisplayStringImage;
-    @"NSString" _secondaryDisplayString;
-    @"NSArray" _variantDisplayContents;
-    @"NSArray" _highlightedVariantsList;
+    NSString _displayString;
+    NSString _displayStringImage;
+    NSString _secondaryDisplayStringImage;
+    NSString _secondaryDisplayString;
+    NSArray _variantDisplayContents;
+    NSArray _highlightedVariantsList;
     long long _displayPathType;
-    @"UIKBKeyDisplayContents" _fallbackContents;
+    UIKBKeyDisplayContents _fallbackContents;
 }
 @property (nonatomic, retain, readwrite) NSString* displayString;
 @property (nonatomic, retain, readwrite) NSString* displayStringImage;

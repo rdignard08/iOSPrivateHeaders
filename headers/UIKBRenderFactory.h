@@ -1,8 +1,8 @@
 
 @interface UIKBRenderFactory : NSObject {
 
-    @"UIKBRenderConfig" _renderConfig;
-    @"NSMutableArray" _segmentTraits;
+    UIKBRenderConfig _renderConfig;
+    NSMutableArray _segmentTraits;
     double _rivenSizeFactor;
     BOOL _lightweightFactory;
     double _scale;

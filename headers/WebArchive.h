@@ -2,7 +2,7 @@
 @protocol NSCoding, NSCopying;
 @interface WebArchive : NSObject <NSCoding, NSCopying> {
 
-    @"WebArchivePrivate" _private;
+    WebArchivePrivate _private;
 }
 @property (nonatomic, assign, readonly) WebResource* mainResource;
 @property (nonatomic, copy, readonly) NSArray* subresources;

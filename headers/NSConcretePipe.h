@@ -1,8 +1,8 @@
 
 @interface NSConcretePipe : NSPipe {
 
-    @"NSFileHandle" _readHandle;
-    @"NSFileHandle" _writeHandle;
+    NSFileHandle _readHandle;
+    NSFileHandle _writeHandle;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;

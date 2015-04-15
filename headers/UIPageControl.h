@@ -1,16 +1,16 @@
 
 @interface UIPageControl : UIControl {
 
-    @"NSMutableArray" _indicators;
+    NSMutableArray _indicators;
     long long _currentPage;
     long long _displayedPage;
     {?="hideForSinglePage"b1"defersCurrentPageDisplay"b1} _pageControlFlags;
-    @"UIImage" _currentPageImage;
-    @"UIImage" _pageImage;
+    UIImage _currentPageImage;
+    UIImage _pageImage;
     long long _lastUserInterfaceIdiom;
-    @"UIColor" _currentPageIndicatorTintColor;
-    @"UIColor" _pageIndicatorTintColor;
-    @"_UILegibilitySettings" _legibilitySettings;
+    UIColor _currentPageIndicatorTintColor;
+    UIColor _pageIndicatorTintColor;
+    _UILegibilitySettings _legibilitySettings;
 }
 
  - (void) dealloc;

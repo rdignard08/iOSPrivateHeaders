@@ -1,8 +1,8 @@
 
 @interface _UICalloutBarSystemButtonDescription : NSObject {
 
-    @"NSString" m_title;
-    @"UIImage" m_image;
+    NSString m_title;
+    UIImage m_image;
     SEL m_action;
     int m_type;
     @? m_configurationBlock;

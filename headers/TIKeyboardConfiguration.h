@@ -3,10 +3,10 @@
 @interface TIKeyboardConfiguration : NSObject <NSSecureCoding> {
 
     BOOL _assertDefaultKeyPlane;
-    @"TIKeyboardInputManagerState" _inputManagerState;
-    @"TIKeyboardIntermediateText" _intermediateText;
-    @"NSString" _layoutTag;
-    @"NSString" _accentKeyString;
+    TIKeyboardInputManagerState _inputManagerState;
+    TIKeyboardIntermediateText _intermediateText;
+    NSString _layoutTag;
+    NSString _accentKeyString;
 }
 @property (nonatomic, copy, readwrite) TIKeyboardInputManagerState* inputManagerState;
 @property (nonatomic, retain, readwrite) TIKeyboardIntermediateText* intermediateText;

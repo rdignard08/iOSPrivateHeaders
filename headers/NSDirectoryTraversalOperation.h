@@ -2,15 +2,15 @@
 @interface NSDirectoryTraversalOperation : NSOperation {
 
     id _delegate;
-    @"NSString" _sourcePath;
-    @"NSError" _error;
+    NSString _sourcePath;
+    NSError _error;
     ^v _stream;
     int _optionsFlags;
     int _lastDeviceInode;
     BOOL _shouldFilterUnderbars;
     BOOL _stopped;
-    @"NSMutableArray" _deviceEntryPoints;
-    @"NSMutableArray" _deviceNumbers;
+    NSMutableArray _deviceEntryPoints;
+    NSMutableArray _deviceNumbers;
 }
  + (BOOL) _needsStatInfo;
  + (id) _errorWithErrno:(int)aatPath:(id)b;

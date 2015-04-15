@@ -3,9 +3,9 @@
 @interface UIKeyboardCandidateRowViewController : UIViewController <UIKeyboardCandidateList, UICollectionViewDelegate, UICollectionViewDataSource> {
 
     BOOL _showsHiddenCandidates;
-    @"<UIKeyboardCandidateRowViewControllerDelegate>" _delegate;
-    @"<UIKeyboardCandidateListDelegate>" _candidateListDelegate;
-    @"TIKeyboardCandidateResultSet" _candidateSet;
+    <UIKeyboardCandidateRowViewControllerDelegate> _delegate;
+    <UIKeyboardCandidateListDelegate> _candidateListDelegate;
+    TIKeyboardCandidateResultSet _candidateSet;
     Class _cellClass;
 }
  + (double) suggestedHeightForCellClass:(Class)a;

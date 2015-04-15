@@ -1,7 +1,7 @@
 
 @interface UIScrollViewDelayedTouchesBeganGestureRecognizer : UIGestureRecognizer {
 
-    @"UIDelayedAction" _touchDelay;
+    UIDelayedAction _touchDelay;
     {CGPoint="x"d"y"d} _startSceneReferenceLocation;
 }
 

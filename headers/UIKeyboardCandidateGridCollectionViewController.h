@@ -11,15 +11,15 @@
     BOOL _secondaryCandidatesViewIsCurrent;
     BOOL __usesDeemphasizedTextAppearance;
     int _candidatesVisualStyle;
-    @"<UIKeyboardCandidateGridCollectionViewControllerDelegate>" _delegate;
-    @"<UIKeyboardCandidateListDelegate>" _candidateListDelegate;
-    @"TIKeyboardCandidateResultSet" _candidateSet;
-    @"NSArray" _candidateGroups;
+    <UIKeyboardCandidateGridCollectionViewControllerDelegate> _delegate;
+    <UIKeyboardCandidateListDelegate> _candidateListDelegate;
+    TIKeyboardCandidateResultSet _candidateSet;
+    NSArray _candidateGroups;
     double _rowHeight;
     {?="idiom"b6"landscape"b1"split"b1"appearance"b8"rendering"b16} _visualStyling;
-    @"UIButton" _padInlineFloatingArrowButton;
-    @"UIView" _headerView;
-    @"UIKBCandidateCollectionView" _secondaryCandidatesView;
+    UIButton _padInlineFloatingArrowButton;
+    UIView _headerView;
+    UIKBCandidateCollectionView _secondaryCandidatesView;
     double _groupBarWidth;
 }
 

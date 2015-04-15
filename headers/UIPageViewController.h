@@ -2,21 +2,21 @@
 @protocol UIGestureRecognizerDelegate, _UIQueuingScrollViewDelegate, _UIQueuingScrollViewDataSource;
 @interface UIPageViewController : UIViewController <UIGestureRecognizerDelegate, _UIQueuingScrollViewDelegate, _UIQueuingScrollViewDataSource> {
 
-    @"<UIPageViewControllerDelegate>" _delegate;
-    @"<UIPageViewControllerDataSource>" _dataSource;
+    <UIPageViewControllerDelegate> _delegate;
+    <UIPageViewControllerDataSource> _dataSource;
     long long _transitionStyle;
     long long _navigationOrientation;
     long long _spineLocation;
     BOOL _doubleSided;
     BOOL _pageControlRequiresValidation;
-    @"NSArray" _viewControllers;
-    @"_UIPageCurl" _pageCurl;
-    @"UIPanGestureRecognizer" _panGestureRecognizer;
-    @"UITapGestureRecognizer" _tapGestureRecognizer;
+    NSArray _viewControllers;
+    _UIPageCurl _pageCurl;
+    UIPanGestureRecognizer _panGestureRecognizer;
+    UITapGestureRecognizer _tapGestureRecognizer;
     BOOL _stashingViewControllersForRotation;
-    @"NSArray" _viewControllersStashedForRotation;
+    NSArray _viewControllersStashedForRotation;
     BOOL _interfaceRotating;
-    @"NSMutableArray" _rotationSnapshotViews;
+    NSMutableArray _rotationSnapshotViews;
     long long _spineLocationPriorToInterfaceRotation;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _tapRegionInsets;
     {CGSize="width"d"height"d} _tapRegionBreadths;
@@ -24,9 +24,9 @@
     {CGSize="width"d"height"d} _effectiveTapRegionBreadths;
     ^{CGRect={CGPoint=dd}{CGSize=dd}} _tapRegions;
     double _pageSpacing;
-    @"NSMutableDictionary" _cachedViewControllersForCurl;
-    @"NSMutableArray" _cachedViewControllersForScroll;
-    @"NSDictionary" _incomingAndOutgoingViewControllersForManualTransition;
+    NSMutableDictionary _cachedViewControllersForCurl;
+    NSMutableArray _cachedViewControllersForScroll;
+    NSDictionary _incomingAndOutgoingViewControllersForManualTransition;
     long long _lastKnownNavigationDirection;
     long long _disableAutorotationCount;
     {?="delegateWantsTransitionWillBegin"b1"delegateWantsTransitionCompleted"b1"delegateWantsTransitionsFinished"b1"delegateCustomizesSpineLocationForInterfaceOrientation"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"dataSourceSuppliesBeforeViewController"b1"dataSourceSuppliesAfterViewController"b1"dataSourceSuppliesPageCount"b1"dataSourceSuppliesPageNumber"b1} _delegateFlags;

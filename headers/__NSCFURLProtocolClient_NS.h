@@ -4,7 +4,7 @@
 
     ^{URLProtocolClient=^^?} _cf;
     ^{URLProtocol=^^?^^?^{CoreSchedulingSet}dCCCCCCCCqqqCiq@^{URLProtocolClient}^{_CFCachedURLResponse}} _prot;
-    @"NSURLAuthenticationChallenge" _challenge;
+    NSURLAuthenticationChallenge _challenge;
     ^{_CFURLAuthChallenge=} _cfChallenge;
 }
 

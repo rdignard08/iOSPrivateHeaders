@@ -1,8 +1,8 @@
 
 @interface NSTextAlternatives : NSObject {
 
-    @"NSString" _primaryString;
-    @"NSArray" _alternativeStrings;
+    NSString _primaryString;
+    NSArray _alternativeStrings;
     id _internal;
 }
 @property (atomic, assign, readonly) NSString* primaryString;

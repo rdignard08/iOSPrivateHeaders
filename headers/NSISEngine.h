@@ -2,20 +2,20 @@
 @protocol NSISVariableDelegate;
 @interface NSISEngine : NSObject <NSISVariableDelegate> {
 
-    @"NSMapTable" _rows;
-    @"NSMapTable" _rowsCrossIndex;
-    @"NSISVariable" _headForObjectiveRow;
-    @"NSMutableArray" _variablesWithValueRestrictionViolations;
-    @"NSMutableArray" _pendingRemovals;
-    @"<NSISEngineDelegate>" _delegate;
-    @"NSMapTable" _brokenConstraintPositiveErrors;
-    @"NSMapTable" _brokenConstraintNegativeErrors;
-    @"NSMutableSet" _variablesWithIntegralizationViolations;
+    NSMapTable _rows;
+    NSMapTable _rowsCrossIndex;
+    NSISVariable _headForObjectiveRow;
+    NSMutableArray _variablesWithValueRestrictionViolations;
+    NSMutableArray _pendingRemovals;
+    <NSISEngineDelegate> _delegate;
+    NSMapTable _brokenConstraintPositiveErrors;
+    NSMapTable _brokenConstraintNegativeErrors;
+    NSMutableSet _variablesWithIntegralizationViolations;
     ^{__CFDictionary=} _integralizationAdjustmentsForConstraintMarkers;
     @? _unsatisfiabilityHandler;
     unsigned long long _pivotCount;
     {CGSize="width"d"height"d} _engineScalingCoefficients;
-    @"NSMutableDictionary" _recordedOperations;
+    NSMutableDictionary _recordedOperations;
     int _automaticOptimizationDisabledCount;
     int _engineDelegateCallsDisabledCount;
     int _variableDelegateCallsDisabledCount;

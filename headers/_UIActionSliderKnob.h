@@ -1,7 +1,7 @@
 
 @interface _UIActionSliderKnob : UIView {
 
-    @"UIColor" _knobColor;
+    UIColor _knobColor;
 }
 
  - (id) knobColor;

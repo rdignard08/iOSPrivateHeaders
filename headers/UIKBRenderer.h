@@ -8,8 +8,8 @@
     ^{CGContext=} _ctx;
     double _scale;
     long long _renderFlags;
-    @"NSString" _cacheKey;
-    @"UIImage" _renderedImage;
+    NSString _cacheKey;
+    UIImage _renderedImage;
     {CGSize="width"d"height"d} _size;
 }
 @property (nonatomic, assign, readonly) NSNumber* context;

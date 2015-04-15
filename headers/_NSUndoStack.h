@@ -4,7 +4,7 @@
     unsigned long long _max;
     unsigned long long _count;
     unsigned long long _nestingLevel;
-    @"_NSUndoObject" _head;
+    _NSUndoObject _head;
 }
 
  - (id) topUndoObject;

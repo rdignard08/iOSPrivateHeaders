@@ -1,7 +1,7 @@
 
 @interface UIMutableUserNotificationCategory : UIUserNotificationCategory {
 
-    @"NSString" identifier;
+    NSString identifier;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;

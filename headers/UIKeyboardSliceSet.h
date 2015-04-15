@@ -1,14 +1,14 @@
 
 @interface UIKeyboardSliceSet : NSObject {
 
-    @"NSString" _ssid;
-    @"NSMutableSet" _slices;
+    NSString _ssid;
+    NSMutableSet _slices;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _startRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _endRect;
     double _leftWidth;
     double _rightWidth;
     double _mergePoint;
-    @"NSMutableDictionary" _controlKeys;
+    NSMutableDictionary _controlKeys;
 }
 @property (atomic, assign, readonly) NSMutableSet* slices;
 @property (atomic, retain, readwrite) NSString* sliceSetID;

@@ -2,16 +2,16 @@
 @protocol BSLogging;
 @interface BSFileLogger : NSObject <BSLogging> {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"NSString" _logPath;
-    @"NSMutableArray" _recentLogs;
-    @"NSMutableSet" _enabledCategories;
-    @"NSDateFormatter" _memoryLogDateFormatter;
+    NSObject<OS_dispatch_queue> _queue;
+    NSString _logPath;
+    NSMutableArray _recentLogs;
+    NSMutableSet _enabledCategories;
+    NSDateFormatter _memoryLogDateFormatter;
     BOOL _enabledByPreference;
-    @"<BSFileLoggerDelegate>" _delegate;
+    <BSFileLoggerDelegate> _delegate;
 }
 @property (nonatomic, assign, readonly) NSString* name;
-@property (nonatomic, assign, readonly, isEnabled) NSNumber* enabled;
+@property (nonatomic, assign, readonly, getter=isEnabled) NSNumber* enabled;
 @property (nonatomic, retain, readonly) NSNumber* queue;
 @property (nonatomic, assign, readonly) NSString* logPath;
 @property (nonatomic, assign, readonly) NSNumber* logDestinations;

@@ -1,7 +1,7 @@
 
 @interface CIPDF417BarcodeGenerator : CICodeGenerator {
 
-    @"NSDictionary" inputOptions;
+    NSDictionary inputOptions;
 }
  + (id) customAttributes;
 

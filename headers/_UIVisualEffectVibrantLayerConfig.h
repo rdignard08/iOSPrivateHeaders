@@ -1,8 +1,8 @@
 
 @interface _UIVisualEffectVibrantLayerConfig : _UIVisualEffectLayerConfig {
 
-    @"UIColor" _vibrantColor;
-    @"UIColor" _tintColor;
+    UIColor _vibrantColor;
+    UIColor _tintColor;
 }
  + (id) layerWithVibrantColor:(id)atintColor:(id)bfilterType:(id)c;
 

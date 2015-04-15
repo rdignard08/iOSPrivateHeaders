@@ -1,8 +1,8 @@
 
 @interface BSActionListener : BSBaseXPCServer {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"NSMapTable" _queue_portToContextMap;
+    NSObject<OS_dispatch_queue> _queue;
+    NSMapTable _queue_portToContextMap;
 }
 
  - (void) dealloc;

@@ -1,10 +1,10 @@
 
 @interface UIKeyboardCandidateGridHeader : UIView {
 
-    @"UILabel" _inlineTextLabel;
+    UILabel _inlineTextLabel;
     double _inlineTextRightMargin;
-    @"UIButton" _toggleButton;
-    @"UIKBBackdropView" _backdropView;
+    UIButton _toggleButton;
+    UIKBBackdropView _backdropView;
 }
 
  - (void) dealloc;

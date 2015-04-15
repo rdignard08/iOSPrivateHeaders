@@ -1,7 +1,7 @@
 
 @interface UIAlertLabeledButton : UIAlertButton {
 
-    @"UILabel" _typeLabel;
+    UILabel _typeLabel;
     double _titleOffset;
 }
 

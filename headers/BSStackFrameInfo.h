@@ -1,11 +1,11 @@
 
 @interface BSStackFrameInfo : NSObject {
 
-    @"NSString" _realFunctionName;
+    NSString _realFunctionName;
     unsigned long long _address;
-    @"NSString" _functionName;
-    @"NSString" _executableName;
-    @"NSString" _className;
+    NSString _functionName;
+    NSString _executableName;
+    NSString _className;
 }
 @property (nonatomic, assign, readonly) NSNumber* address;
 @property (nonatomic, retain, readonly) NSString* functionName;

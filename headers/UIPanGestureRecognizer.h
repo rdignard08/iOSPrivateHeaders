@@ -6,7 +6,7 @@
     double _lastTouchTime;
     id _velocitySample;
     id _previousVelocitySample;
-    @"NSMutableArray" _touches;
+    NSMutableArray _touches;
     unsigned long long _lastTouchCount;
     unsigned long long _minimumNumberOfTouches;
     unsigned long long _maximumNumberOfTouches;
@@ -16,7 +16,7 @@
     b1 _canPanHorizontally;
     b1 _canPanVertically;
     b1 _ignoresStationaryTouches;
-    @"NSMutableArray" _movingTouches;
+    NSMutableArray _movingTouches;
     {CGPoint="x"d"y"d} _digitizerLocation;
 }
  + (void) _setPanGestureRecognizersEnabled:(BOOL)a;

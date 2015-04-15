@@ -1,10 +1,10 @@
 
 @interface _UIAlertControllerTextFieldViewController : UITableViewController {
 
-    @"NSMutableArray" textFieldViews;
-    @"NSMutableArray" textFields;
+    NSMutableArray textFieldViews;
+    NSMutableArray textFields;
     BOOL _textFieldsCanBecomeFirstResponder;
-    @"<_UIAlertControllerTextFieldViewControllerContaining>" _container;
+    <_UIAlertControllerTextFieldViewControllerContaining> _container;
 }
 
  - (void) dealloc;

@@ -2,7 +2,7 @@
 @protocol BSXPCCoding;
 @interface FBSSceneClientSettingsDiff : NSObject <BSXPCCoding> {
 
-    @"BSMutableSettings" _changes;
+    BSMutableSettings _changes;
 }
  + (id) diffFromSettings:(id)atoSettings:(id)b;
 

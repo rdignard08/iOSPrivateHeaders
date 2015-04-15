@@ -1,7 +1,7 @@
 
 @interface CIConstantColorGenerator : CIFilter {
 
-    @"CIColor" inputColor;
+    CIColor inputColor;
 }
  + (id) customAttributes;
 

@@ -1,8 +1,8 @@
 
 @interface UILongPressGestureRecognizer : UIGestureRecognizer {
 
-    @"NSArray" _touches;
-    @"NSMutableSet" _activeTouches;
+    NSArray _touches;
+    NSMutableSet _activeTouches;
     unsigned long long _numberOfTouchesRequired;
     double _minimumPressDuration;
     double _allowableMovement;

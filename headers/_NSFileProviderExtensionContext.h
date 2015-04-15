@@ -2,7 +2,7 @@
 @protocol _NSFileProviderVendor;
 @interface _NSFileProviderExtensionContext : NSExtensionContext <_NSFileProviderVendor> {
 
-    @"NSFileProviderExtension" _principalInstance;
+    NSFileProviderExtension _principalInstance;
 }
  + (id) _extensionAuxiliaryHostProtocol;
  + (id) _extensionAuxiliaryVendorProtocol;

@@ -163,10 +163,12 @@ void indent_n_times(const char* indent, long count, FILE* file) {
                     fputs([propertyDecl[kRGPropertyAccess] UTF8String], output);
                     if (propertyDecl[kRGPropertyGetter]) {
                         fputs(protocol_sep, output);
+                        fputs("getter=", output);
                         fputs([propertyDecl[kRGPropertyGetter] UTF8String], output);
                     }
                     if (propertyDecl[kRGPropertySetter]) {
                         fputs(protocol_sep, output);
+                        fputs("setter=", output);
                         fputs([propertyDecl[kRGPropertySetter] UTF8String], output);
                     }
                     fputs(property_attr_end, output);
@@ -299,6 +301,13 @@ void indent_n_times(const char* indent, long count, FILE* file) {
                 return "SEL";
             case '?':
                 return "void*";
+        }
+    }
+    if (encoding) {
+        NSString* string = [NSString stringWithUTF8String:encoding];
+        NSArray* components = [string componentsSeparatedByString:@"\""];
+        if (components.count == 3) {
+            return [components[1] UTF8String];
         }
     }
     return encoding;

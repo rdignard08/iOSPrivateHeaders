@@ -2,8 +2,8 @@
 @interface _CPPowerAssertion : NSObject {
 
     double _timeout;
-    @"NSString" _identifier;
-    @"NSArray" _stack;
+    NSString _identifier;
+    NSArray _stack;
 }
 @property (nonatomic, assign, readwrite) NSNumber* timeout;
 

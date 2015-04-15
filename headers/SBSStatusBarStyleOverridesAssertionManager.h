@@ -2,9 +2,9 @@
 @protocol SBSStatusBarStyleOverridesAssertionClient;
 @interface SBSStatusBarStyleOverridesAssertionManager : NSObject <SBSStatusBarStyleOverridesAssertionClient> {
 
-    @"NSHashTable" _assertions;
-    @"NSXPCConnection" _sbXPCConnection;
-    @"NSObject<OS_dispatch_queue>" _internalQueue;
+    NSHashTable _assertions;
+    NSXPCConnection _sbXPCConnection;
+    NSObject<OS_dispatch_queue> _internalQueue;
 }
 @property (nonatomic, retain, readwrite) NSHashTable* assertions;
 @property (nonatomic, retain, readwrite) NSXPCConnection* sbXPCConnection;

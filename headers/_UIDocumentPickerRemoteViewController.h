@@ -2,10 +2,10 @@
 @protocol _UIDocumentPickerViewControllerHost, _UIDocumentPickerServiceInvalidating;
 @interface _UIDocumentPickerRemoteViewController : _UIRemoteViewController <_UIDocumentPickerViewControllerHost, _UIDocumentPickerServiceInvalidating> {
 
-    @"UIViewController<_UIDocumentPickerRemoteViewControllerContaining>" _publicController;
-    @"NSString" _identifier;
-    @"NSExtension" _extension;
-    @"<NSCopying><NSObject>" _extensionRequestIdentifier;
+    UIViewController<_UIDocumentPickerRemoteViewControllerContaining> _publicController;
+    NSString _identifier;
+    NSExtension _extension;
+    <NSCopying><NSObject> _extensionRequestIdentifier;
 }
  + (id) exportedInterface;
  + (id) serviceViewControllerInterface;

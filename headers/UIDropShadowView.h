@@ -2,9 +2,9 @@
 @interface UIDropShadowView : UIView {
 
     double _cornerRadius;
-    @"UIView" _contentView;
-    @"UIView" _backgroundImage;
-    @"NSDictionary" _preservedLayerValues;
+    UIView _contentView;
+    UIView _backgroundImage;
+    NSDictionary _preservedLayerValues;
 }
 
  - (void) dealloc;

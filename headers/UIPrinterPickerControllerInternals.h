@@ -1,7 +1,7 @@
 
 @interface UIPrinterPickerControllerInternals : NSObject {
 
-    @"UIPrinterPickerViewController" _printerPickerViewController;
+    UIPrinterPickerViewController _printerPickerViewController;
     BOOL _supressNotifyDismissed;
 }
 

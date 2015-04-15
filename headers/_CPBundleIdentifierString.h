@@ -1,8 +1,8 @@
 
 @interface _CPBundleIdentifierString : NSString {
 
-    @"NSString" _executablePath;
-    @"NSString" _bundleIdentifierOrProcessName;
+    NSString _executablePath;
+    NSString _bundleIdentifierOrProcessName;
     BOOL _isProcessName;
 }
 

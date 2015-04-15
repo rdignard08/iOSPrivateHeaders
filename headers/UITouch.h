@@ -8,11 +8,11 @@
     long long _savedPhase;
     unsigned long long _tapCount;
     long long _edgeType;
-    @"UIWindow" _window;
-    @"UIView" _view;
-    @"UIView" _warpedIntoView;
-    @"NSMutableArray" _gestureRecognizers;
-    @"NSMutableArray" _forwardingRecord;
+    UIWindow _window;
+    UIView _view;
+    UIView _warpedIntoView;
+    NSMutableArray _gestureRecognizers;
+    NSMutableArray _forwardingRecord;
     {CGPoint="x"d"y"d} _locationInWindow;
     {CGPoint="x"d"y"d} _previousLocationInWindow;
     double _previousPressure;
@@ -23,8 +23,8 @@
     double _pressure;
     {?="_firstTouchForView"b1"_isTap"b1"_isDelayed"b1"_sentTouchesEnded"b1"_abandonForwardingRecord"b1} _touchFlags;
     BOOL _eaten;
-    @"<_UITouchPhaseChangeDelegate>" __phaseChangeDelegate;
-    @"UIWindow" __windowServerHitTestWindow;
+    <_UITouchPhaseChangeDelegate> __phaseChangeDelegate;
+    UIWindow __windowServerHitTestWindow;
     {CGSize="width"d"height"d} _displacement;
 }
 @property (nonatomic, assign, readwrite) NSNumber* timestamp;
@@ -37,8 +37,8 @@
 @property (nonatomic, retain, readwrite) UIWindow* window;
 @property (nonatomic, retain, readwrite) UIView* view;
 @property (nonatomic, retain, readwrite) UIView* warpedIntoView;
-@property (nonatomic, assign, readwrite, _setForwardablePhase:) NSNumber* _forwardablePhase;
-@property (nonatomic, retain, readwrite, _setResponder:) UIResponder* _responder;
+@property (nonatomic, assign, readwrite, setter=_setForwardablePhase:) NSNumber* _forwardablePhase;
+@property (nonatomic, retain, readwrite, setter=_setResponder:) UIResponder* _responder;
 @property (nonatomic, assign, readonly) NSNumber* timestamp;
 @property (nonatomic, assign, readonly) NSNumber* phase;
 @property (nonatomic, assign, readonly) NSNumber* tapCount;
@@ -47,14 +47,14 @@
 @property (nonatomic, retain, readonly) UIWindow* window;
 @property (nonatomic, retain, readonly) UIView* view;
 @property (nonatomic, copy, readonly) NSArray* gestureRecognizers;
-@property (nonatomic, assign, readwrite, _setPathIndex:) NSNumber* _pathIndex;
-@property (nonatomic, assign, readwrite, _setPathIdentity:) NSNumber* _pathIdentity;
+@property (nonatomic, assign, readwrite, setter=_setPathIndex:) NSNumber* _pathIndex;
+@property (nonatomic, assign, readwrite, setter=_setPathIdentity:) NSNumber* _pathIdentity;
 @property (nonatomic, assign, readonly) NSNumber* _pressure;
-@property (nonatomic, assign, readwrite, _setEdgeType:) NSNumber* _edgeType;
-@property (nonatomic, assign, readwrite, _isEaten, _setEaten:) NSNumber* _eaten;
-@property (nonatomic, assign, readwrite, _setDisplacement:) NSNumber* _displacement;
-@property (nonatomic, retain, readwrite, _setPhaseChangeDelegate:) NSNumber* _phaseChangeDelegate;
-@property (nonatomic, retain, readwrite, _setWindowServerHitTestWindow:) UIWindow* _windowServerHitTestWindow;
+@property (nonatomic, assign, readwrite, setter=_setEdgeType:) NSNumber* _edgeType;
+@property (nonatomic, assign, readwrite, getter=_isEaten, setter=_setEaten:) NSNumber* _eaten;
+@property (nonatomic, assign, readwrite, setter=_setDisplacement:) NSNumber* _displacement;
+@property (nonatomic, retain, readwrite, setter=_setPhaseChangeDelegate:) NSNumber* _phaseChangeDelegate;
+@property (nonatomic, retain, readwrite, setter=_setWindowServerHitTestWindow:) UIWindow* _windowServerHitTestWindow;
  + (id) _createTouchesWithGSEvent:(^{__GSEvent=})aphase:(long long)bview:(id)c;
 
  - (id) description;

@@ -3,8 +3,8 @@
 
     int _cornerStyle;
     int _cornerAlignment;
-    @"UIView" _leftCorner;
-    @"UIView" _rightCorner;
+    UIView _leftCorner;
+    UIView _rightCorner;
 }
  + (double) cornerRadius;
 

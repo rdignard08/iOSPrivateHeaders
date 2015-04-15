@@ -1,13 +1,13 @@
 
 @interface UIWindowController : NSObject {
 
-    @"UITransitionView" _transitionView;
-    @"UIWindow" _window;
+    UITransitionView _transitionView;
+    UIWindow _window;
     int _currentTransition;
     id _target;
     SEL _didEndSelector;
-    @"UIViewController" _fromViewController;
-    @"UIViewController" _toViewController;
+    UIViewController _fromViewController;
+    UIViewController _toViewController;
     {CGPoint="x"d"y"d} _beginOriginForToView;
     {CGPoint="x"d"y"d} _endOriginForToView;
     BOOL _presenting;
@@ -15,15 +15,15 @@
     BOOL _needsDidAppear;
     BOOL _needsDidDisappear;
     BOOL __interactiveTransition;
-    @"<UIViewControllerAnimatedTransitioning>" _transitionController;
-    @"<UIViewControllerInteractiveTransitioning>" _interactionController;
+    <UIViewControllerAnimatedTransitioning> _transitionController;
+    <UIViewControllerInteractiveTransitioning> _interactionController;
 }
 @property (nonatomic, assign, readwrite) UIWindow* window;
 @property (nonatomic, assign, readonly) UITransitionView* transitionView;
 @property (nonatomic, assign, readwrite) NSNumber* presenting;
-@property (nonatomic, retain, readwrite, _setTransitionController:) NSNumber* _transitionController;
-@property (nonatomic, retain, readwrite, _setInteractionController:) NSNumber* _interactionController;
-@property (nonatomic, assign, readwrite, _isInteractiveTransition, _setInteractiveTransition:) NSNumber* _interactiveTransition;
+@property (nonatomic, retain, readwrite, setter=_setTransitionController:) NSNumber* _transitionController;
+@property (nonatomic, retain, readwrite, setter=_setInteractionController:) NSNumber* _interactionController;
+@property (nonatomic, assign, readwrite, getter=_isInteractiveTransition, setter=_setInteractiveTransition:) NSNumber* _interactiveTransition;
  + (void) windowWillBeDeallocated:(id)a;
  + (id) windowControllerForWindow:(id)a;
 

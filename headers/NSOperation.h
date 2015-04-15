@@ -6,12 +6,12 @@
     int _private1b;
 }
 @property (nonatomic, assign, readwrite) NSNumber* tag;
-@property (atomic, assign, readonly, isCancelled) NSNumber* cancelled;
-@property (atomic, assign, readonly, isExecuting) NSNumber* executing;
-@property (atomic, assign, readonly, isFinished) NSNumber* finished;
-@property (atomic, assign, readonly, isConcurrent) NSNumber* concurrent;
-@property (atomic, assign, readonly, isAsynchronous) NSNumber* asynchronous;
-@property (atomic, assign, readonly, isReady) NSNumber* ready;
+@property (atomic, assign, readonly, getter=isCancelled) NSNumber* cancelled;
+@property (atomic, assign, readonly, getter=isExecuting) NSNumber* executing;
+@property (atomic, assign, readonly, getter=isFinished) NSNumber* finished;
+@property (atomic, assign, readonly, getter=isConcurrent) NSNumber* concurrent;
+@property (atomic, assign, readonly, getter=isAsynchronous) NSNumber* asynchronous;
+@property (atomic, assign, readonly, getter=isReady) NSNumber* ready;
 @property (atomic, copy, readonly) NSArray* dependencies;
 @property (atomic, assign, readwrite) NSNumber* queuePriority;
 @property (atomic, copy, readwrite) NSNumber* completionBlock;

@@ -3,9 +3,9 @@
 @interface NSItemProvider : NSObject <NSSecureCoding, NSCopying> {
 
     @? __previewImageHandler;
-    @"NSDictionary" _userInfo;
-    @"<_NSItemProviderLoading>" __loadOperator;
-    @"NSMutableDictionary" __loadHandlers;
+    NSDictionary _userInfo;
+    <_NSItemProviderLoading> __loadOperator;
+    NSMutableDictionary __loadHandlers;
 }
 @property (nonatomic, copy, readwrite) NSNumber* previewImageHandler;
 @property (nonatomic, copy, readonly) NSArray* registeredTypeIdentifiers;

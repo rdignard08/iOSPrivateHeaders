@@ -1,9 +1,9 @@
 
 @interface BSActionListenerController : NSObject {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
+    NSObject<OS_dispatch_queue> _queue;
     unsigned long long _transactionCount;
-    @"BSActionListener" _listener;
+    BSActionListener _listener;
     unsigned int _listenerCount;
     unsigned int _listenerTearDownToken;
 }

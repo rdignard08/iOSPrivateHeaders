@@ -1,11 +1,11 @@
 
 @interface UIDatePickerWeekMonthDayView : UIView {
 
-    {?="weekdayLast"b1} _datePickerWeekMonthDayViewFlags;
+    weekdayLast _datePickerWeekMonthDayViewFlags;
     BOOL _isModern;
-    @"UILabel" _dateLabel;
-    @"UILabel" _weekdayLabel;
-    @"NSString" _formattedDateString;
+    UILabel _dateLabel;
+    UILabel _weekdayLabel;
+    NSString _formattedDateString;
     double _weekdayWidth;
 }
 

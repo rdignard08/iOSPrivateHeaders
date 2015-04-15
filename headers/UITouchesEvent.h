@@ -1,11 +1,11 @@
 
 @interface UITouchesEvent : UIInternalEvent {
 
-    @"NSMutableSet" _touches;
+    NSMutableSet _touches;
     ^{__CFDictionary=} _keyedTouches;
     ^{__CFDictionary=} _keyedTouchesByWindow;
     ^{__CFDictionary=} _gestureRecognizersByWindow;
-    @"NSMapTable" _latentSystemGestureWindows;
+    NSMapTable _latentSystemGestureWindows;
 }
 
  - (id) _init;

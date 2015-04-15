@@ -2,8 +2,8 @@
 @protocol UICollectionViewDelegate, UICollectionViewDataSource;
 @interface UICollectionViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource> {
 
-    @"UICollectionViewLayout" _layout;
-    @"UICollectionView" _collectionView;
+    UICollectionViewLayout _layout;
+    UICollectionView _collectionView;
     {?="clearsSelectionOnViewWillAppear"b1"useLayoutToLayoutNavigationTransitions"b1} _collectionViewControllerFlags;
 }
 

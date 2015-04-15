@@ -1,9 +1,9 @@
 
 @interface NSTernaryExpression : NSExpression {
 
-    @"NSPredicate" _predicate;
-    @"NSExpression" _trueExpression;
-    @"NSExpression" _falseExpression;
+    NSPredicate _predicate;
+    NSExpression _trueExpression;
+    NSExpression _falseExpression;
 }
  + (BOOL) supportsSecureCoding;
 

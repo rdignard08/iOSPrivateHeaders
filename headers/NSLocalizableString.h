@@ -1,8 +1,8 @@
 
 @interface NSLocalizableString : NSString {
 
-    @"NSString" _stringsFileKey;
-    @"NSString" _developmentLanguageString;
+    NSString _stringsFileKey;
+    NSString _developmentLanguageString;
 }
  + (id) localizableStringWithStringsFileKey:(id)adevelopmentLanguageString:(id)b;
 

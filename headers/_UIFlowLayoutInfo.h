@@ -1,7 +1,7 @@
 
 @interface _UIFlowLayoutInfo : NSObject {
 
-    @"NSMutableArray" _sections;
+    NSMutableArray _sections;
     BOOL _useFloatingHeaderFooter;
     BOOL _horizontal;
     BOOL _leftToRight;
@@ -10,7 +10,7 @@
     double _dimension;
     BOOL _isValid;
     {?="commonRowHorizontalAlignment"i"lastRowHorizontalAlignment"i"rowVerticalAlignment"i} _rowAlignmentOptions;
-    @"UICollectionViewFlowLayout" _layout;
+    UICollectionViewFlowLayout _layout;
     BOOL _usesFloatingHeaderFooter;
     BOOL _estimatesSizes;
     {CGSize="width"d"height"d} _contentSize;

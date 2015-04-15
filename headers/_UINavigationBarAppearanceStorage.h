@@ -1,20 +1,20 @@
 
 @interface _UINavigationBarAppearanceStorage : _UIBarAppearanceStorage {
 
-    @"NSDictionary" textAttributes;
-    @"NSMutableDictionary" titleVerticalAdjustmentsForBarMetrics;
-    @"UIImage" shadowImage;
+    NSDictionary textAttributes;
+    NSMutableDictionary titleVerticalAdjustmentsForBarMetrics;
+    UIImage shadowImage;
     BOOL hidesShadow;
     long long barMetrics;
-    @"UIImage" backIndicatorImage;
-    @"UIImage" backIndicatorTransitionMaskImage;
-    @"NSNumber" backIndicatorLeftMargin;
+    UIImage backIndicatorImage;
+    UIImage backIndicatorTransitionMaskImage;
+    NSNumber backIndicatorLeftMargin;
     BOOL reversesShadowOffset;
-    @"_UIBarButtonItemAppearanceStorage" buttonAppearanceStorage;
+    _UIBarButtonItemAppearanceStorage buttonAppearanceStorage;
     BOOL _deferShadowToSearchBar;
     long long defaultBarMetrics;
     long long activeBarMetrics;
-    @"NSString" _backdropViewGroupName;
+    NSString _backdropViewGroupName;
 }
  + (long long) typicalBarPosition;
 

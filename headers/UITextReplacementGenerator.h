@@ -1,8 +1,8 @@
 
 @interface UITextReplacementGenerator : NSObject {
 
-    @"UITextRange" _replacementRange;
-    @"NSString" _stringToReplace;
+    UITextRange _replacementRange;
+    NSString _stringToReplace;
 }
 @property (nonatomic, retain, readwrite) UITextRange* replacementRange;
 @property (nonatomic, copy, readwrite) NSString* stringToReplace;

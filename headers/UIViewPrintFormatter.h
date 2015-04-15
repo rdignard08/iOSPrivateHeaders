@@ -1,7 +1,7 @@
 
 @interface UIViewPrintFormatter : UIPrintFormatter {
 
-    @"UIView" _view;
+    UIView _view;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;

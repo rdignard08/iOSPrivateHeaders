@@ -1,7 +1,7 @@
 
 @interface BSXPCReply : NSObject {
 
-    @"NSObject<OS_xpc_object>" _message;
+    NSObject<OS_xpc_object> _message;
 }
  + (id) messageWithReply:(id)a;
 

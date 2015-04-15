@@ -1,9 +1,9 @@
 
 @interface UIMarkupTextPrintFormatter : UIPrintFormatter {
 
-    @"UIWebDocumentView" _webDocumentView;
-    @"UIWebPaginationInfo" _paginationInfo;
-    @"NSString" _markupText;
+    UIWebDocumentView _webDocumentView;
+    UIWebPaginationInfo _paginationInfo;
+    NSString _markupText;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;

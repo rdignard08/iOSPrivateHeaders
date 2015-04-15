@@ -2,8 +2,8 @@
 @protocol NSTextAttachmentCell;
 @interface UITextAttachmentView : UIView <NSTextAttachmentCell> {
 
-    @"UIImage" _image;
-    @"NSTextAttachment" _attachment;
+    UIImage _image;
+    NSTextAttachment _attachment;
 }
  + (id) viewForData:(id)aofType:(id)b;
  + (id) viewForImage:(id)a;

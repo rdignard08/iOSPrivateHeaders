@@ -2,8 +2,8 @@
 @protocol NSCopying, NSCoding;
 @interface CAStateElement : NSObject <NSCopying, NSCoding> {
 
-    @"CALayer" _target;
-    @"CAStateElement" _source;
+    CALayer _target;
+    CAStateElement _source;
 }
 @property (nonatomic, weak, readwrite) CALayer* target;
 @property (nonatomic, retain, readwrite) CAStateElement* source;

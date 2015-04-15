@@ -1,7 +1,7 @@
 
 @interface NSTextBlockLayoutHelper : NSObject {
 
-    @"NSTextTableBlock" _block;
+    NSTextTableBlock _block;
     {_NSRange="location"Q"length"Q} _charRange;
     {_NSRange="location"Q"length"Q} _glyphRange;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _layoutRect;

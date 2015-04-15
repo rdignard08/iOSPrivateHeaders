@@ -7,7 +7,7 @@
 @property (atomic, assign, readwrite) NSNumber* colorSpace;
 @property (atomic, assign, readonly) NSDictionary* options;
 @property (atomic, assign, readwrite) NSNumber* level;
-@property (atomic, assign, readwrite, isSecure) NSNumber* secure;
+@property (atomic, assign, readwrite, getter=isSecure) NSNumber* secure;
 @property (atomic, assign, readonly) NSNumber* valid;
  + (void) setClientPort:(unsigned int)a;
  + (id) objectForSlot:(unsigned int)a;

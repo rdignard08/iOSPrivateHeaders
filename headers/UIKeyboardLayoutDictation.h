@@ -1,8 +1,8 @@
 
 @interface UIKeyboardLayoutDictation : UIKeyboardLayout {
 
-    @"UIKBBackgroundView" _backgroundView;
-    @"UIKBTree" _keyplane;
+    UIKBBackgroundView _backgroundView;
+    UIKBTree _keyplane;
 }
  + (id) activeInstance;
  + (double) landscapeHeight;

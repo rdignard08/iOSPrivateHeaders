@@ -1,16 +1,16 @@
 
 @interface CIFlashTransition : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIImage" inputTargetImage;
-    @"CIVector" inputCenter;
-    @"CIVector" inputExtent;
-    @"CIColor" inputColor;
-    @"NSNumber" inputTime;
-    @"NSNumber" inputMaxStriationRadius;
-    @"NSNumber" inputStriationStrength;
-    @"NSNumber" inputStriationContrast;
-    @"NSNumber" inputFadeThreshold;
+    CIImage inputImage;
+    CIImage inputTargetImage;
+    CIVector inputCenter;
+    CIVector inputExtent;
+    CIColor inputColor;
+    NSNumber inputTime;
+    NSNumber inputMaxStriationRadius;
+    NSNumber inputStriationStrength;
+    NSNumber inputStriationContrast;
+    NSNumber inputFadeThreshold;
 }
  + (id) customAttributes;
 

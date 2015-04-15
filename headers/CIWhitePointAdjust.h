@@ -1,8 +1,8 @@
 
 @interface CIWhitePointAdjust : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIColor" inputColor;
+    CIImage inputImage;
+    CIColor inputColor;
 }
  + (id) customAttributes;
 

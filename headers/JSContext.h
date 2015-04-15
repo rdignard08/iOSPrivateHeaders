@@ -1,10 +1,10 @@
 
 @interface JSContext : NSObject {
 
-    @"JSVirtualMachine" m_virtualMachine;
+    JSVirtualMachine m_virtualMachine;
     ^{OpaqueJSContext=} m_context;
-    @"JSWrapperMap" m_wrapperMap;
-    {Strong<JSC::JSObject>="m_slot"^{JSValue}} m_exception;
+    JSWrapperMap m_wrapperMap;
+    m_slot m_exception;
     @? exceptionHandler;
 }
 @property (atomic, retain, readonly) JSWrapperMap* wrapperMap;

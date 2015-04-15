@@ -1,16 +1,16 @@
 
 @interface BSBaseXPCClient : NSObject {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"NSObject<OS_xpc_object>" _connection;
-    @"BSSignal" _invalidationSignal;
-    @"NSObject<OS_xpc_object>" _serverEndpoint;
-    @"NSString" _serviceName;
+    NSObject<OS_dispatch_queue> _queue;
+    NSObject<OS_xpc_object> _connection;
+    BSSignal _invalidationSignal;
+    NSObject<OS_xpc_object> _serverEndpoint;
+    NSString _serviceName;
     BOOL _suspended;
     BOOL _clientInvalidated;
     int _notifyToken;
 }
-@property (nonatomic, assign, readonly, isSuspended) NSNumber* suspended;
+@property (nonatomic, assign, readonly, getter=isSuspended) NSNumber* suspended;
 
  - (id) _connection;
  - (void) dealloc;

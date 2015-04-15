@@ -2,10 +2,10 @@
 @interface UIUpdateItem : NSObject {
 
     int _action;
-    @"NSIndexPath" _indexPath;
+    NSIndexPath _indexPath;
     long long _animation;
     double _offset;
-    @"UITableViewUpdateGap" _gap;
+    UITableViewUpdateGap _gap;
     BOOL _headerFooterOnly;
     BOOL _skipAnimation;
 }

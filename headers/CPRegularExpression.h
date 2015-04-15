@@ -2,7 +2,7 @@
 @protocol NSCopying, NSCoding;
 @interface CPRegularExpression : NSObject <NSCopying, NSCoding> {
 
-    @"NSString" _expressionString;
+    NSString _expressionString;
     ^v _reserved;
 }
  + (void) initialize;

@@ -1,7 +1,7 @@
 
 @interface _CUIThemeGradientRendition : CUIThemeRendition {
 
-    @"CUIThemeGradient" gradient;
+    CUIThemeGradient gradient;
     double gradientAngle;
 }
  + (id) _nodesFromNodeList:(^{_csigradientdatanode=Ifdddddddd})acount:(unsigned long long)bheader:(r^{_csiheader=IIIIIIIb4b28{_csimetadata=ISS[128c]}I{_csibitmaplist=I[0I]}})c;

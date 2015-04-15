@@ -3,7 +3,7 @@
 
     unsigned long long _taskId;
     @? _expireHandler;
-    @"BKSProcessAssertion" _processAssertion;
+    BKSProcessAssertion _processAssertion;
     int _count;
 }
  + (id) backgroundTaskAssertionQueue;

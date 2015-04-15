@@ -2,9 +2,9 @@
 @interface UICalloutBarBackground : _UIBackdropView {
 
     [24d] m_dividerOffsets;
-    @"UIImageView" _blurMaskView;
-    @"UIImageView" _tintMaskView;
-    @"_UIBackdropView" _separatorView;
+    UIImageView _blurMaskView;
+    UIImageView _tintMaskView;
+    _UIBackdropView _separatorView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _highlightRect;
 }
 

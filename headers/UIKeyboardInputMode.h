@@ -3,12 +3,12 @@
 @interface UIKeyboardInputMode : UITextInputMode <NSCopying> {
 
     BOOL isDisplayed;
-    @"NSString" primaryLanguage;
-    @"NSString" languageWithRegion;
-    @"NSString" identifier;
-    @"NSString" normalizedIdentifier;
-    @"NSString" softwareLayout;
-    @"NSString" hardwareLayout;
+    NSString primaryLanguage;
+    NSString languageWithRegion;
+    NSString identifier;
+    NSString normalizedIdentifier;
+    NSString softwareLayout;
+    NSString hardwareLayout;
 }
  + (id) keyboardInputModeWithIdentifier:(id)a;
  + (id) dictationInputMode;

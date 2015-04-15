@@ -2,7 +2,7 @@
 @protocol _UIScrollToTopView, _UIRemoteViewFocusProxy;
 @interface _UISizeTrackingView : UIView <_UIScrollToTopView, _UIRemoteViewFocusProxy> {
 
-    @"_UIRemoteViewController" _remoteViewController;
+    _UIRemoteViewController _remoteViewController;
     id _viewControllerOperatorProxy;
     id _textEffectsOperatorProxy;
     BOOL _hasIntrinsicContentSize;

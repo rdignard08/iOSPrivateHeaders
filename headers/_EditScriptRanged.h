@@ -2,7 +2,7 @@
 @interface _EditScriptRanged : _EditScript {
 
     long long _options;
-    @"_EditScriptRangedAtom" _currentScriptAtom;
+    _EditScriptRangedAtom _currentScriptAtom;
 }
  + (id) editScriptFromString:(id)atoString:(id)bchunkSize:(long long)corderAtomsAscending:(BOOL)doperationPrecedence:(long long)eoptions:(long long)f;
  + (id) editScriptFromString:(id)atoString:(id)b;

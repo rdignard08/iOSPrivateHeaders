@@ -3,10 +3,10 @@
 @interface UIWebRotatingNodePopover : NSObject <UIPopoverControllerDelegate> {
 
     BOOL _isRotating;
-    @"DOMNode" _node;
+    DOMNode _node;
     {CGPoint="x"d"y"d} _presentationPoint;
-    @"UIPopoverController" _popoverController;
-    @"<UIWebRotatingNodePopoverDelegate>" _dismissDelegate;
+    UIPopoverController _popoverController;
+    <UIWebRotatingNodePopoverDelegate> _dismissDelegate;
 }
 @property (nonatomic, retain, readwrite) DOMNode* node;
 @property (nonatomic, assign, readwrite) NSNumber* presentationPoint;

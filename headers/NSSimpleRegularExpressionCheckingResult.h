@@ -1,7 +1,7 @@
 
 @interface NSSimpleRegularExpressionCheckingResult : NSRegularExpressionCheckingResult {
 
-    @"NSRegularExpression" _regularExpression;
+    NSRegularExpression _regularExpression;
     [3{_NSRange="location"Q"length"Q}] _ranges;
 }
 

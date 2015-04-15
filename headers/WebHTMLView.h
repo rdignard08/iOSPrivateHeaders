@@ -2,7 +2,7 @@
 @protocol WebDocumentSelection, WebDocumentIncrementalSearching, WebDocumentElement, WebMultipleTextMatches, WebDocumentOptionsSearching, WebDocumentView, WebDocumentSearching;
 @interface WebHTMLView : WAKView <WebDocumentSelection, WebDocumentIncrementalSearching, WebDocumentElement, WebMultipleTextMatches, WebDocumentOptionsSearching, WebDocumentView, WebDocumentSearching> {
 
-    @"WebHTMLViewPrivate" _private;
+    WebHTMLViewPrivate _private;
 }
  + (void) initialize;
  + (id) supportedMIMETypes;

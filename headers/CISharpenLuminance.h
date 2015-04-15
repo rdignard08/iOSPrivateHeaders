@@ -1,8 +1,8 @@
 
 @interface CISharpenLuminance : CIFilter {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputSharpness;
+    CIImage inputImage;
+    NSNumber inputSharpness;
 }
  + (id) customAttributes;
 

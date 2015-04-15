@@ -1,7 +1,7 @@
 
 @interface UIKBHandwritingStrokePointFIFO : UIKBHandwritingPointFIFO {
 
-    @"TIHandwritingStrokes" _strokes;
+    TIHandwritingStrokes _strokes;
 }
 
  - (void) clear;

@@ -1,7 +1,7 @@
 
 @interface UIFlicker : NSObject {
 
-    @"UIView" _target;
+    UIView _target;
     {CGPoint="x"d"y"d} _startLocation;
     int _throwIterations;
     id _delegate;

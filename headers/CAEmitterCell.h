@@ -21,7 +21,7 @@
 @property (atomic, assign, readwrite) NSNumber* contentsFramesPerSecond;
 @property (atomic, copy, readwrite) NSArray* emitterBehaviors;
 @property (atomic, copy, readwrite) NSString* name;
-@property (atomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (atomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (atomic, assign, readwrite) NSNumber* birthRate;
 @property (atomic, assign, readwrite) NSNumber* lifetime;
 @property (atomic, assign, readwrite) NSNumber* lifetimeRange;

@@ -1,11 +1,11 @@
 
 @interface ASAsset : NSObject {
 
-    @"NSString" _assetType;
-    @"NSDictionary" _attributes;
-    @"NSDictionary" _downloadOptions;
-    @"NSString" _clientName;
-    @"NSString" _identifier;
+    NSString _assetType;
+    NSDictionary _attributes;
+    NSDictionary _downloadOptions;
+    NSString _clientName;
+    NSString _identifier;
     @? _progressHandler;
     ^{__MobileAsset={__CFRuntimeBase=Q[4C]I}^{__CFString}^{__CFDictionary}^{__MobileAssetQuery}^{__MobileAssetQuery}C} _cfAsset;
 }

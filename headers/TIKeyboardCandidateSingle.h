@@ -1,8 +1,8 @@
 
 @interface TIKeyboardCandidateSingle : TIKeyboardCandidate {
 
-    @"NSString" _candidate;
-    @"NSString" _input;
+    NSString _candidate;
+    NSString _input;
 }
  + (BOOL) supportsSecureCoding;
  + (id) candidateWithUnchangedInput:(id)a;

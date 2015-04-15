@@ -1,8 +1,8 @@
 
 @interface UITableViewCellDetailDisclosureView : UIControl {
 
-    @"UIButton" _infoButton;
-    @"UIImageView" _disclosureView;
+    UIButton _infoButton;
+    UIImageView _disclosureView;
 }
 
  - (void) dealloc;

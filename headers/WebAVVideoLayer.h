@@ -2,9 +2,9 @@
 @protocol AVVideoLayer;
 @interface WebAVVideoLayer : CALayer <AVVideoLayer> {
 
-    {RetainPtr<WebAVPlayerController>="m_ptr"^v} _avPlayerController;
-    {RetainPtr<AVPlayerViewController>="m_ptr"^v} _avPlayerViewController;
-    {RetainPtr<CALayer>="m_ptr"^v} _videoSublayer;
+    m_ptr _avPlayerController;
+    m_ptr _avPlayerViewController;
+    m_ptr _videoSublayer;
     long long _videoLayerGravity;
     BOOL _readyForDisplay;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _videoRect;

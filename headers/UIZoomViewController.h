@@ -1,8 +1,8 @@
 
 @interface UIZoomViewController : UIViewController {
 
-    @"UIWindow" _window;
-    @"UIButton" _zoomButton;
+    UIWindow _window;
+    UIButton _zoomButton;
 }
 
  - (void) dealloc;

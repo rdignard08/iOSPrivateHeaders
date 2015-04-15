@@ -2,12 +2,12 @@
 @protocol NSCoding, NSCopying;
 @interface UIKBShape : NSObject <NSCoding, NSCopying> {
 
-    @"UIKBGeometry" m_geometry;
+    UIKBGeometry m_geometry;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_frame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_paddedFrame;
     unsigned long long m_uid;
     BOOL m_scaled;
-    @"UIKBShape" m_originalShape;
+    UIKBShape m_originalShape;
 }
 @property (nonatomic, retain, readwrite) UIKBGeometry* geometry;
 @property (nonatomic, assign, readwrite) NSNumber* frame;

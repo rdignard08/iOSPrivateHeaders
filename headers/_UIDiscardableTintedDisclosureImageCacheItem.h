@@ -2,8 +2,8 @@
 @protocol NSDiscardableContent;
 @interface _UIDiscardableTintedDisclosureImageCacheItem : NSObject <NSDiscardableContent> {
 
-    @"UIImage" _tintedImage;
-    @"UIColor" _tintColor;
+    UIImage _tintedImage;
+    UIColor _tintColor;
     {?="isDiscarded"b1"isPressed"b1"useCount"I} _flags;
 }
 @property (nonatomic, assign, readonly) UIImage* tintedImage;

@@ -3,7 +3,7 @@
 @interface UITableViewRow : NSObject <NSCoding> {
 
     long long _indentationLevel;
-    @"UITableViewCell" _cell;
+    UITableViewCell _cell;
     double _height;
 }
 @property (nonatomic, assign, readwrite) NSNumber* height;

@@ -1,7 +1,7 @@
 
 @interface FBSUIApplicationLaunchResponseEvent : FBSWorkspaceEvent {
 
-    @"FBSUIApplicationLaunchResponse" _response;
+    FBSUIApplicationLaunchResponse _response;
 }
 
  - (void) dealloc;

@@ -1,15 +1,15 @@
 
 @interface UIKeyboardEmojiCollectionView : UICollectionView {
 
-    @"UITouch" _activeTouch;
-    @"UIKeyboardEmojiView" _touched;
-    @"UIKeyboardEmojiView" _pendingDisplay;
-    @"UIKeyboardEmojiView" _onDisplay;
-    @"UIKBRenderConfig" _renderConfig;
-    @"UIKeyboardEmojiInputController" _inputController;
-    @"UIView" _pressIndicator;
-    @"UIKeyboardEmojiGraphicsTraits" _emojiGraphicsTraits;
-    @"UIResponder" _hitTestResponder;
+    UITouch _activeTouch;
+    UIKeyboardEmojiView _touched;
+    UIKeyboardEmojiView _pendingDisplay;
+    UIKeyboardEmojiView _onDisplay;
+    UIKBRenderConfig _renderConfig;
+    UIKeyboardEmojiInputController _inputController;
+    UIView _pressIndicator;
+    UIKeyboardEmojiGraphicsTraits _emojiGraphicsTraits;
+    UIResponder _hitTestResponder;
 }
 
  - (void) dealloc;

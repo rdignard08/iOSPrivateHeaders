@@ -1,7 +1,7 @@
 
 @interface WebDeviceOrientationProviderMockInternal : NSObject {
 
-    {OwnPtr<WebCore::DeviceOrientationClientMock>="m_ptr"^{DeviceOrientationClientMock}} m_core;
+    m_ptr m_core;
 }
 
  - (id) .cxx_construct;

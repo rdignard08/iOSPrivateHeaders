@@ -1,7 +1,7 @@
 
 @interface LKNSDictionaryCodingProxy : CACodingProxy {
 
-    @"NSDictionary" _dict;
+    NSDictionary _dict;
 }
 
  - (void) dealloc;

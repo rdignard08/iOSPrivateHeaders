@@ -1,9 +1,9 @@
 
 @interface NSPageData : NSData {
 
-    @"NSData" data;
-    @"NSDate" _originalFileModDate;
-    @"NSString" _originalFilePath;
+    NSData data;
+    NSDate _originalFileModDate;
+    NSString _originalFilePath;
 }
  + (long long) _umask;
  + (void) initialize;

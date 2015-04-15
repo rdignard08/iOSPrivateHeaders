@@ -2,12 +2,12 @@
 @protocol NSCoding;
 @interface UITransitionView : UIView <NSCoding> {
 
-    @"UIView" _fromView;
-    @"UIView" _toView;
-    @"NSMutableArray" _frozenSubviews;
-    @"UIResponder" _firstResponderToRemember;
+    UIView _fromView;
+    UIView _toView;
+    NSMutableArray _frozenSubviews;
+    UIResponder _firstResponderToRemember;
     id _delegate;
-    @"UIWindow" _originalWindow;
+    UIWindow _originalWindow;
     {?="animationInProgress"b1"ignoresInteractionEvents"b1"shouldNotifyDidCompleteImmediately"b1"useViewControllerAppearanceCallbacks"b1"shouldRestoreFromViewAlpha"b1"shouldRasterize"b1"enableRotationAfterTransition"b1"removeFromView"b1} _transitionViewFlags;
     double _curlUpRevealedHeight;
     BOOL _ignoreDirectTouchEvents;

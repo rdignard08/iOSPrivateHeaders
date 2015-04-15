@@ -2,7 +2,7 @@
 @interface UIKBEmojiSnapshotSizingView : UIView {
 
     {CGSize="width"d"height"d} _snapshotSize;
-    @"UIView" _snapshotView;
+    UIView _snapshotView;
 }
 
  - (void) dealloc;

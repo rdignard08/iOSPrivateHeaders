@@ -1,7 +1,7 @@
 
 @interface UIKeyboardExtensionInputMode : UIKeyboardInputMode {
 
-    @"NSExtension" _extension;
+    NSExtension _extension;
 }
 
  - (id) containingBundle;

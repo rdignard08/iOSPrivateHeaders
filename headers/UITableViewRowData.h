@@ -2,7 +2,7 @@
 @protocol NSCopying;
 @interface UITableViewRowData : NSObject <NSCopying> {
 
-    @"UITableView" _tableView;
+    UITableView _tableView;
     long long _numSections;
     long long _sectionRowDataCapacity;
     ^@ _sectionRowData;
@@ -17,8 +17,8 @@
     double _tableBottomPadding;
     BOOL _tableSidePaddingValid;
     double _tableSidePadding;
-    @"NSIndexPath" _reorderedIndexPath;
-    @"NSIndexPath" _gapIndexPath;
+    NSIndexPath _reorderedIndexPath;
+    NSIndexPath _gapIndexPath;
     double _reorderedRowHeight;
     BOOL _estimatesRowHeights;
 }

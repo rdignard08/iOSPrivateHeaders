@@ -5,9 +5,9 @@
     BOOL _contentsChanged;
     BOOL _deleted;
     BOOL _moved;
-    @"NSString" _lastObservedPath;
+    NSString _lastObservedPath;
     BOOL _didResetPath;
-    @"NSString" _path;
+    NSString _path;
 }
 
  - (id) initWithPath:(id)a;

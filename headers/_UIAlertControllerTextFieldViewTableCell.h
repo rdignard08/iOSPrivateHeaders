@@ -1,7 +1,7 @@
 
 @interface _UIAlertControllerTextFieldViewTableCell : UITableViewCell {
 
-    @"_UIAlertControllerTextFieldView" _textField;
+    _UIAlertControllerTextFieldView _textField;
 }
 
  - (id) initWithStyle:(long long)areuseIdentifier:(id)b;

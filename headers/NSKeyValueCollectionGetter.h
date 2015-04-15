@@ -1,7 +1,7 @@
 
 @interface NSKeyValueCollectionGetter : NSKeyValueProxyGetter {
 
-    @"NSKeyValueNonmutatingCollectionMethodSet" _methods;
+    NSKeyValueNonmutatingCollectionMethodSet _methods;
 }
 
  - (id) initWithContainerClassID:(id)akey:(id)bmethods:(id)cproxyClass:(Class)d;

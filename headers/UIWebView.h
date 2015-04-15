@@ -2,7 +2,7 @@
 @protocol NSCoding, UIScrollViewDelegate;
 @interface UIWebView : UIView <NSCoding, UIScrollViewDelegate> {
 
-    @"UIWebViewInternal" _internal;
+    UIWebViewInternal _internal;
 }
  + (void) initialize;
  + (id) _relativePathFromAbsolutePath:(id)aremovingPathComponents:(unsigned long long)b;

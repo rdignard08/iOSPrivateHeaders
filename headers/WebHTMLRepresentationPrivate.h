@@ -1,11 +1,11 @@
 
 @interface WebHTMLRepresentationPrivate : NSObject {
 
-    @"WebDataSource" dataSource;
+    WebDataSource dataSource;
     BOOL hasSentResponseToPlugin;
     BOOL includedInWebKitStatistics;
-    @"<WebPluginManualLoader>" manualLoader;
-    @"WAKView" pluginView;
+    <WebPluginManualLoader> manualLoader;
+    WAKView pluginView;
 }
 
 

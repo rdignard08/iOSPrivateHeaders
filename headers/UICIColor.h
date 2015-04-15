@@ -1,8 +1,8 @@
 
 @interface UICIColor : UIColor {
 
-    @"CIColor" _ciColor;
-    @"UIColor" _rgbColor;
+    CIColor _ciColor;
+    UIColor _rgbColor;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;

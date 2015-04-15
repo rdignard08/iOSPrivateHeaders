@@ -1,13 +1,13 @@
 
 @interface UICollectionViewAnimation : NSObject {
 
-    @"UICollectionReusableView" _view;
-    @"UICollectionViewLayoutAttributes" _finalLayoutAttributes;
+    UICollectionReusableView _view;
+    UICollectionViewLayoutAttributes _finalLayoutAttributes;
     double _startFraction;
     double _endFraction;
     int _viewType;
-    @"NSMutableArray" _completionHandlers;
-    @"NSMutableArray" _startupHandlers;
+    NSMutableArray _completionHandlers;
+    NSMutableArray _startupHandlers;
     @? _animationBlock;
     {?="animateFromCurrentPosition"b1"deleteAterAnimation"b1"rasterizeAfterAnimation"b1"resetRasterizationAfterAnimation"b1} _collectionViewAnimationFlags;
 }

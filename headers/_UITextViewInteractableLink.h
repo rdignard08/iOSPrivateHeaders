@@ -2,7 +2,7 @@
 @protocol DDDetectionControllerInteractionDelegate;
 @interface _UITextViewInteractableLink : _UITextViewInteractableItem <DDDetectionControllerInteractionDelegate> {
 
-    @"NSURL" _link;
+    NSURL _link;
 }
  + (id) interactableLinkWithURL:(id)arange:({_NSRange=QQ})b;
 

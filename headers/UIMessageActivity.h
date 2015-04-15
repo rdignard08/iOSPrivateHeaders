@@ -2,7 +2,7 @@
 @interface UIMessageActivity : UIActivity {
 
     BOOL _sourceIsManaged;
-    @"MFMessageComposeViewController" _messageComposeViewController;
+    MFMessageComposeViewController _messageComposeViewController;
 }
  + (long long) activityCategory;
 

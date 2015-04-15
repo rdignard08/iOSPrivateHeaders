@@ -2,20 +2,20 @@
 @protocol UIKBCacheableView;
 @interface UIKBKeyView : UIView <UIKBCacheableView> {
 
-    @"UIKBTree" m_keyplane;
-    @"UIKBTree" m_key;
+    UIKBTree m_keyplane;
+    UIKBTree m_key;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_drawFrame;
     ^{__CFBoolean=} m_allowsCaching;
-    @"UIKBRenderConfig" m_renderConfig;
-    @"CALayer" _keyBorders;
-    @"CALayer" _keyBackgrounds;
-    @"CALayer" _keyForegrounds;
-    @"CALayer" _keyCaps;
-    @"CALayer" _keyCapHint;
+    UIKBRenderConfig m_renderConfig;
+    CALayer _keyBorders;
+    CALayer _keyBackgrounds;
+    CALayer _keyForegrounds;
+    CALayer _keyCaps;
+    CALayer _keyCapHint;
     int _renderedKeyState;
-    @"NSString" _cachedTraitsHashString;
+    NSString _cachedTraitsHashString;
     BOOL _renderAsMask;
-    @"UIKeyboardMenuView" _popupMenu;
+    UIKeyboardMenuView _popupMenu;
 }
 
  - (void) dealloc;

@@ -1,9 +1,9 @@
 
 @interface UIStatusBarLayoutManager : NSObject {
 
-    @"UIStatusBarForegroundView" _foregroundView;
+    UIStatusBarForegroundView _foregroundView;
     int _region;
-    [31@"UIStatusBarItemView"] _itemViews;
+    UIStatusBarItemView _itemViews;
     BOOL _persistentAnimationsEnabled;
     BOOL _usesVerticalLayout;
 }

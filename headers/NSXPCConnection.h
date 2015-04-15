@@ -4,7 +4,7 @@
 
     ^v _xconnection;
     id _repliesExpected;
-    @"NSObject<OS_dispatch_queue>" _userQueue;
+    NSObject<OS_dispatch_queue> _userQueue;
     unsigned int _state;
     unsigned int _state2;
     @? _interruptionHandler;
@@ -12,12 +12,12 @@
     id _exportInfo;
     id _repliesRequested;
     id _importInfo;
-    @"<NSObject>" _otherInfo;
+    <NSObject> _otherInfo;
     id _reserved1;
     id _lock;
-    @"NSXPCInterface" _remoteObjectInterface;
-    @"NSString" _serviceName;
-    @"NSXPCListenerEndpoint" _endpoint;
+    NSXPCInterface _remoteObjectInterface;
+    NSString _serviceName;
+    NSXPCListenerEndpoint _endpoint;
     id _eCache;
     id _dCache;
 }

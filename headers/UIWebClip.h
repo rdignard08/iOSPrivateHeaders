@@ -1,13 +1,13 @@
 
 @interface UIWebClip : NSObject {
 
-    @"NSString" identifier;
-    @"NSURL" pageURL;
-    @"NSArray" icons;
+    NSString identifier;
+    NSURL pageURL;
+    NSArray icons;
     unsigned long long currentIconIndex;
-    @"NSURL" startupImageURL;
-    @"NSURL" startupLandscapeImageURL;
-    @"NSString" title;
+    NSURL startupImageURL;
+    NSURL startupLandscapeImageURL;
+    NSString title;
     BOOL fullScreen;
     BOOL classicMode;
     BOOL removalDisallowed;
@@ -16,19 +16,19 @@
     BOOL iconIsPrerendered;
     unsigned long long supportedOrientations;
     long long statusBarStyle;
-    @"UIImage" iconImage;
-    @"UIImage" startupImage;
-    @"UIImage" startupLandscapeImage;
-    @"UIImage" initialLaunchImage;
+    UIImage iconImage;
+    UIImage startupImage;
+    UIImage startupLandscapeImage;
+    UIImage initialLaunchImage;
     id delegate;
-    @"NSString" dashcodePortName;
-    @"NSString" dashcodeFrameworkPath;
-    @"NSMutableData" _customIconData;
-    @"NSURLConnection" _iconConnection;
-    @"NSMutableData" _customStartupImageData;
-    @"NSURLConnection" _startupImageConnection;
-    @"NSMutableData" _customStartupLandscapeImageData;
-    @"NSURLConnection" _startupLandscapeImageConnection;
+    NSString dashcodePortName;
+    NSString dashcodeFrameworkPath;
+    NSMutableData _customIconData;
+    NSURLConnection _iconConnection;
+    NSMutableData _customStartupImageData;
+    NSURLConnection _startupImageConnection;
+    NSMutableData _customStartupLandscapeImageData;
+    NSURLConnection _startupLandscapeImageConnection;
 }
 @property (atomic, copy, readwrite) NSString* identifier;
 @property (nonatomic, retain, readwrite) NSURL* pageURL;

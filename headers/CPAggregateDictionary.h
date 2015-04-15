@@ -2,7 +2,7 @@
 @interface CPAggregateDictionary : NSObject {
 
 }
-@property (nonatomic, assign, readonly, isEnabled) NSNumber* enabled;
+@property (nonatomic, assign, readonly, getter=isEnabled) NSNumber* enabled;
  + (id) sharedAggregateDictionary;
 
  - (int) commit;

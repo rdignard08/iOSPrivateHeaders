@@ -1,9 +1,9 @@
 
 @interface UICollectionReusableView : UIView {
 
-    @"UICollectionViewLayoutAttributes" _layoutAttributes;
-    @"NSString" _reuseIdentifier;
-    @"UICollectionView" _collectionView;
+    UICollectionViewLayoutAttributes _layoutAttributes;
+    NSString _reuseIdentifier;
+    UICollectionView _collectionView;
     long long _updateAnimationCount;
     {?="wasDequeued"b1"preferredAttributesValid"b1"generatingPreferredAttributes"b1} _reusableViewFlags;
     BOOL _preferredAttributesValid;

@@ -4,9 +4,9 @@
     BOOL _isHost;
     BOOL _isCurrentApp;
     long long _key;
-    @"NSString" _name;
-    @"UIImage" _icon;
-    @"NSURL" _url;
+    NSString _name;
+    UIImage _icon;
+    NSURL _url;
 }
 @property (nonatomic, assign, readonly) NSNumber* key;
 @property (nonatomic, assign, readonly) NSString* name;

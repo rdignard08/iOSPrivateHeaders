@@ -5,9 +5,9 @@
     int _delta;
     int _scrollLength;
     float _startOffset;
-    @"NSString" _currentTest;
+    NSString _currentTest;
     int _axis;
-    @"CADisplayLink" _displayLink;
+    CADisplayLink _displayLink;
 }
 @property (nonatomic, assign, readwrite) NSNumber* iterations;
 @property (nonatomic, assign, readwrite) NSNumber* delta;

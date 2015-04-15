@@ -2,11 +2,11 @@
 @protocol NSSecureCoding;
 @interface UIVisualEffectView : UIView <NSSecureCoding> {
 
-    @"UIView" _maskView;
+    UIView _maskView;
     {?="hasHadAlphaAnimated"b1"suppressReportingEmptyContentView"b1} _effectViewFlags;
-    @"_UIVisualEffectContentView" _contentView;
-    @"NSString" _groupName;
-    @"UIVisualEffect" _effect;
+    _UIVisualEffectContentView _contentView;
+    NSString _groupName;
+    UIVisualEffect _effect;
 }
  + (BOOL) supportsSecureCoding;
 

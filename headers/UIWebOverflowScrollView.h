@@ -1,10 +1,10 @@
 
 @interface UIWebOverflowScrollView : UIScrollView {
 
-    @"UIWebBrowserView" _webBrowserView;
-    @"UIWebOverflowScrollListener" _scrollListener;
-    @"UIWebOverflowContentView" _overflowContentView;
-    @"DOMNode" _node;
+    UIWebBrowserView _webBrowserView;
+    UIWebOverflowScrollListener _scrollListener;
+    UIWebOverflowContentView _overflowContentView;
+    DOMNode _node;
     BOOL _beingRemoved;
 }
 

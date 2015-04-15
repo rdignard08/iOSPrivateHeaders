@@ -1,7 +1,7 @@
 
 @interface _UIActivityBundleHelper : NSObject {
 
-    @"LSBundleProxy" _bundleProxy;
+    LSBundleProxy _bundleProxy;
 }
 @property (nonatomic, retain, readwrite) LSBundleProxy* bundleProxy;
  + (id) activityBundleHelperForExtension:(id)a;

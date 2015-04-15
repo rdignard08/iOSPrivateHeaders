@@ -1,12 +1,12 @@
 
 @interface NSUnitFormatter : NSFormatter {
 
-    @"NSNumberFormatter" _numberFormatter;
+    NSNumberFormatter _numberFormatter;
     long long _unitStyle;
     ^{UAMeasureFormat=} _formatter;
     ^{UPluralRules=} _prules;
     BOOL _modified;
-    @"NSString" _localeID;
+    NSString _localeID;
 }
 
  - (id) numberFormatter;

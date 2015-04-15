@@ -1,7 +1,7 @@
 
 @interface UIKBHandwritingPointFIFO : NSObject {
 
-    @"UIKBHandwritingPointFIFO" _nextFIFO;
+    UIKBHandwritingPointFIFO _nextFIFO;
 }
 @property (nonatomic, retain, readwrite) UIKBHandwritingPointFIFO* nextFIFO;
 

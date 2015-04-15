@@ -2,13 +2,13 @@
 @interface _UIDocumentPickerDescriptor : NSObject {
 
     BOOL _newlyAdded;
-    @"NSExtension" _extension;
+    NSExtension _extension;
 }
 @property (nonatomic, copy, readonly) NSString* identifier;
 @property (nonatomic, copy, readonly) NSString* localizedName;
 @property (nonatomic, copy, readonly) NSArray* supportedContentTypes;
 @property (nonatomic, assign, readwrite) NSNumber* enabled;
-@property (nonatomic, assign, readwrite, isNewlyAdded) NSNumber* newlyAdded;
+@property (nonatomic, assign, readwrite, getter=isNewlyAdded) NSNumber* newlyAdded;
 @property (nonatomic, retain, readwrite) NSExtension* extension;
 @property (nonatomic, copy, readonly) NSString* nonUIIdentifier;
 @property (nonatomic, retain, readonly) NSString* fileProviderDocumentGroup;

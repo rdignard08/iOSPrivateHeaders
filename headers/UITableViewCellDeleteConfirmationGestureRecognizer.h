@@ -1,7 +1,7 @@
 
 @interface UITableViewCellDeleteConfirmationGestureRecognizer : UIGestureRecognizer {
 
-    @"UIView" _excludedView;
+    UIView _excludedView;
 }
 
  - (void) touchesBegan:(id)awithEvent:(id)b;

@@ -2,7 +2,7 @@
 @interface PKPhysicsField : NSObject {
 
     {shared_ptr<PKCField>="__ptr_"^{PKCField}"__cntrl_"^{__shared_weak_count}} _field;
-    @"PKRegion" _region;
+    PKRegion _region;
      _position;
     float _rotation;
      _scale;
@@ -10,8 +10,8 @@
 }
 @property (nonatomic, assign, readwrite) NSNumber* strength;
 @property (nonatomic, assign, readwrite) NSNumber* falloff;
-@property (nonatomic, assign, readwrite, isEnabled) NSNumber* enabled;
-@property (nonatomic, assign, readwrite, isOverride) NSNumber* override;
+@property (nonatomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
+@property (nonatomic, assign, readwrite, getter=isOverride) NSNumber* override;
 @property (nonatomic, retain, readwrite) NSNumber* region;
 @property (nonatomic, assign, readwrite) NSNumber* direction;
 @property (nonatomic, assign, readwrite) NSNumber* categoryBitMask;

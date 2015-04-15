@@ -2,10 +2,10 @@
 @interface UITextRange : NSObject {
 
 }
-@property (nonatomic, assign, readonly, _isCaret) NSNumber* isCaret;
-@property (nonatomic, assign, readonly, _isRanged) NSNumber* isRanged;
-@property (nonatomic, assign, readonly, _isImpl) UITextRangeImpl* isImpl;
-@property (nonatomic, assign, readonly, isEmpty) NSNumber* empty;
+@property (nonatomic, assign, readonly, getter=_isCaret) NSNumber* isCaret;
+@property (nonatomic, assign, readonly, getter=_isRanged) NSNumber* isRanged;
+@property (nonatomic, assign, readonly, getter=_isImpl) UITextRangeImpl* isImpl;
+@property (nonatomic, assign, readonly, getter=isEmpty) NSNumber* empty;
 @property (nonatomic, assign, readonly) UITextPosition* start;
 @property (nonatomic, assign, readonly) UITextPosition* end;
 

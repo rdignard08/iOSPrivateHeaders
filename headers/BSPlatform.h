@@ -1,13 +1,13 @@
 
 @interface BSPlatform : NSObject {
 
-    @"NSString" _productVersion;
-    @"NSString" _productBuildVersion;
-    @"NSString" _productHardwareModel;
-    @"NSString" _productType;
-    @"NSString" _productClass;
-    @"NSString" _uniqueDeviceIdentifier;
-    @"NSString" _localizedProductName;
+    NSString _productVersion;
+    NSString _productBuildVersion;
+    NSString _productHardwareModel;
+    NSString _productType;
+    NSString _productClass;
+    NSString _uniqueDeviceIdentifier;
+    NSString _localizedProductName;
     BOOL _hasGasGauge;
     BOOL _isInternalInstall;
     BOOL _isMultiCore;
@@ -19,8 +19,8 @@
 @property (nonatomic, copy, readonly) NSString* productClass;
 @property (nonatomic, copy, readonly) NSString* localizedProductName;
 @property (nonatomic, copy, readonly) NSString* uniqueDeviceIdentifier;
-@property (nonatomic, assign, readonly, isInternalInstall) NSNumber* internalInstall;
-@property (nonatomic, assign, readonly, isMultiCore) NSNumber* multiCore;
+@property (nonatomic, assign, readonly, getter=isInternalInstall) NSNumber* internalInstall;
+@property (nonatomic, assign, readonly, getter=isMultiCore) NSNumber* multiCore;
 @property (nonatomic, assign, readonly) NSNumber* hasGasGauge;
  + (id) sharedInstance;
 

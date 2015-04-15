@@ -2,7 +2,7 @@
 @interface UIAccessibilityCustomAction : NSObject {
 
     id _weakTarget;
-    @"NSString" _name;
+    NSString _name;
     SEL _selector;
 }
 @property (nonatomic, copy, readwrite) NSString* name;

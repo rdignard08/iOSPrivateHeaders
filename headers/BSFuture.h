@@ -2,13 +2,13 @@
 @protocol BSFuture;
 @interface BSFuture : NSObject <BSFuture> {
 
-    @"NSConditionLock" _stateLock;
+    NSConditionLock _stateLock;
     id _result;
-    @"NSError" _error;
-    @"NSMutableArray" _completionBlocks;
+    NSError _error;
+    NSMutableArray _completionBlocks;
 }
-@property (atomic, assign, readonly, isFinished) NSNumber* finished;
-@property (atomic, assign, readonly, isCancelled) NSNumber* cancelled;
+@property (atomic, assign, readonly, getter=isFinished) NSNumber* finished;
+@property (atomic, assign, readonly, getter=isCancelled) NSNumber* cancelled;
 
  - (BOOL) isCancelled;
  - (BOOL) isFinished;

@@ -2,14 +2,14 @@
 @protocol UIPrinterBrowserOwner;
 @interface UIPrintPanelViewController : NSObject <UIPrinterBrowserOwner> {
 
-    @"UIPrintInteractionController" _printInteractionController;
-    @"UIPrintInfo" _observedPrintInfo;
-    @"UINavigationController" _navigationController;
-    @"UIPrintPanelTableViewController" _tableViewController;
-    @"UIViewController" _parentController;
-    @"UIPopoverController" _poverController;
-    @"UIWindow" _window;
-    @"PKPrinter" _printer;
+    UIPrintInteractionController _printInteractionController;
+    UIPrintInfo _observedPrintInfo;
+    UINavigationController _navigationController;
+    UIPrintPanelTableViewController _tableViewController;
+    UIViewController _parentController;
+    UIPopoverController _poverController;
+    UIWindow _window;
+    PKPrinter _printer;
     BOOL _dismissed;
     BOOL _animated;
     BOOL _observingRotation;

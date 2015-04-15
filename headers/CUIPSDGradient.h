@@ -1,7 +1,7 @@
 
 @interface CUIPSDGradient : NSObject {
 
-    @"CUIPSDGradientEvaluator" evaluator;
+    CUIPSDGradientEvaluator evaluator;
     double drawingAngle;
     unsigned int gradientStyle;
 }

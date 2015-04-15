@@ -4,11 +4,11 @@
     BOOL _analysisLoggingEnabled;
     BOOL _analysisFailureOverlayVisible;
     BOOL _analysisLoggingOverlayVisible;
-    @"NSString" _multitaskingGestureMode;
-    @"NSString" _navigationGestureMode;
-    @"_UIScreenEdgePanRecognizerEdgeSettings" _edgeSettings;
-    @"_UIScreenEdgePanRecognizerDwellSettings" _dwellSettings;
-    @"_UIScreenEdgePanRecognizerCornerSettings" _cornerSettings;
+    NSString _multitaskingGestureMode;
+    NSString _navigationGestureMode;
+    _UIScreenEdgePanRecognizerEdgeSettings _edgeSettings;
+    _UIScreenEdgePanRecognizerDwellSettings _dwellSettings;
+    _UIScreenEdgePanRecognizerCornerSettings _cornerSettings;
 }
  + (id) settingsControllerModule;
 

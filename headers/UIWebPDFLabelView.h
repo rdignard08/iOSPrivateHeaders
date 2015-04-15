@@ -1,9 +1,9 @@
 
 @interface UIWebPDFLabelView : UIView {
 
-    @"UILabel" _label;
-    @"_UIBackdropView" _backdropView;
-    @"NSTimer" _timer;
+    UILabel _label;
+    _UIBackdropView _backdropView;
+    NSTimer _timer;
     unsigned long long currentPageIndex;
 }
 

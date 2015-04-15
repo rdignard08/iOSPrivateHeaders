@@ -1,7 +1,7 @@
 
 @interface UITextSelectionRectImpl : UITextSelectionRect {
 
-    @"WebSelectionRect" webRect;
+    WebSelectionRect webRect;
 }
  + (id) rectsWithWebRects:(id)a;
  + (id) rectWithWebRect:(id)a;

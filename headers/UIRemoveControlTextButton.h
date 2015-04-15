@@ -1,7 +1,7 @@
 
 @interface UIRemoveControlTextButton : UIControl {
 
-    @"NSString" _label;
+    NSString _label;
 }
 
  - (void) dealloc;

@@ -1,12 +1,12 @@
 
 @interface UIPageController : UIViewController {
 
-    @"NSMutableArray" _viewControllers;
-    [3@"UIView"] _wrapperViews;
+    NSMutableArray _viewControllers;
+    UIView _wrapperViews;
     [3i] _notificationState;
-    @"UIScrollView" _scrollView;
-    @"UIPageControl" _pageControl;
-    @"<UIPageControllerDelegate>" _delegate;
+    UIScrollView _scrollView;
+    UIPageControl _pageControl;
+    <UIPageControllerDelegate> _delegate;
     int _pageSpacing;
     long long _visibleIndex;
     long long _pageCount;

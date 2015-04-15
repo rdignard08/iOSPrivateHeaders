@@ -6,18 +6,18 @@
     BOOL _forceReloadInitiallyHiddenCandidates;
     BOOL _shouldSkipLayoutUntilScrollViewAnimationEnds;
     BOOL _didSkipLayout;
-    @"NSString" _inlineText;
-    @"UIImageView" _candidateMaskView;
-    @"<UIKeyboardCandidateBarDelegate>" _delegate;
+    NSString _inlineText;
+    UIImageView _candidateMaskView;
+    <UIKeyboardCandidateBarDelegate> _delegate;
     double _upArrowWidth;
-    @"<UIKeyboardCandidateListDelegate>" _candidateListDelegate;
-    @"NSArray" _candidateViews;
+    <UIKeyboardCandidateListDelegate> _candidateListDelegate;
+    NSArray _candidateViews;
     unsigned long long _currentCandidateViewIndex;
-    @"UIKBThemedView" _secondaryCandidatesViewEdgeGradient;
-    @"TIKeyboardCandidateResultSet" _candidateResultSet;
-    @"NSArray" _filteredCandidates;
-    @"NSIndexPath" _dragStartNextPageIndexPath;
-    @"NSIndexPath" _dragStartPreviousPageIndexPath;
+    UIKBThemedView _secondaryCandidatesViewEdgeGradient;
+    TIKeyboardCandidateResultSet _candidateResultSet;
+    NSArray _filteredCandidates;
+    NSIndexPath _dragStartNextPageIndexPath;
+    NSIndexPath _dragStartPreviousPageIndexPath;
     @? _skippedSetCandidatesBlock;
     {CGPoint="x"d"y"d} _dragStartOffset;
 }

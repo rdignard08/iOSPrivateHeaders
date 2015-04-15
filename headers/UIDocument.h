@@ -2,30 +2,30 @@
 @protocol NSFilePresenter;
 @interface UIDocument : NSObject <NSFilePresenter> {
 
-    @"NSURL" _fileURL;
-    @"NSString" _fileType;
-    @"NSString" _localizedName;
-    @"NSUndoManager" _undoManager;
-    @"NSDate" _fileModificationDate;
-    @"NSObject<OS_dispatch_queue>" _fileAccessQueue;
-    @"NSObject<OS_dispatch_queue>" _openingQueue;
-    @"NSObject<OS_dispatch_semaphore>" _fileAccessSemaphore;
-    @"NSOperationQueue" _filePresenterQueue;
+    NSURL _fileURL;
+    NSString _fileType;
+    NSString _localizedName;
+    NSUndoManager _undoManager;
+    NSDate _fileModificationDate;
+    NSObject<OS_dispatch_queue> _fileAccessQueue;
+    NSObject<OS_dispatch_queue> _openingQueue;
+    NSObject<OS_dispatch_semaphore> _fileAccessSemaphore;
+    NSOperationQueue _filePresenterQueue;
     id _differenceDueToRecentChanges;
     id _differenceSincePreservingPreviousVersion;
     id _differenceSinceSaving;
-    @"NSTimer" _autosavingTimer;
+    NSTimer _autosavingTimer;
     double _lastSaveTime;
     double _lastPreservationTime;
     id _versionWithoutRecentChanges;
-    @"NSMutableArray" _versions;
-    @"NSLock" _documentPropertyLock;
+    NSMutableArray _versions;
+    NSLock _documentPropertyLock;
     id _alertPresenter;
     {__docFlags="inClose"b1"isOpen"b1"inOpen"b1"isAutosavingBecauseOfTimer"b1"versionWithoutRecentChangesIsNotLastOpened"b1"ignoreUndoAndRedoNotifications"b1"editingDisabled"b1"isRegisteredAsFilePresenter"b1"movingFile"b1"savingError"b1"inConflict"b1"needToStopAccessingSecurityScopedResource"b1} _docFlags;
-    @"NSUserActivity" _currentUserActivity;
-    @"NSLock" _activityContinuationLock;
+    NSUserActivity _currentUserActivity;
+    NSLock _activityContinuationLock;
 }
-@property (atomic, assign, readwrite, _isEditingDisabled, _setEditingDisabled:) NSNumber* editingDisabled;
+@property (atomic, assign, readwrite, getter=_isEditingDisabled, setter=_setEditingDisabled:) NSNumber* editingDisabled;
 @property (atomic, assign, readonly) NSURL* fileURL;
 @property (atomic, copy, readonly) NSString* localizedName;
 @property (atomic, copy, readonly) NSString* fileType;

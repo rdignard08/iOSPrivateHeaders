@@ -3,16 +3,16 @@
 @interface AFURLSessionManager : NSObject <NSURLSessionDelegate, NSURLSessionTaskDelegate, NSURLSessionDataDelegate, NSURLSessionDownloadDelegate, NSSecureCoding, NSCopying> {
 
     BOOL _attemptsToRecreateUploadTasksForBackgroundSessions;
-    @"NSURLSession" _session;
-    @"NSOperationQueue" _operationQueue;
-    @"<AFURLResponseSerialization>" _responseSerializer;
-    @"AFSecurityPolicy" _securityPolicy;
-    @"AFNetworkReachabilityManager" _reachabilityManager;
-    @"NSObject<OS_dispatch_queue>" _completionQueue;
-    @"NSObject<OS_dispatch_group>" _completionGroup;
-    @"NSURLSessionConfiguration" _sessionConfiguration;
-    @"NSMutableDictionary" _mutableTaskDelegatesKeyedByTaskIdentifier;
-    @"NSLock" _lock;
+    NSURLSession _session;
+    NSOperationQueue _operationQueue;
+    <AFURLResponseSerialization> _responseSerializer;
+    AFSecurityPolicy _securityPolicy;
+    AFNetworkReachabilityManager _reachabilityManager;
+    NSObject<OS_dispatch_queue> _completionQueue;
+    NSObject<OS_dispatch_group> _completionGroup;
+    NSURLSessionConfiguration _sessionConfiguration;
+    NSMutableDictionary _mutableTaskDelegatesKeyedByTaskIdentifier;
+    NSLock _lock;
     @? _sessionDidBecomeInvalid;
     @? _sessionDidReceiveAuthenticationChallenge;
     @? _didFinishEventsForBackgroundURLSession;

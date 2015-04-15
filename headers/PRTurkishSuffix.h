@@ -1,8 +1,8 @@
 
 @interface PRTurkishSuffix : NSObject {
 
-    @"NSString" _pattern;
-    @"NSString" _name;
+    NSString _pattern;
+    NSString _name;
     [16C] _patternBuffer;
     [16C] _isOptional;
     unsigned long long _patternBufferLength;

@@ -3,8 +3,8 @@
 @interface _UITextServiceSession : NSObject <UIPopoverControllerDelegate> {
 
     long long _type;
-    @"UIViewController" _modalViewController;
-    @"UIPopoverController" _popoverController;
+    UIViewController _modalViewController;
+    UIPopoverController _popoverController;
     BOOL _isTextEffectsWindow;
     BOOL _dismissed;
     @? _dismissedHandler;

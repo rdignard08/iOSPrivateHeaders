@@ -1,11 +1,11 @@
 
 @interface __NSHostExtraIvars : NSObject {
 
-    @"NSString" thingToResolve;
+    NSString thingToResolve;
     int resolveType;
-    @"NSObject<OS_dispatch_queue>" resolveQueue;
-    @"NSObject<OS_dispatch_queue>" cacheAccessQueue;
-    @"NSObject<OS_dispatch_queue>" callbackQueue;
+    NSObject<OS_dispatch_queue> resolveQueue;
+    NSObject<OS_dispatch_queue> cacheAccessQueue;
+    NSObject<OS_dispatch_queue> callbackQueue;
     BOOL startedResolving;
 }
 @property (nonatomic, retain, readwrite) NSString* thingToResolve;

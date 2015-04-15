@@ -1,14 +1,14 @@
 
 @interface NSRTFReader : NSObject {
 
-    @"NSMutableAttributedString" _topAttributedString;
-    @"NSMutableAttributedString" _curAttributedString;
-    @"NSMutableArray" _attributesStack;
-    @"NSMutableDictionary" _curAttributes;
+    NSMutableAttributedString _topAttributedString;
+    NSMutableAttributedString _curAttributedString;
+    NSMutableArray _attributesStack;
+    NSMutableDictionary _curAttributes;
     unsigned int _level;
-    @"NSData" _rtfData;
-    @"NSMutableDictionary" _fontTable;
-    @"NSFileWrapper" _document;
+    NSData _rtfData;
+    NSMutableDictionary _fontTable;
+    NSFileWrapper _document;
     (?="thin"[128C]"fat"[128S]) _textBuffer;
     unsigned long long _textBufferIndex;
     int _rtfVersion;
@@ -18,20 +18,20 @@
     int _usesScreenFonts;
     unsigned int _defaultToUniCharEncoding;
     {_NSAttributeInfo="toUniCharEncoding"I"codePageEncoding"I"font"@"NSFont""fontSize"d"kern"d"paraStyle"@"NSMutableParagraphStyle""bold"b1"italic"b1"fontIsValid"b1"paraStyleIsValid"b1"kernIsValid"b1"attributesSameAsBefore"b1"multiByteEncoding"b1"unicodeAlternativeLength"b3"tabStopType"b4"curAttributesNeedsCopying"b1"paraStyleNeedsCopying"b1"hasWritingDirectionAttribute"b1""b15} _attributeInfo;
-    @"NSMutableData" _attributeInfoStack;
+    NSMutableData _attributeInfoStack;
     {CGSize="width"d"height"d} _paperSize;
     double _lMargin;
     double _rMargin;
     double _bMargin;
     double _tMargin;
-    @"NSMutableDictionary" _documentInfoDictionary;
+    NSMutableDictionary _documentInfoDictionary;
     {CGSize="width"d"height"d} _viewSize;
     int _viewScale;
     int _viewKind;
-    @"NSMapTable" _cachedRTFFontTable;
+    NSMapTable _cachedRTFFontTable;
     double _hyphenationFactor;
     double _defaultTabInterval;
-    @"NSColor" _documentBackgroundColor;
+    NSColor _documentBackgroundColor;
     {_NSRTFPriv="reader"^v"rtfInput"*"rtfInputLength"Q"rtfInputLocation"Q"rtfHeaderEndLocation"Q"pushedChar"i"pushedClass"i"pushedMajor"i"pushedMinor"i"pushedParam"i"pushedTextBuf"[1024c]"prevChar"i"bumpLine"i"fontList"^{RTFFont}"colorList"^{RTFColor}"styleList"^{RTFStyle}"inputName"*"outputName"*"ccb"[5^?]"readHook"^?"msgProc"^?"panicProc"^?"textBuf"[1024c]"textLen"i"class"i"major"i"minor"i"param"i"lineNum"q"linePos"q"groupState"i} _private;
     BOOL _textBufferContentsIsFat;
     BOOL _explicitCharSetEncountered;
@@ -40,14 +40,14 @@
     long long _thumbnailLimit;
     BOOL _limitReached;
     unsigned char _textFlow;
-    @"NSMutableArray" _layoutOrientationSections;
+    NSMutableArray _layoutOrientationSections;
     unsigned long long _verticalOrientationLocation;
-    @"NSArray" _textBlocks;
-    @"NSMutableArray" _nestedTables;
-    @"NSTextTable" _currentTable;
-    @"NSTextTable" _previousTable;
-    @"NSMutableArray" _currentRowArray;
-    @"NSMutableArray" _previousRowArray;
+    NSArray _textBlocks;
+    NSMutableArray _nestedTables;
+    NSTextTable _currentTable;
+    NSTextTable _previousTable;
+    NSMutableArray _currentRowArray;
+    NSMutableArray _previousRowArray;
     int _currentRow;
     int _currentColumn;
     int _currentDefinitionColumn;
@@ -55,11 +55,11 @@
     BOOL _setTableCells;
     unsigned long long _currentBorderEdge;
     BOOL _currentBorderIsTable;
-    @"NSMutableDictionary" _listDefinitions;
+    NSMutableDictionary _listDefinitions;
     int _currentListNumber;
     int _currentListLevel;
-    @"NSCalendar" _gregorianCalendar;
-    @"NSMutableDictionary" _fontAttributesTable;
+    NSCalendar _gregorianCalendar;
+    NSMutableDictionary _fontAttributesTable;
 }
 
  - (id) initWithPath:(id)a;

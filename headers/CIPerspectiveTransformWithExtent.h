@@ -1,12 +1,12 @@
 
 @interface CIPerspectiveTransformWithExtent : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIVector" inputExtent;
-    @"CIVector" inputTopLeft;
-    @"CIVector" inputTopRight;
-    @"CIVector" inputBottomRight;
-    @"CIVector" inputBottomLeft;
+    CIImage inputImage;
+    CIVector inputExtent;
+    CIVector inputTopLeft;
+    CIVector inputTopRight;
+    CIVector inputBottomRight;
+    CIVector inputBottomLeft;
 }
  + (id) customAttributes;
 

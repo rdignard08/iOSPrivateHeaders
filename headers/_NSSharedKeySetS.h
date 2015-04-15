@@ -14,7 +14,7 @@
     ^[2S] _keys2;
     ^[3S] _keys3;
     ^[3C] _ckeys;
-    @"_NSSharedKeySetS" _subSharedKeySet;
+    _NSSharedKeySetS _subSharedKeySet;
     unsigned int _keyLen;
     unsigned int _type;
 }

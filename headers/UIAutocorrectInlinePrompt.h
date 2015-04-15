@@ -3,14 +3,14 @@
 @interface UIAutocorrectInlinePrompt : UIView <UIKeyboardCandidateList> {
 
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_originalTypedTextRect;
-    @"NSString" m_typedText;
-    @"NSString" m_correction;
-    @"NSArray" m_usageTrackingTypes;
-    @"NSMutableArray" m_typedTextViews;
-    @"UIView" m_correctionView;
-    @"UIView" m_correctionAnimationView;
-    @"UIView" m_typedTextAnimationView;
-    @"UIView" m_correctionShadowView;
+    NSString m_typedText;
+    NSString m_correction;
+    NSArray m_usageTrackingTypes;
+    NSMutableArray m_typedTextViews;
+    UIView m_correctionView;
+    UIView m_correctionAnimationView;
+    UIView m_typedTextAnimationView;
+    UIView m_correctionShadowView;
     BOOL m_fits;
     BOOL m_mouseDown;
     id m_delegate;
@@ -20,7 +20,7 @@
     double m_maxX;
     BOOL _showHiddenCandidatesOnly;
     unsigned int m_usageTrackingMask;
-    @"TIKeyboardCandidateResultSet" _candidateResultSet;
+    TIKeyboardCandidateResultSet _candidateResultSet;
 }
 
  - (void) dealloc;

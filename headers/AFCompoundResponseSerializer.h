@@ -1,7 +1,7 @@
 
 @interface AFCompoundResponseSerializer : AFHTTPResponseSerializer {
 
-    @"NSArray" _responseSerializers;
+    NSArray _responseSerializers;
 }
  + (id) compoundSerializerWithResponseSerializers:(id)a;
 

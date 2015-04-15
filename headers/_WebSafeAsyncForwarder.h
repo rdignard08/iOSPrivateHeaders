@@ -1,7 +1,7 @@
 
 @interface _WebSafeAsyncForwarder : NSObject {
 
-    @"_WebSafeForwarder" _forwarder;
+    _WebSafeForwarder _forwarder;
 }
 
  - (void) forwardInvocation:(id)a;

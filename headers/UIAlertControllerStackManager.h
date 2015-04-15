@@ -1,8 +1,8 @@
 
 @interface UIAlertControllerStackManager : NSObject {
 
-    @"NSMutableArray" _alertControllerStack;
-    @"NSMutableArray" _hiddenAlertControllers;
+    NSMutableArray _alertControllerStack;
+    NSMutableArray _hiddenAlertControllers;
 }
  + (id) sharedStackManager;
 

@@ -2,23 +2,23 @@
 @protocol UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate;
 @interface _UIModalItemContentView : UIView <UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate> {
 
-    @"_UIModalItem" _modalItem;
-    @"UILabel" _titleLabel;
-    @"UILabel" _subtitleLabel;
-    @"UILabel" _messageLabel;
-    @"UITextField" _loginTextField;
-    @"UITextField" _passwordTextField;
-    @"UIViewController" _accessoryViewController;
+    _UIModalItem _modalItem;
+    UILabel _titleLabel;
+    UILabel _subtitleLabel;
+    UILabel _messageLabel;
+    UITextField _loginTextField;
+    UITextField _passwordTextField;
+    UIViewController _accessoryViewController;
     {CGSize="width"d"height"d} _accessoryViewControllerSize;
-    @"UIView" _accessoryViewControllerContrainerView;
+    UIView _accessoryViewControllerContrainerView;
     {CGSize="width"d"height"d} _actualViewControllerSize;
-    @"UIButton" _cancelButton;
-    @"UIButton" _defaultButton;
+    UIButton _cancelButton;
+    UIButton _defaultButton;
     long long _cancelButtonIndex;
     long long _defaultButtonIndex;
-    @"UITableView" _buttonTable;
+    UITableView _buttonTable;
     {CGSize="width"d"height"d} _presentingSize;
-    @"_UIModalItemsPresentingViewController" _presentingViewController;
+    _UIModalItemsPresentingViewController _presentingViewController;
     {CGSize="width"d"height"d} _maxSize;
     BOOL _enableFirstOtherButton;
 }

@@ -1,7 +1,7 @@
 
 @interface UICompletionCell : UITableViewCell {
 
-    @"NSString" _cellContentString;
+    NSString _cellContentString;
 }
 
  - (void) dealloc;

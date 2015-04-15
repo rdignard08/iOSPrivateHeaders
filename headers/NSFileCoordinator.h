@@ -4,10 +4,10 @@
     id _accessArbiter;
     id _fileReactor;
     id _purposeID;
-    @"NSURL" _recentFilePresenterURL;
+    NSURL _recentFilePresenterURL;
     id _accessClaimIDOrIDs;
     BOOL _isCancelled;
-    @"NSMutableDictionary" _movedItems;
+    NSMutableDictionary _movedItems;
 }
 @property (atomic, copy, readwrite) NSString* purposeIdentifier;
  + (id) _currentFileCoordinator;

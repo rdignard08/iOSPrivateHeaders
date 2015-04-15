@@ -1,20 +1,20 @@
 
 @interface UITableViewIndex : UIControl {
 
-    @"NSArray" _titles;
-    @"UIFont" _font;
+    NSArray _titles;
+    UIFont _font;
     long long _selectedSection;
     BOOL _pastTop;
     BOOL _pastBottom;
     {CGSize="width"d"height"d} _cachedSize;
     {CGSize="width"d"height"d} _cachedSizeToFit;
-    @"UIColor" _indexColor;
-    @"UIColor" _indexBackgroundColor;
-    @"UIColor" _indexTrackingBackgroundColor;
+    UIColor _indexColor;
+    UIColor _indexBackgroundColor;
+    UIColor _indexTrackingBackgroundColor;
     double _topPadding;
     double _bottomPadding;
     double _verticalTextHeightEstimate;
-    @"NSArray" _entries;
+    NSArray _entries;
     long long _idiom;
 }
 

@@ -1,11 +1,11 @@
 
 @interface UIWebSelectionHandle : UIView {
 
-    @"UITouch" _touch;
-    @"UIImageView" _dragDotView;
+    UITouch _touch;
+    UIImageView _dragDotView;
     int _position;
     int _textPosition;
-    @"UIWebSelectionView" _selectionView;
+    UIWebSelectionView _selectionView;
     {CGSize="width"d"height"d} _touchToCenterOffset;
     {CGSize="width"d"height"d} _centerToSelectionPointOffset;
 }

@@ -1,18 +1,18 @@
 
 @interface UICollectionViewTransitionLayout : UICollectionViewLayout {
 
-    @"UICollectionViewLayout" _fromLayout;
-    @"UICollectionViewLayout" _toLayout;
+    UICollectionViewLayout _fromLayout;
+    UICollectionViewLayout _toLayout;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _fromVisibleBounds;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _toVisibleBounds;
     {CGSize="width"d"height"d} _contentSize;
     BOOL _haveValidInfos;
     double _transitionProgress;
-    @"NSMutableDictionary" _transitionInformationsDict;
-    @"NSMutableDictionary" _currentLayoutInfos;
+    NSMutableDictionary _transitionInformationsDict;
+    NSMutableDictionary _currentLayoutInfos;
     BOOL _layoutIsValid;
-    @"NSMutableArray" _disappearingLayoutAttributes;
-    @"NSMutableArray" _appearingLayoutAttributes;
+    NSMutableArray _disappearingLayoutAttributes;
+    NSMutableArray _appearingLayoutAttributes;
     double _accuracy;
 }
 

@@ -2,20 +2,20 @@
 @interface _UIContentUnavailableView : UIView {
 
     unsigned long long _style;
-    @"NSString" _title;
-    @"_UIBackdropView" _backdrop;
-    @"UIView" _containerView;
-    @"UILabel" _titleLabel;
-    @"UILabel" _messageLabel;
-    @"UIButton" _actionButton;
-    @"NSLayoutConstraint" titleToMessageConstraint;
-    @"NSLayoutConstraint" messageToButtonConstraint;
-    @"UIView" _fromSnapshot;
-    @"UIView" _toSnapshot;
+    NSString _title;
+    _UIBackdropView _backdrop;
+    UIView _containerView;
+    UILabel _titleLabel;
+    UILabel _messageLabel;
+    UIButton _actionButton;
+    NSLayoutConstraint titleToMessageConstraint;
+    NSLayoutConstraint messageToButtonConstraint;
+    UIView _fromSnapshot;
+    UIView _toSnapshot;
     {CGSize="width"d"height"d} _fromSnapshotSize;
-    @"NSMutableArray" _containerViewContraints;
-    @"NSString" _message;
-    @"NSString" _buttonTitle;
+    NSMutableArray _containerViewContraints;
+    NSString _message;
+    NSString _buttonTitle;
     @? _buttonAction;
     unsigned long long _vibrantOptions;
 }

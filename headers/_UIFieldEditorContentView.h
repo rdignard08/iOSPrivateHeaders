@@ -1,7 +1,7 @@
 
 @interface _UIFieldEditorContentView : UIView {
 
-    @"UIFieldEditor" _fieldEditor;
+    UIFieldEditor _fieldEditor;
 }
 
  - (id) fieldEditor;

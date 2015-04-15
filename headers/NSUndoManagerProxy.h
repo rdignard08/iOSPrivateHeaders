@@ -1,7 +1,7 @@
 
 @interface NSUndoManagerProxy : NSProxy {
 
-    @"NSUndoManager" _manager;
+    NSUndoManager _manager;
     Class _targetClass;
 }
 

@@ -1,10 +1,10 @@
 
 @interface CIVortexDistortion : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIVector" inputCenter;
-    @"NSNumber" inputRadius;
-    @"NSNumber" inputAngle;
+    CIImage inputImage;
+    CIVector inputCenter;
+    NSNumber inputRadius;
+    NSNumber inputAngle;
 }
  + (id) customAttributes;
 

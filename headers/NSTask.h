@@ -10,7 +10,7 @@
 @property (atomic, retain, readwrite) NSNumber* standardOutput;
 @property (atomic, retain, readwrite) NSNumber* standardError;
 @property (atomic, assign, readonly) NSNumber* processIdentifier;
-@property (atomic, assign, readonly, isRunning) NSNumber* running;
+@property (atomic, assign, readonly, getter=isRunning) NSNumber* running;
 @property (atomic, assign, readonly) NSNumber* terminationStatus;
 @property (atomic, assign, readonly) NSNumber* terminationReason;
 @property (atomic, copy, readwrite) NSNumber* terminationHandler;

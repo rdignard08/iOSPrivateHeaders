@@ -2,7 +2,7 @@
 @interface FCRFaceDetector : NSObject {
 
     ^v api;
-    @"NSObject" lock;
+    NSObject lock;
 }
  + (int) findProfileInParameters:(id)a;
  + (id) faceDetectorWithOptions:(id)a;

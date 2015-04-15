@@ -1,7 +1,7 @@
 
 @interface _UIPopoverViewBackgroundComponentView : UIView {
 
-    @"NSString" directionSelector;
+    NSString directionSelector;
 }
 
  - (void) dealloc;

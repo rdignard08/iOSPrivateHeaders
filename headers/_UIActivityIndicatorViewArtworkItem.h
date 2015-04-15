@@ -2,8 +2,8 @@
 @protocol NSDiscardableContent;
 @interface _UIActivityIndicatorViewArtworkItem : NSObject <NSDiscardableContent> {
 
-    @"NSString" _artKey;
-    @"NSArray" _images;
+    NSString _artKey;
+    NSArray _images;
     {?="isDiscarded"b1"useCount"I} _flags;
 }
 @property (nonatomic, assign, readonly) NSString* artKey;

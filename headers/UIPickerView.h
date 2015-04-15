@@ -2,25 +2,25 @@
 @protocol UIPickerTableViewContainerDelegate, UITableViewDelegate, UIPickerViewScrollTesting, NSCoding, UITableViewDataSource;
 @interface UIPickerView : UIView <UIPickerTableViewContainerDelegate, UITableViewDelegate, UIPickerViewScrollTesting, NSCoding, UITableViewDataSource> {
 
-    @"NSMutableArray" _tables;
-    @"UIView" _topFrame;
-    @"NSMutableArray" _dividers;
-    @"NSMutableArray" _selectionBars;
-    @"<UIPickerViewDataSource>" _dataSource;
-    @"<UIPickerViewDelegate>" _delegate;
-    @"UIView" _backgroundView;
+    NSMutableArray _tables;
+    UIView _topFrame;
+    NSMutableArray _dividers;
+    NSMutableArray _selectionBars;
+    <UIPickerViewDataSource> _dataSource;
+    <UIPickerViewDelegate> _delegate;
+    UIView _backgroundView;
     long long _numberOfComponents;
-    @"UIImageView" _topGradient;
-    @"UIImageView" _bottomGradient;
-    @"UIView" _foregroundView;
-    @"CALayer" _maskGradientLayer;
-    @"UIView" _topLineView;
-    @"UIView" _bottomLineView;
+    UIImageView _topGradient;
+    UIImageView _bottomGradient;
+    UIView _foregroundView;
+    CALayer _maskGradientLayer;
+    UIView _topLineView;
+    UIView _bottomLineView;
     {?="needsLayout"b1"delegateRespondsToNumberOfComponentsInPickerView"b1"delegateRespondsToNumberOfRowsInComponent"b1"delegateRespondsToDidSelectRow"b1"delegateRespondsToViewForRow"b1"delegateRespondsToTitleForRow"b1"delegateRespondsToAttributedTitleForRow"b1"delegateRespondsToWidthForComponent"b1"delegateRespondsToRowHeightForComponent"b1"showsSelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1} _pickerViewFlags;
     BOOL _usesModernStyle;
-    @"UIColor" _textColor;
-    @"UIColor" _textShadowColor;
-    @"_UIPickerViewTestParameters" _currentTestParameters;
+    UIColor _textColor;
+    UIColor _textShadowColor;
+    _UIPickerViewTestParameters _currentTestParameters;
     BOOL _isInLayoutSubviews;
     BOOL _magnifierEnabled;
 }

@@ -5,9 +5,9 @@
     BOOL _beginsFirstPage;
     BOOL _endsLastPage;
     BOOL _isAtLeftEdge;
-    @"UIKBThemedView" _themedView;
-    @"UILabel" _label;
-    @"NSString" _candidateText;
+    UIKBThemedView _themedView;
+    UILabel _label;
+    NSString _candidateText;
 }
  + (id) reuseIdentifier;
  + (double) widthForCandidateText:(id)a;

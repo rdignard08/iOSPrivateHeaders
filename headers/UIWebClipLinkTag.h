@@ -3,9 +3,9 @@
 
     BOOL _mediaMatchesPortraitOrientation;
     BOOL _mediaMatchesLandscapeOrientation;
-    @"NSString" _href;
-    @"NSString" _rel;
-    @"NSString" _sizes;
+    NSString _href;
+    NSString _rel;
+    NSString _sizes;
 }
 @property (nonatomic, copy, readwrite) NSString* href;
 @property (nonatomic, assign, readonly) NSURL* hrefURL;

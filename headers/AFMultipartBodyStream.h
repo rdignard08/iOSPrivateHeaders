@@ -2,18 +2,18 @@
 @protocol NSCopying, NSStreamDelegate;
 @interface AFMultipartBodyStream : NSInputStream <NSCopying, NSStreamDelegate> {
 
-    @"<NSStreamDelegate>" delegate;
+    <NSStreamDelegate> delegate;
     unsigned long long streamStatus;
-    @"NSError" streamError;
+    NSError streamError;
     unsigned long long _numberOfBytesInPacket;
     double _delay;
-    @"NSInputStream" _inputStream;
+    NSInputStream _inputStream;
     unsigned long long _stringEncoding;
-    @"NSMutableArray" _HTTPBodyParts;
-    @"NSEnumerator" _HTTPBodyPartEnumerator;
-    @"AFHTTPBodyPart" _currentHTTPBodyPart;
-    @"NSOutputStream" _outputStream;
-    @"NSMutableData" _buffer;
+    NSMutableArray _HTTPBodyParts;
+    NSEnumerator _HTTPBodyPartEnumerator;
+    AFHTTPBodyPart _currentHTTPBodyPart;
+    NSOutputStream _outputStream;
+    NSMutableData _buffer;
 }
 
  - (id) outputStream;

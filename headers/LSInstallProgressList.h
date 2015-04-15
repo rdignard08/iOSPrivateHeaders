@@ -1,8 +1,8 @@
 
 @interface LSInstallProgressList : NSObject {
 
-    @"NSMutableDictionary" _progresses;
-    @"NSMutableDictionary" _subscriptions;
+    NSMutableDictionary _progresses;
+    NSMutableDictionary _subscriptions;
 }
 
  - (id) progressForBundleID:(id)a;

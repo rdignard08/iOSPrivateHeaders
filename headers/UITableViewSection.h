@@ -2,11 +2,11 @@
 @protocol NSCoding;
 @interface UITableViewSection : NSObject <NSCoding> {
 
-    @"NSString" _headerTitle;
-    @"UIView" _headerView;
-    @"NSString" _footerTitle;
-    @"UIView" _footerView;
-    @"NSArray" _rows;
+    NSString _headerTitle;
+    UIView _headerView;
+    NSString _footerTitle;
+    UIView _footerView;
+    NSArray _rows;
 }
 @property (nonatomic, copy, readwrite) NSString* headerTitle;
 @property (nonatomic, retain, readwrite) UIView* headerView;

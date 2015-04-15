@@ -1,7 +1,7 @@
 
 @interface WebGeolocation : NSObject {
 
-    @"WebGeolocationPrivate" _private;
+    WebGeolocationPrivate _private;
 }
 
  - (void) dealloc;

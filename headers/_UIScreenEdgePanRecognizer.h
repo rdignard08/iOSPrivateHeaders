@@ -11,7 +11,7 @@
     double _initialTouchTimestamp;
     long long _initialInterfaceOrientation;
     unsigned long long _touchedRegion;
-    @"UIDelayedAction" _recognitionTimer;
+    UIDelayedAction _recognitionTimer;
     {CGPoint="x"d"y"d} _lastTouchLocation;
     double _lastTouchTimestamp;
     long long _type;
@@ -20,15 +20,15 @@
     unsigned long long _targetEdges;
     long long _state;
     unsigned long long _recognizedRegion;
-    @"<_UIScreenEdgePanRecognizerDelegate>" _delegate;
-    @"_UIScreenEdgePanRecognizerSettings" _settings;
+    <_UIScreenEdgePanRecognizerDelegate> _delegate;
+    _UIScreenEdgePanRecognizerSettings _settings;
 }
 @property (nonatomic, assign, readwrite) NSNumber* screenBounds;
 @property (nonatomic, assign, readwrite) NSNumber* targetEdges;
 @property (nonatomic, assign, readwrite) NSNumber* requiresFlatThumb;
 @property (nonatomic, assign, readonly) NSNumber* state;
 @property (nonatomic, assign, readonly) NSNumber* recognizedRegion;
-@property (nonatomic, assign, readonly, isRequiringLongPress) NSNumber* requiringLongPress;
+@property (nonatomic, assign, readonly, getter=isRequiringLongPress) NSNumber* requiringLongPress;
 @property (atomic, assign, readwrite) NSNumber* delegate;
 @property (nonatomic, retain, readwrite) _UIScreenEdgePanRecognizerSettings* settings;
 @property (nonatomic, assign, readwrite) NSNumber* shouldUseGrapeFlags;

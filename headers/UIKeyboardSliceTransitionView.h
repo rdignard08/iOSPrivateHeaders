@@ -3,12 +3,12 @@
 
     ^{CGImage=} _defaultKeyplaneImage;
     ^{CGImage=} _splitKeyplaneImage;
-    @"CALayer" _leftKeys;
-    @"CALayer" _rightKeys;
-    @"CALayer" _spaceFill;
-    @"NSMutableDictionary" _controlKeys;
-    @"CALayer" _topEdgeHighlight;
-    @"UIKBCacheToken" _keyplaneToken;
+    CALayer _leftKeys;
+    CALayer _rightKeys;
+    CALayer _spaceFill;
+    NSMutableDictionary _controlKeys;
+    CALayer _topEdgeHighlight;
+    UIKBCacheToken _keyplaneToken;
     long long _orientation;
     {?="position"b1"slices"b1"backgroundAndShadows"b1"backgroundGradients"b1"topEdgeHighlight"b1"shiftKeys"b1"returnKeys"b1"moreIntlKeys"b1} _rebuildFlags;
 }

@@ -2,8 +2,8 @@
 @protocol NSSecureCoding, NSCopying, QLPreviewItem;
 @interface NSURL : NSObject <NSSecureCoding, NSCopying, QLPreviewItem> {
 
-    @"NSString" _urlString;
-    @"NSURL" _baseURL;
+    NSString _urlString;
+    NSURL _baseURL;
     ^v _clients;
     ^v _reserved;
 }
@@ -32,7 +32,7 @@
 @property (atomic, copy, readonly) NSString* query;
 @property (atomic, copy, readonly) NSString* relativePath;
 @property (atomic, assign, readonly) NSNumber* fileSystemRepresentation;
-@property (atomic, assign, readonly, isFileURL) NSNumber* fileURL;
+@property (atomic, assign, readonly, getter=isFileURL) NSNumber* fileURL;
 @property (atomic, copy, readonly) NSURL* standardizedURL;
 @property (atomic, copy, readonly) NSURL* filePathURL;
  + (id) _web_URLWithWTFString:(r^{String={RefPtr<WTF::StringImpl>=^{StringImpl}}})a;

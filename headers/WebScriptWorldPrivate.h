@@ -1,7 +1,7 @@
 
 @interface WebScriptWorldPrivate : NSObject {
 
-    {RefPtr<WebCore::DOMWrapperWorld>="m_ptr"^{DOMWrapperWorld}} world;
+    m_ptr world;
 }
 
  - (id) .cxx_construct;

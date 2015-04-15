@@ -3,7 +3,7 @@
 
     unsigned long long _used;
     ^{__CFBasicHash=} _set;
-    @"NSMutableArray" _array;
+    NSMutableArray _array;
 }
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
  + (id) allocWithZone:(^{_NSZone=})a;

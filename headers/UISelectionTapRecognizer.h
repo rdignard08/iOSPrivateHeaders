@@ -1,7 +1,7 @@
 
 @interface UISelectionTapRecognizer : UITextTapRecognizer {
 
-    @"UIResponder<UITextInput>" _textView;
+    UIResponder<UITextInput> _textView;
 }
 
  - (void) setTextView:(id)a;

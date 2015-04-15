@@ -2,7 +2,7 @@
 @interface UIDragger : NSObject {
 
     ^? _interpolator;
-    @"UIView" _target;
+    UIView _target;
     id _delegate;
     SEL _action;
     {CGPoint="x"d"y"d} _startLocation;
@@ -10,12 +10,12 @@
     double _duration;
     BOOL _showFinger;
     unsigned int _port;
-    @"NSArray" _modes;
+    NSArray _modes;
     unsigned long long _startTimestamp;
     unsigned long long _stopTimestamp;
     unsigned long long _lastTimestamp;
     BOOL _waitingForSmoothScrolling;
-    @"UIImageView" _fingerView;
+    UIImageView _fingerView;
 }
 
  - (void) dealloc;

@@ -1,9 +1,9 @@
 
 @interface UISliderContent : NSObject {
 
-    @"UIImage" thumb;
-    @"UIImage" minTrack;
-    @"UIImage" maxTrack;
+    UIImage thumb;
+    UIImage minTrack;
+    UIImage maxTrack;
 }
 @property (nonatomic, retain, readwrite) UIImage* thumb;
 @property (nonatomic, retain, readwrite) UIImage* minTrack;

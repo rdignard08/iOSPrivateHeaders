@@ -3,8 +3,8 @@
 
     char* _replySignature;
     int _replyPosition;
-    @"NSMutableArray" _replyArguments;
-    @"NSMutableArray" _arguments;
+    NSMutableArray _replyArguments;
+    NSMutableArray _arguments;
 }
 @property (atomic, assign, readwrite) NSNumber* replyPosition;
 @property (atomic, retain, readwrite) NSMutableArray* replyArguments;

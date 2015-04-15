@@ -1,8 +1,8 @@
 
 @interface _UIReflectingView : UIView {
 
-    @"UIView" _containerView;
-    @"UIView" _gradientView;
+    UIView _containerView;
+    UIView _gradientView;
     double _reflectionAlpha;
 }
 

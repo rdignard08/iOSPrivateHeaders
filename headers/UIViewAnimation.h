@@ -1,8 +1,8 @@
 
 @interface UIViewAnimation : NSObject {
 
-    @"UIView" _view;
-    @"NSIndexPath" _indexPath;
+    UIView _view;
+    NSIndexPath _indexPath;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _endRect;
     double _endAlpha;
     double _startFraction;

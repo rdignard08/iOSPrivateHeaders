@@ -1,15 +1,15 @@
 
 @interface _UIDocumentPickerCell : UICollectionViewCell {
 
-    @"UILabel" _titleLabel;
-    @"UILabel" _subtitleLabel;
-    @"UILabel" _subtitle2Label;
-    @"UIImageView" _thumbnailView;
-    @"UIProgressView" _progressView;
-    @"UIView" _thumbnailCenterView;
-    @"NSLayoutConstraint" _thumbnailCenterWidthConstraint;
-    @"NSLayoutConstraint" _thumbnailCenterHeightConstraint;
-    @"UILongPressGestureRecognizer" _pickableDiagnosticGestureRecognizer;
+    UILabel _titleLabel;
+    UILabel _subtitleLabel;
+    UILabel _subtitle2Label;
+    UIImageView _thumbnailView;
+    UIProgressView _progressView;
+    UIView _thumbnailCenterView;
+    NSLayoutConstraint _thumbnailCenterWidthConstraint;
+    NSLayoutConstraint _thumbnailCenterHeightConstraint;
+    UILongPressGestureRecognizer _pickableDiagnosticGestureRecognizer;
 }
  + ({CGSize=dd}) thumbnailSizeForTraits:(id)a;
  + ({CGSize=dd}) defaultSizeForTraits:(id)a;

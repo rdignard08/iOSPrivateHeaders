@@ -1,22 +1,22 @@
 
 @interface UIDynamicAnimator : NSObject {
 
-    @"PKExtendedPhysicsWorld" _world;
-    @"CADisplayLink" _displaylink;
+    PKExtendedPhysicsWorld _world;
+    CADisplayLink _displaylink;
     double _elapsedTime;
     double _realElapsedTime;
     double _lastUpdateTime;
     double _lastInterval;
     long long _ticks;
-    @"CALayer" _debugLayer;
-    @"NSMutableDictionary" _bodies;
-    @"NSMutableArray" _topLevelBehaviors;
-    @"NSMutableSet" _registeredBehaviors;
-    @"NSMutableSet" _behaviorsToRemove;
-    @"NSMutableSet" _behaviorsToAdd;
-    @"NSMutableArray" _postSolverActions;
-    @"NSMutableArray" _beginContacts;
-    @"NSMutableArray" _endContacts;
+    CALayer _debugLayer;
+    NSMutableDictionary _bodies;
+    NSMutableArray _topLevelBehaviors;
+    NSMutableSet _registeredBehaviors;
+    NSMutableSet _behaviorsToRemove;
+    NSMutableSet _behaviorsToAdd;
+    NSMutableArray _postSolverActions;
+    NSMutableArray _beginContacts;
+    NSMutableArray _endContacts;
     BOOL _isInWorldStepMethod;
     BOOL _needsLocalBehaviorReevaluation;
     BOOL _stopping;
@@ -27,17 +27,17 @@
     int _registeredCollisionGroups;
     int _registeredImplicitBounds;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _referenceSystemBounds;
-    @"<_UIDynamicReferenceSystem>" _referenceSystem;
+    <_UIDynamicReferenceSystem> _referenceSystem;
     int _debugInterval;
     @? _action;
-    @"<UIDynamicAnimatorDelegate>" _delegate;
+    <UIDynamicAnimatorDelegate> _delegate;
     BOOL _disableDisplayLink;
     double _speed;
-    @"UIDynamicAnimatorTicker" _ticker;
+    UIDynamicAnimatorTicker _ticker;
 }
 @property (nonatomic, assign, readonly) UIView* referenceView;
 @property (nonatomic, copy, readonly) NSArray* behaviors;
-@property (nonatomic, assign, readonly, isRunning) NSNumber* running;
+@property (nonatomic, assign, readonly, getter=isRunning) NSNumber* running;
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 @property (nonatomic, retain, readwrite) UIDynamicAnimatorTicker* ticker;
  + (void) initialize;

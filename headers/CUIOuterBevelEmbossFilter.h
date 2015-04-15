@@ -1,13 +1,13 @@
 
 @interface CUIOuterBevelEmbossFilter : CIFilter {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputRadius;
-    @"NSNumber" inputSize;
-    @"NSNumber" inputSoften;
-    @"NSNumber" inputAngle;
-    @"CIColor" inputHighlightColor;
-    @"CIColor" inputShadowColor;
+    CIImage inputImage;
+    NSNumber inputRadius;
+    NSNumber inputSize;
+    NSNumber inputSoften;
+    NSNumber inputAngle;
+    CIColor inputHighlightColor;
+    CIColor inputShadowColor;
 }
  + (id) customAttributes;
 

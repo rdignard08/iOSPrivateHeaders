@@ -2,14 +2,14 @@
 @protocol BSXPCCoding, BSSettingDescriptionProvider;
 @interface BSAction : NSObject <BSXPCCoding, BSSettingDescriptionProvider> {
 
-    @"BSSettings" _info;
+    BSSettings _info;
     BOOL _expectsResponse;
     unsigned long long _timeout;
-    @"NSObject<OS_dispatch_queue>" _queue;
+    NSObject<OS_dispatch_queue> _queue;
     BOOL _queue_hasBeenNeutered;
     @? _queue_handler;
     {?="port"I"endpoint"@"NSObject<OS_xpc_object>"} _queue_listenerTokens;
-    @"NSObject<OS_dispatch_source>" _queue_timer;
+    NSObject<OS_dispatch_source> _queue_timer;
 }
 @property (nonatomic, copy, readonly) BSSettings* info;
 

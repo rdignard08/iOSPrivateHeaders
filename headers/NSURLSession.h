@@ -3,12 +3,12 @@
 
     BOOL _invalid;
     BOOL __isSharedSession;
-    @"NSOperationQueue" _delegateQueue;
-    @"<NSURLSessionDelegate>" _delegate;
-    @"NSString" _sessionDescription;
-    @"NSURLSessionConfiguration" __local_immutable_configuration;
-    @"NSObject<OS_dispatch_queue>" _workQueue;
-    @"NSOperationQueue" _realDelegateQueue;
+    NSOperationQueue _delegateQueue;
+    <NSURLSessionDelegate> _delegate;
+    NSString _sessionDescription;
+    NSURLSessionConfiguration __local_immutable_configuration;
+    NSObject<OS_dispatch_queue> _workQueue;
+    NSOperationQueue _realDelegateQueue;
     @? __connBlock;
 }
 @property (atomic, retain, readwrite) NSOperationQueue* delegateQueue;

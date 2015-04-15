@@ -1,8 +1,8 @@
 
 @interface UIClassicStatusBarView : _UIScrollsToTopInitiatorView {
 
-    @"UIImageView" _backgroundView;
-    @"UIImage" _image;
+    UIImageView _backgroundView;
+    UIImage _image;
 }
 
  - (void) dealloc;

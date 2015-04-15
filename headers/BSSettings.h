@@ -2,9 +2,9 @@
 @protocol NSCopying, NSMutableCopying, BSXPCCoding;
 @interface BSSettings : NSObject <NSCopying, NSMutableCopying, BSXPCCoding> {
 
-    @"<BSSettingDescriptionProvider>" _descriptionProvider;
-    @"NSMapTable" _settingToFlagMap;
-    @"NSMapTable" _settingToObjectMap;
+    <BSSettingDescriptionProvider> _descriptionProvider;
+    NSMapTable _settingToFlagMap;
+    NSMapTable _settingToObjectMap;
 }
 @property (nonatomic, weak, readwrite) NSNumber* descriptionProvider;
 

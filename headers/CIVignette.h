@@ -1,9 +1,9 @@
 
 @interface CIVignette : CIFilter {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputIntensity;
-    @"NSNumber" inputRadius;
+    CIImage inputImage;
+    NSNumber inputIntensity;
+    NSNumber inputRadius;
 }
  + (id) customAttributes;
 

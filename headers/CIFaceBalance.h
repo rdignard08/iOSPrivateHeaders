@@ -2,11 +2,11 @@
 @protocol _CIFilterProperties;
 @interface CIFaceBalance : CIFilter <_CIFilterProperties> {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputOrigI;
-    @"NSNumber" inputOrigQ;
-    @"NSNumber" inputStrength;
-    @"NSNumber" inputWarmth;
+    CIImage inputImage;
+    NSNumber inputOrigI;
+    NSNumber inputOrigQ;
+    NSNumber inputStrength;
+    NSNumber inputWarmth;
 }
  + (id) customAttributes;
 

@@ -2,8 +2,8 @@
 @protocol NSSecureCoding;
 @interface BKSEventFocusDeferral : NSObject <NSSecureCoding> {
 
-    @"BKSEventFocusDeferralProperties" _properties;
-    @"BKSEventFocusDeferralProperties" _deferredProperties;
+    BKSEventFocusDeferralProperties _properties;
+    BKSEventFocusDeferralProperties _deferredProperties;
 }
 @property (nonatomic, assign, readonly) BKSEventFocusDeferralProperties* properties;
 @property (nonatomic, assign, readonly) BKSEventFocusDeferralProperties* deferredProperties;

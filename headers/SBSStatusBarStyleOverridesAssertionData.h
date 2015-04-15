@@ -6,13 +6,13 @@
     BOOL _isExclusive;
     int _statusBarStyleOverrides;
     int _pid;
-    @"NSString" _uniqueIdentifier;
+    NSString _uniqueIdentifier;
 }
 @property (nonatomic, assign, readwrite) NSNumber* statusBarStyleOverrides;
 @property (nonatomic, assign, readwrite) NSNumber* pid;
 @property (nonatomic, assign, readonly) NSNumber* isExclusive;
 @property (nonatomic, copy, readwrite) NSString* uniqueIdentifier;
-@property (nonatomic, assign, readwrite, isExclusive) NSNumber* exclusive;
+@property (nonatomic, assign, readwrite, getter=isExclusive) NSNumber* exclusive;
  + (BOOL) supportsSecureCoding;
 
  - (void) dealloc;

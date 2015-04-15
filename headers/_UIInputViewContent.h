@@ -3,7 +3,7 @@
 
     double _contentHeight;
     double _contentWidth;
-    @"UIInputView" _inputView;
+    UIInputView _inputView;
     int _unclippableCorners;
 }
 

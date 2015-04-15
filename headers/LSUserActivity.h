@@ -2,18 +2,18 @@
 @protocol SFCompanionAdvertiserDelegate;
 @interface LSUserActivity : NSObject <SFCompanionAdvertiserDelegate> {
 
-    @"LSUserActivityManager" _manager;
-    @"NSMutableDictionary" _userInfo;
-    @"NSMutableDictionary" _frameworkPayload;
-    @"NSString" _title;
-    @"NSURL" _webpageURL;
-    @"<LSUserActivityDelegate>" _delegate;
-    @"SFCompanionAdvertiser" _advertiser;
-    @"SFCompanionAdvertiser" _resumerAdvertiser;
+    LSUserActivityManager _manager;
+    NSMutableDictionary _userInfo;
+    NSMutableDictionary _frameworkPayload;
+    NSString _title;
+    NSURL _webpageURL;
+    <LSUserActivityDelegate> _delegate;
+    SFCompanionAdvertiser _advertiser;
+    SFCompanionAdvertiser _resumerAdvertiser;
     double _lastSaveTime;
     BOOL _saveScheduled;
     BOOL _createsNewUUIDIfSaved;
-    @"NSError" _decodeUserInfoError;
+    NSError _decodeUserInfoError;
     BOOL _needsSave;
     BOOL _dirty;
     BOOL _sendToServerPending;
@@ -24,18 +24,18 @@
     BOOL _encodedFileProviderURL;
     double _encodedContainsUnsynchronizedCloudDocumentBackoffInterval;
     BOOL _canCreateStreams;
-    @"NSString" _typeIdentifier;
-    @"NSUUID" _uniqueIdentifier;
+    NSString _typeIdentifier;
+    NSUUID _uniqueIdentifier;
     unsigned long long _suggestedActionType;
-    @"NSDate" _lastActivityDate;
-    @"NSDictionary" _options;
-    @"NSData" _streamsData;
+    NSDate _lastActivityDate;
+    NSDictionary _options;
+    NSData _streamsData;
 }
 @property (atomic, copy, readwrite) NSString* owningBundleIdentifier;
-@property (atomic, assign, readwrite, isActive) NSNumber* active;
+@property (atomic, assign, readwrite, getter=isActive) NSNumber* active;
 @property (atomic, copy, readwrite) NSDictionary* activityPayload;
-@property (atomic, copy, readwrite, activityPayload, setActivityPayload:) NSDictionary* activityPayloadDictionary;
-@property (atomic, copy, readwrite, frameworkPayload, setFrameworkPayload:) NSDictionary* frameworkPayloadDictionary;
+@property (atomic, copy, readwrite, getter=activityPayload, setter=setActivityPayload:) NSDictionary* activityPayloadDictionary;
+@property (atomic, copy, readwrite, getter=frameworkPayload, setter=setFrameworkPayload:) NSDictionary* frameworkPayloadDictionary;
 @property (atomic, copy, readwrite) NSDictionary* frameworkPayload;
 @property (atomic, copy, readwrite) NSURL* webPageURL;
 @property (atomic, copy, readwrite) NSString* typeIdentifier;

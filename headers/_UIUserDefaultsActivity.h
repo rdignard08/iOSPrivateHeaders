@@ -1,10 +1,10 @@
 
 @interface _UIUserDefaultsActivity : UIActivity {
 
-    @"NSArray" _availableActivities;
-    @"_UIActivityUserDefaults" _userDefaults;
-    @"UINavigationController" _navigationController;
-    @"UIViewController" _userDefaultsViewController;
+    NSArray _availableActivities;
+    _UIActivityUserDefaults _userDefaults;
+    UINavigationController _navigationController;
+    UIViewController _userDefaultsViewController;
 }
 
  - (id) userDefaults;

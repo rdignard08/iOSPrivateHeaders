@@ -1,9 +1,9 @@
 
 @interface BSTransactionAuditHistoryItem : NSObject {
 
-    @"NSDate" _date;
-    @"NSString" _category;
-    @"NSString" _description;
+    NSDate _date;
+    NSString _category;
+    NSString _description;
 }
  + (id) itemWithDescription:(id)a;
  + (id) itemWithDescriptionWithFormat:(id)a;

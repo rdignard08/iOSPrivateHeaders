@@ -1,8 +1,8 @@
 
 @interface UIPhysicalButtonsEvent : UIInternalEvent {
 
-    @"NSMutableSet" _allPhysicalButtons;
-    @"_UIPhysicalButton" _triggeringPhysicalButton;
+    NSMutableSet _allPhysicalButtons;
+    _UIPhysicalButton _triggeringPhysicalButton;
 }
 
  - (id) _init;

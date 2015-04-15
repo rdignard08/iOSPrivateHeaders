@@ -1,8 +1,8 @@
 
 @interface PKPhysicsContact : NSObject {
 
-    @"PKPhysicsBody" _bodyA;
-    @"PKPhysicsBody" _bodyB;
+    PKPhysicsBody _bodyA;
+    PKPhysicsBody _bodyB;
     {CGPoint="x"d"y"d} _contactPoint;
     {CGVector="dx"d"dy"d} _contactNormal;
     double _impulse;

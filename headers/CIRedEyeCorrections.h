@@ -2,9 +2,9 @@
 @protocol _CIFilterProperties;
 @interface CIRedEyeCorrections : CIFilter <_CIFilterProperties> {
 
-    @"CIImage" inputImage;
-    @"NSString" inputCameraModel;
-    @"NSArray" inputCorrectionInfo;
+    CIImage inputImage;
+    NSString inputCameraModel;
+    NSArray inputCorrectionInfo;
 }
 
  - (void) setDefaults;

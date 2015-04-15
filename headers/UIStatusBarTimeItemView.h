@@ -1,7 +1,7 @@
 
 @interface UIStatusBarTimeItemView : UIStatusBarItemView {
 
-    @"NSString" _timeString;
+    NSString _timeString;
 }
 
  - (void) dealloc;

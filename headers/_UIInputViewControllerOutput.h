@@ -7,8 +7,8 @@
     BOOL _requiresInputManagerSync;
     BOOL _shouldAdvanceResponder;
     BOOL _shouldPostReturnKeyNotification;
-    @"NSArray" _keyboardOutputs;
-    @"NSString" _primaryLanguage;
+    NSArray _keyboardOutputs;
+    NSString _primaryLanguage;
 }
 @property (nonatomic, retain, readwrite) NSArray* keyboardOutputs;
 @property (nonatomic, assign, readwrite) NSNumber* shouldDismiss;

@@ -1,13 +1,13 @@
 
 @interface CISmartBlackAndWhite : CIFilter {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputStrength;
-    @"NSNumber" inputNeutralGamma;
-    @"NSNumber" inputTone;
-    @"NSNumber" inputHue;
-    @"NSNumber" inputGrain;
-    @"NSNumber" inputScaleFactor;
+    CIImage inputImage;
+    NSNumber inputStrength;
+    NSNumber inputNeutralGamma;
+    NSNumber inputTone;
+    NSNumber inputHue;
+    NSNumber inputGrain;
+    NSNumber inputScaleFactor;
 }
  + (id) customAttributes;
 

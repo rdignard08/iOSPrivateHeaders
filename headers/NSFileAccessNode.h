@@ -1,20 +1,20 @@
 
 @interface NSFileAccessNode : NSObject {
 
-    @"NSFileAccessNode" _parent;
-    @"NSString" _name;
-    @"NSString" _normalizedName;
-    @"NSFileAccessNode" _symbolicLinkDestination;
+    NSFileAccessNode _parent;
+    NSString _name;
+    NSString _normalizedName;
+    NSFileAccessNode _symbolicLinkDestination;
     unsigned long long _symbolicLinkReferenceCount;
-    @"NSMutableDictionary" _childrenByNormalizedName;
+    NSMutableDictionary _childrenByNormalizedName;
     id _presenterOrPresenters;
     id _provider;
     id _accessClaimOrClaims;
     BOOL _isArbitrationBoundary;
     BOOL _isFilePackageIsFigured;
     BOOL _isFilePackage;
-    @"NSString" _lastRequestedChildName;
-    @"NSFileAccessNode" _lastRequestedChild;
+    NSString _lastRequestedChildName;
+    NSFileAccessNode _lastRequestedChild;
     id _progressPublisherOrPublishers;
     id _progressSubscriberOrSubscribers;
 }

@@ -2,7 +2,7 @@
 @interface NSURLQueueNode : NSObject {
 
     id object;
-    @"NSURLQueueNode" next;
+    NSURLQueueNode next;
 }
 
 

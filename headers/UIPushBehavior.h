@@ -7,7 +7,7 @@
     long long _mode;
     {CGVector="dx"d"dy"d} _forceVector;
     double _timeInterval;
-    @"NSMutableDictionary" _targetPoints;
+    NSMutableDictionary _targetPoints;
     int _i;
 }
 

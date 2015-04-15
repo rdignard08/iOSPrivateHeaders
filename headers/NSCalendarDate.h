@@ -3,8 +3,8 @@
 
     unsigned long long refCount;
     double _timeIntervalSinceReferenceDate;
-    @"NSTimeZone" _timeZone;
-    @"NSString" _formatString;
+    NSTimeZone _timeZone;
+    NSString _formatString;
     ^v _reserved;
 }
  + (id) distantFuture;

@@ -2,24 +2,24 @@
 @protocol UIGestureRecognizerDelegate;
 @interface UITextInteractionAssistant : NSObject <UIGestureRecognizerDelegate> {
 
-    @"UIResponder<UITextInput>" _view;
-    @"UITextSelectionView" _selectionView;
-    @"NSMutableArray" _recognizers;
-    @"NSMutableSet" _linkGestures;
-    @"UILongPressGestureRecognizer" _loupeGesture;
-    @"UITapGestureRecognizer" _singleTapGesture;
-    @"UIGestureRecognizer" _doubleTapGesture;
+    UIResponder<UITextInput> _view;
+    UITextSelectionView _selectionView;
+    NSMutableArray _recognizers;
+    NSMutableSet _linkGestures;
+    UILongPressGestureRecognizer _loupeGesture;
+    UITapGestureRecognizer _singleTapGesture;
+    UIGestureRecognizer _doubleTapGesture;
     int _autoscrollRamp;
     double _autoscrollFactor;
     {CGPoint="x"d"y"d} _autoscrollBasePoint;
     {CGPoint="x"d"y"d} _autoscrollUntransformedExtentPoint;
     {CGPoint="x"d"y"d} _loupeGestureEndPoint;
-    @"UITextChecker" _textChecker;
+    UITextChecker _textChecker;
     BOOL _inGesture;
     BOOL _autoscrolled;
     BOOL _isTryingToHighlightLink;
     BOOL _externalTextInput;
-    @"NSHashTable" _gestureRecognizerViews;
+    NSHashTable _gestureRecognizerViews;
 }
 @property (nonatomic, assign, readonly) NSNumber* view;
 @property (nonatomic, assign, readonly) UITextSelectionView* selectionView;
@@ -35,7 +35,7 @@
 @property (nonatomic, assign, readwrite) NSNumber* loupeGestureEndPoint;
 @property (nonatomic, assign, readonly) UIFieldEditor* fieldEditor;
 @property (nonatomic, retain, readwrite) UITapGestureRecognizer* singleTapGesture;
-@property (nonatomic, assign, readonly, isExperimentalUIEnabled) NSNumber* experimentalUIEnabled;
+@property (nonatomic, assign, readonly, getter=isExperimentalUIEnabled) NSNumber* experimentalUIEnabled;
 
  - (void) dealloc;
  - (BOOL) gestureRecognizerShouldBegin:(id)a;

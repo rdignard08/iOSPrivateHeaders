@@ -1,7 +1,7 @@
 
 @interface UITableViewIndexOverlaySelectionViewCollectionViewCell : UICollectionViewCell {
 
-    @"UIButton" _button;
+    UIButton _button;
     double _rightMargin;
     BOOL _rightMarginAdjusted;
     id _tapTarget;

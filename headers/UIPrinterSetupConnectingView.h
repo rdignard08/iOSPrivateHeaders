@@ -1,8 +1,8 @@
 
 @interface UIPrinterSetupConnectingView : UIView {
 
-    @"UILabel" _label;
-    @"UIActivityIndicatorView" _activityIndicator;
+    UILabel _label;
+    UIActivityIndicatorView _activityIndicator;
     double _presentationTime;
 }
 

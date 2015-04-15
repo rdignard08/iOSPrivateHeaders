@@ -2,7 +2,7 @@
 @protocol NSCopying;
 @interface UILexicon : NSObject <NSCopying> {
 
-    @"NSArray" _entries;
+    NSArray _entries;
 }
 @property (nonatomic, assign, readonly) NSArray* entries;
  + (id) _lexiconWithTILexicon:(id)a;

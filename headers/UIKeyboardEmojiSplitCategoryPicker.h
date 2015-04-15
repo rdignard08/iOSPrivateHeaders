@@ -2,9 +2,9 @@
 @protocol UIKeyboardEmojiCategoryControl;
 @interface UIKeyboardEmojiSplitCategoryPicker : UIKeyboardEmojiSplit <UIKeyboardEmojiCategoryControl> {
 
-    @"UIKeyboardEmojiCategoryController" _categoryController;
+    UIKeyboardEmojiCategoryController _categoryController;
     BOOL _whiteText;
-    @"UIColor" _pressIndicatorColor;
+    UIColor _pressIndicatorColor;
     int _currentSelected;
     int _lastUsedCategory;
 }

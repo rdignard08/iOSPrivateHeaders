@@ -2,8 +2,8 @@
 @protocol UIAlertControllerBackgroundView;
 @interface _UIDimmingKnockoutBackdropView : UIView <UIAlertControllerBackgroundView> {
 
-    @"_UIBackdropView" backdropView;
-    @"UIView" dimmingKnockoutView;
+    _UIBackdropView backdropView;
+    UIView dimmingKnockoutView;
 }
 
  - (void) dealloc;

@@ -1,14 +1,14 @@
 
 @interface _UIAppearance : NSObject {
 
-    @"NSArray" _containerList;
-    @"NSMutableArray" _appearanceInvocations;
-    @"NSMapTable" _invocationSources;
-    @"NSMutableDictionary" _resettableInvocations;
-    @"_UIAppearanceCustomizableClassInfo" _customizableClassInfo;
+    NSArray _containerList;
+    NSMutableArray _appearanceInvocations;
+    NSMapTable _invocationSources;
+    NSMutableDictionary _resettableInvocations;
+    _UIAppearanceCustomizableClassInfo _customizableClassInfo;
 }
 @property (nonatomic, assign, readonly) _UIAppearanceCustomizableClassInfo* _customizableClassInfo;
-@property (nonatomic, retain, readwrite, _setResettableInvocations:) NSMutableDictionary* _resettableInvocations;
+@property (nonatomic, retain, readwrite, setter=_setResettableInvocations:) NSMutableDictionary* _resettableInvocations;
  + (void) _setInvalidatesViewsOnAppearanceChange:(BOOL)a;
  + (id) _appearanceForClass:(Class)awithContainerList:(id)b;
  + (BOOL) _hasAnyCustomizations;

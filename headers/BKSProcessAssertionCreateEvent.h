@@ -3,7 +3,7 @@
 @interface BKSProcessAssertionCreateEvent : BKSProcessAssertionUpdateEvent <BSXPCCoding> {
 
     unsigned int _reason;
-    @"NSString" _targetBundleIdentifier;
+    NSString _targetBundleIdentifier;
     int _targetPID;
 }
 

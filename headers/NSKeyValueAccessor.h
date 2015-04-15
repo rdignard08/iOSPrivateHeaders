@@ -2,7 +2,7 @@
 @interface NSKeyValueAccessor : NSObject {
 
     id _containerClassID;
-    @"NSString" _key;
+    NSString _key;
     ^? _implementation;
     SEL _selector;
     unsigned long long _extraArgumentCount;

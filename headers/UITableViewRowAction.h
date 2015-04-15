@@ -3,17 +3,17 @@
 @interface UITableViewRowAction : NSObject <NSCopying> {
 
     long long _style;
-    @"NSString" _title;
-    @"UIColor" _backgroundColor;
+    NSString _title;
+    UIColor _backgroundColor;
     @? _handler;
-    @"_UITableViewCellActionButton" _button;
-    @"UIVisualEffect" _backgroundEffect;
+    _UITableViewCellActionButton _button;
+    UIVisualEffect _backgroundEffect;
 }
 @property (nonatomic, assign, readonly) NSNumber* style;
 @property (nonatomic, copy, readwrite) NSString* title;
 @property (nonatomic, copy, readwrite) UIColor* backgroundColor;
 @property (nonatomic, copy, readwrite) UIVisualEffect* backgroundEffect;
-@property (nonatomic, assign, readonly, _handler) NSNumber* handler;
+@property (nonatomic, assign, readonly, getter=_handler) NSNumber* handler;
  + (id) rowActionWithStyle:(long long)atitle:(id)bhandler:(@?)c;
 
  - (id) title;

@@ -1,9 +1,9 @@
 
 @interface UIDatePickerContentView : UIView {
 
-    {?="isAmPm"b1} _datePickerContentViewFlags;
+    isAmPm _datePickerContentViewFlags;
     BOOL _isModern;
-    @"UILabel" _titleLabel;
+    UILabel _titleLabel;
     double _titleLabelMaxX;
     long long _titleAlignment;
 }

@@ -5,7 +5,7 @@
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _targetRect;
     long long _arrowDirection;
 }
-@property (nonatomic, assign, readwrite, isMenuVisible) NSNumber* menuVisible;
+@property (nonatomic, assign, readwrite, getter=isMenuVisible) NSNumber* menuVisible;
 @property (nonatomic, assign, readwrite) NSNumber* arrowDirection;
 @property (nonatomic, copy, readwrite) NSArray* menuItems;
 @property (nonatomic, assign, readonly) NSNumber* menuFrame;

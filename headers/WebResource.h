@@ -2,7 +2,7 @@
 @protocol NSCoding, NSCopying;
 @interface WebResource : NSObject <NSCoding, NSCopying> {
 
-    @"WebResourcePrivate" _private;
+    WebResourcePrivate _private;
 }
 @property (nonatomic, copy, readonly) NSData* data;
 @property (nonatomic, assign, readonly) NSURL* URL;

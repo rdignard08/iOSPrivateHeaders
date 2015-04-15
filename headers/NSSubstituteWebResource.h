@@ -1,11 +1,11 @@
 
 @interface NSSubstituteWebResource : NSObject {
 
-    @"NSData" _data;
-    @"NSURL" _url;
-    @"NSString" _mimeType;
-    @"NSString" _textEncodingName;
-    @"NSString" _frameName;
+    NSData _data;
+    NSURL _url;
+    NSString _mimeType;
+    NSString _textEncodingName;
+    NSString _frameName;
 }
 
  - (id) MIMEType;

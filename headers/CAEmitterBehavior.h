@@ -3,14 +3,14 @@
 @interface CAEmitterBehavior : NSObject <NSCoding> {
 
     unsigned int _type;
-    @"NSString" _name;
+    NSString _name;
     ^v _attr;
     ^v _cache;
     unsigned int _flags;
 }
 @property (atomic, assign, readonly) NSString* type;
 @property (atomic, copy, readwrite) NSString* name;
-@property (atomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (atomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
  + (void) CAMLParserStartElement:(id)a;
  + (id) behaviorWithType:(id)a;

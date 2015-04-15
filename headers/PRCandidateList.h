@@ -1,7 +1,7 @@
 
 @interface PRCandidateList : NSObject {
 
-    @"NSMutableArray" _candidates;
+    NSMutableArray _candidates;
     unsigned long long _maxCount;
 }
 

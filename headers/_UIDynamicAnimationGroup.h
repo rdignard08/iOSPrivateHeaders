@@ -2,8 +2,8 @@
 @interface _UIDynamicAnimationGroup : _UIDynamicAnimation {
 
     @? _applier;
-    @"NSMutableArray" _animations;
-    @"NSMutableArray" _runningAnimations;
+    NSMutableArray _animations;
+    NSMutableArray _runningAnimations;
 }
 
  - (id) animations;

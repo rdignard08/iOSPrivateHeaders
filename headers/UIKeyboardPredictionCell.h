@@ -1,10 +1,10 @@
 
 @interface UIKeyboardPredictionCell : UIView {
 
-    @"UIMorphingLabel" m_label;
-    @"UIView" m_maskView;
-    @"UIKBKeyView" m_activeKeyView;
-    @"UIKBKeyView" m_enabledKeyView;
+    UIMorphingLabel m_label;
+    UIView m_maskView;
+    UIKBKeyView m_activeKeyView;
+    UIKBKeyView m_enabledKeyView;
     BOOL m_lightKeyboard;
     {CGSize="width"d"height"d} m_keyViewSize;
     BOOL _isAutocorrection;
@@ -12,7 +12,7 @@
     BOOL _isCenter;
     BOOL _isLongCandidate;
     int _state;
-    @"TIKeyboardCandidate" _prediction;
+    TIKeyboardCandidate _prediction;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _collapsedFrame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _baseFrame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _activeFrame;

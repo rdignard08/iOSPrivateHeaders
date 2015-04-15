@@ -5,7 +5,7 @@
     double _footerHeight;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _paperRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _printableRect;
-    @"NSMutableArray" _printFormatters;
+    NSMutableArray _printFormatters;
     ^{CGContext=} _printContext;
 }
 @property (nonatomic, assign, readwrite) NSNumber* headerHeight;

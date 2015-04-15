@@ -1,7 +1,7 @@
 
 @interface NSKeyValueFastMutableArray1 : NSKeyValueFastMutableArray {
 
-    @"NSKeyValueNonmutatingArrayMethodSet" _nonmutatingMethods;
+    NSKeyValueNonmutatingArrayMethodSet _nonmutatingMethods;
 }
  + (^{?=Q[4@]}) _proxyNonGCPoolPointer;
 

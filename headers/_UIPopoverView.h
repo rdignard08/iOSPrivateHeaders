@@ -1,15 +1,15 @@
 
 @interface _UIPopoverView : UIView {
 
-    @"UIView" _contentView;
-    @"UIPopoverBackgroundView" _backgroundView;
+    UIView _contentView;
+    UIPopoverBackgroundView _backgroundView;
     Class _backgroundViewClass;
-    @"UIImageView" _toolbarShine;
+    UIImageView _toolbarShine;
     BOOL _showsBackgroundComponentHighlights;
     BOOL _showsBackgroundViewHighlight;
     BOOL _showsContentViewHighlight;
-    @"UIActionSheet" _presentedActionSheet;
-    @"UIPopoverController" _popoverController;
+    UIActionSheet _presentedActionSheet;
+    UIPopoverController _popoverController;
     double __dimmingViewTopEdgeInset;
 }
  + (id) popoverViewContainingView:(id)a;

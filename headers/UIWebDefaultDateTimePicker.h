@@ -2,9 +2,9 @@
 @protocol UIWebFormControl;
 @interface UIWebDefaultDateTimePicker : NSObject <UIWebFormControl> {
 
-    @"DOMHTMLInputElement" _inputElement;
-    @"UIDatePicker" _datePicker;
-    @"NSString" _formatString;
+    DOMHTMLInputElement _inputElement;
+    UIDatePicker _datePicker;
+    NSString _formatString;
     BOOL _shouldRemoveTimeZoneInformation;
     BOOL _isTimeInput;
 }

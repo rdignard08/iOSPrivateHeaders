@@ -1,10 +1,10 @@
 
 @interface _NSProgressGroup : NSObject {
 
-    @"NSProgress" _parent;
+    NSProgress _parent;
     long long _portionOfParent;
-    @"NSMutableSet" _children;
-    @"_NSProgressFraction" _childrenFraction;
+    NSMutableSet _children;
+    _NSProgressFraction _childrenFraction;
     unsigned long long _finishedChildrenCount;
     BOOL _closed;
 }

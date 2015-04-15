@@ -1,17 +1,17 @@
 
 @interface NSFileSubarbitrationClaim : NSFileAccessClaim {
 
-    @"NSArray" _readingURLs;
+    NSArray _readingURLs;
     unsigned long long _readingOptions;
-    @"NSArray" _writingURLs;
+    NSArray _writingURLs;
     unsigned long long _writingOptions;
     @? _messageSender;
-    @"NSArray" _readingLocations;
-    @"NSArray" _writingLocations;
-    @"NSFileAccessNode" _rootNode;
-    @"NSMutableSet" _forwardedClaimIDs;
-    @"NSMutableDictionary" _readRelinquishmentsByPresenterID;
-    @"NSMutableDictionary" _writeRelinquishmentsByPresenterID;
+    NSArray _readingLocations;
+    NSArray _writingLocations;
+    NSFileAccessNode _rootNode;
+    NSMutableSet _forwardedClaimIDs;
+    NSMutableDictionary _readRelinquishmentsByPresenterID;
+    NSMutableDictionary _writeRelinquishmentsByPresenterID;
 }
 
  - (@?) messageSender;

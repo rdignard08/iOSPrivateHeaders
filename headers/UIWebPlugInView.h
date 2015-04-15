@@ -1,9 +1,9 @@
 
 @interface UIWebPlugInView : WAKView {
 
-    @"UIWebDocumentView" _webView;
-    @"CALayer" _hostingLayer;
-    @"UIView" _uiView;
+    UIWebDocumentView _webView;
+    CALayer _hostingLayer;
+    UIView _uiView;
     ^{__CFRunLoopObserver=} _mainRunLoopDrawObserver;
     BOOL _isFullScreen;
     BOOL _parentedInLayer;

@@ -1,10 +1,10 @@
 
 @interface UIKBSplitImageView : UIView {
 
-    @"UIImageView" _fullView;
-    @"UIImageView" _splitLeft;
-    @"UIImageView" _splitRight;
-    @"NSString" _currentFilterType;
+    UIImageView _fullView;
+    UIImageView _splitLeft;
+    UIImageView _splitRight;
+    NSString _currentFilterType;
 }
 
  - (void) dealloc;

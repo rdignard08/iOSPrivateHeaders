@@ -4,7 +4,7 @@
     {_NSRange="location"Q"length"Q} _editedRange;
     long long _editedDelta;
     {?="editedMask"b8"postWillProcess"b1"postDidProcess"b1""b6"disabled"b16} _flags;
-    @"NSMutableArray" _layoutManagers;
+    NSMutableArray _layoutManagers;
     id _sideData;
     long long _changeInLength;
 }

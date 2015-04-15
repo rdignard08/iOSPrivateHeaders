@@ -2,13 +2,13 @@
 @protocol NSCopying, NSSecureCoding;
 @interface UIKeyCommand : NSObject <NSCopying, NSSecureCoding> {
 
-    @"NSIndexSet" _keyCodes;
+    NSIndexSet _keyCodes;
     SEL _action;
     long long _buttonType;
-    @"UIEvent" _triggeringEvent;
-    @"NSString" _segueIdentifier;
-    @"UIViewController" _controllerForSegue;
-    @"NSString" _input;
+    UIEvent _triggeringEvent;
+    NSString _segueIdentifier;
+    UIViewController _controllerForSegue;
+    NSString _input;
     long long _modifierFlags;
 }
 @property (nonatomic, assign, readonly) NSString* input;

@@ -2,8 +2,8 @@
 @protocol NSCopying, NSCoding;
 @interface UIPrintInfo : NSObject <NSCopying, NSCoding> {
 
-    @"NSString" _printerID;
-    @"NSString" _jobName;
+    NSString _printerID;
+    NSString _jobName;
     long long _outputType;
     long long _orientation;
     long long _duplex;

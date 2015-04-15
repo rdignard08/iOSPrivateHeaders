@@ -5,15 +5,15 @@
     double _rowOffset;
     double _rowWidth;
     {CGSize="width"d"height"d} _defaultKeySize;
-    @"NSMutableArray" _keys;
-    @"NSMutableArray" _vacancies;
-    @"NSDictionary" _hints;
-    @"UIKBTree" _keylistLeft;
-    @"UIKBTree" _geolistLeft;
-    @"UIKBTree" _attrlistLeft;
-    @"UIKBTree" _keylistRight;
-    @"UIKBTree" _geolistRight;
-    @"UIKBTree" _attrlistRight;
+    NSMutableArray _keys;
+    NSMutableArray _vacancies;
+    NSDictionary _hints;
+    UIKBTree _keylistLeft;
+    UIKBTree _geolistLeft;
+    UIKBTree _attrlistLeft;
+    UIKBTree _keylistRight;
+    UIKBTree _geolistRight;
+    UIKBTree _attrlistRight;
 }
 @property (nonatomic, assign, readwrite) NSNumber* rowIndex;
 @property (atomic, assign, readwrite) NSNumber* rowOffset;

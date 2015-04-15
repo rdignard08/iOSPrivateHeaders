@@ -2,15 +2,15 @@
 @protocol _UISiriWaveyViewDelegate;
 @interface UIDictationView : UIView <_UISiriWaveyViewDelegate> {
 
-    @"UIKeyboardDicationBackground" _background;
-    @"UIButton" _endpointButton;
-    @"UIButton" _endpointButtonLandscape;
-    @"UIButton" _waveTapEndpointButton;
+    UIKeyboardDicationBackground _background;
+    UIButton _endpointButton;
+    UIButton _endpointButtonLandscape;
+    UIButton _waveTapEndpointButton;
     int _state;
     BOOL _keyboardInTransition;
     BOOL _automaticAppearanceWasEnabled;
-    @"_UISiriWaveyView" _waveyView;
-    @"UIDictationMeterView" _meterView;
+    _UISiriWaveyView _waveyView;
+    UIDictationMeterView _meterView;
 }
  + (id) sharedInstance;
  + (id) activeInstance;

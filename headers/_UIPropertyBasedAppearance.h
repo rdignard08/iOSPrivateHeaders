@@ -1,7 +1,7 @@
 
 @interface _UIPropertyBasedAppearance : _UIAppearance {
 
-    @"NSDictionary" _propertiesToMatch;
+    NSDictionary _propertiesToMatch;
 }
  + (id) _appearanceMatchingProperties:(id)aforClass:(Class)bwithContainerList:(id)c;
  + (id) _appearanceObjectKeyForProperties:(id)a;

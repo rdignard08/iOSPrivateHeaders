@@ -1,18 +1,18 @@
 
 @interface UIKBSplitKeyplaneGenerator : NSObject {
 
-    @"NSMutableArray" _rows;
-    @"NSDictionary" _splitLayoutHints;
-    @"UIKBTree" _sourceKeyboard;
-    @"UIKBTree" _sourceKeyplane;
+    NSMutableArray _rows;
+    NSDictionary _splitLayoutHints;
+    UIKBTree _sourceKeyboard;
+    UIKBTree _sourceKeyplane;
     {CGSize="width"d"height"d} _splitKeySizeFactor;
     {CGSize="width"d"height"d} _keyboardSize;
     double _leftSideWidestRow;
     double _rightSideWidestRow;
     long long _keyboardType;
-    @"UIKeyboardSliceSet" _sliceSet;
-    @"UIKeyboardTransitionSlice" _leftSlice;
-    @"UIKeyboardTransitionSlice" _rightSlice;
+    UIKeyboardSliceSet _sliceSet;
+    UIKeyboardTransitionSlice _leftSlice;
+    UIKeyboardTransitionSlice _rightSlice;
 }
 
  - (void) dealloc;

@@ -4,7 +4,7 @@
     double _duration;
     double _delay;
     long long _curve;
-    @"<_UIBasicAnimationFactory>" _animationFactory;
+    <_UIBasicAnimationFactory> _animationFactory;
     double _startTime;
 }
 @property (nonatomic, assign, readwrite) NSNumber* duration;

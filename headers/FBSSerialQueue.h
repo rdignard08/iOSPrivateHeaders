@@ -1,11 +1,11 @@
 
 @interface FBSSerialQueue : NSObject {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"NSObject<OS_dispatch_queue>" _targetQueue;
-    @"NSArray" _mainRunLoopModes;
+    NSObject<OS_dispatch_queue> _queue;
+    NSObject<OS_dispatch_queue> _targetQueue;
+    NSArray _mainRunLoopModes;
     ^{__CFRunLoopSource=} _runLoopSource;
-    @"NSObject<OS_dispatch_semaphore>" _runLoopSemaphore;
+    NSObject<OS_dispatch_semaphore> _runLoopSemaphore;
 }
  + (id) queueWithMainRunLoopModes:(id)a;
  + (id) queueWithDispatchQueue:(id)a;

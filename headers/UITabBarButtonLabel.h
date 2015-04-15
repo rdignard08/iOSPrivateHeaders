@@ -2,11 +2,11 @@
 @interface UITabBarButtonLabel : UILabel {
 
     double _boundsWidth;
-    @"_UITabBarItemAppearanceStorage" _appearanceStorage;
+    _UITabBarItemAppearanceStorage _appearanceStorage;
     BOOL _isSelected;
     BOOL _isHighlighted;
     Class _appearanceGuideClass;
-    @"UIColor" _unselectedTintColor;
+    UIColor _unselectedTintColor;
 }
  + (double) _fontPointSizeForIdiom:(long long)a;
 

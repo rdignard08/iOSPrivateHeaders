@@ -1,22 +1,22 @@
 
 @interface UIOldSliderControl : UIControl {
 
-    @"UIImage" _sliderLeftFillCap;
+    UIImage _sliderLeftFillCap;
     (?="image"@"UIImage""view"@"UIView") _sliderLeftFill;
     (?="image"@"UIImage""view"@"UIView") _sliderRightFill;
-    @"UIImage" _minValueImage;
-    @"UIImage" _maxValueImage;
+    UIImage _minValueImage;
+    UIImage _maxValueImage;
     int _numberOfTickMarks;
     double _hitOffset;
-    @"UIImage" _sliderRightCap;
-    @"UIImage" _sliderRightFullCap;
-    @"UIImage" _sliderLeftCap;
+    UIImage _sliderRightCap;
+    UIImage _sliderRightFullCap;
+    UIImage _sliderLeftCap;
     {?="allowsOnlyTickMarks"b1"animating"b1"showValue"b1"layeredFill"b1"continuous"b1"sendActionDuringAnimation"b1"alternateColors"b1"shouldFlipValue"b1"needsNonOpaqueFills"b1"reserved"b24} _sliderFlags;
     float _value;
     float _animationEndValue;
     float _minValue;
     float _maxValue;
-    @"UIView" _knob;
+    UIView _knob;
     double _lastTrackingTime;
     double _idleTrackingTime;
     {CGPoint="x"d"y"d} _lastTrackingPoint;

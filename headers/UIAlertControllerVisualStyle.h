@@ -1,8 +1,8 @@
 
 @interface UIAlertControllerVisualStyle : NSObject {
 
-    @"UIAlertControllerDescriptor" _descriptor;
-    @"UITraitCollection" _traitCollection;
+    UIAlertControllerDescriptor _descriptor;
+    UITraitCollection _traitCollection;
 }
 @property (nonatomic, retain, readwrite) UIAlertControllerDescriptor* descriptor;
 @property (nonatomic, retain, readwrite) UITraitCollection* traitCollection;

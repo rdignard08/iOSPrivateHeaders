@@ -3,8 +3,8 @@
 @interface UIInputViewController : UIViewController <_UITextDocumentInterfaceDelegate, UITextInputDelegate> {
 
     BOOL _alignsToContentViewController;
-    @"NSObject<UITextDocumentProxy>" _textDocumentProxy;
-    @"NSString" _primaryLanguage;
+    NSObject<UITextDocumentProxy> _textDocumentProxy;
+    NSString _primaryLanguage;
 }
  + (BOOL) _requiresProxyInterface;
 

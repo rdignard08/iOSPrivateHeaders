@@ -1,7 +1,7 @@
 
 @interface _NSJSONWriter : NSObject {
 
-    @"NSOutputStream" outputStream;
+    NSOutputStream outputStream;
     int kind;
     char* dataBuffer;
     unsigned long long dataBufferLen;

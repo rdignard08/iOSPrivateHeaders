@@ -1,7 +1,7 @@
 
 @interface _UIViewServiceSynchronizedAnimatorProxy : _UITargetedProxy {
 
-    @"<_UIRemoteViewController_ViewControllerOperatorInterface>" _behaviorProxy;
+    <_UIRemoteViewController_ViewControllerOperatorInterface> _behaviorProxy;
 }
  + (id) proxyWithTarget:(id)aremoteOperator:(id)b;
 

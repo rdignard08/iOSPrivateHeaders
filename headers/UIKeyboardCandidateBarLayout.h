@@ -2,8 +2,8 @@
 @interface UIKeyboardCandidateBarLayout : UICollectionViewLayout {
 
     {CGSize="width"d"height"d} _contentSize;
-    @"NSMutableArray" _allAttributes;
-    @"NSArray" _edgeDummyCellAttributes;
+    NSMutableArray _allAttributes;
+    NSArray _edgeDummyCellAttributes;
 }
  + (id) dummyCellCollectionViewKind;
  + (Class) layoutAttributesClass;

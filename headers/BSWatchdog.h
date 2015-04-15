@@ -1,13 +1,13 @@
 
 @interface BSWatchdog : NSObject {
 
-    @"<BSWatchdogDelegate>" _delegate;
-    @"<BSWatchdogProviding>" _provider;
-    @"NSObject<OS_dispatch_queue>" _queue;
+    <BSWatchdogDelegate> _delegate;
+    <BSWatchdogProviding> _provider;
+    NSObject<OS_dispatch_queue> _queue;
     double _timeout;
-    @"BSTimer" _timer;
+    BSTimer _timer;
     @? _completion;
-    @"NSDate" _startDate;
+    NSDate _startDate;
     BOOL _invalidated;
     BOOL _completed;
     BOOL _hasFired;
@@ -17,7 +17,7 @@
 @property (nonatomic, retain, readonly) NSNumber* queue;
 @property (nonatomic, assign, readonly) NSNumber* timeout;
 @property (nonatomic, retain, readonly) NSDate* startDate;
-@property (nonatomic, assign, readonly, hasFired) NSNumber* fired;
+@property (nonatomic, assign, readonly, getter=hasFired) NSNumber* fired;
 
  - (id) description;
  - (void) dealloc;

@@ -1,10 +1,10 @@
 
 @interface UICollectionViewLayoutInvalidationContext : NSObject {
 
-    @"NSMutableSet" _invalidatedItemIndexPaths;
-    @"NSMutableDictionary" _invalidatedSupplementaryIndexPaths;
-    @"NSMutableDictionary" _invalidatedDecorationIndexPaths;
-    @"NSArray" _updateItems;
+    NSMutableSet _invalidatedItemIndexPaths;
+    NSMutableDictionary _invalidatedSupplementaryIndexPaths;
+    NSMutableDictionary _invalidatedDecorationIndexPaths;
+    NSArray _updateItems;
     {CGPoint="x"d"y"d} _contentOffsetAdjustment;
     {CGSize="width"d"height"d} _contentSizeAdjustment;
     {?="invalidateDataSource"b1"invalidateEverything"b1} _invalidationContextFlags;
@@ -16,7 +16,7 @@
 @property (nonatomic, assign, readonly) NSDictionary* invalidatedDecorationIndexPaths;
 @property (nonatomic, assign, readwrite) NSNumber* contentOffsetAdjustment;
 @property (nonatomic, assign, readwrite) NSNumber* contentSizeAdjustment;
-@property (nonatomic, assign, readwrite, _updateItems, _setUpdateItems:) NSArray* updateItems;
+@property (nonatomic, assign, readwrite, getter=_updateItems, setter=_setUpdateItems:) NSArray* updateItems;
 
  - (void) dealloc;
  - (BOOL) invalidateEverything;

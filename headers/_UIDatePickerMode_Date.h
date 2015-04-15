@@ -4,9 +4,9 @@
     double _dateYearWidth;
     double _dateMonthWidth;
     double _dateDayWidth;
-    @"NSString" _yearFormat;
-    @"NSString" _monthFormat;
-    @"NSString" _dayFormat;
+    NSString _yearFormat;
+    NSString _monthFormat;
+    NSString _dayFormat;
 }
  + (long long) datePickerMode;
  + (unsigned long long) extractableCalendarUnits;

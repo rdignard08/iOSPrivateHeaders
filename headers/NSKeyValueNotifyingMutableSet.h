@@ -1,7 +1,7 @@
 
 @interface NSKeyValueNotifyingMutableSet : NSKeyValueMutableSet {
 
-    @"NSMutableSet" _mutableSet;
+    NSMutableSet _mutableSet;
 }
  + (^{?=Q[4@]}) _proxyNonGCPoolPointer;
  + (id) _proxyShare;

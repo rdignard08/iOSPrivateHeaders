@@ -1,10 +1,10 @@
 
 @interface CILightTunnel : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIVector" inputCenter;
-    @"NSNumber" inputRotation;
-    @"NSNumber" inputRadius;
+    CIImage inputImage;
+    CIVector inputCenter;
+    NSNumber inputRotation;
+    NSNumber inputRadius;
 }
  + (id) customAttributes;
 

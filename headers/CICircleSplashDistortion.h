@@ -1,9 +1,9 @@
 
 @interface CICircleSplashDistortion : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIVector" inputCenter;
-    @"NSNumber" inputRadius;
+    CIImage inputImage;
+    CIVector inputCenter;
+    NSNumber inputRadius;
 }
  + (id) customAttributes;
 

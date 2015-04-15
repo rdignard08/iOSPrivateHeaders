@@ -1,9 +1,9 @@
 
 @interface CIMaskedVariableBlur : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIImage" inputMask;
-    @"NSNumber" inputRadius;
+    CIImage inputImage;
+    CIImage inputMask;
+    NSNumber inputRadius;
 }
  + (id) customAttributes;
 

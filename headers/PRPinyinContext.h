@@ -1,15 +1,15 @@
 
 @interface PRPinyinContext : PRAutocorrectionContext {
 
-    @"NSMutableArray" _modifications;
-    @"NSMutableArray" _addedModifications;
-    @"NSMutableArray" _removedModifications;
-    @"NSMutableArray" _addedRemovedModifications;
-    @"NSMutableArray" _prefixes;
+    NSMutableArray _modifications;
+    NSMutableArray _addedModifications;
+    NSMutableArray _removedModifications;
+    NSMutableArray _addedRemovedModifications;
+    NSMutableArray _prefixes;
     char* _buffer;
     char* _altBuffer;
     char* _altBufferScores;
-    @"NSMutableArray" _geometryDataArray;
+    NSMutableArray _geometryDataArray;
     ^Q _syllableLengthArray;
     ^v _connection;
     unsigned long long _length;

@@ -1,7 +1,7 @@
 
 @interface _UICollectionViewCompositionLayoutInvalidationContext : UICollectionViewLayoutInvalidationContext {
 
-    @"NSMapTable" _invalidationContextTable;
+    NSMapTable _invalidationContextTable;
 }
 
  - (void) dealloc;

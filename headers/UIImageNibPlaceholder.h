@@ -2,7 +2,7 @@
 @protocol NSCoding;
 @interface UIImageNibPlaceholder : UIImage <NSCoding> {
 
-    @"NSString" runtimeResourceName;
+    NSString runtimeResourceName;
 }
 
  - (void) dealloc;

@@ -2,8 +2,8 @@
 @protocol _CIFilterProperties;
 @interface CICrop : CIFilter <_CIFilterProperties> {
 
-    @"CIImage" inputImage;
-    @"CIVector" inputRectangle;
+    CIImage inputImage;
+    CIVector inputRectangle;
 }
  + (id) customAttributes;
 

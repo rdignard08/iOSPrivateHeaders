@@ -2,25 +2,25 @@
 @interface UITabBarButton : UIControl {
 
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _hitRect;
-    @"UIView" _info;
-    @"UIVisualEffectView" _vibrancyEffectView;
-    @"UITabBarButtonLabel" _label;
-    @"_UIBadgeView" _badge;
-    @"UITabBarSelectionIndicatorView" _selectedIndicator;
+    UIView _info;
+    UIVisualEffectView _vibrancyEffectView;
+    UITabBarButtonLabel _label;
+    _UIBadgeView _badge;
+    UITabBarSelectionIndicatorView _selectedIndicator;
     BOOL _selected;
     BOOL _barHeight;
     BOOL _badgeAnimated;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _infoInsets;
     {UIOffset="horizontal"d"vertical"d} _selectedInfoOffset;
     {UIOffset="horizontal"d"vertical"d} _infoOffset;
-    @"UIImage" _customSelectedIndicatorImage;
-    @"NSValue" _labelOffsetValue;
-    @"NSMutableDictionary" _buttonTintColorsForState;
-    @"NSMutableDictionary" _contentTintColorsForState;
+    UIImage _customSelectedIndicatorImage;
+    NSValue _labelOffsetValue;
+    NSMutableDictionary _buttonTintColorsForState;
+    NSMutableDictionary _contentTintColorsForState;
     BOOL _showsHighlightedState;
     BOOL _centerAllContents;
     Class _appearanceGuideClass;
-    @"UIColor" _unselectedTintColor;
+    UIColor _unselectedTintColor;
 }
  + (id) _defaultLabelColor;
 

@@ -7,10 +7,10 @@
     unsigned long long _altitude;
     unsigned int _direction;
     int _highlightBlendMode;
-    @"CUIColor" _highlightColor;
+    CUIColor _highlightColor;
     double _highlightOpacity;
     int _shadowBlendMode;
-    @"CUIColor" _shadowColor;
+    CUIColor _shadowColor;
     double _shadowOpacity;
 }
 

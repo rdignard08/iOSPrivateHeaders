@@ -1,8 +1,8 @@
 
 @interface UIPrintingMessageView : UIView {
 
-    @"UILabel" _title;
-    @"UILabel" _message;
+    UILabel _title;
+    UILabel _message;
 }
 
  - (void) dealloc;

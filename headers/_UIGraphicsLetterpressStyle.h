@@ -4,15 +4,15 @@
 
     int innerShadowBlendMode;
     int outerShadowBlendMode;
-    @"UIColor" embossHighlightColor;
-    @"UIColor" embossShadowColor;
+    UIColor embossHighlightColor;
+    UIColor embossShadowColor;
     double embossSize;
-    @"UIColor" innerShadowColor;
+    UIColor innerShadowColor;
     double innerShadowBlur;
-    @"UIColor" outerShadowColor;
+    UIColor outerShadowColor;
     double outerShadowBlur;
-    @"UIColor" topGradientColor;
-    @"UIColor" bottomGradientColor;
+    UIColor topGradientColor;
+    UIColor bottomGradientColor;
     double innerOpacity;
     {CGPoint="x"d"y"d} innerShadowOffset;
     {CGPoint="x"d"y"d} outerShadowOffset;

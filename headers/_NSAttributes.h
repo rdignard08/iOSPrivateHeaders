@@ -1,7 +1,7 @@
 
 @interface _NSAttributes : NSObject {
 
-    @"NSDictionary" _attributes;
+    NSDictionary _attributes;
     {_NSRange="location"Q"length"Q} _range;
 }
 

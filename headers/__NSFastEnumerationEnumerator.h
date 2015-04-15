@@ -1,7 +1,7 @@
 
 @interface __NSFastEnumerationEnumerator : NSEnumerator {
 
-    @"<NSFastEnumeration>" _obj;
+    <NSFastEnumeration> _obj;
     id _origObj;
     unsigned long long _count;
     unsigned long long _mut;

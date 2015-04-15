@@ -2,30 +2,30 @@
 @protocol BSWatchdogProviding;
 @interface BSTransaction : NSObject <BSWatchdogProviding> {
 
-    @"BSTransaction" _parentTransaction;
-    @"NSMutableSet" _lifeAssertions;
+    BSTransaction _parentTransaction;
+    NSMutableSet _lifeAssertions;
     BOOL _failed;
     BOOL _interrupted;
     unsigned long long _state;
-    @"NSString" _failureReason;
-    @"NSDate" _startTime;
-    @"NSMutableDictionary" _milestonesToHandlers;
-    @"NSMutableArray" _childTransactions;
-    @"NSMutableSet" _milestones;
-    @"NSHashTable" _observers;
-    @"NSMutableArray" _auditHistory;
+    NSString _failureReason;
+    NSDate _startTime;
+    NSMutableDictionary _milestonesToHandlers;
+    NSMutableArray _childTransactions;
+    NSMutableSet _milestones;
+    NSHashTable _observers;
+    NSMutableArray _auditHistory;
     BOOL _buildAuditHistory;
-    @"<BSLogging>" _debugLogger;
+    <BSLogging> _debugLogger;
     @? _completionBlock;
 }
 @property (nonatomic, retain, readonly) NSNumber* queue;
 @property (nonatomic, retain, readonly) NSSet* milestones;
 @property (nonatomic, retain, readonly) NSArray* childTransactions;
-@property (nonatomic, assign, readonly, isInterrupted) NSNumber* interrupted;
-@property (nonatomic, assign, readonly, isInterruptable) NSNumber* interruptable;
-@property (nonatomic, assign, readonly, isRunning) NSNumber* running;
-@property (nonatomic, assign, readonly, isComplete) NSNumber* complete;
-@property (nonatomic, assign, readonly, isFailed) NSNumber* failed;
+@property (nonatomic, assign, readonly, getter=isInterrupted) NSNumber* interrupted;
+@property (nonatomic, assign, readonly, getter=isInterruptable) NSNumber* interruptable;
+@property (nonatomic, assign, readonly, getter=isRunning) NSNumber* running;
+@property (nonatomic, assign, readonly, getter=isComplete) NSNumber* complete;
+@property (nonatomic, assign, readonly, getter=isFailed) NSNumber* failed;
 @property (nonatomic, copy, readwrite) NSNumber* completionBlock;
 @property (nonatomic, retain, readwrite) BSTransaction* parentTransaction;
 @property (nonatomic, assign, readonly) NSNumber* state;

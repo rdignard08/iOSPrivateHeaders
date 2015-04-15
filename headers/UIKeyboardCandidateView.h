@@ -1,14 +1,14 @@
 
 @interface UIKeyboardCandidateView : UIInputView {
 
-    @"UIKeyboardCandidateBar" _bar;
-    @"UIKeyboardCandidateSortControl" _sortControl;
-    @"UIKeyboardCandidateGrid" _extendedView;
-    @"UIView<UIKeyboardCandidateList>" _inlineView;
-    @"UIImageView" _leftBackground;
-    @"UIImageView" _rightBackground;
-    @"UIKeyboardCandidateUnsplitKeyboardToggleButton" _leftButton;
-    @"UIKeyboardCandidateSplitKeyboardToggleButton" _rightButton;
+    UIKeyboardCandidateBar _bar;
+    UIKeyboardCandidateSortControl _sortControl;
+    UIKeyboardCandidateGrid _extendedView;
+    UIView<UIKeyboardCandidateList> _inlineView;
+    UIImageView _leftBackground;
+    UIImageView _rightBackground;
+    UIKeyboardCandidateUnsplitKeyboardToggleButton _leftButton;
+    UIKeyboardCandidateSplitKeyboardToggleButton _rightButton;
     {?="isExtended"I"didMinimizeKeyboard"I"isSplit"I} _candidateBarFlags;
 }
  + (id) sharedInstance;

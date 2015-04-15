@@ -37,7 +37,7 @@
 @property (atomic, retain, readwrite) NSNumber* rootObject;
 @property (atomic, assign, readwrite) NSNumber* delegate;
 @property (atomic, assign, readwrite) NSNumber* independentConversationQueueing;
-@property (atomic, assign, readonly, isValid) NSNumber* valid;
+@property (atomic, assign, readonly, getter=isValid) NSNumber* valid;
 @property (atomic, retain, readonly) NSDistantObject* rootProxy;
 @property (atomic, copy, readonly) NSArray* requestModes;
 @property (atomic, retain, readonly) NSPort* sendPort;

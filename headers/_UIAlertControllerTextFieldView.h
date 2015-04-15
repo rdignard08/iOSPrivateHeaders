@@ -1,10 +1,10 @@
 
 @interface _UIAlertControllerTextFieldView : UIView {
 
-    @"UIVisualEffectView" _borderContainerView;
-    @"UIView" _borderView;
-    @"UIView" _innerContentView;
-    @"_UIAlertControllerTextField" _textField;
+    UIVisualEffectView _borderContainerView;
+    UIView _borderView;
+    UIView _innerContentView;
+    _UIAlertControllerTextField _textField;
 }
 
  - (void) dealloc;

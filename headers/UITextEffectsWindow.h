@@ -7,7 +7,7 @@
     unsigned long long _hostedUseCount;
     double _defaultWindowLevel;
     {CGPoint="x"d"y"d} _hostedWindowOffset;
-    @"NSDictionary" _perScreenOptions;
+    NSDictionary _perScreenOptions;
     unsigned long long _activeRemoteViewCount;
     unsigned long long _windowLevelCount;
     [5d] _windowLevelStack;

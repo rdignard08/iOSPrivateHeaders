@@ -2,15 +2,15 @@
 @protocol UIViewControllerAnimatedTransitioning;
 @interface _UIAnimationCoordinator : NSObject <UIViewControllerAnimatedTransitioning> {
 
-    @"NSMutableDictionary" _stash;
-    @"_UIViewControllerOneToOneTransitionContext" _transitionContext;
-    @"UIPercentDrivenInteractiveTransition" _interactiveTransition;
+    NSMutableDictionary _stash;
+    _UIViewControllerOneToOneTransitionContext _transitionContext;
+    UIPercentDrivenInteractiveTransition _interactiveTransition;
     double _duration;
     @? _preperation;
     @? _animator;
     @? _completion;
-    @"UIView" _containerView;
-    @"UIViewController" _viewController;
+    UIView _containerView;
+    UIViewController _viewController;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _startFrame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _endFrame;
 }

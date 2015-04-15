@@ -2,10 +2,10 @@
 @protocol UITextFieldDelegate;
 @interface UIDocumentPasswordView : UIView <UITextFieldDelegate> {
 
-    @"UIImageView" _iconView;
-    @"UIDocumentPasswordField" _passwordTextField;
-    @"UILabel" _label;
-    @"NSObject<UIDocumentPasswordViewDelegate>" passwordDelegate;
+    UIImageView _iconView;
+    UIDocumentPasswordField _passwordTextField;
+    UILabel _label;
+    NSObject<UIDocumentPasswordViewDelegate> passwordDelegate;
 }
 
  - (void) dealloc;

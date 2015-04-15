@@ -3,7 +3,7 @@
 
     BOOL _isGuideClassRoot;
     BOOL _isCustomizableViewClassRoot;
-    @"NSString" _appearanceNodeKey;
+    NSString _appearanceNodeKey;
     unsigned long long _hash;
     Class _customizableViewClass;
     Class _guideClass;

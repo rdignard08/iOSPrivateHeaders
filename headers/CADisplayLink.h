@@ -7,7 +7,7 @@
 @property (nonatomic, retain, readwrite) NSNumber* userInfo;
 @property (nonatomic, assign, readonly) NSNumber* timestamp;
 @property (nonatomic, assign, readonly) NSNumber* duration;
-@property (nonatomic, assign, readwrite, isPaused) NSNumber* paused;
+@property (nonatomic, assign, readwrite, getter=isPaused) NSNumber* paused;
 @property (nonatomic, assign, readwrite) NSNumber* frameInterval;
  + (id) displayLinkWithDisplay:(id)atarget:(id)bselector:(SEL)c;
  + (id) displayLinkWithTarget:(id)aselector:(SEL)b;

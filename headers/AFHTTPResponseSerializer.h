@@ -3,8 +3,8 @@
 @interface AFHTTPResponseSerializer : NSObject <AFURLResponseSerialization> {
 
     unsigned long long _stringEncoding;
-    @"NSIndexSet" _acceptableStatusCodes;
-    @"NSSet" _acceptableContentTypes;
+    NSIndexSet _acceptableStatusCodes;
+    NSSet _acceptableContentTypes;
 }
 @property (nonatomic, assign, readwrite) NSNumber* stringEncoding;
 @property (nonatomic, copy, readwrite) NSIndexSet* acceptableStatusCodes;

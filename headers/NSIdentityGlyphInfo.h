@@ -1,7 +1,7 @@
 
 @interface NSIdentityGlyphInfo : NSGlyphInfo {
 
-    @"NSFont" _font;
+    NSFont _font;
     unsigned int _glyph;
 }
  + (void) initialize;

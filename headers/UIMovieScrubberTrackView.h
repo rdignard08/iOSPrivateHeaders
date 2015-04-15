@@ -1,17 +1,17 @@
 
 @interface UIMovieScrubberTrackView : UIView {
 
-    @"<UIMovieScrubberTrackViewDataSource>" _dataSource;
-    @"<UIMovieScrubberTrackViewDelegate>" _delegate;
-    @"NSArray" _summaryThumbnailViews;
-    @"NSArray" _summaryThumbnailTimestamps;
-    @"NSArray" _summaryThumbnailChildTimestamps;
-    @"NSDictionary" _thumbnailStartXValues;
-    @"NSDictionary" _childThumbnailViews;
-    @"NSMutableDictionary" _thumbnailViews;
-    @"NSArray" _timestamps;
-    @"UIMovieScrubberTrackOverlayView" _overlayView;
-    @"UIView" _maskContainerView;
+    <UIMovieScrubberTrackViewDataSource> _dataSource;
+    <UIMovieScrubberTrackViewDelegate> _delegate;
+    NSArray _summaryThumbnailViews;
+    NSArray _summaryThumbnailTimestamps;
+    NSArray _summaryThumbnailChildTimestamps;
+    NSDictionary _thumbnailStartXValues;
+    NSDictionary _childThumbnailViews;
+    NSMutableDictionary _thumbnailViews;
+    NSArray _timestamps;
+    UIMovieScrubberTrackOverlayView _overlayView;
+    UIView _maskContainerView;
     {CGSize="width"d"height"d} _thumbnailSize;
     float _zoomOriginXDelta;
     float _zoomWidthDelta;

@@ -2,7 +2,7 @@
 @interface NSOrthographyCheckingResult : NSTextCheckingResult {
 
     {_NSRange="location"Q"length"Q} _range;
-    @"NSOrthography" _orthography;
+    NSOrthography _orthography;
 }
 
  - (id) resultByAdjustingRangesWithOffset:(long long)a;

@@ -9,7 +9,7 @@
     double _lastMovementTime;
     double _highLevelTime;
     double _lowEndTimeout;
-    @"NSTimer" _idleTimer;
+    NSTimer _idleTimer;
     BOOL _sentMotionBegan;
     [10f] _lowPassState;
     unsigned long long _lowPassStateIndex;

@@ -1,8 +1,8 @@
 
 @interface NSDistantObjectTableEntry : NSObject {
 
-    @"NSConnection" _conn;
-    @"NSDistantObject" _proxy;
+    NSConnection _conn;
+    NSDistantObject _proxy;
     id _localObject;
     unsigned int _wireID;
 }

@@ -1,9 +1,9 @@
 
 @interface _UIActivityGroupActivityCell : UICollectionViewCell {
 
-    @"UILabel" _titleLabel;
-    @"UIImageView" _imageView;
-    @"UIImageView" _highlightedImageView;
+    UILabel _titleLabel;
+    UIImageView _imageView;
+    UIImageView _highlightedImageView;
 }
 
  - (void) dealloc;

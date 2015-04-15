@@ -3,12 +3,12 @@
 
     long long _transitionDirection;
     @? _completion;
-    @"NSDate" _beginDate;
+    NSDate _beginDate;
 }
 @property (nonatomic, assign, readonly) NSNumber* transitionDirection;
 @property (nonatomic, assign, readonly) NSNumber* effectiveTransitionDirection;
 @property (nonatomic, assign, readonly) NSDate* beginDate;
-@property (nonatomic, assign, readonly, isActive) NSNumber* active;
+@property (nonatomic, assign, readonly, getter=isActive) NSNumber* active;
 
  - (BOOL) isActive;
  - (id) description;

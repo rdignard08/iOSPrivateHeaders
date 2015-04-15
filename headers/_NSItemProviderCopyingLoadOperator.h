@@ -2,8 +2,8 @@
 @protocol _NSItemProviderLoading;
 @interface _NSItemProviderCopyingLoadOperator : NSObject <_NSItemProviderLoading> {
 
-    @"NSItemProvider" _itemProvider;
-    @"NSDictionary" _loadedItems;
+    NSItemProvider _itemProvider;
+    NSDictionary _loadedItems;
 }
 @property (nonatomic, assign, readwrite) NSItemProvider* itemProvider;
 @property (nonatomic, retain, readwrite) NSDictionary* loadedItems;

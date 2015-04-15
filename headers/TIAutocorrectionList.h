@@ -2,8 +2,8 @@
 @protocol NSSecureCoding;
 @interface TIAutocorrectionList : NSObject <NSSecureCoding> {
 
-    @"TIKeyboardCandidate" _autocorrection;
-    @"NSArray" _predictions;
+    TIKeyboardCandidate _autocorrection;
+    NSArray _predictions;
 }
 @property (nonatomic, assign, readonly) TIKeyboardCandidate* autocorrection;
 @property (nonatomic, assign, readonly) NSArray* predictions;

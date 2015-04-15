@@ -3,7 +3,7 @@
 
     id input;
     int kind;
-    @"NSError" error;
+    NSError error;
 }
  + (BOOL) validForJSON:(id)adepth:(unsigned long long)ballowFragments:(BOOL)c;
 

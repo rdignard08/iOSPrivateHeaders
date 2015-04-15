@@ -1,9 +1,9 @@
 
 @interface UIKeyboardEmojiSplitCategoryCell : UITableViewCell {
 
-    @"UIImageView" _symbol;
-    @"UILabel" _title;
-    @"UIView" _selectedCircle;
+    UIImageView _symbol;
+    UILabel _title;
+    UIView _selectedCircle;
 }
 
  - (id) title;

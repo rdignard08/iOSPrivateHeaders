@@ -1,7 +1,7 @@
 
 @interface _UICollectionViewCompositionLayout : UICollectionViewLayout {
 
-    @"NSMutableDictionary" _sublayoutsDict;
+    NSMutableDictionary _sublayoutsDict;
 }
  + (Class) invalidationContextClass;
 

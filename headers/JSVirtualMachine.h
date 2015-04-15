@@ -2,9 +2,9 @@
 @interface JSVirtualMachine : NSObject {
 
     ^{OpaqueJSContextGroup=} m_group;
-    @"NSMapTable" m_contextCache;
-    @"NSMapTable" m_externalObjectGraph;
-    @"NSMapTable" m_externalRememberedSet;
+    NSMapTable m_contextCache;
+    NSMapTable m_externalObjectGraph;
+    NSMapTable m_externalRememberedSet;
 }
  + (id) virtualMachineWithContextGroupRef:(^{OpaqueJSContextGroup=})a;
 

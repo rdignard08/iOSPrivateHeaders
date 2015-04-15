@@ -3,7 +3,7 @@
 
     BOOL _customStrokeColor;
     BOOL _customFillColor;
-    @"CAShapeLayer" _lighteningOutline;
+    CAShapeLayer _lighteningOutline;
     double _outlineAlpha;
     double _cornerRadius;
 }

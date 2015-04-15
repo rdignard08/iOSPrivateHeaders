@@ -1,7 +1,7 @@
 
 @interface NSTextTableBlock : NSTextBlock {
 
-    @"NSTextTable" _table;
+    NSTextTable _table;
     long long _rowNum;
     long long _colNum;
     long long _rowSpan;

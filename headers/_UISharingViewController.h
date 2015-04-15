@@ -1,19 +1,19 @@
 
 @interface _UISharingViewController : UIViewController {
 
-    @"<_UISharingViewControllerDelegatePrivate>" _weak_delegate;
+    <_UISharingViewControllerDelegatePrivate> _weak_delegate;
     BOOL _collaborationUIEnabled;
-    @"UIImage" _thumbnail;
-    @"NSString" _auxiliaryActionTitle;
-    @"NSString" _mailTemplate;
-    @"NSString" _messageTemplate;
-    @"NSString" _mailSubject;
-    @"NSString" _initialHeaderSubtitle;
-    @"NSString" _headerSubtitle;
-    @"NSString" _headerActionTitle;
-    @"NSString" _appName;
-    @"_UIShareInvitationRemoteViewController" _remoteViewController;
-    @"_UIRemoteViewService" _remoteViewService;
+    UIImage _thumbnail;
+    NSString _auxiliaryActionTitle;
+    NSString _mailTemplate;
+    NSString _messageTemplate;
+    NSString _mailSubject;
+    NSString _initialHeaderSubtitle;
+    NSString _headerSubtitle;
+    NSString _headerActionTitle;
+    NSString _appName;
+    _UIShareInvitationRemoteViewController _remoteViewController;
+    _UIRemoteViewService _remoteViewService;
 }
 
  - (void) dealloc;

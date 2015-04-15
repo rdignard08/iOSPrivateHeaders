@@ -4,9 +4,9 @@
     BOOL _emojiCandidate;
     BOOL _extensionCandidate;
     BOOL _isForShortcutConversion;
-    @"NSString" _candidate;
-    @"NSString" _input;
-    @"NSNumber" _mecabraCandidatePointerValue;
+    NSString _candidate;
+    NSString _input;
+    NSNumber _mecabraCandidatePointerValue;
 }
  + (BOOL) supportsSecureCoding;
  + (int) type;

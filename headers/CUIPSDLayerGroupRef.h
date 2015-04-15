@@ -1,7 +1,7 @@
 
 @interface CUIPSDLayerGroupRef : CUIPSDLayerBaseRef {
 
-    @"_CUIPSDSublayerInfo" _sublayerInfo;
+    _CUIPSDSublayerInfo _sublayerInfo;
 }
 
  - (void) dealloc;

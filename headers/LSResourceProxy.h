@@ -1,15 +1,15 @@
 
 @interface LSResourceProxy : NSObject {
 
-    @"NSString" _localizedName;
-    @"NSString" _boundApplicationIdentifier;
-    @"NSURL" _boundContainerURL;
-    @"NSURL" _boundDataContainerURL;
-    @"NSURL" _boundResourcesDirURL;
-    @"NSDictionary" _boundIconsDictionary;
-    @"NSString" _boundIconCacheKey;
-    @"NSArray" _boundIconFileNames;
-    @"LSApplicationProxy" _typeOwner;
+    NSString _localizedName;
+    NSString _boundApplicationIdentifier;
+    NSURL _boundContainerURL;
+    NSURL _boundDataContainerURL;
+    NSURL _boundResourcesDirURL;
+    NSDictionary _boundIconsDictionary;
+    NSString _boundIconCacheKey;
+    NSArray _boundIconFileNames;
+    LSApplicationProxy _typeOwner;
     BOOL _boundIconIsPrerendered;
     BOOL _boundIconIsBadge;
 }

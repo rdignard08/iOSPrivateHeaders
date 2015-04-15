@@ -1,7 +1,7 @@
 
 @interface UIPrinterSetupDisplayPINViewController : UIViewController {
 
-    @"PKPrinter" _printer;
+    PKPrinter _printer;
 }
 
  - (void) dealloc;

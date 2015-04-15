@@ -1,8 +1,8 @@
 
 @interface _CPPowerAssertionThread : NSThread {
 
-    @"NSTimer" _timer;
-    @"NSDate" _earliest;
+    NSTimer _timer;
+    NSDate _earliest;
 }
 
  - (void) main;

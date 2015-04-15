@@ -1,7 +1,7 @@
 
 @interface UINibCoderValue : NSObject {
 
-    @"NSString" key;
+    NSString key;
     unsigned int scope;
     char type;
     (?="floatValue"f"doubleValue"d"integerValue"Q"bytesValue"^v) value;

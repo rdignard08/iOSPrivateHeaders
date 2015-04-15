@@ -11,10 +11,10 @@
     BOOL enablesReturnKeyAutomatically;
     BOOL secureTextEntry;
     ^{__CFCharacterSet=} textTrimmingSet;
-    @"UIColor" insertionPointColor;
-    @"UIColor" selectionBarColor;
-    @"UIColor" selectionHighlightColor;
-    @"UIImage" selectionDragDotImage;
+    UIColor insertionPointColor;
+    UIColor selectionBarColor;
+    UIColor selectionHighlightColor;
+    UIImage selectionDragDotImage;
     unsigned long long insertionPointWidth;
     int textLoupeVisibility;
     int textSelectionBehavior;
@@ -34,8 +34,8 @@
     BOOL useInterfaceLanguageForLocalization;
     BOOL deferBecomingResponder;
     BOOL enablesReturnKeyOnNonWhiteSpaceContent;
-    @"NSString" autocorrectionContext;
-    @"NSString" responseContext;
+    NSString autocorrectionContext;
+    NSString responseContext;
     BOOL disablePrediction;
 }
 @property (nonatomic, assign, readwrite) NSNumber* autocapitalizationType;
@@ -45,7 +45,7 @@
 @property (nonatomic, assign, readwrite) NSNumber* keyboardAppearance;
 @property (nonatomic, assign, readwrite) NSNumber* returnKeyType;
 @property (nonatomic, assign, readwrite) NSNumber* enablesReturnKeyAutomatically;
-@property (nonatomic, assign, readwrite, isSecureTextEntry) NSNumber* secureTextEntry;
+@property (nonatomic, assign, readwrite, getter=isSecureTextEntry) NSNumber* secureTextEntry;
 @property (nonatomic, assign, readwrite) NSNumber* textTrimmingSet;
 @property (nonatomic, retain, readwrite) UIColor* insertionPointColor;
 @property (nonatomic, retain, readwrite) UIColor* selectionBarColor;

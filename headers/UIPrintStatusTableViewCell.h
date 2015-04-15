@@ -1,9 +1,9 @@
 
 @interface UIPrintStatusTableViewCell : UITableViewCell {
 
-    @"UIActivityIndicatorView" _activityIndicator;
-    @"UILabel" _titleLabel;
-    @"UILabel" _hostLabel;
+    UIActivityIndicatorView _activityIndicator;
+    UILabel _titleLabel;
+    UILabel _hostLabel;
 }
 
  - (void) dealloc;

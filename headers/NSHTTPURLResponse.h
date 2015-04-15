@@ -1,7 +1,7 @@
 
 @interface NSHTTPURLResponse : NSURLResponse {
 
-    @"NSHTTPURLResponseInternal" _httpInternal;
+    NSHTTPURLResponseInternal _httpInternal;
 }
  + (id) localizedStringForStatusCode:(long long)a;
  + (BOOL) supportsSecureCoding;

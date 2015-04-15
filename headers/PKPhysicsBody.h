@@ -2,14 +2,14 @@
 @protocol NSCopying, NSCoding;
 @interface PKPhysicsBody : NSObject <NSCopying, NSCoding> {
 
-    @"<NSObject>" _representedObject;
+    <NSObject> _representedObject;
     {b2BodyDef="_sk_affectedByGravity"B"_sk_fieldCategoryBitMask"I"_sk_categoryBitMask"I"_sk_collisionBitMask"I"_sk_intersectionCallbackBitMask"I"type"i"position"{b2Vec2="x"f"y"f}"angle"f"linearVelocity"{b2Vec2="x"f"y"f}"angularVelocity"f"charge"f"linearDamping"f"angularDamping"f"allowSleep"B"awake"B"fixedRotation"B"bullet"B"active"B"userData"^v} _bodyDef;
     ^{b2Body=BIIIIiSi{b2Transform={b2Vec2=ff}{b2Rot=ff}}{b2Transform={b2Vec2=ff}{b2Rot=ff}}{b2Sweep={b2Vec2=ff}(b2Position={?={b2Vec2=ff}ff})(b2Position={?={b2Vec2=ff}ff})f}{b2Vec2=ff}f{b2Vec2=ff}f^{b2World}^{b2Body}^{b2Body}^{b2Fixture}i^{b2JointEdge}^{b2ContactEdge}ffffffff^v} _body;
     ^{PKCField=} _field;
     int _dynamicType;
     {vector<PKPhysicsShape *, std::__1::allocator<PKPhysicsShape *> >="__begin_"^^{PKPhysicsShape}"__end_"^^{PKPhysicsShape}"__end_cap_"{__compressed_pair<PKPhysicsShape **, std::__1::allocator<PKPhysicsShape *> >="__first_"^^{PKPhysicsShape}}} _shapes;
-    @"PKPhysicsWorld" _world;
-    @"NSMutableArray" _joints;
+    PKPhysicsWorld _world;
+    NSMutableArray _joints;
     BOOL _inUse;
     int _shapeType;
     {shared_ptr<PKPath>="__ptr_"^{PKPath}"__cntrl_"^{__shared_weak_count}} _pathPtr;
@@ -30,12 +30,12 @@
 @property (nonatomic, assign, readwrite) NSNumber* _body;
 @property (nonatomic, assign, readwrite) NSNumber* position;
 @property (nonatomic, assign, readwrite) NSNumber* rotation;
-@property (nonatomic, assign, readwrite, isDynamic) NSNumber* dynamic;
+@property (nonatomic, assign, readwrite, getter=isDynamic) NSNumber* dynamic;
 @property (nonatomic, assign, readwrite) NSNumber* usesPreciseCollisionDetection;
 @property (nonatomic, assign, readwrite) NSNumber* allowsRotation;
 @property (nonatomic, assign, readwrite) NSNumber* pinned;
 @property (nonatomic, assign, readwrite) NSNumber* outline;
-@property (nonatomic, assign, readwrite, isResting) NSNumber* resting;
+@property (nonatomic, assign, readwrite, getter=isResting) NSNumber* resting;
 @property (nonatomic, assign, readwrite) NSNumber* friction;
 @property (nonatomic, assign, readwrite) NSNumber* charge;
 @property (nonatomic, assign, readwrite) NSNumber* restitution;

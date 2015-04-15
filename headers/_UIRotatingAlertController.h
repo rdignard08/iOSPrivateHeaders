@@ -1,12 +1,12 @@
 
 @interface _UIRotatingAlertController : UIAlertController {
 
-    @"<_UIRotatingAlertControllerDelegate>" _rotatingSheetDelegate;
+    <_UIRotatingAlertControllerDelegate> _rotatingSheetDelegate;
     unsigned long long _arrowDirections;
     BOOL _isRotating;
     BOOL _readyToPresentAfterRotation;
-    @"UIViewController" _presentedViewControllerWhileRotating;
-    @"<UIPopoverPresentationControllerDelegate>" _popoverPresentationControllerDelegateWhileRotating;
+    UIViewController _presentedViewControllerWhileRotating;
+    <UIPopoverPresentationControllerDelegate> _popoverPresentationControllerDelegateWhileRotating;
 }
 
  - (void) dealloc;

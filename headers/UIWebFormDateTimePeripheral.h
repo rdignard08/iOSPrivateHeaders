@@ -2,8 +2,8 @@
 @protocol UIFormPeripheral;
 @interface UIWebFormDateTimePeripheral : NSObject <UIFormPeripheral> {
 
-    @"DOMHTMLInputElement" _inputElement;
-    @"<UIWebFormControl>" _control;
+    DOMHTMLInputElement _inputElement;
+    <UIWebFormControl> _control;
 }
 @property (nonatomic, retain, readwrite) DOMHTMLInputElement* _inputElement;
 @property (nonatomic, retain, readwrite) NSNumber* _control;

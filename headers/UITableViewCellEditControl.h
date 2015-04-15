@@ -1,10 +1,10 @@
 
 @interface UITableViewCellEditControl : UIControl {
 
-    @"UITableViewCell" _cell;
-    @"UIImageView" _imageView;
-    @"_UITableViewCellEditControlMinusView" _minusView;
-    @"UIImageView" _shadowView;
+    UITableViewCell _cell;
+    UIImageView _imageView;
+    _UITableViewCellEditControlMinusView _minusView;
+    UIImageView _shadowView;
     b2 _style;
     b1 _rotated;
     b1 _rotating;

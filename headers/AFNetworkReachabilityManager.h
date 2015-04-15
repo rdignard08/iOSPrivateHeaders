@@ -6,9 +6,9 @@
     @? _networkReachabilityStatusBlock;
 }
 @property (nonatomic, assign, readwrite) NSNumber* networkReachabilityStatus;
-@property (nonatomic, assign, readonly, isReachable) NSNumber* reachable;
-@property (nonatomic, assign, readonly, isReachableViaWWAN) NSNumber* reachableViaWWAN;
-@property (nonatomic, assign, readonly, isReachableViaWiFi) NSNumber* reachableViaWiFi;
+@property (nonatomic, assign, readonly, getter=isReachable) NSNumber* reachable;
+@property (nonatomic, assign, readonly, getter=isReachableViaWWAN) NSNumber* reachableViaWWAN;
+@property (nonatomic, assign, readonly, getter=isReachableViaWiFi) NSNumber* reachableViaWiFi;
 @property (nonatomic, assign, readwrite) NSNumber* networkReachability;
 @property (nonatomic, copy, readwrite) NSNumber* networkReachabilityStatusBlock;
  + (id) managerForAddress:(r^v)a;

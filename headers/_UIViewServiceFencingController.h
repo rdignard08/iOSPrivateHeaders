@@ -2,10 +2,10 @@
 @interface _UIViewServiceFencingController : NSObject {
 
     int _lock;
-    @"NSMutableSet" _pendingFenceSendRights;
-    @"NSMutableArray" _resumeActions;
+    NSMutableSet _pendingFenceSendRights;
+    NSMutableArray _resumeActions;
     unsigned long long _expectedParticipatingFencingProxyCount;
-    @"NSTimer" _fencingControlTimeoutTimer;
+    NSTimer _fencingControlTimeoutTimer;
 }
  + (id) activeFencePort;
 

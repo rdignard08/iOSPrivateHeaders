@@ -5,8 +5,8 @@
     BOOL _crossFadeNavigationBar;
     BOOL _crossFadeBottomBars;
     BOOL _interactionAborted;
-    @"UICollectionViewLayout" _toLayout;
-    @"UIPercentDrivenInteractiveTransition" _interactionController;
+    UICollectionViewLayout _toLayout;
+    UIPercentDrivenInteractiveTransition _interactionController;
     long long _operation;
 }
 @property (nonatomic, retain, readwrite) UICollectionViewLayout* toLayout;

@@ -2,13 +2,13 @@
 @protocol _UIBasicAnimationFactory, NSCoding;
 @interface UISegmentedControl : UIControl <_UIBasicAnimationFactory, NSCoding> {
 
-    @"NSMutableArray" _segments;
+    NSMutableArray _segments;
     long long _selectedSegment;
     long long _highlightedSegment;
-    @"UIView" _removedSegment;
+    UIView _removedSegment;
     long long _barStyle;
     id _appearanceStorage;
-    @"UIView" _backgroundBarView;
+    UIView _backgroundBarView;
     double _enabledAlpha;
     {?="style"b3"size"b2"delegateAlwaysNotifiesDelegateOfSegmentClicks"b1"momentaryClick"b1"tracking"b1"autosizeToFitSegments"b1"isSizingToFit"b1"autosizeText"b1"transparentBackground"b1"useProportionalWidthSegments"b1"translucentBackground"b1"appearanceNeedsUpdate"b1} _segmentedControlFlags;
     BOOL __hasTranslucentOptionsBackground;

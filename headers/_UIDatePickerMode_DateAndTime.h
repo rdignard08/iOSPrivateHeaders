@@ -7,12 +7,12 @@
     double _wmdMinuteWidth;
     double _wmdAMPMWidth;
     double _wmdWeekdayWidth;
-    @"NSString" _weekdayFormat;
-    @"NSString" _monthDayFormat;
-    @"NSString" _hourFormat;
-    @"NSString" _minuteFormat;
-    @"NSDateFormatter" _relativeFormatter;
-    @"NSDateFormatter" _weekdayFormatter;
+    NSString _weekdayFormat;
+    NSString _monthDayFormat;
+    NSString _hourFormat;
+    NSString _minuteFormat;
+    NSDateFormatter _relativeFormatter;
+    NSDateFormatter _weekdayFormatter;
 }
  + (long long) datePickerMode;
  + (unsigned long long) extractableCalendarUnits;

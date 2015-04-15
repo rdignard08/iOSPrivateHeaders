@@ -3,8 +3,8 @@
 @interface _UIFocusRegionMap : NSObject <NSSecureCoding> {
 
     BOOL _builtRegionMap;
-    @"NSMutableArray" _mapEntries;
-    @"UIView" _containingView;
+    NSMutableArray _mapEntries;
+    UIView _containingView;
     {CGSize="width"d"height"d} _windowSize;
 }
 @property (nonatomic, assign, readwrite) NSNumber* windowSize;

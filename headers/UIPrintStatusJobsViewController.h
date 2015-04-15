@@ -1,9 +1,9 @@
 
 @interface UIPrintStatusJobsViewController : UITableViewController {
 
-    @"NSArray" _jobs;
+    NSArray _jobs;
     BOOL _autoPush;
-    @"UIPrintingMessageView" _noJobsView;
+    UIPrintingMessageView _noJobsView;
 }
 
  - (void) dealloc;

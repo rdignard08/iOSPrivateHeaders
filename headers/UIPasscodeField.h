@@ -2,10 +2,10 @@
 @protocol UITextFieldDelegate;
 @interface UIPasscodeField : UIView <UITextFieldDelegate> {
 
-    @"NSMutableString" _value;
-    @"NSMutableArray" _entryFields;
-    @"NSMutableArray" _entryBackgrounds;
-    @"UIButton" _okButton;
+    NSMutableString _value;
+    NSMutableArray _entryFields;
+    NSMutableArray _entryBackgrounds;
+    UIButton _okButton;
     BOOL _opaqueBackground;
     BOOL _centerHorizontally;
     long long _keyboardType;

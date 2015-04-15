@@ -3,18 +3,18 @@
 
     unsigned long long _bundleFlags;
     unsigned long long _plistContentFlags;
-    @"NSURL" _bundleURL;
-    @"NSURL" _appStoreReceiptURL;
-    @"NSString" _localizedShortName;
-    @"NSString" _bundleExecutable;
-    @"NSString" _bundleVersion;
-    @"NSString" _bundleType;
-    @"NSString" _signerIdentity;
-    @"NSDictionary" _entitlements;
-    @"NSDictionary" _environmentVariables;
-    @"NSDictionary" _groupContainerURLs;
-    @"NSUUID" _cacheGUID;
-    @"NSArray" _machOUUIDs;
+    NSURL _bundleURL;
+    NSURL _appStoreReceiptURL;
+    NSString _localizedShortName;
+    NSString _bundleExecutable;
+    NSString _bundleVersion;
+    NSString _bundleType;
+    NSString _signerIdentity;
+    NSDictionary _entitlements;
+    NSDictionary _environmentVariables;
+    NSDictionary _groupContainerURLs;
+    NSUUID _cacheGUID;
+    NSArray _machOUUIDs;
     BOOL _foundBackingBundle;
     unsigned long long _sequenceNumber;
 }

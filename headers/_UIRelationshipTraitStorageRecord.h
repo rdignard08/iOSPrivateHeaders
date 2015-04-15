@@ -2,9 +2,9 @@
 @protocol NSCoding;
 @interface _UIRelationshipTraitStorageRecord : NSObject <NSCoding> {
 
-    @"UITraitCollection" _traitCollection;
-    @"NSSet" _addedObjects;
-    @"NSSet" _removedObjects;
+    UITraitCollection _traitCollection;
+    NSSet _addedObjects;
+    NSSet _removedObjects;
 }
 @property (nonatomic, assign, readonly) UITraitCollection* traitCollection;
 @property (nonatomic, assign, readonly) NSSet* addedObjects;

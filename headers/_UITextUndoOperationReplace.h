@@ -2,7 +2,7 @@
 @interface _UITextUndoOperationReplace : NSUndoTextOperation {
 
     {_NSRange="location"Q"length"Q} _replacementRange;
-    @"NSAttributedString" _attributedString;
+    NSAttributedString _attributedString;
 }
 
  - (void) dealloc;

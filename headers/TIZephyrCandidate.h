@@ -6,7 +6,7 @@
     BOOL _isFromTextChecker;
     unsigned int _usageTrackingMask;
     unsigned long long _wordOriginFeedbackID;
-    @"NSString" _label;
+    NSString _label;
 }
  + (BOOL) supportsSecureCoding;
  + (int) type;

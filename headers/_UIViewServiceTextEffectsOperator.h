@@ -3,15 +3,15 @@
 @interface _UIViewServiceTextEffectsOperator : NSObject <_UIViewServiceTextEffectsOperator_RemoteViewControllerInterface, _UIViewServiceDeputy, _UIViewServiceDeputyRotationDelegate> {
 
     id _remoteViewControllerProxy;
-    @"_UIAsyncInvocation" _prepareForDisconnectionInvocation;
-    @"_UIAsyncInvocation" _invalidationInvocation;
-    @"UIWindow" _hostedWindow;
+    _UIAsyncInvocation _prepareForDisconnectionInvocation;
+    _UIAsyncInvocation _invalidationInvocation;
+    UIWindow _hostedWindow;
     {CGPoint="x"d"y"d} _windowOffset;
     BOOL _canRestoreInputViews;
     BOOL _isRestoringInputViews;
     BOOL _didResignForDisappear;
     BOOL _localVCDisablesAutomaticBehaviors;
-    @"NSArray" _allowedNotifications;
+    NSArray _allowedNotifications;
     int __automatic_invalidation_retainCount;
     BOOL __automatic_invalidation_invalidated;
 }

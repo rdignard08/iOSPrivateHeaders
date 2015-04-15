@@ -11,7 +11,7 @@
     unsigned int _numKey;
     ^I _seeds;
     ^@ _keys;
-    @"NSSharedKeySet" _subSharedKeySet;
+    NSSharedKeySet _subSharedKeySet;
 }
 @property (atomic, assign, readwrite) NSNumber* g;
 @property (atomic, assign, readwrite) NSNumber* select;

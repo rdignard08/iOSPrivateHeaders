@@ -3,9 +3,9 @@
 @interface __NSCFBackgroundSessionTask : NSURLSessionTask <NSURLSessionTaskSubclass> {
 
     BOOL _sentCancel;
-    @"<NDBackgroundSessionProtocol>" _remoteSession;
+    <NDBackgroundSessionProtocol> _remoteSession;
     unsigned long long _ident;
-    @"NSError" _immediateError;
+    NSError _immediateError;
 }
 
  - (void) dealloc;

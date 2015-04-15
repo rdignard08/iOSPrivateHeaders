@@ -2,8 +2,8 @@
 @protocol _CIFilterProperties;
 @interface CIAffineTransform : CIFilter <_CIFilterProperties> {
 
-    @"CIImage" inputImage;
-    @"NSValue" inputTransform;
+    CIImage inputImage;
+    NSValue inputTransform;
 }
  + (id) customAttributes;
 

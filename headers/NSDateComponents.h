@@ -19,9 +19,9 @@
 @property (atomic, assign, readwrite) NSNumber* weekOfMonth;
 @property (atomic, assign, readwrite) NSNumber* weekOfYear;
 @property (atomic, assign, readwrite) NSNumber* yearForWeekOfYear;
-@property (atomic, assign, readwrite, isLeapMonth) NSNumber* leapMonth;
+@property (atomic, assign, readwrite, getter=isLeapMonth) NSNumber* leapMonth;
 @property (atomic, copy, readonly) NSDate* date;
-@property (atomic, assign, readonly, isValidDate) NSNumber* validDate;
+@property (atomic, assign, readonly, getter=isValidDate) NSNumber* validDate;
  + (unsigned long long) smaller:(BOOL)acomponentsRelativeToComponent:(unsigned long long)b;
  + (unsigned long long) _ui_smallerComponentsRelativeToComponent:(unsigned long long)a;
  + (unsigned long long) _ui_largerComponentsRelativeToComponent:(unsigned long long)a;

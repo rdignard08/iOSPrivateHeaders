@@ -1,8 +1,8 @@
 
 @interface UISocialActivity : UIApplicationExtensionActivity {
 
-    @"NSString" _builtinActivityType;
-    @"SLComposeViewController" _socialComposeViewController;
+    NSString _builtinActivityType;
+    SLComposeViewController _socialComposeViewController;
 }
  + (long long) activityCategory;
 

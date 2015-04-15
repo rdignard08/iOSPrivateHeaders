@@ -1,14 +1,14 @@
 
 @interface _UIPageCurlState : _UITransitionState {
 
-    @"_UIPageCurl" _pageCurl;
+    _UIPageCurl _pageCurl;
     long long _curlType;
     {CGPoint="x"d"y"d} _initialLocation;
     {CGPoint="x"d"y"d} _referenceLocation;
-    @"UIView" _frontPageView;
-    @"UIView" _backPageView;
-    @"UIView" _frontView;
-    @"UIView" _backView;
+    UIView _frontPageView;
+    UIView _backPageView;
+    UIView _frontView;
+    UIView _backView;
     long long _completionCount;
     long long _curlState;
     BOOL _finished;

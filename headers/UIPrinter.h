@@ -2,7 +2,7 @@
 @interface UIPrinter : NSObject {
 
     id _printerInfo;
-    @"NSURL" URL;
+    NSURL URL;
 }
 @property (atomic, copy, readonly) NSURL* URL;
 @property (atomic, copy, readonly) NSString* displayName;

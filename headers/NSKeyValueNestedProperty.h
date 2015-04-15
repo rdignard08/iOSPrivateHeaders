@@ -1,10 +1,10 @@
 
 @interface NSKeyValueNestedProperty : NSKeyValueProperty {
 
-    @"NSString" _relationshipKey;
-    @"NSString" _keyPathFromRelatedObject;
-    @"NSKeyValueUnnestedProperty" _relationshipProperty;
-    @"NSString" _keyPathWithoutOperatorComponents;
+    NSString _relationshipKey;
+    NSString _keyPathFromRelatedObject;
+    NSKeyValueUnnestedProperty _relationshipProperty;
+    NSString _keyPathWithoutOperatorComponents;
     BOOL _isAllowedToResultInForwarding;
     id _dependentValueKeyOrKeys;
     BOOL _dependentValueKeyOrKeysIsASet;

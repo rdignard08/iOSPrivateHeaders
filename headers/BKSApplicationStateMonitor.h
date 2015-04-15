@@ -1,14 +1,14 @@
 
 @interface BKSApplicationStateMonitor : NSObject {
 
-    @"NSObject<OS_xpc_object>" _connection;
-    @"BSSignal" _invalidationSignal;
+    NSObject<OS_xpc_object> _connection;
+    BSSignal _invalidationSignal;
     @? _handler;
     unsigned int _interestedStates;
-    @"NSArray" _interestedBundleIDs;
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"NSObject<OS_dispatch_queue>" _messageHandlingQueue;
-    @"NSObject<OS_xpc_object>" _serverEndpoint;
+    NSArray _interestedBundleIDs;
+    NSObject<OS_dispatch_queue> _queue;
+    NSObject<OS_dispatch_queue> _messageHandlingQueue;
+    NSObject<OS_xpc_object> _serverEndpoint;
     BOOL _denied;
 }
 @property (nonatomic, copy, readwrite) NSNumber* handler;

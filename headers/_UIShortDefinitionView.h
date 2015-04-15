@@ -1,8 +1,8 @@
 
 @interface _UIShortDefinitionView : UIView {
 
-    @"_UIDefinitionValue" _definitionValue;
-    @"UITextView" _definitionTextView;
+    _UIDefinitionValue _definitionValue;
+    UITextView _definitionTextView;
 }
 
  - (void) dealloc;

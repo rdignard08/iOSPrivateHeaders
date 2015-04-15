@@ -1,7 +1,7 @@
 
 @interface _UIQuickLookActivity : UIActivity {
 
-    @"UIDocumentInteractionController" _documentInteractionController;
+    UIDocumentInteractionController _documentInteractionController;
 }
 
  - (id) activityType;

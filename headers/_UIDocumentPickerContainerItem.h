@@ -2,17 +2,17 @@
 @protocol _UIDocumentPickerDirectoryObserverItem;
 @interface _UIDocumentPickerContainerItem : NSObject <_UIDocumentPickerDirectoryObserverItem> {
 
-    @"_UIDocumentPickerContainerModel" _weak_parentModel;
-    @"_UIDocumentPickerURLContainerModel" _model;
-    @"_UIDocumentPickerURLContainerModel" _weak_model;
+    _UIDocumentPickerContainerModel _weak_parentModel;
+    _UIDocumentPickerURLContainerModel _model;
+    _UIDocumentPickerURLContainerModel _weak_model;
     long long _modelDisplayCount;
     id _observer;
     id _resourceIdentifier;
     BOOL _pickable;
     id _item;
     long long _type;
-    @"NSMapTable" _thumbnailsBySize;
-    @"NSString" _pickabilityReason;
+    NSMapTable _thumbnailsBySize;
+    NSString _pickabilityReason;
 }
 @property (nonatomic, retain, readwrite) NSNumber* item;
 @property (nonatomic, assign, readonly) NSNumber* type;

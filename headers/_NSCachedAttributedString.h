@@ -2,7 +2,7 @@
 @interface _NSCachedAttributedString : NSMutableAttributedString {
 
     id _contents;
-    @"NSAttributeDictionary" _baseAttributes;
+    NSAttributeDictionary _baseAttributes;
     long long _length;
     unsigned long long _hashValue;
     ^{?=@q} _runs;

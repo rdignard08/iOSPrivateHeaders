@@ -1,8 +1,8 @@
 
 @interface UIKeyboardLayoutCursor : UIKeyboardLayoutStar {
 
-    @"UIKBTree" _indirectKeyboard;
-    @"UIView" _selectionView;
+    UIKBTree _indirectKeyboard;
+    UIView _selectionView;
     long long _selectedKeyIndex;
     long long _savedSelectedKeyIndex;
     BOOL _useGridSelection;

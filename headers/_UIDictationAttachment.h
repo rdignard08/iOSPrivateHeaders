@@ -1,7 +1,7 @@
 
 @interface _UIDictationAttachment : NSTextAttachment {
 
-    @"NSDictionary" _typingAttributesBeforeInsertion;
+    NSDictionary _typingAttributesBeforeInsertion;
     {_NSRange="location"Q"length"Q} _attachmentRange;
 }
 

@@ -1,7 +1,7 @@
 
 @interface NSFileAccessIntent : NSObject {
 
-    @"NSURL" _url;
+    NSURL _url;
     BOOL _isRead;
     long long _options;
 }

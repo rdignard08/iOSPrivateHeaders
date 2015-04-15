@@ -1,15 +1,15 @@
 
 @interface _UIFlowLayoutItem : NSObject {
 
-    @"_UIFlowLayoutSection" _section;
-    @"_UIFlowLayoutRow" _rowObject;
+    _UIFlowLayoutSection _section;
+    _UIFlowLayoutRow _rowObject;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _itemFrame;
-    {?="positionEstimated"b1} _itemFlags;
+    positionEstimated _itemFlags;
 }
 @property (nonatomic, assign, readwrite) _UIFlowLayoutSection* section;
 @property (nonatomic, assign, readwrite) _UIFlowLayoutRow* rowObject;
 @property (nonatomic, assign, readwrite) NSNumber* itemFrame;
-@property (nonatomic, assign, readwrite, isPositionEstimated) NSNumber* positionEstimated;
+@property (nonatomic, assign, readwrite, getter=isPositionEstimated) NSNumber* positionEstimated;
 
  - (id) copy;
  - (id) section;

@@ -2,8 +2,8 @@
 @interface BKSProcess : BSBaseXPCClient {
 
     int _pid;
-    @"NSString" _bundlePath;
-    @"NSObject<OS_dispatch_queue>" _clientQueue;
+    NSString _bundlePath;
+    NSObject<OS_dispatch_queue> _clientQueue;
     BOOL _workspaceLocked;
     BOOL _connectedToExternalAccessories;
     BOOL _nowPlayingWithAudio;
@@ -11,7 +11,7 @@
     BOOL _supportsTaskSuspension;
     int _visibility;
     int _taskState;
-    @"<BKSProcessDelegate>" _delegate;
+    <BKSProcessDelegate> _delegate;
     long long _terminationReason;
     long long _exitStatus;
 }

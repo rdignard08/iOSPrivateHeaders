@@ -3,9 +3,9 @@
 @interface _UIViewServiceReplyControlProxy : NSObject <_UIViewServiceProxy_ReplyControl> {
 
     id _target;
-    @"_UIViewServiceReplyControlTrampoline" _controlTrampoline;
-    @"_UIViewServiceReplyAwaitingTrampoline" _awaitingTrampoline;
-    @"NSLock" _lock;
+    _UIViewServiceReplyControlTrampoline _controlTrampoline;
+    _UIViewServiceReplyAwaitingTrampoline _awaitingTrampoline;
+    NSLock _lock;
 }
  + (id) proxyWithTarget:(id)a;
 

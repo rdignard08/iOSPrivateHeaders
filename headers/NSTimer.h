@@ -5,7 +5,7 @@
 @property (atomic, copy, readwrite) NSDate* fireDate;
 @property (atomic, assign, readonly) NSNumber* timeInterval;
 @property (atomic, assign, readwrite) NSNumber* tolerance;
-@property (atomic, assign, readonly, isValid) NSNumber* valid;
+@property (atomic, assign, readonly, getter=isValid) NSNumber* valid;
 @property (atomic, retain, readonly) NSNumber* userInfo;
  + (id) timerWithTimeInterval:(double)ainvocation:(id)brepeats:(BOOL)c;
  + (id) scheduledTimerWithTimeInterval:(double)ainvocation:(id)brepeats:(BOOL)c;

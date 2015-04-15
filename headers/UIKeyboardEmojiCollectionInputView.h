@@ -2,15 +2,15 @@
 @protocol UICollectionViewDataSource, UICollectionViewDelegate, UIKeyboardEmojiInput, UIKeyboardEmojiCategoryControl;
 @interface UIKeyboardEmojiCollectionInputView : UIKBKeyView <UICollectionViewDataSource, UICollectionViewDelegate, UIKeyboardEmojiInput, UIKeyboardEmojiCategoryControl> {
 
-    @"UIKeyboardEmojiCollectionView" _collectionView;
-    @"UICollectionViewFlowLayout" _flowLayout;
+    UIKeyboardEmojiCollectionView _collectionView;
+    UICollectionViewFlowLayout _flowLayout;
     int _category;
     long long _currentSection;
-    @"NSIndexPath" _tappedSkinToneEmoji;
-    @"UIKeyboardEmojiGraphicsTraits" _emojiGraphicsTraits;
+    NSIndexPath _tappedSkinToneEmoji;
+    UIKeyboardEmojiGraphicsTraits _emojiGraphicsTraits;
     BOOL _isDraggingInputView;
     @? _completionBlock;
-    @"UIResponder<UIKBEmojiHitTestResponder>" _hitTestResponder;
+    UIResponder<UIKBEmojiHitTestResponder> _hitTestResponder;
 }
 
  - (@?) completionBlock;

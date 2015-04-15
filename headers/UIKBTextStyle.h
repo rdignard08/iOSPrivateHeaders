@@ -2,13 +2,13 @@
 @protocol NSCopying;
 @interface UIKBTextStyle : NSObject <NSCopying> {
 
-    @"NSString" _fontName;
+    NSString _fontName;
     double _fontSize;
     double _minFontSize;
     double _kerning;
     double _textOpacity;
-    @"NSString" _textColor;
-    @"NSString" _etchColor;
+    NSString _textColor;
+    NSString _etchColor;
     double _pathWeight;
     long long _selector;
     {CGPoint="x"d"y"d} _textOffset;

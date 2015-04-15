@@ -1,7 +1,7 @@
 
 @interface _EditScriptRangedAtom : NSObject {
 
-    @"NSString" _replacementText;
+    NSString _replacementText;
     {_NSRange="location"Q"length"Q} _editRange;
 }
 @property (nonatomic, assign, readwrite) NSNumber* editRange;

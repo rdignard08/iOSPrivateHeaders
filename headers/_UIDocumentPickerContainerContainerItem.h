@@ -1,7 +1,7 @@
 
 @interface _UIDocumentPickerContainerContainerItem : _UIDocumentPickerContainerItem {
 
-    @"NSString" _cachedSubtitle;
+    NSString _cachedSubtitle;
 }
 
  - (id) title;

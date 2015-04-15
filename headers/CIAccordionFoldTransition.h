@@ -1,12 +1,12 @@
 
 @interface CIAccordionFoldTransition : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIImage" inputTargetImage;
-    @"NSNumber" inputBottomHeight;
-    @"NSNumber" inputNumberOfFolds;
-    @"NSNumber" inputFoldShadowAmount;
-    @"NSNumber" inputTime;
+    CIImage inputImage;
+    CIImage inputTargetImage;
+    NSNumber inputBottomHeight;
+    NSNumber inputNumberOfFolds;
+    NSNumber inputFoldShadowAmount;
+    NSNumber inputTime;
 }
  + (id) customAttributes;
 

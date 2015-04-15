@@ -1,8 +1,8 @@
 
 @interface _UIBarBackgroundImageView : UIImageView {
 
-    @"UIView" _topStripView;
-    @"UIImageView" _customImageContainer;
+    UIView _topStripView;
+    UIImageView _customImageContainer;
     BOOL _translucent;
 }
 

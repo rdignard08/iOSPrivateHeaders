@@ -1,11 +1,11 @@
 
 @interface __NSBundleTables : NSObject {
 
-    @"NSLock" _lock;
-    @"NSMutableSet" _staticFrameworks;
-    @"NSMutableSet" _loadedBundles;
-    @"NSMutableSet" _loadedFrameworks;
-    @"NSMutableDictionary" _resolvedPathToBundles;
+    NSLock _lock;
+    NSMutableSet _staticFrameworks;
+    NSMutableSet _loadedBundles;
+    NSMutableSet _loadedFrameworks;
+    NSMutableDictionary _resolvedPathToBundles;
     ^{__CFDictionary=} _bundleForClassMap;
 }
  + (id) bundleTables;

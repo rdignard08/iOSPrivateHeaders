@@ -5,8 +5,8 @@
     double _duration;
     float _lastDisplayedWidth;
     float _maxTrackWidth;
-    @"UIView" _elapsedTimeView;
-    @"UIView" _remainingTimeView;
+    UIView _elapsedTimeView;
+    UIView _remainingTimeView;
     id _delegate;
     double _trackingStartTime;
     {CGPoint="x"d"y"d} _lastUpdatedPoint;

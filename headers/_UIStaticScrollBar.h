@@ -1,12 +1,12 @@
 
 @interface _UIStaticScrollBar : UIView {
 
-    @"UIButton" _upButton;
-    @"UIButton" _downButton;
-    @"UIView" _dividerLine;
-    @"NSInvocation" _invocation;
-    @"NSArray" _buttonConstraints;
-    @"NSArray" _dividerConstraints;
+    UIButton _upButton;
+    UIButton _downButton;
+    UIView _dividerLine;
+    NSInvocation _invocation;
+    NSArray _buttonConstraints;
+    NSArray _dividerConstraints;
     BOOL _shouldInsetButtons;
     BOOL _isOnLeftSide;
 }

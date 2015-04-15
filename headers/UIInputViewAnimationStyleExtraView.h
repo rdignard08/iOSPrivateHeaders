@@ -3,7 +3,7 @@
 
     int _clipContainerType;
     int _alignment;
-    @"UIView" _view;
+    UIView _view;
     @? _animation;
 }
 @property (nonatomic, assign, readwrite) NSNumber* clipContainerType;

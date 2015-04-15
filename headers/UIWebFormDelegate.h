@@ -2,8 +2,8 @@
 @protocol WebFormDelegate;
 @interface UIWebFormDelegate : NSObject <WebFormDelegate> {
 
-    @"UIWebBrowserView" _webBrowserView;
-    @"_UIWebFormDelegateEditedFormsMap" _editedForms;
+    UIWebBrowserView _webBrowserView;
+    _UIWebFormDelegateEditedFormsMap _editedForms;
 }
 
  - (void) dealloc;

@@ -9,7 +9,7 @@
     double _scaleThreshold;
     {CGAffineTransform="a"d"b"d"c"d"d"d"tx"d"ty"d} _transform;
     {CGPoint="x"d"y"d} _anchorSceneReferencePoint;
-    [2@"UITouch"] _touches;
+    UITouch _touches;
     double _hysteresis;
     id _transformAnalyzer;
     b1 _endsOnSingleTouch;

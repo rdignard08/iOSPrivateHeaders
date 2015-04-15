@@ -1,9 +1,9 @@
 
 @interface NSFunctionExpression : NSExpression {
 
-    @"NSExpression" _operand;
+    NSExpression _operand;
     SEL _selector;
-    @"NSArray" _arguments;
+    NSArray _arguments;
 }
  + (BOOL) supportsSecureCoding;
 

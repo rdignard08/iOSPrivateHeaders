@@ -2,7 +2,7 @@
 @protocol UIWebSelectedItemPrivate;
 @interface UIDOMHTMLOptGroupSelectedItem : NSObject <UIWebSelectedItemPrivate> {
 
-    @"DOMHTMLOptGroupElement" _node;
+    DOMHTMLOptGroupElement _node;
 }
 @property (nonatomic, retain, readwrite) DOMHTMLOptGroupElement* _node;
 

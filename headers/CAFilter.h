@@ -3,14 +3,14 @@
 @interface CAFilter : NSObject <NSCopying, NSMutableCopying, NSCoding> {
 
     unsigned int _type;
-    @"NSString" _name;
+    NSString _name;
     unsigned int _flags;
     ^v _attr;
     ^v _cache;
 }
 @property (atomic, assign, readonly) NSString* type;
 @property (atomic, copy, readwrite) NSString* name;
-@property (atomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (atomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (atomic, assign, readwrite) NSNumber* cachesInputImage;
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
  + (id) filterWithName:(id)a;

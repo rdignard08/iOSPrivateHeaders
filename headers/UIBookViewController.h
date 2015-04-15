@@ -1,12 +1,12 @@
 
 @interface UIBookViewController : UIViewController {
 
-    @"<UIBookViewControllerDelegate>" _delegate;
-    @"UIView" _contentView;
-    @"UIViewController" _evenPage;
-    @"UIViewController" _oddPage;
-    @"UIViewController" _newEvenPage;
-    @"UIViewController" _newOddPage;
+    <UIBookViewControllerDelegate> _delegate;
+    UIView _contentView;
+    UIViewController _evenPage;
+    UIViewController _oddPage;
+    UIViewController _newEvenPage;
+    UIViewController _newOddPage;
     long long _turnCount;
     long long _animatedPageTurns;
     double _turnMargin;

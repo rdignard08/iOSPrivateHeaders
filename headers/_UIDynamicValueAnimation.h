@@ -10,7 +10,7 @@
     double _decelerationFactor;
     double _decelerationLnFactor;
     double _multiplier;
-    @"NSMutableArray" _activeValues;
+    NSMutableArray _activeValues;
     ^v _stepFunction;
 }
  + (id) _dynamicValueAnimationMatchingCASpringAnimationWithMass:(double)astiffness:(double)bdamping:(float)cvelocity:(float)dfromValue:(double)etoValue:(double)f;

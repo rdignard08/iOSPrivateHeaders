@@ -1,7 +1,7 @@
 
 @interface UIScrollViewPanGestureRecognizer : UIPanGestureRecognizer {
 
-    @"UIScrollView" _scrollView;
+    UIScrollView _scrollView;
     SEL _scrollViewAction;
     {CGPoint="x"d"y"d} _reconsideredLockingLocation;
     b2 _lastLockingAxis;

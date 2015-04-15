@@ -2,7 +2,7 @@
 @protocol NSSecureCoding, NSCopying;
 @interface NSCachedURLResponse : NSObject <NSSecureCoding, NSCopying> {
 
-    @"NSCachedURLResponseInternal" _internal;
+    NSCachedURLResponseInternal _internal;
 }
 @property (atomic, copy, readonly) NSURLResponse* response;
 @property (atomic, copy, readonly) NSData* data;

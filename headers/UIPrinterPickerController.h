@@ -3,8 +3,8 @@
 
     @? _completionHandler;
     id _state;
-    @"UIPrinter" _selectedPrinter;
-    @"<UIPrinterPickerControllerDelegate>" _delegate;
+    UIPrinter _selectedPrinter;
+    <UIPrinterPickerControllerDelegate> _delegate;
 }
 @property (nonatomic, retain, readwrite) UIPrinter* selectedPrinter;
 @property (nonatomic, assign, readwrite) NSNumber* delegate;

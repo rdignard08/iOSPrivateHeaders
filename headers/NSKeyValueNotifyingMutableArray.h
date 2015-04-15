@@ -1,7 +1,7 @@
 
 @interface NSKeyValueNotifyingMutableArray : NSKeyValueMutableArray {
 
-    @"NSMutableArray" _mutableArray;
+    NSMutableArray _mutableArray;
 }
  + (^{?=Q[4@]}) _proxyNonGCPoolPointer;
  + (id) _proxyShare;

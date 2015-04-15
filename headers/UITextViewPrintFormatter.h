@@ -1,8 +1,8 @@
 
 @interface UITextViewPrintFormatter : UIViewPrintFormatter {
 
-    {?="initializedUsedRects"b1} _textViewPrintFormatterFlags;
-    @"NSArray" _pageData;
+    initializedUsedRects _textViewPrintFormatterFlags;
+    NSArray _pageData;
 }
 
  - (void) dealloc;

@@ -13,11 +13,11 @@
 @property (nonatomic, assign, readonly) UIResponder* _editingDelegate;
 @property (nonatomic, assign, readonly) UIResponder* _responderForEditing;
 @property (nonatomic, retain, readwrite) NSUserActivity* userActivity;
-@property (nonatomic, assign, readonly, _proxyTextInput) NSNumber* __content;
+@property (nonatomic, assign, readonly, getter=_proxyTextInput) NSNumber* __content;
 @property (nonatomic, assign, readonly) NSNumber* _textSelectingContainer;
-@property (nonatomic, assign, readonly, isEditable) NSNumber* editable;
-@property (nonatomic, assign, readonly, isEditing) NSNumber* editing;
-@property (nonatomic, assign, readonly, _caretRect) NSNumber* caretRect;
+@property (nonatomic, assign, readonly, getter=isEditable) NSNumber* editable;
+@property (nonatomic, assign, readonly, getter=isEditing) NSNumber* editing;
+@property (nonatomic, assign, readonly, getter=_caretRect) NSNumber* caretRect;
 @property (nonatomic, copy, readwrite) NSString* restorationIdentifier;
 @property (nonatomic, assign, readonly) NSUndoManager* undoManager;
  + (void) _startDeferredTrackingObjectsWithIdentifiers;

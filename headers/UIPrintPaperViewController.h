@@ -1,7 +1,7 @@
 
 @interface UIPrintPaperViewController : UITableViewController {
 
-    @"UIPrintPanelViewController" _printPanelViewController;
+    UIPrintPanelViewController _printPanelViewController;
 }
 
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;

@@ -4,20 +4,20 @@
 
     (?="integerValue"q"fields"{?="uppercase"b1"autoshifted"b1"popupVariant"b1"multitap"b1"flick"b1"synthesizedByAcceptingCandidate"b1}) _flags;
     BOOL _backspace;
-    @"NSString" _string;
-    @"<NSCopying><NSObject><NSSecureCoding>" _object;
-    @"TIKeyboardTouchEvent" _touchEvent;
-    @"TIKeyboardCandidate" _acceptedCandidate;
+    NSString _string;
+    <NSCopying><NSObject><NSSecureCoding> _object;
+    TIKeyboardTouchEvent _touchEvent;
+    TIKeyboardCandidate _acceptedCandidate;
 }
 @property (nonatomic, copy, readwrite) NSString* string;
 @property (nonatomic, copy, readwrite) NSNumber* object;
-@property (nonatomic, assign, readwrite, isBackspace) NSNumber* backspace;
-@property (nonatomic, assign, readwrite, isUppercase) NSNumber* uppercase;
-@property (nonatomic, assign, readwrite, isAutoshifted) NSNumber* autoshifted;
-@property (nonatomic, assign, readwrite, isPopupVariant) NSNumber* popupVariant;
-@property (nonatomic, assign, readwrite, isMultitap) NSNumber* multitap;
-@property (nonatomic, assign, readwrite, isFlick) NSNumber* flick;
-@property (nonatomic, assign, readwrite, isSynthesizedByAcceptingCandidate) NSNumber* synthesizedByAcceptingCandidate;
+@property (nonatomic, assign, readwrite, getter=isBackspace) NSNumber* backspace;
+@property (nonatomic, assign, readwrite, getter=isUppercase) NSNumber* uppercase;
+@property (nonatomic, assign, readwrite, getter=isAutoshifted) NSNumber* autoshifted;
+@property (nonatomic, assign, readwrite, getter=isPopupVariant) NSNumber* popupVariant;
+@property (nonatomic, assign, readwrite, getter=isMultitap) NSNumber* multitap;
+@property (nonatomic, assign, readwrite, getter=isFlick) NSNumber* flick;
+@property (nonatomic, assign, readwrite, getter=isSynthesizedByAcceptingCandidate) NSNumber* synthesizedByAcceptingCandidate;
 @property (nonatomic, retain, readwrite) TIKeyboardTouchEvent* touchEvent;
 @property (nonatomic, retain, readwrite) TIKeyboardCandidate* acceptedCandidate;
  + (BOOL) supportsSecureCoding;

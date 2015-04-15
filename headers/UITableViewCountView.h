@@ -1,7 +1,7 @@
 
 @interface UITableViewCountView : UILabel {
 
-    @"NSString" _countString;
+    NSString _countString;
     int _count;
 }
 

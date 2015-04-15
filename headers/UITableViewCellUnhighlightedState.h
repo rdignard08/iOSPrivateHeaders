@@ -3,7 +3,7 @@
 
     BOOL _opaque;
     BOOL _highlighted;
-    @"UIColor" _backgroundColor;
+    UIColor _backgroundColor;
 }
 @property (atomic, assign, readwrite) NSNumber* opaque;
 @property (atomic, assign, readwrite) NSNumber* highlighted;

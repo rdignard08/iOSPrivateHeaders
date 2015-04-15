@@ -2,9 +2,9 @@
 @protocol UIInputViewAnimationController;
 @interface UIInputViewAnimationControllerViewController : NSObject <UIInputViewAnimationController> {
 
-    @"<UIViewControllerContextTransitioning>" _context;
-    @"<UIViewControllerAnimatedTransitioning_Keyboard>" _animator;
-    @"UIInputViewSetPlacement" _endPlacement;
+    <UIViewControllerContextTransitioning> _context;
+    <UIViewControllerAnimatedTransitioning_Keyboard> _animator;
+    UIInputViewSetPlacement _endPlacement;
 }
  + (id) controllerWithContext:(id)a;
 

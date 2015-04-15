@@ -2,13 +2,13 @@
 @protocol NSLayoutManagerDelegate;
 @interface NSStringDrawingTextStorage : NSTextStorage <NSLayoutManagerDelegate> {
 
-    @"NSConcreteNotifyingMutableAttributedString" _contents;
-    @"NSLayoutManager" _layoutManager;
-    @"NSTextContainer" _textContainer;
+    NSConcreteNotifyingMutableAttributedString _contents;
+    NSLayoutManager _layoutManager;
+    NSTextContainer _textContainer;
     double _baselineDelta;
     {?="_typesetterBehavior"b4"_needToFlushCache"b1"_baselineMode"b1"_forceWordWrapping"b1"_usesSimpleTextEffects"b1"_reserved"b24} _sdflags;
-    @"CUICatalog" _catalog;
-    @"CUIStyleEffectConfiguration" _styleEffects;
+    CUICatalog _catalog;
+    CUIStyleEffectConfiguration _styleEffects;
     double _defaultTighteningFactor;
 }
  + (void) initialize;

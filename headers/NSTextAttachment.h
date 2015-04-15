@@ -2,13 +2,13 @@
 @protocol NSTextAttachmentContainer, NSCoding;
 @interface NSTextAttachment : NSObject <NSTextAttachmentContainer, NSCoding> {
 
-    @"NSData" _data;
-    @"NSString" _uti;
-    @"NSString" _cacheKey;
+    NSData _data;
+    NSString _uti;
+    NSString _cacheKey;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _bounds;
-    @"NSFileWrapper" _fileWrapper;
-    @"UIImage" _image;
-    @"UITextAttachmentView" _wrapperView;
+    NSFileWrapper _fileWrapper;
+    UIImage _image;
+    UITextAttachmentView _wrapperView;
 }
 @property (nonatomic, retain, readwrite) NSData* contents;
 @property (nonatomic, retain, readwrite) NSString* fileType;

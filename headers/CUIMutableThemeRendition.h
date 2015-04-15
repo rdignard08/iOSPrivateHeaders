@@ -3,8 +3,8 @@
 
     ^{_renditionkeytoken=SS} _renditionKey;
     ^{CGImage=} _image;
-    @"CUIRenditionSliceInformation" _sliceInformation;
-    @"CUIRenditionMetrics" _renditionMetrics;
+    CUIRenditionSliceInformation _sliceInformation;
+    CUIRenditionMetrics _renditionMetrics;
 }
 
  - (void) dealloc;

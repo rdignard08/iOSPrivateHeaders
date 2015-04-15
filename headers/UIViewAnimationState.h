@@ -1,8 +1,8 @@
 
 @interface UIViewAnimationState : NSObject {
 
-    @"UIViewAnimationState" _nextState;
-    @"NSString" _animationID;
+    UIViewAnimationState _nextState;
+    NSString _animationID;
     ^v _context;
     id _delegate;
     double _duration;
@@ -12,9 +12,9 @@
     long long _curve;
     float _repeatCount;
     long long _transition;
-    @"UIView" _transitionView;
+    UIView _transitionView;
     int _filter;
-    @"UIView" _filterView;
+    UIView _filterView;
     float _filterValue;
     SEL _willStartSelector;
     SEL _didEndSelector;
@@ -27,13 +27,13 @@
     b1 _roundsToInteger;
     b1 _preventsAdditive;
     b1 _layoutSubviews;
-    @"NSMutableArray" _trackedAnimations;
-    @"NSUUID" _uuid;
-    @"<_UIBasicAnimationFactory>" _animationFactory;
-    @"CAMediaTimingFunction" _customCurve;
+    NSMutableArray _trackedAnimations;
+    NSUUID _uuid;
+    <_UIBasicAnimationFactory> _animationFactory;
+    CAMediaTimingFunction _customCurve;
     BOOL _animationFactoryMakesPerAnimationCustomCurves;
     @? _alongsideAnimations;
-    @"NSMutableArray" _addedCompletions;
+    NSMutableArray _addedCompletions;
     BOOL _animationDidStopSent;
     BOOL _allowUserInteractionToCutOffEndOfAnimation;
     BOOL _retainedSelf;

@@ -2,9 +2,9 @@
 @protocol UIAdaptivePresentationControllerDelegate;
 @interface _UIAlertControllerPresentationController : UIPresentationController <UIAdaptivePresentationControllerDelegate> {
 
-    @"UIView" _dimmingView;
-    @"_UIKeyboardLayoutAlignmentView" keyboardLayoutAlignmentView;
-    @"UIView" keyboardLayoutAlignmentAvailableSpaceView;
+    UIView _dimmingView;
+    _UIKeyboardLayoutAlignmentView keyboardLayoutAlignmentView;
+    UIView keyboardLayoutAlignmentAvailableSpaceView;
     BOOL constraintsPrepared;
     BOOL _chromeHidden;
     BOOL __isCurrentContext;

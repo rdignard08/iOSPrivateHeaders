@@ -2,7 +2,7 @@
 @protocol UIWebFormControl;
 @interface UIWebDefaultDateTimePopover : UIWebFormRotatingAccessoryPopover <UIWebFormControl> {
 
-    @"UIWebDateTimePopoverViewController" _webDateTimeViewController;
+    UIWebDateTimePopoverViewController _webDateTimeViewController;
 }
 
  - (void) dealloc;

@@ -7,9 +7,9 @@
     BOOL _nonoverlappingCrossfade;
     BOOL _disableMeshOptimization;
     unsigned long long _animationType;
-    @"NSArray" _startGeometries;
-    @"NSArray" _endGeometries;
-    @"NSArray" _commonVisibleKeys;
+    NSArray _startGeometries;
+    NSArray _endGeometries;
+    NSArray _commonVisibleKeys;
 }
 
  - (void) dealloc;

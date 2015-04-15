@@ -1,11 +1,11 @@
 
 @interface _UIKeyboardLayoutAlignmentView : UIView {
 
-    @"NSNotification" _keyboardChangeNotificationForUpdateConstraints;
+    NSNotification _keyboardChangeNotificationForUpdateConstraints;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} lastKnownKeyboardRect;
-    @"NSLayoutConstraint" bottomConstraint;
-    @"NSLayoutConstraint" widthConstraint;
-    @"NSLayoutConstraint" heightConstraint;
+    NSLayoutConstraint bottomConstraint;
+    NSLayoutConstraint widthConstraint;
+    NSLayoutConstraint heightConstraint;
 }
 
  - (void) dealloc;

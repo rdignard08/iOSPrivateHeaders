@@ -3,11 +3,11 @@
 @interface UIKBTree : NSObject <NSCopying> {
 
     int type;
-    @"NSString" name;
-    @"NSMutableDictionary" properties;
-    @"NSMutableArray" subtrees;
-    @"NSMutableDictionary" cache;
-    @"NSString" layoutTag;
+    NSString name;
+    NSMutableDictionary properties;
+    NSMutableArray subtrees;
+    NSMutableDictionary cache;
+    NSString layoutTag;
 }
 @property (nonatomic, assign, readwrite) NSNumber* type;
 @property (nonatomic, retain, readwrite) NSString* name;

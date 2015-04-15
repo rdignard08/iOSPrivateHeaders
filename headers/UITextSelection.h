@@ -1,11 +1,11 @@
 
 @interface UITextSelection : NSObject {
 
-    @"UIResponder<UITextInputPrivate>" _document;
+    UIResponder<UITextInputPrivate> _document;
     long long _granularity;
-    @"UITextRange" _selectedRange;
-    @"UITextRange" _base;
-    @"UITextRange" _initialExtent;
+    UITextRange _selectedRange;
+    UITextRange _base;
+    UITextRange _initialExtent;
     BOOL _isCommitting;
 }
 @property (nonatomic, assign, readonly) NSNumber* document;
@@ -14,7 +14,7 @@
 @property (nonatomic, assign, readonly) NSNumber* isCommitting;
 @property (nonatomic, retain, readwrite) UITextRange* base;
 @property (nonatomic, retain, readwrite) UITextRange* initialExtent;
-@property (nonatomic, assign, readonly, _domRange) DOMRange* domRange;
+@property (nonatomic, assign, readonly, getter=_domRange) DOMRange* domRange;
 
  - (void) dealloc;
  - (void) invalidate;

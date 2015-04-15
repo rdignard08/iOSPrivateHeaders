@@ -1,16 +1,16 @@
 
 @interface FBSSceneImpl : FBSScene {
 
-    @"<FBSSceneDelegate>" _delegate;
-    @"NSString" _identifier;
-    @"FBSSceneSettings" _settings;
-    @"FBSSceneClientSettings" _clientSettings;
-    @"<FBSSceneUpdater>" _updater;
-    @"CADisplay" _display;
-    @"FBSDisplay" _fbsDisplay;
-    @"FBSSerialQueue" _callOutQueue;
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"NSMutableArray" _contexts;
+    <FBSSceneDelegate> _delegate;
+    NSString _identifier;
+    FBSSceneSettings _settings;
+    FBSSceneClientSettings _clientSettings;
+    <FBSSceneUpdater> _updater;
+    CADisplay _display;
+    FBSDisplay _fbsDisplay;
+    FBSSerialQueue _callOutQueue;
+    NSObject<OS_dispatch_queue> _queue;
+    NSMutableArray _contexts;
     BOOL _shouldObserveContexts;
 }
 

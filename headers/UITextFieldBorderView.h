@@ -1,7 +1,7 @@
 
 @interface UITextFieldBorderView : UIView {
 
-    @"UIImage" _image;
+    UIImage _image;
 }
 
  - (void) dealloc;

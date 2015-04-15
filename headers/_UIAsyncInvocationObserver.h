@@ -1,7 +1,7 @@
 
 @interface _UIAsyncInvocationObserver : NSObject {
 
-    @"NSObject<OS_dispatch_queue>" _postCompletionQueue;
+    NSObject<OS_dispatch_queue> _postCompletionQueue;
 }
  + (void) whenInvocationsCompleteForObservers:(id)ado:(@?)b;
 

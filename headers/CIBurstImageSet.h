@@ -1,7 +1,7 @@
 
 @interface CIBurstImageSet : NSObject {
 
-    @"CIBurstImageSetInternal" _priv;
+    CIBurstImageSetInternal _priv;
 }
  + (id) defaultVersionString;
  + (id) burstImageSet;

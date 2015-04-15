@@ -2,13 +2,13 @@
 @protocol _CIFilterProperties;
 @interface CIToneCurve : CIFilter <_CIFilterProperties> {
 
-    @"CIImage" inputImage;
-    @"CIVector" inputPoint0;
-    @"CIVector" inputPoint1;
-    @"CIVector" inputPoint2;
-    @"CIVector" inputPoint3;
-    @"CIVector" inputPoint4;
-    @"CIImage" _curveImage;
+    CIImage inputImage;
+    CIVector inputPoint0;
+    CIVector inputPoint1;
+    CIVector inputPoint2;
+    CIVector inputPoint3;
+    CIVector inputPoint4;
+    CIImage _curveImage;
 }
  + (id) customAttributes;
  + (id) curveImageFromPoints:(r^{CGPoint=dd})a;

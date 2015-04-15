@@ -1,8 +1,8 @@
 
 @interface _UIFocusDebugOverlayView : UIView {
 
-    @"UIColor" _overlayColor;
-    @"UIView" _highlightView;
+    UIColor _overlayColor;
+    UIView _highlightView;
 }
 
  - (void) doesNotRecognizeSelector:(SEL)a;

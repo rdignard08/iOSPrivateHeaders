@@ -3,10 +3,10 @@
 
     ^{_CFURLDownload=} cfDownload;
     ^{_CFURLAuthChallenge=} currCFChallenge;
-    @"NSURLAuthenticationChallenge" currNSChallenge;
+    NSURLAuthenticationChallenge currNSChallenge;
     id delegate;
     BOOL downloadActive;
-    @"NSOperationQueue" _targetQueue;
+    NSOperationQueue _targetQueue;
 }
 
  - (void) dealloc;

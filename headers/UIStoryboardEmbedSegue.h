@@ -1,7 +1,7 @@
 
 @interface UIStoryboardEmbedSegue : UIStoryboardSegue {
 
-    @"UIView" _containerView;
+    UIView _containerView;
 }
 
  - (void) dealloc;

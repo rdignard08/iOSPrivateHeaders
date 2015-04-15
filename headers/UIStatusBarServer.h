@@ -1,7 +1,7 @@
 
 @interface UIStatusBarServer : NSObject {
 
-    @"<UIStatusBarServerClient>" _statusBar;
+    <UIStatusBarServerClient> _statusBar;
     ^{__CFRunLoopSource=} _source;
 }
 @property (nonatomic, retain, readwrite) NSNumber* statusBar;

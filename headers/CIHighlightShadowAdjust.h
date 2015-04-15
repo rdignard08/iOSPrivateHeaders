@@ -2,10 +2,10 @@
 @protocol _CIFilterProperties;
 @interface CIHighlightShadowAdjust : CIFilter <_CIFilterProperties> {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputRadius;
-    @"NSNumber" inputShadowAmount;
-    @"NSNumber" inputHighlightAmount;
+    CIImage inputImage;
+    NSNumber inputRadius;
+    NSNumber inputShadowAmount;
+    NSNumber inputHighlightAmount;
 }
  + (id) customAttributes;
 

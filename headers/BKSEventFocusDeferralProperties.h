@@ -4,8 +4,8 @@
 
     int _pid;
     unsigned int _contextID;
-    @"NSString" _clientID;
-    @"NSString" _displayUUID;
+    NSString _clientID;
+    NSString _displayUUID;
 }
 @property (nonatomic, assign, readonly) NSString* clientID;
 @property (nonatomic, assign, readonly) NSNumber* pid;

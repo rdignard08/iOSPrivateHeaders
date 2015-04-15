@@ -15,7 +15,7 @@
     unsigned long long _arrowDirection;
     BOOL _preferLandscapeOrientations;
     BOOL _updatesEnabled;
-    @"NSMutableArray" _candidates;
+    NSMutableArray _candidates;
 }
 @property (nonatomic, assign, readwrite) NSNumber* contentInset;
 @property (nonatomic, assign, readwrite) NSNumber* arrowHeight;
@@ -29,7 +29,7 @@
 @property (nonatomic, assign, readonly) NSNumber* frame;
 @property (nonatomic, assign, readonly) NSNumber* offset;
 @property (nonatomic, assign, readonly) NSNumber* arrowDirection;
-@property (nonatomic, assign, readwrite, _updatesEnabled, _setUpdatesEnabled:) NSNumber* updatesEnabled;
+@property (nonatomic, assign, readwrite, getter=_updatesEnabled, setter=_setUpdatesEnabled:) NSNumber* updatesEnabled;
  + (id) _observationKeys;
 
  - (void) observeValueForKeyPath:(id)aofObject:(id)bchange:(id)ccontext:(^v)d;

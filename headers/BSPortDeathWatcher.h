@@ -1,9 +1,9 @@
 
 @interface BSPortDeathWatcher : NSObject {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"BSDispatchSource" _source;
-    @"BSMachSendRight" _sendRight;
+    NSObject<OS_dispatch_queue> _queue;
+    BSDispatchSource _source;
+    BSMachSendRight _sendRight;
     @? _handler;
 }
 @property (nonatomic, copy, readonly) BSMachSendRight* sendRight;

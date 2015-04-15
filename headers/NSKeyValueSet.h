@@ -2,9 +2,9 @@
 @protocol NSKeyValueProxyCaching;
 @interface NSKeyValueSet : NSSet <NSKeyValueProxyCaching> {
 
-    @"NSObject" _container;
-    @"NSString" _key;
-    @"NSKeyValueNonmutatingSetMethodSet" _methods;
+    NSObject _container;
+    NSString _key;
+    NSKeyValueNonmutatingSetMethodSet _methods;
 }
  + (^{?=Q[4@]}) _proxyNonGCPoolPointer;
  + (id) _proxyShare;

@@ -1,35 +1,35 @@
 
 @interface NSFileVersion : NSObject {
 
-    @"NSURL" _fileURL;
+    NSURL _fileURL;
     id _addition;
     id _deadVersionIdentifier;
     id _nonLocalVersion;
-    @"NSURL" _contentsURL;
+    NSURL _contentsURL;
     BOOL _isBackup;
-    @"NSString" _localizedName;
-    @"NSString" _localizedComputerName;
-    @"NSDate" _modificationDate;
+    NSString _localizedName;
+    NSString _localizedComputerName;
+    NSDate _modificationDate;
     BOOL _isResolved;
     BOOL _contentsURLIsAccessed;
-    @"NSString" _clientID;
-    @"NSString" _name;
+    NSString _clientID;
+    NSString _name;
     BOOL _discardable;
 }
 @property (atomic, copy, readonly) NSString* originatorName;
 @property (atomic, assign, readonly) NSNumber* size;
-@property (atomic, assign, readonly, isUbiquitous) NSNumber* ubiquitous;
+@property (atomic, assign, readonly, getter=isUbiquitous) NSNumber* ubiquitous;
 @property (atomic, copy, readonly) NSString* originalPOSIXName;
 @property (atomic, copy, readonly) NSString* etag;
-@property (atomic, assign, readonly, _isBackup) NSNumber* _isBackup;
+@property (atomic, assign, readonly, getter=_isBackup) NSNumber* _isBackup;
 @property (atomic, copy, readonly) NSURL* URL;
 @property (atomic, copy, readonly) NSString* localizedName;
 @property (atomic, copy, readonly) NSString* localizedNameOfSavingComputer;
 @property (atomic, copy, readonly) NSDate* modificationDate;
 @property (atomic, retain, readonly) NSNumber* persistentIdentifier;
-@property (atomic, assign, readonly, isConflict) NSNumber* conflict;
-@property (atomic, assign, readwrite, isResolved) NSNumber* resolved;
-@property (atomic, assign, readwrite, isDiscardable) NSNumber* discardable;
+@property (atomic, assign, readonly, getter=isConflict) NSNumber* conflict;
+@property (atomic, assign, readwrite, getter=isResolved) NSNumber* resolved;
+@property (atomic, assign, readwrite, getter=isDiscardable) NSNumber* discardable;
 @property (atomic, assign, readonly) NSNumber* hasLocalContents;
 @property (atomic, assign, readonly) NSNumber* hasThumbnail;
  + (id) keyPathsForValuesAffectingValueForKey:(id)a;

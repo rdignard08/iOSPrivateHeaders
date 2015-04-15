@@ -1,8 +1,8 @@
 
 @interface _NSATSTypesetterGuts : NSObject {
 
-    @"NSATSLineFragment" _lineFragment;
-    @"NSATSGlyphStorage" _glyphStorage;
+    NSATSLineFragment _lineFragment;
+    NSATSGlyphStorage _glyphStorage;
     unsigned long long _lastGlyphIndex;
     unsigned long long _lastContainerIndex;
     ^{?=^{?}{_NSRange=QQ}{_NSRange=QQ}ff^?^?dddddd{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}{_NSRange=QQ}@dq{?=b4b1b1b1b4b4b1b1b1b1b2b1b10}[0^v]} _typesetterAuxiliary;

@@ -1,8 +1,8 @@
 
 @interface _UIFallbackPresentationViewController : UIViewController {
 
-    @"_UIFallbackPresentationWindow" _presentationWindow;
-    @"UIWindow" _rotationDecider;
+    _UIFallbackPresentationWindow _presentationWindow;
+    UIWindow _rotationDecider;
 }
 
  - (void) dealloc;

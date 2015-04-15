@@ -3,17 +3,17 @@
 @interface UITableViewHeaderFooterView : UIView <UITableViewSubviewReusing> {
 
     long long _tableViewStyle;
-    @"UIImage" _backgroundImage;
+    UIImage _backgroundImage;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frame;
     long long _textAlignment;
-    @"UITableView" _tableView;
+    UITableView _tableView;
     double _maxTitleWidth;
-    @"NSString" _reuseIdentifier;
-    @"UIView" _backgroundView;
-    @"_UITableViewHeaderFooterViewLabel" _label;
-    @"_UITableViewHeaderFooterViewLabel" _detailLabel;
-    @"UIView" _contentView;
-    @"UIColor" _tintColor;
+    NSString _reuseIdentifier;
+    UIView _backgroundView;
+    _UITableViewHeaderFooterViewLabel _label;
+    _UITableViewHeaderFooterViewLabel _detailLabel;
+    UIView _contentView;
+    UIColor _tintColor;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _separatorInset;
     {?="isHeader"b1"labelBackgroundColorNeedsUpdate"b1"detailLabelBackgroundColorNeedsUpdate"b1"floating"b1"stripPadding"b1"isTopHeader"b1} _headerFooterFlags;
 }

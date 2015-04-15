@@ -1,7 +1,7 @@
 
 @interface _UIAlertControllerActionSheetRegularPresentationController : UIPopoverPresentationController {
 
-    @"_UIAlertControllerActionSheetCompactPresentationController" _compactPresentationController;
+    _UIAlertControllerActionSheetCompactPresentationController _compactPresentationController;
 }
 
  - (void) dealloc;

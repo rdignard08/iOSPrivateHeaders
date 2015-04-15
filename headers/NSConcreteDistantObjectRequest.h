@@ -1,11 +1,11 @@
 
 @interface NSConcreteDistantObjectRequest : NSDistantObjectRequest {
 
-    @"NSInvocation" invocation;
-    @"NSArray" importedObjects;
+    NSInvocation invocation;
+    NSArray importedObjects;
     id conversation;
     unsigned int sequence;
-    @"NSConnection" connection;
+    NSConnection connection;
 }
 
  - (id) connection;

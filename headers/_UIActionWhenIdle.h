@@ -1,7 +1,7 @@
 
 @interface _UIActionWhenIdle : NSObject {
 
-    @"NSInvocation" _invocation;
+    NSInvocation _invocation;
 }
 @property (nonatomic, retain, readwrite) NSInvocation* invocation;
  + (id) actionWhenIdleWithTarget:(id)aselector:(SEL)bobject:(id)c;

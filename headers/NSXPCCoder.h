@@ -1,7 +1,7 @@
 
 @interface NSXPCCoder : NSCoder {
 
-    @"<NSObject>" _userInfo;
+    <NSObject> _userInfo;
     id _reserved1;
 }
 

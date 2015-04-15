@@ -3,9 +3,9 @@
 
     id sndPort;
     id rcvPort;
-    @"NSDOStreamData" doStreamData;
-    @"NSMutableArray" components;
-    @"NSMutableArray" importedObjects;
+    NSDOStreamData doStreamData;
+    NSMutableArray components;
+    NSMutableArray importedObjects;
     unsigned long long componentIndex;
     BOOL isBycopy;
     BOOL isByref;

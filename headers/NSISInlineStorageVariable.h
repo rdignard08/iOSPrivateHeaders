@@ -2,7 +2,7 @@
 @protocol NSISVariableDelegate;
 @interface NSISInlineStorageVariable : NSISVariable <NSISVariableDelegate> {
 
-    @"NSString" _name;
+    NSString _name;
     int _valueRestriction;
     BOOL _shouldBeMinimized;
 }

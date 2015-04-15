@@ -1,7 +1,7 @@
 
 @interface UIInputSetContainerView : UIInputSetHostView {
 
-    @"UIKBRenderConfig" _renderConfig;
+    UIKBRenderConfig _renderConfig;
     BOOL _disableGeometryObserverNotifications;
 }
  + (BOOL) _shouldHitTestInputViewFirst;

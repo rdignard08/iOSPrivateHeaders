@@ -1,9 +1,9 @@
 
 @interface _UILegibilityCachedShadow : NSObject {
 
-    @"_UILegibilitySettings" _settings;
+    _UILegibilitySettings _settings;
     double _strength;
-    @"UIImage" _shadow;
+    UIImage _shadow;
 }
 @property (nonatomic, retain, readwrite) _UILegibilitySettings* settings;
 @property (nonatomic, assign, readwrite) NSNumber* strength;

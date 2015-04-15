@@ -2,7 +2,7 @@
 @protocol NSCopying, NSSecureCoding;
 @interface TILexicon : NSObject <NSCopying, NSSecureCoding> {
 
-    @"NSArray" _entries;
+    NSArray _entries;
 }
 @property (nonatomic, assign, readonly) NSArray* entries;
  + (BOOL) supportsSecureCoding;

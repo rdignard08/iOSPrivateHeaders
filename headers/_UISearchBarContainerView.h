@@ -1,7 +1,7 @@
 
 @interface _UISearchBarContainerView : UIView {
 
-    @"UIView" _subview;
+    UIView _subview;
     int _resizingMask;
 }
 

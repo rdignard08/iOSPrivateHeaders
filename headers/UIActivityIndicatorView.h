@@ -13,15 +13,15 @@
     BOOL _useArtwork;
     BOOL _useOutlineShadow;
     double _width;
-    @"UIColor" _color;
+    UIColor _color;
     long long _spokeCount;
-    @"UIColor" _shadowColor;
+    UIColor _shadowColor;
     double _innerRadius;
     long long _spokeFrameRatio;
-    @"NSArray" _spokeImages;
+    NSArray _spokeImages;
     double _spinningDuration;
-    @"NSString" _artBackupKeyString;
-    @"UIImageView" _internalView;
+    NSString _artBackupKeyString;
+    UIImageView _internalView;
     {CGSize="width"d"height"d} _shadowOffset;
 }
  + ({CGSize=dd}) size;

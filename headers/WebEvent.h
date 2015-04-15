@@ -4,8 +4,8 @@
     int _type;
     double _timestamp;
     {CGPoint="x"d"y"d} _locationInWindow;
-    @"NSString" _characters;
-    @"NSString" _charactersIgnoringModifiers;
+    NSString _characters;
+    NSString _charactersIgnoringModifiers;
     unsigned int _modifierFlags;
     BOOL _keyRepeating;
     BOOL _popupVariant;
@@ -16,9 +16,9 @@
     float _deltaX;
     float _deltaY;
     unsigned int _touchCount;
-    @"NSArray" _touchLocations;
-    @"NSArray" _touchIdentifiers;
-    @"NSArray" _touchPhases;
+    NSArray _touchLocations;
+    NSArray _touchIdentifiers;
+    NSArray _touchPhases;
     BOOL _isGesture;
     float _gestureScale;
     float _gestureRotation;
@@ -30,11 +30,11 @@
 @property (nonatomic, retain, readonly) NSString* characters;
 @property (nonatomic, retain, readonly) NSString* charactersIgnoringModifiers;
 @property (nonatomic, assign, readonly) NSNumber* modifierFlags;
-@property (nonatomic, assign, readonly, isKeyRepeating) NSNumber* keyRepeating;
-@property (nonatomic, assign, readonly, isPopupVariant) NSNumber* popupVariant;
+@property (nonatomic, assign, readonly, getter=isKeyRepeating) NSNumber* keyRepeating;
+@property (nonatomic, assign, readonly, getter=isPopupVariant) NSNumber* popupVariant;
 @property (nonatomic, assign, readonly) NSNumber* keyboardFlags;
 @property (nonatomic, assign, readonly) NSNumber* keyCode;
-@property (nonatomic, assign, readonly, isTabKey) NSNumber* tabKey;
+@property (nonatomic, assign, readonly, getter=isTabKey) NSNumber* tabKey;
 @property (nonatomic, assign, readonly) NSNumber* characterSet;
 @property (nonatomic, assign, readonly) NSNumber* deltaX;
 @property (nonatomic, assign, readonly) NSNumber* deltaY;

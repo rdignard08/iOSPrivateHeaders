@@ -9,11 +9,11 @@
     double faceAngle;
     long long trackID;
     unsigned long long trackDuration;
-    @"NSData" faceprint;
+    NSData faceprint;
     int faceType;
-    @"NSDictionary" faceLandmarkPoints;
-    @"NSDictionary" expressionFeatures;
-    @"NSDictionary" additionalInfo;
+    NSDictionary faceLandmarkPoints;
+    NSDictionary expressionFeatures;
+    NSDictionary additionalInfo;
 }
 @property (atomic, assign, readwrite) NSNumber* face;
 @property (atomic, assign, readwrite) NSNumber* leftEye;

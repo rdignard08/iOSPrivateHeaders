@@ -2,7 +2,7 @@
 @protocol NSCopying;
 @interface WebHistoryItem : NSObject <NSCopying> {
 
-    @"WebHistoryItemPrivate" _private;
+    WebHistoryItemPrivate _private;
 }
 @property (nonatomic, copy, readonly) NSString* originalURLString;
 @property (nonatomic, copy, readonly) NSString* URLString;

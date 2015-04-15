@@ -1,7 +1,7 @@
 
 @interface WebIndicateLayer : CALayer {
 
-    @"WebView" _webView;
+    WebView _webView;
 }
 
  - (id) actionForKey:(id)a;

@@ -3,12 +3,12 @@
 @interface UIKBHandwritingCandidateView : UIKBKeyView <UIKeyboardCandidateList, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout> {
 
     BOOL _usesCandidateSelection;
-    @"<UIKeyboardCandidateListDelegate>" _delegate;
-    @"TIKeyboardCandidateResultSet" _candidateResultSet;
-    @"UIKBCandidateCollectionView" _candidatesCollectionView;
-    @"UIKeyboardCandidatePocketShadow" _pocketShadow;
+    <UIKeyboardCandidateListDelegate> _delegate;
+    TIKeyboardCandidateResultSet _candidateResultSet;
+    UIKBCandidateCollectionView _candidatesCollectionView;
+    UIKeyboardCandidatePocketShadow _pocketShadow;
     {?="idiom"b6"landscape"b1"split"b1"appearance"b8"rendering"b16} _visualStyling;
-    @"UIKeyboardCandidateLogButton" _logButton;
+    UIKeyboardCandidateLogButton _logButton;
     unsigned long long _dummyCellCount;
     double _dummyCellWidth;
 }

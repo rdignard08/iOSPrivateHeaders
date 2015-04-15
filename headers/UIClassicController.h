@@ -1,10 +1,10 @@
 
 @interface UIClassicController : NSObject {
 
-    @"UIWindow" _window;
-    @"UIView" _chromeView;
-    @"UIStatusBarViewController" _statusBarViewController;
-    @"UIZoomViewController" _zoomViewController;
+    UIWindow _window;
+    UIView _chromeView;
+    UIStatusBarViewController _statusBarViewController;
+    UIZoomViewController _zoomViewController;
     BOOL _hidesClassicChrome;
     BOOL _hidesStatusBarFiller;
 }

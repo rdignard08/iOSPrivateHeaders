@@ -1,7 +1,7 @@
 
 @interface UIMotionEffectGroup : UIMotionEffect {
 
-    @"NSArray" _motionEffects;
+    NSArray _motionEffects;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;

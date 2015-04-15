@@ -11,7 +11,7 @@
 @property (atomic, assign, readwrite) NSNumber* needsLayoutOnGeometryChange;
 @property (atomic, assign, readwrite) NSNumber* canDrawConcurrently;
 @property (atomic, assign, readwrite) NSNumber* acceleratesDrawing;
-@property (atomic, assign, readwrite, isFrozen) NSNumber* frozen;
+@property (atomic, assign, readwrite, getter=isFrozen) NSNumber* frozen;
 @property (atomic, assign, readwrite) NSNumber* allowsHitTesting;
 @property (atomic, assign, readwrite) NSNumber* hitTestsAsOpaque;
 @property (atomic, assign, readwrite) NSNumber* clearsContext;
@@ -51,9 +51,9 @@
 @property (atomic, assign, readwrite) NSNumber* anchorPointZ;
 @property (atomic, assign, readwrite) NSNumber* transform;
 @property (atomic, assign, readwrite) NSNumber* frame;
-@property (atomic, assign, readwrite, isHidden) NSNumber* hidden;
-@property (atomic, assign, readwrite, isDoubleSided) NSNumber* doubleSided;
-@property (atomic, assign, readwrite, isGeometryFlipped) NSNumber* geometryFlipped;
+@property (atomic, assign, readwrite, getter=isHidden) NSNumber* hidden;
+@property (atomic, assign, readwrite, getter=isDoubleSided) NSNumber* doubleSided;
+@property (atomic, assign, readwrite, getter=isGeometryFlipped) NSNumber* geometryFlipped;
 @property (atomic, assign, readonly) CALayer* superlayer;
 @property (atomic, copy, readwrite) NSArray* sublayers;
 @property (atomic, assign, readwrite) NSNumber* sublayerTransform;
@@ -67,7 +67,7 @@
 @property (atomic, copy, readwrite) NSString* minificationFilter;
 @property (atomic, copy, readwrite) NSString* magnificationFilter;
 @property (atomic, assign, readwrite) NSNumber* minificationFilterBias;
-@property (atomic, assign, readwrite, isOpaque) NSNumber* opaque;
+@property (atomic, assign, readwrite, getter=isOpaque) NSNumber* opaque;
 @property (atomic, assign, readwrite) NSNumber* needsDisplayOnBoundsChange;
 @property (atomic, assign, readwrite) NSNumber* drawsAsynchronously;
 @property (atomic, assign, readwrite) NSNumber* edgeAntialiasingMask;

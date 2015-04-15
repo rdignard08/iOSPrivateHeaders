@@ -7,8 +7,8 @@
     BOOL _canMultitap;
     BOOL _isAlphabeticPlane;
     BOOL _interfaceIdiomIsPad;
-    @"NSString" _inputMode;
-    @"NSString" _layoutTag;
+    NSString _inputMode;
+    NSString _layoutTag;
 }
 @property (nonatomic, copy, readwrite) NSString* inputMode;
 @property (nonatomic, assign, readwrite) NSNumber* hasCandidateKey;

@@ -2,7 +2,7 @@
 @interface UITextCheckerDictionaryEntry : NSObject {
 
     ^{__CFSet=} dictionary;
-    @"NSData" data;
+    NSData data;
     long long size;
 }
 

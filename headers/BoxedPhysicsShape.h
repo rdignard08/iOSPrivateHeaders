@@ -2,7 +2,7 @@
 @interface BoxedPhysicsShape : NSObject {
 
     int shapeType;
-    @"NSArray" points;
+    NSArray points;
 }
  + (id) boxPhysicsShape:(^{PKPhysicsShape={b2FixtureDef=^{b2Shape}^vfffff}^{b2Fixture}})a;
 

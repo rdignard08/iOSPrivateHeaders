@@ -1,9 +1,9 @@
 
 @interface UIKeyboardCandidateUnsplitKeyboardToggleButton : UIKeyboardCandidateToggleButton {
 
-    @"UIKeyboardCandidatePocketShadow" _pocketShadow;
-    @"UIImage" _backgroundNormal;
-    @"UIImage" _backgroundHighlighted;
+    UIKeyboardCandidatePocketShadow _pocketShadow;
+    UIImage _backgroundNormal;
+    UIImage _backgroundHighlighted;
     BOOL _drawsBackground;
     BOOL _drawsPocketShadow;
 }

@@ -1,8 +1,8 @@
 
 @interface UIWebOptGroup : NSObject {
 
-    @"<UIWebSelectedItemPrivate>" _group;
-    @"NSArray" _options;
+    <UIWebSelectedItemPrivate> _group;
+    NSArray _options;
     long long _offset;
 }
 @property (nonatomic, assign, readonly) NSNumber* offset;

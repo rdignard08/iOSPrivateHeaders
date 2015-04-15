@@ -1,7 +1,7 @@
 
 @interface CIQRCodeGenerator : CICodeGenerator {
 
-    @"NSString" inputCorrectionLevel;
+    NSString inputCorrectionLevel;
 }
  + (id) customAttributes;
 

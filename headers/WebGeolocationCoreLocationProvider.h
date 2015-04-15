@@ -2,8 +2,8 @@
 @protocol CLLocationManagerDelegate;
 @interface WebGeolocationCoreLocationProvider : NSObject <CLLocationManagerDelegate> {
 
-    @"<WebGeolocationCoreLocationUpdateListener>" _positionListener;
-    {RetainPtr<CLLocationManager>="m_ptr"^v} _locationManager;
+    <WebGeolocationCoreLocationUpdateListener> _positionListener;
+    m_ptr _locationManager;
     BOOL _isWaitingForAuthorization;
     int _lastAuthorizationStatus;
 }

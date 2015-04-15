@@ -15,9 +15,9 @@
 @property (atomic, copy, readwrite) NSArray* searchScopes;
 @property (atomic, copy, readwrite) NSArray* searchItems;
 @property (atomic, retain, readwrite) NSOperationQueue* operationQueue;
-@property (atomic, assign, readonly, isStarted) NSNumber* started;
-@property (atomic, assign, readonly, isGathering) NSNumber* gathering;
-@property (atomic, assign, readonly, isStopped) NSNumber* stopped;
+@property (atomic, assign, readonly, getter=isStarted) NSNumber* started;
+@property (atomic, assign, readonly, getter=isGathering) NSNumber* gathering;
+@property (atomic, assign, readonly, getter=isStopped) NSNumber* stopped;
 @property (atomic, assign, readonly) NSNumber* resultCount;
 @property (atomic, copy, readonly) NSArray* results;
 @property (atomic, copy, readonly) NSDictionary* valueLists;

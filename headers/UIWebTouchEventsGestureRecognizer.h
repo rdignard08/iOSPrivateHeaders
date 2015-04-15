@@ -3,7 +3,7 @@
 
     id _touchTarget;
     SEL _touchAction;
-    @"<UIWebTouchEventsGestureRecognizerDelegate>" _webTouchDelegate;
+    <UIWebTouchEventsGestureRecognizerDelegate> _webTouchDelegate;
     BOOL _passedHitTest;
     BOOL _defaultPrevented;
     BOOL _dispatchingTouchEvents;

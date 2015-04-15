@@ -2,7 +2,7 @@
 @interface UIKBScreenTraits : NSObject {
 
     BOOL _knobInput;
-    @"UIScreen" _screen;
+    UIScreen _screen;
     long long _orientation;
     double _keyboardWidth;
 }

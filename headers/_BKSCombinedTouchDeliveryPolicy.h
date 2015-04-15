@@ -1,7 +1,7 @@
 
 @interface _BKSCombinedTouchDeliveryPolicy : BKSTouchDeliveryPolicy {
 
-    @"NSArray" _policies;
+    NSArray _policies;
 }
  + (BOOL) supportsSecureCoding;
 

@@ -1,7 +1,7 @@
 
 @interface UIKeyboardEmoji : NSObject {
 
-    @"NSString" _emojiString;
+    NSString _emojiString;
     unsigned long long _variantMask;
 }
 @property (nonatomic, retain, readwrite) NSString* emojiString;

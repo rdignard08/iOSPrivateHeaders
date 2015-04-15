@@ -1,11 +1,11 @@
 
 @interface UIKBHandwritingCandidateViewCell : UICollectionViewCell {
 
-    @"TIKeyboardCandidate" _candidate;
+    TIKeyboardCandidate _candidate;
     {?="idiom"b6"landscape"b1"split"b1"appearance"b8"rendering"b16} _visualStyling;
-    @"UILabel" _label;
-    @"UILabel" _secondaryLabel;
-    @"UIKBThemedView" _themedView;
+    UILabel _label;
+    UILabel _secondaryLabel;
+    UIKBThemedView _themedView;
 }
  + (double) widthForCandidate:(id)avisualStyling:({?=b6b1b1b8b16})b;
  + (id) labelFontForText:(id)a;

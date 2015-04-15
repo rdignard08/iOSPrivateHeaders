@@ -2,15 +2,15 @@
 @protocol UIGestureRecognizerDelegate;
 @interface _UIActionSlider : UIControl <UIGestureRecognizerDelegate> {
 
-    @"UIView" _contentView;
-    @"UIView" _trackDodgeView;
-    @"UIView" _trackBackgroundView;
-    @"_UIBackdropView" _trackBlurView;
-    @"UIView" _trackSolidView;
-    @"_UIActionSliderKnob" _knobView;
-    @"UIImageView" _knobImageView;
-    @"UIView<_UIActionSliderLabel>" _trackLabel;
-    @"UIPanGestureRecognizer" _slideGestureRecognizer;
+    UIView _contentView;
+    UIView _trackDodgeView;
+    UIView _trackBackgroundView;
+    _UIBackdropView _trackBlurView;
+    UIView _trackSolidView;
+    _UIActionSliderKnob _knobView;
+    UIImageView _knobImageView;
+    UIView<_UIActionSliderLabel> _trackLabel;
+    UIPanGestureRecognizer _slideGestureRecognizer;
     {CGPoint="x"d"y"d} _slideGestureInitialPoint;
     double _knobPosition;
     double _trackWidthProportion;
@@ -18,13 +18,13 @@
     BOOL _animating;
     long long _style;
     long long _textStyle;
-    @"NSString" _trackText;
-    @"UIFont" _trackFont;
+    NSString _trackText;
+    UIFont _trackFont;
     double _trackTextBaselineFromBottom;
-    @"<_UIActionSliderDelegate>" _delegate;
+    <_UIActionSliderDelegate> _delegate;
     double _knobWidth;
     double _cachedTrackMaskWidth;
-    @"_UIVibrantSettings" _vibrantSettings;
+    _UIVibrantSettings _vibrantSettings;
     {CGSize="width"d"height"d} _knobImageOffset;
     {CGSize="width"d"height"d} _trackSize;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _knobInsets;

@@ -3,7 +3,7 @@
 @interface UIUserNotificationSettings : NSObject <NSCopying, NSSecureCoding> {
 
     unsigned long long _types;
-    @"NSSet" _categories;
+    NSSet _categories;
 }
 @property (nonatomic, assign, readonly) NSNumber* types;
 @property (nonatomic, copy, readonly) NSSet* categories;

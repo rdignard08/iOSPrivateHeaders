@@ -1,13 +1,13 @@
 
 @interface NSRTFWriter : NSObject {
 
-    @"NSMutableData" _output;
-    @"NSAttributedString" _attrString;
+    NSMutableData _output;
+    NSAttributedString _attrString;
     unsigned long long _attrStringLength;
-    @"NSFileWrapper" _document;
-    @"NSMutableDictionary" _fontNames;
-    @"NSMutableDictionary" _colors;
-    @"NSMutableArray" _listRanges;
+    NSFileWrapper _document;
+    NSMutableDictionary _fontNames;
+    NSMutableDictionary _colors;
+    NSMutableArray _listRanges;
     id _curFont;
     id _curForegroundColor;
     id _curBackgroundColor;
@@ -20,7 +20,7 @@
     unsigned int _curEncoding;
     {?="_forceColorWrite"b1"_activeFontFeatures"b1"_preserveNaturalAlignment"b1"_reserved"b29} _rwFlags;
     double _rightMargin;
-    @"NSDictionary" _docAttrs;
+    NSDictionary _docAttrs;
     ^v _layoutSections;
 }
  + (void) initialize;

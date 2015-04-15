@@ -2,10 +2,10 @@
 @interface CPSearchMatcher : NSObject {
 
     int _options;
-    @"NSArray" _components;
-    @"NSArray" _asciiComponents;
-    @"NSData" _wholeSearchStringData;
-    @"NSData" _context;
+    NSArray _components;
+    NSArray _asciiComponents;
+    NSData _wholeSearchStringData;
+    NSData _context;
 }
 
  - (BOOL) matches:(id)a;

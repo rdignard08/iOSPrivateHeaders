@@ -1,8 +1,8 @@
 
 @interface UIBarButtonItemProxy : NSObject {
 
-    @"UIBarButtonItem" _item;
-    @"UIView" _view;
+    UIBarButtonItem _item;
+    UIView _view;
 }
 
  - (id) item;

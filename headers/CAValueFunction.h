@@ -2,7 +2,7 @@
 @protocol NSCoding;
 @interface CAValueFunction : NSObject <NSCoding> {
 
-    @"NSString" _string;
+    NSString _string;
     ^v _impl;
 }
 @property (atomic, assign, readonly) NSString* name;

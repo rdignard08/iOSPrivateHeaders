@@ -1,8 +1,8 @@
 
 @interface _ReachabilityRequest : NSObject {
 
-    @"NSLock" _lock;
-    @"NSString" _hostname;
+    NSLock _lock;
+    NSString _hostname;
     ^{__SCNetworkReachability=} _reachability;
     unsigned int _flags;
     ^{__CFDictionary=} _observers;

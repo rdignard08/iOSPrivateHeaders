@@ -2,7 +2,7 @@
 @protocol WebDeviceOrientationProvider;
 @interface WebDeviceOrientationProviderMock : NSObject <WebDeviceOrientationProvider> {
 
-    @"WebDeviceOrientationProviderMockInternal" m_internal;
+    WebDeviceOrientationProviderMockInternal m_internal;
 }
  + (id) shared;
 

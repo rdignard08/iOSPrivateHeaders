@@ -2,14 +2,14 @@
 @protocol _UIDocumentPickerContainedViewController;
 @interface _UIDocumentPickerDocumentTableViewController : UITableViewController <_UIDocumentPickerContainedViewController> {
 
-    @"_UIDocumentPickerViewServiceViewController" _weak_serviceViewController;
+    _UIDocumentPickerViewServiceViewController _weak_serviceViewController;
     BOOL _shouldHideSortBar;
     BOOL _updatesMayAnimate;
-    @"NSURL" _observedURL;
-    @"_UIDocumentPickerContainerModel" _model;
+    NSURL _observedURL;
+    _UIDocumentPickerContainerModel _model;
     id _monitoringToken;
-    @"_UIDocumentPickerSortOrderView" _sortView;
-    @"UIActivityIndicatorView" _initialActivityView;
+    _UIDocumentPickerSortOrderView _sortView;
+    UIActivityIndicatorView _initialActivityView;
 }
 
  - (void) dealloc;

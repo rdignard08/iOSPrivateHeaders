@@ -1,7 +1,7 @@
 
 @interface FBSSceneSettingsDiffInspector : NSObject {
 
-    @"BSMutableSettings" _observerInfo;
+    BSMutableSettings _observerInfo;
     BOOL _iteratingObservers;
 }
 

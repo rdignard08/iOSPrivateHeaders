@@ -1,16 +1,16 @@
 
 @interface _UIAppearanceRecorder : NSObject {
 
-    @"NSString" _classNameToRecord;
+    NSString _classNameToRecord;
     Class _superclassToRecord;
-    @"NSArray" _containerClassNames;
-    @"NSMutableArray" _customizations;
-    @"NSArray" _unarchivedCustomizations;
+    NSArray _containerClassNames;
+    NSMutableArray _customizations;
+    NSArray _unarchivedCustomizations;
 }
 @property (nonatomic, assign, readonly) NSData* _serializedRepresentation;
-@property (nonatomic, copy, readwrite, _setClassNameToRecord:) NSString* _classNameToRecord;
-@property (nonatomic, assign, readwrite, _setSuperclassToRecord:) NSObject* _superclassToRecord;
-@property (nonatomic, copy, readwrite, _setContainerClassNames:) NSArray* _containerClassNames;
+@property (nonatomic, copy, readwrite, setter=_setClassNameToRecord:) NSString* _classNameToRecord;
+@property (nonatomic, assign, readwrite, setter=_setSuperclassToRecord:) NSObject* _superclassToRecord;
+@property (nonatomic, copy, readwrite, setter=_setContainerClassNames:) NSArray* _containerClassNames;
  + (id) _sharedAppearanceRecorderForClass:(Class)awhenContainedIn:(id)b;
  + (id) _sharedAppearanceRecorder;
  + (id) _sharedAppearanceRecorderForClassNamed:(id)asuperclass:(Class)bwhenContainedIn:(id)c;

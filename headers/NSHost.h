@@ -1,8 +1,8 @@
 
 @interface NSHost : NSObject {
 
-    @"NSArray" names;
-    @"NSArray" addresses;
+    NSArray names;
+    NSArray addresses;
     id reserved;
 }
 @property (atomic, copy, readonly) NSString* name;

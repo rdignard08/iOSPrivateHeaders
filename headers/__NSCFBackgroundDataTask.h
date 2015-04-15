@@ -2,13 +2,13 @@
 @protocol NSStreamDelegate;
 @interface __NSCFBackgroundDataTask : __NSCFBackgroundSessionTask <NSStreamDelegate> {
 
-    @"NSInputStream" _requestBodyStream;
-    @"NSInputStream" _initialStream;
-    @"NSObject<OS_dispatch_queue>" _writeQueue;
-    @"NSObject<OS_dispatch_io>" _pipeIO;
+    NSInputStream _requestBodyStream;
+    NSInputStream _initialStream;
+    NSObject<OS_dispatch_queue> _writeQueue;
+    NSObject<OS_dispatch_io> _pipeIO;
     unsigned long long _bytesRead;
     BOOL _streamBased;
-    @"NSFileHandle" _readHandle;
+    NSFileHandle _readHandle;
 }
 
  - (void) dealloc;

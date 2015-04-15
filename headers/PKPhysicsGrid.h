@@ -2,7 +2,7 @@
 @interface PKPhysicsGrid : NSObject {
 
     {shared_ptr<PKCGrid>="__ptr_"^{PKCGrid}"__cntrl_"^{__shared_weak_count}} grid;
-    @"PKQuadTree" quadTree;
+    PKQuadTree quadTree;
 }
 @property (nonatomic, assign, readonly) NSNumber* width;
 @property (nonatomic, assign, readonly) NSNumber* height;

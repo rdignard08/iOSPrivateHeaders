@@ -1,8 +1,8 @@
 
 @interface UIKeyboardCache : NSObject {
 
-    @"CPBitmapStore" _store;
-    @"NSSet" _layouts;
+    CPBitmapStore _store;
+    NSSet _layouts;
     BOOL _isCommitting;
 }
  + (id) sharedInstance;

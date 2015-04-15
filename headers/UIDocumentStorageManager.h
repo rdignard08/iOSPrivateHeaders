@@ -1,12 +1,12 @@
 
 @interface UIDocumentStorageManager : NSObject {
 
-    @"NSObject<OS_dispatch_queue>" _ivarQueue;
-    @"_UIDocumentStorage" _storage;
-    @"NSMutableSet" _observers;
-    @"NSMetadataQuery" _query;
-    @"NSDictionary" _identifiersToURLMap;
-    @"NSURL" _defaultURL;
+    NSObject<OS_dispatch_queue> _ivarQueue;
+    _UIDocumentStorage _storage;
+    NSMutableSet _observers;
+    NSMetadataQuery _query;
+    NSDictionary _identifiersToURLMap;
+    NSURL _defaultURL;
 }
 @property (atomic, assign, readonly) NSNumber* usesUbiquitousStorage;
 @property (atomic, assign, readonly) NSURL* documentStorageURL;

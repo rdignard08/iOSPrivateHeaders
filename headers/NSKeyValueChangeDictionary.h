@@ -2,7 +2,7 @@
 @interface NSKeyValueChangeDictionary : NSDictionary {
 
     {?="kind"Q"oldValue"@"NSObject""newValue"@"NSObject""indexes"@"NSIndexSet""extraData"@} _details;
-    @"NSObject" _originalObservable;
+    NSObject _originalObservable;
     BOOL _isPriorNotification;
     BOOL _isRetainingObjects;
 }

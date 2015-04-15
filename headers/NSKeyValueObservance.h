@@ -2,14 +2,14 @@
 @interface NSKeyValueObservance : NSWeakCallback {
 
     int _retainCountMinusOne;
-    @"NSObject" _observer;
-    @"NSKeyValueProperty" _property;
+    NSObject _observer;
+    NSKeyValueProperty _property;
     unsigned long long _options;
     ^v _context;
-    @"NSObject" _originalObservable;
+    NSObject _originalObservable;
     unsigned long long _cachedUnrotatedHashComponent;
     BOOL _cachedIsShareable;
-    @"NSPointerArray" _observationInfos;
+    NSPointerArray _observationInfos;
 }
 
  - (id) _initWithObserver:(id)aproperty:(id)boptions:(unsigned long long)ccontext:(^v)doriginalObservable:(id)e;

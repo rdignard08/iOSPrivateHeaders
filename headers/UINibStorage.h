@@ -1,12 +1,12 @@
 
 @interface UINibStorage : NSObject {
 
-    @"NSString" bundleResourceName;
-    @"NSString" bundleDirectoryName;
-    @"NSBundle" bundle;
-    @"NSString" identifierForStringsFile;
-    @"NSData" archiveData;
-    @"UINibDecoder" nibDecoder;
+    NSString bundleResourceName;
+    NSString bundleDirectoryName;
+    NSBundle bundle;
+    NSString identifierForStringsFile;
+    NSData archiveData;
+    UINibDecoder nibDecoder;
     BOOL instantiatingForSimulator;
     BOOL captureImplicitLoadingContextOnDecode;
 }

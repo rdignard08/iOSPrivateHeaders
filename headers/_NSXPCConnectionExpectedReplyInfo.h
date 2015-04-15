@@ -1,12 +1,12 @@
 
 @interface _NSXPCConnectionExpectedReplyInfo : NSObject {
 
-    @"NSBlock" _replyBlock;
+    NSBlock _replyBlock;
     @? _errorBlock;
     @? _cleanupBlock;
     SEL _selector;
-    @"NSXPCInterface" _interface;
-    @"NSDictionary" _userInfo;
+    NSXPCInterface _interface;
+    NSDictionary _userInfo;
     unsigned long long _proxyNumber;
 }
 @property (atomic, assign, readwrite) NSNumber* selector;

@@ -9,15 +9,15 @@
     ^{_xmlSAXHandler=^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?I^v^?^?^?} _saxHandler;
     ^{_xmlParserCtxt=^{_xmlSAXHandler}^v^{_xmlDoc}ii**ii^{_xmlParserInput}ii^^{_xmlParserInput}^{_xmlNode}ii^^{_xmlNode}i{_xmlParserNodeInfoSeq=QQ^{_xmlParserNodeInfo}}iiiiii{_xmlValidCtxt=^v^?^?^{_xmlNode}ii^^{_xmlNode}I^{_xmlDoc}i^{_xmlValidState}ii^{_xmlValidState}^{_xmlAutomata}^{_xmlAutomataState}}ii**ii^*qqiii***^iii^ii^{_xmlParserInput}iiii^vii^vii^{_xmlDict}^*ii***iii^*^i^^v^{_xmlHashTable}^{_xmlHashTable}iiii^{_xmlNode}i^{_xmlAttr}{_xmlError=ii*i*i***ii^v^v}iQQ^{_xmlParserNodeInfo}ii^{_xmlParserNodeInfo}iQ} _parserContext;
     unsigned long long _parserFlags;
-    @"NSError" _error;
-    @"NSMutableArray" _namespaces;
+    NSError _error;
+    NSMutableArray _namespaces;
     ^{__CFDictionary=} _slowStringMap;
     BOOL _delegateAborted;
     BOOL _haveDetectedEncoding;
-    @"NSData" _bomChunk;
+    NSData _bomChunk;
     unsigned long long _chunkSize;
-    @"NSSet" _allowedEntityURLs;
-    @"NSURL" _url;
+    NSSet _allowedEntityURLs;
+    NSURL _url;
     unsigned long long _externalEntityResolvingPolicy;
 }
 @property (atomic, assign, readwrite) NSNumber* delegate;

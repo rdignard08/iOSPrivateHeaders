@@ -1,18 +1,18 @@
 
 @interface NSHTTPCookie : NSObject {
 
-    @"NSHTTPCookieInternal" _cookiePrivate;
+    NSHTTPCookieInternal _cookiePrivate;
 }
 @property (atomic, copy, readonly) NSDictionary* properties;
 @property (atomic, assign, readonly) NSNumber* version;
 @property (atomic, copy, readonly) NSString* name;
 @property (atomic, copy, readonly) NSString* value;
 @property (atomic, copy, readonly) NSDate* expiresDate;
-@property (atomic, assign, readonly, isSessionOnly) NSNumber* sessionOnly;
+@property (atomic, assign, readonly, getter=isSessionOnly) NSNumber* sessionOnly;
 @property (atomic, copy, readonly) NSString* domain;
 @property (atomic, copy, readonly) NSString* path;
-@property (atomic, assign, readonly, isSecure) NSNumber* secure;
-@property (atomic, assign, readonly, isHTTPOnly) NSNumber* HTTPOnly;
+@property (atomic, assign, readonly, getter=isSecure) NSNumber* secure;
+@property (atomic, assign, readonly, getter=isHTTPOnly) NSNumber* HTTPOnly;
 @property (atomic, copy, readonly) NSString* comment;
 @property (atomic, copy, readonly) NSURL* commentURL;
 @property (atomic, copy, readonly) NSArray* portList;

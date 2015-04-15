@@ -1,7 +1,7 @@
 
 @interface _UIMappedBitmapImage : UIImage {
 
-    @"NSData" _data;
+    NSData _data;
 }
  + (BOOL) supportsSecureCoding;
  + (void) initialize;

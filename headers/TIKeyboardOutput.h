@@ -2,14 +2,14 @@
 @protocol NSSecureCoding;
 @interface TIKeyboardOutput : NSObject <NSSecureCoding> {
 
-    @"TIKeyboardCandidate" _acceptedCandidate;
-    @"NSString" _textToCommit;
+    TIKeyboardCandidate _acceptedCandidate;
+    NSString _textToCommit;
     unsigned long long _deletionCount;
-    @"NSString" _insertionText;
+    NSString _insertionText;
     unsigned long long _forwardDeletionCount;
-    @"NSString" _insertionTextAfterSelection;
-    @"TIKeyboardCandidate" _shortcutConversion;
-    @"NSIndexSet" _handwritingStrokesToDelete;
+    NSString _insertionTextAfterSelection;
+    TIKeyboardCandidate _shortcutConversion;
+    NSIndexSet _handwritingStrokesToDelete;
 }
 @property (nonatomic, retain, readwrite) TIKeyboardCandidate* acceptedCandidate;
 @property (nonatomic, copy, readwrite) NSString* textToCommit;

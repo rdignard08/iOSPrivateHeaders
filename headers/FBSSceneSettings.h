@@ -9,15 +9,15 @@
     BOOL _backgrounded;
     BOOL _occluded;
     BOOL _occludedHasBeenCalculated;
-    @"NSSet" _ignoreOcclusionReasons;
-    @"NSArray" _occlusions;
-    @"BSSettings" _otherSettings;
-    @"BSSettings" _transientLocalSettings;
+    NSSet _ignoreOcclusionReasons;
+    NSArray _occlusions;
+    BSSettings _otherSettings;
+    BSSettings _transientLocalSettings;
 }
 @property (nonatomic, assign, readonly) NSNumber* frame;
 @property (nonatomic, assign, readonly) NSNumber* level;
 @property (nonatomic, assign, readonly) NSNumber* interfaceOrientation;
-@property (nonatomic, assign, readonly, isBackgrounded) NSNumber* backgrounded;
+@property (nonatomic, assign, readonly, getter=isBackgrounded) NSNumber* backgrounded;
 @property (nonatomic, copy, readonly) NSArray* occlusions;
 @property (nonatomic, assign, readonly) NSNumber* contentOffset;
  + (id) settings;

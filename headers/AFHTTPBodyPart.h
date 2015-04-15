@@ -3,13 +3,13 @@
 @interface AFHTTPBodyPart : NSObject <NSCopying> {
 
     int _phase;
-    @"NSInputStream" _inputStream;
+    NSInputStream _inputStream;
     unsigned long long _phaseReadOffset;
     BOOL _hasInitialBoundary;
     BOOL _hasFinalBoundary;
     unsigned long long _stringEncoding;
-    @"NSDictionary" _headers;
-    @"NSString" _boundary;
+    NSDictionary _headers;
+    NSString _boundary;
     id _body;
     unsigned long long _bodyContentLength;
 }
@@ -21,7 +21,7 @@
 @property (nonatomic, retain, readwrite) NSInputStream* inputStream;
 @property (nonatomic, assign, readwrite) NSNumber* hasInitialBoundary;
 @property (nonatomic, assign, readwrite) NSNumber* hasFinalBoundary;
-@property (nonatomic, assign, readonly, hasBytesAvailable) NSNumber* bytesAvailable;
+@property (nonatomic, assign, readonly, getter=hasBytesAvailable) NSNumber* bytesAvailable;
 @property (nonatomic, assign, readonly) NSNumber* contentLength;
 
  - (void) setStringEncoding:(unsigned long long)a;

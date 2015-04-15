@@ -3,7 +3,7 @@
 
     ^{OpaqueCFHTTPCookieStorage=} storage;
     ^{OpaqueCFHTTPCookieStorage=} privateStorage;
-    @"NSRecursiveLock" dataLock;
+    NSRecursiveLock dataLock;
     BOOL privateBrowsing;
 }
 

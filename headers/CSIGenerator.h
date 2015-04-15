@@ -2,11 +2,11 @@
 @interface CSIGenerator : NSObject {
 
     {CGSize="width"d"height"d} _size;
-    @"NSString" _name;
-    @"NSString" _utiType;
-    @"NSMutableArray" _slices;
-    @"NSMutableArray" _bitmaps;
-    @"NSMutableArray" _metrics;
+    NSString _name;
+    NSString _utiType;
+    NSMutableArray _slices;
+    NSMutableArray _bitmaps;
+    NSMutableArray _metrics;
     BOOL _isFPOHint;
     BOOL _isExcludedFromFilter;
     BOOL _isVectorBased;
@@ -15,12 +15,12 @@
     short _colorSpaceID;
     short _layout;
     unsigned int _scaleFactor;
-    @"CUIPSDGradient" _gradient;
-    @"NSData" _rawData;
-    @"CUIShapeEffectPreset" _effectPreset;
+    CUIPSDGradient _gradient;
+    NSData _rawData;
+    CUIShapeEffectPreset _effectPreset;
     int _blendMode;
     double _opacity;
-    @"NSDate" _modtime;
+    NSDate _modtime;
     unsigned int _pixelFormat;
     int _exifOrientation;
     unsigned long long _rowbytes;
@@ -30,7 +30,7 @@
 @property (nonatomic, assign, readwrite) NSNumber* isRenditionFPO;
 @property (nonatomic, assign, readwrite) NSNumber* isVectorBased;
 @property (nonatomic, assign, readwrite) NSNumber* templateRenderingMode;
-@property (nonatomic, assign, readwrite, isExcludedFromContrastFilter) NSNumber* excludedFromContrastFilter;
+@property (nonatomic, assign, readwrite, getter=isExcludedFromContrastFilter) NSNumber* excludedFromContrastFilter;
 @property (nonatomic, assign, readwrite) NSNumber* colorSpaceID;
 @property (nonatomic, assign, readwrite) NSNumber* scaleFactor;
 @property (nonatomic, assign, readwrite) NSNumber* pixelFormat;

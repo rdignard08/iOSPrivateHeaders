@@ -1,13 +1,13 @@
 
 @interface CIModTransition : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIImage" inputTargetImage;
-    @"CIVector" inputCenter;
-    @"NSNumber" inputTime;
-    @"NSNumber" inputAngle;
-    @"NSNumber" inputRadius;
-    @"NSNumber" inputCompression;
+    CIImage inputImage;
+    CIImage inputTargetImage;
+    CIVector inputCenter;
+    NSNumber inputTime;
+    NSNumber inputAngle;
+    NSNumber inputRadius;
+    NSNumber inputCompression;
 }
  + (id) customAttributes;
 

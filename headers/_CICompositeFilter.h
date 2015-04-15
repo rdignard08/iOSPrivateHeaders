@@ -1,8 +1,8 @@
 
 @interface _CICompositeFilter : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIImage" inputBackgroundImage;
+    CIImage inputImage;
+    CIImage inputBackgroundImage;
 }
  + (id) customAttributes;
  + (id) _kernel;

@@ -1,12 +1,12 @@
 
 @interface CIBarsSwipeTransition : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIImage" inputTargetImage;
-    @"NSNumber" inputAngle;
-    @"NSNumber" inputWidth;
-    @"NSNumber" inputBarOffset;
-    @"NSNumber" inputTime;
+    CIImage inputImage;
+    CIImage inputTargetImage;
+    NSNumber inputAngle;
+    NSNumber inputWidth;
+    NSNumber inputBarOffset;
+    NSNumber inputTime;
 }
  + (id) customAttributes;
 

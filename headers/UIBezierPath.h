@@ -16,7 +16,7 @@
     BOOL _immutablePathIsValid;
 }
 @property (nonatomic, assign, readwrite) NSNumber* CGPath;
-@property (atomic, assign, readonly, isEmpty) NSNumber* empty;
+@property (atomic, assign, readonly, getter=isEmpty) NSNumber* empty;
 @property (nonatomic, assign, readonly) NSNumber* bounds;
 @property (nonatomic, assign, readonly) NSNumber* currentPoint;
 @property (nonatomic, assign, readwrite) NSNumber* lineWidth;

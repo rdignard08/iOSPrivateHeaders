@@ -4,7 +4,7 @@
     double timestamp;
     long long phase;
     unsigned long long tapCount;
-    @"UIWindow" window;
+    UIWindow window;
     {CGPoint="x"d"y"d} locationInWindow;
     unsigned char _pathIndex;
     unsigned char _pathIdentity;

@@ -7,9 +7,9 @@
     unsigned long long _options;
     long long _curve;
 }
-@property (nonatomic, assign, readonly, _duration) NSNumber* duration;
-@property (nonatomic, assign, readonly, _delay) NSNumber* delay;
-@property (nonatomic, assign, readonly, _curve) NSNumber* curve;
+@property (nonatomic, assign, readonly, getter=_duration) NSNumber* duration;
+@property (nonatomic, assign, readonly, getter=_delay) NSNumber* delay;
+@property (nonatomic, assign, readonly, getter=_curve) NSNumber* curve;
  + (BOOL) supportsSecureCoding;
 
  - (double) _duration;

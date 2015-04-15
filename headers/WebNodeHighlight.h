@@ -1,9 +1,9 @@
 
 @interface WebNodeHighlight : NSObject {
 
-    @"WAKView" _targetView;
-    @"WebHighlightLayer" _highlightLayer;
-    @"WebNodeHighlightView" _highlightView;
+    WAKView _targetView;
+    WebHighlightLayer _highlightLayer;
+    WebNodeHighlightView _highlightView;
     ^{InspectorController=^^?{RefPtr<WebCore::InstrumentingAgents>=^{InstrumentingAgents}}{unique_ptr<WebCore::WebInjectedScriptManager, std::__1::default_delete<WebCore::WebInjectedScriptManager> >={__compressed_pair<WebCore::WebInjectedScriptManager *, std::__1::default_delete<WebCore::WebInjectedScriptManager> >=^{WebInjectedScriptManager}}}{unique_ptr<WebCore::InspectorOverlay, std::__1::default_delete<WebCore::InspectorOverlay> >={__compressed_pair<WebCore::InspectorOverlay *, std::__1::default_delete<WebCore::InspectorOverlay> >=^{InspectorOverlay}}}^{InspectorAgent}^{InspectorDOMAgent}^{InspectorResourceAgent}^{InspectorPageAgent}^{PageDebuggerAgent}^{InspectorDOMDebuggerAgent}^{InspectorProfilerAgent}^{InspectorTimelineAgent}{RefPtr<Inspector::InspectorBackendDispatcher>=^{InspectorBackendDispatcher}}{unique_ptr<WebCore::InspectorFrontendClient, std::__1::default_delete<WebCore::InspectorFrontendClient> >={__compressed_pair<WebCore::InspectorFrontendClient *, std::__1::default_delete<WebCore::InspectorFrontendClient> >=^{InspectorFrontendClient}}}^{InspectorFrontendChannel}^{Page}^{InspectorClient}{InspectorAgentRegistry={Vector<std::__1::unique_ptr<Inspector::InspectorAgentBase, std::__1::default_delete<Inspector::InspectorAgentBase> >, 0, WTF::CrashOnOverflow>=^{unique_ptr<Inspector::InspectorAgentBase, std::__1::default_delete<Inspector::InspectorAgentBase> >}II}}{Vector<WebCore::InspectorInstrumentationCookie, 2, WTF::CrashOnOverflow>=^{InspectorInstrumentationCookie}II[2{type=[16C]}]}BB} _inspectorController;
     id _delegate;
 }

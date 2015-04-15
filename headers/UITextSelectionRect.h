@@ -7,7 +7,7 @@
 @property (nonatomic, assign, readonly) NSNumber* containsStart;
 @property (nonatomic, assign, readonly) NSNumber* containsEnd;
 @property (nonatomic, assign, readonly) NSNumber* isVertical;
-@property (nonatomic, assign, readonly, _isImpl) UITextSelectionRectImpl* isImpl;
+@property (nonatomic, assign, readonly, getter=_isImpl) UITextSelectionRectImpl* isImpl;
  + (BOOL) startIsHorizontal:(id)a;
  + ({CGRect={CGPoint=dd}{CGSize=dd}}) startEdgeFromRects:(id)a;
  + ({CGRect={CGPoint=dd}{CGSize=dd}}) endEdgeFromRects:(id)a;

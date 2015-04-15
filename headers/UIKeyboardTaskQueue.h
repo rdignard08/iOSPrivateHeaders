@@ -2,10 +2,10 @@
 @interface UIKeyboardTaskQueue : NSObject {
 
     BOOL _executingOnMainThread;
-    @"NSConditionLock" _lock;
-    @"NSMutableArray" _tasks;
-    @"NSMutableArray" _deferredTasks;
-    @"UIKeyboardTaskExecutionContext" _executionContext;
+    NSConditionLock _lock;
+    NSMutableArray _tasks;
+    NSMutableArray _deferredTasks;
+    UIKeyboardTaskExecutionContext _executionContext;
     @? _mainThreadContinuation;
 }
 @property (nonatomic, retain, readwrite) UIKeyboardTaskExecutionContext* executionContext;

@@ -2,8 +2,8 @@
 @protocol NSCopying;
 @interface UILexiconEntry : NSObject <NSCopying> {
 
-    @"NSString" _userInput;
-    @"NSString" _documentText;
+    NSString _userInput;
+    NSString _documentText;
 }
 @property (nonatomic, assign, readonly) NSString* documentText;
 @property (nonatomic, assign, readonly) NSString* userInput;

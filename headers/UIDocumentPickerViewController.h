@@ -2,12 +2,12 @@
 @protocol _UIDocumentPickerRemoteViewControllerContaining;
 @interface UIDocumentPickerViewController : UIViewController <_UIDocumentPickerRemoteViewControllerContaining> {
 
-    @"<UIDocumentPickerDelegate>" _weak_delegate;
+    <UIDocumentPickerDelegate> _weak_delegate;
     unsigned long long _documentPickerMode;
-    @"_UIDocumentPickerRemoteViewController" _remoteViewController;
-    @"_UIRemoteViewService" _remoteViewService;
-    @"NSURL" _uploadURL;
-    @"NSMutableArray" _stitchingTokens;
+    _UIDocumentPickerRemoteViewController _remoteViewController;
+    _UIRemoteViewService _remoteViewService;
+    NSURL _uploadURL;
+    NSMutableArray _stitchingTokens;
 }
  + (id) localizedName;
  + (id) _identifier;

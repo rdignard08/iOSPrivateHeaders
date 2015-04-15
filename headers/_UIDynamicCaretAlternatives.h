@@ -1,9 +1,9 @@
 
 @interface _UIDynamicCaretAlternatives : UIView {
 
-    @"UIView" _verticalDivider;
-    @"UIView" _horizontalDivider;
-    @"NSArray" _alternativesButtons;
+    UIView _verticalDivider;
+    UIView _horizontalDivider;
+    NSArray _alternativesButtons;
 }
 
  - (void) dealloc;

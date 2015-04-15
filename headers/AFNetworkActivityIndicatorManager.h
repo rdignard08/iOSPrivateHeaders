@@ -3,13 +3,13 @@
 
     BOOL _enabled;
     long long _activityCount;
-    @"NSTimer" _activityIndicatorVisibilityTimer;
+    NSTimer _activityIndicatorVisibilityTimer;
 }
-@property (nonatomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (nonatomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (nonatomic, assign, readonly) NSNumber* isNetworkActivityIndicatorVisible;
 @property (nonatomic, assign, readwrite) NSNumber* activityCount;
 @property (nonatomic, retain, readwrite) NSTimer* activityIndicatorVisibilityTimer;
-@property (nonatomic, assign, readonly, isNetworkActivityIndicatorVisible) NSNumber* networkActivityIndicatorVisible;
+@property (nonatomic, assign, readonly, getter=isNetworkActivityIndicatorVisible) NSNumber* networkActivityIndicatorVisible;
  + (id) keyPathsForValuesAffectingIsNetworkActivityIndicatorVisible;
  + (id) sharedManager;
 

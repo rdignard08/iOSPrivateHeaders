@@ -1,7 +1,7 @@
 
 @interface NSKeyValueFastMutableOrderedSet1 : NSKeyValueFastMutableOrderedSet {
 
-    @"NSKeyValueNonmutatingOrderedSetMethodSet" _nonmutatingMethods;
+    NSKeyValueNonmutatingOrderedSetMethodSet _nonmutatingMethods;
 }
  + (^{?=Q[4@]}) _proxyNonGCPoolPointer;
 

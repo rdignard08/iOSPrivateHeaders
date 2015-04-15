@@ -3,11 +3,11 @@
 @interface _UIFontCacheKey : NSObject <NSCopying> {
 
     int _traits;
-    @"NSString" _fontName;
+    NSString _fontName;
     double _pointSize;
-    @"NSString" _textStyle;
-    @"NSString" _contentSizeCategory;
-    @"UIFontDescriptor" _fontDescriptor;
+    NSString _textStyle;
+    NSString _contentSizeCategory;
+    UIFontDescriptor _fontDescriptor;
 }
 @property (nonatomic, copy, readwrite) NSString* fontName;
 @property (nonatomic, assign, readwrite) NSNumber* traits;

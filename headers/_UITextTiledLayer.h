@@ -1,7 +1,7 @@
 
 @interface _UITextTiledLayer : CALayer {
 
-    @"NSMutableArray" _reusableTiles;
+    NSMutableArray _reusableTiles;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _gridBounds;
     {?="disableTiling"b1"ditchAllTiles"b1"suspendLayout"b4} _tcTiledLayerFlags;
     {CGSize="width"d"height"d} _tileSize;

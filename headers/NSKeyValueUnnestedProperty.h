@@ -1,7 +1,7 @@
 
 @interface NSKeyValueUnnestedProperty : NSKeyValueProperty {
 
-    @"NSArray" _affectingProperties;
+    NSArray _affectingProperties;
     BOOL _cachedIsaForAutonotifyingIsValid;
     Class _cachedIsaForAutonotifying;
 }

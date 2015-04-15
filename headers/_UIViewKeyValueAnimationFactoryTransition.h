@@ -1,8 +1,8 @@
 
 @interface _UIViewKeyValueAnimationFactoryTransition : NSObject {
 
-    @"CABasicAnimation" _fromAnimation;
-    @"CABasicAnimation" _toAnimation;
+    CABasicAnimation _fromAnimation;
+    CABasicAnimation _toAnimation;
 }
 @property (nonatomic, retain, readwrite) CABasicAnimation* fromAnimation;
 @property (nonatomic, retain, readwrite) CABasicAnimation* toAnimation;

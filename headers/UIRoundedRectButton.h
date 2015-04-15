@@ -1,10 +1,10 @@
 
 @interface UIRoundedRectButton : UIButton {
 
-    @"UIBezierPath" _fillPath;
-    @"UIColor" _fillColor;
-    @"UIGroupTableViewCellBackground" _tableViewStyleBackground;
-    @"UIView" _shadowView;
+    UIBezierPath _fillPath;
+    UIColor _fillColor;
+    UIGroupTableViewCellBackground _tableViewStyleBackground;
+    UIView _shadowView;
 }
 
  - (void) dealloc;

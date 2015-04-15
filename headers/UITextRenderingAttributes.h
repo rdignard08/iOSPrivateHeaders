@@ -2,7 +2,7 @@
 @protocol NSCopying;
 @interface UITextRenderingAttributes : NSObject <NSCopying> {
 
-    @"UIFont" _font;
+    UIFont _font;
     double _minimumFontSize;
     double _actualFontSize;
     double _lineSpacing;

@@ -1,7 +1,7 @@
 
 @interface _EditScriptIndexed : _EditScript {
 
-    @"_EditScriptIndexedAtom" _currentScriptAtom;
+    _EditScriptIndexedAtom _currentScriptAtom;
 }
  + (id) editScriptFromArray:(id)atoArray:(id)borderAtomsAscending:(BOOL)coperationPrecedence:(long long)d;
  + (id) editScriptFromArray:(id)atoArray:(id)b;

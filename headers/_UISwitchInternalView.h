@@ -2,29 +2,29 @@
 @protocol _UISwitchInternalViewProtocol;
 @interface _UISwitchInternalView : UIView <_UISwitchInternalViewProtocol> {
 
-    @"UIImage" _colorMask;
-    @"UIImage" _shapeMask;
-    @"UIImage" _shapeShadow;
-    @"UIImage" _thumb;
-    @"UIImage" _thumbPressed;
+    UIImage _colorMask;
+    UIImage _shapeMask;
+    UIImage _shapeShadow;
+    UIImage _thumb;
+    UIImage _thumbPressed;
     double _position;
     BOOL _pressed;
-    @"UIImageView" _colorView;
-    @"UIImageView" _thumbView;
-    @"UIImageView" _labelView;
-    @"UIColor" _onTintColor;
-    @"UIColor" _tintColor;
-    @"UIColor" _thumbTintColor;
-    @"UIColor" _nonAlternateColor;
-    @"UIImage" _onImage;
-    @"UIImage" _offImage;
+    UIImageView _colorView;
+    UIImageView _thumbView;
+    UIImageView _labelView;
+    UIColor _onTintColor;
+    UIColor _tintColor;
+    UIColor _thumbTintColor;
+    UIColor _nonAlternateColor;
+    UIImage _onImage;
+    UIImage _offImage;
     BOOL _on;
     BOOL _sendAction;
     BOOL _useAlternateColor;
     BOOL _animating;
-    @"UIImageView" _idleImageView;
-    @"UIView" _interactiveView;
-    @"CALayer" _backgroundLayer;
+    UIImageView _idleImageView;
+    UIView _interactiveView;
+    CALayer _backgroundLayer;
 }
  + (id) _defaultOnTintColor;
 

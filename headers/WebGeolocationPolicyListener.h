@@ -2,8 +2,8 @@
 @protocol WebAllowDenyPolicyListener;
 @interface WebGeolocationPolicyListener : NSObject <WebAllowDenyPolicyListener> {
 
-    {RefPtr<WebCore::Geolocation>="m_ptr"^{Geolocation}} _geolocation;
-    {RetainPtr<WebView *>="m_ptr"^v} _webView;
+    m_ptr _geolocation;
+    m_ptr _webView;
 }
 
  - (id) .cxx_construct;

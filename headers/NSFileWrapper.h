@@ -2,16 +2,16 @@
 @protocol NSCoding;
 @interface NSFileWrapper : NSObject <NSCoding> {
 
-    @"NSDictionary" _fileAttributes;
-    @"NSString" _preferredFileName;
-    @"NSString" _fileName;
+    NSDictionary _fileAttributes;
+    NSString _preferredFileName;
+    NSString _fileName;
     id _contents;
     id _icon;
     id _moreVars;
 }
-@property (atomic, assign, readonly, isDirectory) NSNumber* directory;
-@property (atomic, assign, readonly, isRegularFile) NSNumber* regularFile;
-@property (atomic, assign, readonly, isSymbolicLink) NSNumber* symbolicLink;
+@property (atomic, assign, readonly, getter=isDirectory) NSNumber* directory;
+@property (atomic, assign, readonly, getter=isRegularFile) NSNumber* regularFile;
+@property (atomic, assign, readonly, getter=isSymbolicLink) NSNumber* symbolicLink;
 @property (atomic, copy, readwrite) NSString* preferredFilename;
 @property (atomic, copy, readwrite) NSString* filename;
 @property (atomic, copy, readwrite) NSDictionary* fileAttributes;

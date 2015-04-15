@@ -1,7 +1,7 @@
 
 @interface UIStoryboardEmbedSegueTemplate : UIStoryboardSegueTemplate {
 
-    @"UIView" _containerView;
+    UIView _containerView;
 }
 
  - (void) dealloc;

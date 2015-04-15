@@ -7,7 +7,7 @@
 @property (atomic, copy, readonly) NSArray* operations;
 @property (atomic, assign, readonly) NSNumber* operationCount;
 @property (atomic, assign, readwrite) NSNumber* maxConcurrentOperationCount;
-@property (atomic, assign, readwrite, isSuspended) NSNumber* suspended;
+@property (atomic, assign, readwrite, getter=isSuspended) NSNumber* suspended;
 @property (atomic, copy, readwrite) NSString* name;
 @property (atomic, assign, readwrite) NSNumber* qualityOfService;
 @property (atomic, assign, readwrite) NSNumber* underlyingQueue;

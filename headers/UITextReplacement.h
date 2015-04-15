@@ -1,10 +1,10 @@
 
 @interface UITextReplacement : NSObject {
 
-    @"UITextRange" _range;
-    @"NSString" _originalText;
-    @"NSString" _replacementText;
-    @"NSString" _menuTitle;
+    UITextRange _range;
+    NSString _originalText;
+    NSString _replacementText;
+    NSString _menuTitle;
     unsigned int _usageTrackingMask;
 }
 @property (nonatomic, assign, readonly) UITextRange* range;

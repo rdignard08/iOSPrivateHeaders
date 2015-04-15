@@ -2,17 +2,17 @@
 @protocol NSMetadataQueryDelegate;
 @interface _UIDocumentPickerDirectoryObserver : NSObject <NSMetadataQueryDelegate> {
 
-    @"NSArray" _sortDescriptors;
-    @"NSOrderedSet" _staticItems;
+    NSArray _sortDescriptors;
+    NSOrderedSet _staticItems;
     id _weak_updateHandlerWeakSelf;
     BOOL _afterInitialUpdate;
-    @"NSMetadataQuery" _query;
-    @"NSArray" _scopes;
+    NSMetadataQuery _query;
+    NSArray _scopes;
     @? _handler;
-    @"NSOrderedSet" _lastSnapshot;
-    @"NSDate" _lastSnapshotDate;
-    @"NSObject<OS_dispatch_queue>" _queryQueue;
-    @"NSOperationQueue" _queryWorkerQueue;
+    NSOrderedSet _lastSnapshot;
+    NSDate _lastSnapshotDate;
+    NSObject<OS_dispatch_queue> _queryQueue;
+    NSOperationQueue _queryWorkerQueue;
     Class _itemClass;
 }
 @property (nonatomic, retain, readwrite) NSOrderedSet* staticItems;

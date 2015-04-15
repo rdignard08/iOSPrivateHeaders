@@ -1,7 +1,7 @@
 
 @interface WebPluginPackage : WebBasePluginPackage {
 
-    @"NSBundle" nsBundle;
+    NSBundle nsBundle;
 }
 
  - (id) initWithPath:(id)a;

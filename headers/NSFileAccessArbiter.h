@@ -2,13 +2,13 @@
 @protocol NSFileAccessArbiter;
 @interface NSFileAccessArbiter : NSObject <NSFileAccessArbiter> {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
+    NSObject<OS_dispatch_queue> _queue;
     BOOL _isSubarbiter;
-    @"NSMutableDictionary" _accessClaimsByID;
-    @"NSMutableDictionary" _subarbitrationClaimsByID;
-    @"NSMutableDictionary" _reactorsByID;
-    @"NSFileAccessNode" _rootNode;
-    @"NSObject<OS_xpc_object>" _superarbitrationServer;
+    NSMutableDictionary _accessClaimsByID;
+    NSMutableDictionary _subarbitrationClaimsByID;
+    NSMutableDictionary _reactorsByID;
+    NSFileAccessNode _rootNode;
+    NSObject<OS_xpc_object> _superarbitrationServer;
 }
 
  - (void) cancelAccessClaimForID:(id)a;

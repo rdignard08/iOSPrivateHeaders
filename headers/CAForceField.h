@@ -2,14 +2,14 @@
 @protocol NSCopying, NSMutableCopying, NSCoding;
 @interface CAForceField : NSObject <NSCopying, NSMutableCopying, NSCoding> {
 
-    @"NSString" _name;
-    @"CALayer" _layer;
-    @"CAValueFunction" _function;
+    NSString _name;
+    CALayer _layer;
+    CAValueFunction _function;
     BOOL _enabled;
     ^v _priv;
 }
 @property (atomic, copy, readwrite) NSString* name;
-@property (atomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (atomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (atomic, retain, readwrite) CALayer* layer;
 @property (atomic, retain, readwrite) CAValueFunction* function;
  + (id) defaultValueForKey:(id)a;

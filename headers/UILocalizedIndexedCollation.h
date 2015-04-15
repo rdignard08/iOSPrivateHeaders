@@ -1,14 +1,14 @@
 
 @interface UILocalizedIndexedCollation : NSObject {
 
-    @"NSLocale" _locale;
-    @"NSArray" _sectionTitles;
-    @"NSArray" _sectionStartStrings;
-    @"NSArray" _sectionIndexTitles;
-    @"NSArray" _sectionIndexMapping;
-    @"NSString" _transform;
-    @"NSString" _firstSectionStartString;
-    @"NSString" _lastSectionStartString;
+    NSLocale _locale;
+    NSArray _sectionTitles;
+    NSArray _sectionStartStrings;
+    NSArray _sectionIndexTitles;
+    NSArray _sectionIndexMapping;
+    NSString _transform;
+    NSString _firstSectionStartString;
+    NSString _lastSectionStartString;
     ^{__CFStringTokenizer=} _tokenizer;
 }
 @property (nonatomic, assign, readonly) NSArray* sectionTitles;

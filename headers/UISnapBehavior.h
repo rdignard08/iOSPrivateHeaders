@@ -6,8 +6,8 @@
     double _distance;
     double _frequency;
     {?="attachedToView"b1"dampingSet"b1"frequencySet"b1"lengthSet"b1} _stateFlags;
-    @"NSMutableArray" _joints;
-    @"PKPhysicsBody" _anchorBody;
+    NSMutableArray _joints;
+    PKPhysicsBody _anchorBody;
 }
 
  - (id) description;

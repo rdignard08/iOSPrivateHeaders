@@ -1,17 +1,17 @@
 
 @interface UIDynamicBehavior : NSObject {
 
-    @"UIDynamicAnimator" _context;
-    @"NSMutableArray" _items;
-    @"NSMutableArray" _behaviors;
-    @"NSMutableArray" _addedBehaviors;
+    UIDynamicAnimator _context;
+    NSMutableArray _items;
+    NSMutableArray _behaviors;
+    NSMutableArray _addedBehaviors;
     BOOL __isPrimitiveBehavior;
     @? _action;
 }
 @property (nonatomic, copy, readonly) NSArray* childBehaviors;
 @property (nonatomic, copy, readwrite) NSNumber* action;
 @property (nonatomic, assign, readonly) UIDynamicAnimator* dynamicAnimator;
-@property (nonatomic, assign, readwrite, _isPrimitiveBehavior:) NSNumber* _isPrimitiveBehavior;
+@property (nonatomic, assign, readwrite, setter=_isPrimitiveBehavior:) NSNumber* _isPrimitiveBehavior;
  + (void) initialize;
 
  - (id) _init:(BOOL)a;

@@ -1,9 +1,9 @@
 
 @interface __NSObserver : NSObject {
 
-    @"NSNotificationCenter" nc;
-    @"NSOperationQueue" queue;
-    @"NSString" name;
+    NSNotificationCenter nc;
+    NSOperationQueue queue;
+    NSString name;
     id object;
     @? block;
 }

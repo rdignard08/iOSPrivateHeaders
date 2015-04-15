@@ -7,7 +7,7 @@
     unsigned int _uid;
     ^v _priv;
 }
-@property (atomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (atomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (atomic, copy, readwrite) NSString* name;
 @property (atomic, weak, readwrite) NSNumber* delegate;
 @property (atomic, copy, readwrite) NSDictionary* style;

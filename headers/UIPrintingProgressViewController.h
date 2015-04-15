@@ -1,10 +1,10 @@
 
 @interface UIPrintingProgressViewController : UITableViewController {
 
-    @"UIPrintingProgress" _printingProgress;
-    @"UIPrintingMessageView" _messageView;
-    @"UINavigationController" _navController;
-    @"UIWindow" _window;
+    UIPrintingProgress _printingProgress;
+    UIPrintingMessageView _messageView;
+    UINavigationController _navController;
+    UIWindow _window;
     double _rotationDelay;
 }
 

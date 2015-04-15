@@ -1,8 +1,8 @@
 
 @interface UIPrintStatusTableViewController : UITableViewController {
 
-    @"PKJob" _printJob;
-    @"NSDateFormatter" _sentFormatter;
+    PKJob _printJob;
+    NSDateFormatter _sentFormatter;
 }
 
  - (void) dealloc;

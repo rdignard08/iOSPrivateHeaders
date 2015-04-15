@@ -6,7 +6,7 @@
     id _keyboardSupport;
     id _staticDataSource;
     {?="clearsSelectionOnViewWillAppear"b1"insetsApplied"b1"adjustingInsets"b1} _tableViewControllerFlags;
-    @"_UIFilteredDataSource" _filteredDataSource;
+    _UIFilteredDataSource _filteredDataSource;
     long long _filteredDataType;
 }
 

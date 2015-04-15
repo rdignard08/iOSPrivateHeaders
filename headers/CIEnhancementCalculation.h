@@ -2,10 +2,10 @@
 @interface CIEnhancementCalculation : NSObject {
 
     {?="i"d"q"d} originalFaceColor;
-    @"CIEnhancementHistogram" lumHist;
-    @"CIEnhancementHistogram" rgbSumHist;
-    @"CIEnhancementHistogram" satHist;
-    @"CIEnhancementHistogram" borderHist;
+    CIEnhancementHistogram lumHist;
+    CIEnhancementHistogram rgbSumHist;
+    CIEnhancementHistogram satHist;
+    CIEnhancementHistogram borderHist;
     double exposureValue;
     double maxShadow;
     double minShadow;

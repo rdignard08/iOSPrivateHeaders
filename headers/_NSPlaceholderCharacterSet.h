@@ -1,8 +1,8 @@
 
 @interface _NSPlaceholderCharacterSet : NSCharacterSet {
 
-    @"NSCharacterSet" _original;
-    @"NSCharacterSet" _invertedSet;
+    NSCharacterSet _original;
+    NSCharacterSet _invertedSet;
     {?="_inverted"b1"_builtin"b1"_isCF"b1"_reserved"b29} _flags;
 }
 

@@ -1,7 +1,7 @@
 
 @interface CUIThemeSchemaPSDRenditionLayer : CUIThemeSchemaPSDLayer {
 
-    @"CUIThemeSchemaRendition" rendition;
+    CUIThemeSchemaRendition rendition;
 }
 
  - (void) dealloc;

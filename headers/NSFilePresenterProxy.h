@@ -1,11 +1,11 @@
 
 @interface NSFilePresenterProxy : NSFileReactorProxy {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"NSFileWatcher" _watcher;
+    NSObject<OS_dispatch_queue> _queue;
+    NSFileWatcher _watcher;
     unsigned long long _writingRelinquishmentCount;
     id _currentWriterPurposeID;
-    @"NSMutableArray" _previousWriterPurposeIDs;
+    NSMutableArray _previousWriterPurposeIDs;
     BOOL _didObserveMovingByWriter;
     BOOL _didObserveVersionChangingByWriter;
     BOOL _disconnected;

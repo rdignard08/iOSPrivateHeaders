@@ -1,7 +1,7 @@
 
 @interface UIStoryboardUnwindSegueTemplate : UIStoryboardSegueTemplate {
 
-    @"NSString" _action;
+    NSString _action;
 }
 
  - (void) dealloc;

@@ -2,8 +2,8 @@
 @interface BSEventQueueLock : NSObject {
 
     BOOL _relinquished;
-    @"NSString" _reason;
-    @"BSEventQueue" _eventQueue;
+    NSString _reason;
+    BSEventQueue _eventQueue;
 }
 @property (nonatomic, copy, readwrite) NSString* reason;
 @property (nonatomic, retain, readwrite) BSEventQueue* eventQueue;

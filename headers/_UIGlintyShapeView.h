@@ -1,9 +1,9 @@
 
 @interface _UIGlintyShapeView : UIView {
 
-    @"UIBezierPath" _path;
-    @"UIColor" _fillColor;
-    @"UIColor" _strokeColor;
+    UIBezierPath _path;
+    UIColor _fillColor;
+    UIColor _strokeColor;
 }
  + (Class) layerClass;
 

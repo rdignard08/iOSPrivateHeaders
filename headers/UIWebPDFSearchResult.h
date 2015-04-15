@@ -1,11 +1,11 @@
 
 @interface UIWebPDFSearchResult : NSObject {
 
-    @"NSArray" rotationAngles;
+    NSArray rotationAngles;
     unsigned long long pageIndex;
-    @"NSArray" strings;
-    @"NSString" string;
-    @"NSArray" rects;
+    NSArray strings;
+    NSString string;
+    NSArray rects;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} boundingBox;
 }
 @property (nonatomic, assign, readwrite) NSNumber* pageIndex;

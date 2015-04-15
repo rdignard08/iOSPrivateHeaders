@@ -2,8 +2,8 @@
 @interface _UILegibilityLabel : _UILegibilityView {
 
     BOOL _usesSecondaryColor;
-    @"NSString" _string;
-    @"UIFont" _font;
+    NSString _string;
+    UIFont _font;
 }
 
  - (void) dealloc;

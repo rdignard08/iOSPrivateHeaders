@@ -2,9 +2,9 @@
 @protocol NSCoding, NSCopying;
 @interface CAState : NSObject <NSCoding, NSCopying> {
 
-    @"NSString" _name;
-    @"NSString" _basedOn;
-    @"NSMutableArray" _elements;
+    NSString _name;
+    NSString _basedOn;
+    NSMutableArray _elements;
     double _nextDelay;
     double _previousDelay;
     BOOL _enabled;
@@ -13,12 +13,12 @@
 }
 @property (nonatomic, copy, readwrite) NSString* name;
 @property (atomic, copy, readwrite) NSString* basedOn;
-@property (atomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (atomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (nonatomic, copy, readwrite) NSArray* elements;
 @property (atomic, assign, readwrite) NSNumber* nextDelay;
 @property (atomic, assign, readwrite) NSNumber* previousDelay;
-@property (nonatomic, assign, readwrite, isLocked) NSNumber* locked;
-@property (atomic, assign, readwrite, isInitial) NSNumber* initial;
+@property (nonatomic, assign, readwrite, getter=isLocked) NSNumber* locked;
+@property (atomic, assign, readwrite, getter=isInitial) NSNumber* initial;
  + (void) CAMLParserStartElement:(id)a;
 
  - (id) copyWithZone:(^{_NSZone=})a;

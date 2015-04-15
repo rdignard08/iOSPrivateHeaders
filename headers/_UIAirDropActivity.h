@@ -1,7 +1,7 @@
 
 @interface _UIAirDropActivity : UIActivity {
 
-    @"SFAirDropActivityViewController" _airDropViewController;
+    SFAirDropActivityViewController _airDropViewController;
     @? _airdropCompletion;
 }
 

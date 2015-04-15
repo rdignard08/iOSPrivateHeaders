@@ -1,8 +1,8 @@
 
 @interface _UIFocusTouchDebugView : UIView {
 
-    @"UIView" _touchView;
-    @"UIView" _boundaryView;
+    UIView _touchView;
+    UIView _boundaryView;
 }
 
  - (void) dealloc;

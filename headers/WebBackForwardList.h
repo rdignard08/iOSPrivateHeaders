@@ -1,7 +1,7 @@
 
 @interface WebBackForwardList : NSObject {
 
-    @"WebBackForwardListPrivate" _private;
+    WebBackForwardListPrivate _private;
 }
 @property (nonatomic, assign, readonly) WebHistoryItem* backItem;
 @property (nonatomic, assign, readonly) WebHistoryItem* currentItem;

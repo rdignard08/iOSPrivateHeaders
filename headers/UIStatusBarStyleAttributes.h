@@ -1,8 +1,8 @@
 
 @interface UIStatusBarStyleAttributes : NSObject {
 
-    @"UIStatusBarStyleRequest" _request;
-    @"UIStatusBarForegroundStyleAttributes" _foregroundStyle;
+    UIStatusBarStyleRequest _request;
+    UIStatusBarForegroundStyleAttributes _foregroundStyle;
 }
 
  - (void) dealloc;

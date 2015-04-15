@@ -1,9 +1,9 @@
 
 @interface NSDocumentDifferenceSizeTriple : NSObject {
 
-    @"NSDocumentDifferenceSize" _dueToRecentChangesBeforeSaving;
-    @"NSDocumentDifferenceSize" _betweenPreservingPreviousVersionAndSaving;
-    @"NSDocumentDifferenceSize" _betweenPreviousSavingAndSaving;
+    NSDocumentDifferenceSize _dueToRecentChangesBeforeSaving;
+    NSDocumentDifferenceSize _betweenPreservingPreviousVersionAndSaving;
+    NSDocumentDifferenceSize _betweenPreviousSavingAndSaving;
 }
 @property (nonatomic, assign, readonly) NSDocumentDifferenceSize* dueToRecentChangesBeforeSaving;
 @property (nonatomic, assign, readonly) NSDocumentDifferenceSize* betweenPreservingPreviousVersionAndSaving;

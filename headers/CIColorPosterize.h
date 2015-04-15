@@ -1,8 +1,8 @@
 
 @interface CIColorPosterize : CIFilter {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputLevels;
+    CIImage inputImage;
+    NSNumber inputLevels;
 }
  + (id) customAttributes;
 

@@ -1,7 +1,7 @@
 
 @interface FBSWorkspaceDestroySceneEvent : FBSWorkspaceSceneEvent {
 
-    @"FBSSceneTransitionContext" _transitionContext;
+    FBSSceneTransitionContext _transitionContext;
 }
 
  - (void) dealloc;

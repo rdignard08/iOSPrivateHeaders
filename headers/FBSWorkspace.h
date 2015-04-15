@@ -2,12 +2,12 @@
 @protocol FBSWorkspaceClientDelegate;
 @interface FBSWorkspace : NSObject <FBSWorkspaceClientDelegate> {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"<FBSWorkspaceDelegate>" _delegate;
-    @"FBSWorkspaceClient" _client;
-    @"FBSSerialQueue" _callOutQueue;
-    @"NSObject<OS_dispatch_queue>" _scenesQueue;
-    @"NSMutableDictionary" _scenesByIdentifier;
+    NSObject<OS_dispatch_queue> _queue;
+    <FBSWorkspaceDelegate> _delegate;
+    FBSWorkspaceClient _client;
+    FBSSerialQueue _callOutQueue;
+    NSObject<OS_dispatch_queue> _scenesQueue;
+    NSMutableDictionary _scenesByIdentifier;
 }
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 @property (nonatomic, retain, readonly) FBSSerialQueue* queue;

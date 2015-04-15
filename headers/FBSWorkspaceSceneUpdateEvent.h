@@ -1,8 +1,8 @@
 
 @interface FBSWorkspaceSceneUpdateEvent : FBSWorkspaceSceneEvent {
 
-    @"FBSSceneSettingsDiff" _settings;
-    @"FBSSceneTransitionContext" _transitionContext;
+    FBSSceneSettingsDiff _settings;
+    FBSSceneTransitionContext _transitionContext;
 }
 
  - (void) dealloc;

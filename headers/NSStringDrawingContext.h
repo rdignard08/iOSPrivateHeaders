@@ -6,7 +6,7 @@
     double _actualScaleFactor;
     double _actualTrackingAdjustment;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _totalBounds;
-    @"NSDictionary" _linkAttributes;
+    NSDictionary _linkAttributes;
     unsigned long long _numberOfLineFragments;
     unsigned long long _maximumNumberOfLines;
     double _baselineOffset;

@@ -1,9 +1,9 @@
 
 @interface CIBlendWithMask : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIImage" inputBackgroundImage;
-    @"CIImage" inputMaskImage;
+    CIImage inputImage;
+    CIImage inputBackgroundImage;
+    CIImage inputMaskImage;
 }
  + (id) customAttributes;
 

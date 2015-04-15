@@ -3,19 +3,19 @@
 
     long long _spineLocation;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _contentRect;
-    @"UIView" _contentView;
-    @"_UIPageCurlState" _manualPageCurlState;
-    @"NSMutableArray" _pendingStateQueue;
-    @"NSMutableArray" _activeStateQueue;
-    @"NSMutableSet" _completedStates;
+    UIView _contentView;
+    _UIPageCurlState _manualPageCurlState;
+    NSMutableArray _pendingStateQueue;
+    NSMutableArray _activeStateQueue;
+    NSMutableSet _completedStates;
     double _delayBetweenSuccessiveAnimations;
     double _pageDiagonalAngle;
     double _pageDiagonalLength;
     double _manualPageCurlMaxDAngle;
 }
-@property (nonatomic, assign, readonly, _isManualPageCurlInProgressAndUncommitted) NSNumber* _manualPageCurlInProgressAndUncommitted;
+@property (nonatomic, assign, readonly, getter=_isManualPageCurlInProgressAndUncommitted) NSNumber* _manualPageCurlInProgressAndUncommitted;
 @property (nonatomic, assign, readonly) NSNumber* _wrappedManualPageCurlDirection;
-@property (nonatomic, assign, readwrite, _setManualPageCurlMaxDAngle:) NSNumber* _manualPageCurlMaxDAngle;
+@property (nonatomic, assign, readwrite, setter=_setManualPageCurlMaxDAngle:) NSNumber* _manualPageCurlMaxDAngle;
 @property (nonatomic, assign, readonly) NSNumber* _spineLocation;
 
  - (void) dealloc;

@@ -1,7 +1,7 @@
 
 @interface UIKeyboardInputManagerClient : NSObject {
 
-    @"NSXPCConnection" _connection;
+    NSXPCConnection _connection;
 }
 @property (nonatomic, retain, readwrite) NSXPCConnection* connection;
  + (BOOL) instancesRespondToSelector:(SEL)a;

@@ -2,19 +2,19 @@
 @protocol UIPrinterBrowserOwner, UINavigationControllerDelegate;
 @interface UIPrinterPickerViewController : UIViewController <UIPrinterBrowserOwner, UINavigationControllerDelegate> {
 
-    @"UIPrinterPickerController" _printerPickerController;
-    @"UINavigationController" _navigationController;
-    @"UIPrinterBrowserViewController" _printerBrowserViewController;
-    @"UIViewController" _parentController;
-    @"UIViewController" _originalViewControllerInNav;
-    @"UIPopoverController" _poverController;
-    @"UIWindow" _window;
+    UIPrinterPickerController _printerPickerController;
+    UINavigationController _navigationController;
+    UIPrinterBrowserViewController _printerBrowserViewController;
+    UIViewController _parentController;
+    UIViewController _originalViewControllerInNav;
+    UIPopoverController _poverController;
+    UIWindow _window;
     BOOL _dismissed;
     BOOL _animated;
     BOOL _observingRotation;
     BOOL _parentHasNoPopover;
     BOOL _userSelectedPrinter;
-    @"PKPrinter" _printer;
+    PKPrinter _printer;
 }
 
  - (void) dealloc;

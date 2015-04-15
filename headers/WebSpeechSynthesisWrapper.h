@@ -3,8 +3,8 @@
 @interface WebSpeechSynthesisWrapper : NSObject <AVSpeechSynthesizerDelegate> {
 
     ^{PlatformSpeechSynthesizer=^^?{Vector<WTF::RefPtr<WebCore::PlatformSpeechSynthesisVoice>, 0, WTF::CrashOnOverflow>=^{RefPtr<WebCore::PlatformSpeechSynthesisVoice>}II}B^{PlatformSpeechSynthesizerClient}{RetainPtr<WebSpeechSynthesisWrapper>=^v}} m_synthesizerObject;
-    {RefPtr<WebCore::PlatformSpeechSynthesisUtterance>="m_ptr"^{PlatformSpeechSynthesisUtterance}} m_utterance;
-    {RetainPtr<AVSpeechSynthesizer>="m_ptr"^v} m_synthesizer;
+    m_ptr m_utterance;
+    m_ptr m_synthesizer;
 }
 
  - (void) pause;

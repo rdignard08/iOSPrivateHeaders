@@ -2,7 +2,7 @@
 @interface NSUndoTextOperation : NSObject {
 
     {_NSRange="location"Q"length"Q} _affectedRange;
-    @"UITextInputController" _inputController;
+    UITextInputController _inputController;
 }
 @property (nonatomic, assign, readwrite) NSNumber* affectedRange;
 @property (nonatomic, assign, readwrite) UITextInputController* inputController;

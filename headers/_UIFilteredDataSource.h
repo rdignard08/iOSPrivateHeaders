@@ -6,7 +6,7 @@
     long long _maxVisibleSection;
     long long _numberOfVisibleItemsInLastSection;
     long long _filterType;
-    @"<UITableViewDataSource>" _tableDataSource;
+    <UITableViewDataSource> _tableDataSource;
 }
 @property (nonatomic, assign, readwrite) NSNumber* filterType;
 @property (nonatomic, assign, readwrite) NSNumber* tableDataSource;

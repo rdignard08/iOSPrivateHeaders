@@ -1,12 +1,12 @@
 
 @interface _UIDocumentPickerSortOrderView : UIControl {
 
-    @"<_UIDocumentPickerViewServiceViewController>" _serviceViewController;
+    <_UIDocumentPickerViewServiceViewController> _serviceViewController;
     long long _listMode;
-    @"UISegmentedControl" _sortOrder;
-    @"UIButton" _listModeToggle;
-    @"NSArray" _compactConstraints;
-    @"NSArray" _regularConstraints;
+    UISegmentedControl _sortOrder;
+    UIButton _listModeToggle;
+    NSArray _compactConstraints;
+    NSArray _regularConstraints;
 }
 
  - (void) dealloc;

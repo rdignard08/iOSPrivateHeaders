@@ -1,7 +1,7 @@
 
 @interface NSURLCredentialStorage : NSObject {
 
-    @"NSURLCredentialStorageInternal" _internal;
+    NSURLCredentialStorageInternal _internal;
 }
 @property (atomic, copy, readonly) NSDictionary* allCredentials;
  + (id) sharedCredentialStorage;

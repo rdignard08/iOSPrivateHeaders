@@ -2,15 +2,15 @@
 @interface _UIViewServiceInterfaceConnectionRequest : NSObject {
 
     @? _connectionHandler;
-    @"NSString" _serviceBundleIdentifier;
-    @"_UIRemoteViewService" _service;
-    @"NSObject<OS_dispatch_queue>" _queue;
+    NSString _serviceBundleIdentifier;
+    _UIRemoteViewService _service;
+    NSObject<OS_dispatch_queue> _queue;
     BOOL _isCancelled;
-    @"NSError" _cancellationError;
-    @"_UIAsyncInvocation" _cancellationInvocation;
+    NSError _cancellationError;
+    _UIAsyncInvocation _cancellationInvocation;
     int _sessionRequestNotifyToken;
-    @"BKSProcessAssertion" _serviceProcessAssertion;
-    @"NSXPCConnection" _serviceSessionConnection;
+    BKSProcessAssertion _serviceProcessAssertion;
+    NSXPCConnection _serviceSessionConnection;
     int __automatic_invalidation_retainCount;
     BOOL __automatic_invalidation_invalidated;
 }

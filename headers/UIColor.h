@@ -2,11 +2,11 @@
 @protocol NSSecureCoding, NSCopying;
 @interface UIColor : NSObject <NSSecureCoding, NSCopying> {
 
-    @"NSString" _systemColorName;
+    NSString _systemColorName;
 }
 @property (nonatomic, assign, readonly) NSNumber* CGColor;
 @property (nonatomic, assign, readonly) CIColor* CIColor;
-@property (nonatomic, retain, readwrite, _systemColorName, _setSystemColorName:) NSString* systemColorName;
+@property (nonatomic, retain, readwrite, getter=_systemColorName, setter=_setSystemColorName:) NSString* systemColorName;
  + (BOOL) supportsSecureCoding;
  + (id) classFallbacksForKeyedArchiver;
  + (void) initialize;

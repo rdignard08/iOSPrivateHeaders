@@ -2,8 +2,8 @@
 @protocol NSCopying;
 @interface _UITextKitTextRange : UITextRange <NSCopying> {
 
-    @"_UITextKitTextPosition" _start;
-    @"_UITextKitTextPosition" _end;
+    _UITextKitTextPosition _start;
+    _UITextKitTextPosition _end;
 }
  + (id) rangeWithRange:({_NSRange=QQ})a;
  + (id) rangeWithStart:(id)aend:(id)b;

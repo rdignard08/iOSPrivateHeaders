@@ -1,9 +1,9 @@
 
 @interface _UIPageViewControllerContentView : UIView {
 
-    @"UIPageViewController" _pageViewController;
-    @"_UIQueuingScrollView" _scrollView;
-    @"UIPageControl" _pageControl;
+    UIPageViewController _pageViewController;
+    _UIQueuingScrollView _scrollView;
+    UIPageControl _pageControl;
 }
 
  - (void) dealloc;

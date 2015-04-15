@@ -2,7 +2,7 @@
 @interface _BKSCancelTouchesTouchDeliveryPolicy : BKSTouchDeliveryPolicy {
 
     unsigned int _contextId;
-    @"NSObject<OS_xpc_object>" _assertionEndpoint;
+    NSObject<OS_xpc_object> _assertionEndpoint;
     double _initialTouchTimestamp;
 }
  + (BOOL) supportsSecureCoding;

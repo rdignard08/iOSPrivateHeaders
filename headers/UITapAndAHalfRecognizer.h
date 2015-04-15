@@ -5,10 +5,10 @@
     double _allowableMovement;
     int _numberOfFullTaps;
     double _minimumFinalPressDuration;
-    @"NSMutableSet" _activeTouches;
+    NSMutableSet _activeTouches;
     int _currentNumberOfTaps;
-    @"UITouch" _touch;
-    @"UIDelayedAction" _tapTimer;
+    UITouch _touch;
+    UIDelayedAction _tapTimer;
 }
 
  - (void) dealloc;

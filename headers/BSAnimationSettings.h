@@ -5,7 +5,7 @@
     double _duration;
     double _delay;
     double _frameInterval;
-    @"CAMediaTimingFunction" _timingFunction;
+    CAMediaTimingFunction _timingFunction;
 }
 @property (nonatomic, assign, readonly) NSNumber* duration;
 @property (nonatomic, assign, readonly) NSNumber* delay;

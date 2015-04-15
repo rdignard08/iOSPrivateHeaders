@@ -8,18 +8,18 @@
     BOOL _hasActivities;
     BOOL _activityIndexDidChangeWhileDragging;
     BOOL _allowsUserCustomization;
-    @"<UIActivityGroupViewControllerDelegate>" _delegate;
+    <UIActivityGroupViewControllerDelegate> _delegate;
     long long _activityCategory;
-    @"NSDictionary" _customActivityTitles;
-    @"NSArray" _activities;
-    @"<UIActivityGroupViewControllerDataSource>" _dataSource;
-    @"NSArray" _visibleActivities;
-    @"_UIActivityUserDefaults" _userDefaults;
-    @"_UIUserDefaultsActivity" _userDefaultsActivity;
-    @"_UIActivityGroupActivityCell" _prototypeActivityCell;
-    @"UILongPressGestureRecognizer" _editingGestureRecognizer;
-    @"NSIndexPath" _indexPathForMenuActivity;
-    @"NSMutableDictionary" _cachedPreferredItemSizesByString;
+    NSDictionary _customActivityTitles;
+    NSArray _activities;
+    <UIActivityGroupViewControllerDataSource> _dataSource;
+    NSArray _visibleActivities;
+    _UIActivityUserDefaults _userDefaults;
+    _UIUserDefaultsActivity _userDefaultsActivity;
+    _UIActivityGroupActivityCell _prototypeActivityCell;
+    UILongPressGestureRecognizer _editingGestureRecognizer;
+    NSIndexPath _indexPathForMenuActivity;
+    NSMutableDictionary _cachedPreferredItemSizesByString;
     {CGPoint="x"d"y"d} _initialDraggingLocation;
 }
 

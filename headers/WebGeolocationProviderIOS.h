@@ -2,8 +2,8 @@
 @protocol WebGeolocationProvider;
 @interface WebGeolocationProviderIOS : NSObject <WebGeolocationProvider> {
 
-    {RetainPtr<WebGeolocationCoreLocationProvider>="m_ptr"^v} _coreLocationProvider;
-    {RetainPtr<_WebCoreLocationUpdateThreadingProxy>="m_ptr"^v} _coreLocationUpdateListenerProxy;
+    m_ptr _coreLocationProvider;
+    m_ptr _coreLocationUpdateListenerProxy;
     BOOL _enableHighAccuracy;
     BOOL _isSuspended;
     BOOL _shouldResetOnResume;
@@ -11,8 +11,8 @@
     {HashSet<WebView *, WTF::PtrHash<WebView *>, WTF::HashTraits<WebView *> >="m_impl"{HashTable<WebView *, WebView *, WTF::IdentityExtractor, WTF::PtrHash<WebView *>, WTF::HashTraits<WebView *>, WTF::HashTraits<WebView *> >="m_table"^@"m_tableSize"i"m_tableSizeMask"i"m_keyCount"i"m_deletedCount"i}} _pendingInitialPositionWebView;
     {HashSet<WebView *, WTF::PtrHash<WebView *>, WTF::HashTraits<WebView *> >="m_impl"{HashTable<WebView *, WebView *, WTF::IdentityExtractor, WTF::PtrHash<WebView *>, WTF::HashTraits<WebView *>, WTF::HashTraits<WebView *> >="m_table"^@"m_tableSize"i"m_tableSizeMask"i"m_keyCount"i"m_deletedCount"i}} _registeredWebViews;
     {HashSet<WebView *, WTF::PtrHash<WebView *>, WTF::HashTraits<WebView *> >="m_impl"{HashTable<WebView *, WebView *, WTF::IdentityExtractor, WTF::PtrHash<WebView *>, WTF::HashTraits<WebView *>, WTF::HashTraits<WebView *> >="m_table"^@"m_tableSize"i"m_tableSizeMask"i"m_keyCount"i"m_deletedCount"i}} _trackedWebViews;
-    {RetainPtr<NSTimer>="m_ptr"^v} _sendLastPositionAsynchronouslyTimer;
-    {RetainPtr<WebGeolocationPosition>="m_ptr"^v} _lastPosition;
+    m_ptr _sendLastPositionAsynchronouslyTimer;
+    m_ptr _lastPosition;
 }
  + (id) sharedGeolocationProvider;
 

@@ -1,7 +1,7 @@
 
 @interface UISelectionGrabberDot : UIView {
 
-    @"UISelectionGrabber" m_grabber;
+    UISelectionGrabber m_grabber;
 }
 
  - (void) dealloc;

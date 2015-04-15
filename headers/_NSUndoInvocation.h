@@ -1,7 +1,7 @@
 
 @interface _NSUndoInvocation : _NSUndoObject {
 
-    @"NSInvocation" _invocation;
+    NSInvocation _invocation;
 }
 
  - (id) initWithTarget:(id)ainvocation:(id)b;

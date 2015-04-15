@@ -1,7 +1,7 @@
 
 @interface CITile2Filter : CITileFilter {
 
-    @"NSNumber" inputAcuteAngle;
+    NSNumber inputAcuteAngle;
 }
  + (id) customAttributes;
 

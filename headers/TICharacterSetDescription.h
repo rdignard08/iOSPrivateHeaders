@@ -2,10 +2,10 @@
 @protocol NSCopying, NSSecureCoding;
 @interface TICharacterSetDescription : NSObject <NSCopying, NSSecureCoding> {
 
-    @"NSCharacterSet" _characterSet;
+    NSCharacterSet _characterSet;
     BOOL _inverted;
     long long _baseIdentifier;
-    @"NSString" _charactersAddedToBase;
+    NSString _charactersAddedToBase;
 }
 @property (nonatomic, assign, readonly) NSCharacterSet* characterSet;
 @property (nonatomic, assign, readonly) NSNumber* baseIdentifier;

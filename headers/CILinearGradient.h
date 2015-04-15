@@ -1,10 +1,10 @@
 
 @interface CILinearGradient : CIFilter {
 
-    @"CIVector" inputPoint0;
-    @"CIVector" inputPoint1;
-    @"CIColor" inputColor0;
-    @"CIColor" inputColor1;
+    CIVector inputPoint0;
+    CIVector inputPoint1;
+    CIColor inputColor0;
+    CIColor inputColor1;
 }
  + (id) customAttributes;
 

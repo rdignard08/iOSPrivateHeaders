@@ -1,8 +1,8 @@
 
 @interface NSComplexOrthography : NSOrthography {
 
-    @"NSString" _dominantScript;
-    @"NSDictionary" _languageMap;
+    NSString _dominantScript;
+    NSDictionary _languageMap;
     unsigned int _orthographyFlags;
 }
  + (void) initialize;

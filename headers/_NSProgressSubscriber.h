@@ -3,10 +3,10 @@
 @interface _NSProgressSubscriber : NSObject <NSProgressSubscriber> {
 
     @? _publishingHandler;
-    @"NSString" _subscriberID;
-    @"NSMutableDictionary" _proxiesByPublisherID;
-    @"NSXPCConnection" _connection;
-    @"NSLock" _lock;
+    NSString _subscriberID;
+    NSMutableDictionary _proxiesByPublisherID;
+    NSXPCConnection _connection;
+    NSLock _lock;
 }
 
  - (void) stop;

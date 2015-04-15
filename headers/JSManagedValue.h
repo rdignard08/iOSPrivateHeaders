@@ -1,10 +1,10 @@
 
 @interface JSManagedValue : NSObject {
 
-    {Weak<JSC::JSGlobalObject>="m_impl"^{WeakImpl}} m_globalObject;
-    {RefPtr<JSC::JSLock>="m_ptr"^{JSLock}} m_lock;
+    m_impl m_globalObject;
+    m_ptr m_lock;
     {WeakValueRef="m_tag"i"u"(WeakValueUnion="m_primitive"{JSValue="u"(EncodedValueDescriptor="asInt64"q"ptr"^{JSCell}"asBits"{?="payload"i"tag"i})}"m_object"{Weak<JSC::JSObject>="m_impl"^{WeakImpl}}"m_string"{Weak<JSC::JSString>="m_impl"^{WeakImpl}})} m_weakValue;
-    @"NSMapTable" m_owners;
+    NSMapTable m_owners;
 }
 @property (atomic, assign, readonly) JSValue* value;
  + (id) managedValueWithValue:(id)a;

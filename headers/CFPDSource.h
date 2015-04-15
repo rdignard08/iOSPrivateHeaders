@@ -1,8 +1,8 @@
 
 @interface CFPDSource : NSObject {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"CFPDDataBuffer" _plist;
+    NSObject<OS_dispatch_queue> _queue;
+    CFPDDataBuffer _plist;
     ^{__CFArray=} _pendingChangesQueue;
     ^{__CFString=} _userName;
     ^{__CFString=} _domain;

@@ -2,12 +2,12 @@
 @interface _UIWebMediaUploadItem : NSObject {
 
     BOOL _video;
-    @"NSString" _filePath;
-    @"UIImage" _originalImage;
+    NSString _filePath;
+    UIImage _originalImage;
 }
 @property (nonatomic, retain, readwrite) NSString* filePath;
 @property (nonatomic, retain, readwrite) UIImage* originalImage;
-@property (nonatomic, assign, readwrite, isVideo) NSNumber* video;
+@property (nonatomic, assign, readwrite, getter=isVideo) NSNumber* video;
  + (id) mediaUploadItemWithFilePath:(id)aimage:(id)bisVideo:(BOOL)c;
 
  - (void) dealloc;

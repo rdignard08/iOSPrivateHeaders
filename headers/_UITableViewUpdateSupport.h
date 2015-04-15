@@ -5,16 +5,16 @@
     long long newSection;
     long long oldGlobalRow;
     long long newGlobalRow;
-    @"UITableView" tableView;
+    UITableView tableView;
     {_NSRange="location"Q"length"Q} visibleRows;
-    @"NSArray" updateItems;
-    @"UITableViewRowData" oldRowData;
-    @"UITableViewRowData" newRowData;
+    NSArray updateItems;
+    UITableViewRowData oldRowData;
+    UITableViewRowData newRowData;
     {_NSRange="location"Q"length"Q} oldRowRange;
     {_NSRange="location"Q"length"Q} newRowRange;
-    @"NSMutableIndexSet" rows;
-    @"NSMutableIndexSet" movedRows;
-    @"NSMutableIndexSet" movedSections;
+    NSMutableIndexSet rows;
+    NSMutableIndexSet movedRows;
+    NSMutableIndexSet movedSections;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} oldTableViewVisibleBounds;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} newTableViewVisibleBounds;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} tableViewVisibleBoundsUnion;
@@ -32,10 +32,10 @@
     ^@ animatedFooters;
     long long globalReorderingRow;
     id _context;
-    @"NSMutableArray" viewAnimations;
-    @"NSMutableArray" deletedSections;
-    @"NSMutableArray" insertedSections;
-    @"NSMutableArray" gaps;
+    NSMutableArray viewAnimations;
+    NSMutableArray deletedSections;
+    NSMutableArray insertedSections;
+    NSMutableArray gaps;
 }
 
  - (void) dealloc;

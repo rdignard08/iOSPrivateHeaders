@@ -2,7 +2,7 @@
 @protocol UITableViewDelegate, UITableViewDataSource;
 @interface UIKeyboardEmojiSplit : UIKBKeyView <UITableViewDelegate, UITableViewDataSource> {
 
-    @"UITableView" _picker;
+    UITableView _picker;
 }
 
  - (void) dealloc;

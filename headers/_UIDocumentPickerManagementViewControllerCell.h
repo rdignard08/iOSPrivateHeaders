@@ -1,7 +1,7 @@
 
 @interface _UIDocumentPickerManagementViewControllerCell : UITableViewCell {
 
-    @"UIImageView" _newlyAddedView;
+    UIImageView _newlyAddedView;
 }
 
  - (void) dealloc;

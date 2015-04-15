@@ -1,8 +1,8 @@
 
 @interface NSFilesystemItemCopyOperation : NSDirectoryTraversalOperation {
 
-    @"NSString" _destinationPath;
-    @"NSMutableSet" _skippedPaths;
+    NSString _destinationPath;
+    NSMutableSet _skippedPaths;
 }
  + (id) filesystemItemCopyOperationWithSourcePath:(id)adestinationPath:(id)b;
  + (id) _errorWithErrno:(int)asourcePath:(id)bdestinationPath:(id)c;

@@ -1,7 +1,7 @@
 
 @interface UITextReplacementGeneratorForDictation : UITextReplacementGenerator {
 
-    @"NSTextAlternatives" _alternatives;
+    NSTextAlternatives _alternatives;
 }
 
  - (void) dealloc;

@@ -2,15 +2,15 @@
 @interface UIKeyboardEmojiCategory : NSObject {
 
     int _categoryType;
-    @"NSArray" _emoji;
+    NSArray _emoji;
     long long _lastVisibleFirstEmojiIndex;
-    @"NSString" _displaySymbol;
+    NSString _displaySymbol;
 }
 @property (atomic, assign, readwrite) NSNumber* categoryType;
 @property (atomic, retain, readwrite) NSArray* emoji;
 @property (nonatomic, assign, readwrite) NSNumber* lastVisibleFirstEmojiIndex;
-@property (nonatomic, assign, readonly, name) NSString* name;
-@property (atomic, assign, readonly, displaySymbol) NSString* displaySymbol;
+@property (nonatomic, assign, readonly, getter=name) NSString* name;
+@property (atomic, assign, readonly, getter=displaySymbol) NSString* displaySymbol;
  + (id) localizedStringForKey:(id)a;
  + (long long) numberOfCategories;
  + (id) categoryForType:(int)a;

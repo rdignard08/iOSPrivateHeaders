@@ -1,15 +1,15 @@
 
 @interface CIBurstImageFaceAnalysisContext : NSObject {
 
-    @"NSMutableDictionary" curConfig;
-    @"NSMutableDictionary" faceIdMapping;
-    @"NSMutableDictionary" renameMapping;
+    NSMutableDictionary curConfig;
+    NSMutableDictionary faceIdMapping;
+    NSMutableDictionary renameMapping;
     int faceIdCounter;
-    @"NSMutableArray" faceInfoArray;
+    NSMutableArray faceInfoArray;
     int numFramesSinceFullFaceCore;
     int numFramesNoFaces;
-    @"FCRFaceDetector" faceDetector;
-    @"NSMutableArray" faceTimestampArray;
+    FCRFaceDetector faceDetector;
+    NSMutableArray faceTimestampArray;
     double latestImageTimestamp;
     int lastFaceIndex;
     BOOL forceFaceDetectionEnable;

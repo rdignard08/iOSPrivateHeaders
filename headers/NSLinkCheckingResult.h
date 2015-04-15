@@ -2,7 +2,7 @@
 @interface NSLinkCheckingResult : NSTextCheckingResult {
 
     {_NSRange="location"Q"length"Q} _range;
-    @"NSURL" _url;
+    NSURL _url;
 }
 
  - (id) resultByAdjustingRangesWithOffset:(long long)a;

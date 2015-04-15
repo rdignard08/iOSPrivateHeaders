@@ -1,7 +1,7 @@
 
 @interface UIPrinterSetupPINScrollView : UIScrollView {
 
-    @"UIView" _contentView;
+    UIView _contentView;
     double _visibleHeight;
 }
 

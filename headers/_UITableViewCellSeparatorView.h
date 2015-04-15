@@ -2,10 +2,10 @@
 @interface _UITableViewCellSeparatorView : UIView {
 
     BOOL _drawsWithVibrantLightMode;
-    @"UIView" _backgroundView;
-    @"UIView" _overlayView;
-    @"UIVisualEffect" _separatorEffect;
-    @"UIVisualEffectView" _effectView;
+    UIView _backgroundView;
+    UIView _overlayView;
+    UIVisualEffect _separatorEffect;
+    UIVisualEffectView _effectView;
 }
 
  - (void) dealloc;

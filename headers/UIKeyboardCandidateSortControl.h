@@ -1,10 +1,10 @@
 
 @interface UIKeyboardCandidateSortControl : UIView {
 
-    @"UIKeyboardCandidateBarSegmentControl" _segmentedControl;
+    UIKeyboardCandidateBarSegmentControl _segmentedControl;
     int _candidatesVisualStyle;
     BOOL _legacyAlertAppearance;
-    @"UIKBThemedView" _themedView;
+    UIKBThemedView _themedView;
 }
  + (BOOL) _preventsAppearanceProxyCustomization;
 

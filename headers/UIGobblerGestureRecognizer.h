@@ -1,7 +1,7 @@
 
 @interface UIGobblerGestureRecognizer : UIGestureRecognizer {
 
-    @"UIView" _excludedView;
+    UIView _excludedView;
 }
 
  - (void) dealloc;

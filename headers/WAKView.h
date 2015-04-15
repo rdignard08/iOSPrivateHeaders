@@ -3,7 +3,7 @@
 
     {_WKViewContext="notificationCallback"^?"notificationUserInfo"^v"responderCallback"^?"responderUserInfo"^v"willRemoveSubviewCallback"^?"invalidateGStateCallback"^?} viewContext;
     ^{_WKView={_WKObject=I^{_WKClassInfo}}^{_WKViewContext}@^{_WKView}^{__CFArray}{CGPoint=dd}{CGRect={CGPoint=dd}{CGSize=dd}}If^v} viewRef;
-    @"NSMutableSet" subviewReferences;
+    NSMutableSet subviewReferences;
     BOOL _isHidden;
     BOOL _drawsOwnDescendants;
 }

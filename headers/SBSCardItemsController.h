@@ -2,8 +2,8 @@
 @protocol SBSCardItemsControllerRemoteInterface;
 @interface SBSCardItemsController : NSObject <SBSCardItemsControllerRemoteInterface> {
 
-    @"NSString" _identifier;
-    @"NSXPCConnection" _connection;
+    NSString _identifier;
+    NSXPCConnection _connection;
 }
 
  - (void) dealloc;

@@ -1,11 +1,11 @@
 
 @interface UITableViewUpdateGap : NSObject {
 
-    @"UIUpdateItem" _firstUpdateItem;
-    @"UIUpdateItem" _lastUpdateItem;
-    @"NSMutableArray" _deleteItems;
-    @"NSMutableArray" _insertItems;
-    {?="hasAutomaticAnimationItems"b1} _gapFlags;
+    UIUpdateItem _firstUpdateItem;
+    UIUpdateItem _lastUpdateItem;
+    NSMutableArray _deleteItems;
+    NSMutableArray _insertItems;
+    hasAutomaticAnimationItems _gapFlags;
 }
 @property (nonatomic, retain, readwrite) UIUpdateItem* firstUpdateItem;
 @property (nonatomic, retain, readwrite) UIUpdateItem* lastUpdateItem;

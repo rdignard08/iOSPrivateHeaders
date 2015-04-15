@@ -5,9 +5,9 @@
     SEL m_action;
     id m_userInfo;
     double m_delay;
-    @"NSTimer" m_timer;
+    NSTimer m_timer;
     BOOL m_canceled;
-    @"NSString" m_runLoopMode;
+    NSString m_runLoopMode;
 }
 
  - (id) target;

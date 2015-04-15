@@ -1,10 +1,10 @@
 
 @interface CIBurstThumbnailCluster : NSObject {
 
-    @"NSMutableArray" burstImages;
+    NSMutableArray burstImages;
     @? completionBlock;
-    @"NSMutableDictionary" imageProps;
-    @"CIBurstYUVImage" image;
+    NSMutableDictionary imageProps;
+    CIBurstYUVImage image;
 }
 @property (atomic, assign, readwrite) NSMutableArray* burstImages;
 @property (atomic, assign, readwrite) NSMutableDictionary* imageProps;

@@ -1,9 +1,9 @@
 
 @interface NSConcreteScanner : NSScanner {
 
-    @"NSString" scanString;
-    @"NSCharacterSet" skipSet;
-    @"NSCharacterSet" invertedSkipSet;
+    NSString scanString;
+    NSCharacterSet skipSet;
+    NSCharacterSet invertedSkipSet;
     id locale;
     unsigned long long scanLocation;
     {?="caseSensitive"b1""b31} flags;

@@ -1,13 +1,13 @@
 
 @interface _UITabBarAppearanceStorage : NSObject {
 
-    @"NSMutableDictionary" _dividerImages;
-    @"UIImage" backgroundImage;
-    @"UIImage" shadowImage;
-    @"UIImage" selectionIndicatorImage;
-    @"UIColor" barTintColor;
-    @"UIColor" selectedImageTintColor;
-    @"_UITabBarItemAppearanceStorage" tabItemAppearanceStorage;
+    NSMutableDictionary _dividerImages;
+    UIImage backgroundImage;
+    UIImage shadowImage;
+    UIImage selectionIndicatorImage;
+    UIColor barTintColor;
+    UIColor selectedImageTintColor;
+    _UITabBarItemAppearanceStorage tabItemAppearanceStorage;
 }
 @property (nonatomic, retain, readwrite) UIImage* backgroundImage;
 @property (nonatomic, retain, readwrite) UIImage* shadowImage;

@@ -1,7 +1,7 @@
 
 @interface UITableViewCellReorderControl : UIControl {
 
-    @"UITableViewCell" _cell;
+    UITableViewCell _cell;
     {CGPoint="x"d"y"d} _downPoint;
 }
  + ({CGSize=dd}) defaultSize;

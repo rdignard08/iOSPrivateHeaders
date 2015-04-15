@@ -1,7 +1,7 @@
 
 @interface UIWebElementAction : NSObject {
 
-    @"NSString" _title;
+    NSString _title;
     @? _actionHandler;
     @? _dismissalHandler;
     int _type;

@@ -2,7 +2,7 @@
 @protocol LSApplicationWorkspaceObserverProtocol, NSSecureCoding;
 @interface LSApplicationWorkspaceObserver : NSObject <LSApplicationWorkspaceObserverProtocol, NSSecureCoding> {
 
-    @"NSUUID" _uuid;
+    NSUUID _uuid;
 }
 @property (nonatomic, retain, readwrite) NSUUID* uuid;
  + (BOOL) supportsSecureCoding;

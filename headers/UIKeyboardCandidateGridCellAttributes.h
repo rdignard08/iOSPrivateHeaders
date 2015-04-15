@@ -8,7 +8,7 @@
     BOOL _secondaryCandidateAppearance;
     BOOL _emphasizedAppearance;
     int _candidatesVisualStyle;
-    @"NSIndexPath" _candidateIndexPath;
+    NSIndexPath _candidateIndexPath;
     {?="idiom"b6"landscape"b1"split"b1"appearance"b8"rendering"b16} _visualStyling;
     unsigned long long _candidateNumber;
     unsigned long long _rowIndex;

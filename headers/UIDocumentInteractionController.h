@@ -2,31 +2,31 @@
 @protocol UIActionSheetDelegate;
 @interface UIDocumentInteractionController : NSObject <UIActionSheetDelegate> {
 
-    @"<UIDocumentInteractionControllerDelegate>" _delegate;
+    <UIDocumentInteractionControllerDelegate> _delegate;
     id _previewItemProxy;
-    @"NSArray" _icons;
+    NSArray _icons;
     id _annotation;
-    @"NSString" _uniqueIdentifier;
-    @"UIViewController" _presentingViewController;
+    NSString _uniqueIdentifier;
+    UIViewController _presentingViewController;
     id _previewController;
-    @"NSArray" _gestureRecognizers;
+    NSArray _gestureRecognizers;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _presentRect;
-    @"UIView" _presentView;
-    @"UIBarButtonItem" _presentItem;
-    @"NSArray" _availableApplications;
-    @"UIPopoverController" _popoverController;
-    @"UIActivityViewController" _activityViewController;
+    UIView _presentView;
+    UIBarButtonItem _presentItem;
+    NSArray _availableApplications;
+    UIPopoverController _popoverController;
+    UIActivityViewController _activityViewController;
     BOOL _shouldUnzipDocument;
     BOOL _sourceIsManaged;
-    @"NSURL" _unzippedDocumentURL;
+    NSURL _unzippedDocumentURL;
     id _applicationToOpen;
-    @"NSURL" _tmpURLToDeleteOnDealloc;
+    NSURL _tmpURLToDeleteOnDealloc;
     {?="delegateViewControllerForPreview"b1"delegateRectForPreview"b1"delegateViewForPreview"b1"transitionImageForPreview"b1"documentProxyForPreview"b1"delegateWillBeginPreview"b1"delegateDidEndPreviewPreview"b1"delegateWillEndPreviewPreview"b1"delegateWillPresentOptionsMenu"b1"delegateDidDismissOptionsMenu"b1"delegateWillPresentOpenInMenu"b1"delegateDidDismissOpenInMenu"b1"delegateWillBeginSendingToApplication"b1"delegateDidEndSendingToApplication"b1"delegateCanPerformAction"b1"delegatePerformAction"b1"delegateUnzipURL"b1"showingOptionsMenu"b1"showingOpenInMenu"b1"delegateExcludesActivities"b1"delegateCanBlockRemoteImages"b1"delegateAddsActivities"b1"delegateProvidesActivityItem"b1"delegateProvidesPrintInfo"b1"performingActivity"b1} _documentInteractionControllerFlags;
 }
 @property (nonatomic, retain, readwrite) NSString* uniqueIdentifier;
 @property (nonatomic, assign, readwrite) NSNumber* shouldUnzipDocument;
 @property (nonatomic, assign, readwrite) NSNumber* sourceIsManaged;
-@property (nonatomic, assign, readonly, isArchive) NSNumber* archive;
+@property (nonatomic, assign, readonly, getter=isArchive) NSNumber* archive;
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 @property (atomic, retain, readwrite) NSURL* URL;
 @property (nonatomic, copy, readwrite) NSString* UTI;
@@ -38,7 +38,7 @@
 @property (nonatomic, assign, readwrite) NSNumber* shouldUnzipDocument;
 @property (nonatomic, assign, readwrite) NSNumber* sourceIsManaged;
 @property (nonatomic, retain, readwrite) UIActivityViewController* activityViewController;
-@property (nonatomic, assign, readwrite, _performingActivity, _setPerformingActivity:) NSNumber* performingActivity;
+@property (nonatomic, assign, readwrite, getter=_performingActivity, setter=_setPerformingActivity:) NSNumber* performingActivity;
 @property (nonatomic, assign, readonly) NSNumber* previewController;
 @property (nonatomic, retain, readwrite) UIPopoverController* popoverController;
 @property (nonatomic, assign, readonly) _UIPreviewItemProxy* previewItemProxy;

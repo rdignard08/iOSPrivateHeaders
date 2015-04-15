@@ -1,7 +1,7 @@
 
 @interface _UICascadingTextStorage : NSConcreteTextStorage {
 
-    @"NSMutableDictionary" _defaultAttributes;
+    NSMutableDictionary _defaultAttributes;
 }
  + (id) defaultFont;
 

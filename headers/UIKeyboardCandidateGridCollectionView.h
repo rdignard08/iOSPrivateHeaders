@@ -2,10 +2,10 @@
 @interface UIKeyboardCandidateGridCollectionView : UIKBCandidateCollectionView {
 
     double _indexMaximumHeight;
-    @"UIKeyboardCandidateGridCollectionViewController" _parentViewController;
+    UIKeyboardCandidateGridCollectionViewController _parentViewController;
     double _previousGroupBarStartingY;
-    @"UITableViewIndex" _index;
-    @"UIView" _headerView;
+    UITableViewIndex _index;
+    UIView _headerView;
 }
 
  - (void) dealloc;

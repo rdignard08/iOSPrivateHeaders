@@ -7,7 +7,7 @@
     double _accumulatedSaturation;
     double _mostRecentBrightness;
     double _accumulatedBrightness;
-    @"UIColor" _contentColor;
+    UIColor _contentColor;
     double _mostRecentContrast;
     double _accumulatedContrast;
     double _mostRecentLuminance;

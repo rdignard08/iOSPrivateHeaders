@@ -3,15 +3,15 @@
 @interface AFHTTPRequestOperationManager : NSObject <NSSecureCoding, NSCopying> {
 
     BOOL _shouldUseCredentialStorage;
-    @"NSURL" _baseURL;
-    @"AFHTTPRequestSerializer<AFURLRequestSerialization>" _requestSerializer;
-    @"AFHTTPResponseSerializer<AFURLResponseSerialization>" _responseSerializer;
-    @"NSOperationQueue" _operationQueue;
-    @"NSURLCredential" _credential;
-    @"AFSecurityPolicy" _securityPolicy;
-    @"AFNetworkReachabilityManager" _reachabilityManager;
-    @"NSObject<OS_dispatch_queue>" _completionQueue;
-    @"NSObject<OS_dispatch_group>" _completionGroup;
+    NSURL _baseURL;
+    AFHTTPRequestSerializer<AFURLRequestSerialization> _requestSerializer;
+    AFHTTPResponseSerializer<AFURLResponseSerialization> _responseSerializer;
+    NSOperationQueue _operationQueue;
+    NSURLCredential _credential;
+    AFSecurityPolicy _securityPolicy;
+    AFNetworkReachabilityManager _reachabilityManager;
+    NSObject<OS_dispatch_queue> _completionQueue;
+    NSObject<OS_dispatch_group> _completionGroup;
 }
 @property (nonatomic, retain, readwrite) NSURL* baseURL;
 @property (nonatomic, retain, readwrite) NSNumber* requestSerializer;

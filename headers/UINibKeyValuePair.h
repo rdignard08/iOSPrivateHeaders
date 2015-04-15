@@ -2,7 +2,7 @@
 @interface UINibKeyValuePair : NSObject {
 
     id object;
-    @"NSString" keyPath;
+    NSString keyPath;
     id value;
 }
 @property (nonatomic, assign, readonly) NSNumber* object;

@@ -1,8 +1,8 @@
 
 @interface _UIModalItemAlertBackgroundView : _UIModalItemBackgroundView {
 
-    @"_UIBackdropView" _effectView;
-    @"UIImageView" _fillingView;
+    _UIBackdropView _effectView;
+    UIImageView _fillingView;
 }
 
  - (void) layoutSubviews;

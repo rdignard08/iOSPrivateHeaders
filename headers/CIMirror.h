@@ -1,9 +1,9 @@
 
 @interface CIMirror : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIVector" inputPoint;
-    @"NSNumber" inputAngle;
+    CIImage inputImage;
+    CIVector inputPoint;
+    NSNumber inputAngle;
 }
  + (id) customAttributes;
 

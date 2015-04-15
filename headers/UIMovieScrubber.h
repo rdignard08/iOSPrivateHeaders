@@ -2,18 +2,18 @@
 @protocol UIMovieScrubberTrackViewDataSource, UIMovieScrubberTrackViewDelegate;
 @interface UIMovieScrubber : UIControl <UIMovieScrubberTrackViewDataSource, UIMovieScrubberTrackViewDelegate> {
 
-    @"UIImageView" _thumbView;
-    @"UIMovieScrubberTrackView" _trackView;
-    @"UIMovieScrubberEditingView" _editingView;
-    @"UILabel" _elapsedLabel;
-    @"UILabel" _remainingLabel;
+    UIImageView _thumbView;
+    UIMovieScrubberTrackView _trackView;
+    UIMovieScrubberEditingView _editingView;
+    UILabel _elapsedLabel;
+    UILabel _remainingLabel;
     int _timeComponents;
-    @"UIImage" _fillImage;
-    @"UIImage" _innerShadowImage;
-    @"UIImage" _maskImage;
-    @"UIImage" _shadowImage;
-    @"<UIMovieScrubberDataSource>" _dataSource;
-    @"<UIMovieScrubberDelegate>" _delegate;
+    UIImage _fillImage;
+    UIImage _innerShadowImage;
+    UIImage _maskImage;
+    UIImage _shadowImage;
+    <UIMovieScrubberDataSource> _dataSource;
+    <UIMovieScrubberDelegate> _delegate;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _trackRect;
     double _hitOffset;
     double _zoomDelay;

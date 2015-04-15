@@ -1,9 +1,9 @@
 
 @interface UIKBInputBackdropView : UIView {
 
-    @"UIKBBackdropView" _inputBackdropFullView;
-    @"UIKBBackdropView" _inputBackdropLeftView;
-    @"UIKBBackdropView" _inputBackdropRightView;
+    UIKBBackdropView _inputBackdropFullView;
+    UIKBBackdropView _inputBackdropLeftView;
+    UIKBBackdropView _inputBackdropRightView;
     unsigned long long _innerCorners;
     BOOL _isTransitioning;
     double _transitionGap;

@@ -9,9 +9,9 @@
     unsigned long long _cachePolicy;
     unsigned long long _networkServiceType;
     double _timeoutInterval;
-    @"NSSet" _HTTPMethodsEncodingParametersInURI;
-    @"NSMutableSet" _mutableObservedChangedKeyPaths;
-    @"NSMutableDictionary" _mutableHTTPRequestHeaders;
+    NSSet _HTTPMethodsEncodingParametersInURI;
+    NSMutableSet _mutableObservedChangedKeyPaths;
+    NSMutableDictionary _mutableHTTPRequestHeaders;
     unsigned long long _queryStringSerializationStyle;
     @? _queryStringSerialization;
 }

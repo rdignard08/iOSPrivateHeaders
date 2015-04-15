@@ -1,11 +1,11 @@
 
 @interface CUIPSDImageRef : NSObject {
 
-    @"NSString" _path;
+    NSString _path;
     BOOL _parsedForLayers;
     int _file;
     ^{CPSDFile=^^?^{CPSDFile}*IICIISQSS*^{CPSDChannelLengthInfo}^*S^vC{CPSDHeader=^^?^{CPSDFile}IS[6C]SIISS}{CPSDColorModeData=^^?^{CPSDFile}I*}{CPSDImageResources=^^?^{CPSDFile}I^{CPSDImageResourceBlock}}{CPSDLayerAndMaskInfo=^^?^{CPSDFile}I{CPSDLayerInfo=^^?^{CPSDFile}IS{vector<CPSDLayerRecord, std::__1::allocator<CPSDLayerRecord> >=^{CPSDLayerRecord}^{CPSDLayerRecord}{__compressed_pair<CPSDLayerRecord *, std::__1::allocator<CPSDLayerRecord> >=^{CPSDLayerRecord}}}{vector<CPSDLayerChannelGroup *, std::__1::allocator<CPSDLayerChannelGroup *> >=^^{CPSDLayerChannelGroup}^^{CPSDLayerChannelGroup}{__compressed_pair<CPSDLayerChannelGroup **, std::__1::allocator<CPSDLayerChannelGroup *> >=^^{CPSDLayerChannelGroup}}}}{CPSDGlobalLayerMaskInfo=^^?^{CPSDFile}IS[4S]SCI}{CPSDAdditionalLayerInfo=^^?^{CPSDFile}I^{CPSDAdditionalLayerInfoItem}}}C} _psd;
-    @"_CUIPSDSublayerInfo" _rootLayers;
+    _CUIPSDSublayerInfo _rootLayers;
 }
  + (BOOL) isValidPSDResourceAtPath:(id)awithLayerCount:(^I)b;
  + (BOOL) isValidPSDResourceAtPath:(id)a;

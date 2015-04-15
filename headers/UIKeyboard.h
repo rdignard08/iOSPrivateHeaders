@@ -2,8 +2,8 @@
 @protocol UIKeyboardImplGeometryDelegate;
 @interface UIKeyboard : UIView <UIKeyboardImplGeometryDelegate> {
 
-    @"UIView" m_snapshot;
-    @"UITextInputTraits" m_defaultTraits;
+    UIView m_snapshot;
+    UITextInputTraits m_defaultTraits;
     BOOL m_typingDisabled;
     BOOL m_minimized;
     BOOL m_respondingToImplGeometryChange;

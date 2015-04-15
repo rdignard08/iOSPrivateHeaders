@@ -1,7 +1,7 @@
 
 @interface _UIBarAppearanceStorage : NSObject {
 
-    @"NSMutableDictionary" backgroundImages;
+    NSMutableDictionary backgroundImages;
 }
  + (long long) typicalBarPosition;
 

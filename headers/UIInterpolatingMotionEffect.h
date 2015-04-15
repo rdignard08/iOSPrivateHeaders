@@ -3,7 +3,7 @@
 
     double _horizontalAccelerationBoostFactor;
     double _verticalAccelerationBoostFactor;
-    @"NSString" _keyPath;
+    NSString _keyPath;
     long long _type;
     id _minimumRelativeValue;
     id _maximumRelativeValue;

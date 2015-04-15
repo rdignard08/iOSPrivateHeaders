@@ -2,7 +2,7 @@
 @interface UIRemoteKeyboardWindow : UITextEffectsWindow {
 
     BOOL _isViewServiceKeyboard;
-    @"UIView" _viewServiceHostView;
+    UIView _viewServiceHostView;
 }
  + (id) remoteKeyboardWindowForScreen:(id)acreate:(BOOL)bforViewService:(BOOL)c;
 

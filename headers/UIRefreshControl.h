@@ -2,8 +2,8 @@
 @interface UIRefreshControl : UIControl {
 
     long long _style;
-    @"_UIRefreshControlContentView" _contentView;
-    @"UIScrollView" _scrollView;
+    _UIRefreshControlContentView _contentView;
+    UIScrollView _scrollView;
     double _refreshControlHeight;
     double _visibleHeight;
     double _snappingHeight;

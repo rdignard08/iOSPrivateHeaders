@@ -1,8 +1,8 @@
 
 @interface UIViewControllerAction : NSObject {
 
-    @"UIViewController" _viewController;
-    @"NSString" _name;
+    UIViewController _viewController;
+    NSString _name;
     int _transition;
     @? _completion;
     double _curlUpRevealedHeight;
@@ -12,7 +12,7 @@
 @property (nonatomic, assign, readonly) NSNumber* animated;
 @property (nonatomic, assign, readwrite) NSNumber* transition;
 @property (nonatomic, copy, readwrite) NSNumber* completion;
-@property (nonatomic, assign, readwrite, _setCurlUpRevealedHeight:) NSNumber* _curlUpRevealedHeight;
+@property (nonatomic, assign, readwrite, setter=_setCurlUpRevealedHeight:) NSNumber* _curlUpRevealedHeight;
 
  - (void) dealloc;
  - (id) name;

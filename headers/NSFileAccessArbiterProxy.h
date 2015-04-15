@@ -2,12 +2,12 @@
 @protocol NSFileAccessArbiter;
 @interface NSFileAccessArbiterProxy : NSObject <NSFileAccessArbiter> {
 
-    @"NSObject<OS_xpc_object>" _server;
-    @"NSObject<OS_dispatch_queue>" _serverQueue;
+    NSObject<OS_xpc_object> _server;
+    NSObject<OS_dispatch_queue> _serverQueue;
     @? _serverEventHandler;
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"NSMutableDictionary" _presentersByID;
-    @"NSMutableDictionary" _providersByID;
+    NSObject<OS_dispatch_queue> _queue;
+    NSMutableDictionary _presentersByID;
+    NSMutableDictionary _providersByID;
 }
  + (id) _idForReactor:(id)a;
  + (id) _fileReactorDebuggingInformation;

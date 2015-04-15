@@ -1,9 +1,9 @@
 
 @interface CIFaceCoreDetector : CIDetector {
 
-    @"CIContext" context;
-    @"NSMutableDictionary" featureOptions;
-    @"FCRFaceDetector" faceCoreDetector;
+    CIContext context;
+    NSMutableDictionary featureOptions;
+    FCRFaceDetector faceCoreDetector;
 }
 
  - (void) dealloc;

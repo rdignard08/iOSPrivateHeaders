@@ -1,7 +1,7 @@
 
 @interface _UIAsyncInvocation : NSObject {
 
-    @"_UIAsyncInvocationObserver" _observer;
+    _UIAsyncInvocationObserver _observer;
     @? _invocationBlock;
     BOOL _invocationBlockHasBeenCalled;
 }

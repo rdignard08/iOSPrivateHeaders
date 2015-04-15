@@ -2,16 +2,16 @@
 @protocol NSCoding;
 @interface UIBarButtonItem : UIBarItem <NSCoding> {
 
-    @"NSString" _title;
-    @"NSSet" _possibleTitles;
+    NSString _title;
+    NSSet _possibleTitles;
     SEL _action;
     id _target;
-    @"UIImage" _image;
-    @"UIImage" _landscapeImagePhone;
+    UIImage _image;
+    UIImage _landscapeImagePhone;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _imageInsets;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _landscapeImagePhoneInsets;
     double _width;
-    @"UIView" _view;
+    UIView _view;
     long long _tag;
     id _appearanceStorage;
     {?="enabled"b1"style"b3"isSystemItem"b1"systemItem"b7"viewIsCustom"b1"isMinibarView"b1"disableAutosizing"b1"selected"b1"imageHasEffects"b1} _barButtonItemFlags;
@@ -23,10 +23,10 @@
     double _toolbarCharge;
     double _minimumWidth;
     double _maximumWidth;
-    @"NSSet" _possibleSystemItems;
-    @"NSDictionary" _stylesForSizingTitles;
-    @"UIBarButtonItem" __itemVariation;
-    @"UINavigationItem" __owningNavigationItem;
+    NSSet _possibleSystemItems;
+    NSDictionary _stylesForSizingTitles;
+    UIBarButtonItem __itemVariation;
+    UINavigationItem __owningNavigationItem;
 }
  + (void) _getSystemItemStyle:(^q)atitle:(^@)bimage:(^@)cselectedImage:(^@)daction:(^:)eforBarStyle:(long long)flandscape:(BOOL)galwaysBordered:(BOOL)husingSystemItem:(long long)iusingItemStyle:(long long)j;
  + (id) _appearanceBlindViewClasses;

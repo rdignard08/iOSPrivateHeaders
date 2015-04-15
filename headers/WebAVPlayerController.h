@@ -2,8 +2,8 @@
 @protocol AVPlayerViewControllerDelegate;
 @interface WebAVPlayerController : NSObject <AVPlayerViewControllerDelegate> {
 
-    @"WebAVMediaSelectionOption" _currentAudioMediaSelectionOption;
-    @"WebAVMediaSelectionOption" _currentLegibleMediaSelectionOption;
+    WebAVMediaSelectionOption _currentAudioMediaSelectionOption;
+    WebAVMediaSelectionOption _currentLegibleMediaSelectionOption;
     BOOL _canScanBackward;
     BOOL _canPlay;
     BOOL _canPause;
@@ -12,21 +12,21 @@
     BOOL _hasEnabledAudio;
     BOOL _hasEnabledVideo;
     BOOL _externalPlaybackActive;
-    @"AVPlayerController" _playerControllerProxy;
+    AVPlayerController _playerControllerProxy;
     ^{WebVideoFullscreenModel=^^?} _delegate;
     double _rate;
     double _contentDuration;
     double _minTime;
     double _maxTime;
     double _contentDurationWithinEndTimes;
-    @"NSArray" _loadedTimeRanges;
+    NSArray _loadedTimeRanges;
     long long _status;
-    @"AVValueTiming" _timing;
-    @"NSArray" _seekableTimeRanges;
-    @"NSArray" _audioMediaSelectionOptions;
-    @"NSArray" _legibleMediaSelectionOptions;
+    AVValueTiming _timing;
+    NSArray _seekableTimeRanges;
+    NSArray _audioMediaSelectionOptions;
+    NSArray _legibleMediaSelectionOptions;
     long long _externalPlaybackType;
-    @"NSString" _externalPlaybackAirPlayDeviceLocalizedName;
+    NSString _externalPlaybackAirPlayDeviceLocalizedName;
     {CGSize="width"d"height"d} _contentDimensions;
 }
 @property (atomic, retain, readwrite) NSNumber* playerControllerProxy;
@@ -36,7 +36,7 @@
 @property (atomic, assign, readonly) NSNumber* canSeekToBeginning;
 @property (atomic, assign, readonly) NSNumber* canSeekToEnd;
 @property (atomic, assign, readwrite) NSNumber* canPlay;
-@property (atomic, assign, readwrite, isPlaying) NSNumber* playing;
+@property (atomic, assign, readwrite, getter=isPlaying) NSNumber* playing;
 @property (atomic, assign, readwrite) NSNumber* canPause;
 @property (atomic, assign, readwrite) NSNumber* canTogglePlayback;
 @property (atomic, assign, readwrite) NSNumber* rate;
@@ -59,8 +59,8 @@
 @property (atomic, assign, readonly) NSNumber* hasLegibleMediaSelectionOptions;
 @property (atomic, retain, readwrite) NSArray* legibleMediaSelectionOptions;
 @property (atomic, retain, readwrite) WebAVMediaSelectionOption* currentLegibleMediaSelectionOption;
-@property (atomic, assign, readonly, isPlayingOnExternalScreen) NSNumber* playingOnExternalScreen;
-@property (atomic, assign, readwrite, isExternalPlaybackActive) NSNumber* externalPlaybackActive;
+@property (atomic, assign, readonly, getter=isPlayingOnExternalScreen) NSNumber* playingOnExternalScreen;
+@property (atomic, assign, readwrite, getter=isExternalPlaybackActive) NSNumber* externalPlaybackActive;
 @property (atomic, assign, readwrite) NSNumber* externalPlaybackType;
 @property (atomic, retain, readwrite) NSString* externalPlaybackAirPlayDeviceLocalizedName;
  + (id) keyPathsForValuesAffectingPlaying;

@@ -1,9 +1,9 @@
 
 @interface UIStatusBarBackgroundView : UIView {
 
-    @"UIStatusBarStyleAttributes" _style;
-    @"UIStatusBarCorners" _topCorners;
-    @"UIImageView" _glowView;
+    UIStatusBarStyleAttributes _style;
+    UIStatusBarCorners _topCorners;
+    UIImageView _glowView;
     BOOL _glowEnabled;
     BOOL _suppressGlow;
 }

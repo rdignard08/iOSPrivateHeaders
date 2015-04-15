@@ -1,7 +1,7 @@
 
 @interface NSMutableStringProxyForMutableAttributedString : NSMutableString {
 
-    @"NSMutableAttributedString" mutableAttributedString;
+    NSMutableAttributedString mutableAttributedString;
 }
 
  - (id) initWithMutableAttributedString:(id)a;

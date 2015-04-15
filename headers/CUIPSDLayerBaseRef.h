@@ -1,7 +1,7 @@
 
 @interface CUIPSDLayerBaseRef : NSObject {
 
-    @"CUIPSDImageRef" _imageRef;
+    CUIPSDImageRef _imageRef;
     unsigned int _layerIndex;
 }
 @property (atomic, assign, readonly) NSNumber* bounds;

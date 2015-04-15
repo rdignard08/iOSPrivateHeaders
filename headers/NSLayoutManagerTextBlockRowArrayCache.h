@@ -3,7 +3,7 @@
 
     {_NSRange="location"Q"length"Q} _rowCharRange;
     double _containerWidth;
-    @"NSArray" _rowArray;
+    NSArray _rowArray;
     BOOL _collapseBorders;
 }
 

@@ -1,13 +1,13 @@
 
 @interface CIDisintegrateWithMaskTransition : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIImage" inputTargetImage;
-    @"CIImage" inputMaskImage;
-    @"NSNumber" inputTime;
-    @"NSNumber" inputShadowRadius;
-    @"NSNumber" inputShadowDensity;
-    @"CIVector" inputShadowOffset;
+    CIImage inputImage;
+    CIImage inputTargetImage;
+    CIImage inputMaskImage;
+    NSNumber inputTime;
+    NSNumber inputShadowRadius;
+    NSNumber inputShadowDensity;
+    CIVector inputShadowOffset;
 }
  + (id) customAttributes;
 

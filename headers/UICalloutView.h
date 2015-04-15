@@ -1,24 +1,24 @@
 
 @interface UICalloutView : UIControl {
 
-    @"UIImageView" _leftCap;
-    @"UIImageView" _rightCap;
-    @"UIImageView" _topAnchor;
-    @"UIImageView" _bottomAnchor;
-    @"UIImageView" _leftBackground;
-    @"UIImageView" _rightBackground;
-    @"UILabel" _title;
-    @"UILabel" _subtitle;
-    @"UILabel" _temporary;
-    @"UIView" _leftView;
-    @"UIView" _rightView;
+    UIImageView _leftCap;
+    UIImageView _rightCap;
+    UIImageView _topAnchor;
+    UIImageView _bottomAnchor;
+    UIImageView _leftBackground;
+    UIImageView _rightBackground;
+    UILabel _title;
+    UILabel _subtitle;
+    UILabel _temporary;
+    UIView _leftView;
+    UIView _rightView;
     {?="origin"{CGPoint="x"d"y"d}"offset"{CGPoint="x"d"y"d}"position"i"desiredPoint"{CGPoint="x"d"y"d}"desiredBounds"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}} _anchor;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frame;
     id _delegate;
     {?="animated"b1"didMoveCalled"b1"hasPendingAnimatedLayout"b1"canAnchorFromBottom"b1"reserved"b28} _flags;
-    @"NSMutableArray" _fadeInViews;
-    @"NSMutableArray" _fadeOutViews;
-    @"NSTimer" _layoutAnimationTimer;
+    NSMutableArray _fadeInViews;
+    NSMutableArray _fadeOutViews;
+    NSTimer _layoutAnimationTimer;
     double _maximumWidth;
 }
  + (double) defaultHeight;

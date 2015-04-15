@@ -2,7 +2,7 @@
 @protocol NSURLConnectionDelegate;
 @interface WebQuickLookHandleAsDelegate : NSObject <NSURLConnectionDelegate> {
 
-    {RefPtr<WebCore::SynchronousResourceHandleCFURLConnectionDelegate>="m_ptr"^{SynchronousResourceHandleCFURLConnectionDelegate}} m_connectionDelegate;
+    m_ptr m_connectionDelegate;
 }
 
  - (id) .cxx_construct;

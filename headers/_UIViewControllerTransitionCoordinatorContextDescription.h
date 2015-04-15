@@ -13,9 +13,9 @@
     long long _fromOrientation;
     {CGAffineTransform="a"d"b"d"c"d"d"d"tx"d"ty"d} _targetTransform;
 }
-@property (nonatomic, assign, readwrite, isAnimated) NSNumber* animated;
-@property (nonatomic, assign, readwrite, isInteractive) NSNumber* interactive;
-@property (nonatomic, assign, readwrite, isCancelled) NSNumber* cancelled;
+@property (nonatomic, assign, readwrite, getter=isAnimated) NSNumber* animated;
+@property (nonatomic, assign, readwrite, getter=isInteractive) NSNumber* interactive;
+@property (nonatomic, assign, readwrite, getter=isCancelled) NSNumber* cancelled;
 @property (nonatomic, assign, readwrite) NSNumber* transitionDuration;
 @property (nonatomic, assign, readwrite) NSNumber* percentComplete;
 @property (nonatomic, assign, readwrite) NSNumber* completionVelocity;

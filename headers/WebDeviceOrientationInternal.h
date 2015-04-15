@@ -1,7 +1,7 @@
 
 @interface WebDeviceOrientationInternal : NSObject {
 
-    {RefPtr<WebCore::DeviceOrientationData>="m_ptr"^{DeviceOrientationData}} m_orientation;
+    m_ptr m_orientation;
 }
 
  - (id) .cxx_construct;

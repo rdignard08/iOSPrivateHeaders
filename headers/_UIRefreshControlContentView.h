@@ -1,8 +1,8 @@
 
 @interface _UIRefreshControlContentView : UIView {
 
-    @"UIRefreshControl" _refreshControl;
-    @"UIColor" _tintColor;
+    UIRefreshControl _refreshControl;
+    UIColor _tintColor;
 }
 
  - (void) dealloc;

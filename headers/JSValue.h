@@ -2,7 +2,7 @@
 @interface JSValue : NSObject {
 
     ^{OpaqueJSValue=} m_value;
-    @"JSContext" _context;
+    JSContext _context;
 }
 @property (atomic, assign, readonly) JSContext* context;
  + (id) valueWithNewArrayInContext:(id)a;

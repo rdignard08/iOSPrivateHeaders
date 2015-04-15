@@ -1,10 +1,10 @@
 
 @interface NSHTTPURLRequestParameters : NSObject {
 
-    @"NSString" method;
-    @"NSMutableDictionary" fields;
-    @"NSArray" extraCookies;
-    @"NSData" data;
+    NSString method;
+    NSMutableDictionary fields;
+    NSArray extraCookies;
+    NSData data;
     unsigned long long pageNotFoundCacheLifetime;
     BOOL shouldHandleCookies;
     BOOL _pad1;

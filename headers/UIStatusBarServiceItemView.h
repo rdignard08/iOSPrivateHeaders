@@ -1,8 +1,8 @@
 
 @interface UIStatusBarServiceItemView : UIStatusBarItemView {
 
-    @"NSString" _serviceString;
-    @"NSString" _crossfadeString;
+    NSString _serviceString;
+    NSString _crossfadeString;
     unsigned long long _crossfadeStep;
     double _maxWidth;
     double _serviceWidth;

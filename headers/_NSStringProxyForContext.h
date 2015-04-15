@@ -1,9 +1,9 @@
 
 @interface _NSStringProxyForContext : NSString {
 
-    @"NSString" _string;
-    @"NSFormatter" _formatter;
-    @"<NSCopying><NSSecureCoding><NSObject>" _item;
+    NSString _string;
+    NSFormatter _formatter;
+    <NSCopying><NSSecureCoding><NSObject> _item;
 }
 
  - (void) setItem:(id)a;

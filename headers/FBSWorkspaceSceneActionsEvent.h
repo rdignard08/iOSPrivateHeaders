@@ -1,7 +1,7 @@
 
 @interface FBSWorkspaceSceneActionsEvent : FBSWorkspaceSceneEvent {
 
-    @"NSSet" _actions;
+    NSSet _actions;
 }
 
  - (void) dealloc;

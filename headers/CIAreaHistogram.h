@@ -1,11 +1,11 @@
 
 @interface CIAreaHistogram : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIVector" inputExtent;
-    @"NSNumber" inputScale;
-    @"NSNumber" inputCount;
-    @"CIContext" _context;
+    CIImage inputImage;
+    CIVector inputExtent;
+    NSNumber inputScale;
+    NSNumber inputCount;
+    CIContext _context;
 }
  + (id) customAttributes;
 

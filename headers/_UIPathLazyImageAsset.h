@@ -3,7 +3,7 @@
 
     BOOL _imagesHaveBeenLoaded;
     BOOL _haveCGCacheImages;
-    @"NSArray" _imagePaths;
+    NSArray _imagePaths;
 }
 
  - (void) dealloc;

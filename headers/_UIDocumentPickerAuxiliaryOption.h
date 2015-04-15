@@ -3,9 +3,9 @@
 @interface _UIDocumentPickerAuxiliaryOption : NSObject <NSSecureCoding> {
 
     BOOL _newlyAdded;
-    @"NSString" _title;
-    @"UIImage" _image;
-    @"NSString" _identifier;
+    NSString _title;
+    UIImage _image;
+    NSString _identifier;
     @? _handler;
     unsigned long long _order;
 }
@@ -14,7 +14,7 @@
 @property (nonatomic, copy, readwrite) NSString* identifier;
 @property (nonatomic, copy, readwrite) NSNumber* handler;
 @property (nonatomic, assign, readwrite) NSNumber* order;
-@property (nonatomic, assign, readwrite, isNewlyAdded) NSNumber* newlyAdded;
+@property (nonatomic, assign, readwrite, getter=isNewlyAdded) NSNumber* newlyAdded;
  + (BOOL) supportsSecureCoding;
 
  - (id) title;

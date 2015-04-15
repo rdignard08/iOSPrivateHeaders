@@ -2,12 +2,12 @@
 @protocol FBSSceneUpdater;
 @interface FBSWorkspaceClient : BSBaseXPCClient <FBSSceneUpdater> {
 
-    @"BSBasicServerClient" _client;
-    @"NSMutableArray" _queuedMessages;
-    @"NSMutableDictionary" _sceneIDToSceneHandlerMap;
-    @"NSObject<OS_dispatch_queue>" _callOutQueue;
+    BSBasicServerClient _client;
+    NSMutableArray _queuedMessages;
+    NSMutableDictionary _sceneIDToSceneHandlerMap;
+    NSObject<OS_dispatch_queue> _callOutQueue;
     BOOL _inTransaction;
-    @"<FBSWorkspaceClientDelegate>" _delegate;
+    <FBSWorkspaceClientDelegate> _delegate;
 }
 
  - (id) description;

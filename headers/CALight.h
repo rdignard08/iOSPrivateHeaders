@@ -7,7 +7,7 @@
 }
 @property (atomic, copy, readwrite) NSString* type;
 @property (atomic, copy, readwrite) NSString* name;
-@property (atomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (atomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (atomic, assign, readwrite) NSNumber* color;
 @property (atomic, assign, readwrite) NSNumber* intensity;
 @property (atomic, assign, readwrite) NSNumber* ambientIntensity;

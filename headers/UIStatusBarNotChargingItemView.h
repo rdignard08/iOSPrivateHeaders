@@ -1,7 +1,7 @@
 
 @interface UIStatusBarNotChargingItemView : UIStatusBarItemView {
 
-    @"NSString" _notChargingString;
+    NSString _notChargingString;
 }
 
  - (void) dealloc;

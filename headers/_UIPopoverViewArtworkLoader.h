@@ -2,7 +2,7 @@
 @interface _UIPopoverViewArtworkLoader : NSObject {
 
     long long _backgroundStyle;
-    @"NSString" _backgroundSelector;
+    NSString _backgroundSelector;
 }
  + (id) backgroundSelectorForBackgroundStyle:(long long)a;
 

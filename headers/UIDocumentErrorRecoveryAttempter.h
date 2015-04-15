@@ -1,13 +1,13 @@
 
 @interface UIDocumentErrorRecoveryAttempter : NSObject {
 
-    @"UIDocument" _document;
+    UIDocument _document;
     id _wrappedRecoveryAttempter;
     @? _continuerOrNil;
     long long _silentRecoveryOptionIndex;
     @? _appModalRecoveryAttempter;
     @? _recoveryCancelerOrNil;
-    {?="attemptedRecovery"b1} _errorRecoveryAttempterFlags;
+    attemptedRecovery _errorRecoveryAttempterFlags;
 }
 
  - (void) dealloc;

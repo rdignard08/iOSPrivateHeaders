@@ -2,7 +2,7 @@
 @protocol UIScrollViewDelegate;
 @interface UIWebOverflowScrollListener : NSObject <UIScrollViewDelegate> {
 
-    @"UIWebOverflowScrollView" _scrollView;
+    UIWebOverflowScrollView _scrollView;
 }
 
  - (void) scrollViewWillBeginDragging:(id)a;

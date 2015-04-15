@@ -10,7 +10,7 @@
 @property (nonatomic, assign, readonly) NSMutableURLRequest* request;
 @property (nonatomic, assign, readonly) NSURLResponse* response;
 @property (nonatomic, copy, readonly) NSString* textEncodingName;
-@property (nonatomic, assign, readonly, isLoading) NSNumber* loading;
+@property (nonatomic, assign, readonly, getter=isLoading) NSNumber* loading;
 @property (nonatomic, copy, readonly) NSString* pageTitle;
 @property (nonatomic, assign, readonly) NSURL* unreachableURL;
 @property (nonatomic, assign, readonly) WebArchive* webArchive;

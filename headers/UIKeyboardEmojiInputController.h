@@ -2,9 +2,9 @@
 @interface UIKeyboardEmojiInputController : NSObject {
 
     int _currentSequence;
-    @"NSMutableDictionary" _usageHistory;
-    @"NSMutableArray" _recents;
-    @"NSMutableDictionary" _skinToneBaseKeyPreferences;
+    NSMutableDictionary _usageHistory;
+    NSMutableArray _recents;
+    NSMutableDictionary _skinToneBaseKeyPreferences;
     int _lastViewedCategory;
 }
 @property (atomic, assign, readwrite) NSNumber* lastViewedCategory;

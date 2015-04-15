@@ -3,10 +3,10 @@
 @interface UIDocumentPickerExtensionViewController : UIViewController <_UIDocumentPickerExtensionViewController> {
 
     unsigned long long _documentPickerMode;
-    @"NSURL" _originalURL;
-    @"NSArray" _validTypes;
-    @"NSString" _providerIdentifier;
-    @"NSURL" _documentStorageURL;
+    NSURL _originalURL;
+    NSArray _validTypes;
+    NSString _providerIdentifier;
+    NSURL _documentStorageURL;
 }
  + (id) _exportedInterface;
  + (id) _remoteViewControllerInterface;

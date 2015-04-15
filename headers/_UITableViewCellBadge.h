@@ -2,7 +2,7 @@
 @interface _UITableViewCellBadge : UIView {
 
     BOOL _isSelected;
-    @"NSString" _text;
+    NSString _text;
     {CGSize="width"d"height"d} _textSize;
 }
 

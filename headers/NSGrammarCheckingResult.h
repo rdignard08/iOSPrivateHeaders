@@ -2,7 +2,7 @@
 @interface NSGrammarCheckingResult : NSTextCheckingResult {
 
     {_NSRange="location"Q"length"Q} _range;
-    @"NSArray" _details;
+    NSArray _details;
 }
 
  - (id) resultByAdjustingRangesWithOffset:(long long)a;

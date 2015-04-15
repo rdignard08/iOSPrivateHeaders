@@ -2,10 +2,10 @@
 @protocol NSCopying;
 @interface UIGestureDelayedTouch : NSObject <NSCopying> {
 
-    @"UITouch" _touch;
-    @"UITouch" _stateWhenDelayed;
-    @"UITouch" _stateWhenDelivered;
-    @"UIEvent" _event;
+    UITouch _touch;
+    UITouch _stateWhenDelayed;
+    UITouch _stateWhenDelivered;
+    UIEvent _event;
     long long _delayCount;
     BOOL _cloneForSecondDelivery;
 }

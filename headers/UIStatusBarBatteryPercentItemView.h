@@ -1,7 +1,7 @@
 
 @interface UIStatusBarBatteryPercentItemView : UIStatusBarItemView {
 
-    @"NSString" _percentString;
+    NSString _percentString;
 }
 
  - (void) dealloc;

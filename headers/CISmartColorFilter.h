@@ -1,13 +1,13 @@
 
 @interface CISmartColorFilter : CIFilter {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputVibrancy;
-    @"NSNumber" inputContrast;
-    @"NSNumber" inputCast;
-    @"NSNumber" inputUseCube;
-    @"CIImage" _cubeImage;
-    @"CIContext" _cubeContext;
+    CIImage inputImage;
+    NSNumber inputVibrancy;
+    NSNumber inputContrast;
+    NSNumber inputCast;
+    NSNumber inputUseCube;
+    CIImage _cubeImage;
+    CIContext _cubeContext;
 }
  + (id) customAttributes;
 

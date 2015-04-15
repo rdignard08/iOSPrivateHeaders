@@ -6,12 +6,12 @@
     unsigned int _flags;
 }
 @property (atomic, weak, readwrite) CAStateControllerTransition* CAStateControllerTransition;
-@property (atomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (atomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (atomic, copy, readwrite) NSString* beginTimeMode;
 @property (atomic, assign, readwrite) NSNumber* frameInterval;
 @property (atomic, retain, readwrite) CAMediaTimingFunction* timingFunction;
 @property (atomic, retain, readwrite) NSNumber* delegate;
-@property (atomic, assign, readwrite, isRemovedOnCompletion) NSNumber* removedOnCompletion;
+@property (atomic, assign, readwrite, getter=isRemovedOnCompletion) NSNumber* removedOnCompletion;
 @property (atomic, assign, readwrite) NSNumber* beginTime;
 @property (atomic, assign, readwrite) NSNumber* duration;
 @property (atomic, assign, readwrite) NSNumber* speed;

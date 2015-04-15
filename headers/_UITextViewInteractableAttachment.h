@@ -1,7 +1,7 @@
 
 @interface _UITextViewInteractableAttachment : _UITextViewInteractableItem {
 
-    @"NSTextAttachment" _attachment;
+    NSTextAttachment _attachment;
 }
  + (id) interactableLinkWithAttachment:(id)arange:({_NSRange=QQ})b;
 

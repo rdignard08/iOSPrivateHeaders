@@ -1,7 +1,7 @@
 
 @interface WebFrame : NSObject {
 
-    @"WebFramePrivate" _private;
+    WebFramePrivate _private;
 }
 @property (nonatomic, copy, readonly) NSString* name;
 @property (nonatomic, assign, readonly) WebView* webView;

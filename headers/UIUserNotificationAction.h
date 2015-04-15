@@ -4,16 +4,16 @@
 
     BOOL _authenticationRequired;
     BOOL _destructive;
-    @"NSString" _activationModeString;
-    @"NSString" _identifier;
-    @"NSString" _title;
+    NSString _activationModeString;
+    NSString _identifier;
+    NSString _title;
     unsigned long long _activationMode;
 }
 @property (nonatomic, copy, readwrite) NSString* identifier;
 @property (nonatomic, copy, readwrite) NSString* title;
 @property (nonatomic, assign, readwrite) NSNumber* activationMode;
-@property (nonatomic, assign, readwrite, isAuthenticationRequired) NSNumber* authenticationRequired;
-@property (nonatomic, assign, readwrite, isDestructive) NSNumber* destructive;
+@property (nonatomic, assign, readwrite, getter=isAuthenticationRequired) NSNumber* authenticationRequired;
+@property (nonatomic, assign, readwrite, getter=isDestructive) NSNumber* destructive;
 @property (nonatomic, assign, readonly) NSString* activationModeString;
  + (BOOL) supportsSecureCoding;
  + (id) actionWithIdentifier:(id)atitle:(id)bactivationMode:(unsigned long long)cisAuthenticationRequired:(BOOL)d;

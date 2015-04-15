@@ -1,16 +1,16 @@
 
 @interface UIWebFormAccessory : UIInputView {
 
-    @"UIToolbar" _leftToolbar;
-    @"UIToolbar" _rightToolbar;
-    @"UIBarButtonItem" _doneButton;
-    @"UIBarButtonItem" _flexibleSpaceItem;
-    @"UIBarButtonItem" _previousItem;
-    @"UIBarButtonItem" _nextItem;
-    @"UISegmentedControl" _tab;
-    @"UIBarButtonItem" _autofill;
-    @"UIBarButtonItem" _clearButton;
-    @"<UIWebFormAccessoryDelegate>" delegate;
+    UIToolbar _leftToolbar;
+    UIToolbar _rightToolbar;
+    UIBarButtonItem _doneButton;
+    UIBarButtonItem _flexibleSpaceItem;
+    UIBarButtonItem _previousItem;
+    UIBarButtonItem _nextItem;
+    UISegmentedControl _tab;
+    UIBarButtonItem _autofill;
+    UIBarButtonItem _clearButton;
+    <UIWebFormAccessoryDelegate> delegate;
 }
  + (id) toolbarWithItems:(id)a;
 

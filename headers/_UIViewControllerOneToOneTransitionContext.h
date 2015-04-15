@@ -3,10 +3,10 @@
 
     BOOL _isToViewSet;
     BOOL _isFromViewSet;
-    @"UIView" _toView;
-    @"UIView" _fromView;
-    @"UIViewController" _fromViewController;
-    @"UIViewController" _toViewController;
+    UIView _toView;
+    UIView _fromView;
+    UIViewController _fromViewController;
+    UIViewController _toViewController;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _fromStartFrame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _fromEndFrame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _toEndFrame;

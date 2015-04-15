@@ -1,9 +1,9 @@
 
 @interface AFHTTPRequestOperation : AFURLConnectionOperation {
 
-    @"AFHTTPResponseSerializer<AFURLResponseSerialization>" _responseSerializer;
+    AFHTTPResponseSerializer<AFURLResponseSerialization> _responseSerializer;
     id _responseObject;
-    @"NSError" _responseSerializationError;
+    NSError _responseSerializationError;
 }
  + (BOOL) supportsSecureCoding;
 

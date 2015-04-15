@@ -2,11 +2,11 @@
 @interface __NSOperationInternal : NSObject {
 
     [8C] __pad1;
-    @"NSOperation" __outerOp;
-    @"NSOperation" __prevOp;
-    @"NSOperation" __nextOp;
-    @"NSOperation" __nextPriOp;
-    @"NSOperationQueue" __queue;
+    NSOperation __outerOp;
+    NSOperation __prevOp;
+    NSOperation __nextOp;
+    NSOperation __nextPriOp;
+    NSOperationQueue __queue;
     id __dependencies;
     id __down_dependencies;
     long long __unfinished_deps;

@@ -1,20 +1,20 @@
 
 @interface _UIMotionEffectEngine : NSObject {
 
-    @"_UIAssociationTable" _effectViewAssociationTable;
-    @"_UILazyMapTable" _analyzerSettingsToAnalyzers;
-    @"NSMapTable" _analyzersToEffects;
-    @"NSMapTable" _analyzersToHistories;
-    @"NSMapTable" _suspendedViewsToEffectSets;
-    @"CMMotionManager" _motionManager;
-    @"NSOperationQueue" _motionEventQueue;
+    _UIAssociationTable _effectViewAssociationTable;
+    _UILazyMapTable _analyzerSettingsToAnalyzers;
+    NSMapTable _analyzersToEffects;
+    NSMapTable _analyzersToHistories;
+    NSMapTable _suspendedViewsToEffectSets;
+    CMMotionManager _motionManager;
+    NSOperationQueue _motionEventQueue;
     BOOL _hasReceivedAtLeastOneMotionEventSinceStarting;
     {?="quaternion"{?="w"d"x"d"y"d"z"d}"userAcceleration"{?="x"f"y"f"z"f}"rotationRate"{?="x"f"y"f"z"f}"magneticField"{?="x"f"y"f"z"f}"magneticFieldCalibrationLevel"i"doingYawCorrection"B"doingBiasEstimation"B"isInitialized"B} _pendingDeviceMotionStruct;
     double _pendingDeviceMotionTimestamp;
     int _pendingDeviceMotionLock;
-    @"CADisplayLink" _displayLink;
+    CADisplayLink _displayLink;
     BOOL _generatingUpdates;
-    @"NSMutableSet" _suspendReasons;
+    NSMutableSet _suspendReasons;
     {?="w"d"x"d"y"d"z"d} _lastDeviceQuaternion;
     double _lastUpdateTimestamp;
     BOOL _slowUpdatesEnabled;
@@ -23,13 +23,13 @@
     BOOL _allAnalyzersAreCentered;
     BOOL _hasAppliedAtLeastOneUpdateSinceStarting;
     BOOL _isPendingReset;
-    @"_UIMotionEffectEngineLogger" _motionLogger;
+    _UIMotionEffectEngineLogger _motionLogger;
     int _thermalNotificationToken;
     int _screenDimmingNotificationToken;
     long long _targetInterfaceOrientation;
 }
 @property (nonatomic, assign, readonly) NSArray* suspensionReasons;
-@property (nonatomic, assign, readwrite, _setTargetInterfaceOrientation:) NSNumber* _targetInterfaceOrientation;
+@property (nonatomic, assign, readwrite, setter=_setTargetInterfaceOrientation:) NSNumber* _targetInterfaceOrientation;
  + (BOOL) _motionEffectsSupported;
  + (BOOL) _motionEffectsEnabled;
 

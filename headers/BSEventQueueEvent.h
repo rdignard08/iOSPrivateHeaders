@@ -1,7 +1,7 @@
 
 @interface BSEventQueueEvent : NSObject {
 
-    @"NSString" _name;
+    NSString _name;
     @? _handler;
 }
 @property (nonatomic, copy, readwrite) NSString* name;

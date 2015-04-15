@@ -2,11 +2,11 @@
 @interface UISearchDisplayControllerContainerView : UIView {
 
     BOOL _collapsedTopView;
-    @"UIView" _topView;
-    @"UIView" _bottomView;
-    @"UIView" _behindView;
-    @"NSLayoutConstraint" _topViewHeightConstraint;
-    @"NSLayoutConstraint" _topViewAttributeTopConstraint;
+    UIView _topView;
+    UIView _bottomView;
+    UIView _behindView;
+    NSLayoutConstraint _topViewHeightConstraint;
+    NSLayoutConstraint _topViewAttributeTopConstraint;
 }
 
  - (void) dealloc;

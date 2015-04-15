@@ -5,13 +5,13 @@
     BOOL _interactionAborted;
     BOOL _clipUnderlapWhileTransitioning;
     long long _operation;
-    @"<UIViewControllerContextTransitioning>" _transitionContext;
-    @"_UINavigationInteractiveTransitionBase" _interactionController;
-    @"_UIParallaxDimmingView" _borderDimmingView;
-    @"_UIParallaxDimmingView" _contentDimmingView;
-    @"UIView" _containerFromView;
-    @"UIView" _containerToView;
-    @"UIView" _clipUnderView;
+    <UIViewControllerContextTransitioning> _transitionContext;
+    _UINavigationInteractiveTransitionBase _interactionController;
+    _UIParallaxDimmingView _borderDimmingView;
+    _UIParallaxDimmingView _contentDimmingView;
+    UIView _containerFromView;
+    UIView _containerToView;
+    UIView _clipUnderView;
     long long _transitionStyle;
     double _transitionGap;
 }

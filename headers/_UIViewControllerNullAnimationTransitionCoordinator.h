@@ -3,9 +3,9 @@
 @interface _UIViewControllerNullAnimationTransitionCoordinator : NSObject <UIViewControllerTransitionCoordinator> {
 
     BOOL _transitionIsInFlight;
-    @"NSMutableArray" _alongsideAnimations;
-    @"NSMutableArray" _alongsideCompletions;
-    @"UIView" _containerView;
+    NSMutableArray _alongsideAnimations;
+    NSMutableArray _alongsideCompletions;
+    UIView _containerView;
 }
 @property (nonatomic, assign, readwrite) UIView* containerView;
 

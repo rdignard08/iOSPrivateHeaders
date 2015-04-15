@@ -1,10 +1,10 @@
 
 @interface NSURLProtocolInternal : NSObject {
 
-    @"<NSURLProtocolClient>" client;
-    @"NSURLRequest" request;
-    @"NSCachedURLResponse" cachedResponse;
-    @"NSLock" mutex;
+    <NSURLProtocolClient> client;
+    NSURLRequest request;
+    NSCachedURLResponse cachedResponse;
+    NSLock mutex;
 }
 
  - (void) dealloc;

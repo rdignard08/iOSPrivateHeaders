@@ -1,10 +1,10 @@
 
 @interface _UIAlertExternalViewController : UIViewController {
 
-    @"UILabel" _titleLabel;
-    @"UILabel" _messageLabel;
-    @"NSMutableArray" _buttons;
-    @"UIAlertView" _representedAlert;
+    UILabel _titleLabel;
+    UILabel _messageLabel;
+    NSMutableArray _buttons;
+    UIAlertView _representedAlert;
 }
 
  - (void) dealloc;

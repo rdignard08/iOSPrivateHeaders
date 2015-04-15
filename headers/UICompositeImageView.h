@@ -1,7 +1,7 @@
 
 @interface UICompositeImageView : UIView {
 
-    @"NSMutableArray" m_images;
+    NSMutableArray m_images;
 }
 
  - (void) dealloc;

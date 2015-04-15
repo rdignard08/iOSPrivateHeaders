@@ -4,12 +4,12 @@
     int m_type;
     int m_edgeType;
     BOOL m_animating;
-    @"NSMutableArray" _candidateCellArray;
-    @"NSArray" _candidates;
+    NSMutableArray _candidateCellArray;
+    NSArray _candidates;
     id _target;
     SEL _action;
     unsigned long long _selectedItem;
-    @"_UIInlineCandidateCell" _currentlyPushedItem;
+    _UIInlineCandidateCell _currentlyPushedItem;
     BOOL _showingArrow;
     BOOL _arrowHighlighted;
     BOOL _phraseEditable;

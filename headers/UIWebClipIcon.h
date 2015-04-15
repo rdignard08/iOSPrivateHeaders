@@ -4,10 +4,10 @@
     BOOL _precomposed;
     BOOL _siteWide;
     {CGSize="width"d"height"d} _bestSize;
-    @"NSURL" _url;
+    NSURL _url;
 }
-@property (nonatomic, assign, readwrite, isPrecomposed) NSNumber* precomposed;
-@property (nonatomic, assign, readwrite, isSiteWide) NSNumber* siteWide;
+@property (nonatomic, assign, readwrite, getter=isPrecomposed) NSNumber* precomposed;
+@property (nonatomic, assign, readwrite, getter=isSiteWide) NSNumber* siteWide;
 @property (nonatomic, assign, readwrite) NSNumber* bestSize;
 @property (nonatomic, retain, readwrite) NSURL* url;
 

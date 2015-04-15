@@ -2,10 +2,10 @@
 @protocol UIGestureRecognizerDelegate;
 @interface UIWebSelectionAssistant : NSObject <UIGestureRecognizerDelegate> {
 
-    @"UIView" _view;
-    @"UIWebSelectionView" _selectionView;
-    @"UILongPressGestureRecognizer" _longPressGestureRecognizer;
-    @"UITapAndAHalfRecognizer" _tapAndAHalfGestureRecognizer;
+    UIView _view;
+    UIWebSelectionView _selectionView;
+    UILongPressGestureRecognizer _longPressGestureRecognizer;
+    UITapAndAHalfRecognizer _tapAndAHalfGestureRecognizer;
     BOOL _enabled;
 }
 @property (nonatomic, assign, readonly) UIWebSelection* selection;

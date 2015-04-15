@@ -2,7 +2,7 @@
 @protocol NSCopying, NSSecureCoding, TIKeyboardCandidateCoding;
 @interface TIKeyboardCandidate : NSObject <NSCopying, NSSecureCoding, TIKeyboardCandidateCoding> {
 
-    @"NSString" _alternativeText;
+    NSString _alternativeText;
 }
 @property (nonatomic, assign, readonly) NSString* candidate;
 @property (nonatomic, assign, readonly) NSString* input;
@@ -12,11 +12,11 @@
 @property (nonatomic, assign, readonly) NSNumber* deleteCount;
 @property (nonatomic, assign, readonly) NSNumber* isForShortcutConversion;
 @property (nonatomic, assign, readonly) NSNumber* isAutocorrection;
-@property (nonatomic, assign, readonly, isExtensionCandidate) NSNumber* extensionCandidate;
-@property (nonatomic, assign, readonly, isEmojiCandidate) NSNumber* emojiCandidate;
-@property (nonatomic, assign, readonly, isCompletionCandidate) NSNumber* completionCandidate;
-@property (nonatomic, assign, readonly, isInlineCompletionCandidate) NSNumber* inlineCompletionCandidate;
-@property (nonatomic, assign, readonly, isFullwidthCandidate) NSNumber* fullwidthCandidate;
+@property (nonatomic, assign, readonly, getter=isExtensionCandidate) NSNumber* extensionCandidate;
+@property (nonatomic, assign, readonly, getter=isEmojiCandidate) NSNumber* emojiCandidate;
+@property (nonatomic, assign, readonly, getter=isCompletionCandidate) NSNumber* completionCandidate;
+@property (nonatomic, assign, readonly, getter=isInlineCompletionCandidate) NSNumber* inlineCompletionCandidate;
+@property (nonatomic, assign, readonly, getter=isFullwidthCandidate) NSNumber* fullwidthCandidate;
 @property (nonatomic, assign, readonly) NSNumber* usageTrackingMask;
  + (BOOL) supportsSecureCoding;
  + (int) type;

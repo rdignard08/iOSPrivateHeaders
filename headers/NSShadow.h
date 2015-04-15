@@ -5,7 +5,7 @@
     unsigned long long _shadowFlags;
     {CGSize="width"d"height"d} _shadowOffset;
     double _shadowBlurRadius;
-    @"NSColor" _shadowColor;
+    NSColor _shadowColor;
 }
 @property (nonatomic, assign, readwrite) NSNumber* shadowOffset;
 @property (nonatomic, assign, readwrite) NSNumber* shadowBlurRadius;

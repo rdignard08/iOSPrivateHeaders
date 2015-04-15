@@ -1,11 +1,11 @@
 
 @interface WebVideoFullscreenController : NSObject {
 
-    {RefPtr<WebCore::HTMLMediaElement>="m_ptr"^{HTMLMediaElement}} _mediaElement;
-    {RefPtr<WebCore::WebVideoFullscreenInterfaceAVKit>="m_ptr"^{WebVideoFullscreenInterfaceAVKit}} _interface;
-    {RefPtr<WebCore::WebVideoFullscreenModelMediaElement>="m_ptr"^{WebVideoFullscreenModelMediaElement}} _model;
+    m_ptr _mediaElement;
+    m_ptr _interface;
+    m_ptr _model;
     {WebVideoFullscreenControllerChangeObserver="_vptr$WebVideoFullscreenChangeObserver"^^?"_target"@"WebVideoFullscreenController"} _changeObserver;
-    {RetainPtr<CALayer>="m_ptr"^v} _videoFullscreenLayer;
+    m_ptr _videoFullscreenLayer;
 }
 
  - (id) .cxx_construct;

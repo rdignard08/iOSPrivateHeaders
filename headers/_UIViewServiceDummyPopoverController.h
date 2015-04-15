@@ -1,7 +1,7 @@
 
 @interface _UIViewServiceDummyPopoverController : UIPopoverController {
 
-    @"<_UIViewServiceDummyPopoverControllerDelegate>" _dummyPopoverControllerDelegate;
+    <_UIViewServiceDummyPopoverControllerDelegate> _dummyPopoverControllerDelegate;
 }
  + (Class) _popoverViewClass;
 

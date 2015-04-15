@@ -3,11 +3,11 @@
 @interface UINavigationTransitionView : UIView <NSCoding> {
 
     id _delegate;
-    @"UIView" _fromView;
-    @"UIView" _toView;
+    UIView _fromView;
+    UIView _toView;
     long long _transition;
-    @"UIResponder" _firstResponderToRestore;
-    @"UIWindow" _originalWindow;
+    UIResponder _firstResponderToRestore;
+    UIWindow _originalWindow;
     double _fromViewAlpha;
     b1 _isTransitioning;
     b1 _popoverWillCleanUpNavigationTransition;

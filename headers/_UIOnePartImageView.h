@@ -1,7 +1,7 @@
 
 @interface _UIOnePartImageView : UIView {
 
-    @"UIImage" _image;
+    UIImage _image;
 }
 
  - (void) setImage:(id)a;

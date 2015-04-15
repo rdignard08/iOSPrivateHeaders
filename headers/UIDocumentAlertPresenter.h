@@ -3,8 +3,8 @@
 @interface UIDocumentAlertPresenter : NSObject <UIAlertViewDelegate> {
 
     @? _completionHandler;
-    @"NSError" _error;
-    @"UIAlertView" _alert;
+    NSError _error;
+    UIAlertView _alert;
 }
  + (id) _presentAlertWithError:(id)acompletionHandler:(@?)b;
 

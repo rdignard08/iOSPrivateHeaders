@@ -1,10 +1,10 @@
 
 @interface CIColorCube : CIFilter {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputCubeDimension;
-    @"NSData" inputCubeData;
-    @"CIImage" _cubeImage;
+    CIImage inputImage;
+    NSNumber inputCubeDimension;
+    NSData inputCubeData;
+    CIImage _cubeImage;
 }
  + (id) customAttributes;
 

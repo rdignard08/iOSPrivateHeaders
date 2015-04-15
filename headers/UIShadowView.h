@@ -1,7 +1,7 @@
 
 @interface UIShadowView : UIView {
 
-    @"UIImage" _image;
+    UIImage _image;
 }
  + (id) topShadowImage;
  + (id) bottomShadowImage;

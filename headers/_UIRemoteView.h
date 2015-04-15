@@ -3,8 +3,8 @@
 @interface _UIRemoteView : UIView <UIStatusBarTinting> {
 
     BOOL _actsAsTintView;
-    @"UIColor" _statusBarTintColor;
-    @"_UIHostedWindowHostingHandle" _hostedWindowHostingHandle;
+    UIColor _statusBarTintColor;
+    _UIHostedWindowHostingHandle _hostedWindowHostingHandle;
     @? _tintColorDidChangeHandler;
 }
  + (Class) layerClass;

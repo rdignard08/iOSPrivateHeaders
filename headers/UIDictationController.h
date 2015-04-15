@@ -2,25 +2,25 @@
 @protocol _UITouchPhaseChangeDelegate;
 @interface UIDictationController : NSObject <_UITouchPhaseChangeDelegate> {
 
-    @"AFDictationConnection" _connection;
-    @"AFDictationOptions" _options;
-    @"AFPreferences" _preferences;
-    @"NSArray" _availableLanguages;
-    @"NSTimer" _recordingLimitTimer;
+    AFDictationConnection _connection;
+    AFDictationOptions _options;
+    AFPreferences _preferences;
+    NSArray _availableLanguages;
+    NSTimer _recordingLimitTimer;
     ^v _callCenterFrameworkFileHandle;
     id _callCenter;
     ^v _facetimeCallFrameworkFileHandle;
     id _facetimeCallManager;
     BOOL _wasDisabledDueToTelephonyActivity;
-    @"UIAlertView" _dictationAvailableSoonAlert;
+    UIAlertView _dictationAvailableSoonAlert;
     BOOL _connectionWasAlreadyAliveForStatisticsLogging;
-    @"UIDictationStreamingOperations" _streamingOperations;
-    @"NSString" _language;
+    UIDictationStreamingOperations _streamingOperations;
+    NSString _language;
     BOOL _recievingResults;
     BOOL _streamingAnimationActive;
     double _lastAnimationUpdateTimeStamp;
     @? _finalResultsOperation;
-    @"CADisplayLink" _streamingAnimationDisplayLink;
+    CADisplayLink _streamingAnimationDisplayLink;
     BOOL cancelledByWaitingForLocalResults;
     long long _updatingDocument;
     BOOL _deferredCancellationRequested;
@@ -28,13 +28,13 @@
     BOOL _performingStreamingEditingOperation;
     BOOL _discardNextHypothesis;
     BOOL _hasPreheated;
-    @"NSMutableArray" _pendingEdits;
-    @"NSString" _previousHypothesis;
-    @"NSString" _lastHypothesis;
-    @"NSString" _targetHypothesis;
-    @"UIWindow" _dictationPresenterWindow;
-    @"_UIDictationPrivacySheetController" _dictationPrivacySheetController;
-    @"UIKeyboardInputMode" _inputModeThatInvokedDictation;
+    NSMutableArray _pendingEdits;
+    NSString _previousHypothesis;
+    NSString _lastHypothesis;
+    NSString _targetHypothesis;
+    UIWindow _dictationPresenterWindow;
+    _UIDictationPrivacySheetController _dictationPrivacySheetController;
+    UIKeyboardInputMode _inputModeThatInvokedDictation;
     {_NSRange="location"Q"length"Q} _insertionRange;
 }
 @property (nonatomic, retain, readwrite) NSMutableArray* pendingEdits;

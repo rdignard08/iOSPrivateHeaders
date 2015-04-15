@@ -1,7 +1,7 @@
 
 @interface DCSDictionaryAssetQuery : ASAssetQuery {
 
-    @"NSLocale" _locale;
+    NSLocale _locale;
 }
 
  - (void) startQuery:(@?)a;

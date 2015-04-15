@@ -1,7 +1,7 @@
 
 @interface NSKeyValueNotifyingMutableOrderedSet : NSKeyValueMutableOrderedSet {
 
-    @"NSMutableOrderedSet" _mutableOrderedSet;
+    NSMutableOrderedSet _mutableOrderedSet;
 }
  + (^{?=Q[4@]}) _proxyNonGCPoolPointer;
  + (id) _proxyShare;

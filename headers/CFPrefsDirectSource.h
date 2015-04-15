@@ -1,7 +1,7 @@
 
 @interface CFPrefsDirectSource : CFPrefsPlistSource {
 
-    @"CFPDSource" _underlyingSource;
+    CFPDSource _underlyingSource;
     unsigned long long _inode;
     BOOL _managed;
 }

@@ -3,7 +3,7 @@
 @interface FBSDisplay : NSObject <BSXPCCoding, NSCopying, NSSecureCoding> {
 
     unsigned int _seed;
-    @"CADisplay" _caDisplay;
+    CADisplay _caDisplay;
     double _scale;
     unsigned long long _type;
     long long _tags;

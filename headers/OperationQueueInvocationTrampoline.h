@@ -1,7 +1,7 @@
 
 @interface OperationQueueInvocationTrampoline : InvocationTrampoline {
 
-    @"NSOperationQueue" _queue;
+    NSOperationQueue _queue;
     long long _priority;
 }
 

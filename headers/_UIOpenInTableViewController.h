@@ -1,7 +1,7 @@
 
 @interface _UIOpenInTableViewController : UITableViewController {
 
-    @"UIDocumentInteractionController" _documentInteractionController;
+    UIDocumentInteractionController _documentInteractionController;
 }
 
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;

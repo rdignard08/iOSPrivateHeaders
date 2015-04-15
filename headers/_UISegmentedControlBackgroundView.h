@@ -1,7 +1,7 @@
 
 @interface _UISegmentedControlBackgroundView : UIImageView {
 
-    @"UIImageView" _shadowView;
+    UIImageView _shadowView;
 }
 
  - (id) shadowView;

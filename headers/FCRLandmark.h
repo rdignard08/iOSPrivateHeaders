@@ -1,7 +1,7 @@
 
 @interface FCRLandmark : NSObject {
 
-    @"NSString" type;
+    NSString type;
     unsigned long long pointCount;
     ^{CGPoint=dd} points;
 }

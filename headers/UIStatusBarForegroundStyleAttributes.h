@@ -4,10 +4,10 @@
     double _height;
     long long _legibilityStyle;
     long long _idiom;
-    @"NSMutableDictionary" _cachedFonts;
+    NSMutableDictionary _cachedFonts;
     BOOL _isTintColorBlack;
     BOOL _hasBusyBackground;
-    @"UIColor" _tintColor;
+    UIColor _tintColor;
 }
 @property (nonatomic, retain, readonly) UIColor* tintColor;
 

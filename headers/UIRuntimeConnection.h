@@ -4,7 +4,7 @@
 
     id source;
     id destination;
-    @"NSString" label;
+    NSString label;
 }
 
  - (void) dealloc;

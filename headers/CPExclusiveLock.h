@@ -3,7 +3,7 @@
 @interface CPExclusiveLock : NSObject <NSLocking> {
 
     int _fd;
-    @"NSString" _name;
+    NSString _name;
 }
 
  - (BOOL) tryLock;

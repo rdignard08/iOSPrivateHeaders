@@ -1,9 +1,9 @@
 
 @interface _UIActivityUserDefaultsViewController : UITableViewController {
 
-    @"NSArray" _activities;
-    @"_UIActivityUserDefaults" _userDefaults;
-    @"UIImage" _placeholderImage;
+    NSArray _activities;
+    _UIActivityUserDefaults _userDefaults;
+    UIImage _placeholderImage;
 }
 
  - (id) userDefaults;

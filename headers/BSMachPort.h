@@ -7,7 +7,7 @@
     unsigned long long _recvRights;
     BOOL _invalidated;
     unsigned int _portNumber;
-    @"NSString" _debugDescription;
+    NSString _debugDescription;
 }
 @property (nonatomic, assign, readonly) NSNumber* port;
  + (id) createSendRight;

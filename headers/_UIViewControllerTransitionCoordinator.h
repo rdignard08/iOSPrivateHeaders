@@ -2,17 +2,17 @@
 @protocol UIViewControllerTransitionCoordinator;
 @interface _UIViewControllerTransitionCoordinator : NSObject <UIViewControllerTransitionCoordinator> {
 
-    @"_UIViewControllerTransitionContext" __mainContext;
-    @"NSMutableArray" __alongsideAnimations;
-    @"NSMutableArray" __alongsideAnimationViews;
-    @"NSMutableArray" __alongsideCompletions;
-    @"NSMutableArray" __interactiveChangeHandlers;
+    _UIViewControllerTransitionContext __mainContext;
+    NSMutableArray __alongsideAnimations;
+    NSMutableArray __alongsideAnimationViews;
+    NSMutableArray __alongsideCompletions;
+    NSMutableArray __interactiveChangeHandlers;
 }
-@property (nonatomic, assign, readwrite, _setMainContext:) _UIViewControllerTransitionContext* _mainContext;
-@property (nonatomic, retain, readwrite, _setAlongsideAnimations:) NSMutableArray* _alongsideAnimations;
-@property (nonatomic, retain, readwrite, _setAlongsideAnimationViews:) NSMutableArray* _alongsideAnimationViews;
-@property (nonatomic, retain, readwrite, _setAlongsideCompletions:) NSMutableArray* _alongsideCompletions;
-@property (nonatomic, retain, readwrite, _setInteractiveChangeHandlers:) NSMutableArray* _interactiveChangeHandlers;
+@property (nonatomic, assign, readwrite, setter=_setMainContext:) _UIViewControllerTransitionContext* _mainContext;
+@property (nonatomic, retain, readwrite, setter=_setAlongsideAnimations:) NSMutableArray* _alongsideAnimations;
+@property (nonatomic, retain, readwrite, setter=_setAlongsideAnimationViews:) NSMutableArray* _alongsideAnimationViews;
+@property (nonatomic, retain, readwrite, setter=_setAlongsideCompletions:) NSMutableArray* _alongsideCompletions;
+@property (nonatomic, retain, readwrite, setter=_setInteractiveChangeHandlers:) NSMutableArray* _interactiveChangeHandlers;
 
  - (BOOL) isCancelled;
  - (void) dealloc;

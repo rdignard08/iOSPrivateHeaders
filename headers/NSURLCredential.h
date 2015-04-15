@@ -2,7 +2,7 @@
 @protocol NSSecureCoding, NSCopying;
 @interface NSURLCredential : NSObject <NSSecureCoding, NSCopying> {
 
-    @"NSURLCredentialInternal" _internal;
+    NSURLCredentialInternal _internal;
 }
 @property (atomic, assign, readonly) NSNumber* persistence;
  + (id) credentialForTrust:(^{__SecTrust=})a;

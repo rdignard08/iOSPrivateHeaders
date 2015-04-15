@@ -1,22 +1,22 @@
 
 @interface UITabBarItem : UIBarItem {
 
-    @"NSString" _title;
+    NSString _title;
     SEL _action;
     id _target;
-    @"UIImage" _templateImage;
-    @"UIImage" _selectedTemplateImage;
-    @"UIImage" _selectedImage;
-    @"UIImage" _unselectedImage;
+    UIImage _templateImage;
+    UIImage _selectedTemplateImage;
+    UIImage _selectedImage;
+    UIImage _unselectedImage;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _imageInsets;
-    @"NSString" _badgeValue;
-    @"UIView" _view;
+    NSString _badgeValue;
+    UIView _view;
     long long _tag;
     id _appearanceStorage;
     {?="enabled"b1"style"b3"isSystemItem"b1"systemItem"b7"viewIsCustom"b1"animatedBadge"b1"customSelectedImage"b1"customUnselectedImage"b1} _tabBarItemFlags;
     long long _barMetrics;
     long long _imageStyle;
-    @"UIColor" _tintColor;
+    UIColor _tintColor;
 }
  + (id) _appearanceBlindViewClasses;
 

@@ -1,7 +1,7 @@
 
 @interface CIPhotoEffect : CIFilter {
 
-    @"CIImage" inputImage;
+    CIImage inputImage;
 }
  + (id) customAttributes;
 

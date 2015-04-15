@@ -1,12 +1,12 @@
 
 @interface NSAutoCalendar : NSCalendar {
 
-    @"NSCalendar" cal;
-    @"NSLocale" changedLocale;
-    @"NSTimeZone" changedTimeZone;
+    NSCalendar cal;
+    NSLocale changedLocale;
+    NSTimeZone changedTimeZone;
     unsigned long long changedFirstWeekday;
     unsigned long long changedMinimumDaysinFirstWeek;
-    @"NSDate" changedGregorianStartDate;
+    NSDate changedGregorianStartDate;
 }
  + (BOOL) supportsSecureCoding;
 

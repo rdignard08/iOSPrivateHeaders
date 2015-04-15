@@ -1,9 +1,9 @@
 
 @interface _UICache : NSObject {
 
-    @"NSObject<OS_dispatch_queue>" _cacheQueue;
-    @"NSMutableDictionary" _cache;
-    @"NSObject<OS_dispatch_source>" _memoryWarningsSource;
+    NSObject<OS_dispatch_queue> _cacheQueue;
+    NSMutableDictionary _cache;
+    NSObject<OS_dispatch_source> _memoryWarningsSource;
     BOOL _clearsCacheOnLowMemoryWarnings;
     BOOL _clearsCacheOnApplicationBackground;
     id _noteObserver;

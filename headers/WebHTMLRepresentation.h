@@ -2,7 +2,7 @@
 @protocol WebDocumentRepresentation, WebDocumentDOM;
 @interface WebHTMLRepresentation : NSObject <WebDocumentRepresentation, WebDocumentDOM> {
 
-    @"WebHTMLRepresentationPrivate" _private;
+    WebHTMLRepresentationPrivate _private;
 }
  + (id) supportedMIMETypes;
  + (id) supportedNonImageMIMETypes;

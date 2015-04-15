@@ -1,8 +1,8 @@
 
 @interface _UIWebFormDelegateEditedFormsMap : NSObject {
 
-    @"NSMutableDictionary" _map;
-    @"NSMutableArray" _lifetimeHelper;
+    NSMutableDictionary _map;
+    NSMutableArray _lifetimeHelper;
 }
 
  - (void) dealloc;

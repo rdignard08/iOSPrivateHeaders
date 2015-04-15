@@ -2,8 +2,8 @@
 @interface WebMediaSessionHelper : NSObject {
 
     ^{MediaSessionManageriOS=^^?^^?^^?[4I]{Vector<WebCore::MediaSession *, 0, WTF::CrashOnOverflow>=^^{MediaSession}II}{Vector<WebCore::MediaSessionManagerClient *, 0, WTF::CrashOnOverflow>=^^{MediaSessionManagerClient}II}{unique_ptr<WebCore::RemoteCommandListener, std::__1::default_delete<WebCore::RemoteCommandListener> >={__compressed_pair<WebCore::RemoteCommandListener *, std::__1::default_delete<WebCore::RemoteCommandListener> >=^{RemoteCommandListener}}}{unique_ptr<WebCore::SystemSleepListener, std::__1::default_delete<WebCore::SystemSleepListener> >={__compressed_pair<WebCore::SystemSleepListener *, std::__1::default_delete<WebCore::SystemSleepListener> >=^{SystemSleepListener}}}{RefPtr<WebCore::AudioHardwareListener>=^{AudioHardwareListener}}B{RetainPtr<WebMediaSessionHelper>=^v}} _callback;
-    {RetainPtr<MPVolumeView>="m_ptr"^v} _volumeView;
-    {RetainPtr<MPAVRoutingController>="m_ptr"^v} _airPlayPresenceRoutingController;
+    m_ptr _volumeView;
+    m_ptr _airPlayPresenceRoutingController;
 }
 
  - (id) .cxx_construct;

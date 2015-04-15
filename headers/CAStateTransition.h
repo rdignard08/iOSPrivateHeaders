@@ -2,9 +2,9 @@
 @protocol NSCopying, NSCoding;
 @interface CAStateTransition : NSObject <NSCopying, NSCoding> {
 
-    @"NSString" _fromState;
-    @"NSString" _toState;
-    @"NSArray" _elements;
+    NSString _fromState;
+    NSString _toState;
+    NSArray _elements;
 }
 @property (nonatomic, copy, readwrite) NSString* fromState;
 @property (nonatomic, copy, readwrite) NSString* toState;

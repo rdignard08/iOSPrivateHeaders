@@ -2,7 +2,7 @@
 @protocol UIKeyboardInput, UITextInputPrivate;
 @interface UIDefaultKeyboardInput : UIView <UIKeyboardInput, UITextInputPrivate> {
 
-    @"UITextInputTraits" m_traits;
+    UITextInputTraits m_traits;
 }
 
  - (void) dealloc;

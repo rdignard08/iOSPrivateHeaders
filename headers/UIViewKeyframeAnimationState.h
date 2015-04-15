@@ -4,8 +4,8 @@
     double _frameDuration;
     double _frameStartTime;
     long long _calculationMode;
-    @"NSMutableSet" _keyframeLayers;
-    @"NSMutableDictionary" _keyframeLayersForCurrentKeyFrameDict;
+    NSMutableSet _keyframeLayers;
+    NSMutableDictionary _keyframeLayersForCurrentKeyFrameDict;
     BOOL _inFrame;
 }
 

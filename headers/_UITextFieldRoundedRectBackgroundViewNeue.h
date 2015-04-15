@@ -2,8 +2,8 @@
 @interface _UITextFieldRoundedRectBackgroundViewNeue : UIImageView {
 
     BOOL _disabled;
-    @"UIColor" _strokeColor;
-    @"UIColor" _fillColor;
+    UIColor _strokeColor;
+    UIColor _fillColor;
     double _lineWidth;
     double _cornerRadius;
 }

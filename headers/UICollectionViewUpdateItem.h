@@ -1,19 +1,19 @@
 
 @interface UICollectionViewUpdateItem : NSObject {
 
-    @"NSIndexPath" _initialIndexPath;
-    @"NSIndexPath" _finalIndexPath;
+    NSIndexPath _initialIndexPath;
+    NSIndexPath _finalIndexPath;
     long long _updateAction;
     id _gap;
 }
 @property (nonatomic, assign, readonly) NSIndexPath* indexPathBeforeUpdate;
 @property (nonatomic, assign, readonly) NSIndexPath* indexPathAfterUpdate;
 @property (nonatomic, assign, readonly) NSNumber* updateAction;
-@property (nonatomic, assign, readonly, _action) NSNumber* action;
-@property (nonatomic, assign, readonly, _indexPath) NSIndexPath* indexPath;
-@property (nonatomic, assign, readwrite, _gap, _setGap:) NSNumber* gap;
-@property (nonatomic, assign, readonly, _isSectionOperation) NSNumber* isSectionOperation;
-@property (nonatomic, retain, readwrite, _newIndexPath, _setNewIndexPath:) NSIndexPath* newIndexPath;
+@property (nonatomic, assign, readonly, getter=_action) NSNumber* action;
+@property (nonatomic, assign, readonly, getter=_indexPath) NSIndexPath* indexPath;
+@property (nonatomic, assign, readwrite, getter=_gap, setter=_setGap:) NSNumber* gap;
+@property (nonatomic, assign, readonly, getter=_isSectionOperation) NSNumber* isSectionOperation;
+@property (nonatomic, retain, readwrite, getter=_newIndexPath, setter=_setNewIndexPath:) NSIndexPath* newIndexPath;
 
  - (id) description;
  - (void) dealloc;

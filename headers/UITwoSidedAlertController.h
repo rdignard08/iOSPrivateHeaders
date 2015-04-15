@@ -1,9 +1,9 @@
 
 @interface UITwoSidedAlertController : NSObject {
 
-    @"UIAlertView" _front;
-    @"UIAlertView" _back;
-    @"UIAlertView" _currentAlert;
+    UIAlertView _front;
+    UIAlertView _back;
+    UIAlertView _currentAlert;
     id _delegate;
 }
 

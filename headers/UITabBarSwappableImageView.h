@@ -7,7 +7,7 @@
     BOOL _showAlternate;
     BOOL _flipped;
     int _currentAnimation;
-    @"UITabBar" _tabBar;
+    UITabBar _tabBar;
     int _buttonTag;
 }
 

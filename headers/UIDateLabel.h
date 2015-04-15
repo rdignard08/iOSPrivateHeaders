@@ -2,15 +2,15 @@
 @interface UIDateLabel : UILabel {
 
     BOOL _forceTimeOnly;
-    @"NSDate" _date;
+    NSDate _date;
     BOOL _boldForAllLocales;
-    @"NSDate" _yesterday;
-    @"NSDate" _today;
-    @"NSDate" _noon;
-    @"NSDate" _tomorrow;
-    @"NSDate" _previousWeek;
-    @"UIFont" _timeDesignatorFont;
-    @"NSCalendar" _calendar;
+    NSDate _yesterday;
+    NSDate _today;
+    NSDate _noon;
+    NSDate _tomorrow;
+    NSDate _previousWeek;
+    UIFont _timeDesignatorFont;
+    NSCalendar _calendar;
     BOOL _shouldRecomputeText;
     double _paddingFromTimeToDesignator;
 }

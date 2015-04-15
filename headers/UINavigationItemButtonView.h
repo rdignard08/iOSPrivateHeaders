@@ -4,10 +4,10 @@
 
     long long _style;
     BOOL _pressed;
-    @"_UIBarButtonItemAppearanceStorage" _appearanceStorage;
+    _UIBarButtonItemAppearanceStorage _appearanceStorage;
     BOOL _customBackgroundImageChangedToOrFromNil;
-    @"UIImageView" _backgroundImageView;
-    @"UIImageView" _imageView;
+    UIImageView _backgroundImageView;
+    UIImageView _imageView;
     BOOL _wantsBlendModeForAccessibilityBackgrounds;
     unsigned long long _abbreviatedTitleIndex;
 }

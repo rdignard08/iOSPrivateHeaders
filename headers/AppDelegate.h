@@ -2,7 +2,7 @@
 @protocol UIApplicationDelegate;
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
 
-    @"UIWindow" _window;
+    UIWindow _window;
 }
 
  - (void) crap;

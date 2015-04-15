@@ -8,13 +8,13 @@
     BOOL _hasSecondaryCandidates;
     BOOL _needsLayout;
     int _candidatesVisualStyle;
-    @"NSArray" _candidateGroups;
+    NSArray _candidateGroups;
     unsigned long long _columnsCount;
     {?="idiom"b6"landscape"b1"split"b1"appearance"b8"rendering"b16} _visualStyling;
     double _headerViewHeight;
-    @"NSSet" _emphasizedCandidates;
-    @"NSMutableArray" _cellAttributes;
-    @"NSMutableDictionary" _supplementaryAttributes;
+    NSSet _emphasizedCandidates;
+    NSMutableArray _cellAttributes;
+    NSMutableDictionary _supplementaryAttributes;
 }
  + (Class) layoutAttributesClass;
  + (void) deemphasizeLastItemIfNeeded:(id)a;

@@ -1,7 +1,7 @@
 
 @interface WebAVMediaSelectionOption : NSObject {
 
-    @"NSString" _localizedDisplayName;
+    NSString _localizedDisplayName;
 }
 @property (atomic, retain, readwrite) NSString* localizedDisplayName;
 

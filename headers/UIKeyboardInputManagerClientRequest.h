@@ -1,7 +1,7 @@
 
 @interface UIKeyboardInputManagerClientRequest : NSObject {
 
-    @"NSInvocation" _invocation;
+    NSInvocation _invocation;
     unsigned long long _errorCount;
 }
 @property (nonatomic, assign, readonly) NSInvocation* invocation;

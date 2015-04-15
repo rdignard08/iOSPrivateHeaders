@@ -1,11 +1,11 @@
 
 @interface UISystemInputViewController : UIInputViewController {
 
-    @"NSMutableDictionary" _accessoryViews;
-    @"NSMutableDictionary" _accessoryConstraints;
-    @"UIResponder<UITextInput>" _persistentDelegate;
-    @"UIKeyboard" _keyboard;
-    @"NSArray" _keyboardConstraits;
+    NSMutableDictionary _accessoryViews;
+    NSMutableDictionary _accessoryConstraints;
+    UIResponder<UITextInput> _persistentDelegate;
+    UIKeyboard _keyboard;
+    NSArray _keyboardConstraits;
 }
  + (BOOL) _requiresProxyInterface;
 

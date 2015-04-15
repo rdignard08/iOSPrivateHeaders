@@ -1,7 +1,7 @@
 
 @interface WebDownload : NSURLDownload {
 
-    @"WebDownloadInternal" _webInternal;
+    WebDownloadInternal _webInternal;
 }
 
  - (void) dealloc;

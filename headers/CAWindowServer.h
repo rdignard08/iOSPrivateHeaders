@@ -4,9 +4,9 @@
     ^{CAWindowServerImpl=^{__CFArray}I} _impl;
 }
 @property (atomic, assign, readonly) NSArray* displays;
-@property (atomic, assign, readwrite, isMirroringEnabled) NSNumber* mirroringEnabled;
+@property (atomic, assign, readwrite, getter=isMirroringEnabled) NSNumber* mirroringEnabled;
 @property (atomic, assign, readwrite) NSNumber* rendererFlags;
-@property (atomic, assign, readwrite, isSecure) NSNumber* secure;
+@property (atomic, assign, readwrite, getter=isSecure) NSNumber* secure;
  + (id) contextWithOptions:(id)a;
  + (id) server;
  + (id) serverIfRunning;

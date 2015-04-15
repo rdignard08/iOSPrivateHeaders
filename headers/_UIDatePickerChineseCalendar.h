@@ -1,7 +1,7 @@
 
 @interface _UIDatePickerChineseCalendar : NSCalendar {
 
-    @"NSCalendar" realCalendar;
+    NSCalendar realCalendar;
 }
  + (id) cyclicalFromRelated:(id)a;
  + (id) relatedFromCyclical:(id)a;

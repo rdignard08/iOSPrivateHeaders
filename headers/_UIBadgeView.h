@@ -1,9 +1,9 @@
 
 @interface _UIBadgeView : UIView {
 
-    @"UIView" _value;
-    @"UIView" _background;
-    @"UIView" _alternate;
+    UIView _value;
+    UIView _background;
+    UIView _alternate;
 }
 
  - (void) dealloc;

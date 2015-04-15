@@ -1,7 +1,7 @@
 
 @interface _UIAlertControllerTextField : UITextField {
 
-    @"_UIAlertControllerTextFieldView" _textFieldView;
+    _UIAlertControllerTextFieldView _textFieldView;
 }
 
  - (id) textFieldView;

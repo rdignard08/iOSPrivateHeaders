@@ -3,8 +3,8 @@
 
     int m_currentInputModeIndex;
     BOOL m_keyboardSettingsFromSwitcher;
-    @"NSMutableArray" m_inputModes;
-    @"UISwitch" m_predictiveSwitch;
+    NSMutableArray m_inputModes;
+    UISwitch m_predictiveSwitch;
 }
  + (id) sharedInstance;
  + (id) activeInstance;

@@ -10,9 +10,9 @@
 @property (atomic, copy, readwrite) NSString* name;
 @property (atomic, assign, readwrite) NSNumber* stackSize;
 @property (atomic, assign, readonly) NSNumber* isMainThread;
-@property (atomic, assign, readonly, isExecuting) NSNumber* executing;
-@property (atomic, assign, readonly, isFinished) NSNumber* finished;
-@property (atomic, assign, readonly, isCancelled) NSNumber* cancelled;
+@property (atomic, assign, readonly, getter=isExecuting) NSNumber* executing;
+@property (atomic, assign, readonly, getter=isFinished) NSNumber* finished;
+@property (atomic, assign, readonly, getter=isCancelled) NSNumber* cancelled;
  + (id) currentThread;
  + (double) threadPriority;
  + (BOOL) setThreadPriority:(double)a;

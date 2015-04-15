@@ -1,7 +1,7 @@
 
 @interface UIPasteboard : NSObject {
 
-    @"NSString" _name;
+    NSString _name;
 }
 @property (nonatomic, copy, readwrite) NSString* string;
 @property (nonatomic, copy, readwrite) NSArray* strings;
@@ -12,7 +12,7 @@
 @property (nonatomic, copy, readwrite) UIColor* color;
 @property (nonatomic, copy, readwrite) NSArray* colors;
 @property (nonatomic, assign, readonly) NSString* name;
-@property (nonatomic, assign, readwrite, isPersistent) NSNumber* persistent;
+@property (nonatomic, assign, readwrite, getter=isPersistent) NSNumber* persistent;
 @property (nonatomic, assign, readonly) NSNumber* changeCount;
 @property (nonatomic, assign, readonly) NSNumber* numberOfItems;
 @property (nonatomic, copy, readwrite) NSArray* items;

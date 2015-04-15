@@ -10,9 +10,9 @@
     BOOL _bezel;
     int _bezelStyle;
     int _currentAnimation;
-    @"UIToolbar" _buttonBar;
+    UIToolbar _buttonBar;
     int _buttonTag;
-    @"_UISwappableImageViewAnimationProxy" _proxy;
+    _UISwappableImageViewAnimationProxy _proxy;
     long long _barButtonItemStyle;
     BOOL _didDisableWindowAutorotation;
     id _didFinishTarget;

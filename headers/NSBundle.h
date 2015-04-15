@@ -10,7 +10,7 @@
     id _reserved3;
     id _lock;
 }
-@property (atomic, assign, readonly, isLoaded) NSNumber* loaded;
+@property (atomic, assign, readonly, getter=isLoaded) NSNumber* loaded;
 @property (atomic, copy, readonly) NSURL* bundleURL;
 @property (atomic, copy, readonly) NSURL* resourceURL;
 @property (atomic, copy, readonly) NSURL* executableURL;

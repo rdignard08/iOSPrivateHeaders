@@ -1,7 +1,7 @@
 
 @interface WebTiledBackingLayer : CALayer {
 
-    {OwnPtr<WebCore::TileController>="m_ptr"^{TileController}} _tileController;
+    m_ptr _tileController;
 }
 
  - (id) .cxx_construct;

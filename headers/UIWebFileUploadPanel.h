@@ -2,19 +2,19 @@
 @protocol UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIPopoverControllerDelegate;
 @interface UIWebFileUploadPanel : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIPopoverControllerDelegate> {
 
-    @"UIAlertController" _selectPickerTypeSheet;
-    @"UIImagePickerController" _imagePicker;
-    @"UIViewController" _presentationViewController;
-    @"UIPopoverController" _presentationPopover;
+    UIAlertController _selectPickerTypeSheet;
+    UIImagePickerController _imagePicker;
+    UIViewController _presentationViewController;
+    UIPopoverController _presentationPopover;
     BOOL _documentViewPresentedViewController;
     {CGPoint="x"d"y"d} _interactionPoint;
-    @"DOMNode" _interactionElement;
+    DOMNode _interactionElement;
     BOOL _allowMultipleFiles;
     BOOL _isUsingCamera;
-    @"NSArray" _mimeTypes;
-    @"UIWebDocumentView" _documentView;
-    @"NSObject<WebOpenPanelResultListener>" _resultListener;
-    @"<UIWebFileUploadPanelDelegate>" _delegate;
+    NSArray _mimeTypes;
+    UIWebDocumentView _documentView;
+    NSObject<WebOpenPanelResultListener> _resultListener;
+    <UIWebFileUploadPanelDelegate> _delegate;
 }
 
  - (void) dealloc;

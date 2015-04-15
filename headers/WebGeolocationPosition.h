@@ -1,7 +1,7 @@
 
 @interface WebGeolocationPosition : NSObject {
 
-    @"WebGeolocationPositionInternal" _internal;
+    WebGeolocationPositionInternal _internal;
 }
 
  - (void) dealloc;

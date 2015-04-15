@@ -1,12 +1,12 @@
 
 @interface TIInputModeController : NSObject {
 
-    @"NSArray" _supportedInputModeIdentifiers;
-    @"NSArray" _supportedInputModeLanguageAndRegions;
-    @"NSString" currentLocale;
-    @"NSString" currentLanguage;
-    @"NSArray" enabledInputModes;
-    @"NSArray" defaultInputModes;
+    NSArray _supportedInputModeIdentifiers;
+    NSArray _supportedInputModeLanguageAndRegions;
+    NSString currentLocale;
+    NSString currentLanguage;
+    NSArray enabledInputModes;
+    NSArray defaultInputModes;
 }
 @property (atomic, assign, readonly) NSArray* supportedInputModeIdentifiers;
 @property (atomic, assign, readonly) NSArray* supportedInputModeLanguageAndRegions;

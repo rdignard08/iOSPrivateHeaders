@@ -1,7 +1,7 @@
 
 @interface CIMaximumComponent : CIFilter {
 
-    @"CIImage" inputImage;
+    CIImage inputImage;
 }
  + (id) customAttributes;
 

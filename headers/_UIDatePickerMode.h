@@ -1,33 +1,33 @@
 
 @interface _UIDatePickerMode : NSObject {
 
-    @"NSDateComponents" _selectedDateComponents;
-    @"NSDateComponents" _baseDateComponents;
+    NSDateComponents _selectedDateComponents;
+    NSDateComponents _baseDateComponents;
     ^Q _elements;
     long long _yearsSinceBaseDate;
     {_NSRange="location"Q"length"Q} _maxDayRange;
     {_NSRange="location"Q"length"Q} _maxMonthRange;
-    @"NSString" _localizedFormatString;
-    @"NSArray" _dateFormatters;
-    @"UIColor" _todayTextColor;
-    @"UIFont" _amPmFont;
-    @"UIFont" _font;
-    @"UIFont" _defaultTimeFont;
-    @"NSString" _amString;
-    @"NSString" _pmString;
-    @"NSDateComponents" _todayDateComponents;
-    @"NSNumberFormatter" _formatter;
-    @"_UIDatePickerView" _datePickerView;
+    NSString _localizedFormatString;
+    NSArray _dateFormatters;
+    UIColor _todayTextColor;
+    UIFont _amPmFont;
+    UIFont _font;
+    UIFont _defaultTimeFont;
+    NSString _amString;
+    NSString _pmString;
+    NSDateComponents _todayDateComponents;
+    NSNumberFormatter _formatter;
+    _UIDatePickerView _datePickerView;
     BOOL _isUsingJapaneseCalendar;
     unsigned long long _numberOfComponents;
     long long _minuteInterval;
     double _todaySinceReferenceDate;
-    @"NSDate" _minimumDate;
-    @"NSDateComponents" _minimumDateComponents;
-    @"NSDate" _maximumDate;
-    @"NSDateComponents" _maximumDateComponents;
-    @"NSDate" _baseDate;
-    @"NSDate" _originatingDate;
+    NSDate _minimumDate;
+    NSDateComponents _minimumDateComponents;
+    NSDate _maximumDate;
+    NSDateComponents _maximumDateComponents;
+    NSDate _baseDate;
+    NSDate _originatingDate;
 }
 @property (nonatomic, assign, readonly) NSNumber* datePickerMode;
 @property (nonatomic, assign, readonly) NSNumber* rowHeight;
@@ -43,8 +43,8 @@
 @property (nonatomic, assign, readonly) NSDateComponents* maximumDateComponents;
 @property (nonatomic, retain, readwrite) NSDateComponents* selectedDateComponents;
 @property (nonatomic, assign, readonly) NSNumber* totalComponentWidth;
-@property (nonatomic, assign, readonly, is24Hour) NSNumber* is24Hour;
-@property (nonatomic, assign, readonly, isTimeIntervalMode) NSNumber* isTimeIntervalMode;
+@property (nonatomic, assign, readonly, getter=is24Hour) NSNumber* is24Hour;
+@property (nonatomic, assign, readonly, getter=isTimeIntervalMode) NSNumber* isTimeIntervalMode;
 @property (nonatomic, assign, readwrite) _UIDatePickerView* datePickerView;
 @property (nonatomic, assign, readonly) UIFont* amPmFont;
 @property (nonatomic, assign, readonly) UIFont* font;

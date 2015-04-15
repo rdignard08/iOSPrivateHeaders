@@ -1,8 +1,8 @@
 
 @interface UISpringBoardHostedView : UIView {
 
-    @"NSString" _remoteViewIdentifier;
-    @"UIWindow" _remoteWindow;
+    NSString _remoteViewIdentifier;
+    UIWindow _remoteWindow;
     BOOL _remoteViewOpaque;
 }
 

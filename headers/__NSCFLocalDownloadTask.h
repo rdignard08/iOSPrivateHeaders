@@ -8,13 +8,13 @@
     BOOL _didIssueNeedFinish;
     int _seqNo;
     @? _fileCompletion;
-    @"__NSCFLocalDownloadFile" _downloadFile;
-    @"NSObject<OS_dispatch_data>" _writeBuffer;
+    __NSCFLocalDownloadFile _downloadFile;
+    NSObject<OS_dispatch_data> _writeBuffer;
     unsigned long long _ioSuspend;
     unsigned long long _totalWrote;
     @? _resumeCallback;
     long long _initialResumeSize;
-    @"NSDictionary" _originalResumeInfo;
+    NSDictionary _originalResumeInfo;
     unsigned long long __transientWriteProgress;
     @? __afterDidReportProgressOnQueue;
 }

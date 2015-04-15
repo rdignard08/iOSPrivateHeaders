@@ -1,9 +1,9 @@
 
 @interface _UIMonogramView : UIView {
 
-    @"NSString" _name;
-    @"NSString" _monogram;
-    @"UILabel" _label;
+    NSString _name;
+    NSString _monogram;
+    UILabel _label;
 }
 
  - (id) name;

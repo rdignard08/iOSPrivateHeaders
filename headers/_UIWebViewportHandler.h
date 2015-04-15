@@ -7,7 +7,7 @@
     unsigned int _webkitDefinedConfigurationFlags;
     {CGSize="width"d"height"d} _availableViewSize;
     BOOL _classicViewportMode;
-    @"<_UIWebViewportHandlerDelegate>" _delegate;
+    <_UIWebViewportHandlerDelegate> _delegate;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _documentBounds;
 }
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
@@ -18,7 +18,7 @@
 @property (nonatomic, assign, readonly) NSNumber* maximumScale;
 @property (nonatomic, assign, readonly) NSNumber* allowsUserScaling;
 @property (nonatomic, assign, readonly) NSNumber* webkitDefinedConfigurationFlags;
-@property (nonatomic, assign, readonly, isClassicViewportMode) NSNumber* classicViewportMode;
+@property (nonatomic, assign, readonly, getter=isClassicViewportMode) NSNumber* classicViewportMode;
 @property (nonatomic, assign, readonly) NSNumber* rawViewConfiguration;
 
  - (id) .cxx_construct;

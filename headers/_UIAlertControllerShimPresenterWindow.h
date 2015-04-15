@@ -1,7 +1,7 @@
 
 @interface _UIAlertControllerShimPresenterWindow : UIWindow {
 
-    @"UIAlertController" _alertController;
+    UIAlertController _alertController;
 }
  + (BOOL) _isSystemWindow;
 

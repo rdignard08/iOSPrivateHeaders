@@ -2,7 +2,7 @@
 @protocol NSCoding, NSCopying;
 @interface NSTextList : NSObject <NSCoding, NSCopying> {
 
-    @"NSString" _markerFormat;
+    NSString _markerFormat;
     unsigned long long _listFlags;
     long long _startIndex;
     ^v _listSecondary;

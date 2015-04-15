@@ -1,11 +1,11 @@
 
 @interface UIWebPaginationInfo : NSObject {
 
-    @"NSObject<WebDocumentView>" _documentView;
+    NSObject<WebDocumentView> _documentView;
     double _scaleFactor;
     {CGSize="width"d"height"d} _layoutSize;
-    @"NSArray" _pageRects;
-    @"UIWebDocumentView" _webDocumentView;
+    NSArray _pageRects;
+    UIWebDocumentView _webDocumentView;
 }
 @property (nonatomic, assign, readonly) NSNumber* pageCount;
 @property (nonatomic, assign, readonly) NSNumber* lastPageHeight;

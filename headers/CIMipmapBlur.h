@@ -1,8 +1,8 @@
 
 @interface CIMipmapBlur : CIFilter {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputLevel;
+    CIImage inputImage;
+    NSNumber inputLevel;
 }
  + (id) customAttributes;
 

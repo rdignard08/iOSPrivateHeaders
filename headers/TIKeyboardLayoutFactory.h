@@ -2,7 +2,7 @@
 @interface TIKeyboardLayoutFactory : NSObject {
 
     ^v _layoutsLibraryHandle;
-    @"NSMutableDictionary" _internalCache;
+    NSMutableDictionary _internalCache;
 }
 @property (nonatomic, assign, readonly) NSNumber* layoutsLibraryHandle;
 @property (atomic, retain, readwrite) NSMutableDictionary* internalCache;

@@ -1,7 +1,7 @@
 
 @interface UIMenuItem : NSObject {
 
-    @"NSString" _title;
+    NSString _title;
     SEL _action;
     BOOL _dontDismiss;
 }

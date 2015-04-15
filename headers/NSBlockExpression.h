@@ -2,7 +2,7 @@
 @interface NSBlockExpression : NSExpression {
 
     @? _block;
-    @"NSArray" _arguments;
+    NSArray _arguments;
 }
 
  - (id) predicateFormat;

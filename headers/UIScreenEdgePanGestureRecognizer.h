@@ -2,7 +2,7 @@
 @protocol _UIScreenEdgePanRecognizerDelegate;
 @interface UIScreenEdgePanGestureRecognizer : UIPanGestureRecognizer <_UIScreenEdgePanRecognizerDelegate> {
 
-    @"_UIScreenEdgePanRecognizer" _recognizer;
+    _UIScreenEdgePanRecognizer _recognizer;
 }
 
  - (void) reset;

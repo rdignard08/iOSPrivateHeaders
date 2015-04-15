@@ -2,9 +2,9 @@
 @protocol SSDownloadManagerObserver;
 @interface NSAsyncSSDownloadManager : NSObject <SSDownloadManagerObserver> {
 
-    @"SSDownloadManager" _manager;
-    @"NSOperationQueue" _queue;
-    @"NSMutableDictionary" _downloads;
+    SSDownloadManager _manager;
+    NSOperationQueue _queue;
+    NSMutableDictionary _downloads;
     BOOL _reconnectInProgress;
 }
 

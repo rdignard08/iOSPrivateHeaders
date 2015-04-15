@@ -6,16 +6,16 @@
     double _finishProgress;
     double _finishDuration;
     double _finalTransitionStartTime;
-    @"CADisplayLink" _displayLink;
+    CADisplayLink _displayLink;
     @? _completionBlock;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _startFrame;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _endFrame;
-    @"<UIKeyboardKeyplaneTransitionDelegate>" _transitionDelegate;
-    @"<UIKeyboardSplitTransitionDataSource>" _transitionDataSource;
+    <UIKeyboardKeyplaneTransitionDelegate> _transitionDelegate;
+    <UIKeyboardSplitTransitionDataSource> _transitionDataSource;
     BOOL _centerFilled;
     BOOL _isRebuilding;
     BOOL _isSplitTranslation;
-    @"UIKeyboardSliceSet" _sliceSet;
+    UIKeyboardSliceSet _sliceSet;
 }
 
  - (@?) completionBlock;

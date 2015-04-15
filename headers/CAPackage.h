@@ -4,7 +4,7 @@
     ^{_CAPackageData=@@@BB@@} _data;
 }
 @property (atomic, assign, readonly) CALayer* rootLayer;
-@property (atomic, assign, readonly, isGeometryFlipped) NSNumber* geometryFlipped;
+@property (atomic, assign, readonly, getter=isGeometryFlipped) NSNumber* geometryFlipped;
  + (id) packageWithData:(id)atype:(id)boptions:(id)cerror:(^@)d;
  + (id) packageWithContentsOfURL:(id)atype:(id)boptions:(id)cerror:(^@)d;
 

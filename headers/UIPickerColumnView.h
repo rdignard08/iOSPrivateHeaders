@@ -2,18 +2,18 @@
 @protocol UIPickerTableViewContainerDelegate, UITableViewDataSource;
 @interface UIPickerColumnView : UIView <UIPickerTableViewContainerDelegate, UITableViewDataSource> {
 
-    @"UIPickerTableView" _topTable;
-    @"UIPickerTableView" _middleTable;
-    @"UIPickerTableView" _bottomTable;
-    @"UIView" _topContainerView;
-    @"UIView" _middleContainerView;
-    @"UIView" _bottomContainerView;
+    UIPickerTableView _topTable;
+    UIPickerTableView _middleTable;
+    UIPickerTableView _bottomTable;
+    UIView _topContainerView;
+    UIView _middleContainerView;
+    UIView _bottomContainerView;
     double _middleBarHeight;
     double _rowHeight;
-    @"UIPickerView" _pickerView;
+    UIPickerView _pickerView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _tableFrame;
     {CATransform3D="m11"d"m12"d"m13"d"m14"d"m21"d"m22"d"m23"d"m24"d"m31"d"m32"d"m33"d"m34"d"m41"d"m42"d"m43"d"m44"d} _perspectiveTransform;
-    @"UIColor" __textColor;
+    UIColor __textColor;
     double _leftHitTestExtension;
     double _rightHitTestExtension;
 }

@@ -1,15 +1,15 @@
 
 @interface UICollectionViewData : NSObject {
 
-    @"UICollectionView" _collectionView;
-    @"UICollectionViewLayout" _layout;
-    @"NSMapTable" _screenPageMap;
-    @"NSMutableIndexSet" _globalIndexesOfItemsAwaitingValidation;
+    UICollectionView _collectionView;
+    UICollectionViewLayout _layout;
+    NSMapTable _screenPageMap;
+    NSMutableIndexSet _globalIndexesOfItemsAwaitingValidation;
     ^@ _globalItems;
-    @"NSMutableDictionary" _supplementaryLayoutAttributes;
-    @"NSMutableDictionary" _decorationLayoutAttributes;
-    @"NSMutableDictionary" _invalidatedSupplementaryIndexPaths;
-    @"NSMutableDictionary" _invalidatedDecorationIndexPaths;
+    NSMutableDictionary _supplementaryLayoutAttributes;
+    NSMutableDictionary _decorationLayoutAttributes;
+    NSMutableDictionary _invalidatedSupplementaryIndexPaths;
+    NSMutableDictionary _invalidatedDecorationIndexPaths;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _validLayoutRect;
     long long _numItems;
     long long _numSections;
@@ -17,13 +17,13 @@
     long long _lastSectionTestedForNumberOfItemsBeforeSection;
     long long _lastResultForNumberOfItemsBeforeSection;
     {CGSize="width"d"height"d} _contentSize;
-    @"NSMutableArray" _clonedCellAttributes;
-    @"NSMutableArray" _clonedSupplementaryAttributes;
-    @"NSMutableArray" _clonedDecorationAttributes;
+    NSMutableArray _clonedCellAttributes;
+    NSMutableArray _clonedSupplementaryAttributes;
+    NSMutableArray _clonedDecorationAttributes;
     {?="contentSizeIsValid"b1"itemCountsAreValid"b1"layoutIsPrepared"b1"layoutLocked"b1} _collectionViewDataFlags;
 }
 @property (nonatomic, assign, readonly) NSNumber* layoutIsPrepared;
-@property (nonatomic, assign, readwrite, isLayoutLocked) NSNumber* layoutLocked;
+@property (nonatomic, assign, readwrite, getter=isLayoutLocked) NSNumber* layoutLocked;
 @property (nonatomic, assign, readonly) NSArray* clonedCellAttributes;
 @property (nonatomic, assign, readonly) NSArray* clonedSupplementaryAttributes;
 @property (nonatomic, assign, readonly) NSArray* clonedDecorationAttributes;

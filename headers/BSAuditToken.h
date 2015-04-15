@@ -2,7 +2,7 @@
 @protocol NSCopying, BSXPCCoding;
 @interface BSAuditToken : NSObject <NSCopying, BSXPCCoding> {
 
-    {?="val"[8I]} _auditToken;
+    val _auditToken;
 }
 @property (nonatomic, assign, readonly) NSNumber* realToken;
  + (id) tokenFromMachMessage:(^{?=IIIIIi})a;

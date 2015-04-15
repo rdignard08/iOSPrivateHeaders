@@ -1,8 +1,8 @@
 
 @interface UIDictationPhrase : NSObject {
 
-    @"NSString" _text;
-    @"NSArray" _alternativeInterpretations;
+    NSString _text;
+    NSArray _alternativeInterpretations;
 }
 @property (nonatomic, assign, readonly) NSString* text;
 @property (nonatomic, assign, readonly) NSArray* alternativeInterpretations;

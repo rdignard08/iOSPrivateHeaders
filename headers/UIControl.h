@@ -1,7 +1,7 @@
 
 @interface UIControl : UIView {
 
-    @"NSMutableArray" _targetActions;
+    NSMutableArray _targetActions;
     {CGPoint="x"d"y"d} _previousPoint;
     double _downTime;
     {?="disabled"b1"tracking"b1"touchInside"b1"touchDragged"b1"requiresDisplayOnTracking"b1"highlighted"b1"dontHighlightOnTouchDown"b1"delayActions"b1"allowActionsToQueue"b1"pendingUnhighlight"b1"selected"b1"verticalAlignment"b2"horizontalAlignment"b2"wasLastHighlightSuccessful"b1"touchHasHighlighted"b1} _controlFlags;

@@ -3,8 +3,8 @@
 
     ^{__CFDictionary=} _dictionary;
     unsigned long long _maxCount;
-    @"CPLRUDictionaryNode" _head;
-    @"CPLRUDictionaryNode" _tail;
+    CPLRUDictionaryNode _head;
+    CPLRUDictionaryNode _tail;
 }
  + (id) dictionaryWithMaximumCapacity:(unsigned long long)a;
 

@@ -1,7 +1,7 @@
 
 @interface CIZoomBlur : CILinearBlur {
 
-    @"CIVector" inputCenter;
+    CIVector inputCenter;
 }
  + (id) customAttributes;
 

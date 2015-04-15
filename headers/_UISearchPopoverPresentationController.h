@@ -2,7 +2,7 @@
 @protocol _UISearchControllerPresenting;
 @interface _UISearchPopoverPresentationController : UIPopoverPresentationController <_UISearchControllerPresenting> {
 
-    @"_UISearchPresentationAssistant" _assistant;
+    _UISearchPresentationAssistant _assistant;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} finalFrameForContainerView;
 }
 

@@ -1,7 +1,7 @@
 
 @interface CTFeatureSetting : NSDictionary {
 
-    @"NSDictionary" _dictionary;
+    NSDictionary _dictionary;
 }
 
  - (id) selector;

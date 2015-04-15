@@ -3,7 +3,7 @@
 
     BOOL _visible;
     double _effectScale;
-    @"NSMutableDictionary" _effectList;
+    NSMutableDictionary _effectList;
 }
 @property (atomic, assign, readwrite) NSNumber* visible;
 @property (atomic, assign, readwrite) NSNumber* effectScale;

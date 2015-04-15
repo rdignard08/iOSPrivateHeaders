@@ -1,8 +1,8 @@
 
 @interface UIRemoteSheetInfo : NSObject {
 
-    @"UIView" _sheetView;
-    @"UISpringBoardHostedView" _remoteView;
+    UIView _sheetView;
+    UISpringBoardHostedView _remoteView;
     id _delegate;
     SEL _selector;
     ^v _context;

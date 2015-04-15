@@ -1,12 +1,12 @@
 
 @interface NSXPCDecoder : NSXPCCoder {
 
-    @"NSObject<OS_xpc_object>" _oolObjects;
-    @"NSXPCInterface" _interface;
+    NSObject<OS_xpc_object> _oolObjects;
+    NSXPCInterface _interface;
     SEL _replyToSelector;
     unsigned long long _genericIndex;
     ^^v _decoder;
-    @"NSXPCConnection" _connection;
+    NSXPCConnection _connection;
     [128^{?}] _collections;
     {?="offset"Q"type"i} _rootObject;
     unsigned int _collectionPointer;

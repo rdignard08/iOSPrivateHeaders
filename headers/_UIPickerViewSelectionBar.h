@@ -1,7 +1,7 @@
 
 @interface _UIPickerViewSelectionBar : UIView {
 
-    @"UIPickerView" _pickerView;
+    UIPickerView _pickerView;
 }
 
  - (void) setPickerView:(id)a;

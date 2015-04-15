@@ -1,7 +1,7 @@
 
 @interface UIRuntimeOutletCollectionConnection : UIRuntimeConnection {
 
-    @"NSString" runtimeCollectionClassName;
+    NSString runtimeCollectionClassName;
     BOOL addsContentToExistingCollection;
 }
 

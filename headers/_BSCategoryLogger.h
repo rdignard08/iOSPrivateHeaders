@@ -2,8 +2,8 @@
 @protocol BSLogging;
 @interface _BSCategoryLogger : NSObject <BSLogging> {
 
-    @"NSString" _name;
-    @"NSString" _category;
+    NSString _name;
+    NSString _category;
 }
 @property (nonatomic, retain, readwrite) NSString* name;
 @property (nonatomic, retain, readwrite) NSString* category;

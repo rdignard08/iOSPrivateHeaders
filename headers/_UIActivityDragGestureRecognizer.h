@@ -2,8 +2,8 @@
 @protocol UIAutoscrollDelegate, _UIScrollNotification;
 @interface _UIActivityDragGestureRecognizer : UILongPressGestureRecognizer <UIAutoscrollDelegate, _UIScrollNotification> {
 
-    @"UIScrollView" _targetScrollView;
-    @"UIAutoscroll" _autoscroll;
+    UIScrollView _targetScrollView;
+    UIAutoscroll _autoscroll;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _draggingInsets;
 }
 

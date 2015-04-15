@@ -2,12 +2,12 @@
 @protocol NSCopying, NSMutableCopying, NSCoding;
 @interface CASpring : NSObject <NSCopying, NSMutableCopying, NSCoding> {
 
-    @"NSString" _name;
-    @"CALayer" _layerA;
-    @"CALayer" _layerB;
+    NSString _name;
+    CALayer _layerA;
+    CALayer _layerB;
     {CGPoint="x"d"y"d} _attachmentPointA;
     {CGPoint="x"d"y"d} _attachmentPointB;
-    @"CAValueFunction" _function;
+    CAValueFunction _function;
     double _stiffness;
     double _damping;
     double _restLength;
@@ -16,7 +16,7 @@
     ^v _priv;
 }
 @property (atomic, copy, readwrite) NSString* name;
-@property (atomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (atomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (atomic, retain, readwrite) CALayer* layerA;
 @property (atomic, retain, readwrite) CALayer* layerB;
 @property (atomic, assign, readwrite) NSNumber* attachmentPointA;

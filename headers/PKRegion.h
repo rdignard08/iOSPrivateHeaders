@@ -4,11 +4,11 @@
 
     int _shape;
     BOOL _isExclusive;
-    {vec4="v"} _halfExtent;
+    v _halfExtent;
     {shared_ptr<PKCPathHolder>="__ptr_"^{PKCPathHolder}"__cntrl_"^{__shared_weak_count}} _path;
     int _regionOp;
     int _shape2;
-    {vec4="v"} _halfExtent2;
+    v _halfExtent2;
     {shared_ptr<PKCPathHolder>="__ptr_"^{PKCPathHolder}"__cntrl_"^{__shared_weak_count}} _path2;
 }
 @property (nonatomic, assign, readonly) NSNumber* path;

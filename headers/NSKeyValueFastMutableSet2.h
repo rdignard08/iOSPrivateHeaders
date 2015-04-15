@@ -1,7 +1,7 @@
 
 @interface NSKeyValueFastMutableSet2 : NSKeyValueFastMutableSet {
 
-    @"NSKeyValueGetter" _valueGetter;
+    NSKeyValueGetter _valueGetter;
 }
  + (^{?=Q[4@]}) _proxyNonGCPoolPointer;
 

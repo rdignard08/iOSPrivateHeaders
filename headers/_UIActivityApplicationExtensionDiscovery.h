@@ -4,7 +4,7 @@
     BOOL _sourceIsManaged;
     BOOL _matchesOnlyUserElectedExtensions;
     BOOL _performsInitialMatching;
-    @"NSArray" _extensionPointIdentifiers;
+    NSArray _extensionPointIdentifiers;
     id _extensionMatchingContext;
 }
 @property (nonatomic, copy, readwrite) NSArray* extensionPointIdentifiers;

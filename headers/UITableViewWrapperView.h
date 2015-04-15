@@ -1,7 +1,7 @@
 
 @interface UITableViewWrapperView : UIScrollView {
 
-    @"NSMutableArray" _stuckToBackViews;
+    NSMutableArray _stuckToBackViews;
 }
 
  - (void) dealloc;

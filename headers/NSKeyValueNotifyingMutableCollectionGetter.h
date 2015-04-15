@@ -1,7 +1,7 @@
 
 @interface NSKeyValueNotifyingMutableCollectionGetter : NSKeyValueProxyGetter {
 
-    @"NSKeyValueProxyGetter" _mutableCollectionGetter;
+    NSKeyValueProxyGetter _mutableCollectionGetter;
 }
 
  - (id) initWithContainerClassID:(id)akey:(id)bmutableCollectionGetter:(id)cproxyClass:(Class)d;

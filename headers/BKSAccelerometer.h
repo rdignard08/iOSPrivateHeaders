@@ -1,14 +1,14 @@
 
 @interface BKSAccelerometer : NSObject {
 
-    @"<BKSAccelerometerDelegate>" _delegate;
+    <BKSAccelerometerDelegate> _delegate;
     ^{__CFRunLoopSource=} _accelerometerEventsSource;
     ^{__CFRunLoop=} _accelerometerEventsRunLoop;
     double _interval;
-    @"NSLock" _lock;
+    NSLock _lock;
     int _orientationCheckToken;
     int _orientationNotificationsToken;
-    @"NSThread" _orientationEventsThread;
+    NSThread _orientationEventsThread;
     unsigned int _orientationPort;
     BOOL _passiveOrientationEvents;
     BOOL _orientationEventsEnabled;

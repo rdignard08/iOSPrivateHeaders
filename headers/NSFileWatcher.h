@@ -1,20 +1,20 @@
 
 @interface NSFileWatcher : NSObject {
 
-    @"NSObject<OS_dispatch_queue>" _queue;
-    @"NSURL" _url;
+    NSObject<OS_dispatch_queue> _queue;
+    NSURL _url;
     @? _observer;
     BOOL _isWatching;
-    @"NSObject<OS_dispatch_source>" _eventSource;
+    NSObject<OS_dispatch_source> _eventSource;
     unsigned long long _lastObservedEventID;
     ^{__FSEventStream=} _eventStream;
     BOOL _eventsAreAboutDirectory;
     BOOL _isUnsettled;
-    @"NSFileWatcherObservations" _itemObservations;
-    @"NSMutableDictionary" _subitemObservationsByEventPath;
-    @"NSURL" _fileReferenceURL;
-    @"NSString" _formerPath;
-    @"NSURL" _formerURL;
+    NSFileWatcherObservations _itemObservations;
+    NSMutableDictionary _subitemObservationsByEventPath;
+    NSURL _fileReferenceURL;
+    NSString _formerPath;
+    NSURL _formerURL;
 }
 
  - (void) stop;

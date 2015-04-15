@@ -2,14 +2,14 @@
 @protocol NSCoding, NSCopying;
 @interface UIButtonContent : NSObject <NSCoding, NSCopying> {
 
-    @"NSString" title;
-    @"NSAttributedString" attributedTitle;
-    @"UIImage" image;
-    @"UIImage" background;
-    @"UIColor" titleColor;
-    @"UIColor" imageColor;
-    @"UIColor" shadowColor;
-    @"NSNumber" drawingStroke;
+    NSString title;
+    NSAttributedString attributedTitle;
+    UIImage image;
+    UIImage background;
+    UIColor titleColor;
+    UIColor imageColor;
+    UIColor shadowColor;
+    NSNumber drawingStroke;
 }
 @property (nonatomic, retain, readwrite) NSString* title;
 @property (nonatomic, retain, readwrite) NSAttributedString* attributedTitle;

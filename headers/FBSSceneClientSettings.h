@@ -4,8 +4,8 @@
 
     double _preferredLevel;
     long long _preferredInterfaceOrientation;
-    @"NSSet" _occlusions;
-    @"BSSettings" _otherSettings;
+    NSSet _occlusions;
+    BSSettings _otherSettings;
 }
 @property (nonatomic, assign, readonly) NSNumber* preferredLevel;
 @property (nonatomic, assign, readonly) NSNumber* preferredInterfaceOrientation;

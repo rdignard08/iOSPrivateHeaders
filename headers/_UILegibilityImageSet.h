@@ -1,8 +1,8 @@
 
 @interface _UILegibilityImageSet : NSObject {
 
-    @"UIImage" _image;
-    @"UIImage" _shadowImage;
+    UIImage _image;
+    UIImage _shadowImage;
 }
 @property (nonatomic, retain, readwrite) UIImage* image;
 @property (nonatomic, retain, readwrite) UIImage* shadowImage;

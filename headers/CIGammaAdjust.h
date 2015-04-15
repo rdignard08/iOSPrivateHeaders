@@ -1,8 +1,8 @@
 
 @interface CIGammaAdjust : CIFilter {
 
-    @"CIImage" inputImage;
-    @"NSNumber" inputPower;
+    CIImage inputImage;
+    NSNumber inputPower;
 }
  + (id) customAttributes;
 

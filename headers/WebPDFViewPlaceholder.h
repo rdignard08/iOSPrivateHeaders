@@ -2,12 +2,12 @@
 @protocol WebPDFDocumentView, WebPDFDocumentRepresentation;
 @interface WebPDFViewPlaceholder : WAKView <WebPDFDocumentView, WebPDFDocumentRepresentation> {
 
-    @"NSString" _title;
-    @"NSArray" _pageRects;
-    @"NSArray" _pageYOrigins;
+    NSString _title;
+    NSArray _pageRects;
+    NSArray _pageYOrigins;
     ^{CGPDFDocument=} _document;
-    @"WebDataSource" _dataSource;
-    @"NSObject<WebPDFViewPlaceholderDelegate>" _delegate;
+    WebDataSource _dataSource;
+    NSObject<WebPDFViewPlaceholderDelegate> _delegate;
     BOOL _didFinishLoadAndMemoryMap;
     {CGSize="width"d"height"d} _containerSize;
     BOOL _didCompleteLayout;

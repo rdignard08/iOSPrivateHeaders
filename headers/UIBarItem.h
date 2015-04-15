@@ -5,15 +5,15 @@
     BOOL _hasCustomizableInstanceAppearanceModifications;
     BOOL _shouldArchiveUIAppearanceTags;
 }
-@property (nonatomic, assign, readwrite, isEnabled) NSNumber* enabled;
+@property (nonatomic, assign, readwrite, getter=isEnabled) NSNumber* enabled;
 @property (nonatomic, copy, readwrite) NSString* title;
 @property (nonatomic, retain, readwrite) UIImage* image;
 @property (nonatomic, retain, readwrite) UIImage* landscapeImagePhone;
 @property (nonatomic, assign, readwrite) NSNumber* imageInsets;
 @property (nonatomic, assign, readwrite) NSNumber* landscapeImagePhoneInsets;
 @property (nonatomic, assign, readwrite) NSNumber* tag;
-@property (nonatomic, assign, readwrite, _setHasCustomizableInstanceAppearanceModifications:) NSNumber* _hasCustomizableInstanceAppearanceModifications;
-@property (nonatomic, assign, readwrite, _setShouldArchiveUIAppearanceTags:) NSNumber* _shouldArchiveUIAppearanceTags;
+@property (nonatomic, assign, readwrite, setter=_setHasCustomizableInstanceAppearanceModifications:) NSNumber* _hasCustomizableInstanceAppearanceModifications;
+@property (nonatomic, assign, readwrite, setter=_setShouldArchiveUIAppearanceTags:) NSNumber* _shouldArchiveUIAppearanceTags;
  + (id) _appearanceWhenContainedIn:(id)a;
  + (id) appearance;
  + (id) _appearanceRecorder;

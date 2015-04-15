@@ -13,7 +13,7 @@
     float _coefficient;
     float _priority;
 }
-@property (atomic, assign, readwrite, _encodedConstant, _setEncodedConstant:) _NSLayoutConstraintConstant* encodedConstant;
+@property (atomic, assign, readwrite, getter=_encodedConstant, setter=_setEncodedConstant:) _NSLayoutConstraintConstant* encodedConstant;
 @property (atomic, assign, readwrite) NSNumber* priority;
 @property (atomic, assign, readwrite) NSNumber* shouldBeArchived;
 @property (atomic, assign, readwrite) NSNumber* firstItem;
@@ -23,12 +23,12 @@
 @property (atomic, assign, readwrite) NSNumber* secondAttribute;
 @property (atomic, assign, readwrite) NSNumber* multiplier;
 @property (atomic, assign, readwrite) NSNumber* constant;
-@property (atomic, assign, readwrite, isActive) NSNumber* active;
+@property (atomic, assign, readwrite, getter=isActive) NSNumber* active;
 @property (atomic, copy, readwrite) NSString* identifier;
 @property (atomic, assign, readonly) NSNumber* hasBeenLowered;
 @property (atomic, assign, readwrite) NSNumber* container;
 @property (atomic, copy, readwrite) NSString* symbolicConstant;
-@property (nonatomic, assign, readwrite, _loweredConstantNeedsUpdate, _setLoweredConstantNeedsUpdate:) NSNumber* loweredConstantNeedsUpdate;
+@property (nonatomic, assign, readwrite, getter=_loweredConstantNeedsUpdate, setter=_setLoweredConstantNeedsUpdate:) NSNumber* loweredConstantNeedsUpdate;
  + (BOOL) _UIWantsMarginAttributeSupport;
  + (id) constraintWithItem:(id)aattribute:(long long)brelatedBy:(long long)ctoItem:(id)dattribute:(long long)emultiplier:(double)fsymbolicConstant:(id)g;
  + (id) constraintWithItem:(id)aattribute:(long long)brelatedBy:(long long)ctoItem:(id)dattribute:(long long)emultiplier:(double)fconstant:(double)g;

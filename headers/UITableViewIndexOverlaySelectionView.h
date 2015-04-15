@@ -2,9 +2,9 @@
 @protocol UICollectionViewDataSource, UICollectionViewDelegate;
 @interface UITableViewIndexOverlaySelectionView : UIView <UICollectionViewDataSource, UICollectionViewDelegate> {
 
-    @"UICollectionView" _collectionView;
-    @"UITableViewIndexOverlaySelectionViewCollectionViewFlowLayout" _flowLayout;
-    @"UITableView" _table;
+    UICollectionView _collectionView;
+    UITableViewIndexOverlaySelectionViewCollectionViewFlowLayout _flowLayout;
+    UITableView _table;
 }
 
  - (void) reloadData;

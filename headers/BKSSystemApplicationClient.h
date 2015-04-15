@@ -1,11 +1,11 @@
 
 @interface BKSSystemApplicationClient : BSBaseXPCClient {
 
-    @"NSObject<OS_dispatch_queue>" _callOutQueue;
+    NSObject<OS_dispatch_queue> _callOutQueue;
     BOOL _pendingCheckIn;
     BOOL _sentConnect;
-    @"NSObject<OS_dispatch_semaphore>" _checkinSemaphore;
-    @"<BKSSystemApplicationClientDelegate>" _delegate;
+    NSObject<OS_dispatch_semaphore> _checkinSemaphore;
+    <BKSSystemApplicationClientDelegate> _delegate;
 }
 
  - (void) dealloc;

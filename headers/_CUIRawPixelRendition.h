@@ -4,8 +4,8 @@
     unsigned int _nimages;
     [16^{CGImage}] _image;
     ^{CGImage=} _unslicedImage;
-    @"CUIRenditionMetrics" _renditionMetrics;
-    @"CUIRenditionSliceInformation" _sliceInformation;
+    CUIRenditionMetrics _renditionMetrics;
+    CUIRenditionSliceInformation _sliceInformation;
 }
 
  - (void) dealloc;

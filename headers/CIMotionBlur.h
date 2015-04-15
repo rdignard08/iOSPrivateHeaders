@@ -1,7 +1,7 @@
 
 @interface CIMotionBlur : CILinearBlur {
 
-    @"NSNumber" inputAngle;
+    NSNumber inputAngle;
 }
  + (id) customAttributes;
 

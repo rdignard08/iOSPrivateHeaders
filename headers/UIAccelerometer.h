@@ -2,9 +2,9 @@
 @interface UIAccelerometer : NSObject {
 
     double _updateInterval;
-    @"<UIAccelerometerDelegate>" _delegate;
+    <UIAccelerometerDelegate> _delegate;
     {?="delegateDidAccelerate"b1"reserved"b31} _accelerometerFlags;
-    @"CMMotionManager" _motionManager;
+    CMMotionManager _motionManager;
 }
 @property (nonatomic, assign, readwrite) NSNumber* updateInterval;
 @property (nonatomic, assign, readwrite) NSNumber* delegate;

@@ -1,8 +1,8 @@
 
 @interface UIKeyboardEmojiCollectionViewCell : UICollectionViewCell {
 
-    @"UILabel" _emojiLabel;
-    @"UIKeyboardEmoji" _emoji;
+    UILabel _emojiLabel;
+    UIKeyboardEmoji _emoji;
 }
 
  - (void) dealloc;

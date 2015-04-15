@@ -1,7 +1,7 @@
 
 @interface CICodeGenerator : CIFilter {
 
-    @"NSData" inputMessage;
+    NSData inputMessage;
 }
 
  - (id) outputImage;

@@ -1,7 +1,7 @@
 
 @interface CAStateRemoveElement : CAStateElement {
 
-    @"NSString" _keyPath;
+    NSString _keyPath;
     id _object;
 }
 

@@ -2,7 +2,7 @@
 @interface UIWebPDFLinkAction : NSObject {
 
     int type;
-    @"NSString" title;
+    NSString title;
     @? handler;
 }
 @property (nonatomic, copy, readwrite) NSString* title;

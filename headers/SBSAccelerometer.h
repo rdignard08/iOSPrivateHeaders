@@ -2,8 +2,8 @@
 @protocol BKSAccelerometerDelegate;
 @interface SBSAccelerometer : NSObject <BKSAccelerometerDelegate> {
 
-    @"<SBSAccelerometerDelegate>" _delegate;
-    @"BKSAccelerometer" _bksMirror;
+    <SBSAccelerometerDelegate> _delegate;
+    BKSAccelerometer _bksMirror;
 }
 @property (nonatomic, assign, readwrite) NSNumber* accelerometerEventsEnabled;
 @property (nonatomic, assign, readwrite) NSNumber* updateInterval;

@@ -4,7 +4,7 @@
     b3 _reserved;
     b29 _retainCount;
     {_NSRange="location"Q"length"Q} _range;
-    @"NSData" _data;
+    NSData _data;
 }
 
  - (BOOL) _isCompact;

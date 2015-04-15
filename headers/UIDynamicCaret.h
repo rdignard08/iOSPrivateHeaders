@@ -2,14 +2,14 @@
 @protocol UIKeyboardCandidateList, _UIDynamicCaretDocumentContentDelegate;
 @interface UIDynamicCaret : UIImageView <UIKeyboardCandidateList, _UIDynamicCaretDocumentContentDelegate> {
 
-    @"<UIKeyboardCandidateListDelegate>" _candidateListDelegate;
+    <UIKeyboardCandidateListDelegate> _candidateListDelegate;
     long long _selectedIndex;
     BOOL _justDeleted;
-    @"_UIDynamicCaretInput" _inputView;
-    @"_UIDynamicCaretAlternatives" _alternativesView;
-    @"_UIDynamicCaretNoContentView" _noContentView;
-    @"_UIDynamicCaretHelpLabel" _helpLabel;
-    @"TIKeyboardCandidateResultSet" _candidateSet;
+    _UIDynamicCaretInput _inputView;
+    _UIDynamicCaretAlternatives _alternativesView;
+    _UIDynamicCaretNoContentView _noContentView;
+    _UIDynamicCaretHelpLabel _helpLabel;
+    TIKeyboardCandidateResultSet _candidateSet;
 }
 
  - (BOOL) isActive;

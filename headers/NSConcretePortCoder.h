@@ -1,7 +1,7 @@
 
 @interface NSConcretePortCoder : NSPortCoder {
 
-    @"NSSet" whitelist;
+    NSSet whitelist;
 }
 
  - (void) _setWhitelist:(id)a;

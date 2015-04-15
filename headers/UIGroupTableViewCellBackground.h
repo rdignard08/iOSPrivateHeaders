@@ -6,12 +6,12 @@
     long long _animationCount;
     long long _selectionStyle;
     long long _separatorStyle;
-    @"UIView" _topSeparatorView;
-    @"UIView" _bottomSeparatorView;
-    @"UIColor" _selectionTintColor;
+    UIView _topSeparatorView;
+    UIView _bottomSeparatorView;
+    UIColor _selectionTintColor;
     double _sectionBorderWidth;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _separatorInset;
-    {?="selected"b1} _groupBackgroundFlags;
+    selected _groupBackgroundFlags;
 }
  + (void) initialize;
  + (void) _flushCacheOnNotification:(id)a;

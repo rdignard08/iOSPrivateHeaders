@@ -3,7 +3,7 @@
 @interface NSPort : NSObject <NSCopying, NSCoding> {
 
 }
-@property (atomic, assign, readonly, isValid) NSNumber* valid;
+@property (atomic, assign, readonly, getter=isValid) NSNumber* valid;
 @property (atomic, assign, readonly) NSNumber* reservedSpaceLength;
  + (id) portWithMachPort:(unsigned int)a;
  + (id) allocWithZone:(^{_NSZone=})a;

@@ -2,8 +2,8 @@
 @interface _UISiriWaveyView : UIView {
 
     {?="m_axisX"{?="m_x"f"m_y"f"m_z"f"m_w"f}"m_axisY"{?="m_x"f"m_y"f"m_z"f"m_w"f}"m_axisZ"{?="m_x"f"m_y"f"m_z"f"m_w"f}"m_trans"{?="m_x"f"m_y"f"m_z"f"m_w"f}} _projection;
-    @"CADisplayLink" _displayLink;
-    @"EAGLContext" _eaglContext;
+    CADisplayLink _displayLink;
+    EAGLContext _eaglContext;
     unsigned int _framebufferHandle;
     unsigned int _renderbufferHandle;
     unsigned int _vertexBufferHandle;
@@ -27,9 +27,9 @@
     BOOL _isInitialized;
     BOOL _justStarted;
     int _state;
-    @"UIScreen" _screen;
+    UIScreen _screen;
     int _mode;
-    @"<_UISiriWaveyViewDelegate>" _delegate;
+    <_UISiriWaveyViewDelegate> _delegate;
 }
  + (Class) layerClass;
 

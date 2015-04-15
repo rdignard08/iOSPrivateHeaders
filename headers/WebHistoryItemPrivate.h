@@ -1,7 +1,7 @@
 
 @interface WebHistoryItemPrivate : NSObject {
 
-    {RefPtr<WebCore::HistoryItem>="m_ptr"^{HistoryItem}} _historyItem;
+    m_ptr _historyItem;
     double _lastVisitedTime;
 }
 

@@ -1,10 +1,10 @@
 
 @interface UIWKAutocorrectionContext : NSObject {
 
-    @"NSString" _contextBeforeSelection;
-    @"NSString" _selectedText;
-    @"NSString" _contextAfterSelection;
-    @"NSString" _markedText;
+    NSString _contextBeforeSelection;
+    NSString _selectedText;
+    NSString _contextAfterSelection;
+    NSString _markedText;
     {_NSRange="location"Q"length"Q} _rangeInMarkedText;
 }
 @property (nonatomic, copy, readwrite) NSString* contextBeforeSelection;

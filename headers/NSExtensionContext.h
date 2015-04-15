@@ -3,24 +3,24 @@
 @interface NSExtensionContext : NSObject <NSSecureCoding, NSCopying, NSXPCListenerDelegate, _NSExtensionAuxHostingBase> {
 
     BOOL __dummyExtension;
-    @"NSArray" _inputItems;
-    @"NSUUID" __UUID;
+    NSArray _inputItems;
+    NSUUID __UUID;
     @? __requestCleanUpBlock;
-    @"<_NSExtensionContextHosting>" __extensionHostProxy;
-    @"<_NSExtensionContextVending>" __extensionVendorProxy;
-    @"NSXPCConnection" __auxiliaryConnection;
-    @"NSXPCListener" __auxiliaryListener;
+    <_NSExtensionContextHosting> __extensionHostProxy;
+    <_NSExtensionContextVending> __extensionVendorProxy;
+    NSXPCConnection __auxiliaryConnection;
+    NSXPCListener __auxiliaryListener;
     id __principalObject;
 }
 @property (nonatomic, copy, readwrite) NSArray* inputItems;
 @property (nonatomic, copy, readwrite) NSUUID* _UUID;
-@property (nonatomic, copy, readwrite, _setRequestCleanUpBlock:) NSNumber* _requestCleanUpBlock;
-@property (nonatomic, retain, readwrite, _setExtensionHostProxy:) NSNumber* _extensionHostProxy;
-@property (nonatomic, retain, readwrite, _setExtensionVendorProxy:) NSNumber* _extensionVendorProxy;
-@property (nonatomic, retain, readwrite, _setAuxiliaryConnection:) NSXPCConnection* _auxiliaryConnection;
-@property (nonatomic, retain, readwrite, _setAuxiliaryListener:) NSXPCListener* _auxiliaryListener;
-@property (nonatomic, assign, readwrite, _setPrincipalObject:) NSNumber* _principalObject;
-@property (nonatomic, assign, readwrite, _isDummyExtension, _setDummyExtension:) NSNumber* _dummyExtension;
+@property (nonatomic, copy, readwrite, setter=_setRequestCleanUpBlock:) NSNumber* _requestCleanUpBlock;
+@property (nonatomic, retain, readwrite, setter=_setExtensionHostProxy:) NSNumber* _extensionHostProxy;
+@property (nonatomic, retain, readwrite, setter=_setExtensionVendorProxy:) NSNumber* _extensionVendorProxy;
+@property (nonatomic, retain, readwrite, setter=_setAuxiliaryConnection:) NSXPCConnection* _auxiliaryConnection;
+@property (nonatomic, retain, readwrite, setter=_setAuxiliaryListener:) NSXPCListener* _auxiliaryListener;
+@property (nonatomic, assign, readwrite, setter=_setPrincipalObject:) NSNumber* _principalObject;
+@property (nonatomic, assign, readwrite, getter=_isDummyExtension, setter=_setDummyExtension:) NSNumber* _dummyExtension;
  + (BOOL) supportsSecureCoding;
  + (void) initialize;
  + (id) _extensionContextHostProtocol;

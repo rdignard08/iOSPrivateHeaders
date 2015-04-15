@@ -1,11 +1,11 @@
 
 @interface _UIBackdropViewSettingsCombiner : _UIBackdropViewSettings {
 
-    @"_UIBackdropViewSettings" _inputSettingsA;
-    @"_UIBackdropViewSettings" _inputSettingsB;
+    _UIBackdropViewSettings _inputSettingsA;
+    _UIBackdropViewSettings _inputSettingsB;
     double _weighting;
-    @"_UIBackdropViewSettings" _outputSettingsA;
-    @"_UIBackdropViewSettings" _outputSettingsB;
+    _UIBackdropViewSettings _outputSettingsA;
+    _UIBackdropViewSettings _outputSettingsB;
 }
 
  - (void) dealloc;

@@ -4,12 +4,12 @@
     double _currentOverlap;
     ^{CGContext=} _imageContext;
     double _imageContextScale;
-    @"_UILegibilityView" _legibilityView;
+    _UILegibilityView _legibilityView;
     BOOL _visible;
     BOOL _allowsUpdates;
-    @"UIStatusBarItem" _item;
-    @"UIStatusBarLayoutManager" _layoutManager;
-    @"UIStatusBarForegroundStyleAttributes" _foregroundStyle;
+    UIStatusBarItem _item;
+    UIStatusBarLayoutManager _layoutManager;
+    UIStatusBarForegroundStyleAttributes _foregroundStyle;
 }
  + (id) createViewForItem:(id)awithData:(id)bactions:(int)cforegroundStyle:(id)d;
 

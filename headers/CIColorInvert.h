@@ -1,7 +1,7 @@
 
 @interface CIColorInvert : CIFilter {
 
-    @"CIImage" inputImage;
+    CIImage inputImage;
 }
  + (id) customAttributes;
 

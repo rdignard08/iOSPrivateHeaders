@@ -1,10 +1,10 @@
 
 @interface WebPluginDatabase : NSObject {
 
-    @"NSMutableDictionary" plugins;
-    @"NSMutableSet" registeredMIMETypes;
-    @"NSArray" plugInPaths;
-    @"NSMutableSet" pluginInstanceViews;
+    NSMutableDictionary plugins;
+    NSMutableSet registeredMIMETypes;
+    NSArray plugInPaths;
+    NSMutableSet pluginInstanceViews;
 }
  + (id) sharedDatabaseIfExists;
  + (id) sharedDatabase;

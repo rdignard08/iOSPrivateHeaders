@@ -1,8 +1,8 @@
 
 @interface NSFilePromiseWriteToken : NSObject {
 
-    @"NSURL" promiseURL;
-    @"NSURL" logicalURL;
+    NSURL promiseURL;
+    NSURL logicalURL;
 }
 @property (atomic, copy, readwrite) NSURL* promiseURL;
 @property (atomic, copy, readwrite) NSURL* logicalURL;

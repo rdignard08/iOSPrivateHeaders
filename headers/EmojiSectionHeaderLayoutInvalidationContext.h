@@ -1,7 +1,7 @@
 
 @interface EmojiSectionHeaderLayoutInvalidationContext : UICollectionViewFlowLayoutInvalidationContext {
 
-    @"NSMutableIndexSet" _invalidatedSections;
+    NSMutableIndexSet _invalidatedSections;
     ^{__CFDictionary=} _headerWidthDict;
 }
 

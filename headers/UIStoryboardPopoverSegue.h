@@ -1,11 +1,11 @@
 
 @interface UIStoryboardPopoverSegue : UIStoryboardSegue {
 
-    @"UIPopoverController" _popoverController;
-    @"NSArray" _passthroughViews;
+    UIPopoverController _popoverController;
+    NSArray _passthroughViews;
     unsigned long long _permittedArrowDirections;
-    @"UIView" _anchorView;
-    @"UIBarButtonItem" _anchorBarButtonItem;
+    UIView _anchorView;
+    UIBarButtonItem _anchorBarButtonItem;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _anchorRect;
 }
 

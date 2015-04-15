@@ -2,7 +2,7 @@
 @protocol NSFastEnumeration, BSXPCCoding;
 @interface BSXPCCodingArray : NSObject <NSFastEnumeration, BSXPCCoding> {
 
-    @"NSArray" _array;
+    NSArray _array;
 }
 
  - (void) dealloc;

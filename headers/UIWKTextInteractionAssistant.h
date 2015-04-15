@@ -2,14 +2,14 @@
 @interface UIWKTextInteractionAssistant : UITextInteractionAssistant {
 
     long long _selectionOperation;
-    @"_UITextServiceSession" _definitionSession;
-    @"_UITextServiceSession" _learnSession;
-    @"UITextChecker" _textChecker;
+    _UITextServiceSession _definitionSession;
+    _UITextServiceSession _learnSession;
+    UITextChecker _textChecker;
     unsigned long long _options;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _caretBeforeTap;
-    @"NSString" _wordBeforeTap;
-    @"UITapGestureRecognizer" _singleTapGesture;
-    @"UILongPressGestureRecognizer" _loupeGesture;
+    NSString _wordBeforeTap;
+    UITapGestureRecognizer _singleTapGesture;
+    UILongPressGestureRecognizer _loupeGesture;
 }
 
  - (void) dealloc;

@@ -2,7 +2,7 @@
 @protocol _CTGlyphStorageAdvanceLookup;
 @interface _CTMutableGlyphStorage : _CTGlyphStorage <_CTGlyphStorageAdvanceLookup> {
 
-    @"CTGlyphStorageInterface" _interface;
+    CTGlyphStorageInterface _interface;
 }
 
  - (void) setProps:(unsigned int)aatIndex:(long long)b;

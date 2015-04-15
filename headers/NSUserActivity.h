@@ -8,9 +8,9 @@
 @property (atomic, retain, readonly) NSUUID* _uniqueIdentifier;
 @property (atomic, assign, readonly) NSNumber* _suggestedActionType;
 @property (atomic, copy, readonly) NSDate* _lastActivityDate;
-@property (atomic, copy, readwrite, _setOptions:) NSDictionary* _options;
-@property (atomic, copy, readwrite, _setFrameworkPayload:) NSDictionary* _frameworkPayload;
-@property (atomic, weak, readwrite, _setFrameworkDelegate:) NSNumber* _frameworkDelegate;
+@property (atomic, copy, readwrite, setter=_setOptions:) NSDictionary* _options;
+@property (atomic, copy, readwrite, setter=_setFrameworkPayload:) NSDictionary* _frameworkPayload;
+@property (atomic, weak, readwrite, setter=_setFrameworkDelegate:) NSNumber* _frameworkDelegate;
 @property (atomic, copy, readonly) NSString* activityType;
 @property (atomic, copy, readwrite) NSString* title;
 @property (atomic, copy, readwrite) NSDictionary* userInfo;

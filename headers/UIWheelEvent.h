@@ -2,7 +2,7 @@
 @interface UIWheelEvent : UIInternalEvent {
 
     long long _recentScrollDistance;
-    @"NSMutableArray" _recentScrollEvents;
+    NSMutableArray _recentScrollEvents;
     long long lastSubtype;
 }
 

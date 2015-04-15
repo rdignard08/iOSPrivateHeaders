@@ -4,7 +4,7 @@
 
     BOOL _presentation;
 }
-@property (atomic, assign, readwrite, isPresentation) NSNumber* presentation;
+@property (atomic, assign, readwrite, getter=isPresentation) NSNumber* presentation;
 
  - (double) transitionDuration:(id)a;
  - (void) animateTransition:(id)a;

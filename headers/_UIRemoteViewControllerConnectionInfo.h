@@ -2,18 +2,18 @@
 @interface _UIRemoteViewControllerConnectionInfo : NSObject {
 
     BOOL _prefersStatusBarHidden;
-    @"_UIViewServiceInterface" _interface;
+    _UIViewServiceInterface _interface;
     id _viewControllerOperatorProxy;
     id _serviceViewControllerProxy;
     id _serviceViewControllerControlMessageProxy;
     id _textEffectsOperatorProxy;
-    @"NSArray" _serviceViewControllerSupportedInterfaceOrientations;
-    @"_UIViewServiceXPCMachSendRight" _serviceAccessibilityServerPortWrapper;
+    NSArray _serviceViewControllerSupportedInterfaceOrientations;
+    _UIViewServiceXPCMachSendRight _serviceAccessibilityServerPortWrapper;
     long long _preferredStatusBarStyle;
-    @"_UIHostedWindowHostingHandle" _hostedWindowHostingHandle;
-    @"_UIHostedWindowHostingHandle" _textEffectsWindowHostingHandle;
-    @"_UIHostedWindowHostingHandle" _textEffectsWindowAboveStatusBarHostingHandle;
-    @"_UIHostedWindowHostingHandle" _remoteKeyboardsWindowHostingHandle;
+    _UIHostedWindowHostingHandle _hostedWindowHostingHandle;
+    _UIHostedWindowHostingHandle _textEffectsWindowHostingHandle;
+    _UIHostedWindowHostingHandle _textEffectsWindowAboveStatusBarHostingHandle;
+    _UIHostedWindowHostingHandle _remoteKeyboardsWindowHostingHandle;
 }
 @property (atomic, retain, readwrite) _UIViewServiceInterface* interface;
 @property (atomic, retain, readwrite) NSNumber* viewControllerOperatorProxy;

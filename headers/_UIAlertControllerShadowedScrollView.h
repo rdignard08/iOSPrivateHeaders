@@ -1,7 +1,7 @@
 
 @interface _UIAlertControllerShadowedScrollView : UIScrollView {
 
-    @"_UIAlertControllerGradientView" _shadowView;
+    _UIAlertControllerGradientView _shadowView;
     BOOL _shouldPinToBottomOnResize;
 }
 

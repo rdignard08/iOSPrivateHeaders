@@ -4,8 +4,8 @@
 
     BOOL _allowsArchivingAsSubview;
     BOOL _horizontal;
-    @"NSArray" _constraintsToRemoveAtRuntime;
-    @"NSString" _archivedIdentifier;
+    NSArray _constraintsToRemoveAtRuntime;
+    NSString _archivedIdentifier;
 }
  + (id) classFallbacksForKeyedArchiver;
  + (id) _verticalLayoutGuide;

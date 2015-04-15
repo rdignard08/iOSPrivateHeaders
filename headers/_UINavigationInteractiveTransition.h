@@ -1,7 +1,7 @@
 
 @interface _UINavigationInteractiveTransition : _UINavigationInteractiveTransitionBase {
 
-    @"UIScreenEdgePanGestureRecognizer" _edgePanRecognizer;
+    UIScreenEdgePanGestureRecognizer _edgePanRecognizer;
 }
 
  - (void) dealloc;

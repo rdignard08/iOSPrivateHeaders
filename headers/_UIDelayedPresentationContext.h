@@ -3,10 +3,10 @@
 
     BOOL _enableUserInteraction;
     long long _reqcnt;
-    @"NSInvocation" _presentInvocation;
+    NSInvocation _presentInvocation;
     @? _cancellationHandler;
     double _timeout;
-    @"NSObject<OS_dispatch_source>" _timerSource;
+    NSObject<OS_dispatch_source> _timerSource;
 }
 @property (nonatomic, copy, readwrite) NSNumber* cancellationHandler;
 @property (nonatomic, retain, readwrite) NSInvocation* presentInvocation;

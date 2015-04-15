@@ -2,7 +2,7 @@
 @interface _UIDocumentActivityViewController : UIActivityViewController {
 
     BOOL hideSystemActivities;
-    @"UIDocumentInteractionController" _documentInteractionController;
+    UIDocumentInteractionController _documentInteractionController;
     BOOL _hideSystemActivities;
 }
 

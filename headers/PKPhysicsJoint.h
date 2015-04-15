@@ -5,8 +5,8 @@
     BOOL _inUse;
     BOOL _implicit;
     ^{b2Joint=^^?i^{b2Joint}^{b2Joint}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}^{b2Body}^{b2Body}BB^v} _baseJoint;
-    @"PKPhysicsBody" _bodyA;
-    @"PKPhysicsBody" _bodyB;
+    PKPhysicsBody _bodyA;
+    PKPhysicsBody _bodyB;
 }
 @property (nonatomic, assign, readwrite) NSNumber* _joint;
 @property (nonatomic, assign, readonly) NSNumber* _jointDef;

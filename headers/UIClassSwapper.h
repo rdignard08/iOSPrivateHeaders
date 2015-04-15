@@ -1,7 +1,7 @@
 
 @interface UIClassSwapper : NSObject {
 
-    @"NSString" className;
+    NSString className;
     id object;
 }
  + (id) swapperForObject:(id)awithClassName:(id)b;

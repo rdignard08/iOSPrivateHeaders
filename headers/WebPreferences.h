@@ -18,10 +18,10 @@
 @property (nonatomic, copy, readwrite) NSString* defaultTextEncodingName;
 @property (nonatomic, assign, readwrite) NSNumber* userStyleSheetEnabled;
 @property (nonatomic, retain, readwrite) NSURL* userStyleSheetLocation;
-@property (nonatomic, assign, readwrite, isJavaEnabled) NSNumber* javaEnabled;
-@property (nonatomic, assign, readwrite, isJavaScriptEnabled) NSNumber* javaScriptEnabled;
+@property (nonatomic, assign, readwrite, getter=isJavaEnabled) NSNumber* javaEnabled;
+@property (nonatomic, assign, readwrite, getter=isJavaScriptEnabled) NSNumber* javaScriptEnabled;
 @property (nonatomic, assign, readwrite) NSNumber* javaScriptCanOpenWindowsAutomatically;
-@property (nonatomic, assign, readwrite, arePlugInsEnabled) NSNumber* plugInsEnabled;
+@property (nonatomic, assign, readwrite, getter=arePlugInsEnabled) NSNumber* plugInsEnabled;
 @property (nonatomic, assign, readwrite) NSNumber* allowsAnimatedImages;
 @property (nonatomic, assign, readwrite) NSNumber* allowsAnimatedImageLooping;
 @property (nonatomic, assign, readwrite) NSNumber* loadsImagesAutomatically;

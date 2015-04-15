@@ -3,7 +3,7 @@
 
     int _lastVolume;
     BOOL _nextPage;
-    @"NSString" _currentInputMode;
+    NSString _currentInputMode;
     BOOL _currentInputModeEnablePrediction;
     BOOL _didShowHUD;
     BOOL _alwaysShowTypedText;

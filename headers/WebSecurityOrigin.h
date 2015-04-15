@@ -1,9 +1,9 @@
 
 @interface WebSecurityOrigin : NSObject {
 
-    @"WebSecurityOriginPrivate" _private;
-    @"<WebQuotaManager>" _applicationCacheQuotaManager;
-    @"<WebQuotaManager>" _databaseQuotaManager;
+    WebSecurityOriginPrivate _private;
+    <WebQuotaManager> _applicationCacheQuotaManager;
+    <WebQuotaManager> _databaseQuotaManager;
 }
  + (id) webSecurityOriginFromDatabaseIdentifier:(id)a;
 

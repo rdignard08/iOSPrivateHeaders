@@ -1,13 +1,13 @@
 
 @interface UICompatibilityInputViewController : UIInputViewController {
 
-    @"UIKeyboardInputMode" _inputMode;
-    @"UIKeyboard" _deferredSystemView;
-    @"UIKeyboardInputMode" _incomingExtensionInputMode;
+    UIKeyboardInputMode _inputMode;
+    UIKeyboard _deferredSystemView;
+    UIKeyboardInputMode _incomingExtensionInputMode;
     BOOL _shouldRegenerateSizingConstraints;
     BOOL _shouldSuppressRemoteInputController;
-    @"UIViewController" _inputController;
-    @"UIView" _inputControllerSnapshot;
+    UIViewController _inputController;
+    UIView _inputControllerSnapshot;
 }
  + (BOOL) _shouldForwardViewWillTransitionToSize;
  + (id) deferredInputModeControllerWithKeyboard:(id)a;

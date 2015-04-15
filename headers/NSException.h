@@ -2,9 +2,9 @@
 @protocol NSCopying, NSCoding;
 @interface NSException : NSObject <NSCopying, NSCoding> {
 
-    @"NSString" name;
-    @"NSString" reason;
-    @"NSDictionary" userInfo;
+    NSString name;
+    NSString reason;
+    NSDictionary userInfo;
     id reserved;
 }
 @property (atomic, copy, readonly) NSString* name;

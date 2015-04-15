@@ -1,8 +1,8 @@
 
 @interface NSConcreteProtocolChecker : NSProtocolChecker {
 
-    @"NSObject" _target;
-    @"Protocol" _protocol;
+    NSObject _target;
+    Protocol _protocol;
 }
 
  - (id) target;

@@ -1,11 +1,11 @@
 
 @interface CIStripesGenerator : CIFilter {
 
-    @"CIVector" inputCenter;
-    @"CIColor" inputColor0;
-    @"CIColor" inputColor1;
-    @"NSNumber" inputWidth;
-    @"NSNumber" inputSharpness;
+    CIVector inputCenter;
+    CIColor inputColor0;
+    CIColor inputColor1;
+    NSNumber inputWidth;
+    NSNumber inputSharpness;
 }
  + (id) customAttributes;
 

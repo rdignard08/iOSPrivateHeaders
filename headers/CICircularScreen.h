@@ -1,10 +1,10 @@
 
 @interface CICircularScreen : CIFilter {
 
-    @"CIImage" inputImage;
-    @"CIVector" inputCenter;
-    @"NSNumber" inputWidth;
-    @"NSNumber" inputSharpness;
+    CIImage inputImage;
+    CIVector inputCenter;
+    NSNumber inputWidth;
+    NSNumber inputSharpness;
 }
  + (id) customAttributes;
 

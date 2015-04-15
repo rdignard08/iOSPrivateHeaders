@@ -1,13 +1,13 @@
 
 @interface _UIToolbarAppearanceStorage : _UIBarAppearanceStorage {
 
-    @"UIImage" shadowImage;
-    @"UIImage" topShadowImage;
+    UIImage shadowImage;
+    UIImage topShadowImage;
     BOOL hidesShadow;
-    @"UIImage" _backgroundImage;
-    @"UIImage" _miniBackgroundImage;
-    @"UIImage" _topBackgroundImage;
-    @"UIImage" _miniTopBackgroundImage;
+    UIImage _backgroundImage;
+    UIImage _miniBackgroundImage;
+    UIImage _topBackgroundImage;
+    UIImage _miniTopBackgroundImage;
 }
  + (long long) typicalBarPosition;
 

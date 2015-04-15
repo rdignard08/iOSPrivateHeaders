@@ -3,7 +3,7 @@
 
     int _blendMode;
     double _opacity;
-    @"CUIColor" _color;
+    CUIColor _color;
 }
 
  - (void) dealloc;

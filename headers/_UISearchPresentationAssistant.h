@@ -2,13 +2,13 @@
 @protocol UIDimmingViewDelegate;
 @interface _UISearchPresentationAssistant : NSObject <UIDimmingViewDelegate> {
 
-    @"UIPresentationController" _searchPresentationController;
-    @"UIView" _searchBarContainerView;
-    @"UIDimmingView" _dimmingView;
+    UIPresentationController _searchPresentationController;
+    UIView _searchBarContainerView;
+    UIDimmingView _dimmingView;
     BOOL _isFormSheetPresentation;
     BOOL _presentationWasAnimated;
-    @"UIPresentationController<_UISearchControllerPresenting>" _adaptivePresentationController;
-    @"<UIViewControllerTransitionCoordinator>" _transitioningToSizeCoordinator;
+    UIPresentationController<_UISearchControllerPresenting> _adaptivePresentationController;
+    <UIViewControllerTransitionCoordinator> _transitioningToSizeCoordinator;
 }
 @property (nonatomic, assign, readwrite) NSNumber* presentationWasAnimated;
 @property (nonatomic, assign, readwrite) NSNumber* adaptivePresentationController;

@@ -1,8 +1,8 @@
 
 @interface UIWKSelectionAssistant : UIWebSelectionAssistant {
 
-    @"_UITextServiceSession" _definitionSession;
-    @"_UITextServiceSession" _learnSession;
+    _UITextServiceSession _definitionSession;
+    _UITextServiceSession _learnSession;
 }
 
  - (BOOL) gestureRecognizerShouldBegin:(id)a;

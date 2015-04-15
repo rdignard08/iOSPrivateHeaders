@@ -1,22 +1,22 @@
 
 @interface _UIAssetManager : NSObject {
 
-    @"_UICache" _imageCache;
-    @"CUICatalog" _catalog;
-    @"NSString" _assetManagerName;
+    _UICache _imageCache;
+    CUICatalog _catalog;
+    NSString _assetManagerName;
     long long _preferredIdiom;
     double _preferredScale;
     unsigned long long _preferredIdiomSubtype;
-    @"NSBundle" _bundle;
-    @"NSMapTable" _assetMap;
-    @"CUIMutableCatalog" _runtimeCatalog;
+    NSBundle _bundle;
+    NSMapTable _assetMap;
+    CUIMutableCatalog _runtimeCatalog;
     long long onceToken_runtimeCatalog;
-    @"UITraitCollection" _preferredTraitCollection;
-    @"_UIAssetManager" _starkAssetManager;
+    UITraitCollection _preferredTraitCollection;
+    _UIAssetManager _starkAssetManager;
     long long _starkAssetManagerOnceToken;
     BOOL _isStarkAssetManager;
     BOOL _managingUIKitAssets;
-    @"_UIAssetManager" _nextAssetManager;
+    _UIAssetManager _nextAssetManager;
 }
 @property (nonatomic, retain, readwrite) _UIAssetManager* nextAssetManager;
 @property (nonatomic, assign, readwrite) NSNumber* preferredScale;
@@ -24,7 +24,7 @@
 @property (nonatomic, assign, readonly) NSString* carFileName;
 @property (nonatomic, assign, readonly) CUIMutableCatalog* runtimeCatalog;
 @property (nonatomic, assign, readonly) NSBundle* bundle;
-@property (nonatomic, assign, readonly, _managingUIKitAssets) NSNumber* managingUIKitAssets;
+@property (nonatomic, assign, readonly, getter=_managingUIKitAssets) NSNumber* managingUIKitAssets;
  + (id) assetManagerForBundle:(id)a;
  + (id) createAssetNamed:(id)afromBundle:(id)b;
  + (long long) _userInterfaceIdiomForDeviceClass:(unsigned long long)a;

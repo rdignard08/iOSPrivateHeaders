@@ -1,7 +1,7 @@
 
 @interface _UIAlertControllerBlendingSeparatorView : UICollectionReusableView {
 
-    @"_UIBlendingHighlightView" _blendingHighlightView;
+    _UIBlendingHighlightView _blendingHighlightView;
 }
 
  - (void) applyLayoutAttributes:(id)a;

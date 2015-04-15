@@ -1,7 +1,7 @@
 
 @interface FBSWorkspaceSceneEvent : FBSWorkspaceEvent {
 
-    @"NSString" _sceneID;
+    NSString _sceneID;
 }
 
  - (void) dealloc;

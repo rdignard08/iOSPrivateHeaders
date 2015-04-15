@@ -3,7 +3,7 @@
 
     id _undoStack;
     id _redoStack;
-    @"NSArray" _runLoopModes;
+    NSArray _runLoopModes;
     unsigned long long _NSUndoManagerPrivate1;
     id _target;
     id _proxy;
@@ -11,14 +11,14 @@
     ^v _NSUndoManagerPrivate3;
 }
 @property (atomic, assign, readonly) NSNumber* groupingLevel;
-@property (atomic, assign, readonly, isUndoRegistrationEnabled) NSNumber* undoRegistrationEnabled;
+@property (atomic, assign, readonly, getter=isUndoRegistrationEnabled) NSNumber* undoRegistrationEnabled;
 @property (atomic, assign, readwrite) NSNumber* groupsByEvent;
 @property (atomic, assign, readwrite) NSNumber* levelsOfUndo;
 @property (atomic, copy, readwrite) NSArray* runLoopModes;
 @property (atomic, assign, readonly) NSNumber* canUndo;
 @property (atomic, assign, readonly) NSNumber* canRedo;
-@property (atomic, assign, readonly, isUndoing) NSNumber* undoing;
-@property (atomic, assign, readonly, isRedoing) NSNumber* redoing;
+@property (atomic, assign, readonly, getter=isUndoing) NSNumber* undoing;
+@property (atomic, assign, readonly, getter=isRedoing) NSNumber* redoing;
 @property (atomic, assign, readonly) NSNumber* undoActionIsDiscardable;
 @property (atomic, assign, readonly) NSNumber* redoActionIsDiscardable;
 @property (atomic, copy, readonly) NSString* undoActionName;

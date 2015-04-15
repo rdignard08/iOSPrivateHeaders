@@ -3,7 +3,7 @@
 @interface UIDOMHTMLOptionSelectedItem : NSObject <UIWebSelectedItemPrivate> {
 
     BOOL _selected;
-    @"DOMHTMLOptionElement" _node;
+    DOMHTMLOptionElement _node;
 }
 @property (nonatomic, retain, readwrite) DOMHTMLOptionElement* _node;
 

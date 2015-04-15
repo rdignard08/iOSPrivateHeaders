@@ -1,10 +1,10 @@
 
 @interface UIMorphingLabelGlyphSet : NSObject {
 
-    @"UIMorphingLabel" _label;
-    @"NSAttributedString" _attributedString;
+    UIMorphingLabel _label;
+    NSAttributedString _attributedString;
     ^{__CTLine=} _line;
-    @"NSMutableArray" _glyphViews;
+    NSMutableArray _glyphViews;
     unsigned long long _glyphCount;
     ^S _glyphs;
     ^{CGRect={CGPoint=dd}{CGSize=dd}} _glyphFrames;

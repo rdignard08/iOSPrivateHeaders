@@ -1,9 +1,9 @@
 
 @interface CUIMutableStructuredThemeStore : CUIStructuredThemeStore {
 
-    @"NSString" _identifier;
-    @"NSMutableDictionary" _memoryStore;
-    @"NSMutableDictionary" _nameIdentifierStore;
+    NSString _identifier;
+    NSMutableDictionary _memoryStore;
+    NSMutableDictionary _nameIdentifierStore;
     int _maxNameIdentifier;
 }
 

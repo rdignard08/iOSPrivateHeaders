@@ -2,11 +2,11 @@
 @protocol NSCopying, NSMutableCopying;
 @interface FBSSceneTransitionContext : NSObject <NSCopying, NSMutableCopying> {
 
-    @"BSAnimationSettings" _animationSettings;
-    @"BSMachSendRight" _animationFencePort;
-    @"NSSet" _actions;
-    @"BSMutableSettings" _otherSettings;
-    @"BSMutableSettings" _transientLocalClientSettings;
+    BSAnimationSettings _animationSettings;
+    BSMachSendRight _animationFencePort;
+    NSSet _actions;
+    BSMutableSettings _otherSettings;
+    BSMutableSettings _transientLocalClientSettings;
 }
 @property (nonatomic, copy, readwrite) BSAnimationSettings* animationSettings;
 @property (nonatomic, copy, readwrite) BSMachSendRight* animationFencePort;

@@ -2,7 +2,7 @@
 @interface UIWebOverflowScrollInfo : NSObject {
 
     BOOL _isUserScroll;
-    @"DOMNode" _node;
+    DOMNode _node;
     {CGPoint="x"d"y"d} _offset;
 }
 @property (nonatomic, retain, readwrite) DOMNode* node;

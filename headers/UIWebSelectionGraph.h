@@ -1,7 +1,7 @@
 
 @interface UIWebSelectionGraph : NSObject {
 
-    @"NSMutableArray" _selectionNodes;
+    NSMutableArray _selectionNodes;
 }
 
  - (void) dealloc;

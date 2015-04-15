@@ -2,7 +2,7 @@
 @interface _NSIndexSetEnumerator : NSEnumerator {
 
     @"NSIndexSet" _indexSet;
-    Q _index;
+    unsigned long long _index;
 }
 
  - (id) initWithIndexSet:(id)a;

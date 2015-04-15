@@ -3,7 +3,7 @@
 
     ^{__CFSet=} dictionary;
     @"NSData" data;
-    q size;
+    long long size;
 }
 
  - (void) dealloc;

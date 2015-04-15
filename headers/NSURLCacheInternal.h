@@ -1,11 +1,11 @@
 
 @interface NSURLCacheInternal : NSObject {
 
-    Q memoryCapacity;
-    Q diskCapacity;
+    unsigned long long memoryCapacity;
+    unsigned long long diskCapacity;
     @"NSString" diskPath;
-    Q currentMemoryUsage;
-    Q currentDiskUsage;
+    unsigned long long currentMemoryUsage;
+    unsigned long long currentDiskUsage;
     ^{_CFURLCache={__CFRuntimeBase=Q[4C]I}^{__CFURLCache}} _cacheRef;
 }
 

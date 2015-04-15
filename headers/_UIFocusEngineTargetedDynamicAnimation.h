@@ -2,24 +2,24 @@
 @interface _UIFocusEngineTargetedDynamicAnimation : _UIDynamicAnimation {
 
     @? _applier;
-    d _value;
-    d _targetValue;
-    d _convergenceRate;
-    d _minimumDifference;
+    double _value;
+    double _targetValue;
+    double _convergenceRate;
+    double _minimumDifference;
 }
 
  - (void) dealloc;
- - (id) initWithValue:(d)atargetValue:(d)bconvergenceRate:(d)cminimumDifference:(d)d;
+ - (id) initWithValue:(double)atargetValue:(double)bconvergenceRate:(double)cminimumDifference:(double)d;
  - (void) runWithValueApplier:(@?)acompletion:(@?)b;
- - (BOOL) _animateForInterval:(d)a;
- - (d) targetValue;
- - (void) setTargetValue:(d)a;
- - (d) convergenceRate;
- - (void) setConvergenceRate:(d)a;
- - (d) minimumDifference;
- - (void) setMinimumDifference:(d)a;
- - (void) setValue:(d)a;
- - (d) value;
+ - (BOOL) _animateForInterval:(double)a;
+ - (double) targetValue;
+ - (void) setTargetValue:(double)a;
+ - (double) convergenceRate;
+ - (void) setConvergenceRate:(double)a;
+ - (double) minimumDifference;
+ - (void) setMinimumDifference:(double)a;
+ - (void) setValue:(double)a;
+ - (double) value;
 
 
 @end

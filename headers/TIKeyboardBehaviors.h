@@ -6,7 +6,7 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) copyWithZone:(^{_NSZone=})a;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) keyBehaviorsForState:(id)a;
  - (void) encodeWithCoder:(id)a;

@@ -20,7 +20,7 @@
  - (id) _initFromProperties:(id)a;
  - (void) setInputShadowAmount:(id)a;
  - (void) setInputHighlightAmount:(id)a;
- - (i) bestVersion;
+ - (int) bestVersion;
  - (id) _kernelSnoB_v0;
  - (id) _kernelSHnoB_v0;
  - (id) _kernelSH_v0;

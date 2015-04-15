@@ -5,18 +5,18 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) finalize;
  - (BOOL) retainWeakReference;
  - (BOOL) allowsWeakReference;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (Q) _cfTypeID;
+ - (unsigned long long) _cfTypeID;
  - (void) encodeWithCoder:(id)a;
- - (I) _glyphForFont:(id)abaseString:(id)b;
+ - (unsigned int) _glyphForFont:(id)abaseString:(id)b;
  - (id) _baseString;
- - (Q) characterIdentifier;
- - (Q) characterCollection;
+ - (unsigned long long) characterIdentifier;
+ - (unsigned long long) characterCollection;
  - (id) glyphName;
 
 

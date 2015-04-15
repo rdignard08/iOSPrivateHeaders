@@ -6,7 +6,7 @@
  - (void) setText:(id)a;
  - (id) background;
  - (void) setBackground:(id)a;
- - (i) structuralComplexityContribution;
+ - (int) structuralComplexityContribution;
  - (void) setLink:(id)a;
  - (id) link;
  - (id) text;

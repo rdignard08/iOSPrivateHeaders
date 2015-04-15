@@ -3,9 +3,9 @@
 
     @"UIKBRenderConfig" _renderConfig;
     @"NSMutableArray" _segmentTraits;
-    d _rivenSizeFactor;
+    double _rivenSizeFactor;
     BOOL _lightweightFactory;
-    d _scale;
+    double _scale;
     BOOL _boldTextEnabled;
 }
 @property (nonatomic, assign, readwrite) NSNumber* scale;
@@ -15,14 +15,14 @@
 @property (nonatomic, assign, readwrite) NSNumber* lightweightFactory;
 @property (nonatomic, assign, readonly) NSNumber* boldTextEnabled;
  + (BOOL) _enabled;
- + (q) _graphicsQuality;
+ + (long long) _graphicsQuality;
  + (id) lightweightFactoryForVisualStyle:({?=b6b1b1b8b16})arenderConfig:(id)b;
  + (id) factoryForVisualStyle:({?=b6b1b1b8b16})arenderConfig:(id)b;
- + (id) cacheKeyForString:(id)awithRenderFlags:(q)brenderConfig:(id)c;
+ + (id) cacheKeyForString:(id)awithRenderFlags:(long long)brenderConfig:(id)c;
  + (id) segmentedControlColor:(BOOL)a;
  + (Class) factoryClassForVisualStyle:({?=b6b1b1b8b16})a;
 
- - (d) scale;
+ - (double) scale;
  - (void) dealloc;
  - (id) renderConfig;
  - (id) backgroundTraitsForKeyplane:(id)a;
@@ -32,7 +32,7 @@
  - (id) _traitsForKey:(id)aonKeyplane:(id)b;
  - (id) lightKeycapsFontName;
  - (void) _customizeTraits:(id)aforPopupForKey:(id)bwithRenderConfig:(id)ckeycapsFontName:(id)d;
- - (d) translucentGapWidth;
+ - (double) translucentGapWidth;
  - (id) lightTextFontName;
  - (BOOL) lightweightFactory;
  - (id) traitsForKey:(id)aonKeyplane:(id)b;
@@ -40,15 +40,15 @@
  - (id) lightPadKeycapsFontName;
  - (void) modifyTraitsForDetachedInputSwitcher:(id)awithKey:(id)b;
  - (id) thinKeycapsFontName;
- - (d) keyCornerRadius;
- - (d) RivenFactor:(d)a;
+ - (double) keyCornerRadius;
+ - (double) RivenFactor:(double)a;
  - (id) displayContentsForKey:(id)a;
  - (id) _controlKeyBackgroundColorName;
- - (q) enabledBlendForm;
+ - (long long) enabledBlendForm;
  - (void) removeAllLayoutSegments;
  - (BOOL) useBlueThemingForKey:(id)a;
  - (void) addLayoutSegment:(id)a;
- - (q) lightHighQualityEnabledBlendForm;
+ - (long long) lightHighQualityEnabledBlendForm;
  - (id) controlKeyForegroundColorName;
  - (id) multitapCompleteKeyImageName;
  - (id) muttitapReverseKeyImageName;
@@ -59,12 +59,12 @@
  - (id) shiftLockImageName;
  - (id) initWithRenderConfig:(id)askipLayoutSegments:(BOOL)b;
  - (void) setLightweightFactory:(BOOL)a;
- - (d) emojiPopupDividerKeyOffset;
+ - (double) emojiPopupDividerKeyOffset;
  - (void) lowQualityTraits:(id)a;
  - (id) segmentTraits;
  - (id) hashStringElement;
  - (id) deleteKeyImageName;
- - (d) skinnyKeyThreshold;
+ - (double) skinnyKeyThreshold;
  - (id) keyImageNameWithSkinnyVariation:(id)a;
  - (id) handwritingMoreKeyImageName;
  - (id) globalEmojiKeyImageName;
@@ -83,10 +83,10 @@
  - (void) modifyTraitsForDividerVariant:(id)awithKey:(id)b;
  - (id) controlKeyShadowColorName;
  - (id) thinTextFontName;
- - (d) rivenSizeFactor;
- - (void) setRivenSizeFactor:(d)a;
+ - (double) rivenSizeFactor;
+ - (void) setRivenSizeFactor:(double)a;
  - (BOOL) boldTextEnabled;
- - (d) passcodeEdgeWeight;
+ - (double) passcodeEdgeWeight;
  - (id) passcodeKeyEdgeColorName;
  - (id) passcodeActiveControlKeyTraits;
  - (void) modifyKeyTraitsForPasscode:(id)aforKey:(id)bonKeyplane:(id)c;
@@ -94,7 +94,7 @@
  - (id) passcodeControlKeyTraits;
  - (id) passcodeShiftedControlKeyTraits;
  - (id) extraPasscodePaddleTraits;
- - (void) setScale:(d)a;
+ - (void) setScale:(double)a;
 
 
 @end

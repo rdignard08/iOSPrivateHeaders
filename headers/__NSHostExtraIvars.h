@@ -2,7 +2,7 @@
 @interface __NSHostExtraIvars : NSObject {
 
     @"NSString" thingToResolve;
-    i resolveType;
+    int resolveType;
     @"NSObject<OS_dispatch_queue>" resolveQueue;
     @"NSObject<OS_dispatch_queue>" cacheAccessQueue;
     @"NSObject<OS_dispatch_queue>" callbackQueue;
@@ -19,8 +19,8 @@
  - (void) finalize;
  - (id) init;
  - (void) cleanup;
- - (i) resolveType;
- - (void) setResolveType:(i)a;
+ - (int) resolveType;
+ - (void) setResolveType:(int)a;
  - (id) thingToResolve;
  - (void) setThingToResolve:(id)a;
  - (id) resolveQueue;

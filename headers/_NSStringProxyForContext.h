@@ -14,11 +14,11 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (id) string;
- - (S) characterAtIndex:(Q)a;
+ - (unsigned short) characterAtIndex:(unsigned long long)a;
  - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
  - (void) setString:(id)a;
  - (id) _dynamicContextEvaluation:(id)apatternString:(id)b;
- - (Q) length;
+ - (unsigned long long) length;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

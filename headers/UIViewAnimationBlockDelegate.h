@@ -10,7 +10,7 @@
     @? _completion;
 }
 @property (nonatomic, assign, readonly) NSNumber* _allowsUserInteraction;
- + (void) setAnimationBlockDelegateWithDuration:(d)aoptions:(Q)bstart:(@?)ccompletion:(@?)d;
+ + (void) setAnimationBlockDelegateWithDuration:(double)aoptions:(unsigned long long)bstart:(@?)ccompletion:(@?)d;
 
  - (void) dealloc;
  - (BOOL) _allowsUserInteraction;

@@ -1,14 +1,14 @@
 
 @interface UIPushBehavior : UIDynamicBehavior {
 
-    d _angle;
-    d _magnitude;
+    double _angle;
+    double _magnitude;
     BOOL _active;
-    q _mode;
+    long long _mode;
     {CGVector="dx"d"dy"d} _forceVector;
-    d _timeInterval;
+    double _timeInterval;
     @"NSMutableDictionary" _targetPoints;
-    i _i;
+    int _i;
 }
 
  - (void) removeItem:(id)a;
@@ -18,20 +18,20 @@
  - (id) items;
  - (BOOL) active;
  - (id) initWithItems:(id)a;
- - (q) mode;
+ - (long long) mode;
  - (void) _associate;
  - (void) _dissociate;
- - (id) initWithItems:(id)amode:(q)b;
+ - (id) initWithItems:(id)amode:(long long)b;
  - (void) setPushDirection:({CGVector=dd})a;
  - (void) _step;
- - (void) setXComponent:(d)ayComponent:(d)b;
- - (d) magnitude;
- - (void) setAngle:(d)amagnitude:(d)b;
- - (d) yComponent;
- - (d) xComponent;
- - (void) setMagnitude:(d)a;
- - (void) setXComponent:(d)a;
- - (void) setYComponent:(d)a;
+ - (void) setXComponent:(double)ayComponent:(double)b;
+ - (double) magnitude;
+ - (void) setAngle:(double)amagnitude:(double)b;
+ - (double) yComponent;
+ - (double) xComponent;
+ - (void) setMagnitude:(double)a;
+ - (void) setXComponent:(double)a;
+ - (void) setYComponent:(double)a;
  - ({CGPoint=dd}) targetPointForItem:(id)a;
  - (void) setTargetPoint:({CGPoint=dd})aforItem:(id)b;
  - ({UIOffset=dd}) targetOffsetFromCenterForItem:(id)a;
@@ -39,8 +39,8 @@
  - ({CGVector=dd}) pushDirection;
  - (id) init;
  - (void) _commonInit;
- - (void) setAngle:(d)a;
- - (d) angle;
+ - (void) setAngle:(double)a;
+ - (double) angle;
  - (void) addItem:(id)a;
 
 

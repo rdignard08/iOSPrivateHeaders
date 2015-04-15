@@ -2,10 +2,10 @@
 @interface BSActionListenerController : NSObject {
 
     @"NSObject<OS_dispatch_queue>" _queue;
-    Q _transactionCount;
+    unsigned long long _transactionCount;
     @"BSActionListener" _listener;
-    I _listenerCount;
-    I _listenerTearDownToken;
+    unsigned int _listenerCount;
+    unsigned int _listenerTearDownToken;
 }
  + (id) sharedInstance;
 

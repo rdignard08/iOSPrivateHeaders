@@ -1,11 +1,11 @@
 
 @interface UITextFieldAtomBackgroundView : UIView {
 
-    i _atomStyle;
+    int _atomStyle;
 }
 
- - (i) atomStyle;
- - (void) setAtomStyle:(i)a;
+ - (int) atomStyle;
+ - (void) setAtomStyle:(int)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

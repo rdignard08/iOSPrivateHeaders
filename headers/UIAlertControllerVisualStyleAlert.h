@@ -5,25 +5,25 @@
 }
 
  - (void) dealloc;
- - (d) maximumWidth;
+ - (double) maximumWidth;
  - (void) setDescriptor:(id)a;
- - (d) verticalContentMargin;
+ - (double) verticalContentMargin;
  - (id) titleLabelFont;
  - (id) titleLabelColor;
- - (d) marginAboveTitleLabelFirstBaseline;
- - (d) marginBelowLastLabelLastBaseline;
+ - (double) marginAboveTitleLabelFirstBaseline;
+ - (double) marginBelowLastLabelLastBaseline;
  - (id) messageLabelFont;
  - (id) messageLabelColor;
- - (d) horizontalContentMargin;
- - (d) visualAltitude;
+ - (double) horizontalContentMargin;
+ - (double) visualAltitude;
  - (id) regularActionFont;
  - (id) defaultActionFont;
- - (d) minimumActionHeight;
+ - (double) minimumActionHeight;
  - ({CGAffineTransform=dddddd}) presentationAnimationStartTransform;
- - (d) marginBelowTitleLabelLastBaseline;
- - (d) marginAboveMessageLabelFirstBaseline;
- - (d) marginBelowMessageLabelLastBaseline;
- - (d) backgroundCornerRadius;
+ - (double) marginBelowTitleLabelLastBaseline;
+ - (double) marginAboveMessageLabelFirstBaseline;
+ - (double) marginBelowMessageLabelLastBaseline;
+ - (double) backgroundCornerRadius;
  - (id) descriptor;
 
 

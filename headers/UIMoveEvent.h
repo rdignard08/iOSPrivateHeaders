@@ -1,16 +1,16 @@
 
 @interface UIMoveEvent : UIInternalEvent {
 
-    q _moveDirection;
-    Q _focusHeading;
+    long long _moveDirection;
+    unsigned long long _focusHeading;
 }
 
- - (void) _setMoveDirection:(q)a;
- - (void) _setFocusHeading:(Q)a;
- - (Q) _focusHeading;
- - (q) _moveDirection;
+ - (void) _setMoveDirection:(long long)a;
+ - (void) _setFocusHeading:(unsigned long long)a;
+ - (unsigned long long) _focusHeading;
+ - (long long) _moveDirection;
  - (void) _sendEventToResponder:(id)a;
- - (q) type;
+ - (long long) type;
 
 
 @end

@@ -4,13 +4,13 @@
 }
 
  - (id) target;
- - (f) scale;
- - (f) rotation;
+ - (float) scale;
+ - (float) rotation;
  - (BOOL) ctrlKey;
  - (BOOL) shiftKey;
  - (BOOL) altKey;
  - (BOOL) metaKey;
- - (void) initGestureEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)ddetail:(i)escreenX:(i)fscreenY:(i)gclientX:(i)hclientY:(i)ictrlKey:(BOOL)jaltKey:(BOOL)kshiftKey:(BOOL)lmetaKey:(BOOL)mtarget:(id)nscale:(f)orotation:(f)p;
+ - (void) initGestureEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)ddetail:(int)escreenX:(int)fscreenY:(int)gclientX:(int)hclientY:(int)ictrlKey:(BOOL)jaltKey:(BOOL)kshiftKey:(BOOL)lmetaKey:(BOOL)mtarget:(id)nscale:(float)orotation:(float)p;
 
 
 @end

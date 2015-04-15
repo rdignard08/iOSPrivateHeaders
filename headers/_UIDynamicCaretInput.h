@@ -3,7 +3,7 @@
 @interface _UIDynamicCaretInput : UIView <UIKBHandwritingStrokeEnabled> {
 
     ^{CGContext=} _bitmapContext;
-    q _fadeCount;
+    long long _fadeCount;
     {CGPoint="x"d"y"d} _lastViewLoc;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _inkedAreaOfBitmapContext;
     @"NSTimer" _fadeTimer;
@@ -22,7 +22,7 @@
  - (id) fadeTimer;
  - (void) setFadeTimer:(id)a;
  - (void) clearFadeTimer;
- - (d) inkWidth;
+ - (double) inkWidth;
  - (void) send;
  - (void) clearAndNotify:(BOOL)a;
  - (void) setAccumulatedStrokes:(id)a;

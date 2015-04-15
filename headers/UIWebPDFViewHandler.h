@@ -4,7 +4,7 @@
 
     @"UIWebPDFView" _pdfView;
     BOOL _scalesPageToFit;
-    d _initialZoomScale;
+    double _initialZoomScale;
     @"NSObject<UIWebPDFViewHandlerDelegate>" _pdfHandlerDelegate;
     @"_UIHighlightView" _linkHighlightView;
     @"UIWebPDFLabelView" _pageLabelView;
@@ -35,13 +35,13 @@
 @property (nonatomic, assign, readwrite) NSNumber* hidePageViewsUntilReadyToRender;
 
  - (void) dealloc;
- - (void) alertView:(id)adidDismissWithButtonIndex:(q)b;
+ - (void) alertView:(id)adidDismissWithButtonIndex:(long long)b;
  - (void) saveStateToHistoryItem:(id)aforWebView:(id)b;
  - (void) restoreStateFromHistoryItem:(id)aforWebView:(id)b;
- - (d) minimumScaleForSize:({CGSize=dd})a;
+ - (double) minimumScaleForSize:({CGSize=dd})a;
  - (id) enclosingScrollView;
- - (d) zoomedDocumentScale;
- - (d) currentDocumentScale;
+ - (double) zoomedDocumentScale;
+ - (double) currentDocumentScale;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) visibleContentRect;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectOfInterestForPoint:({CGPoint=dd})a;
  - ({?=ddd}) doubleTapScalesForSize:({CGSize=dd})a;
@@ -64,8 +64,8 @@
  - ({?=ddd}) scalesForContainerSize:({CGSize=dd})a;
  - (void) updateBoundariesOfScrollView:(id)awithScales:({?=ddd})b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectOfInterestForRotation;
- - (d) minimumVerticalContentOffset;
- - (d) heightToKeepVisible;
+ - (double) minimumVerticalContentOffset;
+ - (double) heightToKeepVisible;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) activeRectForRectOfInterest:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (BOOL) considerHeightOfRectOfInterestForRotation;
  - (id) _absoluteUrlRelativeToDocumentURL:(id)a;
@@ -98,8 +98,8 @@
  - (void) _removePDFViewIfWebDocViewIsNotSamePDF:(id)a;
  - (void) _createPDFViewIfNeeded:(id)a;
  - (void) _ensurePDFViewInHierarchyForWebDocView:(id)a;
- - (Q) _verticalEdgeForContentOffsetInScrollView:(id)a;
- - (d) _pinValueForVerticalEdge:(Q)ainScrollView:(id)b;
+ - (unsigned long long) _verticalEdgeForContentOffsetInScrollView:(id)a;
+ - (double) _pinValueForVerticalEdge:(unsigned long long)ainScrollView:(id)b;
  - (void) _adjustZoomScalesForScrollViewInternal:(id)a;
  - (id) createLinkHighlight;
  - (void) _notifyDelegateWillClickLink:(id)a;
@@ -107,7 +107,7 @@
  - (void) _completeLinkClickWithURL:(id)a;
  - (void) _completeLinkClickWithURLString:(id)a;
  - (void) highlightRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (id) _actionForType:(i)a;
+ - (id) _actionForType:(int)a;
  - (id) _actionsForInteractionInfo:(id)a;
  - (void) performAction:(id)afromAlertController:(id)b;
  - (void) _showLinkSheet:(id)a;
@@ -120,10 +120,10 @@
  - (void) _showPasswordEntryViewForFile:(id)a;
  - (void) updatePageNumberLabelWithUserScrolling:(BOOL)aanimated:(BOOL)b;
  - (void) _updateViewHierarchyForDocumentView:(id)aignoreIfSame:(BOOL)b;
- - (void) updateViewHierarchyForDocumentViewTabSwitch:(id)arestoringZoomScale:(d)bandScrollPt:({CGPoint=dd})c;
+ - (void) updateViewHierarchyForDocumentViewTabSwitch:(id)arestoringZoomScale:(double)bandScrollPt:({CGPoint=dd})c;
  - (id) _getLabelViewFormatter;
  - (id) createPageLabel;
- - (void) scrollToPageNumber:(q)aanimate:(BOOL)b;
+ - (void) scrollToPageNumber:(long long)aanimate:(BOOL)b;
  - (void) _resultRects:(id)aandResultViews:(id)bforSearchResult:(id)cinViewCoordinates:(id)d;
  - (void) userDidEnterPassword:(id)aforPasswordView:(id)b;
  - (void) didBeginEditingPassword:(id)ainView:(id)b;

@@ -12,7 +12,7 @@
  - (Vv) release;
  - (void) dealloc;
  - (void) finalize;
- - (id) objectAtIndex:(I)a;
+ - (id) objectAtIndex:(unsigned int)a;
  - (void) setValue:(id)aforKey:(id)b;
  - (id) valueForKey:(id)a;
  - (id) stringRepresentation;
@@ -31,8 +31,8 @@
  - (id) evaluateWebScript:(id)a;
  - (void) removeWebScriptKey:(id)a;
  - (BOOL) hasWebScriptKey:(id)a;
- - (id) webScriptValueAtIndex:(I)a;
- - (void) setWebScriptValueAtIndex:(I)avalue:(id)b;
+ - (id) webScriptValueAtIndex:(unsigned int)a;
+ - (void) setWebScriptValueAtIndex:(unsigned int)avalue:(id)b;
  - (id) JSValue;
  - (void) setException:(id)a;
 

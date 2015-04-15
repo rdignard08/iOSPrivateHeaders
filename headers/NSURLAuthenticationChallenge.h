@@ -23,9 +23,9 @@
  - (id) initWithCoder:(id)a;
  - (id) error;
  - (id) protectionSpace;
- - (id) initWithProtectionSpace:(id)aproposedCredential:(id)bpreviousFailureCount:(q)cfailureResponse:(id)derror:(id)esender:(id)f;
+ - (id) initWithProtectionSpace:(id)aproposedCredential:(id)bpreviousFailureCount:(long long)cfailureResponse:(id)derror:(id)esender:(id)f;
  - (id) proposedCredential;
- - (q) previousFailureCount;
+ - (long long) previousFailureCount;
  - (id) failureResponse;
  - (id) _initWithCFAuthChallenge:(^{_CFURLAuthChallenge=})asender:(id)b;
  - (id) initWithAuthenticationChallenge:(id)asender:(id)b;

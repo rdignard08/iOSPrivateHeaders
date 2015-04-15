@@ -1,46 +1,46 @@
 
 @interface CUIPSDLayerEffectBevelEmboss : CUIPSDLayerEffectComponent {
 
-    Q _blurSize;
-    Q _softenSize;
-    s _angle;
-    Q _altitude;
-    I _direction;
-    i _highlightBlendMode;
+    unsigned long long _blurSize;
+    unsigned long long _softenSize;
+    short _angle;
+    unsigned long long _altitude;
+    unsigned int _direction;
+    int _highlightBlendMode;
     @"CUIColor" _highlightColor;
-    d _highlightOpacity;
-    i _shadowBlendMode;
+    double _highlightOpacity;
+    int _shadowBlendMode;
     @"CUIColor" _shadowColor;
-    d _shadowOpacity;
+    double _shadowOpacity;
 }
 
  - (void) dealloc;
  - (id) init;
  - (void) setShadowColor:(id)a;
- - (void) setBlurSize:(Q)a;
- - (void) setAngle:(s)a;
- - (void) setSoftenSize:(Q)a;
- - (void) setAltitude:(Q)a;
- - (void) setHighlightBlendMode:(i)a;
+ - (void) setBlurSize:(unsigned long long)a;
+ - (void) setAngle:(short)a;
+ - (void) setSoftenSize:(unsigned long long)a;
+ - (void) setAltitude:(unsigned long long)a;
+ - (void) setHighlightBlendMode:(int)a;
  - (void) setHighlightColor:(id)a;
- - (void) setHighlightOpacity:(d)a;
- - (void) setShadowBlendMode:(i)a;
- - (void) setDirection:(I)a;
- - (I) direction;
+ - (void) setHighlightOpacity:(double)a;
+ - (void) setShadowBlendMode:(int)a;
+ - (void) setDirection:(unsigned int)a;
+ - (unsigned int) direction;
  - (BOOL) updateLayerEffectPreset:(id)aerror:(^@)b;
- - (id) initWithEffectFromPreset:(id)aatIndex:(I)b;
- - (Q) blurSize;
- - (s) angle;
+ - (id) initWithEffectFromPreset:(id)aatIndex:(unsigned int)b;
+ - (unsigned long long) blurSize;
+ - (short) angle;
  - (id) highlightColor;
- - (i) highlightBlendMode;
- - (i) shadowBlendMode;
- - (Q) softenSize;
- - (d) highlightOpacity;
- - (I) effectType;
- - (d) shadowOpacity;
+ - (int) highlightBlendMode;
+ - (int) shadowBlendMode;
+ - (unsigned long long) softenSize;
+ - (double) highlightOpacity;
+ - (unsigned int) effectType;
+ - (double) shadowOpacity;
  - (id) shadowColor;
- - (Q) altitude;
- - (void) setShadowOpacity:(d)a;
+ - (unsigned long long) altitude;
+ - (void) setShadowOpacity:(double)a;
 
 
 @end

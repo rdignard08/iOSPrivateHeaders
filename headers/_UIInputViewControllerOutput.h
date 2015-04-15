@@ -36,7 +36,7 @@
  - (BOOL) shouldPostReturnKeyNotification;
  - (BOOL) shouldAdvanceInputMode;
  - (BOOL) shouldDismiss;
- - (void) adjustTextPositionByCharacterOffset:(q)a;
+ - (void) adjustTextPositionByCharacterOffset:(long long)a;
  - (void) setShouldDismiss:(BOOL)a;
  - (void) setShouldAdvanceInputMode:(BOOL)a;
  - (void) _pushNewKeyboardOutput;

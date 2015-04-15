@@ -1,8 +1,8 @@
 
 @interface _NSXPCInterfaceMethodInfo : NSObject {
 
-    * _replySignature;
-    i _replyPosition;
+    char* _replySignature;
+    int _replyPosition;
     @"NSMutableArray" _replyArguments;
     @"NSMutableArray" _arguments;
 }
@@ -15,8 +15,8 @@
  - (r*) replySignature;
  - (id) replyArguments;
  - (void) setReplyArguments:(id)a;
- - (i) replyPosition;
- - (void) setReplyPosition:(i)a;
+ - (int) replyPosition;
+ - (void) setReplyPosition:(int)a;
  - (void) dealloc;
  - (void) finalize;
  - (id) init;

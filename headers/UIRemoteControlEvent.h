@@ -1,17 +1,17 @@
 
 @interface UIRemoteControlEvent : UIInternalEvent {
 
-    q _subtype;
+    long long _subtype;
 }
 
  - (id) _init;
  - (void) dealloc;
- - (void) _setSubtype:(q)a;
+ - (void) _setSubtype:(long long)a;
  - (id) _windows;
  - (void) _sendEventToResponder:(id)a;
  - (void) _simpleRemoteActionNotification:(id)a;
- - (q) type;
- - (q) subtype;
+ - (long long) type;
+ - (long long) subtype;
 
 
 @end

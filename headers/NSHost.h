@@ -26,12 +26,12 @@
  - (id) name;
  - (void) setReserved:(id)a;
  - (id) reserved;
- - (id) initToResolve:(id)aas:(i)b;
- - (void) __resolveWithFlags:(i)aresultArray:(id)bhandler:(@?)c;
+ - (id) initToResolve:(id)aas:(int)b;
+ - (void) __resolveWithFlags:(int)aresultArray:(id)bhandler:(@?)c;
  - (void) resolveCurrentHostWithHandler:(@?)a;
  - (void) resolve:(@?)a;
  - (id) addresses;
- - (void) blockingResolveUntil:(i)a;
+ - (void) blockingResolveUntil:(int)a;
  - (id) names;
  - (BOOL) isEqualToHost:(id)a;
 

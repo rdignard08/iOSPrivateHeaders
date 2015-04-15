@@ -18,7 +18,7 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) animationFencePort;
  - (id) animationSettings;
@@ -31,8 +31,8 @@
  - (id) actions;
  - (void) encodeWithXPCDictionary:(id)a;
  - (id) initWithXPCDictionary:(id)a;
- - (id) keyDescriptionForSetting:(Q)a;
- - (id) valueDescriptionForFlag:(q)aobject:(id)bofSetting:(Q)c;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
 
 
 @end

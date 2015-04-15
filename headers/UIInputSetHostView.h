@@ -8,7 +8,7 @@
 
  - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;
  - (BOOL) pointInside:({CGPoint=dd})awithEvent:(id)b;
- - (i) _clipCornersOfView:(id)a;
+ - (int) _clipCornersOfView:(id)a;
  - (void) _resizeForKeyplaneSize:({CGSize=dd})asplitWidthsChanged:(BOOL)b;
  - (void) layoutIfNeeded;
 

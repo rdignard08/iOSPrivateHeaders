@@ -8,12 +8,12 @@
  - (void) allowEvaluation;
  - (id) predicateFormat;
  - (id) constantValue;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (id) _expressionWithSubstitutionVariables:(id)a;
  - (id) initWithCollection:(id)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

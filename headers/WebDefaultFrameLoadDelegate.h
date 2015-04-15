@@ -12,7 +12,7 @@
  - (void) webView:(id)adidFinishLoadForFrame:(id)b;
  - (void) webView:(id)adidFailLoadWithError:(id)bforFrame:(id)c;
  - (void) webView:(id)adidChangeLocationWithinPageForFrame:(id)b;
- - (void) webView:(id)awillPerformClientRedirectToURL:(id)bdelay:(d)cfireDate:(id)dforFrame:(id)e;
+ - (void) webView:(id)awillPerformClientRedirectToURL:(id)bdelay:(double)cfireDate:(id)dforFrame:(id)e;
  - (void) webView:(id)adidCancelClientRedirectForFrame:(id)b;
  - (void) webView:(id)awillCloseFrame:(id)b;
  - (void) webView:(id)adidClearWindowObject:(id)bforFrame:(id)c;
@@ -31,7 +31,7 @@
  - (void) webView:(id)adidFirstVisuallyNonEmptyLayoutInFrame:(id)b;
  - (void) webView:(id)adidClearInspectorWindowObject:(id)bforFrame:(id)c;
  - (void) webView:(id)adidRemoveFrameFromHierarchy:(id)b;
- - (void) webView:(id)adidLayout:(Q)b;
+ - (void) webView:(id)adidLayout:(unsigned long long)b;
 
 
 @end

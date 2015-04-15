@@ -4,8 +4,8 @@
     {?="isAmPm"b1} _datePickerContentViewFlags;
     BOOL _isModern;
     @"UILabel" _titleLabel;
-    d _titleLabelMaxX;
-    q _titleAlignment;
+    double _titleLabelMaxX;
+    long long _titleAlignment;
 }
 
  - (void) dealloc;
@@ -14,10 +14,10 @@
  - (id) titleLabel;
  - (BOOL) isAmPm;
  - (void) setIsAmPm:(BOOL)a;
- - (void) setTitleLabelMaxX:(d)a;
- - (void) setTitleAlignment:(q)a;
- - (d) titleLabelMaxX;
- - (q) titleAlignment;
+ - (void) setTitleLabelMaxX:(double)a;
+ - (void) setTitleAlignment:(long long)a;
+ - (double) titleLabelMaxX;
+ - (long long) titleAlignment;
  - (BOOL) isModern;
  - (void) setIsModern:(BOOL)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;

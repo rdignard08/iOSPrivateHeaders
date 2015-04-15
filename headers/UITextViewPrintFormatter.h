@@ -6,16 +6,16 @@
 }
 
  - (void) dealloc;
- - (void) setTextAlignment:(q)a;
+ - (void) setTextAlignment:(long long)a;
  - (void) setAttributedText:(id)a;
  - (void) setFont:(id)a;
  - (void) setText:(id)a;
  - (id) attributedText;
- - (q) textAlignment;
+ - (long long) textAlignment;
  - (id) _textView;
- - (q) _recalcPageCount;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageAtIndex:(q)a;
- - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforPageAtIndex:(q)b;
+ - (long long) _recalcPageCount;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageAtIndex:(long long)a;
+ - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforPageAtIndex:(long long)b;
  - (id) _pageData;
  - (void) setColor:(id)a;
  - (id) color;

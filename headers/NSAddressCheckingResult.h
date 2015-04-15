@@ -7,8 +7,8 @@
 }
 
  - (id) components;
- - (id) resultByAdjustingRangesWithOffset:(q)a;
- - (BOOL) _adjustRangesWithOffset:(q)a;
+ - (id) resultByAdjustingRangesWithOffset:(long long)a;
+ - (BOOL) _adjustRangesWithOffset:(long long)a;
  - (^v) underlyingResult;
  - (id) initWithRange:({_NSRange=QQ})acomponents:(id)b;
  - (id) initWithRange:({_NSRange=QQ})acomponents:(id)bunderlyingResult:(^v)c;
@@ -16,7 +16,7 @@
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - ({_NSRange=QQ}) range;
- - (Q) resultType;
+ - (unsigned long long) resultType;
 
 
 @end

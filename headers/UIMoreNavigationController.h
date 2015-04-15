@@ -8,7 +8,7 @@
  + (Class) _moreListControllerClass;
 
  - (void) dealloc;
- - (void) _willChangeToIdiom:(q)aonScreen:(id)b;
+ - (void) _willChangeToIdiom:(long long)aonScreen:(id)b;
  - (void) pushViewController:(id)aanimated:(BOOL)b;
  - (void) didShowViewController:(id)aanimated:(BOOL)b;
  - (id) moreListController;

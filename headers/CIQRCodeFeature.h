@@ -9,7 +9,7 @@
     @"NSString" messageString;
 }
  + (id) barcodeFeatureWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- + (id) barcodeFeaturesWithBoundsArray:(r^{CGRect={CGPoint=dd}{CGSize=dd}})acount:(Q)b;
+ + (id) barcodeFeaturesWithBoundsArray:(r^{CGRect={CGPoint=dd}{CGSize=dd}})acount:(unsigned long long)b;
 
  - (id) .cxx_construct;
  - (id) type;

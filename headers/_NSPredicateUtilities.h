@@ -2,13 +2,13 @@
 @interface _NSPredicateUtilities : NSObject {
 
 }
- + (Q) _getITypeFor:(r*)a;
- + (Q) _getCommonTypeFor:(id)a;
+ + (unsigned long long) _getITypeFor:(r*)a;
+ + (unsigned long long) _getCommonTypeFor:(id)a;
  + (id) sum:(id)a;
  + (id) average:(id)a;
  + (id) _doTokenization:(id)alocale:(id)b;
- + (id) _processAndTokenize:(id)aflags:(Q)blocale:(id)c;
- + (id) _collapseAndTokenize:(id)aflags:(Q)blocale:(id)c;
+ + (id) _processAndTokenize:(id)aflags:(unsigned long long)blocale:(id)c;
+ + (id) _collapseAndTokenize:(id)aflags:(unsigned long long)blocale:(id)c;
  + (id) _convertStringToNumber:(id)a;
  + (id) _parserableStringDescription:(id)a;
  + (id) _parserableCollectionDescription:(id)a;
@@ -59,7 +59,7 @@
  + (id) _operatorClassesForSecureCoding;
  + (id) _constantValueClassesForSecureCoding;
 
- - (d) distanceFromLocation:(id)a;
+ - (double) distanceFromLocation:(id)a;
 
 
 @end

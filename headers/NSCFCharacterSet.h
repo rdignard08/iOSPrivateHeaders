@@ -5,20 +5,20 @@
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
 
  - (Class) classForArchiver;
- - (BOOL) characterIsMember:(S)a;
+ - (BOOL) characterIsMember:(unsigned short)a;
  - (BOOL) isSupersetOfSet:(id)a;
  - (Class) classForKeyedArchiver;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) finalize;
  - (BOOL) retainWeakReference;
  - (BOOL) allowsWeakReference;
  - (id) invertedSet;
- - (BOOL) longCharacterIsMember:(I)a;
- - (BOOL) hasMemberInPlane:(C)a;
+ - (BOOL) longCharacterIsMember:(unsigned int)a;
+ - (BOOL) hasMemberInPlane:(unsigned char)a;
  - (void) addCharactersInRange:({_NSRange=QQ})a;
  - (void) removeCharactersInRange:({_NSRange=QQ})a;
  - (void) addCharactersInString:(id)a;
@@ -26,7 +26,7 @@
  - (void) formUnionWithCharacterSet:(id)a;
  - (void) formIntersectionWithCharacterSet:(id)a;
  - (void) invert;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) bitmapRepresentation;
  - (void) makeCharacterSetCompact;

@@ -1,12 +1,12 @@
 
 @interface UIIBApplication : UIApplication {
 
-    q _statusBarOrientation;
+    long long _statusBarOrientation;
 }
  + (BOOL) rendersLocally;
 
- - (q) statusBarOrientation;
- - (void) setStatusBarOrientation:(q)aanimationParameters:(id)b;
+ - (long long) statusBarOrientation;
+ - (void) setStatusBarOrientation:(long long)aanimationParameters:(id)b;
  - (id) init;
 
 

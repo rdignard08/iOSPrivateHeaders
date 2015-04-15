@@ -3,38 +3,38 @@
 @interface NSIndexPath : NSObject <NSCopying, NSSecureCoding> {
 
     ^Q _indexes;
-    Q _length;
+    unsigned long long _length;
     ^v _reserved;
 }
 @property (nonatomic, assign, readonly) NSNumber* item;
 @property (nonatomic, assign, readonly) NSNumber* section;
 @property (nonatomic, assign, readonly) NSNumber* row;
 @property (atomic, assign, readonly) NSNumber* length;
- + (id) indexPathForItem:(q)ainSection:(q)b;
- + (id) indexPathForRow:(q)ainSection:(q)b;
+ + (id) indexPathForItem:(long long)ainSection:(long long)b;
+ + (id) indexPathForRow:(long long)ainSection:(long long)b;
  + (BOOL) supportsSecureCoding;
- + (id) indexPathWithIndexes:(r^Q)alength:(Q)b;
+ + (id) indexPathWithIndexes:(r^Q)alength:(unsigned long long)b;
  + (void) initialize;
  + (id) indexPath;
- + (id) indexPathWithIndex:(Q)a;
+ + (id) indexPathWithIndex:(unsigned long long)a;
 
- - (q) item;
- - (q) row;
- - (q) section;
- - (id) initWithIndexes:(r^Q)alength:(Q)b;
+ - (long long) item;
+ - (long long) row;
+ - (long long) section;
+ - (id) initWithIndexes:(r^Q)alength:(unsigned long long)b;
  - (void) getIndexes:(^Q)arange:({_NSRange=QQ})b;
- - (Q) indexAtPosition:(Q)a;
- - (id) initWithIndex:(Q)a;
+ - (unsigned long long) indexAtPosition:(unsigned long long)a;
+ - (id) initWithIndex:(unsigned long long)a;
  - (void) getIndexes:(^Q)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (q) compare:(id)a;
- - (id) indexPathByAddingIndex:(Q)a;
+ - (long long) compare:(id)a;
+ - (id) indexPathByAddingIndex:(unsigned long long)a;
  - (id) indexPathByRemovingLastIndex;
- - (Q) length;
+ - (unsigned long long) length;
  - (id) init;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

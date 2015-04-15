@@ -2,8 +2,8 @@
 @interface UITextInputArrowKeyHistory : NSObject {
 
     @"UITextPosition" startPosition;
-    q amount;
-    i anchor;
+    long long amount;
+    int anchor;
     @"UITextPosition" start;
     @"UITextPosition" end;
     @"UITextPosition" cursor;
@@ -23,13 +23,13 @@
  - (void) setEnd:(id)a;
  - (void) setStartPosition:(id)a;
  - (id) cursor;
- - (i) anchor;
- - (void) setAnchor:(i)a;
+ - (int) anchor;
+ - (void) setAnchor:(int)a;
  - (BOOL) affinityDownstream;
  - (void) setCursor:(id)a;
  - (void) setAffinityDownstream:(BOOL)a;
- - (void) setAmount:(q)a;
- - (q) amount;
+ - (void) setAmount:(long long)a;
+ - (long long) amount;
  - (id) start;
  - (id) startPosition;
 

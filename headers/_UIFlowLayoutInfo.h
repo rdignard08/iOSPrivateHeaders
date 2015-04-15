@@ -7,7 +7,7 @@
     BOOL _leftToRight;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _visibleBounds;
     {CGSize="width"d"height"d} _layoutSize;
-    d _dimension;
+    double _dimension;
     BOOL _isValid;
     {?="commonRowHorizontalAlignment"i"lastRowHorizontalAlignment"i"rowVerticalAlignment"i} _rowAlignmentOptions;
     @"UICollectionViewFlowLayout" _layout;
@@ -38,12 +38,12 @@
  - ({?=iii}) rowAlignmentOptions;
  - (void) setSize:({CGSize=dd})aforItemAtIndexPath:(id)b;
  - (id) invalidatedIndexPaths;
- - (d) dimension;
+ - (double) dimension;
  - (id) addSection;
  - (void) setRowAlignmentOptions:({?=iii})a;
- - (void) setDimension:(d)a;
+ - (void) setDimension:(double)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frameForItemAtIndexPath:(id)a;
- - (void) didUpdateSizeForSection:(q)awithDelta:(d)b;
+ - (void) didUpdateSizeForSection:(long long)awithDelta:(double)b;
  - (BOOL) usesFloatingHeaderFooter;
  - (void) setUsesFloatingHeaderFooter:(BOOL)a;
  - (BOOL) leftToRight;

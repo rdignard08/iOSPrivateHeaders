@@ -2,7 +2,7 @@
 @protocol NSCopying;
 @interface __NSConcreteURLComponents : NSURLComponents <NSCopying> {
 
-    i _lock;
+    int _lock;
     @"NSString" _urlString;
     {_URIParseInfo="userinfoNameOffset"q"userinfoPasswordOffset"q"hostOffset"q"portOffset"q"pathOffset"q"paramOffset"q"queryOffset"q"fragmentOffset"q"endOffset"q"schemeExists"b1"authorityExists"b1"userinfoNameExists"b1"userinfoPasswordExists"b1"hostExists"b1"portExists"b1"paramExists"b1"queryExists"b1"fragmentExists"b1} _parseInfo;
     b1 _schemeComponentValid;
@@ -52,7 +52,7 @@
  - (void) dealloc;
  - (void) finalize;
  - (id) string;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) scheme;
  - (id) host;

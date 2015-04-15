@@ -7,7 +7,7 @@
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
 
 
 @end

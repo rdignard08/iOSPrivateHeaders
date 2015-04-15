@@ -17,7 +17,7 @@
 
  - (id) target;
  - (void) setKey:(id)a;
- - (d) duration;
+ - (double) duration;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (void) setTarget:(id)a;
@@ -31,9 +31,9 @@
  - (void) encodeWithCAMLWriter:(id)a;
  - (id) CAMLTypeForKey:(id)a;
  - (void) setAnimation:(id)a;
- - (void) setBeginTime:(d)a;
- - (void) setDuration:(d)a;
- - (d) beginTime;
+ - (void) setBeginTime:(double)a;
+ - (void) setDuration:(double)a;
+ - (double) beginTime;
  - (BOOL) isEnabled;
  - (void) setEnabled:(BOOL)a;
 

@@ -5,11 +5,11 @@
 
  - (id) lightKeycapsFontName;
  - (id) thinKeycapsFontName;
- - (d) moreKeyFontSize;
+ - (double) moreKeyFontSize;
  - ({CGPoint=dd}) internationalKeyOffset;
  - ({CGPoint=dd}) dictationKeyOffset;
  - ({CGPoint=dd}) more123KeyOffset;
- - (d) moreABCKeyFontSize;
+ - (double) moreABCKeyFontSize;
  - ({CGPoint=dd}) moreABCKeyOffset;
  - ({CGPoint=dd}) returnKeyOffset;
  - ({CGPoint=dd}) popupSymbolTextOffset;

@@ -4,7 +4,7 @@
 }
 
  - (BOOL) isDoubleHeight;
- - (d) heightForMetrics:(q)a;
+ - (double) heightForMetrics:(long long)a;
 
 
 @end

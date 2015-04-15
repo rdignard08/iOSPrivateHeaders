@@ -7,25 +7,25 @@
     @"NSMutableArray" _auxiliaryOptions;
     @"_UIDocumentPickerRemoteViewController" _remoteViewController;
     @"UIAlertController" _alertController;
-    Q _documentPickerMode;
+    unsigned long long _documentPickerMode;
     @"NSURL" _uploadURL;
 }
 
  - (void) dealloc;
  - (void) setDelegate:(id)a;
- - (q) modalPresentationStyle;
+ - (long long) modalPresentationStyle;
  - (void) loadView;
  - (void) _setRemoteViewController:(id)a;
  - (void) _dismissViewController;
- - (void) setModalPresentationStyle:(q)a;
+ - (void) setModalPresentationStyle:(long long)a;
  - (id) _remoteViewController;
- - (void) setDocumentPickerMode:(Q)a;
+ - (void) setDocumentPickerMode:(unsigned long long)a;
  - (void) _commonInitWithCompletion:(@?)a;
  - (void) setUploadURL:(id)a;
- - (Q) documentPickerMode;
+ - (unsigned long long) documentPickerMode;
  - (id) uploadURL;
- - (id) initWithDocumentTypes:(id)ainMode:(Q)b;
- - (id) initWithURL:(id)ainMode:(Q)b;
+ - (id) initWithDocumentTypes:(id)ainMode:(unsigned long long)b;
+ - (id) initWithURL:(id)ainMode:(unsigned long long)b;
  - (void) _didSelectURL:(id)a;
  - (void) _didSelectPicker;
  - (void) _dismissWithOption:(id)a;
@@ -41,7 +41,7 @@
  - (id) alertController;
  - (void) setDismissDelegateCalled:(BOOL)a;
  - (BOOL) dismissDelegateCalled;
- - (void) addOptionWithTitle:(id)aimage:(id)border:(Q)chandler:(@?)d;
+ - (void) addOptionWithTitle:(id)aimage:(id)border:(unsigned long long)chandler:(@?)d;
  - (id) delegate;
 
 

@@ -16,7 +16,7 @@
  - (void) setElementAttribute:(id)aforKey:(id)b;
  - (void) beginPropertyElement:(id)a;
  - (void) endElement;
- - (void) beginElement:(I)a;
+ - (void) beginElement:(unsigned int)a;
  - (void) setElementContent:(id)a;
  - (id) URLStringForResource:(id)a;
  - (void) setBaseURL:(id)a;

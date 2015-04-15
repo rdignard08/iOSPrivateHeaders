@@ -17,18 +17,18 @@
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (BOOL) drawsBackground;
  - (void) setDrawsBackground:(BOOL)a;
- - (f) verticalLineScroll;
+ - (float) verticalLineScroll;
  - (void) setDocumentView:(id)a;
  - (void) setHasVerticalScroller:(BOOL)a;
  - (void) setHasHorizontalScroller:(BOOL)a;
- - (void) setLineScroll:(f)a;
- - (f) horizontalLineScroll;
+ - (void) setLineScroll:(float)a;
+ - (float) horizontalLineScroll;
  - (BOOL) hasHorizontalScroller;
  - (BOOL) hasVerticalScroller;
  - (BOOL) inProgrammaticScroll;
  - (void) scrollWheel:(id)a;
  - (id) documentView;
- - (void) setScrollingModes:(i)avertical:(i)bandLock:(BOOL)c;
+ - (void) setScrollingModes:(int)avertical:(int)bandLock:(BOOL)c;
  - (void) scrollingModes:(^i)avertical:(^i)b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) unobscuredContentRect;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) exposedContentRect;
@@ -41,11 +41,11 @@
  - (BOOL) _selfHandleEvent:(id)a;
  - (void) reflectScrolledClipView:(id)a;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setHorizontalScrollingMode:(i)a;
- - (void) setVerticalScrollingMode:(i)a;
- - (void) setScrollingMode:(i)a;
- - (i) horizontalScrollingMode;
- - (i) verticalScrollingMode;
+ - (void) setHorizontalScrollingMode:(int)a;
+ - (void) setVerticalScrollingMode:(int)a;
+ - (void) setScrollingMode:(int)a;
+ - (int) horizontalScrollingMode;
+ - (int) verticalScrollingMode;
  - (void) _adjustScrollers;
 
 

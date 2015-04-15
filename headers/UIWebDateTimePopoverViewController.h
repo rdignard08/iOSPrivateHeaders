@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (void) loadView;
- - (id) initWithDOMHTMLInputElement:(id)adatePickerMode:(q)b;
+ - (id) initWithDOMHTMLInputElement:(id)adatePickerMode:(long long)b;
  - (void) set_innerWebDateTimeControl:(id)a;
  - (id) _innerWebDateTimeControl;
 

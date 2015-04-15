@@ -5,7 +5,7 @@
 
  - (void) configureAsCandidatesBar;
  - (id) selectedItemIndexPath;
- - (BOOL) _selectAndScrollToItemAtIndexPath:(id)aanimated:(BOOL)bscrollPosition:(Q)c;
+ - (BOOL) _selectAndScrollToItemAtIndexPath:(id)aanimated:(BOOL)bscrollPosition:(unsigned long long)c;
 
 
 @end

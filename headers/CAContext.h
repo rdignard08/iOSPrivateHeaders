@@ -9,8 +9,8 @@
 @property (atomic, assign, readwrite) NSNumber* level;
 @property (atomic, assign, readwrite, isSecure) NSNumber* secure;
 @property (atomic, assign, readonly) NSNumber* valid;
- + (void) setClientPort:(I)a;
- + (id) objectForSlot:(I)a;
+ + (void) setClientPort:(unsigned int)a;
+ + (id) objectForSlot:(unsigned int)a;
  + (id) localContextWithOptions:(id)a;
  + (id) remoteContextWithOptions:(id)a;
  + (id) allContexts;
@@ -21,16 +21,16 @@
  - (void) _setAssociatedScreen:(id)a;
  - (id) _associatedScreen;
  - (void) invalidate;
- - (void) orderAbove:(I)a;
- - (void) setFencePort:(I)acommitHandler:(@?)b;
- - (void) setFencePort:(I)a;
- - (void) setFence:(I)acount:(I)b;
- - (I) createFencePort;
- - (I) createImageSlot:({CGSize=dd})ahasAlpha:(BOOL)b;
- - (void) deleteSlot:(I)a;
- - (void) orderBelow:(I)a;
- - (I) createSlot;
- - (void) setObject:(id)aforSlot:(I)b;
+ - (void) orderAbove:(unsigned int)a;
+ - (void) setFencePort:(unsigned int)acommitHandler:(@?)b;
+ - (void) setFencePort:(unsigned int)a;
+ - (void) setFence:(unsigned int)acount:(unsigned int)b;
+ - (unsigned int) createFencePort;
+ - (unsigned int) createImageSlot:({CGSize=dd})ahasAlpha:(BOOL)b;
+ - (void) deleteSlot:(unsigned int)a;
+ - (void) orderBelow:(unsigned int)a;
+ - (unsigned int) createSlot;
+ - (void) setObject:(id)aforSlot:(unsigned int)b;
 
 
 @end

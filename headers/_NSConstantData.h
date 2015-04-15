@@ -7,10 +7,10 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (r^v) bytes;
- - (Q) length;
+ - (unsigned long long) length;
 
 
 @end

@@ -1,18 +1,18 @@
 
 @interface UIWheelEvent : UIInternalEvent {
 
-    q _recentScrollDistance;
+    long long _recentScrollDistance;
     @"NSMutableArray" _recentScrollEvents;
-    q lastSubtype;
+    long long lastSubtype;
 }
 
  - (void) dealloc;
  - (void) _setHIDEvent:(^{__IOHIDEvent=})a;
  - (void) _sendEventToResponder:(id)a;
- - (d) _wheelVelocity;
+ - (double) _wheelVelocity;
  - (BOOL) _canHaveVelocity;
- - (q) type;
- - (q) subtype;
+ - (long long) type;
+ - (long long) subtype;
 
 
 @end

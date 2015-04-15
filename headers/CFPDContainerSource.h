@@ -5,7 +5,7 @@
 }
 
  - (^{__CFString=}) container;
- - (id) initWithDomain:(^{__CFString=})auserName:(^{__CFString=})bcontainer:(^{__CFString=})cbyHost:(BOOL)dmanaged:(BOOL)eshmemIndex:(s)f;
+ - (id) initWithDomain:(^{__CFString=})auserName:(^{__CFString=})bcontainer:(^{__CFString=})cbyHost:(BOOL)dmanaged:(BOOL)eshmemIndex:(short)f;
 
 
 @end

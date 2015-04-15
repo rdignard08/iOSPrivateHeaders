@@ -3,7 +3,7 @@
 @interface NSGZipDecoder : NSObject <NSURLDownloadDecoder> {
 
     {z_stream_s="next_in"*"avail_in"I"total_in"Q"next_out"*"avail_out"I"total_out"Q"msg"*"state"^{internal_state}"zalloc"^?"zfree"^?"opaque"^v"data_type"i"adler"Q"reserved"Q} _stream;
-    Q _modificationTime;
+    unsigned long long _modificationTime;
     @"NSString" _filename;
     BOOL _streamInitialized;
     BOOL _decodedHeader;

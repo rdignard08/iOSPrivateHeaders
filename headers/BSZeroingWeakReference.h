@@ -3,13 +3,13 @@
 
     id _object;
     @"NSString" _debug;
-    Q _objectAddress;
+    unsigned long long _objectAddress;
 }
  + (id) referenceWithObject:(id)a;
 
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) object;
  - (id) initWithObject:(id)a;

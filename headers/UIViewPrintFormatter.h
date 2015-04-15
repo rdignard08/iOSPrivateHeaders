@@ -6,9 +6,9 @@
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (q) _recalcPageCount;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageAtIndex:(q)a;
- - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforPageAtIndex:(q)b;
+ - (long long) _recalcPageCount;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageAtIndex:(long long)a;
+ - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforPageAtIndex:(long long)b;
  - (id) _initWithView:(id)a;
  - (id) view;
 

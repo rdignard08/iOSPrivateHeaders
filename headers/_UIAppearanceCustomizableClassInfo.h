@@ -4,7 +4,7 @@
     BOOL _isGuideClassRoot;
     BOOL _isCustomizableViewClassRoot;
     @"NSString" _appearanceNodeKey;
-    Q _hash;
+    unsigned long long _hash;
     Class _customizableViewClass;
     Class _guideClass;
 }
@@ -16,13 +16,13 @@
 
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (Class) _customizableViewClass;
  - (id) _appearanceNodeKey;
  - (Class) _guideClass;
  - (id) _superClassInfo;
- - (Q) _hash;
+ - (unsigned long long) _hash;
 
 
 @end

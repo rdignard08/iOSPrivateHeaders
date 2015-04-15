@@ -3,7 +3,7 @@
 
     @"UIResponder<UITextInput>" _textInput;
     @"UIDelayedAction" _secondDelayTimer;
-    d _secondDelay;
+    double _secondDelay;
     BOOL _secondDelayElapsed;
     id _userData;
 }
@@ -12,14 +12,14 @@
  - (void) clearTimer;
  - (void) startTimer;
  - (void) secondDelayElapsed:(id)a;
- - (d) secondDelay;
+ - (double) secondDelay;
  - (id) textInput;
  - (void) setTextInput:(id)a;
- - (void) setSecondDelay:(d)a;
+ - (void) setSecondDelay:(double)a;
  - (BOOL) secondDelayElapsed;
  - (id) userData;
  - (void) setUserData:(id)a;
- - (void) setState:(q)a;
+ - (void) setState:(long long)a;
 
 
 @end

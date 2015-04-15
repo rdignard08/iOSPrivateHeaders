@@ -6,32 +6,32 @@
     id _delegate;
     @? _completion;
     {?="curve"b4"tvOutput"b1"useNSTimer"b1} _animationFlags;
-    d _startTime;
-    d _duration;
-    i _state;
+    double _startTime;
+    double _duration;
+    int _state;
 }
 
  - (id) target;
  - (id) initWithTarget:(id)a;
- - (void) setProgress:(f)a;
+ - (void) setProgress:(float)a;
  - (void) dealloc;
  - (void) setDelegate:(id)a;
  - (SEL) action;
- - (void) setAnimationCurve:(i)a;
+ - (void) setAnimationCurve:(int)a;
  - (void) setUsesNSTimer:(BOOL)a;
  - (void) setAction:(SEL)a;
- - (f) fractionForTime:(d)a;
+ - (float) fractionForTime:(double)a;
  - (void) markStop;
  - (@?) completion;
  - (void) setCompletion:(@?)a;
- - (void) markStart:(d)a;
- - (f) progressForFraction:(f)a;
+ - (void) markStart:(double)a;
+ - (float) progressForFraction:(float)a;
  - (void) stopAnimation;
  - (BOOL) usesNSTimer;
- - (i) state;
+ - (int) state;
  - (id) delegate;
- - (i) type;
- - (void) setDuration:(d)a;
+ - (int) type;
+ - (void) setDuration:(double)a;
 
 
 @end

@@ -3,7 +3,7 @@
 
 }
 
- - (Q) serializePListValueIn:(id)akey:(id)bvalue:(id)c;
+ - (unsigned long long) serializePListValueIn:(id)akey:(id)bvalue:(id)c;
 
 
 @end

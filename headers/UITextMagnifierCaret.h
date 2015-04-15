@@ -2,7 +2,7 @@
 @interface UITextMagnifierCaret : UITextMagnifier {
 
     {CGPoint="x"d"y"d} _offset;
-    f _yOffset;
+    float _yOffset;
 }
  + (id) sharedCaretMagnifier;
 
@@ -12,8 +12,8 @@
  - (void) setMagnificationPoint:({CGPoint=dd})a;
  - (BOOL) terminalPointPlacedCarefully;
  - (void) setAnimationPoint:({CGPoint=dd})a;
- - (void) setAutoscrollDirections:(i)a;
- - (f) yOffset;
+ - (void) setAutoscrollDirections:(int)a;
+ - (float) yOffset;
  - (id) initWithFrame;
  - (void) updateFrameAndOffset;
  - (void) zoomUpAnimationDidStop:(id)afinished:(id)b;
@@ -22,7 +22,7 @@
  - (void) zoomUpAnimation;
  - ({CGPoint=dd}) animationPoint;
  - (void) zoomDownAnimation;
- - (void) setYOffset:(f)a;
+ - (void) setYOffset:(float)a;
  - ({CGPoint=dd}) offset;
  - (void) setOffset:({CGPoint=dd})a;
 

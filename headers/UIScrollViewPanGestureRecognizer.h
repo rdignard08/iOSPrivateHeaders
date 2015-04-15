@@ -16,7 +16,7 @@
  - (void) setDelegate:(id)a;
  - ({CGPoint=dd}) translationInView:(id)a;
  - ({CGPoint=dd}) velocityInView:(id)a;
- - (d) _hysteresis;
+ - (double) _hysteresis;
  - (void) touchesBegan:(id)awithEvent:(id)b;
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) touchesCancelled:(id)awithEvent:(id)b;
@@ -30,7 +30,7 @@
  - (id) scrollView;
  - (void) _resetGestureRecognizer;
  - ({CGPoint=dd}) _adjustSceneReferenceLocation:({CGPoint=dd})a;
- - (void) _centroidMovedTo:({CGPoint=dd})aatTime:(d)b;
+ - (void) _centroidMovedTo:({CGPoint=dd})aatTime:(double)b;
  - (BOOL) _shouldTryToBeginWithEvent:(id)a;
  - (BOOL) _canTransferTrackingFromParentPagingScrollView;
  - (BOOL) _shouldTransferTrackingFromParentScrollViewForCurrentOffset;

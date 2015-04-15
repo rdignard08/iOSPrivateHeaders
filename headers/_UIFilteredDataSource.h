@@ -3,9 +3,9 @@
 @interface _UIFilteredDataSource : NSObject <UITableViewDataSource> {
 
     BOOL _limitingWithSections;
-    q _maxVisibleSection;
-    q _numberOfVisibleItemsInLastSection;
-    q _filterType;
+    long long _maxVisibleSection;
+    long long _numberOfVisibleItemsInLastSection;
+    long long _filterType;
     @"<UITableViewDataSource>" _tableDataSource;
 }
 @property (nonatomic, assign, readwrite) NSNumber* filterType;
@@ -13,14 +13,14 @@
 
  - (BOOL) respondsToSelector:(SEL)a;
  - (id) forwardingTargetForSelector:(SEL)a;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) numberOfSectionsInTableView:(id)a;
- - (q) filterType;
+ - (long long) numberOfSectionsInTableView:(id)a;
+ - (long long) filterType;
  - (void) setTableDataSource:(id)a;
- - (void) setFilterType:(q)a;
+ - (void) setFilterType:(long long)a;
  - (id) tableDataSource;
- - (q) _filteredNumberOfItemsGivenSection:(q)anumberOfItems:(q)b;
+ - (long long) _filteredNumberOfItemsGivenSection:(long long)anumberOfItems:(long long)b;
 
 
 @end

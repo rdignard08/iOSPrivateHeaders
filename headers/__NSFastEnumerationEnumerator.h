@@ -3,8 +3,8 @@
 
     @"<NSFastEnumeration>" _obj;
     id _origObj;
-    Q _count;
-    Q _mut;
+    unsigned long long _count;
+    unsigned long long _mut;
 }
  + (id) allocWithZone:(^{_NSZone=})a;
 

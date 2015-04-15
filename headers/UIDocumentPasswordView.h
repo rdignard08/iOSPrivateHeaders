@@ -20,8 +20,8 @@
  - (id) _labelTextColor;
  - (void) _passwordEntered:(id)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _iconRectForContainerRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (d) _labelHorizontalOffset;
- - (d) _textFieldWidth;
+ - (double) _labelHorizontalOffset;
+ - (double) _textFieldWidth;
  - (id) passwordDelegate;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

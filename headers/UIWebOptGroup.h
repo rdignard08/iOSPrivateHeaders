@@ -3,7 +3,7 @@
 
     @"<UIWebSelectedItemPrivate>" _group;
     @"NSArray" _options;
-    q _offset;
+    long long _offset;
 }
 @property (nonatomic, assign, readonly) NSNumber* offset;
 @property (nonatomic, retain, readwrite) NSNumber* group;
@@ -11,11 +11,11 @@
 
  - (void) dealloc;
  - (void) setGroup:(id)a;
- - (id) initWithGroup:(id)aitemOffset:(q)b;
+ - (id) initWithGroup:(id)aitemOffset:(long long)b;
  - (id) group;
  - (void) setOptions:(id)a;
  - (id) options;
- - (q) offset;
+ - (long long) offset;
 
 
 @end

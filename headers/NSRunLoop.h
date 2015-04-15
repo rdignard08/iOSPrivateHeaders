@@ -12,7 +12,7 @@
  + (id) _new:(id)a;
  + (id) currentRunLoop;
 
- - (void) performSelector:(SEL)atarget:(id)bargument:(id)corder:(Q)dmodes:(id)e;
+ - (void) performSelector:(SEL)atarget:(id)bargument:(id)corder:(unsigned long long)dmodes:(id)e;
  - (void) cancelPerformSelector:(SEL)atarget:(id)bargument:(id)c;
  - (void) cancelPerformSelectorsWithTarget:(id)a;
  - (void) addPort:(id)aforMode:(id)b;

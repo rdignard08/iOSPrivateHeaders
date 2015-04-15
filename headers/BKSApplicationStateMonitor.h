@@ -4,7 +4,7 @@
     @"NSObject<OS_xpc_object>" _connection;
     @"BSSignal" _invalidationSignal;
     @? _handler;
-    I _interestedStates;
+    unsigned int _interestedStates;
     @"NSArray" _interestedBundleIDs;
     @"NSObject<OS_dispatch_queue>" _queue;
     @"NSObject<OS_dispatch_queue>" _messageHandlingQueue;
@@ -26,26 +26,26 @@
  - (void) queue_connectionWasInvalidated;
  - (void) _setEndpoint:(id)a;
  - (void) setHandler:(@?)a;
- - (id) bundleInfoValueForKey:(id)aPID:(i)b;
- - (I) applicationStateForApplication:(id)a;
- - (I) mostElevatedApplicationStateForPID:(i)a;
- - (void) applicationInfoForPID:(i)acompletion:(@?)b;
+ - (id) bundleInfoValueForKey:(id)aPID:(int)b;
+ - (unsigned int) applicationStateForApplication:(id)a;
+ - (unsigned int) mostElevatedApplicationStateForPID:(int)a;
+ - (void) applicationInfoForPID:(int)acompletion:(@?)b;
  - (void) applicationInfoForApplication:(id)acompletion:(@?)b;
- - (id) initWithBundleIDs:(id)astates:(I)b;
- - (id) initWithEndpoint:(id)abundleIDs:(id)bstates:(I)c;
+ - (id) initWithBundleIDs:(id)astates:(unsigned int)b;
+ - (id) initWithEndpoint:(id)abundleIDs:(id)bstates:(unsigned int)c;
  - (void) setInterestedBundleIDs:(id)a;
- - (void) setInterestedStates:(I)a;
+ - (void) setInterestedStates:(unsigned int)a;
  - (void) queue_registerWithServer;
  - (void) queue_setHandler:(@?)a;
  - (void) queue_setInterestedBundleIDs:(id)a;
- - (void) queue_setInterestedStates:(I)a;
- - (I) interestedStates;
- - (void) updateInterestedBundleIDs:(id)astates:(I)b;
+ - (void) queue_setInterestedStates:(unsigned int)a;
+ - (unsigned int) interestedStates;
+ - (void) updateInterestedBundleIDs:(id)astates:(unsigned int)b;
  - (id) interestedBundleIDs;
  - (void) queue_updateInterestedStates;
  - (void) queue_updateInterestedStates:(BOOL)a;
  - (void) updateInterestedBundleIDs:(id)a;
- - (void) updateInterestedStates:(I)a;
+ - (void) updateInterestedStates:(unsigned int)a;
  - (BOOL) isApplicationBeingDebugged:(id)a;
 
 

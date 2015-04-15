@@ -13,7 +13,7 @@
  - (void) updateForKeyplane:(id)akey:(id)b;
  - (void) setDrawFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (id) keyplane;
- - (void) dimKeyCaps:(d)aduration:(d)b;
+ - (void) dimKeyCaps:(double)aduration:(double)b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) drawFrame;
  - (BOOL) requiresSublayers;
  - (id) key;

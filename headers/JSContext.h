@@ -48,7 +48,7 @@
  - (void) notifyException:(^{OpaqueJSValue=})a;
  - (id) initWithGlobalContextRef:(^{OpaqueJSContext=})a;
  - (BOOL) boolFromNotifyException:(^{OpaqueJSValue=})a;
- - (void) beginCallbackWithData:(^{CallbackData=^{CallbackData}@@^{OpaqueJSValue}^{OpaqueJSValue}Q^^{OpaqueJSValue}@})acalleeValue:(^{OpaqueJSValue=})bthisValue:(^{OpaqueJSValue=})cargumentCount:(Q)darguments:(r^^{OpaqueJSValue})e;
+ - (void) beginCallbackWithData:(^{CallbackData=^{CallbackData}@@^{OpaqueJSValue}^{OpaqueJSValue}Q^^{OpaqueJSValue}@})acalleeValue:(^{OpaqueJSValue=})bthisValue:(^{OpaqueJSValue=})cargumentCount:(unsigned long long)darguments:(r^^{OpaqueJSValue})e;
  - (void) endCallbackWithData:(^{CallbackData=^{CallbackData}@@^{OpaqueJSValue}^{OpaqueJSValue}Q^^{OpaqueJSValue}@})a;
  - (id) wrapperForObjCObject:(id)a;
  - (id) wrapperForJSObject:(^{OpaqueJSValue=})a;

@@ -18,7 +18,7 @@
  - (id) inputRadius;
  - (id) inputCenter;
  - (void) setInputCenter:(id)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) computeDOD:(f)ascale:(f)b;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) computeDOD:(float)ascale:(float)b;
  - (id) _pinchDistortionScaleLT1;
  - (id) _pinchDistortionScaleGE1;
 

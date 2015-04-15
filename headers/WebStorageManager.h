@@ -4,11 +4,11 @@
 }
  + (id) _storageDirectoryPath;
  + (id) sharedWebStorageManager;
- + (void) setStorageDatabaseIdleInterval:(d)a;
+ + (void) setStorageDatabaseIdleInterval:(double)a;
  + (void) closeIdleLocalStorageDatabases;
 
  - (id) init;
- - (Q) diskUsageForOrigin:(id)a;
+ - (unsigned long long) diskUsageForOrigin:(id)a;
  - (id) origins;
  - (void) deleteOrigin:(id)a;
  - (void) deleteAllOrigins;

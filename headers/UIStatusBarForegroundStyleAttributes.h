@@ -1,9 +1,9 @@
 
 @interface UIStatusBarForegroundStyleAttributes : NSObject {
 
-    d _height;
-    q _legibilityStyle;
-    q _idiom;
+    double _height;
+    long long _legibilityStyle;
+    long long _idiom;
     @"NSMutableDictionary" _cachedFonts;
     BOOL _isTintColorBlack;
     BOOL _hasBusyBackground;
@@ -11,55 +11,55 @@
 }
 @property (nonatomic, retain, readonly) UIColor* tintColor;
 
- - (d) scale;
+ - (double) scale;
  - (void) dealloc;
  - (id) imageNamed:(id)a;
  - (id) tintColor;
- - (id) textColorForStyle:(q)a;
- - (q) legibilityStyle;
- - (id) initWithHeight:(d)alegibilityStyle:(q)btintColor:(id)chasBusyBackground:(BOOL)didiom:(q)e;
+ - (id) textColorForStyle:(long long)a;
+ - (long long) legibilityStyle;
+ - (id) initWithHeight:(double)alegibilityStyle:(long long)btintColor:(id)chasBusyBackground:(BOOL)didiom:(long long)e;
  - (BOOL) usesVerticalLayout;
- - (d) edgePadding;
- - (id) textFontForStyle:(q)a;
- - (d) standardPadding;
- - (d) shadowPadding;
- - (id) imageWithText:(id)aofItemType:(i)bforWidth:(d)clineBreakMode:(q)dletterSpacing:(d)etextAlignment:(q)fstyle:(q)gwithLegibilityStyle:(q)hlegibilityStrength:(d)i;
- - (id) imageNamed:(id)awithLegibilityStyle:(q)blegibilityStrength:(d)c;
- - (id) textForNetworkType:(i)a;
- - (id) cachedImageWithText:(id)aforWidth:(d)blineBreakMode:(q)cletterSpacing:(d)dtextAlignment:(q)estyle:(q)fitemType:(i)g;
- - (id) batteryImageNameWithCapacity:(d)a;
+ - (double) edgePadding;
+ - (id) textFontForStyle:(long long)a;
+ - (double) standardPadding;
+ - (double) shadowPadding;
+ - (id) imageWithText:(id)aofItemType:(int)bforWidth:(double)clineBreakMode:(long long)dletterSpacing:(double)etextAlignment:(long long)fstyle:(long long)gwithLegibilityStyle:(long long)hlegibilityStrength:(double)i;
+ - (id) imageNamed:(id)awithLegibilityStyle:(long long)blegibilityStrength:(double)c;
+ - (id) textForNetworkType:(int)a;
+ - (id) cachedImageWithText:(id)aforWidth:(double)blineBreakMode:(long long)cletterSpacing:(double)dtextAlignment:(long long)estyle:(long long)fitemType:(int)g;
+ - (id) batteryImageNameWithCapacity:(double)a;
  - (id) cachedImageNamed:(id)ainTempGroup:(id)b;
- - (d) batteryAccessoryMargin;
- - (void) drawBatteryInsidesWithSize:({CGSize=dd})acapacity:(d)bcharging:(BOOL)c;
+ - (double) batteryAccessoryMargin;
+ - (void) drawBatteryInsidesWithSize:({CGSize=dd})acapacity:(double)bcharging:(BOOL)c;
  - (void) cacheImage:(id)anamed:(id)binTempGroup:(id)c;
- - (id) bluetoothBatteryImageNameWithCapacity:(d)a;
- - (void) drawBluetoothBatteryInsidesWithSize:({CGSize=dd})acapacity:(d)b;
- - (d) bluetoothBatteryExtraPadding;
- - (q) activityIndicatorStyleWithSyncActivity:(BOOL)a;
- - (d) sizeForMoonMaskVisible:(BOOL)a;
+ - (id) bluetoothBatteryImageNameWithCapacity:(double)a;
+ - (void) drawBluetoothBatteryInsidesWithSize:({CGSize=dd})acapacity:(double)b;
+ - (double) bluetoothBatteryExtraPadding;
+ - (long long) activityIndicatorStyleWithSyncActivity:(BOOL)a;
+ - (double) sizeForMoonMaskVisible:(BOOL)a;
  - ({CGPoint=dd}) positionForMoonMaskInBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (id) untintedImageNamed:(id)a;
  - ({UIEdgeInsets=dddd}) edgeInsetsForBatteryInsides;
- - (d) _roundDimension:(d)a;
- - (id) _batteryColorForCapacity:(d)alowCapacity:(d)bcharging:(BOOL)c;
+ - (double) _roundDimension:(double)a;
+ - (id) _batteryColorForCapacity:(double)alowCapacity:(double)bcharging:(BOOL)c;
  - (id) uncachedImageNamed:(id)a;
  - ({UIEdgeInsets=dddd}) edgeInsetsForBluetoothBatteryInsides;
- - (d) textOffsetForStyle:(q)a;
- - (void) _drawText:(id)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})bwithFont:(id)clineBreakMode:(q)dletterSpacing:(d)etextAlignment:(q)f;
+ - (double) textOffsetForStyle:(long long)a;
+ - (void) _drawText:(id)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})bwithFont:(id)clineBreakMode:(long long)dletterSpacing:(double)etextAlignment:(long long)f;
  - (void) drawTextInRect:({CGRect={CGPoint=dd}{CGSize=dd}})awithColor:(id)bwithBlock:(@?)c;
  - (id) expandedNameForImageName:(id)a;
  - (id) _cachedImageNamed:(id)a;
  - (void) _cacheImage:(id)anamed:(id)b;
- - (id) shadowImageForImage:(id)awithIdentifier:(id)bforStyle:(q)cwithStrength:(d)d;
- - (id) shadowImageForImage:(id)awithIdentifier:(id)bforStyle:(q)cwithStrength:(d)dinTempGroup:(id)e;
- - (void) drawText:(id)aforWidth:(d)blineBreakMode:(q)cletterSpacing:(d)dtextAlignment:(q)estyle:(q)ftextSize:({CGSize=dd})gtextHeight:(d)h;
- - (id) makeTextFontForStyle:(q)a;
- - (BOOL) _shouldUseBoldFontForStyle:(q)a;
+ - (id) shadowImageForImage:(id)awithIdentifier:(id)bforStyle:(long long)cwithStrength:(double)d;
+ - (id) shadowImageForImage:(id)awithIdentifier:(id)bforStyle:(long long)cwithStrength:(double)dinTempGroup:(id)e;
+ - (void) drawText:(id)aforWidth:(double)blineBreakMode:(long long)cletterSpacing:(double)dtextAlignment:(long long)estyle:(long long)ftextSize:({CGSize=dd})gtextHeight:(double)h;
+ - (id) makeTextFontForStyle:(long long)a;
+ - (BOOL) _shouldUseBoldFontForStyle:(long long)a;
  - (id) proportionalFontForFont:(id)a;
- - (id) initWithHeight:(d)alegibilityStyle:(q)btintColor:(id)chasBusyBackground:(BOOL)d;
+ - (id) initWithHeight:(double)alegibilityStyle:(long long)btintColor:(id)chasBusyBackground:(BOOL)d;
  - (id) uniqueIdentifier;
- - (q) idiom;
- - (d) height;
+ - (long long) idiom;
+ - (double) height;
 
 
 @end

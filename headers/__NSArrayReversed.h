@@ -2,12 +2,12 @@
 @interface __NSArrayReversed : NSArray {
 
     id _array;
-    Q _cnt;
+    unsigned long long _cnt;
 }
 
  - (void) dealloc;
- - (Q) count;
- - (id) objectAtIndex:(Q)a;
+ - (unsigned long long) count;
+ - (id) objectAtIndex:(unsigned long long)a;
  - (void) getObjects:(^@)arange:({_NSRange=QQ})b;
  - (id) initWithArray:(id)a;
 

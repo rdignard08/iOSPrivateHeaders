@@ -3,16 +3,16 @@
 
     @"NSString" path;
     @"NSArray" contents;
-    Q idx;
+    unsigned long long idx;
     @"NSString" prepend;
     @"NSAllDescendantPathsEnumerator" under;
     @"NSFileAttributes" directoryAttributes;
     @"NSString" pathToLastReportedItem;
-    Q depth;
+    unsigned long long depth;
     BOOL cross;
     [3c] _padding;
 }
- + (id) newWithPath:(id)aprepend:(id)battributes:(id)ccross:(BOOL)ddepth:(Q)e;
+ + (id) newWithPath:(id)aprepend:(id)battributes:(id)ccross:(BOOL)ddepth:(unsigned long long)e;
 
  - (id) fileAttributes;
  - (id) directoryAttributes;
@@ -22,7 +22,7 @@
  - (id) currentSubdirectoryAttributes;
  - (void) dealloc;
  - (id) nextObject;
- - (Q) level;
+ - (unsigned long long) level;
 
 
 @end

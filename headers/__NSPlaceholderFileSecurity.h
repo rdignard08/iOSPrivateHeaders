@@ -9,7 +9,7 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (id) initWithFileSec:(^{_filesec=})a;
  - (id) init;

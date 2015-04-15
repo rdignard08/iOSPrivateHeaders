@@ -6,7 +6,7 @@
 
  - (void) setTextView:(id)a;
  - (BOOL) isCloseToSelection;
- - (void) setState:(q)a;
+ - (void) setState:(long long)a;
  - (id) textView;
 
 

@@ -2,9 +2,9 @@
 @interface NSFileSubarbitrationClaim : NSFileAccessClaim {
 
     @"NSArray" _readingURLs;
-    Q _readingOptions;
+    unsigned long long _readingOptions;
     @"NSArray" _writingURLs;
-    Q _writingOptions;
+    unsigned long long _writingOptions;
     @? _messageSender;
     @"NSArray" _readingLocations;
     @"NSArray" _writingLocations;
@@ -15,7 +15,7 @@
 }
 
  - (@?) messageSender;
- - (id) initWithReadingURLs:(id)aoptions:(Q)bwritingURLs:(id)coptions:(Q)dclaimer:(@?)e;
+ - (id) initWithReadingURLs:(id)aoptions:(unsigned long long)bwritingURLs:(id)coptions:(unsigned long long)dclaimer:(@?)e;
  - (void) granted;
  - (void) invokeClaimer;
  - (void) devalueSelf;
@@ -23,8 +23,8 @@
  - (void) forwardUsingMessageSender:(@?)acrashHandler:(@?)b;
  - (BOOL) evaluateSelfWithRootNode:(id)acheckSubarbitrability:(BOOL)b;
  - (void) evaluateNewClaim:(id)a;
- - (BOOL) isBlockedByReadingItemAtLocation:(id)aoptions:(Q)b;
- - (BOOL) isBlockedByWritingItemAtLocation:(id)aoptions:(Q)b;
+ - (BOOL) isBlockedByReadingItemAtLocation:(id)aoptions:(unsigned long long)b;
+ - (BOOL) isBlockedByWritingItemAtLocation:(id)aoptions:(unsigned long long)b;
  - (void) revoked;
  - (void) devalueOldClaim:(id)a;
  - (void) itemAtLocation:(id)awasReplacedByItemAtLocation:(id)b;

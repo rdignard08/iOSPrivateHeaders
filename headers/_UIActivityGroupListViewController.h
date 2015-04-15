@@ -9,22 +9,22 @@
 }
 
  - (void) dealloc;
- - (q) collectionView:(id)anumberOfItemsInSection:(q)b;
+ - (long long) collectionView:(id)anumberOfItemsInSection:(long long)b;
  - (id) collectionView:(id)acellForItemAtIndexPath:(id)b;
- - (q) numberOfSectionsInCollectionView:(id)a;
+ - (long long) numberOfSectionsInCollectionView:(id)a;
  - (id) collectionView:(id)aviewForSupplementaryElementOfKind:(id)batIndexPath:(id)c;
  - (void) collectionView:(id)awillDisplayCell:(id)bforItemAtIndexPath:(id)c;
  - (void) preferredContentSizeDidChangeForChildContentContainer:(id)a;
  - ({CGSize=dd}) collectionView:(id)alayout:(id)bsizeForItemAtIndexPath:(id)c;
  - (void) viewDidLoad;
- - ({CGSize=dd}) collectionView:(id)alayout:(id)breferenceSizeForFooterInSection:(q)c;
+ - ({CGSize=dd}) collectionView:(id)alayout:(id)breferenceSizeForFooterInSection:(long long)c;
  - (BOOL) darkStyleOnLegacyApp;
  - (void) setDarkStyleOnLegacyApp:(BOOL)a;
  - (BOOL) isEmbedded;
  - (void) setEmbedded:(BOOL)a;
  - (void) updateVisibleActivityGroupViewControllers;
  - (id) initWithActivityGroupViewControllers:(id)aembedded:(BOOL)b;
- - (d) displayHeight;
+ - (double) displayHeight;
  - (void) setActivityGroupViewControllers:(id)a;
  - (void) setVisibleActivityGroupViewControllers:(id)a;
  - (void) setPlaceholderLabel:(id)a;
@@ -34,7 +34,7 @@
  - (BOOL) shouldShowNoActionsPlaceholder;
  - (id) placeholderLabel;
  - (id) viewControllerForItemAtIndexPath:(id)a;
- - (d) preferredContentHeightForViewController:(id)a;
+ - (double) preferredContentHeightForViewController:(id)a;
 
 
 @end

@@ -7,13 +7,13 @@
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _toVisibleBounds;
     {CGSize="width"d"height"d} _contentSize;
     BOOL _haveValidInfos;
-    d _transitionProgress;
+    double _transitionProgress;
     @"NSMutableDictionary" _transitionInformationsDict;
     @"NSMutableDictionary" _currentLayoutInfos;
     BOOL _layoutIsValid;
     @"NSMutableArray" _disappearingLayoutAttributes;
     @"NSMutableArray" _appearingLayoutAttributes;
-    d _accuracy;
+    double _accuracy;
 }
 
  - (void) dealloc;
@@ -30,16 +30,16 @@
  - ({CGPoint=dd}) targetContentOffsetForProposedContentOffset:({CGPoint=dd})a;
  - (void) _prepareForTransitionToLayout:(id)a;
  - (void) _prepareForTransitionFromLayout:(id)a;
- - (void) setTransitionProgress:(d)a;
+ - (void) setTransitionProgress:(double)a;
  - (BOOL) _supportsAdvancedTransitionAnimations;
  - (void) _finalizeLayoutTransition;
  - (id) initWithCurrentLayout:(id)anextLayout:(id)b;
  - (id) currentLayout;
  - (id) nextLayout;
- - (d) transitionProgress;
- - (id) interpolatedLayoutAttributesFromLayoutAttributes:(id)atoLayoutAttributes:(id)bprogress:(d)c;
- - (void) updateValue:(d)aforAnimatedKey:(id)b;
- - (d) valueForAnimatedKey:(id)a;
+ - (double) transitionProgress;
+ - (id) interpolatedLayoutAttributesFromLayoutAttributes:(id)atoLayoutAttributes:(id)bprogress:(double)c;
+ - (void) updateValue:(double)aforAnimatedKey:(id)b;
+ - (double) valueForAnimatedKey:(id)a;
 
 
 @end

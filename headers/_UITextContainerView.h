@@ -22,7 +22,7 @@
  - ({CGSize=dd}) minSize;
  - (BOOL) isHorizontallyResizable;
  - (id) textContainer;
- - (void) setLayoutOrientation:(q)a;
+ - (void) setLayoutOrientation:(long long)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atextContainer:(id)b;
  - (void) setVerticallyResizable:(BOOL)a;
  - (void) setUsesTiledViews:(BOOL)a;
@@ -33,14 +33,14 @@
  - (void) setLinkTextAttributes:(id)a;
  - (void) _ensureMinAndMaxSizesConsistentWithBounds;
  - (BOOL) _ensureLayoutCompleteForRect:({CGRect={CGPoint=dd}{CGSize=dd}})awithExtension:(BOOL)b;
- - ({_NSRange=QQ}) _extendedGlyphRangeForRange:({_NSRange=QQ})amaxGlyphIndex:(Q)bdrawingToScreen:(BOOL)c;
- - (BOOL) _ensureLayoutCompleteForRect:({CGRect={CGPoint=dd}{CGSize=dd}})awithExtensionFactor:(d)bminimumExtensionDistance:(d)crepetitions:(Q)d;
+ - ({_NSRange=QQ}) _extendedGlyphRangeForRange:({_NSRange=QQ})amaxGlyphIndex:(unsigned long long)bdrawingToScreen:(BOOL)c;
+ - (BOOL) _ensureLayoutCompleteForRect:({CGRect={CGPoint=dd}{CGSize=dd}})awithExtensionFactor:(double)bminimumExtensionDistance:(double)crepetitions:(unsigned long long)d;
  - (BOOL) isVerticallyResizable;
  - (void) _ensureLayoutCompleteToEndOfCharacterRange:({_NSRange=QQ})a;
  - (void) setMaxSize:({CGSize=dd})a;
  - (id) delegate;
  - (id) textStorage;
- - (q) layoutOrientation;
+ - (long long) layoutOrientation;
  - (id) linkTextAttributes;
  - (void) invalidateTextContainerOrigin;
  - (void) updateInsertionPointStateAndRestartTimer:(BOOL)a;

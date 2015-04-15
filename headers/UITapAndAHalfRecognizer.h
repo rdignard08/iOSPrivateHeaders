@@ -2,11 +2,11 @@
 @interface UITapAndAHalfRecognizer : UIGestureRecognizer {
 
     {CGPoint="x"d"y"d} _startPoint;
-    d _allowableMovement;
-    i _numberOfFullTaps;
-    d _minimumFinalPressDuration;
+    double _allowableMovement;
+    int _numberOfFullTaps;
+    double _minimumFinalPressDuration;
     @"NSMutableSet" _activeTouches;
-    i _currentNumberOfTaps;
+    int _currentNumberOfTaps;
     @"UITouch" _touch;
     @"UIDelayedAction" _tapTimer;
 }
@@ -17,20 +17,20 @@
  - (void) touchesEnded:(id)awithEvent:(id)b;
  - (void) touchesCancelled:(id)awithEvent:(id)b;
  - (id) touch;
- - (void) setAllowableMovement:(d)a;
+ - (void) setAllowableMovement:(double)a;
  - (void) setTouch:(id)a;
  - (void) _resetGestureRecognizer;
- - (d) allowableMovement;
+ - (double) allowableMovement;
  - (void) clearTapTimer;
  - (void) tooSlow:(id)a;
- - (void) startTapTimer:(d)a;
- - (i) numberOfFullTaps;
+ - (void) startTapTimer:(double)a;
+ - (int) numberOfFullTaps;
  - (void) recognized:(id)a;
- - (d) minimumFinalPressDuration;
- - (void) startRecognitionTimer:(d)a;
+ - (double) minimumFinalPressDuration;
+ - (void) startRecognitionTimer:(double)a;
  - (void) _verifyMovementInAllowableRange;
- - (void) setNumberOfFullTaps:(i)a;
- - (void) setMinimumFinalPressDuration:(d)a;
+ - (void) setNumberOfFullTaps:(int)a;
+ - (void) setMinimumFinalPressDuration:(double)a;
  - (id) initWithTarget:(id)aaction:(SEL)b;
 
 

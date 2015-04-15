@@ -2,8 +2,8 @@
 @protocol NSCopying;
 @interface NSDocInfo : NSObject <NSCopying> {
 
-    q time;
-    S mode;
+    long long time;
+    unsigned short mode;
     {?="isDir"b1"isSingleFile"b1"isSoftLink"b1"_pad"b13} flags;
 }
 

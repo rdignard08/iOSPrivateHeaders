@@ -1,21 +1,21 @@
 
 @interface CIBurstFaceConfigEntry : NSObject {
 
-    i faceId;
+    int faceId;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} faceRect;
-    i framesSinceLast;
+    int framesSinceLast;
 }
 @property (atomic, assign, readwrite) NSNumber* faceId;
 @property (atomic, assign, readwrite) NSNumber* faceRect;
 @property (atomic, assign, readwrite) NSNumber* framesSinceLast;
 
- - (i) faceId;
+ - (int) faceId;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) faceRect;
- - (id) initWithRect:({CGRect={CGPoint=dd}{CGSize=dd}})awithFaceId:(i)b;
- - (void) setFaceId:(i)a;
+ - (id) initWithRect:({CGRect={CGPoint=dd}{CGSize=dd}})awithFaceId:(int)b;
+ - (void) setFaceId:(int)a;
  - (void) setFaceRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (i) framesSinceLast;
- - (void) setFramesSinceLast:(i)a;
+ - (int) framesSinceLast;
+ - (void) setFramesSinceLast:(int)a;
 
 
 @end

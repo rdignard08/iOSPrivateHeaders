@@ -14,7 +14,7 @@
  - (void) dealloc;
  - (void) tableView:(id)awillDisplayCell:(id)bforRowAtIndexPath:(id)c;
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
  - (void) _reloadButtons;
  - (void) setEnableFirstOtherButton:(BOOL)a;

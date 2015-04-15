@@ -10,7 +10,7 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (void) finalize;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (void) setTimeZone:(id)a;
  - (id) dateFromComponents:(id)a;
  - (id) _initWithCalendar:(id)a;
@@ -19,21 +19,21 @@
  - (void) setLocale:(id)a;
  - (id) locale;
  - (id) timeZone;
- - (void) setFirstWeekday:(Q)a;
- - (Q) firstWeekday;
- - (void) setMinimumDaysInFirstWeek:(Q)a;
- - (Q) minimumDaysInFirstWeek;
- - ({_NSRange=QQ}) minimumRangeOfUnit:(Q)a;
- - ({_NSRange=QQ}) maximumRangeOfUnit:(Q)a;
- - ({_NSRange=QQ}) rangeOfUnit:(Q)ainUnit:(Q)bforDate:(id)c;
- - (Q) ordinalityOfUnit:(Q)ainUnit:(Q)bforDate:(id)c;
- - (BOOL) rangeOfUnit:(Q)astartDate:(^@)binterval:(^d)cforDate:(id)d;
- - (id) components:(Q)afromDate:(id)b;
- - (id) dateByAddingComponents:(id)atoDate:(id)boptions:(Q)c;
- - (id) components:(Q)afromDate:(id)btoDate:(id)coptions:(Q)d;
- - (BOOL) nextWeekendStartDate:(o^@)ainterval:(o^d)boptions:(Q)cafterDate:(id)d;
+ - (void) setFirstWeekday:(unsigned long long)a;
+ - (unsigned long long) firstWeekday;
+ - (void) setMinimumDaysInFirstWeek:(unsigned long long)a;
+ - (unsigned long long) minimumDaysInFirstWeek;
+ - ({_NSRange=QQ}) minimumRangeOfUnit:(unsigned long long)a;
+ - ({_NSRange=QQ}) maximumRangeOfUnit:(unsigned long long)a;
+ - ({_NSRange=QQ}) rangeOfUnit:(unsigned long long)ainUnit:(unsigned long long)bforDate:(id)c;
+ - (unsigned long long) ordinalityOfUnit:(unsigned long long)ainUnit:(unsigned long long)bforDate:(id)c;
+ - (BOOL) rangeOfUnit:(unsigned long long)astartDate:(^@)binterval:(^d)cforDate:(id)d;
+ - (id) components:(unsigned long long)afromDate:(id)b;
+ - (id) dateByAddingComponents:(id)atoDate:(id)boptions:(unsigned long long)c;
+ - (id) components:(unsigned long long)afromDate:(id)btoDate:(id)coptions:(unsigned long long)d;
+ - (BOOL) nextWeekendStartDate:(o^@)ainterval:(o^d)boptions:(unsigned long long)cafterDate:(id)d;
  - (BOOL) isDateInWeekend:(id)a;
- - (void) enumerateDatesStartingAfterDate:(id)amatchingComponents:(id)boptions:(Q)cusingBlock:(@?)d;
+ - (void) enumerateDatesStartingAfterDate:(id)amatchingComponents:(id)boptions:(unsigned long long)cusingBlock:(@?)d;
  - (id) init;
 
 

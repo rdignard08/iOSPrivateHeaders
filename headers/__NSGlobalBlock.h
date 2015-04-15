@@ -6,7 +6,7 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (id) copy;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;

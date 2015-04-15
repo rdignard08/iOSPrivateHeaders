@@ -7,7 +7,7 @@
     @"NSMutableArray" _transitions;
     @"NSTimer" _nextTimer;
     @"CAState" _nextState;
-    f _nextSpeed;
+    float _nextSpeed;
 }
 @property (atomic, assign, readonly) CALayer* layer;
 @property (nonatomic, retain, readwrite) CAState* currentState;

@@ -4,10 +4,10 @@
 
     BOOL _useEmojiStyles;
     BOOL _lightKeyboard;
-    d _blurRadius;
-    d _blurSaturation;
-    d _keycapOpacity;
-    d _lightKeycapOpacity;
+    double _blurRadius;
+    double _blurSaturation;
+    double _keycapOpacity;
+    double _lightKeycapOpacity;
 }
 @property (nonatomic, assign, readwrite) NSNumber* lightKeyboard;
 @property (nonatomic, assign, readwrite) NSNumber* blurRadius;
@@ -16,27 +16,27 @@
 @property (nonatomic, assign, readwrite) NSNumber* lightKeycapOpacity;
 @property (nonatomic, assign, readonly) NSNumber* whiteText;
 @property (nonatomic, assign, readonly) NSNumber* backdropStyle;
- + (q) backdropStyleForStyle:(q)a;
+ + (long long) backdropStyleForStyle:(long long)a;
  + (id) defaultConfig;
  + (id) defaultEmojiConfig;
  + (id) darkConfig;
- + (id) configForAppearance:(q)ainputMode:(id)b;
+ + (id) configForAppearance:(long long)ainputMode:(id)b;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (BOOL) isEqual:(id)a;
  - (BOOL) whiteText;
- - (d) blurRadius;
- - (void) setBlurRadius:(d)a;
- - (q) backdropStyle;
- - (void) setBlurSaturation:(d)a;
+ - (double) blurRadius;
+ - (void) setBlurRadius:(double)a;
+ - (long long) backdropStyle;
+ - (void) setBlurSaturation:(double)a;
  - (void) setLightKeyboard:(BOOL)a;
- - (void) setKeycapOpacity:(d)a;
- - (void) setLightKeycapOpacity:(d)a;
+ - (void) setKeycapOpacity:(double)a;
+ - (void) setLightKeycapOpacity:(double)a;
  - (BOOL) lightKeyboard;
- - (d) keycapOpacity;
- - (d) lightKeycapOpacity;
- - (d) blurSaturation;
+ - (double) keycapOpacity;
+ - (double) lightKeycapOpacity;
+ - (double) blurSaturation;
 
 
 @end

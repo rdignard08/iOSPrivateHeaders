@@ -3,7 +3,7 @@
 @interface WebSelectionRect : NSObject <NSCopying> {
 
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} m_rect;
-    i m_writingDirection;
+    int m_writingDirection;
     BOOL m_isLineBreak;
     BOOL m_isFirstOnLine;
     BOOL m_isLastOnLine;
@@ -31,10 +31,10 @@
  - (BOOL) containsStart;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) rect;
  - (BOOL) isHorizontal;
- - (i) writingDirection;
+ - (int) writingDirection;
  - (BOOL) containsEnd;
  - (void) setRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setWritingDirection:(i)a;
+ - (void) setWritingDirection:(int)a;
  - (void) setIsLineBreak:(BOOL)a;
  - (void) setIsFirstOnLine:(BOOL)a;
  - (void) setIsLastOnLine:(BOOL)a;

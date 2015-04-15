@@ -4,12 +4,12 @@
     ^{CGContext=} _bitmapContext;
     @"NSData" _pixelData;
     @"NSData" _rawData;
-    I _pixelFormat;
-    I _width;
-    I _height;
-    Q _rowbytes;
+    unsigned int _pixelFormat;
+    unsigned int _width;
+    unsigned int _height;
+    unsigned long long _rowbytes;
     BOOL _allowsMultiPassEncoding;
-    I _imageAlpha;
+    unsigned int _imageAlpha;
 }
 @property (nonatomic, assign, readwrite) NSNumber* pixelFormat;
 @property (atomic, assign, readwrite) NSNumber* allowsMultiPassEncoding;
@@ -18,18 +18,18 @@
  - (void) finalize;
  - (id) compressedData:(BOOL)ausedEncoding:(^i)bandRowChunkSize:(^I)c;
  - (BOOL) allowsMultiPassEncoding;
- - (I) sourceImageAlpha;
- - (Q) rowbytes;
- - (I) pixelFormat;
- - (void) setPixelFormat:(I)a;
+ - (unsigned int) sourceImageAlpha;
+ - (unsigned long long) rowbytes;
+ - (unsigned int) pixelFormat;
+ - (void) setPixelFormat:(unsigned int)a;
  - (void) setAllowsMultiPassEncoding:(BOOL)a;
  - (^{CGContext=}) bitmapContext;
  - (id) pixelData;
- - (id) initWithPixelWidth:(I)apixelHeight:(I)b;
- - (void) setSourceAlphaInfo:(I)a;
+ - (id) initWithPixelWidth:(unsigned int)apixelHeight:(unsigned int)b;
+ - (void) setSourceAlphaInfo:(unsigned int)a;
  - (void) setPixelData:(id)a;
- - (I) width;
- - (I) height;
+ - (unsigned int) width;
+ - (unsigned int) height;
 
 
 @end

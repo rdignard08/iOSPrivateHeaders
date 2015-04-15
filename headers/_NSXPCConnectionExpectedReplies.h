@@ -2,13 +2,13 @@
 @interface _NSXPCConnectionExpectedReplies : NSObject {
 
     ^{__CFDictionary=} _replyTable;
-    i _lock;
-    Q _sequence;
+    int _lock;
+    unsigned long long _sequence;
 }
 
- - (void) removeSequence:(Q)a;
- - (Q) sequenceWithProgress:(id)a;
- - (id) progressForSequence:(Q)a;
+ - (void) removeSequence:(unsigned long long)a;
+ - (unsigned long long) sequenceWithProgress:(id)a;
+ - (id) progressForSequence:(unsigned long long)a;
  - (void) dealloc;
  - (void) finalize;
  - (id) init;

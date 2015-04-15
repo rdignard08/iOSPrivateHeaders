@@ -9,7 +9,7 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) copy;
  - (void) invoke;
- - (void) performAfterDelay:(d)a;
+ - (void) performAfterDelay:(double)a;
 
 
 @end

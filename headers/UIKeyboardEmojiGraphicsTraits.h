@@ -1,22 +1,22 @@
 
 @interface UIKeyboardEmojiGraphicsTraits : NSObject {
 
-    d _emojiKeyWidth;
-    d _minimumLineSpacing;
-    d _minimumInteritemSpacing;
-    d _columnOffset;
-    d _sectionOffset;
-    d _categoryHeaderHeight;
-    d _categoryHeaderLeftPadding;
-    d _categorySelectedCirPadding;
-    d _categorySelectedCirWidth;
-    d _scrubViewTopPadding;
-    d _categoryHeaderFontSize;
-    q _prepolulatedRecentCount;
-    d _inputViewLeftMostPadding;
-    d _inputViewRightMostPadding;
-    d _rightBiasPercentage;
-    d _alertTextWidth;
+    double _emojiKeyWidth;
+    double _minimumLineSpacing;
+    double _minimumInteritemSpacing;
+    double _columnOffset;
+    double _sectionOffset;
+    double _categoryHeaderHeight;
+    double _categoryHeaderLeftPadding;
+    double _categorySelectedCirPadding;
+    double _categorySelectedCirWidth;
+    double _scrubViewTopPadding;
+    double _categoryHeaderFontSize;
+    long long _prepolulatedRecentCount;
+    double _inputViewLeftMostPadding;
+    double _inputViewRightMostPadding;
+    double _rightBiasPercentage;
+    double _alertTextWidth;
     {CGSize="width"d"height"d} _fakeEmojiKeySize;
 }
 @property (nonatomic, assign, readonly) NSNumber* emojiKeyWidth;
@@ -38,24 +38,24 @@
 @property (nonatomic, assign, readonly) NSNumber* alertTextWidth;
  + (id) emojiGraphicsTraitsWithScreenTraits:(id)a;
 
- - (d) emojiKeyWidth;
- - (d) minimumLineSpacing;
+ - (double) emojiKeyWidth;
+ - (double) minimumLineSpacing;
  - ({CGSize=dd}) fakeEmojiKeySize;
- - (d) alertTextWidth;
- - (q) prepolulatedRecentCount;
- - (d) categoryHeaderFontSize;
- - (d) sectionOffset;
- - (d) categoryHeaderHeight;
- - (d) inputViewLeftMostPadding;
- - (d) inputViewRightMostPadding;
- - (d) minimumInteritemSpacing;
- - (d) columnOffset;
- - (d) scrubViewTopPadding;
- - (d) categorySelectedCirWidth;
- - (d) categorySelectedCirPadding;
+ - (double) alertTextWidth;
+ - (long long) prepolulatedRecentCount;
+ - (double) categoryHeaderFontSize;
+ - (double) sectionOffset;
+ - (double) categoryHeaderHeight;
+ - (double) inputViewLeftMostPadding;
+ - (double) inputViewRightMostPadding;
+ - (double) minimumInteritemSpacing;
+ - (double) columnOffset;
+ - (double) scrubViewTopPadding;
+ - (double) categorySelectedCirWidth;
+ - (double) categorySelectedCirPadding;
  - (id) initWithScreenTrait:(id)a;
- - (d) categoryHeaderLeftPadding;
- - (d) rightBiasPercentage;
+ - (double) categoryHeaderLeftPadding;
+ - (double) rightBiasPercentage;
 
 
 @end

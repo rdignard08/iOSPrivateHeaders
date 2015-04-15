@@ -3,17 +3,17 @@
 
     @"UIView" _containerView;
     @"UIView" _gradientView;
-    d _reflectionAlpha;
+    double _reflectionAlpha;
 }
 
  - (void) layoutSubviews;
  - (id) containerView;
  - (id) _gradientLayer;
- - (void) setReflectionAlpha:(d)a;
- - (void) setReflectionFraction:(d)a;
- - (d) reflectionAlpha;
+ - (void) setReflectionAlpha:(double)a;
+ - (void) setReflectionFraction:(double)a;
+ - (double) reflectionAlpha;
  - (void) _updateGradientColors;
- - (d) reflectionFraction;
+ - (double) reflectionFraction;
  - (void) setBackgroundColor:(id)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;

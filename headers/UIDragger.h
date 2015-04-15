@@ -7,13 +7,13 @@
     SEL _action;
     {CGPoint="x"d"y"d} _startLocation;
     {CGPoint="x"d"y"d} _stopLocation;
-    d _duration;
+    double _duration;
     BOOL _showFinger;
-    I _port;
+    unsigned int _port;
     @"NSArray" _modes;
-    Q _startTimestamp;
-    Q _stopTimestamp;
-    Q _lastTimestamp;
+    unsigned long long _startTimestamp;
+    unsigned long long _stopTimestamp;
+    unsigned long long _lastTimestamp;
     BOOL _waitingForSmoothScrolling;
     @"UIImageView" _fingerView;
 }
@@ -24,9 +24,9 @@
  - (void) setAction:(SEL)a;
  - (void) setStartLocation:({CGPoint=dd})a;
  - (void) dragDidEnd;
- - (void) _postMouseEvent:(i)atimestamp:(Q)blocation:({CGPoint=dd})c;
+ - (void) _postMouseEvent:(int)atimestamp:(unsigned long long)blocation:({CGPoint=dd})c;
  - (void) _continueDrag:(id)a;
- - (d) _delayUntilNextEvent;
+ - (double) _delayUntilNextEvent;
  - (void) _stopDrag:(id)a;
  - (void) setInterpolation:(^?)a;
  - (void) setStopLocation:({CGPoint=dd})a;
@@ -35,7 +35,7 @@
  - (void) _smoothScrollingDidEnd:(id)a;
  - (id) init;
  - (void) run;
- - (void) setDuration:(d)a;
+ - (void) setDuration:(double)a;
 
 
 @end

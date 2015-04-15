@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (BOOL) updateForNewData:(id)aactions:(i)b;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
  - (id) _appBundleIdentifier;
 
 

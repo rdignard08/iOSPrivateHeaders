@@ -2,19 +2,19 @@
 @interface _UISearchBarSearchFieldBackgroundView : _UITextFieldRoundedRectBackgroundViewNeue {
 
     BOOL _backgroundContainer;
-    q _barStyle;
-    Q _searchBarStyle;
+    long long _barStyle;
+    unsigned long long _searchBarStyle;
 }
 
- - (void) setBarStyle:(q)a;
- - (q) barStyle;
+ - (void) setBarStyle:(long long)a;
+ - (long long) barStyle;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aactive:(BOOL)b;
  - (id) _strokeColor:(BOOL)a;
  - (id) _fillColor:(BOOL)a;
  - (void) updateView;
- - (void) setSearchBarStyle:(Q)a;
+ - (void) setSearchBarStyle:(unsigned long long)a;
  - (void) setBackgroundContainer:(BOOL)a;
- - (Q) searchBarStyle;
+ - (unsigned long long) searchBarStyle;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aactive:(BOOL)bupdateView:(BOOL)c;
  - (BOOL) backgroundContainer;
 

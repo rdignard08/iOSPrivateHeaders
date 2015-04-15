@@ -5,16 +5,16 @@
     {_psdGradientColor="red"d"green"d"blue"d"alpha"d} gradientColor;
 }
  + (void) initialize;
- + (id) colorStopWithLocation:(d)agradientColor:({_psdGradientColor=dddd})b;
+ + (id) colorStopWithLocation:(double)agradientColor:({_psdGradientColor=dddd})b;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (BOOL) isColorStop;
- - (d) colorLocation;
+ - (double) colorLocation;
  - ({_psdGradientColor=dddd}) gradientColor;
- - (id) initWithLocation:(d)agradientColor:({_psdGradientColor=dddd})b;
+ - (id) initWithLocation:(double)agradientColor:({_psdGradientColor=dddd})b;
 
 
 @end

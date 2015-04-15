@@ -11,9 +11,9 @@
  - (id) initWithBundleProxy:(id)a;
  - (void) setBundleProxy:(id)a;
  - (id) bundleProxy;
- - (id) activityImageForApplicationBundleURL:(id)aapplicationIconFormat:(i)bactivityCategory:(q)c;
- - (d) preferredImageScale;
- - (id) imageForApplicationIconFormat:(i)aactivityCategory:(q)b;
+ - (id) activityImageForApplicationBundleURL:(id)aapplicationIconFormat:(int)bactivityCategory:(long long)c;
+ - (double) preferredImageScale;
+ - (id) imageForApplicationIconFormat:(int)aactivityCategory:(long long)b;
  - (id) debugDescription;
 
 

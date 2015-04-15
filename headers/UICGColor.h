@@ -7,7 +7,7 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) set;
  - (id) colorSpaceName;
@@ -15,8 +15,8 @@
  - (^{CGColor=}) CGColor;
  - (BOOL) getRed:(^d)agreen:(^d)bblue:(^d)calpha:(^d)d;
  - (void) setFill;
- - (id) colorWithAlphaComponent:(d)a;
- - (d) alphaComponent;
+ - (id) colorWithAlphaComponent:(double)a;
+ - (double) alphaComponent;
  - (BOOL) getWhite:(^d)aalpha:(^d)b;
  - (id) initWithCGColor:(^{CGColor=})a;
  - (void) setStroke;

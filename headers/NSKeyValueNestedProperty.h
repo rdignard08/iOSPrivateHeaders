@@ -21,7 +21,7 @@
  - (id) _keyPathIfAffectedByValueForMemberOfKeys:(id)a;
  - (void) _givenPropertiesBeingInitialized:(^{__CFSet=})agetAffectingProperties:(id)b;
  - (void) _addDependentValueKey:(id)a;
- - (id) _initWithContainerClass:(id)akeyPath:(id)bfirstDotIndex:(Q)cpropertiesBeingInitialized:(^{__CFSet=})d;
+ - (id) _initWithContainerClass:(id)akeyPath:(id)bfirstDotIndex:(unsigned long long)cpropertiesBeingInitialized:(^{__CFSet=})d;
  - (id) description;
  - (void) dealloc;
 

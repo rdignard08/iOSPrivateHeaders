@@ -4,7 +4,7 @@
 
     @"NSCharacterSet" _characterSet;
     BOOL _inverted;
-    q _baseIdentifier;
+    long long _baseIdentifier;
     @"NSString" _charactersAddedToBase;
 }
 @property (nonatomic, assign, readonly) NSCharacterSet* characterSet;
@@ -17,16 +17,16 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (id) initWithBase:(q)aadditionalCharacters:(id)binverted:(BOOL)c;
- - (q) baseIdentifier;
+ - (id) initWithBase:(long long)aadditionalCharacters:(id)binverted:(BOOL)c;
+ - (long long) baseIdentifier;
  - (BOOL) inverted;
  - (id) charactersAddedToBase;
  - (id) newCharacterSetFromDescription;
- - (id) initWithBaseCharacterSet:(q)a;
+ - (id) initWithBaseCharacterSet:(long long)a;
  - (id) initWithCharactersInString:(id)a;
  - (id) invertedSetDescription;
  - (id) characterSet;

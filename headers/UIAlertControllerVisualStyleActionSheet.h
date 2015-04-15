@@ -5,28 +5,28 @@
 }
 
  - (void) dealloc;
- - (d) maximumWidth;
+ - (double) maximumWidth;
  - (void) setDescriptor:(id)a;
- - (d) verticalContentMargin;
+ - (double) verticalContentMargin;
  - (id) titleLabelFont;
  - (id) titleLabelColor;
- - (d) marginAboveTitleLabelFirstBaseline;
- - (d) marginBelowLastLabelLastBaseline;
+ - (double) marginAboveTitleLabelFirstBaseline;
+ - (double) marginBelowLastLabelLastBaseline;
  - (id) messageLabelFont;
  - (id) messageLabelColor;
- - (d) horizontalContentMargin;
- - (d) visualAltitude;
+ - (double) horizontalContentMargin;
+ - (double) visualAltitude;
  - (id) regularActionFont;
  - (id) defaultActionFont;
  - (id) defaultActionBackgroundColorWhenSeparate;
- - (d) minimumActionHeight;
- - (d) sectionDelimitingSeparatorDimension;
- - (d) marginBelowTitleLabelLastBaseline;
- - (d) marginAboveMessageLabelFirstBaseline;
- - (d) marginBelowMessageLabelLastBaseline;
- - (d) backgroundCornerRadius;
+ - (double) minimumActionHeight;
+ - (double) sectionDelimitingSeparatorDimension;
+ - (double) marginBelowTitleLabelLastBaseline;
+ - (double) marginAboveMessageLabelFirstBaseline;
+ - (double) marginBelowMessageLabelLastBaseline;
+ - (double) backgroundCornerRadius;
  - (id) descriptor;
- - (d) _systemFontSize;
+ - (double) _systemFontSize;
 
 
 @end

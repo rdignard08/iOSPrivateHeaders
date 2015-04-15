@@ -44,8 +44,8 @@
  - (void) _makePresenter:(id)aaccommodateDeletionWithSubitemURL:(id)bcompletionHandler:(@?)c;
  - (void) _makePresenter:(id)aaccommodateDisconnectionWithCompletionHandler:(@?)b;
  - (id) _writeRelinquishmentForPresenter:(id)a;
- - (void) _makePresenter:(id)arelinquishToReadingClaimWithID:(id)boptions:(Q)ccompletionHandler:(@?)d;
- - (void) _makePresenter:(id)arelinquishToWritingClaimWithID:(id)boptions:(Q)csubitemURL:(id)dcompletionHandler:(@?)e;
+ - (void) _makePresenter:(id)arelinquishToReadingClaimWithID:(id)boptions:(unsigned long long)ccompletionHandler:(@?)d;
+ - (void) _makePresenter:(id)arelinquishToWritingClaimWithID:(id)boptions:(unsigned long long)csubitemURL:(id)dcompletionHandler:(@?)e;
  - (void) _makePresenter:(id)areacquireFromReadingClaimForID:(id)b;
  - (void) _makePresenter:(id)areacquireFromWritingClaimForID:(id)b;
  - (void) _makePresenter:(id)aobserveChangeWithSubitemURL:(id)b;
@@ -54,12 +54,12 @@
  - (void) _makePresenterObserveReconnection:(id)a;
  - (void) _makePresenter:(id)aobserveUbiquityChangeWithSubitemURL:(id)b;
  - (void) _makePresenter:(id)aobserveVersionChangeOfKind:(id)bwithClientID:(id)cname:(id)dsubitemURL:(id)e;
- - (void) _makePresenter:(id)asetLastPresentedItemEventIdentifier:(Q)b;
- - (void) _makeProvider:(id)aprovideItemAtURL:(id)bforAccessClaimWithID:(id)cprocessIdentifier:(i)dcompletionHandler:(@?)e;
+ - (void) _makePresenter:(id)asetLastPresentedItemEventIdentifier:(unsigned long long)b;
+ - (void) _makeProvider:(id)aprovideItemAtURL:(id)bforAccessClaimWithID:(id)cprocessIdentifier:(int)dcompletionHandler:(@?)e;
  - (void) _makeProvider:(id)acancelProvidingItemAtURL:(id)bforAccessClaimWithID:(id)c;
  - (void) _makeProvider:(id)aprovidePhysicalURLForURL:(id)bcompletionHandler:(@?)c;
- - (void) _makeProvider:(id)aobservePresentationChangeOfKind:(id)bwithPresenterID:(id)cprocessIdentifier:(i)durl:(id)enewURL:(id)fcompletionHandler:(@?)g;
- - (void) _makeProvider:(id)aobserveEndOfWriteAtURL:(id)bforAccessClaimWithID:(id)cprocessIdentifier:(i)d;
+ - (void) _makeProvider:(id)aobservePresentationChangeOfKind:(id)bwithPresenterID:(id)cprocessIdentifier:(int)durl:(id)enewURL:(id)fcompletionHandler:(@?)g;
+ - (void) _makeProvider:(id)aobserveEndOfWriteAtURL:(id)bforAccessClaimWithID:(id)cprocessIdentifier:(int)d;
  - (void) dealloc;
  - (void) finalize;
 

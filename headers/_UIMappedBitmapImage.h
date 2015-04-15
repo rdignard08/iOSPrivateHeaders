@@ -8,7 +8,7 @@
 
  - (void) dealloc;
  - (id) data;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) _configureImage:(id)a;
  - (void) setData:(id)a;

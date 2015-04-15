@@ -3,7 +3,7 @@
 
     @"UITextSelectionView" m_selectionView;
     @"UIResponder<UITextInput>" m_container;
-    i m_mode;
+    int m_mode;
     @"NSArray" m_rects;
     @"NSMutableArray" m_rectViews;
     @"UITouch" m_activeTouch;
@@ -13,9 +13,9 @@
     {CGPoint="x"d"y"d} m_extentPoint;
     {CGPoint="x"d"y"d} m_initialBasePoint;
     {CGPoint="x"d"y"d} m_initialExtentPoint;
-    d m_initialDistance;
+    double m_initialDistance;
     {CGPoint="x"d"y"d} m_touchOffset;
-    d m_firstMovedTime;
+    double m_firstMovedTime;
     @"UISelectionGrabber" m_startGrabber;
     @"UISelectionGrabber" m_endGrabber;
     BOOL m_animateUpdate;
@@ -31,7 +31,7 @@
 
  - (void) dealloc;
  - (id) container;
- - (void) setMode:(i)a;
+ - (void) setMode:(int)a;
  - (BOOL) pointInside:({CGPoint=dd})awithEvent:(id)b;
  - (void) touchesBegan:(id)awithEvent:(id)b;
  - (void) touchesMoved:(id)awithEvent:(id)b;
@@ -44,7 +44,7 @@
  - (void) updateSelectionWithDocumentPoint:({CGPoint=dd})a;
  - (void) stopAnimating;
  - (void) startAnimating;
- - (i) mode;
+ - (int) mode;
  - (void) willRotate;
  - (void) didRotate;
  - (void) setInGesture:(BOOL)a;
@@ -88,12 +88,12 @@
  - (void) setInitialBasePoint:({CGPoint=dd})a;
  - (void) setInitialExtentPoint:({CGPoint=dd})a;
  - ({CGPoint=dd}) initialBasePoint;
- - (void) setInitialDistance:(d)a;
+ - (void) setInitialDistance:(double)a;
  - (void) setTouchOffset:({CGPoint=dd})atouchPoint:({CGPoint=dd})b;
- - (void) setFirstMovedTime:(d)a;
+ - (void) setFirstMovedTime:(double)a;
  - (void) setExtentPoint:({CGPoint=dd})a;
- - (d) firstMovedTime;
- - (d) initialDistance;
+ - (double) firstMovedTime;
+ - (double) initialDistance;
  - (void) updateRectViews;
  - (void) updateGrabbers;
  - (void) setStartEdge:({CGRect={CGPoint=dd}{CGSize=dd}})a;

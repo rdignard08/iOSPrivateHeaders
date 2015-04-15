@@ -2,9 +2,9 @@
 @interface NSInsertionPointHelper : NSObject {
 
     {_NSRange="location"Q"length"Q} _charRange;
-    q _writingDirection;
-    Q _count;
-    Q _altCount;
+    long long _writingDirection;
+    unsigned long long _count;
+    unsigned long long _altCount;
     ^d _logicalPositions;
     ^d _logicalLeftBoundaries;
     ^d _logicalRightBoundaries;

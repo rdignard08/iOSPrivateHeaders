@@ -3,7 +3,7 @@
 @interface NSTextTab : NSObject <NSCopying, NSCoding> {
 
     {?="alignment"b4"refCount"b24"unused"b4} _flags;
-    d _location;
+    double _location;
     id _reserved;
 }
 @property (atomic, assign, readonly) NSNumber* alignment;
@@ -17,7 +17,7 @@
  - (id) description;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
@@ -25,11 +25,11 @@
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (id) options;
- - (id) initWithTextAlignment:(q)alocation:(d)boptions:(id)c;
- - (id) initWithType:(Q)alocation:(d)b;
- - (Q) tabStopType;
- - (q) alignment;
- - (d) location;
+ - (id) initWithTextAlignment:(long long)alocation:(double)boptions:(id)c;
+ - (id) initWithType:(unsigned long long)alocation:(double)b;
+ - (unsigned long long) tabStopType;
+ - (long long) alignment;
+ - (double) location;
 
 
 @end

@@ -7,10 +7,10 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (void) finalize;
- - (S) characterAtIndex:(Q)a;
+ - (unsigned short) characterAtIndex:(unsigned long long)a;
  - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
  - (id) initWithString:(id)a;
- - (Q) length;
+ - (unsigned long long) length;
 
 
 @end

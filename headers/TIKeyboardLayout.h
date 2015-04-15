@@ -2,24 +2,24 @@
 @protocol NSSecureCoding;
 @interface TIKeyboardLayout : NSObject <NSSecureCoding> {
 
-    Q _count;
+    unsigned long long _count;
     ^{_ShortRect=ssss} _frames;
-    Q _framesCapacity;
-    * _strings;
-    Q _stringsSize;
-    Q _stringsCapacity;
+    unsigned long long _framesCapacity;
+    char* _strings;
+    unsigned long long _stringsSize;
+    unsigned long long _stringsCapacity;
 }
  + (BOOL) supportsSecureCoding;
 
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (id) initWithCapacity:(Q)a;
+ - (id) initWithCapacity:(unsigned long long)a;
  - (void) addKeyWithString:(id)aframe:({CGRect={CGPoint=dd}{CGSize=dd}})b;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (void) ensureFrameCapacity:(Q)a;
- - (void) ensureStringCapacity:(Q)a;
+ - (void) ensureFrameCapacity:(unsigned long long)a;
+ - (void) ensureStringCapacity:(unsigned long long)a;
  - (void) enumerateKeysUsingBlock:(@?)a;
 
 

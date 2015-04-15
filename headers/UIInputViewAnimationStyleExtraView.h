@@ -1,8 +1,8 @@
 
 @interface UIInputViewAnimationStyleExtraView : NSObject {
 
-    i _clipContainerType;
-    i _alignment;
+    int _clipContainerType;
+    int _alignment;
     @"UIView" _view;
     @? _animation;
 }
@@ -10,16 +10,16 @@
 @property (nonatomic, retain, readwrite) UIView* view;
 @property (nonatomic, assign, readwrite) NSNumber* alignment;
 @property (nonatomic, copy, readwrite) NSNumber* animation;
- + (id) extraView:(id)awithAlignment:(i)banimation:(@?)conSnapshot:(BOOL)d;
+ + (id) extraView:(id)awithAlignment:(int)banimation:(@?)conSnapshot:(BOOL)d;
 
  - (void) dealloc;
  - (void) setView:(id)a;
- - (void) setClipContainerType:(i)a;
- - (i) clipContainerType;
+ - (void) setClipContainerType:(int)a;
+ - (int) clipContainerType;
  - (@?) animation;
  - (void) setAnimation:(@?)a;
- - (i) alignment;
- - (void) setAlignment:(i)a;
+ - (int) alignment;
+ - (void) setAlignment:(int)a;
  - (id) view;
 
 

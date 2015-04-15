@@ -10,8 +10,8 @@
  - (id) otherSettings;
  - (void) setBackgrounded:(BOOL)a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setLevel:(d)a;
- - (void) setInterfaceOrientation:(q)a;
+ - (void) setLevel:(double)a;
+ - (void) setInterfaceOrientation:(long long)a;
  - (void) setOcclusions:(id)a;
  - (id) transientLocalSettings;
  - (id) ignoreOcclusionReasons;

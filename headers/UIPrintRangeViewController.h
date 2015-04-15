@@ -3,30 +3,30 @@
 @interface UIPrintRangeViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, UITableViewDataSource, UITableViewDelegate> {
 
     @"UIPrintPanelViewController" _printPanelViewController;
-    q _pageCount;
+    long long _pageCount;
     {_NSRange="location"Q"length"Q} _pageRange;
     @"UIPickerView" _fromPicker;
     @"UIPickerView" _toPicker;
     @"UITableView" _tableView;
-    d _pickerWidth;
+    double _pickerWidth;
 }
 
  - (void) dealloc;
- - (q) numberOfComponentsInPickerView:(id)a;
- - (q) pickerView:(id)anumberOfRowsInComponent:(q)b;
- - (id) pickerView:(id)atitleForRow:(q)bforComponent:(q)c;
- - (d) pickerView:(id)awidthForComponent:(q)b;
- - (void) pickerView:(id)adidSelectRow:(q)binComponent:(q)c;
+ - (long long) numberOfComponentsInPickerView:(id)a;
+ - (long long) pickerView:(id)anumberOfRowsInComponent:(long long)b;
+ - (id) pickerView:(id)atitleForRow:(long long)bforComponent:(long long)c;
+ - (double) pickerView:(id)awidthForComponent:(long long)b;
+ - (void) pickerView:(id)adidSelectRow:(long long)binComponent:(long long)c;
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) numberOfSectionsInTableView:(id)a;
- - (Q) supportedInterfaceOrientations;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (long long) numberOfSectionsInTableView:(id)a;
+ - (unsigned long long) supportedInterfaceOrientations;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (void) viewDidLoad;
  - (void) viewDidDisappear:(BOOL)a;
- - (void) willAnimateRotationToInterfaceOrientation:(q)aduration:(d)b;
+ - (void) willAnimateRotationToInterfaceOrientation:(long long)aduration:(double)b;
  - (id) initWithPrintPanelViewController:(id)a;
 
 

@@ -8,7 +8,7 @@
  - (void) dealloc;
  - (void) loadView;
  - (BOOL) isClassicControlWindow:(id)a;
- - (void) _setupPositioningAndRotationForInterfaceOrientation:(q)aoffscreen:(BOOL)b;
+ - (void) _setupPositioningAndRotationForInterfaceOrientation:(long long)aoffscreen:(BOOL)b;
  - (void) _zoomOrientationChange:(id)a;
  - (void) _applicationDidFinishLaunching:(id)a;
  - (void) _suspendAnimationStarted:(id)a;

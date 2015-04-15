@@ -4,7 +4,7 @@
     @"UILabel" _label;
     @"_UIBackdropView" _backdropView;
     @"NSTimer" _timer;
-    Q currentPageIndex;
+    unsigned long long currentPageIndex;
 }
 
  - (void) dealloc;
@@ -13,12 +13,12 @@
  - (void) fadeOut;
  - (void) clearTimer;
  - (BOOL) isTimerInstalled;
- - (Q) currentPageIndex;
- - (void) setCurrentPageIndex:(Q)a;
+ - (unsigned long long) currentPageIndex;
+ - (void) setCurrentPageIndex:(unsigned long long)a;
  - (void) showNowInSuperView:(id)aatOrigin:({CGPoint=dd})bwithText:(id)canimated:(BOOL)d;
- - (d) _fadeOutDuration;
+ - (double) _fadeOutDuration;
  - (void) _makeRoundedCorners;
- - (d) _fadeOutDelay;
+ - (double) _fadeOutDelay;
  - (void) _fadeOutAnimationDidStop:(id)afinished:(id)b;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

@@ -1,26 +1,26 @@
 
 @interface CIBurstFaceScoreEntry : NSObject {
 
-    f maxScore;
-    f minScore;
-    f sumScores;
-    f sumSqScores;
-    i numScores;
+    float maxScore;
+    float minScore;
+    float sumScores;
+    float sumSqScores;
+    int numScores;
 }
 @property (atomic, assign, readwrite) NSNumber* maxScore;
 @property (atomic, assign, readwrite) NSNumber* minScore;
 @property (atomic, assign, readwrite) NSNumber* numScores;
 
- - (f) computeAverage;
- - (id) initWithScore:(f)a;
- - (void) addScore:(f)a;
- - (f) computeStandardDeviation;
- - (f) maxScore;
- - (void) setMaxScore:(f)a;
- - (f) minScore;
- - (void) setMinScore:(f)a;
- - (i) numScores;
- - (void) setNumScores:(i)a;
+ - (float) computeAverage;
+ - (id) initWithScore:(float)a;
+ - (void) addScore:(float)a;
+ - (float) computeStandardDeviation;
+ - (float) maxScore;
+ - (void) setMaxScore:(float)a;
+ - (float) minScore;
+ - (void) setMinScore:(float)a;
+ - (int) numScores;
+ - (void) setNumScores:(int)a;
 
 
 @end

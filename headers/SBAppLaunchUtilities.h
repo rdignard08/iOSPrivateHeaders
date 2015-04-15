@@ -2,7 +2,7 @@
 @interface SBAppLaunchUtilities : NSObject {
 
 }
- + (BOOL) waitForChangeToState:(I)aforDisplayID:(id)bwithTimeout:(d)cperformingBlock:(@?)d;
+ + (BOOL) waitForChangeToState:(unsigned int)aforDisplayID:(id)bwithTimeout:(double)cperformingBlock:(@?)d;
 
 
 

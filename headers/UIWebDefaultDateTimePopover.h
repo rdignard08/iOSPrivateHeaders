@@ -10,7 +10,7 @@
  - (void) controlBeginEditing;
  - (void) controlEndEditing;
  - (void) clear:(id)a;
- - (id) initWithDOMHTMLInputElement:(id)adatePickerMode:(q)b;
+ - (id) initWithDOMHTMLInputElement:(id)adatePickerMode:(long long)b;
  - (void) set_webDateTimeViewController:(id)a;
  - (id) _webDateTimeViewController;
 

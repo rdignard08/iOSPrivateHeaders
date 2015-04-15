@@ -3,9 +3,9 @@
 
     @"UIViewController" _viewController;
     @"NSString" _name;
-    i _transition;
+    int _transition;
     @? _completion;
-    d _curlUpRevealedHeight;
+    double _curlUpRevealedHeight;
 }
 @property (nonatomic, assign, readwrite) UIViewController* viewController;
 @property (nonatomic, retain, readwrite) NSString* name;
@@ -16,15 +16,15 @@
 
  - (void) dealloc;
  - (id) name;
- - (d) _curlUpRevealedHeight;
+ - (double) _curlUpRevealedHeight;
  - (@?) completion;
  - (void) setCompletion:(@?)a;
  - (void) setViewController:(id)a;
- - (void) setTransition:(i)a;
- - (i) transition;
- - (id) initWithViewController:(id)aname:(id)btransition:(i)c;
+ - (void) setTransition:(int)a;
+ - (int) transition;
+ - (id) initWithViewController:(id)aname:(id)btransition:(int)c;
  - (BOOL) animated;
- - (void) _setCurlUpRevealedHeight:(d)a;
+ - (void) _setCurlUpRevealedHeight:(double)a;
  - (id) viewController;
  - (void) setName:(id)a;
 

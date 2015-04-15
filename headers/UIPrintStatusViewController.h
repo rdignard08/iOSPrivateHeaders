@@ -6,7 +6,7 @@
 }
 
  - (void) dealloc;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (void) viewDidLoad;
  - (void) dismissAnimated:(BOOL)a;

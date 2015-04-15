@@ -2,8 +2,8 @@
 @protocol NSSecureCoding;
 @interface BKSEventFocusDeferralProperties : NSObject <NSSecureCoding> {
 
-    i _pid;
-    I _contextID;
+    int _pid;
+    unsigned int _contextID;
     @"NSString" _clientID;
     @"NSString" _displayUUID;
 }
@@ -12,24 +12,24 @@
 @property (nonatomic, assign, readonly) NSString* displayUUID;
 @property (nonatomic, assign, readonly) NSNumber* contextID;
  + (BOOL) supportsSecureCoding;
- + (id) propertiesWithMainDisplayAndClientID:(id)apid:(i)bcontextID:(I)c;
- + (id) propertiesWithClientID:(id)apid:(i)bdisplayUUID:(id)ccontextID:(I)d;
- + (id) propertiesWithMainDisplayAndClientID:(id)acontextID:(I)b;
- + (id) propertiesWithClientID:(id)adisplayUUID:(id)bcontextID:(I)c;
+ + (id) propertiesWithMainDisplayAndClientID:(id)apid:(int)bcontextID:(unsigned int)c;
+ + (id) propertiesWithClientID:(id)apid:(int)bdisplayUUID:(id)ccontextID:(unsigned int)d;
+ + (id) propertiesWithMainDisplayAndClientID:(id)acontextID:(unsigned int)b;
+ + (id) propertiesWithClientID:(id)adisplayUUID:(id)bcontextID:(unsigned int)c;
 
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (id) initWithClientID:(id)apid:(i)bdisplayUUID:(id)ccontextID:(I)d;
+ - (id) initWithClientID:(id)apid:(int)bdisplayUUID:(id)ccontextID:(unsigned int)d;
  - (id) clientID;
- - (i) pid;
+ - (int) pid;
  - (id) displayUUID;
- - (I) contextID;
+ - (unsigned int) contextID;
  - (BOOL) isEqualNotIncludingClientIDAndPid:(id)a;
- - (void) setPid:(i)a;
+ - (void) setPid:(int)a;
  - (id) propertiesOneLevelMoreGeneric;
 
 

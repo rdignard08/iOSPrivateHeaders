@@ -4,7 +4,7 @@
     @"_UIAlertControllerTextFieldView" _textField;
 }
 
- - (id) initWithStyle:(q)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
  - (void) prepareForReuse;
  - (id) textField;
  - (void) setTextField:(id)a;

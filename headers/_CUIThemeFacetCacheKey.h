@@ -2,15 +2,15 @@
 @interface _CUIThemeFacetCacheKey : NSObject {
 
     [16{_renditionkeytoken="identifier"S"value"S}] keyList;
-    q themeIndex;
-    Q hashPrecalc;
+    long long themeIndex;
+    unsigned long long hashPrecalc;
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (Q) hash64;
- - (id) initWithKeyList:(r^{_renditionkeytoken=SS})athemeIndex:(q)b;
+ - (unsigned long long) hash64;
+ - (id) initWithKeyList:(r^{_renditionkeytoken=SS})athemeIndex:(long long)b;
 
 
 @end

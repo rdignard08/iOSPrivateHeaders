@@ -5,7 +5,7 @@
 }
  + (BOOL) _requiresWindowTouches;
 
- - (i) textEffectsVisibilityLevel;
+ - (int) textEffectsVisibilityLevel;
  - (id) remoteViewController;
  - (void) setRemoteViewController:(id)a;
 

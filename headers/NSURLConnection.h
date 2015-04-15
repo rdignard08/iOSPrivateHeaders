@@ -11,14 +11,14 @@
  + (void) _setMIMETypesWithNoSizeLimit:(id)a;
  + (void) _resourceLoadLoop:(id)a;
  + (^{__CFRunLoop=}) resourceLoaderRunLoop;
- + (void) _setLoaderThreadPriority:(i)a;
+ + (void) _setLoaderThreadPriority:(int)a;
  + (void) _setCollectsTimingData:(BOOL)a;
  + (BOOL) _collectsTimingData;
- + (void) _collectTimingDataWithOptions:(Q)a;
- + (Q) _timingDataOptions;
+ + (void) _collectTimingDataWithOptions:(unsigned long long)a;
+ + (unsigned long long) _timingDataOptions;
  + (void) sendAsynchronousRequest:(id)aqueue:(id)bcompletionHandler:(@?)c;
- + (Q) _sweeperInterval;
- + (void) _setSweeperInterval:(Q)a;
+ + (unsigned long long) _sweeperInterval;
+ + (void) _setSweeperInterval:(unsigned long long)a;
  + (BOOL) canHandleRequest:(id)a;
 
  - (id) initWithRequest:(id)adelegate:(id)bstartImmediately:(BOOL)c;
@@ -36,7 +36,7 @@
  - (void) cancelAuthenticationChallenge:(id)a;
  - (void) rejectProtectionSpaceAndContinueWithChallenge:(id)a;
  - (void) start;
- - (id) _initWithRequest:(id)adelegate:(id)busesCache:(BOOL)cmaxContentLength:(q)dstartImmediately:(BOOL)econnectionProperties:(id)f;
+ - (id) _initWithRequest:(id)adelegate:(id)busesCache:(BOOL)cmaxContentLength:(long long)dstartImmediately:(BOOL)econnectionProperties:(id)f;
  - (id) _timingData;
  - (id) initWithRequest:(id)adelegate:(id)b;
  - (void) unscheduleFromRunLoop:(id)aforMode:(id)b;

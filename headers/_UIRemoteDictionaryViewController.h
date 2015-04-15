@@ -6,9 +6,9 @@
 
  - (void) dealloc;
  - (BOOL) tableView:(id)ashouldHighlightRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (id) initWithStyle:(q)a;
+ - (id) initWithStyle:(long long)a;
  - (id) _cloudBackgroundImage;
  - (id) _downloadArrowImage;
  - (id) _downloadImageWithTintColor:(id)a;

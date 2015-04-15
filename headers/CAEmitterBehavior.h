@@ -2,11 +2,11 @@
 @protocol NSCoding;
 @interface CAEmitterBehavior : NSObject <NSCoding> {
 
-    I _type;
+    unsigned int _type;
     @"NSString" _name;
     ^v _attr;
     ^v _cache;
-    I _flags;
+    unsigned int _flags;
 }
 @property (atomic, assign, readonly) NSString* type;
 @property (atomic, copy, readwrite) NSString* name;

@@ -3,24 +3,24 @@
 
     BOOL _knobInput;
     @"UIScreen" _screen;
-    q _orientation;
-    d _keyboardWidth;
+    long long _orientation;
+    double _keyboardWidth;
 }
 @property (nonatomic, assign, readonly) UIScreen* screen;
 @property (nonatomic, assign, readonly) NSNumber* idiom;
 @property (nonatomic, assign, readonly) NSNumber* knobInput;
 @property (nonatomic, assign, readwrite) NSNumber* orientation;
 @property (nonatomic, assign, readwrite) NSNumber* keyboardWidth;
- + (id) traitsWithScreen:(id)aorientation:(q)b;
+ + (id) traitsWithScreen:(id)aorientation:(long long)b;
 
- - (id) initWithScreen:(id)aorientation:(q)b;
+ - (id) initWithScreen:(id)aorientation:(long long)b;
  - (BOOL) knobInput;
- - (d) keyboardWidth;
- - (void) setKeyboardWidth:(d)a;
+ - (double) keyboardWidth;
+ - (void) setKeyboardWidth:(double)a;
  - (id) screen;
- - (q) idiom;
- - (q) orientation;
- - (void) setOrientation:(q)a;
+ - (long long) idiom;
+ - (long long) orientation;
+ - (void) setOrientation:(long long)a;
 
 
 @end

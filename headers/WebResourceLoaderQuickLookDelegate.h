@@ -12,7 +12,7 @@
  - (id) .cxx_construct;
  - (void) .cxx_destruct;
  - (void) connection:(id)adidFailWithError:(id)b;
- - (void) connection:(id)adidReceiveData:(id)blengthReceived:(q)c;
+ - (void) connection:(id)adidReceiveData:(id)blengthReceived:(long long)c;
  - (void) connectionDidFinishLoading:(id)a;
  - (void) connection:(id)adidReceiveDataArray:(id)b;
  - (void) clearHandle;

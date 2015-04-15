@@ -6,10 +6,10 @@
 
  - (id) init;
  - (id) initWithField:({shared_ptr<PKCField>=^{PKCField}^{__shared_weak_count}})a;
- - (f) smoothness;
- - (void) setSmoothness:(f)a;
- - (f) animationSpeed;
- - (void) setAnimationSpeed:(f)a;
+ - (float) smoothness;
+ - (void) setSmoothness:(float)a;
+ - (float) animationSpeed;
+ - (void) setAnimationSpeed:(float)a;
 
 
 @end

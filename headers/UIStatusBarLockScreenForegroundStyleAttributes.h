@@ -3,14 +3,14 @@
 
 }
 
- - (q) activityIndicatorStyleWithSyncActivity:(BOOL)a;
- - (d) sizeForMoonMaskVisible:(BOOL)a;
+ - (long long) activityIndicatorStyleWithSyncActivity:(BOOL)a;
+ - (double) sizeForMoonMaskVisible:(BOOL)a;
  - ({CGPoint=dd}) positionForMoonMaskInBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - ({UIEdgeInsets=dddd}) edgeInsetsForBatteryInsides;
  - ({UIEdgeInsets=dddd}) edgeInsetsForBluetoothBatteryInsides;
- - (d) textOffsetForStyle:(q)a;
+ - (double) textOffsetForStyle:(long long)a;
  - (id) expandedNameForImageName:(id)a;
- - (id) makeTextFontForStyle:(q)a;
+ - (id) makeTextFontForStyle:(long long)a;
 
 
 @end

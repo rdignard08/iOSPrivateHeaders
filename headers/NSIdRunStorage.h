@@ -5,8 +5,8 @@
  + (void) initialize;
 
  - (void) dealloc;
- - (void) _allocData:(Q)a;
- - (void) _reallocData:(Q)a;
+ - (void) _allocData:(unsigned long long)a;
+ - (void) _reallocData:(unsigned long long)a;
 
 
 @end

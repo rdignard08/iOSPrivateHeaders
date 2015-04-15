@@ -9,7 +9,7 @@
 
  - (void) reloadData;
  - (void) layoutSubviews;
- - (q) collectionView:(id)anumberOfItemsInSection:(q)b;
+ - (long long) collectionView:(id)anumberOfItemsInSection:(long long)b;
  - (id) collectionView:(id)acellForItemAtIndexPath:(id)b;
  - (id) collectionView:(id)aviewForSupplementaryElementOfKind:(id)batIndexPath:(id)c;
  - (id) initWithTable:(id)a;

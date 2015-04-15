@@ -13,10 +13,10 @@
 }
  + ({CGSize=dd}) defaultSize;
  + (id) _multiSelectNotSelectedImage;
- + (id) _deleteImageBackground:(d)a;
+ + (id) _deleteImageBackground:(double)a;
  + ({CGRect={CGPoint=dd}{CGSize=dd}}) _minusRect;
- + (id) _deleteImage:(d)a;
- + (id) _insertImage:(d)a;
+ + (id) _deleteImage:(double)a;
+ + (id) _insertImage:(double)a;
  + (id) _multiSelectHighlightedImage;
  + (id) _multiSelectSelectedImage;
 
@@ -34,7 +34,7 @@
  - (id) _shadowImage;
  - (void) setRotated:(BOOL)a;
  - (void) setRotated:(BOOL)aanimated:(BOOL)b;
- - (id) initWithTableViewCell:(id)aeditingStyle:(q)b;
+ - (id) initWithTableViewCell:(id)aeditingStyle:(long long)b;
  - (void) _updateImageView;
  - (id) _minusView;
  - (void) _toggleRotate;

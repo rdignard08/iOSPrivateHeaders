@@ -8,11 +8,11 @@
 
  - (void) dealloc;
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (void) tableView:(id)acommitEditingStyle:(q)bforRowAtIndexPath:(id)c;
+ - (void) tableView:(id)acommitEditingStyle:(long long)bforRowAtIndexPath:(id)c;
  - (void) loadView;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (void) viewWillDisappear:(BOOL)a;
  - (void) willReappear;

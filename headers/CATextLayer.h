@@ -12,7 +12,7 @@
  - (void) setString:(id)a;
  - (void) didChangeValueForKey:(id)a;
  - (void) setFont:(^v)a;
- - (void) setFontSize:(d)a;
+ - (void) setFontSize:(double)a;
  - (void) setForegroundColor:(^{CGColor=})a;
  - (void) setAlignmentMode:(id)a;
  - (id) init;
@@ -26,7 +26,7 @@
  - (void) _drawLine:(^{__CTLine=})ainContext:(^{CGContext=})batPoint:({CGPoint=dd})c;
  - (BOOL) isWrapped;
  - (^v) font;
- - (d) fontSize;
+ - (double) fontSize;
  - (id) _createStringDict;
  - (id) truncationString;
  - (^{__CTTypesetter=}) _retainTypesetter;

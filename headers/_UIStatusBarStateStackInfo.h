@@ -1,20 +1,20 @@
 
 @interface _UIStatusBarStateStackInfo : NSObject {
 
-    i _hostPID;
-    q _statusBarOrientationWithoutHost;
-    d _statusBarHeightWithoutHost;
+    int _hostPID;
+    long long _statusBarOrientationWithoutHost;
+    double _statusBarHeightWithoutHost;
 }
 @property (atomic, assign, readwrite) NSNumber* statusBarOrientationWithoutHost;
 @property (atomic, assign, readwrite) NSNumber* statusBarHeightWithoutHost;
 @property (atomic, assign, readwrite) NSNumber* hostPID;
 
- - (q) statusBarOrientationWithoutHost;
- - (void) setStatusBarOrientationWithoutHost:(q)a;
- - (d) statusBarHeightWithoutHost;
- - (void) setStatusBarHeightWithoutHost:(d)a;
- - (i) hostPID;
- - (void) setHostPID:(i)a;
+ - (long long) statusBarOrientationWithoutHost;
+ - (void) setStatusBarOrientationWithoutHost:(long long)a;
+ - (double) statusBarHeightWithoutHost;
+ - (void) setStatusBarHeightWithoutHost:(double)a;
+ - (int) hostPID;
+ - (void) setHostPID:(int)a;
 
 
 @end

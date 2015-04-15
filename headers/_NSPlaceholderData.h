@@ -3,10 +3,10 @@
 
 }
 
- - (id) initWithBytes:(^v)alength:(Q)bcopy:(BOOL)cdeallocator:(@?)d;
+ - (id) initWithBytes:(^v)alength:(unsigned long long)bcopy:(BOOL)cdeallocator:(@?)d;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (id) init;
  - (id) initWithData:(id)a;
 

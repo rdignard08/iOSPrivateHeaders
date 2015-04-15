@@ -31,7 +31,7 @@
  - (id) _positionFromPosition:(id)atoPreviousWordStartInDocument:(id)btokenAccumulator:(@?)c;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) documentStateAfterSettingMarkedText:(id)aselectedRange:({_NSRange=QQ})b;
  - (id) documentStateAfterInsertingText:(id)a;
@@ -39,7 +39,7 @@
  - (id) documentStateAfterReplacingText:(id)awithText:(id)b;
  - (id) inputStringWithTerminatorPredicate:(@?)a;
  - (BOOL) documentIsEmpty;
- - (id) documentStateAfterCursorAdjustment:(q)a;
+ - (id) documentStateAfterCursorAdjustment:(long long)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (id) initWithContextBefore:(id)amarkedText:(id)bselectedText:(id)ccontextAfter:(id)dselectedRangeInMarkedText:({_NSRange=QQ})e;
@@ -49,14 +49,14 @@
  - (id) selectedText;
  - (id) contextAfterInput;
  - ({_NSRange=QQ}) selectedRangeInMarkedText;
- - (Q) hashString:(id)aintoHashValue:(Q)b;
+ - (unsigned long long) hashString:(id)aintoHashValue:(unsigned long long)b;
  - (id) documentStateAfterUnmarkingText;
  - (id) documentStateAfterDeletingBackward;
  - (id) documentStateAfterDeletingForward;
  - (id) documentStateAfterCollapsingSelection;
  - (id) wordPrefixOfString:(id)awithTerminatorPredicate:(@?)breverse:(BOOL)c;
  - (id) inputStemWithTerminatorPredicate:(@?)a;
- - (Q) inputIndexWithTerminatorPredicate:(@?)a;
+ - (unsigned long long) inputIndexWithTerminatorPredicate:(@?)a;
  - (id) initWithText:(id)aselectedRange:({_NSRange=QQ})b;
 
 

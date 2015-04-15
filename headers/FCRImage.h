@@ -1,11 +1,11 @@
 
 @interface FCRImage : NSObject {
 
-    Q width;
-    Q height;
-    Q bytesPerRow;
-    * rawDataBuffer;
-    * alignedDataBuffer;
+    unsigned long long width;
+    unsigned long long height;
+    unsigned long long bytesPerRow;
+    char* rawDataBuffer;
+    char* alignedDataBuffer;
     BOOL freeBufferWhenDone;
 }
 @property (atomic, assign, readwrite) NSNumber* width;
@@ -13,14 +13,14 @@
 @property (atomic, assign, readwrite) NSNumber* bytesPerRow;
 
  - (void) dealloc;
- - (Q) bytesPerRow;
- - (id) initWithWidth:(Q)aheight:(Q)bbytesPerRow:(Q)cbuffer:(*)dfreeBufferWhenDone:(BOOL)e;
- - (Q) width;
- - (Q) height;
- - (*) getAlignedImageData;
- - (void) setWidth:(Q)a;
- - (void) setHeight:(Q)a;
- - (void) setBytesPerRow:(Q)a;
+ - (unsigned long long) bytesPerRow;
+ - (id) initWithWidth:(unsigned long long)aheight:(unsigned long long)bbytesPerRow:(unsigned long long)cbuffer:(char*)dfreeBufferWhenDone:(BOOL)e;
+ - (unsigned long long) width;
+ - (unsigned long long) height;
+ - (char*) getAlignedImageData;
+ - (void) setWidth:(unsigned long long)a;
+ - (void) setHeight:(unsigned long long)a;
+ - (void) setBytesPerRow:(unsigned long long)a;
 
 
 @end

@@ -10,23 +10,23 @@
     @"NSOperationQueue" _motionEventQueue;
     BOOL _hasReceivedAtLeastOneMotionEventSinceStarting;
     {?="quaternion"{?="w"d"x"d"y"d"z"d}"userAcceleration"{?="x"f"y"f"z"f}"rotationRate"{?="x"f"y"f"z"f}"magneticField"{?="x"f"y"f"z"f}"magneticFieldCalibrationLevel"i"doingYawCorrection"B"doingBiasEstimation"B"isInitialized"B} _pendingDeviceMotionStruct;
-    d _pendingDeviceMotionTimestamp;
-    i _pendingDeviceMotionLock;
+    double _pendingDeviceMotionTimestamp;
+    int _pendingDeviceMotionLock;
     @"CADisplayLink" _displayLink;
     BOOL _generatingUpdates;
     @"NSMutableSet" _suspendReasons;
     {?="w"d"x"d"y"d"z"d} _lastDeviceQuaternion;
-    d _lastUpdateTimestamp;
+    double _lastUpdateTimestamp;
     BOOL _slowUpdatesEnabled;
     BOOL _pendingSlowDown;
-    q _sensorStatus;
+    long long _sensorStatus;
     BOOL _allAnalyzersAreCentered;
     BOOL _hasAppliedAtLeastOneUpdateSinceStarting;
     BOOL _isPendingReset;
     @"_UIMotionEffectEngineLogger" _motionLogger;
-    i _thermalNotificationToken;
-    i _screenDimmingNotificationToken;
-    q _targetInterfaceOrientation;
+    int _thermalNotificationToken;
+    int _screenDimmingNotificationToken;
+    long long _targetInterfaceOrientation;
 }
 @property (nonatomic, assign, readonly) NSArray* suspensionReasons;
 @property (nonatomic, assign, readwrite, _setTargetInterfaceOrientation:) NSNumber* _targetInterfaceOrientation;
@@ -46,8 +46,8 @@
  - (void) resetMotionAnalysis;
  - (id) _motionEffectsForView:(id)a;
  - (BOOL) _motionEffectsAreSuspendedForView:(id)a;
- - (void) _setTargetInterfaceOrientation:(q)a;
- - (q) _targetInterfaceOrientation;
+ - (void) _setTargetInterfaceOrientation:(long long)a;
+ - (long long) _targetInterfaceOrientation;
  - (id) suspensionReasons;
  - (void) _startOrStopGeneratingUpdates;
  - (void) _stopGeneratingUpdates;
@@ -61,8 +61,8 @@
  - (void) _startGeneratingUpdates;
  - (void) _handleLatestDeviceMotion;
  - (void) _unregisterMotionEffect:(id)afromView:(id)b;
- - (void) _scheduleUpdateWithDeviceMotion:(r^{?={?=dddd}{?=fff}{?=fff}{?=fff}iBBB})atimestamp:(d)b;
- - (void) _setMotionManagerSensorStatus:(q)a;
+ - (void) _scheduleUpdateWithDeviceMotion:(r^{?={?=dddd}{?=fff}{?=fff}{?=fff}iBBB})atimestamp:(double)b;
+ - (void) _setMotionManagerSensorStatus:(long long)a;
  - (id) debugDescription;
  - (id) init;
 

@@ -13,7 +13,7 @@
  + (void) setStandardUserDefaults:(id)a;
  + (void) resetStandardUserDefaults;
 
- - (d) doubleForKey:(id)a;
+ - (double) doubleForKey:(id)a;
  - (BOOL) boolForKey:(id)a;
  - (id) dictionaryRepresentation;
  - (void) setObject:(id)aforKey:(id)binDomain:(id)c;
@@ -25,11 +25,11 @@
  - (void) removeObjectForKey:(id)ainDomain:(id)b;
  - (id) dataForKey:(id)a;
  - (id) stringArrayForKey:(id)a;
- - (q) integerForKey:(id)a;
- - (q) longForKey:(id)a;
+ - (long long) integerForKey:(id)a;
+ - (long long) longForKey:(id)a;
  - (id) URLForKey:(id)a;
- - (void) setLong:(q)aforKey:(id)b;
- - (void) setDouble:(d)aforKey:(id)b;
+ - (void) setLong:(long long)aforKey:(id)b;
+ - (void) setDouble:(double)aforKey:(id)b;
  - (void) setURL:(id)aforKey:(id)b;
  - (id) searchList;
  - (void) setSearchList:(id)a;
@@ -52,11 +52,11 @@
  - (id) dictionaryForKey:(id)a;
  - (id) init;
  - (id) stringForKey:(id)a;
- - (f) floatForKey:(id)a;
+ - (float) floatForKey:(id)a;
  - (id) persistentDomainForName:(id)a;
  - (void) registerDefaults:(id)a;
- - (void) setInteger:(q)aforKey:(id)b;
- - (void) setFloat:(f)aforKey:(id)b;
+ - (void) setInteger:(long long)aforKey:(id)b;
+ - (void) setFloat:(float)aforKey:(id)b;
  - (void) setBool:(BOOL)aforKey:(id)b;
  - (id) arrayForKey:(id)a;
  - (void) setValue:(id)aforKey:(id)b;

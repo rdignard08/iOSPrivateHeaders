@@ -10,7 +10,7 @@
  - (void) setTitle:(id)a;
  - (id) symbol;
  - (void) dealloc;
- - (id) initWithStyle:(q)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
  - (void) setPressIndicatorHidden:(BOOL)a;
  - (void) setTitleText:(id)a;
  - (void) setSelectedCircleBlendMode:(BOOL)a;

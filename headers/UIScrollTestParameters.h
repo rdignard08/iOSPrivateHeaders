@@ -1,12 +1,12 @@
 
 @interface UIScrollTestParameters : NSObject {
 
-    i _iterations;
-    i _delta;
-    i _scrollLength;
-    f _startOffset;
+    int _iterations;
+    int _delta;
+    int _scrollLength;
+    float _startOffset;
     @"NSString" _currentTest;
-    i _axis;
+    int _axis;
     @"CADisplayLink" _displayLink;
 }
 @property (nonatomic, assign, readwrite) NSNumber* iterations;
@@ -19,22 +19,22 @@
 @property (nonatomic, retain, readwrite) CADisplayLink* displayLink;
 
  - (void) dealloc;
- - (id) initWithName:(id)aiterations:(i)bdelta:(i)clength:(i)dstartOffset:(f)escrollAxis:(i)f;
+ - (id) initWithName:(id)aiterations:(int)bdelta:(int)clength:(int)dstartOffset:(float)escrollAxis:(int)f;
  - (void) setDisplayLink:(id)a;
  - (id) displayLink;
  - (id) currentTest;
- - (i) scrollLength;
- - (i) axis;
- - (i) delta;
- - (void) setDelta:(i)a;
- - (i) iterations;
- - (void) setIterations:(i)a;
+ - (int) scrollLength;
+ - (int) axis;
+ - (int) delta;
+ - (void) setDelta:(int)a;
+ - (int) iterations;
+ - (void) setIterations:(int)a;
  - (void) setCurrentTest:(id)a;
- - (void) setScrollLength:(i)a;
- - (void) setStartOffset:(f)a;
- - (f) startOffset;
- - (f) endOffset;
- - (void) setAxis:(i)a;
+ - (void) setScrollLength:(int)a;
+ - (void) setStartOffset:(float)a;
+ - (float) startOffset;
+ - (float) endOffset;
+ - (void) setAxis:(int)a;
 
 
 @end

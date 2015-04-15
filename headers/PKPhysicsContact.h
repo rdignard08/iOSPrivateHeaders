@@ -5,7 +5,7 @@
     @"PKPhysicsBody" _bodyB;
     {CGPoint="x"d"y"d} _contactPoint;
     {CGVector="dx"d"dy"d} _contactNormal;
-    d _impulse;
+    double _impulse;
     BOOL _didBegin;
     BOOL _didEnd;
 }
@@ -26,14 +26,14 @@
  - (id) bodyA;
  - (id) bodyB;
  - ({CGVector=dd}) contactNormal;
- - (d) collisionImpulse;
+ - (double) collisionImpulse;
  - (void) setDidBegin:(BOOL)a;
  - (void) setDidEnd:(BOOL)a;
  - (void) setContactPoint:({CGPoint=dd})a;
  - (void) setContactNormal:({CGVector=dd})a;
  - (void) setBodyA:(id)a;
  - (void) setBodyB:(id)a;
- - (void) setCollisionImpulse:(d)a;
+ - (void) setCollisionImpulse:(double)a;
 
 
 @end

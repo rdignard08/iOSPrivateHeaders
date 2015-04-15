@@ -18,8 +18,8 @@
  + (BOOL) _layerShouldSupersedeSnapshot:(id)a;
  + (id) _snapshotView:(id)aerrorString:(^@)b;
  + (void) _collectClassInfoForSubviews:(id)a;
- + (Q) majorVersion;
- + (Q) minorVersion;
+ + (unsigned long long) majorVersion;
+ + (unsigned long long) minorVersion;
  + (id) fetchViewHierarchyWithOptions:(id)a;
  + (void) enableLayersAsSnapshots;
  + (void) disableLayersAsSnapshots;

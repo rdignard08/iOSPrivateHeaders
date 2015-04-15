@@ -1,7 +1,7 @@
 
 @interface CAMediaTimingFunctionBuiltin : CAMediaTimingFunction {
 
-    I _index;
+    unsigned int _index;
 }
 
  - (Class) classForCoder;

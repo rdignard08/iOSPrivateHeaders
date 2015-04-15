@@ -5,20 +5,20 @@
     ^{__CFArray=} _masterRuns;
     @"NSATSTypesetter" _typesetter;
     ^{?=@@qqdddd{CGRect={CGPoint=dd}{CGSize=dd}}{?=b1b1b1b1b1b1b1b1b24}} _runs;
-    q _numRuns;
-    q _runBufferSize;
+    long long _numRuns;
+    long long _runBufferSize;
     {_NSRange="location"Q"length"Q} _glyphRange;
     {_NSRange="location"Q"length"Q} _characterRange;
-    q _bufferSize;
+    long long _bufferSize;
     @"NSATSGlyphStorage" _parent;
     ^{__CFSet=} _children;
-    q _paraEndElasticCharIndex;
-    d _paraEndElasticCharWidth;
+    long long _paraEndElasticCharIndex;
+    double _paraEndElasticCharWidth;
     @"NSString" _textString;
     ^{?=q[0{?=S{CGSize=dd}Iqq}]} _stack;
     r^{?=@@qqdddd{CGRect={CGPoint=dd}{CGSize=dd}}{?=b1b1b1b1b1b1b1b1b24}} _lastElasticRun;
-    q _lastElasticRunLocation;
-    q _totalAbsorbedCount;
+    long long _lastElasticRunLocation;
+    long long _totalAbsorbedCount;
     {?="_hasNonNominalGlyph"b1"_hasPositionalStake"b1"_hasBidiRun"b1"_isEllipsisStorage"b1"_hasNonNominalStringIndexes"b1"_isUnordered"b1"_hasTotalAbsorbedCount"b1"_reserved"b25} _gFlags;
 }
  + (id) allocWithZone:(^{_NSZone=})a;
@@ -36,24 +36,24 @@
  - (void) _flushCachedObjects;
  - (id) childGlyphStorageWithCharacterRange:({_NSRange=QQ})a;
  - (^{__CTRun=}) _createEllipsisRunWithStringRange:({?=qq})aattributes:(^{__CFDictionary=})b;
- - (BOOL) _resolvePositionalStakeGlyphsForLineFragment:(^{__CTLine=})alineFragmentRect:({CGRect={CGPoint=dd}{CGSize=dd}})bminPosition:(d)cmaxPosition:(d)dmaxLineFragmentWidth:(d)ebreakHint:(^q)f;
- - ({_NSRange=QQ}) _collectElasticRangeSurroundingCharacterAtIndex:(q)aminimumCharacterIndex:(q)b;
- - (d) _widthForStringRange:({_NSRange=QQ})a;
- - (r^{?=@@qqdddd{CGRect={CGPoint=dd}{CGSize=dd}}{?=b1b1b1b1b1b1b1b1b24}}) _attributeRunForCharacterAtIndex:(q)a;
+ - (BOOL) _resolvePositionalStakeGlyphsForLineFragment:(^{__CTLine=})alineFragmentRect:({CGRect={CGPoint=dd}{CGSize=dd}})bminPosition:(double)cmaxPosition:(double)dmaxLineFragmentWidth:(double)ebreakHint:(^q)f;
+ - ({_NSRange=QQ}) _collectElasticRangeSurroundingCharacterAtIndex:(long long)aminimumCharacterIndex:(long long)b;
+ - (double) _widthForStringRange:({_NSRange=QQ})a;
+ - (r^{?=@@qqdddd{CGRect={CGPoint=dd}{CGSize=dd}}{?=b1b1b1b1b1b1b1b1b24}}) _attributeRunForCharacterAtIndex:(long long)a;
  - (void) disposeGlyphStack;
  - (^{__CTGlyphStorage=}) createCopy:({?=qq})a;
- - (void) getCustomAdvance:(^{CGSize=dd})aforIndex:(q)b;
- - (void) setAbsorbedCount:(q)aforIndex:(q)b;
- - (void) setProps:(I)aforIndex:(q)b;
- - (void) setGlyphID:(S)aforIndex:(q)b;
- - (void) setAdvance:({CGSize=dd})aforIndex:(q)b;
- - (void) setStringIndex:(q)aforIndex:(q)b;
+ - (void) getCustomAdvance:(^{CGSize=dd})aforIndex:(long long)b;
+ - (void) setAbsorbedCount:(long long)aforIndex:(long long)b;
+ - (void) setProps:(unsigned int)aforIndex:(long long)b;
+ - (void) setGlyphID:(unsigned short)aforIndex:(long long)b;
+ - (void) setAdvance:({CGSize=dd})aforIndex:(long long)b;
+ - (void) setStringIndex:(long long)aforIndex:(long long)b;
  - (void) insertGlyphs:({?=qq})a;
- - (void) swapGlyph:(q)awithIndex:(q)b;
- - (void) moveGlyphsTo:(q)afrom:({?=qq})b;
- - (void) initGlyphStack:(q)a;
- - (void) pushGlyph:(q)a;
- - (void) popGlyph:(q)a;
+ - (void) swapGlyph:(long long)awithIndex:(long long)b;
+ - (void) moveGlyphsTo:(long long)afrom:({?=qq})b;
+ - (void) initGlyphStack:(long long)a;
+ - (void) pushGlyph:(long long)a;
+ - (void) popGlyph:(long long)a;
 
 
 @end

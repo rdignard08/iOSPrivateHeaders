@@ -5,12 +5,12 @@
     BOOL _animated;
     BOOL _interactive;
     BOOL _cancelled;
-    d _transitionDuration;
-    d _percentComplete;
-    d _completionVelocity;
-    q _completionCurve;
-    q _toOrientation;
-    q _fromOrientation;
+    double _transitionDuration;
+    double _percentComplete;
+    double _completionVelocity;
+    long long _completionCurve;
+    long long _toOrientation;
+    long long _fromOrientation;
     {CGAffineTransform="a"d"b"d"c"d"d"d"tx"d"ty"d} _targetTransform;
 }
 @property (nonatomic, assign, readwrite, isAnimated) NSNumber* animated;
@@ -28,24 +28,24 @@
 
  - (BOOL) isCancelled;
  - (BOOL) isInteractive;
- - (d) percentComplete;
+ - (double) percentComplete;
  - (BOOL) isAnimated;
- - (q) toOrientation;
- - (q) fromOrientation;
+ - (long long) toOrientation;
+ - (long long) fromOrientation;
  - (void) setCancelled:(BOOL)a;
- - (d) transitionDuration;
- - (q) completionCurve;
+ - (double) transitionDuration;
+ - (long long) completionCurve;
  - (void) setAnimated:(BOOL)a;
  - ({CGAffineTransform=dddddd}) targetTransform;
- - (d) completionVelocity;
+ - (double) completionVelocity;
  - (void) setInteractive:(BOOL)a;
- - (void) setTransitionDuration:(d)a;
- - (void) setPercentComplete:(d)a;
- - (void) setCompletionVelocity:(d)a;
- - (void) setCompletionCurve:(q)a;
+ - (void) setTransitionDuration:(double)a;
+ - (void) setPercentComplete:(double)a;
+ - (void) setCompletionVelocity:(double)a;
+ - (void) setCompletionCurve:(long long)a;
  - (void) setTargetTransform:({CGAffineTransform=dddddd})a;
- - (void) setToOrientation:(q)a;
- - (void) setFromOrientation:(q)a;
+ - (void) setToOrientation:(long long)a;
+ - (void) setFromOrientation:(long long)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

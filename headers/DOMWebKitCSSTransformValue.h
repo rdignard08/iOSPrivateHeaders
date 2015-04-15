@@ -3,7 +3,7 @@
 
 }
 
- - (S) operationType;
+ - (unsigned short) operationType;
 
 
 @end

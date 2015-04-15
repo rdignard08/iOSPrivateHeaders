@@ -25,11 +25,11 @@
  - (id) initWithDelegate:(id)a;
  - (void) sendCreateSceneRequestEvent:(id)awithCompletion:(@?)b;
  - (void) sendDestroySceneRequestEvent:(id)awithCompletion:(@?)b;
- - (void) _sendMessage:(q)awithEvent:(id)b;
+ - (void) _sendMessage:(long long)awithEvent:(id)b;
  - (void) _debugLog:(id)a;
- - (void) _queue_sendMessage:(q)awithEvent:(id)bwithResponseEvent:(@?)cofType:(Class)d;
+ - (void) _queue_sendMessage:(long long)awithEvent:(id)bwithResponseEvent:(@?)cofType:(Class)d;
  - (void) _queue_sendReplyForMessage:(id)awithEvent:(id)b;
- - (void) _queue_sendMessage:(q)awithEvent:(id)b;
+ - (void) _queue_sendMessage:(long long)awithEvent:(id)b;
  - (id) _queue_workspaceEventFromMessage:(id)aofType:(Class)b;
  - (void) _queue_ensureTransaction;
  - (void) _sendReplyForMessage:(id)awithEvent:(id)b;
@@ -40,7 +40,7 @@
  - (void) _queue_handleDestroyScene:(id)a;
  - (void) _queue_handleActions:(id)a;
  - (void) _queue_handleSceneActions:(id)a;
- - (BOOL) queue_handleMessageWithType:(q)amessage:(id)bclient:(id)c;
+ - (BOOL) queue_handleMessageWithType:(long long)amessage:(id)bclient:(id)c;
  - (id) callOutQueue;
  - (void) queue_handleMessage:(id)a;
  - (id) _loggingProem;

@@ -38,15 +38,15 @@
  - (id) _text;
  - (id) cloneContents;
  - (id) cloneRange;
- - (s) compareBoundaryPoints:(S)asourceRange:(id)b;
+ - (short) compareBoundaryPoints:(unsigned short)asourceRange:(id)b;
  - (id) firstNode;
  - (id) startContainer;
- - (i) startOffset;
+ - (int) startOffset;
  - (id) endContainer;
- - (i) endOffset;
+ - (int) endOffset;
  - (id) commonAncestorContainer;
- - (void) setStart:(id)aoffset:(i)b;
- - (void) setEnd:(id)aoffset:(i)b;
+ - (void) setStart:(id)aoffset:(int)b;
+ - (void) setEnd:(id)aoffset:(int)b;
  - (void) selectNode:(id)a;
  - (void) detach;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) boundingBox;
@@ -59,18 +59,18 @@
  - (void) setStartBefore:(id)a;
  - (void) setEndBefore:(id)a;
  - (void) collapse:(BOOL)a;
- - (s) compareBoundaryPoints:(S)a;
+ - (short) compareBoundaryPoints:(unsigned short)a;
  - (void) deleteContents;
  - (id) extractContents;
  - (void) surroundContents:(id)a;
  - (id) createContextualFragment:(id)a;
  - (BOOL) intersectsNode:(id)a;
- - (s) compareNode:(id)a;
- - (s) comparePoint:(id)aoffset:(i)b;
- - (BOOL) isPointInRange:(id)aoffset:(i)b;
+ - (short) compareNode:(id)a;
+ - (short) comparePoint:(id)aoffset:(int)b;
+ - (BOOL) isPointInRange:(id)aoffset:(int)b;
  - (void) expand:(id)a;
- - (void) move:(I)ainDirection:(i)b;
- - (void) extend:(I)ainDirection:(i)b;
+ - (void) move:(unsigned int)ainDirection:(int)b;
+ - (void) extend:(unsigned int)ainDirection:(int)b;
  - (id) toString;
 
 

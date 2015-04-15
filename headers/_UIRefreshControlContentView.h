@@ -13,12 +13,12 @@
  - (void) setRefreshControl:(id)a;
  - (id) refreshControl;
  - (void) refreshControlInvalidatedSnappingHeight;
- - (d) _heightAtWhichNoneOfTheInterfaceElementsAreVisibleEvenIfTheControlIsStillPartiallyOnScreen;
- - (d) maximumSnappingHeight;
- - (d) minimumSnappingHeight;
- - (void) willTransitionFromState:(i)atoState:(i)b;
- - (void) didTransitionFromState:(i)atoState:(i)b;
- - (q) style;
+ - (double) _heightAtWhichNoneOfTheInterfaceElementsAreVisibleEvenIfTheControlIsStillPartiallyOnScreen;
+ - (double) maximumSnappingHeight;
+ - (double) minimumSnappingHeight;
+ - (void) willTransitionFromState:(int)atoState:(int)b;
+ - (void) didTransitionFromState:(int)atoState:(int)b;
+ - (long long) style;
 
 
 @end

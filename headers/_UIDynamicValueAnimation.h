@@ -3,43 +3,43 @@
 
     @? _applier;
     @? _viewApplier;
-    d _value;
-    d _velocity;
-    d _unitSize;
-    d _friction;
-    d _decelerationFactor;
-    d _decelerationLnFactor;
-    d _multiplier;
+    double _value;
+    double _velocity;
+    double _unitSize;
+    double _friction;
+    double _decelerationFactor;
+    double _decelerationLnFactor;
+    double _multiplier;
     @"NSMutableArray" _activeValues;
     ^v _stepFunction;
 }
- + (id) _dynamicValueAnimationMatchingCASpringAnimationWithMass:(d)astiffness:(d)bdamping:(f)cvelocity:(f)dfromValue:(d)etoValue:(d)f;
+ + (id) _dynamicValueAnimationMatchingCASpringAnimationWithMass:(double)astiffness:(double)bdamping:(float)cvelocity:(float)dfromValue:(double)etoValue:(double)f;
 
  - (void) observeValueForKeyPath:(id)aofObject:(id)bchange:(id)ccontext:(^v)d;
- - (void) _setMultiplier:(d)a;
+ - (void) _setMultiplier:(double)a;
  - (void) dealloc;
  - (void) runWithValueApplier:(@?)acompletion:(@?)b;
  - (void) runWithCompletion:(@?)a;
- - (BOOL) _animateForInterval:(d)a;
+ - (BOOL) _animateForInterval:(double)a;
  - (void) _stopAnimation;
- - (id) initWithValue:(d)avelocity:(d)bunitSize:(d)c;
- - (void) _appendSubclassDescription:(id)aatLevel:(i)b;
- - (void) _setDecelerationFactor:(d)a;
+ - (id) initWithValue:(double)avelocity:(double)bunitSize:(double)c;
+ - (void) _appendSubclassDescription:(id)aatLevel:(int)b;
+ - (void) _setDecelerationFactor:(double)a;
  - (void) addActiveValue:(id)a;
  - (void) _updateStepFunction;
  - (void) runWithValueApplier:(@?)acompletion:(@?)bforScreen:(id)crunLoopMode:(id)d;
  - (void) removeActiveValue:(id)a;
  - (void) setActiveValues:(id)a;
- - (d) _multiplier;
- - (void) _setVelocity:(d)a;
+ - (double) _multiplier;
+ - (void) _setVelocity:(double)a;
  - (id) activeValues;
  - (id) init;
- - (void) setValue:(d)a;
- - (d) value;
- - (d) friction;
- - (d) velocity;
- - (void) setFriction:(d)a;
- - (void) setVelocity:(d)a;
+ - (void) setValue:(double)a;
+ - (double) value;
+ - (double) friction;
+ - (double) velocity;
+ - (void) setFriction:(double)a;
+ - (void) setVelocity:(double)a;
 
 
 @end

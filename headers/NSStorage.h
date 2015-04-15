@@ -2,29 +2,29 @@
 @interface NSStorage : NSObject {
 
     id _storage;
-    q _hintCapacity;
+    long long _hintCapacity;
     [4Q] _reserved;
 }
  + (void) initialize;
 
  - (id) description;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) init;
- - (^v) elementAtIndex:(Q)a;
- - (id) initWithElementSize:(Q)acapacity:(Q)b;
- - (void) insertElements:(^v)acount:(Q)batIndex:(Q)c;
- - (void) removeElementAtIndex:(Q)a;
- - (Q) elementSize;
- - (void) setHintCapacity:(Q)a;
- - (Q) hintCapacity;
- - (void) replaceElementAtIndex:(Q)awithElement:(^v)b;
+ - (^v) elementAtIndex:(unsigned long long)a;
+ - (id) initWithElementSize:(unsigned long long)acapacity:(unsigned long long)b;
+ - (void) insertElements:(^v)acount:(unsigned long long)batIndex:(unsigned long long)c;
+ - (void) removeElementAtIndex:(unsigned long long)a;
+ - (unsigned long long) elementSize;
+ - (void) setHintCapacity:(unsigned long long)a;
+ - (unsigned long long) hintCapacity;
+ - (void) replaceElementAtIndex:(unsigned long long)awithElement:(^v)b;
  - (void) removeElementsInRange:({_NSRange=QQ})a;
- - (^v) pointerToElement:(Q)adirectlyAccessibleElements:(^{_NSRange=QQ})b;
- - (void) insertElement:(^v)aatIndex:(Q)b;
+ - (^v) pointerToElement:(unsigned long long)adirectlyAccessibleElements:(^{_NSRange=QQ})b;
+ - (void) insertElement:(^v)aatIndex:(unsigned long long)b;
  - (void) enumerateElementsUsingBlock:(@?)a;
  - (void) addElement:(^v)a;
- - (Q) capacity;
+ - (unsigned long long) capacity;
 
 
 @end

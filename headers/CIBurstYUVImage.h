@@ -1,11 +1,11 @@
 
 @interface CIBurstYUVImage : NSObject {
 
-    * Ybuffer;
-    * Cbuffer;
-    i width;
-    i height;
-    i bytesPerRow;
+    char* Ybuffer;
+    char* Cbuffer;
+    int width;
+    int height;
+    int bytesPerRow;
     ^{__CFData=} dataPtr;
     ^{__CVBuffer=} pixelBuffer;
 }
@@ -16,19 +16,19 @@
 @property (atomic, assign, readwrite) NSNumber* Cbuffer;
 
  - (void) dealloc;
- - (id) initWithCGImage:(^{CGImage=})amaxDimension:(i)b;
- - (*) Ybuffer;
- - (i) bytesPerRow;
- - (*) Cbuffer;
- - (void) convertRGBAToYUV420:(*)argbaBytesPerRow:(i)b;
+ - (id) initWithCGImage:(^{CGImage=})amaxDimension:(int)b;
+ - (char*) Ybuffer;
+ - (int) bytesPerRow;
+ - (char*) Cbuffer;
+ - (void) convertRGBAToYUV420:(char*)argbaBytesPerRow:(int)b;
  - (^{__CVBuffer=}) pixelBuffer;
- - (void) setYbuffer:(*)a;
- - (void) setCbuffer:(*)a;
- - (i) width;
- - (i) height;
- - (void) setWidth:(i)a;
- - (void) setHeight:(i)a;
- - (void) setBytesPerRow:(i)a;
+ - (void) setYbuffer:(char*)a;
+ - (void) setCbuffer:(char*)a;
+ - (int) width;
+ - (int) height;
+ - (void) setWidth:(int)a;
+ - (void) setHeight:(int)a;
+ - (void) setBytesPerRow:(int)a;
 
 
 @end

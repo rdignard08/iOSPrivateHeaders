@@ -3,7 +3,7 @@
 
 }
 
- - (d) elapsedTime;
+ - (double) elapsedTime;
  - (id) propertyName;
  - (id) pseudoElement;
 

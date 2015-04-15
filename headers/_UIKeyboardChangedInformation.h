@@ -2,7 +2,7 @@
 @protocol NSSecureCoding;
 @interface _UIKeyboardChangedInformation : NSObject <NSSecureCoding> {
 
-    I _animationFencingPort;
+    unsigned int _animationFencingPort;
     BOOL _keyboardOnScreen;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _keyboardPosition;
 }
@@ -16,7 +16,7 @@
  - (id) description;
  - (void) dealloc;
  - (id) initWithKeyboardRect:({CGRect={CGPoint=dd}{CGSize=dd}})aonScreen:(BOOL)b;
- - (I) animationFencingPort;
+ - (unsigned int) animationFencingPort;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) keyboardPosition;
  - (BOOL) keyboardOnScreen;
  - (void) insertPermissions;

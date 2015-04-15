@@ -5,15 +5,15 @@
     @"NSString" _sourcePath;
     @"NSError" _error;
     ^v _stream;
-    i _optionsFlags;
-    i _lastDeviceInode;
+    int _optionsFlags;
+    int _lastDeviceInode;
     BOOL _shouldFilterUnderbars;
     BOOL _stopped;
     @"NSMutableArray" _deviceEntryPoints;
     @"NSMutableArray" _deviceNumbers;
 }
  + (BOOL) _needsStatInfo;
- + (id) _errorWithErrno:(i)aatPath:(id)b;
+ + (id) _errorWithErrno:(int)aatPath:(id)b;
  + (id) directoryTraversalOperationAtPath:(id)a;
 
  - (id) initWithPath:(id)a;

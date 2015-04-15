@@ -10,7 +10,7 @@
  - (id) activeControlKeyTraits;
  - (id) hashStringElement;
  - (id) shiftLockControlKeyTraits;
- - (d) passcodeEdgeWeight;
+ - (double) passcodeEdgeWeight;
 
 
 @end

@@ -7,8 +7,8 @@
     BOOL m_alertFlattened;
     BOOL m_navigationTransitionFlattened;
     BOOL m_animating;
-    i m_orientation;
-    i _applicationDeactivationReason;
+    int m_orientation;
+    int _applicationDeactivationReason;
 }
  + (id) _grabberDot;
 
@@ -50,8 +50,8 @@
  - (void) removeFromSuperview;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (i) orientation;
- - (void) setOrientation:(i)a;
+ - (int) orientation;
+ - (void) setOrientation:(int)a;
  - (void) setHidden:(BOOL)a;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

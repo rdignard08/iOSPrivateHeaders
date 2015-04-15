@@ -23,10 +23,10 @@
  - (void) presentationTransitionWillBegin;
  - (void) dismissalTransitionWillBegin;
  - (void) containerViewWillLayoutSubviews;
- - (q) adaptivePresentationStyleForPresentationController:(id)a;
- - (q) adaptivePresentationStyle;
+ - (long long) adaptivePresentationStyleForPresentationController:(id)a;
+ - (long long) adaptivePresentationStyle;
  - (id) initWithPresentedViewController:(id)apresentingViewController:(id)b;
- - (id) presentationController:(id)aviewControllerForAdaptivePresentationStyle:(q)b;
+ - (id) presentationController:(id)aviewControllerForAdaptivePresentationStyle:(long long)b;
  - (BOOL) _shouldChangeStatusBarViewController;
  - (BOOL) _preserveResponderAcrossWindows;
  - (id) _dimmingView;
@@ -36,8 +36,8 @@
  - (void) _prepareDimmingViewIfNecessary;
  - (void) _occludePresentingWindow:(BOOL)a;
  - (id) _presentedAlertController;
- - (q) attributeToAlignAlertControllerViewBy;
- - (d) constantForAligningAlertControllerToAvailableSpace;
+ - (long long) attributeToAlignAlertControllerViewBy;
+ - (double) constantForAligningAlertControllerToAvailableSpace;
  - (void) _setChromeHidden:(BOOL)a;
  - (BOOL) _isChromeHidden;
  - (void) _setIsCurrentContext:(BOOL)a;

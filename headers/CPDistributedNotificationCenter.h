@@ -6,13 +6,13 @@
     ^{__CFRunLoopSource=} _receiveNotificationSource;
     BOOL _isServer;
     ^{__CFDictionary=} _sendPorts;
-    Q _startCount;
+    unsigned long long _startCount;
     @"NSObject<OS_dispatch_queue>" _queue;
 }
  + (id) _serverPortToNotificationCenterMapDispatchQueue;
  + (^{__CFDictionary=}) _serverPortToNotificationCenterMap;
- + (void) setCenter:(id)aforServerPort:(I)b;
- + (id) centerForServerPort:(I)a;
+ + (void) setCenter:(id)aforServerPort:(unsigned int)b;
+ + (id) centerForServerPort:(unsigned int)a;
  + (id) centerNamed:(id)a;
 
  - (void) dealloc;
@@ -25,7 +25,7 @@
  - (void) deliverNotification:(id)auserInfo:(id)b;
  - (void) runServer;
  - (BOOL) postNotificationName:(id)auserInfo:(id)btoBundleIdentifier:(id)c;
- - (void) _receivedCheckIn:(I)aauditToken:(^{?=[8I]})b;
+ - (void) _receivedCheckIn:(unsigned int)aauditToken:(^{?=[8I]})b;
  - (void) _notificationServerWasRestarted;
  - (void) startDeliveringNotificationsToMainThread;
  - (void) stopDeliveringNotifications;

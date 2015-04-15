@@ -8,8 +8,8 @@
 
  - (id) valueForUndefinedKey:(id)a;
  - (void) dealloc;
- - (Q) count;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
+ - (unsigned long long) count;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
  - (id) archiveDictionary;
  - (void) setValuesFromModel:(id)a;
  - (id) _startInit;
@@ -22,18 +22,18 @@
  - (void) addGroupObserver:(id)a;
  - (void) removeGroupObserver:(id)a;
  - (void) settings:(id)achangedValueForKeyPath:(id)b;
- - (Q) indexOfSettings:(id)a;
- - (void) insertSettings:(id)aatIndex:(Q)b;
- - (void) _sendInsert:(id)aatIndex:(Q)b;
- - (void) removeSettingsAtIndex:(Q)a;
- - (void) _sendRemove:(id)aatIndex:(Q)b;
- - (void) moveSettingsAtIndex:(Q)atoIndex:(Q)b;
- - (void) _sendMove:(id)afromIndex:(Q)btoIndex:(Q)c;
- - (id) settingsAtIndex:(Q)a;
+ - (unsigned long long) indexOfSettings:(id)a;
+ - (void) insertSettings:(id)aatIndex:(unsigned long long)b;
+ - (void) _sendInsert:(id)aatIndex:(unsigned long long)b;
+ - (void) removeSettingsAtIndex:(unsigned long long)a;
+ - (void) _sendRemove:(id)aatIndex:(unsigned long long)b;
+ - (void) moveSettingsAtIndex:(unsigned long long)atoIndex:(unsigned long long)b;
+ - (void) _sendMove:(id)afromIndex:(unsigned long long)btoIndex:(unsigned long long)c;
+ - (id) settingsAtIndex:(unsigned long long)a;
  - (BOOL) containsSettings:(id)a;
  - (void) addSettings:(id)a;
  - (void) removeSettings:(id)a;
- - (void) moveSettings:(id)atoIndex:(Q)b;
+ - (void) moveSettings:(id)atoIndex:(unsigned long long)b;
  - (void) enumerateSettingsUsingBlock:(@?)a;
 
 

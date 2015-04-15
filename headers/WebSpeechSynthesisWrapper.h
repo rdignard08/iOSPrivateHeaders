@@ -12,7 +12,7 @@
  - (void) .cxx_destruct;
  - (void) cancel;
  - (void) resume;
- - (f) mapSpeechRateToPlatformRate:(f)a;
+ - (float) mapSpeechRateToPlatformRate:(float)a;
  - (void) speakUtterance:({PassRefPtr<WebCore::PlatformSpeechSynthesisUtterance>=^{PlatformSpeechSynthesisUtterance}})a;
  - (void) speechSynthesizer:(id)adidStartSpeechUtterance:(id)b;
  - (void) speechSynthesizer:(id)adidFinishSpeechUtterance:(id)b;

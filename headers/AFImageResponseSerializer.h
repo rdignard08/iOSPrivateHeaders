@@ -2,14 +2,14 @@
 @interface AFImageResponseSerializer : AFHTTPResponseSerializer {
 
     BOOL _automaticallyInflatesResponseImage;
-    d _imageScale;
+    double _imageScale;
 }
 
  - (id) responseObjectForResponse:(id)adata:(id)berror:(^@)c;
- - (void) setImageScale:(d)a;
+ - (void) setImageScale:(double)a;
  - (void) setAutomaticallyInflatesResponseImage:(BOOL)a;
  - (BOOL) automaticallyInflatesResponseImage;
- - (d) imageScale;
+ - (double) imageScale;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) init;
  - (void) encodeWithCoder:(id)a;

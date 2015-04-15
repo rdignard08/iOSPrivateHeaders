@@ -3,13 +3,13 @@
 
 }
  + (void) initialize;
- + (void) noteOrientationChangingTo:(q)a;
+ + (void) noteOrientationChangingTo:(long long)a;
  + (void) hideAlertsForTermination;
- + (void) noteOrientationChangingTo:(q)aanimated:(BOOL)b;
+ + (void) noteOrientationChangingTo:(long long)aanimated:(BOOL)b;
  + (void) hideTopmostMiniAlert;
- + (void) showTopmostMiniAlertWithSynchronizationPort:(I)a;
+ + (void) showTopmostMiniAlertWithSynchronizationPort:(unsigned int)a;
  + (id) visibleAlert;
- + (void) reorientAlertWindowTo:(q)aanimated:(BOOL)bkeyboard:(id)c;
+ + (void) reorientAlertWindowTo:(long long)aanimated:(BOOL)bkeyboard:(id)c;
  + (void) tellSpringboardShowingAlert:(id)aanimated:(BOOL)bforSpringBoardAlertTransition:(BOOL)c;
  + (BOOL) hideTopMostAlertAnimated:(BOOL)a;
  + (BOOL) stackContainsAlert:(id)a;
@@ -27,7 +27,7 @@
  + (void) hideDimmingViewAnimated:(BOOL)a;
  + (void) createAlertWindowIfNeeded:(BOOL)adeferDisplay:(BOOL)b;
  + (BOOL) cancelAlertsAnimated:(BOOL)a;
- + ({CGAffineTransform=dddddd}) _alertTranslationForInterfaceOrientation:(q)aandTranslation:(d)b;
+ + ({CGAffineTransform=dddddd}) _alertTranslationForInterfaceOrientation:(long long)aandTranslation:(double)b;
  + (void) applyClientWindowTransform:({CGAffineTransform=dddddd})a;
  + (void) showDimmingViewAnimated:(BOOL)a;
  + (void) alertPopoutCompleted;

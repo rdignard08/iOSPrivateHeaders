@@ -1,34 +1,34 @@
 
 @interface CUIPSDLayerEffectDropShadow : CUIPSDLayerEffectComponent {
 
-    i _blendMode;
-    d _opacity;
+    int _blendMode;
+    double _opacity;
     @"CUIColor" _color;
-    s _angle;
-    Q _distance;
-    Q _blurSize;
-    Q _spread;
+    short _angle;
+    unsigned long long _distance;
+    unsigned long long _blurSize;
+    unsigned long long _spread;
 }
 
  - (void) dealloc;
  - (id) init;
- - (i) blendMode;
- - (void) setBlendMode:(i)a;
+ - (int) blendMode;
+ - (void) setBlendMode:(int)a;
  - (void) setColor:(id)a;
- - (void) setBlurSize:(Q)a;
- - (void) setSpread:(Q)a;
- - (void) setDistance:(Q)a;
- - (void) setAngle:(s)a;
+ - (void) setBlurSize:(unsigned long long)a;
+ - (void) setSpread:(unsigned long long)a;
+ - (void) setDistance:(unsigned long long)a;
+ - (void) setAngle:(short)a;
  - (BOOL) updateLayerEffectPreset:(id)aerror:(^@)b;
- - (id) initWithEffectFromPreset:(id)aatIndex:(I)b;
- - (Q) blurSize;
- - (Q) distance;
- - (Q) spread;
- - (s) angle;
- - (I) effectType;
+ - (id) initWithEffectFromPreset:(id)aatIndex:(unsigned int)b;
+ - (unsigned long long) blurSize;
+ - (unsigned long long) distance;
+ - (unsigned long long) spread;
+ - (short) angle;
+ - (unsigned int) effectType;
  - (id) color;
- - (d) opacity;
- - (void) setOpacity:(d)a;
+ - (double) opacity;
+ - (void) setOpacity:(double)a;
 
 
 @end

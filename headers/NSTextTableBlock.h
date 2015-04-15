@@ -2,10 +2,10 @@
 @interface NSTextTableBlock : NSTextBlock {
 
     @"NSTextTable" _table;
-    q _rowNum;
-    q _colNum;
-    q _rowSpan;
-    q _colSpan;
+    long long _rowNum;
+    long long _colNum;
+    long long _rowSpan;
+    long long _colSpan;
     ^v _tableBlockPrimary;
     ^v _tableBlockSecondary;
 }
@@ -17,15 +17,15 @@
  - (id) initWithCoder:(id)a;
  - (id) table;
  - (void) drawBackgroundWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})ainView:(id)bcharacterRange:({_NSRange=QQ})clayoutManager:(id)d;
- - (q) startingRow;
- - (q) columnSpan;
- - (q) rowSpan;
+ - (long long) startingRow;
+ - (long long) columnSpan;
+ - (long long) rowSpan;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForLayoutAtPoint:({CGPoint=dd})ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})btextContainer:(id)ccharacterRange:({_NSRange=QQ})d;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) boundsRectForContentRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})btextContainer:(id)ccharacterRange:({_NSRange=QQ})d;
- - (id) initWithTable:(id)astartingRow:(q)browSpan:(q)cstartingColumn:(q)dcolumnSpan:(q)e;
- - (q) startingColumn;
- - (void) _setRowSpan:(q)a;
- - (void) _setColumnSpan:(q)a;
+ - (id) initWithTable:(id)astartingRow:(long long)browSpan:(long long)cstartingColumn:(long long)dcolumnSpan:(long long)e;
+ - (long long) startingColumn;
+ - (void) _setRowSpan:(long long)a;
+ - (void) _setColumnSpan:(long long)a;
 
 
 @end

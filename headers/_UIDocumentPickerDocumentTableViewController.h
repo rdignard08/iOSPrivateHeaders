@@ -16,9 +16,9 @@
  - (void) tableView:(id)awillDisplayCell:(id)bforRowAtIndexPath:(id)c;
  - (BOOL) tableView:(id)ashouldHighlightRowAtIndexPath:(id)b;
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) numberOfSectionsInTableView:(id)a;
+ - (long long) numberOfSectionsInTableView:(id)a;
  - (void) viewDidLayoutSubviews;
  - (void) viewWillAppear:(BOOL)a;
  - (void) willMoveToParentViewController:(id)a;

@@ -3,19 +3,19 @@
 
     ^{edge=Q[2Q]Q} _edges;
     ^{vertex=QQ^Q} _vertices;
-    Q _numV;
-    Q _numE;
-    Q _currE;
-    Q _dump;
-    Q _l_end;
+    unsigned long long _numV;
+    unsigned long long _numE;
+    unsigned long long _currE;
+    unsigned long long _dump;
+    unsigned long long _l_end;
 }
 
  - (void) dealloc;
  - (void) finalize;
  - (BOOL) isEmpty;
- - (id) initWithNumberOfVertices:(q)anumberOfEdges:(q)b;
- - (BOOL) addEdgeWithH1:(Q)awithH2:(Q)b;
- - (Q) numOfEdges;
+ - (id) initWithNumberOfVertices:(long long)anumberOfEdges:(long long)b;
+ - (BOOL) addEdgeWithH1:(unsigned long long)awithH2:(unsigned long long)b;
+ - (unsigned long long) numOfEdges;
  - (^^{edge}) isAcyclic;
 
 

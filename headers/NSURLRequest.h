@@ -17,13 +17,13 @@
 @property (atomic, assign, readonly) NSNumber* networkServiceType;
 @property (atomic, assign, readonly) NSNumber* allowsCellularAccess;
  + (BOOL) supportsSecureCoding;
- + (id) requestWithURL:(id)acachePolicy:(Q)btimeoutInterval:(d)c;
- + (id) getObjectKeyWithIndex:(q)a;
+ + (id) requestWithURL:(id)acachePolicy:(unsigned long long)btimeoutInterval:(double)c;
+ + (id) getObjectKeyWithIndex:(long long)a;
  + (id) allowsSpecificHTTPSCertificateForHost:(id)a;
  + (BOOL) allowsAnyHTTPSCertificateForHost:(id)a;
  + (id) requestWithURL:(id)a;
- + (void) setDefaultTimeoutInterval:(d)a;
- + (d) defaultTimeoutInterval;
+ + (void) setDefaultTimeoutInterval:(double)a;
+ + (double) defaultTimeoutInterval;
  + (void) setAllowsAnyHTTPSCertificate:(BOOL)aforHost:(id)b;
  + (void) setAllowsSpecificHTTPSCertificate:(id)aforHost:(id)b;
 
@@ -36,7 +36,7 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) initWithURL:(id)a;
  - (id) init;
@@ -48,7 +48,7 @@
  - (id) URL;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (id) initWithURL:(id)acachePolicy:(Q)btimeoutInterval:(d)c;
+ - (id) initWithURL:(id)acachePolicy:(unsigned long long)btimeoutInterval:(double)c;
  - (id) HTTPMethod;
  - (id) mainDocumentURL;
  - (BOOL) _URLHasScheme:(id)a;
@@ -56,14 +56,14 @@
  - (id) _propertyForKey:(id)a;
  - (void) _setProperty:(id)aforKey:(id)b;
  - (void) _removePropertyForKey:(id)a;
- - (Q) cachePolicy;
+ - (unsigned long long) cachePolicy;
  - (BOOL) HTTPShouldHandleCookies;
  - (id) allHTTPHeaderFields;
- - (d) _timeWindowDelay;
- - (d) _timeWindowDuration;
- - (d) timeoutInterval;
+ - (double) _timeWindowDelay;
+ - (double) _timeWindowDuration;
+ - (double) timeoutInterval;
  - (id) _copyReplacingURLWithURL:(id)a;
- - (Q) networkServiceType;
+ - (unsigned long long) networkServiceType;
  - (BOOL) allowsCellularAccess;
  - (id) boundInterfaceIdentifier;
  - (id) HTTPContentType;
@@ -72,7 +72,7 @@
  - (id) HTTPUserAgent;
  - (BOOL) HTTPShouldUsePipelining;
  - (id) contentDispositionEncodingFallbackArray;
- - (Q) expectedWorkload;
+ - (unsigned long long) expectedWorkload;
 
 
 @end

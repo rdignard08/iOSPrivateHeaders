@@ -15,7 +15,7 @@
  - (id) filter;
  - (id) lastChild;
  - (id) root;
- - (I) whatToShow;
+ - (unsigned int) whatToShow;
  - (BOOL) expandEntityReferences;
  - (id) previousNode;
 

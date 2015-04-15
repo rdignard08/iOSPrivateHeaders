@@ -37,12 +37,12 @@
  - (id) logPreferenceDomain;
  - (BOOL) shouldEnableOnInternalBuilds;
  - (void) _setEnabled:(BOOL)afromDefaults:(BOOL)b;
- - (id) logPrefixForCategory:(id)adestination:(Q)b;
+ - (id) logPrefixForCategory:(id)adestination:(unsigned long long)b;
  - (void) _setEnabled:(BOOL)a;
  - (void) _queue_appendLogForCategory:(id)awithFormat:(id)barguments:([1{__va_list_tag=II^v^v}])c;
- - (Q) logDestinations;
- - (id) composedLogForCategory:(id)adestination:(Q)bformat:(id)carguments:([1{__va_list_tag=II^v^v}])d;
- - (Q) maxLogLinesInMemory;
+ - (unsigned long long) logDestinations;
+ - (id) composedLogForCategory:(id)adestination:(unsigned long long)bformat:(id)carguments:([1{__va_list_tag=II^v^v}])d;
+ - (unsigned long long) maxLogLinesInMemory;
  - (void) _appendLogForCategory:(id)awithFormat:(id)barguments:([1{__va_list_tag=II^v^v}])c;
  - (BOOL) isEnabledForCategory:(id)a;
  - (id) loggerForCatagory:(id)a;
@@ -50,8 +50,8 @@
  - (id) recentLogs;
  - (BOOL) saveRecentLogsToTemporaryPath:(^@)a;
  - (id) logPath;
- - (i) maxLogCount;
- - (i) maxLogSize;
+ - (int) maxLogCount;
+ - (int) maxLogSize;
  - (void) _enableLogCategory:(id)a;
  - (void) _disableLogCategory:(id)a;
  - (BOOL) isEnabled;

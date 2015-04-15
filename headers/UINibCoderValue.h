@@ -2,25 +2,25 @@
 @interface UINibCoderValue : NSObject {
 
     @"NSString" key;
-    I scope;
-    c type;
+    unsigned int scope;
+    char type;
     (?="floatValue"f"doubleValue"d"integerValue"Q"bytesValue"^v) value;
-    Q length;
+    unsigned long long length;
 }
- + (id) nibValueForInt8:(C)akey:(id)bscope:(I)c;
- + (id) nibValueForInt16:(S)akey:(id)bscope:(I)c;
- + (id) nibValueForInt32:(I)akey:(id)bscope:(I)c;
- + (id) nibValueForInt64:(Q)akey:(id)bscope:(I)c;
- + (id) nibValueForObjectReference:(q)akey:(id)bscope:(I)c;
- + (id) nibValueForInteger:(Q)akey:(id)bscope:(I)c;
- + (id) nibValueForBoolean:(BOOL)akey:(id)bscope:(I)c;
- + (id) nibValueForDouble:(d)akey:(id)bscope:(I)c;
- + (id) nibValueForFloat:(f)akey:(id)bscope:(I)c;
- + (id) nibValueForBytes:(r^v)alength:(Q)bkey:(id)cscope:(I)d;
- + (id) nibValueRepresentingNilReferenceForKey:(id)ascope:(I)b;
+ + (id) nibValueForInt8:(unsigned char)akey:(id)bscope:(unsigned int)c;
+ + (id) nibValueForInt16:(unsigned short)akey:(id)bscope:(unsigned int)c;
+ + (id) nibValueForInt32:(unsigned int)akey:(id)bscope:(unsigned int)c;
+ + (id) nibValueForInt64:(unsigned long long)akey:(id)bscope:(unsigned int)c;
+ + (id) nibValueForObjectReference:(long long)akey:(id)bscope:(unsigned int)c;
+ + (id) nibValueForInteger:(unsigned long long)akey:(id)bscope:(unsigned int)c;
+ + (id) nibValueForBoolean:(BOOL)akey:(id)bscope:(unsigned int)c;
+ + (id) nibValueForDouble:(double)akey:(id)bscope:(unsigned int)c;
+ + (id) nibValueForFloat:(float)akey:(id)bscope:(unsigned int)c;
+ + (id) nibValueForBytes:(r^v)alength:(unsigned long long)bkey:(id)cscope:(unsigned int)d;
+ + (id) nibValueRepresentingNilReferenceForKey:(id)ascope:(unsigned int)b;
 
  - (void) dealloc;
- - (Q) byteLength;
+ - (unsigned long long) byteLength;
 
 
 @end

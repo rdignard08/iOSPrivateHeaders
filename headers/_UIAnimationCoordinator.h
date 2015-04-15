@@ -5,7 +5,7 @@
     @"NSMutableDictionary" _stash;
     @"_UIViewControllerOneToOneTransitionContext" _transitionContext;
     @"UIPercentDrivenInteractiveTransition" _interactiveTransition;
-    d _duration;
+    double _duration;
     @? _preperation;
     @? _animator;
     @? _completion;
@@ -25,10 +25,10 @@
 @property (nonatomic, assign, readwrite) NSNumber* endFrame;
 @property (nonatomic, retain, readonly) NSMutableDictionary* stash;
 
- - (d) duration;
+ - (double) duration;
  - (void) dealloc;
  - (id) containerView;
- - (d) transitionDuration:(id)a;
+ - (double) transitionDuration:(id)a;
  - (void) animateTransition:(id)a;
  - (void) animationEnded:(BOOL)a;
  - (void) setContainerView:(id)a;
@@ -43,7 +43,7 @@
  - (void) animateInteractively;
  - (void) finishInteractiveAnimation;
  - (void) cancelInteractiveAnimation;
- - (void) updateInteractiveProgress:(d)a;
+ - (void) updateInteractiveProgress:(double)a;
  - (void) animate;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) startFrame;
  - (void) setPreperation:(@?)a;
@@ -51,7 +51,7 @@
  - (@?) preperation;
  - (@?) animator;
  - (id) transitionContext;
- - (void) setDuration:(d)a;
+ - (void) setDuration:(double)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) endFrame;
 
 

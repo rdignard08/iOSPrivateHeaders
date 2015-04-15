@@ -10,17 +10,17 @@
     @"NSError" _error;
     @"NSData" _responseData;
     @"NSString" _responseString;
-    Q _responseStringEncoding;
+    unsigned long long _responseStringEncoding;
     @"NSURLCredential" _credential;
     @"AFSecurityPolicy" _securityPolicy;
     @"NSObject<OS_dispatch_queue>" _completionQueue;
     @"NSObject<OS_dispatch_group>" _completionGroup;
     @"NSDictionary" _userInfo;
-    q _state;
+    long long _state;
     @"NSRecursiveLock" _lock;
     @"NSURLConnection" _connection;
-    q _totalBytesRead;
-    Q _backgroundTaskIdentifier;
+    long long _totalBytesRead;
+    unsigned long long _backgroundTaskIdentifier;
     @? _uploadProgress;
     @? _downloadProgress;
     @? _authenticationChallenge;
@@ -46,9 +46,9 @@
  - (id) completionGroup;
  - (void) setCompletionGroup:(id)a;
  - (void) setRunLoopModes:(id)a;
- - (Q) responseStringEncoding;
+ - (unsigned long long) responseStringEncoding;
  - (void) setResponseString:(id)a;
- - (void) setResponseStringEncoding:(Q)a;
+ - (void) setResponseStringEncoding:(unsigned long long)a;
  - (BOOL) isPaused;
  - (void) operationDidPause;
  - (void) setUploadProgress:(@?)a;
@@ -60,8 +60,8 @@
  - (void) operationDidStart;
  - (@?) redirectResponse;
  - (@?) uploadProgress;
- - (q) totalBytesRead;
- - (void) setTotalBytesRead:(q)a;
+ - (long long) totalBytesRead;
+ - (void) setTotalBytesRead:(long long)a;
  - (@?) downloadProgress;
  - (void) setResponseData:(id)a;
  - (@?) cacheResponse;
@@ -94,11 +94,11 @@
  - (void) finish;
  - (void) cancel;
  - (void) setConnection:(id)a;
- - (q) state;
+ - (long long) state;
  - (id) response;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (void) setState:(q)a;
+ - (void) setState:(long long)a;
  - (id) error;
  - (void) setError:(id)a;
  - (void) setResponse:(id)a;
@@ -112,12 +112,12 @@
  - (void) connection:(id)adidReceiveData:(id)b;
  - (void) connectionDidFinishLoading:(id)a;
  - (id) connection:(id)awillCacheResponse:(id)b;
- - (void) connection:(id)adidSendBodyData:(q)btotalBytesWritten:(q)ctotalBytesExpectedToWrite:(q)d;
+ - (void) connection:(id)adidSendBodyData:(long long)btotalBytesWritten:(long long)ctotalBytesExpectedToWrite:(long long)d;
  - (BOOL) connectionShouldUseCredentialStorage:(id)a;
  - (void) setUserInfo:(id)a;
  - (void) resume;
- - (void) setBackgroundTaskIdentifier:(Q)a;
- - (Q) backgroundTaskIdentifier;
+ - (void) setBackgroundTaskIdentifier:(unsigned long long)a;
+ - (unsigned long long) backgroundTaskIdentifier;
 
 
 @end

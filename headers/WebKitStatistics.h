@@ -2,12 +2,12 @@
 @interface WebKitStatistics : NSObject {
 
 }
- + (i) webViewCount;
- + (i) frameCount;
- + (i) dataSourceCount;
- + (i) viewCount;
- + (i) bridgeCount;
- + (i) HTMLRepresentationCount;
+ + (int) webViewCount;
+ + (int) frameCount;
+ + (int) dataSourceCount;
+ + (int) viewCount;
+ + (int) bridgeCount;
+ + (int) HTMLRepresentationCount;
 
 
 

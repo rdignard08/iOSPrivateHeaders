@@ -27,7 +27,7 @@
  - (BOOL) displayed;
  - (void) setIgnoresTouches:(BOOL)a;
  - (void) setSuppressesBackdrops:(BOOL)a;
- - (void) display:(BOOL)awithAnimationDuration:(d)bafterDelay:(d)c;
+ - (void) display:(BOOL)awithAnimationDuration:(double)bafterDelay:(double)c;
  - (id) passthroughViews;
  - (void) setPassthroughViews:(id)a;
  - (void) display:(BOOL)a;

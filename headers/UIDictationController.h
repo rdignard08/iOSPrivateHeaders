@@ -18,11 +18,11 @@
     @"NSString" _language;
     BOOL _recievingResults;
     BOOL _streamingAnimationActive;
-    d _lastAnimationUpdateTimeStamp;
+    double _lastAnimationUpdateTimeStamp;
     @? _finalResultsOperation;
     @"CADisplayLink" _streamingAnimationDisplayLink;
     BOOL cancelledByWaitingForLocalResults;
-    q _updatingDocument;
+    long long _updatingDocument;
     BOOL _deferredCancellationRequested;
     BOOL dictationStartedFromGesture;
     BOOL _performingStreamingEditingOperation;
@@ -61,9 +61,9 @@
  + (id) singleLineResultForResult:(id)a;
  + (BOOL) fetchCurrentInputModeSupportsDictation;
  + (BOOL) dictationIsFunctional;
- + (i) viewMode;
+ + (int) viewMode;
  + (BOOL) usingServerManualEndpointingThreshold;
- + (d) serverManualEndpointingThreshold;
+ + (double) serverManualEndpointingThreshold;
  + (void) didOneFingerTapInTextView:(id)a;
  + (BOOL) shouldHideCursorForTextView:(id)a;
  + (void) updateLandingView;
@@ -89,7 +89,7 @@
  + (BOOL) usingTypeAndTalk;
  + (id) serializedInterpretationFromTokens:(id)atransform:(^{__CFString=})branges:(^@)coptions:(id)d;
  + (id) serializedDictationPhrasesFromTokenMatrix:(id)afromKeyboard:(BOOL)btransform:(^{__CFString=})c;
- + (id) interpretation:(id)aforPhraseIndex:(Q)bisShiftLocked:(BOOL)cautocapitalizationType:(q)d;
+ + (id) interpretation:(id)aforPhraseIndex:(unsigned long long)bisShiftLocked:(BOOL)cautocapitalizationType:(long long)d;
  + (id) serializedDictationPhrases:(id)afromKeyboard:(BOOL)btransform:(^{__CFString=})c;
  + (BOOL) starkScreenExists;
  + (id) streamingHypothesisForPhrases:(id)a;
@@ -99,9 +99,9 @@
  + (id) attributedStringForDictationResult:(id)aandCorrectionIdentifier:(id)b;
  + (void) didBeginEditingInTextView:(id)a;
  + (void) logDictationString:(id)a;
- + (id) stringForViewMode:(i)a;
+ + (id) stringForViewMode:(int)a;
  + (BOOL) isRunning;
- + (id) stringForState:(i)a;
+ + (id) stringForState:(int)a;
 
  - (id) connection;
  - (id) _connection;
@@ -128,7 +128,7 @@
  - (void) setInputModeThatInvokedDictation:(id)a;
  - (void) reenableAutorotation;
  - (BOOL) dictationStartedFromGesture;
- - (void) startDictationForReason:(q)a;
+ - (void) startDictationForReason:(long long)a;
  - (void) setDictationStartedFromGesture:(BOOL)a;
  - (void) setDictationInputmode;
  - (void) enableProximity;
@@ -147,15 +147,15 @@
  - (id) postfixTextForInputDelegate:(id)a;
  - (id) selectedTextForInputDelegate:(id)a;
  - (void) setupConnectionOptions;
- - (void) setupForDictationStartForReason:(q)a;
- - (void) completeStartConnectionForReason:(q)a;
+ - (void) setupForDictationStartForReason:(long long)a;
+ - (void) completeStartConnectionForReason:(long long)a;
  - (void) completeStartConnectionForFileAtURL:(id)aforInputModeIdentifier:(id)b;
  - (void) performIgnoringDocumentChanges:(@?)a;
  - (void) _stopStreamingAnimation;
  - (void) setPendingEdits:(id)a;
  - (void) setLastHypothesis:(id)a;
  - (void) setTargetHypothesis:(id)a;
- - (void) endSessionIfNecessaryForTransitionFromState:(i)atoState:(i)b;
+ - (void) endSessionIfNecessaryForTransitionFromState:(int)atoState:(int)b;
  - (void) _runFinalizeOperation;
  - (void) releaseConnectionAfterDictationRequest;
  - (BOOL) isRecievingResults;
@@ -168,7 +168,7 @@
  - (void) setLanguage:(id)a;
  - (void) startRecordingLimitTimer;
  - (void) setupForStreamingDictationStart;
- - (void) startConnectionForReason:(q)a;
+ - (void) startConnectionForReason:(long long)a;
  - (void) _beginEnableDictationPrompt;
  - (id) dictationPresenterWindow;
  - (void) _presentOptInAlert;
@@ -179,7 +179,7 @@
  - (id) lastHypothesis;
  - (id) targetHypothesis;
  - (id) _hypothesisRangeFromSelectionRange:(id)ainputDelegate:(id)b;
- - (id) _rangeByExtendingRange:(id)abackward:(q)bforward:(q)cinputDelegate:(id)d;
+ - (id) _rangeByExtendingRange:(id)abackward:(long long)bforward:(long long)cinputDelegate:(id)d;
  - (void) _updateFromSelectedTextRange:(id)awithNewHypothesis:(id)b;
  - (void) insertSerializedDictationResult:(id)awithCorrectionIdentifier:(id)b;
  - (void) _setFinalResultHandler:(@?)a;
@@ -198,7 +198,7 @@
  - (void) setupToInsertResultForNewHypothesis:(id)a;
  - (BOOL) hasPreheated;
  - (void) setHasPreheated:(BOOL)a;
- - (f) audioLevel;
+ - (float) audioLevel;
  - (void) errorAnimationDidFinish;
  - (void) dismissDictationView:(id)a;
  - (void) cancelDictationForTextStoreChanges;
@@ -216,8 +216,8 @@
  - (void) preheatIfNecessary;
  - ({_NSRange=QQ}) insertionRange;
  - (id) init;
- - (i) state;
- - (void) setState:(i)a;
+ - (int) state;
+ - (void) setState:(int)a;
  - (id) language;
 
 

@@ -15,8 +15,8 @@
  - (id) viewControllerForKey:(id)a;
  - (id) viewForKey:(id)a;
  - (BOOL) isInteractive;
- - (d) percentComplete;
- - (q) presentationStyle;
+ - (double) percentComplete;
+ - (long long) presentationStyle;
  - (BOOL) isRotating;
  - (BOOL) isAnimated;
  - (void) _runAlongsideAnimations;
@@ -24,15 +24,15 @@
  - (void) _runAlongsideCompletionsAfterCommit;
  - (BOOL) animateAlongsideTransition:(@?)acompletion:(@?)b;
  - (BOOL) animateAlongsideTransitionInView:(id)aanimation:(@?)bcompletion:(@?)c;
- - (d) transitionDuration;
- - (q) completionCurve;
+ - (double) transitionDuration;
+ - (long long) completionCurve;
  - (void) notifyWhenInteractionEndsUsingBlock:(@?)a;
  - (BOOL) initiallyInteractive;
  - ({CGAffineTransform=dddddd}) targetTransform;
  - (id) _alongsideAnimations:(BOOL)a;
  - (id) _alongsideCompletions:(BOOL)a;
  - (void) _applyBlocks:(id)areleaseBlocks:(@?)b;
- - (d) completionVelocity;
+ - (double) completionVelocity;
 
 
 @end

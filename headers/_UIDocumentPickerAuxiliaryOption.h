@@ -7,7 +7,7 @@
     @"UIImage" _image;
     @"NSString" _identifier;
     @? _handler;
-    Q _order;
+    unsigned long long _order;
 }
 @property (nonatomic, copy, readwrite) NSString* title;
 @property (nonatomic, retain, readwrite) UIImage* image;
@@ -20,8 +20,8 @@
  - (id) title;
  - (void) setTitle:(id)a;
  - (void) dealloc;
- - (void) setOrder:(Q)a;
- - (Q) order;
+ - (void) setOrder:(unsigned long long)a;
+ - (unsigned long long) order;
  - (BOOL) isNewlyAdded;
  - (void) setNewlyAdded:(BOOL)a;
  - (id) init;

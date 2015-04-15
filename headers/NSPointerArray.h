@@ -5,7 +5,7 @@
 }
 @property (atomic, copy, readonly) NSPointerFunctions* pointerFunctions;
 @property (atomic, assign, readwrite) NSNumber* count;
- + (id) pointerArrayWithOptions:(Q)a;
+ + (id) pointerArrayWithOptions:(unsigned long long)a;
  + (id) pointerArrayWithPointerFunctions:(id)a;
  + (id) pointerArrayWithStrongObjects;
  + (id) pointerArrayWithWeakObjects;
@@ -13,20 +13,20 @@
  + (id) weakObjectsPointerArray;
  + (id) allocWithZone:(^{_NSZone=})a;
 
- - (id) initWithOptions:(Q)a;
+ - (id) initWithOptions:(unsigned long long)a;
  - (id) initWithPointerFunctions:(id)a;
  - (id) pointerFunctions;
- - (^v) pointerAtIndex:(Q)a;
+ - (^v) pointerAtIndex:(unsigned long long)a;
  - (void) addPointer:(^v)a;
- - (void) removePointerAtIndex:(Q)a;
- - (void) insertPointer:(^v)aatIndex:(Q)b;
- - (void) replacePointerAtIndex:(Q)awithPointer:(^v)b;
+ - (void) removePointerAtIndex:(unsigned long long)a;
+ - (void) insertPointer:(^v)aatIndex:(unsigned long long)b;
+ - (void) replacePointerAtIndex:(unsigned long long)awithPointer:(^v)b;
  - (void) compact;
- - (void) setCount:(Q)a;
+ - (void) setCount:(unsigned long long)a;
  - (id) mutableArray;
  - (id) copyWithZone:(^{_NSZone=})a;
- - (Q) count;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
+ - (unsigned long long) count;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
  - (id) allObjects;
  - (id) init;
  - (void) encodeWithCoder:(id)a;

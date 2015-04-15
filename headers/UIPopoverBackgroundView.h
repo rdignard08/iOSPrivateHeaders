@@ -4,30 +4,30 @@
 
 }
  + (BOOL) wantsDefaultContentAppearance;
- + (d) arrowHeight;
- + (d) arrowBase;
+ + (double) arrowHeight;
+ + (double) arrowBase;
  + ({UIEdgeInsets=dddd}) contentViewInsets;
- + (d) _contentViewCornerRadiusForArrowDirection:(Q)a;
- + (d) cornerRadius;
+ + (double) _contentViewCornerRadiusForArrowDirection:(unsigned long long)a;
+ + (double) cornerRadius;
 
  - (void) layoutSubviews;
  - (BOOL) _shouldAnimatePropertyWithKey:(id)a;
  - ({CGSize=dd}) _shadowOffset;
- - (Q) arrowDirection;
- - (void) setArrowDirection:(Q)a;
- - (d) _shadowRadius;
+ - (unsigned long long) arrowDirection;
+ - (void) setArrowDirection:(unsigned long long)a;
+ - (double) _shadowRadius;
  - ({UIEdgeInsets=dddd}) _shadowInsets;
- - (d) _shadowOpacity;
+ - (double) _shadowOpacity;
  - (id) _shadowPath;
- - (void) setArrowOffset:(d)a;
- - (d) arrowOffset;
- - (q) backgroundStyle;
+ - (void) setArrowOffset:(double)a;
+ - (double) arrowOffset;
+ - (long long) backgroundStyle;
  - ({UIEdgeInsets=dddd}) _contentViewInsets;
- - (id) _shadowPathForRect:({CGRect={CGPoint=dd}{CGSize=dd}})aarrowDirection:(Q)b;
+ - (id) _shadowPathForRect:({CGRect={CGPoint=dd}{CGSize=dd}})aarrowDirection:(unsigned long long)b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _contentViewFrame;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _backgroundContentViewFrame;
  - (void) _updateShadow;
- - ({UIEdgeInsets=dddd}) _contentViewInsetsForArrowDirection:(Q)a;
+ - ({UIEdgeInsets=dddd}) _contentViewInsetsForArrowDirection:(unsigned long long)a;
  - (BOOL) _wantsDefaultContentAppearance;
  - (id) actionForLayer:(id)aforKey:(id)b;
 

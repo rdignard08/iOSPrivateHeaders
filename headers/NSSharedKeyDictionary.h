@@ -2,11 +2,11 @@
 @interface NSSharedKeyDictionary : NSMutableDictionary {
 
     @"NSSharedKeySet" _keyMap;
-    Q _count;
+    unsigned long long _count;
     ^@ _values;
     ^? _ifkIMP;
     @"NSMutableDictionary" _sideDic;
-    Q _mutations;
+    unsigned long long _mutations;
 }
  + (id) sharedKeyDictionaryWithKeySet:(id)a;
 
@@ -15,14 +15,14 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (void) finalize;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
  - (void) removeObjectForKey:(id)a;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
  - (id) keyEnumerator;
  - (void) setObject:(id)aforKey:(id)b;
- - (void) getObjects:(^@)aandKeys:(^@)bcount:(Q)c;
- - (void) enumerateKeysAndObjectsWithOptions:(Q)ausingBlock:(@?)b;
+ - (void) getObjects:(^@)aandKeys:(^@)bcount:(unsigned long long)c;
+ - (void) enumerateKeysAndObjectsWithOptions:(unsigned long long)ausingBlock:(@?)b;
  - (id) initWithKeySet:(id)a;
  - (id) keySet;
  - (void) encodeWithCoder:(id)a;

@@ -16,10 +16,10 @@
  - (void) setHTTPBodyStream:(id)a;
  - (void) setAllHTTPHeaderFields:(id)a;
  - (void) setURL:(id)a;
- - (void) setCachePolicy:(Q)a;
- - (void) setTimeoutInterval:(d)a;
+ - (void) setCachePolicy:(unsigned long long)a;
+ - (void) setTimeoutInterval:(double)a;
  - (void) setMainDocumentURL:(id)a;
- - (void) setNetworkServiceType:(Q)a;
+ - (void) setNetworkServiceType:(unsigned long long)a;
  - (void) setAllowsCellularAccess:(BOOL)a;
  - (void) setBoundInterfaceIdentifier:(id)a;
  - (void) setHTTPContentType:(id)a;
@@ -27,12 +27,12 @@
  - (void) setHTTPReferrer:(id)a;
  - (void) setHTTPUserAgent:(id)a;
  - (void) setHTTPShouldHandleCookies:(BOOL)a;
- - (void) setRequestPriority:(Q)a;
- - (Q) requestPriority;
+ - (void) setRequestPriority:(unsigned long long)a;
+ - (unsigned long long) requestPriority;
  - (void) setHTTPShouldUsePipelining:(BOOL)a;
- - (void) setExpectedWorkload:(Q)a;
- - (void) _setTimeWindowDelay:(d)a;
- - (void) _setTimeWindowDuration:(d)a;
+ - (void) setExpectedWorkload:(unsigned long long)a;
+ - (void) _setTimeWindowDelay:(double)a;
+ - (void) _setTimeWindowDuration:(double)a;
  - (void) setContentDispositionEncodingFallbackArray:(id)a;
 
 

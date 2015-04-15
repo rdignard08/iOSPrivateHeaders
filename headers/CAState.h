@@ -5,8 +5,8 @@
     @"NSString" _name;
     @"NSString" _basedOn;
     @"NSMutableArray" _elements;
-    d _nextDelay;
-    d _previousDelay;
+    double _nextDelay;
+    double _previousDelay;
     BOOL _enabled;
     BOOL _locked;
     BOOL _initial;
@@ -41,10 +41,10 @@
  - (void) encodeWithCAMLWriter:(id)a;
  - (id) CAMLTypeForKey:(id)a;
  - (void) setBasedOn:(id)a;
- - (d) nextDelay;
- - (void) setNextDelay:(d)a;
- - (d) previousDelay;
- - (void) setPreviousDelay:(d)a;
+ - (double) nextDelay;
+ - (void) setNextDelay:(double)a;
+ - (double) previousDelay;
+ - (void) setPreviousDelay:(double)a;
  - (BOOL) isInitial;
  - (void) setInitial:(BOOL)a;
  - (BOOL) isEnabled;

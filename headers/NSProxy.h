@@ -17,7 +17,7 @@
  + (id) retain;
  + (Vv) release;
  + (id) autorelease;
- + (Q) retainCount;
+ + (unsigned long long) retainCount;
  + (id) alloc;
  + (id) allocWithZone:(^{_NSZone=})a;
  + (void) dealloc;
@@ -30,7 +30,7 @@
  + (BOOL) allowsWeakReference;
  + (BOOL) isKindOfClass:(Class)a;
  + (id) mutableCopy;
- + (Q) hash;
+ + (unsigned long long) hash;
  + (BOOL) isEqual:(id)a;
  + (BOOL) respondsToSelector:(SEL)a;
  + (id) self;
@@ -61,7 +61,7 @@
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (void) finalize;
  - (void) forwardInvocation:(id)a;
@@ -70,7 +70,7 @@
  - (BOOL) retainWeakReference;
  - (BOOL) allowsWeakReference;
  - (BOOL) isKindOfClass:(Class)a;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (BOOL) respondsToSelector:(SEL)a;
  - (id) self;

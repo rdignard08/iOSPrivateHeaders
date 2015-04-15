@@ -11,16 +11,16 @@
  - (id) description;
  - (id) .cxx_construct;
  - (void) .cxx_destruct;
- - (Q) numberOfStrokes;
+ - (unsigned long long) numberOfStrokes;
  - (void) addPoint:({CGPoint=dd})a;
- - (Q) numberOfPointsInStrokeAtIndex:(Q)a;
- - ({CGPoint=dd}) pointAtIndex:(Q)ainStrokeAtIndex:(Q)b;
- - (void) removeStrokeAtIndex:(Q)a;
+ - (unsigned long long) numberOfPointsInStrokeAtIndex:(unsigned long long)a;
+ - ({CGPoint=dd}) pointAtIndex:(unsigned long long)ainStrokeAtIndex:(unsigned long long)b;
+ - (void) removeStrokeAtIndex:(unsigned long long)a;
  - (void) endStroke;
  - (void) removeAllStrokes;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (Q) totalNumberOfPoints;
+ - (unsigned long long) totalNumberOfPoints;
 
 
 @end

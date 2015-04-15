@@ -5,7 +5,7 @@
     BOOL _finished;
     BOOL _skipUnlink;
     BOOL _truncateFile;
-    i _error;
+    int _error;
     @"NSObject<OS_dispatch_io>" _writeIO;
     @"NSObject<OS_dispatch_queue>" _workQueue;
     @"NSString" _path;
@@ -25,13 +25,13 @@
  - (id) .cxx_construct;
  - (void) dealloc;
  - (id) workQueue;
- - (i) error;
- - (void) setError:(i)a;
+ - (int) error;
+ - (void) setError:(int)a;
  - (id) initWithExistingUnopenableFile:(id)afileProvider:(id)b;
  - (void) truncate;
  - (id) initTempFileWithDirectory:(id)a;
  - (void) setSkipUnlink:(BOOL)a;
- - (id) initWithExistingFile:(id)aexpectedSize:(q)b;
+ - (id) initWithExistingFile:(id)aexpectedSize:(long long)b;
  - (void) writeBytes:(id)acompletionQueue:(id)bcompletion:(@?)c;
  - (void) captureFile:(^@)aoutStat:(^{stat=iSSQIIi{timespec=qq}{timespec=qq}{timespec=qq}{timespec=qq}qqiIIi[2q]})b;
  - (id) fileURL;

@@ -9,24 +9,24 @@
  - (^{Object=^^?{Atomic={?=i}}}) CA_copyRenderValue;
  - (id) springs;
  - (id) forceFields;
- - (d) timeStep;
- - (d) minimumTimeStep;
- - (d) stoppedVelocity;
- - (d) stoppedAngularVelocity;
- - (d) collisionInterval;
- - (d) springScale;
- - (d) drag;
- - (d) angularDrag;
+ - (double) timeStep;
+ - (double) minimumTimeStep;
+ - (double) stoppedVelocity;
+ - (double) stoppedAngularVelocity;
+ - (double) collisionInterval;
+ - (double) springScale;
+ - (double) drag;
+ - (double) angularDrag;
  - (BOOL) reactsToCollisions;
  - (void) setForceFields:(id)a;
- - (void) setTimeStep:(d)a;
- - (void) setMinimumTimeStep:(d)a;
- - (void) setStoppedVelocity:(d)a;
- - (void) setStoppedAngularVelocity:(d)a;
- - (void) setCollisionInterval:(d)a;
- - (void) setSpringScale:(d)a;
- - (void) setDrag:(d)a;
- - (void) setAngularDrag:(d)a;
+ - (void) setTimeStep:(double)a;
+ - (void) setMinimumTimeStep:(double)a;
+ - (void) setStoppedVelocity:(double)a;
+ - (void) setStoppedAngularVelocity:(double)a;
+ - (void) setCollisionInterval:(double)a;
+ - (void) setSpringScale:(double)a;
+ - (void) setDrag:(double)a;
+ - (void) setAngularDrag:(double)a;
 
 
 @end

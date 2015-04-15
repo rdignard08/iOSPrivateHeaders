@@ -7,13 +7,13 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
- - (Q) count;
- - (id) objectAtIndex:(Q)a;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
- - (void) enumerateObjectsWithOptions:(Q)ausingBlock:(@?)b;
- - (void) enumerateObjectsAtIndexes:(id)aoptions:(Q)busingBlock:(@?)c;
+ - (unsigned long long) count;
+ - (id) objectAtIndex:(unsigned long long)a;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
+ - (void) enumerateObjectsWithOptions:(unsigned long long)ausingBlock:(@?)b;
+ - (void) enumerateObjectsAtIndexes:(id)aoptions:(unsigned long long)busingBlock:(@?)c;
  - (id) objectEnumerator;
  - (void) enumerateObjectsUsingBlock:(@?)a;
 

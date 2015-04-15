@@ -4,7 +4,7 @@
 
     BOOL _interactionAborted;
     BOOL _clipUnderlapWhileTransitioning;
-    q _operation;
+    long long _operation;
     @"<UIViewControllerContextTransitioning>" _transitionContext;
     @"_UINavigationInteractiveTransitionBase" _interactionController;
     @"_UIParallaxDimmingView" _borderDimmingView;
@@ -12,8 +12,8 @@
     @"UIView" _containerFromView;
     @"UIView" _containerToView;
     @"UIView" _clipUnderView;
-    q _transitionStyle;
-    d _transitionGap;
+    long long _transitionStyle;
+    double _transitionGap;
 }
 @property (nonatomic, assign, readwrite) NSNumber* operation;
 @property (nonatomic, retain, readwrite) NSNumber* transitionContext;
@@ -33,10 +33,10 @@
  - (void) setBorderDimmingView:(id)a;
  - (id) interactionController;
  - (void) setInteractionAborted:(BOOL)a;
- - (d) gapBetweenViews;
- - (d) parallaxOffset;
+ - (double) gapBetweenViews;
+ - (double) parallaxOffset;
  - (id) contentDimmingView;
- - (d) transitionDuration:(id)a;
+ - (double) transitionDuration:(id)a;
  - (id) borderDimmingView;
  - (void) setClipUnderView:(id)a;
  - (id) shadowContainerForKeyboardTransition:(id)a;
@@ -45,11 +45,11 @@
  - (id) _timingFunctionForAnimation;
  - (void) setInteractionController:(id)a;
  - (BOOL) interactionAborted;
- - (q) operation;
- - (void) setOperation:(q)a;
+ - (long long) operation;
+ - (void) setOperation:(long long)a;
  - (void) animateTransition:(id)a;
  - (void) animationEnded:(BOOL)a;
- - (id) initWithCurrentOperation:(q)a;
+ - (id) initWithCurrentOperation:(long long)a;
  - (id) resizedToContainerView;
  - (id) resizedFromContainerView;
  - (void) prepareToAnimateKeyboard:(id)a;
@@ -62,10 +62,10 @@
  - (id) clipUnderView;
  - (BOOL) clipUnderlapWhileTransitioning;
  - (void) setClipUnderlapWhileTransitioning:(BOOL)a;
- - (q) transitionStyle;
- - (void) setTransitionStyle:(q)a;
- - (d) transitionGap;
- - (void) setTransitionGap:(d)a;
+ - (long long) transitionStyle;
+ - (void) setTransitionStyle:(long long)a;
+ - (double) transitionGap;
+ - (void) setTransitionGap:(double)a;
  - (id) transitionContext;
  - (void) setTransitionContext:(id)a;
 

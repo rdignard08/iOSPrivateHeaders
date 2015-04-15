@@ -8,7 +8,7 @@
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) _setContext:(^v)a;
  - (^v) _getContext;
  - (void) _setFinalizer:(^?)a;

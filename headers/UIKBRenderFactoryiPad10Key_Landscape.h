@@ -3,8 +3,8 @@
 
 }
 
- - (d) keyCornerRadius;
- - (d) controlColumnWidthFactor;
+ - (double) keyCornerRadius;
+ - (double) controlColumnWidthFactor;
  - (id) multitapCompleteKeyImageName;
  - (id) muttitapReverseKeyImageName;
 

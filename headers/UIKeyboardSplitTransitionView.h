@@ -1,11 +1,11 @@
 
 @interface UIKeyboardSplitTransitionView : UIView {
 
-    d _currentProgress;
-    d _liftOffProgress;
-    d _finishProgress;
-    d _finishDuration;
-    d _finalTransitionStartTime;
+    double _currentProgress;
+    double _liftOffProgress;
+    double _finishProgress;
+    double _finishDuration;
+    double _finalTransitionStartTime;
     @"CADisplayLink" _displayLink;
     @? _completionBlock;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _startFrame;
@@ -23,9 +23,9 @@
  - (void) dealloc;
  - (void) didMoveToWindow;
  - (void) finalizeTransition;
- - (void) updateWithProgress:(d)a;
+ - (void) updateWithProgress:(double)a;
  - (void) transitionToFinalState:(id)a;
- - (void) finishWithProgress:(d)acompletionBlock:(@?)b;
+ - (void) finishWithProgress:(double)acompletionBlock:(@?)b;
  - (void) setSplitTransitionDelegate:(id)a;
  - (void) rebuildTransitionForSplitStyleChange:(id)a;
  - (id) backgroundLayers;
@@ -34,18 +34,18 @@
  - (id) centerDropShadow;
  - (id) bottomDropShadow;
  - (id) outerCenterDropShadow;
- - (id) colorsForBackgroundLayer:(i)a;
+ - (id) colorsForBackgroundLayer:(int)a;
  - (BOOL) shouldAllowRubberiness;
  - (id) splitTransitionDelegate;
  - (BOOL) transitionIsVisible;
- - (void) transformForProgress:(d)a;
+ - (void) transformForProgress:(double)a;
  - (^{CGImage=}) defaultKeyboardImage;
  - (^{CGImage=}) splitKeyboardImage;
  - (void) initializeLayers;
- - ({CGSize=dd}) sizeForShadowLayer:(i)a;
+ - ({CGSize=dd}) sizeForShadowLayer:(int)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectEnclosingKeyplane:(id)a;
- - (void) rebuildFromKeyplane:(id)atoKeyplane:(id)bkeyboardType:(q)corientation:(q)d;
- - (void) rebuildControlKeys:(Q)a;
+ - (void) rebuildFromKeyplane:(id)atoKeyplane:(id)bkeyboardType:(long long)corientation:(long long)d;
+ - (void) rebuildControlKeys:(unsigned long long)a;
  - (BOOL) canDisplayTransition;
  - (^{CGImage=}) keyImageWithToken:(id)a;
  - (BOOL) showIntlKey;

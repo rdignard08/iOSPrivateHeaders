@@ -13,9 +13,9 @@
  - (id) operationToOpenResource:(id)ausingApplication:(id)buniqueDocumentIdentifier:(id)cuserInfo:(id)ddelegate:(id)e;
  - (id) operationToOpenResource:(id)ausingApplication:(id)buniqueDocumentIdentifier:(id)cuserInfo:(id)d;
  - (BOOL) installApplication:(id)awithOptions:(id)berror:(^@)cusingBlock:(@?)d;
- - (id) installProgressForApplication:(id)awithPhase:(Q)b;
+ - (id) installProgressForApplication:(id)awithPhase:(unsigned long long)b;
  - (BOOL) uninstallApplication:(id)awithOptions:(id)busingBlock:(@?)c;
- - (BOOL) registerApplicationDictionary:(id)awithObserverNotification:(Q)b;
+ - (BOOL) registerApplicationDictionary:(id)awithObserverNotification:(unsigned long long)b;
  - (BOOL) installPhaseFinishedForProgress:(id)a;
  - (void) clearCreatedProgressForBundleID:(id)a;
  - (void) removeInstallProgressForBundleID:(id)a;
@@ -29,14 +29,14 @@
  - (id) applicationsWithExternalAccessoryProtocols;
  - (id) applicationForUserActivityType:(id)a;
  - (id) applicationForUserActivityDomainName:(id)a;
- - (id) applicationsOfType:(Q)a;
+ - (id) applicationsOfType:(unsigned long long)a;
  - (id) pluginsWithIdentifiers:(id)aprotocols:(id)bversion:(id)cwithFilter:(@?)d;
  - (id) pluginsWithIdentifiers:(id)aprotocols:(id)bversion:(id)c;
  - (id) applicationsAvailableForOpeningDocument:(id)a;
  - (id) applicationsAvailableForHandlingURLScheme:(id)a;
  - (BOOL) openApplicationWithBundleID:(id)a;
  - (id) operationToOpenResource:(id)ausingApplication:(id)buserInfo:(id)c;
- - (void) enumerateBundlesOfType:(Q)ausingBlock:(@?)b;
+ - (void) enumerateBundlesOfType:(unsigned long long)ausingBlock:(@?)b;
  - (id) installedVPNPlugins;
  - (id) installedPlugins;
  - (id) placeholderApplications;
@@ -59,7 +59,7 @@
  - (void) _clearCachedAdvertisingIdentifier;
  - (id) deviceIdentifierForAdvertising;
  - (id) deviceIdentifierForVendor;
- - (id) installProgressForBundleID:(id)amakeSynchronous:(C)b;
+ - (id) installProgressForBundleID:(id)amakeSynchronous:(unsigned char)b;
  - (BOOL) _LSPrivateRebuildApplicationDatabasesForSystemApps:(BOOL)ainternal:(BOOL)buser:(BOOL)c;
  - (void) _LSClearSchemaCaches;
  - (id) URLOverrideForURL:(id)a;

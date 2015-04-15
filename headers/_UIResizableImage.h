@@ -22,10 +22,10 @@
  - (void) _setSubimageInsets:({UIEdgeInsets=dddd})a;
  - (BOOL) _isSubimage;
  - (BOOL) _isTiledWhenStretchedToSize:({CGSize=dd})a;
- - (id) _resizableImageWithCapMask:(i)a;
+ - (id) _resizableImageWithCapMask:(int)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (q) resizingMode;
+ - (long long) resizingMode;
 
 
 @end

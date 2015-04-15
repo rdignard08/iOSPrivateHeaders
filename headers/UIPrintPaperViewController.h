@@ -5,12 +5,12 @@
 }
 
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) numberOfSectionsInTableView:(id)a;
- - (Q) supportedInterfaceOrientations;
+ - (long long) numberOfSectionsInTableView:(id)a;
+ - (unsigned long long) supportedInterfaceOrientations;
  - (void) loadView;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewDidDisappear:(BOOL)a;
  - (id) initWithPrintPanelViewController:(id)a;
  - (void) adjustPopoverSize;

@@ -5,15 +5,15 @@
 }
 
  - (void) dealloc;
- - (Q) supportedInterfaceOrientations;
+ - (unsigned long long) supportedInterfaceOrientations;
  - (void) loadView;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewDidAppear:(BOOL)a;
  - (id) printer;
  - (void) setPrinter:(id)a;
  - (id) initWithPrinter:(id)a;
  - (void) enterPIN;
- - (void) showDisplayMessage:(q)a;
+ - (void) showDisplayMessage:(long long)a;
 
 
 @end

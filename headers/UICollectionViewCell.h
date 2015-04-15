@@ -19,9 +19,9 @@
  - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a;
  - (BOOL) canPerformAction:(SEL)awithSender:(id)b;
  - (void) _focusedViewDidChange:(id)a;
- - (BOOL) shouldChangeFocusedItem:(id)aheading:(Q)b;
+ - (BOOL) shouldChangeFocusedItem:(id)aheading:(unsigned long long)b;
  - (BOOL) canBecomeFocused;
- - ({CGSize=dd}) systemLayoutSizeFittingSize:({CGSize=dd})awithHorizontalFittingPriority:(f)bverticalFittingPriority:(f)c;
+ - ({CGSize=dd}) systemLayoutSizeFittingSize:({CGSize=dd})awithHorizontalFittingPriority:(float)bverticalFittingPriority:(float)c;
  - (void) _descendent:(id)awillMoveFromSuperview:(id)btoSuperview:(id)c;
  - (void) _descendent:(id)adidMoveFromSuperview:(id)btoSuperview:(id)c;
  - (void) setHighlighted:(BOOL)a;

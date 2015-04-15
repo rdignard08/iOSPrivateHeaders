@@ -1,19 +1,19 @@
 
 @interface NSStringPredicateOperator : NSPredicateOperator {
 
-    Q _flags;
+    unsigned long long _flags;
 }
  + (BOOL) supportsSecureCoding;
 
- - (Q) flags;
- - (void) _setOptions:(Q)a;
- - (id) initWithOperatorType:(Q)amodifier:(Q)bvariant:(Q)c;
+ - (unsigned long long) flags;
+ - (void) _setOptions:(unsigned long long)a;
+ - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)bvariant:(unsigned long long)c;
  - (id) _modifierString;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (Q) options;
+ - (unsigned long long) options;
 
 
 @end

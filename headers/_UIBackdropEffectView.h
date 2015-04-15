@@ -2,7 +2,7 @@
 @interface _UIBackdropEffectView : UIView {
 
     @"CABackdropLayer" _backdropLayer;
-    d _zoom;
+    double _zoom;
 }
  + (Class) layerClass;
 
@@ -10,9 +10,9 @@
  - (void) dealloc;
  - (BOOL) _shouldAnimatePropertyWithKey:(id)a;
  - (id) backdropLayer;
- - (void) setZoom:(d)a;
+ - (void) setZoom:(double)a;
  - (void) setBackdropLayer:(id)a;
- - (d) zoom;
+ - (double) zoom;
  - (id) init;
  - (void) backdropLayerStatisticsDidChange:(id)a;
 

@@ -14,7 +14,7 @@
  - (void) finalize;
  - (id) userInfo;
  - (id) name;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) object;
  - (id) initWithName:(^{__CFString=})aobject:(r^v)buserInfo:(^{__CFDictionary=})cfoundation:(BOOL)d;

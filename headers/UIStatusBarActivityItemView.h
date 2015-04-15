@@ -8,12 +8,12 @@
 }
 
  - (void) dealloc;
- - (BOOL) updateForNewData:(id)aactions:(i)b;
- - (d) updateContentsAndWidth;
- - (d) shadowPadding;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
+ - (double) updateContentsAndWidth;
+ - (double) shadowPadding;
  - (void) _stopAnimating;
  - (void) _startAnimating;
- - (q) _activityIndicatorStyle;
+ - (long long) _activityIndicatorStyle;
  - (void) setVisible:(BOOL)a;
 
 

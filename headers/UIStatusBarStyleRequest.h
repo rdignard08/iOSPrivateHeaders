@@ -2,9 +2,9 @@
 @protocol NSMutableCopying, NSCopying;
 @interface UIStatusBarStyleRequest : NSObject <NSMutableCopying, NSCopying> {
 
-    q _style;
+    long long _style;
     BOOL _legacy;
-    q _legibilityStyle;
+    long long _legibilityStyle;
     @"UIColor" _foregroundColor;
     @"NSNumber" _overrideHeight;
 }
@@ -17,18 +17,18 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (BOOL) isTranslucent;
  - (BOOL) isDoubleHeight;
- - (q) legibilityStyle;
+ - (long long) legibilityStyle;
  - (id) overrideHeight;
  - (BOOL) isLegacy;
- - (id) initWithStyle:(q)alegacy:(BOOL)blegibilityStyle:(q)cforegroundColor:(id)doverrideHeight:(id)e;
- - (id) initWithStyle:(q)alegacy:(BOOL)blegibilityStyle:(q)cforegroundColor:(id)d;
+ - (id) initWithStyle:(long long)alegacy:(BOOL)blegibilityStyle:(long long)cforegroundColor:(id)doverrideHeight:(id)e;
+ - (id) initWithStyle:(long long)alegacy:(BOOL)blegibilityStyle:(long long)cforegroundColor:(id)d;
  - (id) _copyWithZone:(^{_NSZone=})aclass:(Class)b;
  - (id) init;
- - (q) style;
+ - (long long) style;
  - (id) foregroundColor;
 
 

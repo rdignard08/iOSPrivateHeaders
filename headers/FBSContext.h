@@ -2,18 +2,18 @@
 @protocol BSXPCCoding;
 @interface FBSContext : NSObject <BSXPCCoding> {
 
-    I _identifier;
-    d _level;
+    unsigned int _identifier;
+    double _level;
 }
 @property (nonatomic, assign, readonly) NSNumber* identifier;
 @property (nonatomic, assign, readonly) NSNumber* level;
  + (id) contextWithSceneContext:(id)a;
 
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (I) identifier;
- - (d) level;
+ - (unsigned int) identifier;
+ - (double) level;
  - (void) encodeWithXPCDictionary:(id)a;
  - (id) initWithXPCDictionary:(id)a;
 

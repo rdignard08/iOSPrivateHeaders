@@ -5,12 +5,12 @@
 }
 
  - (void) dealloc;
- - (q) textAlignment;
- - (BOOL) updateForNewData:(id)aactions:(i)b;
+ - (long long) textAlignment;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
  - (id) contentsImage;
- - (d) extraRightPadding;
+ - (double) extraRightPadding;
  - (BOOL) animatesDataChange;
- - (q) textStyle;
+ - (long long) textStyle;
 
 
 @end

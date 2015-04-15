@@ -2,7 +2,7 @@
 @interface UIWebPaginationInfo : NSObject {
 
     @"NSObject<WebDocumentView>" _documentView;
-    d _scaleFactor;
+    double _scaleFactor;
     {CGSize="width"d"height"d} _layoutSize;
     @"NSArray" _pageRects;
     @"UIWebDocumentView" _webDocumentView;
@@ -12,13 +12,13 @@
 @property (nonatomic, retain, readwrite) UIWebDocumentView* webDocumentView;
 
  - (void) dealloc;
- - (id) initWithDocumentView:(id)ascaleFactor:(d)blayoutSize:({CGSize=dd})cpageRects:(id)d;
+ - (id) initWithDocumentView:(id)ascaleFactor:(double)blayoutSize:({CGSize=dd})cpageRects:(id)d;
  - (void) setWebDocumentView:(id)a;
- - (d) scaleFactor;
+ - (double) scaleFactor;
  - ({CGSize=dd}) layoutSize;
- - (Q) pageCount;
- - (d) lastPageHeight;
- - ({CGSize=dd}) sizeForPageAtIndex:(q)a;
+ - (unsigned long long) pageCount;
+ - (double) lastPageHeight;
+ - ({CGSize=dd}) sizeForPageAtIndex:(long long)a;
  - (id) webDocumentView;
  - (id) pageRects;
  - (id) documentView;

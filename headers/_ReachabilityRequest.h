@@ -4,7 +4,7 @@
     @"NSLock" _lock;
     @"NSString" _hostname;
     ^{__SCNetworkReachability=} _reachability;
-    I _flags;
+    unsigned int _flags;
     ^{__CFDictionary=} _observers;
     BOOL _isReachable;
     BOOL _receivedAtLeastOneCallback;
@@ -14,7 +14,7 @@
  - (id) description;
  - (void) dealloc;
  - (void) removeObserver:(id)a;
- - (void) reachabilityChangedWithFlags:(I)a;
+ - (void) reachabilityChangedWithFlags:(unsigned int)a;
  - (id) initWithHostname:(id)a;
  - (void) addObserver:(id)aselector:(SEL)b;
  - (BOOL) hasObservers;

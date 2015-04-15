@@ -2,7 +2,7 @@
 @protocol NSLocking;
 @interface CPExclusiveLock : NSObject <NSLocking> {
 
-    i _fd;
+    int _fd;
     @"NSString" _name;
 }
 

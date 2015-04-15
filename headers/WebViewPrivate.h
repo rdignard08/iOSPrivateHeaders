@@ -21,7 +21,7 @@
     @"WebInspector" inspector;
     @"WebNodeHighlight" currentNodeHighlight;
     BOOL allowsUndo;
-    f zoomMultiplier;
+    float zoomMultiplier;
     BOOL zoomsTextOnly;
     @"NSString" applicationNameForUserAgent;
     {String="m_impl"{RefPtr<WTF::StringImpl>="m_ptr"^{StringImpl}}} userAgent;
@@ -30,7 +30,7 @@
     BOOL useSiteSpecificSpoofing;
     @"NSURL" userStyleSheetLocation;
     @"WAKWindow" hostWindow;
-    i programmaticFocusCount;
+    int programmaticFocusCount;
     {WebResourceDelegateImplementationCache="didCancelAuthenticationChallengeFunc"^?"didReceiveAuthenticationChallengeFunc"^?"canAuthenticateAgainstProtectionSpaceFunc"^?"connectionPropertiesFunc"^?"webThreadDidFinishLoadingFromDataSourceFunc"^?"webThreadDidFailLoadingWithErrorFromDataSourceFunc"^?"webThreadIdentifierForRequestFunc"^?"webThreadDidLoadResourceFromMemoryCacheFunc"^?"webThreadWillSendRequestFunc"^?"webThreadDidReceiveResponseFunc"^?"webThreadDidReceiveContentLengthFunc"^?"webThreadWillCacheResponseFunc"^?"identifierForRequestFunc"^?"willSendRequestFunc"^?"didReceiveResponseFunc"^?"didReceiveContentLengthFunc"^?"didFinishLoadingFromDataSourceFunc"^?"didFailLoadingWithErrorFromDataSourceFunc"^?"didLoadResourceFromMemoryCacheFunc"^?"willCacheResponseFunc"^?"plugInFailedWithErrorFunc"^?"shouldUseCredentialStorageFunc"^?"shouldPaintBrokenImageForURLFunc"^?} resourceLoadDelegateImplementations;
     {WebFrameLoadDelegateImplementationCache="didCreateJavaScriptContextForFrameFunc"^?"didClearWindowObjectForFrameFunc"^?"didClearWindowObjectForFrameInScriptWorldFunc"^?"didClearInspectorWindowObjectForFrameFunc"^?"windowScriptObjectAvailableFunc"^?"didHandleOnloadEventsForFrameFunc"^?"didReceiveServerRedirectForProvisionalLoadForFrameFunc"^?"didCancelClientRedirectForFrameFunc"^?"willPerformClientRedirectToURLDelayFireDateForFrameFunc"^?"didChangeLocationWithinPageForFrameFunc"^?"didPushStateWithinPageForFrameFunc"^?"didReplaceStateWithinPageForFrameFunc"^?"didPopStateWithinPageForFrameFunc"^?"willCloseFrameFunc"^?"didStartProvisionalLoadForFrameFunc"^?"didReceiveTitleForFrameFunc"^?"didCommitLoadForFrameFunc"^?"didFailProvisionalLoadWithErrorForFrameFunc"^?"didFailLoadWithErrorForFrameFunc"^?"didFinishLoadForFrameFunc"^?"didFirstLayoutInFrameFunc"^?"didFirstVisuallyNonEmptyLayoutInFrameFunc"^?"didLayoutFunc"^?"didReceiveIconForFrameFunc"^?"didFinishDocumentLoadForFrameFunc"^?"didDisplayInsecureContentFunc"^?"didRunInsecureContentFunc"^?"didDetectXSSFunc"^?"didRemoveFrameFromHierarchyFunc"^?"webThreadDidLayoutFunc"^?} frameLoadDelegateImplementations;
     {WebScriptDebugDelegateImplementationCache="didParseSourceExpectsBaseLineNumber"B"exceptionWasRaisedExpectsHasHandlerFlag"B"didParseSourceFunc"^?"failedToParseSourceFunc"^?"exceptionWasRaisedFunc"^?} scriptDebugDelegateImplementations;
@@ -48,7 +48,7 @@
     ^{CGColor=} backgroundColor;
     @"NSString" mediaStyle;
     BOOL hasSpellCheckerDocumentTag;
-    q spellCheckerDocumentTag;
+    long long spellCheckerDocumentTag;
     BOOL isStopping;
     id UIKitDelegate;
     id UIKitDelegateForwarder;
@@ -58,12 +58,12 @@
     @"<WebCaretChangeListener>" _caretChangeListener;
     {CGSize="width"d"height"d} fixedLayoutSize;
     BOOL mainViewIsScrollingOrZooming;
-    i didDrawTiles;
+    int didDrawTiles;
     {Mutex="m_mutex"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}} pendingFixedPositionLayoutRectMutex;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} pendingFixedPositionLayoutRect;
     {HashMap<unsigned long, WTF::RetainPtr<id>, WTF::IntHash<unsigned long>, WTF::HashTraits<unsigned long>, WTF::HashTraits<WTF::RetainPtr<id> > >="m_impl"{HashTable<unsigned long, WTF::KeyValuePair<unsigned long, WTF::RetainPtr<id> >, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<unsigned long, WTF::RetainPtr<id> > >, WTF::IntHash<unsigned long>, WTF::HashMap<unsigned long, WTF::RetainPtr<id>, WTF::IntHash<unsigned long>, WTF::HashTraits<unsigned long>, WTF::HashTraits<WTF::RetainPtr<id> > >::KeyValuePairTraits, WTF::HashTraits<unsigned long> >="m_table"^{KeyValuePair<unsigned long, WTF::RetainPtr<id> >}"m_tableSize"i"m_tableSizeMask"i"m_keyCount"i"m_deletedCount"i}} identifierMap;
     BOOL _keyboardUIModeAccessed;
-    i _keyboardUIMode;
+    int _keyboardUIMode;
     BOOL shouldUpdateWhileOffscreen;
     BOOL includesFlattenedCompositingLayersWhenDrawingToBitmap;
     BOOL needsOneShotDrawingSynchronization;
@@ -77,8 +77,8 @@
     @"<WebNotificationProvider>" _notificationProvider;
     {RefPtr<WebCore::HistoryItem>="m_ptr"^{HistoryItem}} _globalHistoryItem;
     BOOL interactiveFormValidationEnabled;
-    i validationMessageTimerMagnification;
-    f customDeviceScaleFactor;
+    int validationMessageTimerMagnification;
+    float customDeviceScaleFactor;
     @"WebFixedPositionContent" _fixedPositionContent;
     {RetainPtr<NSData>="m_ptr"^v} sourceApplicationAuditData;
     BOOL _didPerformFirstNavigation;

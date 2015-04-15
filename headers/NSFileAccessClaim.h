@@ -5,7 +5,7 @@
     @"NSString" _claimID;
     @"NSString" _purposeIDOrNil;
     BOOL _cameFromSuperarbiter;
-    Q _blockageCount;
+    unsigned long long _blockageCount;
     BOOL _didWait;
     BOOL _isRevoked;
     @"NSMutableArray" _claimerBlockageReasons;
@@ -22,10 +22,10 @@
     @"NSObject<OS_dispatch_semaphore>" _claimerWaiterOrNull;
     @"NSMutableArray" _sandboxTokens;
 }
- + (BOOL) canReadingItemAtLocation:(id)aoptions:(Q)bsafelyOverlapWritingItemAtLocation:(id)coptions:(Q)d;
- + (BOOL) canWritingItemAtLocation:(id)aoptions:(Q)bsafelyOverlapWritingItemAtLocation:(id)coptions:(Q)d;
- + (BOOL) readingItemAtLocation:(id)awithPurposeID:(id)brequiresOnlyPhysicalItemWithOptions:(Q)c;
- + (BOOL) writingItemAtLocation:(id)awithPurposeID:(id)brequiresOnlyPhysicalItemWithOptions:(Q)c;
+ + (BOOL) canReadingItemAtLocation:(id)aoptions:(unsigned long long)bsafelyOverlapWritingItemAtLocation:(id)coptions:(unsigned long long)d;
+ + (BOOL) canWritingItemAtLocation:(id)aoptions:(unsigned long long)bsafelyOverlapWritingItemAtLocation:(id)coptions:(unsigned long long)d;
+ + (BOOL) readingItemAtLocation:(id)awithPurposeID:(id)brequiresOnlyPhysicalItemWithOptions:(unsigned long long)c;
+ + (BOOL) writingItemAtLocation:(id)awithPurposeID:(id)brequiresOnlyPhysicalItemWithOptions:(unsigned long long)c;
 
  - (void) block;
  - (id) descriptionWithIndenting:(id)a;
@@ -58,8 +58,8 @@
  - (void) evaluateNewClaim:(id)a;
  - (id) pendingClaims;
  - (void) removePendingClaims:(id)a;
- - (BOOL) isBlockedByReadingItemAtLocation:(id)aoptions:(Q)b;
- - (BOOL) isBlockedByWritingItemAtLocation:(id)aoptions:(Q)b;
+ - (BOOL) isBlockedByReadingItemAtLocation:(id)aoptions:(unsigned long long)b;
+ - (BOOL) isBlockedByWritingItemAtLocation:(id)aoptions:(unsigned long long)b;
  - (void) makeProviderOfItemAtLocation:(id)aprovideThenContinue:(@?)b;
  - (void) makeProviderOfItemAtLocation:(id)aprovidePhysicalURLThenContinue:(@?)b;
  - (void) makePresentersOfItemAtLocation:(id)aorContainedItem:(BOOL)brelinquishUsingProcedureGetter:(@?)c;

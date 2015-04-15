@@ -47,11 +47,11 @@
  - (BOOL) _downloadActive;
  - (void) sendDidStart:(^{_CFURLDownload=})a;
  - (^{_CFURLRequest=}) sendWillSendRequest:(^{_CFURLRequest=})aredirectResponse:(^{_CFURLResponse=})b;
- - (C) sendDownloadShouldUseCredentialStorage;
+ - (unsigned char) sendDownloadShouldUseCredentialStorage;
  - (void) sendDidReceiveChallenge:(^{_CFURLAuthChallenge=})a;
  - (void) sendDidReceiveResponse:(^{_CFURLResponse=})a;
- - (void) sendWillResumeWithResponse:(^{_CFURLResponse=})astartingByte:(Q)b;
- - (void) sendDidReceiveData:(q)a;
+ - (void) sendWillResumeWithResponse:(^{_CFURLResponse=})astartingByte:(unsigned long long)b;
+ - (void) sendDidReceiveData:(long long)a;
  - (BOOL) sendShouldDecodeDataOfMIMEType:(^{__CFString=})a;
  - (void) sendDecideDestinationWithSuggestedObjectName:(^{__CFString=})a;
  - (void) sendDidCreateDestination:(^{__CFURL=})a;

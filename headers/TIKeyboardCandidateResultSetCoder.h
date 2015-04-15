@@ -3,7 +3,7 @@
 
     @"NSMutableData" _mutableData;
     @"NSData" _data;
-    Q _offset;
+    unsigned long long _offset;
 }
 @property (nonatomic, retain, readwrite) NSData* data;
 @property (nonatomic, retain, readwrite) NSMutableData* mutableData;
@@ -13,35 +13,35 @@
  + (id) decodeWithData:(id)a;
  + (id) encodeWithCandidateResultSet:(id)a;
  + (id) candidateTypeToClassNameMap;
- + (Class) classFromCandidateType:(i)a;
+ + (Class) classFromCandidateType:(int)a;
 
  - (void) setMutableData:(id)a;
  - (void) dealloc;
  - (r*) bytes;
  - (id) data;
  - (void) setData:(id)a;
- - (Q) decodeUInt64;
- - (void) encodeUInt64:(Q)a;
- - (C) decodeByte;
+ - (unsigned long long) decodeUInt64;
+ - (void) encodeUInt64:(unsigned long long)a;
+ - (unsigned char) decodeByte;
  - (id) decodeString;
- - (void) encodeByte:(C)a;
+ - (void) encodeByte:(unsigned char)a;
  - (void) encodeString:(id)a;
  - (id) initForEncoding;
  - (id) dataFromCandidateResultSet:(id)a;
  - (id) initForDecodingWithData:(id)a;
  - (id) candidateResultSet;
  - (id) initWithData:(id)amutableData:(id)b;
- - (Q) offset;
+ - (unsigned long long) offset;
  - (id) mutableData;
  - (r*) currentPosition;
- - (void) setOffset:(Q)a;
- - (I) decodeUInt32;
+ - (void) setOffset:(unsigned long long)a;
+ - (unsigned int) decodeUInt32;
  - (void) encodeStringArray:(id)a;
- - (void) encodeUInt32:(I)a;
- - (void) encodeShort:(S)a;
+ - (void) encodeUInt32:(unsigned int)a;
+ - (void) encodeShort:(unsigned short)a;
  - (id) decodeCandidate;
  - (id) decodeStringArray;
- - (S) decodeShort;
+ - (unsigned short) decodeShort;
  - (void) encodeBool:(BOOL)a;
  - (BOOL) decodeBool;
  - (void) encodePointerValueArray:(id)a;

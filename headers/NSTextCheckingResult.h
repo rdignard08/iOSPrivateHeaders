@@ -9,7 +9,7 @@
  + (id) spellCheckingResultWithRange:({_NSRange=QQ})a;
  + (id) grammarCheckingResultWithRange:({_NSRange=QQ})adetails:(id)b;
  + (id) dateCheckingResultWithRange:({_NSRange=QQ})adate:(id)b;
- + (id) dateCheckingResultWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(d)d;
+ + (id) dateCheckingResultWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)d;
  + (id) addressCheckingResultWithRange:({_NSRange=QQ})acomponents:(id)b;
  + (id) linkCheckingResultWithRange:({_NSRange=QQ})aURL:(id)b;
  + (id) quoteCheckingResultWithRange:({_NSRange=QQ})areplacementString:(id)b;
@@ -17,20 +17,20 @@
  + (id) replacementCheckingResultWithRange:({_NSRange=QQ})areplacementString:(id)b;
  + (id) correctionCheckingResultWithRange:({_NSRange=QQ})areplacementString:(id)b;
  + (id) correctionCheckingResultWithRange:({_NSRange=QQ})areplacementString:(id)balternativeStrings:(id)c;
- + (id) regularExpressionCheckingResultWithRanges:(^{_NSRange=QQ})acount:(Q)bregularExpression:(id)c;
+ + (id) regularExpressionCheckingResultWithRanges:(^{_NSRange=QQ})acount:(unsigned long long)bregularExpression:(id)c;
  + (id) phoneNumberCheckingResultWithRange:({_NSRange=QQ})aphoneNumber:(id)b;
  + (id) transitInformationCheckingResultWithRange:({_NSRange=QQ})acomponents:(id)b;
  + (void) initialize;
 
  - (id) components;
- - (Q) numberOfRanges;
+ - (unsigned long long) numberOfRanges;
  - (void) encodeRangeWithCoder:(id)a;
  - ({_NSRange=QQ}) decodeRangeWithCoder:(id)a;
- - (id) resultByAdjustingRangesWithOffset:(q)a;
- - (BOOL) _adjustRangesWithOffset:(q)a;
+ - (id) resultByAdjustingRangesWithOffset:(long long)a;
+ - (BOOL) _adjustRangesWithOffset:(long long)a;
  - (id) orthography;
  - (id) grammarDetails;
- - (d) duration;
+ - (double) duration;
  - (id) addressComponents;
  - (id) replacementString;
  - (id) alternativeStrings;
@@ -39,14 +39,14 @@
  - (^v) underlyingResult;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
- - ({_NSRange=QQ}) rangeAtIndex:(Q)a;
+ - ({_NSRange=QQ}) rangeAtIndex:(unsigned long long)a;
  - (id) date;
  - (id) timeZone;
  - (id) URL;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - ({_NSRange=QQ}) range;
- - (Q) resultType;
+ - (unsigned long long) resultType;
 
 
 @end

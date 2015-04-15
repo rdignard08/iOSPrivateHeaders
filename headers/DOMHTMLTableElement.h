@@ -4,7 +4,7 @@
 }
 
  - (id) rows;
- - (i) structuralComplexityContribution;
+ - (int) structuralComplexityContribution;
  - (void) setCellPadding:(id)a;
  - (id) cellSpacing;
  - (id) cellPadding;
@@ -35,8 +35,8 @@
  - (id) createTBody;
  - (id) createCaption;
  - (void) deleteCaption;
- - (id) insertRow:(i)a;
- - (void) deleteRow:(i)a;
+ - (id) insertRow:(int)a;
+ - (void) deleteRow:(int)a;
  - (id) width;
  - (void) setWidth:(id)a;
 

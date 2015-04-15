@@ -2,17 +2,17 @@
 @interface PRAutocorrectionContext : NSObject {
 
 }
- + (id) autocorrectionContextOfType:(Q)a;
+ + (id) autocorrectionContextOfType:(unsigned long long)a;
 
  - (void) reset;
- - (void) addInputCharacter:(S)ageometryModel:(^v)bgeometryData:(id)c;
+ - (void) addInputCharacter:(unsigned short)ageometryModel:(^v)bgeometryData:(id)c;
  - (id) currentModifications;
  - (id) addedModifications;
  - (id) removedModifications;
- - (void) addInputCharacter:(S)ageometryData:(id)b;
+ - (void) addInputCharacter:(unsigned short)ageometryData:(id)b;
  - (id) prefixes;
- - (void) setValidSequenceCorrectionThreshold:(d)a;
- - (d) validSequenceCorrectionThreshold;
+ - (void) setValidSequenceCorrectionThreshold:(double)a;
+ - (double) validSequenceCorrectionThreshold;
 
 
 @end

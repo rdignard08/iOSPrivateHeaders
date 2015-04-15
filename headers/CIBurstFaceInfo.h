@@ -1,10 +1,10 @@
 
 @interface CIBurstFaceInfo : NSObject {
 
-    i swFaceId;
-    i swLastFrameSeen;
-    i hwFaceId;
-    i hwLastFrameSeen;
+    int swFaceId;
+    int swLastFrameSeen;
+    int hwFaceId;
+    int hwLastFrameSeen;
     {CGPoint="x"d"y"d} swCenter;
     {CGSize="width"d"height"d} swSize;
     {CGPoint="x"d"y"d} hwCenter;
@@ -20,26 +20,26 @@
 @property (atomic, assign, readwrite) NSNumber* hwLastFrameSeen;
 
  - (id) init;
- - (void) setSwFaceId:(i)a;
+ - (void) setSwFaceId:(int)a;
  - (void) setSwCenter:({CGPoint=dd})a;
  - (void) setSwSize:({CGSize=dd})a;
- - (void) setSwLastFrameSeen:(i)a;
- - (void) setHwFaceId:(i)a;
+ - (void) setSwLastFrameSeen:(int)a;
+ - (void) setHwFaceId:(int)a;
  - (void) setHwCenter:({CGPoint=dd})a;
  - (void) setHwSize:({CGSize=dd})a;
- - (void) setHwLastFrameSeen:(i)a;
+ - (void) setHwLastFrameSeen:(int)a;
  - ({CGPoint=dd}) hwCenter;
  - ({CGSize=dd}) hwSize;
  - ({CGPoint=dd}) swCenter;
  - ({CGSize=dd}) swSize;
- - (i) hwFaceId;
+ - (int) hwFaceId;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) hwFaceRect;
- - (i) swFaceId;
+ - (int) swFaceId;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) swFaceRect;
- - (f) overlapWithHwRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (f) overlapWithSwRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (i) swLastFrameSeen;
- - (i) hwLastFrameSeen;
+ - (float) overlapWithHwRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (float) overlapWithSwRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (int) swLastFrameSeen;
+ - (int) hwLastFrameSeen;
 
 
 @end

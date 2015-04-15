@@ -6,7 +6,7 @@
 
  - (BOOL) supportsSecureCoding;
  - (id) predicateFormat;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (BOOL) evaluateWithObject:(id)asubstitutionVariables:(id)b;
  - (@?) _predicateBlock;
  - (id) copyWithZone:(^{_NSZone=})a;

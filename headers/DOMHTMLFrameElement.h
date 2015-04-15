@@ -5,7 +5,7 @@
 
  - (id) contentFrame;
  - (id) name;
- - (i) structuralComplexityContribution;
+ - (int) structuralComplexityContribution;
  - (void) setName:(id)a;
  - (id) contentDocument;
  - (void) setLocation:(id)a;
@@ -25,8 +25,8 @@
  - (id) scrolling;
  - (void) setScrolling:(id)a;
  - (id) contentWindow;
- - (i) width;
- - (i) height;
+ - (int) width;
+ - (int) height;
 
 
 @end

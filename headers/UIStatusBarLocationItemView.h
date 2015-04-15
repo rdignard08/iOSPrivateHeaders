@@ -1,10 +1,10 @@
 
 @interface UIStatusBarLocationItemView : UIStatusBarItemView {
 
-    i _iconType;
+    int _iconType;
 }
 
- - (BOOL) updateForNewData:(id)aactions:(i)b;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
  - (id) contentsImage;
 
 

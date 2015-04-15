@@ -1,12 +1,12 @@
 
 @interface _CUIPSDSublayerInfo : NSObject {
 
-    I _numOfSublayers;
+    unsigned int _numOfSublayers;
 }
- + (id) newWithSublayerCount:(I)aindexSet:(id)b;
+ + (id) newWithSublayerCount:(unsigned int)aindexSet:(id)b;
 
- - (I) numberOfSublayers;
- - (I) sublayerAtIndex:(I)aisValid:(^B)b;
+ - (unsigned int) numberOfSublayers;
+ - (unsigned int) sublayerAtIndex:(unsigned int)aisValid:(^B)b;
 
 
 @end

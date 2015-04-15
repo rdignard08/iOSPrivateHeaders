@@ -5,17 +5,17 @@
     @"NSLayoutManager" _layoutManager;
     id _textView;
     {CGSize="width"d"height"d} _size;
-    d _lineFragmentPadding;
-    Q _maximumLines;
+    double _lineFragmentPadding;
+    unsigned long long _maximumLines;
     {__tcFlags="widthTracksTextView"b1"heightTracksTextView"b1"observingFrameChanges"b1"lineBreakMode"b4"oldAPI"b1"_reserved"b8} _tcFlags;
     @"NSArray" _exclusionPaths;
     ^{CGPath=} _cachedBoundingPath;
     ^{__CFArray=} _cachedClippingAttributes;
     ^{__CFArray=} _cachedBounds;
-    d _cacheBoundsMinY;
-    d _cacheBoundsMaxY;
-    d _minimumWidth;
-    q _layoutOrientation;
+    double _cacheBoundsMinY;
+    double _cacheBoundsMaxY;
+    double _minimumWidth;
+    long long _layoutOrientation;
     @"NSDictionary" _attributesForExtraLineFragment;
 }
 @property (atomic, assign, readonly) NSNumber* isSimpleRectangularTextContainer;
@@ -36,15 +36,15 @@
  - (void) setTextView:(id)a;
  - (void) coordinateAccess:(@?)a;
  - (void) setAttributesForExtraLineFragment:(id)a;
- - (void) setLayoutOrientation:(q)a;
+ - (void) setLayoutOrientation:(long long)a;
  - (BOOL) widthTracksTextView;
  - (BOOL) heightTracksTextView;
  - (void) setExclusionPaths:(id)a;
  - (id) init;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (q) layoutOrientation;
- - (d) lineFragmentPadding;
+ - (long long) layoutOrientation;
+ - (double) lineFragmentPadding;
  - ({CGSize=dd}) containerSize;
  - (id) textView;
  - (id) layoutManager;
@@ -53,24 +53,24 @@
  - (void) setLayoutManager:(id)a;
  - ({CGPoint=dd}) textContainerOrigin;
  - (BOOL) isSimpleRectangularTextContainer;
- - (Q) maximumNumberOfLines;
- - (void) setMaximumNumberOfLines:(Q)a;
+ - (unsigned long long) maximumNumberOfLines;
+ - (void) setMaximumNumberOfLines:(unsigned long long)a;
  - (void) setSize:({CGSize=dd})a;
- - (void) setLineFragmentPadding:(d)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) lineFragmentRectForProposedRect:({CGRect={CGPoint=dd}{CGSize=dd}})aatIndex:(Q)bwritingDirection:(q)cremainingRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})d;
+ - (void) setLineFragmentPadding:(double)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) lineFragmentRectForProposedRect:({CGRect={CGPoint=dd}{CGSize=dd}})aatIndex:(unsigned long long)bwritingDirection:(long long)cremainingRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})d;
  - (id) initWithSize:({CGSize=dd})a;
  - (void) setWidthTracksTextView:(BOOL)a;
  - (void) setHeightTracksTextView:(BOOL)a;
  - (void) _resizeAccordingToTextView:(id)a;
- - (d) minimumLineFragmentWidth;
+ - (double) minimumLineFragmentWidth;
  - (id) exclusionPaths;
  - (id) initWithContainerSize:({CGSize=dd})a;
  - (void) replaceLayoutManager:(id)a;
  - (void) setContainerSize:({CGSize=dd})a;
  - (id) attributesForExtraLineFragment;
- - (void) setMinimumLineFragmentWidth:(d)a;
- - (q) lineBreakMode;
- - (void) setLineBreakMode:(q)a;
+ - (void) setMinimumLineFragmentWidth:(double)a;
+ - (long long) lineBreakMode;
+ - (void) setLineBreakMode:(long long)a;
 
 
 @end

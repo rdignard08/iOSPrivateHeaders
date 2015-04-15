@@ -14,8 +14,8 @@
     {CGSize="width"d"height"d} _actualViewControllerSize;
     @"UIButton" _cancelButton;
     @"UIButton" _defaultButton;
-    q _cancelButtonIndex;
-    q _defaultButtonIndex;
+    long long _cancelButtonIndex;
+    long long _defaultButtonIndex;
     @"UITableView" _buttonTable;
     {CGSize="width"d"height"d} _presentingSize;
     @"_UIModalItemsPresentingViewController" _presentingViewController;
@@ -25,9 +25,9 @@
 
  - (void) dealloc;
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) cancelButtonIndex;
+ - (long long) cancelButtonIndex;
  - (id) presentingViewController;
  - ({CGSize=dd}) maxSize;
  - (id) titleLabel;
@@ -35,10 +35,10 @@
  - (void) _createAndConfigureTitleLabel;
  - (void) _createAndConfigureSubtitleLabel;
  - (void) _createAndConfigureMessageLabel;
- - (void) _createAndConfigureTextFieldsForInputStyle:(q)a;
+ - (void) _createAndConfigureTextFieldsForInputStyle:(long long)a;
  - (void) _createAndConfigureButtonTable;
  - (void) _createViewControllerContentView;
- - (q) defaultButtonIndex;
+ - (long long) defaultButtonIndex;
  - (id) modalItem;
  - (void) textFieldValueDidChange:(id)a;
  - (id) passwordTextField;

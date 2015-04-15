@@ -7,7 +7,7 @@
     @"NSString" _activationModeString;
     @"NSString" _identifier;
     @"NSString" _title;
-    Q _activationMode;
+    unsigned long long _activationMode;
 }
 @property (nonatomic, copy, readwrite) NSString* identifier;
 @property (nonatomic, copy, readwrite) NSString* title;
@@ -16,7 +16,7 @@
 @property (nonatomic, assign, readwrite, isDestructive) NSNumber* destructive;
 @property (nonatomic, assign, readonly) NSString* activationModeString;
  + (BOOL) supportsSecureCoding;
- + (id) actionWithIdentifier:(id)atitle:(id)bactivationMode:(Q)cisAuthenticationRequired:(BOOL)d;
+ + (id) actionWithIdentifier:(id)atitle:(id)bactivationMode:(unsigned long long)cisAuthenticationRequired:(BOOL)d;
 
  - (id) title;
  - (void) setTitle:(id)a;
@@ -24,15 +24,15 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) validatedAction;
- - (id) initWithIdentifier:(id)atitle:(id)bactivationMode:(Q)cisAuthenticationRequired:(BOOL)disDestructive:(BOOL)e;
- - (Q) activationMode;
+ - (id) initWithIdentifier:(id)atitle:(id)bactivationMode:(unsigned long long)cisAuthenticationRequired:(BOOL)disDestructive:(BOOL)e;
+ - (unsigned long long) activationMode;
  - (BOOL) isAuthenticationRequired;
  - (BOOL) isDestructive;
  - (id) activationModeString;
- - (void) setActivationMode:(Q)a;
+ - (void) setActivationMode:(unsigned long long)a;
  - (void) setAuthenticationRequired:(BOOL)a;
  - (void) setDestructive:(BOOL)a;
  - (void) encodeWithCoder:(id)a;

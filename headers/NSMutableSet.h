@@ -2,7 +2,7 @@
 @interface NSMutableSet : NSSet {
 
 }
- + (id) setWithCapacity:(Q)a;
+ + (id) setWithCapacity:(unsigned long long)a;
 
  - (void) filterUsingPredicate:(id)a;
  - (Class) classForCoder;
@@ -18,11 +18,11 @@
  - (void) replaceObject:(id)a;
  - (void) setObject:(id)a;
  - (void) removeObject:(id)a;
- - (id) initWithObjects:(r^@)acount:(Q)b;
- - (id) initWithCapacity:(Q)a;
+ - (id) initWithObjects:(r^@)acount:(unsigned long long)b;
+ - (id) initWithCapacity:(unsigned long long)a;
  - (void) _mutate;
- - (void) removeObjectsWithOptions:(Q)apassingTest:(@?)b;
- - (void) addObjects:(r^@)acount:(Q)b;
+ - (void) removeObjectsWithOptions:(unsigned long long)apassingTest:(@?)b;
+ - (void) addObjects:(r^@)acount:(unsigned long long)b;
  - (void) addObjectsFromArray:(id)arange:({_NSRange=QQ})b;
  - (void) addObjectsFromArray:(id)a;
  - (void) addObjectsFromOrderedSet:(id)arange:({_NSRange=QQ})b;

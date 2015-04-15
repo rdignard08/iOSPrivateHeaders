@@ -2,17 +2,17 @@
 @protocol UIWebPDFSearchOperationDelegate;
 @interface UIWebPDFSearchController : NSObject <UIWebPDFSearchOperationDelegate> {
 
-    Q _resultIndexWhenLimitHit;
+    unsigned long long _resultIndexWhenLimitHit;
     BOOL _notifiedThatSearchBegin;
-    Q _pageIndexWhenLimitHit;
+    unsigned long long _pageIndexWhenLimitHit;
     @"NSOperationQueue" _searchQueue;
     @"NSMutableArray" _results;
     @"NSString" _searchString;
     @"UIPDFDocument" _documentToSearch;
     @"NSObject<UIWebPDFSearchControllerDelegate>" searchDelegate;
-    Q startingPageIndex;
-    d documentScale;
-    Q resultLimit;
+    unsigned long long startingPageIndex;
+    double documentScale;
+    unsigned long long resultLimit;
 }
 @property (nonatomic, assign, readwrite) NSNumber* searchDelegate;
 @property (nonatomic, retain, readwrite) UIPDFDocument* documentToSearch;
@@ -27,24 +27,24 @@
  - (void) pause;
  - (void) dealloc;
  - (id) results;
- - (d) documentScale;
+ - (double) documentScale;
  - (void) setDocumentToSearch:(id)a;
- - (void) setDocumentScale:(d)a;
+ - (void) setDocumentScale:(double)a;
  - (void) setSearchDelegate:(id)a;
- - (void) setResultLimit:(Q)a;
+ - (void) setResultLimit:(unsigned long long)a;
  - (void) setSearchString:(id)a;
- - (Q) resultLimit;
+ - (unsigned long long) resultLimit;
  - (void) searchWasCancelled:(id)a;
  - (void) search:(id)ahasPartialResults:(id)b;
  - (void) searchDidFinish:(id)a;
  - (void) searchLimitHit:(id)a;
  - (id) documentToSearch;
  - (void) searchDidBegin:(id)a;
- - (Q) startingPageIndex;
- - (void) setStartingPageIndex:(Q)a;
+ - (unsigned long long) startingPageIndex;
+ - (void) setStartingPageIndex:(unsigned long long)a;
  - (id) searchDelegate;
  - (BOOL) paused;
- - (Q) _actualStartingPageIndex;
+ - (unsigned long long) _actualStartingPageIndex;
  - (void) _clearSearchQueue;
  - (void) search:(id)a;
  - (void) searchDidTimeOut:(id)a;

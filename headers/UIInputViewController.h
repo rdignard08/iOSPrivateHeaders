@@ -17,7 +17,7 @@
  - (void) textDidChange:(id)a;
  - (void) viewDidLoad;
  - (void) _setExtensionContext:(id)a;
- - ({CGSize=dd}) _systemLayoutSizeFittingSize:({CGSize=dd})awithHorizontalFittingPriority:(f)bverticalFittingPriority:(f)c;
+ - ({CGSize=dd}) _systemLayoutSizeFittingSize:({CGSize=dd})awithHorizontalFittingPriority:(float)bverticalFittingPriority:(float)c;
  - (id) inputView;
  - (void) setInputView:(id)a;
  - (id) primaryLanguage;

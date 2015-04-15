@@ -4,10 +4,10 @@
 
     @"NSString" _printerID;
     @"NSString" _jobName;
-    q _outputType;
-    q _orientation;
-    q _duplex;
-    q _copies;
+    long long _outputType;
+    long long _orientation;
+    long long _duplex;
+    long long _copies;
     BOOL _scaleUp;
 }
 @property (nonatomic, copy, readwrite) NSString* printerID;
@@ -24,25 +24,25 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (void) setJobName:(id)a;
- - (void) setOutputType:(q)a;
+ - (void) setOutputType:(long long)a;
  - (id) _initWithDictionary:(id)a;
  - (void) setPrinterID:(id)a;
  - (void) _updateWithPrinter:(id)a;
  - (id) _createPrintSettingsForPrinter:(id)a;
  - (id) printerID;
  - (id) jobName;
- - (q) outputType;
- - (q) duplex;
- - (void) setDuplex:(q)a;
- - (q) copies;
- - (void) setCopies:(q)a;
+ - (long long) outputType;
+ - (long long) duplex;
+ - (void) setDuplex:(long long)a;
+ - (long long) copies;
+ - (void) setCopies:(long long)a;
  - (BOOL) scaleUp;
  - (void) setScaleUp:(BOOL)a;
  - (id) init;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (q) orientation;
- - (void) setOrientation:(q)a;
+ - (long long) orientation;
+ - (void) setOrientation:(long long)a;
 
 
 @end

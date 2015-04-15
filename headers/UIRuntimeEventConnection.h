@@ -1,15 +1,15 @@
 
 @interface UIRuntimeEventConnection : UIRuntimeConnection {
 
-    Q eventMask;
+    unsigned long long eventMask;
 }
 
  - (id) target;
  - (id) description;
  - (SEL) action;
  - (void) connectForSimulator;
- - (Q) eventMask;
- - (void) setEventMask:(Q)a;
+ - (unsigned long long) eventMask;
+ - (void) setEventMask:(unsigned long long)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (void) connect;

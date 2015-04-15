@@ -3,14 +3,14 @@
 
     ^^{UIStringIDTableBucket} table;
     ^{UIStringIDTableBucket=@Q^{UIStringIDTableBucket}} buckets;
-    Q hashMask;
-    Q count;
+    unsigned long long hashMask;
+    unsigned long long count;
 }
 
  - (void) dealloc;
- - (q) count;
+ - (long long) count;
  - (BOOL) lookupKey:(id)aidentifier:(^q)b;
- - (id) initWithKeysTransferingOwnership:(^@)acount:(Q)b;
+ - (id) initWithKeysTransferingOwnership:(^@)acount:(unsigned long long)b;
 
 
 @end

@@ -1,13 +1,13 @@
 
 @interface UIBlurEffect : UIVisualEffect {
 
-    q _style;
+    long long _style;
 }
  + (BOOL) supportsSecureCoding;
- + (id) effectWithStyle:(q)a;
+ + (id) effectWithStyle:(long long)a;
 
  - (id) copyWithZone:(^{_NSZone=})a;
- - (q) _style;
+ - (long long) _style;
  - (id) effectSettings;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

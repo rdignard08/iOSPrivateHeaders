@@ -10,11 +10,11 @@
  - (void) setDelegate:(id)a;
  - (id) delegate;
  - (id) initWithLayer:(id)a;
- - (void) _applyTransition:(id)alayer:(id)bundo:(id)cspeed:(f)d;
+ - (void) _applyTransition:(id)alayer:(id)bundo:(id)cspeed:(float)d;
  - (void) _nextStateTimer:(id)a;
- - (void) setState:(id)aofLayer:(id)btransitionSpeed:(f)c;
- - (void) setInitialStatesOfLayer:(id)atransitionSpeed:(f)b;
- - (void) _applyTransitionElement:(id)alayer:(id)bundo:(id)cspeed:(f)d;
+ - (void) setState:(id)aofLayer:(id)btransitionSpeed:(float)c;
+ - (void) setInitialStatesOfLayer:(id)atransitionSpeed:(float)b;
+ - (void) _applyTransitionElement:(id)alayer:(id)bundo:(id)cspeed:(float)d;
  - (void) _addAnimation:(id)aforKey:(id)btarget:(id)cundo:(id)d;
  - (id) layer;
  - (id) stateOfLayer:(id)a;

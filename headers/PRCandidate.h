@@ -2,26 +2,26 @@
 @interface PRCandidate : NSObject {
 
     @"NSString" _string;
-    d _errorScore;
-    d _lmScore;
+    double _errorScore;
+    double _lmScore;
     BOOL _blacklisted;
 }
- + (d) errorScoreForType:(Q)a;
- + (id) candidateWithString:(id)aerrorType:(Q)b;
- + (id) candidateWithBuffer:(*)aencoding:(I)btransform:(Q)cerrorType:(Q)d;
- + (id) candidateWithString:(id)aerrorScore:(d)b;
- + (id) candidateWithBuffer:(*)aencoding:(I)berrorType:(Q)c;
+ + (double) errorScoreForType:(unsigned long long)a;
+ + (id) candidateWithString:(id)aerrorType:(unsigned long long)b;
+ + (id) candidateWithBuffer:(char*)aencoding:(unsigned int)btransform:(unsigned long long)cerrorType:(unsigned long long)d;
+ + (id) candidateWithString:(id)aerrorScore:(double)b;
+ + (id) candidateWithBuffer:(char*)aencoding:(unsigned int)berrorType:(unsigned long long)c;
 
- - (d) score;
+ - (double) score;
  - (id) description;
  - (void) dealloc;
  - (id) string;
- - (id) initWithString:(id)aerrorScore:(d)b;
- - (d) errorScore;
- - (d) languageModelScore;
+ - (id) initWithString:(id)aerrorScore:(double)b;
+ - (double) errorScore;
+ - (double) languageModelScore;
  - (BOOL) isBlacklisted;
- - (void) setErrorScore:(d)a;
- - (void) setLanguageModelScore:(d)a;
+ - (void) setErrorScore:(double)a;
+ - (void) setLanguageModelScore:(double)a;
  - (void) setBlacklisted:(BOOL)a;
 
 

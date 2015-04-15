@@ -3,12 +3,12 @@
 
 }
 
- - (q) reason;
- - (q) UIActionType;
- - (id) initWithReason:(q)a;
- - (id) initWithInfo:(id)atimeout:(d)bforResponseOnQueue:(id)cwithHandler:(@?)d;
- - (id) keyDescriptionForSetting:(Q)a;
- - (id) valueDescriptionForFlag:(q)aobject:(id)bofSetting:(Q)c;
+ - (long long) reason;
+ - (long long) UIActionType;
+ - (id) initWithReason:(long long)a;
+ - (id) initWithInfo:(id)atimeout:(double)bforResponseOnQueue:(id)cwithHandler:(@?)d;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
 
 
 @end

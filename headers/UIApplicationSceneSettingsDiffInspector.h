@@ -4,7 +4,7 @@
 }
 
  - (void) observeStatusBarStyleOverridesToSuppressWithBlock:(@?)a;
- - (void) _observeOtherSetting:(Q)awithBlock:(@?)b;
+ - (void) _observeOtherSetting:(unsigned long long)awithBlock:(@?)b;
  - (void) observeUnderLockWithBlock:(@?)a;
 
 

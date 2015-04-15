@@ -8,20 +8,20 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
  - (void) getObjects:(^@)aandKeys:(^@)b;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
- - (id) descriptionWithLocale:(id)aindent:(Q)b;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
+ - (id) descriptionWithLocale:(id)aindent:(unsigned long long)b;
  - (id) objectEnumerator;
  - (id) keyEnumerator;
- - (void) enumerateKeysAndObjectsWithOptions:(Q)ausingBlock:(@?)b;
+ - (void) enumerateKeysAndObjectsWithOptions:(unsigned long long)ausingBlock:(@?)b;
  - (id) allKeys;
  - (id) allValues;
  - (void) enumerateKeysAndObjectsUsingBlock:(@?)a;
- - (Q) capacity;
+ - (unsigned long long) capacity;
 
 
 @end

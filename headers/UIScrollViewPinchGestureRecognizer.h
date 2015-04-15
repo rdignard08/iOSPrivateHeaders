@@ -7,7 +7,7 @@
 }
 
  - (void) setDelegate:(id)a;
- - (d) _hysteresis;
+ - (double) _hysteresis;
  - (void) touchesBegan:(id)awithEvent:(id)b;
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) setScrollView:(id)a;

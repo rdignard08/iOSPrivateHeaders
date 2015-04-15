@@ -17,10 +17,10 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) host;
- - (q) port;
+ - (long long) port;
  - (id) init;
  - (BOOL) isProxy;
  - (void) encodeWithCoder:(id)a;
@@ -34,8 +34,8 @@
  - (BOOL) receivesCredentialSecurely;
  - (id) protocol;
  - (^{_CFURLProtectionSpace=}) _CFURLProtectionSpace;
- - (id) initWithProxyHost:(id)aport:(q)btype:(id)crealm:(id)dauthenticationMethod:(id)e;
- - (id) initWithHost:(id)aport:(q)bprotocol:(id)crealm:(id)dauthenticationMethod:(id)e;
+ - (id) initWithProxyHost:(id)aport:(long long)btype:(id)crealm:(id)dauthenticationMethod:(id)e;
+ - (id) initWithHost:(id)aport:(long long)bprotocol:(id)crealm:(id)dauthenticationMethod:(id)e;
  - (id) distinguishedNames;
  - (^{__SecTrust=}) serverTrust;
 

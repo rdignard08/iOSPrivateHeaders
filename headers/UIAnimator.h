@@ -2,7 +2,7 @@
 @interface UIAnimator : NSObject {
 
     @"NSMutableArray" _animations;
-    d _lastUpdateTime;
+    double _lastUpdateTime;
     [3@] _heartbeat;
     [3i] _heartbeatClientCount;
 }
@@ -12,15 +12,15 @@
 
  - (void) dealloc;
  - (void) removeAnimationsForTarget:(id)aofKind:(Class)b;
- - (void) addAnimation:(id)awithDuration:(d)bstart:(BOOL)c;
+ - (void) addAnimation:(id)awithDuration:(double)bstart:(BOOL)c;
  - (void) stopAnimation:(id)a;
- - (void) _addAnimation:(id)awithDuration:(d)bstart:(BOOL)cstartTime:(d)d;
- - (void) _startAnimation:(id)awithStartTime:(d)b;
- - (void) addAnimations:(id)awithDuration:(d)bstart:(BOOL)c;
+ - (void) _addAnimation:(id)awithDuration:(double)bstart:(BOOL)cstartTime:(double)d;
+ - (void) _startAnimation:(id)awithStartTime:(double)b;
+ - (void) addAnimations:(id)awithDuration:(double)bstart:(BOOL)c;
  - (void) removeAnimationsForTarget:(id)a;
  - (void) startAnimation:(id)a;
- - (f) fractionForAnimation:(id)a;
- - (void) _advanceAnimationsOfType:(i)awithTimestamp:(d)b;
+ - (float) fractionForAnimation:(id)a;
+ - (void) _advanceAnimationsOfType:(int)awithTimestamp:(double)b;
  - (void) _TimerHeartbeatCallback:(id)a;
  - (void) _TVHeartbeatCallback:(id)a;
  - (void) _LCDHeartbeatCallback:(id)a;

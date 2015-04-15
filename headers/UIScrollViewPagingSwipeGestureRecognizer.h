@@ -4,8 +4,8 @@
     @"UIDelayedAction" _swipeFailureDelay;
     {CGPoint="x"d"y"d} _startLocation;
     {CGPoint="x"d"y"d} _lastLocation;
-    d _lastTime;
-    i _directionalFailureCount;
+    double _lastTime;
+    int _directionalFailureCount;
 }
 
  - (void) dealloc;

@@ -2,10 +2,10 @@
 @interface UIKeyboardCornerView : UIView {
 
     BOOL _leftSide;
-    d _radius;
+    double _radius;
 }
 
- - (i) textEffectsVisibilityLevel;
+ - (int) textEffectsVisibilityLevel;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aleft:(BOOL)b;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

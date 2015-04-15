@@ -12,15 +12,15 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) finalize;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (id) string;
- - (id) attributesAtIndex:(Q)aeffectiveRange:(^{_NSRange=QQ})b;
- - (id) attribute:(id)aatIndex:(Q)beffectiveRange:(^{_NSRange=QQ})c;
- - (id) attributesAtIndex:(Q)alongestEffectiveRange:(^{_NSRange=QQ})binRange:({_NSRange=QQ})c;
- - (id) attribute:(id)aatIndex:(Q)blongestEffectiveRange:(^{_NSRange=QQ})cinRange:({_NSRange=QQ})d;
+ - (id) attributesAtIndex:(unsigned long long)aeffectiveRange:(^{_NSRange=QQ})b;
+ - (id) attribute:(id)aatIndex:(unsigned long long)beffectiveRange:(^{_NSRange=QQ})c;
+ - (id) attributesAtIndex:(unsigned long long)alongestEffectiveRange:(^{_NSRange=QQ})binRange:({_NSRange=QQ})c;
+ - (id) attribute:(id)aatIndex:(unsigned long long)blongestEffectiveRange:(^{_NSRange=QQ})cinRange:({_NSRange=QQ})d;
  - (void) replaceCharactersInRange:({_NSRange=QQ})awithString:(id)b;
  - (void) setAttributes:(id)arange:({_NSRange=QQ})b;
  - (void) addAttributes:(id)arange:({_NSRange=QQ})b;
@@ -29,8 +29,8 @@
  - (void) replaceCharactersInRange:({_NSRange=QQ})awithAttributedString:(id)b;
  - (BOOL) isEqual:(id)a;
  - (void) deleteCharactersInRange:({_NSRange=QQ})a;
- - (void) insertAttributedString:(id)aatIndex:(Q)b;
- - (Q) length;
+ - (void) insertAttributedString:(id)aatIndex:(unsigned long long)b;
+ - (unsigned long long) length;
  - (void) setAttributedString:(id)a;
 
 

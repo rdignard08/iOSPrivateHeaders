@@ -5,7 +5,7 @@
  + (id) normalizedAnimationWithKeyPath:(id)afromValue:(id)btoValue:(id)c;
 
  - (void) setRoundsToInteger:(BOOL)a;
- - (void) setStartAngle:(d)a;
+ - (void) setStartAngle:(double)a;
  - (id) fromValue;
  - (id) toValue;
  - (id) byValue;
@@ -13,13 +13,13 @@
  - (void) CA_prepareRenderValue;
  - (BOOL) _setCARenderAnimation:(^{Animation=^^?{Atomic={?=i}}f{Ref<CA::Render::Timing>=^{Timing}}{Ref<CA::Render::Vector>=^{Vector}}^vIIII})alayer:(id)b;
  - (^{Animation=^^?{Atomic={?=i}}f{Ref<CA::Render::Timing>=^{Timing}}{Ref<CA::Render::Vector>=^{Vector}}^vIIII}) _copyRenderAnimationForLayer:(id)a;
- - (void) applyForTime:(d)apresentationObject:(id)bmodelObject:(id)c;
+ - (void) applyForTime:(double)apresentationObject:(id)bmodelObject:(id)c;
  - (BOOL) roundsToInteger;
- - (d) startAngle;
- - (d) endAngle;
- - (d) _timeFunction:(d)a;
+ - (double) startAngle;
+ - (double) endAngle;
+ - (double) _timeFunction:(double)a;
  - (void) setByValue:(id)a;
- - (void) setEndAngle:(d)a;
+ - (void) setEndAngle:(double)a;
  - (void) setToValue:(id)a;
 
 

@@ -7,7 +7,7 @@
     BOOL _isHidden;
     BOOL _drawsOwnDescendants;
 }
- + (void) _setInterpolationQuality:(i)a;
+ + (void) _setInterpolationQuality:(int)a;
  + (id) _wrapperForViewRef:(^{_WKView={_WKObject=I^{_WKClassInfo}}^{_WKViewContext}@^{_WKView}^{__CFArray}{CGPoint=dd}{CGRect={CGPoint=dd}{CGSize=dd}}If^v})a;
  + (id) focusView;
 
@@ -20,11 +20,11 @@
  - (BOOL) _web_firstResponderIsSelfOrDescendantView;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _web_convertRect:({CGRect={CGPoint=dd}{CGSize=dd}})atoView:(id)b;
  - (void) _web_addDescendantWebHTMLViewsToArray:(id)a;
- - (f) scale;
+ - (float) scale;
  - (id) description;
  - (id) .cxx_construct;
  - (void) dealloc;
- - (I) autoresizingMask;
+ - (unsigned int) autoresizingMask;
  - ({CGSize=dd}) convertSize:({CGSize=dd})atoView:(id)b;
  - (id) lastScrollableAncestor;
  - (id) init;
@@ -38,7 +38,7 @@
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frame;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
- - (void) setScale:(f)a;
+ - (void) setScale:(float)a;
  - (void) display;
  - (id) hitTest:({CGPoint=dd})a;
  - (void) setNeedsDisplayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
@@ -48,7 +48,7 @@
  - (BOOL) isDescendantOf:(id)a;
  - (void) setNeedsLayout:(BOOL)a;
  - (BOOL) scrollRectToVisible:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setAutoresizingMask:(I)a;
+ - (void) setAutoresizingMask:(unsigned int)a;
  - (void) setNextKeyView:(id)a;
  - (id) previousValidKeyView;
  - (BOOL) mouse:({CGPoint=dd})ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
@@ -82,8 +82,8 @@
  - (void) _drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})acontext:(^{CGContext=})blockFocus:(BOOL)c;
  - (void) _unlockFocusViewInContext:(^{CGContext=})a;
  - (BOOL) isHiddenOrHasHiddenAncestor;
- - (void) _appendDescriptionToString:(id)aatLevel:(i)b;
- - (BOOL) _handleResponderCall:(i)a;
+ - (void) _appendDescriptionToString:(id)aatLevel:(int)b;
+ - (BOOL) _handleResponderCall:(int)a;
  - (void) willRemoveSubview:(id)a;
  - (void) viewDidMoveToWindow;
  - (void) frameSizeChanged;

@@ -41,7 +41,7 @@
  - (id) textToButtonConstraint;
  - (void) _fontSizeDidChange:(id)a;
  - (id) buttonURL;
- - (id) _buttonBackgroundImageForState:(Q)atraits:(id)b;
+ - (id) _buttonBackgroundImageForState:(unsigned long long)atraits:(id)b;
 
 
 @end

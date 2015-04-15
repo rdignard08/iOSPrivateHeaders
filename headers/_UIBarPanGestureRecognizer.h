@@ -1,8 +1,8 @@
 
 @interface _UIBarPanGestureRecognizer : UIPanGestureRecognizer {
 
-    q _barAction;
-    d _bias;
+    long long _barAction;
+    double _bias;
 }
 
  - (id) description;
@@ -10,8 +10,8 @@
  - (void) touchesBegan:(id)awithEvent:(id)b;
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (BOOL) canPreventGestureRecognizer:(id)a;
- - (q) barAction;
- - (d) bias;
+ - (long long) barAction;
+ - (double) bias;
  - (void) _setDelegate:(id)a;
  - (id) initWithTarget:(id)aaction:(SEL)b;
 

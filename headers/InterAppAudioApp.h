@@ -3,7 +3,7 @@
 
     BOOL _isHost;
     BOOL _isCurrentApp;
-    q _key;
+    long long _key;
     @"NSString" _name;
     @"UIImage" _icon;
     @"NSURL" _url;
@@ -18,9 +18,9 @@
  - (id) description;
  - (void) dealloc;
  - (id) name;
- - (q) key;
+ - (long long) key;
  - (id) url;
- - (id) init:(r^{InterAppAudioAppInfo=Bi^{ObjCUIImage}^{__CFString}^{__CFString}^{__CFURL}})aiconSize:(f)b;
+ - (id) init:(r^{InterAppAudioAppInfo=Bi^{ObjCUIImage}^{__CFString}^{__CFString}^{__CFURL}})aiconSize:(float)b;
  - (id) icon;
  - (BOOL) isHost;
  - (BOOL) isCurrentApp;

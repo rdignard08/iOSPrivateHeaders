@@ -3,7 +3,7 @@
 @interface UIKBHandwritingView : UIKBKeyView <UIGestureRecognizerDelegate> {
 
     @"UIKBHandwritingStrokeView" _strokeView;
-    d _inkWidth;
+    double _inkWidth;
     ^{CGColor=} _inkColor;
     ^{CGImage=} _inkMask;
     @"NSMutableArray" _interpolatedPaths;
@@ -24,7 +24,7 @@
  - (BOOL) cancelTouchTracking;
  - (void) log;
  - (void) updateForKeyplane:(id)akey:(id)b;
- - (d) inkWidth;
+ - (double) inkWidth;
  - (void) send;
  - (void) clearAndNotify:(BOOL)a;
  - (BOOL) shouldCache;
@@ -34,7 +34,7 @@
  - (id) interpolatedPaths;
  - (id) currentPath;
  - (void) setInkMask:(^{CGImage=})a;
- - (void) setInkWidth:(d)a;
+ - (void) setInkWidth:(double)a;
  - (void) updateInkColor;
  - (void) setStrokeView:(id)a;
  - (void) setInterpolatedPaths:(id)a;

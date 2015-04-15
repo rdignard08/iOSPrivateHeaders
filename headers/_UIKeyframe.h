@@ -3,13 +3,13 @@
 
     @"NSString" _key;
     id _value;
-    d _startTime;
-    d _duration;
+    double _startTime;
+    double _duration;
 }
 @property (nonatomic, retain, readwrite) NSNumber* value;
 
  - (void) dealloc;
- - (id) initWithKey:(id)astartTime:(d)bduration:(d)c;
+ - (id) initWithKey:(id)astartTime:(double)bduration:(double)c;
  - (void) setValue:(id)a;
  - (id) value;
 

@@ -7,7 +7,7 @@
     BOOL _isAnIntroduction;
     @"UIImageView" _animatedView;
     @"UIColor" _textColor;
-    d _offscreenXLocation;
+    double _offscreenXLocation;
     @? _animationCompletionHandler;
     @"UIImage" _capturedGlyphImage;
     {_NSRange="location"Q"length"Q} _textRange;
@@ -39,8 +39,8 @@
  - ({_NSRange=QQ}) textRange;
  - (void) setTextRange:({_NSRange=QQ})a;
  - (void) setGlyphRange:({_NSRange=QQ})a;
- - (d) offscreenXLocation;
- - (void) setOffscreenXLocation:(d)a;
+ - (double) offscreenXLocation;
+ - (void) setOffscreenXLocation:(double)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) targetFrame;
  - (@?) animationCompletionHandler;
  - (void) setAnimationCompletionHandler:(@?)a;

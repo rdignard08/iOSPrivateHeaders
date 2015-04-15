@@ -3,9 +3,9 @@
 
     @"NSArray" _touches;
     @"NSMutableSet" _activeTouches;
-    Q _numberOfTouchesRequired;
-    d _minimumPressDuration;
-    d _allowableMovement;
+    unsigned long long _numberOfTouchesRequired;
+    double _minimumPressDuration;
+    double _allowableMovement;
     {CGPoint="x"d"y"d} _startPointScreen;
     id _enoughTimeElapsed;
     id _tooMuchTimeElapsed;
@@ -14,7 +14,7 @@
     b1 _gotTooMany;
     b1 _gotEnoughTaps;
     b1 _cancelPastAllowableMovement;
-    q _buttonType;
+    long long _buttonType;
 }
 
  - (void) dealloc;
@@ -24,23 +24,23 @@
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) touchesEnded:(id)awithEvent:(id)b;
  - (void) touchesCancelled:(id)awithEvent:(id)b;
- - (void) setDelay:(d)a;
+ - (void) setDelay:(double)a;
  - (void) _physicalButtonsBegan:(id)awithEvent:(id)b;
  - (void) _physicalButtonsEnded:(id)awithEvent:(id)b;
  - (void) _physicalButtonsCancelled:(id)awithEvent:(id)b;
- - (q) _buttonType;
+ - (long long) _buttonType;
  - (void) setView:(id)a;
- - (void) _setButtonType:(q)a;
- - (d) _touchSloppinessFactor;
- - (Q) numberOfTouches;
+ - (void) _setButtonType:(long long)a;
+ - (double) _touchSloppinessFactor;
+ - (unsigned long long) numberOfTouches;
  - (BOOL) canPreventGestureRecognizer:(id)a;
- - (void) setMinimumPressDuration:(d)a;
- - (Q) numberOfTouchesRequired;
- - (Q) numberOfTapsRequired;
- - (void) setNumberOfTapsRequired:(Q)a;
- - (void) setNumberOfTouchesRequired:(Q)a;
- - ({CGPoint=dd}) locationOfTouch:(Q)ainView:(id)b;
- - (void) setAllowableMovement:(d)a;
+ - (void) setMinimumPressDuration:(double)a;
+ - (unsigned long long) numberOfTouchesRequired;
+ - (unsigned long long) numberOfTapsRequired;
+ - (void) setNumberOfTapsRequired:(unsigned long long)a;
+ - (void) setNumberOfTouchesRequired:(unsigned long long)a;
+ - ({CGPoint=dd}) locationOfTouch:(unsigned long long)ainView:(id)b;
+ - (void) setAllowableMovement:(double)a;
  - (void) _resetGestureRecognizer;
  - ({CGPoint=dd}) centroid;
  - (id) touches;
@@ -52,16 +52,16 @@
  - (void) startTimer;
  - (void) _interactionsEndedWithValidTouches:(BOOL)a;
  - (void) _startTapFinishedTimer;
- - (d) minimumPressDuration;
+ - (double) minimumPressDuration;
  - (BOOL) cancelPastAllowableMovement;
  - (void) setCancelPastAllowableMovement:(BOOL)a;
  - (BOOL) tapIsPossibleForTapRecognizer:(id)a;
  - (void) tapRecognizerRecognizedTap:(id)a;
  - (void) tapRecognizerFailedToRecognizeTap:(id)a;
- - (d) allowableMovement;
+ - (double) allowableMovement;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (d) delay;
+ - (double) delay;
  - ({CGPoint=dd}) startPoint;
  - (id) initWithTarget:(id)aaction:(SEL)b;
 

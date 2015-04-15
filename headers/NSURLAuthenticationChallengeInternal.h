@@ -3,14 +3,14 @@
 
     @"NSURLProtectionSpace" space;
     @"NSURLCredential" proposedCredential;
-    q previousFailureCount;
+    long long previousFailureCount;
     @"NSURLResponse" failureResponse;
     @"NSError" error;
     @"<NSURLAuthenticationChallengeSender>" sender;
 }
 
  - (void) dealloc;
- - (id) initWithProtectionSpace:(id)aproposedCredential:(id)bpreviousFailureCount:(q)cfailureResponse:(id)derror:(id)esender:(id)f;
+ - (id) initWithProtectionSpace:(id)aproposedCredential:(id)bpreviousFailureCount:(long long)cfailureResponse:(id)derror:(id)esender:(id)f;
 
 
 @end

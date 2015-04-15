@@ -2,9 +2,9 @@
 @protocol NSCopying;
 @interface _UIFontCacheKey : NSObject <NSCopying> {
 
-    i _traits;
+    int _traits;
     @"NSString" _fontName;
-    d _pointSize;
+    double _pointSize;
     @"NSString" _textStyle;
     @"NSString" _contentSizeCategory;
     @"UIFontDescriptor" _fontDescriptor;
@@ -15,23 +15,23 @@
 @property (nonatomic, copy, readwrite) NSString* textStyle;
 @property (nonatomic, copy, readwrite) NSString* contentSizeCategory;
 @property (nonatomic, copy, readwrite) UIFontDescriptor* fontDescriptor;
- + (id) fontCacheKeyWithFontName:(id)atraits:(i)bpointSize:(d)c;
- + (id) systemFontCacheKeyWithTraits:(i)apointSize:(d)b;
+ + (id) fontCacheKeyWithFontName:(id)atraits:(int)bpointSize:(double)c;
+ + (id) systemFontCacheKeyWithTraits:(int)apointSize:(double)b;
  + (id) fontCacheKeyWithTextStyle:(id)acontentSizeCategory:(id)b;
- + (id) fontCacheKeyWithFontDescriptor:(id)apointSize:(d)b;
+ + (id) fontCacheKeyWithFontDescriptor:(id)apointSize:(double)b;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (d) pointSize;
+ - (double) pointSize;
  - (id) fontName;
  - (id) fontDescriptor;
- - (i) traits;
+ - (int) traits;
  - (void) setFontName:(id)a;
- - (void) setTraits:(i)a;
- - (void) setPointSize:(d)a;
+ - (void) setTraits:(int)a;
+ - (void) setPointSize:(double)a;
  - (void) setTextStyle:(id)a;
  - (void) setContentSizeCategory:(id)a;
  - (void) setFontDescriptor:(id)a;

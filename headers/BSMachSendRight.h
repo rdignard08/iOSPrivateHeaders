@@ -3,7 +3,7 @@
 
 }
 
- - (I) sendRight;
+ - (unsigned int) sendRight;
 
 
 @end

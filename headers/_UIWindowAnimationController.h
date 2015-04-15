@@ -9,7 +9,7 @@
 @property (nonatomic, assign, readwrite) NSNumber* shouldCrossfade;
  + (id) animationControllerWithWindow:(id)a;
 
- - (d) transitionDuration:(id)a;
+ - (double) transitionDuration:(id)a;
  - (void) animateTransition:(id)a;
  - (void) setWindow:(id)a;
  - (id) initWithWindow:(id)a;

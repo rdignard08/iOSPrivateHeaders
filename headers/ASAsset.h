@@ -19,17 +19,17 @@
 @property (nonatomic, copy, readwrite) NSNumber* progressHandler;
 @property (nonatomic, retain, readwrite) NSDictionary* downloadOptions;
 
- - (q) _formatVersion;
- - (q) _contentVersion;
+ - (long long) _formatVersion;
+ - (long long) _contentVersion;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (q) state;
+ - (long long) state;
  - (id) identifier;
  - (id) attributes;
  - (id) _getLocalAttribute:(id)a;
- - (q) assetStateForStateString:(id)a;
+ - (long long) assetStateForStateString:(id)a;
  - (^{__MobileAsset={__CFRuntimeBase=Q[4C]I}^{__CFString}^{__CFDictionary}^{__MobileAssetQuery}^{__MobileAssetQuery}C}) mobileAsset;
  - (BOOL) requiredDiskSpaceIsAvailableForDownloadOptions:(id)arequiredBytes:(^q)berror:(^@)c;
  - (void) setDownloadOptions:(id)a;
@@ -39,7 +39,7 @@
  - (BOOL) resumeDownloadAndReturnError:(^@)a;
  - (BOOL) cancelDownloadAndReturnError:(^@)a;
  - (BOOL) purgeAndReturnError:(^@)a;
- - (q) garbageCollectionBehavior;
+ - (long long) garbageCollectionBehavior;
  - (BOOL) requiredDiskSpaceIsAvailable:(^q)aerror:(^@)b;
  - (void) adjustDownloadOptions:(id)acompletion:(@?)b;
  - (void) cancelDownload:(@?)a;
@@ -56,7 +56,7 @@
  - (void) setProgressHandler:(@?)a;
  - (void) beginDownloadWithOptions:(id)a;
  - (id) localURL;
- - (void) setGarbageCollectionBehavior:(q)a;
+ - (void) setGarbageCollectionBehavior:(long long)a;
 
 
 @end

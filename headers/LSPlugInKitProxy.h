@@ -4,7 +4,7 @@
 
     @"NSDictionary" _infoPlist;
     @"LSBundleProxy" _parentBundle;
-    I _parentBundleID;
+    unsigned int _parentBundleID;
     BOOL _isOnSystemPartition;
     @"NSString" _pluginIdentifier;
     @"NSString" _protocol;
@@ -12,7 +12,7 @@
     @"NSDictionary" _pluginKitDictionary;
     @"NSDate" _registrationDate;
 }
- + (id) plugInKitProxyForPlugin:(I)a;
+ + (id) plugInKitProxyForPlugin:(unsigned int)a;
  + (id) pluginKitProxyForUUID:(id)a;
  + (id) plugInKitProxyForUUID:(id)abundleIdentifier:(id)bpluginIdentifier:(id)cversion:(id)dbundleURL:(id)e;
  + (id) pluginKitProxyForIdentifier:(id)a;
@@ -20,9 +20,9 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) localizedName;
- - (id) iconDataForVariant:(i)a;
+ - (id) iconDataForVariant:(int)a;
  - (id) localizedShortName;
- - (id) _initWithPlugin:(I)a;
+ - (id) _initWithPlugin:(unsigned int)a;
  - (id) _initWithUUID:(id)abundleIdentifier:(id)bpluginIdentifier:(id)cversion:(id)dbundleURL:(id)e;
  - (id) pluginIdentifier;
  - (id) pluginUUID;

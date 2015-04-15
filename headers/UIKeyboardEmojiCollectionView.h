@@ -25,7 +25,7 @@
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) touchesEnded:(id)awithEvent:(id)b;
  - (void) touchesCancelled:(id)awithEvent:(id)b;
- - (d) _currentScreenScale;
+ - (double) _currentScreenScale;
  - (id) touched;
  - (void) setTouched:(id)a;
  - (id) activeTouch;

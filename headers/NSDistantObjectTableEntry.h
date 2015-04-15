@@ -4,7 +4,7 @@
     @"NSConnection" _conn;
     @"NSDistantObject" _proxy;
     id _localObject;
-    I _wireID;
+    unsigned int _wireID;
 }
 
  - (id) description;

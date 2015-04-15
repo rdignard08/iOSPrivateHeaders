@@ -21,10 +21,10 @@
  - (void) restart;
  - (void) sendActions:(id)a;
  - (void) _connect;
- - (void) _sendMessageOfType:(q)apacker:(@?)breplyHandler:(@?)cwaitForReply:(BOOL)dwaitDuration:(Q)e;
- - (void) _sendMessageOfType:(q)apacker:(@?)b;
+ - (void) _sendMessageOfType:(long long)apacker:(@?)breplyHandler:(@?)cwaitForReply:(BOOL)dwaitDuration:(unsigned long long)e;
+ - (void) _sendMessageOfType:(long long)apacker:(@?)b;
  - (void) _queue_handleWatchdogPing:(id)a;
- - (void) _sendMessageOfType:(q)apacker:(@?)breplyHandler:(@?)c;
+ - (void) _sendMessageOfType:(long long)apacker:(@?)breplyHandler:(@?)c;
 
 
 @end

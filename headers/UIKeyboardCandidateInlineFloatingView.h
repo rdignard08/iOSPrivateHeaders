@@ -4,10 +4,10 @@
 
     BOOL _reducedWidth;
     BOOL _showHiddenCandidatesOnly;
-    i _position;
+    int _position;
     @"TIKeyboardCandidateResultSet" _candidateSet;
     @"NSString" _inlineText;
-    d _maxX;
+    double _maxX;
     @"UIKeyboardCandidateGridCollectionViewController" _collectionViewController;
     @"<UIKeyboardCandidateListDelegate>" _candidateListDelegate;
     @"UIKeyboardCandidateSortControl" _sortSelectionBar;
@@ -15,17 +15,17 @@
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _previousCollapsedFrame;
 }
 
- - (i) position;
+ - (int) position;
  - ({CGSize=dd}) size;
  - (void) dealloc;
  - (void) didMoveToWindow;
- - (void) showCandidateAtIndex:(Q)a;
+ - (void) showCandidateAtIndex:(unsigned long long)a;
  - (void) showNextCandidate;
  - (id) candidateListDelegate;
  - (void) candidateListAcceptCandidate:(id)a;
  - (id) candidateSet;
  - (void) setCandidateSet:(id)a;
- - (void) setCandidates:(id)ainlineText:(id)binlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})cmaxX:(d)dlayout:(BOOL)e;
+ - (void) setCandidates:(id)ainlineText:(id)binlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})cmaxX:(double)dlayout:(BOOL)e;
  - (void) setCandidateListDelegate:(id)a;
  - (id) statisticsIdentifier;
  - (void) candidateListSelectionDidChange:(id)a;
@@ -38,13 +38,13 @@
  - (void) showPreviousPage;
  - (void) showNextRow;
  - (void) showPreviousRow;
- - (Q) currentIndex;
- - (void) candidateAcceptedAtIndex:(Q)a;
+ - (unsigned long long) currentIndex;
+ - (void) candidateAcceptedAtIndex:(unsigned long long)a;
  - (id) keyboardBehaviors;
- - (Q) selectedSortIndex;
- - (void) setCandidates:(id)atype:(i)binlineText:(id)cinlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})dmaxX:(d)elayout:(BOOL)f;
+ - (unsigned long long) selectedSortIndex;
+ - (void) setCandidates:(id)atype:(int)binlineText:(id)cinlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})dmaxX:(double)elayout:(BOOL)f;
  - (void) setInlineText:(id)a;
- - (BOOL) handleNumberKey:(Q)a;
+ - (BOOL) handleNumberKey:(unsigned long long)a;
  - (BOOL) handleTabKeyWithShift:(BOOL)a;
  - (void) candidatesDidChange;
  - (void) revealHiddenCandidates;
@@ -52,8 +52,8 @@
  - (id) _inheritedRenderConfig;
  - (BOOL) padInlineFloatingViewIsExpanded:(id)a;
  - (void) padInlineFloatingViewExpand:(id)a;
- - (Q) gridCollectionViewNumberOfColumns:(id)a;
- - (Q) gridCollectionViewSelectedSortMethodIndex:(id)a;
+ - (unsigned long long) gridCollectionViewNumberOfColumns:(id)a;
+ - (unsigned long long) gridCollectionViewSelectedSortMethodIndex:(id)a;
  - (BOOL) showHiddenCandidatesOnly;
  - (void) setShowHiddenCandidatesOnly:(BOOL)a;
  - (id) activeCandidateList;
@@ -63,14 +63,14 @@
  - (BOOL) isReducedWidth;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) inlineRect;
  - (void) updateLayerBorderWidth;
- - (BOOL) isAcceptableFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aafterScrollBy:(d)b;
+ - (BOOL) isAcceptableFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aafterScrollBy:(double)b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) adjustedInlineRectFromInlineText:(id)ainlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) adjustedFrameFromDesiredFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atextHeight:(d)b;
- - (d) maxX;
- - (void) setCandidates:(id)atype:(i)binlineText:(id)cinlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})dmaxX:(d)elayout:(BOOL)fshowHiddenCandidatesOnly:(BOOL)g;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) adjustedFrameFromDesiredFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atextHeight:(double)b;
+ - (double) maxX;
+ - (void) setCandidates:(id)atype:(int)binlineText:(id)cinlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})dmaxX:(double)elayout:(BOOL)fshowHiddenCandidatesOnly:(BOOL)g;
  - (void) setInlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setMaxX:(d)a;
- - (void) adjustFrameForInlineText:(id)ainlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})bmaxX:(d)c;
+ - (void) setMaxX:(double)a;
+ - (void) adjustFrameForInlineText:(id)ainlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})bmaxX:(double)c;
  - (id) sortSelectionBar;
  - (void) expand;
  - (void) sortSelectionBarAction;
@@ -79,7 +79,7 @@
  - (void) layout;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setPosition:(i)a;
+ - (void) setPosition:(int)a;
  - (id) currentCandidate;
  - (BOOL) hasCandidates;
  - (id) candidates;

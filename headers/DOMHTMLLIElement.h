@@ -5,8 +5,8 @@
 
  - (void) setType:(id)a;
  - (id) type;
- - (void) setValue:(i)a;
- - (i) value;
+ - (void) setValue:(int)a;
+ - (int) value;
 
 
 @end

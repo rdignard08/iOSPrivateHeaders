@@ -6,7 +6,7 @@
     @"UIButton" _endpointButton;
     @"UIButton" _endpointButtonLandscape;
     @"UIButton" _waveTapEndpointButton;
-    i _state;
+    int _state;
     BOOL _keyboardInTransition;
     BOOL _automaticAppearanceWasEnabled;
     @"_UISiriWaveyView" _waveyView;
@@ -28,14 +28,14 @@
  - (BOOL) isShowing;
  - (void) returnToKeyboard;
  - (BOOL) drawsOwnBackground;
- - (f) audioLevelForWaveyView:(id)a;
+ - (float) audioLevelForWaveyView:(id)a;
  - (id) endpointButton;
  - ({CGSize=dd}) currentScreenSize;
  - (void) applicationEnteredBackground;
  - ({CGPoint=dd}) positionForShow;
  - ({CGPoint=dd}) backgroundOffset;
  - (void) endpointButtonPressed;
- - (void) setState:(i)a;
+ - (void) setState:(int)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - ({CGPoint=dd}) contentOffset;
  - (BOOL) visible;

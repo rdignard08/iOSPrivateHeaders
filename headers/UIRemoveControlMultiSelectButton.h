@@ -5,7 +5,7 @@
     b1 _isSelected;
 }
  + (id) minusImage;
- + (f) defaultWidth;
+ + (float) defaultWidth;
  + (id) plusImage;
  + (id) minusCenterImage;
 

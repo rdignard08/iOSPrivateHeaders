@@ -2,7 +2,7 @@
 @protocol AFURLResponseSerialization;
 @interface AFHTTPResponseSerializer : NSObject <AFURLResponseSerialization> {
 
-    Q _stringEncoding;
+    unsigned long long _stringEncoding;
     @"NSIndexSet" _acceptableStatusCodes;
     @"NSSet" _acceptableContentTypes;
 }
@@ -13,8 +13,8 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) responseObjectForResponse:(id)adata:(id)berror:(^@)c;
- - (void) setStringEncoding:(Q)a;
- - (Q) stringEncoding;
+ - (void) setStringEncoding:(unsigned long long)a;
+ - (unsigned long long) stringEncoding;
  - (void) setAcceptableStatusCodes:(id)a;
  - (void) setAcceptableContentTypes:(id)a;
  - (id) acceptableContentTypes;

@@ -3,7 +3,7 @@
 @interface _UITextViewRestorableScrollPosition : NSObject <NSCoding> {
 
     {_NSRange="location"Q"length"Q} _range;
-    d _offsetInLine;
+    double _offsetInLine;
 }
  + (id) restorableScrollPositionForTextView:(id)a;
  + (id) restorableScrollPositionWithRange:({_NSRange=QQ})a;
@@ -11,7 +11,7 @@
 
  - (id) dictionaryRepresentation;
  - (id) initWithTextView:(id)a;
- - (d) offsetWithinLine;
+ - (double) offsetWithinLine;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - ({_NSRange=QQ}) range;

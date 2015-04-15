@@ -11,7 +11,7 @@
  - (void) setTitle:(id)a;
  - (void) dealloc;
  - (BOOL) _canBeReusedInPickerView;
- - (id) initWithStyle:(q)areuseIdentifier:(id)bisModern:(BOOL)ctextColor:(id)d;
+ - (id) initWithStyle:(long long)areuseIdentifier:(id)bisModern:(BOOL)ctextColor:(id)d;
  - (void) setAttributedTitle:(id)a;
  - (void) prepareForReuse;
  - (id) _titleLabel;

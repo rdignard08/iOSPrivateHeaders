@@ -4,13 +4,13 @@
 
     @"UIKBTree" _keyplane;
     @"UITextInputTraits" _inputTraits;
-    i _visualStyle;
+    int _visualStyle;
     @"NSObject" _geometryCacheKey;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _splitLeftRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _splitLeftCacheRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _splitRightRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _splitRightCacheRect;
-    i _topCorners;
+    int _topCorners;
     BOOL _isSplit;
     BOOL _centerFilled;
     BOOL _hasCandidateKeys;
@@ -24,7 +24,7 @@
  - (void) refreshStyleForKeyplane:(id)ainputTraits:(id)b;
  - (void) setGeometryCacheKey:(id)a;
  - (id) cacheKey;
- - (d) cachedWidth;
+ - (double) cachedWidth;
  - (id) cacheKeysForRenderFlags:(id)a;
  - (void) drawContentsOfRenderers:(id)a;
  - (BOOL) cacheDeferable;

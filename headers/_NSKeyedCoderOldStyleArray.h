@@ -2,15 +2,15 @@
 @interface _NSKeyedCoderOldStyleArray : NSObject {
 
     ^v _addr;
-    Q _count;
-    Q _size;
-    c _type;
+    unsigned long long _count;
+    unsigned long long _size;
+    char _type;
     BOOL _decoded;
     [2c] _padding;
 }
 
- - (id) initWithObjCType:(c)acount:(Q)bat:(r^v)c;
- - (void) fillObjCType:(c)acount:(Q)bat:(^v)c;
+ - (id) initWithObjCType:(char)acount:(unsigned long long)bat:(r^v)c;
+ - (void) fillObjCType:(char)acount:(unsigned long long)bat:(^v)c;
  - (void) dealloc;
  - (void) finalize;
  - (void) encodeWithCoder:(id)a;

@@ -23,7 +23,7 @@
  + (void) removePasteboardWithName:(id)a;
  + (id) generalPasteboard;
 
- - (q) changeCount;
+ - (long long) changeCount;
  - (void) dealloc;
  - (id) string;
  - (id) name;
@@ -60,7 +60,7 @@
  - (id) image;
  - (void) addItems:(id)a;
  - (void) setItems:(id)a;
- - (q) numberOfItems;
+ - (long long) numberOfItems;
  - (id) dataForPasteboardType:(id)ainItemSet:(id)b;
  - (id) valuesForPasteboardType:(id)ainItemSet:(id)b;
 

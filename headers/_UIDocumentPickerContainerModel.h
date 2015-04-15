@@ -1,9 +1,9 @@
 
 @interface _UIDocumentPickerContainerModel : NSObject {
 
-    i _sortOrder;
+    int _sortOrder;
     @"NSArray" _pickableTypes;
-    Q _pickerMode;
+    unsigned long long _pickerMode;
     @"NSMutableArray" _updateHandlers;
     @"NSOperationQueue" _thumbnailQueue;
 }
@@ -25,12 +25,12 @@
  - (void) stopMonitoringChanges;
  - (id) displayTitle;
  - (void) refreshItem:(id)athumbnailOnly:(BOOL)b;
- - (void) setSortOrder:(i)a;
+ - (void) setSortOrder:(int)a;
  - (id) pickableTypes;
  - (void) setPickableTypes:(id)a;
- - (Q) pickerMode;
- - (void) setPickerMode:(Q)a;
- - (i) sortOrder;
+ - (unsigned long long) pickerMode;
+ - (void) setPickerMode:(unsigned long long)a;
+ - (int) sortOrder;
  - (id) updateHandlers;
  - (void) setUpdateHandlers:(id)a;
  - (id) thumbnailQueue;

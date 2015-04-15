@@ -8,10 +8,10 @@
 }
 
  - (void) dealloc;
- - (Q) supportedInterfaceOrientations;
+ - (unsigned long long) supportedInterfaceOrientations;
  - (void) setScrollView:(id)a;
  - (void) loadView;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (void) viewDidAppear:(BOOL)a;
  - (id) scrollView;

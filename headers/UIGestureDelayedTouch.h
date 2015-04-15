@@ -6,7 +6,7 @@
     @"UITouch" _stateWhenDelayed;
     @"UITouch" _stateWhenDelivered;
     @"UIEvent" _event;
-    q _delayCount;
+    long long _delayCount;
     BOOL _cloneForSecondDelivery;
 }
 @property (atomic, retain, readwrite) UITouch* touch;
@@ -23,12 +23,12 @@
  - (void) setEvent:(id)a;
  - (void) setStateWhenDelayed:(id)a;
  - (BOOL) cloneForSecondDelivery;
- - (q) decrementDelayCount;
+ - (long long) decrementDelayCount;
  - (void) incrementDelayCount;
- - (q) delayCount;
+ - (long long) delayCount;
  - (void) saveCurrentTouchState;
- - (q) phaseForDelivery;
- - (d) timestampForDelivery;
+ - (long long) phaseForDelivery;
+ - (double) timestampForDelivery;
  - (id) stateWhenDelayed;
  - (id) stateWhenDelivered;
  - (void) setStateWhenDelivered:(id)a;

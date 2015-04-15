@@ -1,11 +1,11 @@
 
 @interface _UISlotIdWrapper : NSObject {
 
-    I _slotId;
+    unsigned int _slotId;
 }
 
  - (void) dealloc;
- - (id) initWithSlotId:(I)a;
+ - (id) initWithSlotId:(unsigned int)a;
 
 
 @end

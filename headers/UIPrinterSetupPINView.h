@@ -8,7 +8,7 @@
     @"UITextField" _textEntryField;
     @"UILabel" _failedLabel;
     @"UIImageView" _failedBackground;
-    q _failedAttemptCount;
+    long long _failedAttemptCount;
 }
 
  - (void) dealloc;
@@ -32,8 +32,8 @@
  - (id) textEntryField;
  - (id) failedLabel;
  - (id) failedBackground;
- - (q) failedAttemptCount;
- - (void) setFailedAttemptCount:(q)a;
+ - (long long) failedAttemptCount;
+ - (void) setFailedAttemptCount:(long long)a;
 
 
 @end

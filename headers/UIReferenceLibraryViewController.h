@@ -7,7 +7,7 @@
     @"UINavigationController" _baseNavController;
     @"UITableViewController" _multiDefViewController;
     @"UIViewController" _longDefViewController;
-    q _oldPopoverStyle;
+    long long _oldPopoverStyle;
     @"UIWindow" _rotationDecider;
     @? _dismissCompletionHandler;
 }
@@ -22,19 +22,19 @@
  + (id) _dictionaryDefinitionAttributes;
  + (BOOL) dictionaryHasDefinitionForTerm:(id)a;
  + (id) _popoverControllerForReferenceLibraryWithString:(id)a;
- + (id) _viewControllerForReferenceWithString:(id)aoptions:(Q)b;
+ + (id) _viewControllerForReferenceWithString:(id)aoptions:(unsigned long long)b;
 
  - (void) dealloc;
- - (d) tableView:(id)aheightForRowAtIndexPath:(id)b;
+ - (double) tableView:(id)aheightForRowAtIndexPath:(id)b;
  - (id) tableView:(id)awillSelectRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) numberOfSectionsInTableView:(id)a;
- - (id) tableView:(id)atitleForHeaderInSection:(q)b;
- - (Q) supportedInterfaceOrientations;
+ - (long long) numberOfSectionsInTableView:(id)a;
+ - (id) tableView:(id)atitleForHeaderInSection:(long long)b;
+ - (unsigned long long) supportedInterfaceOrientations;
  - (id) _backgroundColor;
  - (id) initWithNibName:(id)abundle:(id)b;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) _setPopoverController:(id)a;
  - (void) viewDidLoad;
  - (void) _willBecomeContentViewControllerOfPopover:(id)a;

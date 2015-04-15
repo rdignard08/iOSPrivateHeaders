@@ -1,12 +1,12 @@
 
 @interface UITouchTapInfo : NSObject {
 
-    Q _tapCount;
-    f _multiTapDelay;
-    f _rejectAsTapThrehold;
-    f _viewTouchPauseThreshold;
+    unsigned long long _tapCount;
+    float _multiTapDelay;
+    float _rejectAsTapThrehold;
+    float _viewTouchPauseThreshold;
     {CGPoint="x"d"y"d} _startPosition;
-    d _startTime;
+    double _startTime;
 }
 
  - (BOOL) cancelTouchTracking;

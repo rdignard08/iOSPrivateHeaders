@@ -2,14 +2,14 @@
 @interface NSPinyinString : NSString {
 
     @"NSString" _string;
-    Q _syllableCount;
-    Q _score;
-    Q _rangeCount;
-    Q _replacementCount;
-    Q _transpositionCount;
-    Q _insertionCount;
-    Q _deletionCount;
-    Q _firstModificationIndex;
+    unsigned long long _syllableCount;
+    unsigned long long _score;
+    unsigned long long _rangeCount;
+    unsigned long long _replacementCount;
+    unsigned long long _transpositionCount;
+    unsigned long long _insertionCount;
+    unsigned long long _deletionCount;
+    unsigned long long _firstModificationIndex;
     ^{_NSRange=QQ} _ranges;
     BOOL _lastSyllableIsPartial;
 }
@@ -20,26 +20,26 @@
  + (id) prefixesForInputString:(id)a;
 
  - (Class) classForCoder;
- - (id) initWithString:(id)asyllableCount:(Q)blastSyllableIsPartial:(BOOL)cscore:(Q)dreplacementCount:(Q)etranspositionCount:(Q)finsertionCount:(Q)gdeletionCount:(Q)hindexOfFirstModification:(Q)irangeCount:(Q)jranges:(^{_NSRange=QQ})k;
- - (Q) syllableCount;
+ - (id) initWithString:(id)asyllableCount:(unsigned long long)blastSyllableIsPartial:(BOOL)cscore:(unsigned long long)dreplacementCount:(unsigned long long)etranspositionCount:(unsigned long long)finsertionCount:(unsigned long long)gdeletionCount:(unsigned long long)hindexOfFirstModification:(unsigned long long)irangeCount:(unsigned long long)jranges:(^{_NSRange=QQ})k;
+ - (unsigned long long) syllableCount;
  - (BOOL) lastSyllableIsPartial;
- - (Q) score;
- - (Q) numberOfNonPinyinRanges;
- - (Q) numberOfReplacements;
- - (Q) numberOfTranspositions;
- - (Q) numberOfInsertions;
- - (Q) numberOfDeletions;
- - (Q) indexOfFirstModification;
- - ({_NSRange=QQ}) nonPinyinRangeAtIndex:(Q)a;
+ - (unsigned long long) score;
+ - (unsigned long long) numberOfNonPinyinRanges;
+ - (unsigned long long) numberOfReplacements;
+ - (unsigned long long) numberOfTranspositions;
+ - (unsigned long long) numberOfInsertions;
+ - (unsigned long long) numberOfDeletions;
+ - (unsigned long long) indexOfFirstModification;
+ - ({_NSRange=QQ}) nonPinyinRangeAtIndex:(unsigned long long)a;
  - (id) nonPinyinIndexSet;
- - (id) initWithString:(id)asyllableCount:(Q)blastSyllableIsPartial:(BOOL)cscore:(Q)dreplacementCount:(Q)etranspositionCount:(Q)finsertionCount:(Q)gdeletionCount:(Q)hrangeCount:(Q)iranges:(^{_NSRange=QQ})j;
+ - (id) initWithString:(id)asyllableCount:(unsigned long long)blastSyllableIsPartial:(BOOL)cscore:(unsigned long long)dreplacementCount:(unsigned long long)etranspositionCount:(unsigned long long)finsertionCount:(unsigned long long)gdeletionCount:(unsigned long long)hrangeCount:(unsigned long long)iranges:(^{_NSRange=QQ})j;
  - (id) description;
  - (void) dealloc;
  - (id) string;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (S) characterAtIndex:(Q)a;
- - (Q) length;
+ - (unsigned short) characterAtIndex:(unsigned long long)a;
+ - (unsigned long long) length;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

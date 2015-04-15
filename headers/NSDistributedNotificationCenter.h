@@ -6,9 +6,9 @@
  + (id) defaultCenter;
 
  - (void) postNotification:(id)a;
- - (void) addObserver:(id)aselector:(SEL)bname:(id)cobject:(id)dsuspensionBehavior:(Q)e;
- - (id) addObserverForName:(id)aobject:(id)bsuspensionBehavior:(Q)cqueue:(id)dusingBlock:(@?)e;
- - (void) postNotificationName:(id)aobject:(id)buserInfo:(id)coptions:(Q)d;
+ - (void) addObserver:(id)aselector:(SEL)bname:(id)cobject:(id)dsuspensionBehavior:(unsigned long long)e;
+ - (id) addObserverForName:(id)aobject:(id)bsuspensionBehavior:(unsigned long long)cqueue:(id)dusingBlock:(@?)e;
+ - (void) postNotificationName:(id)aobject:(id)buserInfo:(id)coptions:(unsigned long long)d;
  - (void) postNotificationName:(id)aobject:(id)buserInfo:(id)cdeliverImmediately:(BOOL)d;
  - (BOOL) suspended;
  - (void) setSuspended:(BOOL)a;

@@ -10,7 +10,7 @@
  - (id) nonretainedObjectValue;
  - (id) initWithPointer:(^v)a;
  - (id) copyWithZone:(^{_NSZone=})a;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (r*) objCType;
 
 

@@ -3,7 +3,7 @@
 
     @"UILongPressGestureRecognizer" _editingGestureRecognizer;
     @"NSIndexPath" _indexPathForDraggedItem;
-    d _evaluatedHorizontalItemOffset;
+    double _evaluatedHorizontalItemOffset;
     @"NSArray" _preparedLayoutAttributes;
     @"NSArray" _preparedUpdateItems;
     @"_UIActivityGroupActivityCell" _draggingView;
@@ -32,11 +32,11 @@
  - (void) setIndexPathForDraggedItem:(id)a;
  - (void) setPreparedLayoutAttributes:(id)a;
  - (void) setPreparedUpdateItems:(id)a;
- - (id) _indexPathsForItemsInSection:(q)a;
+ - (id) _indexPathsForItemsInSection:(long long)a;
  - ({CGSize=dd}) _evaluatePreferredItemSizeForItemsAtIndexPaths:(id)a;
- - ({UIEdgeInsets=dddd}) _evaluateInsetForSectionAtIndex:(q)a;
- - (d) _evaluateHorizontalItemOffsetForItemSize:({CGSize=dd})ainset:({UIEdgeInsets=dddd})b;
- - (void) setEvaluatedHorizontalItemOffset:(d)a;
+ - ({UIEdgeInsets=dddd}) _evaluateInsetForSectionAtIndex:(long long)a;
+ - (double) _evaluateHorizontalItemOffsetForItemSize:({CGSize=dd})ainset:({UIEdgeInsets=dddd})b;
+ - (void) setEvaluatedHorizontalItemOffset:(double)a;
  - (void) setEvaluatedInset:({UIEdgeInsets=dddd})a;
  - (void) setEvaluatedItemSize:({CGSize=dd})a;
  - (void) setEvaluatedContentSize:({CGSize=dd})a;
@@ -46,7 +46,7 @@
  - (id) adjustLayoutAttributesForDraggingIfNeeded:(id)a;
  - (id) preparedUpdateItems;
  - ({CGSize=dd}) evaluatedItemSize;
- - (d) evaluatedHorizontalItemOffset;
+ - (double) evaluatedHorizontalItemOffset;
  - ({UIEdgeInsets=dddd}) evaluatedInset;
  - (id) indexPathForDraggedItem;
  - (void) setDraggingOffset:({UIOffset=dd})a;

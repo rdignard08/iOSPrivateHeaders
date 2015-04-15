@@ -54,6 +54,7 @@ void indent_n_times(const char* indent, long count, FILE* file) {
     
     for (NSUInteger i = 0; i < count; i++) {
         __weak Class cls = classList[i];
+        if (!cls) continue;
         
         // constant strings
         const char* const extension = ".h";
@@ -260,16 +261,44 @@ void indent_n_times(const char* indent, long count, FILE* file) {
 - (const char*)typeForEncoding:(const char*)encoding {
     if (encoding && strlen(encoding) == 1) {
         switch (encoding[0]) {
-            case ':':
-                return "SEL";
-            case '@':
-                return "id";
-            case 'v':
-                return "void";
+            case 'c':
+                return "char";
+            case 'i':
+                return "int";
+            case 's':
+                return "short";
+            case 'l':
+                return "long";
+            case 'q':
+                return "long long";
+            case 'C':
+                return "unsigned char";
+            case 'I':
+                return "unsigned int";
+            case 'S':
+                return "unsigned short";
+            case 'L':
+                return "unsigned long";
+            case 'Q':
+                return "unsigned long long";
+            case 'f':
+                return "float";
+            case 'd':
+                return "double";
             case 'B':
                 return "BOOL";
+            case 'v':
+                return "void";
+            case '*':
+                return "char*";
+            case '@':
+                return "id";
             case '#':
                 return "Class";
+            case ':':
+                return "SEL";
+            case '?':
+                return "void*";
         }
     }
     return encoding;

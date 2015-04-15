@@ -2,7 +2,7 @@
 @interface _UITableViewDeleteAnimationSupport : NSObject {
 
     @"NSMutableArray" _cellsToDeleteAfterAnimation;
-    i _deleteCount;
+    int _deleteCount;
     b1 _enabledStateBeforeDeleteAnimation;
     b30 _reserved;
 }

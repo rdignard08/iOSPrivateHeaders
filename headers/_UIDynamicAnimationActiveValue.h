@@ -1,11 +1,11 @@
 
 @interface _UIDynamicAnimationActiveValue : NSObject {
 
-    d _value;
-    d _minimumActiveValue;
-    d _maximumActiveValue;
-    i _type;
-    d _boundaryPull;
+    double _value;
+    double _minimumActiveValue;
+    double _maximumActiveValue;
+    int _type;
+    double _boundaryPull;
     id _applier;
     b1 _lowerBoundary;
     b1 _upperBoundary;
@@ -14,27 +14,27 @@
 @property (nonatomic, assign, readwrite) NSNumber* minimumActiveValue;
 @property (nonatomic, assign, readwrite) NSNumber* maximumActiveValue;
 @property (nonatomic, assign, readwrite) NSNumber* type;
- + (id) activeValue:(d)aofType:(i)b;
- + (id) lowerBoundary:(d)aofType:(i)b;
- + (id) upperBoundary:(d)aofType:(i)b;
+ + (id) activeValue:(double)aofType:(int)b;
+ + (id) lowerBoundary:(double)aofType:(int)b;
+ + (id) upperBoundary:(double)aofType:(int)b;
 
  - (id) description;
  - (void) dealloc;
- - (void) setType:(i)a;
+ - (void) setType:(int)a;
  - (@?) _applier;
- - (void) _setBoundaryPull:(d)a;
+ - (void) _setBoundaryPull:(double)a;
  - (BOOL) _isLowerBoundary;
  - (BOOL) _isUpperBoundary;
- - (d) minimumActiveValue;
- - (d) maximumActiveValue;
- - (void) setMinimumActiveValue:(d)a;
- - (void) setMaximumActiveValue:(d)a;
- - (d) _boundaryPull;
+ - (double) minimumActiveValue;
+ - (double) maximumActiveValue;
+ - (void) setMinimumActiveValue:(double)a;
+ - (void) setMaximumActiveValue:(double)a;
+ - (double) _boundaryPull;
  - (id) init;
- - (i) type;
- - (void) setValue:(d)a;
- - (d) value;
- - (void) _appendDescriptionToString:(id)aatLevel:(i)b;
+ - (int) type;
+ - (void) setValue:(double)a;
+ - (double) value;
+ - (void) _appendDescriptionToString:(id)aatLevel:(int)b;
 
 
 @end

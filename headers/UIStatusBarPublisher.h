@@ -2,19 +2,19 @@
 @interface UIStatusBarPublisher : NSObject {
 
     ^{__CFMachPort=} _machPort;
-    i _styleOverrides;
+    int _styleOverrides;
     @"NSMutableSet" _statusBarItems;
 }
 
  - (void) dealloc;
- - (i) addStyleOverrides:(i)a;
- - (i) removeStyleOverrides:(i)a;
- - (void) addStatusBarItem:(i)a;
- - (void) removeStatusBarItem:(i)a;
- - (I) publisherPort;
+ - (int) addStyleOverrides:(int)a;
+ - (int) removeStyleOverrides:(int)a;
+ - (void) addStatusBarItem:(int)a;
+ - (void) removeStatusBarItem:(int)a;
+ - (unsigned int) publisherPort;
  - (id) initWithCFMachPort:(^{__CFMachPort=})a;
  - (id) statusBarItems;
- - (i) styleOverrides;
+ - (int) styleOverrides;
 
 
 @end

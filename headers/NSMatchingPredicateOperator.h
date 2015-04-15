@@ -1,12 +1,12 @@
 
 @interface NSMatchingPredicateOperator : NSStringPredicateOperator {
 
-    i _contextLock;
+    int _contextLock;
     ^{?=@^v} _regexContext;
 }
 
  - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
- - (id) initWithOperatorType:(Q)amodifier:(Q)bvariant:(Q)c;
+ - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)bvariant:(unsigned long long)c;
  - (id) symbol;
  - (BOOL) _shouldEscapeForLike;
  - (void) _clearContext;

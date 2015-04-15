@@ -9,7 +9,7 @@
 
  - (void) dealloc;
  - (id) collectionViewLayout;
- - (q) collectionView:(id)anumberOfItemsInSection:(q)b;
+ - (long long) collectionView:(id)anumberOfItemsInSection:(long long)b;
  - (id) collectionView:(id)acellForItemAtIndexPath:(id)b;
  - (void) setView:(id)a;
  - (id) preferredFocusedItem;
@@ -18,7 +18,7 @@
  - (id) contentScrollView;
  - (void) viewWillUnload;
  - (void) __viewWillAppear:(BOOL)a;
- - (id) _animatorForOperation:(q)afromViewController:(id)btoViewController:(id)c;
+ - (id) _animatorForOperation:(long long)afromViewController:(id)btoViewController:(id)c;
  - (BOOL) useLayoutToLayoutNavigationTransitions;
  - (id) _uiCollectionView;
  - (void) _clearSharedView;

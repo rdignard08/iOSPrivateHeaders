@@ -8,7 +8,7 @@
     BOOL __palettePinningBarHidden;
     @"UIView" __backgroundView;
     @"UINavigationController" _navController;
-    Q _boundaryEdge;
+    unsigned long long _boundaryEdge;
     @"UIViewController" __unpinnedController;
     id __pinningBar;
     @"NSArray" __constraints;
@@ -19,7 +19,7 @@
 
  - (void) dealloc;
  - (id) _backgroundView;
- - (void) _setVisualAltitude:(d)a;
+ - (void) _setVisualAltitude:(double)a;
  - (void) _setVisualAltitudeBias:({CGSize=dd})a;
  - (void) didMoveToSuperview;
  - (void) _setBackgroundView:(id)a;
@@ -30,19 +30,19 @@
  - (BOOL) isAttached;
  - (BOOL) isVisibleWhenPinningBarIsHidden;
  - (BOOL) _isPalettePinningBarHidden;
- - (Q) boundaryEdge;
+ - (unsigned long long) boundaryEdge;
  - (BOOL) paletteIsHidden;
- - (void) _setTopConstraintConstant:(d)a;
+ - (void) _setTopConstraintConstant:(double)a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aisAnimating:(BOOL)b;
- - (void) _setLeftConstraintConstant:(d)a;
+ - (void) _setLeftConstraintConstant:(double)a;
  - (void) _setPalettePinningBarHidden:(BOOL)a;
  - (BOOL) isPinned;
- - (void) _resetConstraintConstants:(d)a;
+ - (void) _resetConstraintConstants:(double)a;
  - (BOOL) _restartPaletteTransitionIfNecessary;
  - (id) _constraints;
  - (void) _configurePaletteConstraintsForBoundary;
  - ({UIEdgeInsets=dddd}) preferredContentInsets;
- - (id) _initWithNavigationController:(id)aforEdge:(Q)b;
+ - (id) _initWithNavigationController:(id)aforEdge:(unsigned long long)b;
  - (void) _setSize:({CGSize=dd})a;
  - (void) _setPinningBar:(id)a;
  - (void) _setAttached:(BOOL)adidComplete:(BOOL)b;

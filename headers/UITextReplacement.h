@@ -5,7 +5,7 @@
     @"NSString" _originalText;
     @"NSString" _replacementText;
     @"NSString" _menuTitle;
-    I _usageTrackingMask;
+    unsigned int _usageTrackingMask;
 }
 @property (nonatomic, assign, readonly) UITextRange* range;
 @property (nonatomic, assign, readonly) NSString* originalText;
@@ -17,8 +17,8 @@
  - (void) dealloc;
  - (id) replacementText;
  - (id) originalText;
- - (I) usageTrackingMask;
- - (void) setUsageTrackingMask:(I)a;
+ - (unsigned int) usageTrackingMask;
+ - (void) setUsageTrackingMask:(unsigned int)a;
  - (id) menuTitle;
  - (id) range;
 

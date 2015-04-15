@@ -9,14 +9,14 @@
     {?="removeButtonVisible"b1"removeConfirmationVisible"b1"removedFromTargetWhenHidden"b1"disableToggleRotate"b1"alwaysHideRemoveButton"b1"editingStyle"b3"reserved"b23} _removeControlFlags;
 }
  + (void) hideAllRemoveConfirmationsInView:(id)a;
- + (f) removeButtonWidth;
+ + (float) removeButtonWidth;
  + (BOOL) removeConfirmationsVisibleInView:(id)a;
 
  - (id) initWithTarget:(id)a;
  - (void) dealloc;
  - (void) setDelegate:(id)a;
  - (void) setTarget:(id)a;
- - (void) setAlpha:(d)a;
+ - (void) setAlpha:(double)a;
  - (void) layoutSubviews;
  - (id) _interceptEvent:(id)a;
  - (id) _interceptMouseEvent:(^{__GSEvent=})a;
@@ -28,10 +28,10 @@
  - (void) animator:(id)astopAnimation:(id)b;
  - (BOOL) _isInsertControl;
  - (void) _showDeleteConfirmation:(id)a;
- - (f) _verticalOffsetFromTarget;
+ - (float) _verticalOffsetFromTarget;
  - (void) _doInsert:(id)a;
  - (void) _doRemove:(id)a;
- - (void) addConfirmationButtonSubview:(id)awithWidth:(f)btarget:(id)c;
+ - (void) addConfirmationButtonSubview:(id)awithWidth:(float)btarget:(id)c;
  - (BOOL) isRemoveConfirmationVisible;
  - (void) _hideRemoveConfirmation;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _removeConfirmationEndingFrame;
@@ -45,7 +45,7 @@
  - (void) _minusButtonFadeAnimationStopped;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) targetContentBounds;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _removeConfirmationStartingFrame;
- - (f) removeButtonAnimationDuration;
+ - (float) removeButtonAnimationDuration;
  - (void) _confirmationAnimationDidEnd;
  - (void) setRemoveConfirmationVisible:(BOOL)aanimated:(BOOL)b;
  - (void) _setRemoveConfirmationShowing:(BOOL)aanimated:(BOOL)b;
@@ -61,7 +61,7 @@
  - (id) removeConfirmationView;
  - (void) setLabel:(id)a;
  - (void) _setInsertControl:(BOOL)a;
- - (void) _setTableViewCellEditingStyle:(q)a;
+ - (void) _setTableViewCellEditingStyle:(long long)a;
  - (id) delegate;
  - (void) removeFromSuperview;
 

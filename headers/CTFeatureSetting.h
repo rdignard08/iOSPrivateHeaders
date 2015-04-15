@@ -6,7 +6,7 @@
 
  - (id) selector;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
  - (id) keyEnumerator;
  - (BOOL) isEqualToDictionary:(id)a;

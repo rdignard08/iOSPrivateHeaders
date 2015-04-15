@@ -13,9 +13,9 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (r^v) bytes;
  - (void) getBytes:(^v)arange:({_NSRange=QQ})b;
- - (Q) hash;
- - (void) getBytes:(^v)alength:(Q)b;
- - (Q) length;
+ - (unsigned long long) hash;
+ - (void) getBytes:(^v)alength:(unsigned long long)b;
+ - (unsigned long long) length;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

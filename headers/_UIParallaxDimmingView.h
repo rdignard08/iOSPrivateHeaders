@@ -7,7 +7,7 @@
     @"UIView" _addingSubview;
 }
  + (id) newDimmingViewWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- + (id) newDimmingViewWrappingView:(id)awithLeftBorder:(d)b;
+ + (id) newDimmingViewWrappingView:(id)awithLeftBorder:(double)b;
 
  - (void) dealloc;
  - (void) didMoveToWindow;
@@ -16,7 +16,7 @@
  - (void) setDimmingColor:(id)a;
  - (id) dimmingColor;
  - (void) setAddingSubview:(id)a;
- - (id) initViewWrappingView:(id)awithLeftBorder:(d)b;
+ - (id) initViewWrappingView:(id)awithLeftBorder:(double)b;
  - (id) addingSubview;
  - (BOOL) backgroundIsDimmed;
  - (id) defaultBorderColor;

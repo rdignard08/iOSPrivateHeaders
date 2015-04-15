@@ -6,10 +6,10 @@
  - (id) _traitsForKey:(id)aonKeyplane:(id)b;
  - (id) lightTextFontName;
  - (void) setupLayoutSegments;
- - (d) defaultKeyFontSize;
- - (d) carKeyRadius;
- - (d) letterLineFontSize;
- - (d) activeLetterFontSize;
+ - (double) defaultKeyFontSize;
+ - (double) carKeyRadius;
+ - (double) letterLineFontSize;
+ - (double) activeLetterFontSize;
 
 
 @end

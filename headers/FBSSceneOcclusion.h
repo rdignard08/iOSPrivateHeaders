@@ -8,7 +8,7 @@
  + (id) fullOcclusion;
 
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) init;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) CGRect;

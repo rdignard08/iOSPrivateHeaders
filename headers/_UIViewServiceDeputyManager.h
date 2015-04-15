@@ -8,7 +8,7 @@
     @"NSLock" _connectionHandlersLock;
     @"NSMutableSet" _deputies;
     @? _terminationHandler;
-    i __automatic_invalidation_retainCount;
+    int __automatic_invalidation_retainCount;
     BOOL __automatic_invalidation_invalidated;
     id _delegate;
 }
@@ -17,7 +17,7 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (void) forwardInvocation:(id)a;
  - (BOOL) _tryRetain;
@@ -25,7 +25,7 @@
  - (void) invalidate;
  - (void) setDelegate:(id)a;
  - (id) methodSignatureForSelector:(SEL)a;
- - (i) __automatic_invalidation_logic;
+ - (int) __automatic_invalidation_logic;
  - (void) _invalidateUnconditionallyThen:(@?)a;
  - (Class) _deputyClassForConnectionSelector:(SEL)a;
  - (void) __prototype_requestConnectionToDeputyFromHostObject:(id)areplyHandler:(@?)b;

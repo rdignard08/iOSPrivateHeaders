@@ -3,7 +3,7 @@
 
 }
 
- - (Q) resultType;
+ - (unsigned long long) resultType;
 
 
 @end

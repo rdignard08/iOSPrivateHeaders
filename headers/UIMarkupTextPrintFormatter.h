@@ -8,10 +8,10 @@
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (q) _recalcPageCount;
+ - (long long) _recalcPageCount;
  - (void) removeFromPrintPageRenderer;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageAtIndex:(q)a;
- - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforPageAtIndex:(q)b;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageAtIndex:(long long)a;
+ - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforPageAtIndex:(long long)b;
  - (void) setMarkupText:(id)a;
  - (id) initWithMarkupText:(id)a;
  - (id) markupText;

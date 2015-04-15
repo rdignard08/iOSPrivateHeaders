@@ -14,9 +14,9 @@
  - (id) description;
  - (void) dealloc;
  - (id) copy;
- - (Q) count;
+ - (unsigned long long) count;
  - (void) addObject:(id)a;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) allObjects;
  - (id) init;

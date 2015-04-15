@@ -15,8 +15,8 @@
  - (void) setDevelopmentLanguageString:(id)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (S) characterAtIndex:(Q)a;
- - (Q) length;
+ - (unsigned short) characterAtIndex:(unsigned long long)a;
+ - (unsigned long long) length;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

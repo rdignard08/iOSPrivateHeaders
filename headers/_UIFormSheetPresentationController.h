@@ -6,9 +6,9 @@
     BOOL _layoutStateShouldAvoidKeyboard;
 }
 
- - (d) _dropShadowCornerRadius;
- - (q) presentationStyle;
- - (Q) dropShadowAutoresizingMask;
+ - (double) _dropShadowCornerRadius;
+ - (long long) presentationStyle;
+ - (unsigned long long) dropShadowAutoresizingMask;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frameOfPresentedViewInContainerView;
  - (BOOL) _shouldHideBottomCorner;
  - (BOOL) shouldSubscribeToKeyboardNotifications;
@@ -29,7 +29,7 @@
  - (void) _transitionFromWillBegin;
  - (void) _transitionToWillBegin;
  - (void) containerViewWillLayoutSubviews;
- - (q) _defaultPresentationStyleForTraitCollection:(id)a;
+ - (long long) _defaultPresentationStyleForTraitCollection:(id)a;
  - ({CGSize=dd}) sizeForChildContentContainer:(id)awithParentContainerSize:({CGSize=dd})b;
  - (id) initWithPresentedViewController:(id)apresentingViewController:(id)b;
  - (BOOL) _shouldChangeStatusBarViewController;

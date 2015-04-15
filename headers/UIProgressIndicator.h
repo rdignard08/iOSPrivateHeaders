@@ -6,10 +6,10 @@
 
  - (void) stopAnimation;
  - (void) setAnimating:(BOOL)a;
- - (void) setProgressIndicatorStyle:(i)a;
- - (i) progressIndicatorStyle;
+ - (void) setProgressIndicatorStyle:(int)a;
+ - (int) progressIndicatorStyle;
  - (void) startAnimation;
- - (void) setStyle:(i)a;
+ - (void) setStyle:(int)a;
 
 
 @end

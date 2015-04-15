@@ -10,22 +10,22 @@
  + (id) interfaceWithProtocol:(id)a;
 
  - (id) _verifiedMethodSignatureForReplyBlockOfSelector:(SEL)a;
- - (id) _interfaceForArgument:(Q)aofSelector:(SEL)breply:(BOOL)c;
+ - (id) _interfaceForArgument:(unsigned long long)aofSelector:(SEL)breply:(BOOL)c;
  - (id) _allowedClassesForSelector:(SEL)areply:(BOOL)b;
  - (id) _verifiedMethodSignatureForSelector:(SEL)a;
  - (void) setProtocol:(id)a;
- - (id) classesForSelector:(SEL)aargumentIndex:(Q)bofReply:(BOOL)c;
- - (id) interfaceForSelector:(SEL)aargumentIndex:(Q)bofReply:(BOOL)c;
- - (void) setClass:(Class)aforSelector:(SEL)bargumentIndex:(Q)cofReply:(BOOL)d;
- - (Class) classForSelector:(SEL)aargumentIndex:(Q)bofReply:(BOOL)c;
+ - (id) classesForSelector:(SEL)aargumentIndex:(unsigned long long)bofReply:(BOOL)c;
+ - (id) interfaceForSelector:(SEL)aargumentIndex:(unsigned long long)bofReply:(BOOL)c;
+ - (void) setClass:(Class)aforSelector:(SEL)bargumentIndex:(unsigned long long)cofReply:(BOOL)d;
+ - (Class) classForSelector:(SEL)aargumentIndex:(unsigned long long)bofReply:(BOOL)c;
  - (void) setReplyBlockSignature:(id)aforSelector:(SEL)b;
  - (id) replyBlockSignatureForSelector:(SEL)a;
  - (void) dealloc;
  - (void) finalize;
  - (id) debugDescription;
  - (id) init;
- - (void) setInterface:(id)aforSelector:(SEL)bargumentIndex:(Q)cofReply:(BOOL)d;
- - (void) setClasses:(id)aforSelector:(SEL)bargumentIndex:(Q)cofReply:(BOOL)d;
+ - (void) setInterface:(id)aforSelector:(SEL)bargumentIndex:(unsigned long long)cofReply:(BOOL)d;
+ - (void) setClasses:(id)aforSelector:(SEL)bargumentIndex:(unsigned long long)cofReply:(BOOL)d;
  - (id) protocol;
 
 

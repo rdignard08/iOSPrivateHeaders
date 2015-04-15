@@ -2,13 +2,13 @@
 @interface _UIAnimatedImage : UIImage {
 
     @"NSArray" _images;
-    d _duration;
+    double _duration;
 }
  + (BOOL) supportsSecureCoding;
 
- - (d) duration;
+ - (double) duration;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (BOOL) _isResizable;
  - ({UIEdgeInsets=dddd}) capInsets;
@@ -20,18 +20,18 @@
  - (id) resizableImageWithCapInsets:({UIEdgeInsets=dddd})a;
  - (BOOL) _isTiledWhenStretchedToSize:({CGSize=dd})a;
  - (id) images;
- - (id) initWithImages:(id)aduration:(d)b;
- - (id) resizableImageWithCapInsets:({UIEdgeInsets=dddd})aresizingMode:(q)b;
+ - (id) initWithImages:(id)aduration:(double)b;
+ - (id) resizableImageWithCapInsets:({UIEdgeInsets=dddd})aresizingMode:(long long)b;
  - (void) _setAlignmentRectInsets:({UIEdgeInsets=dddd})a;
- - (id) _bezeledImageWithShadowRed:(d)agreen:(d)bblue:(d)calpha:(d)dfillRed:(d)egreen:(d)fblue:(d)galpha:(d)hdrawShadow:(BOOL)i;
- - (id) _doubleBezeledImageWithExteriorShadowRed:(d)agreen:(d)bblue:(d)calpha:(d)dinteriorShadowRed:(d)egreen:(d)fblue:(d)galpha:(d)hfillRed:(d)igreen:(d)jblue:(d)kalpha:(d)l;
- - (id) _imageScaledToProportion:(d)ainterpolationQuality:(i)b;
+ - (id) _bezeledImageWithShadowRed:(double)agreen:(double)bblue:(double)calpha:(double)dfillRed:(double)egreen:(double)fblue:(double)galpha:(double)hdrawShadow:(BOOL)i;
+ - (id) _doubleBezeledImageWithExteriorShadowRed:(double)agreen:(double)bblue:(double)calpha:(double)dinteriorShadowRed:(double)egreen:(double)fblue:(double)galpha:(double)hfillRed:(double)igreen:(double)jblue:(double)kalpha:(double)l;
+ - (id) _imageScaledToProportion:(double)ainterpolationQuality:(int)b;
  - (id) _imageWithStylePresets:(id)awithTintColor:(id)b;
- - (id) _selectedTabBarItemImageWithTintColor:(id)ametrics:(q)bstyle:(q)cforScreenScale:(d)d;
- - (id) _unselectedTabBarItemImageWithTintColor:(id)ametrics:(q)bstyle:(q)cforScreenScale:(d)d;
+ - (id) _selectedTabBarItemImageWithTintColor:(id)ametrics:(long long)bstyle:(long long)cforScreenScale:(double)d;
+ - (id) _unselectedTabBarItemImageWithTintColor:(id)ametrics:(long long)bstyle:(long long)cforScreenScale:(double)d;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (q) resizingMode;
+ - (long long) resizingMode;
 
 
 @end

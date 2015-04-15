@@ -8,7 +8,7 @@
  - (void) skipDescendents;
  - (void) skipDescendants;
  - (id) nextObject;
- - (Q) level;
+ - (unsigned long long) level;
 
 
 @end

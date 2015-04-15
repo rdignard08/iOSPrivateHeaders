@@ -9,7 +9,7 @@
  - (id) filter;
  - (void) detach;
  - (id) root;
- - (I) whatToShow;
+ - (unsigned int) whatToShow;
  - (BOOL) expandEntityReferences;
  - (id) referenceNode;
  - (BOOL) pointerBeforeReferenceNode;

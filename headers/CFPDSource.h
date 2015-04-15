@@ -8,11 +8,11 @@
     ^{__CFString=} _domain;
     r* _actualPath;
     r* _pathToTemporaryFileToWriteTo;
-    I _lastEuid;
-    I _lastEgid;
-    i _owner;
-    s _generationShmemIndex;
-    c _plistAccessingCount;
+    unsigned int _lastEuid;
+    unsigned int _lastEgid;
+    int _owner;
+    short _generationShmemIndex;
+    char _plistAccessingCount;
     b1 _dirty;
     b1 _byHost;
     b1 _managed;
@@ -37,21 +37,21 @@
  - (void) lockedSync:(@?)a;
  - (void) transitionToMultiOwner;
  - (void) addOwner:(id)a;
- - (s) shmemIndex;
+ - (short) shmemIndex;
  - (id) acceptMessage:(id)a;
  - (^{__CFString=}) debugDump;
  - (void) removeOwner;
  - (^{__CFString=}) user;
  - (void) cacheActualPath;
- - (C) _backingPlistChangedSinceLastSync:(^Q)a;
- - (void) cacheActualAndTemporaryPathsWithEUID:(I)aegid:(I)b;
+ - (unsigned char) _backingPlistChangedSinceLastSync:(^Q)a;
+ - (void) cacheActualAndTemporaryPathsWithEUID:(unsigned int)aegid:(unsigned int)b;
  - (void) enqueueNewKey:(^{__CFString=})avalue:(^v)b;
  - (id) propertyList;
  - (BOOL) clearCacheIfStale:(^Q)a;
  - (BOOL) acceptLocalMessage:(id)awithReply:(^{__CFDictionary=})binode:(^Q)c;
- - (void) cacheActualPathCreatingIfNecessary:(BOOL)aeuid:(I)begid:(I)c;
- - (BOOL) getUncanonicalizedPath:(*)a;
- - (id) initWithDomain:(^{__CFString=})auserName:(^{__CFString=})bbyHost:(BOOL)cmanaged:(BOOL)dshmemIndex:(s)e;
+ - (void) cacheActualPathCreatingIfNecessary:(BOOL)aeuid:(unsigned int)begid:(unsigned int)c;
+ - (BOOL) getUncanonicalizedPath:(char*)a;
+ - (id) initWithDomain:(^{__CFString=})auserName:(^{__CFString=})bbyHost:(BOOL)cmanaged:(BOOL)dshmemIndex:(short)e;
  - (void) noteAccessed;
  - (void) lockedAsync:(@?)a;
  - (BOOL) hasEverHadMultipleOwners;
@@ -63,9 +63,9 @@
  - (id) propertyListWithoutDrainingPendingChanges;
  - (void) setPlist:(id)a;
  - (BOOL) validateSandboxForWrite:(id)acontainerPath:(r*)btargetingContainer:(^B)c;
- - (BOOL) validateReadAccessToken:(i)a;
+ - (BOOL) validateReadAccessToken:(int)a;
  - (BOOL) validateSandboxForRead:(id)acontainerPath:(r*)b;
- - (i) validateMessage:(id)awithNewKey:(^{__CFString=})bnewValue:(^v)ccurrentPlistData:(id)dcontainerPath:(r*)ediagnosticMessage:(r^*)f;
+ - (int) validateMessage:(id)awithNewKey:(^{__CFString=})bnewValue:(^v)ccurrentPlistData:(id)dcontainerPath:(r*)ediagnosticMessage:(r^*)f;
  - (BOOL) byHost;
 
 

@@ -2,12 +2,12 @@
 @protocol NSCopying, NSCoding;
 @interface PKRegion : NSObject <NSCopying, NSCoding> {
 
-    i _shape;
+    int _shape;
     BOOL _isExclusive;
     {vec4="v"} _halfExtent;
     {shared_ptr<PKCPathHolder>="__ptr_"^{PKCPathHolder}"__cntrl_"^{__shared_weak_count}} _path;
-    i _regionOp;
-    i _shape2;
+    int _regionOp;
+    int _shape2;
     {vec4="v"} _halfExtent2;
     {shared_ptr<PKCPathHolder>="__ptr_"^{PKCPathHolder}"__cntrl_"^{__shared_weak_count}} _path2;
 }
@@ -23,12 +23,12 @@
  - (^{CGPath=}) path;
  - (id) initWithSize:({CGSize=dd})a;
  - (BOOL) containsPoint:({CGPoint=dd})a;
- - (id) initWithRadius:(f)a;
+ - (id) initWithRadius:(float)a;
  - (id) inverseRegion;
  - (id) regionByUnionWithRegion:(id)a;
  - (id) regionByDifferenceFromRegion:(id)a;
  - (id) regionByIntersectionWithRegion:(id)a;
- - (void) containsPoints:(r^f)alocationStride:(q)bresults:(*)cresultsStride:(q)dcount:(i)e;
+ - (void) containsPoints:(r^f)alocationStride:(long long)bresults:(char*)cresultsStride:(long long)dcount:(int)e;
 
 
 @end

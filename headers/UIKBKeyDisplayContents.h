@@ -12,7 +12,7 @@
     @"NSString" _secondaryDisplayString;
     @"NSArray" _variantDisplayContents;
     @"NSArray" _highlightedVariantsList;
-    q _displayPathType;
+    long long _displayPathType;
     @"UIKBKeyDisplayContents" _fallbackContents;
 }
 @property (nonatomic, retain, readwrite) NSString* displayString;
@@ -35,7 +35,7 @@
  - (void) setDisplayString:(id)a;
  - (void) setVariantDisplayContents:(id)a;
  - (void) setHighlightedVariantsList:(id)a;
- - (void) setDisplayPathType:(q)a;
+ - (void) setDisplayPathType:(long long)a;
  - (void) setDisplayStringImage:(id)a;
  - (void) setSecondaryDisplayStringImage:(id)a;
  - (void) setIsCustomGlyph:(BOOL)a;
@@ -46,7 +46,7 @@
  - (BOOL) isCustomGlyph;
  - (BOOL) secondaryIsCustomGlyph;
  - (id) variantDisplayContents;
- - (q) displayPathType;
+ - (long long) displayPathType;
  - (BOOL) fillPath;
  - (BOOL) force1xImages;
  - (id) fallbackContents;

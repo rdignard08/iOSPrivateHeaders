@@ -10,7 +10,7 @@
     id _userInfoPlist;
     @"NSDictionary" _options;
     id _delegate;
-    i _result;
+    int _result;
 }
 
  - (id) initForOpeningResource:(id)ausingApplication:(id)buniqueDocumentIdentifier:(id)csourceIsManaged:(BOOL)duserInfo:(id)eoptions:(id)fdelegate:(id)g;

@@ -10,7 +10,7 @@
  - (id) popViewControllerAnimated:(BOOL)a;
  - (void) _setTintColor:(id)a;
  - (void) _setPickableTypes:(id)a;
- - (void) _setPickerMode:(Q)a;
+ - (void) _setPickerMode:(unsigned long long)a;
  - (void) _setUploadURLWrapper:(id)a;
  - (void) pushViewController:(id)aanimated:(BOOL)b;
  - (void) setViewControllers:(id)aanimated:(BOOL)b;

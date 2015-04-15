@@ -21,8 +21,8 @@
  - (id) transformedCollationStringForString:(id)a;
  - (id) sectionTitles;
  - (id) sectionIndexTitles;
- - (q) sectionForSectionIndexTitleAtIndex:(q)a;
- - (q) sectionForObject:(id)acollationStringSelector:(SEL)b;
+ - (long long) sectionForSectionIndexTitleAtIndex:(long long)a;
+ - (long long) sectionForObject:(id)acollationStringSelector:(SEL)b;
  - (id) sortedArrayFromArray:(id)acollationStringSelector:(SEL)b;
  - (id) initWithDictionary:(id)a;
 

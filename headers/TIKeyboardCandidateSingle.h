@@ -7,7 +7,7 @@
  + (BOOL) supportsSecureCoding;
  + (id) candidateWithUnchangedInput:(id)a;
  + (id) candidateWithCandidate:(id)aforInput:(id)b;
- + (i) type;
+ + (int) type;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;

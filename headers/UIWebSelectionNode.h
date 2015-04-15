@@ -19,10 +19,10 @@
  - (void) invalidate;
  - (id) selection;
  - (void) setSelection:(id)a;
- - (id) nodeByMovingEdge:(i)aoutwards:(BOOL)b;
- - (^@) nodeByReferenceFromEdge:(i)aoutwards:(BOOL)b;
+ - (id) nodeByMovingEdge:(int)aoutwards:(BOOL)b;
+ - (^@) nodeByReferenceFromEdge:(int)aoutwards:(BOOL)b;
  - (id) initWithSelection:(id)ainGraph:(id)b;
- - (i) oppositeEdge:(i)a;
+ - (int) oppositeEdge:(int)a;
 
 
 @end

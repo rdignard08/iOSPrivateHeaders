@@ -2,7 +2,7 @@
 @interface _NSKeyedUnarchiverHelper : NSObject {
 
     @"NSArray" _white;
-    I _lastRef;
+    unsigned int _lastRef;
     @"NSMutableArray" _allowedClasses;
 }
 

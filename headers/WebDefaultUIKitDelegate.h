@@ -16,11 +16,11 @@
  - (void) webView:(id)adidFinishDocumentLoadForFrame:(id)b;
  - (void) webView:(id)adidFirstVisuallyNonEmptyLayoutInFrame:(id)b;
  - (void) writeDataToPasteboard:(id)a;
- - (id) readDataFromPasteboard:(id)awithIndex:(q)b;
+ - (id) readDataFromPasteboard:(id)awithIndex:(long long)b;
  - (BOOL) hasRichlyEditableSelection;
- - (q) getPasteboardItemsCount;
+ - (long long) getPasteboardItemsCount;
  - (BOOL) performsTwoStepPaste:(id)a;
- - (q) getPasteboardChangeCount;
+ - (long long) getPasteboardChangeCount;
  - (id) checkSpellingOfString:(id)a;
  - (void) webView:(id)asaveStateToHistoryItem:(id)bforFrame:(id)c;
  - (void) webView:(id)arestoreStateFromHistoryItem:(id)bforFrame:(id)cforce:(BOOL)d;
@@ -28,12 +28,12 @@
  - (BOOL) webView:(id)ashouldScrollToPoint:({CGPoint=dd})bforFrame:(id)c;
  - (void) webView:(id)awillAddPlugInView:(id)b;
  - (void) deleteFromInput;
- - (void) addInputString:(id)awithFlags:(Q)b;
+ - (void) addInputString:(id)awithFlags:(unsigned long long)b;
  - ({CGPoint=dd}) contentsPointForWebView:(id)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) documentVisibleRectForWebView:(id)a;
  - (void) webView:(id)adidReceiveViewportArguments:(id)b;
  - (void) webView:(id)aneedsScrollNotifications:(id)bforFrame:(id)c;
- - (void) webView:(id)adidObserveDeferredContentChange:(i)bforFrame:(id)c;
+ - (void) webView:(id)adidObserveDeferredContentChange:(int)bforFrame:(id)c;
  - (void) webViewDidPreventDefaultForEvent:(id)a;
  - (void) webView:(id)aelementDidFocusNode:(id)b;
  - (void) webView:(id)aelementDidBlurNode:(id)b;
@@ -42,7 +42,7 @@
  - (void) webView:(id)awillShowFullScreenForPlugInView:(id)b;
  - (void) webView:(id)adidHideFullScreenForPlugInView:(id)b;
  - (void) webView:(id)adidReceiveMessage:(id)b;
- - (void) deleteFromInputwithFlags:(Q)a;
+ - (void) deleteFromInputwithFlags:(unsigned long long)a;
  - (void) _webthread_webView:(id)aattachRootLayer:(id)b;
  - (void) webViewDidCommitCompositingLayerChanges:(id)a;
  - (void) webView:(id)adidCreateOrUpdateScrollingLayer:(id)bwithContentsLayer:(id)cscrollSize:(id)dforNode:(id)eallowHorizontalScrollbar:(BOOL)fallowVerticalScrollbar:(BOOL)g;
@@ -54,7 +54,7 @@
  - (void) webView:(id)arunOpenPanelForFileButtonWithResultListener:(id)ballowMultipleFiles:(BOOL)cacceptMIMETypes:(id)d;
  - ({CGPoint=dd}) interactionLocation;
  - (void) showPlaybackTargetPicker:(BOOL)afromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (i) deviceOrientation;
+ - (int) deviceOrientation;
  - (BOOL) isUnperturbedDictationResultMarker:(id)a;
  - (void) webViewDidDrawTiles:(id)a;
 

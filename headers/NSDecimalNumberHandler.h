@@ -13,12 +13,12 @@
     ^v _reserved;
 }
  + (id) defaultDecimalNumberHandler;
- + (id) decimalNumberHandlerWithRoundingMode:(Q)ascale:(s)braiseOnExactness:(BOOL)craiseOnOverflow:(BOOL)draiseOnUnderflow:(BOOL)eraiseOnDivideByZero:(BOOL)f;
+ + (id) decimalNumberHandlerWithRoundingMode:(unsigned long long)ascale:(short)braiseOnExactness:(BOOL)craiseOnOverflow:(BOOL)draiseOnUnderflow:(BOOL)eraiseOnDivideByZero:(BOOL)f;
 
- - (s) scale;
- - (Q) roundingMode;
- - (id) initWithRoundingMode:(Q)ascale:(s)braiseOnExactness:(BOOL)craiseOnOverflow:(BOOL)draiseOnUnderflow:(BOOL)eraiseOnDivideByZero:(BOOL)f;
- - (id) exceptionDuringOperation:(SEL)aerror:(Q)bleftOperand:(id)crightOperand:(id)d;
+ - (short) scale;
+ - (unsigned long long) roundingMode;
+ - (id) initWithRoundingMode:(unsigned long long)ascale:(short)braiseOnExactness:(BOOL)craiseOnOverflow:(BOOL)draiseOnUnderflow:(BOOL)eraiseOnDivideByZero:(BOOL)f;
+ - (id) exceptionDuringOperation:(SEL)aerror:(unsigned long long)bleftOperand:(id)crightOperand:(id)d;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

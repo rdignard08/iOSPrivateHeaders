@@ -2,14 +2,14 @@
 @interface NSLineFragmentRenderingContext : NSObject {
 
     ^v _runs;
-    q _numRuns;
+    long long _numRuns;
     ^S _glyphs;
     ^{CGSize=dd} _advancements;
-    d _leftSideDelta;
-    d _lineWidth;
-    d _leftControlWidth;
-    d _rightControlWidth;
-    d _elasticWidth;
+    double _leftSideDelta;
+    double _lineWidth;
+    double _leftControlWidth;
+    double _rightControlWidth;
+    double _elasticWidth;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _imageBounds;
     {?="_isRTL"b1"_vAdvance"b1"_flipped"b1"_usesSimpleTextEffects"b1"_reserved"b28} _flags;
     @"CUICatalog" _catalog;
@@ -29,13 +29,13 @@
  - (id) cuiCatalog;
  - (id) cuiStyleEffects;
  - (BOOL) _usesSimpleTextEffects;
- - (id) initWithRuns:(^{__CFArray=})aglyphOrigin:(d)blineFragmentWidth:(d)celasticWidth:(d)dusesScreenFonts:(BOOL)eisRTL:(BOOL)f;
+ - (id) initWithRuns:(^{__CFArray=})aglyphOrigin:(double)blineFragmentWidth:(double)celasticWidth:(double)dusesScreenFonts:(BOOL)eisRTL:(BOOL)f;
  - (void) _setUsesSimpleTextEffects:(BOOL)a;
  - (void) drawAtPoint:({CGPoint=dd})ainContext:(^{CGContext=})b;
- - ({CGSize=dd}) sizeWithBehavior:(q)ausesFontLeading:(BOOL)bbaselineDelta:(^d)c;
+ - ({CGSize=dd}) sizeWithBehavior:(long long)ausesFontLeading:(BOOL)bbaselineDelta:(^d)c;
  - (void) getMaximumAscender:(^d)aminimumDescender:(^d)b;
- - (d) lineFragmentWidth;
- - (d) elasticWidth;
+ - (double) lineFragmentWidth;
+ - (double) elasticWidth;
  - (BOOL) isRTL;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) imageBounds;
  - (void) setCuiCatalog:(id)a;

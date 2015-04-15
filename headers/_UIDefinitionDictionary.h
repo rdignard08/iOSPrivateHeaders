@@ -17,7 +17,7 @@
  - (void) dealloc;
  - (id) localizedDictionaryName;
  - (id) rawAsset;
- - (id) _HTMLDefinitionForTerm:(id)atype:(q)b;
+ - (id) _HTMLDefinitionForTerm:(id)atype:(long long)b;
  - (id) _shortHTMLDefinitionForTerm:(id)a;
  - (id) _attributedDefinitionForTerm:(id)a;
  - (id) _fullHTMLDefinitionForTerm:(id)a;

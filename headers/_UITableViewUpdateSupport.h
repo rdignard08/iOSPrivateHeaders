@@ -1,10 +1,10 @@
 
 @interface _UITableViewUpdateSupport : NSObject {
 
-    q oldSection;
-    q newSection;
-    q oldGlobalRow;
-    q newGlobalRow;
+    long long oldSection;
+    long long newSection;
+    long long oldGlobalRow;
+    long long newGlobalRow;
     @"UITableView" tableView;
     {_NSRange="location"Q"length"Q} visibleRows;
     @"NSArray" updateItems;
@@ -18,19 +18,19 @@
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} oldTableViewVisibleBounds;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} newTableViewVisibleBounds;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} tableViewVisibleBoundsUnion;
-    d tableViewVisibleBoundsOffset;
-    q oldSectionCount;
-    q newSectionCount;
+    double tableViewVisibleBoundsOffset;
+    long long oldSectionCount;
+    long long newSectionCount;
     ^q oldSectionMap;
     ^q newSectionMap;
-    q oldGlobalRowCount;
-    q newGlobalRowCount;
+    long long oldGlobalRowCount;
+    long long newGlobalRowCount;
     ^q oldGlobalRowMap;
     ^q newGlobalRowMap;
     ^@ animatedCells;
     ^@ animatedHeaders;
     ^@ animatedFooters;
-    q globalReorderingRow;
+    long long globalReorderingRow;
     id _context;
     @"NSMutableArray" viewAnimations;
     @"NSMutableArray" deletedSections;
@@ -41,11 +41,11 @@
  - (void) dealloc;
  - (id) initWithTableView:(id)aupdateItems:(id)boldRowData:(id)cnewRowData:(id)doldRowRange:({_NSRange=QQ})enewRowRange:({_NSRange=QQ})fcontext:(id)g;
  - (void) _setupAnimations;
- - (void) _setupInsertAnimationForHeaderInSection:(q)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
- - (void) _setupInsertAnimationForFooterInSection:(q)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
+ - (void) _setupInsertAnimationForHeaderInSection:(long long)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
+ - (void) _setupInsertAnimationForFooterInSection:(long long)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
  - (void) _addBottomShadowViewViewForViewAnimation:(id)a;
- - (void) _setupDeleteAnimationForHeaderInSection:(q)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
- - (void) _setupDeleteAnimationForFooterInSection:(q)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
+ - (void) _setupDeleteAnimationForHeaderInSection:(long long)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
+ - (void) _setupDeleteAnimationForFooterInSection:(long long)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
  - (BOOL) _isReloadSectionUpdate;
  - (id) _imageViewForView:(id)a;
  - (void) _validateAnimatedCells;

@@ -6,9 +6,9 @@
     BOOL _forceSpellingGuesses;
     @"UITextChecker" _textChecker;
     @"TIKeyboardCandidate" _autocorrectionRecord;
-    Q _maxEditDistance;
-    Q _maxCountAfterAutocorrectionGuesses;
-    Q _maxCountAfterSpellingGuesses;
+    unsigned long long _maxEditDistance;
+    unsigned long long _maxCountAfterAutocorrectionGuesses;
+    unsigned long long _maxCountAfterSpellingGuesses;
 }
 
  - (void) dealloc;
@@ -17,15 +17,15 @@
  - (void) setForceHistoryReplacement:(BOOL)a;
  - (void) setForceAutocorrectionGuesses:(BOOL)a;
  - (void) setForceSpellingGuesses:(BOOL)a;
- - (void) setMaxCountAfterAutocorrectionGuesses:(Q)a;
- - (void) setMaxCountAfterSpellingGuesses:(Q)a;
+ - (void) setMaxCountAfterAutocorrectionGuesses:(unsigned long long)a;
+ - (void) setMaxCountAfterSpellingGuesses:(unsigned long long)a;
  - (id) replacements;
- - (void) setMaxEditDistance:(Q)a;
+ - (void) setMaxEditDistance:(unsigned long long)a;
  - (id) textChecker;
  - (id) autocorrectionRecord;
- - (Q) maxCountAfterAutocorrectionGuesses;
- - (Q) maxEditDistance;
- - (Q) maxCountAfterSpellingGuesses;
+ - (unsigned long long) maxCountAfterAutocorrectionGuesses;
+ - (unsigned long long) maxEditDistance;
+ - (unsigned long long) maxCountAfterSpellingGuesses;
  - (BOOL) isStringMisspelled:(id)a;
  - (BOOL) forceHistoryReplacement;
  - (id) addReplacementRevertingAutocorrectionToReplacements:(id)a;

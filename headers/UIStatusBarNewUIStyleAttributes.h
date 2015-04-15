@@ -12,11 +12,11 @@
  - (id) initWithRequest:(id)a;
  - (id) initWithRequest:(id)abackgroundColor:(id)bforegroundColor:(id)chasBusyBackground:(BOOL)d;
  - (id) initWithRequest:(id)abackgroundColor:(id)bforegroundColor:(id)c;
- - (q) legibilityStyle;
+ - (long long) legibilityStyle;
  - (BOOL) isTransparent;
  - (BOOL) shouldUseVisualAltitude;
  - (id) backgroundColorWithTintColor:(id)a;
- - (id) newForegroundStyleWithHeight:(d)a;
+ - (id) newForegroundStyleWithHeight:(double)a;
 
 
 @end

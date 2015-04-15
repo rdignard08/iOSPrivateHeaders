@@ -24,11 +24,11 @@
  - (BOOL) startIsHorizontal;
  - (BOOL) endIsHorizontal;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atextContainer:(id)b;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectAtIndex:(i)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectAtIndex:(int)a;
  - ({CGPoint=dd}) endCorner;
  - ({CGPoint=dd}) startCorner;
  - (void) updateDragDots;
- - (id) rectViewAtIndex:(i)a;
+ - (id) rectViewAtIndex:(int)a;
  - (void) removeFromSuperview;
 
 

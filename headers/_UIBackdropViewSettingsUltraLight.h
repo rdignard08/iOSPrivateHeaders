@@ -7,7 +7,7 @@
  - (void) computeOutputSettingsUsingModel:(id)a;
  - (void) _accessibilityButtonShapesDidChangeNotification:(id)a;
  - (void) setDefaultValues;
- - (id) initWithDefaultValuesForGraphicsQuality:(q)a;
+ - (id) initWithDefaultValuesForGraphicsQuality:(long long)a;
 
 
 @end

@@ -3,7 +3,7 @@
 
     @"NSMutableData" _output;
     @"NSAttributedString" _attrString;
-    Q _attrStringLength;
+    unsigned long long _attrStringLength;
     @"NSFileWrapper" _document;
     @"NSMutableDictionary" _fontNames;
     @"NSMutableDictionary" _colors;
@@ -16,15 +16,15 @@
     id _curBaselineOffset;
     id _curSuperscript;
     id _curUnderlineStyle;
-    i _curTraits;
-    I _curEncoding;
+    int _curTraits;
+    unsigned int _curEncoding;
     {?="_forceColorWrite"b1"_activeFontFeatures"b1"_preserveNaturalAlignment"b1"_reserved"b29} _rwFlags;
-    d _rightMargin;
+    double _rightMargin;
     @"NSDictionary" _docAttrs;
     ^v _layoutSections;
 }
  + (void) initialize;
- + (id) RTFDataForString:(id)arange:({_NSRange=QQ})bencoding:(I)c;
+ + (id) RTFDataForString:(id)arange:({_NSRange=QQ})bencoding:(unsigned int)c;
  + (id) RTFDataForDate:(id)a;
 
  - (id) initWithAttributedString:(id)a;
@@ -43,7 +43,7 @@
  - (void) writeRTF;
  - (id) _plainFontNameForFont:(id)a;
  - (void) writeEscapedUTF8String:(id)a;
- - (i) _mostCompatibleCharset:(id)a;
+ - (int) _mostCompatibleCharset:(id)a;
  - (void) _writeCharacters:(id)arange:({_NSRange=QQ})b;
  - (void) writeDate:(id)a;
  - (void) writeStringDocumentAttribute:(id)awithRTFKeyword:(r*)b;
@@ -59,7 +59,7 @@
  - (void) writeHyphenation;
  - (void) writeDefaultTabInterval;
  - (void) writeBackgroundColor;
- - (void) writeColor:(id)atype:(Q)b;
+ - (void) writeColor:(id)atype:(unsigned long long)b;
  - (void) writeFont:(id)aforceFontNumber:(BOOL)b;
  - (void) writeKern:(id)a;
  - (void) writeBaselineOffset:(id)a;
@@ -72,14 +72,14 @@
  - (void) writeObliqueness:(id)a;
  - (void) writeExpansion:(id)a;
  - (void) writeShadow:(id)a;
- - (void) writeTableHeader:(id)aatIndex:(Q)bnestingLevel:(Q)c;
+ - (void) writeTableHeader:(id)aatIndex:(unsigned long long)bnestingLevel:(unsigned long long)c;
  - (void) writeParagraphStyle:(id)a;
  - (BOOL) writeLinkInfo:(id)a;
  - (void) writeCharacterAttributes:(id)apreviousAttributes:(id)b;
- - (Q) textFlowWithAttributes:(id)arange:(^{_NSRange=QQ})b;
- - (void) writeTextFlow:(Q)a;
+ - (unsigned long long) textFlowWithAttributes:(id)arange:(^{_NSRange=QQ})b;
+ - (void) writeTextFlow:(unsigned long long)a;
  - (void) writeGlyphInfo:(id)a;
- - (BOOL) writeCellTerminator:(id)aatIndex:(Q)bnestingLevel:(Q)c;
+ - (BOOL) writeCellTerminator:(id)aatIndex:(unsigned long long)bnestingLevel:(unsigned long long)c;
  - (void) restoreAttributes:(id)a;
  - (void) writeAttachment:(id)aeditableData:(id)beditableTypeIdentifier:(id)c;
  - (void) _setPreserveNaturalAlignment:(BOOL)a;

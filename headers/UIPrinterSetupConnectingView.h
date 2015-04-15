@@ -3,7 +3,7 @@
 
     @"UILabel" _label;
     @"UIActivityIndicatorView" _activityIndicator;
-    d _presentationTime;
+    double _presentationTime;
 }
 
  - (void) dealloc;
@@ -14,8 +14,8 @@
  - (void) setActivityIndicator:(id)a;
  - (void) presentView;
  - (id) activityIndicator;
- - (d) presentationTime;
- - (void) setPresentationTime:(d)a;
+ - (double) presentationTime;
+ - (void) setPresentationTime:(double)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (id) label;
 

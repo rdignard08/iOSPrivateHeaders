@@ -3,18 +3,18 @@
 
     @"UIView" _target;
     {CGPoint="x"d"y"d} _startLocation;
-    i _throwIterations;
+    int _throwIterations;
     id _delegate;
-    i _mouseUpCount;
-    i _mouseDraggedCount;
-    f _delay;
+    int _mouseUpCount;
+    int _mouseDraggedCount;
+    float _delay;
     {CGPoint="x"d"y"d} _offset;
 }
 
  - (void) setDelegate:(id)a;
  - (void) setTarget:(id)a;
- - (void) setDelay:(f)a;
- - (void) setIterations:(i)a;
+ - (void) setDelay:(float)a;
+ - (void) setIterations:(int)a;
  - (void) setStartLocation:({CGPoint=dd})a;
  - (id) init;
  - (void) run;

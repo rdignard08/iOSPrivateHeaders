@@ -9,7 +9,7 @@
 
  - (void) allowEvaluation;
  - (id) predicateFormat;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (id) _expressionWithSubstitutionVariables:(id)a;
  - (id) initWithPredicate:(id)atrueExpression:(id)bfalseExpression:(id)c;
  - (id) trueExpression;

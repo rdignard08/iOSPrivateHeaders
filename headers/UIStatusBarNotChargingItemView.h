@@ -5,7 +5,7 @@
 }
 
  - (void) dealloc;
- - (BOOL) updateForNewData:(id)aactions:(i)b;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
  - (id) contentsImage;
 
 

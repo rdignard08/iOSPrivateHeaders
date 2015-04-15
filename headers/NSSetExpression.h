@@ -9,9 +9,9 @@
  - (id) minimalFormInContext:(id)a;
  - (void) allowEvaluation;
  - (id) predicateFormat;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (id) _expressionWithSubstitutionVariables:(id)a;
- - (id) initWithType:(Q)aleftExpression:(id)brightExpression:(id)c;
+ - (id) initWithType:(unsigned long long)aleftExpression:(id)brightExpression:(id)c;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (BOOL) isEqual:(id)a;

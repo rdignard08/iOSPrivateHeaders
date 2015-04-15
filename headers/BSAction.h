@@ -4,7 +4,7 @@
 
     @"BSSettings" _info;
     BOOL _expectsResponse;
-    Q _timeout;
+    unsigned long long _timeout;
     @"NSObject<OS_dispatch_queue>" _queue;
     BOOL _queue_hasBeenNeutered;
     @? _queue_handler;
@@ -13,21 +13,21 @@
 }
 @property (nonatomic, copy, readonly) BSSettings* info;
 
- - (q) UIActionType;
+ - (long long) UIActionType;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (BOOL) canSendResponse;
  - (void) sendResponse:(id)a;
  - (id) init;
  - (void) encodeWithXPCDictionary:(id)a;
  - (id) initWithXPCDictionary:(id)a;
- - (id) initWithInfo:(id)atimeout:(d)bforResponseOnQueue:(id)cwithHandler:(@?)d;
+ - (id) initWithInfo:(id)atimeout:(double)bforResponseOnQueue:(id)cwithHandler:(@?)d;
  - (id) _handlerDescription;
  - (id) descriptionWithMultilinePrefix:(id)a;
- - (id) keyDescriptionForSetting:(Q)a;
- - (id) valueDescriptionForFlag:(q)aobject:(id)bofSetting:(Q)c;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
  - (id) info;
 
 

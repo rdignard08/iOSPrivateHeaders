@@ -24,7 +24,7 @@
  - (void) _didHideAlertController:(id)a;
  - (void) _displayedAlertControllersChanged;
  - (id) _topAlertControllerInStack;
- - (q) _alertControllerStackCount;
+ - (long long) _alertControllerStackCount;
  - (void) _setHasAlertControllers:(BOOL)a;
  - (id) init;
 

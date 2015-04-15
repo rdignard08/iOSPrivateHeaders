@@ -2,9 +2,9 @@
 @protocol NSCopying;
 @interface CUIStyleEffectConfiguration : NSObject <NSCopying> {
 
-    q _state;
-    q _presentationState;
-    q _value;
+    long long _state;
+    long long _presentationState;
+    long long _value;
     BOOL _useSimplifiedEffect;
     BOOL _foregroundColorShouldTintEffects;
 }
@@ -18,16 +18,16 @@
  - (id) description;
  - (void) setForegroundColorShouldTintEffects:(BOOL)a;
  - (id) init;
- - (q) state;
- - (void) setState:(q)a;
- - (void) setValue:(q)a;
- - (q) value;
+ - (long long) state;
+ - (void) setState:(long long)a;
+ - (void) setValue:(long long)a;
+ - (long long) value;
  - (void) setUseSimplifiedEffect:(BOOL)a;
- - (q) presentationState;
+ - (long long) presentationState;
  - (BOOL) useSimplifiedEffect;
  - (BOOL) shouldIgnoreForegroundColor;
  - (BOOL) shouldRespectOutputBlending;
- - (void) setPresentationState:(q)a;
+ - (void) setPresentationState:(long long)a;
  - (BOOL) foregroundColorShouldTintEffects;
 
 

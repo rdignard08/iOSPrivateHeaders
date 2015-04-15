@@ -3,9 +3,9 @@
 @interface LSUserActivityInfo : NSObject <NSCopying, NSSecureCoding> {
 
     @"NSUUID" _uuid;
-    Q _type;
+    unsigned long long _type;
     @"NSDictionary" _options;
-    Q _changeCount;
+    unsigned long long _changeCount;
     @"NSDate" _activityDate;
     @"NSString" _title;
     @"NSString" _typeIdentifier;
@@ -27,7 +27,7 @@
 @property (atomic, copy, readwrite) NSError* error;
  + (BOOL) supportsSecureCoding;
 
- - (Q) changeCount;
+ - (unsigned long long) changeCount;
  - (id) logString;
  - (id) statusString;
  - (void) setActivityDate:(id)a;
@@ -46,13 +46,13 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (void) setType:(Q)a;
- - (void) setChangeCount:(Q)a;
+ - (void) setType:(unsigned long long)a;
+ - (void) setChangeCount:(unsigned long long)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (id) error;
  - (void) setError:(id)a;
- - (Q) type;
+ - (unsigned long long) type;
  - (void) setOptions:(id)a;
  - (id) options;
  - (id) uuid;

@@ -1,8 +1,8 @@
 
 @interface LSBundleProxy : LSResourceProxy {
 
-    Q _bundleFlags;
-    Q _plistContentFlags;
+    unsigned long long _bundleFlags;
+    unsigned long long _plistContentFlags;
     @"NSURL" _bundleURL;
     @"NSURL" _appStoreReceiptURL;
     @"NSString" _localizedShortName;
@@ -16,7 +16,7 @@
     @"NSUUID" _cacheGUID;
     @"NSArray" _machOUUIDs;
     BOOL _foundBackingBundle;
-    Q _sequenceNumber;
+    unsigned long long _sequenceNumber;
 }
  + (id) bundleProxyForURL:(id)a;
  + (id) bundleProxyForIdentifier:(id)a;
@@ -24,10 +24,10 @@
  - (BOOL) foundBackingBundle;
  - (id) containerURL;
  - (id) dataContainerURL;
- - (C) _createContext:(^{LSContext=^{LSDatabase}})aandGetBundle:(^I)bwithData:(r^^{LSBundleData})c;
+ - (unsigned char) _createContext:(^{LSContext=^{LSDatabase}})aandGetBundle:(^I)bwithData:(r^^{LSBundleData})c;
  - (id) _plistValueForKey:(id)a;
  - (id) bundleType;
- - (id) _initWithBundleUnit:(I)abundleType:(Q)bBundleID:(id)clocalizedName:(id)dbundleContainerURL:(id)edataContainerURL:(id)fresourcesDirectoryURL:(id)giconsDictionary:(id)hiconFileNames:(id)iversion:(id)j;
+ - (id) _initWithBundleUnit:(unsigned int)abundleType:(unsigned long long)bBundleID:(id)clocalizedName:(id)dbundleContainerURL:(id)edataContainerURL:(id)fresourcesDirectoryURL:(id)giconsDictionary:(id)hiconFileNames:(id)iversion:(id)j;
  - (void) setLocalizedShortName:(id)a;
  - (id) bundleVersion;
  - (id) signerIdentity;
@@ -35,14 +35,14 @@
  - (id) environmentVariables;
  - (id) cacheGUID;
  - (id) localizedShortName;
- - (Q) sequenceNumber;
+ - (unsigned long long) sequenceNumber;
  - (id) machOUUIDs;
  - (id) bundleExecutable;
  - (id) bundleURL;
  - (id) appStoreReceiptURL;
  - (id) groupContainerURLs;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) bundleIdentifier;
  - (id) bundleContainerURL;

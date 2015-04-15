@@ -9,7 +9,7 @@
  - (id) description;
  - (void) dealloc;
  - (void) forwardInvocation:(id)a;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (BOOL) respondsToSelector:(SEL)a;
  - (id) methodSignatureForSelector:(SEL)a;

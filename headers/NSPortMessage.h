@@ -4,7 +4,7 @@
     @"NSPort" localPort;
     @"NSPort" remotePort;
     @"NSMutableArray" components;
-    I msgid;
+    unsigned int msgid;
     ^v reserved2;
     ^v reserved;
 }
@@ -17,9 +17,9 @@
  - (id) sendPort;
  - (id) components;
  - (id) initWithSendPort:(id)areceivePort:(id)bcomponents:(id)c;
- - (void) setMsgid:(I)a;
+ - (void) setMsgid:(unsigned int)a;
  - (id) initWithReceivePort:(id)asendPort:(id)bcomponents:(id)c;
- - (I) msgid;
+ - (unsigned int) msgid;
  - (BOOL) sendBeforeDate:(id)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;

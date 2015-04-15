@@ -9,7 +9,7 @@
     @"NSNumber" _mecabraCandidatePointerValue;
 }
  + (BOOL) supportsSecureCoding;
- + (i) type;
+ + (int) type;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;

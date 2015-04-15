@@ -4,7 +4,7 @@
 
     id _delegate;
     BOOL _usesRoundedCorners;
-    d _cornerRadius;
+    double _cornerRadius;
     BOOL _usesInnerShadow;
     BOOL _shadowViewsInstalled;
     @"UIView" _shadowView;

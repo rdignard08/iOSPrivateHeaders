@@ -8,14 +8,14 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) finalize;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (id) domain;
- - (q) code;
+ - (long long) code;
  - (id) userInfo;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
 
 

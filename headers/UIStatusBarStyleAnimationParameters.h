@@ -1,13 +1,13 @@
 
 @interface UIStatusBarStyleAnimationParameters : UIStatusBarAnimationParameters {
 
-    i _styleAnimation;
+    int _styleAnimation;
 }
 
  - (id) initWithDefaultParameters;
- - (void) setStyleAnimation:(i)a;
+ - (void) setStyleAnimation:(int)a;
  - (BOOL) shouldAnimate;
- - (i) styleAnimation;
+ - (int) styleAnimation;
 
 
 @end

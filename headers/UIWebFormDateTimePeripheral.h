@@ -16,7 +16,7 @@
  - (id) assistantView;
  - (void) set_inputElement:(id)a;
  - (id) _inputElement;
- - (q) _datePickerModeForInputType:(id)a;
+ - (long long) _datePickerModeForInputType:(id)a;
  - (void) set_control:(id)a;
  - (id) initWithDOMHTMLInputElement:(id)a;
 

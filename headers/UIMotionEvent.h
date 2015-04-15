@@ -2,48 +2,48 @@
 @interface UIMotionEvent : UIInternalEvent {
 
     id _motionAccelerometer;
-    q _subtype;
-    i _shakeState;
-    q _stateMachineState;
-    d _shakeStartTime;
-    d _lastMovementTime;
-    d _highLevelTime;
-    d _lowEndTimeout;
+    long long _subtype;
+    int _shakeState;
+    long long _stateMachineState;
+    double _shakeStartTime;
+    double _lastMovementTime;
+    double _highLevelTime;
+    double _lowEndTimeout;
     @"NSTimer" _idleTimer;
     BOOL _sentMotionBegan;
     [10f] _lowPassState;
-    Q _lowPassStateIndex;
-    Q _highPassStateIndex;
+    unsigned long long _lowPassStateIndex;
+    unsigned long long _highPassStateIndex;
     [2f] _highPassState;
-    i notifyToken;
+    int notifyToken;
 }
 
  - (id) _init;
  - (id) description;
  - (void) dealloc;
  - (BOOL) _isDetectingMotionEvents;
- - (void) _setSubtype:(q)a;
- - (void) setShakeState:(i)a;
+ - (void) _setSubtype:(long long)a;
+ - (void) setShakeState:(int)a;
  - (id) _windows;
  - (void) _sendEventToResponder:(id)a;
- - (i) _shakeState;
+ - (int) _shakeState;
  - (void) _enablePeakDetectionForScreenBlanked:(id)a;
  - (void) _willResume;
  - (void) _willSuspend;
  - (void) _updateAccelerometerEnabled;
- - (i) shakeState;
+ - (int) shakeState;
  - (BOOL) _detectWhenNotActive;
  - (void) _idleTimerFired;
  - (void) _resetLowPassState;
- - (void) _accelerometerDidDetectMovementWithTimestamp:(d)a;
- - (f) _determineShakeLevelX:(f)ay:(f)bz:(f)ccurrentState:(q)d;
- - (q) _feedStateMachine:(f)acurrentState:(q)btimestamp:(d)c;
- - (f) _highPass:(f)a;
- - (f) _lowPass:(f)a;
+ - (void) _accelerometerDidDetectMovementWithTimestamp:(double)a;
+ - (float) _determineShakeLevelX:(float)ay:(float)bz:(float)ccurrentState:(long long)d;
+ - (long long) _feedStateMachine:(float)acurrentState:(long long)btimestamp:(double)c;
+ - (float) _highPass:(float)a;
+ - (float) _lowPass:(float)a;
  - (void) _enablePeakDetectionIfNecessary;
- - (q) type;
- - (void) accelerometer:(id)adidAccelerateWithTimeStamp:(d)bx:(f)cy:(f)dz:(f)eeventType:(i)f;
- - (q) subtype;
+ - (long long) type;
+ - (void) accelerometer:(id)adidAccelerateWithTimeStamp:(double)bx:(float)cy:(float)dz:(float)eeventType:(int)f;
+ - (long long) subtype;
 
 
 @end

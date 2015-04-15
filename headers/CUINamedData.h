@@ -2,7 +2,7 @@
 @interface CUINamedData : NSObject {
 
     @"CUIRenditionKey" _key;
-    Q _storageRef;
+    unsigned long long _storageRef;
     @"NSString" _name;
 }
 @property (nonatomic, copy, readwrite) NSString* name;
@@ -19,7 +19,7 @@
  - (id) _themeStore;
  - (id) _renditionForSpecificKey:(id)a;
  - (id) _renditionName;
- - (id) initWithName:(id)ausingRenditionKey:(id)bfromTheme:(Q)c;
+ - (id) initWithName:(id)ausingRenditionKey:(id)bfromTheme:(unsigned long long)c;
 
 
 @end

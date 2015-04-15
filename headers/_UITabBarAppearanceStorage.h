@@ -27,8 +27,8 @@
  - (void) setTabItemAppearanceStorage:(id)a;
  - (id) tabItemAppearanceStorage;
  - (id) _tabItemAppearanceStorage;
- - (void) _setDividerImage:(id)aforLeftButtonState:(Q)brightButtonState:(Q)c;
- - (id) _dividerImageForLeftButtonState:(Q)arightButtonState:(Q)b;
+ - (void) _setDividerImage:(id)aforLeftButtonState:(unsigned long long)brightButtonState:(unsigned long long)c;
+ - (id) _dividerImageForLeftButtonState:(unsigned long long)arightButtonState:(unsigned long long)b;
  - (id) dividerImagesForCoding;
  - (id) selectionIndicatorImage;
  - (void) setSelectionIndicatorImage:(id)a;

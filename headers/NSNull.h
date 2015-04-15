@@ -8,7 +8,7 @@
  + (id) allocWithZone:(^{_NSZone=})a;
 
  - (id) ml_stringValueForSQL;
- - (void) ml_bindToSQLiteStatement:(^{sqlite3_stmt=})aatPosition:(i)b;
+ - (void) ml_bindToSQLiteStatement:(^{sqlite3_stmt=})aatPosition:(int)b;
  - (id) __nil_objc_send;
  - (void) forwardInvocation:(id)a;
  - (id) methodSignatureForSelector:(SEL)a;
@@ -22,9 +22,9 @@
  - (id) description;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
- - (Q) _cfTypeID;
+ - (unsigned long long) _cfTypeID;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

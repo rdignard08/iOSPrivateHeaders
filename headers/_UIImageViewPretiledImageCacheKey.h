@@ -7,7 +7,7 @@
  + (id) cacheKeyWithOriginalImage:(id)apretiledSize:({CGSize=dd})b;
 
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
 
 

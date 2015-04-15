@@ -1,10 +1,10 @@
 
 @interface NSPathStore2 : NSString {
 
-    I _lengthAndRefCount;
+    unsigned int _lengthAndRefCount;
     [0S] _characters;
 }
- + (id) pathStoreWithCharacters:(r^S)alength:(Q)b;
+ + (id) pathStoreWithCharacters:(r^S)alength:(unsigned long long)b;
  + (id) pathWithComponents:(id)a;
 
  - (id) _stringByResolvingSymlinksInPathUsingCache:(BOOL)a;
@@ -16,11 +16,11 @@
  - (id) stringByExpandingTildeInPath;
  - (id) stringByResolvingSymlinksInPath;
  - (id) copyWithZone:(^{_NSZone=})a;
- - (Q) hash;
- - (S) characterAtIndex:(Q)a;
+ - (unsigned long long) hash;
+ - (unsigned short) characterAtIndex:(unsigned long long)a;
  - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
  - (BOOL) isEqualToString:(id)a;
- - (Q) length;
+ - (unsigned long long) length;
  - (id) lastPathComponent;
  - (id) stringByAppendingPathComponent:(id)a;
  - (BOOL) isAbsolutePath;

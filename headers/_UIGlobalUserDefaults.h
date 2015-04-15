@@ -3,7 +3,7 @@
 
     @"<UIFoundationGlobalUserDefaultsHelper>" _userDefaultsHelper;
     @"NSMutableDictionary" _userDefaultsDictionary;
-    Q _backgroundTaskIdentifier;
+    unsigned long long _backgroundTaskIdentifier;
 }
 
  - (void) dealloc;
@@ -12,7 +12,7 @@
  - (void) removeObjectForKey:(id)a;
  - (void) setObject:(id)aforKey:(id)b;
  - (id) init;
- - (void) setBackgroundTaskIdentifier:(Q)a;
+ - (void) setBackgroundTaskIdentifier:(unsigned long long)a;
  - (void) _synchronizeIfNeeded;
  - (void) setUserDefaultsHelper:(id)a;
  - (void) setUserDefaultsDictionary:(id)a;
@@ -22,7 +22,7 @@
  - (id) _userDefaultsHelperCreateIfNeeded;
  - (void) loadDefaultsDictionary;
  - (id) userDefaultsHelper;
- - (Q) backgroundTaskIdentifier;
+ - (unsigned long long) backgroundTaskIdentifier;
 
 
 @end

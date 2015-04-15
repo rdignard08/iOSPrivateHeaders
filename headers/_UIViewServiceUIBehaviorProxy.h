@@ -2,21 +2,21 @@
 @protocol _UIViewServiceUIBehaviorInterface;
 @interface _UIViewServiceUIBehaviorProxy : _UITargetedProxy <_UIViewServiceUIBehaviorInterface> {
 
-    i _remotePID;
+    int _remotePID;
     @"_UIViewServiceFencingControlProxy" _fencingControlProxy;
-    i __automatic_invalidation_retainCount;
+    int __automatic_invalidation_retainCount;
     BOOL __automatic_invalidation_invalidated;
 }
  + (id) activeFencePort;
- + (id) proxyWrappingExportedObject:(id)aforCommunicationWithPID:(i)bexportedProtocol:(id)c;
+ + (id) proxyWrappingExportedObject:(id)aforCommunicationWithPID:(int)bexportedProtocol:(id)c;
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
- - (i) __automatic_invalidation_logic;
+ - (int) __automatic_invalidation_logic;
 
 
 @end

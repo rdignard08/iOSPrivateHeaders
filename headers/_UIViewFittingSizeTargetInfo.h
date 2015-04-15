@@ -2,8 +2,8 @@
 @protocol NSCopying;
 @interface _UIViewFittingSizeTargetInfo : NSObject <NSCopying> {
 
-    f _horizontalPriority;
-    f _verticalPriority;
+    float _horizontalPriority;
+    float _verticalPriority;
     {CGSize="width"d"height"d} _targetSize;
 }
 @property (nonatomic, assign, readonly) NSNumber* targetSize;
@@ -11,13 +11,13 @@
 @property (nonatomic, assign, readonly) NSNumber* verticalPriority;
 
  - (id) copyWithZone:(^{_NSZone=})a;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (f) horizontalPriority;
- - (f) verticalPriority;
+ - (float) horizontalPriority;
+ - (float) verticalPriority;
  - ({CGSize=dd}) targetSize;
  - (BOOL) isEqualToTargetInfo:(id)a;
- - (id) initWithTargetSize:({CGSize=dd})ahorizontalPriority:(f)bverticalPriority:(f)c;
+ - (id) initWithTargetSize:({CGSize=dd})ahorizontalPriority:(float)bverticalPriority:(float)c;
 
 
 @end

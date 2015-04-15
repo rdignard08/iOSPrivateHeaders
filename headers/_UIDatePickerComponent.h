@@ -1,10 +1,10 @@
 
 @interface _UIDatePickerComponent : NSObject {
 
-    Q _equivalentUnit;
+    unsigned long long _equivalentUnit;
     @"NSString" _formatString;
-    Q _calendarUnit;
-    d _width;
+    unsigned long long _calendarUnit;
+    double _width;
     {_NSRange="location"Q"length"Q} _unitRange;
 }
 @property (nonatomic, assign, readonly) NSString* formatString;
@@ -13,18 +13,18 @@
 @property (nonatomic, assign, readwrite) NSNumber* unitRange;
 @property (nonatomic, assign, readwrite) NSNumber* width;
  + (id) componentsFromDateFormatString:(id)alocale:(id)b;
- + (id) componentsFromDateFormatString:(id)alocale:(id)bdesiredUnits:(q)c;
+ + (id) componentsFromDateFormatString:(id)alocale:(id)bdesiredUnits:(long long)c;
 
  - (id) description;
  - (void) dealloc;
- - (Q) calendarUnit;
+ - (unsigned long long) calendarUnit;
  - (id) formatString;
- - (Q) equivalentUnit;
+ - (unsigned long long) equivalentUnit;
  - (void) setUnitRange:({_NSRange=QQ})a;
  - ({_NSRange=QQ}) unitRange;
- - (id) _initWithFormatString:(id)acalendarUnit:(Q)b;
- - (d) width;
- - (void) setWidth:(d)a;
+ - (id) _initWithFormatString:(id)acalendarUnit:(unsigned long long)b;
+ - (double) width;
+ - (void) setWidth:(double)a;
 
 
 @end

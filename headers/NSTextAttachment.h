@@ -27,8 +27,8 @@
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (id) attachmentCell;
- - (id) imageForBounds:({CGRect={CGPoint=dd}{CGSize=dd}})atextContainer:(id)bcharacterIndex:(Q)c;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) attachmentBoundsForTextContainer:(id)aproposedLineFragment:({CGRect={CGPoint=dd}{CGSize=dd}})bglyphPosition:({CGPoint=dd})ccharacterIndex:(Q)d;
+ - (id) imageForBounds:({CGRect={CGPoint=dd}{CGSize=dd}})atextContainer:(id)bcharacterIndex:(unsigned long long)c;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) attachmentBoundsForTextContainer:(id)aproposedLineFragment:({CGRect={CGPoint=dd}{CGSize=dd}})bglyphPosition:({CGPoint=dd})ccharacterIndex:(unsigned long long)d;
  - (id) _cacheKey;
  - (id) initWithData:(id)aofType:(id)b;
  - (id) fileWrapper;

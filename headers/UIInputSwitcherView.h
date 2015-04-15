@@ -1,7 +1,7 @@
 
 @interface UIInputSwitcherView : UIKeyboardMenuView {
 
-    i m_currentInputModeIndex;
+    int m_currentInputModeIndex;
     BOOL m_keyboardSettingsFromSwitcher;
     @"NSMutableArray" m_inputModes;
     @"UISwitch" m_predictiveSwitch;
@@ -18,15 +18,15 @@
  - (id) nextInputMode;
  - (void) selectInputMode:(id)a;
  - ({CGSize=dd}) preferredSize;
- - (q) defaultSelectedIndex;
+ - (long long) defaultSelectedIndex;
  - (id) predictiveSwitch;
  - (void) toggleKeyboardPredictionPreference;
- - (void) didSelectItemAtIndex:(i)a;
- - (id) localizedTitleForItemAtIndex:(i)a;
- - (id) fontForItemAtIndex:(i)a;
- - (id) subtitleForItemAtIndex:(i)a;
- - (id) subtitleFontForItemAtIndex:(i)a;
- - (id) titleForItemAtIndex:(i)a;
+ - (void) didSelectItemAtIndex:(int)a;
+ - (id) localizedTitleForItemAtIndex:(int)a;
+ - (id) fontForItemAtIndex:(int)a;
+ - (id) subtitleForItemAtIndex:(int)a;
+ - (id) subtitleFontForItemAtIndex:(int)a;
+ - (id) titleForItemAtIndex:(int)a;
  - (void) setKeyboardSettingsFromSwitcher:(BOOL)a;
  - (void) setInputModes:(id)a;
  - (BOOL) keyboardSettingsFromSwitcher;
@@ -35,7 +35,7 @@
  - (void) selectNextInputMode;
  - (void) selectPreviousInputMode;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (q) numberOfItems;
+ - (long long) numberOfItems;
 
 
 @end

@@ -8,13 +8,13 @@
 
  - (void) dealloc;
  - (id) init;
- - (id) initWithAPI:(Q)asharedWithCompute:(BOOL)b;
- - (Q) APIs;
+ - (id) initWithAPI:(unsigned long long)asharedWithCompute:(BOOL)b;
+ - (unsigned long long) APIs;
  - (void) setDebugLabel:(id)a;
  - (id) debugLabel;
  - (void) loadGLIPlugin:(^{__GLDPixelFormatRec=^{__GLDPixelFormatRec}IIIIIIIssssICCCCI})asharedWithCompute:(BOOL)b;
  - (^{__GLISharedRec=}) getGLIShared;
- - (id) initWithAPI:(Q)a;
+ - (id) initWithAPI:(unsigned long long)a;
 
 
 @end

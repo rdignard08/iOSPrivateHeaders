@@ -3,11 +3,11 @@
 
     {CGPoint="x"d"y"d} _originalOffset;
     {CGPoint="x"d"y"d} _targetOffset;
-    d _accuracy;
+    double _accuracy;
     BOOL _adjustsForContentOffsetDelta;
 }
 
- - (void) setProgress:(f)a;
+ - (void) setProgress:(float)a;
  - (void) dealloc;
  - (void) adjustForContentOffsetDelta:({CGPoint=dd})a;
 

@@ -6,11 +6,11 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) finalize;
  - (BOOL) retainWeakReference;
  - (BOOL) allowsWeakReference;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
 
 

@@ -4,7 +4,7 @@
     @"UIView" _inputView;
     @"UIView" _inputAccessoryView;
     BOOL _isSplit;
-    d _splitHeightDelta;
+    double _splitHeightDelta;
     @"UIResponder" _restorableResponder;
     BOOL _restoreUsingBecomeFirstResponder;
     @"UIInputViewController" _inputViewController;
@@ -53,19 +53,19 @@
  - (void) refreshPresentation;
  - (id) keyboard;
  - (id) _themableInputAccessoryView;
- - (q) keyboardOrientation:(id)a;
+ - (long long) keyboardOrientation:(id)a;
  - (BOOL) inputViewKeyboardCanSplit;
  - (BOOL) _inputViewIsSplit;
  - (BOOL) _accessorySuppressesShadow;
  - (id) layeringView;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _leftInputViewSetFrame;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _rightInputViewSetFrame;
- - (void) setSplitHeightDelta:(d)a;
- - (BOOL) setAccessoryViewVisible:(BOOL)adelay:(d)b;
+ - (void) setSplitHeightDelta:(double)a;
+ - (BOOL) setAccessoryViewVisible:(BOOL)adelay:(double)b;
  - (void) _beginSplitTransitionIfNeeded;
- - (void) _setSplitProgress:(d)a;
+ - (void) _setSplitProgress:(double)a;
  - (void) _endSplitTransitionIfNeeded;
- - (d) splitHeightDelta;
+ - (double) splitHeightDelta;
  - (BOOL) isStrictSupersetOfViewSet:(id)a;
  - (BOOL) isInputViewPlaceholder;
  - (BOOL) containsResponder:(id)a;
@@ -87,7 +87,7 @@
  - (BOOL) __isCKAccessoryView;
  - (id) inputSetWithInputAccessoryViewOnly;
  - (id) splitExemptSubview;
- - (BOOL) inSyncWithOrientation:(q)aforKeyboard:(id)b;
+ - (BOOL) inSyncWithOrientation:(long long)aforKeyboard:(id)b;
  - (BOOL) isInputAccessoryViewPlaceholder;
  - (BOOL) visible;
 

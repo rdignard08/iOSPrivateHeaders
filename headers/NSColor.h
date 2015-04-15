@@ -2,8 +2,8 @@
 @interface NSColor : UIColor {
 
 }
- + (id) colorWithCalibratedRed:(d)agreen:(d)bblue:(d)calpha:(d)d;
- + (id) colorWithCalibratedWhite:(d)aalpha:(d)b;
+ + (id) colorWithCalibratedRed:(double)agreen:(double)bblue:(double)calpha:(double)d;
+ + (id) colorWithCalibratedWhite:(double)aalpha:(double)b;
 
  - (id) initWithCoder:(id)a;
 

@@ -5,9 +5,9 @@
     @"NSMutableArray" _gestureRecognizers;
     @"NSMutableArray" _forwardingRecord;
     BOOL _abandonForwardingRecord;
-    d _timestamp;
-    q _phase;
-    q _type;
+    double _timestamp;
+    long long _phase;
+    long long _type;
     @"UIWindow" _window;
     @"UIResponder" _responder;
 }
@@ -21,29 +21,29 @@
 @property (nonatomic, retain, readwrite, _setResponder:) UIResponder* _responder;
 
  - (void) dealloc;
- - (void) setType:(q)a;
+ - (void) setType:(long long)a;
  - (void) setWindow:(id)a;
- - (q) phase;
- - (void) setPhase:(q)a;
+ - (long long) phase;
+ - (void) setPhase:(long long)a;
  - (id) gestureRecognizers;
  - (void) setResponder:(id)a;
  - (void) setGestureRecognizers:(id)a;
- - (void) _setForwardablePhase:(q)a;
+ - (void) _setForwardablePhase:(long long)a;
  - (id) _responder;
  - (void) _setResponder:(id)a;
  - (id) responder;
  - (id) _forwardingRecord;
- - (SEL) _responderSelectorForPhase:(q)a;
+ - (SEL) _responderSelectorForPhase:(long long)a;
  - (BOOL) _wantsForwardingFromResponder:(id)atoNextResponder:(id)bwithEvent:(id)c;
  - (void) _removeGestureRecognizer:(id)a;
- - (q) _forwardablePhase;
+ - (long long) _forwardablePhase;
  - (BOOL) _isAbandoningForwardingRecord;
  - (id) _mutableForwardingRecord;
  - (void) _abandonForwardingRecord;
- - (q) type;
+ - (long long) type;
  - (id) window;
- - (d) timestamp;
- - (void) setTimestamp:(d)a;
+ - (double) timestamp;
+ - (void) setTimestamp:(double)a;
 
 
 @end

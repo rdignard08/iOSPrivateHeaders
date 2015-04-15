@@ -6,8 +6,8 @@
 }
  + (BOOL) supportsSecureCoding;
  + (void) initialize;
- + (id) glyphInfoWithGlyph:(I)aforFont:(id)bbaseString:(id)c;
- + (id) glyphInfoWithCharacterIdentifier:(Q)acollection:(Q)bbaseString:(id)c;
+ + (id) glyphInfoWithGlyph:(unsigned int)aforFont:(id)bbaseString:(id)c;
+ + (id) glyphInfoWithCharacterIdentifier:(unsigned long long)acollection:(unsigned long long)bbaseString:(id)c;
  + (id) glyphInfoWithGlyphName:(id)aforFont:(id)bbaseString:(id)c;
 
  - (Class) classForKeyedArchiver;
@@ -15,11 +15,11 @@
  - (void) dealloc;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (I) _glyphForFont:(id)abaseString:(id)b;
+ - (unsigned int) _glyphForFont:(id)abaseString:(id)b;
  - (id) initWithBaseString:(id)a;
  - (id) _baseString;
- - (Q) characterIdentifier;
- - (Q) characterCollection;
+ - (unsigned long long) characterIdentifier;
+ - (unsigned long long) characterCollection;
  - (id) glyphName;
 
 

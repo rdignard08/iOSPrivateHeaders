@@ -8,7 +8,7 @@
 
  - (void) dealloc;
  - (id) effectPreset;
- - (id) initWithCoreUIOptions:(id)aforKey:(r^{_renditionkeytoken=SS})bartworkStatus:(q)c;
+ - (id) initWithCoreUIOptions:(id)aforKey:(r^{_renditionkeytoken=SS})bartworkStatus:(long long)c;
  - (void) _initializeCoreUIOptions:(id)a;
  - (id) referenceImage;
  - (id) initWithCoreUIOptions:(id)aforKey:(r^{_renditionkeytoken=SS})b;

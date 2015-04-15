@@ -2,9 +2,9 @@
 @interface BKSHIDEventVendorDefinedDescriptor : BKSHIDEventKeyboardDescriptor {
 
 }
- + (id) descriptorWithPage:(I)ausage:(I)b;
+ + (id) descriptorWithPage:(unsigned int)ausage:(unsigned int)b;
 
- - (id) _initWithPage:(I)ausage:(I)b;
+ - (id) _initWithPage:(unsigned int)ausage:(unsigned int)b;
 
 
 @end

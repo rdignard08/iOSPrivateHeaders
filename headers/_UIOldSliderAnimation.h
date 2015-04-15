@@ -1,12 +1,12 @@
 
 @interface _UIOldSliderAnimation : UIAnimation {
 
-    f _startValue;
-    f _endValue;
+    float _startValue;
+    float _endValue;
     BOOL _sendAction;
 }
 
- - (void) setProgress:(f)a;
+ - (void) setProgress:(float)a;
 
 
 @end

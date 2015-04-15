@@ -1,18 +1,18 @@
 
 @interface _EditScriptRanged : _EditScript {
 
-    q _options;
+    long long _options;
     @"_EditScriptRangedAtom" _currentScriptAtom;
 }
- + (id) editScriptFromString:(id)atoString:(id)bchunkSize:(q)corderAtomsAscending:(BOOL)doperationPrecedence:(q)eoptions:(q)f;
+ + (id) editScriptFromString:(id)atoString:(id)bchunkSize:(long long)corderAtomsAscending:(BOOL)doperationPrecedence:(long long)eoptions:(long long)f;
  + (id) editScriptFromString:(id)atoString:(id)b;
  + (id) editScriptForSmallestSingleEditFromString:(id)atoString:(id)b;
 
  - (void) dealloc;
  - (void) finalizeCurrentScriptAtom;
  - (void) initializeCurrentScriptAtom;
- - (void) addToCurrentScriptAtomEditOperation:(q)aeditIndex:(Q)bnewText:(id)cindexInArrayB:(Q)d;
- - (id) initWithOperationPrecedence:(q)adataClass:(Class)bchunkSize:(q)cstringA:(id)dstringB:(id)eorderAtomsAscending:(BOOL)foptions:(q)g;
+ - (void) addToCurrentScriptAtomEditOperation:(long long)aeditIndex:(unsigned long long)bnewText:(id)cindexInArrayB:(unsigned long long)d;
+ - (id) initWithOperationPrecedence:(long long)adataClass:(Class)bchunkSize:(long long)cstringA:(id)dstringB:(id)eorderAtomsAscending:(BOOL)foptions:(long long)g;
  - (void) removeAnyOverlapBetweenIndexOfFirstDifference:(^q)aandReverseIndexOfLastDifference:(^q)bshouldShortenFirstDifference:(BOOL)c;
  - (void) computeSmallestSingleEdit;
  - (id) stringA;

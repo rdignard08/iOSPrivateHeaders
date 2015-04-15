@@ -9,7 +9,7 @@
  - (void) populateCell:(id)a;
  - (void) setSelected:(BOOL)a;
  - (void) setLabel:(id)a;
- - (i) index;
+ - (int) index;
  - (id) form;
  - (BOOL) selected;
  - (BOOL) disabled;

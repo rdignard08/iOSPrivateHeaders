@@ -11,8 +11,8 @@
  - (id) action;
  - (void) setAction:(id)a;
  - (BOOL) autocorrect;
- - (i) structuralComplexityContribution;
- - (i) length;
+ - (int) structuralComplexityContribution;
+ - (int) length;
  - (void) setName:(id)a;
  - (id) elements;
  - (id) encoding;

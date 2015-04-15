@@ -3,7 +3,7 @@
 
 }
 
- - (q) UIActionType;
+ - (long long) UIActionType;
  - (id) init;
 
 

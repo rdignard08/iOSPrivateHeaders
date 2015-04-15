@@ -1,15 +1,15 @@
 
 @interface NSContentSizeLayoutConstraint : NSLayoutConstraint {
 
-    d _huggingPriority;
-    d _compressionResistancePriority;
+    double _huggingPriority;
+    double _compressionResistancePriority;
 }
 
  - (id) _priorityDescription;
- - (d) priorityForVariable:(id)a;
- - (d) huggingPriority;
- - (d) compressionResistancePriority;
- - (id) initWithLayoutItem:(id)avalue:(d)bhuggingPriority:(d)ccompressionResistancePriority:(d)dorientation:(q)e;
+ - (double) priorityForVariable:(id)a;
+ - (double) huggingPriority;
+ - (double) compressionResistancePriority;
+ - (id) initWithLayoutItem:(id)avalue:(double)bhuggingPriority:(double)ccompressionResistancePriority:(double)dorientation:(long long)e;
 
 
 @end

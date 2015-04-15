@@ -5,13 +5,13 @@
     b1 _needToZero;
     b1 _hasVM;
     b29 _retainCount;
-    Q _length;
-    Q _capacity;
+    unsigned long long _length;
+    unsigned long long _capacity;
     ^v _bytes;
 }
 
- - (id) initWithLength:(Q)a;
- - (id) initWithBytes:(^v)alength:(Q)bcopy:(BOOL)cdeallocator:(@?)d;
+ - (id) initWithLength:(unsigned long long)a;
+ - (id) initWithBytes:(^v)alength:(unsigned long long)bcopy:(BOOL)cdeallocator:(@?)d;
  - (void) replaceBytesInRange:({_NSRange=QQ})awithBytes:(r^v)b;
  - (void) resetBytesInRange:({_NSRange=QQ})a;
  - (void) _freeBytes;
@@ -19,11 +19,11 @@
  - (void) finalize;
  - (r^v) bytes;
  - (^v) mutableBytes;
- - (void) setLength:(Q)a;
- - (void) increaseLengthBy:(Q)a;
- - (void) appendBytes:(r^v)alength:(Q)b;
- - (id) initWithCapacity:(Q)a;
- - (Q) length;
+ - (void) setLength:(unsigned long long)a;
+ - (void) increaseLengthBy:(unsigned long long)a;
+ - (void) appendBytes:(r^v)alength:(unsigned long long)b;
+ - (id) initWithCapacity:(unsigned long long)a;
+ - (unsigned long long) length;
  - (id) init;
  - (void) appendData:(id)a;
 

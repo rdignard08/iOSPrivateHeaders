@@ -3,9 +3,9 @@
 
 }
 
- - (Q) total;
+ - (unsigned long long) total;
  - (BOOL) lengthComputable;
- - (Q) loaded;
+ - (unsigned long long) loaded;
 
 
 @end

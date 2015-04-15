@@ -5,12 +5,12 @@
     @"UIKBTree" _keyplane;
 }
  + (id) activeInstance;
- + (d) landscapeHeight;
- + (d) portraitHeight;
+ + (double) landscapeHeight;
+ + (double) portraitHeight;
 
  - (void) layoutSubviews;
  - (void) setRenderConfig:(id)a;
- - (i) _clipCornersOfView:(id)a;
+ - (int) _clipCornersOfView:(id)a;
  - ({CGSize=dd}) dragGestureSize;
  - (id) currentKeyplane;
  - (void) showKeyboardWithInputTraits:(id)ascreenTraits:(id)bsplitTraits:(id)c;

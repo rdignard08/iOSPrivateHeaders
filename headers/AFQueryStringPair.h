@@ -10,7 +10,7 @@
  - (void) setField:(id)a;
  - (id) field;
  - (id) initWithField:(id)avalue:(id)b;
- - (id) URLEncodedStringValueWithEncoding:(Q)a;
+ - (id) URLEncodedStringValueWithEncoding:(unsigned long long)a;
  - (void) .cxx_destruct;
  - (void) setValue:(id)a;
  - (id) value;

@@ -1,24 +1,24 @@
 
 @interface UIPinchGestureRecognizer : UIGestureRecognizer {
 
-    d _initialTouchDistance;
-    d _initialTouchScale;
-    d _lastTouchTime;
-    d _velocity;
-    d _previousVelocity;
-    d _scaleThreshold;
+    double _initialTouchDistance;
+    double _initialTouchScale;
+    double _lastTouchTime;
+    double _velocity;
+    double _previousVelocity;
+    double _scaleThreshold;
     {CGAffineTransform="a"d"b"d"c"d"d"d"tx"d"ty"d} _transform;
     {CGPoint="x"d"y"d} _anchorSceneReferencePoint;
     [2@"UITouch"] _touches;
-    d _hysteresis;
+    double _hysteresis;
     id _transformAnalyzer;
     b1 _endsOnSingleTouch;
 }
 
- - (d) scale;
+ - (double) scale;
  - (void) dealloc;
- - (d) _hysteresis;
- - (void) _setHysteresis:(d)a;
+ - (double) _hysteresis;
+ - (void) _setHysteresis:(double)a;
  - (void) touchesBegan:(id)awithEvent:(id)b;
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) touchesEnded:(id)awithEvent:(id)b;
@@ -26,13 +26,13 @@
  - (void) _resetGestureRecognizer;
  - (BOOL) _endsOnSingleTouch;
  - (void) _setEndsOnSingleTouch:(BOOL)a;
- - (d) scaleThreshold;
- - (void) setScaleThreshold:(d)a;
+ - (double) scaleThreshold;
+ - (void) setScaleThreshold:(double)a;
  - (id) initWithCoder:(id)a;
  - ({CGPoint=dd}) anchorPoint;
- - (void) setScale:(d)a;
+ - (void) setScale:(double)a;
  - (id) initWithTarget:(id)aaction:(SEL)b;
- - (d) velocity;
+ - (double) velocity;
 
 
 @end

@@ -13,7 +13,7 @@
     BOOL m_wasShowingCommands;
     BOOL m_delayShowingCommands;
     BOOL m_dictationReplacementsMode;
-    i m_showingCommandsCounter;
+    int m_showingCommandsCounter;
     @"NSArray" m_replacements;
     BOOL m_deferSelectionCommands;
     ^{__CFRunLoopObserver=} m_observer;
@@ -48,9 +48,9 @@
  - (void) updateBaseIsStartWithDocumentPoint:({CGPoint=dd})a;
  - (id) rangeView;
  - (void) updateSelectionDots;
- - (void) showSelectionCommandsAfterDelay:(d)a;
+ - (void) showSelectionCommandsAfterDelay:(double)a;
  - (BOOL) selectionCommandsShowing;
- - (void) showReplacementsWithGenerator:(id)aforDictation:(BOOL)bafterDelay:(d)c;
+ - (void) showReplacementsWithGenerator:(id)aforDictation:(BOOL)bafterDelay:(double)c;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) selectionBoundingBox;
  - (void) textSelectionViewActivated:(id)a;
  - (void) selectionWillScroll:(id)a;
@@ -69,8 +69,8 @@
  - (void) appearOrFadeIfNecessary;
  - (void) deferredUpdateSelectionCommands;
  - (BOOL) affectedByScrollerNotification:(id)a;
- - (void) showCalloutBarAfterDelay:(d)a;
- - (void) hideSelectionCommandsAfterDelay:(d)a;
+ - (void) showCalloutBarAfterDelay:(double)a;
+ - (void) hideSelectionCommandsAfterDelay:(double)a;
  - (void) inputViewWillChange;
  - (void) inputViewDidChange;
  - (BOOL) shouldBeVisible;
@@ -78,7 +78,7 @@
  - (void) clearCaretBlinkTimer;
  - (void) clearRange;
  - (id) caretView;
- - (void) showCaret:(i)a;
+ - (void) showCaret:(int)a;
  - (void) touchCaretBlinkTimer;
  - (void) updateSelectionRectsIfNeeded;
  - (void) showCommandsWithReplacements:(id)a;
@@ -86,7 +86,7 @@
  - (BOOL) updateCalloutBarRects:(id)aeffectsWindow:(id)b;
  - (void) setReplacements:(id)a;
  - (void) calculateAndShowReplacements:(id)a;
- - (void) hideCaret:(i)a;
+ - (void) hideCaret:(int)a;
  - (void) caretBlinkTimerFired:(id)a;
  - (void) updateSelectionCommands;
  - (void) prepareForMagnification;

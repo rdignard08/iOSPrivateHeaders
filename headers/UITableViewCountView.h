@@ -2,14 +2,14 @@
 @interface UITableViewCountView : UILabel {
 
     @"NSString" _countString;
-    i _count;
+    int _count;
 }
 
- - (void) setCount:(q)a;
+ - (void) setCount:(long long)a;
  - (void) dealloc;
- - (q) count;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})awithCountString:(id)bwithCount:(q)c;
- - (void) setCountString:(id)awithCount:(q)b;
+ - (long long) count;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})awithCountString:(id)bwithCount:(long long)c;
+ - (void) setCountString:(id)awithCount:(long long)b;
 
 
 @end

@@ -5,22 +5,22 @@
 }
 @property (atomic, assign, readonly, isValid) NSNumber* valid;
 @property (atomic, assign, readonly) NSNumber* reservedSpaceLength;
- + (id) portWithMachPort:(I)a;
+ + (id) portWithMachPort:(unsigned int)a;
  + (id) allocWithZone:(^{_NSZone=})a;
  + (id) port;
 
  - (Class) classForCoder;
  - (id) replacementObjectForCoder:(id)a;
- - (id) initWithMachPort:(I)a;
- - (BOOL) sendBeforeDate:(id)acomponents:(id)bfrom:(id)creserved:(Q)d;
- - (Q) reservedSpaceLength;
+ - (id) initWithMachPort:(unsigned int)a;
+ - (BOOL) sendBeforeDate:(id)acomponents:(id)bfrom:(id)creserved:(unsigned long long)d;
+ - (unsigned long long) reservedSpaceLength;
  - (Class) classForPortCoder;
- - (BOOL) sendBeforeDate:(id)amsgid:(Q)bcomponents:(id)cfrom:(id)dreserved:(Q)e;
+ - (BOOL) sendBeforeDate:(id)amsgid:(unsigned long long)bcomponents:(id)cfrom:(id)dreserved:(unsigned long long)e;
  - (void) addConnection:(id)atoRunLoop:(id)bforMode:(id)c;
  - (void) removeConnection:(id)afromRunLoop:(id)bforMode:(id)c;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) invalidate;
- - (I) machPort;
+ - (unsigned int) machPort;
  - (BOOL) isValid;
  - (void) setDelegate:(id)a;
  - (void) scheduleInRunLoop:(id)aforMode:(id)b;

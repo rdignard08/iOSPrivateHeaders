@@ -5,14 +5,14 @@
 }
 
  - (id) initWithContentsOfFile:(id)a;
- - (Q) writePath:(id)adocInfo:(id)berrorHandler:(id)cremapContents:(BOOL)dhardLinkPath:(id)e;
+ - (unsigned long long) writePath:(id)adocInfo:(id)berrorHandler:(id)cremapContents:(BOOL)dhardLinkPath:(id)e;
  - (id) serializeToData;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
  - (void) removeObjectForKey:(id)a;
- - (id) initWithCapacity:(Q)a;
- - (id) initWithObjects:(r^@)aforKeys:(r^@)bcount:(Q)c;
+ - (id) initWithCapacity:(unsigned long long)a;
+ - (id) initWithObjects:(r^@)aforKeys:(r^@)bcount:(unsigned long long)c;
  - (id) keyEnumerator;
  - (void) setObject:(id)aforKey:(id)b;
  - (id) initWithDictionary:(id)acopyItems:(BOOL)b;

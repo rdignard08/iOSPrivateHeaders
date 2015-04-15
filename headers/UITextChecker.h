@@ -2,12 +2,12 @@
 @interface UITextChecker : NSObject {
 
     id _reserved;
-    q _usdt;
+    long long _usdt;
 }
  + (void) setString:(id)aisExemptFromChecker:(BOOL)b;
  + (void) queryLocalUpdateAssets:(@?)a;
- + (q) uniqueSpellDocumentTag;
- + (id) bestLanguageForString:(id)afromAlternatives:(id)bcurrentLanguage:(id)cinsertionPointIndex:(Q)dscriptForBestLanguage:(^@)e;
+ + (long long) uniqueSpellDocumentTag;
+ + (id) bestLanguageForString:(id)afromAlternatives:(id)bcurrentLanguage:(id)cinsertionPointIndex:(unsigned long long)dscriptForBestLanguage:(^@)e;
  + (^{__CFSet=}) createDictHashTable:(BOOL)a;
  + (id) openUserDictionary:(id)a;
  + (id) dictionaryInfo:(id)a;
@@ -26,20 +26,20 @@
  - (void) dealloc;
  - (id) _initWithAsynchronousLoading:(BOOL)a;
  - (BOOL) _doneLoading;
- - ({_NSRange=QQ}) rangeOfMisspelledWordInString:(id)arange:({_NSRange=QQ})bstartingAt:(q)cwrap:(BOOL)dlanguage:(id)e;
- - (id) _nameOfDictionaryForDocumentTag:(q)a;
+ - ({_NSRange=QQ}) rangeOfMisspelledWordInString:(id)arange:({_NSRange=QQ})bstartingAt:(long long)cwrap:(BOOL)dlanguage:(id)e;
+ - (id) _nameOfDictionaryForDocumentTag:(long long)a;
  - (void) initUserDictionaries;
  - (void) queryUpdateBundle;
  - (void) initGlobals;
  - (void) setIgnoredWords:(id)a;
- - ({_NSRange=QQ}) checkSpellingOfString:(id)astartingAt:(q)blanguage:(id)cwrap:(BOOL)dcorrection:(^@)e;
+ - ({_NSRange=QQ}) checkSpellingOfString:(id)astartingAt:(long long)blanguage:(id)cwrap:(BOOL)dcorrection:(^@)e;
  - (id) _checker;
- - (q) adjustOffsetToNextWordBoundaryInString:(id)astartingAt:(q)b;
+ - (long long) adjustOffsetToNextWordBoundaryInString:(id)astartingAt:(long long)b;
  - (void) _setLanguageDictionaryName:(id)a;
  - (void) _setDocumentDictionaryName:(id)a;
  - ({_NSRange=QQ}) _chunkAndFindMisspelledWordInString:(id)alanguage:(id)blearnedDictionaries:(id)cwordCount:(^q)dcorrection:(^@)eusingChecker:(id)f;
  - ({_NSRange=QQ}) _chunkAndCheckGrammarInString:(id)alanguage:(id)busingChecker:(id)cdetails:(^@)d;
- - ({_NSRange=QQ}) checkGrammarOfString:(id)astartingAt:(q)blanguage:(id)cwrap:(BOOL)ddetails:(^@)e;
+ - ({_NSRange=QQ}) checkGrammarOfString:(id)astartingAt:(long long)blanguage:(id)cwrap:(BOOL)ddetails:(^@)e;
  - (id) correctionForWordRange:({_NSRange=QQ})ainString:(id)blanguage:(id)c;
  - (id) guessesForWordRange:({_NSRange=QQ})ainString:(id)blanguage:(id)c;
  - (id) completionsForPartialWordRange:({_NSRange=QQ})ainString:(id)blanguage:(id)c;

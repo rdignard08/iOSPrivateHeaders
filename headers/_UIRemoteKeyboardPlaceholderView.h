@@ -5,7 +5,7 @@
     @"UIView" _mirroredView;
 }
  + (id) placeholderForView:(id)a;
- + (id) placeholderWithWidth:(d)aheight:(d)b;
+ + (id) placeholderWithWidth:(double)aheight:(double)b;
 
  - (void) dealloc;
  - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;

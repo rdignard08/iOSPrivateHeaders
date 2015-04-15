@@ -12,7 +12,7 @@
  - (void) setInputRadius:(id)a;
  - (BOOL) _isIdentity;
  - (id) inputRadius;
- - (id) _blur:(id)apass:(i)bweightsFactor:(f)c;
+ - (id) _blur:(id)apass:(int)bweightsFactor:(float)c;
 
 
 @end

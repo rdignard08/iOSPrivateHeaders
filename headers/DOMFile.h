@@ -4,7 +4,7 @@
 }
 
  - (id) name;
- - (d) lastModifiedDate;
+ - (double) lastModifiedDate;
 
 
 @end

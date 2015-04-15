@@ -11,7 +11,7 @@
  - (void) reset;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) setAcceleration:({CGPoint=dd})afixingOutputForViewerOffset:({UIOffset=dd})b;
  - ({UIOffset=dd}) acceleratedOutputForViewerOffset:({UIOffset=dd})aaccelerationBoostFactor:({CGPoint=dd})b;

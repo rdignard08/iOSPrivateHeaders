@@ -3,7 +3,7 @@
 @interface AFStreamingMultipartFormData : NSObject <AFMultipartFormData> {
 
     @"NSMutableURLRequest" _request;
-    Q _stringEncoding;
+    unsigned long long _stringEncoding;
     @"NSString" _boundary;
     @"AFMultipartBodyStream" _bodyStream;
 }
@@ -13,9 +13,9 @@
 @property (nonatomic, retain, readwrite) AFMultipartBodyStream* bodyStream;
 
  - (void) setRequest:(id)a;
- - (void) setStringEncoding:(Q)a;
- - (id) initWithURLRequest:(id)astringEncoding:(Q)b;
- - (Q) stringEncoding;
+ - (void) setStringEncoding:(unsigned long long)a;
+ - (id) initWithURLRequest:(id)astringEncoding:(unsigned long long)b;
+ - (unsigned long long) stringEncoding;
  - (void) appendPartWithFormData:(id)aname:(id)b;
  - (id) requestByFinalizingMultipartFormData;
  - (void) setBoundary:(id)a;
@@ -25,9 +25,9 @@
  - (id) bodyStream;
  - (void) appendPartWithHeaders:(id)abody:(id)b;
  - (BOOL) appendPartWithFileURL:(id)aname:(id)berror:(^@)c;
- - (void) appendPartWithInputStream:(id)aname:(id)bfileName:(id)clength:(q)dmimeType:(id)e;
+ - (void) appendPartWithInputStream:(id)aname:(id)bfileName:(id)clength:(long long)dmimeType:(id)e;
  - (void) appendPartWithFileData:(id)aname:(id)bfileName:(id)cmimeType:(id)d;
- - (void) throttleBandwidthWithPacketSize:(Q)adelay:(d)b;
+ - (void) throttleBandwidthWithPacketSize:(unsigned long long)adelay:(double)b;
  - (void) .cxx_destruct;
  - (id) request;
 

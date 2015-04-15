@@ -6,11 +6,11 @@
  - (id) backgroundTraitsForKeyplane:(id)a;
  - (id) _traitsForKey:(id)aonKeyplane:(id)b;
  - (id) displayContentsForKey:(id)a;
- - (d) carScale;
+ - (double) carScale;
  - (id) dividerColor;
  - (id) activeKeyColor;
  - (id) enabledKeyColor;
- - (d) defaultKeyFontSize;
+ - (double) defaultKeyFontSize;
 
 
 @end

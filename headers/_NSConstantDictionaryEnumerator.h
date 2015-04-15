@@ -2,13 +2,13 @@
 @interface _NSConstantDictionaryEnumerator : NSEnumerator {
 
     ^@ currentKey;
-    Q capacity;
-    Q keyIndex;
+    unsigned long long capacity;
+    unsigned long long keyIndex;
 }
 
  - (id) nextObject;
  - (id) allObjects;
- - (id) initWithFirstKeyPointer:(^@)acapacity:(Q)b;
+ - (id) initWithFirstKeyPointer:(^@)acapacity:(unsigned long long)b;
 
 
 @end

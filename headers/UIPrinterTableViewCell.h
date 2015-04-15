@@ -1,12 +1,12 @@
 
 @interface UIPrinterTableViewCell : UITableViewCell {
 
-    i _printerState;
+    int _printerState;
     @"UIActivityIndicatorView" _activityIndicator;
 }
 
- - (void) setPrinterState:(i)a;
- - (i) printerState;
+ - (void) setPrinterState:(int)a;
+ - (int) printerState;
 
 
 @end

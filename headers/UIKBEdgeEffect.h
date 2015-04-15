@@ -3,11 +3,11 @@
 @interface UIKBEdgeEffect : NSObject <UIKBRenderEffect> {
 
     @"NSString" _colorName;
-    Q _edges;
-    d _inset;
-    d _weight;
+    unsigned long long _edges;
+    double _inset;
+    double _weight;
     @"UIKBGradient" _gradient;
-    d _opacity;
+    double _opacity;
 }
 @property (nonatomic, assign, readwrite) NSNumber* edges;
 @property (nonatomic, assign, readwrite) NSNumber* inset;
@@ -17,27 +17,27 @@
 @property (nonatomic, assign, readonly) NSNumber* renderUnder;
 @property (nonatomic, assign, readonly) NSNumber* renderSelector;
 @property (nonatomic, assign, readwrite) NSNumber* weight;
- + (id) effectWithColor:(id)aedges:(Q)binset:(d)cweight:(d)d;
+ + (id) effectWithColor:(id)aedges:(unsigned long long)binset:(double)cweight:(double)d;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
  - (BOOL) isValid;
  - (BOOL) isEqual:(id)a;
- - (void) setInset:(d)a;
- - (void) setEdges:(Q)a;
- - (Q) edges;
- - (d) weight;
- - (id) initWithColor:(id)aedges:(Q)binset:(d)cweight:(d)d;
- - (d) inset;
+ - (void) setInset:(double)a;
+ - (void) setEdges:(unsigned long long)a;
+ - (unsigned long long) edges;
+ - (double) weight;
+ - (id) initWithColor:(id)aedges:(unsigned long long)binset:(double)cweight:(double)d;
+ - (double) inset;
  - (BOOL) renderUnder;
  - (SEL) renderSelector;
- - (void) setWeight:(d)a;
+ - (void) setWeight:(double)a;
  - (^{CGColor=}) CGColor;
  - (id) gradient;
  - (void) setGradient:(id)a;
- - (d) opacity;
- - (void) setOpacity:(d)a;
+ - (double) opacity;
+ - (void) setOpacity:(double)a;
 
 
 @end

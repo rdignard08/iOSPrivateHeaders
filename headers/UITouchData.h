@@ -2,9 +2,9 @@
 @interface UITouchData : NSObject {
 
     {CGPoint="x"d"y"d} startTouchDownLocation;
-    Q lastTapCount;
-    d lastTouchUpTimestamp;
-    d lastTouchDownTimestamp;
+    unsigned long long lastTapCount;
+    double lastTouchUpTimestamp;
+    double lastTouchDownTimestamp;
     BOOL touchIsValidTap;
     @"UITouch" lastTouch;
 }

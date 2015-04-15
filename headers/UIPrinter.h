@@ -19,7 +19,7 @@
  - (id) _initWithURL:(id)a;
  - (id) makeAndModel;
  - (id) displayLocation;
- - (q) supportedJobTypes;
+ - (long long) supportedJobTypes;
  - (BOOL) supportsColor;
  - (BOOL) supportsDuplex;
  - (void) contactPrinter:(@?)a;

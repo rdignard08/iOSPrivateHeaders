@@ -30,8 +30,8 @@
  - (void) toggleUnderline:(id)a;
  - (void) toggleBold:(id)a;
  - (void) toggleItalic:(id)a;
- - (BOOL) _beginPrintModeWithMinimumPageWidth:(d)aheight:(d)bmaximumPageWidth:(d)c;
- - (d) _adjustedBottomOfPageWithTop:(d)abottom:(d)blimit:(d)c;
+ - (BOOL) _beginPrintModeWithMinimumPageWidth:(double)aheight:(double)bmaximumPageWidth:(double)c;
+ - (double) _adjustedBottomOfPageWithTop:(double)abottom:(double)blimit:(double)c;
  - (void) _endPrintMode;
  - (void) _frameOrBoundsChanged;
  - (void) delete:(id)a;
@@ -40,7 +40,7 @@
  - ({_NSRange=QQ}) markedRange;
  - (void) layout;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setScale:(f)a;
+ - (void) setScale:(float)a;
  - (id) hitTest:({CGPoint=dd})a;
  - (void) setNeedsDisplayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) layoutIfNeeded;
@@ -80,11 +80,11 @@
  - (id) _pluginController;
  - (void) closeIfNotCurrentView;
  - (id) _selectedRange;
- - (BOOL) _shouldInsertText:(id)areplacingDOMRange:(id)bgivenAction:(q)c;
+ - (BOOL) _shouldInsertText:(id)areplacingDOMRange:(id)bgivenAction:(long long)c;
  - (id) _topHTMLView;
  - (id) _frameView;
- - (BOOL) _shouldInsertFragment:(id)areplacingDOMRange:(id)bgivenAction:(q)c;
- - (BOOL) _shouldReplaceSelectionWithText:(id)agivenAction:(q)b;
+ - (BOOL) _shouldInsertFragment:(id)areplacingDOMRange:(id)bgivenAction:(long long)c;
+ - (BOOL) _shouldReplaceSelectionWithText:(id)agivenAction:(long long)b;
  - (BOOL) _shouldDeleteRange:(id)a;
  - (void) _setMouseDownEvent:(id)a;
  - (BOOL) _isTopHTMLView;
@@ -96,7 +96,7 @@
  - (BOOL) _isEditable;
  - (void) _clearLastHitViewIfSelf;
  - (BOOL) _isInScreenPaginationMode;
- - (void) _setPrinting:(BOOL)aminimumPageLogicalWidth:(f)blogicalHeight:(f)coriginalPageWidth:(f)doriginalPageHeight:(f)emaximumShrinkRatio:(f)fadjustViewSize:(BOOL)gpaginateScreenContent:(BOOL)h;
+ - (void) _setPrinting:(BOOL)aminimumPageLogicalWidth:(float)blogicalHeight:(float)coriginalPageWidth:(float)doriginalPageHeight:(float)emaximumShrinkRatio:(float)fadjustViewSize:(BOOL)gpaginateScreenContent:(BOOL)h;
  - (BOOL) _isInPrintMode;
  - (void) _setAsideSubviews;
  - (void) _restoreSubviews;
@@ -120,7 +120,7 @@
  - (BOOL) _hasHTMLDocument;
  - (BOOL) _isUsingAcceleratedCompositing;
  - (id) _compositingLayersHostingView;
- - (BOOL) _beginPrintModeWithPageWidth:(f)aheight:(f)bshrinkToFit:(BOOL)c;
+ - (BOOL) _beginPrintModeWithPageWidth:(float)aheight:(float)bshrinkToFit:(BOOL)c;
  - (BOOL) _beginScreenPaginationModeWithPageSize:({CGSize=dd})ashrinkToFit:(BOOL)b;
  - (void) _endScreenPaginationMode;
  - (id) accessibilityRootElement;
@@ -130,7 +130,7 @@
  - ({Command=^{EditorInternalCommand}i{RefPtr<WebCore::Frame>=^{Frame}}}) coreCommandByName:(r*)a;
  - (void) executeCoreCommandBySelector:(SEL)a;
  - (BOOL) maintainsInactiveSelection;
- - (void) layoutToMinimumPageWidth:(f)aheight:(f)boriginalPageWidth:(f)coriginalPageHeight:(f)dmaximumShrinkRatio:(f)eadjustingViewSize:(BOOL)f;
+ - (void) layoutToMinimumPageWidth:(float)aheight:(float)boriginalPageWidth:(float)coriginalPageHeight:(float)dmaximumShrinkRatio:(float)eadjustingViewSize:(BOOL)f;
  - (BOOL) searchFor:(id)adirection:(BOOL)bcaseSensitive:(BOOL)cwrap:(BOOL)dstartInSelection:(BOOL)e;
  - (void) drawSingleRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) clearFocus;
@@ -230,7 +230,7 @@
  - (BOOL) _isSelectionEvent:(id)a;
  - (void) centerSelectionInVisibleArea:(id)a;
  - (id) _emptyStyle;
- - (void) _applyStyleToSelection:(id)awithUndoAction:(i)b;
+ - (void) _applyStyleToSelection:(id)awithUndoAction:(int)b;
  - (void) uppercaseWord:(id)a;
  - (void) lowercaseWord:(id)a;
  - (void) capitalizeWord:(id)a;
@@ -242,13 +242,13 @@
  - (BOOL) _canSmartCopyOrDelete;
  - (void) _executeSavedKeypressCommands;
  - (void) _destroyAllWebPlugins;
- - (Q) characterIndexForPoint:({CGPoint=dd})a;
+ - (unsigned long long) characterIndexForPoint:({CGPoint=dd})a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) firstRectForCharacterRange:({_NSRange=QQ})a;
- - (q) conversationIdentifier;
- - (BOOL) _findString:(id)aoptions:(Q)b;
+ - (long long) conversationIdentifier;
+ - (BOOL) _findString:(id)aoptions:(unsigned long long)b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) selectionImageRect;
  - (id) elementAtPoint:({CGPoint=dd})aallowShadowContent:(BOOL)b;
- - (Q) countMatchesForText:(id)ainDOMRange:(id)boptions:(Q)climit:(Q)dmarkMatches:(BOOL)e;
+ - (unsigned long long) countMatchesForText:(id)ainDOMRange:(id)boptions:(unsigned long long)climit:(unsigned long long)dmarkMatches:(BOOL)e;
  - (void) setMarkedTextMatchesAreHighlighted:(BOOL)a;
  - (BOOL) markedTextMatchesAreHighlighted;
  - (void) unmarkAllTextMatches;

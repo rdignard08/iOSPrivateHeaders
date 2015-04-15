@@ -6,7 +6,7 @@
     @"UIDocumentInteractionController" _documentInteractionController;
     @"NSString" _activityType;
 }
- + (q) activityCategory;
+ + (long long) activityCategory;
 
  - (id) activityType;
  - (void) dealloc;

@@ -1,40 +1,40 @@
 
 @interface _UIScreenEdgePanRecognizerEdgeSettings : _UISettings {
 
-    d _hysteresis;
-    d _edgeRegionSize;
-    d _bottomEdgeRegionSize;
-    d _backProjectionTime;
-    d _edgeAngleWindow;
-    d _edgeAngleWindowDecayTime;
-    d _restrictedEdgeRegionTimeInterval;
-    d _restrictedEdgeRegionMinimumWeight;
-    d _maximumSwipeDuration;
+    double _hysteresis;
+    double _edgeRegionSize;
+    double _bottomEdgeRegionSize;
+    double _backProjectionTime;
+    double _edgeAngleWindow;
+    double _edgeAngleWindowDecayTime;
+    double _restrictedEdgeRegionTimeInterval;
+    double _restrictedEdgeRegionMinimumWeight;
+    double _maximumSwipeDuration;
 }
  + (id) settingsControllerModule;
  + (id) keyPathsForValuesAffectingEdgeAngleWindowDegreees;
 
  - (void) setDefaultValues;
- - (void) setHysteresis:(d)a;
- - (void) setEdgeRegionSize:(d)a;
- - (void) setBottomEdgeRegionSize:(d)a;
- - (void) setBackProjectionTime:(d)a;
- - (void) setEdgeAngleWindow:(d)a;
- - (void) setEdgeAngleWindowDecayTime:(d)a;
- - (void) setRestrictedEdgeRegionTimeInterval:(d)a;
- - (void) setRestrictedEdgeRegionMinimumWeight:(d)a;
- - (void) setMaximumSwipeDuration:(d)a;
- - (d) edgeAngleWindow;
- - (d) edgeAngleWindowDegreees;
- - (void) setEdgeAngleWindowDegreees:(d)a;
- - (d) hysteresis;
- - (d) edgeRegionSize;
- - (d) bottomEdgeRegionSize;
- - (d) backProjectionTime;
- - (d) edgeAngleWindowDecayTime;
- - (d) restrictedEdgeRegionTimeInterval;
- - (d) restrictedEdgeRegionMinimumWeight;
- - (d) maximumSwipeDuration;
+ - (void) setHysteresis:(double)a;
+ - (void) setEdgeRegionSize:(double)a;
+ - (void) setBottomEdgeRegionSize:(double)a;
+ - (void) setBackProjectionTime:(double)a;
+ - (void) setEdgeAngleWindow:(double)a;
+ - (void) setEdgeAngleWindowDecayTime:(double)a;
+ - (void) setRestrictedEdgeRegionTimeInterval:(double)a;
+ - (void) setRestrictedEdgeRegionMinimumWeight:(double)a;
+ - (void) setMaximumSwipeDuration:(double)a;
+ - (double) edgeAngleWindow;
+ - (double) edgeAngleWindowDegreees;
+ - (void) setEdgeAngleWindowDegreees:(double)a;
+ - (double) hysteresis;
+ - (double) edgeRegionSize;
+ - (double) bottomEdgeRegionSize;
+ - (double) backProjectionTime;
+ - (double) edgeAngleWindowDecayTime;
+ - (double) restrictedEdgeRegionTimeInterval;
+ - (double) restrictedEdgeRegionMinimumWeight;
+ - (double) maximumSwipeDuration;
 
 
 @end

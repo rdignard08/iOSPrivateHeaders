@@ -14,7 +14,7 @@
  - (BOOL) nsis_shouldIntegralizeVariable:(id)a;
  - (BOOL) nsis_valueOfVariableIsUserObservable:(id)a;
  - (void) playbackOneAction:(id)aonEngine:(id)b;
- - (d) nsis_allowedMagnitudeForIntegralizationAdjustmentOfConstraintWithMarker:(id)a;
+ - (double) nsis_allowedMagnitudeForIntegralizationAdjustmentOfConstraintWithMarker:(id)a;
  - (void) dealloc;
  - (id) init;
 

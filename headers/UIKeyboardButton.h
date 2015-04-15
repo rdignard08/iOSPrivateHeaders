@@ -1,11 +1,11 @@
 
 @interface UIKeyboardButton : UIButton {
 
-    q _keyboardButtonStyle;
+    long long _keyboardButtonStyle;
 }
 
- - (id) initWithKeyboardButtonStyle:(q)a;
- - (q) keyboardButtonStyle;
+ - (id) initWithKeyboardButtonStyle:(long long)a;
+ - (long long) keyboardButtonStyle;
 
 
 @end

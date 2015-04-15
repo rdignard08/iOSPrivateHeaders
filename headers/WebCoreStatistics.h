@@ -4,23 +4,23 @@
 }
  + (id) statistics;
  + (id) javaScriptRootObjectTypeCounts;
- + (Q) javaScriptProtectedGlobalObjectsCount;
+ + (unsigned long long) javaScriptProtectedGlobalObjectsCount;
  + (id) javaScriptProtectedObjectTypeCounts;
- + (Q) javaScriptObjectsCount;
- + (Q) javaScriptGlobalObjectsCount;
- + (Q) javaScriptProtectedObjectsCount;
+ + (unsigned long long) javaScriptObjectsCount;
+ + (unsigned long long) javaScriptGlobalObjectsCount;
+ + (unsigned long long) javaScriptProtectedObjectsCount;
  + (id) javaScriptObjectTypeCounts;
  + (void) garbageCollectJavaScriptObjects;
  + (void) garbageCollectJavaScriptObjectsOnAlternateThreadForDebugging:(BOOL)a;
  + (void) setJavaScriptGarbageCollectorTimerEnabled:(BOOL)a;
- + (Q) iconPageURLMappingCount;
- + (Q) iconRetainedPageURLCount;
- + (Q) iconRecordCount;
- + (Q) iconsWithDataCount;
- + (Q) cachedFontDataCount;
- + (Q) cachedFontDataInactiveCount;
+ + (unsigned long long) iconPageURLMappingCount;
+ + (unsigned long long) iconRetainedPageURLCount;
+ + (unsigned long long) iconRecordCount;
+ + (unsigned long long) iconsWithDataCount;
+ + (unsigned long long) cachedFontDataCount;
+ + (unsigned long long) cachedFontDataInactiveCount;
  + (void) purgeInactiveFontData;
- + (Q) glyphPageCount;
+ + (unsigned long long) glyphPageCount;
  + (BOOL) shouldPrintExceptions;
  + (void) setShouldPrintExceptions:(BOOL)a;
  + (void) emptyCache;
@@ -29,13 +29,13 @@
  + (void) stopIgnoringWebCoreNodeLeaks;
  + (id) memoryStatistics;
  + (void) returnFreeMemoryToSystem;
- + (i) cachedPageCount;
- + (i) cachedFrameCount;
- + (i) autoreleasedPageCount;
- + (Q) javaScriptNoGCAllowedObjectsCount;
- + (Q) javaScriptReferencedObjectsCount;
+ + (int) cachedPageCount;
+ + (int) cachedFrameCount;
+ + (int) autoreleasedPageCount;
+ + (unsigned long long) javaScriptNoGCAllowedObjectsCount;
+ + (unsigned long long) javaScriptReferencedObjectsCount;
  + (id) javaScriptRootObjectClasses;
- + (Q) javaScriptInterpretersCount;
+ + (unsigned long long) javaScriptInterpretersCount;
 
 
 

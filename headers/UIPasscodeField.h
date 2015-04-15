@@ -8,12 +8,12 @@
     @"UIButton" _okButton;
     BOOL _opaqueBackground;
     BOOL _centerHorizontally;
-    q _keyboardType;
-    q _keyboardAppearance;
-    i _emptyContentReturnKeyType;
+    long long _keyboardType;
+    long long _keyboardAppearance;
+    int _emptyContentReturnKeyType;
     id _delegate;
 }
- + (d) defaultHeight;
+ + (double) defaultHeight;
  + (Class) textFieldClass;
 
  - (void) dealloc;
@@ -23,10 +23,10 @@
  - (BOOL) canBecomeFirstResponder;
  - (BOOL) isFirstResponder;
  - (id) hitTest:({CGPoint=dd})aforEvent:(^{__GSEvent=})b;
- - (void) setKeyboardType:(q)aappearance:(q)b;
- - (void) setKeyboardType:(q)aappearance:(q)bemptyContentReturnKeyType:(i)c;
+ - (void) setKeyboardType:(long long)aappearance:(long long)b;
+ - (void) setKeyboardType:(long long)aappearance:(long long)bemptyContentReturnKeyType:(int)c;
  - (void) okButtonClicked:(id)a;
- - (void) setNumberOfEntryFields:(i)aopaqueBackground:(BOOL)b;
+ - (void) setNumberOfEntryFields:(int)aopaqueBackground:(BOOL)b;
  - (void) _updateFields;
  - (void) setTextCentersHorizontally:(BOOL)a;
  - (void) _textDidChange;
@@ -34,13 +34,13 @@
  - (void) setShowsOKButton:(BOOL)a;
  - (void) setStringValue:(id)a;
  - (void) deleteLastCharacter;
- - (i) numberOfEntryFields;
- - (void) setNumberOfEntryFields:(i)a;
+ - (int) numberOfEntryFields;
+ - (void) setNumberOfEntryFields:(int)a;
  - (BOOL) textField:(id)ashouldInsertText:(id)breplacingRange:({_NSRange=QQ})c;
  - (BOOL) textFieldShouldStartEditing:(id)a;
  - (void) textFieldDidResignFirstResponder:(id)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setKeyboardType:(q)a;
+ - (void) setKeyboardType:(long long)a;
  - (BOOL) becomeFirstResponder;
 
 

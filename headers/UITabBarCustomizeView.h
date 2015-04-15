@@ -11,8 +11,8 @@
     @"UITabBarItem" _replaceItem;
     @"UILabel" _titleLabel;
     {CGPoint="x"d"y"d} _startPoint;
-    q _itemsInRowCount;
-    d _gridOffset;
+    long long _itemsInRowCount;
+    double _gridOffset;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _firstItemRect;
     @"UITabBarItem" _selectedBeforeItem;
     @"NSArray" _availableItems;
@@ -24,7 +24,7 @@
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) touchesEnded:(id)awithEvent:(id)b;
  - (void) touchesCancelled:(id)awithEvent:(id)b;
- - (q) _barMetrics;
+ - (long long) _barMetrics;
  - (void) updateProxiesSelection;
  - (void) setAvailableItems:(id)a;
  - (void) tintTabBarItemsForEdit:(BOOL)a;

@@ -6,7 +6,7 @@
  + (id) defaultGlyphGenerator;
  + (id) sharedGlyphGenerator;
 
- - (void) generateGlyphsForGlyphStorage:(id)adesiredNumberOfCharacters:(Q)bglyphIndex:(^Q)ccharacterIndex:(^Q)d;
+ - (void) generateGlyphsForGlyphStorage:(id)adesiredNumberOfCharacters:(unsigned long long)bglyphIndex:(^Q)ccharacterIndex:(^Q)d;
 
 
 @end

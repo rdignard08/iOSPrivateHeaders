@@ -10,7 +10,7 @@
 }
  + (id) bundleTables;
 
- - (void) removeBundle:(id)aforPath:(id)btype:(Q)c;
+ - (void) removeBundle:(id)aforPath:(id)btype:(unsigned long long)c;
  - (id) bundleForClass:(Class)a;
  - (void) setBundle:(id)aforClass:(Class)b;
  - (id) loadedBundles;
@@ -18,7 +18,7 @@
  - (void) addStaticFrameworkBundles:(id)a;
  - (id) allFrameworks;
  - (id) bundleForPath:(id)a;
- - (void) addBundle:(id)atype:(Q)b;
+ - (void) addBundle:(id)atype:(unsigned long long)b;
  - (id) addBundle:(id)aforPath:(id)b;
  - (void) dealloc;
  - (void) finalize;

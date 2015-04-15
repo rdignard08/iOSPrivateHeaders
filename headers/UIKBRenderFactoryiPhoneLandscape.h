@@ -9,9 +9,9 @@
  - (id) shiftKeyImageName;
  - (id) shiftOnKeyImageName;
  - (id) shiftLockImageName;
- - (d) emojiPopupDividerKeyOffset;
+ - (double) emojiPopupDividerKeyOffset;
  - (id) deleteKeyImageName;
- - (d) skinnyKeyThreshold;
+ - (double) skinnyKeyThreshold;
  - (id) globalKeyImageName;
  - (id) dismissKeyImageName;
  - (id) dictationKeyImageName;
@@ -24,9 +24,9 @@
  - (id) boldKeyImageName;
  - (id) biuKeyImageName;
  - ({CGPoint=dd}) more123KeyOffset;
- - (d) moreABCKeyFontSize;
+ - (double) moreABCKeyFontSize;
  - ({CGPoint=dd}) moreABCKeyOffset;
- - (d) popupFontSize;
+ - (double) popupFontSize;
  - ({CGPoint=dd}) popupSymbolTextOffset;
  - ({UIEdgeInsets=dddd}) wideShadowPaddleInsets;
  - ({CGPoint=dd}) variantSymbolTextOffset;
@@ -34,8 +34,8 @@
  - ({UIEdgeInsets=dddd}) variantSymbolFrameInsets;
  - ({UIEdgeInsets=dddd}) variantPaddedFrameInsets;
  - (BOOL) isTallPopup;
- - (id) variantGeometriesForGeometry:(id)avariantCount:(Q)browLimit:(q)c;
- - (d) _row4ControlSegmentWidth;
+ - (id) variantGeometriesForGeometry:(id)avariantCount:(unsigned long long)browLimit:(long long)c;
+ - (double) _row4ControlSegmentWidth;
 
 
 @end

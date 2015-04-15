@@ -7,21 +7,21 @@
 }
  + (void) initialize;
  + (id) regularExpressionWithString:(id)a;
- + (r*) getBytesForString:(id)alossByte:(C)b;
+ + (r*) getBytesForString:(id)alossByte:(unsigned char)b;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) init;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (id) initWithExpressionString:(id)a;
- - (id) initWithExpressionString:(id)aoptions:(I)b;
+ - (id) initWithExpressionString:(id)aoptions:(unsigned int)b;
  - (id) expressionString;
- - (Q) numberOfSubexpressions;
- - ({_NSRange=QQ}) matchedRangeForCString:(r*)arange:({_NSRange=QQ})bsubexpressionRanges:(^{_NSRange=QQ})ccount:(Q)d;
- - ({_NSRange=QQ}) matchedRangeForString:(id)arange:({_NSRange=QQ})bsubexpressionRanges:(^{_NSRange=QQ})ccount:(Q)d;
+ - (unsigned long long) numberOfSubexpressions;
+ - ({_NSRange=QQ}) matchedRangeForCString:(r*)arange:({_NSRange=QQ})bsubexpressionRanges:(^{_NSRange=QQ})ccount:(unsigned long long)d;
+ - ({_NSRange=QQ}) matchedRangeForString:(id)arange:({_NSRange=QQ})bsubexpressionRanges:(^{_NSRange=QQ})ccount:(unsigned long long)d;
 
 
 @end

@@ -3,7 +3,7 @@
 
     BOOL _orderAtomsAscending;
     @"_IntArray2D" _distanceMatrix;
-    q _currentOperation;
+    long long _currentOperation;
     @"<_EditScriptData>" _itemAData;
     @"<_EditScriptData>" _itemBData;
     @"NSArray" _operationPrecedenceArray;
@@ -14,14 +14,14 @@
 
  - (id) description;
  - (void) dealloc;
- - (id) initWithOperationPrecedence:(q)aorderAtomsAscending:(BOOL)b;
+ - (id) initWithOperationPrecedence:(long long)aorderAtomsAscending:(BOOL)b;
  - (void) computeDistanceMatrix;
  - (void) computeEditsFromMatrix;
  - (id) script;
  - (void) finalizeCurrentScriptAtom;
  - (void) initializeCurrentScriptAtom;
- - (void) addToCurrentScriptAtomEditOperation:(q)aeditIndex:(Q)bnewText:(id)cindexInArrayB:(Q)d;
- - (id) operationPrecedenceArrayFromOperationPrecedence:(q)a;
+ - (void) addToCurrentScriptAtomEditOperation:(long long)aeditIndex:(unsigned long long)bnewText:(id)cindexInArrayB:(unsigned long long)d;
+ - (id) operationPrecedenceArrayFromOperationPrecedence:(long long)a;
  - (void) setScript:(id)a;
  - (id) operationPrecedenceArray;
  - (void) setOperationPrecedenceArray:(id)a;

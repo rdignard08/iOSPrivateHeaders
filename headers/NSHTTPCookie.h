@@ -29,7 +29,7 @@
  - (void) finalize;
  - (id) domain;
  - (id) name;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) init;
  - (void) encodeWithCoder:(id)a;
@@ -59,11 +59,11 @@
  - (id) Discard;
  - (id) Port;
  - (id) MaxAge;
- - (q) _compareForHeaderOrder:(id)a;
+ - (long long) _compareForHeaderOrder:(id)a;
  - (id) _key;
  - (BOOL) _isExpired;
  - (id) value;
- - (Q) version;
+ - (unsigned long long) version;
  - (id) path;
 
 

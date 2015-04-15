@@ -17,9 +17,9 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (void) sortWithOptions:(Q)ausingComparator:(@?)b;
+ - (void) sortWithOptions:(unsigned long long)ausingComparator:(@?)b;
  - (id) initWithTitle:(id)acandidates:(id)b;
  - (BOOL) hasAlternativeText;
  - (void) encodeWithCoder:(id)a;

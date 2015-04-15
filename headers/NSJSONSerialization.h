@@ -3,11 +3,11 @@
 
     [6^v] reserved;
 }
- + (id) JSONObjectWithData:(id)aoptions:(Q)berror:(^@)c;
- + (id) dataWithJSONObject:(id)aoptions:(Q)berror:(^@)c;
+ + (id) JSONObjectWithData:(id)aoptions:(unsigned long long)berror:(^@)c;
+ + (id) dataWithJSONObject:(id)aoptions:(unsigned long long)berror:(^@)c;
  + (BOOL) isValidJSONObject:(id)a;
- + (q) writeJSONObject:(id)atoStream:(id)boptions:(Q)cerror:(^@)d;
- + (id) JSONObjectWithStream:(id)aoptions:(Q)berror:(^@)c;
+ + (long long) writeJSONObject:(id)atoStream:(id)boptions:(unsigned long long)cerror:(^@)d;
+ + (id) JSONObjectWithStream:(id)aoptions:(unsigned long long)berror:(^@)c;
  + (id) allocWithZone:(^{_NSZone=})a;
 
  - (id) init;

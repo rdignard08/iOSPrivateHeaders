@@ -7,11 +7,11 @@
     @"UIViewController" _oddPage;
     @"UIViewController" _newEvenPage;
     @"UIViewController" _newOddPage;
-    q _turnCount;
-    q _animatedPageTurns;
-    d _turnMargin;
+    long long _turnCount;
+    long long _animatedPageTurns;
+    double _turnMargin;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _contentInset;
-    d _turnDuration;
+    double _turnDuration;
 }
 
  - (void) dealloc;
@@ -26,13 +26,13 @@
  - (void) _turnAllPagesNonAnimated;
  - (void) setEvenPage:(id)a;
  - (void) setOddPage:(id)a;
- - (void) turnPages:(q)aanimated:(BOOL)b;
+ - (void) turnPages:(long long)aanimated:(BOOL)b;
  - (id) oddPage;
  - (id) evenPage;
- - (d) turnMargin;
- - (void) setTurnMargin:(d)a;
- - (d) turnDuration;
- - (void) setTurnDuration:(d)a;
+ - (double) turnMargin;
+ - (void) setTurnMargin:(double)a;
+ - (double) turnDuration;
+ - (void) setTurnDuration:(double)a;
  - (void) _setupCurlFilters;
  - (void) _startCurlAnimation;
  - (void) encodeWithCoder:(id)a;

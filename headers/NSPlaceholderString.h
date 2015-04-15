@@ -3,26 +3,26 @@
 
 }
 
- - (id) initWithCharactersNoCopy:(^S)alength:(Q)bfreeWhenDone:(BOOL)c;
- - (id) initWithBytesNoCopy:(^v)alength:(Q)bencoding:(Q)cfreeWhenDone:(BOOL)d;
- - (id) initWithCString:(r*)aencoding:(Q)b;
- - (id) initWithBytes:(r^v)alength:(Q)bencoding:(Q)c;
- - (id) initWithCString:(r*)alength:(Q)b;
- - (id) initWithCharacters:(r^S)alength:(Q)b;
+ - (id) initWithCharactersNoCopy:(^S)alength:(unsigned long long)bfreeWhenDone:(BOOL)c;
+ - (id) initWithBytesNoCopy:(^v)alength:(unsigned long long)bencoding:(unsigned long long)cfreeWhenDone:(BOOL)d;
+ - (id) initWithCString:(r*)aencoding:(unsigned long long)b;
+ - (id) initWithBytes:(r^v)alength:(unsigned long long)bencoding:(unsigned long long)c;
+ - (id) initWithCString:(r*)alength:(unsigned long long)b;
+ - (id) initWithCharacters:(r^S)alength:(unsigned long long)b;
  - (id) initWithFormat:(id)alocale:(id)barguments:([1{__va_list_tag=II^v^v}])c;
- - (id) initWithCStringNoCopy:(*)alength:(Q)bfreeWhenDone:(BOOL)c;
+ - (id) initWithCStringNoCopy:(char*)alength:(unsigned long long)bfreeWhenDone:(BOOL)c;
  - (id) initWithCString:(r*)a;
- - (id) initWithData:(id)aencoding:(Q)b;
+ - (id) initWithData:(id)aencoding:(unsigned long long)b;
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
- - (S) characterAtIndex:(Q)a;
+ - (unsigned short) characterAtIndex:(unsigned long long)a;
  - (id) initWithString:(id)a;
- - (Q) length;
+ - (unsigned long long) length;
  - (id) init;
 
 

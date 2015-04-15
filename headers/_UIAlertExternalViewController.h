@@ -21,7 +21,7 @@
  - (id) _messageAttributesSmallText;
  - (void) _buttonTapped:(id)a;
  - (void) _dismissIfCapable;
- - (id) _buttonWithTitle:(id)aindex:(q)b;
+ - (id) _buttonWithTitle:(id)aindex:(long long)b;
  - (id) _messageAttributedStringSmallText;
  - (void) setRepresentedAlert:(id)a;
  - (id) init;

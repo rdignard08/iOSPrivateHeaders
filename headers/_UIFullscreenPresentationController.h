@@ -2,14 +2,14 @@
 @interface _UIFullscreenPresentationController : _UICurrentContextPresentationController {
 
     @"UIView" _counterRotatedView;
-    d _counterRotatedAngle;
+    double _counterRotatedAngle;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _counterRotatedOriginalBounds;
-    q _originalOrientation;
-    q _computedOrientation;
+    long long _originalOrientation;
+    long long _computedOrientation;
 }
 
  - (void) dealloc;
- - (q) presentationStyle;
+ - (long long) presentationStyle;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frameOfPresentedViewInContainerView;
  - (void) _setPresentedViewController:(id)a;
  - (BOOL) shouldRemovePresentersView;
@@ -21,7 +21,7 @@
  - (void) dismissalTransitionDidEnd:(BOOL)a;
  - (void) _removeCounterRotation;
  - (BOOL) _invokesDelegatesOnOrientationChange;
- - (void) _placeCounterRotationViewWithView:(id)ainWindow:(id)bfromOrientation:(q)ctoOrientation:(q)dforce:(BOOL)e;
+ - (void) _placeCounterRotationViewWithView:(id)ainWindow:(id)bfromOrientation:(long long)ctoOrientation:(long long)dforce:(BOOL)e;
 
 
 @end

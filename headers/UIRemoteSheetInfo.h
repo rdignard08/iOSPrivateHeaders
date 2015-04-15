@@ -6,7 +6,7 @@
     id _delegate;
     SEL _selector;
     ^v _context;
-    q _returnCode;
+    long long _returnCode;
 }
 @property (nonatomic, retain, readwrite) UIView* sheetView;
 @property (nonatomic, retain, readwrite) UISpringBoardHostedView* remoteView;
@@ -21,9 +21,9 @@
  - (void) setSheetView:(id)a;
  - (void) setRemoteView:(id)a;
  - (id) sheetView;
- - (void) setReturnCode:(q)a;
+ - (void) setReturnCode:(long long)a;
  - (id) remoteView;
- - (q) returnCode;
+ - (long long) returnCode;
  - (id) delegate;
  - (void) setSelector:(SEL)a;
  - (void) setContext:(^v)a;

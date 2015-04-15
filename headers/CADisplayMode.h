@@ -3,25 +3,25 @@
 
     ^v _priv;
     @"CADisplay" _dpy;
-    Q _width;
-    Q _height;
+    unsigned long long _width;
+    unsigned long long _height;
 }
 @property (nonatomic, assign, readonly) NSNumber* width;
 @property (nonatomic, assign, readonly) NSNumber* height;
 @property (nonatomic, assign, readonly) NSNumber* pixelAspectRatio;
- + (id) _displayModeWithMode:(i)adisplay:(id)b;
+ + (id) _displayModeWithMode:(int)adisplay:(id)b;
 
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) _display;
- - (i) _mode;
- - (id) _initWithMode:(i)adisplay:(id)b;
- - (d) pixelAspectRatio;
- - (void) _setWidth:(Q)aheight:(Q)b;
- - (Q) width;
- - (Q) height;
+ - (int) _mode;
+ - (id) _initWithMode:(int)adisplay:(id)b;
+ - (double) pixelAspectRatio;
+ - (void) _setWidth:(unsigned long long)aheight:(unsigned long long)b;
+ - (unsigned long long) width;
+ - (unsigned long long) height;
 
 
 @end

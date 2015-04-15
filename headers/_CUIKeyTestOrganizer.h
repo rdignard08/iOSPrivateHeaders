@@ -3,15 +3,15 @@
 
     [16{_renditionkeytoken="identifier"S"value"S}] originalKey;
     @"NSArray" orderedNonZeroFlexibleAttributes;
-    Q flexAttributesCount;
+    unsigned long long flexAttributesCount;
     [16{_renditionkeytoken="identifier"S"value"S}] testKey;
-    Q chooseCount;
-    Q subchooseCount;
+    unsigned long long chooseCount;
+    unsigned long long subchooseCount;
 }
 
  - (void) dealloc;
- - (Q) _attributeToBumpIndex;
- - (BOOL) _bumpTestKeyAttributeIndex:(Q)a;
+ - (unsigned long long) _attributeToBumpIndex;
+ - (BOOL) _bumpTestKeyAttributeIndex:(unsigned long long)a;
  - (id) _nonZeroFlexibleAttributesInKey:(r^{_renditionkeytoken=SS})a;
  - (void) _bumpTestKey;
  - (id) initWithRenditionKey:(r^{_renditionkeytoken=SS})a;

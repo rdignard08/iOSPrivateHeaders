@@ -1,11 +1,11 @@
 
 @interface ALCity : NSObject {
 
-    i _identifier;
+    int _identifier;
     @"NSString" _localeCode;
     @"NSString" _timeZone;
-    f _longitude;
-    f _latitude;
+    float _longitude;
+    float _latitude;
     @"NSString" _yahooCode;
     @"NSString" _name;
     @"NSString" _unlocalizedName;
@@ -34,7 +34,7 @@
  - (id) description;
  - (void) dealloc;
  - (id) name;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) setTimeZone:(id)a;
  - (id) timeZone;
@@ -42,16 +42,16 @@
  - (id) initWithProperties:(id)a;
  - (id) properties;
  - (void) setName:(id)a;
- - (i) identifier;
- - (void) setIdentifier:(i)a;
+ - (int) identifier;
+ - (void) setIdentifier:(int)a;
  - (id) localeCode;
  - (void) setCountryName:(id)a;
  - (void) setCountryOverride:(id)a;
  - (id) countryName;
  - (id) unlocalizedName;
  - (id) unlocalizedCountryName;
- - (f) latitude;
- - (f) longitude;
+ - (float) latitude;
+ - (float) longitude;
  - (id) initWithSQLRow:(^*)a;
  - (id) countryOverride;
  - (id) displayNameIncludingCountry:(BOOL)awithFormat:(id)b;
@@ -62,8 +62,8 @@
  - (void) setUnlocalizedName:(id)a;
  - (void) setUnlocalizedCountryName:(id)a;
  - (void) setLocaleCode:(id)a;
- - (void) setLongitude:(f)a;
- - (void) setLatitude:(f)a;
+ - (void) setLongitude:(float)a;
+ - (void) setLatitude:(float)a;
  - (id) yahooCode;
  - (void) setYahooCode:(id)a;
  - (void) setUnlocalizedCountryOverride:(id)a;

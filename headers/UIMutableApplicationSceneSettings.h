@@ -7,11 +7,11 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (BOOL) isUISubclass;
  - (BOOL) underLock;
- - (i) statusBarStyleOverridesToSuppress;
+ - (int) statusBarStyleOverridesToSuppress;
  - (void) setUnderLock:(BOOL)a;
- - (void) setStatusBarStyleOverridesToSuppress:(i)a;
- - (id) keyDescriptionForSetting:(Q)a;
- - (id) valueDescriptionForFlag:(q)aobject:(id)bofSetting:(Q)c;
+ - (void) setStatusBarStyleOverridesToSuppress:(int)a;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
 
 
 @end

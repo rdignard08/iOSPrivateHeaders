@@ -5,7 +5,7 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (S) cssValueType;
+ - (unsigned short) cssValueType;
  - (void) setCssText:(id)a;
  - (id) cssText;
 

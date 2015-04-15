@@ -1,12 +1,12 @@
 
 @interface UIStatusBarBluetoothBatteryItemView : UIStatusBarItemView {
 
-    i _capacity;
+    int _capacity;
 }
 
- - (BOOL) updateForNewData:(id)aactions:(i)b;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
  - (id) contentsImage;
- - (d) extraLeftPadding;
+ - (double) extraLeftPadding;
 
 
 @end

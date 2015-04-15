@@ -6,12 +6,12 @@
 
  - (id) title;
  - (void) dealloc;
- - (id) _defaultThumbnailWithSize:({CGSize=dd})ascale:(d)b;
- - (id) _blockingThumbnailWithSize:({CGSize=dd})ascale:(d)b;
+ - (id) _defaultThumbnailWithSize:({CGSize=dd})ascale:(double)b;
+ - (id) _blockingThumbnailWithSize:({CGSize=dd})ascale:(double)b;
  - (id) sortDate;
  - (void) _modelChanged;
  - (id) subtitle;
- - (q) type;
+ - (long long) type;
  - (id) url;
 
 

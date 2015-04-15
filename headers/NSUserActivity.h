@@ -47,14 +47,14 @@
  - (id) initWithTypeIdentifier:(id)a;
  - (id) webPageURL;
  - (void) setWebPageURL:(id)a;
- - (id) _initWithTypeIdentifier:(id)asuggestedActionType:(Q)boptions:(id)c;
+ - (id) _initWithTypeIdentifier:(id)asuggestedActionType:(unsigned long long)boptions:(id)c;
  - (void) _updateUserInfoValue:(id)aforKey:(id)b;
  - (void) _removeUserInfoValueForKey:(id)a;
  - (id) _frameworkPayload;
  - (void) _setFrameworkPayload:(id)a;
  - (void) _updateFrameworkPayloadValue:(id)aforKey:(id)b;
  - (void) _removeFrameworkPayloadValueForKey:(id)a;
- - (Q) _suggestedActionType;
+ - (unsigned long long) _suggestedActionType;
  - (id) _lastActivityDate;
  - (void) _setLastActivityDate:(id)a;
  - (void) _setOptions:(id)a;
@@ -62,7 +62,7 @@
  - (void) dealloc;
  - (id) userInfo;
  - (void) invalidate;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) setDelegate:(id)a;
  - (void) _setFrameworkDelegate:(id)a;

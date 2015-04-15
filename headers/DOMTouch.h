@@ -6,13 +6,13 @@
  - (id) target;
  - (void) dealloc;
  - (void) finalize;
- - (I) identifier;
- - (i) screenX;
- - (i) screenY;
- - (i) clientX;
- - (i) clientY;
- - (i) pageX;
- - (i) pageY;
+ - (unsigned int) identifier;
+ - (int) screenX;
+ - (int) screenY;
+ - (int) clientX;
+ - (int) clientY;
+ - (int) pageX;
+ - (int) pageY;
 
 
 @end

@@ -5,13 +5,13 @@
     @"NSObject<OS_dispatch_semaphore>" metadataSemaphore;
     @"NSData" imageData;
     {CGSize="width"d"height"d} maxSize;
-    i renderingIntent;
+    int renderingIntent;
     BOOL decompressionComplete;
     BOOL metadataComplete;
 }
 
  - (void) dealloc;
- - (id) initWithData:(id)amaxSize:({CGSize=dd})brenderingIntent:(i)c;
+ - (id) initWithData:(id)amaxSize:({CGSize=dd})brenderingIntent:(int)c;
 
 
 @end

@@ -4,9 +4,9 @@
 
     @"TIKeyboardCandidate" _acceptedCandidate;
     @"NSString" _textToCommit;
-    Q _deletionCount;
+    unsigned long long _deletionCount;
     @"NSString" _insertionText;
-    Q _forwardDeletionCount;
+    unsigned long long _forwardDeletionCount;
     @"NSString" _insertionTextAfterSelection;
     @"TIKeyboardCandidate" _shortcutConversion;
     @"NSIndexSet" _handwritingStrokesToDelete;
@@ -23,7 +23,7 @@
 
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) deleteBackward;
  - (void) insertTextAfterSelection:(id)a;
@@ -32,20 +32,20 @@
  - (void) setAcceptedCandidate:(id)a;
  - (id) acceptedCandidate;
  - (void) setInsertionText:(id)a;
- - (void) setDeletionCount:(Q)a;
+ - (void) setDeletionCount:(unsigned long long)a;
  - (id) textToCommit;
- - (Q) deletionCount;
+ - (unsigned long long) deletionCount;
  - (id) insertionText;
- - (Q) forwardDeletionCount;
+ - (unsigned long long) forwardDeletionCount;
  - (id) insertionTextAfterSelection;
  - (id) shortcutConversion;
  - (id) handwritingStrokesToDelete;
- - (void) deleteBackward:(Q)a;
+ - (void) deleteBackward:(unsigned long long)a;
  - (void) setInsertionTextAfterSelection:(id)a;
- - (void) deleteForward:(Q)a;
+ - (void) deleteForward:(unsigned long long)a;
  - (void) deleteForward;
  - (void) setTextToCommit:(id)a;
- - (void) setForwardDeletionCount:(Q)a;
+ - (void) setForwardDeletionCount:(unsigned long long)a;
  - (void) setShortcutConversion:(id)a;
  - (void) setHandwritingStrokesToDelete:(id)a;
  - (void) insertText:(id)a;

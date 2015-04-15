@@ -8,9 +8,9 @@
  - (id) description;
  - (void) dealloc;
  - (void) inspectDiff:(id)awithContext:(^v)b;
- - (void) observeOtherSetting:(Q)awithBlock:(@?)b;
+ - (void) observeOtherSetting:(unsigned long long)awithBlock:(@?)b;
  - (id) init;
- - (void) _addObserver:(id)aforSetting:(Q)binInfo:(id)c;
+ - (void) _addObserver:(id)aforSetting:(unsigned long long)binInfo:(id)c;
  - (void) removeAllObservers;
  - (void) observeClassWithBlock:(@?)a;
  - (void) observeFrameWithBlock:(@?)a;

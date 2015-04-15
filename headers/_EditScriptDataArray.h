@@ -8,7 +8,7 @@
 @property (nonatomic, retain, readwrite) NSArray* data;
 @property (nonatomic, retain, readwrite) NSString* cachedStringValue;
  + (id) EditScriptDataWithArray:(id)a;
- + (id) EditScriptDataWithString:(id)achunkSize:(q)b;
+ + (id) EditScriptDataWithString:(id)achunkSize:(long long)b;
 
  - (id) description;
  - (void) dealloc;
@@ -16,14 +16,14 @@
  - (id) stringValue;
  - (id) initWithArray:(id)a;
  - (void) setData:(id)a;
- - (q) lengthOfItem:(q)a;
- - (q) characterIndexForItem:(q)a;
- - (q) indexOfFirstDifferenceWithOtherData:(id)ashouldReverseIterate:(BOOL)b;
- - (id) stringAtIndex:(q)a;
+ - (long long) lengthOfItem:(long long)a;
+ - (long long) characterIndexForItem:(long long)a;
+ - (long long) indexOfFirstDifferenceWithOtherData:(id)ashouldReverseIterate:(BOOL)b;
+ - (id) stringAtIndex:(long long)a;
  - (void) setCachedStringValue:(id)a;
- - (id) initWithString:(id)achunkSize:(q)b;
+ - (id) initWithString:(id)achunkSize:(long long)b;
  - (id) cachedStringValue;
- - (q) length;
+ - (long long) length;
 
 
 @end

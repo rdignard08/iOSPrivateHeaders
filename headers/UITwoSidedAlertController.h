@@ -18,9 +18,9 @@
  - (id) frontAlert;
  - (id) backAlert;
  - (void) flip;
- - (void) frontAlertClickedButtonAtIndex:(q)a;
- - (void) backAlertClickedButtonAtIndex:(q)a;
- - (void) alertSheet:(id)abuttonClicked:(i)b;
+ - (void) frontAlertClickedButtonAtIndex:(long long)a;
+ - (void) backAlertClickedButtonAtIndex:(long long)a;
+ - (void) alertSheet:(id)abuttonClicked:(int)b;
  - (void) animationDidStop:(id)afinished:(BOOL)b;
 
 

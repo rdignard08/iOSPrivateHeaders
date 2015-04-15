@@ -12,9 +12,9 @@
 @property (atomic, assign, readwrite) NSNumber* usesStrongWriteBarrier;
 @property (atomic, assign, readwrite) NSNumber* usesWeakReadAndWriteBarriers;
  + (id) allocWithZone:(^{_NSZone=})a;
- + (id) pointerFunctionsWithOptions:(Q)a;
+ + (id) pointerFunctionsWithOptions:(unsigned long long)a;
 
- - (id) initWithOptions:(Q)a;
+ - (id) initWithOptions:(unsigned long long)a;
  - (void) setHashFunction:(^?)a;
  - (void) setIsEqualFunction:(^?)a;
  - (void) setSizeFunction:(^?)a;

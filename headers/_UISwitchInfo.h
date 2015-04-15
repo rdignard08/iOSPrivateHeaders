@@ -1,18 +1,18 @@
 
 @interface _UISwitchInfo : NSObject {
 
-    i imageState;
+    int imageState;
     [8@"UIImage"] images;
     @"UIView" rightEdgeView;
     @"UIView" leftEdgeView;
-    d position;
+    double position;
     @"UIColor" onButtonColor;
     @"CALayer" maskLayer;
     {?="on"b1"pressed"b1"useAlternateColors"b1"skipValueChangedAction"b1} _switchFlags;
 }
 
  - (void) dealloc;
- - (void) setMinimumTrackImage:(id)aforStates:(Q)b;
+ - (void) setMinimumTrackImage:(id)aforStates:(unsigned long long)b;
 
 
 @end

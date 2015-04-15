@@ -2,7 +2,7 @@
 @interface UIKeyboardCandidateSortControl : UIView {
 
     @"UIKeyboardCandidateBarSegmentControl" _segmentedControl;
-    i _candidatesVisualStyle;
+    int _candidatesVisualStyle;
     BOOL _legacyAlertAppearance;
     @"UIKBThemedView" _themedView;
 }
@@ -13,7 +13,7 @@
  - (void) _setRenderConfig:(id)a;
  - (void) setThemedView:(id)a;
  - (id) themedView;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})acandidatesVisualStyle:(i)blegacyAlertAppearance:(BOOL)c;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})acandidatesVisualStyle:(int)blegacyAlertAppearance:(BOOL)c;
  - (id) segmentedControl;
  - (void) setSortControlTitles:(id)a;
  - (void) selectPreviousSegment;

@@ -13,7 +13,7 @@
     @"UIImage" _renderedActivitySettingsImage;
     @? _extensionRequestCleanupCompletion;
 }
- + (q) activityCategory;
+ + (long long) activityCategory;
  + (id) _applicationExtensionActivitiesForItems:(id)a;
 
  - (id) activityType;

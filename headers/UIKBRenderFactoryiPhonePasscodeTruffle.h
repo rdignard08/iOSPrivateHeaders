@@ -5,7 +5,7 @@
 
  - (id) lightKeycapsFontName;
  - (id) thinKeycapsFontName;
- - (d) popupFontSize;
+ - (double) popupFontSize;
  - ({CGPoint=dd}) popupSymbolTextOffset;
  - ({UIEdgeInsets=dddd}) wideShadowPaddleInsets;
  - ({CGPoint=dd}) variantSymbolTextOffset;

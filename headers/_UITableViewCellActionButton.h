@@ -2,10 +2,10 @@
 @interface _UITableViewCellActionButton : UIButton {
 
     @"UITableViewRowAction" _action;
-    Q _style;
+    unsigned long long _style;
     @"UIVisualEffect" _backgroundEffect;
 }
- + (id) actionButtonWithStyle:(Q)a;
+ + (id) actionButtonWithStyle:(unsigned long long)a;
 
  - (void) dealloc;
  - (void) layoutSubviews;
@@ -14,9 +14,9 @@
  - (id) backgroundEffect;
  - (void) setBackgroundEffect:(id)a;
  - (void) setAction:(id)a;
- - (Q) style;
+ - (unsigned long long) style;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setStyle:(Q)a;
+ - (void) setStyle:(unsigned long long)a;
 
 
 @end

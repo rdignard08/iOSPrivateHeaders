@@ -17,15 +17,15 @@
  - (void) create;
  - (id) initWithBodyA:(id)abodyB:(id)banchor:({CGPoint=dd})c;
  - (BOOL) shouldEnableLimits;
- - (d) lowerAngleLimit;
- - (d) upperAngleLimit;
- - (d) frictionTorque;
+ - (double) lowerAngleLimit;
+ - (double) upperAngleLimit;
+ - (double) frictionTorque;
  - (void) setShouldEnableLimits:(BOOL)a;
- - (void) setLowerAngleLimit:(d)a;
- - (void) setUpperAngleLimit:(d)a;
- - (void) setFrictionTorque:(d)a;
- - (d) rotationSpeed;
- - (void) setRotationSpeed:(d)a;
+ - (void) setLowerAngleLimit:(double)a;
+ - (void) setUpperAngleLimit:(double)a;
+ - (void) setFrictionTorque:(double)a;
+ - (double) rotationSpeed;
+ - (void) setRotationSpeed:(double)a;
 
 
 @end

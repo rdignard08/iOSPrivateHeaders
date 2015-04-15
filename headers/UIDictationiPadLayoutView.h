@@ -8,7 +8,7 @@
  - (void) finishReturnToKeyboard;
  - (BOOL) isShowing;
  - (void) returnToKeyboard;
- - (void) setState:(i)a;
+ - (void) setState:(int)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

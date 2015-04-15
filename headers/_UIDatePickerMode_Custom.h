@@ -4,29 +4,29 @@
     @"NSString" _originalFormat;
     @"NSArray" _components;
     @"NSArray" _sortedComponents;
-    q _displayedUnits;
-    q _desiredUnits;
+    long long _displayedUnits;
+    long long _desiredUnits;
 }
 
  - (id) components;
  - (void) dealloc;
- - (Q) numberOfComponents;
- - (q) numberOfRowsInComponent:(q)a;
+ - (unsigned long long) numberOfComponents;
+ - (long long) numberOfRowsInComponent:(long long)a;
  - (void) noteCalendarChanged;
- - (q) displayedCalendarUnits;
- - (q) componentForCalendarUnit:(Q)a;
- - (Q) calendarUnitForComponent:(q)a;
+ - (long long) displayedCalendarUnits;
+ - (long long) componentForCalendarUnit:(unsigned long long)a;
+ - (unsigned long long) calendarUnitForComponent:(long long)a;
  - (void) resetComponentWidths;
  - (id) initWithFormatString:(id)adatePickerView:(id)b;
- - (id) dateFormatForCalendarUnit:(Q)a;
- - (d) widthForCalendarUnit:(Q)afont:(id)bmaxWidth:(d)c;
- - (Q) extractableCalendarUnits;
- - (Q) nextUnitSmallerThanUnit:(Q)a;
- - (Q) nextUnitLargerThanUnit:(Q)a;
- - (q) valueForRow:(q)ainCalendarUnit:(Q)b;
- - (id) dateForRow:(q)ainCalendarUnit:(Q)b;
- - (q) titleAlignmentForCalendarUnit:(Q)a;
- - (id) _componentForCalendarUnit:(Q)a;
+ - (id) dateFormatForCalendarUnit:(unsigned long long)a;
+ - (double) widthForCalendarUnit:(unsigned long long)afont:(id)bmaxWidth:(double)c;
+ - (unsigned long long) extractableCalendarUnits;
+ - (unsigned long long) nextUnitSmallerThanUnit:(unsigned long long)a;
+ - (unsigned long long) nextUnitLargerThanUnit:(unsigned long long)a;
+ - (long long) valueForRow:(long long)ainCalendarUnit:(unsigned long long)b;
+ - (id) dateForRow:(long long)ainCalendarUnit:(unsigned long long)b;
+ - (long long) titleAlignmentForCalendarUnit:(unsigned long long)a;
+ - (id) _componentForCalendarUnit:(unsigned long long)a;
 
 
 @end

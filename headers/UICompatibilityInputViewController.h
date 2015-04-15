@@ -23,9 +23,9 @@
  - (void) viewWillAppear:(BOOL)a;
  - (BOOL) shouldAutomaticallyForwardRotationMethods;
  - (BOOL) shouldAutomaticallyForwardAppearanceMethods;
- - (void) willRotateToInterfaceOrientation:(q)aduration:(d)b;
- - (void) willAnimateRotationToInterfaceOrientation:(q)aduration:(d)b;
- - (void) didRotateFromInterfaceOrientation:(q)a;
+ - (void) willRotateToInterfaceOrientation:(long long)aduration:(double)b;
+ - (void) willAnimateRotationToInterfaceOrientation:(long long)aduration:(double)b;
+ - (void) didRotateFromInterfaceOrientation:(long long)a;
  - (void) setInputMode:(id)a;
  - (id) _keyboard;
  - (id) _compatibilityController;

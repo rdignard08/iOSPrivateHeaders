@@ -9,12 +9,12 @@
  - (id) init;
  - (id) appendBool:(BOOL)acounterpart:(@?)b;
  - (id) appendCGRect:({CGRect={CGPoint=dd}{CGSize=dd}})acounterpart:(@?)b;
- - (id) appendInteger:(q)acounterpart:(@?)b;
+ - (id) appendInteger:(long long)acounterpart:(@?)b;
  - (id) appendEqualsBlocks:(@?)a;
  - (id) appendObject:(id)acounterpart:(@?)b;
- - (id) appendCGFloat:(d)acounterpart:(@?)b;
+ - (id) appendCGFloat:(double)acounterpart:(@?)b;
  - (BOOL) isEqual;
- - (id) appendUnsignedInteger:(Q)acounterpart:(@?)b;
+ - (id) appendUnsignedInteger:(unsigned long long)acounterpart:(@?)b;
  - (id) appendString:(id)acounterpart:(@?)b;
  - (id) appendPointer:(^v)acounterpart:(@?)b;
  - (id) appendArray:(id)acounterpart:(@?)b;

@@ -1,14 +1,14 @@
 
 @interface _NSInlineData : NSData {
 
-    S _length;
+    unsigned short _length;
 }
 
- - (id) initWithBytes:(r^v)alength:(Q)b;
+ - (id) initWithBytes:(r^v)alength:(unsigned long long)b;
  - (BOOL) _isCompact;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (r^v) bytes;
- - (Q) length;
+ - (unsigned long long) length;
 
 
 @end

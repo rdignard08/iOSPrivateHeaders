@@ -2,7 +2,7 @@
 @interface _UILegibilityCachedShadow : NSObject {
 
     @"_UILegibilitySettings" _settings;
-    d _strength;
+    double _strength;
     @"UIImage" _shadow;
 }
 @property (nonatomic, retain, readwrite) _UILegibilitySettings* settings;
@@ -13,9 +13,9 @@
  - (BOOL) isEqual:(id)a;
  - (id) settings;
  - (void) setSettings:(id)a;
- - (d) strength;
- - (BOOL) matchesSettings:(id)astrength:(d)b;
- - (void) setStrength:(d)a;
+ - (double) strength;
+ - (BOOL) matchesSettings:(id)astrength:(double)b;
+ - (void) setStrength:(double)a;
  - (void) setShadow:(id)a;
  - (id) shadow;
 

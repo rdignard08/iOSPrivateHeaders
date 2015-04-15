@@ -2,33 +2,33 @@
 @protocol NSCopying, BSXPCCoding;
 @interface BSMachPort : NSObject <NSCopying, BSXPCCoding> {
 
-    I _port;
-    Q _sendRights;
-    Q _recvRights;
+    unsigned int _port;
+    unsigned long long _sendRights;
+    unsigned long long _recvRights;
     BOOL _invalidated;
-    I _portNumber;
+    unsigned int _portNumber;
     @"NSString" _debugDescription;
 }
 @property (nonatomic, assign, readonly) NSNumber* port;
  + (id) createSendRight;
  + (id) createReceiveRight;
- + (id) taskNamePortForPID:(i)a;
+ + (id) taskNamePortForPID:(int)a;
  + (id) bootstrapLookUpPortWithName:(id)a;
- + (id) wrapSendRight:(I)a;
+ + (id) wrapSendRight:(unsigned int)a;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
  - (void) invalidate;
- - (I) port;
+ - (unsigned int) port;
  - (void) encodeWithXPCDictionary:(id)a;
  - (id) initWithXPCDictionary:(id)a;
- - (id) initWithRight:(i)a;
- - (id) initWithSendRight:(I)aassumeOwnership:(BOOL)b;
- - (void) _addRight:(i)a;
+ - (id) initWithRight:(int)a;
+ - (id) initWithSendRight:(unsigned int)aassumeOwnership:(BOOL)b;
+ - (void) _addRight:(int)a;
  - (BOOL) isUsable;
- - (id) initWithPort:(I)awithRights:(@?)b;
- - (id) initWithSendRight:(I)a;
+ - (id) initWithPort:(unsigned int)awithRights:(@?)b;
+ - (id) initWithSendRight:(unsigned int)a;
 
 
 @end

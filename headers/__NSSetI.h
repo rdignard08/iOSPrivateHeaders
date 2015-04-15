@@ -11,14 +11,14 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (void) finalize;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) member:(id)a;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
- - (void) enumerateObjectsWithOptions:(Q)ausingBlock:(@?)b;
- - (void) getObjects:(^@)acount:(Q)b;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
+ - (void) enumerateObjectsWithOptions:(unsigned long long)ausingBlock:(@?)b;
+ - (void) getObjects:(^@)acount:(unsigned long long)b;
  - (id) objectEnumerator;
- - (d) clumpingFactor;
- - (d) clumpingInterestingThreshold;
+ - (double) clumpingFactor;
+ - (double) clumpingInterestingThreshold;
 
 
 @end

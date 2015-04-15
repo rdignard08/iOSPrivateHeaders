@@ -3,10 +3,10 @@
 
 }
 
- - (S) orient;
+ - (unsigned short) orient;
  - (BOOL) horizontalOverflow;
  - (BOOL) verticalOverflow;
- - (void) initOverflowEvent:(S)ahorizontalOverflow:(BOOL)bverticalOverflow:(BOOL)c;
+ - (void) initOverflowEvent:(unsigned short)ahorizontalOverflow:(BOOL)bverticalOverflow:(BOOL)c;
 
 
 @end

@@ -7,8 +7,8 @@
     @"NSString" _startColorName;
     @"NSString" _endColorName;
     @"NSArray" _colors;
-    d _middleLocation;
-    d _opacity;
+    double _middleLocation;
+    double _opacity;
     BOOL _horizontal;
     BOOL _usesRGBColors;
     BOOL _didQueryRGBColors;
@@ -17,7 +17,7 @@
 @property (nonatomic, assign, readwrite) NSNumber* horizontal;
 @property (nonatomic, assign, readonly) NSNumber* usesRGBColors;
  + (id) gradientWithFlatColor:(id)a;
- + (id) gradientWith3Colors:(id)amiddleLocation:(d)b;
+ + (id) gradientWith3Colors:(id)amiddleLocation:(double)b;
  + (id) gradientWithStartColor:(id)aendColor:(id)b;
  + (id) gradientWithName:(id)a;
 
@@ -31,10 +31,10 @@
  - (^{CGGradient=}) CGGradient;
  - (id) initWithFlatColor:(id)a;
  - (id) initWithStartColor:(id)aendColor:(id)b;
- - (id) initWith3Colors:(id)amiddleLocation:(d)b;
+ - (id) initWith3Colors:(id)amiddleLocation:(double)b;
  - (BOOL) usesRGBColors;
- - (d) opacity;
- - (void) setOpacity:(d)a;
+ - (double) opacity;
+ - (void) setOpacity:(double)a;
 
 
 @end

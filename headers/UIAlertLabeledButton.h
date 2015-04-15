@@ -2,13 +2,13 @@
 @interface UIAlertLabeledButton : UIAlertButton {
 
     @"UILabel" _typeLabel;
-    d _titleOffset;
+    double _titleOffset;
 }
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (d) titleOffset;
- - (void) setTitleOffset:(d)a;
+ - (double) titleOffset;
+ - (void) setTitleOffset:(double)a;
  - (id) typeLabel;
 
 

@@ -2,7 +2,7 @@
 @interface UIPrinterSetupPINScrollView : UIScrollView {
 
     @"UIView" _contentView;
-    d _visibleHeight;
+    double _visibleHeight;
 }
 
  - (void) dealloc;
@@ -10,8 +10,8 @@
  - (void) scrollRectToVisible:({CGRect={CGPoint=dd}{CGSize=dd}})aanimated:(BOOL)b;
  - (BOOL) _scrollsToMakeFirstResponderVisible;
  - (void) keyboardDidChangeFrame:(id)a;
- - (d) visibleHeight;
- - (void) setVisibleHeight:(d)a;
+ - (double) visibleHeight;
+ - (void) setVisibleHeight:(double)a;
  - (id) contentView;
  - (id) initWithContentView:(id)a;
  - (void) setContentView:(id)a;

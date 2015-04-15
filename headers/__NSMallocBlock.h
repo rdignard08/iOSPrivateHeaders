@@ -5,7 +5,7 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
 

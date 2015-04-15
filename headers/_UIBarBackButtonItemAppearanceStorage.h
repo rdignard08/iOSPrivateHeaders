@@ -14,12 +14,12 @@
  - (id) anyBackgroundImage;
  - (id) miniTitlePositionOffset;
  - (id) titlePositionOffset;
- - (d) backgroundVerticalAdjustmentForBarMetrics:(q)a;
- - (void) setBackgroundVerticalAdjustment:(d)aforBarMetrics:(q)b;
+ - (double) backgroundVerticalAdjustmentForBarMetrics:(long long)a;
+ - (void) setBackgroundVerticalAdjustment:(double)aforBarMetrics:(long long)b;
  - (void) setMiniTitlePositionOffset:(id)a;
  - (void) setTitlePositionOffset:(id)a;
- - (void) setBackgroundImage:(id)aforState:(Q)bisMini:(BOOL)c;
- - (id) backgroundImageForState:(Q)aisMini:(BOOL)b;
+ - (void) setBackgroundImage:(id)aforState:(unsigned long long)bisMini:(BOOL)c;
+ - (id) backgroundImageForState:(unsigned long long)aisMini:(BOOL)b;
 
 
 @end

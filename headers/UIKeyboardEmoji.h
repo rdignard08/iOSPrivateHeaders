@@ -2,19 +2,19 @@
 @interface UIKeyboardEmoji : NSObject {
 
     @"NSString" _emojiString;
-    Q _variantMask;
+    unsigned long long _variantMask;
 }
 @property (nonatomic, retain, readwrite) NSString* emojiString;
 @property (atomic, assign, readwrite) NSNumber* variantMask;
- + (id) emojiWithString:(id)awithVariantMask:(Q)b;
+ + (id) emojiWithString:(id)awithVariantMask:(unsigned long long)b;
 
  - (void) dealloc;
  - (BOOL) isEqual:(id)a;
  - (id) emojiString;
- - (Q) variantMask;
+ - (unsigned long long) variantMask;
  - (void) setEmojiString:(id)a;
- - (id) initWithString:(id)awithVariantMask:(Q)b;
- - (void) setVariantMask:(Q)a;
+ - (id) initWithString:(id)awithVariantMask:(unsigned long long)b;
+ - (void) setVariantMask:(unsigned long long)a;
  - (id) key;
 
 

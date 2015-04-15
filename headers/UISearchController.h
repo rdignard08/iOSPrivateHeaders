@@ -3,7 +3,7 @@
 @interface UISearchController : UIViewController <UIViewControllerPresenting, _UIScrollNotification, NSCoding, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning> {
 
     @"UISearchBar" _searchBar;
-    i _barPresentationStyle;
+    int _barPresentationStyle;
     @"<UIViewControllerAnimatedTransitioning>" _animator;
     id _windowWillAnimateToken;
     @"_UISearchControllerDidScrollDelegate" _didScrollDelegate;
@@ -15,8 +15,8 @@
     @"<UISearchResultsUpdating>" _searchResultsUpdater;
     @"<UISearchControllerDelegate>" _delegate;
     @"UIViewController" _searchResultsController;
-    q __previousSearchBarPosition;
-    d __resultsContentScrollViewPresentationOffset;
+    long long __previousSearchBarPosition;
+    double __resultsContentScrollViewPresentationOffset;
 }
  + (BOOL) _shouldForwardViewWillTransitionToSize;
 
@@ -24,7 +24,7 @@
  - (void) setActive:(BOOL)a;
  - (void) dealloc;
  - (void) setDelegate:(id)a;
- - (d) transitionDuration:(id)a;
+ - (double) transitionDuration:(id)a;
  - (void) animateTransition:(id)a;
  - (void) _updateBackdropMaskViewsInScrollView:(id)a;
  - (void) _didScroll;
@@ -32,7 +32,7 @@
  - (void) _presentingViewControllerWillChange:(id)a;
  - (void) viewWillTransitionToSize:({CGSize=dd})awithTransitionCoordinator:(id)b;
  - (void) loadView;
- - (void) setModalPresentationStyle:(q)a;
+ - (void) setModalPresentationStyle:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (void) viewDidLoad;
  - (id) _presentationControllerForPresentedController:(id)apresentingController:(id)bsourceController:(id)c;
@@ -44,7 +44,7 @@
  - (id) searchBar;
  - (BOOL) dimsBackgroundDuringPresentation;
  - (BOOL) _showResultsForEmptySearch;
- - (i) _barPresentationStyle;
+ - (int) _barPresentationStyle;
  - (BOOL) hidesNavigationBarDuringPresentation;
  - (id) searchResultsController;
  - (void) _updateSearchBarMaskIfNecessary;
@@ -54,19 +54,19 @@
  - (void) _searchBarTextDidBeginEditing:(id)a;
  - (void) _searchBarSearchButtonClicked:(id)a;
  - (BOOL) _searchBarShouldFinalizeBecomingFirstResponder;
- - (void) _updateTableHeaderBackgroundViewInTableView:(id)aamountScrolledUnder:(d)b;
+ - (void) _updateTableHeaderBackgroundViewInTableView:(id)aamountScrolledUnder:(double)b;
  - (BOOL) _resultsControllerWillLayoutVisibleUnderContainerView;
- - (void) set_resultsContentScrollViewPresentationOffset:(d)a;
+ - (void) set_resultsContentScrollViewPresentationOffset:(double)a;
  - (void) _dismissPresentation:(BOOL)a;
  - (id) _searchPresentationController;
- - (void) set_previousSearchBarPosition:(q)a;
- - (d) _resultsContentScrollViewPresentationOffset;
+ - (void) set_previousSearchBarPosition:(long long)a;
+ - (double) _resultsContentScrollViewPresentationOffset;
  - (id) _resultsControllerViewContainer;
- - (q) _previousSearchBarPosition;
+ - (long long) _previousSearchBarPosition;
  - (id) initWithSearchResultsController:(id)a;
  - (void) _updateSearchResultsControllerWithDelta:({CGSize=dd})a;
  - (void) _connectSearchBar:(id)a;
- - (void) _adjustSearchBarSizeForOrientation:(q)a;
+ - (void) _adjustSearchBarSizeForOrientation:(long long)a;
  - (id) _createAnimationCoordinator;
  - (void) _resizeResultsControllerWithDelta:({CGSize=dd})a;
  - (void) _performAutomaticPresentation;
@@ -80,7 +80,7 @@
  - (void) _willDismissSearchController;
  - (void) _didDismissSearchController;
  - (BOOL) _allowFormSheetStylePresentation;
- - (id) _animatorForBarPresentationStyle:(i)adismissing:(BOOL)b;
+ - (id) _animatorForBarPresentationStyle:(int)adismissing:(BOOL)b;
  - (void) _updateSearchResultsContentScrollViewWithDelta:({CGSize=dd})a;
  - (void) _updateSearchResultsPositionWithDelta:({CGSize=dd})a;
  - (void) _beginWatchingPresentingController;

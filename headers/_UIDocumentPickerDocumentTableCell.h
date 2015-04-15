@@ -13,12 +13,12 @@
     @"UIView" _iconCenteringView;
 }
  + ({CGSize=dd}) thumbnailSize;
- + (d) estimatedHeight;
+ + (double) estimatedHeight;
 
  - (void) setItem:(id)a;
  - (id) item;
  - (void) dealloc;
- - (id) initWithStyle:(q)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
  - (id) titleLabel;
  - (void) setTableView:(id)a;
  - (void) prepareForReuse;

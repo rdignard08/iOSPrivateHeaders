@@ -3,8 +3,8 @@
 
     @"UIKBTree" _indirectKeyboard;
     @"UIView" _selectionView;
-    q _selectedKeyIndex;
-    q _savedSelectedKeyIndex;
+    long long _selectedKeyIndex;
+    long long _savedSelectedKeyIndex;
     BOOL _useGridSelection;
     BOOL _suppressOperations;
 }
@@ -19,28 +19,28 @@
  - (void) _handleKeyUIEvent:(id)a;
  - (void) _wheelChangedWithEvent:(id)a;
  - (void) _moveWithEvent:(id)a;
- - (void) setKeyboardAppearance:(q)a;
+ - (void) setKeyboardAppearance:(long long)a;
  - (void) remoteControlReceivedWithEvent:(id)a;
  - (BOOL) canHandleEvent:(id)a;
  - (void) showKeyboardWithInputTraits:(id)ascreenTraits:(id)bsplitTraits:(id)c;
- - (q) cursorLocation;
- - (void) setCursorLocation:(q)a;
- - (Q) targetEdgesForScreenGestureRecognition;
+ - (long long) cursorLocation;
+ - (void) setCursorLocation:(long long)a;
+ - (unsigned long long) targetEdgesForScreenGestureRecognition;
  - (void) flushKeyCache:(id)a;
  - (void) setKeyplaneName:(id)a;
  - (id) cacheTokenForKeyplane:(id)a;
  - (BOOL) shouldMergeKey:(id)a;
- - (void) setKeyboardName:(id)aappearance:(q)b;
+ - (void) setKeyboardName:(id)aappearance:(long long)b;
  - (BOOL) shouldPreventInputManagerHitTestingForKey:(id)a;
  - (BOOL) shouldRetestKey:(id)awithKeyplane:(id)b;
- - (void) setSelectedKeyIndex:(q)a;
- - (i) enabledStateForKey:(id)a;
+ - (void) setSelectedKeyIndex:(long long)a;
+ - (int) enabledStateForKey:(id)a;
  - (id) currentKey;
- - (i) activeStateForKey:(id)a;
+ - (int) activeStateForKey:(id)a;
  - (void) updateStatesForGridSelection;
- - (void) setHighlightedVariantIndex:(q)akey:(id)b;
+ - (void) setHighlightedVariantIndex:(long long)akey:(id)b;
  - (id) keyplaneKeyForCurrentKeyplane;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) selectionFrameForKeyIndex:(q)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) selectionFrameForKeyIndex:(long long)a;
  - (void) deactivateCurrentKey;
  - (BOOL) _handleMoveWithEvent:(id)a;
  - (BOOL) _handleWheelChangedWithEvent:(id)a;
@@ -48,9 +48,9 @@
  - (BOOL) _handlePhysicalKeyDownWithEvent:(id)a;
  - (void) runWithSuppressedActions:(@?)a;
  - (void) takeKeyAction:(id)a;
- - (q) keyIndexAtPoint:({CGPoint=dd})a;
- - (BOOL) handleLinearDirectionalInput:(i)a;
- - (BOOL) handleVisualDirectionalInput:(i)a;
+ - (long long) keyIndexAtPoint:({CGPoint=dd})a;
+ - (BOOL) handleLinearDirectionalInput:(int)a;
+ - (BOOL) handleVisualDirectionalInput:(int)a;
  - (void) updateSelectionForCurrentKeyplane;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

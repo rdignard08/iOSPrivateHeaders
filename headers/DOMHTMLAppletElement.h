@@ -18,10 +18,10 @@
  - (void) setCode:(id)a;
  - (id) codeBase;
  - (void) setCodeBase:(id)a;
- - (i) hspace;
- - (void) setHspace:(i)a;
- - (i) vspace;
- - (void) setVspace:(i)a;
+ - (int) hspace;
+ - (void) setHspace:(int)a;
+ - (int) vspace;
+ - (void) setVspace:(int)a;
  - (id) width;
  - (id) height;
  - (void) setWidth:(id)a;

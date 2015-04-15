@@ -6,7 +6,7 @@
     id argument;
     @"NSMutableArray" modes;
     @"NSCondition" waiter;
-    * signalled;
+    char* signalled;
 }
 
  - (void) dealloc;

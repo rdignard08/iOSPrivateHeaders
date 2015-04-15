@@ -25,9 +25,9 @@
  - (id) _touchesForKey:(id)a;
  - ({CGPoint=dd}) _digitizerLocation;
  - (id) _gestureRecognizersForWindow:(id)a;
- - (void) _touchesForGesture:(id)awithPhase:(q)bintoSet:(id)c;
+ - (void) _touchesForGesture:(id)awithPhase:(long long)bintoSet:(id)c;
  - (id) _viewsForWindow:(id)a;
- - (id) _touchesForView:(id)awithPhase:(q)b;
+ - (id) _touchesForView:(id)awithPhase:(long long)b;
  - (void) _invalidateGestureRecognizerForWindowCache;
  - (id) _firstTouchForView:(id)a;
  - (id) _cloneEvent;
@@ -39,13 +39,13 @@
  - (void) _removeTouchesForKey:(id)a;
  - (void) _removeTouchesForWindow:(id)a;
  - (void) _removeTouch:(id)afromGestureRecognizer:(id)b;
- - (id) _touchesForGesture:(id)awithPhase:(q)b;
+ - (id) _touchesForGesture:(id)awithPhase:(long long)b;
  - (void) _moveTouchesFromView:(id)atoView:(id)b;
- - (d) _initialTouchTimestamp;
- - (I) _windowServerHitTestContextId;
+ - (double) _initialTouchTimestamp;
+ - (unsigned int) _windowServerHitTestContextId;
  - (void) _addWindowAwaitingLatentSystemGestureNotification:(id)adeliveredToEventWindow:(id)b;
  - (void) _windowNoLongerAwaitingSystemGestureNotification:(id)a;
- - (q) type;
+ - (long long) type;
 
 
 @end

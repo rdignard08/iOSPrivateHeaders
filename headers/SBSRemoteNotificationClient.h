@@ -5,13 +5,13 @@
  + (void) registerForRemoteNotifications;
  + (BOOL) isRegisteredForRemoteNotifications;
  + (void) unregisterForRemoteNotifications;
- + (C) legacyRegisteredRemoteNotificationTypes;
- + (void) registerForRemoteNotificationsWithLegacyTypes:(C)a;
+ + (unsigned char) legacyRegisteredRemoteNotificationTypes;
+ + (void) registerForRemoteNotificationsWithLegacyTypes:(unsigned char)a;
  + (id) getPendingNotificationUserInfo;
- + (id) getNotificationUserInfoForToken:(i)a;
+ + (id) getNotificationUserInfoForToken:(int)a;
  + (void) getSupportedBundleIdentifiers:(^@)aenabledBundleIdentifiers:(^@)b;
  + (void) setAllowed:(BOOL)aforBundleIdentifier:(id)b;
- + (I) _remoteNotificationServerPort;
+ + (unsigned int) _remoteNotificationServerPort;
 
 
 

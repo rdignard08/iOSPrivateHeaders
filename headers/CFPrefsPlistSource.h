@@ -23,9 +23,9 @@
  - (BOOL) synchronize;
  - (void) mergeIntoDictionary:(^{__CFDictionary=})a;
  - (id) createRequestNewContentMessageForDaemon:(BOOL)a;
- - (void) handleReply:(id)atoRequestNewDataMessage:(id)bonConnection:(id)cretryCount:(i)derror:(^B)e;
- - (q) alreadylocked_generationCount;
- - (q) generationCount;
+ - (void) handleReply:(id)atoRequestNewDataMessage:(id)bonConnection:(id)cretryCount:(int)derror:(^B)e;
+ - (long long) alreadylocked_generationCount;
+ - (long long) generationCount;
  - (void) clearCache;
  - (void) setDaemonCacheEnabled:(BOOL)a;
  - (void) setAccessRestricted:(BOOL)a;
@@ -36,15 +36,15 @@
  - (void) setDomainIdentifier:(^{__CFString=})a;
  - (void) setUserIdentifier:(^{__CFString=})a;
  - (void) setContainer:(^{__CFString=})a;
- - (q) sendMessageSettingValue:(^v)aforKey:(^{__CFString=})b;
- - (BOOL) handleErrorReply:(id)afromMessageSettingKey:(^{__CFString=})btoValue:(^v)cretryCount:(i)dretryContinuation:(@?)e;
+ - (long long) sendMessageSettingValue:(^v)aforKey:(^{__CFString=})b;
+ - (BOOL) handleErrorReply:(id)afromMessageSettingKey:(^{__CFString=})btoValue:(^v)cretryCount:(int)dretryContinuation:(@?)e;
  - (BOOL) attachAccessTokenToMessage:(id)a;
- - (void) sendFullyPreparedMessage:(id)asettingValue:(^v)bforKey:(^{__CFString=})cretryCount:(i)d;
+ - (void) sendFullyPreparedMessage:(id)asettingValue:(^v)bforKey:(^{__CFString=})cretryCount:(int)d;
  - (id) createSynchronizeMessage;
  - (void) addPIDImpersonationIfNecessary:(id)a;
- - (void) sendRequestNewDataMessage:(id)atoConnection:(id)bretryCount:(i)cerror:(^B)d;
+ - (void) sendRequestNewDataMessage:(id)atoConnection:(id)bretryCount:(int)cerror:(^B)d;
  - (BOOL) volatilizeIfInvalidHomeDir;
- - (BOOL) handleErrorReply:(id)aretryCount:(i)bretryContinuation:(@?)c;
+ - (BOOL) handleErrorReply:(id)aretryCount:(int)bretryContinuation:(@?)c;
  - (void) _sharedCleanup;
 
 

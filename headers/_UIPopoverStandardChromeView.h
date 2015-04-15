@@ -7,16 +7,16 @@
     @"_UIBackdropView" _blurView;
     @"NSArray" _dimmingViews;
     @"UIColor" _popoverBackgroundColor;
-    d _arrowOffset;
-    Q _arrowDirection;
-    q _backgroundStyle;
+    double _arrowOffset;
+    unsigned long long _arrowDirection;
+    long long _backgroundStyle;
     BOOL _arrowVisible;
     BOOL useShortMode;
     BOOL _debugMode;
-    d _dimmingViewTopEdgeInset;
+    double _dimmingViewTopEdgeInset;
 }
- + (d) arrowHeight;
- + (d) arrowBase;
+ + (double) arrowHeight;
+ + (double) arrowBase;
  + ({UIEdgeInsets=dddd}) contentViewInsets;
 
  - (void) dealloc;
@@ -26,17 +26,17 @@
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) touchesEnded:(id)awithEvent:(id)b;
  - (void) touchesCancelled:(id)awithEvent:(id)b;
- - (void) motionEnded:(q)awithEvent:(id)b;
+ - (void) motionEnded:(long long)awithEvent:(id)b;
  - (BOOL) isPinned;
- - (void) motionBegan:(q)awithEvent:(id)b;
- - (void) motionCancelled:(q)awithEvent:(id)b;
+ - (void) motionBegan:(long long)awithEvent:(id)b;
+ - (void) motionCancelled:(long long)awithEvent:(id)b;
  - ({CGSize=dd}) _shadowOffset;
- - (Q) arrowDirection;
- - (void) setArrowDirection:(Q)a;
- - (d) _shadowRadius;
+ - (unsigned long long) arrowDirection;
+ - (void) setArrowDirection:(unsigned long long)a;
+ - (double) _shadowRadius;
  - (void) _loadNecessaryViews;
- - (d) minNonPinnedOffset;
- - (d) maxNonPinnedOffset;
+ - (double) minNonPinnedOffset;
+ - (double) maxNonPinnedOffset;
  - (BOOL) isRightArrowPinnedToTop;
  - (BOOL) isRightArrowPinnedToBottom;
  - (BOOL) useShortMode;
@@ -44,16 +44,16 @@
  - (void) _layoutArrowViewsLeftOrRight;
  - (void) _layoutArrowViewsNone;
  - ({UIEdgeInsets=dddd}) _shadowInsets;
- - (d) _shadowOpacity;
+ - (double) _shadowOpacity;
  - (id) _shadowPath;
  - (BOOL) hasComponentViews;
- - (BOOL) wouldPinForOffset:(d)a;
- - (void) setBackgroundStyle:(q)a;
- - (void) setArrowOffset:(d)a;
- - (d) arrowOffset;
- - (void) setDimmingViewTopEdgeInset:(d)a;
- - (q) backgroundStyle;
- - (void) setBackgroundStyle:(q)aanimated:(BOOL)b;
+ - (BOOL) wouldPinForOffset:(double)a;
+ - (void) setBackgroundStyle:(long long)a;
+ - (void) setArrowOffset:(double)a;
+ - (double) arrowOffset;
+ - (void) setDimmingViewTopEdgeInset:(double)a;
+ - (long long) backgroundStyle;
+ - (void) setBackgroundStyle:(long long)aanimated:(BOOL)b;
  - (id) popoverBackgroundColor;
  - (void) setPopoverBackgroundColor:(id)a;
  - (BOOL) isArrowVisible;
@@ -62,7 +62,7 @@
  - (void) setUseShortMode:(BOOL)a;
  - (BOOL) isDebugModeEnabled;
  - (void) setDebugModeEnabled:(BOOL)a;
- - (d) dimmingViewTopEdgeInset;
+ - (double) dimmingViewTopEdgeInset;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

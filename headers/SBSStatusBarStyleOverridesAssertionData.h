@@ -4,8 +4,8 @@
 
     BOOL _exclusive;
     BOOL _isExclusive;
-    i _statusBarStyleOverrides;
-    i _pid;
+    int _statusBarStyleOverrides;
+    int _pid;
     @"NSString" _uniqueIdentifier;
 }
 @property (nonatomic, assign, readwrite) NSNumber* statusBarStyleOverrides;
@@ -16,20 +16,20 @@
  + (BOOL) supportsSecureCoding;
 
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (void) setUniqueIdentifier:(id)a;
  - (id) uniqueIdentifier;
- - (i) pid;
- - (void) setPid:(i)a;
- - (id) initWithStatusBarStyleOverrides:(i)aforPID:(i)bexclusive:(BOOL)c;
- - (i) statusBarStyleOverrides;
+ - (int) pid;
+ - (void) setPid:(int)a;
+ - (id) initWithStatusBarStyleOverrides:(int)aforPID:(int)bexclusive:(BOOL)c;
+ - (int) statusBarStyleOverrides;
  - (BOOL) isExclusive;
  - (BOOL) isExclusive;
- - (id) initWithStatusBarStyleOverrides:(i)aforPID:(i)bexclusive:(BOOL)cuniqueIdentifier:(id)d;
- - (void) setStatusBarStyleOverrides:(i)a;
+ - (id) initWithStatusBarStyleOverrides:(int)aforPID:(int)bexclusive:(BOOL)cuniqueIdentifier:(id)d;
+ - (void) setStatusBarStyleOverrides:(int)a;
  - (void) setExclusive:(BOOL)a;
 
 

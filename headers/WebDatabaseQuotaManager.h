@@ -6,10 +6,10 @@
 }
 
  - (id) origin;
- - (void) setQuota:(Q)a;
- - (Q) usage;
+ - (void) setQuota:(unsigned long long)a;
+ - (unsigned long long) usage;
  - (id) initWithOrigin:(id)a;
- - (Q) quota;
+ - (unsigned long long) quota;
 
 
 @end

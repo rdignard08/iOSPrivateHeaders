@@ -26,9 +26,9 @@
     ^{_UICollectionViewCompositionLayout=#} _compositionLayout;
     @"UICollectionViewLayout" _siblingLayout;
     {CGPoint="x"d"y"d} _layoutOffset;
-    Q _layoutOffsetEdges;
+    unsigned long long _layoutOffsetEdges;
     {?="inTransitionFromTransitionLayout"b1"inTransitionToTransitionLayout"b1"prepared"b1} _layoutFlags;
-    q _sublayoutType;
+    long long _sublayoutType;
 }
 @property (nonatomic, assign, readonly) UICollectionView* collectionView;
 @property (nonatomic, assign, readwrite, _frame, _setFrame:) NSNumber* frame;
@@ -53,11 +53,11 @@
  - (void) invalidateLayout;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _bounds;
  - (void) _setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) _setSublayoutType:(q)a;
+ - (void) _setSublayoutType:(long long)a;
  - (void) _setCompositionLayout:(^{_UICollectionViewCompositionLayout=#})a;
  - (void) _setSections:(id)a;
  - (void) _setLayoutOffset:({CGPoint=dd})a;
- - (void) _setLayoutOffsetEdges:(Q)a;
+ - (void) _setLayoutOffsetEdges:(unsigned long long)a;
  - (void) _setSiblingLayout:(id)a;
  - (void) _setItems:(id)a;
  - (void) _setElementKinds:(id)a;
@@ -71,7 +71,7 @@
  - (id) _siblingLayout;
  - (BOOL) _isPrepared;
  - ({CGPoint=dd}) _layoutOffset;
- - (Q) _layoutOffsetEdges;
+ - (unsigned long long) _layoutOffsetEdges;
  - (void) invalidateLayoutWithContext:(id)a;
  - (id) invalidationContextForBoundsChange:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (id) invalidationContextForPreferredLayoutAttributes:(id)awithOriginalAttributes:(id)b;
@@ -95,7 +95,7 @@
  - (id) initialLayoutAttributesForAppearingDecorationElementOfKind:(id)aatIndexPath:(id)b;
  - (void) _finalizeCollectionViewItemAnimations;
  - (void) finalizeAnimatedBoundsChange;
- - (@?) _animationForReusableView:(id)atoLayoutAttributes:(id)btype:(Q)c;
+ - (@?) _animationForReusableView:(id)atoLayoutAttributes:(id)btype:(unsigned long long)c;
  - (void) _prepareForTransitionToLayout:(id)a;
  - (void) _prepareForTransitionFromLayout:(id)a;
  - ({CGPoint=dd}) transitionContentOffsetForProposedContentOffset:({CGPoint=dd})akeyItemIndexPath:(id)b;
@@ -129,7 +129,7 @@
  - (id) _elementKinds;
  - (void) _setPrepared:(BOOL)a;
  - (id) _layoutAttributesForReorderedItemAtIndexPath:(id)awithTargetPosition:({CGPoint=dd})b;
- - (q) _sublayoutType;
+ - (long long) _sublayoutType;
  - (id) init;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

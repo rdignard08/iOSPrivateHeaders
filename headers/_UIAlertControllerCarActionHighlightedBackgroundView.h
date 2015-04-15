@@ -4,11 +4,11 @@
 
 }
 
- - (void) setCornerRadius:(d)a;
+ - (void) setCornerRadius:(double)a;
  - (void) tintColorDidChange;
  - (void) setHighlighted:(BOOL)aanimated:(BOOL)b;
  - (void) setPressed:(BOOL)aanimated:(BOOL)b;
- - (d) cornerRadius;
+ - (double) cornerRadius;
 
 
 @end

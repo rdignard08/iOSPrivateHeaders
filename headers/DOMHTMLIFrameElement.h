@@ -5,7 +5,7 @@
 
  - (id) contentFrame;
  - (id) name;
- - (i) structuralComplexityContribution;
+ - (int) structuralComplexityContribution;
  - (void) setName:(id)a;
  - (id) contentDocument;
  - (id) marginWidth;

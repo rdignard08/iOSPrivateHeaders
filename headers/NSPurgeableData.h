@@ -2,13 +2,13 @@
 @protocol NSDiscardableContent;
 @interface NSPurgeableData : NSMutableData <NSDiscardableContent> {
 
-    Q _length;
-    i _accessCount;
+    unsigned long long _length;
+    int _accessCount;
     [32C] _private;
     ^v _reserved;
 }
 
- - (id) initWithBytes:(^v)alength:(Q)bcopy:(BOOL)cdeallocator:(@?)d;
+ - (id) initWithBytes:(^v)alength:(unsigned long long)bcopy:(BOOL)cdeallocator:(@?)d;
  - (void) _destroyMemory;
  - (BOOL) beginContentAccess;
  - (void) endContentAccess;
@@ -17,11 +17,11 @@
  - (void) finalize;
  - (r^v) bytes;
  - (^v) mutableBytes;
- - (void) setLength:(Q)a;
- - (id) initWithCapacity:(Q)a;
+ - (void) setLength:(unsigned long long)a;
+ - (id) initWithCapacity:(unsigned long long)a;
  - (void) discardContentIfPossible;
  - (BOOL) isContentDiscarded;
- - (Q) length;
+ - (unsigned long long) length;
  - (id) init;
 
 

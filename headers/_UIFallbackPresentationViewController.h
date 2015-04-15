@@ -8,9 +8,9 @@
  - (void) dealloc;
  - (void) didReceiveMemoryWarning;
  - (BOOL) shouldAutorotate;
- - (Q) supportedInterfaceOrientations;
+ - (unsigned long long) supportedInterfaceOrientations;
  - (id) initWithNibName:(id)abundle:(id)b;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewDidLoad;
  - (void) viewDidUnload;
  - (void) setRotationDecider:(id)a;

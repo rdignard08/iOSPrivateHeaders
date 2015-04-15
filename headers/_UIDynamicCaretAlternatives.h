@@ -15,8 +15,8 @@
  - (void) setAlternativesButtons:(id)a;
  - (id) alternativesButtons;
  - (void) setButtonLabels:(id)a;
- - (q) indexOfButtonForPoint:({CGPoint=dd})a;
- - (void) highlightButtonAtIndex:(q)a;
+ - (long long) indexOfButtonForPoint:({CGPoint=dd})a;
+ - (void) highlightButtonAtIndex:(long long)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

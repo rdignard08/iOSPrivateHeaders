@@ -5,7 +5,7 @@
 }
 
  - (void) dealloc;
- - (d) updateContentsAndWidth;
+ - (double) updateContentsAndWidth;
 
 
 @end

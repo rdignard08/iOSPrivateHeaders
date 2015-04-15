@@ -15,7 +15,7 @@
  - (id) inputImage;
  - (void) setInputImage:(id)a;
  - (id) inputScale;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) regionOf:(i)adestRect:({CGRect={CGPoint=dd}{CGSize=dd}})buserInfo:(id)c;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) regionOf:(int)adestRect:({CGRect={CGPoint=dd}{CGSize=dd}})buserInfo:(id)c;
  - (id) _kernel;
  - (id) inputCenter;
  - (void) setInputCenter:(id)a;

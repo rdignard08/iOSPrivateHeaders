@@ -5,7 +5,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithTraversalDirection:(Q)avisitorBlock:(@?)b;
+ - (id) initWithTraversalDirection:(unsigned long long)avisitorBlock:(@?)b;
  - (BOOL) _visitView:(id)a;
  - (void) setVisitorBlock:(@?)a;
  - (@?) visitorBlock;

@@ -5,22 +5,22 @@
  + (void) load;
 
  - (void) getValue:(^v)a;
- - (S) unsignedShortValue;
- - (C) unsignedCharValue;
+ - (unsigned short) unsignedShortValue;
+ - (unsigned char) unsignedCharValue;
  - ({?=b8b4b1b1b18[8S]}) decimalValue;
  - (BOOL) boolValue;
- - (d) doubleValue;
- - (q) longValue;
- - (Q) unsignedLongValue;
+ - (double) doubleValue;
+ - (long long) longValue;
+ - (unsigned long long) unsignedLongValue;
  - (r*) objCType;
- - (I) unsignedIntValue;
- - (c) charValue;
- - (s) shortValue;
- - (i) intValue;
- - (q) longLongValue;
- - (f) floatValue;
- - (Q) unsignedLongLongValue;
- - (q) integerValue;
+ - (unsigned int) unsignedIntValue;
+ - (char) charValue;
+ - (short) shortValue;
+ - (int) intValue;
+ - (long long) longLongValue;
+ - (float) floatValue;
+ - (unsigned long long) unsignedLongLongValue;
+ - (long long) integerValue;
 
 
 @end

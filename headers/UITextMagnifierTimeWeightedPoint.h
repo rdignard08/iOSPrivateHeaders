@@ -1,19 +1,19 @@
 
 @interface UITextMagnifierTimeWeightedPoint : NSObject {
 
-    i m_index;
+    int m_index;
     [16{?="point"{CGPoint="x"d"y"d}"time"d}] m_points;
 }
 @property (nonatomic, assign, readonly) NSNumber* weightedPoint;
 
  - (void) addPoint:({CGPoint=dd})a;
- - (f) distanceCoveredInInterval:(d)apriorTo:(d)b;
- - ({CGSize=dd}) displacementInInterval:(d)apriorTo:(d)b;
+ - (float) distanceCoveredInInterval:(double)apriorTo:(double)b;
+ - ({CGSize=dd}) displacementInInterval:(double)apriorTo:(double)b;
  - (void) clearHistory;
  - ({CGPoint=dd}) weightedPoint;
- - (BOOL) historyCovers:(d)a;
- - (f) distanceCoveredInInterval:(d)a;
- - ({CGSize=dd}) displacementInInterval:(d)a;
+ - (BOOL) historyCovers:(double)a;
+ - (float) distanceCoveredInInterval:(double)a;
+ - ({CGSize=dd}) displacementInInterval:(double)a;
 
 
 @end

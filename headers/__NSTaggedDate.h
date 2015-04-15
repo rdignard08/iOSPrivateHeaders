@@ -4,11 +4,11 @@
 }
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
  + (id) allocWithZone:(^{_NSZone=})a;
- + (id) __new:(d)a;
+ + (id) __new:(double)a;
 
  - (void) dealloc;
- - (d) timeIntervalSinceReferenceDate;
- - (id) initWithTimeIntervalSinceReferenceDate:(d)a;
+ - (double) timeIntervalSinceReferenceDate;
+ - (id) initWithTimeIntervalSinceReferenceDate:(double)a;
 
 
 @end

@@ -21,12 +21,12 @@
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (void) _reestablishInternalCFCachedURLResponse:(^{_CFCachedURLResponse={__CFRuntimeBase=Q[4C]I}^{__CFCachedURLResponse}})a;
- - (id) initWithResponse:(id)adata:(id)buserInfo:(id)cstoragePolicy:(Q)d;
- - (Q) storagePolicy;
+ - (id) initWithResponse:(id)adata:(id)buserInfo:(id)cstoragePolicy:(unsigned long long)d;
+ - (unsigned long long) storagePolicy;
  - (id) _private_initWithCoder:(id)a;
  - (void) _private_encodeWithCoder:(id)a;
  - (id) initWithResponse:(id)adata:(id)b;
- - (id) initWithResponse:(id)adataArray:(id)buserInfo:(id)cstoragePolicy:(Q)d;
+ - (id) initWithResponse:(id)adataArray:(id)buserInfo:(id)cstoragePolicy:(unsigned long long)d;
  - (id) dataArray;
  - (void) _deallocInternalCFCachedURLResponse;
 

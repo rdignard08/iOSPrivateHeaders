@@ -34,7 +34,7 @@
  - (id) clientCallbackQueue;
  - (void) removePrefetchedKeys:(id)awithCompletion:(@?)b;
  - (id) _allPrefetchedChangesInFlightForApplication:(id)a;
- - (void) _sendMessageType:(i)awithMessage:(@?)bwithReplyHandler:(@?)cwaitForReply:(BOOL)d;
+ - (void) _sendMessageType:(int)awithMessage:(@?)bwithReplyHandler:(@?)cwaitForReply:(BOOL)d;
 
 
 @end

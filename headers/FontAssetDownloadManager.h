@@ -19,10 +19,10 @@
  - (id) .cxx_construct;
  - (void) .cxx_destruct;
  - (void) dealloc;
- - (BOOL) callProgressCallbak:(I)a;
+ - (BOOL) callProgressCallbak:(unsigned int)a;
  - (id) getUnmatchedDescriptors;
  - (id) mobileAssetsForUnmatched:(id)aandFontFilePaths:(id)b;
- - (Q) calculateDownloadSize:(id)a;
+ - (unsigned long long) calculateDownloadSize:(id)a;
  - (void) setProgressParam:(id)aforKey:(id)b;
  - (BOOL) executeDownloadingFontAssets:(id)aforDescriptors:(id)bandFontFilePaths:(id)c;
  - (id) doFinalMatching;

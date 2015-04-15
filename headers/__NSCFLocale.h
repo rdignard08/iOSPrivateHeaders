@@ -6,15 +6,15 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) finalize;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (id) objectForKey:(id)a;
- - (C) _nullLocale;
+ - (unsigned char) _nullLocale;
  - (void) _setNullLocale;
  - (id) _prefs;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) displayNameForKey:(id)avalue:(id)b;
  - (id) initWithLocaleIdentifier:(id)a;

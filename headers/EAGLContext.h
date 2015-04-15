@@ -14,22 +14,22 @@
  - (BOOL) isMultiThreaded;
  - (void) dealloc;
  - (^{EAGLMacroContext=}) GetMacroContextPrivate;
- - (id) initWithAPI:(Q)asharedWithCompute:(BOOL)b;
- - (id) initWithAPI:(Q)aproperties:(id)b;
- - (id) commonInitWithAPI:(Q)aproperties:(id)b;
+ - (id) initWithAPI:(unsigned long long)asharedWithCompute:(BOOL)b;
+ - (id) initWithAPI:(unsigned long long)aproperties:(id)b;
+ - (id) commonInitWithAPI:(unsigned long long)aproperties:(id)b;
  - (void) setDebugLabel:(id)a;
- - (Q) getParameter:(I)ato:(^i)b;
- - (Q) setParameter:(I)ato:(^i)b;
+ - (unsigned long long) getParameter:(unsigned int)ato:(^i)b;
+ - (unsigned long long) setParameter:(unsigned int)ato:(^i)b;
  - (^{EAGLMacroContext=}) getMacroContextPrivate;
- - (id) initWithAPI:(Q)asharegroup:(id)b;
+ - (id) initWithAPI:(unsigned long long)asharegroup:(id)b;
  - (void) setMultiThreaded:(BOOL)a;
  - (BOOL) setBlockFence:(@?)aonQueue:(^{dispatch_queue_s=})b;
  - (id) debugLabel;
- - (Q) API;
+ - (unsigned long long) API;
  - (id) sharegroup;
- - (id) initWithAPI:(Q)a;
- - (BOOL) renderbufferStorage:(Q)afromDrawable:(id)b;
- - (BOOL) presentRenderbuffer:(Q)a;
+ - (id) initWithAPI:(unsigned long long)a;
+ - (BOOL) renderbufferStorage:(unsigned long long)afromDrawable:(id)b;
+ - (BOOL) presentRenderbuffer:(unsigned long long)a;
 
 
 @end

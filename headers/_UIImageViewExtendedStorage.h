@@ -6,12 +6,12 @@
     @"UIImage" _highlightedImage;
     @"NSArray" _animationImages;
     @"NSArray" _highlightedAnimationImages;
-    d _animationDuration;
-    q _animationRepeatCount;
-    i _drawMode;
-    q _defaultRenderingMode;
+    double _animationDuration;
+    long long _animationRepeatCount;
+    int _drawMode;
+    long long _defaultRenderingMode;
     BOOL _masksTemplateImages;
-    Q _templateImageRenderingEffects;
+    unsigned long long _templateImageRenderingEffects;
     @"UIImage" _displayedImage;
     @"UIImage" _displayedHighlightedImage;
 }

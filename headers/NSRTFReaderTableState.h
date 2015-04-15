@@ -5,9 +5,9 @@
     @"NSTextTable" _previousTable;
     @"NSMutableArray" _currentRowArray;
     @"NSMutableArray" _previousRowArray;
-    i _currentRow;
-    i _currentColumn;
-    i _currentDefinitionColumn;
+    int _currentRow;
+    int _currentColumn;
+    int _currentDefinitionColumn;
     BOOL _currentRowIsLast;
 }
 

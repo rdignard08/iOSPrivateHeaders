@@ -2,7 +2,7 @@
 @protocol NSCopying;
 @interface UITableViewRowAction : NSObject <NSCopying> {
 
-    q _style;
+    long long _style;
     @"NSString" _title;
     @"UIColor" _backgroundColor;
     @? _handler;
@@ -14,7 +14,7 @@
 @property (nonatomic, copy, readwrite) UIColor* backgroundColor;
 @property (nonatomic, copy, readwrite) UIVisualEffect* backgroundEffect;
 @property (nonatomic, assign, readonly, _handler) NSNumber* handler;
- + (id) rowActionWithStyle:(q)atitle:(id)bhandler:(@?)c;
+ + (id) rowActionWithStyle:(long long)atitle:(id)bhandler:(@?)c;
 
  - (id) title;
  - (void) setTitle:(id)a;
@@ -27,7 +27,7 @@
  - (void) setBackgroundEffect:(id)a;
  - (@?) _handler;
  - (void) setBackgroundColor:(id)a;
- - (q) style;
+ - (long long) style;
  - (id) backgroundColor;
 
 

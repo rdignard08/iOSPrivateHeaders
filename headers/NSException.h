@@ -25,7 +25,7 @@
  - (void) dealloc;
  - (id) userInfo;
  - (id) name;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) initWithName:(id)areason:(id)buserInfo:(id)c;
  - (id) reason;

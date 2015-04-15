@@ -3,7 +3,7 @@
 @interface UIStoryboardPopoverPresentationSegue : UIStoryboardSegue <UIPopoverPresentationControllerDelegate> {
 
     @"NSArray" _passthroughViews;
-    Q _permittedArrowDirections;
+    unsigned long long _permittedArrowDirections;
     @"UIBarButtonItem" _anchorBarButtonItem;
     @"UIView" _anchorView;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _anchorRect;
@@ -14,8 +14,8 @@
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) anchorRect;
  - (id) anchorView;
  - (id) anchorBarButtonItem;
- - (Q) permittedArrowDirections;
- - (void) setPermittedArrowDirections:(Q)a;
+ - (unsigned long long) permittedArrowDirections;
+ - (void) setPermittedArrowDirections:(unsigned long long)a;
  - (void) perform;
  - (id) passthroughViews;
  - (void) setPassthroughViews:(id)a;

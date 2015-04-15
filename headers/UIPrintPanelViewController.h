@@ -30,8 +30,8 @@
 
  - (void) observeValueForKeyPath:(id)aofObject:(id)bchange:(id)ccontext:(^v)d;
  - (void) dealloc;
- - (Q) supportedInterfaceOrientations;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (unsigned long long) supportedInterfaceOrientations;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) printerBrowserViewDidDisappear;
  - (void) _presentWindow;
  - (void) _keyWindowWillRotate:(id)a;
@@ -42,11 +42,11 @@
  - (id) printer;
  - (void) setPrinter:(id)a;
  - (void) popoverControllerDidDismissPopover:(id)a;
- - (q) pageCount;
+ - (long long) pageCount;
  - (BOOL) duplex;
  - (void) setDuplex:(BOOL)a;
- - (q) copies;
- - (void) setCopies:(q)a;
+ - (long long) copies;
+ - (void) setCopies:(long long)a;
  - (void) printPanelDidDisappear;
  - (void) printPaperViewDidDisappear;
  - (void) printRangeViewDidDisappear;

@@ -3,11 +3,11 @@
 
 }
 
- - (d) keyCornerRadius;
- - (d) spaceKeyFontSize;
- - (d) keyplaneSwitchKeyFontSize;
- - (d) returnKeyFontSize;
- - (d) deleteKeyFontSize;
+ - (double) keyCornerRadius;
+ - (double) spaceKeyFontSize;
+ - (double) keyplaneSwitchKeyFontSize;
+ - (double) returnKeyFontSize;
+ - (double) deleteKeyFontSize;
 
 
 @end

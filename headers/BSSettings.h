@@ -13,28 +13,28 @@
  - (id) description;
  - (void) dealloc;
  - (BOOL) isEmpty;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithXPCDictionary:(id)a;
  - (id) initWithXPCDictionary:(id)a;
- - (q) flagForSetting:(Q)a;
+ - (long long) flagForSetting:(unsigned long long)a;
  - (void) enumerateFlagsWithBlock:(@?)a;
- - (id) objectForSetting:(Q)a;
+ - (id) objectForSetting:(unsigned long long)a;
  - (void) enumerateObjectsWithBlock:(@?)a;
  - (void) _enumerateSettingsForFlagsWithBlock:(@?)a;
  - (void) _enumerateSettingsForObjectsWithBlock:(@?)a;
  - (id) allSettings;
  - (void) setDescriptionProvider:(id)a;
  - (id) basicDescriptionWithPrefix:(id)a;
- - (void) _setFlag:(q)aforSetting:(Q)b;
- - (void) _setObject:(id)aforSetting:(Q)b;
+ - (void) _setFlag:(long long)aforSetting:(unsigned long long)b;
+ - (void) _setObject:(id)aforSetting:(unsigned long long)b;
  - (void) _enumerateSettingsInMap:(id)awithBlock:(@?)b;
- - (id) _keyDescriptionForSetting:(Q)a;
- - (id) _valueDescriptionForFlag:(q)aobject:(id)bofSetting:(Q)c;
+ - (id) _keyDescriptionForSetting:(unsigned long long)a;
+ - (id) _valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
  - (id) _newMapTable;
  - (void) _applyToSettings:(id)a;
  - (id) descriptionProvider;
- - (BOOL) boolForSetting:(Q)a;
+ - (BOOL) boolForSetting:(unsigned long long)a;
 
 
 @end

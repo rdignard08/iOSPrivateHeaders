@@ -7,7 +7,7 @@
  - (id) name;
  - (id) form;
  - (BOOL) disabled;
- - (i) structuralComplexityContribution;
+ - (int) structuralComplexityContribution;
  - (id) type;
  - (void) setValue:(id)a;
  - (id) value;

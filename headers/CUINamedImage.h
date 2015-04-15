@@ -2,9 +2,9 @@
 @interface CUINamedImage : NSObject {
 
     @"CUIRenditionKey" _key;
-    Q _storageRef;
+    unsigned long long _storageRef;
     @"NSString" _name;
-    d _scale;
+    double _scale;
     {_cuiniproperties="isVectorBased"b1"hasSliceInformation"b1"hasAlignmentInformation"b1"resizingMode"b2"templateRenderingMode"b3"exifOrientation"b4"_reserved"b20} _imageProperties;
     @"NSString" _signature;
 }
@@ -28,7 +28,7 @@
 
  - (id) traitCollection;
  - (id) UIImage;
- - (d) scale;
+ - (double) scale;
  - ({CGSize=dd}) size;
  - (id) description;
  - (void) dealloc;
@@ -36,34 +36,34 @@
  - (BOOL) hasSliceInformation;
  - (id) baseKey;
  - (void) setName:(id)a;
- - (q) templateRenderingMode;
- - (i) blendMode;
+ - (long long) templateRenderingMode;
+ - (int) blendMode;
  - (BOOL) isVectorBased;
- - (i) exifOrientation;
+ - (int) exifOrientation;
  - (id) _rendition;
  - (id) _themeStore;
  - (id) _renditionForSpecificKey:(id)a;
- - (id) initWithName:(id)ausingRenditionKey:(id)bfromTheme:(Q)c;
- - (q) idiom;
- - (q) sizeClassHorizontal;
- - (q) sizeClassVertical;
- - (d) positionOfSliceBoundary:(I)a;
+ - (id) initWithName:(id)ausingRenditionKey:(id)bfromTheme:(unsigned long long)c;
+ - (long long) idiom;
+ - (long long) sizeClassHorizontal;
+ - (long long) sizeClassVertical;
+ - (double) positionOfSliceBoundary:(unsigned int)a;
  - (id) renditionKey;
  - ({?=dddd}) edgeInsets;
  - (BOOL) isTemplate;
- - (q) imageType;
+ - (long long) imageType;
  - ({?=dddd}) alignmentEdgeInsets;
- - (q) resizingMode;
+ - (long long) resizingMode;
  - (void) _cacheRenditionProperties;
- - (q) resizingModeWithSubtype:(q)a;
+ - (long long) resizingModeWithSubtype:(long long)a;
  - (BOOL) hasAlignmentInformation;
- - (q) memoryClass;
- - (q) graphicsClass;
+ - (long long) memoryClass;
+ - (long long) graphicsClass;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) alignmentRect;
  - (BOOL) isStructured;
- - (Q) subtype;
- - (void) setScale:(d)a;
- - (d) opacity;
+ - (unsigned long long) subtype;
+ - (void) setScale:(double)a;
+ - (double) opacity;
  - (^{CGImage=}) image;
 
 

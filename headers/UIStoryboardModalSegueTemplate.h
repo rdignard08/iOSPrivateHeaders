@@ -3,15 +3,15 @@
 
     BOOL _useDefaultModalPresentationStyle;
     BOOL _useDefaultModalTransitionStyle;
-    q _modalPresentationStyle;
-    q _modalTransitionStyle;
+    long long _modalPresentationStyle;
+    long long _modalTransitionStyle;
     BOOL _animates;
 }
 
- - (q) modalPresentationStyle;
- - (void) setModalPresentationStyle:(q)a;
- - (q) modalTransitionStyle;
- - (void) setModalTransitionStyle:(q)a;
+ - (long long) modalPresentationStyle;
+ - (void) setModalPresentationStyle:(long long)a;
+ - (long long) modalTransitionStyle;
+ - (void) setModalTransitionStyle:(long long)a;
  - (id) segueWithDestinationViewController:(id)a;
  - (id) defaultSegueClassName;
  - (void) setUseDefaultModalPresentationStyle:(BOOL)a;

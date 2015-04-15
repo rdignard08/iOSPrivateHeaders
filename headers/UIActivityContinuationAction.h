@@ -7,11 +7,11 @@
  - (id) originatingDeviceName;
  - (id) originatingDeviceType;
  - (id) activityType;
- - (q) UIActionType;
+ - (long long) UIActionType;
  - (id) activityTypeIdentifier;
  - (id) identifier;
  - (id) initWithSettings:(id)a;
- - (id) keyDescriptionForSetting:(Q)a;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
 
 
 @end

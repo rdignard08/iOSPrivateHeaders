@@ -20,7 +20,7 @@
  - (id) currentItem;
  - (void) setToMatchDictionaryRepresentation:(id)a;
  - (id) init;
- - (void) setCapacity:(i)a;
+ - (void) setCapacity:(int)a;
  - (id) initWithBackForwardList:({PassRefPtr<WebCore::BackForwardList>=^{BackForwardList}})a;
  - (void) _close;
  - (void) addItem:(id)a;
@@ -29,14 +29,14 @@
  - (void) goForward;
  - (void) goToItem:(id)a;
  - (id) forwardItem;
- - (id) backListWithLimit:(i)a;
- - (id) forwardListWithLimit:(i)a;
- - (void) setPageCacheSize:(Q)a;
- - (Q) pageCacheSize;
- - (i) backListCount;
- - (i) forwardListCount;
- - (id) itemAtIndex:(i)a;
- - (i) capacity;
+ - (id) backListWithLimit:(int)a;
+ - (id) forwardListWithLimit:(int)a;
+ - (void) setPageCacheSize:(unsigned long long)a;
+ - (unsigned long long) pageCacheSize;
+ - (int) backListCount;
+ - (int) forwardListCount;
+ - (id) itemAtIndex:(int)a;
+ - (int) capacity;
 
 
 @end

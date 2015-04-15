@@ -4,7 +4,7 @@
     {_NSRange="location"Q"length"Q} _range;
     @"NSDate" _date;
     @"NSTimeZone" _timeZone;
-    d _duration;
+    double _duration;
     @"NSDate" _referenceDate;
     id _underlyingResult;
     BOOL _timeIsSignificant;
@@ -12,17 +12,17 @@
     BOOL _timeIsPast;
 }
 
- - (id) resultByAdjustingRangesWithOffset:(q)a;
- - (BOOL) _adjustRangesWithOffset:(q)a;
- - (d) duration;
+ - (id) resultByAdjustingRangesWithOffset:(long long)a;
+ - (BOOL) _adjustRangesWithOffset:(long long)a;
+ - (double) duration;
  - (^v) underlyingResult;
  - (id) initWithRange:({_NSRange=QQ})adate:(id)b;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(d)d;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(d)dreferenceDate:(id)eunderlyingResult:(^v)ftimeIsSignificant:(BOOL)gtimeIsApproximate:(BOOL)htimeIsPast:(BOOL)i;
+ - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)d;
+ - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)dreferenceDate:(id)eunderlyingResult:(^v)ftimeIsSignificant:(BOOL)gtimeIsApproximate:(BOOL)htimeIsPast:(BOOL)i;
  - (id) referenceDate;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(d)dreferenceDate:(id)e;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(d)dreferenceDate:(id)eunderlyingResult:(^v)f;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(d)dreferenceDate:(id)eunderlyingResult:(^v)ftimeIsSignificant:(BOOL)gtimeIsApproximate:(BOOL)h;
+ - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)dreferenceDate:(id)e;
+ - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)dreferenceDate:(id)eunderlyingResult:(^v)f;
+ - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)dreferenceDate:(id)eunderlyingResult:(^v)ftimeIsSignificant:(BOOL)gtimeIsApproximate:(BOOL)h;
  - (BOOL) timeIsSignificant;
  - (BOOL) timeIsApproximate;
  - (BOOL) timeIsPast;
@@ -33,7 +33,7 @@
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - ({_NSRange=QQ}) range;
- - (Q) resultType;
+ - (unsigned long long) resultType;
 
 
 @end

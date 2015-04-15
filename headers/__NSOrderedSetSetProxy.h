@@ -6,7 +6,7 @@
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) member:(id)a;
  - (id) objectEnumerator;
  - (id) initWithOrderedSet:(id)a;

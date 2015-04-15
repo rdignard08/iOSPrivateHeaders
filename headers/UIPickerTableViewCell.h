@@ -6,7 +6,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithStyle:(q)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
  - (void) _tapAction:(id)a;
  - (void) _setIsCenterCell:(BOOL)ashouldModifyAlphaOfView:(BOOL)b;
  - (id) pickerTable;

@@ -8,10 +8,10 @@
  - (id) lightKeycapsFontName;
  - (void) _customizeTraits:(id)aforPopupForKey:(id)bwithRenderConfig:(id)ckeycapsFontName:(id)d;
  - (id) thinKeycapsFontName;
- - (d) keyCornerRadius;
+ - (double) keyCornerRadius;
  - ({UIEdgeInsets=dddd}) topEdgeAdjustmentInsets;
- - (Q) edgesAdjustedForTranslucentGapsForGeometry:(id)akey:(id)bonKeyplane:(id)c;
- - (d) controlColumnWidthFactor;
+ - (unsigned long long) edgesAdjustedForTranslucentGapsForGeometry:(id)akey:(id)bonKeyplane:(id)c;
+ - (double) controlColumnWidthFactor;
  - (id) multitapCompleteKeyImageName;
  - (id) muttitapReverseKeyImageName;
  - (id) shiftKeyImageName;

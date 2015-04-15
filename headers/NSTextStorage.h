@@ -2,18 +2,18 @@
 @interface NSTextStorage : NSMutableAttributedString {
 
     {_NSRange="location"Q"length"Q} _editedRange;
-    q _editedDelta;
+    long long _editedDelta;
     {?="editedMask"b8"postWillProcess"b1"postDidProcess"b1""b6"disabled"b16} _flags;
     @"NSMutableArray" _layoutManagers;
     id _sideData;
-    q _changeInLength;
+    long long _changeInLength;
 }
  + (id) allocWithZone:(^{_NSZone=})a;
 
  - (void) _undoRedoTextOperation:(id)a;
  - (id) _undoRedoAttributedSubstringFromRange:({_NSRange=QQ})a;
  - (Class) classForCoder;
- - (void) edited:(Q)arange:({_NSRange=QQ})bchangeInLength:(q)c;
+ - (void) edited:(unsigned long long)arange:({_NSRange=QQ})bchangeInLength:(long long)c;
  - (void) dealloc;
  - (void) finalize;
  - (void) beginEditing;
@@ -43,19 +43,19 @@
  - (BOOL) _shouldSetOriginalFontAttribute;
  - ({_NSRange=QQ}) editedRange;
  - (void) invalidateAttributesInRange:({_NSRange=QQ})a;
- - (Q) editedMask;
- - (q) changeInLength;
- - (void) _notifyEdited:(Q)arange:({_NSRange=QQ})bchangeInLength:(q)cinvalidatedRange:({_NSRange=QQ})d;
+ - (unsigned long long) editedMask;
+ - (long long) changeInLength;
+ - (void) _notifyEdited:(unsigned long long)arange:({_NSRange=QQ})bchangeInLength:(long long)cinvalidatedRange:({_NSRange=QQ})d;
  - (void) fontSetChanged;
  - (void) processEditing;
  - (BOOL) _lockForWritingWithExceptionHandler:(BOOL)a;
  - (BOOL) fixesAttributesLazily;
  - ({_NSRange=QQ}) _rangeByEstimatingAttributeFixingForRange:({_NSRange=QQ})a;
  - (BOOL) _forceFixAttributes;
- - (void) setEditedMask:(Q)a;
+ - (void) setEditedMask:(unsigned long long)a;
  - (void) ensureAttributesAreFixedInRange:({_NSRange=QQ})a;
  - (void) setEditedRange:({_NSRange=QQ})a;
- - (void) setChangeInLength:(q)a;
+ - (void) setChangeInLength:(long long)a;
 
 
 @end

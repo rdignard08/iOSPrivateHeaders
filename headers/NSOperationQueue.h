@@ -17,10 +17,10 @@
 
  - (void) executeAndWaitForBlock:(@?)a;
  - (id) __;
- - (q) qualityOfService;
- - (void) setQualityOfService:(q)a;
+ - (long long) qualityOfService;
+ - (void) setQualityOfService:(long long)a;
  - (void) addOperations:(id)awaitUntilFinished:(BOOL)b;
- - (q) maxConcurrentOperationCount;
+ - (long long) maxConcurrentOperationCount;
  - (BOOL) overcommitsOperations;
  - (void) setOvercommitsOperations:(BOOL)a;
  - (id) underlyingQueue;
@@ -33,10 +33,10 @@
  - (void) cancelAllOperations;
  - (void) waitUntilAllOperationsAreFinished;
  - (id) operations;
- - (Q) operationCount;
+ - (unsigned long long) operationCount;
  - (void) setSuspended:(BOOL)a;
  - (id) init;
- - (void) setMaxConcurrentOperationCount:(q)a;
+ - (void) setMaxConcurrentOperationCount:(long long)a;
  - (void) setName:(id)a;
  - (BOOL) isSuspended;
 

@@ -14,10 +14,10 @@
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) init;
  - (void) encodeWithCoder:(id)a;

@@ -3,8 +3,8 @@
 @interface CABehavior : NSObject <NSCoding, NSCopying> {
 
     ^v _attr;
-    I _refcount;
-    I _uid;
+    unsigned int _refcount;
+    unsigned int _uid;
     ^v _priv;
 }
 @property (atomic, assign, readwrite, isEnabled) NSNumber* enabled;
@@ -26,7 +26,7 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (BOOL) retainWeakReference;
  - (BOOL) allowsWeakReference;

@@ -11,7 +11,7 @@
  - (BOOL) atEnd;
  - (id) currentRange;
  - (r^S) currentTextPointer;
- - (Q) currentTextLength;
+ - (unsigned long long) currentTextLength;
  - (id) currentText;
 
 

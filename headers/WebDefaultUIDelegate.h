@@ -18,7 +18,7 @@
  - (id) webView:(id)arunJavaScriptTextInputPanelWithPrompt:(id)bdefaultText:(id)cinitiatedByFrame:(id)d;
  - (void) webView:(id)asetStatusText:(id)b;
  - (void) webView:(id)aprintFrameView:(id)b;
- - (void) webView:(id)aexceededApplicationCacheOriginQuotaForSecurityOrigin:(id)btotalSpaceNeeded:(Q)c;
+ - (void) webView:(id)aexceededApplicationCacheOriginQuotaForSecurityOrigin:(id)btotalSpaceNeeded:(unsigned long long)c;
  - (void) webView:(id)arunOpenPanelForFileButtonWithResultListener:(id)b;
  - (id) webViewFirstResponder:(id)a;
  - (void) webView:(id)amakeFirstResponder:(id)b;
@@ -27,7 +27,7 @@
  - (id) webView:(id)acreateWebViewWithRequest:(id)buserGesture:(BOOL)c;
  - (void) webViewClose:(id)a;
  - (id) webViewStatusText:(id)a;
- - (void) webView:(id)amouseDidMoveOverElement:(id)bmodifierFlags:(Q)c;
+ - (void) webView:(id)amouseDidMoveOverElement:(id)bmodifierFlags:(unsigned long long)c;
  - (BOOL) webViewIsResizable:(id)a;
  - (void) webView:(id)asetFrame:({CGRect={CGPoint=dd}{CGSize=dd}})b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) webViewFrame:(id)a;

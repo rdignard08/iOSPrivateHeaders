@@ -2,9 +2,9 @@
 @interface _UIPickerViewTestParameters : NSObject {
 
     @"NSString" _testName;
-    q _remainingIterations;
-    q _rowsToScroll;
-    q _componentToScroll;
+    long long _remainingIterations;
+    long long _rowsToScroll;
+    long long _componentToScroll;
 }
 
 

@@ -3,23 +3,23 @@
 
 }
 
- - (S) button;
- - (i) x;
- - (i) y;
+ - (unsigned short) button;
+ - (int) x;
+ - (int) y;
  - (BOOL) ctrlKey;
  - (BOOL) shiftKey;
  - (BOOL) altKey;
  - (BOOL) metaKey;
- - (i) screenX;
- - (i) screenY;
- - (i) clientX;
- - (i) clientY;
+ - (int) screenX;
+ - (int) screenY;
+ - (int) clientX;
+ - (int) clientY;
  - (id) relatedTarget;
- - (i) offsetX;
- - (i) offsetY;
+ - (int) offsetX;
+ - (int) offsetY;
  - (id) fromElement;
  - (id) toElement;
- - (void) initMouseEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)ddetail:(i)escreenX:(i)fscreenY:(i)gclientX:(i)hclientY:(i)ictrlKey:(BOOL)jaltKey:(BOOL)kshiftKey:(BOOL)lmetaKey:(BOOL)mbutton:(S)nrelatedTarget:(id)o;
+ - (void) initMouseEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)ddetail:(int)escreenX:(int)fscreenY:(int)gclientX:(int)hclientY:(int)ictrlKey:(BOOL)jaltKey:(BOOL)kshiftKey:(BOOL)lmetaKey:(BOOL)mbutton:(unsigned short)nrelatedTarget:(id)o;
  - (void) initMouseEvent:(id)a;
 
 

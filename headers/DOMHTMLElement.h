@@ -5,18 +5,18 @@
 
  - (id) title;
  - (void) setTitle:(id)a;
- - (i) scrollXOffset;
- - (i) scrollYOffset;
- - (void) setScrollXOffset:(i)ascrollYOffset:(i)b;
+ - (int) scrollXOffset;
+ - (int) scrollYOffset;
+ - (void) setScrollXOffset:(int)ascrollYOffset:(int)b;
  - (void) setContentEditable:(id)a;
  - (id) innerHTML;
  - (id) innerText;
  - (BOOL) isContentEditable;
  - (id) idName;
- - (i) structuralComplexityContribution;
+ - (int) structuralComplexityContribution;
  - (void) setInnerHTML:(id)a;
  - (BOOL) hidden;
- - (void) setScrollXOffset:(i)ascrollYOffset:(i)badjustForIOSCaret:(BOOL)c;
+ - (void) setScrollXOffset:(int)ascrollYOffset:(int)badjustForIOSCaret:(BOOL)c;
  - (void) absolutePosition:(^i)a;
  - (id) accessKey;
  - (void) setAccessKey:(id)a;
@@ -28,8 +28,8 @@
  - (void) setLang:(id)a;
  - (BOOL) translate;
  - (void) setTranslate:(BOOL)a;
- - (i) tabIndex;
- - (void) setTabIndex:(i)a;
+ - (int) tabIndex;
+ - (void) setTabIndex:(int)a;
  - (BOOL) draggable;
  - (void) setDraggable:(BOOL)a;
  - (id) webkitdropzone;

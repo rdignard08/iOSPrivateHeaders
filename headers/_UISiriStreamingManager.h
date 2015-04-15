@@ -9,7 +9,7 @@
     @"NSMutableArray" _words;
     @"NSMutableArray" _wordTokens;
     @"NSArray" _wordsToSetAfterAnimations;
-    Q _firstIndexToRemoveAfterLineChangeClearingAnimation;
+    unsigned long long _firstIndexToRemoveAfterLineChangeClearingAnimation;
     BOOL _isPerformingLineChangeClearingAnimation;
     BOOL _commitResultsAfterDynamicsFinish;
     BOOL _waitingForDynamicsBehaviorToStop;

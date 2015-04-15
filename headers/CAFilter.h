@@ -2,9 +2,9 @@
 @protocol NSCopying, NSMutableCopying, NSCoding;
 @interface CAFilter : NSObject <NSCopying, NSMutableCopying, NSCoding> {
 
-    I _type;
+    unsigned int _type;
     @"NSString" _name;
-    I _flags;
+    unsigned int _flags;
     ^v _attr;
     ^v _cache;
 }

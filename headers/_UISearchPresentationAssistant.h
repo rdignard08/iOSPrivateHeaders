@@ -20,10 +20,10 @@
  - (void) ensureAppropriatelySizedSearchBar:(id)a;
  - (id) searchBarContainerView;
  - (BOOL) searchBarToBecomeTopAttached;
- - (d) statusBarAdjustment;
+ - (double) statusBarAdjustment;
  - (id) dimmingView;
  - (void) setAdaptivePresentationController:(id)a;
- - (d) resultsControllerContentOffset;
+ - (double) resultsControllerContentOffset;
  - (BOOL) shouldAccountForStatusBar;
  - (id) adaptivePresentationController;
  - (void) dimmingViewWasTapped:(id)a;
@@ -33,9 +33,9 @@
  - (BOOL) _currentTransitionIsRotating;
  - (BOOL) searchBarWillResizeForScopeBar;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _containerFrame;
- - (BOOL) _statusBarPreferredHiddenForInterfaceOrientation:(q)a;
+ - (BOOL) _statusBarPreferredHiddenForInterfaceOrientation:(long long)a;
  - (id) locateNavigationController;
- - (d) _statusBarHeightChangeDueToRotation;
+ - (double) _statusBarHeightChangeDueToRotation;
  - (BOOL) _statusBarPreferredHidden;
  - (void) removeContainerViewFromSuperview;
  - ({CGSize=dd}) updateSearchBarContainerFrame;

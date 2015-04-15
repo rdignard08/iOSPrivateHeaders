@@ -2,11 +2,11 @@
 @protocol BSXPCCoding, NSCopying, NSSecureCoding;
 @interface FBSDisplay : NSObject <BSXPCCoding, NSCopying, NSSecureCoding> {
 
-    I _seed;
+    unsigned int _seed;
     @"CADisplay" _caDisplay;
-    d _scale;
-    Q _type;
-    q _tags;
+    double _scale;
+    unsigned long long _type;
+    long long _tags;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _referenceBounds;
 }
 @property (nonatomic, retain, readonly) CADisplay* caDisplay;
@@ -17,22 +17,22 @@
 @property (nonatomic, assign, readonly) NSNumber* tags;
 @property (nonatomic, assign, readwrite) NSNumber* seed;
  + (BOOL) supportsSecureCoding;
- + (id) _CADisplayForId:(I)a;
+ + (id) _CADisplayForId:(unsigned int)a;
 
- - (d) scale;
+ - (double) scale;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (Q) type;
+ - (unsigned long long) type;
  - (id) caDisplay;
  - (id) initWithCADisplay:(id)aisMainDisplay:(BOOL)b;
- - (id) initWithCADisplay:(id)aisMainDisplay:(BOOL)bseed:(I)ctags:(q)dscale:(d)e;
- - (Q) _typeFromTags:(Q)a;
+ - (id) initWithCADisplay:(id)aisMainDisplay:(BOOL)bseed:(unsigned int)ctags:(long long)dscale:(double)e;
+ - (unsigned long long) _typeFromTags:(unsigned long long)a;
  - (BOOL) isMainDisplay;
- - (q) tags;
+ - (long long) tags;
  - (BOOL) isCarDisplay;
  - (BOOL) isAirPlayDisplay;
  - (BOOL) isiPodOnlyDisplay;
@@ -46,12 +46,12 @@
  - (BOOL) isConnected;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) referenceBounds;
  - (void) setReferenceBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setSeed:(I)a;
+ - (void) setSeed:(unsigned int)a;
  - (void) encodeWithXPCDictionary:(id)a;
  - (id) initWithXPCDictionary:(id)a;
- - (d) orientation;
- - (void) setScale:(d)a;
- - (I) seed;
+ - (double) orientation;
+ - (void) setScale:(double)a;
+ - (unsigned int) seed;
 
 
 @end

@@ -2,7 +2,7 @@
 @protocol UIActivityItemSource;
 @interface UIActivityItemProvider : NSOperation <UIActivityItemSource> {
 
-    f _progress;
+    float _progress;
     id _placeholderItem;
     @"NSString" _activityType;
     @"NSString" _status;
@@ -12,8 +12,8 @@
  - (void) main;
  - (id) activityType;
  - (id) item;
- - (f) progress;
- - (void) setProgress:(f)a;
+ - (float) progress;
+ - (void) setProgress:(float)a;
  - (void) dealloc;
  - (id) initWithPlaceholderItem:(id)a;
  - (id) placeholderItem;

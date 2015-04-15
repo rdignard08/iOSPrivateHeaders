@@ -2,11 +2,11 @@
 @interface NSCompoundPredicate : NSPredicate {
 
     ^v _reserved2;
-    Q _type;
+    unsigned long long _type;
     @"NSArray" _subpredicates;
 }
  + (BOOL) supportsSecureCoding;
- + (id) _operatorForType:(Q)a;
+ + (id) _operatorForType:(unsigned long long)a;
  + (id) notPredicateWithSubpredicate:(id)a;
  + (id) orPredicateWithSubpredicates:(id)a;
  + (id) andPredicateWithSubpredicates:(id)a;
@@ -15,17 +15,17 @@
  - (void) allowEvaluation;
  - (id) predicateFormat;
  - (id) predicateOperator;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (BOOL) evaluateWithObject:(id)asubstitutionVariables:(id)b;
  - (id) _predicateOperator;
- - (id) initWithType:(Q)asubpredicates:(id)b;
- - (Q) compoundPredicateType;
+ - (id) initWithType:(unsigned long long)asubpredicates:(id)b;
+ - (unsigned long long) compoundPredicateType;
  - (id) _subpredicateDescription:(id)a;
- - (void) _acceptSubpredicates:(id)aflags:(Q)b;
+ - (void) _acceptSubpredicates:(id)aflags:(unsigned long long)b;
  - (id) generateMetadataDescription;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

@@ -10,7 +10,7 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (id) initWithStyle:(q)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
  - (void) setShowFullWidthSeparator:(BOOL)a;
  - (void) setFullWidthSeparatorColor:(id)a;
  - (void) setIsEnabled:(BOOL)a;

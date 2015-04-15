@@ -5,22 +5,22 @@
     id _delegate;
     @"UIView" _fromView;
     @"UIView" _toView;
-    q _transition;
+    long long _transition;
     @"UIResponder" _firstResponderToRestore;
     @"UIWindow" _originalWindow;
-    d _fromViewAlpha;
+    double _fromViewAlpha;
     b1 _isTransitioning;
     b1 _popoverWillCleanUpNavigationTransition;
     b1 _usesRoundedCorners;
 }
- + (d) defaultDurationForTransition:(q)a;
+ + (double) defaultDurationForTransition:(long long)a;
 
  - (void) dealloc;
  - (void) setDelegate:(id)a;
- - (BOOL) transition:(q)afromView:(id)btoView:(id)c;
+ - (BOOL) transition:(long long)afromView:(id)btoView:(id)c;
  - (BOOL) isTransitioning;
  - (BOOL) _isTransitioningFromView:(id)a;
- - (BOOL) transition:(q)atoView:(id)b;
+ - (BOOL) transition:(long long)atoView:(id)b;
  - (id) fromView;
  - (void) setUsesRoundedCorners:(BOOL)a;
  - (BOOL) usesRoundedCorners;

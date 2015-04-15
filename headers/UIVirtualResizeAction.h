@@ -3,13 +3,13 @@
 
 }
 
- - (q) UIActionType;
+ - (long long) UIActionType;
  - ({CGSize=dd}) virtualSize;
- - (q) virtualHorizontalSizeClass;
- - (q) virtualVerticalSizeClass;
- - (id) initWithVirtualSize:({CGSize=dd})avirtualHorizontalSizeClass:(q)bvirtualVerticalSizeClass:(q)c;
- - (id) initWithInfo:(id)atimeout:(d)bforResponseOnQueue:(id)cwithHandler:(@?)d;
- - (id) keyDescriptionForSetting:(Q)a;
+ - (long long) virtualHorizontalSizeClass;
+ - (long long) virtualVerticalSizeClass;
+ - (id) initWithVirtualSize:({CGSize=dd})avirtualHorizontalSizeClass:(long long)bvirtualVerticalSizeClass:(long long)c;
+ - (id) initWithInfo:(id)atimeout:(double)bforResponseOnQueue:(id)cwithHandler:(@?)d;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
 
 
 @end

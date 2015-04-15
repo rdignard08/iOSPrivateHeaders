@@ -1,28 +1,28 @@
 
 @interface NSByteCountFormatter : NSFormatter {
 
-    I _allowedUnits;
-    c _countStyle;
+    unsigned int _allowedUnits;
+    char _countStyle;
     BOOL _allowsNonnumericFormatting;
     BOOL _includesUnit;
     BOOL _includesCount;
     BOOL _includesActualByteCount;
     BOOL _adaptive;
     BOOL _zeroPadsFractionDigits;
-    i _formattingContext;
+    int _formattingContext;
     [5i] _reserved;
 }
- + (id) stringFromByteCount:(q)acountStyle:(q)b;
+ + (id) stringFromByteCount:(long long)acountStyle:(long long)b;
 
- - (Q) _options;
+ - (unsigned long long) _options;
  - (BOOL) getObjectValue:(o^@)aforString:(id)berrorDescription:(o^@)c;
  - (id) stringForObjectValue:(id)a;
- - (void) setFormattingContext:(q)a;
- - (q) formattingContext;
+ - (void) setFormattingContext:(long long)a;
+ - (long long) formattingContext;
  - (BOOL) isPartialStringValid:(^@)aproposedSelectedRange:(^{_NSRange=QQ})boriginalString:(id)coriginalSelectedRange:({_NSRange=QQ})derrorDescription:(^@)e;
- - (void) setAllowedUnits:(Q)a;
- - (Q) allowedUnits;
- - (q) countStyle;
+ - (void) setAllowedUnits:(unsigned long long)a;
+ - (unsigned long long) allowedUnits;
+ - (long long) countStyle;
  - (BOOL) allowsNonnumericFormatting;
  - (BOOL) includesUnit;
  - (BOOL) includesCount;
@@ -33,10 +33,10 @@
  - (void) setAllowsNonnumericFormatting:(BOOL)a;
  - (void) setIncludesUnit:(BOOL)a;
  - (void) setIncludesCount:(BOOL)a;
- - (void) setCountStyle:(q)a;
+ - (void) setCountStyle:(long long)a;
  - (void) setIncludesActualByteCount:(BOOL)a;
  - (void) setZeroPadsFractionDigits:(BOOL)a;
- - (id) stringFromByteCount:(q)a;
+ - (id) stringFromByteCount:(long long)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) init;
  - (void) encodeWithCoder:(id)a;

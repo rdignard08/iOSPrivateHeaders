@@ -10,7 +10,7 @@
  + (Class) layerClass;
  + (id) viewWithHostedWindowHostingHandle:(id)a;
  + (BOOL) _requiresWindowTouches;
- + (id) viewWithRemoteContextID:(I)a;
+ + (id) viewWithRemoteContextID:(unsigned int)a;
 
  - (void) dealloc;
  - (id) _statusBarTintColor;
@@ -24,9 +24,9 @@
  - (void) setTintColorDidChangeHandler:(@?)a;
  - (void) _setInheritsSecurity:(BOOL)a;
  - (BOOL) _inheritsSecurity;
- - (void) _setStatusBarTintColor:(id)aduration:(d)b;
+ - (void) _setStatusBarTintColor:(id)aduration:(double)b;
  - (void) _compensateForGlobalMediaTimeAdjustmentsIfNecessary;
- - (void) setContextID:(I)a;
+ - (void) setContextID:(unsigned int)a;
  - (void) applyTransformUndoingRemoteRootLayerTransform:({CGAffineTransform=dddddd})aframe:({CGRect={CGPoint=dd}{CGSize=dd}})b;
  - (@?) tintColorDidChangeHandler;
  - (BOOL) _actsAsTintView;

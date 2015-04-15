@@ -14,15 +14,15 @@
  - (id) initWithRenditions:(id)apart:(^{?=**[5{_renditionkeytoken=SS}]qq[12{?=**qQ}]})b;
  - (id) renditions;
  - (void) setRenditions:(id)a;
- - (q) partFeatures;
+ - (long long) partFeatures;
  - (id) themeSchemaLayers;
  - (void) addLayoutMetricsToPSDImageRef:(id)awithRendition:(id)b;
  - (id) schemaLayersAndLayerGroups;
  - (id) _renditionsSortedIntoLayers;
- - (id) _layerNameForDrawingLayer:(q)a;
- - (id) _layerNameForState:(q)a;
- - (void) addStatesAndDrawingLayersToPSDLayers:(id)aforPresentationState:(Q)b;
- - (void) addValueOrDim1LayersToPSDLayers:(id)aforPresentationState:(Q)bstate:(Q)cdrawingLayer:(Q)d;
+ - (id) _layerNameForDrawingLayer:(long long)a;
+ - (id) _layerNameForState:(long long)a;
+ - (void) addStatesAndDrawingLayersToPSDLayers:(id)aforPresentationState:(unsigned long long)b;
+ - (void) addValueOrDim1LayersToPSDLayers:(id)aforPresentationState:(unsigned long long)bstate:(unsigned long long)cdrawingLayer:(unsigned long long)d;
  - (id) mutablePSDImageRef;
  - (id) mutablePSDImageRefColumnStyle;
 

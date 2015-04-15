@@ -8,7 +8,7 @@
     @"UIPhysicalButtonsEvent" _updateButtonEvent;
     @"<UIGestureRecognizerDelegate>" _delegate;
     @"NSMutableSet" _friends;
-    q _state;
+    long long _state;
     {?="delegateShouldBegin"b1"delegateCanPrevent"b1"delegateCanBePrevented"b1"delegateShouldRecognizeSimultaneously"b1"delegateShouldReceiveTouch"b1"delegateShouldRequireFailure"b1"delegateShouldBeRequiredToFail"b1"delegateFailed"b1"privateDelegateShouldBegin"b1"privateDelegateCanPrevent"b1"privateDelegateCanBePrevented"b1"privateDelegateShouldRecognizeSimultaneously"b1"privateDelegateShouldReceiveTouch"b1"privateDelegateShouldRequireFailure"b1"privateDelegateShouldBeRequiredToFail"b1"subclassShouldRequireFailure"b1"subclassShouldBeRequiredToFail"b1"privateSubclassShouldRequireFailure"b1"privateSubclassShouldBeRequiredToFail"b1"hasSubclassDynamicFailureRequirements"b1"hasDelegateDynamicFailureRequirements"b1"queriedFailureRequirements"b1"cancelsTouchesInView"b1"delaysTouchesBegan"b1"delaysTouchesEnded"b1"disabled"b1"dirty"b1"delivered"b1"deliveredEndedOrCancelled"b1"continuous"b1"requiresDelayedBegan"b1"willBeginAfterSatisfyingFailureRequirements"b1"requiresSystemGesturesToFail"b1"acceptsFailureRequirements"b1} _gestureFlags;
     @"NSMutableSet" _failureRequirements;
     @"NSMutableSet" _failureDependents;
@@ -51,7 +51,7 @@
  - (void) removeTarget:(id)aaction:(SEL)b;
  - (void) setDelaysTouchesEnded:(BOOL)a;
  - (void) requireGestureRecognizerToFail:(id)a;
- - (Q) numberOfTouches;
+ - (unsigned long long) numberOfTouches;
  - (id) _activeTouchesForEvent:(id)a;
  - (BOOL) _isRecognized;
  - (BOOL) canBePreventedByGestureRecognizer:(id)a;
@@ -59,7 +59,7 @@
  - (void) addTarget:(id)aaction:(SEL)b;
  - (BOOL) _delegateShouldReceiveTouch:(id)a;
  - (void) requireOtherGestureToFail:(id)a;
- - ({CGPoint=dd}) locationOfTouch:(Q)ainView:(id)b;
+ - ({CGPoint=dd}) locationOfTouch:(unsigned long long)ainView:(id)b;
  - (void) _connectInterfaceBuilderEventConnection:(id)a;
  - (void) _setAcceptsFailureRequiments:(BOOL)a;
  - (void) _resetGestureRecognizer;
@@ -82,11 +82,11 @@
  - (BOOL) _delegateCanPreventGestureRecognizer:(id)a;
  - (void) _addFailureDependent:(id)a;
  - (void) _removeFailureDependent:(id)a;
- - (void) _appendDescriptionToString:(id)aatLevel:(i)bincludingDependencies:(BOOL)c;
+ - (void) _appendDescriptionToString:(id)aatLevel:(int)bincludingDependencies:(BOOL)c;
  - (BOOL) cancelsTouchesInView;
  - (BOOL) delaysTouchesEnded;
  - (void) _appendSubclassDescription:(id)a;
- - (void) _appendDescription:(id)aforDependencies:(id)btoString:(id)catLevel:(i)d;
+ - (void) _appendDescription:(id)aforDependencies:(id)btoString:(id)catLevel:(int)d;
  - (id) _failureMap;
  - (void) _setFailureMap:(id)a;
  - (id) _delayedTouches;
@@ -95,12 +95,12 @@
  - (BOOL) shouldRequireFailureOfGestureRecognizer:(id)a;
  - (BOOL) shouldBeRequiredToFailByGestureRecognizer:(id)a;
  - ({CGPoint=dd}) _centroidOfTouches:(id)aexcludingEnded:(BOOL)b;
- - (d) _distanceBetweenTouches:(id)a;
+ - (double) _distanceBetweenTouches:(id)a;
  - (void) _touchWasCancelled:(id)a;
  - (BOOL) _requiresGestureRecognizerToFail:(id)a;
  - (void) _delayedUpdateGesture;
  - (void) _resetIfFinished;
- - (q) _depthFirstViewCompare:(id)a;
+ - (long long) _depthFirstViewCompare:(id)a;
  - (void) _addFriendGesture:(id)a;
  - (BOOL) _isExcludedByGesture:(id)a;
  - (void) _cancelRecognition;
@@ -112,10 +112,10 @@
  - (BOOL) _acceptsFailureRequirements;
  - (void) _detach;
  - (id) init;
- - (q) state;
+ - (long long) state;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (void) setState:(q)a;
+ - (void) setState:(long long)a;
  - (id) delegate;
  - (void) _invalidate;
  - (id) initWithTarget:(id)aaction:(SEL)b;

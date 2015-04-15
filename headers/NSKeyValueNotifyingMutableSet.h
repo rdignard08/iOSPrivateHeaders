@@ -12,7 +12,7 @@
  - (void) intersectSet:(id)a;
  - (void) minusSet:(id)a;
  - (void) setSet:(id)a;
- - (Q) count;
+ - (unsigned long long) count;
  - (void) addObject:(id)a;
  - (void) removeAllObjects;
  - (id) member:(id)a;

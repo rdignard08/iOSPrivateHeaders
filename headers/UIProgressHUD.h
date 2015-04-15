@@ -14,7 +14,7 @@
  - (void) layoutSubviews;
  - (void) setText:(id)a;
  - (id) initWithWindow:(id)a;
- - (void) setFontSize:(i)a;
+ - (void) setFontSize:(int)a;
  - (id) _progressIndicator;
  - (void) setShowsText:(BOOL)a;
  - (void) showInView:(id)a;

@@ -7,9 +7,9 @@
 }
 
  - (void) dealloc;
- - (S) characterAtIndex:(Q)a;
+ - (unsigned short) characterAtIndex:(unsigned long long)a;
  - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
- - (Q) length;
+ - (unsigned long long) length;
  - (void) _loadBundleIdentifierOrProcessName;
  - (id) _initWithExecutablePath:(id)a;
  - (BOOL) _isProcessName;

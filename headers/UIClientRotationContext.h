@@ -15,16 +15,16 @@
     BOOL _orderKeyboardInAfterRotating;
     BOOL _skipFooterRotation;
     BOOL _skipHeaderRotation;
-    q _fromOrientation;
-    q _toOrientation;
-    d _duration;
+    long long _fromOrientation;
+    long long _toOrientation;
+    double _duration;
     @"UISnapshotView" _headerSnapshotViewStart;
     @"UISnapshotView" _footerSnapshotViewStart;
     @"UISnapshotView" _contentSnapshotViewStart;
-    d _contentTopAdjustmentStart;
+    double _contentTopAdjustmentStart;
     id _rotatingClient;
     {?="animateContentRotation"B"preserveHeight"B"avoidFadingBottomOfContent"B"skipSnapshotOfEndState"B"preventAdditveAnimations"B"contentStretchRightEdgeInset"d"edgeClip"i} _rotationSettings;
-    d contentBottomInset;
+    double contentBottomInset;
     @"UIWindow" _window;
     BOOL _skipClientRotationCallbacks;
     @"NSArray" _backdropViews;
@@ -36,25 +36,25 @@
 @property (nonatomic, assign, readonly) NSNumber* fromOrientation;
 @property (nonatomic, assign, readonly) NSNumber* toOrientation;
 
- - (d) duration;
+ - (double) duration;
  - (void) dealloc;
- - (void) _positionHeaderView:(id)aandFooterView:(id)boutsideContentViewForInterfaceOrientation:(q)c;
- - (void) _slideHeaderView:(id)aandFooterView:(id)boffScreen:(BOOL)cforInterfaceOrientation:(q)d;
- - (id) initWithClient:(id)atoOrientation:(q)bduration:(d)candWindow:(id)d;
+ - (void) _positionHeaderView:(id)aandFooterView:(id)boutsideContentViewForInterfaceOrientation:(long long)c;
+ - (void) _slideHeaderView:(id)aandFooterView:(id)boffScreen:(BOOL)cforInterfaceOrientation:(long long)d;
+ - (id) initWithClient:(id)atoOrientation:(long long)bduration:(double)candWindow:(id)d;
  - (id) rotatingClient;
  - (void) setSkipClientRotationCallbacks:(BOOL)a;
- - (void) slideHeaderViewAndFooterViewOffScreen:(BOOL)aforInterfaceOrientation:(q)b;
+ - (void) slideHeaderViewAndFooterViewOffScreen:(BOOL)aforInterfaceOrientation:(long long)b;
  - (void) setupRotationOrderingKeyboardInAfterRotation:(BOOL)a;
  - (void) disableBackdropViewUpdates:(BOOL)a;
  - (void) rotateSnapshots;
- - (q) toOrientation;
+ - (long long) toOrientation;
  - (void) finishFirstHalfRotation;
- - (q) fromOrientation;
+ - (long long) fromOrientation;
  - (BOOL) skipClientRotationCallbacks;
  - (void) finishFullRotateUsingOnePartAnimation:(BOOL)a;
  - (BOOL) _isHeaderTranslucent;
  - (BOOL) _isFooterTranslucent;
- - (void) _slideFooterWithStartSnapshot:(id)aendSnapshot:(id)bduration:(d)c;
+ - (void) _slideFooterWithStartSnapshot:(id)aendSnapshot:(id)bduration:(double)c;
  - (id) contentView;
 
 

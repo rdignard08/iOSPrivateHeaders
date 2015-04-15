@@ -10,8 +10,8 @@
  - (void) cancelByProducingResumeData:(@?)a;
  - (void) _onqueue_didReceiveResponse:(id)a;
  - (void) _onqueue_didFinishDownloadingToURL:(id)a;
- - (void) _onqueue_didWriteData:(q)atotalBytesWritten:(q)btotalBytesExpectedToWrite:(q)c;
- - (void) _onqueue_didResumeAtOffset:(q)aexpectedTotalBytes:(q)b;
+ - (void) _onqueue_didWriteData:(long long)atotalBytesWritten:(long long)btotalBytesExpectedToWrite:(long long)c;
+ - (void) _onqueue_didResumeAtOffset:(long long)aexpectedTotalBytes:(long long)b;
  - (BOOL) finished;
  - (void) setFinished:(BOOL)a;
 

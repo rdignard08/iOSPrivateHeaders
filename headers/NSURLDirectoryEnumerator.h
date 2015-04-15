@@ -11,12 +11,12 @@
  - (void) skipDescendents;
  - (void) skipDescendants;
  - (void) setErrorHandler:(@?)a;
- - (id) initWithURL:(id)aincludingPropertiesForKeys:(id)boptions:(Q)cerrorHandler:(@?)d;
+ - (id) initWithURL:(id)aincludingPropertiesForKeys:(id)boptions:(unsigned long long)cerrorHandler:(@?)d;
  - (@?) errorHandler;
  - (void) dealloc;
  - (void) finalize;
  - (id) nextObject;
- - (Q) level;
+ - (unsigned long long) level;
 
 
 @end

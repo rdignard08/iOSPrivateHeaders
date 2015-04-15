@@ -67,7 +67,7 @@
  - (id) identifiersFromInputModes:(id)a;
  - (id) activeInputModeIdentifiers;
  - (id) currentInputModeInPreference;
- - (id) nextInputModeFromList:(id)awithFilter:(Q)bwithTraits:(id)c;
+ - (id) nextInputModeFromList:(id)awithFilter:(unsigned long long)bwithTraits:(id)c;
  - (void) setCurrentInputModeInPreference:(id)a;
  - (void) updateCurrentAndNextInputModes;
  - (id) nextInputModeInPreferenceListForTraits:(id)a;

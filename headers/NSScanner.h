@@ -13,10 +13,10 @@
  + (id) allocWithZone:(^{_NSZone=})a;
 
  - (BOOL) isAtEnd;
- - (Q) scanLocation;
- - (void) setScanLocation:(Q)a;
+ - (unsigned long long) scanLocation;
+ - (void) setScanLocation:(unsigned long long)a;
  - (id) _remainingString;
- - (BOOL) _scanDecimal:(Q)ainto:(^q)b;
+ - (BOOL) _scanDecimal:(unsigned long long)ainto:(^q)b;
  - (void) setCharactersToBeSkipped:(id)a;
  - (BOOL) scanCharactersFromSet:(id)aintoString:(^@)b;
  - (BOOL) scanUpToCharactersFromSet:(id)aintoString:(^@)b;

@@ -6,7 +6,7 @@
 
  - (@?) errorBlock;
  - (void) setErrorBlock:(@?)a;
- - (id) _initWithConnection:(id)aproxyNumber:(Q)bgenerationCount:(Q)cinterface:(id)derror:(@?)e;
+ - (id) _initWithConnection:(id)aproxyNumber:(unsigned long long)bgenerationCount:(unsigned long long)cinterface:(id)derror:(@?)e;
  - (void) dealloc;
  - (void) forwardInvocation:(id)a;
 

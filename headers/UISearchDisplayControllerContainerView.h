@@ -14,13 +14,13 @@
  - (void) _didMoveFromWindow:(id)atoWindow:(id)b;
  - (id) topView;
  - (void) setBottomViewUserInteractionEnabled:(BOOL)a;
- - (void) updateTopViewHeight:(d)a;
- - (void) updateTopAttributeConstant:(d)a;
+ - (void) updateTopViewHeight:(double)a;
+ - (void) updateTopAttributeConstant:(double)a;
  - (void) collapseTopView;
- - (void) updateTopViewHeight:(d)aanimateUpdate:(BOOL)b;
+ - (void) updateTopViewHeight:(double)aanimateUpdate:(BOOL)b;
  - (void) configureInteractionForContainment:(BOOL)a;
- - (void) adjustTopAttributeConstantByDelta:(d)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atopViewHeight:(d)b;
+ - (void) adjustTopAttributeConstantByDelta:(double)a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atopViewHeight:(double)b;
  - (id) bottomView;
  - (id) behindView;
  - (void) setTopViewHeightConstraint:(id)a;

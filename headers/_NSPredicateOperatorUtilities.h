@@ -2,10 +2,10 @@
 @interface _NSPredicateOperatorUtilities : NSObject {
 
 }
- + (id) newStringFrom:(id)ausingUnicodeTransforms:(Q)b;
+ + (id) newStringFrom:(id)ausingUnicodeTransforms:(unsigned long long)b;
  + (^{__CFLocale=}) retainedLocale;
- + (BOOL) doRegexForString:(id)apattern:(id)blikeProtect:(BOOL)cflags:(Q)dcontext:(^{?=@^v})e;
- + (q) copyRegexFindSafePattern:(id)atoBuffer:(^S)b;
+ + (BOOL) doRegexForString:(id)apattern:(id)blikeProtect:(BOOL)cflags:(unsigned long long)dcontext:(^{?=@^v})e;
+ + (long long) copyRegexFindSafePattern:(id)atoBuffer:(^S)b;
 
 
 

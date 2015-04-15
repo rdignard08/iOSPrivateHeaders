@@ -10,7 +10,7 @@
  - (void) layoutSubviews;
  - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a;
  - (void) _didMoveFromWindow:(id)atoWindow:(id)b;
- - (void) _didChangeFromIdiom:(q)aonScreen:(id)btraverseHierarchy:(BOOL)c;
+ - (void) _didChangeFromIdiom:(long long)aonScreen:(id)btraverseHierarchy:(BOOL)c;
  - (id) initWithValue:(id)ablinks:(BOOL)b;
  - (void) setBlinks:(BOOL)a;
  - (void) _updateLabelFont;

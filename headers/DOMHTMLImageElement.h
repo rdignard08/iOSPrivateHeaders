@@ -9,8 +9,8 @@
  - (id) dataRepresentation:(BOOL)a;
  - (id) mimeType;
  - (id) absoluteImageURL;
- - (i) x;
- - (i) y;
+ - (int) x;
+ - (int) y;
  - (BOOL) complete;
  - (void) setName:(id)a;
  - (id) border;
@@ -19,10 +19,10 @@
  - (void) setAlign:(id)a;
  - (id) alt;
  - (void) setAlt:(id)a;
- - (i) hspace;
- - (void) setHspace:(i)a;
- - (i) vspace;
- - (void) setVspace:(i)a;
+ - (int) hspace;
+ - (void) setHspace:(int)a;
+ - (int) vspace;
+ - (void) setVspace:(int)a;
  - (id) src;
  - (void) setSrc:(id)a;
  - (id) longDesc;
@@ -37,13 +37,13 @@
  - (void) setUseMap:(id)a;
  - (id) lowsrc;
  - (void) setLowsrc:(id)a;
- - (i) naturalHeight;
- - (i) naturalWidth;
+ - (int) naturalHeight;
+ - (int) naturalWidth;
  - (id) altDisplayString;
- - (i) width;
- - (i) height;
- - (void) setWidth:(i)a;
- - (void) setHeight:(i)a;
+ - (int) width;
+ - (int) height;
+ - (void) setWidth:(int)a;
+ - (void) setHeight:(int)a;
 
 
 @end

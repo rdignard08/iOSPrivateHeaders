@@ -8,7 +8,7 @@
     @"NSString" _serviceName;
     BOOL _suspended;
     BOOL _clientInvalidated;
-    i _notifyToken;
+    int _notifyToken;
 }
 @property (nonatomic, assign, readonly, isSuspended) NSNumber* suspended;
 
@@ -16,7 +16,7 @@
  - (void) dealloc;
  - (void) invalidate;
  - (id) initWithServiceName:(id)a;
- - (id) _getStringFromMessage:(id)akey:(*)b;
+ - (id) _getStringFromMessage:(id)akey:(char*)b;
  - (id) _notifyTokenName;
  - (void) queue_handleMessage:(id)a;
  - (id) initWithServiceName:(id)aendpoint:(id)b;
@@ -25,7 +25,7 @@
  - (void) queue_registerWithServerIfNecessary;
  - (void) queue_suspendConnection;
  - (void) queue_resumeConnection;
- - (void) _sendMessage:(@?)awithReplyHandler:(@?)bwaitForReply:(BOOL)cwaitDuration:(Q)d;
+ - (void) _sendMessage:(@?)awithReplyHandler:(@?)bwaitForReply:(BOOL)cwaitDuration:(unsigned long long)d;
  - (void) queue_connectionWasResumed;
  - (void) queue_connectionWasSuspended;
  - (id) _connectionInstanceUUID;

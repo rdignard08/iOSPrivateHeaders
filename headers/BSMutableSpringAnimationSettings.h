@@ -4,13 +4,13 @@
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;
- - (void) setDelay:(d)a;
- - (void) setFrameInterval:(d)a;
- - (void) setMass:(d)a;
- - (void) setStiffness:(d)a;
- - (void) setEpsilon:(d)a;
+ - (void) setDelay:(double)a;
+ - (void) setFrameInterval:(double)a;
+ - (void) setMass:(double)a;
+ - (void) setStiffness:(double)a;
+ - (void) setEpsilon:(double)a;
  - (void) setTimingFunction:(id)a;
- - (void) setDamping:(d)a;
+ - (void) setDamping:(double)a;
 
 
 @end

@@ -5,12 +5,12 @@
     @"_UIFlowLayoutSection" _section;
     {CGSize="width"d"height"d} _rowSize;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _rowFrame;
-    q _index;
+    long long _index;
     BOOL _isValid;
     BOOL _complete;
-    i _verticalAlignement;
-    i _horizontalAlignement;
-    d _availableSpace;
+    int _verticalAlignement;
+    int _horizontalAlignement;
+    double _availableSpace;
     BOOL _fixedItemSize;
 }
 @property (nonatomic, assign, readwrite) _UIFlowLayoutSection* section;
@@ -27,7 +27,7 @@
  - (id) section;
  - (id) snapshot;
  - (id) items;
- - (q) index;
+ - (long long) index;
  - ({CGSize=dd}) rowSize;
  - (void) setRowSize:({CGSize=dd})a;
  - (BOOL) fixedItemSize;
@@ -38,15 +38,15 @@
  - (void) setComplete:(BOOL)a;
  - (void) layoutRow;
  - (void) setRowFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (q) indexOfNearestItemAtPoint:({CGPoint=dd})a;
+ - (long long) indexOfNearestItemAtPoint:({CGPoint=dd})a;
  - (id) copyFromSection:(id)a;
  - (BOOL) complete;
- - (void) insertItem:(id)aatIndex:(q)b;
- - (void) removeItemAtIndex:(q)a;
- - (d) availableSpace;
- - (void) setAvailableSpace:(d)a;
+ - (void) insertItem:(id)aatIndex:(long long)b;
+ - (void) removeItemAtIndex:(long long)a;
+ - (double) availableSpace;
+ - (void) setAvailableSpace:(double)a;
  - (id) init;
- - (void) setIndex:(q)a;
+ - (void) setIndex:(long long)a;
 
 
 @end

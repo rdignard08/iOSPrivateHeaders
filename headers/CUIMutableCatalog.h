@@ -7,13 +7,13 @@
 
  - (void) dealloc;
  - (id) initWithName:(id)a;
- - (void) removeImageNamed:(id)ascale:(d)bidiom:(q)csubtype:(q)d;
+ - (void) removeImageNamed:(id)ascale:(double)bidiom:(long long)csubtype:(long long)d;
  - (id) init;
  - (void) insertCGImage:(^{CGImage=})awithName:(id)bandDescription:(id)c;
  - (void) removeImageNamed:(id)awithDescription:(id)b;
  - (id) initWithName:(id)afromBundle:(id)berror:(^@)c;
  - (id) _baseKeyForName:(id)a;
- - (void) insertCGImage:(^{CGImage=})aname:(id)bscale:(d)cidiom:(q)dsubtype:(q)e;
+ - (void) insertCGImage:(^{CGImage=})aname:(id)bscale:(double)cidiom:(long long)dsubtype:(long long)e;
 
 
 @end

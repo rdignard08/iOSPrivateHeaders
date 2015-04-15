@@ -2,18 +2,18 @@
 @protocol NSCopying;
 @interface _UIGraphicsLetterpressStyle : NSObject <NSCopying> {
 
-    i innerShadowBlendMode;
-    i outerShadowBlendMode;
+    int innerShadowBlendMode;
+    int outerShadowBlendMode;
     @"UIColor" embossHighlightColor;
     @"UIColor" embossShadowColor;
-    d embossSize;
+    double embossSize;
     @"UIColor" innerShadowColor;
-    d innerShadowBlur;
+    double innerShadowBlur;
     @"UIColor" outerShadowColor;
-    d outerShadowBlur;
+    double outerShadowBlur;
     @"UIColor" topGradientColor;
     @"UIColor" bottomGradientColor;
-    d innerOpacity;
+    double innerOpacity;
     {CGPoint="x"d"y"d} innerShadowOffset;
     {CGPoint="x"d"y"d} outerShadowOffset;
 }
@@ -40,32 +40,32 @@
  - (BOOL) isEqual:(id)a;
  - (void) setEmbossHighlightColor:(id)a;
  - (void) setEmbossShadowColor:(id)a;
- - (void) setEmbossSize:(d)a;
+ - (void) setEmbossSize:(double)a;
  - (void) setInnerShadowColor:(id)a;
  - (void) setInnerShadowOffset:({CGPoint=dd})a;
- - (void) setInnerShadowBlur:(d)a;
- - (void) setInnerShadowBlendMode:(i)a;
+ - (void) setInnerShadowBlur:(double)a;
+ - (void) setInnerShadowBlendMode:(int)a;
  - (void) setOuterShadowColor:(id)a;
  - (void) setOuterShadowOffset:({CGPoint=dd})a;
- - (void) setOuterShadowBlur:(d)a;
- - (void) setOuterShadowBlendMode:(i)a;
+ - (void) setOuterShadowBlur:(double)a;
+ - (void) setOuterShadowBlendMode:(int)a;
  - (void) setTopGradientColor:(id)a;
  - (void) setBottomGradientColor:(id)a;
- - (void) setInnerOpacity:(d)a;
+ - (void) setInnerOpacity:(double)a;
  - (id) embossHighlightColor;
  - (id) embossShadowColor;
- - (d) embossSize;
+ - (double) embossSize;
  - (id) innerShadowColor;
  - ({CGPoint=dd}) innerShadowOffset;
- - (d) innerShadowBlur;
- - (i) innerShadowBlendMode;
+ - (double) innerShadowBlur;
+ - (int) innerShadowBlendMode;
  - (id) outerShadowColor;
  - ({CGPoint=dd}) outerShadowOffset;
- - (d) outerShadowBlur;
- - (i) outerShadowBlendMode;
+ - (double) outerShadowBlur;
+ - (int) outerShadowBlendMode;
  - (id) topGradientColor;
  - (id) bottomGradientColor;
- - (d) innerOpacity;
+ - (double) innerOpacity;
  - ({UIEdgeInsets=dddd}) edgeInsets;
 
 

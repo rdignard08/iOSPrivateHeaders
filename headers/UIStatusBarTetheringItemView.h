@@ -1,10 +1,10 @@
 
 @interface UIStatusBarTetheringItemView : UIStatusBarItemView {
 
-    i _tetheringConnectionCount;
+    int _tetheringConnectionCount;
 }
 
- - (BOOL) updateForNewData:(id)aactions:(i)b;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
  - (id) contentsImage;
 
 

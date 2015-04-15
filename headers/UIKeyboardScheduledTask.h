@@ -2,7 +2,7 @@
 @interface UIKeyboardScheduledTask : NSObject {
 
     @? _task;
-    d _timeInterval;
+    double _timeInterval;
     @"UIKeyboardTaskQueue" _taskQueue;
     @"NSTimer" _timer;
     @"_UIActionWhenIdle" _deferredAction;
@@ -21,10 +21,10 @@
  - (void) dealloc;
  - (void) invalidate;
  - (BOOL) isValid;
- - (d) timeInterval;
+ - (double) timeInterval;
  - (void) timerFired:(id)a;
  - (id) taskQueue;
- - (id) initWithTaskQueue:(id)atimeInterval:(d)brepeats:(BOOL)ctask:(@?)d;
+ - (id) initWithTaskQueue:(id)atimeInterval:(double)brepeats:(BOOL)ctask:(@?)d;
  - (id) deferredAction;
  - (@?) enqueuedTask;
  - (void) handleDeferredTimerFiredEvent;

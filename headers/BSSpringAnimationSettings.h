@@ -1,42 +1,42 @@
 
 @interface BSSpringAnimationSettings : BSAnimationSettings {
 
-    d _mass;
-    d _stiffness;
-    d _damping;
-    d _epsilon;
+    double _mass;
+    double _stiffness;
+    double _damping;
+    double _epsilon;
     BOOL _hasCalculatedDuration;
 }
  + (BOOL) supportsSecureCoding;
- + (id) settingsWithMass:(d)astiffness:(d)bdamping:(d)c;
- + (id) settingsWithMass:(d)astiffness:(d)bdamping:(d)cepsilon:(d)d;
- + (id) settingsWithMass:(d)astiffness:(d)bdamping:(d)ctimingFunction:(id)d;
- + (id) settingsWithMass:(d)astiffness:(d)bdamping:(d)cepsilon:(d)dtimingFunction:(id)e;
- + (id) settingsWithMass:(d)astiffness:(d)bdamping:(d)cepsilon:(d)ddelay:(d)etimingFunction:(id)f;
+ + (id) settingsWithMass:(double)astiffness:(double)bdamping:(double)c;
+ + (id) settingsWithMass:(double)astiffness:(double)bdamping:(double)cepsilon:(double)d;
+ + (id) settingsWithMass:(double)astiffness:(double)bdamping:(double)ctimingFunction:(id)d;
+ + (id) settingsWithMass:(double)astiffness:(double)bdamping:(double)cepsilon:(double)dtimingFunction:(id)e;
+ + (id) settingsWithMass:(double)astiffness:(double)bdamping:(double)cepsilon:(double)ddelay:(double)etimingFunction:(id)f;
 
- - (d) duration;
+ - (double) duration;
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (void) encodeWithXPCDictionary:(id)a;
  - (id) initWithXPCDictionary:(id)a;
- - (id) _initWithDuration:(d)adelay:(d)bframeInterval:(d)ctimingFunction:(id)d;
+ - (id) _initWithDuration:(double)adelay:(double)bframeInterval:(double)ctimingFunction:(id)d;
  - (BOOL) isSpringAnimation;
- - (void) _setDuration:(d)a;
+ - (void) _setDuration:(double)a;
  - (void) _setTimingFunction:(id)a;
- - (void) _setEpsilon:(d)a;
- - (id) _initWithMass:(d)astiffness:(d)bdamping:(d)cepsilon:(d)ddelay:(d)eframeInterval:(d)ftimingFunction:(id)g;
- - (d) stiffness;
- - (d) epsilon;
+ - (void) _setEpsilon:(double)a;
+ - (id) _initWithMass:(double)astiffness:(double)bdamping:(double)cepsilon:(double)ddelay:(double)eframeInterval:(double)ftimingFunction:(id)g;
+ - (double) stiffness;
+ - (double) epsilon;
  - (BOOL) _hasCalculatedDuration;
- - (void) _setMass:(d)a;
- - (void) _setStiffness:(d)a;
- - (void) _setDamping:(d)a;
- - (d) mass;
- - (d) damping;
+ - (void) _setMass:(double)a;
+ - (void) _setStiffness:(double)a;
+ - (void) _setDamping:(double)a;
+ - (double) mass;
+ - (double) damping;
 
 
 @end

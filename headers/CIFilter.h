@@ -27,7 +27,7 @@
  - (id) description;
  - (void) dealloc;
  - (id) name;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

@@ -9,7 +9,7 @@
     @"NSString" _autosaveIdentifier;
     @"MFMailComposeViewController" _mailComposeViewController;
 }
- + (q) activityCategory;
+ + (long long) activityCategory;
 
  - (id) activityType;
  - (void) dealloc;
@@ -41,7 +41,7 @@
  - (BOOL) _restoreDraft;
  - (void) setMailComposeViewController:(id)a;
  - (void) _saveDraft:(id)a;
- - (void) mailComposeController:(id)adidFinishWithResult:(i)berror:(id)c;
+ - (void) mailComposeController:(id)adidFinishWithResult:(int)berror:(id)c;
  - (id) init;
  - (void) _cleanup;
 

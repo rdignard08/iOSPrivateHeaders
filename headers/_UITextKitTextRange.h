@@ -7,7 +7,7 @@
 }
  + (id) rangeWithRange:({_NSRange=QQ})a;
  + (id) rangeWithStart:(id)aend:(id)b;
- + (id) rangeWithRange:({_NSRange=QQ})aaffinity:(q)b;
+ + (id) rangeWithRange:({_NSRange=QQ})aaffinity:(long long)b;
  + (id) defaultRange;
 
  - (id) copyWithZone:(^{_NSZone=})a;
@@ -17,7 +17,7 @@
  - (BOOL) isEqual:(id)a;
  - ({_NSRange=QQ}) asRange;
  - (id) end;
- - (q) affinity;
+ - (long long) affinity;
  - (void) setStart:(id)a;
  - (void) setEnd:(id)a;
  - (id) init;

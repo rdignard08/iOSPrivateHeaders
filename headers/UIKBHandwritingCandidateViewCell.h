@@ -7,7 +7,7 @@
     @"UILabel" _secondaryLabel;
     @"UIKBThemedView" _themedView;
 }
- + (d) widthForCandidate:(id)avisualStyling:({?=b6b1b1b8b16})b;
+ + (double) widthForCandidate:(id)avisualStyling:({?=b6b1b1b8b16})b;
  + (id) labelFontForText:(id)a;
  + (id) secondaryLabelFont;
 

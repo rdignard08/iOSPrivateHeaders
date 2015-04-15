@@ -22,7 +22,7 @@
  - (void) retainPowerAssertionWithContext:(id)awithGroupIdentifier:(id)b;
  - (void) _retainAssertions;
  - (void) _releaseAssertions;
- - (Q) retainCountForContext:(id)a;
+ - (unsigned long long) retainCountForContext:(id)a;
  - (void) setUUIDPrefix:(id)a;
  - (void) retainPowerAssertionWithContext:(id)a;
  - (void) releasePowerAssertionWithContext:(id)a;

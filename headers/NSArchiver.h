@@ -15,16 +15,16 @@
  + (void) initialize;
  + (id) archivedDataWithRootObject:(id)a;
 
- - (void) encodeArrayOfObjCType:(r*)acount:(Q)bat:(r^v)c;
+ - (void) encodeArrayOfObjCType:(r*)acount:(unsigned long long)bat:(r^v)c;
  - (void) encodeClassName:(id)aintoClassName:(id)b;
  - (id) initForWritingWithMutableData:(id)a;
  - (void) encodeRootObject:(id)a;
  - (id) classNameEncodedForTrueClassName:(id)a;
  - (id) archiverData;
  - (void) replaceObject:(id)awithObject:(id)b;
- - (q) versionForClassName:(id)a;
+ - (long long) versionForClassName:(id)a;
  - (void) encodeValuesOfObjCTypes:(r*)a;
- - (void) encodeBytes:(r^v)alength:(Q)b;
+ - (void) encodeBytes:(r^v)alength:(unsigned long long)b;
  - (void) encodeDataObject:(id)a;
  - (void) dealloc;
  - (void) finalize;

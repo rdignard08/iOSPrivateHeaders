@@ -7,8 +7,8 @@
  - (void) dealloc;
  - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;
  - (BOOL) pointInside:({CGPoint=dd})awithEvent:(id)b;
- - (i) textEffectsVisibilityLevel;
- - (i) textEffectsVisibilityLevelInKeyboardWindow;
+ - (int) textEffectsVisibilityLevel;
+ - (int) textEffectsVisibilityLevelInKeyboardWindow;
  - (id) grabber;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})acontainer:(id)b;
  - (void) setGrabber:(id)a;

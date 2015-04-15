@@ -2,7 +2,7 @@
 @protocol NSSecureCoding;
 @interface BKSHIDEventRouter : NSObject <NSSecureCoding> {
 
-    q _destination;
+    long long _destination;
     @"NSSet" _hidEventDescriptors;
 }
 @property (atomic, assign, readonly) NSNumber* destination;
@@ -10,20 +10,20 @@
  + (BOOL) supportsSecureCoding;
  + (id) defaultSystemAppEventRouter;
  + (id) defaultFocusedAppEventRouter;
- + (id) routerWithDestination:(q)a;
+ + (id) routerWithDestination:(long long)a;
  + (id) defaultEventRouters;
 
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (id) initWithDestination:(q)a;
- - (id) initWithDestination:(q)ahidEventDescriptors:(id)b;
+ - (id) initWithDestination:(long long)a;
+ - (id) initWithDestination:(long long)ahidEventDescriptors:(id)b;
  - (id) hidEventDescriptors;
- - (q) destination;
- - (id) stringForDestination:(q)a;
+ - (long long) destination;
+ - (id) stringForDestination:(long long)a;
  - (void) addHIDEventDescriptors:(id)a;
  - (void) removeHIDEventDescriptors:(id)a;
  - (BOOL) specifiesDescriptor:(id)a;

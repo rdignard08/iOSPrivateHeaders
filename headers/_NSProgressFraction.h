@@ -2,36 +2,36 @@
 @protocol NSSecureCoding, NSCopying;
 @interface _NSProgressFraction : NSObject <NSSecureCoding, NSCopying> {
 
-    q _completed;
-    q _total;
+    long long _completed;
+    long long _total;
     BOOL _overflowed;
 }
 @property (atomic, assign, readwrite) NSNumber* completed;
 @property (atomic, assign, readwrite) NSNumber* total;
 @property (atomic, assign, readonly) NSNumber* overflowed;
  + (BOOL) supportsSecureCoding;
- + (id) fractionWithCompleted:(q)atotal:(q)b;
- + (id) fractionWithDouble:(d)a;
+ + (id) fractionWithCompleted:(long long)atotal:(long long)b;
+ + (id) fractionWithDouble:(double)a;
 
  - (BOOL) isFinished;
  - (void) simplify;
- - (q) total;
- - (q) completed;
- - (d) fractionCompleted;
+ - (long long) total;
+ - (long long) completed;
+ - (double) fractionCompleted;
  - (id) fractionBySimplifying;
- - (void) _simplifyFromDouble:(d)a;
+ - (void) _simplifyFromDouble:(double)a;
  - (void) addFraction:(id)a;
  - (void) subtractFraction:(id)a;
  - (void) multiplyByFraction:(id)a;
  - (BOOL) isIndeterminate;
- - (id) initWithCompleted:(q)atotal:(q)b;
+ - (id) initWithCompleted:(long long)atotal:(long long)b;
  - (BOOL) overflowed;
  - (id) fractionByAddingFraction:(id)a;
  - (id) fractionBySubtractingFraction:(id)a;
- - (void) divideByValue:(q)a;
+ - (void) divideByValue:(long long)a;
  - (id) fractionByMultiplyingFraction:(id)a;
- - (void) setCompleted:(q)a;
- - (void) setTotal:(q)a;
+ - (void) setCompleted:(long long)a;
+ - (void) setTotal:(long long)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (BOOL) isEqual:(id)a;

@@ -22,7 +22,7 @@
  - (void) _willPerformOutputOperation;
  - (id) _controllerOutput;
  - (void) _didPerformOutputOperation;
- - (void) adjustTextPositionByCharacterOffset:(q)a;
+ - (void) adjustTextPositionByCharacterOffset:(long long)a;
  - (void) setControllerState:(id)a;
  - (void) setControllerOutput:(id)a;
  - (id) documentContextBeforeInput;
@@ -32,12 +32,12 @@
  - (void) _setShouldAdvanceInputMode;
  - (id) _keyboardOutput;
  - (id) _delegate;
- - (q) keyboardType;
- - (q) autocapitalizationType;
- - (q) autocorrectionType;
- - (q) spellCheckingType;
- - (q) keyboardAppearance;
- - (q) returnKeyType;
+ - (long long) keyboardType;
+ - (long long) autocapitalizationType;
+ - (long long) autocorrectionType;
+ - (long long) spellCheckingType;
+ - (long long) keyboardAppearance;
+ - (long long) returnKeyType;
  - (BOOL) enablesReturnKeyAutomatically;
  - (void) insertText:(id)a;
 

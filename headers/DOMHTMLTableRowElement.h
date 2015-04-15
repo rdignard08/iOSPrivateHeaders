@@ -3,7 +3,7 @@
 
 }
 
- - (i) rowIndex;
+ - (int) rowIndex;
  - (id) align;
  - (void) setAlign:(id)a;
  - (id) bgColor;
@@ -14,10 +14,10 @@
  - (void) setChOff:(id)a;
  - (id) vAlign;
  - (void) setVAlign:(id)a;
- - (i) sectionRowIndex;
+ - (int) sectionRowIndex;
  - (id) cells;
- - (id) insertCell:(i)a;
- - (void) deleteCell:(i)a;
+ - (id) insertCell:(int)a;
+ - (void) deleteCell:(int)a;
 
 
 @end

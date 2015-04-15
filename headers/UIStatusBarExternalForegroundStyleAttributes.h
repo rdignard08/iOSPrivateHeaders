@@ -3,17 +3,17 @@
 
 }
 
- - (d) scale;
+ - (double) scale;
  - (BOOL) usesVerticalLayout;
- - (d) edgePadding;
- - (d) standardPadding;
- - (id) textForNetworkType:(i)a;
- - (q) activityIndicatorStyleWithSyncActivity:(BOOL)a;
+ - (double) edgePadding;
+ - (double) standardPadding;
+ - (id) textForNetworkType:(int)a;
+ - (long long) activityIndicatorStyleWithSyncActivity:(BOOL)a;
  - ({UIEdgeInsets=dddd}) edgeInsetsForBatteryInsides;
  - ({UIEdgeInsets=dddd}) edgeInsetsForBluetoothBatteryInsides;
- - (d) textOffsetForStyle:(q)a;
+ - (double) textOffsetForStyle:(long long)a;
  - (id) expandedNameForImageName:(id)a;
- - (id) makeTextFontForStyle:(q)a;
+ - (id) makeTextFontForStyle:(long long)a;
 
 
 @end

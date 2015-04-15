@@ -9,7 +9,7 @@
     @"UIImage" _topBackgroundImage;
     @"UIImage" _miniTopBackgroundImage;
 }
- + (q) typicalBarPosition;
+ + (long long) typicalBarPosition;
 
  - (void) dealloc;
  - (id) backgroundImage;

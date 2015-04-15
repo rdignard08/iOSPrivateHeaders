@@ -2,9 +2,9 @@
 @interface _UIGestureRecognizerFailureMap : NSObject {
 
     @"NSMutableArray" _gestureRecognizers;
-    * _failureMap;
-    i _unmetFailureRequirementCount;
-    i _unmetFailureDependentCount;
+    char* _failureMap;
+    int _unmetFailureRequirementCount;
+    int _unmetFailureDependentCount;
 }
 @property (atomic, assign, readonly) NSNumber* hasUnmetFailureRequirementsOrDependents;
  + (void) buildFailureMapForGestureRecognizer:(id)a;

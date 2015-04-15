@@ -26,7 +26,7 @@
  - (void) performOnControllers:(@?)a;
  - (void) prepareToMoveKeyboard:({CGRect={CGPoint=dd}{CGSize=dd}})ashowing:(BOOL)bforScreen:(id)c;
  - (BOOL) keyboardActive;
- - (d) intersectionHeight;
+ - (double) intersectionHeight;
  - (void) willResume:(id)a;
  - (void) didSuspend:(id)a;
  - (void) completeMoveKeyboardForScreen:(id)a;

@@ -4,15 +4,15 @@
     @"UITextView" _textView;
     @"CADisplayLink" _streamingAnimationDisplayLink;
     BOOL _streamingAnimationActive;
-    d _lastAnimationUpdateTimeStamp;
+    double _lastAnimationUpdateTimeStamp;
     BOOL _committingFinalResults;
     BOOL _discardNextHypothesis;
     @"NSString" _previousHypothesis;
     @"NSString" _lastHypothesis;
     @"NSString" _targetHypothesis;
     @"NSMutableArray" _pendingEdits;
-    d _streamingCharacterInsertionRate;
-    d _minDurationBetweenHypotheses;
+    double _streamingCharacterInsertionRate;
+    double _minDurationBetweenHypotheses;
 }
 @property (nonatomic, copy, readwrite) NSString* previousHypothesis;
 @property (nonatomic, copy, readwrite) NSString* lastHypothesis;
@@ -40,10 +40,10 @@
  - (id) initWithTextView:(id)a;
  - (void) commitFinalResults;
  - (void) setWords:(id)a;
- - (d) streamingCharacterInsertionRate;
- - (void) setStreamingCharacterInsertionRate:(d)a;
- - (d) minDurationBetweenHypotheses;
- - (void) setMinDurationBetweenHypotheses:(d)a;
+ - (double) streamingCharacterInsertionRate;
+ - (void) setStreamingCharacterInsertionRate:(double)a;
+ - (double) minDurationBetweenHypotheses;
+ - (void) setMinDurationBetweenHypotheses:(double)a;
 
 
 @end

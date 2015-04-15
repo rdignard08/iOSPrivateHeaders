@@ -4,7 +4,7 @@
     BOOL _validatesCertificateChain;
     BOOL _allowInvalidCertificates;
     BOOL _validatesDomainName;
-    Q _SSLPinningMode;
+    unsigned long long _SSLPinningMode;
     @"NSArray" _pinnedCertificates;
     @"NSArray" _pinnedPublicKeys;
 }
@@ -16,13 +16,13 @@
 @property (nonatomic, retain, readwrite) NSArray* pinnedPublicKeys;
  + (id) defaultPolicy;
  + (id) defaultPinnedCertificates;
- + (id) policyWithPinningMode:(Q)a;
+ + (id) policyWithPinningMode:(unsigned long long)a;
  + (id) keyPathsForValuesAffectingPinnedPublicKeys;
 
- - (void) setSSLPinningMode:(Q)a;
+ - (void) setSSLPinningMode:(unsigned long long)a;
  - (void) setPinnedCertificates:(id)a;
  - (void) setValidatesCertificateChain:(BOOL)a;
- - (Q) SSLPinningMode;
+ - (unsigned long long) SSLPinningMode;
  - (void) setValidatesDomainName:(BOOL)a;
  - (id) pinnedCertificates;
  - (void) setPinnedPublicKeys:(id)a;

@@ -3,7 +3,7 @@
 @interface UIDynamicCaret : UIImageView <UIKeyboardCandidateList, _UIDynamicCaretDocumentContentDelegate> {
 
     @"<UIKeyboardCandidateListDelegate>" _candidateListDelegate;
-    q _selectedIndex;
+    long long _selectedIndex;
     BOOL _justDeleted;
     @"_UIDynamicCaretInput" _inputView;
     @"_UIDynamicCaretAlternatives" _alternativesView;
@@ -21,11 +21,11 @@
  - (void) touchesCancelled:(id)awithEvent:(id)b;
  - (void) didMoveToSuperview;
  - (id) backgroundImage;
- - (void) showCandidateAtIndex:(Q)a;
+ - (void) showCandidateAtIndex:(unsigned long long)a;
  - (void) showNextCandidate;
  - (id) candidateSet;
  - (void) setCandidateSet:(id)a;
- - (void) setCandidates:(id)ainlineText:(id)binlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})cmaxX:(d)dlayout:(BOOL)e;
+ - (void) setCandidates:(id)ainlineText:(id)binlineRect:({CGRect={CGPoint=dd}{CGSize=dd}})cmaxX:(double)dlayout:(BOOL)e;
  - (id) statisticsIdentifier;
  - (BOOL) isExtendedList;
  - (BOOL) isHiddenCandidatesList;
@@ -36,10 +36,10 @@
  - (void) showPreviousPage;
  - (void) showNextRow;
  - (void) showPreviousRow;
- - (Q) currentIndex;
- - (void) candidateAcceptedAtIndex:(Q)a;
+ - (unsigned long long) currentIndex;
+ - (void) candidateAcceptedAtIndex:(unsigned long long)a;
  - (id) keyboardBehaviors;
- - (Q) selectedSortIndex;
+ - (unsigned long long) selectedSortIndex;
  - (id) inputView;
  - (void) setInputView:(id)a;
  - (void) setIsActive:(BOOL)a;
@@ -51,7 +51,7 @@
  - (id) helpLabel;
  - (void) displayAlternatives:(BOOL)a;
  - (void) setDocumentHasContent:(BOOL)a;
- - (void) alternativeTappedAtIndex:(q)a;
+ - (void) alternativeTappedAtIndex:(long long)a;
  - (BOOL) isDeleteCandidate:(id)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;

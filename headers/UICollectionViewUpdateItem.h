@@ -3,7 +3,7 @@
 
     @"NSIndexPath" _initialIndexPath;
     @"NSIndexPath" _finalIndexPath;
-    q _updateAction;
+    long long _updateAction;
     id _gap;
 }
 @property (nonatomic, assign, readonly) NSIndexPath* indexPathBeforeUpdate;
@@ -17,19 +17,19 @@
 
  - (id) description;
  - (void) dealloc;
- - (q) inverseCompareIndexPaths:(id)a;
- - (q) compareIndexPaths:(id)a;
+ - (long long) inverseCompareIndexPaths:(id)a;
+ - (long long) compareIndexPaths:(id)a;
  - (id) _indexPath;
  - (id) initWithOldIndexPath:(id)anewIndexPath:(id)b;
- - (q) _action;
+ - (long long) _action;
  - (id) _gap;
  - (id) _newIndexPath;
  - (BOOL) _isSectionOperation;
  - (void) _setGap:(id)a;
- - (id) initWithAction:(q)aforIndexPath:(id)b;
- - (id) initWithInitialIndexPath:(id)afinalIndexPath:(id)bupdateAction:(q)c;
+ - (id) initWithAction:(long long)aforIndexPath:(id)b;
+ - (id) initWithInitialIndexPath:(id)afinalIndexPath:(id)bupdateAction:(long long)c;
  - (void) _setNewIndexPath:(id)a;
- - (q) updateAction;
+ - (long long) updateAction;
  - (id) indexPathBeforeUpdate;
  - (id) indexPathAfterUpdate;
 

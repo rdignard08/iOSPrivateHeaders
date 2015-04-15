@@ -10,11 +10,11 @@
  - (void) dealloc;
  - (id) container;
  - (void) setContainer:(id)a;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) numberOfSectionsInTableView:(id)a;
- - (id) textFieldAtIndex:(q)a;
- - (id) initWithStyle:(q)a;
+ - (long long) numberOfSectionsInTableView:(id)a;
+ - (id) textFieldAtIndex:(long long)a;
+ - (id) initWithStyle:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (id) addTextFieldWithPlaceholder:(id)aisSecure:(BOOL)b;
  - (id) textFields;
@@ -23,8 +23,8 @@
  - (BOOL) textFieldsCanBecomeFirstResponder;
  - (void) _returnKeyPressedInTextField:(id)a;
  - (void) _updatePreferredContentSize;
- - (q) numberOfTextFields;
- - (d) _bottomMarginForTextFields;
+ - (long long) numberOfTextFields;
+ - (double) _bottomMarginForTextFields;
 
 
 @end

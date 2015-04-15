@@ -16,7 +16,7 @@
 @property (nonatomic, assign, readonly) NSString* localizedName;
 @property (nonatomic, assign, readonly) NSNumber* boundIconIsBadge;
 @property (nonatomic, assign, readonly) NSDictionary* iconsDictionary;
- + (q) _compareApplicationIconCanvasSize:({CGSize=dd})awithSize:({CGSize=dd})b;
+ + (long long) _compareApplicationIconCanvasSize:({CGSize=dd})awithSize:({CGSize=dd})b;
  + ({CGSize=dd}) _applicationIconCanvasSize;
 
  - (^{?=i{CGSize=dd}}) _iconDefinitionForSize:({CGSize=dd})astyle:(id)b;
@@ -51,9 +51,9 @@
  - (id) _initWithLocalizedName:(id)a;
  - (void) setLocalizedName:(id)a;
  - (id) iconsDictionary;
- - (id) iconDataForVariant:(i)a;
+ - (id) iconDataForVariant:(int)a;
  - (void) dealloc;
- - (id) iconDataForStyle:(id)awidth:(q)bheight:(q)coptions:(Q)d;
+ - (id) iconDataForStyle:(id)awidth:(long long)bheight:(long long)coptions:(unsigned long long)d;
 
 
 @end

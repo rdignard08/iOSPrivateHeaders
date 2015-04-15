@@ -3,7 +3,7 @@
 
 }
 
- - (d) keyCornerRadius;
+ - (double) keyCornerRadius;
 
 
 @end

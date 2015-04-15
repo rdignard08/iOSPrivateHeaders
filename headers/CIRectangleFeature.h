@@ -8,7 +8,7 @@
     {CGPoint="x"d"y"d} bottomRight;
 }
  + (id) rectangleFeatureWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- + (id) rectangleFeaturesWithBoundsArray:(r^{CGRect={CGPoint=dd}{CGSize=dd}})acount:(Q)b;
+ + (id) rectangleFeaturesWithBoundsArray:(r^{CGRect={CGPoint=dd}{CGSize=dd}})acount:(unsigned long long)b;
 
  - (id) .cxx_construct;
  - (id) type;

@@ -2,7 +2,7 @@
 @interface UIWebPDFSearchResult : NSObject {
 
     @"NSArray" rotationAngles;
-    Q pageIndex;
+    unsigned long long pageIndex;
     @"NSArray" strings;
     @"NSString" string;
     @"NSArray" rects;
@@ -24,9 +24,9 @@
  - (void) setRects:(id)a;
  - (id) rects;
  - (id) rotationAngles;
- - (Q) pageIndex;
+ - (unsigned long long) pageIndex;
  - (void) setRotationAngles:(id)a;
- - (void) setPageIndex:(Q)a;
+ - (void) setPageIndex:(unsigned long long)a;
  - (void) setBoundingBox:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) boundingBox;
 

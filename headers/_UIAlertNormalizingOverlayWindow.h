@@ -4,7 +4,7 @@
 }
 
  - (BOOL) pointInside:({CGPoint=dd})awithEvent:(id)b;
- - (void) setContentScaleFactor:(d)a;
+ - (void) setContentScaleFactor:(double)a;
  - (void) _updateTransformLayerForClassicPresentation;
 
 

@@ -35,17 +35,17 @@
  - (id) _generateBackdropMaskImage;
  - (void) tintColorDidChange;
  - (void) _didMoveFromWindow:(id)atoWindow:(id)b;
- - (void) setAnimationRepeatCount:(q)a;
+ - (void) setAnimationRepeatCount:(long long)a;
  - (void) setHighlighted:(BOOL)a;
- - (Q) _templateImageRenderingEffects;
- - (void) _setDefaultRenderingMode:(q)a;
- - (void) _setTemplateImageRenderingEffects:(Q)a;
+ - (unsigned long long) _templateImageRenderingEffects;
+ - (void) _setDefaultRenderingMode:(long long)a;
+ - (void) _setTemplateImageRenderingEffects:(unsigned long long)a;
  - (BOOL) isHighlighted;
  - (id) animationImages;
  - (id) highlightedAnimationImages;
  - (id) highlightedImage;
  - (void) setHighlightedImage:(id)a;
- - (q) _defaultRenderingMode;
+ - (long long) _defaultRenderingMode;
  - (BOOL) _masksTemplateImages;
  - (id) _currentImage;
  - (id) _currentHighlightedImage;
@@ -57,7 +57,7 @@
  - (void) _drawImageEffectsForImage:(id)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
  - (BOOL) isAnimating;
  - (BOOL) _setImageViewContents:(id)a;
- - (void) _setDecompressingImage:(id)aforType:(Q)b;
+ - (void) _setDecompressingImage:(id)aforType:(unsigned long long)b;
  - (void) stopAnimating;
  - (void) _clearPretiledImageCacheForImage:(id)a;
  - (void) _updateImageViewForOldImage:(id)anewImage:(id)b;
@@ -65,10 +65,10 @@
  - (void) _updateState;
  - (void) _updateTemplateProperties;
  - (BOOL) _recomputePretilingState;
- - (void) _setViewGeometry:({CGRect={CGPoint=dd}{CGSize=dd}})aforMetric:(i)b;
+ - (void) _setViewGeometry:({CGRect={CGPoint=dd}{CGSize=dd}})aforMetric:(int)b;
  - ({UIEdgeInsets=dddd}) _edgeInsetsForEffects;
  - (id) _activeImage;
- - (id) _decompressingImageForType:(Q)a;
+ - (id) _decompressingImageForType:(unsigned long long)a;
  - (BOOL) _shouldTreatImageAsTemplate:(id)a;
  - (void) _updateMasking;
  - (void) _templateSettingsDidChange;
@@ -80,10 +80,10 @@
  - (id) initWithImage:(id)ahighlightedImage:(id)b;
  - (void) setAnimationImages:(id)a;
  - (void) setHighlightedAnimationImages:(id)a;
- - (q) animationRepeatCount;
+ - (long long) animationRepeatCount;
  - (void) _setMasksTemplateImages:(BOOL)a;
- - (i) drawMode;
- - (void) setDrawMode:(i)a;
+ - (int) drawMode;
+ - (void) setDrawMode:(int)a;
  - (void) setCGImageRef:(^{CGImage=})a;
  - (void) setAnimating:(BOOL)a;
  - (id) _checkImageForAdaptation:(id)ahasAdapted:(^B)b;
@@ -92,10 +92,10 @@
  - (BOOL) _edgeInsetsForEffectsAreValid;
  - (void) _setEdgeInsetsForEffectsAreValid:(BOOL)a;
  - (void) _setAnimatesContents:(BOOL)a;
- - (Q) defaultAccessibilityTraits;
+ - (unsigned long long) defaultAccessibilityTraits;
  - (BOOL) isAccessibilityElementByDefault;
  - (BOOL) isElementAccessibilityExposedToInterfaceBuilder;
- - (void) _applySettingsForLegibilityStyle:(q)a;
+ - (void) _applySettingsForLegibilityStyle:(long long)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (void) setBackgroundColor:(id)a;
@@ -104,10 +104,10 @@
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (d) animationDuration;
+ - (double) animationDuration;
  - (id) image;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setAnimationDuration:(d)a;
+ - (void) setAnimationDuration:(double)a;
 
 
 @end

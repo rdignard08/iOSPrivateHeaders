@@ -1,7 +1,7 @@
 
 @interface UIStoryboardPopoverSegueTemplate : UIStoryboardSegueTemplate {
 
-    Q _permittedArrowDirections;
+    unsigned long long _permittedArrowDirections;
     @"NSArray" _passthroughViews;
     @"UIBarButtonItem" _anchorBarButtonItem;
     @"UIView" _anchorView;
@@ -10,8 +10,8 @@
  - (void) dealloc;
  - (id) anchorView;
  - (id) anchorBarButtonItem;
- - (Q) permittedArrowDirections;
- - (void) setPermittedArrowDirections:(Q)a;
+ - (unsigned long long) permittedArrowDirections;
+ - (void) setPermittedArrowDirections:(unsigned long long)a;
  - (id) passthroughViews;
  - (void) setPassthroughViews:(id)a;
  - (void) setAnchorBarButtonItem:(id)a;

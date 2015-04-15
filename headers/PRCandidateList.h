@@ -2,19 +2,19 @@
 @interface PRCandidateList : NSObject {
 
     @"NSMutableArray" _candidates;
-    Q _maxCount;
+    unsigned long long _maxCount;
 }
 
  - (id) description;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (BOOL) isFull;
  - (void) addCandidate:(id)a;
- - (Q) maxCount;
- - (id) initWithMaxCount:(Q)a;
- - (void) addCandidateWithString:(id)aerrorType:(Q)b;
- - (void) addCandidateWithBuffer:(*)aencoding:(I)berrorType:(Q)c;
- - (void) addCandidateWithBuffer:(*)aencoding:(I)btransform:(Q)cerrorType:(Q)d;
+ - (unsigned long long) maxCount;
+ - (id) initWithMaxCount:(unsigned long long)a;
+ - (void) addCandidateWithString:(id)aerrorType:(unsigned long long)b;
+ - (void) addCandidateWithBuffer:(char*)aencoding:(unsigned int)berrorType:(unsigned long long)c;
+ - (void) addCandidateWithBuffer:(char*)aencoding:(unsigned int)btransform:(unsigned long long)cerrorType:(unsigned long long)d;
  - (id) candidates;
  - (id) candidateStrings;
 

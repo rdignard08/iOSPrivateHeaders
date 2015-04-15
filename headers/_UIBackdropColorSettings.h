@@ -2,15 +2,15 @@
 @interface _UIBackdropColorSettings : NSObject {
 
     BOOL _hasObservedValues;
-    d _averageHue;
-    d _averageSaturation;
-    d _averageBrightness;
-    d _contrast;
+    double _averageHue;
+    double _averageSaturation;
+    double _averageBrightness;
+    double _contrast;
     @"_UIBackdropViewSettings" _parentSettings;
-    d _previousAverageHue;
-    d _previousAverageSaturation;
-    d _previousAverageBrightness;
-    d _previousContrast;
+    double _previousAverageHue;
+    double _previousAverageSaturation;
+    double _previousAverageBrightness;
+    double _previousContrast;
 }
 @property (nonatomic, assign, readwrite) NSNumber* averageHue;
 @property (nonatomic, assign, readwrite) NSNumber* averageSaturation;
@@ -25,26 +25,26 @@
 @property (nonatomic, assign, readwrite) NSNumber* hasObservedValues;
 
  - (void) setValuesFromModel:(id)a;
- - (void) setAverageHue:(d)a;
- - (void) setAverageSaturation:(d)a;
- - (void) setAverageBrightness:(d)a;
- - (void) setContrast:(d)a;
+ - (void) setAverageHue:(double)a;
+ - (void) setAverageSaturation:(double)a;
+ - (void) setAverageBrightness:(double)a;
+ - (void) setContrast:(double)a;
  - (void) setDefaultValues;
- - (d) averageBrightness;
+ - (double) averageBrightness;
  - (void) setParentSettings:(id)a;
- - (d) averageHue;
- - (d) averageSaturation;
- - (d) contrast;
- - (void) setPreviousAverageHue:(d)a;
- - (void) setPreviousAverageSaturation:(d)a;
- - (void) setPreviousAverageBrightness:(d)a;
- - (void) setPreviousContrast:(d)a;
+ - (double) averageHue;
+ - (double) averageSaturation;
+ - (double) contrast;
+ - (void) setPreviousAverageHue:(double)a;
+ - (void) setPreviousAverageSaturation:(double)a;
+ - (void) setPreviousAverageBrightness:(double)a;
+ - (void) setPreviousContrast:(double)a;
  - (void) setHasObservedValues:(BOOL)a;
  - (id) parentSettings;
- - (d) previousAverageHue;
- - (d) previousAverageSaturation;
- - (d) previousAverageBrightness;
- - (d) previousContrast;
+ - (double) previousAverageHue;
+ - (double) previousAverageSaturation;
+ - (double) previousAverageBrightness;
+ - (double) previousContrast;
  - (BOOL) hasObservedValues;
  - (BOOL) applyCABackdropLayerStatistics:(id)a;
  - (id) color;

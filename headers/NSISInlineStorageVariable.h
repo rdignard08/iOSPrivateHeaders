@@ -3,7 +3,7 @@
 @interface NSISInlineStorageVariable : NSISVariable <NSISVariableDelegate> {
 
     @"NSString" _name;
-    i _valueRestriction;
+    int _valueRestriction;
     BOOL _shouldBeMinimized;
 }
 
@@ -11,10 +11,10 @@
  - (id) nsis_descriptionOfVariable:(id)a;
  - (BOOL) nsis_shouldIntegralizeVariable:(id)a;
  - (BOOL) nsis_valueOfVariableIsUserObservable:(id)a;
- - (i) valueRestriction;
+ - (int) valueRestriction;
  - (id) markedConstraint;
  - (BOOL) shouldBeMinimized;
- - (void) setValueRestriction:(i)a;
+ - (void) setValueRestriction:(int)a;
  - (void) setShouldBeMinimized:(BOOL)a;
  - (Vv) dealloc;
  - (id) name;

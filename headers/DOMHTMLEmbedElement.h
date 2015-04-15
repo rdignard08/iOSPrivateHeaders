@@ -12,10 +12,10 @@
  - (void) setAlign:(id)a;
  - (id) src;
  - (void) setSrc:(id)a;
- - (i) width;
- - (i) height;
- - (void) setWidth:(i)a;
- - (void) setHeight:(i)a;
+ - (int) width;
+ - (int) height;
+ - (void) setWidth:(int)a;
+ - (void) setHeight:(int)a;
 
 
 @end

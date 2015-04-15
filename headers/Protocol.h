@@ -8,7 +8,7 @@
  - (^{objc_method_description=:*}) descriptionForInstanceMethod:(SEL)a;
  - (^{objc_method_description=:*}) descriptionForClassMethod:(SEL)a;
  - (r*) name;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
 
 

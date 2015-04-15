@@ -2,18 +2,18 @@
 @interface _NSCallStackArray : NSArray {
 
     ^^v _frames;
-    Q _cnt;
-    Q _ignore;
+    unsigned long long _cnt;
+    unsigned long long _ignore;
     ^* _pcstrs;
     BOOL _wantSyms;
 }
- + (id) arrayWithFrames:(^^v)acount:(Q)bsymbols:(BOOL)c;
+ + (id) arrayWithFrames:(^^v)acount:(unsigned long long)bsymbols:(BOOL)c;
 
  - (void) dealloc;
  - (void) finalize;
- - (Q) count;
- - (id) objectAtIndex:(Q)a;
- - (id) descriptionWithLocale:(id)aindent:(Q)b;
+ - (unsigned long long) count;
+ - (id) objectAtIndex:(unsigned long long)a;
+ - (id) descriptionWithLocale:(id)aindent:(unsigned long long)b;
 
 
 @end

@@ -21,8 +21,8 @@
  - (id) .cxx_construct;
  - (void) dealloc;
  - (void) setDelegate:(id)a;
- - (Q) totalPages;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageNumber:(Q)a;
+ - (unsigned long long) totalPages;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageNumber:(unsigned long long)a;
  - (^{CGPDFDocument=}) doc;
  - (void) didUnlockDocument;
  - (void) clearDocument;

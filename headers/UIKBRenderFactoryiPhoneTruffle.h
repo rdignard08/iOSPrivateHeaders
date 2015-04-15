@@ -10,10 +10,10 @@
  - ({CGPoint=dd}) deleteKeyOffset;
  - ({CGPoint=dd}) stringKeyOffset;
  - ({CGPoint=dd}) more123KeyOffset;
- - (d) moreABCKeyFontSize;
+ - (double) moreABCKeyFontSize;
  - ({CGPoint=dd}) moreABCKeyOffset;
  - ({CGPoint=dd}) returnKeyOffset;
- - (d) popupFontSize;
+ - (double) popupFontSize;
  - ({CGPoint=dd}) popupSymbolTextOffset;
  - ({UIEdgeInsets=dddd}) wideShadowPaddleInsets;
  - ({CGPoint=dd}) variantSymbolTextOffset;

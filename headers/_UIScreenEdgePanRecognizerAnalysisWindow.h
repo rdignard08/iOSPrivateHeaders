@@ -5,7 +5,7 @@
     @"UIDelayedAction" _messageFadeAction;
     @"UIView" _backgroundView;
     @"_UIScreenEdgePanRecognizer" _recognizer;
-    q _maximumVisibleOverlayItems;
+    long long _maximumVisibleOverlayItems;
 }
 
  - (void) dealloc;
@@ -19,8 +19,8 @@
  - (void) pushStatusMessage:(id)atoVisualOverlay:(BOOL)b;
  - (id) recognizer;
  - (void) setRecognizer:(id)a;
- - (q) maximumVisibleOverlayItems;
- - (void) setMaximumVisibleOverlayItems:(q)a;
+ - (long long) maximumVisibleOverlayItems;
+ - (void) setMaximumVisibleOverlayItems:(long long)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

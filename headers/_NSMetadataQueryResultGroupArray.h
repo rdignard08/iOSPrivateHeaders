@@ -7,8 +7,8 @@
  - (id) _init:(id)a;
  - (void) dealloc;
  - (void) finalize;
- - (Q) count;
- - (id) objectAtIndex:(Q)a;
+ - (unsigned long long) count;
+ - (id) objectAtIndex:(unsigned long long)a;
 
 
 @end

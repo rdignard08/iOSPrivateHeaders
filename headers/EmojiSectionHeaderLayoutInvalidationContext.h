@@ -6,8 +6,8 @@
 }
 
  - (void) dealloc;
- - (void) invalidateSectionHeaderInSection:(q)awithPreferredWidth:(d)b;
- - (d) preferredWidthForHeaderInSection:(q)a;
+ - (void) invalidateSectionHeaderInSection:(long long)awithPreferredWidth:(double)b;
+ - (double) preferredWidthForHeaderInSection:(long long)a;
  - (id) invalidatedSections;
 
 

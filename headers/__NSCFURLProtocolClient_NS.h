@@ -11,7 +11,7 @@
  - (void) dealloc;
  - (void) URLProtocol:(id)awasRedirectedToRequest:(id)bredirectResponse:(id)c;
  - (void) URLProtocol:(id)acachedResponseIsValid:(id)b;
- - (void) URLProtocol:(id)adidReceiveResponse:(id)bcacheStoragePolicy:(Q)c;
+ - (void) URLProtocol:(id)adidReceiveResponse:(id)bcacheStoragePolicy:(unsigned long long)c;
  - (void) URLProtocol:(id)adidLoadData:(id)b;
  - (void) URLProtocolDidFinishLoading:(id)a;
  - (void) URLProtocol:(id)adidFailWithError:(id)b;

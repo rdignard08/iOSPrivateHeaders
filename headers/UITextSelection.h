@@ -2,7 +2,7 @@
 @interface UITextSelection : NSObject {
 
     @"UIResponder<UITextInputPrivate>" _document;
-    q _granularity;
+    long long _granularity;
     @"UITextRange" _selectedRange;
     @"UITextRange" _base;
     @"UITextRange" _initialExtent;
@@ -26,12 +26,12 @@
  - (void) collapseSelection;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) caretRect;
  - (BOOL) hasEditableSelection;
- - (q) granularity;
+ - (long long) granularity;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) caretRectAtEndOfDocument;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) caretRectAtBeginOfDocument;
  - (id) selectionRects;
- - (void) alterSelection:({CGPoint=dd})agranularity:(q)b;
- - (void) setGranularity:(q)a;
+ - (void) alterSelection:({CGPoint=dd})agranularity:(long long)b;
+ - (void) setGranularity:(long long)a;
  - (void) setRangedSelectionBaseToCurrentSelection;
  - (void) clearRangedSelectionInitialExtent;
  - (void) setRangedSelectionWithExtentPoint:({CGPoint=dd})a;
@@ -41,7 +41,7 @@
  - (id) _domRange;
  - (void) setSelectionWithFirstPoint:({CGPoint=dd})asecondPoint:({CGPoint=dd})b;
  - (BOOL) setRangedSelectionExtentPoint:({CGPoint=dd})abaseIsStart:(BOOL)b;
- - (void) smartExtendRangedSelection:(i)adownstream:(BOOL)b;
+ - (void) smartExtendRangedSelection:(int)adownstream:(BOOL)b;
  - (void) setRangedSelectionBaseToCurrentSelectionStart;
  - (void) setRangedSelectionInitialExtentToCurrentSelectionEnd;
  - (void) setRangedSelectionBaseToCurrentSelectionEnd;
@@ -56,7 +56,7 @@
  - (void) setInitialExtent:(id)a;
  - (id) initialExtent;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) closestCaretRectForPoint:({CGPoint=dd})ainSelection:(BOOL)b;
- - (Q) offsetInMarkedText;
+ - (unsigned long long) offsetInMarkedText;
  - (BOOL) pointAtStartOfLine:({CGPoint=dd})a;
  - (void) commit;
  - (id) selectedText;

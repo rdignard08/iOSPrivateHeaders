@@ -8,7 +8,7 @@
 
  - (void) setObservinglsd:(BOOL)a;
  - (BOOL) isObservinglsd;
- - (Q) currentObserverCount;
+ - (unsigned long long) currentObserverCount;
  - (void) applicationInstallsDidCancel:(id)a;
  - (void) applicationInstallsDidPause:(id)a;
  - (void) applicationInstallsDidPrioritize:(id)a;

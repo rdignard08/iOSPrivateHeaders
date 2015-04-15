@@ -2,41 +2,41 @@
 @interface CUIThemeSchemaRendition : CUIThemeRendition {
 
     @"NSDictionary" cuiInfo;
-    Q _nimages;
+    unsigned long long _nimages;
     [9^{CGImage}] _image;
     [9{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}] _layoutRects;
     {CGSize="width"d"height"d} _intrinsicSize;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _elementRect;
-    q _columnSlices;
-    q _rowSlices;
+    long long _columnSlices;
+    long long _rowSlices;
     {?="top"d"left"d"bottom"d"right"d} _contentInsets;
     @"CUIPSDGradient" _gradient;
 }
 
- - (d) scale;
- - (S) size;
+ - (double) scale;
+ - (unsigned short) size;
  - (id) description;
  - (id) .cxx_construct;
  - (void) dealloc;
  - (id) slices;
- - (S) state;
- - (S) value;
- - (S) identifier;
+ - (unsigned short) state;
+ - (unsigned short) value;
+ - (unsigned short) identifier;
  - (id) gradient;
- - (Q) numberOfSlices;
- - (id) initWithCoreUIOptions:(id)aforKey:(r^{_renditionkeytoken=SS})bartworkStatus:(q)c;
+ - (unsigned long long) numberOfSlices;
+ - (id) initWithCoreUIOptions:(id)aforKey:(r^{_renditionkeytoken=SS})bartworkStatus:(long long)c;
  - (id) referenceImage;
- - (S) dimension1;
- - (S) presentationState;
- - (S) dimension2;
- - (S) drawingLayer;
- - (S) keyScale;
- - (id) stringForState:(S)a;
- - (S) previousState;
- - (S) direction;
- - (id) stringForValue:(S)a;
- - (S) previousValue;
- - (S) look;
+ - (unsigned short) dimension1;
+ - (unsigned short) presentationState;
+ - (unsigned short) dimension2;
+ - (unsigned short) drawingLayer;
+ - (unsigned short) keyScale;
+ - (id) stringForState:(unsigned short)a;
+ - (unsigned short) previousState;
+ - (unsigned short) direction;
+ - (id) stringForValue:(unsigned short)a;
+ - (unsigned short) previousValue;
+ - (unsigned short) look;
  - (^{CGRect={CGPoint=dd}{CGSize=dd}}) sliceRects;
  - (id) initWithCoreUIOptions:(id)aforKey:(r^{_renditionkeytoken=SS})b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) alignmentRectangle;
@@ -44,9 +44,9 @@
  - ({?=dddd}) contentInsets;
  - (id) coreUIOptions;
  - (id) defaultTemplateName;
- - (q) columnSlices;
- - (q) rowSlices;
- - ({CGPoint=dd}) renditionCoordinatesForPartFeatures:(q)a;
+ - (long long) columnSlices;
+ - (long long) rowSlices;
+ - ({CGPoint=dd}) renditionCoordinatesForPartFeatures:(long long)a;
  - (id) typeLocalizedString;
  - (id) stateLocalizedString;
  - (id) previousStateLocalizedString;
@@ -60,7 +60,7 @@
  - (id) drawingLayerLocalizedString;
  - (id) lookLocalizedString;
  - (id) scaleLocalizedString;
- - (S) layer;
+ - (unsigned short) layer;
 
 
 @end

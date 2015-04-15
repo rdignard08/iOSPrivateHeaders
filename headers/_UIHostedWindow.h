@@ -2,10 +2,10 @@
 @interface _UIHostedWindow : UIWindow {
 
     BOOL _wantsTraitPropigation;
-    q _hostTintAdjustmentMode;
+    long long _hostTintAdjustmentMode;
     @"UITraitCollection" _hostTraitCollection;
-    q _toWindowOrientation;
-    q _fromWindowOrientation;
+    long long _toWindowOrientation;
+    long long _fromWindowOrientation;
 }
 
  - (void) dealloc;
@@ -21,27 +21,27 @@
  - (void) _updateTransformLayerForClassicPresentation;
  - (BOOL) _isClippedByScreenJail;
  - (void) _configureContextOptions:(id)a;
- - (q) _toWindowOrientation;
+ - (long long) _toWindowOrientation;
  - (BOOL) _shouldPropigateTraitCollectionChanges;
- - (id) _traitCollectionForSize:({CGSize=dd})ascreenCollection:(id)bvirtualHorizontalSizeClass:(q)cvirtualVerticalSizeClass:(q)d;
+ - (id) _traitCollectionForSize:({CGSize=dd})ascreenCollection:(id)bvirtualHorizontalSizeClass:(long long)cvirtualVerticalSizeClass:(long long)d;
  - (BOOL) _canPromoteFromKeyWindowStack;
  - (void) _updateAppTintView;
  - (void) _registerScrollToTopView:(id)a;
  - (void) _unregisterScrollToTopView:(id)a;
- - (q) _fromWindowOrientation;
- - (q) _defaultTintAdjustmentMode;
+ - (long long) _fromWindowOrientation;
+ - (long long) _defaultTintAdjustmentMode;
  - (id) hostingHandle;
- - (q) _hostTintAdjustmentMode;
+ - (long long) _hostTintAdjustmentMode;
  - (void) _setWantsTraitPropigation:(BOOL)a;
- - (void) _setHostTintAdjustmentMode:(q)a;
+ - (void) _setHostTintAdjustmentMode:(long long)a;
  - (void) _setHostTraitCollection:(id)a;
- - (BOOL) _presentActionSheet:(id)ainView:(id)bfromYCoordinate:(d)c;
+ - (BOOL) _presentActionSheet:(id)ainView:(id)bfromYCoordinate:(double)c;
  - (id) _hostTraitCollection;
  - (BOOL) _wantsTraitPropigation;
- - (void) _setToWindowOrientation:(q)a;
- - (void) _setFromWindowOrientation:(q)a;
+ - (void) _setToWindowOrientation:(long long)a;
+ - (void) _setFromWindowOrientation:(long long)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (I) contextID;
+ - (unsigned int) contextID;
 
 
 @end

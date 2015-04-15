@@ -7,7 +7,7 @@
     BOOL _connectionResumed;
     BOOL _usesAnonymousConnection;
     @"NSString" _serviceName;
-    i _notifyToken;
+    int _notifyToken;
 }
 @property (nonatomic, assign, readwrite, usesAnonymousConnection) NSNumber* usesAnonymousConnection;
 
@@ -16,7 +16,7 @@
  - (void) run;
  - (void) _invalidate;
  - (id) initWithServiceName:(id)a;
- - (id) _getStringFromMessage:(id)akey:(*)b;
+ - (id) _getStringFromMessage:(id)akey:(char*)b;
  - (id) initWithServiceName:(id)aonQueue:(id)b;
  - (void) registerServerSuspended;
  - (void) resumeServer;

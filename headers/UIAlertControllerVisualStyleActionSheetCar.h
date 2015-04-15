@@ -4,23 +4,23 @@
 }
 
  - (id) backgroundView;
- - (d) verticalContentMargin;
+ - (double) verticalContentMargin;
  - (id) titleLabelFont;
  - (id) titleLabelColor;
- - (d) marginAboveTitleLabelFirstBaseline;
- - (d) marginBelowLastLabelLastBaseline;
- - (q) maximumNumberOfLinesInTitleLabel;
+ - (double) marginAboveTitleLabelFirstBaseline;
+ - (double) marginBelowLastLabelLastBaseline;
+ - (long long) maximumNumberOfLinesInTitleLabel;
  - (id) messageLabelFont;
  - (id) messageLabelColor;
- - (q) maximumNumberOfLinesInMessageLabel;
- - (d) horizontalContentMargin;
- - (d) visualAltitude;
+ - (long long) maximumNumberOfLinesInMessageLabel;
+ - (double) horizontalContentMargin;
+ - (double) visualAltitude;
  - (id) regularActionFont;
  - (id) defaultActionFont;
  - (id) actionHighlightedBackgroundView;
  - (id) highlightedActionContentColor;
  - (id) defaultActionBackgroundColorWhenSeparate;
- - (d) minimumActionHeight;
+ - (double) minimumActionHeight;
 
 
 @end

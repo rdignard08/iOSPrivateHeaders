@@ -3,8 +3,8 @@
 @interface NSTextList : NSObject <NSCoding, NSCopying> {
 
     @"NSString" _markerFormat;
-    Q _listFlags;
-    q _startIndex;
+    unsigned long long _listFlags;
+    long long _startIndex;
     ^v _listSecondary;
 }
  + (void) initialize;
@@ -15,16 +15,16 @@
  - (void) dealloc;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (Q) options;
- - (Q) listOptions;
- - (id) initWithMarkerFormat:(id)aoptions:(Q)b;
- - (void) setStartingItemNumber:(q)a;
+ - (unsigned long long) options;
+ - (unsigned long long) listOptions;
+ - (id) initWithMarkerFormat:(id)aoptions:(unsigned long long)b;
+ - (void) setStartingItemNumber:(long long)a;
  - (id) markerFormat;
- - (q) startingItemNumber;
- - (id) _markerForMarkerFormat:(id)aitemNumber:(q)bisNumbered:(^B)csubstitutionStart:(^Q)dend:(^Q)especifierStart:(^Q)fend:(^Q)g;
- - (id) markerForItemNumber:(q)a;
- - (id) _unaffixedMarkerForItemNumber:(q)a;
- - (id) _markerAtIndex:(Q)ainText:(id)b;
+ - (long long) startingItemNumber;
+ - (id) _markerForMarkerFormat:(id)aitemNumber:(long long)bisNumbered:(^B)csubstitutionStart:(^Q)dend:(^Q)especifierStart:(^Q)fend:(^Q)g;
+ - (id) markerForItemNumber:(long long)a;
+ - (id) _unaffixedMarkerForItemNumber:(long long)a;
+ - (id) _markerAtIndex:(unsigned long long)ainText:(id)b;
  - (BOOL) _isOrdered;
  - (id) _markerTitle;
  - (id) _markerPrefix;

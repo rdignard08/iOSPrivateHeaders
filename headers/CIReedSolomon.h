@@ -3,30 +3,30 @@
 
     [256i] _expTable;
     [256i] _logTable;
-    i _cachedGeneratorNum;
-    i _memoryCapacity;
+    int _cachedGeneratorNum;
+    int _memoryCapacity;
     ^{?=^ii} _cachedGenerators;
 }
 
  - (^{?=^ii}) divide:(^{?=^ii})aby:(^{?=^ii})b;
  - (void) dealloc;
  - (id) initReedSolomon;
- - (BOOL) encode:(^i)alength:(i)bbytes:(i)c;
- - (BOOL) fillPoly:(^{?=^ii})acoefficients:(^i)blength:(i)c;
+ - (BOOL) encode:(^i)alength:(int)bbytes:(int)c;
+ - (BOOL) fillPoly:(^{?=^ii})acoefficients:(^i)blength:(int)c;
  - (void) clearPoly:(^{?=^ii})a;
  - (BOOL) isZero:({?=^ii})a;
  - (^{?=^ii}) copyPoly:(^{?=^ii})a;
- - (i) addOrSubtract:(i)awith:(i)b;
- - (i) multiply:(i)awith:(i)b;
- - (i) Degree:({?=^ii})a;
- - (i) polyCoefficient:(^{?=^ii})adegree:(i)b;
- - (i) inverse:(i)a;
- - (^{?=^ii}) multiplyByMonomial:(^{?=^ii})adegree:(i)bcoefficient:(i)c;
+ - (int) addOrSubtract:(int)awith:(int)b;
+ - (int) multiply:(int)awith:(int)b;
+ - (int) Degree:({?=^ii})a;
+ - (int) polyCoefficient:(^{?=^ii})adegree:(int)b;
+ - (int) inverse:(int)a;
+ - (^{?=^ii}) multiplyByMonomial:(^{?=^ii})adegree:(int)bcoefficient:(int)c;
  - (^{?=^ii}) addOrSubtractPoly:(^{?=^ii})awith:(^{?=^ii})b;
- - (i) Exp:(i)a;
+ - (int) Exp:(int)a;
  - (^{?=^ii}) multiplyPoly:(^{?=^ii})awith:(^{?=^ii})b;
- - (^{?=^ii}) buildGenerator:(i)a;
- - (^{?=^ii}) createMonomial:(i)acoefficient:(i)b;
+ - (^{?=^ii}) buildGenerator:(int)a;
+ - (^{?=^ii}) createMonomial:(int)acoefficient:(int)b;
  - (^i) coefficients:({?=^ii})a;
 
 

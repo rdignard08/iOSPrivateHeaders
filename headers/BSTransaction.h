@@ -6,7 +6,7 @@
     @"NSMutableSet" _lifeAssertions;
     BOOL _failed;
     BOOL _interrupted;
-    Q _state;
+    unsigned long long _state;
     @"NSString" _failureReason;
     @"NSDate" _startTime;
     @"NSMutableDictionary" _milestonesToHandlers;
@@ -37,11 +37,11 @@
  - (void) dealloc;
  - (id) debugDescription;
  - (id) init;
- - (Q) state;
+ - (unsigned long long) state;
  - (void) removeObserver:(id)a;
  - (void) addObserver:(id)a;
  - (id) queue;
- - (void) _setState:(Q)a;
+ - (void) _setState:(unsigned long long)a;
  - (void) _debugLogWithFormat:(id)a;
  - (void) _setParentTransaction:(id)aassertIfNecessary:(BOOL)b;
  - (void) _enumerateChildTransactionsWithBlock:(@?)a;
@@ -50,7 +50,7 @@
  - (void) _removeChildTransaction:(id)a;
  - (void) _willBegin;
  - (void) _begin;
- - (Q) _state;
+ - (unsigned long long) _state;
  - (void) begin;
  - (void) _didBegin;
  - (void) _preventTransactionCompletionForReason:(id)aandExecuteBlock:(@?)b;
@@ -69,14 +69,14 @@
  - (void) evaluateMilestone:(id)awithEvaluator:(@?)b;
  - (BOOL) isWaitingForMilestone:(id)a;
  - (void) _didSatisfyMilestone:(id)a;
- - (id) _descriptionForDebugging:(BOOL)aindentLevel:(Q)b;
+ - (id) _descriptionForDebugging:(BOOL)aindentLevel:(unsigned long long)b;
  - (void) _checkAndReportIfCompleted;
  - (void) _noteTransactionStateInAuditHistory;
  - (void) setDebugLogger:(id)a;
  - (id) _parentTransaction;
  - (void) _childTransactionDidComplete:(id)a;
  - (id) _customizedDescriptionProperties;
- - (id) _stringForState:(Q)a;
+ - (id) _stringForState:(unsigned long long)a;
  - (void) _willAddChildTransaction:(id)a;
  - (void) _setParentTransaction:(id)a;
  - (void) _didAddChildTransaction:(id)a;
@@ -98,7 +98,7 @@
  - (void) _addLifeAssertion:(id)a;
  - (void) _removeLifeAssertion:(id)a;
  - (id) _loggingProem;
- - (d) watchdogTimeout;
+ - (double) watchdogTimeout;
  - (BOOL) shouldWatchdog:(^@)a;
  - (id) milestones;
  - (id) childTransactions;

@@ -17,14 +17,14 @@
  - (id) keyboard;
  - (id) _keyboard;
  - (void) setKeyboard:(id)a;
- - (id) accessoryViewForEdge:(q)a;
+ - (id) accessoryViewForEdge:(long long)a;
  - (id) keyboardConstraits;
- - (id) constraintFromView:(id)aattribute:(q)btoView:(id)cattribute:(q)d;
+ - (id) constraintFromView:(id)aattribute:(long long)btoView:(id)cattribute:(long long)d;
  - (void) setKeyboardConstraits:(id)a;
- - (void) setConstraits:(id)aforEdge:(q)b;
- - (id) constraitsForEdge:(q)a;
+ - (void) setConstraits:(id)aforEdge:(long long)b;
+ - (id) constraitsForEdge:(long long)a;
  - (id) persistentDelegate;
- - (void) setAccessoryView:(id)aforEdge:(q)b;
+ - (void) setAccessoryView:(id)aforEdge:(long long)b;
  - (void) setPersistentDelegate:(id)a;
  - (id) init;
 

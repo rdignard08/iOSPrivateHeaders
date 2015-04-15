@@ -7,13 +7,13 @@
 }
 
  - (void) dealloc;
- - (void) setCornerRadius:(d)a;
+ - (void) setCornerRadius:(double)a;
  - (void) setHighlighted:(BOOL)aanimated:(BOOL)b;
- - (id) initWithStyle:(q)a;
+ - (id) initWithStyle:(long long)a;
  - (void) setPressed:(BOOL)aanimated:(BOOL)b;
- - (id) _filterForBackdropStyle:(q)a;
- - (id) _dimmingKnockoutBackgroundColorForBackdropStyle:(q)a;
- - (d) cornerRadius;
+ - (id) _filterForBackdropStyle:(long long)a;
+ - (id) _dimmingKnockoutBackgroundColorForBackdropStyle:(long long)a;
+ - (double) cornerRadius;
 
 
 @end

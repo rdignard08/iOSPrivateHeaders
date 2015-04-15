@@ -11,7 +11,7 @@
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

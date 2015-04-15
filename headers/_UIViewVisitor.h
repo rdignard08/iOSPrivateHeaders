@@ -4,7 +4,7 @@
     BOOL _visitMaskViews;
     BOOL _tracksHierarchy;
     BOOL __currentlyVisitingHierarchy;
-    Q _traversalDirection;
+    unsigned long long _traversalDirection;
 }
 @property (nonatomic, assign, readwrite) NSNumber* visitMaskViews;
 @property (nonatomic, assign, readwrite) NSNumber* tracksHierarchy;
@@ -14,8 +14,8 @@
  + (void) _removeHierarchyTrackingVisitor:(id)a;
  + (void) _startTraversalOfVisitor:(id)awithView:(id)b;
 
- - (id) initWithTraversalDirection:(Q)a;
- - (Q) traversalDirection;
+ - (id) initWithTraversalDirection:(unsigned long long)a;
+ - (unsigned long long) traversalDirection;
  - (void) setTracksHierarchy:(BOOL)a;
  - (BOOL) tracksHierarchy;
  - (BOOL) _prepareVisitor:(id)atoVisitView:(id)bchangedSubview:(id)cpreviousWindow:(id)dpreviousSuperview:(id)e;

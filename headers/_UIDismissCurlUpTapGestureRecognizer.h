@@ -1,13 +1,13 @@
 
 @interface _UIDismissCurlUpTapGestureRecognizer : UITapGestureRecognizer {
 
-    f _curlUpDY;
+    float _curlUpDY;
 }
 
  - (BOOL) canBePreventedByGestureRecognizer:(id)a;
- - (f) _curlUpDY;
+ - (float) _curlUpDY;
  - (BOOL) _delegateShouldReceiveTouch:(id)a;
- - (void) _setCurlUpDY:(f)a;
+ - (void) _setCurlUpDY:(float)a;
 
 
 @end

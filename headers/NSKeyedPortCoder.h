@@ -7,26 +7,26 @@
     @"NSMutableArray" containers;
     @"NSMutableArray" components;
     BOOL mainDataFinished;
-    Q nextGenericIndex;
-    Q nextOutOfLineGenericIndex;
+    unsigned long long nextGenericIndex;
+    unsigned long long nextOutOfLineGenericIndex;
     BOOL isBycopy;
     BOOL isByref;
     BOOL isValid;
     @"NSMutableArray" importedObjects;
 }
 
- - (q) versionForClassName:(id)a;
- - (void) encodeBytes:(r^v)alength:(Q)b;
+ - (long long) versionForClassName:(id)a;
+ - (void) encodeBytes:(r^v)alength:(unsigned long long)b;
  - (void) encodeDataObject:(id)a;
  - (^v) decodeBytesWithReturnedLength:(^Q)a;
  - (id) decodeDataObject;
  - (void) encodeBycopyObject:(id)a;
- - (void) encodeInt:(i)aforKey:(id)b;
- - (i) decodeIntForKey:(id)a;
+ - (void) encodeInt:(int)aforKey:(id)b;
+ - (int) decodeIntForKey:(id)a;
  - (id) _decodePropertyListForKey:(id)a;
  - (void) encodeByrefObject:(id)a;
  - (void) encodeConditionalObject:(id)aforKey:(id)b;
- - (f) decodeFloatForKey:(id)a;
+ - (float) decodeFloatForKey:(id)a;
  - (id) initWithReceivePort:(id)asendPort:(id)bcomponents:(id)c;
  - (id) connection;
  - (id) importedObjects;
@@ -61,29 +61,29 @@
  - (void) dealloc;
  - (void) invalidate;
  - (BOOL) allowsKeyedCoding;
- - (void) encodeInteger:(q)aforKey:(id)b;
- - (void) encodeInt64:(q)aforKey:(id)b;
+ - (void) encodeInteger:(long long)aforKey:(id)b;
+ - (void) encodeInt64:(long long)aforKey:(id)b;
  - (void) _encodePropertyList:(id)aforKey:(id)b;
  - (void) encodeObject:(id)aforKey:(id)b;
  - (void) encodeBool:(BOOL)aforKey:(id)b;
- - (void) encodeBytes:(r*)alength:(Q)bforKey:(id)c;
+ - (void) encodeBytes:(r*)alength:(unsigned long long)bforKey:(id)c;
  - (r*) decodeBytesForKey:(id)areturnedLength:(^Q)b;
  - (id) decodeObjectForKey:(id)a;
- - (q) decodeInt64ForKey:(id)a;
- - (void) encodeInt32:(i)aforKey:(id)b;
- - (i) decodeInt32ForKey:(id)a;
+ - (long long) decodeInt64ForKey:(id)a;
+ - (void) encodeInt32:(int)aforKey:(id)b;
+ - (int) decodeInt32ForKey:(id)a;
  - (void) encodeConditionalObject:(id)a;
  - (id) debugDescription;
  - (void) decodeValueOfObjCType:(r*)aat:(^v)b;
  - (id) decodeObject;
  - (void) encodeValueOfObjCType:(r*)aat:(r^v)b;
  - (void) encodeObject:(id)a;
- - (void) encodeDouble:(d)aforKey:(id)b;
- - (q) decodeIntegerForKey:(id)a;
- - (d) decodeDoubleForKey:(id)a;
+ - (void) encodeDouble:(double)aforKey:(id)b;
+ - (long long) decodeIntegerForKey:(id)a;
+ - (double) decodeDoubleForKey:(id)a;
  - (BOOL) decodeBoolForKey:(id)a;
  - (BOOL) containsValueForKey:(id)a;
- - (void) encodeFloat:(f)aforKey:(id)b;
+ - (void) encodeFloat:(float)aforKey:(id)b;
 
 
 @end

@@ -1,31 +1,31 @@
 
 @interface _UIScreenEdgePanRecognizerDwellSettings : _UISettings {
 
-    d _longPressFlatPermittedHorizontalMovement;
-    d _longPressFlatPermittedVerticalMovement;
-    d _longPressTipPermittedHorizontalMovement;
-    d _longPressTipPermittedVerticalMovement;
-    d _longPressPermittedHorizontalMovement;
-    d _longPressPermittedVerticalMovement;
-    d _longPressRequiredDuration;
+    double _longPressFlatPermittedHorizontalMovement;
+    double _longPressFlatPermittedVerticalMovement;
+    double _longPressTipPermittedHorizontalMovement;
+    double _longPressTipPermittedVerticalMovement;
+    double _longPressPermittedHorizontalMovement;
+    double _longPressPermittedVerticalMovement;
+    double _longPressRequiredDuration;
 }
  + (id) settingsControllerModule;
 
  - (void) setDefaultValues;
- - (void) setLongPressPermittedHorizontalMovement:(d)a;
- - (void) setLongPressPermittedVerticalMovement:(d)a;
- - (void) setLongPressFlatPermittedHorizontalMovement:(d)a;
- - (void) setLongPressFlatPermittedVerticalMovement:(d)a;
- - (void) setLongPressTipPermittedHorizontalMovement:(d)a;
- - (void) setLongPressTipPermittedVerticalMovement:(d)a;
- - (void) setLongPressRequiredDuration:(d)a;
- - (d) longPressFlatPermittedHorizontalMovement;
- - (d) longPressFlatPermittedVerticalMovement;
- - (d) longPressTipPermittedHorizontalMovement;
- - (d) longPressTipPermittedVerticalMovement;
- - (d) longPressPermittedHorizontalMovement;
- - (d) longPressPermittedVerticalMovement;
- - (d) longPressRequiredDuration;
+ - (void) setLongPressPermittedHorizontalMovement:(double)a;
+ - (void) setLongPressPermittedVerticalMovement:(double)a;
+ - (void) setLongPressFlatPermittedHorizontalMovement:(double)a;
+ - (void) setLongPressFlatPermittedVerticalMovement:(double)a;
+ - (void) setLongPressTipPermittedHorizontalMovement:(double)a;
+ - (void) setLongPressTipPermittedVerticalMovement:(double)a;
+ - (void) setLongPressRequiredDuration:(double)a;
+ - (double) longPressFlatPermittedHorizontalMovement;
+ - (double) longPressFlatPermittedVerticalMovement;
+ - (double) longPressTipPermittedHorizontalMovement;
+ - (double) longPressTipPermittedVerticalMovement;
+ - (double) longPressPermittedHorizontalMovement;
+ - (double) longPressPermittedVerticalMovement;
+ - (double) longPressRequiredDuration;
 
 
 @end

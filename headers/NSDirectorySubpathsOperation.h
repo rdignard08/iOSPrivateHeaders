@@ -4,7 +4,7 @@
     @"NSMutableArray" _subpaths;
 }
  + (id) directorySubpathsOperationAtPath:(id)a;
- + (id) _errorWithErrno:(i)aatPath:(id)b;
+ + (id) _errorWithErrno:(int)aatPath:(id)b;
 
  - (id) subpaths;
  - (void) handlePathname:(id)a;

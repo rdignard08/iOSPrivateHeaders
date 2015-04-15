@@ -4,7 +4,7 @@
 }
 
  - (id) _presentationControllerForTraitCollection:(id)a;
- - (q) attributeToAlignAlertControllerViewBy;
+ - (long long) attributeToAlignAlertControllerViewBy;
 
 
 @end

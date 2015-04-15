@@ -2,8 +2,8 @@
 @interface CIBarcodeDetector : CIDetector {
 
     @"CIContext" context;
-    d _width;
-    d _height;
+    double _width;
+    double _height;
     @"NSMutableDictionary" featureOptions;
 }
 

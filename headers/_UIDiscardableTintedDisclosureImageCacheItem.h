@@ -12,7 +12,7 @@
  - (BOOL) beginContentAccess;
  - (void) endContentAccess;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) discardContentIfPossible;
  - (BOOL) isContentDiscarded;

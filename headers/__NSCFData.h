@@ -2,27 +2,27 @@
 @interface __NSCFData : NSMutableData {
 
     [4C] _cfinfo;
-    I _rc;
-    q _length;
-    q _capacity;
+    unsigned int _rc;
+    long long _length;
+    long long _capacity;
     ^{__CFAllocator=} _bytesDeallocator;
-    * _bytes;
+    char* _bytes;
 }
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) finalize;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (r^v) bytes;
  - (^v) mutableBytes;
- - (void) setLength:(Q)a;
- - (Q) hash;
+ - (void) setLength:(unsigned long long)a;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (Q) length;
+ - (unsigned long long) length;
 
 
 @end

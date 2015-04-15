@@ -7,16 +7,16 @@
  - (id) lightKeycapsFontName;
  - (void) _customizeTraits:(id)aforPopupForKey:(id)bwithRenderConfig:(id)ckeycapsFontName:(id)d;
  - (id) thinKeycapsFontName;
- - (d) keyCornerRadius;
- - (d) controlColumnWidthFactor;
+ - (double) keyCornerRadius;
+ - (double) controlColumnWidthFactor;
  - (void) setupLayoutSegments;
- - (d) spaceKeyFontSize;
- - (d) deleteKeyFontSize;
+ - (double) spaceKeyFontSize;
+ - (double) deleteKeyFontSize;
  - ({CGPoint=dd}) spaceReturnKeyTextOffset;
- - (d) moreKeyFontSize;
- - (d) internationalKeyFontSize;
- - (d) dictationKeyFontSize;
- - (d) dismissKeyFontSize;
+ - (double) moreKeyFontSize;
+ - (double) internationalKeyFontSize;
+ - (double) dictationKeyFontSize;
+ - (double) dismissKeyFontSize;
  - ({CGPoint=dd}) dismissKeyOffset;
 
 

@@ -3,13 +3,13 @@
 @interface UIAlertAction : NSObject <NSCopying> {
 
     @"NSString" _title;
-    q _titleTextAlignment;
+    long long _titleTextAlignment;
     BOOL _enabled;
     BOOL _checked;
     BOOL _isDefault;
     @"UIColor" _imageTintColor;
     @"UIColor" _titleTextColor;
-    q _style;
+    long long _style;
     @? _handler;
     @? _simpleHandler;
     @"UIImage" _image;
@@ -31,10 +31,10 @@
 @property (atomic, assign, readwrite, _setRepresenter:) NSNumber* _representer;
 @property (atomic, assign, readwrite, _setIsDefault:) NSNumber* _isDefault;
 @property (nonatomic, assign, readwrite, _setAlertController:) UIAlertController* _alertController;
- + (id) actionWithTitle:(id)astyle:(q)bhandler:(@?)c;
- + (id) _actionWithTitle:(id)aimage:(id)bstyle:(q)chandler:(@?)dshouldDismissHandler:(@?)e;
- + (id) _actionWithTitle:(id)adescriptiveText:(id)bimage:(id)cstyle:(q)dhandler:(@?)eshouldDismissHandler:(@?)f;
- + (id) _actionWithContentViewController:(id)astyle:(q)b;
+ + (id) actionWithTitle:(id)astyle:(long long)bhandler:(@?)c;
+ + (id) _actionWithTitle:(id)aimage:(id)bstyle:(long long)chandler:(@?)dshouldDismissHandler:(@?)e;
+ + (id) _actionWithTitle:(id)adescriptiveText:(id)bimage:(id)cstyle:(long long)dhandler:(@?)eshouldDismissHandler:(@?)f;
+ + (id) _actionWithContentViewController:(id)astyle:(long long)b;
 
  - (id) title;
  - (void) setTitle:(id)a;
@@ -50,7 +50,7 @@
  - (id) _contentViewController;
  - (id) _alertController;
  - (void) _setDescriptiveText:(id)a;
- - (void) _setTitleTextAlignment:(q)a;
+ - (void) _setTitleTextAlignment:(long long)a;
  - (void) _setChecked:(BOOL)a;
  - (void) _setIsDefault:(BOOL)a;
  - (void) _setContentViewController:(id)a;
@@ -58,7 +58,7 @@
  - (BOOL) _isDefault;
  - (BOOL) _isChecked;
  - (id) _descriptiveText;
- - (q) _titleTextAlignment;
+ - (long long) _titleTextAlignment;
  - (id) _imageTintColor;
  - (void) _setImageTintColor:(id)a;
  - (void) _setTitleTextColor:(id)a;
@@ -66,11 +66,11 @@
  - (void) _didAddContentViewController;
  - (void) _setRepresenter:(id)a;
  - (void) setImage:(id)a;
- - (q) style;
+ - (long long) style;
  - (@?) handler;
  - (void) setHandler:(@?)a;
  - (id) image;
- - (void) setStyle:(q)a;
+ - (void) setStyle:(long long)a;
  - (BOOL) isEnabled;
  - (void) setEnabled:(BOOL)a;
 

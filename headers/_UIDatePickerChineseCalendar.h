@@ -9,11 +9,11 @@
  - (void) setTimeZone:(id)a;
  - (id) dateFromComponents:(id)a;
  - (id) calendarIdentifier;
- - ({_NSRange=QQ}) maximumRangeOfUnit:(Q)a;
- - ({_NSRange=QQ}) rangeOfUnit:(Q)ainUnit:(Q)bforDate:(id)c;
- - (id) components:(Q)afromDate:(id)b;
- - (id) dateByAddingComponents:(id)atoDate:(id)boptions:(Q)c;
- - (id) components:(Q)afromDate:(id)btoDate:(id)coptions:(Q)d;
+ - ({_NSRange=QQ}) maximumRangeOfUnit:(unsigned long long)a;
+ - ({_NSRange=QQ}) rangeOfUnit:(unsigned long long)ainUnit:(unsigned long long)bforDate:(id)c;
+ - (id) components:(unsigned long long)afromDate:(id)b;
+ - (id) dateByAddingComponents:(id)atoDate:(id)boptions:(unsigned long long)c;
+ - (id) components:(unsigned long long)afromDate:(id)btoDate:(id)coptions:(unsigned long long)d;
  - (void) setRealCalendar:(id)a;
  - (id) initWithCalendar:(id)a;
  - (id) realCalendar;

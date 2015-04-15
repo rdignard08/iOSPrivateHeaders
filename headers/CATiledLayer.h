@@ -5,8 +5,8 @@
  + (id) defaultValueForKey:(id)a;
  + (BOOL) CA_automaticallyNotifiesObservers:(Class)a;
  + (BOOL) shouldDrawOnMainThread;
- + (d) fadeDuration;
- + (I) prefetchedTiles;
+ + (double) fadeDuration;
+ + (unsigned int) prefetchedTiles;
 
  - (void) dealloc;
  - (void) didChangeValueForKey:(id)a;
@@ -19,17 +19,17 @@
  - (BOOL) _canDisplayConcurrently;
  - (^{CGColor=}) fillColor;
  - (BOOL) isDrawingEnabled;
- - (Q) levelsOfDetail;
- - (Q) levelsOfDetailBias;
+ - (unsigned long long) levelsOfDetail;
+ - (unsigned long long) levelsOfDetailBias;
  - ({CGSize=dd}) tileSize;
- - (d) maximumTileScale;
- - (void) setLevelsOfDetail:(Q)a;
- - (void) setLevelsOfDetailBias:(Q)a;
- - (void) setNeedsDisplayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})alevelOfDetail:(i)boptions:(id)c;
- - (void) setNeedsDisplayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})alevelOfDetail:(i)b;
- - (BOOL) canDrawRect:({CGRect={CGPoint=dd}{CGSize=dd}})alevelOfDetail:(i)b;
- - (void) displayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})alevelOfDetail:(i)boptions:(id)c;
- - (void) setMaximumTileScale:(d)a;
+ - (double) maximumTileScale;
+ - (void) setLevelsOfDetail:(unsigned long long)a;
+ - (void) setLevelsOfDetailBias:(unsigned long long)a;
+ - (void) setNeedsDisplayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})alevelOfDetail:(int)boptions:(id)c;
+ - (void) setNeedsDisplayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})alevelOfDetail:(int)b;
+ - (BOOL) canDrawRect:({CGRect={CGPoint=dd}{CGSize=dd}})alevelOfDetail:(int)b;
+ - (void) displayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})alevelOfDetail:(int)boptions:(id)c;
+ - (void) setMaximumTileScale:(double)a;
  - (void) setDrawingEnabled:(BOOL)a;
  - (void) setFillColor:(^{CGColor=})a;
  - (void) setTileSize:({CGSize=dd})a;

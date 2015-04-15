@@ -11,9 +11,9 @@
  - (void) dealloc;
  - (id) initWithNibName:(id)abundle:(id)b;
  - (void) loadView;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
- - (void) willRotateToInterfaceOrientation:(q)aduration:(d)b;
- - (void) didRotateFromInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
+ - (void) willRotateToInterfaceOrientation:(long long)aduration:(double)b;
+ - (void) didRotateFromInterfaceOrientation:(long long)a;
  - (void) loadHTMLString:(id)abaseURL:(id)b;
  - (id) _makeAlertView;
  - (void) _willAppearInRemoteViewController;

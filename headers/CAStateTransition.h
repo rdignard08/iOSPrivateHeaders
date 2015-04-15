@@ -11,7 +11,7 @@
 @property (nonatomic, copy, readwrite) NSArray* elements;
  + (void) CAMLParserStartElement:(id)a;
 
- - (d) duration;
+ - (double) duration;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (id) debugDescription;

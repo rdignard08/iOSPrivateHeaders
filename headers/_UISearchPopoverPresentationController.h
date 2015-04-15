@@ -12,14 +12,14 @@
  - (void) presentationTransitionWillBegin;
  - (void) _transitionFromWillBegin;
  - (void) _transitionToWillBegin;
- - (q) adaptivePresentationStyle;
+ - (long long) adaptivePresentationStyle;
  - (id) initWithPresentedViewController:(id)apresentingViewController:(id)b;
  - (id) _presentationControllerForTraitCollection:(id)a;
  - (id) searchBarContainerView;
  - (BOOL) searchBarToBecomeTopAttached;
- - (d) statusBarAdjustment;
+ - (double) statusBarAdjustment;
  - (void) setContentVisible:(BOOL)a;
- - (d) resultsControllerContentOffset;
+ - (double) resultsControllerContentOffset;
  - (BOOL) shouldAccountForStatusBar;
  - (id) adaptivePresentationController;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) finalFrameForContainerView;

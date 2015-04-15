@@ -6,20 +6,20 @@
     BOOL _useGrapeFlags;
     BOOL _hasRecordedData;
     BOOL _hasDoneInitialBackProjectionTest;
-    d _gestureRestrictionFactor;
+    double _gestureRestrictionFactor;
     {CGPoint="x"d"y"d} _initialTouchLocation;
-    d _initialTouchTimestamp;
-    q _initialInterfaceOrientation;
-    Q _touchedRegion;
+    double _initialTouchTimestamp;
+    long long _initialInterfaceOrientation;
+    unsigned long long _touchedRegion;
     @"UIDelayedAction" _recognitionTimer;
     {CGPoint="x"d"y"d} _lastTouchLocation;
-    d _lastTouchTimestamp;
-    q _type;
+    double _lastTouchTimestamp;
+    long long _type;
     BOOL _requiresLongPress;
     BOOL _requiresFlatThumb;
-    Q _targetEdges;
-    q _state;
-    Q _recognizedRegion;
+    unsigned long long _targetEdges;
+    long long _state;
+    unsigned long long _recognizedRegion;
     @"<_UIScreenEdgePanRecognizerDelegate>" _delegate;
     @"_UIScreenEdgePanRecognizerSettings" _settings;
 }
@@ -39,18 +39,18 @@
  - (void) dealloc;
  - (void) setDelegate:(id)a;
  - (id) settings;
- - (q) _type;
- - (void) incorporateTouchSampleAtLocation:({CGPoint=dd})atimestamp:(d)bmodifier:(q)cinterfaceOrientation:(q)d;
- - (Q) recognizedRegion;
+ - (long long) _type;
+ - (void) incorporateTouchSampleAtLocation:({CGPoint=dd})atimestamp:(double)bmodifier:(long long)cinterfaceOrientation:(long long)d;
+ - (unsigned long long) recognizedRegion;
  - (void) setScreenBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (Q) targetEdges;
- - (void) setTargetEdges:(Q)a;
+ - (unsigned long long) targetEdges;
+ - (void) setTargetEdges:(unsigned long long)a;
  - ({CGPoint=dd}) _lastTouchLocation;
  - (void) settings:(id)achangedValueForKey:(id)b;
  - (void) setShouldUseGrapeFlags:(BOOL)a;
- - (void) _incorporateIncrementalSampleAtLocation:({CGPoint=dd})atimestamp:(d)bmodifier:(q)cinterfaceOrientation:(q)d;
- - (void) _incorporateInitialTouchAtLocation:({CGPoint=dd})atimestamp:(d)bmodifier:(q)cinterfaceOrientation:(q)d;
- - (Q) _targetEdges;
+ - (void) _incorporateIncrementalSampleAtLocation:({CGPoint=dd})atimestamp:(double)bmodifier:(long long)cinterfaceOrientation:(long long)d;
+ - (void) _incorporateInitialTouchAtLocation:({CGPoint=dd})atimestamp:(double)bmodifier:(long long)cinterfaceOrientation:(long long)d;
+ - (unsigned long long) _targetEdges;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) screenBounds;
  - (void) _longPressTimerElapsed:(id)a;
  - (void) _idleTimerElapsed:(id)a;
@@ -60,10 +60,10 @@
  - (void) setRequiresFlatThumb:(BOOL)a;
  - (BOOL) shouldUseGrapeFlags;
  - (BOOL) requiresFlatThumb;
- - (q) state;
+ - (long long) state;
  - (id) delegate;
- - (void) _setState:(q)a;
- - (id) initWithType:(q)a;
+ - (void) _setState:(long long)a;
+ - (id) initWithType:(long long)a;
 
 
 @end

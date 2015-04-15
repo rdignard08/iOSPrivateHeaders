@@ -7,11 +7,11 @@
     @"NSMapTable" _cachedAngularVelocities;
     @"NSMapTable" _cachedLinearVelocities;
     BOOL _allowsRotation;
-    d _elasticity;
-    d _friction;
-    d _density;
-    d _resistance;
-    d _angularResistance;
+    double _elasticity;
+    double _friction;
+    double _density;
+    double _resistance;
+    double _angularResistance;
 }
 
  - (void) removeItem:(id)a;
@@ -21,30 +21,30 @@
  - (id) initWithItems:(id)a;
  - (void) _associate;
  - (void) _dissociate;
- - (void) setElasticity:(d)a;
- - (void) setResistance:(d)a;
- - (d) elasticity;
- - (d) resistance;
- - (d) angularResistance;
+ - (void) setElasticity:(double)a;
+ - (void) setResistance:(double)a;
+ - (double) elasticity;
+ - (double) resistance;
+ - (double) angularResistance;
  - (void) _configureBody:(id)aforView:(id)b;
- - (void) _reevaluate:(Q)a;
+ - (void) _reevaluate:(unsigned long long)a;
  - (BOOL) _useCircularBoundingBox;
  - (void) _setUseCircularBoundingBox:(BOOL)a;
- - (void) setAngularResistance:(d)a;
+ - (void) setAngularResistance:(double)a;
  - (void) addLinearVelocity:({CGPoint=dd})aforItem:(id)b;
  - ({CGPoint=dd}) linearVelocityForItem:(id)a;
  - (void) _setPosition:({CGPoint=dd})aforItem:(id)b;
  - ({CGPoint=dd}) _positionForItem:(id)a;
- - (void) _setAngle:(d)aforItem:(id)b;
- - (d) _angleForItem:(id)a;
- - (void) addAngularVelocity:(d)aforItem:(id)b;
- - (d) angularVelocityForItem:(id)a;
- - (d) _elasticityForItem:(id)a;
- - (d) _frictionForItem:(id)a;
- - (d) _densityForItem:(id)a;
- - (d) _resistanceForItem:(id)a;
- - (d) _angularResistanceForItem:(id)a;
- - (d) _massForItem:(id)a;
+ - (void) _setAngle:(double)aforItem:(id)b;
+ - (double) _angleForItem:(id)a;
+ - (void) addAngularVelocity:(double)aforItem:(id)b;
+ - (double) angularVelocityForItem:(id)a;
+ - (double) _elasticityForItem:(id)a;
+ - (double) _frictionForItem:(id)a;
+ - (double) _densityForItem:(id)a;
+ - (double) _resistanceForItem:(id)a;
+ - (double) _angularResistanceForItem:(id)a;
+ - (double) _massForItem:(id)a;
  - (BOOL) _rotationEnabledForItem:(id)a;
  - (void) applyImpulse:({CGPoint=dd})atoItem:(id)b;
  - (BOOL) useDefaultViewPropertiesApplier;
@@ -53,11 +53,11 @@
  - (void) _commonInit;
  - (void) addItem:(id)a;
  - (BOOL) allowsRotation;
- - (d) friction;
- - (d) density;
+ - (double) friction;
+ - (double) density;
  - (void) setAllowsRotation:(BOOL)a;
- - (void) setFriction:(d)a;
- - (void) setDensity:(d)a;
+ - (void) setFriction:(double)a;
+ - (void) setDensity:(double)a;
 
 
 @end

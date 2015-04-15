@@ -13,7 +13,7 @@
     @"NSArray" _excludedActivityTypes;
     @"UIActivity" _activity;
     @"NSArray" _includedActivityTypes;
-    q _excludedActivityCategories;
+    long long _excludedActivityCategories;
     @"NSArray" _activityTypeOrder;
     @"NSString" _mailAutosaveIdentifier;
     @? _preCompletionHandler;
@@ -26,10 +26,10 @@
     @"_UIActivityGroupListViewController" _activityGroupListViewController;
     @"UIAlertAction" _activityAlertCancelAction;
     @"NSOperationQueue" _activityItemProviderOperationQueue;
-    q _totalProviderCount;
-    q _completedProviderCount;
-    Q _backgroundTaskIdentifier;
-    q _originalPopoverBackgroundStyle;
+    long long _totalProviderCount;
+    long long _completedProviderCount;
+    unsigned long long _backgroundTaskIdentifier;
+    long long _originalPopoverBackgroundStyle;
     Class _originalPopoverBackgroundViewClass;
     @"NSString" _subject;
     @"SFAirDropActivityViewController" _airDropViewController;
@@ -49,16 +49,16 @@
 
  - (void) observeValueForKeyPath:(id)aofObject:(id)bchange:(id)ccontext:(^v)d;
  - (void) dealloc;
- - (Q) supportedInterfaceOrientations;
+ - (unsigned long long) supportedInterfaceOrientations;
  - (void) encodeRestorableStateWithCoder:(id)a;
  - (void) decodeRestorableStateWithCoder:(id)a;
  - (void) viewDidLayoutSubviews;
  - (@?) completionHandler;
  - (void) preferredContentSizeDidChangeForChildContentContainer:(id)a;
  - (void) viewWillTransitionToSize:({CGSize=dd})awithTransitionCoordinator:(id)b;
- - (void) setModalPresentationStyle:(q)a;
+ - (void) setModalPresentationStyle:(long long)a;
  - (void) dismissViewControllerAnimated:(BOOL)acompletion:(@?)b;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (void) _setPopoverController:(id)a;
  - (void) viewDidLoad;
@@ -68,10 +68,10 @@
  - (id) _presentationControllerForPresentedController:(id)apresentingController:(id)bsourceController:(id)c;
  - (BOOL) _requiresCustomPresentationController;
  - (void) presentViewController:(id)aanimated:(BOOL)bcompletion:(@?)c;
- - (void) willRotateToInterfaceOrientation:(q)aduration:(d)b;
+ - (void) willRotateToInterfaceOrientation:(long long)aduration:(double)b;
  - (void) _didResignContentViewControllerOfPopover:(id)a;
  - (id) _containedAlertController;
- - (id) activityGroupViewController:(id)aavailableActivitiesInCategory:(q)b;
+ - (id) activityGroupViewController:(id)aavailableActivitiesInCategory:(long long)b;
  - (void) activityGroupViewController:(id)adidSelectActivity:(id)b;
  - (void) setCompletionWithItemsHandler:(@?)a;
  - (BOOL) sourceIsManaged;
@@ -106,14 +106,14 @@
  - (id) _activityItemValues;
  - (void) _updateActivities:(id)aanimated:(BOOL)b;
  - (id) excludedActivityTypes;
- - (q) excludedActivityCategories;
+ - (long long) excludedActivityCategories;
  - (id) includedActivityTypes;
  - (id) activityItems;
  - (id) activityTypeOrder;
  - (id) _availableActivitiesForItems:(id)a;
  - (void) _updateActivityItems:(id)aanimated:(BOOL)b;
  - (void) setShouldMatchOnlyUserElectedExtensions:(BOOL)a;
- - (id) _newActivityGroupViewControllerForItems:(id)acategory:(q)buserDefaults:(id)c;
+ - (id) _newActivityGroupViewControllerForItems:(id)acategory:(long long)buserDefaults:(id)c;
  - (BOOL) allowsEmbedding;
  - (id) activityAlertControllerShimPresenter;
  - (void) _updatePreferredContentSizes;
@@ -144,7 +144,7 @@
  - (void) airDropActivityDidSuccessfullyCompleteTransfer;
  - (void) airDropActivityDidSuccessfullyStartTransfer;
  - (void) _updateActivityItems:(id)a;
- - (d) _displayHeight;
+ - (double) _displayHeight;
  - (void) _mailAutosaveWithHandler:(@?)a;
  - (id) _titleForActivity:(id)a;
  - (void) _performActivityOfType:(id)a;
@@ -152,7 +152,7 @@
  - (void) setUseBlackPopoverStyle:(BOOL)a;
  - (void) setShowKeyboardAutomatically:(BOOL)a;
  - (void) setIncludedActivityTypes:(id)a;
- - (void) setExcludedActivityCategories:(q)a;
+ - (void) setExcludedActivityCategories:(long long)a;
  - (void) setActivityTypeOrder:(id)a;
  - (void) setAllowsEmbedding:(BOOL)a;
  - (void) setMailAutosaveIdentifier:(id)a;
@@ -161,16 +161,16 @@
  - (void) setAirDropDelegate:(id)a;
  - (id) applicationActivities;
  - (void) setActivityGroupListViewController:(id)a;
- - (q) totalProviderCount;
- - (void) setTotalProviderCount:(q)a;
- - (q) completedProviderCount;
- - (void) setCompletedProviderCount:(q)a;
- - (q) originalPopoverBackgroundStyle;
- - (void) setOriginalPopoverBackgroundStyle:(q)a;
+ - (long long) totalProviderCount;
+ - (void) setTotalProviderCount:(long long)a;
+ - (long long) completedProviderCount;
+ - (void) setCompletedProviderCount:(long long)a;
+ - (long long) originalPopoverBackgroundStyle;
+ - (void) setOriginalPopoverBackgroundStyle:(long long)a;
  - (Class) originalPopoverBackgroundViewClass;
  - (void) setOriginalPopoverBackgroundViewClass:(Class)a;
- - (void) setBackgroundTaskIdentifier:(Q)a;
- - (Q) backgroundTaskIdentifier;
+ - (void) setBackgroundTaskIdentifier:(unsigned long long)a;
+ - (unsigned long long) backgroundTaskIdentifier;
 
 
 @end

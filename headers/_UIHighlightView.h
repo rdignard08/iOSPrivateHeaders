@@ -2,7 +2,7 @@
 @interface _UIHighlightView : UIView {
 
     @"UIColor" _color;
-    d _cornerRadius;
+    double _cornerRadius;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _invertedHighlightClipRect;
     @"NSArray" _cornerRadii;
     @"NSMutableArray" _innerBounds;
@@ -11,7 +11,7 @@
 }
 
  - (void) dealloc;
- - (void) setCornerRadius:(d)a;
+ - (void) setCornerRadius:(double)a;
  - (id) hitTest:({CGPoint=dd})aforEvent:(^{__GSEvent=})b;
  - (void) cleanUp;
  - (void) setCornerRadii:(id)a;

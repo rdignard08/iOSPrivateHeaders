@@ -9,11 +9,11 @@
  - (id) initWithPath:(id)a;
  - (void) dealloc;
  - (id) path;
- - (BOOL) scalarsForKeyPrefix:(id)aminDaysSince1970:(i)bmaxDaysSince1970:(i)crowHandler:(@?)d;
- - (BOOL) distributionsForKeyPrefix:(id)aminDaysSince1970:(i)bmaxDaysSince1970:(i)crowHandler:(@?)d;
+ - (BOOL) scalarsForKeyPrefix:(id)aminDaysSince1970:(int)bmaxDaysSince1970:(int)crowHandler:(@?)d;
+ - (BOOL) distributionsForKeyPrefix:(id)aminDaysSince1970:(int)bmaxDaysSince1970:(int)crowHandler:(@?)d;
  - (id) initWithDefaultPath;
- - (BOOL) scalarsForKeyPrefix:(id)aminDaysSince1970:(i)bmaxDaysSince1970:(i)cwithConsumer:(id)d;
- - (BOOL) distributionsForKeyPrefix:(id)aminDaysSince1970:(i)bmaxDaysSince1970:(i)cwithConsumer:(id)d;
+ - (BOOL) scalarsForKeyPrefix:(id)aminDaysSince1970:(int)bmaxDaysSince1970:(int)cwithConsumer:(id)d;
+ - (BOOL) distributionsForKeyPrefix:(id)aminDaysSince1970:(int)bmaxDaysSince1970:(int)cwithConsumer:(id)d;
 
 
 @end

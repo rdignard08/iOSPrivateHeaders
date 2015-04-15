@@ -8,7 +8,7 @@
  - (id) description;
  - (void) dealloc;
  - (BOOL) isEmpty;
- - (id) initWithLeftValueOptions:(Q)arightValueOptions:(Q)b;
+ - (id) initWithLeftValueOptions:(unsigned long long)arightValueOptions:(unsigned long long)b;
  - (id) rightValueEnumerableForLeftValue:(id)a;
  - (void) registerAssociationWithLeftValue:(id)arightValue:(id)b;
  - (void) unregisterAssociationWithLeftValue:(id)arightValue:(id)b;

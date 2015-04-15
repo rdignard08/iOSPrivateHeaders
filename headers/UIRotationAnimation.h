@@ -1,13 +1,13 @@
 
 @interface UIRotationAnimation : UIAnimation {
 
-    d _startAngle;
-    d _endAngle;
+    double _startAngle;
+    double _endAngle;
 }
 
- - (void) setProgress:(f)a;
- - (void) setStartRotationAngle:(d)a;
- - (void) setEndRotationAngle:(d)a;
+ - (void) setProgress:(float)a;
+ - (void) setStartRotationAngle:(double)a;
+ - (void) setEndRotationAngle:(double)a;
 
 
 @end

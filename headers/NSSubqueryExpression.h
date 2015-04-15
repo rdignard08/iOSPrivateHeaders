@@ -10,7 +10,7 @@
  - (id) minimalFormInContext:(id)a;
  - (void) allowEvaluation;
  - (id) predicateFormat;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (id) _expressionWithSubstitutionVariables:(id)a;
  - (id) initWithExpression:(id)ausingIteratorVariable:(id)bpredicate:(id)c;
  - (BOOL) _shouldUseParensWithDescription;
@@ -18,7 +18,7 @@
  - (id) variableExpression;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

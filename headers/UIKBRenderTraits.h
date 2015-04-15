@@ -16,8 +16,8 @@
     @"NSArray" _variantGeometries;
     @"UIKBRenderTraits" _variantTraits;
     @"UIKBRenderTraits" _highlightedVariantTraits;
-    d _forceOpacity;
-    q _blendForm;
+    double _forceOpacity;
+    long long _blendForm;
     @"NSString" _hashString;
 }
 @property (nonatomic, retain, readwrite) UIKBRenderGeometry* geometry;
@@ -52,7 +52,7 @@
  - (void) setVariantGeometries:(id)a;
  - (void) setVariantTraits:(id)a;
  - (void) setHighlightedVariantTraits:(id)a;
- - (void) setBlendForm:(q)a;
+ - (void) setBlendForm:(long long)a;
  - (void) setControlOpacities:(BOOL)a;
  - (id) variantTraits;
  - (id) variantGeometries;
@@ -60,16 +60,16 @@
  - (void) removeAllRenderEffects;
  - (void) setGeometry:(id)a;
  - (id) hashString;
- - (q) blendForm;
+ - (long long) blendForm;
  - (BOOL) controlOpacities;
  - (void) modifyForMasking;
  - (void) setSecondarySymbolStyle:(id)a;
  - (id) secondarySymbolStyle;
- - (void) setForceOpacity:(d)a;
+ - (void) setForceOpacity:(double)a;
  - (void) setLayeredForegroundGradient:(id)a;
  - (void) overlayWithTraits:(id)a;
  - (id) backgroundGradient;
- - (d) forceOpacity;
+ - (double) forceOpacity;
  - (id) layeredBackgroundGradient;
  - (id) layeredForegroundGradient;
  - (id) fallbackSymbolStyle;

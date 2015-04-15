@@ -11,7 +11,7 @@
  - (id) controlView;
  - (void) controlBeginEditing;
  - (void) controlEndEditing;
- - (id) initWithDOMHTMLSelectElement:(id)acachedItems:(id)bsingleSelectionItem:(id)csingleSelectionIndex:(Q)dmultipleSelection:(BOOL)e;
+ - (id) initWithDOMHTMLSelectElement:(id)acachedItems:(id)bsingleSelectionItem:(id)csingleSelectionIndex:(unsigned long long)dmultipleSelection:(BOOL)e;
  - (void) _userActionDismissedPopover:(id)a;
  - (void) set_tableViewController:(id)a;
 

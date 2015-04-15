@@ -4,7 +4,7 @@
     BOOL _sourceIsManaged;
     @"MFMessageComposeViewController" _messageComposeViewController;
 }
- + (q) activityCategory;
+ + (long long) activityCategory;
 
  - (id) activityType;
  - (void) dealloc;
@@ -18,7 +18,7 @@
  - (void) prepareWithActivityItems:(id)a;
  - (void) setMessageComposeViewController:(id)a;
  - (id) messageComposeViewController;
- - (void) messageComposeViewController:(id)adidFinishWithResult:(i)b;
+ - (void) messageComposeViewController:(id)adidFinishWithResult:(int)b;
  - (void) _cleanup;
 
 

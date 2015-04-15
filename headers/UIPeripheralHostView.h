@@ -1,7 +1,7 @@
 
 @interface UIPeripheralHostView : UIView {
 
-    i _explicitLayoutCount;
+    int _explicitLayoutCount;
     @"UIKeyboardCornerView" _cornerViewLeft;
     @"UIKeyboardCornerView" _cornerViewRight;
     @"UIKBInputBackdropView" _inputBackdropView;
@@ -14,9 +14,9 @@
  - (void) layoutSubviews;
  - (void) didAddSubview:(id)a;
  - (void) _setRenderConfig:(id)a;
- - (i) textEffectsVisibilityLevel;
+ - (int) textEffectsVisibilityLevel;
  - (id) _inheritedRenderConfig;
- - (i) _clipCornersOfView:(id)a;
+ - (int) _clipCornersOfView:(id)a;
  - (void) _resizeForKeyplaneSize:({CGSize=dd})asplitWidthsChanged:(BOOL)b;
  - (void) updateBackdropViewForInputAccessoryView:(BOOL)a;
  - (id) cornerViewLeft;

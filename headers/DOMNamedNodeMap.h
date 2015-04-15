@@ -5,8 +5,8 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (id) item:(I)a;
- - (I) length;
+ - (id) item:(unsigned int)a;
+ - (unsigned int) length;
  - (id) getNamedItem:(id)a;
  - (id) setNamedItem:(id)a;
  - (id) removeNamedItem:(id)a;

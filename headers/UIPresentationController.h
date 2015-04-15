@@ -23,7 +23,7 @@
     @"<UIViewControllerInteractiveTransitioning>" _currentInteractionController;
     @"UIView" _presentationView;
     @"UIView" __currentPresentationSuperview;
-    q _state;
+    long long _state;
     @? __transitionViewForCurrentTransition;
     @? __fromViewForCurrentTransition;
     @? __toViewForCurrentTransition;
@@ -60,7 +60,7 @@
  - (id) containerView;
  - (id) presentingViewController;
  - (id) traitCollection;
- - (q) presentationStyle;
+ - (long long) presentationStyle;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frameOfPresentedViewInContainerView;
  - (BOOL) _presentationPotentiallyUnderlapsStatusBar;
  - (void) _setContainerView:(id)a;
@@ -128,7 +128,7 @@
  - (BOOL) _transitioningTo;
  - (BOOL) _transitioningFrom;
  - (void) _transplantView:(id)atoSuperview:(id)b;
- - (void) _transplantView:(id)atoSuperview:(id)batIndex:(Q)c;
+ - (void) _transplantView:(id)atoSuperview:(id)batIndex:(unsigned long long)c;
  - (BOOL) _shouldGrabPresentersView;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _frameForChildContentContainer:(id)a;
  - (id) presentedView;
@@ -142,14 +142,14 @@
  - (void) _transitionFromWillBegin;
  - (void) _transitionToWillBegin;
  - (void) containerViewWillLayoutSubviews;
- - (q) _defaultPresentationStyleForTraitCollection:(id)a;
- - (q) adaptivePresentationStyleForTraitCollection:(id)a;
+ - (long long) _defaultPresentationStyleForTraitCollection:(id)a;
+ - (long long) adaptivePresentationStyleForTraitCollection:(id)a;
  - (id) _activePresentationController;
  - ({CGSize=dd}) sizeForChildContentContainer:(id)awithParentContainerSize:({CGSize=dd})b;
  - (void) viewWillTransitionToSize:({CGSize=dd})awithTransitionCoordinator:(id)b;
  - ({CGSize=dd}) preferredContentSize;
  - (void) _setPreferredContentSize:({CGSize=dd})a;
- - (q) adaptivePresentationStyle;
+ - (long long) adaptivePresentationStyle;
  - (id) initWithPresentedViewController:(id)apresentingViewController:(id)b;
  - (id) _parentTraitEnvironment;
  - (id) _parentTraitCollection;
@@ -175,13 +175,13 @@
  - (id) _preferredAnimationControllerForDismissal;
  - (BOOL) _shouldAdaptFromTraitCollection:(id)atoTraitCollection:(id)b;
  - (id) _presentationControllerForTraitCollection:(id)a;
- - (void) _sendDelegateWillPresentWithAdaptiveStyle:(q)atransitionCoordinator:(id)b;
+ - (void) _sendDelegateWillPresentWithAdaptiveStyle:(long long)atransitionCoordinator:(id)b;
  - (id) _presentedViewControllerForPresentationController:(id)atraitCollection:(id)b;
  - (void) setOverrideTraitCollection:(id)a;
  - ({CGSize=dd}) _preferredContentSize;
  - (id) _currentTransitionController;
- - (q) state;
- - (void) setState:(q)a;
+ - (long long) state;
+ - (void) setState:(long long)a;
  - (id) delegate;
  - (void) _cleanup;
 

@@ -5,7 +5,7 @@
     @"CADisplayLink" _displayLink;
     @"NSTimer" _timer;
     @"NSMutableArray" _activeAnimations;
-    d _lastUpdateTime;
+    double _lastUpdateTime;
     BOOL _shouldSchedYield;
 }
 

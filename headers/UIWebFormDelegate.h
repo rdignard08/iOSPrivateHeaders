@@ -8,7 +8,7 @@
 
  - (void) dealloc;
  - (void) acceptedAutoFillWord:(id)a;
- - ({?=@Q}) suggestionsForString:(id)ainputIndex:(I)b;
+ - ({?=@Q}) suggestionsForString:(id)ainputIndex:(unsigned int)b;
  - (BOOL) hasCurrentSuggestions;
  - (BOOL) _shouldIgnoreFormTextChangesInFrame:(id)a;
  - (void) _didEditFormElement:(id)ainFrame:(id)b;

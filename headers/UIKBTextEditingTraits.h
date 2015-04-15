@@ -26,9 +26,9 @@
 @property (nonatomic, assign, readonly) NSNumber* canPaste;
 @property (nonatomic, assign, readonly) NSNumber* canMoveCursorLeft;
 @property (nonatomic, assign, readonly) NSNumber* canMoveCursorRight;
- + (id) traitsWithResponder:(id)akeyMaskFlags:(Q)b;
+ + (id) traitsWithResponder:(id)akeyMaskFlags:(unsigned long long)b;
 
- - (id) initWithResponder:(id)akeyMaskFlags:(Q)b;
+ - (id) initWithResponder:(id)akeyMaskFlags:(unsigned long long)b;
  - (BOOL) canToggleBoldface;
  - (BOOL) canToggleItalics;
  - (BOOL) canToggleUnderline;

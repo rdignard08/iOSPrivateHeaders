@@ -1,13 +1,13 @@
 
 @interface NSURLSessionAVAssetDownloadTask : NSURLSessionTask {
 
-    Q _AVAssetDownloadToken;
+    unsigned long long _AVAssetDownloadToken;
     @"NSURL" _URL;
     @"NSURL" _destinationURL;
 }
 
  - (id) URL;
- - (Q) AVAssetDownloadToken;
+ - (unsigned long long) AVAssetDownloadToken;
  - (id) destinationURL;
 
 

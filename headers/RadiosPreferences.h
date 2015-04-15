@@ -2,7 +2,7 @@
 @interface RadiosPreferences : NSObject {
 
     ^{__SCPreferences=} _prefs;
-    i _applySkipCount;
+    int _applySkipCount;
     @"<RadiosPreferencesDelegate>" _delegate;
     BOOL _isCachedAirplaneModeValid;
     BOOL _cachedAirplaneMode;
@@ -23,7 +23,7 @@
  - (void) setDelegate:(id)a;
  - (id) init;
  - (id) delegate;
- - (void) notifyTarget:(I)a;
+ - (void) notifyTarget:(unsigned int)a;
  - (void) initializeSCPrefs:(id)a;
  - (void) setAirplaneModeWithoutMirroring:(BOOL)a;
  - (BOOL) notifyForExternalChangeOnly;

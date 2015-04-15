@@ -4,7 +4,7 @@
 
     @"UIKeyboardCandidateGridHeader" _header;
 }
- + (d) defaultExtendedControlHeight;
+ + (double) defaultExtendedControlHeight;
 
  - (void) dealloc;
  - (void) layoutSubviews;

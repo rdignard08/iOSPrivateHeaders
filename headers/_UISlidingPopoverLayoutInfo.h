@@ -4,7 +4,7 @@
 }
 
  - (void) _updateOutputs;
- - ({CGSize=dd}) _popoverViewSizeForContentSize:({CGSize=dd})aarrowDirection:(Q)b;
+ - ({CGSize=dd}) _popoverViewSizeForContentSize:({CGSize=dd})aarrowDirection:(unsigned long long)b;
  - (id) init;
 
 

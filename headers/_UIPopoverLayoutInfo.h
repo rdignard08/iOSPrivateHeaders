@@ -3,16 +3,16 @@
 @interface _UIPopoverLayoutInfo : NSObject <NSCopying> {
 
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _contentInset;
-    d _arrowHeight;
+    double _arrowHeight;
     {CGSize="width"d"height"d} _preferredContentSize;
-    Q _preferredArrowDirections;
+    unsigned long long _preferredArrowDirections;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _containingFrame;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _containingFrameInsets;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _targetRect;
     BOOL _constrainToTargetRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frame;
-    d _offset;
-    Q _arrowDirection;
+    double _offset;
+    unsigned long long _arrowDirection;
     BOOL _preferLandscapeOrientations;
     BOOL _updatesEnabled;
     @"NSMutableArray" _candidates;
@@ -42,27 +42,27 @@
  - (void) setPreferredContentSize:({CGSize=dd})a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) targetRect;
  - (void) setTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (Q) arrowDirection;
+ - (unsigned long long) arrowDirection;
  - (void) _setUpdatesEnabled:(BOOL)a;
- - (void) setArrowHeight:(d)a;
- - (void) setPreferredArrowDirections:(Q)a;
+ - (void) setArrowHeight:(double)a;
+ - (void) setPreferredArrowDirections:(unsigned long long)a;
  - (void) setContainingFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setContainingFrameInsets:({UIEdgeInsets=dddd})a;
  - (void) setConstrainToTargetRect:(BOOL)a;
  - (void) setPreferLandscapeOrientations:(BOOL)a;
  - (void) _updateOutputs;
- - (Q) preferredArrowDirections;
+ - (unsigned long long) preferredArrowDirections;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) containingFrame;
  - ({UIEdgeInsets=dddd}) containingFrameInsets;
  - (BOOL) constrainToTargetRect;
  - (BOOL) preferLandscapeOrientations;
- - ({CGSize=dd}) _popoverViewSizeForContentSize:({CGSize=dd})aarrowDirection:(Q)b;
+ - ({CGSize=dd}) _popoverViewSizeForContentSize:({CGSize=dd})aarrowDirection:(unsigned long long)b;
  - (void) setProperties:(@?)a;
- - (d) arrowHeight;
+ - (double) arrowHeight;
  - (BOOL) _updatesEnabled;
  - (id) init;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frame;
- - (d) offset;
+ - (double) offset;
  - (id) candidates;
 
 

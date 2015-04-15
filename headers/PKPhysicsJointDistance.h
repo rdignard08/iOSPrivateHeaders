@@ -10,9 +10,9 @@
  + (id) jointWithBodyA:(id)abodyB:(id)banchorA:({CGPoint=dd})canchorB:({CGPoint=dd})d;
 
  - (id) .cxx_construct;
- - (void) setLength:(d)a;
+ - (void) setLength:(double)a;
  - (void) setCollideConnected:(BOOL)a;
- - (d) length;
+ - (double) length;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (^{b2Joint=^^?i^{b2Joint}^{b2Joint}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}^{b2Body}^{b2Body}BB^v}) _joint;
@@ -21,10 +21,10 @@
  - (void) create;
  - (id) initWithBodyA:(id)abodyB:(id)blocalAnchorA:({CGPoint=dd})clocalAnchorB:({CGPoint=dd})d;
  - (id) initWithBodyA:(id)abodyB:(id)banchorA:({CGPoint=dd})canchorB:({CGPoint=dd})d;
- - (d) damping;
- - (d) frequency;
- - (void) setDamping:(d)a;
- - (void) setFrequency:(d)a;
+ - (double) damping;
+ - (double) frequency;
+ - (void) setDamping:(double)a;
+ - (void) setFrequency:(double)a;
  - (BOOL) collideConnected;
 
 

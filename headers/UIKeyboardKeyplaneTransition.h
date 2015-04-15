@@ -1,11 +1,11 @@
 
 @interface UIKeyboardKeyplaneTransition : NSObject {
 
-    d _currentProgress;
-    d _liftOffProgress;
-    d _finishProgress;
-    d _finishDuration;
-    d _finalTransitionStartTime;
+    double _currentProgress;
+    double _liftOffProgress;
+    double _finishProgress;
+    double _finishDuration;
+    double _finalTransitionStartTime;
     @"CADisplayLink" _displayLink;
     @"UIKBTree" _start;
     @"UIKBTree" _end;
@@ -26,14 +26,14 @@
  - (void) dealloc;
  - (void) removeAllAnimations;
  - (id) transitionDelegate;
- - (d) startHeight;
- - (d) endHeight;
+ - (double) startHeight;
+ - (double) endHeight;
  - (void) finalizeTransition;
- - (void) updateWithProgress:(d)a;
+ - (void) updateWithProgress:(double)a;
  - (void) transitionToFinalState:(id)a;
  - (void) rebuildWithStartKeyplane:(id)astartView:(id)bendKeyplane:(id)cendView:(id)d;
  - (void) commitTransitionRebuild;
- - (void) finishWithProgress:(d)acompletionBlock:(@?)b;
+ - (void) finishWithProgress:(double)acompletionBlock:(@?)b;
  - (BOOL) canDisplayTransitionFromKeyplane:(id)atoKeyplane:(id)b;
  - (void) setTransitionDelegate:(id)a;
  - (BOOL) initiallyAtEnd;

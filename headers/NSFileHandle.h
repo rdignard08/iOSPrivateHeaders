@@ -13,9 +13,9 @@
  + (id) fileHandleForUpdatingAtPath:(id)a;
  + (id) fileHandleForWritingToURL:(id)aerror:(^@)b;
  + (id) fileHandleForUpdatingURL:(id)aerror:(^@)b;
- + (id) fileHandleForReadingFromURL:(id)amode:(S)berror:(^@)c;
- + (id) fileHandleForWritingToURL:(id)amode:(S)berror:(^@)c;
- + (id) fileHandleForUpdatingURL:(id)amode:(S)berror:(^@)c;
+ + (id) fileHandleForReadingFromURL:(id)amode:(unsigned short)berror:(^@)c;
+ + (id) fileHandleForWritingToURL:(id)amode:(unsigned short)berror:(^@)c;
+ + (id) fileHandleForUpdatingURL:(id)amode:(unsigned short)berror:(^@)c;
  + (void) initialize;
  + (id) allocWithZone:(^{_NSZone=})a;
  + (id) fileHandleForReadingFromURL:(id)aerror:(^@)b;
@@ -25,17 +25,17 @@
  - (void) ml_lock;
  - (void) ml_unlock;
  - (Class) classForCoder;
- - (id) initWithFileDescriptor:(i)acloseOnDealloc:(BOOL)b;
- - (id) initWithPath:(id)aflags:(q)bcreateMode:(q)cerror:(^@)d;
- - (id) initWithPath:(id)aflags:(q)bcreateMode:(q)c;
- - (id) initWithURL:(id)aflags:(q)bcreateMode:(q)cerror:(^@)d;
- - (id) initWithFileDescriptor:(i)a;
+ - (id) initWithFileDescriptor:(int)acloseOnDealloc:(BOOL)b;
+ - (id) initWithPath:(id)aflags:(long long)bcreateMode:(long long)cerror:(^@)d;
+ - (id) initWithPath:(id)aflags:(long long)bcreateMode:(long long)c;
+ - (id) initWithURL:(id)aflags:(long long)bcreateMode:(long long)cerror:(^@)d;
+ - (id) initWithFileDescriptor:(int)a;
  - (id) availableData;
  - (id) readDataToEndOfFile;
- - (id) readDataOfLength:(Q)a;
- - (Q) offsetInFile;
- - (Q) seekToEndOfFile;
- - (void) truncateFileAtOffset:(Q)a;
+ - (id) readDataOfLength:(unsigned long long)a;
+ - (unsigned long long) offsetInFile;
+ - (unsigned long long) seekToEndOfFile;
+ - (void) truncateFileAtOffset:(unsigned long long)a;
  - (void) synchronizeFile;
  - (@?) writeabilityHandler;
  - (void) setWriteabilityHandler:(@?)a;
@@ -43,9 +43,9 @@
  - (void) setReadabilityHandler:(@?)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (i) fileDescriptor;
+ - (int) fileDescriptor;
  - (void) closeFile;
- - (void) seekToFileOffset:(Q)a;
+ - (void) seekToFileOffset:(unsigned long long)a;
  - (void) writeData:(id)a;
 
 

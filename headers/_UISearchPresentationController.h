@@ -25,7 +25,7 @@
  - (void) _transitionFromWillBegin;
  - (void) _transitionToWillBegin;
  - (void) viewWillTransitionToSize:({CGSize=dd})awithTransitionCoordinator:(id)b;
- - (q) adaptivePresentationStyle;
+ - (long long) adaptivePresentationStyle;
  - (id) initWithPresentedViewController:(id)apresentingViewController:(id)b;
  - (BOOL) _shouldKeepCurrentFirstResponder;
  - (void) _transitionToPresentationController:(id)awithTransitionCoordinator:(id)b;
@@ -33,13 +33,13 @@
  - (id) _presentedViewControllerForPresentationController:(id)atraitCollection:(id)b;
  - (id) searchBarContainerView;
  - (BOOL) searchBarToBecomeTopAttached;
- - (d) statusBarAdjustment;
+ - (double) statusBarAdjustment;
  - (void) setContentVisible:(BOOL)a;
- - (d) resultsControllerContentOffset;
+ - (double) resultsControllerContentOffset;
  - (BOOL) shouldAccountForStatusBar;
  - (id) adaptivePresentationController;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) finalFrameForContainerView;
- - (d) _visibleRefreshControlHeightForTableView:(id)a;
+ - (double) _visibleRefreshControlHeightForTableView:(id)a;
  - (void) _exciseSearchBarFromCurrentContext;
  - (void) _updateContainerFinalFrameForNonExcisedSearchBar;
  - (void) _updatePresentingViewControllerContentScrollViewWithOffsets:({CGSize=dd})atransitionCoordinator:(id)b;

@@ -13,21 +13,21 @@
 
  - (id) fileModificationDate;
  - (id) fileType;
- - (Q) filePosixPermissions;
+ - (unsigned long long) filePosixPermissions;
  - (id) fileOwnerAccountName;
- - (Q) fileOwnerAccountNumber;
+ - (unsigned long long) fileOwnerAccountNumber;
  - (id) fileGroupOwnerAccountName;
- - (Q) fileGroupOwnerAccountNumber;
- - (q) fileSystemNumber;
- - (Q) fileSystemFileNumber;
+ - (unsigned long long) fileGroupOwnerAccountNumber;
+ - (long long) fileSystemNumber;
+ - (unsigned long long) fileSystemFileNumber;
  - (BOOL) isDirectory;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) keyEnumerator;
- - (Q) fileSize;
+ - (unsigned long long) fileSize;
 
 
 @end

@@ -6,10 +6,10 @@
     b1 _hiding;
     b1 _showAsPlus;
     b28 _reserved;
-    f _verticalOffset;
+    float _verticalOffset;
 }
  + (id) minusImage;
- + (f) defaultWidth;
+ + (float) defaultWidth;
  + (id) plusImage;
 
  - (void) dealloc;

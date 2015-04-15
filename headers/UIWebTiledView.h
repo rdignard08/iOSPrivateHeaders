@@ -2,8 +2,8 @@
 @interface UIWebTiledView : UIView {
 
     @"WAKWindow" _wakWindow;
-    i _inGestureType;
-    i _tilingArea;
+    int _inGestureType;
+    int _tilingArea;
     BOOL _didFirstTileLayout;
     BOOL _layoutTilesInMainThread;
     BOOL _tilingModeIsLocked;
@@ -15,18 +15,18 @@
  - (void) layoutSubviews;
  - (void) willMoveToWindow:(id)a;
  - (void) _didScroll;
- - (void) setMaxTileCount:(I)a;
+ - (void) setMaxTileCount:(unsigned int)a;
  - (void) setTilingEnabled:(BOOL)a;
  - (void) setLayoutTilesInMainThread:(BOOL)a;
  - (void) layoutTilesNow;
  - (void) setEditingTilingModeEnabled:(BOOL)a;
  - (void) removeAllNonVisibleTiles;
- - (void) setTilingArea:(i)a;
+ - (void) setTilingArea:(int)a;
  - (void) setTilesOpaque:(BOOL)a;
  - (void) removeAllTiles;
  - (void) removeForegroundTiles;
- - (void) setInGesture:(i)a;
- - (i) tilingArea;
+ - (void) setInGesture:(int)a;
+ - (int) tilingArea;
  - (void) _updateForScreen:(id)a;
  - (void) _screenChanged:(id)a;
  - (void) layoutTilesNowForRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
@@ -44,8 +44,8 @@
  - (void) setAllowsPaintingAndScriptsWhilePanning:(BOOL)a;
  - (void) setDrawsGrid:(BOOL)a;
  - (BOOL) drawsGrid;
- - (I) maxTileCount;
- - (I) adjustedMaxTileCount;
+ - (unsigned int) maxTileCount;
+ - (unsigned int) adjustedMaxTileCount;
  - (BOOL) isTilingEnabled;
  - (void) setLogsTilingChanges:(BOOL)a;
  - (BOOL) logsTilingChanges;

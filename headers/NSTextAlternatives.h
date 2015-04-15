@@ -23,8 +23,8 @@
  - (id) initWithOriginalText:(id)aalternatives:(id)b;
  - (id) initWithOriginalText:(id)aalternatives:(id)bidentifier:(id)c;
  - (void) noteSelectedAlternativeString:(id)a;
- - (Q) numberOfAlternatives;
- - (id) alternativeAtIndex:(Q)a;
+ - (unsigned long long) numberOfAlternatives;
+ - (id) alternativeAtIndex:(unsigned long long)a;
 
 
 @end

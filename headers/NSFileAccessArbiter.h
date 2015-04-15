@@ -48,7 +48,7 @@
  - (void) _removeReactorForID:(id)a;
  - (void) _addProvider:(id)aofItemsAtURL:(id)b;
  - (void) _startArbitratingItemsAtURLs:(id)awithSuperarbitrationServer:(id)b;
- - (void) _getDebugInformationWithString:(id)afromPid:(i)bthenContinue:(@?)c;
+ - (void) _getDebugInformationWithString:(id)afromPid:(int)bthenContinue:(@?)c;
  - (id) rootNode;
  - (void) dealloc;
  - (void) finalize;

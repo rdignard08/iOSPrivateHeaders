@@ -3,12 +3,12 @@
 @interface NSDistantObject : NSProxy <NSCoding> {
 
     id _knownSelectors;
-    Q _wireCount;
-    Q _refCount;
+    unsigned long long _wireCount;
+    unsigned long long _refCount;
     id _proto;
-    S ___2;
-    C ___1;
-    C _wireType;
+    unsigned short ___2;
+    unsigned char ___1;
+    unsigned char _wireType;
     id _remoteClass;
 }
  + (void) _enableLogging:(BOOL)a;
@@ -19,7 +19,7 @@
 
  - (Class) classForCoder;
  - (^{_NSZone=}) zone;
- - (void) _releaseWireCount:(Q)a;
+ - (void) _releaseWireCount:(unsigned long long)a;
  - (void) retainWireCount;
  - (id) initWithTarget:(id)aconnection:(id)b;
  - (id) initWithLocal:(id)aconnection:(id)b;
@@ -31,7 +31,7 @@
  - (id) description;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (id) copy;
  - (void) finalize;
@@ -39,7 +39,7 @@
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (id) mutableCopy;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) appendFormat:(id)a;
  - (BOOL) conformsToProtocol:(id)a;

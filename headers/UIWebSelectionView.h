@@ -12,16 +12,16 @@
     @"UIWebDocumentView" _documentView;
     @"UIWebSelectionNode" _selectionNode;
     @"UIWebSelectionGraph" _selectionGraph;
-    d _growThreshold;
-    d _shrinkThreshold;
+    double _growThreshold;
+    double _shrinkThreshold;
     {?="scrollingHandle"@"UIWebSelectionHandle""startTime"d"direction"i"timer"@"NSTimer"} _autoscrollData;
     {?="activeHandle"@"UIWebSelectionHandle""handleCenterStart"{CGPoint="x"d"y"d}"handleOffset"d} _blockSelectionData;
     {?="start"@"UIWebSelectionHandle""end"@"UIWebSelectionHandle""startingOffset"{CGSize="width"d"height"d}"anchorAtStart"B"flipData"{?="flipPossible"B"rectsChanged"B"originalSelectionRect"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}}} _rangedSelectionData;
     BOOL _creatingSelection;
-    i _nestedLayoutCalls;
+    int _nestedLayoutCalls;
     BOOL _calloutBarIsHiddenBeforeRotation;
     BOOL _rotating;
-    i _selectionInFixedPosition;
+    int _selectionInFixedPosition;
 }
 
  - (void) dealloc;
@@ -49,7 +49,7 @@
  - (void) hideControlsBeforeRotation;
  - (void) showControlsAfterRotation;
  - (id) tintView;
- - (id) handleWithPosition:(i)a;
+ - (id) handleWithPosition:(int)a;
  - (BOOL) updateRectForCalloutBar:(id)ainWindow:(id)b;
  - (void) onBeforeScrollOrZoomHidingSelection:(BOOL)a;
  - (void) onAfterScrollOrZoomShowingSelection:(BOOL)a;
@@ -78,7 +78,7 @@
  - (void) animateSloppyReleaseOfHandleInText:(id)awithMagnifier:(id)b;
  - (BOOL) isHorizontalWritingMode;
  - (id) selectionNode;
- - (i) autoscrollDirectionsForHandle:(id)a;
+ - (int) autoscrollDirectionsForHandle:(id)a;
  - (void) autoscrollTimerFired:(id)a;
  - (void) touchChanged:(id)aforHandle:(id)b;
  - (void) shiftWebRangeSelectionAnimationDidStop:(id)afinished:(id)b;

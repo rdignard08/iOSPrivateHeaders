@@ -1,17 +1,17 @@
 
 @interface _NSActivityAssertion : NSObject {
 
-    q _ended;
-    Q _options;
+    long long _ended;
+    unsigned long long _options;
     @"NSString" _reason;
-    I _systemSleepAssertionID;
+    unsigned int _systemSleepAssertionID;
     @"NSObject<OS_voucher>" _voucher;
     @"NSObject<OS_voucher>" _previousVoucher;
     @"<NSObject>" _xpcBoost;
     @"BKSProcessAssertion" _processAssertion;
     @? _expirationHandler;
 }
- + (void) _performActivityWithOptions:(Q)areason:(id)busingBlock:(@?)c;
+ + (void) _performActivityWithOptions:(unsigned long long)areason:(id)busingBlock:(@?)c;
  + (void) _performExpiringActivityWithReason:(id)ausingBlock:(@?)b;
  + (id) _expiringAssertionManagementQueue;
  + (id) _expiringActivities;
@@ -20,7 +20,7 @@
  + (id) _expiringTaskExecutionQueue;
  + (void) _dumpExpiringActivitives;
 
- - (id) _initWithActivityOptions:(Q)areason:(id)bexpirationHandler:(@?)c;
+ - (id) _initWithActivityOptions:(unsigned long long)areason:(id)bexpirationHandler:(@?)c;
  - (void) _end;
  - (void) _reactivate;
  - (void) _fireExpirationHandler;

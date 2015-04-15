@@ -3,18 +3,18 @@
 
     @"UIView" _info;
     @"_UISegmentedControlAppearanceStorage" _appearanceStorage;
-    d _width;
+    double _width;
     {CGSize="width"d"height"d} _contentOffset;
-    q _barStyle;
-    Q _rightSegmentState;
+    long long _barStyle;
+    unsigned long long _rightSegmentState;
     @"NSString" _badgeValue;
     @"_UIBadgeView" _badgeView;
     id _objectValue;
     {?="style"b3"size"b2"selected"b1"highlighted"b1"showDivider"b1"hasImage"b1"position"b3"autosizeText"b1"isMomentary"b1"wasSelected"b1"needsBackgroundAndContentViewUpdate"b1} _segmentFlags;
     @"NSArray" _infoConstraints;
-    d _requestedScaleFactor;
+    double _requestedScaleFactor;
 }
- + (id) _backgroundImageWithStorage:(id)astyle:(q)bmini:(BOOL)cstate:(Q)dposition:(I)edrawMode:(^i)fdefaultBlock:(@?)g;
+ + (id) _backgroundImageWithStorage:(id)astyle:(long long)bmini:(BOOL)cstate:(unsigned long long)dposition:(unsigned int)edrawMode:(^i)fdefaultBlock:(@?)g;
 
  - (void) dealloc;
  - (void) _populateArchivedSubviews:(id)a;
@@ -28,10 +28,10 @@
  - (void) tintColorDidChange;
  - (id) hitTest:({CGPoint=dd})aforEvent:(^{__GSEvent=})b;
  - (void) setHighlighted:(BOOL)a;
- - (void) setControlSize:(i)a;
- - (void) setBarStyle:(q)a;
+ - (void) setControlSize:(int)a;
+ - (void) setBarStyle:(long long)a;
  - (BOOL) isHighlighted;
- - (i) controlSize;
+ - (int) controlSize;
  - (BOOL) isSelected;
  - (void) setSelected:(BOOL)a;
  - (void) updateConstraints;
@@ -43,7 +43,7 @@
  - (void) _commonSegmentInit;
  - (id) objectValue;
  - (BOOL) _isInMiniBar;
- - (Q) _segmentState;
+ - (unsigned long long) _segmentState;
  - (BOOL) _shouldUsePadMomentaryAppearance;
  - (void) setNeedsBackgroundAndContentViewUpdate;
  - (id) _dividerImageIsCustom:(^B)a;
@@ -54,7 +54,7 @@
  - (BOOL) isMomentary;
  - (BOOL) _hasSelectedColor;
  - (void) updateMasking;
- - (id) _attributedTextForState:(Q)aselected:(BOOL)b;
+ - (id) _attributedTextForState:(unsigned long long)aselected:(BOOL)b;
  - (id) disabledTextColor;
  - (id) _currentOptionsStyleTextColor;
  - (id) _currentOptionsStyleTextShadowColor;
@@ -63,12 +63,12 @@
  - ({UIEdgeInsets=dddd}) _paddingInsets;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _contentRectForBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - ({CGSize=dd}) _maximumTextSize;
- - (d) _barHeight;
+ - (double) _barHeight;
  - (void) _setInfoConstraints:(id)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) contentRect;
  - (void) _updateBackgroundAndContentViewsIfNeeded;
- - (id) initWithInfo:(id)astyle:(q)bsize:(i)cbarStyle:(q)dtintColor:(id)eappearanceStorage:(id)fposition:(I)gautosizeText:(BOOL)h;
- - (void) updateForAppearance:(id)astyle:(i)b;
+ - (id) initWithInfo:(id)astyle:(long long)bsize:(int)cbarStyle:(long long)dtintColor:(id)eappearanceStorage:(id)fposition:(unsigned int)gautosizeText:(BOOL)h;
+ - (void) updateForAppearance:(id)astyle:(int)b;
  - (void) setWasSelected:(BOOL)a;
  - (void) setAutosizeText:(BOOL)a;
  - (id) badgeView;
@@ -76,20 +76,20 @@
  - (BOOL) showDivider;
  - (void) setShowDivider:(BOOL)a;
  - (void) animateAdd:(BOOL)a;
- - (void) animateRemoveForWidth:(d)a;
+ - (void) animateRemoveForWidth:(double)a;
  - (void) _positionInfoWithoutAnimation;
- - (void) setRequestedScaleFactor:(d)a;
+ - (void) setRequestedScaleFactor:(double)a;
  - (void) _forceInfoDisplay;
  - (id) infoName;
- - (d) _idealWidth;
+ - (double) _idealWidth;
  - (id) viewForBaselineLayout;
  - (id) _infoConstraints;
- - (d) requestedScaleFactor;
+ - (double) requestedScaleFactor;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setPosition:(I)a;
+ - (void) setPosition:(unsigned int)a;
  - (id) label;
  - (void) setEnabled:(BOOL)a;
 

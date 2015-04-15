@@ -4,7 +4,7 @@
     BOOL _initialConfigurationHasBeenSentToDelegate;
     {_UIWebViewportConfiguration="size"{CGSize="width"d"height"d}"initialScale"f"minimumScale"f"maximumScale"f"allowsUserScaling"B} _defaultConfiguration;
     {_UIWebViewportConfiguration="size"{CGSize="width"d"height"d}"initialScale"f"minimumScale"f"maximumScale"f"allowsUserScaling"B} _configuration;
-    I _webkitDefinedConfigurationFlags;
+    unsigned int _webkitDefinedConfigurationFlags;
     {CGSize="width"d"height"d} _availableViewSize;
     BOOL _classicViewportMode;
     @"<_UIWebViewportHandlerDelegate>" _delegate;
@@ -23,27 +23,27 @@
 
  - (id) .cxx_construct;
  - (void) setDelegate:(id)a;
- - (d) integralScaleForScale:(d)akeepingPointFixed:(^{CGPoint=dd})b;
- - (f) minimumScaleForViewSize:({CGSize=dd})a;
- - (f) initialScale;
- - (f) maximumScale;
- - (f) minimumScale;
+ - (double) integralScaleForScale:(double)akeepingPointFixed:(^{CGPoint=dd})b;
+ - (float) minimumScaleForViewSize:({CGSize=dd})a;
+ - (float) initialScale;
+ - (float) maximumScale;
+ - (float) minimumScale;
  - (BOOL) allowsUserScaling;
  - ({CGSize=dd}) availableViewSize;
  - (void) clearWebKitViewportConfigurationFlags;
  - (void) resetViewportConfiguration:(r^{_UIWebViewportConfiguration={CGSize=dd}fffB})a;
  - ({_UIWebViewportConfiguration={CGSize=dd}fffB}) rawViewConfiguration;
- - (I) webkitDefinedConfigurationFlags;
+ - (unsigned int) webkitDefinedConfigurationFlags;
  - (void) update:(@?)a;
  - (void) setDocumentBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (f) viewportWidth;
- - (f) viewportHeight;
+ - (float) viewportWidth;
+ - (float) viewportHeight;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) documentBounds;
- - (void) applyWebKitViewportArgumentsSize:({CGSize=dd})ainitialScale:(f)bminimumScale:(f)cmaximumScale:(f)dallowsUserScaling:(f)e;
+ - (void) applyWebKitViewportArgumentsSize:({CGSize=dd})ainitialScale:(float)bminimumScale:(float)cmaximumScale:(float)dallowsUserScaling:(float)e;
  - (BOOL) isClassicViewportMode;
  - (void) overrideViewportConfiguration:(r^{_UIWebViewportConfiguration={CGSize=dd}fffB})a;
  - (void) setAvailableViewSize:({CGSize=dd})a;
- - (d) integralInitialScale;
+ - (double) integralInitialScale;
  - (id) delegate;
 
 

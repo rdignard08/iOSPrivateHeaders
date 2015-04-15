@@ -1,7 +1,7 @@
 
 @interface UITableViewCellSelectedBackground : UIView {
 
-    q _selectionStyle;
+    long long _selectionStyle;
     @"UIColor" _multiselectBackgroundColor;
     @"UIColor" _selectionTintColor;
     BOOL _multiselect;
@@ -11,8 +11,8 @@
  - (void) setSelectionTintColor:(id)a;
  - (void) setMultiselect:(BOOL)a;
  - (BOOL) isMultiselect;
- - (void) setSelectionStyle:(q)a;
- - (q) selectionStyle;
+ - (void) setSelectionStyle:(long long)a;
+ - (long long) selectionStyle;
  - (id) multiselectBackgroundColor;
  - (void) setMultiselectBackgroundColor:(id)a;
  - (id) selectionTintColor;

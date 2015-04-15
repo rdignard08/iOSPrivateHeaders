@@ -3,8 +3,8 @@
 
     @"UIResponder" fromResponder;
     @"UIResponder" responder;
-    q recordedPhase;
-    q autocompletedPhase;
+    long long recordedPhase;
+    long long autocompletedPhase;
 }
 @property (nonatomic, assign, readwrite) UIResponder* fromResponder;
 @property (nonatomic, assign, readwrite) UIResponder* responder;
@@ -14,10 +14,10 @@
  - (id) description;
  - (void) setResponder:(id)a;
  - (id) responder;
- - (q) recordedPhase;
- - (q) autocompletedPhase;
- - (void) setRecordedPhase:(q)a;
- - (void) setAutocompletedPhase:(q)a;
+ - (long long) recordedPhase;
+ - (long long) autocompletedPhase;
+ - (void) setRecordedPhase:(long long)a;
+ - (void) setAutocompletedPhase:(long long)a;
  - (id) initWithResponder:(id)afromResponder:(id)b;
  - (id) fromResponder;
  - (void) setFromResponder:(id)a;

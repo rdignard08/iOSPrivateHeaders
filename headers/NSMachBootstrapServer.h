@@ -9,7 +9,7 @@
  - (BOOL) removePortForName:(id)a;
  - (BOOL) registerPort:(id)aname:(id)b;
  - (id) portForName:(id)a;
- - (id) portForName:(id)aoptions:(Q)b;
+ - (id) portForName:(id)aoptions:(unsigned long long)b;
 
 
 @end

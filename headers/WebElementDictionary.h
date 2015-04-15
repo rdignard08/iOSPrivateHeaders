@@ -11,7 +11,7 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
  - (id) keyEnumerator;
  - (id) _title;

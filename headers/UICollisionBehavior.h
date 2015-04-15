@@ -6,10 +6,10 @@
     @"PKExtendedPhysicsBody" _implicitBoundsBody;
     @"NSMutableDictionary" _boundaryBodies;
     @"NSMutableDictionary" _boundaryPaths;
-    Q _collisionMode;
+    unsigned long long _collisionMode;
     @"<UICollisionBehaviorDelegate>" _collisionDelegate;
-    I _groupVID;
-    I _groupBID;
+    unsigned int _groupVID;
+    unsigned int _groupBID;
     {?="delegateBeganWithItem"b1"delegateEndedWithItem"b1"delegateBeganWithBoundary"b1"delegateEndedWithBoundary"b1} _collisionBehaviorFlags;
 }
 
@@ -22,13 +22,13 @@
  - (void) _dissociate;
  - (void) addBoundaryWithIdentifier:(id)afromPoint:({CGPoint=dd})btoPoint:({CGPoint=dd})c;
  - (void) setCollisionDelegate:(id)a;
- - (void) _reevaluate:(Q)a;
+ - (void) _reevaluate:(unsigned long long)a;
  - (id) collisionDelegate;
  - (void) _didBeginContact:(id)a;
  - (void) _didEndContact:(id)a;
  - (void) _addItem:(id)a;
  - (void) _setCollisions:(BOOL)aforBody:(id)bisEdge:(BOOL)c;
- - (Q) collisionMode;
+ - (unsigned long long) collisionMode;
  - (void) _setupImplicitBoundaries;
  - (void) _applySettings;
  - (void) _setupExplicitBoundaries;
@@ -36,7 +36,7 @@
  - (void) _removeExplicitBoundaries;
  - (void) _setTranslatesReferenceItemBounds:(BOOL)aintoBoundaryWithInsets:({UIEdgeInsets=dddd})b;
  - (BOOL) translatesReferenceBoundsIntoBoundary;
- - (void) setCollisionMode:(Q)a;
+ - (void) setCollisionMode:(unsigned long long)a;
  - (void) setTranslatesReferenceBoundsIntoBoundary:(BOOL)a;
  - (void) setTranslatesReferenceBoundsIntoBoundaryWithInsets:({UIEdgeInsets=dddd})a;
  - (void) addBoundaryWithIdentifier:(id)aforPath:(id)b;

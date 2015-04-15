@@ -1,14 +1,14 @@
 
 @interface UIInlineCandidateTextView : UIView {
 
-    i m_type;
-    i m_edgeType;
+    int m_type;
+    int m_edgeType;
     BOOL m_animating;
     @"NSMutableArray" _candidateCellArray;
     @"NSArray" _candidates;
     id _target;
     SEL _action;
-    Q _selectedItem;
+    unsigned long long _selectedItem;
     @"_UIInlineCandidateCell" _currentlyPushedItem;
     BOOL _showingArrow;
     BOOL _arrowHighlighted;
@@ -23,17 +23,17 @@
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) touchesEnded:(id)awithEvent:(id)b;
  - (void) touchesCancelled:(id)awithEvent:(id)b;
- - (void) setSelectedItem:(Q)a;
+ - (void) setSelectedItem:(unsigned long long)a;
  - (void) setAnimating:(BOOL)a;
- - (i) textEffectsVisibilityLevel;
- - (void) setEdgeType:(i)a;
+ - (int) textEffectsVisibilityLevel;
+ - (void) setEdgeType:(int)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _calculateRectForExpandedHitRegion;
- - (Q) numberOfShownItems;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})acandidates:(id)btype:(i)cmaxScreenWidth:(d)dhasExtensionCandidates:(BOOL)e;
- - (i) edgeType;
+ - (unsigned long long) numberOfShownItems;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})acandidates:(id)btype:(int)cmaxScreenWidth:(double)dhasExtensionCandidates:(BOOL)e;
+ - (int) edgeType;
  - (void) setTarget:(id)aaction:(SEL)b;
- - (Q) selectedItem;
- - (d) _layoutCandidates:(id)amaxCount:(i)bheight:(d)cmaxScreenWidth:(d)dhasExtensionCandidates:(BOOL)e;
+ - (unsigned long long) selectedItem;
+ - (double) _layoutCandidates:(id)amaxCount:(int)bheight:(double)cmaxScreenWidth:(double)dhasExtensionCandidates:(BOOL)e;
  - (void) _cellSelected:(id)a;
  - (id) findCell:({CGPoint=dd})a;
  - (void) redrawArrow;

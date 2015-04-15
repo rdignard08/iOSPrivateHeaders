@@ -1,7 +1,7 @@
 
 @interface UIInputViewSetPlacement : NSObject {
 
-    d _extendedHeight;
+    double _extendedHeight;
 }
 @property (nonatomic, assign, readonly) NSNumber* showsInputViews;
 @property (nonatomic, assign, readonly) NSNumber* showsKeyboard;
@@ -18,10 +18,10 @@
  - (BOOL) showsKeyboard;
  - (id) horizontalConstraintForInputViewSet:(id)ahostView:(id)bcontainerView:(id)c;
  - (id) verticalConstraintForInputViewSet:(id)ahostView:(id)bcontainerView:(id)c;
- - (Q) notificationsForTransitionToPlacement:(id)a;
+ - (unsigned long long) notificationsForTransitionToPlacement:(id)a;
  - (BOOL) accessoryViewWillAppear;
- - (d) extendedHeight;
- - (void) setExtendedHeight:(d)a;
+ - (double) extendedHeight;
+ - (void) setExtendedHeight:(double)a;
 
 
 @end

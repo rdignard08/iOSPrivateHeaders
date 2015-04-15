@@ -2,16 +2,16 @@
 @protocol NSCopying;
 @interface AFHTTPBodyPart : NSObject <NSCopying> {
 
-    i _phase;
+    int _phase;
     @"NSInputStream" _inputStream;
-    Q _phaseReadOffset;
+    unsigned long long _phaseReadOffset;
     BOOL _hasInitialBoundary;
     BOOL _hasFinalBoundary;
-    Q _stringEncoding;
+    unsigned long long _stringEncoding;
     @"NSDictionary" _headers;
     @"NSString" _boundary;
     id _body;
-    Q _bodyContentLength;
+    unsigned long long _bodyContentLength;
 }
 @property (nonatomic, assign, readwrite) NSNumber* stringEncoding;
 @property (nonatomic, retain, readwrite) NSDictionary* headers;
@@ -24,13 +24,13 @@
 @property (nonatomic, assign, readonly, hasBytesAvailable) NSNumber* bytesAvailable;
 @property (nonatomic, assign, readonly) NSNumber* contentLength;
 
- - (void) setStringEncoding:(Q)a;
- - (Q) stringEncoding;
+ - (void) setStringEncoding:(unsigned long long)a;
+ - (unsigned long long) stringEncoding;
  - (void) setBoundary:(id)a;
  - (void) setHeaders:(id)a;
  - (id) boundary;
- - (void) setBodyContentLength:(Q)a;
- - (Q) contentLength;
+ - (void) setBodyContentLength:(unsigned long long)a;
+ - (unsigned long long) contentLength;
  - (void) setHasInitialBoundary:(BOOL)a;
  - (void) setHasFinalBoundary:(BOOL)a;
  - (id) inputStream;
@@ -40,12 +40,12 @@
  - (BOOL) hasInitialBoundary;
  - (id) stringForHeaders;
  - (BOOL) hasFinalBoundary;
- - (q) readData:(id)aintoBuffer:(*)bmaxLength:(Q)c;
- - (Q) bodyContentLength;
+ - (long long) readData:(id)aintoBuffer:(char*)bmaxLength:(unsigned long long)c;
+ - (unsigned long long) bodyContentLength;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) .cxx_destruct;
  - (void) dealloc;
- - (q) read:(*)amaxLength:(Q)b;
+ - (long long) read:(char*)amaxLength:(unsigned long long)b;
  - (BOOL) hasBytesAvailable;
  - (id) init;
  - (void) setBody:(id)a;

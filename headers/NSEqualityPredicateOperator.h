@@ -2,22 +2,22 @@
 @interface NSEqualityPredicateOperator : NSPredicateOperator {
 
     BOOL _negate;
-    Q _options;
+    unsigned long long _options;
 }
  + (BOOL) supportsSecureCoding;
 
- - (void) _setOptions:(Q)a;
+ - (void) _setOptions:(unsigned long long)a;
  - (id) predicateFormat;
  - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
- - (id) initWithOperatorType:(Q)amodifier:(Q)bnegate:(BOOL)c;
- - (id) initWithOperatorType:(Q)amodifier:(Q)bnegate:(BOOL)coptions:(Q)d;
+ - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)bnegate:(BOOL)c;
+ - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)bnegate:(BOOL)coptions:(unsigned long long)d;
  - (BOOL) isNegation;
  - (void) setNegation:(BOOL)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (Q) options;
+ - (unsigned long long) options;
 
 
 @end

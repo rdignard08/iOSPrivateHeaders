@@ -5,7 +5,7 @@
     @"NSString" _name;
     @"NSString" _normalizedName;
     @"NSFileAccessNode" _symbolicLinkDestination;
-    Q _symbolicLinkReferenceCount;
+    unsigned long long _symbolicLinkReferenceCount;
     @"NSMutableDictionary" _childrenByNormalizedName;
     id _presenterOrPresenters;
     id _provider;

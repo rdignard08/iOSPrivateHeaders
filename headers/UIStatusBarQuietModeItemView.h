@@ -7,10 +7,10 @@
 }
 
  - (void) dealloc;
- - (BOOL) updateForNewData:(id)aactions:(i)b;
- - (void) setVisible:(BOOL)aframe:({CGRect={CGPoint=dd}{CGSize=dd}})bduration:(d)c;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
+ - (void) setVisible:(BOOL)aframe:({CGRect={CGPoint=dd}{CGSize=dd}})bduration:(double)c;
  - (void) _triggerAction:(id)a;
- - (d) _visibleAlpha;
+ - (double) _visibleAlpha;
  - (void) setVisible:(BOOL)a;
  - (void) animationDidStop:(id)afinished:(BOOL)b;
 

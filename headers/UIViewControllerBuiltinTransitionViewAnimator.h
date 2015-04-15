@@ -4,7 +4,7 @@
 
     @"<UIViewControllerContextTransitioning>" _transitionContext;
     BOOL _removeFromView;
-    i _transition;
+    int _transition;
     id _delegate;
     @"UIView" _toView;
     @"UIView" _fromView;
@@ -16,26 +16,26 @@
 @property (nonatomic, assign, readwrite) NSNumber* transition;
 
  - (void) setDelegate:(id)a;
- - (d) transitionDuration:(id)a;
+ - (double) transitionDuration:(id)a;
  - (void) animateTransition:(id)a;
- - (d) durationForTransition:(i)a;
+ - (double) durationForTransition:(int)a;
  - (void) transitionViewDidStart:(id)a;
  - (BOOL) transitionViewShouldUseViewControllerCallbacks;
  - (void) transitionViewDidComplete:(id)afromView:(id)btoView:(id)cremoveFromView:(BOOL)d;
- - ({CGPoint=dd}) transitionView:(id)aendOriginForToView:(id)bforTransition:(i)cdefaultOrigin:({CGPoint=dd})d;
- - ({CGPoint=dd}) transitionView:(id)abeginOriginForToView:(id)bforTransition:(i)cdefaultOrigin:({CGPoint=dd})d;
- - ({CGPoint=dd}) transitionView:(id)aendOriginForFromView:(id)bforTransition:(i)cdefaultOrigin:({CGPoint=dd})d;
- - (void) transitionView:(id)astartCustomTransitionWithDuration:(d)b;
+ - ({CGPoint=dd}) transitionView:(id)aendOriginForToView:(id)bforTransition:(int)cdefaultOrigin:({CGPoint=dd})d;
+ - ({CGPoint=dd}) transitionView:(id)abeginOriginForToView:(id)bforTransition:(int)cdefaultOrigin:({CGPoint=dd})d;
+ - ({CGPoint=dd}) transitionView:(id)aendOriginForFromView:(id)bforTransition:(int)cdefaultOrigin:({CGPoint=dd})d;
+ - (void) transitionView:(id)astartCustomTransitionWithDuration:(double)b;
  - (id) fromView;
  - (id) toView;
- - (void) setTransition:(i)a;
- - (i) transition;
- - (id) initWithTransition:(i)a;
+ - (void) setTransition:(int)a;
+ - (int) transition;
+ - (id) initWithTransition:(int)a;
  - (void) setToView:(id)a;
  - (void) setFromView:(id)a;
  - (void) setRemoveFromView:(BOOL)a;
- - (void) _prepareKeyboardForTransition:(i)afromView:(id)b;
- - ({CGPoint=dd}) _adjustOrigin:({CGPoint=dd})agivenOtherOrigin:({CGPoint=dd})bforTransition:(i)c;
+ - (void) _prepareKeyboardForTransition:(int)afromView:(id)b;
+ - ({CGPoint=dd}) _adjustOrigin:({CGPoint=dd})agivenOtherOrigin:({CGPoint=dd})bforTransition:(int)c;
  - (BOOL) removeFromView;
  - (id) delegate;
 

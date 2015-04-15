@@ -1,22 +1,22 @@
 
 @interface CUIPSDLayerEffectColorOverlay : CUIPSDLayerEffectComponent {
 
-    i _blendMode;
-    d _opacity;
+    int _blendMode;
+    double _opacity;
     @"CUIColor" _color;
 }
 
  - (void) dealloc;
  - (id) init;
- - (i) blendMode;
- - (void) setBlendMode:(i)a;
+ - (int) blendMode;
+ - (void) setBlendMode:(int)a;
  - (void) setColor:(id)a;
  - (BOOL) updateLayerEffectPreset:(id)aerror:(^@)b;
- - (id) initWithEffectFromPreset:(id)aatIndex:(I)b;
- - (I) effectType;
+ - (id) initWithEffectFromPreset:(id)aatIndex:(unsigned int)b;
+ - (unsigned int) effectType;
  - (id) color;
- - (d) opacity;
- - (void) setOpacity:(d)a;
+ - (double) opacity;
+ - (void) setOpacity:(double)a;
 
 
 @end

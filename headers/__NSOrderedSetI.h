@@ -11,12 +11,12 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (void) finalize;
- - (Q) count;
- - (id) objectAtIndex:(Q)a;
+ - (unsigned long long) count;
+ - (id) objectAtIndex:(unsigned long long)a;
  - (void) getObjects:(^@)arange:({_NSRange=QQ})b;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
- - (void) enumerateObjectsWithOptions:(Q)ausingBlock:(@?)b;
- - (Q) indexOfObject:(id)a;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
+ - (void) enumerateObjectsWithOptions:(unsigned long long)ausingBlock:(@?)b;
+ - (unsigned long long) indexOfObject:(id)a;
 
 
 @end

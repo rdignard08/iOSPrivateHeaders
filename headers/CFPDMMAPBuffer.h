@@ -2,15 +2,15 @@
 @interface CFPDMMAPBuffer : CFPDDataBuffer {
 
     ^v bytes;
-    Q length;
+    unsigned long long length;
 }
 
  - (void) dealloc;
  - (void) finalize;
  - (^v) bytes;
- - (id) initWithFileDescriptor:(i)asize:(Q)ballowMappingIfSafe:(BOOL)c;
- - (id) initWithSize:(Q)abufferPtr:(^^v)b;
- - (Q) length;
+ - (id) initWithFileDescriptor:(int)asize:(unsigned long long)ballowMappingIfSafe:(BOOL)c;
+ - (id) initWithSize:(unsigned long long)abufferPtr:(^^v)b;
+ - (unsigned long long) length;
 
 
 @end

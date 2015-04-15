@@ -18,7 +18,7 @@
  - (void) setFont:(id)a;
  - (id) _scriptingInfo;
  - (void) _resetTitleSize;
- - (void) _setLineBreakMode:(q)a;
+ - (void) _setLineBreakMode:(long long)a;
  - (id) initWithNavigationItem:(id)a;
  - (BOOL) titleAutoresizesToFit;
  - (void) setTitleAutoresizesToFit:(BOOL)a;
@@ -32,11 +32,11 @@
  - (id) _defaultFont;
  - (void) _setFont:(id)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _labelFrame;
- - (BOOL) _useSilverLookForBarStyle:(q)a;
- - (id) _currentTextColorForBarStyle:(q)a;
- - ({CGSize=dd}) _currentTextShadowOffsetForBarStyle:(q)a;
- - (id) _currentTextShadowColorForBarStyle:(q)a;
- - (d) _titleYAdjustmentCustomization;
+ - (BOOL) _useSilverLookForBarStyle:(long long)a;
+ - (id) _currentTextColorForBarStyle:(long long)a;
+ - ({CGSize=dd}) _currentTextShadowOffsetForBarStyle:(long long)a;
+ - (id) _currentTextShadowColorForBarStyle:(long long)a;
+ - (double) _titleYAdjustmentCustomization;
  - (void) _updateLabel;
  - (void) _updateLabelContents;
  - (void) _adjustLabelTrackingIfNecessary;

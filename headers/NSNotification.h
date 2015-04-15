@@ -17,7 +17,7 @@
  - (id) description;
  - (id) userInfo;
  - (id) name;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) object;
  - (id) init;

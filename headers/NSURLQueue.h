@@ -1,7 +1,7 @@
 
 @interface NSURLQueue : NSObject {
 
-    Q count;
+    unsigned long long count;
     @"NSURLQueueNode" head;
     @"NSURLQueueNode" tail;
     id monitor;
@@ -16,14 +16,14 @@
  - (void) put:(id)a;
  - (id) take;
  - (id) peek;
- - (id) peekAt:(Q)a;
+ - (id) peekAt:(unsigned long long)a;
  - (BOOL) remove:(id)a;
- - (q) indexOf:(id)a;
+ - (long long) indexOf:(id)a;
  - (BOOL) waitOnTake;
  - (void) setWaitOnTake:(BOOL)a;
  - (void) dealloc;
  - (void) finalize;
- - (Q) count;
+ - (unsigned long long) count;
  - (BOOL) isEmpty;
  - (id) init;
 

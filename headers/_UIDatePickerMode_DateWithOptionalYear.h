@@ -2,15 +2,15 @@
 @interface _UIDatePickerMode_DateWithOptionalYear : _UIDatePickerMode_Date {
 
 }
- + (q) datePickerMode;
+ + (long long) datePickerMode;
 
- - (id) dateComponentsByRestrictingSelectedComponents:(id)awithLastManipulatedColumn:(q)b;
+ - (id) dateComponentsByRestrictingSelectedComponents:(id)awithLastManipulatedColumn:(long long)b;
  - (id) selectedDateComponents;
- - (q) numberOfRowsForCalendarUnit:(Q)a;
- - (q) yearForRow:(q)a;
- - (q) rowForDate:(id)adateComponents:(id)bcomponent:(q)ccurrentRow:(q)d;
- - (id) titleForRow:(q)ainComponent:(q)b;
- - (BOOL) _shouldEnableValueForRow:(q)ainComponent:(q)bcalendarUnit:(Q)c;
+ - (long long) numberOfRowsForCalendarUnit:(unsigned long long)a;
+ - (long long) yearForRow:(long long)a;
+ - (long long) rowForDate:(id)adateComponents:(id)bcomponent:(long long)ccurrentRow:(long long)d;
+ - (id) titleForRow:(long long)ainComponent:(long long)b;
+ - (BOOL) _shouldEnableValueForRow:(long long)ainComponent:(long long)bcalendarUnit:(unsigned long long)c;
 
 
 @end

@@ -6,13 +6,13 @@
 }
 
  - (void) dealloc;
- - (d) tableView:(id)aheightForRowAtIndexPath:(id)b;
+ - (double) tableView:(id)aheightForRowAtIndexPath:(id)b;
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) numberOfSectionsInTableView:(id)a;
+ - (long long) numberOfSectionsInTableView:(id)a;
  - (void) loadView;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (void) viewWillDisappear:(BOOL)a;
  - (void) cancelPrinting;

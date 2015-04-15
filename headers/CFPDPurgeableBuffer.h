@@ -2,7 +2,7 @@
 @interface CFPDPurgeableBuffer : CFPDDataBuffer {
 
     ^{__CFData=} handle;
-    Q allocSize;
+    unsigned long long allocSize;
     BOOL safe;
     BOOL usedMalloc;
 }
@@ -12,7 +12,7 @@
  - (id) initWithPropertyList:(^v)a;
  - (BOOL) beginAccessing;
  - (void) endAccessing;
- - (Q) length;
+ - (unsigned long long) length;
 
 
 @end

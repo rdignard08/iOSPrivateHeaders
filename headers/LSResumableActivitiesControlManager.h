@@ -11,12 +11,12 @@
  - (void) terminateServer;
  - (id) matchingUUIDForString:(id)a;
  - (id) advertisedItemUUID;
- - (id) allUUIDsOfType:(Q)a;
+ - (id) allUUIDsOfType:(unsigned long long)a;
  - (id) enabledUUIDs;
  - (id) currentAdvertisedItemUUID;
  - (id) debuggingInfo;
  - (void) restartServer;
- - (void) injectBTLEItem:(id)atype:(Q)bidentifier:(id)ctitle:(id)dactivityPayload:(id)eframeworkPayload:(id)fpayloadDelay:(d)g;
+ - (void) injectBTLEItem:(id)atype:(unsigned long long)bidentifier:(id)ctitle:(id)dactivityPayload:(id)eframeworkPayload:(id)fpayloadDelay:(double)g;
  - (void) callWillSaveDelegate:(id)a;
  - (void) callWillSaveDelegate:(id)acompletionHandler:(@?)b;
  - (void) callDidSaveDelegate:(id)a;

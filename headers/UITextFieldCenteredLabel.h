@@ -1,15 +1,15 @@
 
 @interface UITextFieldCenteredLabel : UITextFieldLabel {
 
-    d _textXPosition;
-    d _textWidth;
+    double _textXPosition;
+    double _textWidth;
 }
 
  - (BOOL) _isTextFieldCenteredLabel;
- - (void) setTextXPosition:(d)a;
- - (void) setTextWidth:(d)a;
- - (d) textXPosition;
- - (d) textWidth;
+ - (void) setTextXPosition:(double)a;
+ - (void) setTextWidth:(double)a;
+ - (double) textXPosition;
+ - (double) textWidth;
 
 
 @end

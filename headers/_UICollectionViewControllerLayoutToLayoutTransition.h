@@ -7,7 +7,7 @@
     BOOL _interactionAborted;
     @"UICollectionViewLayout" _toLayout;
     @"UIPercentDrivenInteractiveTransition" _interactionController;
-    q _operation;
+    long long _operation;
 }
 @property (nonatomic, retain, readwrite) UICollectionViewLayout* toLayout;
 @property (nonatomic, assign, readwrite) NSNumber* crossFadeNavigationBar;
@@ -15,16 +15,16 @@
 @property (nonatomic, assign, readwrite) UIPercentDrivenInteractiveTransition* interactionController;
 @property (nonatomic, assign, readwrite) NSNumber* interactionAborted;
 @property (nonatomic, assign, readwrite) NSNumber* operation;
- + (id) transitionForOperation:(q)afromViewController:(id)btoViewController:(id)c;
+ + (id) transitionForOperation:(long long)afromViewController:(id)btoViewController:(id)c;
 
  - (void) dealloc;
  - (id) interactionController;
  - (void) setInteractionAborted:(BOOL)a;
- - (d) transitionDuration:(id)a;
+ - (double) transitionDuration:(id)a;
  - (void) setInteractionController:(id)a;
  - (BOOL) interactionAborted;
- - (q) operation;
- - (void) setOperation:(q)a;
+ - (long long) operation;
+ - (void) setOperation:(long long)a;
  - (void) animateTransition:(id)a;
  - (void) animationEnded:(BOOL)a;
  - (BOOL) _shouldCrossFadeNavigationBar;

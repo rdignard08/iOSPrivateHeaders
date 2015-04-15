@@ -4,8 +4,8 @@
 
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frame;
     {CGPoint="x"d"y"d} _contentOffset;
-    d _level;
-    q _interfaceOrientation;
+    double _level;
+    long long _interfaceOrientation;
     BOOL _backgrounded;
     BOOL _occluded;
     BOOL _occludedHasBeenCalculated;
@@ -28,14 +28,14 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) init;
- - (d) level;
+ - (double) level;
  - (id) _descriptionOfSettingsWithMultilinePrefix:(id)a;
  - (id) otherSettings;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frame;
- - (q) interfaceOrientation;
+ - (long long) interfaceOrientation;
  - (BOOL) isBackgrounded;
  - (id) occlusions;
  - (id) initWithSettings:(id)a;
@@ -44,8 +44,8 @@
  - (id) ignoreOcclusionReasons;
  - (BOOL) isOccluded;
  - (BOOL) isIgnoringOcclusions;
- - (id) keyDescriptionForSetting:(Q)a;
- - (id) valueDescriptionForFlag:(q)aobject:(id)bofSetting:(Q)c;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
 
 

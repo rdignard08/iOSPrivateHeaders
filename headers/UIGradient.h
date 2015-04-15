@@ -2,7 +2,7 @@
 @interface UIGradient : NSObject {
 
     ^{?=ddddd} _values;
-    d _height;
+    double _height;
     ^{CGShading=} _shader;
 }
 

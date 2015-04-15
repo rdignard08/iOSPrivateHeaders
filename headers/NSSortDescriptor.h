@@ -2,7 +2,7 @@
 @protocol NSSecureCoding, NSCopying;
 @interface NSSortDescriptor : NSObject <NSSecureCoding, NSCopying> {
 
-    Q _sortDescriptorFlags;
+    unsigned long long _sortDescriptorFlags;
     @"NSString" _key;
     SEL _selector;
     id _selectorOrBlock;
@@ -19,7 +19,7 @@
  + (void) initialize;
  + (id) sortDescriptorWithKey:(id)aascending:(BOOL)b;
 
- - (q) compareObject:(id)atoObject:(id)b;
+ - (long long) compareObject:(id)atoObject:(id)b;
  - (id) initWithKey:(id)aascending:(BOOL)bselector:(SEL)c;
  - (id) initWithKey:(id)aascending:(BOOL)bcomparator:(@?)c;
  - (id) _selectorName;

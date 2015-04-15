@@ -1,18 +1,18 @@
 
 @interface UIStatusBarCorners : UIView {
 
-    i _cornerStyle;
-    i _cornerAlignment;
+    int _cornerStyle;
+    int _cornerAlignment;
     @"UIView" _leftCorner;
     @"UIView" _rightCorner;
 }
- + (d) cornerRadius;
+ + (double) cornerRadius;
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (i) cornerStyle;
- - (id) initForAlignment:(i)astyle:(i)b;
- - (id) _imageForCornerWithStyle:(i)a;
+ - (int) cornerStyle;
+ - (id) initForAlignment:(int)astyle:(int)b;
+ - (id) _imageForCornerWithStyle:(int)a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

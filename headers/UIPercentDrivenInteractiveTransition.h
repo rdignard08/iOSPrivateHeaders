@@ -2,11 +2,11 @@
 @protocol UIViewControllerInteractiveTransitioning;
 @interface UIPercentDrivenInteractiveTransition : NSObject <UIViewControllerInteractiveTransitioning> {
 
-    d _duration;
+    double _duration;
     BOOL _didCommitAnimations;
     BOOL __transitionInterrupted;
-    d _completionSpeed;
-    q _completionCurve;
+    double _completionSpeed;
+    long long _completionCurve;
     @"NSString" __originalFillMode;
     @"NSUUID" __uuid;
 }
@@ -18,30 +18,30 @@
 @property (nonatomic, retain, readwrite, _setUuid:) NSUUID* _uuid;
 @property (nonatomic, assign, readwrite, _isTransitionInterrupted, _setTransitionInterrupted:) NSNumber* _transitionInterrupted;
 
- - (d) duration;
+ - (double) duration;
  - (void) dealloc;
  - (void) _resetInteractionController;
  - (void) cancelInteractiveTransition;
  - (void) finishInteractiveTransition;
  - (void) _stopInteractiveTransition;
- - (d) percentComplete;
+ - (double) percentComplete;
  - (void) startInteractiveTransition:(id)a;
- - (void) updateInteractiveTransition:(d)a;
- - (void) setCompletionSpeed:(d)a;
+ - (void) updateInteractiveTransition:(double)a;
+ - (void) setCompletionSpeed:(double)a;
  - (id) _uuid;
- - (q) completionCurve;
- - (void) setCompletionCurve:(q)a;
- - (d) completionSpeed;
+ - (long long) completionCurve;
+ - (void) setCompletionCurve:(long long)a;
+ - (double) completionSpeed;
  - (void) _setOriginalFillMode:(id)a;
  - (void) _setUuid:(id)a;
  - (BOOL) _isTransitionInterrupted;
  - (void) _setTransitionInterrupted:(BOOL)a;
  - (void) _stopInteractiveTransition:(id)a;
- - (void) _updateInteractiveTransition:(id)apercent:(d)bisFinished:(BOOL)cdidComplete:(BOOL)d;
+ - (void) _updateInteractiveTransition:(id)apercent:(double)bisFinished:(BOOL)cdidComplete:(BOOL)d;
  - (void) startInteractiveTransition:(id)acontainerViews:(id)banimation:(@?)c;
  - (id) _originalFillMode;
  - (id) init;
- - (void) _setDuration:(d)a;
+ - (void) _setDuration:(double)a;
 
 
 @end

@@ -51,9 +51,9 @@
  - (id) _keyForChild:(id)a;
  - (void) _handleChildGroupChange:(id)a;
  - (void) settings:(id)achangedValueForKeyPath:(id)b;
- - (void) settingsGroup:(id)adidInsertSettings:(id)batIndex:(Q)c;
- - (void) settingsGroup:(id)adidRemoveSettings:(id)batIndex:(Q)c;
- - (void) settingsGroup:(id)adidMoveSettings:(id)bfromIndex:(Q)ctoIndex:(Q)d;
+ - (void) settingsGroup:(id)adidInsertSettings:(id)batIndex:(unsigned long long)c;
+ - (void) settingsGroup:(id)adidRemoveSettings:(id)batIndex:(unsigned long long)c;
+ - (void) settingsGroup:(id)adidMoveSettings:(id)bfromIndex:(unsigned long long)ctoIndex:(unsigned long long)d;
  - (BOOL) archiveToFile:(id)aerror:(^@)b;
  - (void) restoreDefaultValues;
  - (void) restoreFromArchiveDictionary:(id)a;

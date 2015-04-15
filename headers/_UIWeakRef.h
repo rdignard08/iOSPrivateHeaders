@@ -8,7 +8,7 @@
  + (id) weakRefWithObject:(id)a;
 
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) object;
 

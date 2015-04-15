@@ -2,20 +2,20 @@
 @interface _NSJSONWriter : NSObject {
 
     @"NSOutputStream" outputStream;
-    i kind;
-    * dataBuffer;
-    Q dataBufferLen;
-    Q dataLen;
+    int kind;
+    char* dataBuffer;
+    unsigned long long dataBufferLen;
+    unsigned long long dataLen;
     BOOL freeDataBuffer;
-    * tempBuffer;
-    Q tempBufferLen;
-    q totalDataWritten;
+    char* tempBuffer;
+    unsigned long long tempBufferLen;
+    long long totalDataWritten;
 }
 
- - (void) resizeTemporaryBuffer:(Q)a;
- - (id) dataWithRootObject:(id)aoptions:(Q)berror:(^@)c;
- - (q) writeRootObject:(id)atoStream:(id)boptions:(Q)cerror:(^@)d;
- - (q) appendString:(id)arange:({_NSRange=QQ})b;
+ - (void) resizeTemporaryBuffer:(unsigned long long)a;
+ - (id) dataWithRootObject:(id)aoptions:(unsigned long long)berror:(^@)c;
+ - (long long) writeRootObject:(id)atoStream:(id)boptions:(unsigned long long)cerror:(^@)d;
+ - (long long) appendString:(id)arange:({_NSRange=QQ})b;
  - (void) dealloc;
  - (void) finalize;
  - (id) init;

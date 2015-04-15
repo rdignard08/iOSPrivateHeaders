@@ -5,9 +5,9 @@
     @"NSXPCConnection" _connection;
     @"NSXPCInterface" _remoteInterface;
     ^{__CFDictionary=} _knownSelectors;
-    i _selectorLock;
-    Q _proxyNumber;
-    Q _generationCount;
+    int _selectorLock;
+    unsigned long long _proxyNumber;
+    unsigned long long _generationCount;
     BOOL _exported;
 }
 @property (atomic, assign, readwrite) NSNumber* _proxyNumber;
@@ -20,14 +20,14 @@
  - (id) _connection;
  - (void) set_connection:(id)a;
  - (id) _initWithConnection:(id)aexportedObject:(id)binterface:(id)c;
- - (Q) _proxyNumber;
- - (Q) _generationCount;
- - (id) _initWithConnection:(id)aproxyNumber:(Q)bgenerationCount:(Q)cinterface:(id)d;
+ - (unsigned long long) _proxyNumber;
+ - (unsigned long long) _generationCount;
+ - (id) _initWithConnection:(id)aproxyNumber:(unsigned long long)bgenerationCount:(unsigned long long)cinterface:(id)d;
  - (id) remoteObjectProxyWithUserInfo:(id)aerrorHandler:(@?)b;
- - (id) remoteObjectProxyWithTimeout:(d)aerrorHandler:(@?)b;
+ - (id) remoteObjectProxyWithTimeout:(double)aerrorHandler:(@?)b;
  - (void) set_remoteInterface:(id)a;
- - (void) set_proxyNumber:(Q)a;
- - (void) set_generationCount:(Q)a;
+ - (void) set_proxyNumber:(unsigned long long)a;
+ - (void) set_generationCount:(unsigned long long)a;
  - (id) _remoteInterface;
  - (BOOL) _exported;
  - (void) set_exported:(BOOL)a;

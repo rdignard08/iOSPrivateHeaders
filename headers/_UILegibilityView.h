@@ -5,12 +5,12 @@
     @"_UILegibilitySettings" _settings;
     @"UIImage" _image;
     @"UIImage" _shadowImage;
-    d _strength;
+    double _strength;
     @"UIImageView" _imageView;
     @"UIImageView" _shadowImageView;
     @"CAFilter" _imageColorFilter;
     @"CAFilter" _shadowImageColorFilter;
-    q _options;
+    long long _options;
 }
 
  - (void) dealloc;
@@ -20,15 +20,15 @@
  - (id) shadowImage;
  - (void) setShadowImage:(id)a;
  - (id) imageView;
- - (id) initWithSettings:(id)astrength:(d)bimage:(id)cshadowImage:(id)d;
+ - (id) initWithSettings:(id)astrength:(double)bimage:(id)cshadowImage:(id)d;
  - (void) setImage:(id)ashadowImage:(id)b;
  - (void) setSettings:(id)a;
- - (id) initWithSettings:(id)astrength:(d)bimage:(id)c;
- - (id) initWithStyle:(q)aimage:(id)b;
- - (d) strength;
- - (void) setStrength:(d)a;
- - (id) initWithStyle:(q)aimage:(id)bshadowImage:(id)c;
- - (id) initWithSettings:(id)astrength:(d)bimage:(id)cshadowImage:(id)doptions:(q)e;
+ - (id) initWithSettings:(id)astrength:(double)bimage:(id)c;
+ - (id) initWithStyle:(long long)aimage:(id)b;
+ - (double) strength;
+ - (void) setStrength:(double)a;
+ - (id) initWithStyle:(long long)aimage:(id)bshadowImage:(id)c;
+ - (id) initWithSettings:(id)astrength:(double)bimage:(id)cshadowImage:(id)doptions:(long long)e;
  - (void) setSettings:(id)aimage:(id)bshadowImage:(id)c;
  - (id) shadowImageView;
  - (void) setImageView:(id)a;
@@ -42,13 +42,13 @@
  - (void) updateImage;
  - (BOOL) usesSecondaryColor;
  - (void) setHidesImage:(BOOL)a;
- - (void) setStyle:(q)aimage:(id)bshadowImage:(id)c;
+ - (void) setStyle:(long long)aimage:(id)bshadowImage:(id)c;
  - (void) updateForChangedSettings:(id)a;
  - (BOOL) hidesImage;
- - (void) setOptions:(q)a;
- - (q) options;
+ - (void) setOptions:(long long)a;
+ - (long long) options;
  - (void) setImage:(id)a;
- - (q) style;
+ - (long long) style;
  - (id) image;
 
 

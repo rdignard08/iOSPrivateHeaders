@@ -12,7 +12,7 @@
  - (id) webView:(id)arunJavaScriptTextInputPanelWithPrompt:(id)bdefaultText:(id)cinitiatedByFrame:(id)d;
  - (void) webView:(id)aprintFrameView:(id)b;
  - (void) webView:(id)aframe:(id)bexceededDatabaseQuotaForSecurityOrigin:(id)cdatabase:(id)d;
- - (void) webView:(id)aexceededApplicationCacheOriginQuotaForSecurityOrigin:(id)btotalSpaceNeeded:(Q)c;
+ - (void) webView:(id)aexceededApplicationCacheOriginQuotaForSecurityOrigin:(id)btotalSpaceNeeded:(unsigned long long)c;
  - (void) webView:(id)aunableToImplementPolicyWithError:(id)bframe:(id)c;
  - (void) webView:(id)adecidePolicyForMIMEType:(id)brequest:(id)cframe:(id)ddecisionListener:(id)e;
  - (void) webView:(id)adecidePolicyForNavigationAction:(id)brequest:(id)cframe:(id)ddecisionListener:(id)e;

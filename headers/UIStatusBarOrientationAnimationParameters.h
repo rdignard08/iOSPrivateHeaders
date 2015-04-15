@@ -1,12 +1,12 @@
 
 @interface UIStatusBarOrientationAnimationParameters : UIStatusBarAnimationParameters {
 
-    i _orientationAnimation;
+    int _orientationAnimation;
 }
 
  - (id) initWithDefaultParameters;
- - (void) setOrientationAnimation:(i)a;
- - (i) orientationAnimation;
+ - (void) setOrientationAnimation:(int)a;
+ - (int) orientationAnimation;
  - (BOOL) shouldAnimate;
 
 

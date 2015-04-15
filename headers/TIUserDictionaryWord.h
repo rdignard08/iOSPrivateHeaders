@@ -4,7 +4,7 @@
 }
  + (BOOL) userWord:(id)aduplicatesTarget:(id)bandShortcut:(id)c;
  + (id) managedObjectModelURL;
- + (q) validateTransaction:(id)aexistingEntries:(id)b;
+ + (long long) validateTransaction:(id)aexistingEntries:(id)b;
 
 
 

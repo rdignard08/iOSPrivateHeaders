@@ -3,40 +3,40 @@
 @interface NSRegularExpression : NSObject <NSCopying, NSCoding> {
 
     @"NSString" _pattern;
-    Q _options;
+    unsigned long long _options;
     ^v _internal;
     id _reserved1;
-    i _checkout;
-    i _reserved2;
+    int _checkout;
+    int _reserved2;
 }
 @property (atomic, copy, readonly) NSString* pattern;
 @property (atomic, assign, readonly) NSNumber* options;
 @property (atomic, assign, readonly) NSNumber* numberOfCaptureGroups;
- + (id) regularExpressionWithPattern:(id)aoptions:(Q)berror:(^@)c;
+ + (id) regularExpressionWithPattern:(id)aoptions:(unsigned long long)berror:(^@)c;
  + (id) escapedPatternForString:(id)a;
  + (id) escapedTemplateForString:(id)a;
  + (void) initialize;
 
- - ({_NSRange=QQ}) rangeOfFirstMatchInString:(id)aoptions:(Q)brange:({_NSRange=QQ})c;
- - (id) stringByReplacingMatchesInString:(id)aoptions:(Q)brange:({_NSRange=QQ})cwithTemplate:(id)d;
- - (Q) replaceMatchesInString:(id)aoptions:(Q)brange:({_NSRange=QQ})cwithTemplate:(id)d;
+ - ({_NSRange=QQ}) rangeOfFirstMatchInString:(id)aoptions:(unsigned long long)brange:({_NSRange=QQ})c;
+ - (id) stringByReplacingMatchesInString:(id)aoptions:(unsigned long long)brange:({_NSRange=QQ})cwithTemplate:(id)d;
+ - (unsigned long long) replaceMatchesInString:(id)aoptions:(unsigned long long)brange:({_NSRange=QQ})cwithTemplate:(id)d;
  - (id) pattern;
- - (Q) numberOfCaptureGroups;
- - (id) matchesInString:(id)aoptions:(Q)brange:({_NSRange=QQ})c;
- - (Q) numberOfMatchesInString:(id)aoptions:(Q)brange:({_NSRange=QQ})c;
- - (id) firstMatchInString:(id)aoptions:(Q)brange:({_NSRange=QQ})c;
- - (id) replacementStringForResult:(id)ainString:(id)boffset:(q)ctemplate:(id)d;
+ - (unsigned long long) numberOfCaptureGroups;
+ - (id) matchesInString:(id)aoptions:(unsigned long long)brange:({_NSRange=QQ})c;
+ - (unsigned long long) numberOfMatchesInString:(id)aoptions:(unsigned long long)brange:({_NSRange=QQ})c;
+ - (id) firstMatchInString:(id)aoptions:(unsigned long long)brange:({_NSRange=QQ})c;
+ - (id) replacementStringForResult:(id)ainString:(id)boffset:(long long)ctemplate:(id)d;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (Q) options;
- - (id) initWithPattern:(id)aoptions:(Q)berror:(^@)c;
- - (void) enumerateMatchesInString:(id)aoptions:(Q)brange:({_NSRange=QQ})cusingBlock:(@?)d;
+ - (unsigned long long) options;
+ - (id) initWithPattern:(id)aoptions:(unsigned long long)berror:(^@)c;
+ - (void) enumerateMatchesInString:(id)aoptions:(unsigned long long)brange:({_NSRange=QQ})cusingBlock:(@?)d;
 
 
 @end

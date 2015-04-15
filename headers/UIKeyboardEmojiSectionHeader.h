@@ -7,14 +7,14 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (void) setHeaderName:(id)a;
- - (void) setHeaderFontSize:(d)a;
+ - (void) setHeaderFontSize:(double)a;
  - (void) setHeaderTextColor:(id)a;
- - (void) setHeaderOpacity:(d)a;
+ - (void) setHeaderOpacity:(double)a;
  - (void) setUseVibrantBlend:(BOOL)a;
  - (id) headerName;
  - (id) headerTextColor;
- - (d) headerFontSize;
- - (d) headerOpacity;
+ - (double) headerFontSize;
+ - (double) headerOpacity;
  - (BOOL) useVibrantBlend;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

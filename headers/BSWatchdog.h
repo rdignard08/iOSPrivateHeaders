@@ -4,7 +4,7 @@
     @"<BSWatchdogDelegate>" _delegate;
     @"<BSWatchdogProviding>" _provider;
     @"NSObject<OS_dispatch_queue>" _queue;
-    d _timeout;
+    double _timeout;
     @"BSTimer" _timer;
     @? _completion;
     @"NSDate" _startDate;
@@ -27,20 +27,20 @@
  - (void) start;
  - (id) queue;
  - (id) initWithProvider:(id)aqueue:(id)bcompletion:(@?)c;
- - (id) initWithTimeout:(d)aqueue:(id)bcompletion:(@?)c;
+ - (id) initWithTimeout:(double)aqueue:(id)bcompletion:(@?)c;
  - (void) _startWatchdogTimer;
  - (void) _completeWatchdogAfterFiring:(BOOL)a;
  - (void) _invalidateTimer;
  - (void) _stageOneTimerFired;
- - (void) _setupTimerWithInterval:(d)ahandler:(@?)b;
+ - (void) _setupTimerWithInterval:(double)ahandler:(@?)b;
  - (void) _stageTwoTimerFired;
  - (void) _watchdogTimerFired;
  - (id) initWithProvider:(id)aqueue:(id)b;
- - (id) initWithTimeout:(d)aqueue:(id)b;
+ - (id) initWithTimeout:(double)aqueue:(id)b;
  - (id) provider;
  - (id) startDate;
  - (BOOL) hasFired;
- - (d) timeout;
+ - (double) timeout;
 
 
 @end

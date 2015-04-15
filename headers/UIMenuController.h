@@ -3,7 +3,7 @@
 @interface UIMenuController : NSObject <UICalloutBarDelegate> {
 
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _targetRect;
-    q _arrowDirection;
+    long long _arrowDirection;
 }
 @property (nonatomic, assign, readwrite, isMenuVisible) NSNumber* menuVisible;
 @property (nonatomic, assign, readwrite) NSNumber* arrowDirection;
@@ -16,8 +16,8 @@
  - (BOOL) isMenuVisible;
  - (void) setMenuVisible:(BOOL)aanimated:(BOOL)b;
  - (void) setTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainView:(id)b;
- - (q) arrowDirection;
- - (void) setArrowDirection:(q)a;
+ - (long long) arrowDirection;
+ - (void) setArrowDirection:(long long)a;
  - (void) calloutBar:(id)awillStartAnimation:(id)b;
  - (void) calloutBar:(id)adidFinishAnimation:(id)b;
  - (BOOL) _updateAnimated:(BOOL)acheckVisible:(BOOL)b;

@@ -3,18 +3,18 @@
 
     @"NSString" _centerName;
     @"NSLock" _lock;
-    I _sendPort;
+    unsigned int _sendPort;
     @"NSOperationQueue" _asyncQueue;
     ^{__CFRunLoopSource=} _serverSource;
     @"NSString" _requiredEntitlement;
     @"NSMutableDictionary" _callouts;
-    I _parkedServerPort;
+    unsigned int _parkedServerPort;
     @"CPDistributedMessagingCallout" _currentCallout;
-    I _replyPort;
+    unsigned int _replyPort;
     BOOL _portPassing;
     BOOL _delayedReply;
     BOOL _requireLookupByPID;
-    i _targetPID;
+    int _targetPID;
 }
  + (id) centerNamed:(id)a;
  + (id) _centerNamed:(id)arequireLookupByPID:(BOOL)b;
@@ -25,17 +25,17 @@
  - (id) _initWithServerName:(id)a;
  - (void) runServerOnCurrentThread;
  - (id) _initWithServerName:(id)arequireLookupByPID:(BOOL)b;
- - (void) _setSendPort:(I)a;
+ - (void) _setSendPort:(unsigned int)a;
  - (void) _setupInvalidationSource;
  - (BOOL) _sendMessage:(id)auserInfo:(id)breceiveReply:(^@)cerror:(^@)dtoTarget:(id)eselector:(SEL)fcontext:(^v)g;
  - (BOOL) _sendMessage:(id)auserInfo:(id)breceiveReply:(^@)cerror:(^@)dtoTarget:(id)eselector:(SEL)fcontext:(^v)gnonBlocking:(BOOL)h;
  - (BOOL) _sendMessage:(id)auserInfoData:(id)boolKey:(id)coolData:(id)dmakeServer:(BOOL)ereceiveReply:(^@)fnonBlocking:(BOOL)gerror:(^@)h;
- - (I) _sendPort;
+ - (unsigned int) _sendPort;
  - (id) _initAnonymousServer;
- - (I) _serverPort;
+ - (unsigned int) _serverPort;
  - (void) runServerOnCurrentThreadProtectedByEntitlement:(id)a;
- - (void) _sendReplyMessage:(id)aportPassing:(BOOL)bonMachPort:(I)c;
- - (id) _initClientWithPort:(I)a;
+ - (void) _sendReplyMessage:(id)aportPassing:(BOOL)bonMachPort:(unsigned int)c;
+ - (id) _initClientWithPort:(unsigned int)a;
  - (BOOL) sendMessageName:(id)auserInfo:(id)b;
  - (BOOL) sendNonBlockingMessageName:(id)auserInfo:(id)b;
  - (id) sendMessageAndReceiveReplyName:(id)auserInfo:(id)b;
@@ -50,7 +50,7 @@
  - (void) _dispatchMessageNamed:(id)auserInfo:(id)breply:(^@)cauditToken:(^{?=[8I]})d;
  - (BOOL) _isTaskEntitled:(^{?=[8I]})a;
  - (id) _requiredEntitlement;
- - (void) setTargetPID:(i)a;
+ - (void) setTargetPID:(int)a;
 
 
 @end

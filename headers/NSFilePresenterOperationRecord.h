@@ -2,7 +2,7 @@
 @interface NSFilePresenterOperationRecord : NSObject {
 
     @"NSString" operationDescription;
-    q state;
+    long long state;
     id reactor;
 }
 @property (atomic, assign, readonly) NSString* operationDescription;
@@ -18,7 +18,7 @@
  - (id) operationDescription;
  - (id) description;
  - (void) dealloc;
- - (q) state;
+ - (long long) state;
 
 
 @end

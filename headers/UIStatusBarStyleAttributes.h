@@ -7,28 +7,28 @@
 
  - (void) dealloc;
  - (BOOL) isTranslucent;
- - (d) heightForOrientation:(q)a;
+ - (double) heightForOrientation:(long long)a;
  - (BOOL) isDoubleHeight;
  - (id) foregroundStyle;
- - (BOOL) shouldShowInternalItemType:(i)awithScreenCapabilities:(id)b;
- - (d) heightForMetrics:(q)a;
+ - (BOOL) shouldShowInternalItemType:(int)awithScreenCapabilities:(id)b;
+ - (double) heightForMetrics:(long long)a;
  - (id) initWithRequest:(id)a;
- - (q) legibilityStyle;
+ - (long long) legibilityStyle;
  - (BOOL) isTransparent;
  - (BOOL) shouldUseVisualAltitude;
  - (id) backgroundColorWithTintColor:(id)a;
- - (id) newForegroundStyleWithHeight:(d)a;
+ - (id) newForegroundStyleWithHeight:(double)a;
  - (BOOL) usesVerticalLayout;
  - (BOOL) supportsRasterization;
- - (i) cornerStyle;
+ - (int) cornerStyle;
  - (BOOL) areTopCornersRounded;
  - (id) backgroundImageName;
- - (d) foregroundAlpha;
- - (d) glowAnimationDuration;
- - (q) tapButtonType;
+ - (double) foregroundAlpha;
+ - (double) glowAnimationDuration;
+ - (long long) tapButtonType;
  - (id) init;
- - (q) style;
- - (q) idiom;
+ - (long long) style;
+ - (long long) idiom;
 
 
 @end

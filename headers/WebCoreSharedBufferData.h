@@ -11,7 +11,7 @@
  - (void) dealloc;
  - (void) finalize;
  - (r^v) bytes;
- - (Q) length;
+ - (unsigned long long) length;
  - (id) initWithSharedBufferDataBuffer:(^{DataBuffer={atomic<int>=Ai}{Vector<char, 0, WTF::CrashOnOverflow>=*II}})a;
  - (id) initWithMemoryMappedSharedBuffer:(^{SharedBuffer=II{RefPtr<WebCore::SharedBuffer::DataBuffer>=^{DataBuffer}}B{OwnPtr<WebCore::PurgeableBuffer>=^{PurgeableBuffer}}{Vector<WTF::RetainPtr<const __CFData *>, 0, WTF::CrashOnOverflow>=^{RetainPtr<const __CFData *>}II}BI^?^v{RetainPtr<const __CFData *>=^v}})a;
 

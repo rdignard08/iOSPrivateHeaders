@@ -5,9 +5,9 @@
 
  - (id) media;
  - (id) cssRules;
- - (I) insertRule:(id)aindex:(I)b;
- - (I) insertRule:(id)a;
- - (void) deleteRule:(I)a;
+ - (unsigned int) insertRule:(id)aindex:(unsigned int)b;
+ - (unsigned int) insertRule:(id)a;
+ - (void) deleteRule:(unsigned int)a;
 
 
 @end

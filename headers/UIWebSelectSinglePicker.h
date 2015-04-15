@@ -5,16 +5,16 @@
     @"DOMHTMLSelectElement" _selectNode;
     @"NSArray" _optionItems;
     @"<UIWebSelectedItemPrivate>" _selectedOptionItem;
-    q _selectedIndex;
+    long long _selectedIndex;
     @"<UIWebSelectedItemPrivate>" _optionToSelectWhenDone;
-    q _indexToSelectWhenDone;
+    long long _indexToSelectWhenDone;
 }
 
  - (void) dealloc;
- - (q) numberOfComponentsInPickerView:(id)a;
- - (q) pickerView:(id)anumberOfRowsInComponent:(q)b;
- - (id) pickerView:(id)aattributedTitleForRow:(q)bforComponent:(q)c;
- - (void) pickerView:(id)adidSelectRow:(q)binComponent:(q)c;
+ - (long long) numberOfComponentsInPickerView:(id)a;
+ - (long long) pickerView:(id)anumberOfRowsInComponent:(long long)b;
+ - (id) pickerView:(id)aattributedTitleForRow:(long long)bforComponent:(long long)c;
+ - (void) pickerView:(id)adidSelectRow:(long long)binComponent:(long long)c;
  - (id) controlView;
  - (void) controlBeginEditing;
  - (void) controlEndEditing;

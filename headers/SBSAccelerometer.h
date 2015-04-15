@@ -20,17 +20,17 @@
  - (void) setAccelerometerEventsEnabled:(BOOL)a;
  - (void) setOrientationEventsEnabled:(BOOL)a;
  - (BOOL) accelerometerEventsEnabled;
- - (void) accelerometer:(id)adidAccelerateWithTimeStamp:(d)bx:(f)cy:(f)dz:(f)eeventType:(i)f;
- - (void) accelerometer:(id)adidChangeDeviceOrientation:(i)b;
- - (i) currentDeviceOrientation;
- - (d) updateInterval;
- - (void) setUpdateInterval:(d)a;
- - (f) xThreshold;
- - (void) setXThreshold:(f)a;
- - (f) yThreshold;
- - (void) setYThreshold:(f)a;
- - (f) zThreshold;
- - (void) setZThreshold:(f)a;
+ - (void) accelerometer:(id)adidAccelerateWithTimeStamp:(double)bx:(float)cy:(float)dz:(float)eeventType:(int)f;
+ - (void) accelerometer:(id)adidChangeDeviceOrientation:(int)b;
+ - (int) currentDeviceOrientation;
+ - (double) updateInterval;
+ - (void) setUpdateInterval:(double)a;
+ - (float) xThreshold;
+ - (void) setXThreshold:(float)a;
+ - (float) yThreshold;
+ - (void) setYThreshold:(float)a;
+ - (float) zThreshold;
+ - (void) setZThreshold:(float)a;
  - (BOOL) orientationEventsEnabled;
 
 

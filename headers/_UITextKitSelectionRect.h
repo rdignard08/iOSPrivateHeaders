@@ -14,7 +14,7 @@
  - (BOOL) isVertical;
  - (BOOL) containsStart;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) rect;
- - (q) writingDirection;
+ - (long long) writingDirection;
  - (BOOL) containsEnd;
  - (void) setContainsStart:(BOOL)a;
  - (void) setContainsEnd:(BOOL)a;

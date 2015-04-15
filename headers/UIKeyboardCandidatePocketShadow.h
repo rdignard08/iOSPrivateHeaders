@@ -3,16 +3,16 @@
 
     BOOL _shadowFadesToBottom;
     BOOL _drawsShadow;
-    d _shadowHeightGrowthFactor;
+    double _shadowHeightGrowthFactor;
 }
- + (d) width;
+ + (double) width;
 
- - (void) setShadowHeightGrowthFactor:(d)a;
+ - (void) setShadowHeightGrowthFactor:(double)a;
  - (void) setShadowFadesToBottom:(BOOL)a;
  - (void) setDrawsShadow:(BOOL)a;
  - (BOOL) shadowFadesToBottom;
  - (BOOL) drawsShadow;
- - (d) shadowHeightGrowthFactor;
+ - (double) shadowHeightGrowthFactor;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

@@ -1,16 +1,16 @@
 
 @interface UIStatusBarHideAnimationParameters : UIStatusBarAnimationParameters {
 
-    i _hideAnimation;
-    d _additionalSlideHeight;
+    int _hideAnimation;
+    double _additionalSlideHeight;
 }
 
  - (id) initWithDefaultParameters;
- - (void) setHideAnimation:(i)a;
- - (i) hideAnimation;
+ - (void) setHideAnimation:(int)a;
+ - (int) hideAnimation;
  - (BOOL) shouldAnimate;
- - (d) additionalSlideHeight;
- - (void) setAdditionalSlideHeight:(d)a;
+ - (double) additionalSlideHeight;
+ - (void) setAdditionalSlideHeight:(double)a;
 
 
 @end

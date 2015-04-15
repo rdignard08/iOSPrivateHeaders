@@ -18,10 +18,10 @@
  - (BOOL) shouldEnableLimits;
  - (void) setShouldEnableLimits:(BOOL)a;
  - (id) initWithBodyA:(id)abodyB:(id)banchor:({CGPoint=dd})caxis:({CGVector=dd})d;
- - (d) lowerDistanceLimit;
- - (d) upperDistanceLimit;
- - (void) setLowerDistanceLimit:(d)a;
- - (void) setUpperDistanceLimit:(d)a;
+ - (double) lowerDistanceLimit;
+ - (double) upperDistanceLimit;
+ - (void) setLowerDistanceLimit:(double)a;
+ - (void) setUpperDistanceLimit:(double)a;
 
 
 @end

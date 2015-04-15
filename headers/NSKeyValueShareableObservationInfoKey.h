@@ -5,11 +5,11 @@
     @"NSKeyValueObservationInfo" _baseObservationInfo;
     @"NSObject" _additionObserver;
     @"NSKeyValueProperty" _additionProperty;
-    Q _additionOptions;
+    unsigned long long _additionOptions;
     ^v _additionContext;
     @"NSObject" _additionOriginalObservable;
     @"NSKeyValueObservance" _removalObservance;
-    Q _removalObservanceIndex;
+    unsigned long long _removalObservanceIndex;
 }
 
 

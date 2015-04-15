@@ -5,12 +5,12 @@
     @"NSCharacterSet" skipSet;
     @"NSCharacterSet" invertedSkipSet;
     id locale;
-    Q scanLocation;
+    unsigned long long scanLocation;
     {?="caseSensitive"b1""b31} flags;
 }
 
- - (Q) scanLocation;
- - (void) setScanLocation:(Q)a;
+ - (unsigned long long) scanLocation;
+ - (void) setScanLocation:(unsigned long long)a;
  - (void) setCharactersToBeSkipped:(id)a;
  - (BOOL) scanInt:(^i)a;
  - (id) charactersToBeSkipped;

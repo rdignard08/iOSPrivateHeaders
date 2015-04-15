@@ -3,15 +3,15 @@
 
     [6^v] reserved;
 }
- + (id) MCSafePropertyListWithData:(id)aoptions:(Q)bformat:(^Q)cerror:(o^@)d;
- + (id) dataFromPropertyList:(id)aformat:(Q)berrorDescription:(o^@)c;
- + (id) propertyListFromData:(id)amutabilityOption:(Q)bformat:(^Q)cerrorDescription:(o^@)d;
- + (q) writePropertyList:(id)atoStream:(id)bformat:(Q)coptions:(Q)derror:(o^@)e;
- + (id) propertyListWithStream:(id)aoptions:(Q)bformat:(^Q)cerror:(o^@)d;
+ + (id) MCSafePropertyListWithData:(id)aoptions:(unsigned long long)bformat:(^Q)cerror:(o^@)d;
+ + (id) dataFromPropertyList:(id)aformat:(unsigned long long)berrorDescription:(o^@)c;
+ + (id) propertyListFromData:(id)amutabilityOption:(unsigned long long)bformat:(^Q)cerrorDescription:(o^@)d;
+ + (long long) writePropertyList:(id)atoStream:(id)bformat:(unsigned long long)coptions:(unsigned long long)derror:(o^@)e;
+ + (id) propertyListWithStream:(id)aoptions:(unsigned long long)bformat:(^Q)cerror:(o^@)d;
  + (id) allocWithZone:(^{_NSZone=})a;
- + (id) propertyListWithData:(id)aoptions:(Q)bformat:(^Q)cerror:(o^@)d;
- + (id) dataWithPropertyList:(id)aformat:(Q)boptions:(Q)cerror:(o^@)d;
- + (BOOL) propertyList:(id)aisValidForFormat:(Q)b;
+ + (id) propertyListWithData:(id)aoptions:(unsigned long long)bformat:(^Q)cerror:(o^@)d;
+ + (id) dataWithPropertyList:(id)aformat:(unsigned long long)boptions:(unsigned long long)cerror:(o^@)d;
+ + (BOOL) propertyList:(id)aisValidForFormat:(unsigned long long)b;
 
  - (id) init;
 

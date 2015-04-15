@@ -4,8 +4,8 @@
 
     @"UIKeyboardEmojiCollectionView" _collectionView;
     @"UICollectionViewFlowLayout" _flowLayout;
-    i _category;
-    q _currentSection;
+    int _category;
+    long long _currentSection;
     @"NSIndexPath" _tappedSkinToneEmoji;
     @"UIKeyboardEmojiGraphicsTraits" _emojiGraphicsTraits;
     BOOL _isDraggingInputView;
@@ -17,7 +17,7 @@
  - (void) setCompletionBlock:(@?)a;
  - (void) dealloc;
  - (void) didMoveToWindow;
- - (void) setContentScaleFactor:(d)a;
+ - (void) setContentScaleFactor:(double)a;
  - (void) scrollViewDidScroll:(id)a;
  - (void) scrollViewWillBeginDragging:(id)a;
  - (void) scrollViewWillEndDragging:(id)awithVelocity:({CGPoint=dd})btargetContentOffset:(N^{CGPoint=dd})c;
@@ -26,29 +26,29 @@
  - (id) emojiBaseUnicodeString:(id)a;
  - (void) setTappedSkinToneEmoji:(id)a;
  - (BOOL) skinToneWasUsedForEmoji:(id)a;
- - (q) didInputSubTree:(id)a;
+ - (long long) didInputSubTree:(id)a;
  - (BOOL) _userHasSelectedSkinToneEmoji;
  - (id) selectedChildSkinToneEmoji:(id)a;
  - (id) tappedSkinToneEmoji;
  - (void) _setUserHasSelectedSkinToneEmoji:(BOOL)a;
  - (void) shouldDismissModalDisplayView:(id)a;
  - (id) hitTestResponder;
- - (d) snappedXOffsetForOffset:(d)a;
- - (q) collectionView:(id)anumberOfItemsInSection:(q)b;
+ - (double) snappedXOffsetForOffset:(double)a;
+ - (long long) collectionView:(id)anumberOfItemsInSection:(long long)b;
  - (id) collectionView:(id)acellForItemAtIndexPath:(id)b;
- - (q) numberOfSectionsInCollectionView:(id)a;
+ - (long long) numberOfSectionsInCollectionView:(id)a;
  - (id) collectionView:(id)aviewForSupplementaryElementOfKind:(id)batIndexPath:(id)c;
- - (void) reloadForCategory:(i)a;
- - (q) reloadSectionForOffsetPercentage:(d)a;
- - (void) setCategory:(i)a;
+ - (void) reloadForCategory:(int)a;
+ - (long long) reloadSectionForOffsetPercentage:(double)a;
+ - (void) setCategory:(int)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})akeyplane:(id)bkey:(id)c;
  - (id) subTreeHitTest:({CGPoint=dd})a;
  - (void) willDisplayModalActionView:(id)awithSubTreeKeyView:(id)bcompletion:(@?)c;
- - ({UIEdgeInsets=dddd}) collectionView:(id)alayout:(id)binsetForSectionAtIndex:(q)c;
- - (d) collectionView:(id)alayout:(id)bminimumLineSpacingForSectionAtIndex:(q)c;
- - (d) collectionView:(id)alayout:(id)bminimumInteritemSpacingForSectionAtIndex:(q)c;
+ - ({UIEdgeInsets=dddd}) collectionView:(id)alayout:(id)binsetForSectionAtIndex:(long long)c;
+ - (double) collectionView:(id)alayout:(id)bminimumLineSpacingForSectionAtIndex:(long long)c;
+ - (double) collectionView:(id)alayout:(id)bminimumInteritemSpacingForSectionAtIndex:(long long)c;
  - (BOOL) isDraggingInputView;
- - (i) category;
+ - (int) category;
 
 
 @end

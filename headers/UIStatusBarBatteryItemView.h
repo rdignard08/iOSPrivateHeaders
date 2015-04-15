@@ -1,16 +1,16 @@
 
 @interface UIStatusBarBatteryItemView : UIStatusBarItemView {
 
-    i _capacity;
-    i _state;
+    int _capacity;
+    int _state;
     @"UIView" _accessoryView;
 }
 
  - (void) dealloc;
- - (BOOL) updateForNewData:(id)aactions:(i)b;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
  - (id) contentsImage;
- - (d) legibilityStrength;
- - (d) extraRightPadding;
+ - (double) legibilityStrength;
+ - (double) extraRightPadding;
  - (void) _updateAccessoryImage;
  - (BOOL) _needsAccessoryImage;
  - (id) _accessoryImage;

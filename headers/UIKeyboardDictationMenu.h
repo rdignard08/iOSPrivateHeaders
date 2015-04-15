@@ -7,7 +7,7 @@
 
  - (void) hide;
  - (void) show;
- - (void) fadeWithDelay:(d)a;
+ - (void) fadeWithDelay:(double)a;
  - (void) fade;
  - (BOOL) usesTable;
  - ({CGSize=dd}) preferredSize;

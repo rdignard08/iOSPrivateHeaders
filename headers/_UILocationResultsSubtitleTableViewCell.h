@@ -3,7 +3,7 @@
 
 }
 
- - (id) initWithStyle:(q)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
 
 
 @end

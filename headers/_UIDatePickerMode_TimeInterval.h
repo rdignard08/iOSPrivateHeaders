@@ -1,28 +1,28 @@
 
 @interface _UIDatePickerMode_TimeInterval : _UIDatePickerMode {
 
-    d _componentWidth;
+    double _componentWidth;
 }
- + (q) datePickerMode;
- + (Q) extractableCalendarUnits;
+ + (long long) datePickerMode;
+ + (unsigned long long) extractableCalendarUnits;
 
- - (d) rowHeight;
+ - (double) rowHeight;
  - (BOOL) isTimeIntervalMode;
  - (void) takeExtremesFromMinimumDate:(id)amaximumDate:(id)b;
- - (q) hourForRow:(q)a;
- - (BOOL) areValidDateComponents:(id)acomparingUnits:(q)b;
- - (id) dateComponentsByRestrictingSelectedComponents:(id)awithLastManipulatedColumn:(q)b;
+ - (long long) hourForRow:(long long)a;
+ - (BOOL) areValidDateComponents:(id)acomparingUnits:(long long)b;
+ - (id) dateComponentsByRestrictingSelectedComponents:(id)awithLastManipulatedColumn:(long long)b;
  - (void) resetComponentWidths;
- - (d) widthForCalendarUnit:(Q)afont:(id)bmaxWidth:(d)c;
+ - (double) widthForCalendarUnit:(unsigned long long)afont:(id)bmaxWidth:(double)c;
  - (id) localizedFormatString;
- - (q) numberOfRowsForCalendarUnit:(Q)a;
- - (Q) nextUnitSmallerThanUnit:(Q)a;
- - (Q) nextUnitLargerThanUnit:(Q)a;
- - ({_NSRange=QQ}) rangeForCalendarUnit:(Q)a;
- - (q) valueForDate:(id)adateComponents:(id)bcalendarUnit:(Q)c;
- - (q) titleAlignmentForCalendarUnit:(Q)a;
- - (id) titleForRow:(q)ainComponent:(q)b;
- - (BOOL) _shouldEnableValueForRow:(q)ainComponent:(q)bcalendarUnit:(Q)c;
+ - (long long) numberOfRowsForCalendarUnit:(unsigned long long)a;
+ - (unsigned long long) nextUnitSmallerThanUnit:(unsigned long long)a;
+ - (unsigned long long) nextUnitLargerThanUnit:(unsigned long long)a;
+ - ({_NSRange=QQ}) rangeForCalendarUnit:(unsigned long long)a;
+ - (long long) valueForDate:(id)adateComponents:(id)bcalendarUnit:(unsigned long long)c;
+ - (long long) titleAlignmentForCalendarUnit:(unsigned long long)a;
+ - (id) titleForRow:(long long)ainComponent:(long long)b;
+ - (BOOL) _shouldEnableValueForRow:(long long)ainComponent:(long long)bcalendarUnit:(unsigned long long)c;
  - (id) font;
 
 

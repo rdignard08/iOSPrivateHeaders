@@ -40,7 +40,7 @@
  - (id) nextFireDateForLastFireDate:(id)a;
  - (BOOL) isTriggeredByDate;
  - (id) nextFireDateAfterDate:(id)alocalTimeZone:(id)b;
- - (q) compareFireDates:(id)a;
+ - (long long) compareFireDates:(id)a;
  - (void) clearNonSystemProperties;
  - (BOOL) isTriggeredByRegion;
  - (id) init;

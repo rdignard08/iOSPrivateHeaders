@@ -8,7 +8,7 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) set;
  - (id) _rgbColor;
@@ -16,7 +16,7 @@
  - (^{CGColor=}) CGColor;
  - (BOOL) getRed:(^d)agreen:(^d)bblue:(^d)calpha:(^d)d;
  - (void) setFill;
- - (id) colorWithAlphaComponent:(d)a;
+ - (id) colorWithAlphaComponent:(double)a;
  - (BOOL) getWhite:(^d)aalpha:(^d)b;
  - (id) initWithCIColor:(id)a;
  - (void) setStroke;

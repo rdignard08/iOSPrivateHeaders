@@ -10,14 +10,14 @@
  - (void) selectionChanged;
  - (id) initWithView:(id)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) selectionFrame;
- - (void) selectionChangedWithGestureAt:({CGPoint=dd})awithGesture:(q)bwithState:(q)cwithFlags:(q)d;
- - (void) selectionChangedWithTouchAt:({CGPoint=dd})awithSelectionTouch:(q)bwithFlags:(q)c;
- - (void) blockSelectionChangedWithTouch:(q)awithFlags:(q)bgrowThreshold:(d)cshrinkThreshold:(d)d;
+ - (void) selectionChangedWithGestureAt:({CGPoint=dd})awithGesture:(long long)bwithState:(long long)cwithFlags:(long long)d;
+ - (void) selectionChangedWithTouchAt:({CGPoint=dd})awithSelectionTouch:(long long)bwithFlags:(long long)c;
+ - (void) blockSelectionChangedWithTouch:(long long)awithFlags:(long long)bgrowThreshold:(double)cshrinkThreshold:(double)d;
  - (id) selectionLongPressRecognizer;
  - (BOOL) shouldHandleSingleTapAtPoint:({CGPoint=dd})a;
  - (void) showDictionaryFor:(id)afromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) selectionChangedWithGestureAt:({CGPoint=dd})awithGesture:(q)bwithState:(q)c;
- - (void) selectionChangedWithTouchAt:({CGPoint=dd})awithSelectionTouch:(q)b;
+ - (void) selectionChangedWithGestureAt:({CGPoint=dd})awithGesture:(long long)bwithState:(long long)c;
+ - (void) selectionChangedWithTouchAt:({CGPoint=dd})awithSelectionTouch:(long long)b;
  - (void) showTextServiceFor:(id)afromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
 
 

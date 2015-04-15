@@ -12,16 +12,16 @@
  + (id) valueForKey:(id)a;
  + (void) begin;
  + (void) activate;
- + (void) setInputTime:(d)a;
- + (I) currentState;
+ + (void) setInputTime:(double)a;
+ + (unsigned int) currentState;
  + (BOOL) disableActions;
  + (void) setDisableActions:(BOOL)a;
- + (d) commitTime;
- + (void) setCommitTime:(d)a;
+ + (double) commitTime;
+ + (void) setCommitTime:(double)a;
  + (id) _implicitAnimationForLayer:(id)akeyPath:(id)b;
  + (void) commit;
  + (void) flush;
- + (d) animationDuration;
+ + (double) animationDuration;
  + (id) animationTimingFunction;
  + (void) pushAnimator:(@?)a;
  + (void) popAnimator;
@@ -29,9 +29,9 @@
  + (void) activateBackground:(BOOL)a;
  + (BOOL) animatesFromModelValues;
  + (void) setAnimatesFromModelValues:(BOOL)a;
- + (d) inputTime;
+ + (double) inputTime;
  + (void) assertInactive;
- + (void) setAnimationDuration:(d)a;
+ + (void) setAnimationDuration:(double)a;
  + (void) setAnimationTimingFunction:(id)a;
 
 

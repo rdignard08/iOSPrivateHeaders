@@ -3,7 +3,7 @@
 
     id _target;
     SEL _action;
-    i _eventMask;
+    int _eventMask;
     BOOL _cancelled;
 }
 @property (nonatomic, assign, readwrite) NSNumber* cancelled;

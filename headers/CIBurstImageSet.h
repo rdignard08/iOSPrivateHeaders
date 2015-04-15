@@ -16,11 +16,11 @@
  - (BOOL) isPortrait;
  - (BOOL) isAction;
  - (id) allImageIdentifiers;
- - (d) secondsSinceStart;
+ - (double) secondsSinceStart;
  - (id) statsForImageWithIdentifier:(id)a;
  - (id) coverImageIdentifier;
- - (Q) imageClusterCount;
- - (id) imageClusterForIndex:(Q)a;
+ - (unsigned long long) imageClusterCount;
+ - (id) imageClusterForIndex:(unsigned long long)a;
  - (void) setLoggingListener:(^v)awithUserInfo:(^v)b;
 
 

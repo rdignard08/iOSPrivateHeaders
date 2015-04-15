@@ -8,7 +8,7 @@
 
  - (id) description;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (void) addObject:(id)a;
  - (BOOL) containsObject:(id)a;
  - (void) removeObject:(id)a;

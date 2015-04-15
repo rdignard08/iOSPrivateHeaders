@@ -3,7 +3,7 @@
 
 }
 
- - (d) confidence;
+ - (double) confidence;
 
 
 @end

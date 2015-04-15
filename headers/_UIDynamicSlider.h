@@ -2,9 +2,9 @@
 @protocol UIDynamicAnimatorDelegate, UICollisionBehaviorDelegate;
 @interface _UIDynamicSlider : UISlider <UIDynamicAnimatorDelegate, UICollisionBehaviorDelegate> {
 
-    d _thumbVelocity;
+    double _thumbVelocity;
     {CGPoint="x"d"y"d} _thumbPreviousPoint;
-    d _thumbPreviousTime;
+    double _thumbPreviousTime;
     @"UIView" _thumbDynamicsView;
     @"_UIDynamicSliderAnimator" _animator;
     @"UIGravityBehavior" _gravityBehavior;

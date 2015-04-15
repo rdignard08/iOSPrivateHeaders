@@ -27,11 +27,11 @@
  - (id) shadowView;
  - (void) setShadowView:(id)a;
  - ({CGPoint=dd}) _contentOffset;
- - (void) captureSnapshotOfView:(id)awithSnapshotType:(i)b;
+ - (void) captureSnapshotOfView:(id)awithSnapshotType:(int)b;
  - (void) _setStatusBarTintColor:(id)a;
  - (void) setEdgePadding:({UIEdgeInsets=dddd})a;
  - (void) setEdgePaddingColor:(id)a;
- - (void) captureSnapshotRect:({CGRect={CGPoint=dd}{CGSize=dd}})afromView:(id)bwithSnapshotType:(i)c;
+ - (void) captureSnapshotRect:({CGRect={CGPoint=dd}{CGSize=dd}})afromView:(id)bwithSnapshotType:(int)c;
  - ({UIEdgeInsets=dddd}) edgePadding;
  - (void) _setContentOffset:({CGPoint=dd})a;
  - (void) setVerticalStretchEnabled:(BOOL)a;

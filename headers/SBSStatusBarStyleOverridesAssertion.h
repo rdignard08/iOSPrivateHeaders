@@ -14,20 +14,20 @@
 @property (nonatomic, retain, readwrite) NSNumber* invalidationQueue;
 @property (nonatomic, retain, readwrite) SBSStatusBarStyleOverridesAssertionData* assertionData;
 @property (nonatomic, retain, readwrite) NSRecursiveLock* invalidationLock;
- + (id) assertionWithStatusBarStyleOverrides:(i)aforPID:(i)bexclusive:(BOOL)c;
- + (id) backgroundLocationAssertionForPID:(i)a;
+ + (id) assertionWithStatusBarStyleOverrides:(int)aforPID:(int)bexclusive:(BOOL)c;
+ + (id) backgroundLocationAssertionForPID:(int)a;
 
  - (@?) invalidationHandler;
  - (void) dealloc;
  - (void) invalidate;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) uniqueIdentifier;
  - (void) setInvalidationHandler:(@?)a;
- - (i) pid;
- - (id) initWithStatusBarStyleOverrides:(i)aforPID:(i)bexclusive:(BOOL)c;
+ - (int) pid;
+ - (id) initWithStatusBarStyleOverrides:(int)aforPID:(int)bexclusive:(BOOL)c;
  - (id) initWithStatusBarStyleOverridesAssertionData:(id)a;
- - (i) statusBarStyleOverrides;
+ - (int) statusBarStyleOverrides;
  - (BOOL) isExclusive;
  - (void) _callInvalidationHandler;
  - (id) assertionData;

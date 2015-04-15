@@ -14,10 +14,10 @@
  - (BOOL) _isNTSCOrPAL;
  - (id) _displayMode;
  - (id) initWithDisplayMode:(id)amainScreen:(BOOL)b;
- - ({CGSize=dd}) _sizeWithLevel:(Q)a;
+ - ({CGSize=dd}) _sizeWithLevel:(unsigned long long)a;
  - (BOOL) _mainScreen;
  - (void) set_mainScreen:(BOOL)a;
- - (d) pixelAspectRatio;
+ - (double) pixelAspectRatio;
 
 
 @end

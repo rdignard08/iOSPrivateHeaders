@@ -12,7 +12,7 @@
     @"UIFont" _timeDesignatorFont;
     @"NSCalendar" _calendar;
     BOOL _shouldRecomputeText;
-    d _paddingFromTimeToDesignator;
+    double _paddingFromTimeToDesignator;
 }
  + (id) defaultFont;
  + (id) _timeOnlyDateFormatter;
@@ -25,7 +25,7 @@
 
  - (void) dealloc;
  - (void) invalidate;
- - (d) timeInterval;
+ - (double) timeInterval;
  - (id) date;
  - ({CGSize=dd}) _intrinsicSizeWithinSize:({CGSize=dd})a;
  - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a;
@@ -39,24 +39,24 @@
  - (id) timeDesignatorFont;
  - (id) _calendar;
  - (id) _todayDate;
- - (id) _dateWithDayDiffFromToday:(q)a;
+ - (id) _dateWithDayDiffFromToday:(long long)a;
  - (void) setDate:(id)a;
  - (BOOL) shouldRecomputeText;
  - (id) _dateString;
  - (BOOL) boldForAllLocales;
  - (void) _didUpdateDate;
- - (d) _today;
- - (d) _tomorrow;
- - (d) _yesterday;
- - (d) _lastWeek;
+ - (double) _today;
+ - (double) _tomorrow;
+ - (double) _yesterday;
+ - (double) _lastWeek;
  - (BOOL) use24HourTime;
- - (d) _noon;
+ - (double) _noon;
  - (void) setForceTimeOnly:(BOOL)a;
  - (void) setBoldForAllLocales:(BOOL)a;
- - (void) setTimeInterval:(d)a;
+ - (void) setTimeInterval:(double)a;
  - (BOOL) forceTimeOnly;
- - (d) paddingFromTimeToDesignator;
- - (void) setPaddingFromTimeToDesignator:(d)a;
+ - (double) paddingFromTimeToDesignator;
+ - (void) setPaddingFromTimeToDesignator:(double)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (id) font;
  - (id) text;

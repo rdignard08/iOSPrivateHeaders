@@ -22,7 +22,7 @@
  - (void) dismissalTransitionWillBegin;
  - (void) _transitionFromWillBegin;
  - (void) _transitionToWillBegin;
- - (q) adaptivePresentationStyle;
+ - (long long) adaptivePresentationStyle;
  - (id) initWithPresentedViewController:(id)apresentingViewController:(id)b;
  - (BOOL) _shouldKeepCurrentFirstResponder;
  - (void) _transitionToPresentationController:(id)awithTransitionCoordinator:(id)b;
@@ -30,11 +30,11 @@
  - (id) _presentedViewControllerForPresentationController:(id)atraitCollection:(id)b;
  - (id) searchBarContainerView;
  - (BOOL) searchBarToBecomeTopAttached;
- - (d) statusBarAdjustment;
+ - (double) statusBarAdjustment;
  - (void) _presentedView:(id)aenableFormSheetAccoutrements:(BOOL)b;
  - (void) setContentVisible:(BOOL)a;
  - (BOOL) _shouldSubscribeToKeyboardNotifications;
- - (d) resultsControllerContentOffset;
+ - (double) resultsControllerContentOffset;
  - (BOOL) shouldAccountForStatusBar;
  - (id) adaptivePresentationController;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) finalFrameForContainerView;

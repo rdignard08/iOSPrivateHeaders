@@ -16,8 +16,8 @@
  - (^{b2JointDef=i^v^{b2Body}^{b2Body}B}) _jointDef;
  - (void) create;
  - (id) initWithBodyA:(id)abodyB:(id)banchorA:({CGPoint=dd})canchorB:({CGPoint=dd})d;
- - (d) maxLength;
- - (void) setMaxLength:(d)a;
+ - (double) maxLength;
+ - (void) setMaxLength:(double)a;
 
 
 @end

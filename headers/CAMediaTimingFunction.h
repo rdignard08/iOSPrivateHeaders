@@ -6,7 +6,7 @@
 }
  + (id) _kbTimingFunction;
  + (id) uiFunctionWithControlPoints:(r^{CGPoint=dd})a;
- + (id) functionWithControlPoints:(f)a;
+ + (id) functionWithControlPoints:(float)a;
  + (id) functionWithName:(id)a;
  + (void) CAMLParserEndElement:(id)acontent:(id)b;
 
@@ -14,11 +14,11 @@
  - (void) dealloc;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (void) getControlPointAtIndex:(Q)avalues:([2f])b;
+ - (void) getControlPointAtIndex:(unsigned long long)avalues:([2f])b;
  - (void) encodeWithCAMLWriter:(id)a;
  - (void) _getPoints:(^d)a;
- - (f) _solveForInput:(f)a;
- - (id) initWithControlPoints:(f)a;
+ - (float) _solveForInput:(float)a;
+ - (id) initWithControlPoints:(float)a;
  - (id) CAMLType;
 
 

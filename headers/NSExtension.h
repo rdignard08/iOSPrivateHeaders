@@ -19,7 +19,7 @@
     @"NSMutableDictionary" __extensionServiceConnections;
     @"NSMutableDictionary" __extensionContexts;
     @"BKSProcessAssertion" __extensionProcessAssertion;
-    q __assertionRefCount;
+    long long __assertionRefCount;
     @"NSObject<OS_dispatch_queue>" __safePluginQueue;
 }
 @property (nonatomic, assign, readonly, _isMarkedNew) NSNumber* _markedNew;
@@ -63,7 +63,7 @@
  - (void) setVersion:(id)a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) icons;
  - (void) cancelExtensionRequestWithIdentifier:(id)a;
@@ -77,7 +77,7 @@
  - (id) extensionPointIdentifier;
  - (void) setRequestInterruptionBlock:(@?)a;
  - (void) beginExtensionRequestWithInputItems:(id)acompletion:(@?)b;
- - (i) pidForRequestIdentifier:(id)a;
+ - (int) pidForRequestIdentifier:(id)a;
  - (id) init;
  - (id) _plugIn;
  - (id) _extensionState;
@@ -118,8 +118,8 @@
  - (@?) _requestPostCompletionBlockWithItems;
  - (@?) requestCancellationBlock;
  - (id) _itemProviderForPayload:(id)aextensionContext:(id)b;
- - (i) _plugInProcessIdentifier;
- - (void) _kill:(i)a;
+ - (int) _plugInProcessIdentifier;
+ - (void) _kill:(int)a;
  - (BOOL) _isSystemExtension;
  - (void) _safelyEndUsing:(@?)a;
  - (void) setIdentifier:(id)a;
@@ -133,8 +133,8 @@
  - (void) _setExtensionExpirationsIdentifiers:(id)a;
  - (id) _extensionProcessAssertion;
  - (void) _setExtensionProcessAssertion:(id)a;
- - (q) _assertionRefCount;
- - (void) _setAssertionRefCount:(q)a;
+ - (long long) _assertionRefCount;
+ - (void) _setAssertionRefCount:(long long)a;
  - (BOOL) _isObservingHostAppStateChanges;
  - (void) _setObservingHostAppStateChanges:(BOOL)a;
  - (void) set_safePluginQueue:(id)a;

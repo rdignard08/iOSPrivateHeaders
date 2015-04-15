@@ -1,10 +1,10 @@
 
 @interface _UICircleProgressIndicator : UIView {
 
-    d _animatedValue;
-    d _animationEndTime;
-    d _animationStartTime;
-    d _animationStartValue;
+    double _animatedValue;
+    double _animationEndTime;
+    double _animationStartTime;
+    double _animationStartValue;
     @"UIImage" _borderImage;
     @"UIImage" _centerImage;
     {UIEdgeInsets="top"d"left"d"bottom"d"right"d} _centerImageInsets;
@@ -13,7 +13,7 @@
     BOOL _highlighted;
     @"UIImageView" _indeterminateView;
     BOOL _isAnimating;
-    d _progress;
+    double _progress;
     @"UIColor" _unhighlightedBackgroundColor;
 }
  + (id) _fillImage;
@@ -21,8 +21,8 @@
  + (id) _indeterminateImage;
 
  - (BOOL) isIndeterminate;
- - (d) progress;
- - (void) setProgress:(d)a;
+ - (double) progress;
+ - (void) setProgress:(double)a;
  - (void) dealloc;
  - (void) didMoveToWindow;
  - (void) layoutSubviews;
@@ -32,7 +32,7 @@
  - (BOOL) isHighlighted;
  - (void) setImageInsets:({UIEdgeInsets=dddd})a;
  - ({UIEdgeInsets=dddd}) imageInsets;
- - (void) setProgress:(d)aanimated:(BOOL)b;
+ - (void) setProgress:(double)aanimated:(BOOL)b;
  - (void) _startIndeterminateAnimation;
  - (void) _animateValueOnDisplayLink:(id)a;
  - (void) setBorderImage:(id)a;

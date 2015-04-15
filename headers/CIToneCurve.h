@@ -12,7 +12,7 @@
 }
  + (id) customAttributes;
  + (id) curveImageFromPoints:(r^{CGPoint=dd})a;
- + (void) splineCurveTable:(^d)atableSize:(i)bgamma:(d)cfrom:(r^{CGPoint=dd})d;
+ + (void) splineCurveTable:(^d)atableSize:(int)bgamma:(double)cfrom:(r^{CGPoint=dd})d;
  + (id) curveImageFromPoints:(r^{CGPoint=dd})alinear:(BOOL)b;
 
  - (void) dealloc;

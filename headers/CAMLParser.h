@@ -28,7 +28,7 @@
  - (id) result;
  - (void) setBaseURL:(id)a;
  - (BOOL) parseContentsOfURL:(id)a;
- - (BOOL) parseBytes:(r*)alength:(Q)b;
+ - (BOOL) parseBytes:(r*)alength:(unsigned long long)b;
  - (BOOL) parseString:(id)a;
  - (id) didFailToLoadResourceFromURL:(id)a;
 

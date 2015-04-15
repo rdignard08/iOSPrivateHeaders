@@ -4,7 +4,7 @@
     @"NSString" _identifier;
     @"NSMutableDictionary" _memoryStore;
     @"NSMutableDictionary" _nameIdentifierStore;
-    i _maxNameIdentifier;
+    int _maxNameIdentifier;
 }
 
  - (void) dealloc;
@@ -17,7 +17,7 @@
  - (BOOL) canGetRenditionWithKey:(r^{_renditionkeytoken=SS})a;
  - (id) renditionWithKey:(r^{_renditionkeytoken=SS})ausingKeySignature:(id)b;
  - (void) clearRenditionCache;
- - (q) maximumRenditionKeyTokenCount;
+ - (long long) maximumRenditionKeyTokenCount;
  - (BOOL) usesCUISystemThemeRenditionKey;
  - (id) allImageNames;
  - (r^{_renditionkeytoken=SS}) renditionKeyForName:(id)acursorHotSpot:(^{CGPoint=dd})b;

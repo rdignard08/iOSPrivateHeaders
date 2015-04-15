@@ -6,9 +6,9 @@
     @"NSArray" colorMidpointLocations;
     @"NSArray" opacityStops;
     @"NSArray" opacityMidpointLocations;
-    d smoothingCoefficient;
+    double smoothingCoefficient;
     {_psdGradientColor="red"d"green"d"blue"d"alpha"d} fillColor;
-    i blendMode;
+    int blendMode;
     {?="colorEdgePixel"b2"opacityEdgePixel"b2"isDithered"b1"reserved"b3} pgeFlags;
 }
 @property (nonatomic, assign, readwrite) NSNumber* blendMode;
@@ -19,27 +19,27 @@
  - (void) dealloc;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (i) blendMode;
+ - (int) blendMode;
  - (id) colorStops;
  - (id) colorMidpointLocations;
  - (id) opacityStops;
  - (id) opacityMidpointLocations;
- - (d) smoothingCoefficient;
+ - (double) smoothingCoefficient;
  - (BOOL) isDithered;
- - (void) setBlendMode:(i)a;
- - (id) initWithColorStops:(id)acolorMidpoints:(id)bopacityStops:(id)copacityMidpoints:(id)dsmoothingCoefficient:(d)efillColor:({_psdGradientColor=dddd})fdither:(BOOL)g;
+ - (void) setBlendMode:(int)a;
+ - (id) initWithColorStops:(id)acolorMidpoints:(id)bopacityStops:(id)copacityMidpoints:(id)dsmoothingCoefficient:(double)efillColor:({_psdGradientColor=dddd})fdither:(BOOL)g;
  - (id) _cleanedUpMidpointLocationsFromLocations:(id)a;
  - (void) _createOrderedStops:(^@)amidpoints:(^@)bfromStops:(id)cmidpoints:(id)dedgePixel:(^q)e;
- - (d) _smoothedInterpolationOfLocation:(d)abetweenLower:(d)bupper:(d)cscaledMidpoint:(d)d;
- - (id) initWithColorStops:(id)acolorMidpoints:(id)bopacityStops:(id)copacityMidpoints:(id)dsmoothingCoefficient:(d)efillCoefficient:(d)f;
- - ({_psdGradientColor=dddd}) _smoothedGradientColorAtLocation:(d)a;
- - (d) fillCoefficient;
+ - (double) _smoothedInterpolationOfLocation:(double)abetweenLower:(double)bupper:(double)cscaledMidpoint:(double)d;
+ - (id) initWithColorStops:(id)acolorMidpoints:(id)bopacityStops:(id)copacityMidpoints:(id)dsmoothingCoefficient:(double)efillCoefficient:(double)f;
+ - ({_psdGradientColor=dddd}) _smoothedGradientColorAtLocation:(double)a;
+ - (double) fillCoefficient;
  - (BOOL) hasEdgePixel;
  - (void) setColorStops:(id)amidpoints:(id)b;
  - (void) setOpacityStops:(id)amidpoints:(id)b;
- - (void) setSmoothingCoefficient:(d)a;
- - (void) setFillCoefficient:(d)a;
- - (void) customizeForDistance:(d)a;
+ - (void) setSmoothingCoefficient:(double)a;
+ - (void) setFillCoefficient:(double)a;
+ - (void) customizeForDistance:(double)a;
  - ({_psdGradientColor=dddd}) fillColor;
 
 

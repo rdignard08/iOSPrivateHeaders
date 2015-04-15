@@ -4,9 +4,9 @@
     @"CAStateController" _controller;
     @"CALayer" _layer;
     @"CAStateTransition" _transition;
-    d _beginTime;
-    d _duration;
-    f _speed;
+    double _beginTime;
+    double _duration;
+    float _speed;
     @"NSString" _masterKey;
     @"NSMutableArray" _animations;
 }
@@ -16,17 +16,17 @@
 @property (nonatomic, assign, readonly) NSNumber* duration;
 @property (nonatomic, assign, readonly) NSNumber* speed;
 
- - (d) duration;
+ - (double) duration;
  - (void) dealloc;
  - (void) invalidate;
  - (id) transition;
  - (id) init;
  - (void) addAnimation:(id)a;
- - (d) beginTime;
+ - (double) beginTime;
  - (id) layer;
  - (void) removeAnimationFromLayer:(id)aforKey:(id)b;
  - (void) animationDidStop:(id)afinished:(BOOL)b;
- - (f) speed;
+ - (float) speed;
 
 
 @end

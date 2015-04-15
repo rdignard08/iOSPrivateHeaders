@@ -3,7 +3,7 @@
 
 }
  + (id) candidateBarBackgroundWithHighlight:(BOOL)a;
- + (id) candidateScrollViewBackgroundWithHeight:(d)a;
+ + (id) candidateScrollViewBackgroundWithHeight:(double)a;
 
 
 

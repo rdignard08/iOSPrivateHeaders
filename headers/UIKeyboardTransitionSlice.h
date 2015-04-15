@@ -7,7 +7,7 @@
     @"UIKBCacheToken" _endToken;
     BOOL _shiftContents;
     BOOL _delayCrossfade;
-    i _normalization;
+    int _normalization;
 }
 @property (atomic, assign, readwrite) NSNumber* startRect;
 @property (atomic, assign, readwrite) NSNumber* endRect;
@@ -30,8 +30,8 @@
  - (void) setStartToken:(id)a;
  - (id) endToken;
  - (void) setEndToken:(id)a;
- - (i) normalization;
- - (void) setNormalization:(i)a;
+ - (int) normalization;
+ - (void) setNormalization:(int)a;
  - (BOOL) delayCrossfade;
  - (void) setDelayCrossfade:(BOOL)a;
  - (id) init;

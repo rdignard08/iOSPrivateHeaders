@@ -5,8 +5,8 @@
     @"NSURL" _url;
 }
 
- - (id) resultByAdjustingRangesWithOffset:(q)a;
- - (BOOL) _adjustRangesWithOffset:(q)a;
+ - (id) resultByAdjustingRangesWithOffset:(long long)a;
+ - (BOOL) _adjustRangesWithOffset:(long long)a;
  - (id) initWithRange:({_NSRange=QQ})aURL:(id)b;
  - (id) description;
  - (void) dealloc;
@@ -14,7 +14,7 @@
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - ({_NSRange=QQ}) range;
- - (Q) resultType;
+ - (unsigned long long) resultType;
 
 
 @end

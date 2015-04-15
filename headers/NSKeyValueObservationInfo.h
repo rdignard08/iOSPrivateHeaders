@@ -1,22 +1,22 @@
 
 @interface NSKeyValueObservationInfo : NSObject {
 
-    i _retainCountMinusOne;
+    int _retainCountMinusOne;
     @"NSArray" _observances;
-    Q _cachedHash;
+    unsigned long long _cachedHash;
     BOOL _cachedIsShareable;
     @"NSHashTable" _observables;
 }
 
- - (id) _initWithObservances:(^@)acount:(Q)b;
+ - (id) _initWithObservances:(^@)acount:(unsigned long long)b;
  - (id) description;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
 
 

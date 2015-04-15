@@ -31,8 +31,8 @@
  - (void) _setOn:(BOOL)aanimated:(BOOL)bforce:(BOOL)c;
  - (id) _defaultOnTintColor;
  - (void) _cleanUpAfterAnimating;
- - (void) _setProgress:(d)aanimated:(BOOL)bwithDuration:(d)cforce:(BOOL)dsendAction:(BOOL)e;
- - (void) _setProgress:(d)a;
+ - (void) _setProgress:(double)aanimated:(BOOL)bwithDuration:(double)cforce:(BOOL)dsendAction:(BOOL)e;
+ - (void) _setProgress:(double)a;
  - (void) _prepareForInteraction;
  - (void) setSendAction:(BOOL)a;
  - (void) _setPressed:(BOOL)aon:(BOOL)banimated:(BOOL)cshouldAnimateLabels:(BOOL)dcompletion:(@?)e;
@@ -51,7 +51,7 @@
  - (void) _invalidateWell;
  - (void) _invalidateKnob;
  - (void) _invalidateOnOffImages;
- - (d) _wellBorderWidthPressed:(BOOL)aon:(BOOL)b;
+ - (double) _wellBorderWidthPressed:(BOOL)aon:(BOOL)b;
  - (void) _orderSubviews;
  - (void) _transitionWellViewToPressed:(BOOL)aanimated:(BOOL)b;
  - (void) _transitionWellViewToOn:(BOOL)aanimated:(BOOL)b;

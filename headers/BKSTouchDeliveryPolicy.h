@@ -6,12 +6,12 @@
 @property (nonatomic, retain, readwrite) NSNumber* assertionEndpoint;
  + (BOOL) supportsSecureCoding;
  + (id) allocWithZone:(^{_NSZone=})a;
- + (id) policyRequiringSharingOfTouchesDeliveredToChildContextId:(I)awithHostContextId:(I)b;
- + (id) policyCancelingTouchesDeliveredToContextId:(I)awithInitialTouchTimestamp:(d)b;
+ + (id) policyRequiringSharingOfTouchesDeliveredToChildContextId:(unsigned int)awithHostContextId:(unsigned int)b;
+ + (id) policyCancelingTouchesDeliveredToContextId:(unsigned int)awithInitialTouchTimestamp:(double)b;
  + (id) policyByCombiningPolicies:(id)a;
 
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

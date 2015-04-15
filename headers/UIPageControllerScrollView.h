@@ -8,7 +8,7 @@
  - (void) _scrollViewWillBeginDragging;
  - (void) _scrollViewDidEndDraggingWithDeceleration:(BOOL)a;
  - (void) _scrollViewDidEndDecelerating;
- - (Q) _abuttedPagingEdges;
+ - (unsigned long long) _abuttedPagingEdges;
  - (void) _scrollViewAnimationEnded:(id)afinished:(BOOL)b;
  - (id) pageController;
  - (void) setPageController:(id)a;

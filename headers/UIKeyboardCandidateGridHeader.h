@@ -2,7 +2,7 @@
 @interface UIKeyboardCandidateGridHeader : UIView {
 
     @"UILabel" _inlineTextLabel;
-    d _inlineTextRightMargin;
+    double _inlineTextRightMargin;
     @"UIButton" _toggleButton;
     @"UIKBBackdropView" _backdropView;
 }
@@ -16,9 +16,9 @@
  - (void) setInlineTextLabel:(id)a;
  - (void) setToggleButton:(id)a;
  - (id) inlineTextLabel;
- - (d) inlineTextRightMargin;
+ - (double) inlineTextRightMargin;
  - (id) toggleButton;
- - (void) setInlineTextRightMargin:(d)a;
+ - (void) setInlineTextRightMargin:(double)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

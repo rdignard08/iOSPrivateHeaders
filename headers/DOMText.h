@@ -4,7 +4,7 @@
 }
 
  - (id) wholeText;
- - (id) splitText:(I)a;
+ - (id) splitText:(unsigned int)a;
  - (id) replaceWholeText:(id)a;
 
 

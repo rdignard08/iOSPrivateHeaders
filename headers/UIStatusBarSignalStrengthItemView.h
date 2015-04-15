@@ -1,16 +1,16 @@
 
 @interface UIStatusBarSignalStrengthItemView : UIStatusBarItemView {
 
-    i _signalStrengthRaw;
-    i _signalStrengthBars;
+    int _signalStrengthRaw;
+    int _signalStrengthBars;
     BOOL _enableRSSI;
     BOOL _showRSSI;
 }
 
  - (void) touchesEnded:(id)awithEvent:(id)b;
- - (BOOL) updateForNewData:(id)aactions:(i)b;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
  - (id) contentsImage;
- - (d) extraRightPadding;
+ - (double) extraRightPadding;
  - (id) _stringForRSSI;
 
 

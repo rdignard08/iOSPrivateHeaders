@@ -20,7 +20,7 @@
  - (id) cityForClassicIdentifier:(id)a;
  - (id) citiesMatchingName:(id)a;
  - (id) localeWithCode:(id)a;
- - (id) defaultCitiesForLocaleCode:(id)aoptions:(i)b;
+ - (id) defaultCitiesForLocaleCode:(id)aoptions:(int)b;
  - (id) _defaultCityForTimeZone:(id)alocaleCode:(id)b;
  - (id) _cityForTimeZone:(id)alocaleCode:(id)b;
  - (id) citiesWithTimeZone:(id)a;

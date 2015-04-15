@@ -58,7 +58,7 @@
  - (id) gestureRecognizers;
  - (id) icons;
  - (void) setPopoverController:(id)a;
- - (void) popoverController:(id)aanimationCompleted:(q)b;
+ - (void) popoverController:(id)aanimationCompleted:(long long)b;
  - (void) _openDocumentWithApplication:(id)a;
  - (BOOL) presentPreviewAnimated:(BOOL)a;
  - (BOOL) _delegatePerformAction:(SEL)a;
@@ -75,15 +75,15 @@
  - (void) previewControllerDidDismiss:(id)a;
  - (id) previewController:(id)atransitionImageForPreviewItem:(id)bcontentRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})c;
  - (id) previewItemProxy;
- - (q) numberOfPreviewItemsInPreviewController:(id)a;
- - (id) previewController:(id)apreviewItemAtIndex:(q)b;
+ - (long long) numberOfPreviewItemsInPreviewController:(id)a;
+ - (id) previewController:(id)apreviewItemAtIndex:(long long)b;
  - (id) activityViewController;
  - (BOOL) _canUnzipDocument;
  - (id) UTI;
  - (id) _documentProxySourceIsManaged:(BOOL)a;
  - (BOOL) _delegateExistsAndImplementsRequiredMethods:(^@)a;
  - (void) setPreviewURLOverride:(id)a;
- - (Q) applicationCount;
+ - (unsigned long long) applicationCount;
  - (void) openDocumentWithDefaultApplication;
  - (void) _dismissEverythingWithExtremePrejudiceAnimated:(BOOL)a;
  - (void) setShouldUnzipDocument:(BOOL)a;

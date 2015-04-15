@@ -2,7 +2,7 @@
 @interface _UIInlineCandidateCell : UIView {
 
     @"NSString" _candidate;
-    Q _index;
+    unsigned long long _index;
     @"UIFont" _font;
     {CGSize="width"d"height"d} _stringImageSize;
     BOOL _highlighted;
@@ -14,8 +14,8 @@
 
  - (void) dealloc;
  - (void) setHighlighted:(BOOL)a;
- - (Q) index;
- - (id) initWithCandidate:(id)aandIndex:(Q)bwithFontSize:(d)ctarget:(id)daction:(SEL)e;
+ - (unsigned long long) index;
+ - (id) initWithCandidate:(id)aandIndex:(unsigned long long)bwithFontSize:(double)ctarget:(id)daction:(SEL)e;
  - ({CGSize=dd}) stringImageSize;
  - (void) setLastItem:(BOOL)a;
  - (void) dontDrawRightEdge:(BOOL)a;

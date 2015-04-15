@@ -3,8 +3,8 @@
 
 }
 
- - (q) presentationStyle;
- - (Q) dropShadowAutoresizingMask;
+ - (long long) presentationStyle;
+ - (unsigned long long) dropShadowAutoresizingMask;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frameOfPresentedViewInContainerView;
  - (BOOL) _shouldHideBottomCorner;
  - (BOOL) shouldSubscribeToKeyboardNotifications;

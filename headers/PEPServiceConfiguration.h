@@ -3,7 +3,7 @@
 
     @"NSString" _cacheFilePath;
     BOOL _shouldDownloadNetworkConfigFile;
-    d _cachedFileLastModifyDate;
+    double _cachedFileLastModifyDate;
 }
  + (id) sharedInstance;
 

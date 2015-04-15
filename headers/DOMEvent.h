@@ -7,10 +7,10 @@
  - (void) dealloc;
  - (void) finalize;
  - (void) setReturnValue:(BOOL)a;
- - (Q) timeStamp;
+ - (unsigned long long) timeStamp;
  - (id) type;
  - (id) currentTarget;
- - (S) eventPhase;
+ - (unsigned short) eventPhase;
  - (BOOL) bubbles;
  - (BOOL) cancelable;
  - (BOOL) defaultPrevented;

@@ -1,9 +1,9 @@
 
 @interface UIKBSplitRow : NSObject {
 
-    C _rowIndex;
-    d _rowOffset;
-    d _rowWidth;
+    unsigned char _rowIndex;
+    double _rowOffset;
+    double _rowWidth;
     {CGSize="width"d"height"d} _defaultKeySize;
     @"NSMutableArray" _keys;
     @"NSMutableArray" _vacancies;
@@ -24,17 +24,17 @@
 
  - (id) description;
  - (void) dealloc;
- - (id) keyAtIndex:(i)a;
- - (C) rowIndex;
+ - (id) keyAtIndex:(int)a;
+ - (unsigned char) rowIndex;
  - (id) keys;
- - (void) setRowIndex:(C)a;
+ - (void) setRowIndex:(unsigned char)a;
  - (void) setHints:(id)a;
  - (void) addKey:(id)a;
- - (id) listOfType:(i)aleft:(BOOL)b;
- - (d) rowOffset;
- - (void) setRowOffset:(d)a;
- - (d) rowWidth;
- - (void) setRowWidth:(d)a;
+ - (id) listOfType:(int)aleft:(BOOL)b;
+ - (double) rowOffset;
+ - (void) setRowOffset:(double)a;
+ - (double) rowWidth;
+ - (void) setRowWidth:(double)a;
  - ({CGSize=dd}) defaultKeySize;
  - (void) setDefaultKeySize:({CGSize=dd})a;
  - (id) hints;

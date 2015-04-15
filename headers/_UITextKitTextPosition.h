@@ -1,19 +1,19 @@
 
 @interface _UITextKitTextPosition : UITextPosition {
 
-    q _offset;
-    q _affinity;
+    long long _offset;
+    long long _affinity;
 }
- + (id) positionWithOffset:(q)a;
- + (id) positionWithOffset:(q)aaffinity:(q)b;
+ + (id) positionWithOffset:(long long)a;
+ + (id) positionWithOffset:(long long)aaffinity:(long long)b;
 
  - (id) description;
  - (BOOL) isEqual:(id)a;
- - (q) affinity;
- - (void) setAffinity:(q)a;
+ - (long long) affinity;
+ - (void) setAffinity:(long long)a;
  - (id) init;
- - (q) offset;
- - (void) setOffset:(q)a;
+ - (long long) offset;
+ - (void) setOffset:(long long)a;
 
 
 @end

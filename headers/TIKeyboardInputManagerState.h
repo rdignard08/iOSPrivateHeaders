@@ -7,13 +7,13 @@
     BOOL _shouldAddModifierSymbolsToWordCharacters;
     @"TIKeyboardCandidate" _autocorrectionRecordForInputString;
     @"NSString" _wordSeparator;
-    Q _inputCount;
-    Q _inputIndex;
+    unsigned long long _inputCount;
+    unsigned long long _inputIndex;
     @"NSString" _inputString;
     @"TIKeyEventMap" _keyEventMap;
     @"NSString" _replacementForDoubleSpace;
     @"NSString" _shadowTyping;
-    Q _initialCandidateBatchCount;
+    unsigned long long _initialCandidateBatchCount;
     @"TICharacterSetDescription" _wordCharacters;
     @"TICharacterSetDescription" _shortcutCompletions;
     @"TICharacterSetDescription" _inputsPreventingAcceptSelectedCandidate;
@@ -69,7 +69,7 @@
  - (BOOL) supportsSetPhraseBoundary;
  - (BOOL) shouldExtendPriorWord;
  - (BOOL) usesAutocorrectionLists;
- - (Q) inputIndex;
+ - (unsigned long long) inputIndex;
  - (BOOL) nextInputWouldStartSentence;
  - (BOOL) suppressCompletionsForFieldEditor;
  - (BOOL) suppliesCompletions;
@@ -84,7 +84,7 @@
  - (id) shadowTyping;
  - (BOOL) commitsAcceptedCandidate;
  - (id) autocorrectionRecordForInputString;
- - (Q) initialCandidateBatchCount;
+ - (unsigned long long) initialCandidateBatchCount;
  - (BOOL) suppressPlaceholderCandidate;
  - (id) keyEventMap;
  - (BOOL) ignoresDeadKeys;
@@ -92,8 +92,8 @@
  - (BOOL) needsKeyHitTestResults;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (void) setInputCount:(Q)a;
- - (Q) inputCount;
+ - (void) setInputCount:(unsigned long long)a;
+ - (unsigned long long) inputCount;
  - (id) inputsToReject;
  - (id) inputsPreventingAcceptSelectedCandidate;
  - (id) terminatorsPreventingAutocorrection;
@@ -116,7 +116,7 @@
  - (void) setSuppressPlaceholderCandidate:(BOOL)a;
  - (void) setAutocorrectionRecordForInputString:(id)a;
  - (void) setWordSeparator:(id)a;
- - (void) setInputIndex:(Q)a;
+ - (void) setInputIndex:(unsigned long long)a;
  - (id) inputString;
  - (void) setInputString:(id)a;
  - (void) setKeyboardBehaviors:(id)a;
@@ -124,7 +124,7 @@
  - (void) setReplacementForDoubleSpace:(id)a;
  - (void) setShadowTyping:(id)a;
  - (void) setShouldAddModifierSymbolsToWordCharacters:(BOOL)a;
- - (void) setInitialCandidateBatchCount:(Q)a;
+ - (void) setInitialCandidateBatchCount:(unsigned long long)a;
  - (void) setWordCharacters:(id)a;
  - (void) setShortcutCompletions:(id)a;
  - (void) setInputsPreventingAcceptSelectedCandidate:(id)a;

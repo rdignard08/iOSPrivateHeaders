@@ -30,7 +30,7 @@
  - (id) alertController;
  - (void) setPopoverDelegate:(id)a;
  - (void) _presentAlertControllerFromBarButtonItem:(id)aanimated:(BOOL)bcompletion:(@?)c;
- - (void) _presentAlertControllerFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainView:(id)bdirection:(Q)canimated:(BOOL)dcompletion:(@?)e;
+ - (void) _presentAlertControllerFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainView:(id)bdirection:(unsigned long long)canimated:(BOOL)dcompletion:(@?)e;
  - (void) _createWindowIfNecessary;
  - (void) _tearDownInPopoverViewController;
  - (id) legacyAlert;

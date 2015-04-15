@@ -1,10 +1,10 @@
 
 @interface _UIInputViewContent : UIView {
 
-    d _contentHeight;
-    d _contentWidth;
+    double _contentHeight;
+    double _contentWidth;
     @"UIInputView" _inputView;
-    i _unclippableCorners;
+    int _unclippableCorners;
 }
 
  - ({CGSize=dd}) _contentSize;
@@ -14,8 +14,8 @@
  - (void) _setToolbarBackgroundImage:(id)a;
  - (void) _setToolbarBackgroundViewWithImage:(id)a;
  - (void) _updateCornerClipping;
- - (i) _unclippableCorners;
- - (void) set_unclippableCorners:(i)a;
+ - (int) _unclippableCorners;
+ - (void) set_unclippableCorners:(int)a;
  - (void) addSubview:(id)a;
 
 

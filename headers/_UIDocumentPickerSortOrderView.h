@@ -2,7 +2,7 @@
 @interface _UIDocumentPickerSortOrderView : UIControl {
 
     @"<_UIDocumentPickerViewServiceViewController>" _serviceViewController;
-    q _listMode;
+    long long _listMode;
     @"UISegmentedControl" _sortOrder;
     @"UIButton" _listModeToggle;
     @"NSArray" _compactConstraints;
@@ -22,12 +22,12 @@
  - (id) compactConstraints;
  - (void) setCompactConstraints:(id)a;
  - (void) setRegularConstraints:(id)a;
- - (void) setListMode:(q)a;
+ - (void) setListMode:(long long)a;
  - (id) serviceViewController;
  - (void) setServiceViewController:(id)a;
- - (q) listMode;
- - (void) setValue:(i)a;
- - (i) value;
+ - (long long) listMode;
+ - (void) setValue:(int)a;
+ - (int) value;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

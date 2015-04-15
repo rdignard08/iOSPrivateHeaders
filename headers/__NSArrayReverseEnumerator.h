@@ -2,7 +2,7 @@
 @interface __NSArrayReverseEnumerator : NSEnumerator {
 
     id _obj;
-    Q _idx;
+    unsigned long long _idx;
 }
 
  - (void) dealloc;

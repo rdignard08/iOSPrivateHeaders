@@ -9,7 +9,7 @@
  - (id) constantValue;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) initWithString:(id)a;
  - (void) encodeWithCoder:(id)a;

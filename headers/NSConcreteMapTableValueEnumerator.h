@@ -2,7 +2,7 @@
 @interface NSConcreteMapTableValueEnumerator : NSEnumerator {
 
     @"NSConcreteMapTable" mapTable;
-    Q counter;
+    unsigned long long counter;
 }
  + (id) enumeratorWithMapTable:(id)a;
 

@@ -1,7 +1,7 @@
 
 @interface UIWebPDFLinkAction : NSObject {
 
-    i type;
+    int type;
     @"NSString" title;
     @? handler;
 }
@@ -12,8 +12,8 @@
  - (id) title;
  - (void) setTitle:(id)a;
  - (void) dealloc;
- - (void) setType:(i)a;
- - (i) type;
+ - (void) setType:(int)a;
+ - (int) type;
  - (@?) handler;
  - (void) setHandler:(@?)a;
 

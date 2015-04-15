@@ -2,8 +2,8 @@
 @protocol NSCopying, NSMutableCopying;
 @interface FBSSceneClientSettings : NSObject <NSCopying, NSMutableCopying> {
 
-    d _preferredLevel;
-    q _preferredInterfaceOrientation;
+    double _preferredLevel;
+    long long _preferredInterfaceOrientation;
     @"NSSet" _occlusions;
     @"BSSettings" _otherSettings;
 }
@@ -18,17 +18,17 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) init;
  - (id) _descriptionOfSettingsWithMultilinePrefix:(id)a;
  - (id) otherSettings;
  - (id) occlusions;
  - (id) initWithSettings:(id)a;
- - (d) preferredLevel;
- - (q) preferredInterfaceOrientation;
- - (id) keyDescriptionForSetting:(Q)a;
- - (id) valueDescriptionForFlag:(q)aobject:(id)bofSetting:(Q)c;
+ - (double) preferredLevel;
+ - (long long) preferredInterfaceOrientation;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
 
 
 @end

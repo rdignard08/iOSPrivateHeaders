@@ -9,7 +9,7 @@
  - (^v) bytes;
  - (id) initWithCFData:(^{__CFData=})a;
  - (^{__CFData=}) copyCFData;
- - (Q) length;
+ - (unsigned long long) length;
 
 
 @end

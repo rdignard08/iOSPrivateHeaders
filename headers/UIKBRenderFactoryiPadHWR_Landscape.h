@@ -3,15 +3,15 @@
 
 }
 
- - (d) keyCornerRadius;
- - (d) controlColumnWidthFactor;
- - (d) spaceKeyFontSize;
- - (d) deleteKeyFontSize;
+ - (double) keyCornerRadius;
+ - (double) controlColumnWidthFactor;
+ - (double) spaceKeyFontSize;
+ - (double) deleteKeyFontSize;
  - ({CGPoint=dd}) spaceReturnKeyTextOffset;
- - (d) moreKeyFontSize;
- - (d) internationalKeyFontSize;
- - (d) dictationKeyFontSize;
- - (d) dismissKeyFontSize;
+ - (double) moreKeyFontSize;
+ - (double) internationalKeyFontSize;
+ - (double) dictationKeyFontSize;
+ - (double) dismissKeyFontSize;
  - ({CGPoint=dd}) dismissKeyOffset;
 
 

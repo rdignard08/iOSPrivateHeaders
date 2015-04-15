@@ -11,7 +11,7 @@
  - (void) _tapGestureChanged:(id)a;
  - (id) initWithTable:(id)a;
  - (void) _invalidateTable;
- - (void) _willChangeToIdiom:(q)aonScreen:(id)b;
+ - (void) _willChangeToIdiom:(long long)aonScreen:(id)b;
  - (void) setCurrentText:(id)a;
  - (id) currentText;
 

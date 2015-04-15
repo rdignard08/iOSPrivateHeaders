@@ -12,8 +12,8 @@
  - (void) setChOff:(id)a;
  - (id) vAlign;
  - (void) setVAlign:(id)a;
- - (id) insertRow:(i)a;
- - (void) deleteRow:(i)a;
+ - (id) insertRow:(int)a;
+ - (void) deleteRow:(int)a;
 
 
 @end

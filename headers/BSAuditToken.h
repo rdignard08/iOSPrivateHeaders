@@ -11,7 +11,7 @@
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) bundleID;
  - (void) encodeWithXPCDictionary:(id)a;
@@ -23,7 +23,7 @@
  - (id) _dataWithValue:(id)a;
  - ({?=[8I]}) realToken;
  - (BOOL) hasEntitlement:(id)a;
- - (i) pid;
+ - (int) pid;
 
 
 @end

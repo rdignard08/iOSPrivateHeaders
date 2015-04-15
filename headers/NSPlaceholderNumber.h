@@ -4,21 +4,21 @@
 }
  + (BOOL) supportsSecureCoding;
 
- - (id) initWithUnsignedShort:(S)a;
- - (id) initWithShort:(s)a;
- - (id) initWithUnsignedLongLong:(Q)a;
- - (id) initWithLongLong:(q)a;
- - (id) initWithUnsignedLong:(Q)a;
- - (id) initWithLong:(q)a;
- - (id) initWithUnsignedInt:(I)a;
- - (id) initWithInt:(i)a;
- - (id) initWithFloat:(f)a;
- - (id) initWithDouble:(d)a;
- - (id) initWithUnsignedChar:(C)a;
- - (id) initWithChar:(c)a;
+ - (id) initWithUnsignedShort:(unsigned short)a;
+ - (id) initWithShort:(short)a;
+ - (id) initWithUnsignedLongLong:(unsigned long long)a;
+ - (id) initWithLongLong:(long long)a;
+ - (id) initWithUnsignedLong:(unsigned long long)a;
+ - (id) initWithLong:(long long)a;
+ - (id) initWithUnsignedInt:(unsigned int)a;
+ - (id) initWithInt:(int)a;
+ - (id) initWithFloat:(float)a;
+ - (id) initWithDouble:(double)a;
+ - (id) initWithUnsignedChar:(unsigned char)a;
+ - (id) initWithChar:(char)a;
  - (id) initWithBool:(BOOL)a;
- - (id) initWithInteger:(q)a;
- - (id) initWithUnsignedInteger:(Q)a;
+ - (id) initWithInteger:(long long)a;
+ - (id) initWithUnsignedInteger:(unsigned long long)a;
  - (id) init;
  - (id) initWithCoder:(id)a;
 

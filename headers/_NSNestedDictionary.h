@@ -7,7 +7,7 @@
 
  - (id) _recursiveAllKeys;
  - (id) _recursiveAllValues;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
  - (void) removeObjectForKey:(id)a;
  - (id) objectEnumerator;

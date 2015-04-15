@@ -2,11 +2,11 @@
 @interface _UIKeyboardTypingSpeedLogger : NSObject {
 
     [7q] _typingDelaySamples;
-    q _typingDelaySampleCount;
+    long long _typingDelaySampleCount;
 }
 
  - (void) logToAggregate;
- - (void) recordTypingDelay:(d)a;
+ - (void) recordTypingDelay:(double)a;
  - (id) init;
 
 

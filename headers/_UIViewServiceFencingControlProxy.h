@@ -8,7 +8,7 @@
  - (void) dealloc;
  - (id) methodSignatureForSelector:(SEL)a;
  - (void) __endFencingMessagesForSendRight:(id)a;
- - (void) __beginFencingMessagesWithSendRight:(id)aconnectionCount:(Q)b;
+ - (void) __beginFencingMessagesWithSendRight:(id)aconnectionCount:(unsigned long long)b;
 
 
 @end

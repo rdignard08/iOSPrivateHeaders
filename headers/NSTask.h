@@ -21,12 +21,12 @@
  + (id) allocWithZone:(^{_NSZone=})a;
 
  - (id) currentDirectoryPath;
- - (q) qualityOfService;
- - (void) setQualityOfService:(q)a;
+ - (long long) qualityOfService;
+ - (void) setQualityOfService:(long long)a;
  - (void) setArguments:(id)a;
  - (@?) terminationHandler;
- - (i) terminationStatus;
- - (q) terminationReason;
+ - (int) terminationStatus;
+ - (long long) terminationReason;
  - (void) launch;
  - (void) setCurrentDirectoryPath:(id)a;
  - (void) setEnvironment:(id)a;
@@ -42,11 +42,11 @@
  - (id) standardError;
  - (void) setTerminationHandler:(@?)a;
  - (id) init;
- - (q) suspendCount;
+ - (long long) suspendCount;
  - (BOOL) suspend;
  - (BOOL) resume;
  - (id) arguments;
- - (i) processIdentifier;
+ - (int) processIdentifier;
  - (BOOL) isRunning;
  - (id) environment;
 

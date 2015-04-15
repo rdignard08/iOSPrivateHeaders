@@ -3,12 +3,12 @@
 @interface AFMultipartBodyStream : NSInputStream <NSCopying, NSStreamDelegate> {
 
     @"<NSStreamDelegate>" delegate;
-    Q streamStatus;
+    unsigned long long streamStatus;
     @"NSError" streamError;
-    Q _numberOfBytesInPacket;
-    d _delay;
+    unsigned long long _numberOfBytesInPacket;
+    double _delay;
     @"NSInputStream" _inputStream;
-    Q _stringEncoding;
+    unsigned long long _stringEncoding;
     @"NSMutableArray" _HTTPBodyParts;
     @"NSEnumerator" _HTTPBodyPartEnumerator;
     @"AFHTTPBodyPart" _currentHTTPBodyPart;
@@ -17,22 +17,22 @@
 }
 
  - (id) outputStream;
- - (void) setStringEncoding:(Q)a;
- - (Q) stringEncoding;
- - (id) initWithStringEncoding:(Q)a;
+ - (void) setStringEncoding:(unsigned long long)a;
+ - (unsigned long long) stringEncoding;
+ - (id) initWithStringEncoding:(unsigned long long)a;
  - (void) appendHTTPBodyPart:(id)a;
- - (void) setNumberOfBytesInPacket:(Q)a;
+ - (void) setNumberOfBytesInPacket:(unsigned long long)a;
  - (void) setInitialAndFinalBoundaries;
- - (Q) contentLength;
+ - (unsigned long long) contentLength;
  - (void) setHTTPBodyParts:(id)a;
  - (id) HTTPBodyParts;
- - (Q) numberOfBytesInPacket;
+ - (unsigned long long) numberOfBytesInPacket;
  - (id) currentHTTPBodyPart;
  - (id) HTTPBodyPartEnumerator;
  - (void) setCurrentHTTPBodyPart:(id)a;
  - (id) inputStream;
  - (void) setStreamError:(id)a;
- - (void) setStreamStatus:(Q)a;
+ - (void) setStreamStatus:(unsigned long long)a;
  - (void) setHTTPBodyPartEnumerator:(id)a;
  - (void) setInputStream:(id)a;
  - (void) setOutputStream:(id)a;
@@ -48,17 +48,17 @@
  - (BOOL) setProperty:(id)aforKey:(id)b;
  - (void) scheduleInRunLoop:(id)aforMode:(id)b;
  - (void) removeFromRunLoop:(id)aforMode:(id)b;
- - (Q) streamStatus;
+ - (unsigned long long) streamStatus;
  - (id) streamError;
- - (q) read:(*)amaxLength:(Q)b;
+ - (long long) read:(char*)amaxLength:(unsigned long long)b;
  - (BOOL) getBuffer:(^*)alength:(^Q)b;
  - (BOOL) hasBytesAvailable;
- - (BOOL) _setCFClientFlags:(Q)acallback:(^?)bcontext:(^{?=q^v^?^?^?})c;
+ - (BOOL) _setCFClientFlags:(unsigned long long)acallback:(^?)bcontext:(^{?=q^v^?^?^?})c;
  - (void) _scheduleInCFRunLoop:(^{__CFRunLoop=})aforMode:(^{__CFString=})b;
  - (void) _unscheduleFromCFRunLoop:(^{__CFRunLoop=})aforMode:(^{__CFString=})b;
- - (void) setDelay:(d)a;
+ - (void) setDelay:(double)a;
  - (id) delegate;
- - (d) delay;
+ - (double) delay;
 
 
 @end

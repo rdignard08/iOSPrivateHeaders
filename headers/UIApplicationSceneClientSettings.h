@@ -7,19 +7,19 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (BOOL) isUISubclass;
  - (BOOL) statusBarHidden;
- - (q) statusBarStyle;
- - (Q) proximityDetectionModes;
- - (q) compatibilityMode;
+ - (long long) statusBarStyle;
+ - (unsigned long long) proximityDetectionModes;
+ - (long long) compatibilityMode;
  - (id) defaultPNGName;
- - (q) defaultStatusBarStyle;
+ - (long long) defaultStatusBarStyle;
  - (BOOL) defaultStatusBarHidden;
- - (d) defaultPNGExpirationTime;
+ - (double) defaultPNGExpirationTime;
  - (BOOL) idleTimerDisabled;
  - (BOOL) orientationEnabled;
- - (q) controlCenterRevealMode;
- - (q) notificationCenterRevealMode;
- - (id) keyDescriptionForSetting:(Q)a;
- - (id) valueDescriptionForFlag:(q)aobject:(id)bofSetting:(Q)c;
+ - (long long) controlCenterRevealMode;
+ - (long long) notificationCenterRevealMode;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
 
 
 @end

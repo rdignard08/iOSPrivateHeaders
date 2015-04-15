@@ -3,16 +3,16 @@
 
 }
 
- - (i) keyCode;
- - (i) charCode;
- - (i) pageX;
- - (i) pageY;
+ - (int) keyCode;
+ - (int) charCode;
+ - (int) pageX;
+ - (int) pageY;
  - (id) view;
- - (i) detail;
- - (i) layerX;
- - (i) layerY;
- - (i) which;
- - (void) initUIEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)ddetail:(i)e;
+ - (int) detail;
+ - (int) layerX;
+ - (int) layerY;
+ - (int) which;
+ - (void) initUIEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)ddetail:(int)e;
  - (void) initUIEvent:(id)a;
 
 

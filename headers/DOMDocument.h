@@ -14,7 +14,7 @@
  - (id) links;
  - (id) forms;
  - (id) getElementsByTagName:(id)a;
- - (id) createNodeIterator:(id)awhatToShow:(I)bfilter:(id)cexpandEntityReferences:(BOOL)d;
+ - (id) createNodeIterator:(id)awhatToShow:(unsigned int)bfilter:(id)cexpandEntityReferences:(BOOL)d;
  - (id) URL;
  - (void) setCookie:(id)a;
  - (id) getComputedStyle:(id)apseudoElement:(id)b;
@@ -76,14 +76,14 @@
  - (id) adoptNode:(id)a;
  - (id) createEvent:(id)a;
  - (id) createNodeIterator:(id)a;
- - (id) createTreeWalker:(id)awhatToShow:(I)bfilter:(id)cexpandEntityReferences:(BOOL)d;
+ - (id) createTreeWalker:(id)awhatToShow:(unsigned int)bfilter:(id)cexpandEntityReferences:(BOOL)d;
  - (id) createTreeWalker:(id)a;
  - (id) getOverrideStyle:(id)apseudoElement:(id)b;
  - (id) getOverrideStyle:(id)a;
  - (id) createExpression:(id)aresolver:(id)b;
  - (id) createExpression:(id)a;
  - (id) createNSResolver:(id)a;
- - (id) evaluate:(id)acontextNode:(id)bresolver:(id)ctype:(S)dinResult:(id)e;
+ - (id) evaluate:(id)acontextNode:(id)bresolver:(id)ctype:(unsigned short)dinResult:(id)e;
  - (id) evaluate:(id)a;
  - (BOOL) execCommand:(id)auserInterface:(BOOL)bvalue:(id)c;
  - (BOOL) execCommand:(id)auserInterface:(BOOL)b;
@@ -94,8 +94,8 @@
  - (BOOL) queryCommandSupported:(id)a;
  - (id) queryCommandValue:(id)a;
  - (id) getElementsByName:(id)a;
- - (id) elementFromPoint:(i)ay:(i)b;
- - (id) caretRangeFromPoint:(i)ay:(i)b;
+ - (id) elementFromPoint:(int)ay:(int)b;
+ - (id) caretRangeFromPoint:(int)ay:(int)b;
  - (id) getMatchedCSSRules:(id)apseudoElement:(id)b;
  - (id) getMatchedCSSRules:(id)apseudoElement:(id)bauthorOnly:(BOOL)c;
  - (id) getElementsByClassName:(id)a;
@@ -103,7 +103,7 @@
  - (id) querySelector:(id)a;
  - (id) querySelectorAll:(id)a;
  - (id) webkitGetNamedFlows;
- - (id) createTouch:(id)atarget:(id)bidentifier:(i)cpageX:(i)dpageY:(i)escreenX:(i)fscreenY:(i)g;
+ - (id) createTouch:(id)atarget:(id)bidentifier:(int)cpageX:(int)dpageY:(int)escreenX:(int)fscreenY:(int)g;
  - (id) createTouchList;
 
 

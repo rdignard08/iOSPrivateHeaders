@@ -7,8 +7,8 @@
     @"NSDate" _lastFiredDate;
     @"NSMutableSet" _applications;
     @"NSMutableSet" _plugins;
-    d _minInterval;
-    d _latency;
+    double _minInterval;
+    double _latency;
     SEL _appObserverSelector;
 }
 @property (nonatomic, retain, readwrite) NSString* name;
@@ -26,8 +26,8 @@
  - (void) stopTimer;
  - (void) addApplication:(id)a;
  - (id) lastFiredDate;
- - (d) minInterval;
- - (d) latency;
+ - (double) minInterval;
+ - (double) latency;
  - (void) setLastFiredDate:(id)a;
  - (SEL) appObserverSelector;
  - (id) initWithAppSelector:(SEL)aqueue:(id)b;

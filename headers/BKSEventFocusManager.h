@@ -18,12 +18,12 @@
  - (id) init;
  - (BOOL) needsFlush;
  - (void) setNeedsFlush:(BOOL)a;
- - (void) deferEventsForClientWithProperties:(id)atoClientWithProperties:(id)bwithPriority:(i)c;
+ - (void) deferEventsForClientWithProperties:(id)atoClientWithProperties:(id)bwithPriority:(int)c;
  - (void) _pruneSet:(id)aofDeferralsPassingTest:(@?)b;
  - (id) pendingStatesByPriority;
  - (void) reallyFlushWithSet:(id)a;
  - (void) setSystemAppControlsFocusOnMainDisplay:(BOOL)a;
- - (void) setForegroundApplicationOnMainDisplay:(id)apid:(i)b;
+ - (void) setForegroundApplicationOnMainDisplay:(id)apid:(int)b;
  - (BOOL) systemAppControlsFocusOnMainDisplay;
  - (id) currentState;
  - (void) flush;

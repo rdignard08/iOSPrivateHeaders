@@ -1,20 +1,20 @@
 
 @interface _NSUndoStack : NSObject {
 
-    Q _max;
-    Q _count;
-    Q _nestingLevel;
+    unsigned long long _max;
+    unsigned long long _count;
+    unsigned long long _nestingLevel;
     @"_NSUndoObject" _head;
 }
 
  - (id) topUndoObject;
- - (void) setMax:(Q)a;
- - (Q) nestingLevel;
+ - (void) setMax:(unsigned long long)a;
+ - (unsigned long long) nestingLevel;
  - (void) markBegin;
  - (BOOL) isDiscardable;
  - (id) popUndoObject;
  - (void) markEnd;
- - (Q) max;
+ - (unsigned long long) max;
  - (id) groupIdentifier;
  - (void) setGroupIdentifier:(id)a;
  - (void) setDiscardable:(BOOL)a;
@@ -25,7 +25,7 @@
  - (id) _beginMark;
  - (id) description;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (void) removeAllObjects;
  - (void) removeObject:(id)a;
  - (id) init;

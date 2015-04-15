@@ -8,9 +8,9 @@
  - (void) dealloc;
  - (void) finalize;
  - (void) replaceCharactersInRange:({_NSRange=QQ})awithString:(id)b;
- - (S) characterAtIndex:(Q)a;
+ - (unsigned short) characterAtIndex:(unsigned long long)a;
  - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
- - (Q) length;
+ - (unsigned long long) length;
 
 
 @end

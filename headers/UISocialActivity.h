@@ -4,7 +4,7 @@
     @"NSString" _builtinActivityType;
     @"SLComposeViewController" _socialComposeViewController;
 }
- + (q) activityCategory;
+ + (long long) activityCategory;
 
  - (id) initWithActivityType:(id)a;
  - (id) activityType;

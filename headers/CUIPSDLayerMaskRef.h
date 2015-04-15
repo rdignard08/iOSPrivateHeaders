@@ -8,7 +8,7 @@
  - (void) dealloc;
  - (id) initLayerMaskWithLayerRef:(id)a;
  - (id) initVectorMaskWithLayerRef:(id)a;
- - (^{CGPath=}) newBezierPathAtScale:(d)a;
+ - (^{CGPath=}) newBezierPathAtScale:(double)a;
  - (id) layerRef;
  - (BOOL) isLinked;
  - (BOOL) isInvertedWhenBlending;

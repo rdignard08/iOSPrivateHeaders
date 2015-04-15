@@ -32,8 +32,8 @@
  - (void) writeln:(id)a;
  - (void) captureEvents;
  - (void) releaseEvents;
- - (i) width;
- - (i) height;
+ - (int) width;
+ - (int) height;
 
 
 @end

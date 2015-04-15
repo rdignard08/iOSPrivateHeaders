@@ -5,7 +5,7 @@
     @"NSIndexPath" _indexPath;
     @"NSString" _identifier;
     BOOL _isClone;
-    Q _type;
+    unsigned long long _type;
 }
 @property (nonatomic, assign, readonly) NSNumber* type;
 @property (nonatomic, retain, readonly) NSIndexPath* indexPath;
@@ -19,14 +19,14 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) indexPath;
- - (id) initWithType:(Q)aindexPath:(id)bidentifier:(id)c;
- - (id) initWithType:(Q)aindexPath:(id)bidentifier:(id)cclone:(BOOL)d;
+ - (id) initWithType:(unsigned long long)aindexPath:(id)bidentifier:(id)c;
+ - (id) initWithType:(unsigned long long)aindexPath:(id)bidentifier:(id)cclone:(BOOL)d;
  - (BOOL) isClone;
  - (id) copyAsClone:(BOOL)a;
- - (Q) type;
+ - (unsigned long long) type;
  - (id) identifier;
 
 

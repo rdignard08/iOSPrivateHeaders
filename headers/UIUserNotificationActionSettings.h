@@ -13,12 +13,12 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) setCategory:(id)a;
  - (id) initWithCategory:(id)aactionsByContext:(id)b;
- - (id) actionsForContext:(Q)a;
- - (Q) _maximumActionsForContext:(Q)a;
+ - (id) actionsForContext:(unsigned long long)a;
+ - (unsigned long long) _maximumActionsForContext:(unsigned long long)a;
  - (id) validatedSettings;
  - (id) actionsByContext;
  - (void) setActionsByContext:(id)a;

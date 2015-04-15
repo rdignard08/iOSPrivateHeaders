@@ -14,7 +14,7 @@
  - (void) dealloc;
  - (void) finalize;
  - (void) alreadylocked_setValue:(^v)aforKey:(^{__CFString=})b;
- - (void) alreadylocked_setValues:(r^^v)aforKeys:(r^^v)bcount:(q)c;
+ - (void) alreadylocked_setValues:(r^^v)aforKeys:(r^^v)bcount:(long long)c;
  - (^{__CFArray=}) alreadylocked_copyKeyList;
  - (void) lock;
  - (void) alreadylocked_removeAllValues;
@@ -22,7 +22,7 @@
  - (^v) alreadylocked_copyValueForKey:(^{__CFString=})a;
  - (^{__CFDictionary=}) alreadylocked_copyDictionary;
  - (void) setValue:(^v)aforKey:(^{__CFString=})b;
- - (void) setValues:(r^^v)aforKeys:(r^^v)bcount:(q)c;
+ - (void) setValues:(r^^v)aforKeys:(r^^v)bcount:(long long)c;
  - (void) removeAllValues;
  - (^v) copyValueForKey:(^{__CFString=})a;
  - (BOOL) alreadylocked_requestNewData;
@@ -31,9 +31,9 @@
  - (^{__CFDictionary=}) copyDictionary;
  - (void) mergeIntoDictionary:(^{__CFDictionary=})a;
  - (id) createRequestNewContentMessageForDaemon:(BOOL)a;
- - (void) handleReply:(id)atoRequestNewDataMessage:(id)bonConnection:(id)cretryCount:(i)derror:(^B)e;
- - (q) alreadylocked_generationCount;
- - (q) generationCount;
+ - (void) handleReply:(id)atoRequestNewDataMessage:(id)bonConnection:(id)cretryCount:(int)derror:(^B)e;
+ - (long long) alreadylocked_generationCount;
+ - (long long) generationCount;
  - (BOOL) managed;
  - (void) clearCache;
  - (void) setDaemonCacheEnabled:(BOOL)a;

@@ -38,21 +38,21 @@
  - (BOOL) isOverscanned;
  - (id) overscanAdjustment;
  - (void) setOverscanAdjustment:(id)a;
- - (d) overscanAmount;
- - (d) refreshRate;
+ - (double) overscanAmount;
+ - (double) refreshRate;
  - (BOOL) isCloningSupported;
  - (id) preferredMode;
  - (void) setCurrentMode:(id)a;
  - (void) _invalidate;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frame;
- - (I) displayId;
+ - (unsigned int) displayId;
  - (BOOL) isExternal;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
- - (I) seed;
+ - (unsigned int) seed;
  - (id) deviceName;
  - (id) _initWithDisplay:(^{Display=^^?@^{__CFString}^{__CFString}III^{__CFString}{ModeSet=I[1I]}iii{Bounds=iiii}{Bounds=iiii}IIfiBBBBBIdBB})a;
  - (void) update;
- - (I) connectionSeed;
+ - (unsigned int) connectionSeed;
  - (id) colorMode;
  - (void) setColorMode:(id)a;
  - (BOOL) allowsVirtualModes;
@@ -60,7 +60,7 @@
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) safeBounds;
  - (BOOL) isSupported;
  - (BOOL) isCloned;
- - (q) tag;
+ - (long long) tag;
  - (id) uniqueId;
 
 

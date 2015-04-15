@@ -5,7 +5,7 @@
     @"NSMutableDictionary" fields;
     @"NSArray" extraCookies;
     @"NSData" data;
-    Q pageNotFoundCacheLifetime;
+    unsigned long long pageNotFoundCacheLifetime;
     BOOL shouldHandleCookies;
     BOOL _pad1;
     BOOL _pad2;

@@ -13,7 +13,7 @@
  - (void) use;
  - (void) ignore;
  - (id) _initWithTarget:(id)aaction:(SEL)b;
- - (void) _usePolicy:(i)a;
+ - (void) _usePolicy:(int)a;
 
 
 @end

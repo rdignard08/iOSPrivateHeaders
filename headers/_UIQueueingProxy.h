@@ -1,8 +1,8 @@
 
 @interface _UIQueueingProxy : _UITargetedProxy {
 
-    i _lock;
-    Q _suspensionCount;
+    int _lock;
+    unsigned long long _suspensionCount;
     @"NSMutableArray" _queuedInvocations;
     @? _shouldSuspendInvocationBlock;
 }

@@ -2,9 +2,9 @@
 @interface UITextRangeImpl : UITextRange {
 
     @"DOMRange" _domRange;
-    q _affinityIfCollapsed;
+    long long _affinityIfCollapsed;
 }
- + (id) wrapDOMRange:(id)awithAffinity:(q)b;
+ + (id) wrapDOMRange:(id)awithAffinity:(long long)b;
  + (id) wrapDOMRange:(id)a;
 
  - (id) description;
@@ -12,10 +12,10 @@
  - (BOOL) isEmpty;
  - (BOOL) isEqual:(id)a;
  - (id) end;
- - (q) affinity;
+ - (long long) affinity;
  - (id) domRange;
  - (void) setDomRange:(id)a;
- - (void) setAffinity:(q)a;
+ - (void) setAffinity:(long long)a;
  - (void) adjustAffinityOfPosition:(id)aisStart:(BOOL)b;
  - (id) start;
 

@@ -22,7 +22,7 @@
  + (void) cancelLocalNotification:(id)abundleIdentifier:(id)bwaitUntilDone:(BOOL)c;
  + (void) cancelAllLocalNotificationsForBundleIdentifier:(id)a;
  + (void) setScheduledLocalNotifications:(id)abundleIdentifier:(id)b;
- + (I) currentAllowedNotificationTypesForBundleID:(id)a;
+ + (unsigned int) currentAllowedNotificationTypesForBundleID:(id)a;
 
 
 

@@ -2,14 +2,14 @@
 @protocol NSSecureCoding;
 @interface LSApplicationProxy : LSBundleProxy <NSSecureCoding> {
 
-    Q _flags;
+    unsigned long long _flags;
     @"NSArray" _privateDocumentIconNames;
     @"LSApplicationProxy" _privateDocumentTypeOwner;
     @"NSString" _vendorName;
     @"NSString" _itemName;
     @"NSString" _shortVersionString;
-    Q _installType;
-    Q _originalInstallType;
+    unsigned long long _installType;
+    unsigned long long _originalInstallType;
     @"NSDictionary" _groupContainers;
     @"NSArray" _externalAccessoryProtocols;
     @"NSArray" _deviceFamily;
@@ -28,7 +28,7 @@
     @"NSNumber" _storeFront;
     @"NSString" _sourceAppIdentifier;
     BOOL _isContainerized;
-    i _modTime;
+    int _modTime;
     @"NSUUID" _deviceIdentifierForVendor;
     @"NSNumber" _staticDiskUsage;
     @"NSNumber" _dynamicDiskUsage;
@@ -36,7 +36,7 @@
     @"NSArray" _groupIdentifiers;
     @"NSString" _teamID;
 }
- + (id) applicationProxyWithBundleUnitID:(I)a;
+ + (id) applicationProxyWithBundleUnitID:(unsigned int)a;
  + (id) applicationProxyForIdentifier:(id)aplaceholder:(BOOL)b;
  + (id) applicationProxyForIdentifier:(id)a;
  + (id) applicationProxyForBundleURL:(id)a;
@@ -56,17 +56,17 @@
  - (BOOL) isAppUpdate;
  - (id) deviceIdentifierForVendor;
  - (id) installProgress;
- - (i) bundleModTime;
+ - (int) bundleModTime;
  - (BOOL) isBetaApp;
  - (id) localizedName;
  - (BOOL) privateDocumentIconAllowOverride;
  - (id) iconStyleDomain;
  - (id) resourcesDirectoryURL;
  - (id) privateDocumentIconNames;
- - (id) iconDataForVariant:(i)a;
+ - (id) iconDataForVariant:(int)a;
  - (id) localizedShortName;
  - (id) machOUUIDs;
- - (id) _initWithBundleUnit:(I)aapplicationIdentifier:(id)b;
+ - (id) _initWithBundleUnit:(unsigned int)aapplicationIdentifier:(id)b;
  - (BOOL) isContainerized;
  - (BOOL) profileValidated;
  - (BOOL) isNewsstandApp;
@@ -104,14 +104,14 @@
  - (BOOL) isPurchasedReDownload;
  - (BOOL) isWatchKitApp;
  - (id) userActivityStringForAdvertisementData:(id)a;
- - (Q) installType;
- - (Q) originalInstallType;
+ - (unsigned long long) installType;
+ - (unsigned long long) originalInstallType;
  - (id) groupIdentifiers;
  - (id) teamID;
  - (id) appStoreReceiptURL;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

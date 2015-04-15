@@ -5,7 +5,7 @@
  + ({UIEdgeInsets=dddd}) contentViewInsets;
  + (void) useNormalContentViewInsets:(BOOL)a;
 
- - (d) _shadowOpacity;
+ - (double) _shadowOpacity;
 
 
 @end

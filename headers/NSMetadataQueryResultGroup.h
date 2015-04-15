@@ -11,10 +11,10 @@
 @property (atomic, assign, readonly) NSNumber* resultCount;
 @property (atomic, copy, readonly) NSArray* results;
 
- - (Q) resultCount;
- - (id) _init:(id)aattributes:(id)bindex:(Q)cvalue:(id)d;
- - (void) _addResult:(Q)a;
- - (id) resultAtIndex:(Q)a;
+ - (unsigned long long) resultCount;
+ - (id) _init:(id)aattributes:(id)bindex:(unsigned long long)cvalue:(id)d;
+ - (void) _addResult:(unsigned long long)a;
+ - (id) resultAtIndex:(unsigned long long)a;
  - (id) attribute;
  - (id) subgroups;
  - (void) _zapResultArray;

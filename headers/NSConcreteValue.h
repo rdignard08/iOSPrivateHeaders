@@ -1,7 +1,7 @@
 
 @interface NSConcreteValue : NSValue {
 
-    Q _specialFlags;
+    unsigned long long _specialFlags;
     ^v typeInfo;
 }
  + (BOOL) supportsSecureCoding;
@@ -9,11 +9,11 @@
 
  - (void) getValue:(^v)a;
  - (r^v) _value;
- - (BOOL) _matchType:(r*)asize:(Q)b;
+ - (BOOL) _matchType:(r*)asize:(unsigned long long)b;
  - (BOOL) isEqualToValue:(id)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (r*) objCType;
  - (void) encodeWithCoder:(id)a;
 

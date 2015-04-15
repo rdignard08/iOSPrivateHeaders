@@ -3,7 +3,7 @@
 
 }
 
- - (q) presentationStyle;
+ - (long long) presentationStyle;
  - (BOOL) shouldRemovePresentersView;
 
 

@@ -1,7 +1,7 @@
 
 @interface _NSXPCConnectionClassCache : NSObject {
 
-    i _lock;
+    int _lock;
     @"NSMutableSet" _cache;
 }
 

@@ -1,17 +1,17 @@
 
 @interface _CPPowerAssertion : NSObject {
 
-    d _timeout;
+    double _timeout;
     @"NSString" _identifier;
     @"NSArray" _stack;
 }
 @property (nonatomic, assign, readwrite) NSNumber* timeout;
 
- - (void) setTimeout:(d)a;
+ - (void) setTimeout:(double)a;
  - (void) dealloc;
- - (d) timeout;
+ - (double) timeout;
  - (void) timedout;
- - (id) initWithIdentifier:(id)atimeout:(d)b;
+ - (id) initWithIdentifier:(id)atimeout:(double)b;
 
 
 @end

@@ -8,9 +8,9 @@
 
  - (id) userDefaults;
  - (void) dealloc;
- - (q) tableView:(id)aeditingStyleForRowAtIndexPath:(id)b;
+ - (long long) tableView:(id)aeditingStyleForRowAtIndexPath:(id)b;
  - (BOOL) tableView:(id)ashouldIndentWhileEditingRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
  - (void) tableView:(id)amoveRowAtIndexPath:(id)btoIndexPath:(id)c;
  - (void) viewDidLoad;
@@ -18,7 +18,7 @@
  - (id) activities;
  - (void) setActivities:(id)a;
  - (void) setPlaceholderImage:(id)a;
- - (q) preferredActivityCategory;
+ - (long long) preferredActivityCategory;
  - (id) activityForRowAtIndexPath:(id)a;
  - (id) settingsImageForActivity:(id)a;
  - (void) toggleActivityHiddenForControl:(id)a;

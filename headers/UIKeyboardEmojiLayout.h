@@ -3,7 +3,7 @@
 
     ^@ _attributes;
     ^d _headerWidths;
-    q _arrayLength;
+    long long _arrayLength;
 }
  + (Class) invalidationContextClass;
 
@@ -15,7 +15,7 @@
  - (void) invalidateLayoutWithContext:(id)a;
  - (id) invalidationContextForBoundsChange:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (id) invalidationContextForPreferredLayoutAttributes:(id)awithOriginalAttributes:(id)b;
- - (void) _setAttributes:(id)aForSection:(q)b;
+ - (void) _setAttributes:(id)aForSection:(long long)b;
  - (BOOL) shouldInvalidateLayoutForBoundsChange:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

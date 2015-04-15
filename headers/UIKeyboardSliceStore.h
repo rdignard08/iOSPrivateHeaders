@@ -5,7 +5,7 @@
 }
  + (id) sharedStore;
  + (id) sliceSetForID:(id)a;
- + (id) sliceSetIDForKeyplaneName:(id)atype:(q)borientation:(q)c;
+ + (id) sliceSetIDForKeyplaneName:(id)atype:(long long)borientation:(long long)c;
  + (void) archiveSet:(id)a;
 
  - (void) dealloc;

@@ -2,10 +2,10 @@
 @interface UIPrintPanelTableViewController : UITableViewController {
 
     @"UIPrintPanelViewController" _printPanelViewController;
-    q _rangeRow;
-    q _copiesRow;
-    q _duplexRow;
-    q _paperRow;
+    long long _rangeRow;
+    long long _copiesRow;
+    long long _duplexRow;
+    long long _paperRow;
     BOOL _contactingPrinter;
     BOOL _printerWarningWasShown;
 }
@@ -14,12 +14,12 @@
  - (void) dealloc;
  - (BOOL) tableView:(id)ashouldHighlightRowAtIndexPath:(id)b;
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) numberOfSectionsInTableView:(id)a;
- - (id) tableView:(id)atitleForFooterInSection:(q)b;
- - (Q) supportedInterfaceOrientations;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (long long) numberOfSectionsInTableView:(id)a;
+ - (id) tableView:(id)atitleForFooterInSection:(long long)b;
+ - (unsigned long long) supportedInterfaceOrientations;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (void) viewDidLoad;
  - (void) viewDidDisappear:(BOOL)a;

@@ -8,12 +8,12 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (id) .cxx_construct;
  - (void) dealloc;
- - (Q) count;
- - (id) objectAtIndex:(Q)a;
+ - (unsigned long long) count;
+ - (id) objectAtIndex:(unsigned long long)a;
  - (void) getObjects:(^@)arange:({_NSRange=QQ})b;
  - (void) getObjects:(^@)a;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
- - (id) initWithLayers:(^@)acount:(Q)bretain:(BOOL)c;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
+ - (id) initWithLayers:(^@)acount:(unsigned long long)bretain:(BOOL)c;
 
 
 @end

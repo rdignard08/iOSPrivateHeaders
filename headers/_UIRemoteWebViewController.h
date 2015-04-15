@@ -8,7 +8,7 @@
 
  - (void) forwardInvocation:(id)a;
  - (id) methodSignatureForSelector:(SEL)a;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewServiceDidTerminateWithError:(id)a;
  - (id) webViewController;
  - (void) setWebViewController:(id)a;

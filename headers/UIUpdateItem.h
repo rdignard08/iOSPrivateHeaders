@@ -1,10 +1,10 @@
 
 @interface UIUpdateItem : NSObject {
 
-    i _action;
+    int _action;
     @"NSIndexPath" _indexPath;
-    q _animation;
-    d _offset;
+    long long _animation;
+    double _offset;
     @"UITableViewUpdateGap" _gap;
     BOOL _headerFooterOnly;
     BOOL _skipAnimation;
@@ -19,11 +19,11 @@
 
  - (void) dealloc;
  - (id) indexPath;
- - (i) action;
- - (q) inverseCompareIndexPaths:(id)a;
- - (q) compareIndexPaths:(id)a;
+ - (int) action;
+ - (long long) inverseCompareIndexPaths:(id)a;
+ - (long long) compareIndexPaths:(id)a;
  - (BOOL) isSectionOperation;
- - (id) initWithAction:(i)aforIndexPath:(id)banimation:(q)c;
+ - (id) initWithAction:(int)aforIndexPath:(id)banimation:(long long)c;
  - (BOOL) headerFooterOnly;
  - (void) setHeaderFooterOnly:(BOOL)a;
  - (void) setGap:(id)a;
@@ -31,10 +31,10 @@
  - (id) gap;
  - (BOOL) skipAnimation;
  - (void) setSkipAnimation:(BOOL)a;
- - (q) animation;
- - (void) setAnimation:(q)a;
- - (d) offset;
- - (void) setOffset:(d)a;
+ - (long long) animation;
+ - (void) setAnimation:(long long)a;
+ - (double) offset;
+ - (void) setOffset:(double)a;
 
 
 @end

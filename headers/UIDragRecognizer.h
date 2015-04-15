@@ -1,15 +1,15 @@
 
 @interface UIDragRecognizer : UIGestureRecognizer {
 
-    d _maximumDeviation;
-    d _minimumDistance;
+    double _maximumDeviation;
+    double _minimumDistance;
     {CGPoint="x"d"y"d} _startPosition;
     BOOL _restrictsToAngle;
-    d _angle;
+    double _angle;
     @"UITouch" _touch;
     @"UIDelayedAction" _tooSlow;
-    d _startAngle;
-    d _quietPeriod;
+    double _startAngle;
+    double _quietPeriod;
     BOOL _canBeginDrag;
     SEL _checkCanBeginDrag;
     @"UIDelayedAction" ignoreTouch;
@@ -24,9 +24,9 @@
  - (void) setTouch:(id)a;
  - (void) _resetGestureRecognizer;
  - (void) setCanBeginDrag:(BOOL)a;
- - (void) setMinimumDistance:(d)a;
- - (void) setMaximumDeviation:(d)a;
- - (void) setQuietPeriod:(d)a;
+ - (void) setMinimumDistance:(double)a;
+ - (void) setMaximumDeviation:(double)a;
+ - (void) setQuietPeriod:(double)a;
  - (void) setCheckCanBeginDrag:(SEL)a;
  - (void) clearTimer;
  - (void) tooSlow:(id)a;
@@ -35,16 +35,16 @@
  - (id) ignoreTouch;
  - (void) setIgnoreTouch:(id)a;
  - (void) setStartPosition:({CGPoint=dd})a;
- - (d) quietPeriod;
- - (d) minimumDistance;
+ - (double) quietPeriod;
+ - (double) minimumDistance;
  - (BOOL) restrictsToAngle;
- - (d) maximumDeviation;
+ - (double) maximumDeviation;
  - (SEL) checkCanBeginDrag;
  - (BOOL) canBeginDrag;
- - (void) setStartAngle:(d)a;
- - (void) setAngle:(d)a;
- - (d) angle;
- - (d) startAngle;
+ - (void) setStartAngle:(double)a;
+ - (void) setAngle:(double)a;
+ - (double) angle;
+ - (double) startAngle;
  - ({CGPoint=dd}) startPosition;
  - (id) initWithTarget:(id)aaction:(SEL)b;
 

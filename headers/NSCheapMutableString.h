@@ -3,21 +3,21 @@
 
     (?="fat"^S"thin"*) contents;
     {?="isFat"b1"freeWhenDone"b1"refs"b30} flags;
-    Q numCharacters;
+    unsigned long long numCharacters;
     ^v _reserved;
 }
 
- - (Q) fastestEncoding;
+ - (unsigned long long) fastestEncoding;
  - (r*) lossyCString;
- - (void) setContentsNoCopy:(^v)alength:(Q)bfreeWhenDone:(BOOL)cisUnicode:(BOOL)d;
+ - (void) setContentsNoCopy:(^v)alength:(unsigned long long)bfreeWhenDone:(BOOL)cisUnicode:(BOOL)d;
  - (void) dealloc;
  - (void) finalize;
  - (r*) cString;
- - (Q) cStringLength;
- - (S) characterAtIndex:(Q)a;
+ - (unsigned long long) cStringLength;
+ - (unsigned short) characterAtIndex:(unsigned long long)a;
  - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
- - (Q) length;
- - (BOOL) getBytes:(^v)amaxLength:(Q)busedLength:(^Q)cencoding:(Q)doptions:(Q)erange:({_NSRange=QQ})fremainingRange:(^{_NSRange=QQ})g;
+ - (unsigned long long) length;
+ - (BOOL) getBytes:(^v)amaxLength:(unsigned long long)busedLength:(^Q)cencoding:(unsigned long long)doptions:(unsigned long long)erange:({_NSRange=QQ})fremainingRange:(^{_NSRange=QQ})g;
 
 
 @end

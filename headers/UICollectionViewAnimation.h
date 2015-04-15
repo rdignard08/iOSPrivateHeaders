@@ -3,9 +3,9 @@
 
     @"UICollectionReusableView" _view;
     @"UICollectionViewLayoutAttributes" _finalLayoutAttributes;
-    d _startFraction;
-    d _endFraction;
-    i _viewType;
+    double _startFraction;
+    double _endFraction;
+    int _viewType;
     @"NSMutableArray" _completionHandlers;
     @"NSMutableArray" _startupHandlers;
     @? _animationBlock;
@@ -23,10 +23,10 @@
 
  - (id) description;
  - (void) dealloc;
- - (d) startFraction;
- - (d) endFraction;
+ - (double) startFraction;
+ - (double) endFraction;
  - (BOOL) animateFromCurrentPosition;
- - (id) initWithView:(id)aviewType:(i)bfinalLayoutAttributes:(id)cstartFraction:(d)dendFraction:(d)eanimateFromCurrentPostion:(BOOL)fdeleteAfterAnimation:(BOOL)gcustomAnimations:(@?)h;
+ - (id) initWithView:(id)aviewType:(int)bfinalLayoutAttributes:(id)cstartFraction:(double)dendFraction:(double)eanimateFromCurrentPostion:(BOOL)fdeleteAfterAnimation:(BOOL)gcustomAnimations:(@?)h;
  - (BOOL) deleteAfterAnimation;
  - (void) setRasterizeAfterAnimation:(BOOL)a;
  - (BOOL) rasterizeAfterAnimation;
@@ -34,7 +34,7 @@
  - (BOOL) resetRasterizationAfterAnimation;
  - (void) addCompletionHandler:(@?)a;
  - (void) addStartupHandler:(@?)a;
- - (i) viewType;
+ - (int) viewType;
  - (id) finalLayoutAttributes;
  - (void) start;
  - (id) view;

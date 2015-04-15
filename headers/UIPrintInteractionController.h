@@ -3,7 +3,7 @@
 
     BOOL _hidesNumberOfCopies;
     @? _completionHandler;
-    Q _backgroundTaskIdentifier;
+    unsigned long long _backgroundTaskIdentifier;
     id _printState;
     BOOL _showsPageRange;
     BOOL _showsPaperSelectionForLoadedPapers;
@@ -44,7 +44,7 @@
  - (void) dismissAnimated:(BOOL)a;
  - (id) printer;
  - (void) setPrinter:(id)a;
- - (q) pageCount;
+ - (long long) pageCount;
  - (id) printInfo;
  - (BOOL) presentFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainView:(id)banimated:(BOOL)ccompletionHandler:(@?)d;
  - (BOOL) presentAnimated:(BOOL)acompletionHandler:(@?)b;
@@ -67,13 +67,13 @@
  - (BOOL) _canShowPaperList;
  - (void) _cleanPrintState;
  - (BOOL) _setupPrintPanel:(@?)a;
- - (void) _setPrintInfoState:(i)a;
+ - (void) _setPrintInfoState:(int)a;
  - (void) _endPrintJob:(BOOL)aerror:(id)b;
  - (id) printingItem;
- - (id) _paperForPDFItem:(id)awithDuplexMode:(q)b;
+ - (id) _paperForPDFItem:(id)awithDuplexMode:(long long)b;
  - (void) _updatePrintPaper;
  - (void) _startPrinting;
- - (id) _paperForContentType:(q)a;
+ - (id) _paperForContentType:(long long)a;
  - (void) _preparePrintInfo;
  - (void) _printPage;
  - (id) _printPageRenderer:(id)a;

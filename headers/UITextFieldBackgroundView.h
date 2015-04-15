@@ -3,12 +3,12 @@
 
     BOOL _active;
     BOOL _enabled;
-    f _progress;
+    float _progress;
     @"UIColor" _fillColor;
 }
 
  - (void) setActive:(BOOL)a;
- - (void) setProgress:(f)a;
+ - (void) setProgress:(float)a;
  - (void) dealloc;
  - (void) _updateImages;
  - (void) setEnabled:(BOOL)aanimated:(BOOL)b;

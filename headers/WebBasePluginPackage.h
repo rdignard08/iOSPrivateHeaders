@@ -34,7 +34,7 @@
  - (BOOL) isQuickTimePlugIn;
  - (BOOL) isJavaPlugIn;
  - (BOOL) isNativeLibraryData:(id)a;
- - (I) versionNumber;
+ - (unsigned int) versionNumber;
  - (void) wasAddedToPluginDatabase:(id)a;
  - (void) wasRemovedFromPluginDatabase:(id)a;
 

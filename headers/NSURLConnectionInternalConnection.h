@@ -2,14 +2,14 @@
 @protocol NSURLConnectionRequired;
 @interface NSURLConnectionInternalConnection : NSURLConnectionInternal <NSURLConnectionRequired> {
 
-    i _cfConnLock;
+    int _cfConnLock;
     ^{_CFURLConnection=} _cfConn;
     ^{_CFURLAuthChallenge=} _currCFChallenge;
     @"NSURLAuthenticationChallenge" _currNSChallenge;
     ^{__CFString=} _fileName;
     BOOL _shouldSkipCancelOnRelease;
-    q _totalBytes;
-    q _expectedTotalBytes;
+    long long _totalBytes;
+    long long _expectedTotalBytes;
 }
 
  - (void) dealloc;

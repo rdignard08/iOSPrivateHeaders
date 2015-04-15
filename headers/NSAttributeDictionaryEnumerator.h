@@ -2,7 +2,7 @@
 @interface NSAttributeDictionaryEnumerator : NSEnumerator {
 
     @"NSAttributeDictionary" dictionary;
-    Q nextElement;
+    unsigned long long nextElement;
 }
 
  - (id) initWithAttributeDictionary:(id)a;

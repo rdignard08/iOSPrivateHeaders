@@ -4,15 +4,15 @@
 }
 
  - (BOOL) isHorizontal;
- - (d) deltaX;
- - (d) deltaY;
- - (d) deltaZ;
- - (I) deltaMode;
- - (i) wheelDeltaX;
- - (i) wheelDeltaY;
- - (i) wheelDelta;
+ - (double) deltaX;
+ - (double) deltaY;
+ - (double) deltaZ;
+ - (unsigned int) deltaMode;
+ - (int) wheelDeltaX;
+ - (int) wheelDeltaY;
+ - (int) wheelDelta;
  - (BOOL) webkitDirectionInvertedFromDevice;
- - (void) initWheelEvent:(i)awheelDeltaY:(i)bview:(id)cscreenX:(i)dscreenY:(i)eclientX:(i)fclientY:(i)gctrlKey:(BOOL)haltKey:(BOOL)ishiftKey:(BOOL)jmetaKey:(BOOL)k;
+ - (void) initWheelEvent:(int)awheelDeltaY:(int)bview:(id)cscreenX:(int)dscreenY:(int)eclientX:(int)fclientY:(int)gctrlKey:(BOOL)haltKey:(BOOL)ishiftKey:(BOOL)jmetaKey:(BOOL)k;
 
 
 @end

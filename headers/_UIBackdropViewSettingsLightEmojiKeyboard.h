@@ -4,7 +4,7 @@
 }
 
  - (BOOL) _shouldUseDarkeningTintLayer;
- - (id) _defaultColorTintColorWithOpacity:(d)a;
+ - (id) _defaultColorTintColorWithOpacity:(double)a;
 
 
 @end

@@ -15,12 +15,12 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) updateFrame:({CGRect={CGPoint=dd}{CGSize=dd}})awithCorners:(i)b;
+ - (void) updateFrame:({CGRect={CGPoint=dd}{CGSize=dd}})awithCorners:(int)b;
  - (void) triggerUpdate:(id)a;
- - (void) transitionToStyle:(q)a;
+ - (void) transitionToStyle:(long long)a;
  - (void) _setRenderConfig:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})astyle:(q)bprimaryBackdrop:(BOOL)c;
- - (i) textEffectsVisibilityLevel;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})astyle:(long long)bprimaryBackdrop:(BOOL)c;
+ - (int) textEffectsVisibilityLevel;
  - (void) willCallRenderInContextOnBackdropViewLayer;
  - (void) didCallRenderInContextOnBackdropViewLayer;
  - (BOOL) _hasUpdatedFrame;

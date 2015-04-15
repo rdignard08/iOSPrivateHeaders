@@ -11,7 +11,7 @@
  - (void) setHref:(id)a;
  - (id) rel;
  - (void) setRel:(id)a;
- - (BOOL) _mediaQueryMatchesForOrientation:(i)a;
+ - (BOOL) _mediaQueryMatchesForOrientation:(int)a;
  - (BOOL) disabled;
  - (id) type;
  - (void) setDisabled:(BOOL)a;

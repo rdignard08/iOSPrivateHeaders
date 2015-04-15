@@ -8,7 +8,7 @@
     BOOL _filterUnderbars;
 }
  + (id) filesystemItemRemoveOperationWithPath:(id)a;
- + (id) _errorWithErrno:(i)aatPath:(id)b;
+ + (id) _errorWithErrno:(int)aatPath:(id)b;
 
  - (id) initWithPath:(id)a;
  - (void) _setError:(id)a;

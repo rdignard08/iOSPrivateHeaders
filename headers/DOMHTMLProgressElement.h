@@ -3,11 +3,11 @@
 
 }
 
- - (void) setMax:(d)a;
- - (d) max;
- - (d) position;
- - (void) setValue:(d)a;
- - (d) value;
+ - (void) setMax:(double)a;
+ - (double) max;
+ - (double) position;
+ - (void) setValue:(double)a;
+ - (double) value;
  - (id) labels;
 
 

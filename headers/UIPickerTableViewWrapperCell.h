@@ -8,7 +8,7 @@
 
  - (void) dealloc;
  - (id) wrappedView;
- - (id) initWithStyle:(q)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
  - (void) setWrappedView:(id)a;
  - (void) resizeSubviewsWithOldSize:({CGSize=dd})a;
  - (void) prepareForReuse;

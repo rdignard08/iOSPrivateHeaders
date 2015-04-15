@@ -12,7 +12,7 @@
  - (id) download:(id)awillSendRequest:(id)bredirectResponse:(id)c;
  - (void) download:(id)adidReceiveAuthenticationChallenge:(id)b;
  - (void) download:(id)adidReceiveResponse:(id)b;
- - (void) download:(id)adidReceiveDataOfLength:(Q)b;
+ - (void) download:(id)adidReceiveDataOfLength:(unsigned long long)b;
  - (BOOL) download:(id)ashouldDecodeSourceDataOfMIMEType:(id)b;
  - (void) download:(id)adecideDestinationWithSuggestedFilename:(id)b;
  - (void) download:(id)adidCreateDestination:(id)b;

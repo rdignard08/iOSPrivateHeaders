@@ -14,13 +14,13 @@
 @property (nonatomic, assign, readonly) NSNumber* matrix;
 @property (nonatomic, assign, readonly) NSNumber* symbolicTraits;
  + (BOOL) supportsSecureCoding;
- + (id) defaultFontDescriptorWithTextStyle:(id)aaddingSymbolicTraits:(I)boptions:(Q)c;
- + (id) preferredFontDescriptorWithTextStyle:(id)aaddingSymbolicTraits:(I)boptions:(Q)c;
+ + (id) defaultFontDescriptorWithTextStyle:(id)aaddingSymbolicTraits:(unsigned int)boptions:(unsigned long long)c;
+ + (id) preferredFontDescriptorWithTextStyle:(id)aaddingSymbolicTraits:(unsigned int)boptions:(unsigned long long)c;
  + (id) _createMungledDictionary:(id)a;
  + (id) fontDescriptorWithFontAttributes:(id)a;
  + (id) preferredFontDescriptorWithTextStyle:(id)a;
  + (id) defaultFontDescriptorWithTextStyle:(id)a;
- + (id) fontDescriptorWithName:(id)asize:(d)b;
+ + (id) fontDescriptorWithName:(id)asize:(double)b;
  + (id) fontDescriptorWithName:(id)amatrix:({CGAffineTransform=dddddd})b;
 
  - (Class) classForCoder;
@@ -31,13 +31,13 @@
  - (id) init;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (d) pointSize;
+ - (double) pointSize;
  - (id) _attributes;
- - (id) _initWithFontAttributes:(id)aoptions:(Q)b;
+ - (id) _initWithFontAttributes:(id)aoptions:(unsigned long long)b;
  - (id) initWithFontAttributes:(id)a;
  - (id) postscriptName;
  - ({CGAffineTransform=dddddd}) matrix;
- - (id) fontDescriptorWithSize:(d)a;
+ - (id) fontDescriptorWithSize:(double)a;
  - (id) fontDescriptorWithMatrix:({CGAffineTransform=dddddd})a;
  - (id) fontDescriptorWithFace:(id)a;
  - (id) _visibleName;
@@ -45,8 +45,8 @@
  - (id) fontAttributes;
  - (id) matchingFontDescriptorsWithMandatoryKeys:(id)a;
  - (id) matchingFontDescriptorWithMandatoryKeys:(id)a;
- - (I) symbolicTraits;
- - (id) fontDescriptorWithSymbolicTraits:(I)a;
+ - (unsigned int) symbolicTraits;
+ - (id) fontDescriptorWithSymbolicTraits:(unsigned int)a;
  - (id) fontDescriptorWithFamily:(id)a;
 
 

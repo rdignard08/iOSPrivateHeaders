@@ -17,7 +17,7 @@
  - (id) queue;
  - (void) setCancelHandler:(@?)a;
  - (void) setEventHandler:(@?)a;
- - (id) initWithType:(^{dispatch_source_type_s=})ahandle:(Q)bmask:(Q)cqueue:(id)dconfigureSourceBlock:(@?)e;
+ - (id) initWithType:(^{dispatch_source_type_s=})ahandle:(unsigned long long)bmask:(unsigned long long)cqueue:(id)dconfigureSourceBlock:(@?)e;
  - (@?) eventHandler;
  - (@?) cancelHandler;
 

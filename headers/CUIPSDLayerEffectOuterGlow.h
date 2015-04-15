@@ -1,28 +1,28 @@
 
 @interface CUIPSDLayerEffectOuterGlow : CUIPSDLayerEffectComponent {
 
-    i _blendMode;
-    d _opacity;
+    int _blendMode;
+    double _opacity;
     @"CUIColor" _color;
-    Q _blurSize;
-    Q _spread;
+    unsigned long long _blurSize;
+    unsigned long long _spread;
 }
 
  - (void) dealloc;
  - (id) init;
- - (i) blendMode;
- - (void) setBlendMode:(i)a;
+ - (int) blendMode;
+ - (void) setBlendMode:(int)a;
  - (void) setColor:(id)a;
- - (void) setBlurSize:(Q)a;
- - (void) setSpread:(Q)a;
+ - (void) setBlurSize:(unsigned long long)a;
+ - (void) setSpread:(unsigned long long)a;
  - (BOOL) updateLayerEffectPreset:(id)aerror:(^@)b;
- - (id) initWithEffectFromPreset:(id)aatIndex:(I)b;
- - (Q) blurSize;
- - (Q) spread;
- - (I) effectType;
+ - (id) initWithEffectFromPreset:(id)aatIndex:(unsigned int)b;
+ - (unsigned long long) blurSize;
+ - (unsigned long long) spread;
+ - (unsigned int) effectType;
  - (id) color;
- - (d) opacity;
- - (void) setOpacity:(d)a;
+ - (double) opacity;
+ - (void) setOpacity:(double)a;
 
 
 @end

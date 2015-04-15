@@ -1,8 +1,8 @@
 
 @interface WebProgressItem : NSObject {
 
-    q bytesReceived;
-    q estimatedLength;
+    long long bytesReceived;
+    long long estimatedLength;
 }
 
 

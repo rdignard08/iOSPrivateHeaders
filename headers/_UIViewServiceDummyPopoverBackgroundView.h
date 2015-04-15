@@ -1,21 +1,21 @@
 
 @interface _UIViewServiceDummyPopoverBackgroundView : UIPopoverBackgroundView {
 
-    d arrowOffset;
-    Q arrowDirection;
+    double arrowOffset;
+    unsigned long long arrowDirection;
 }
  + (BOOL) wantsDefaultContentAppearance;
- + (d) arrowHeight;
- + (d) arrowBase;
+ + (double) arrowHeight;
+ + (double) arrowBase;
  + ({UIEdgeInsets=dddd}) contentViewInsets;
 
  - ({CGSize=dd}) _shadowOffset;
- - (Q) arrowDirection;
- - (void) setArrowDirection:(Q)a;
- - (d) _shadowRadius;
- - (d) _shadowOpacity;
- - (void) setArrowOffset:(d)a;
- - (d) arrowOffset;
+ - (unsigned long long) arrowDirection;
+ - (void) setArrowDirection:(unsigned long long)a;
+ - (double) _shadowRadius;
+ - (double) _shadowOpacity;
+ - (void) setArrowOffset:(double)a;
+ - (double) arrowOffset;
 
 
 @end

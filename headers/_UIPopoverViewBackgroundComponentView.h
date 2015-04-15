@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (BOOL) _shouldAnimatePropertyWithKey:(id)a;
- - (id) _generateBackdropMaskViewForFlag:(q)a;
+ - (id) _generateBackdropMaskViewForFlag:(long long)a;
  - (id) directionSelector;
  - (void) setDirectionSelector:(id)a;
 

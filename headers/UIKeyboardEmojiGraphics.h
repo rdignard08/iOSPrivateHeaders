@@ -7,13 +7,13 @@
  + ({CGSize=dd}) emojiSize:(BOOL)a;
  + ({CGPoint=dd}) padding:(BOOL)a;
  + (id) emojiFontAttributesForPortrait:(BOOL)a;
- + (C) colCount:(BOOL)a;
+ + (unsigned char) colCount:(BOOL)a;
  + (id) emojiFontAttributes;
- + (C) rowCount:(BOOL)a;
+ + (unsigned char) rowCount:(BOOL)a;
  + ({CGPoint=dd}) margin:(BOOL)a;
- + (d) recentLableVerticalPadding:(BOOL)a;
- + (d) optionalDescriptionPadding:(BOOL)a;
- + (d) emojiPageControlYOffset:(BOOL)a;
+ + (double) recentLableVerticalPadding:(BOOL)a;
+ + (double) optionalDescriptionPadding:(BOOL)a;
+ + (double) emojiPageControlYOffset:(BOOL)a;
  + (BOOL) boldText;
 
  - (id) init;

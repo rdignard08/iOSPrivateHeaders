@@ -1,25 +1,25 @@
 
 @interface NSDataDetector : NSRegularExpression {
 
-    Q _types;
+    unsigned long long _types;
 }
- + (id) dataDetectorWithTypes:(Q)aerror:(^@)b;
+ + (id) dataDetectorWithTypes:(unsigned long long)aerror:(^@)b;
  + (void) initialize;
 
  - (id) pattern;
- - (Q) numberOfCaptureGroups;
- - (id) initWithTypes:(Q)aerror:(^@)b;
- - (Q) checkingTypes;
+ - (unsigned long long) numberOfCaptureGroups;
+ - (id) initWithTypes:(unsigned long long)aerror:(^@)b;
+ - (unsigned long long) checkingTypes;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (Q) options;
- - (id) initWithPattern:(id)aoptions:(Q)berror:(^@)c;
- - (void) enumerateMatchesInString:(id)aoptions:(Q)brange:({_NSRange=QQ})cusingBlock:(@?)d;
+ - (unsigned long long) options;
+ - (id) initWithPattern:(id)aoptions:(unsigned long long)berror:(^@)c;
+ - (void) enumerateMatchesInString:(id)aoptions:(unsigned long long)brange:({_NSRange=QQ})cusingBlock:(@?)d;
 
 
 @end

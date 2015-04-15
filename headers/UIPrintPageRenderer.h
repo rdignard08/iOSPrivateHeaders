@@ -1,8 +1,8 @@
 
 @interface UIPrintPageRenderer : NSObject {
 
-    d _headerHeight;
-    d _footerHeight;
+    double _headerHeight;
+    double _footerHeight;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _paperRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _printableRect;
     @"NSMutableArray" _printFormatters;
@@ -15,29 +15,29 @@
 @property (nonatomic, copy, readwrite) NSArray* printFormatters;
 
  - (void) dealloc;
- - (q) numberOfPages;
+ - (long long) numberOfPages;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) printableRect;
  - (void) _removePrintFormatter:(id)a;
- - (d) headerHeight;
- - (d) footerHeight;
+ - (double) headerHeight;
+ - (double) footerHeight;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) paperRect;
  - (void) setPaperRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setPrintableRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) addPrintFormatter:(id)astartingAtPageAtIndex:(q)b;
+ - (void) addPrintFormatter:(id)astartingAtPageAtIndex:(long long)b;
  - (void) prepareForDrawingPages:({_NSRange=QQ})a;
  - (BOOL) _startPrintContext:(id)aprintSettings:(id)b;
- - (void) _drawPage:(q)a;
+ - (void) _drawPage:(long long)a;
  - (void) _endPrintContext:(id)asuccess:(BOOL)b;
- - (q) _maxFormatterPage;
- - (void) drawHeaderForPageAtIndex:(q)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) drawContentForPageAtIndex:(q)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) drawPrintFormatter:(id)aforPageAtIndex:(q)b;
- - (void) drawFooterForPageAtIndex:(q)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) drawPageAtIndex:(q)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ - (long long) _maxFormatterPage;
+ - (void) drawHeaderForPageAtIndex:(long long)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ - (void) drawContentForPageAtIndex:(long long)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ - (void) drawPrintFormatter:(id)aforPageAtIndex:(long long)b;
+ - (void) drawFooterForPageAtIndex:(long long)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ - (void) drawPageAtIndex:(long long)ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
  - (void) setPrintFormatters:(id)a;
- - (id) printFormattersForPageAtIndex:(q)a;
- - (void) setHeaderHeight:(d)a;
- - (void) setFooterHeight:(d)a;
+ - (id) printFormattersForPageAtIndex:(long long)a;
+ - (void) setHeaderHeight:(double)a;
+ - (void) setFooterHeight:(double)a;
  - (id) printFormatters;
 
 

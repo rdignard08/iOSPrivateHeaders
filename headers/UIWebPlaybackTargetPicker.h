@@ -16,8 +16,8 @@
  - (void) _dismissAirPlayRoutePickerIPad;
  - (void) _windowDidRotate:(id)a;
  - (void) _presentAirPlayPopoverAnimated:(BOOL)afromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) showAirPlayPickerIPad:(Q)afromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) showAirPlayPickerIPhone:(Q)a;
+ - (void) showAirPlayPickerIPad:(unsigned long long)afromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ - (void) showAirPlayPickerIPhone:(unsigned long long)a;
 
 
 @end

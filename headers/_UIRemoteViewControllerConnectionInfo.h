@@ -9,7 +9,7 @@
     id _textEffectsOperatorProxy;
     @"NSArray" _serviceViewControllerSupportedInterfaceOrientations;
     @"_UIViewServiceXPCMachSendRight" _serviceAccessibilityServerPortWrapper;
-    q _preferredStatusBarStyle;
+    long long _preferredStatusBarStyle;
     @"_UIHostedWindowHostingHandle" _hostedWindowHostingHandle;
     @"_UIHostedWindowHostingHandle" _textEffectsWindowHostingHandle;
     @"_UIHostedWindowHostingHandle" _textEffectsWindowAboveStatusBarHostingHandle;
@@ -32,7 +32,7 @@
  - (id) interface;
  - (void) setInterface:(id)a;
  - (void) dealloc;
- - (q) preferredStatusBarStyle;
+ - (long long) preferredStatusBarStyle;
  - (BOOL) prefersStatusBarHidden;
  - (id) serviceViewControllerProxy;
  - (id) viewControllerOperatorProxy;
@@ -46,7 +46,7 @@
  - (void) setServiceViewControllerSupportedInterfaceOrientations:(id)a;
  - (id) serviceAccessibilityServerPortWrapper;
  - (void) setServiceAccessibilityServerPortWrapper:(id)a;
- - (void) setPreferredStatusBarStyle:(q)a;
+ - (void) setPreferredStatusBarStyle:(long long)a;
  - (void) setPrefersStatusBarHidden:(BOOL)a;
  - (id) hostedWindowHostingHandle;
  - (void) setHostedWindowHostingHandle:(id)a;

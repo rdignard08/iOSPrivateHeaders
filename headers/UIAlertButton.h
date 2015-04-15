@@ -1,7 +1,7 @@
 
 @interface UIAlertButton : UIButton {
 
-    d _imageOffset;
+    double _imageOffset;
     BOOL _isNewStyle;
     @"UIImageView" _highlightView;
 }
@@ -12,15 +12,15 @@
  - (void) layoutSubviews;
  - (void) focusedViewDidChange;
  - (BOOL) canBecomeFocused;
- - (void) setImage:(id)aforState:(Q)b;
+ - (void) setImage:(id)aforState:(unsigned long long)b;
  - (id) initWithTitle:(id)a;
  - (void) setHighlighted:(BOOL)a;
  - (void) _transitionHighlightViewToHighlighted:(BOOL)a;
  - (void) setHighlightImage:(id)a;
  - (id) highlightImage;
  - (void) setIsNewStyle:(BOOL)a;
- - (d) imageOffset;
- - (void) setImageOffset:(d)a;
+ - (double) imageOffset;
+ - (void) setImageOffset:(double)a;
  - (BOOL) isNewStyle;
  - (id) image;
  - (id) highlightView;

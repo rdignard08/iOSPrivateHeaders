@@ -13,9 +13,9 @@
  - (void) setFont:(id)a;
  - (void) updateImage;
  - (BOOL) usesSecondaryColor;
- - (id) initWithSettings:(id)astrength:(d)bstring:(id)cfont:(id)doptions:(q)e;
- - (id) initWithSettings:(id)astrength:(d)bstring:(id)cfont:(id)d;
- - (d) baselineOffset;
+ - (id) initWithSettings:(id)astrength:(double)bstring:(id)cfont:(id)doptions:(long long)e;
+ - (id) initWithSettings:(id)astrength:(double)bstring:(id)cfont:(id)d;
+ - (double) baselineOffset;
  - (id) font;
 
 

@@ -4,7 +4,7 @@
     id target;
     id defaultTarget;
     @"_WebSafeAsyncForwarder" asyncForwarder;
-    q asyncForwarderPred;
+    long long asyncForwarderPred;
 }
 
  - (void) dealloc;

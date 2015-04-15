@@ -23,7 +23,7 @@
  - (void) setKeys:(id)a;
  - (void) setValue:(id)aforKey:(id)b;
  - (id) name;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
  - (id) keys;
  - (id) valueForKey:(id)a;
  - (id) valueForKeyPath:(id)a;

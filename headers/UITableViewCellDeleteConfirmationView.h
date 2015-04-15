@@ -1,11 +1,11 @@
 
 @interface UITableViewCellDeleteConfirmationView : UIView {
 
-    d _visibleWidth;
+    double _visibleWidth;
     {CGSize="width"d"height"d} _contentSize;
-    d _visibleHeightRatio;
-    d _cornerRadius;
-    i _sectionLocation;
+    double _visibleHeightRatio;
+    double _cornerRadius;
+    int _sectionLocation;
     @"_UITableViewCellActionButton" _deleteView;
     @"_UITableViewCellActionButton" _accessoryView;
     @"NSArray" _actionButtons;
@@ -14,19 +14,19 @@
  - (void) dealloc;
  - (void) didMoveToWindow;
  - ({CGSize=dd}) contentSize;
- - (void) setCornerRadius:(d)a;
- - (void) setVisibleHeightRatio:(d)a;
- - (i) sectionLocation;
- - (void) setSectionLocation:(i)a;
+ - (void) setCornerRadius:(double)a;
+ - (void) setVisibleHeightRatio:(double)a;
+ - (int) sectionLocation;
+ - (void) setSectionLocation:(int)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aactionButtons:(id)bcontentSize:({CGSize=dd})c;
- - (void) setVisibleWidth:(d)a;
+ - (void) setVisibleWidth:(double)a;
  - (id) accessoryView;
  - (void) updateMaskView:(BOOL)a;
  - (void) updateBounds;
- - (d) visibleWidth;
- - (d) visibleHeightRatio;
+ - (double) visibleWidth;
+ - (double) visibleHeightRatio;
  - (id) deleteView;
- - (d) cornerRadius;
+ - (double) cornerRadius;
 
 
 @end

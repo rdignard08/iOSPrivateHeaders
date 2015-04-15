@@ -5,7 +5,7 @@
 
  - ({CGPoint=dd}) dictationKeyTextOffset;
  - ({CGPoint=dd}) globeKeyTextOffset;
- - (d) controlColumnWidthFactor;
+ - (double) controlColumnWidthFactor;
  - (id) multitapCompleteKeyImageName;
  - (id) muttitapReverseKeyImageName;
  - (void) setupLayoutSegments;

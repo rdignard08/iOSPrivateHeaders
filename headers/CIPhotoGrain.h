@@ -15,7 +15,7 @@
  - (id) inputAmount;
  - (id) _interpolateGrainKernel;
  - (id) _paddedTileKernel;
- - (void) paramtersFor:(f)adestination:(^{GrainParameters=ffff})bimageScaleFactor:(f)c;
+ - (void) paramtersFor:(float)adestination:(^{GrainParameters=ffff})bimageScaleFactor:(float)c;
  - (id) _grainBlendAndMixKernel;
  - (id) inputISO;
  - (void) setInputISO:(id)a;

@@ -4,13 +4,13 @@
 }
 
  - (id) cssRules;
- - (I) insertRule:(id)aindex:(I)b;
- - (I) insertRule:(id)a;
- - (void) deleteRule:(I)a;
+ - (unsigned int) insertRule:(id)aindex:(unsigned int)b;
+ - (unsigned int) insertRule:(id)a;
+ - (void) deleteRule:(unsigned int)a;
  - (id) ownerRule;
  - (id) rules;
- - (i) addRule:(id)astyle:(id)bindex:(I)c;
- - (void) removeRule:(I)a;
+ - (int) addRule:(id)astyle:(id)bindex:(unsigned int)c;
+ - (void) removeRule:(unsigned int)a;
 
 
 @end

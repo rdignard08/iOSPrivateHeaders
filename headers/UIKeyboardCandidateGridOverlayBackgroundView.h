@@ -1,18 +1,18 @@
 
 @interface UIKeyboardCandidateGridOverlayBackgroundView : UICollectionReusableView {
 
-    d _rowHeight;
-    Q _highlightedRowIndex;
+    double _rowHeight;
+    unsigned long long _highlightedRowIndex;
 }
  + (id) reuseIdentifier;
  + (id) collectionViewKind;
  + (^{CGColor=}) backgroundColor;
 
- - (void) setRowHeight:(d)a;
- - (d) rowHeight;
- - (void) setHighlightedRowIndex:(Q)a;
+ - (void) setRowHeight:(double)a;
+ - (double) rowHeight;
+ - (void) setHighlightedRowIndex:(unsigned long long)a;
  - (void) applyLayoutAttributes:(id)a;
- - (Q) highlightedRowIndex;
+ - (unsigned long long) highlightedRowIndex;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

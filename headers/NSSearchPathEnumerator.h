@@ -1,12 +1,12 @@
 
 @interface NSSearchPathEnumerator : NSEnumerator {
 
-    q state;
-    Q directory;
-    Q domainMask;
+    long long state;
+    unsigned long long directory;
+    unsigned long long domainMask;
 }
 
- - (id) initWithDirectory:(Q)adomains:(Q)b;
+ - (id) initWithDirectory:(unsigned long long)adomains:(unsigned long long)b;
  - (id) nextObject;
 
 

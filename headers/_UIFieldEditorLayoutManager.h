@@ -6,7 +6,7 @@
 
  - (BOOL) needsExtraBulletRendering;
  - (void) setNeedsExtraBulletRendering:(BOOL)a;
- - (void) showCGGlyphs:(r^S)apositions:(r^{CGPoint=dd})bcount:(Q)cfont:(id)dmatrix:({CGAffineTransform=dddddd})eattributes:(id)finContext:(^{CGContext=})g;
+ - (void) showCGGlyphs:(r^S)apositions:(r^{CGPoint=dd})bcount:(unsigned long long)cfont:(id)dmatrix:({CGAffineTransform=dddddd})eattributes:(id)finContext:(^{CGContext=})g;
 
 
 @end

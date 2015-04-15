@@ -1,15 +1,15 @@
 
 @interface _UILegibilitySettings : NSObject {
 
-    q _style;
+    long long _style;
     @"UIColor" _contentColor;
     @"UIColor" _primaryColor;
     @"UIColor" _secondaryColor;
     @"UIColor" _shadowColor;
-    d _shadowRadius;
-    d _shadowAlpha;
-    d _imageOutset;
-    d _minFillHeight;
+    double _shadowRadius;
+    double _shadowAlpha;
+    double _imageOutset;
+    double _minFillHeight;
     @"NSString" _shadowCompositingFilterName;
 }
 @property (nonatomic, assign, readwrite) NSNumber* style;
@@ -22,36 +22,36 @@
 @property (nonatomic, assign, readwrite) NSNumber* imageOutset;
 @property (nonatomic, assign, readwrite) NSNumber* minFillHeight;
 @property (nonatomic, copy, readwrite) NSString* shadowCompositingFilterName;
- + (id) sharedInstanceForStyle:(q)a;
+ + (id) sharedInstanceForStyle:(long long)a;
 
  - (void) dealloc;
  - (BOOL) isEqual:(id)a;
- - (id) initWithStyle:(q)a;
+ - (id) initWithStyle:(long long)a;
  - (id) primaryColor;
  - (void) setContentColor:(id)a;
  - (id) contentColor;
- - (id) initWithStyle:(q)acontentColor:(id)b;
- - (void) setMinFillHeight:(d)a;
- - (void) setPropertiesForStyle:(q)a;
+ - (id) initWithStyle:(long long)acontentColor:(id)b;
+ - (void) setMinFillHeight:(double)a;
+ - (void) setPropertiesForStyle:(long long)a;
  - (void) setPrimaryColor:(id)a;
  - (void) setSecondaryColor:(id)a;
- - (void) setShadowAlpha:(d)a;
- - (void) setImageOutset:(d)a;
+ - (void) setShadowAlpha:(double)a;
+ - (void) setImageOutset:(double)a;
  - (void) setShadowCompositingFilterName:(id)a;
  - (id) initWithContentColor:(id)a;
- - (id) initWithContentColor:(id)acontrast:(d)b;
- - (id) initWithStyle:(q)aprimaryColor:(id)bsecondaryColor:(id)cshadowColor:(id)d;
+ - (id) initWithContentColor:(id)acontrast:(double)b;
+ - (id) initWithStyle:(long long)aprimaryColor:(id)bsecondaryColor:(id)cshadowColor:(id)d;
  - (id) secondaryColor;
- - (d) shadowAlpha;
- - (d) imageOutset;
- - (d) minFillHeight;
+ - (double) shadowAlpha;
+ - (double) imageOutset;
+ - (double) minFillHeight;
  - (id) shadowCompositingFilterName;
  - (void) setShadowColor:(id)a;
- - (q) style;
- - (d) shadowRadius;
+ - (long long) style;
+ - (double) shadowRadius;
  - (id) shadowColor;
- - (void) setStyle:(q)a;
- - (void) setShadowRadius:(d)a;
+ - (void) setStyle:(long long)a;
+ - (void) setShadowRadius:(double)a;
 
 
 @end

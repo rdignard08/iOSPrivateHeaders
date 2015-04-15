@@ -17,7 +17,7 @@
  - (void) cancel;
  - (void) start;
  - (id) initWithRequest:(id)atarget:(id)bresultObject:(id)cselector:(SEL)dcontroller:(id)econtextInfo:(id)f;
- - (void) _continueWithPolicy:(i)a;
+ - (void) _continueWithPolicy:(int)a;
  - (id) _actionInformationWithURL:(id)a;
  - (BOOL) _isForbiddenFileLoad;
  - (void) _askPolicyDelegate;

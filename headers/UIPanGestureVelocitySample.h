@@ -3,7 +3,7 @@
 
     {CGPoint="x"d"y"d} start;
     {CGPoint="x"d"y"d} end;
-    d dt;
+    double dt;
 }
 @property (atomic, assign, readwrite) NSNumber* start;
 @property (atomic, assign, readwrite) NSNumber* end;
@@ -12,8 +12,8 @@
  - ({CGPoint=dd}) end;
  - (void) setStart:({CGPoint=dd})a;
  - (void) setEnd:({CGPoint=dd})a;
- - (d) dt;
- - (void) setDt:(d)a;
+ - (double) dt;
+ - (void) setDt:(double)a;
  - ({CGPoint=dd}) start;
 
 

@@ -1,7 +1,7 @@
 
 @interface _UIContentUnavailableView : UIView {
 
-    Q _style;
+    unsigned long long _style;
     @"NSString" _title;
     @"_UIBackdropView" _backdrop;
     @"UIView" _containerView;
@@ -17,7 +17,7 @@
     @"NSString" _message;
     @"NSString" _buttonTitle;
     @? _buttonAction;
-    Q _vibrantOptions;
+    unsigned long long _vibrantOptions;
 }
 
  - (id) title;
@@ -28,24 +28,24 @@
  - (id) message;
  - (void) updateConstraints;
  - (void) setMessage:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atitle:(id)bstyle:(Q)c;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atitle:(id)bstyle:(unsigned long long)c;
  - (void) setButtonAction:(@?)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atitle:(id)bstyle:(Q)cincludeBackdrop:(BOOL)d;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atitle:(id)bstyle:(unsigned long long)cincludeBackdrop:(BOOL)d;
  - (BOOL) _hasVibrantButton;
  - (void) _updateViewHierarchy;
  - (BOOL) _hasVibrantText;
  - (id) _vibrantBaseColor;
  - (id) _flatTextColor;
- - (d) _labelAlpha;
+ - (double) _labelAlpha;
  - (void) _actionButtonPressed:(id)a;
- - (id) _buttonBackgroundImageForStyle:(Q)acontrolState:(Q)b;
+ - (id) _buttonBackgroundImageForStyle:(unsigned long long)acontrolState:(unsigned long long)b;
  - (@?) buttonAction;
  - (void) windowWillRotateNotification:(id)a;
  - (void) windowWillAnimateRotateNotification:(id)a;
  - (void) windowDidRotateNotification:(id)a;
- - (Q) vibrantOptions;
+ - (unsigned long long) vibrantOptions;
  - (void) setButtonTitle:(id)a;
- - (void) setVibrantOptions:(Q)a;
+ - (void) setVibrantOptions:(unsigned long long)a;
  - (id) buttonTitle;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

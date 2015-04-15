@@ -9,17 +9,17 @@
     BOOL hasMouthPosition;
     {CGPoint="x"d"y"d} mouthPosition;
     BOOL hasTrackingID;
-    i trackingID;
+    int trackingID;
     BOOL hasTrackingFrameCount;
-    i trackingFrameCount;
+    int trackingFrameCount;
     BOOL hasFaceAngle;
-    f faceAngle;
+    float faceAngle;
     BOOL hasSmile;
     BOOL leftEyeClosed;
     BOOL rightEyeClosed;
 }
  + (id) faceFeatureWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- + (id) faceFeaturesWithBoundsArray:(r^{CGRect={CGPoint=dd}{CGSize=dd}})acount:(Q)b;
+ + (id) faceFeaturesWithBoundsArray:(r^{CGRect={CGPoint=dd}{CGSize=dd}})acount:(unsigned long long)b;
 
  - (id) .cxx_construct;
  - (id) type;
@@ -29,7 +29,7 @@
  - ({CGPoint=dd}) rightEyePosition;
  - (BOOL) hasMouthPosition;
  - ({CGPoint=dd}) mouthPosition;
- - (id) initWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})ahasLeftEyePosition:(BOOL)bleftEyePosition:({CGPoint=dd})chasRightEyePosition:(BOOL)drightEyePosition:({CGPoint=dd})ehasMouthPosition:(BOOL)fmouthPosition:({CGPoint=dd})ghasFaceAngle:(BOOL)hfaceAngle:(f)ihasTrackingID:(BOOL)jtrackingID:(i)khasTrackingFrameCount:(BOOL)ltrackingFrameCount:(i)mhasSmile:(BOOL)nleftEyeClosed:(BOOL)orightEyeClosed:(BOOL)p;
+ - (id) initWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})ahasLeftEyePosition:(BOOL)bleftEyePosition:({CGPoint=dd})chasRightEyePosition:(BOOL)drightEyePosition:({CGPoint=dd})ehasMouthPosition:(BOOL)fmouthPosition:({CGPoint=dd})ghasFaceAngle:(BOOL)hfaceAngle:(float)ihasTrackingID:(BOOL)jtrackingID:(int)khasTrackingFrameCount:(BOOL)ltrackingFrameCount:(int)mhasSmile:(BOOL)nleftEyeClosed:(BOOL)orightEyeClosed:(BOOL)p;
  - (id) initWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setHasLeftEyePosition:(BOOL)a;
  - (void) setLeftEyePosition:({CGPoint=dd})a;
@@ -39,12 +39,12 @@
  - (void) setMouthPosition:({CGPoint=dd})a;
  - (BOOL) hasTrackingID;
  - (void) setHasTrackingID:(BOOL)a;
- - (i) trackingID;
- - (void) setTrackingID:(i)a;
+ - (int) trackingID;
+ - (void) setTrackingID:(int)a;
  - (BOOL) hasTrackingFrameCount;
  - (void) setHasTrackingFrameCount:(BOOL)a;
- - (i) trackingFrameCount;
- - (void) setTrackingFrameCount:(i)a;
+ - (int) trackingFrameCount;
+ - (void) setTrackingFrameCount:(int)a;
  - (BOOL) hasFaceAngle;
  - (void) setHasFaceAngle:(BOOL)a;
  - (BOOL) hasSmile;
@@ -55,8 +55,8 @@
  - (void) setRightEyeClosed:(BOOL)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
  - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (f) faceAngle;
- - (void) setFaceAngle:(f)a;
+ - (float) faceAngle;
+ - (void) setFaceAngle:(float)a;
 
 
 @end

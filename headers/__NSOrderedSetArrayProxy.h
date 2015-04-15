@@ -6,8 +6,8 @@
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (Q) count;
- - (id) objectAtIndex:(Q)a;
+ - (unsigned long long) count;
+ - (id) objectAtIndex:(unsigned long long)a;
  - (id) initWithOrderedSet:(id)a;
 
 

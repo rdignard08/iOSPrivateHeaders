@@ -11,8 +11,8 @@
  - (id) cookies;
  - (void) deleteCookie:(id)a;
  - (void) setCookie:(id)a;
- - (Q) cookieAcceptPolicy;
- - (void) setCookieAcceptPolicy:(Q)a;
+ - (unsigned long long) cookieAcceptPolicy;
+ - (void) setCookieAcceptPolicy:(unsigned long long)a;
  - (id) sortedCookiesUsingDescriptors:(id)a;
 
 

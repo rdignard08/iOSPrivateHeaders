@@ -7,14 +7,14 @@
 
  - (void) reset;
  - (void) dealloc;
- - (void) setEdges:(Q)a;
+ - (void) setEdges:(unsigned long long)a;
  - (void) touchesBegan:(id)awithEvent:(id)b;
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) screenEdgePanRecognizerStateDidChange:(id)a;
- - (d) _edgeRegionSize;
+ - (double) _edgeRegionSize;
  - (BOOL) isRequiringLongPress;
  - (BOOL) _shouldTryToBeginWithEvent:(id)a;
- - (Q) edges;
+ - (unsigned long long) edges;
  - (id) initWithTarget:(id)aaction:(SEL)b;
 
 

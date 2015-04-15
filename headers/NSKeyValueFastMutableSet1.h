@@ -7,7 +7,7 @@
 
  - (id) _proxyInitWithContainer:(id)agetter:(id)b;
  - (void) _proxyNonGCFinalize;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) member:(id)a;
  - (id) objectEnumerator;
 

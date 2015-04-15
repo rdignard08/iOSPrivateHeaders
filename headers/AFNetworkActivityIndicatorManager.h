@@ -2,7 +2,7 @@
 @interface AFNetworkActivityIndicatorManager : NSObject {
 
     BOOL _enabled;
-    q _activityCount;
+    long long _activityCount;
     @"NSTimer" _activityIndicatorVisibilityTimer;
 }
 @property (nonatomic, assign, readwrite, isEnabled) NSNumber* enabled;
@@ -19,11 +19,11 @@
  - (id) activityIndicatorVisibilityTimer;
  - (void) updateNetworkActivityIndicatorVisibility;
  - (void) setActivityIndicatorVisibilityTimer:(id)a;
- - (q) activityCount;
+ - (long long) activityCount;
  - (void) updateNetworkActivityIndicatorVisibilityDelayed;
  - (void) incrementActivityCount;
  - (void) decrementActivityCount;
- - (void) setActivityCount:(q)a;
+ - (void) setActivityCount:(long long)a;
  - (void) .cxx_destruct;
  - (void) dealloc;
  - (id) init;

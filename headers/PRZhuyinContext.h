@@ -6,16 +6,16 @@
     @"NSMutableArray" _removedModifications;
     @"NSMutableArray" _addedRemovedModifications;
     @"NSMutableArray" _prefixes;
-    * _buffer;
+    char* _buffer;
     ^Q _syllableLengthArray;
     ^v _connection;
-    Q _length;
-    Q _lengthBeforeApostrophes;
-    Q _startingPoint;
+    unsigned long long _length;
+    unsigned long long _lengthBeforeApostrophes;
+    unsigned long long _startingPoint;
     [4Q] _lastIndexes;
     [2Q] _nextIndexes;
-    Q _startIndex;
-    Q _endIndex;
+    unsigned long long _startIndex;
+    unsigned long long _endIndex;
     BOOL _lastSyllableIsPartial;
 }
 
@@ -29,9 +29,9 @@
  - (void) _addReplacements;
  - (void) _addDeletions;
  - (void) _filterModifications;
- - (void) addInputCharacter:(S)ageometryModel:(^v)bgeometryData:(id)c;
+ - (void) addInputCharacter:(unsigned short)ageometryModel:(^v)bgeometryData:(id)c;
  - (void) _addInsertions;
- - (void) removeNumberOfInputCharacters:(Q)a;
+ - (void) removeNumberOfInputCharacters:(unsigned long long)a;
  - (id) currentModifications;
  - (id) addedModifications;
  - (id) removedModifications;

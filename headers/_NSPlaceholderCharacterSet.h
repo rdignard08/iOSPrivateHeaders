@@ -7,8 +7,8 @@
 }
 
  - (id) replacementObjectForCoder:(id)a;
- - (BOOL) characterIsMember:(S)a;
- - (id) initWithSet:(id)aoptions:(Q)b;
+ - (BOOL) characterIsMember:(unsigned short)a;
+ - (id) initWithSet:(id)aoptions:(unsigned long long)b;
  - (BOOL) isSupersetOfSet:(id)a;
  - (void) _expandInverted;
  - (id) replacementObjectForKeyedArchiver:(id)a;
@@ -16,14 +16,14 @@
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (BOOL) isEmpty;
  - (id) invertedSet;
- - (BOOL) longCharacterIsMember:(I)a;
- - (BOOL) hasMemberInPlane:(C)a;
+ - (BOOL) longCharacterIsMember:(unsigned int)a;
+ - (BOOL) hasMemberInPlane:(unsigned char)a;
  - (^{__CFCharacterSet=}) _expandedCFCharacterSet;
  - (BOOL) isEqual:(id)a;
  - (id) bitmapRepresentation;

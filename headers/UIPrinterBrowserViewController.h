@@ -13,18 +13,18 @@
     @"UIPrinterSearchingView" _searchingView;
     BOOL _clearCurrentPrinter;
     BOOL _shouldFilterPrinters;
-    d _maximumPopoverHeight;
+    double _maximumPopoverHeight;
 }
 
  - (void) dealloc;
  - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) numberOfSectionsInTableView:(id)a;
- - (id) tableView:(id)atitleForHeaderInSection:(q)b;
- - (Q) supportedInterfaceOrientations;
+ - (long long) numberOfSectionsInTableView:(id)a;
+ - (id) tableView:(id)atitleForHeaderInSection:(long long)b;
+ - (unsigned long long) supportedInterfaceOrientations;
  - (void) loadView;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (void) viewWillDisappear:(BOOL)a;
  - (void) viewDidDisappear:(BOOL)a;
@@ -32,7 +32,7 @@
  - (void) showCancelButton;
  - (void) stopPrinterBrowser;
  - (void) willEnterForeground;
- - (d) maximumPopoverHeight;
+ - (double) maximumPopoverHeight;
  - (void) adjustPopoverSize;
  - (void) startPrinterBrowser;
  - (void) updateSearching;
@@ -40,7 +40,7 @@
  - (void) addPrinter:(id)amoreComing:(BOOL)b;
  - (void) removePrinter:(id)amoreGoing:(BOOL)b;
  - (void) selectPrinter:(id)a;
- - (void) setMaximumPopoverHeight:(d)a;
+ - (void) setMaximumPopoverHeight:(double)a;
 
 
 @end

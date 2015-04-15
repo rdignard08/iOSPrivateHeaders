@@ -22,16 +22,16 @@
  - (void) setObject:(id)aforKey:(id)b;
  - (void) setEvictsObjectsWhenApplicationEntersBackground:(BOOL)a;
  - (BOOL) evictsObjectsWithDiscardedContent;
- - (void) setObject:(id)aforKey:(id)bcost:(Q)c;
- - (Q) totalCostLimit;
+ - (void) setObject:(id)aforKey:(id)bcost:(unsigned long long)c;
+ - (unsigned long long) totalCostLimit;
  - (BOOL) evictsObjectsWhenApplicationEntersBackground;
  - (id) init;
  - (id) delegate;
  - (void) setName:(id)a;
  - (void) setEvictsObjectsWithDiscardedContent:(BOOL)a;
- - (void) setTotalCostLimit:(Q)a;
- - (void) setCountLimit:(Q)a;
- - (Q) countLimit;
+ - (void) setTotalCostLimit:(unsigned long long)a;
+ - (void) setCountLimit:(unsigned long long)a;
+ - (unsigned long long) countLimit;
 
 
 @end

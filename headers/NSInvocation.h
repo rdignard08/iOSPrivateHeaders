@@ -5,7 +5,7 @@
     ^v _retdata;
     id _signature;
     id _container;
-    C _retainedArgs;
+    unsigned char _retainedArgs;
     [15C] _reserved;
 }
 @property (atomic, retain, readonly) NSMethodSignature* methodSignature;
@@ -27,8 +27,8 @@
  - (void) dealloc;
  - (void) setTarget:(id)a;
  - (void) retainArguments;
- - (void) getArgument:(^v)aatIndex:(q)b;
- - (void) setArgument:(^v)aatIndex:(q)b;
+ - (void) getArgument:(^v)aatIndex:(long long)b;
+ - (void) setArgument:(^v)aatIndex:(long long)b;
  - (void) invoke;
  - (BOOL) argumentsRetained;
  - (void) invokeSuper;

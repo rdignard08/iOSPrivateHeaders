@@ -3,8 +3,8 @@
 
     {CGPoint="x"d"y"d} _locationInView;
     id _imp;
-    I _delaysRecognitionForGreaterTapCounts;
-    q _buttonType;
+    unsigned int _delaysRecognitionForGreaterTapCounts;
+    long long _buttonType;
 }
 
  - (void) dealloc;
@@ -16,31 +16,31 @@
  - (void) _physicalButtonsBegan:(id)awithEvent:(id)b;
  - (void) _physicalButtonsEnded:(id)awithEvent:(id)b;
  - (void) _physicalButtonsCancelled:(id)awithEvent:(id)b;
- - (q) _buttonType;
+ - (long long) _buttonType;
  - ({CGPoint=dd}) _digitizerLocation;
- - (void) _setButtonType:(q)a;
- - (d) _touchSloppinessFactor;
- - (Q) numberOfTouches;
+ - (void) _setButtonType:(long long)a;
+ - (double) _touchSloppinessFactor;
+ - (unsigned long long) numberOfTouches;
  - (BOOL) canPreventGestureRecognizer:(id)a;
- - (Q) numberOfTouchesRequired;
- - (Q) numberOfTapsRequired;
- - (void) setNumberOfTapsRequired:(Q)a;
- - (void) setNumberOfTouchesRequired:(Q)a;
- - ({CGPoint=dd}) locationOfTouch:(Q)ainView:(id)b;
- - (void) setAllowableMovement:(d)a;
+ - (unsigned long long) numberOfTouchesRequired;
+ - (unsigned long long) numberOfTapsRequired;
+ - (void) setNumberOfTapsRequired:(unsigned long long)a;
+ - (void) setNumberOfTouchesRequired:(unsigned long long)a;
+ - ({CGPoint=dd}) locationOfTouch:(unsigned long long)ainView:(id)b;
+ - (void) setAllowableMovement:(double)a;
  - (void) _resetGestureRecognizer;
  - (void) _appendSubclassDescription:(id)a;
  - (BOOL) _shouldRequireFailureOfGestureRecognizer:(id)a;
  - ({CGPoint=dd}) centroid;
  - (id) touches;
- - (d) maximumIntervalBetweenSuccessiveTaps;
+ - (double) maximumIntervalBetweenSuccessiveTaps;
  - (BOOL) tapIsPossibleForTapRecognizer:(id)a;
  - (void) tapRecognizerRecognizedTap:(id)a;
  - (void) tapRecognizerFailedToRecognizeTap:(id)a;
- - (d) allowableMovement;
- - (d) maximumSingleTapDuration;
- - (void) setMaximumSingleTapDuration:(d)a;
- - (void) setMaximumIntervalBetweenSuccessiveTaps:(d)a;
+ - (double) allowableMovement;
+ - (double) maximumSingleTapDuration;
+ - (void) setMaximumSingleTapDuration:(double)a;
+ - (void) setMaximumIntervalBetweenSuccessiveTaps:(double)a;
  - (BOOL) _delaysRecognitionForGreaterTapCounts;
  - (void) _setDelaysRecognitionForGreaterTapCounts:(BOOL)a;
  - (void) encodeWithCoder:(id)a;

@@ -12,9 +12,9 @@
  - (id) initWithUUIDBytes:([16C])a;
  - (^{__CFString=}) _cfUUIDString;
  - (id) copyWithZone:(^{_NSZone=})a;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (Q) _cfTypeID;
+ - (unsigned long long) _cfTypeID;
  - (void) getUUIDBytes:([16C])a;
  - (id) init;
  - (void) encodeWithCoder:(id)a;

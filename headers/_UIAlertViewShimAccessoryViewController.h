@@ -2,7 +2,7 @@
 @interface _UIAlertViewShimAccessoryViewController : UIViewController {
 
     @"UIViewController" _accessoryViewController;
-    d _preferredHeight;
+    double _preferredHeight;
 }
 
  - (void) dealloc;

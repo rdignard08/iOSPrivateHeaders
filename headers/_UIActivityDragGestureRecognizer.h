@@ -20,9 +20,9 @@
  - (id) autoscroll;
  - (void) setAutoscroll:(id)a;
  - (id) targetScrollView;
- - (i) autoscrollDirectionsForPoint:({CGPoint=dd})ainView:(id)b;
+ - (int) autoscrollDirectionsForPoint:({CGPoint=dd})ainView:(id)b;
  - ({UIEdgeInsets=dddd}) draggingInsets;
- - (void) setState:(q)a;
+ - (void) setState:(long long)a;
  - (id) initWithTarget:(id)aaction:(SEL)b;
 
 

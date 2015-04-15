@@ -10,7 +10,7 @@
     @"UITextMagnifierTimeWeightedPoint" _weightedPoint;
     @"UIView" _magnifierRenderer;
     @"UIView" _autoscrollRenderer;
-    i _autoscrollDirections;
+    int _autoscrollDirections;
 }
  + (id) getLoupeBackgroundColor:(id)a;
 
@@ -26,7 +26,7 @@
  - ({CGPoint=dd}) terminalPoint;
  - (BOOL) terminalPointPlacedCarefully;
  - (void) setAnimationPoint:({CGPoint=dd})a;
- - (void) setAutoscrollDirections:(i)a;
+ - (void) setAutoscrollDirections:(int)a;
  - (void) animateToMagnifierRenderer;
  - (void) animateToAutoscrollRenderer;
  - (void) zoomUpAnimationDidStop:(id)afinished:(id)b;

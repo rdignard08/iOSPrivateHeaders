@@ -2,7 +2,7 @@
 @interface CUIPSDLayerEffects : NSObject {
 
     BOOL _visible;
-    d _effectScale;
+    double _effectScale;
     @"NSMutableDictionary" _effectList;
 }
 @property (atomic, assign, readwrite) NSNumber* visible;
@@ -12,11 +12,11 @@
  - (void) dealloc;
  - (id) init;
  - (void) setVisible:(BOOL)a;
- - (void) setEffectScale:(d)a;
+ - (void) setEffectScale:(double)a;
  - (void) addLayerEffectComponent:(id)a;
  - (id) effectList;
  - (BOOL) visible;
- - (d) effectScale;
+ - (double) effectScale;
  - (id) dropShadow;
  - (void) setEffectList:(id)a;
 

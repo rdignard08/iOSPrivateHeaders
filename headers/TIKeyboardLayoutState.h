@@ -22,7 +22,7 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) setInputMode:(id)a;
  - (void) setHasCandidateKey:(BOOL)a;

@@ -3,42 +3,42 @@
 
 }
 
- - (d) keyCornerRadius;
+ - (double) keyCornerRadius;
  - (id) multitapCompleteKeyImageName;
  - (id) muttitapReverseKeyImageName;
  - (id) shiftKeyImageName;
  - (id) shiftOnKeyImageName;
  - (id) shiftLockImageName;
- - (d) spaceKeyFontSize;
- - (d) deleteKeyFontSize;
- - (d) moreKeyFontSize;
- - (d) internationalKeyFontSize;
- - (d) dictationKeyFontSize;
- - (d) dismissKeyFontSize;
+ - (double) spaceKeyFontSize;
+ - (double) deleteKeyFontSize;
+ - (double) moreKeyFontSize;
+ - (double) internationalKeyFontSize;
+ - (double) dictationKeyFontSize;
+ - (double) dismissKeyFontSize;
  - ({CGPoint=dd}) dismissKeyOffset;
  - (id) deleteKeyImageName;
- - (d) skinnyKeyThreshold;
+ - (double) skinnyKeyThreshold;
  - (id) handwritingMoreKeyImageName;
  - (id) globalKeyImageName;
  - (id) dismissKeyImageName;
  - (id) dictationKeyImageName;
  - ({CGPoint=dd}) deleteKeyOffset;
- - (d) shiftKeyFontSize;
+ - (double) shiftKeyFontSize;
  - ({CGPoint=dd}) shiftKeyOffset;
- - (d) stringKeyFontSize;
- - (d) zhuyinFirstToneKeyFontSize;
+ - (double) stringKeyFontSize;
+ - (double) zhuyinFirstToneKeyFontSize;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) shiftKeySymbolFrame;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) dismissKeySymbolFrame;
- - (d) fontSizeAdjustmentForNonAlphanumericKeycaps;
- - (d) dualStringKeyFontSizeAdjustment;
- - (d) bottomRowDefaultFontSize;
- - (d) fallbackFontSize;
- - (d) smallKanaKeyFontSize;
- - (d) emailDotKeyFontSize;
- - (d) facemarkKeyFontSize;
- - (d) defaultVariantSizeThreshold;
+ - (double) fontSizeAdjustmentForNonAlphanumericKeycaps;
+ - (double) dualStringKeyFontSizeAdjustment;
+ - (double) bottomRowDefaultFontSize;
+ - (double) fallbackFontSize;
+ - (double) smallKanaKeyFontSize;
+ - (double) emailDotKeyFontSize;
+ - (double) facemarkKeyFontSize;
+ - (double) defaultVariantSizeThreshold;
  - ({CGPoint=dd}) dualStringKeyOffset;
- - (d) dualStringKeyMiddleMargin;
+ - (double) dualStringKeyMiddleMargin;
 
 
 @end

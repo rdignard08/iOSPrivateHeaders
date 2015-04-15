@@ -4,29 +4,29 @@
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;
- - (void) setHyphenationFactor:(f)a;
- - (void) setTighteningFactorForTruncation:(f)a;
- - (void) setHeaderLevel:(q)a;
+ - (void) setHyphenationFactor:(float)a;
+ - (void) setTighteningFactorForTruncation:(float)a;
+ - (void) setHeaderLevel:(long long)a;
  - (void) setTextBlocks:(id)a;
  - (void) setTextLists:(id)a;
  - (void) _mutateTabStops;
  - (void) setParagraphStyle:(id)a;
  - (void) addTabStop:(id)a;
  - (void) removeTabStop:(id)a;
- - (void) setAlignment:(q)a;
- - (void) setFirstLineHeadIndent:(d)a;
- - (void) setHeadIndent:(d)a;
- - (void) setTailIndent:(d)a;
+ - (void) setAlignment:(long long)a;
+ - (void) setFirstLineHeadIndent:(double)a;
+ - (void) setHeadIndent:(double)a;
+ - (void) setTailIndent:(double)a;
  - (void) setTabStops:(id)a;
- - (void) setDefaultTabInterval:(d)a;
- - (void) setLineBreakMode:(q)a;
- - (void) setLineHeightMultiple:(d)a;
- - (void) setMaximumLineHeight:(d)a;
- - (void) setMinimumLineHeight:(d)a;
- - (void) setLineSpacing:(d)a;
- - (void) setParagraphSpacing:(d)a;
- - (void) setParagraphSpacingBefore:(d)a;
- - (void) setBaseWritingDirection:(q)a;
+ - (void) setDefaultTabInterval:(double)a;
+ - (void) setLineBreakMode:(long long)a;
+ - (void) setLineHeightMultiple:(double)a;
+ - (void) setMaximumLineHeight:(double)a;
+ - (void) setMinimumLineHeight:(double)a;
+ - (void) setLineSpacing:(double)a;
+ - (void) setParagraphSpacing:(double)a;
+ - (void) setParagraphSpacingBefore:(double)a;
+ - (void) setBaseWritingDirection:(long long)a;
 
 
 @end

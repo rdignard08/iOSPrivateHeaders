@@ -10,7 +10,7 @@
  - (void) removeEventListener:(id)alistener:(id)buseCapture:(BOOL)c;
  - (BOOL) dispatchEvent:(id)a;
  - (BOOL) overset;
- - (i) firstEmptyRegionIndex;
+ - (int) firstEmptyRegionIndex;
  - (id) getRegionsByContent:(id)a;
  - (id) getRegions;
  - (id) getContent;

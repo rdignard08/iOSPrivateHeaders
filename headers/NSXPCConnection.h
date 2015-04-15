@@ -5,8 +5,8 @@
     ^v _xconnection;
     id _repliesExpected;
     @"NSObject<OS_dispatch_queue>" _userQueue;
-    I _state;
-    I _state2;
+    unsigned int _state;
+    unsigned int _state2;
     @? _interruptionHandler;
     @? _invalidationHandler;
     id _exportInfo;
@@ -40,20 +40,20 @@
 
  - (void) stop;
  - (id) _errorDescription;
- - (id) initWithServiceName:(id)aoptions:(Q)b;
- - (Q) _generationCount;
- - (void) _sendInvocation:(id)awithProxy:(id)bremoteInterface:(id)cwithErrorHandler:(@?)dtimeout:(d)euserInfo:(id)f;
- - (void) _cancelProgress:(Q)a;
- - (void) _pauseProgress:(Q)a;
- - (void) _decodeAndInvokeReplyBlockWithData:(id)asequence:(Q)breplyInfo:(id)c;
+ - (id) initWithServiceName:(id)aoptions:(unsigned long long)b;
+ - (unsigned long long) _generationCount;
+ - (void) _sendInvocation:(id)awithProxy:(id)bremoteInterface:(id)cwithErrorHandler:(@?)dtimeout:(double)euserInfo:(id)f;
+ - (void) _cancelProgress:(unsigned long long)a;
+ - (void) _pauseProgress:(unsigned long long)a;
+ - (void) _decodeAndInvokeReplyBlockWithData:(id)asequence:(unsigned long long)breplyInfo:(id)c;
  - ({?=[8I]}) auditToken;
  - (void) _sendDesistForProxy:(id)a;
  - (void) _decodeAndInvokeMessageWithData:(id)a;
- - (id) _initWithPeerConnection:(id)aname:(id)boptions:(Q)c;
+ - (id) _initWithPeerConnection:(id)aname:(id)boptions:(unsigned long long)c;
  - (void) addBarrierBlock:(@?)a;
  - (void) _sendInvocation:(id)awithProxy:(id)bremoteInterface:(id)c;
  - (void) _sendInvocation:(id)awithProxy:(id)bremoteInterface:(id)cwithErrorHandler:(@?)d;
- - (void) _sendInvocation:(id)awithProxy:(id)bremoteInterface:(id)cwithErrorHandler:(@?)dtimeout:(d)e;
+ - (void) _sendInvocation:(id)awithProxy:(id)bremoteInterface:(id)cwithErrorHandler:(@?)dtimeout:(double)e;
  - (@?) interruptionHandler;
  - (@?) invalidationHandler;
  - (id) serviceName;
@@ -68,15 +68,15 @@
  - (id) exportedObject;
  - (id) exportedInterface;
  - (id) remoteObjectProxyWithUserInfo:(id)aerrorHandler:(@?)b;
- - (id) remoteObjectProxyWithTimeout:(d)aerrorHandler:(@?)b;
+ - (id) remoteObjectProxyWithTimeout:(double)aerrorHandler:(@?)b;
  - (void) _addImportedProxy:(id)a;
  - (void) _removeImportedProxy:(id)a;
- - (i) auditSessionIdentifier;
- - (I) effectiveUserIdentifier;
- - (I) effectiveGroupIdentifier;
+ - (int) auditSessionIdentifier;
+ - (unsigned int) effectiveUserIdentifier;
+ - (unsigned int) effectiveGroupIdentifier;
  - (void) _setUUID:(id)a;
- - (void) _setTargetUserIdentifier:(I)a;
- - (void) _updateProgress:(Q)acompleted:(q)btotal:(q)c;
+ - (void) _setTargetUserIdentifier:(unsigned int)a;
+ - (void) _updateProgress:(unsigned long long)acompleted:(long long)btotal:(long long)c;
  - (void) _decodeProgressMessageWithData:(id)a;
  - (id) remoteObjectInterface;
  - (id) description;
@@ -91,9 +91,9 @@
  - (void) suspend;
  - (id) delegate;
  - (void) start;
- - (id) initWithMachServiceName:(id)aoptions:(Q)b;
+ - (id) initWithMachServiceName:(id)aoptions:(unsigned long long)b;
  - (id) remoteObjectProxy;
- - (void) setOptions:(Q)a;
+ - (void) setOptions:(unsigned long long)a;
  - (void) setUserInfo:(id)a;
  - (id) initWithMachServiceName:(id)a;
  - (void) resume;
@@ -106,8 +106,8 @@
  - (id) initWithListenerEndpoint:(id)a;
  - (id) initWithServiceName:(id)a;
  - (id) endpoint;
- - (i) processIdentifier;
- - (void) _killConnection:(i)a;
+ - (int) processIdentifier;
+ - (void) _killConnection:(int)a;
  - (id) initWithEndpoint:(id)a;
 
 

@@ -14,8 +14,8 @@
 
  - (id) title;
  - (void) dealloc;
- - (I) totalPages;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageNumber:(I)a;
+ - (unsigned int) totalPages;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageNumber:(unsigned int)a;
  - (^{CGPDFDocument=}) doc;
  - (void) layout;
  - (void) dataSourceUpdated:(id)a;
@@ -32,7 +32,7 @@
  - (void) drawPage:(^{CGPDFPage=})a;
  - (void) _checkPDFTitle;
  - (void) _computePageRects;
- - (I) pageNumberForRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (unsigned int) pageNumberForRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

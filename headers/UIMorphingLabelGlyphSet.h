@@ -5,12 +5,12 @@
     @"NSAttributedString" _attributedString;
     ^{__CTLine=} _line;
     @"NSMutableArray" _glyphViews;
-    Q _glyphCount;
+    unsigned long long _glyphCount;
     ^S _glyphs;
     ^{CGRect={CGPoint=dd}{CGSize=dd}} _glyphFrames;
     ^{CGPoint=dd} _glyphPositions;
     {CGPoint="x"d"y"d} _lineOrigin;
-    d _lineWidth;
+    double _lineWidth;
 }
 @property (nonatomic, assign, readonly) NSNumber* glyphCount;
 @property (nonatomic, assign, readonly) NSNumber* glyphs;
@@ -27,14 +27,14 @@
  - (void) removeGlyphs;
  - (void) placeGlyphs;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) boundingRectForGlyphsInRange:({_NSRange=QQ})a;
- - (Q) glyphCount;
+ - (unsigned long long) glyphCount;
  - (r^S) glyphs;
  - (r^{CGRect={CGPoint=dd}{CGSize=dd}}) glyphFrames;
  - (r^{CGPoint=dd}) glyphPositions;
  - (id) glyphViews;
  - ({CGPoint=dd}) lineOrigin;
  - (id) attributedString;
- - (d) lineWidth;
+ - (double) lineWidth;
 
 
 @end

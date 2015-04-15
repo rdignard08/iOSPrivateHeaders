@@ -7,7 +7,7 @@
     SEL _selector;
     @"NSXPCInterface" _interface;
     @"NSDictionary" _userInfo;
-    Q _proxyNumber;
+    unsigned long long _proxyNumber;
 }
 @property (atomic, assign, readwrite) NSNumber* selector;
 @property (atomic, copy, readwrite) NSBlock* replyBlock;
@@ -20,10 +20,10 @@
  - (id) interface;
  - (void) setInterface:(id)a;
  - (id) replyBlock;
- - (Q) proxyNumber;
+ - (unsigned long long) proxyNumber;
  - (@?) cleanupBlock;
  - (@?) errorBlock;
- - (void) setProxyNumber:(Q)a;
+ - (void) setProxyNumber:(unsigned long long)a;
  - (void) setReplyBlock:(id)a;
  - (void) setErrorBlock:(@?)a;
  - (void) setCleanupBlock:(@?)a;

@@ -7,9 +7,9 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (BOOL) isUISubclass;
  - (BOOL) underLock;
- - (i) statusBarStyleOverridesToSuppress;
- - (id) keyDescriptionForSetting:(Q)a;
- - (id) valueDescriptionForFlag:(q)aobject:(id)bofSetting:(Q)c;
+ - (int) statusBarStyleOverridesToSuppress;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
 
 
 @end

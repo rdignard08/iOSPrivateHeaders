@@ -2,7 +2,7 @@
 @interface _NSDOConversationInfo : NSObject {
 
     id doConversation;
-    Q doConversationCount;
+    unsigned long long doConversationCount;
     id doConversationRequest;
 }
 

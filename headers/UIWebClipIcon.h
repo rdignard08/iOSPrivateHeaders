@@ -16,7 +16,7 @@
  - (BOOL) isSiteWide;
  - ({CGSize=dd}) bestSize;
  - (BOOL) isPrecomposed;
- - (q) compare:(id)apreferringDeviceIconSizes:(BOOL)b;
+ - (long long) compare:(id)apreferringDeviceIconSizes:(BOOL)b;
  - (void) setPrecomposed:(BOOL)a;
  - (void) setSiteWide:(BOOL)a;
  - (void) setBestSize:({CGSize=dd})a;

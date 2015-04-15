@@ -2,9 +2,9 @@
 @interface FBSSystemServiceUtility : NSObject {
 
 }
- + (void) cleanupClientPort:(I)a;
- + (I) createClientPort;
- + (id) auditTokenFromClientPort:(I)a;
+ + (void) cleanupClientPort:(unsigned int)a;
+ + (unsigned int) createClientPort;
+ + (id) auditTokenFromClientPort:(unsigned int)a;
 
 
 

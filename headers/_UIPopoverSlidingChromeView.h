@@ -2,22 +2,22 @@
 @interface _UIPopoverSlidingChromeView : UIPopoverBackgroundView {
 
 }
- + (d) arrowHeight;
- + (d) arrowBase;
+ + (double) arrowHeight;
+ + (double) arrowBase;
  + ({UIEdgeInsets=dddd}) contentViewInsets;
- + (d) cornerRadius;
+ + (double) cornerRadius;
 
  - (void) layoutSubviews;
  - ({CGSize=dd}) _shadowOffset;
- - (Q) arrowDirection;
- - (void) setArrowDirection:(Q)a;
- - (d) _shadowRadius;
+ - (unsigned long long) arrowDirection;
+ - (void) setArrowDirection:(unsigned long long)a;
+ - (double) _shadowRadius;
  - ({UIEdgeInsets=dddd}) _shadowInsets;
- - (d) _shadowOpacity;
- - (void) setArrowOffset:(d)a;
- - (d) arrowOffset;
+ - (double) _shadowOpacity;
+ - (void) setArrowOffset:(double)a;
+ - (double) arrowOffset;
  - ({UIEdgeInsets=dddd}) _contentViewInsets;
- - (id) _shadowPathForRect:({CGRect={CGPoint=dd}{CGSize=dd}})aarrowDirection:(Q)b;
+ - (id) _shadowPathForRect:({CGRect={CGPoint=dd}{CGSize=dd}})aarrowDirection:(unsigned long long)b;
 
 
 @end

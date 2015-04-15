@@ -21,19 +21,19 @@
  - (id) imageView;
  - (id) attributedTitle;
  - (void) refreshControlInvalidatedSnappingHeight;
- - (d) _heightAtWhichNoneOfTheInterfaceElementsAreVisibleEvenIfTheControlIsStillPartiallyOnScreen;
- - (d) maximumSnappingHeight;
- - (d) minimumSnappingHeight;
- - (void) willTransitionFromState:(i)atoState:(i)b;
- - (void) didTransitionFromState:(i)atoState:(i)b;
+ - (double) _heightAtWhichNoneOfTheInterfaceElementsAreVisibleEvenIfTheControlIsStillPartiallyOnScreen;
+ - (double) maximumSnappingHeight;
+ - (double) minimumSnappingHeight;
+ - (void) willTransitionFromState:(int)atoState:(int)b;
+ - (void) didTransitionFromState:(int)atoState:(int)b;
  - (void) setAreAnimationsValid:(BOOL)a;
  - (void) _fadeInMagic;
  - (void) _revealingMagic;
  - (void) _snappingMagic;
  - (void) _refreshingMagic;
  - (void) _spinOutMagic;
- - (d) _currentTimeOffset;
- - (d) _snappingTimeOffset;
+ - (double) _currentTimeOffset;
+ - (double) _snappingTimeOffset;
  - (BOOL) areAnimationsValid;
  - (id) _revealingImageAnimations;
  - (id) _revealingArrowAnimations;
@@ -43,7 +43,7 @@
  - (id) _regenerateArrow;
  - (id) arrow;
  - (id) spinner;
- - (q) style;
+ - (long long) style;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

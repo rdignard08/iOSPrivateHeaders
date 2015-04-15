@@ -29,7 +29,7 @@
  - (id) description;
  - (void) dealloc;
  - (id) userInfo;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) sortDate;
  - (void) setThumbnail:(id)a;
@@ -51,7 +51,7 @@
  - (id) bundleName;
  - (id) attachmentData;
  - (void) setAttachmentData:(id)a;
- - (id) initWithIdentifier:(id)aiconData:(id)btitle:(id)cbody:(id)dclassification:(q)ebundleName:(id)fuserInfo:(id)g;
+ - (id) initWithIdentifier:(id)aiconData:(id)btitle:(id)cbody:(id)dclassification:(long long)ebundleName:(id)fuserInfo:(id)g;
 
 
 @end

@@ -3,8 +3,8 @@
 
 }
 
- - (q) attributeToAlignAlertControllerViewBy;
- - (d) constantForAligningAlertControllerToAvailableSpace;
+ - (long long) attributeToAlignAlertControllerViewBy;
+ - (double) constantForAligningAlertControllerToAvailableSpace;
 
 
 @end

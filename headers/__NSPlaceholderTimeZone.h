@@ -7,12 +7,12 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (id) data;
  - (id) name;
- - (d) daylightSavingTimeOffsetForDate:(id)a;
- - (q) secondsFromGMTForDate:(id)a;
+ - (double) daylightSavingTimeOffsetForDate:(id)a;
+ - (long long) secondsFromGMTForDate:(id)a;
  - (id) abbreviationForDate:(id)a;
  - (BOOL) isDaylightSavingTimeForDate:(id)a;
  - (id) nextDaylightSavingTimeTransitionAfterDate:(id)a;

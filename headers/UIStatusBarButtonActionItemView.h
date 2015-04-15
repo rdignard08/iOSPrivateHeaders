@@ -8,14 +8,14 @@
  - (void) dealloc;
  - (BOOL) pointInside:({CGPoint=dd})awithEvent:(id)b;
  - (void) layoutSubviews;
- - (q) buttonType;
- - (d) updateContentsAndWidth;
+ - (long long) buttonType;
+ - (double) updateContentsAndWidth;
  - (void) _pressButton:(id)a;
  - (BOOL) usesAdvancedActions;
  - (void) _doubleTapButton:(id)a;
  - (void) _pressAndHoldButton:(id)a;
  - (id) _createButton;
- - (void) _triggerButtonWithAction:(q)a;
+ - (void) _triggerButtonWithAction:(long long)a;
 
 
 @end

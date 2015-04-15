@@ -1,34 +1,34 @@
 
 @interface UIPhysicalKeyboardEvent : UIPhysicalButtonsEvent {
 
-    i _inputFlags;
+    int _inputFlags;
     @"NSString" _modifiedInput;
     @"NSString" _unmodifiedInput;
     @"NSString" _shiftModifiedInput;
     @"NSString" _commandModifiedInput;
     @"NSString" _markedInput;
-    q _modifierFlags;
+    long long _modifierFlags;
     @"NSString" _privateInput;
 }
- + (id) _eventWithInput:(id)ainputFlags:(i)b;
+ + (id) _eventWithInput:(id)ainputFlags:(int)b;
 
  - (void) dealloc;
  - (BOOL) isEqual:(id)a;
  - (void) _setHIDEvent:(^{__IOHIDEvent=})akeyboard:(^{__GSKeyboard=})b;
  - (BOOL) _isKeyDown;
- - (q) _keyCode;
+ - (long long) _keyCode;
  - (BOOL) _matchesKeyCommand:(id)a;
- - (q) _modifierFlags;
- - (q) _gsModifierFlags;
+ - (long long) _modifierFlags;
+ - (long long) _gsModifierFlags;
  - (id) _modifiedInput;
- - (i) _inputFlags;
+ - (int) _inputFlags;
  - (id) _unmodifiedInput;
  - (void) set_modifiedInput:(id)a;
  - (id) _cloneEvent;
  - (void) _privatizeInput;
  - (id) _markedInput;
- - (void) set_modifierFlags:(q)a;
- - (void) set_inputFlags:(i)a;
+ - (void) set_modifierFlags:(long long)a;
+ - (void) set_inputFlags:(int)a;
  - (void) set_unmodifiedInput:(id)a;
  - (void) set_markedInput:(id)a;
  - (void) set_shiftModifiedInput:(id)a;
@@ -37,7 +37,7 @@
  - (id) _commandModifiedInput;
  - (id) _shiftModifiedInput;
  - (id) _privateInput;
- - (q) type;
+ - (long long) type;
 
 
 @end

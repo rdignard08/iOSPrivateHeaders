@@ -5,14 +5,14 @@
     @"UIResponder<UITextInput>" _textInput;
 }
 
- - (id) rangeEnclosingPosition:(id)awithGranularity:(q)binDirection:(q)c;
- - (BOOL) isPosition:(id)aatBoundary:(q)binDirection:(q)c;
- - (id) positionFromPosition:(id)atoBoundary:(q)binDirection:(q)c;
- - (BOOL) isPosition:(id)awithinTextUnit:(q)binDirection:(q)c;
- - (q) _indexForTextPosition:(id)a;
- - (BOOL) _isDownstreamForDirection:(q)aatPosition:(id)b;
- - ({_NSRange=QQ}) _getClosestTokenRangeForPosition:(id)agranularity:(q)bdownstream:(BOOL)c;
- - (id) _positionFromPosition:(id)aoffset:(Q)baffinity:(q)c;
+ - (id) rangeEnclosingPosition:(id)awithGranularity:(long long)binDirection:(long long)c;
+ - (BOOL) isPosition:(id)aatBoundary:(long long)binDirection:(long long)c;
+ - (id) positionFromPosition:(id)atoBoundary:(long long)binDirection:(long long)c;
+ - (BOOL) isPosition:(id)awithinTextUnit:(long long)binDirection:(long long)c;
+ - (long long) _indexForTextPosition:(id)a;
+ - (BOOL) _isDownstreamForDirection:(long long)aatPosition:(id)b;
+ - ({_NSRange=QQ}) _getClosestTokenRangeForPosition:(id)agranularity:(long long)bdownstream:(BOOL)c;
+ - (id) _positionFromPosition:(id)aoffset:(unsigned long long)baffinity:(long long)c;
  - (id) initWithTextInput:(id)a;
 
 

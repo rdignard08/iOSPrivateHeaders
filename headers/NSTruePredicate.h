@@ -9,17 +9,17 @@
  + (id) allocWithZone:(^{_NSZone=})a;
 
  - (id) predicateFormat;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (BOOL) evaluateWithObject:(id)asubstitutionVariables:(id)b;
  - (void) _validateForMetadataQueryScopes:(id)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

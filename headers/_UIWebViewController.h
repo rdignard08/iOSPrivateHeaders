@@ -9,7 +9,7 @@
     BOOL _canGoBack;
     BOOL _canGoForward;
     BOOL _loading;
-    f _estimatedProgress;
+    float _estimatedProgress;
     @"<_UIWebViewControllerDelegate>" _delegate;
     @"UIBarButtonItem" _backBarButtonItem;
     @"UIBarButtonItem" _forwardBarButtonItem;
@@ -22,7 +22,7 @@
  - (id) backBarButtonItem;
  - (id) initWithNibName:(id)abundle:(id)b;
  - (void) loadView;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) viewWillAppear:(BOOL)a;
  - (BOOL) shouldAutomaticallyForwardAppearanceMethods;
  - (void) viewDidAppear:(BOOL)a;
@@ -37,7 +37,7 @@
  - (void) _webContentSizeWithReplyHandler:(@?)a;
  - (void) queueingServiceProxy:(id)awillQueueInvocation:(id)b;
  - (void) _setCanGoBack:(BOOL)acanGoForward:(BOOL)b;
- - (void) _setEstimatedProgress:(f)a;
+ - (void) _setEstimatedProgress:(float)a;
  - (void) _setLoading:(BOOL)aerror:(id)b;
  - (void) _setURLString:(id)a;
  - (void) _decidePolicyForEncodedRequest:(id)ainMainFrame:(BOOL)bnavigationType:(id)creplyHandler:(@?)d;
@@ -56,7 +56,7 @@
  - (void) goForward;
  - (BOOL) isLoading;
  - (id) pageTitle;
- - (f) estimatedProgress;
+ - (float) estimatedProgress;
  - (void) loadRequest:(id)a;
  - (void) reload;
  - (id) URLString;

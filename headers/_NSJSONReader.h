@@ -2,15 +2,15 @@
 @interface _NSJSONReader : NSObject {
 
     id input;
-    i kind;
+    int kind;
     @"NSError" error;
 }
- + (BOOL) validForJSON:(id)adepth:(Q)ballowFragments:(BOOL)c;
+ + (BOOL) validForJSON:(id)adepth:(unsigned long long)ballowFragments:(BOOL)c;
 
- - (Q) findEncodingFromData:(id)awithBOMSkipLength:(^Q)b;
- - (id) parseUTF8JSONData:(id)askipBytes:(Q)boptions:(Q)c;
- - (id) parseData:(id)aoptions:(Q)b;
- - (id) parseStream:(id)aoptions:(Q)b;
+ - (unsigned long long) findEncodingFromData:(id)awithBOMSkipLength:(^Q)b;
+ - (id) parseUTF8JSONData:(id)askipBytes:(unsigned long long)boptions:(unsigned long long)c;
+ - (id) parseData:(id)aoptions:(unsigned long long)b;
+ - (id) parseStream:(id)aoptions:(unsigned long long)b;
  - (void) dealloc;
  - (id) init;
  - (id) error;

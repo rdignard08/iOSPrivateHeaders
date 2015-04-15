@@ -1,7 +1,7 @@
 
 @interface _UITransitionState : NSObject {
 
-    q _transitionDirection;
+    long long _transitionDirection;
     @? _completion;
     @"NSDate" _beginDate;
 }
@@ -13,11 +13,11 @@
  - (BOOL) isActive;
  - (id) description;
  - (void) dealloc;
- - (id) initWithTransitionDirection:(q)acompletion:(@?)b;
- - (q) transitionDirection;
+ - (id) initWithTransitionDirection:(long long)acompletion:(@?)b;
+ - (long long) transitionDirection;
  - (void) cleanupWithFinishedState:(BOOL)acompletedState:(BOOL)b;
- - (BOOL) isCompatibleWithTransitionInDirection:(q)a;
- - (q) effectiveTransitionDirection;
+ - (BOOL) isCompatibleWithTransitionInDirection:(long long)a;
+ - (long long) effectiveTransitionDirection;
  - (id) beginDate;
  - (void) markBeginDate;
 

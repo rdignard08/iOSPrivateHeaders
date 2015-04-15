@@ -19,19 +19,19 @@
  + (id) _derivedKeys;
 
  - (BOOL) isFinished;
- - (void) setCompletedUnitCount:(q)a;
- - (void) setTotalUnitCount:(q)a;
- - (d) fractionCompleted;
+ - (void) setCompletedUnitCount:(long long)a;
+ - (void) setTotalUnitCount:(long long)a;
+ - (double) fractionCompleted;
  - (BOOL) isIndeterminate;
- - (q) totalUnitCount;
- - (id) _indentedDescription:(Q)a;
+ - (long long) totalUnitCount;
+ - (id) _indentedDescription:(unsigned long long)a;
  - (id) overallFraction;
- - (void) setFractionCompleted:(d)a;
+ - (void) setFractionCompleted:(double)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
  - (void) setIndeterminate:(BOOL)a;
- - (q) completedUnitCount;
+ - (long long) completedUnitCount;
  - (id) init;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

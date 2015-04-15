@@ -10,12 +10,12 @@
 
  - (void) dealloc;
  - (void) clearCache;
- - (void) alertView:(id)aclickedButtonAtIndex:(q)b;
+ - (void) alertView:(id)aclickedButtonAtIndex:(long long)b;
  - (id) _siteFileInContainerDirectory:(id)acreatingIntermediateDirectoriesIfNecessary:(BOOL)b;
  - (id) _siteFile;
  - (BOOL) _isAuthorizationDate:(id)ainclusivelyBetweenDate:(id)bandDate:(id)c;
  - (void) _save;
- - (q) _getChallengeCountFromHistoryForToken:(id)arequestingURL:(id)b;
+ - (long long) _getChallengeCountFromHistoryForToken:(id)arequestingURL:(id)b;
  - (void) _executeNextChallenge;
  - (void) _decidePolicyForGeolocationRequestFromOrigin:(id)arequestingURL:(id)bwindow:(id)clistener:(id)d;
  - (void) clearAllCaches;

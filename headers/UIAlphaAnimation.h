@@ -1,15 +1,15 @@
 
 @interface UIAlphaAnimation : UIAnimation {
 
-    d _startAlpha;
-    d _endAlpha;
+    double _startAlpha;
+    double _endAlpha;
 }
 
- - (void) setProgress:(f)a;
- - (d) _alphaForMultiplier:(f)a;
- - (void) setStartAlpha:(d)a;
- - (void) setEndAlpha:(d)a;
- - (d) alphaForFraction:(f)a;
+ - (void) setProgress:(float)a;
+ - (double) _alphaForMultiplier:(float)a;
+ - (void) setStartAlpha:(double)a;
+ - (void) setEndAlpha:(double)a;
+ - (double) alphaForFraction:(float)a;
 
 
 @end

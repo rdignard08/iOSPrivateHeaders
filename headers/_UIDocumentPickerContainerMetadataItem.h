@@ -1,7 +1,7 @@
 
 @interface _UIDocumentPickerContainerMetadataItem : _UIDocumentPickerContainerItem {
 
-    q _cachedType;
+    long long _cachedType;
     @"NSString" _cachedTitle;
     @"NSString" _cachedSubtitle;
     @"NSString" _cachedSubtitle2;
@@ -19,7 +19,7 @@
  - (id) subtitle2;
  - (void) cacheValues;
  - (void) _removeCachedValues;
- - (q) type;
+ - (long long) type;
  - (id) url;
  - (id) tags;
 

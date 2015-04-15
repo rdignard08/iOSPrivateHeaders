@@ -1,22 +1,22 @@
 
 @interface NSComparisonPredicateOperator : NSPredicateOperator {
 
-    Q _variant;
-    Q _options;
+    unsigned long long _variant;
+    unsigned long long _options;
 }
  + (BOOL) supportsSecureCoding;
 
  - (id) minimalFormInContext:(id)aofPredicate:(id)b;
- - (Q) variant;
+ - (unsigned long long) variant;
  - (id) predicateFormat;
  - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
- - (id) initWithOperatorType:(Q)amodifier:(Q)bvariant:(Q)c;
- - (id) initWithOperatorType:(Q)amodifier:(Q)bvariant:(Q)coptions:(Q)d;
+ - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)bvariant:(unsigned long long)c;
+ - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)bvariant:(unsigned long long)coptions:(unsigned long long)d;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (Q) options;
+ - (unsigned long long) options;
 
 
 @end

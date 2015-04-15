@@ -12,11 +12,11 @@
  - (id) featuresInImage:(id)aoptions:(id)b;
  - (id) initWithContext:(id)aoptions:(id)b;
  - (id) featuresInImage:(id)a;
- - (id) adjustedImageFromImage:(id)aorientation:(i)binverseCTM:(^{CGAffineTransform=dddddd})c;
+ - (id) adjustedImageFromImage:(id)aorientation:(int)binverseCTM:(^{CGAffineTransform=dddddd})c;
  - (id) createFaceCoreDataFromCIImage:(id)awidth:(^Q)bheight:(^Q)c;
  - (id) faceCoreDetector;
  - (void) setFaceCoreDetector:(id)a;
- - ({CGAffineTransform=dddddd}) ctmForImageWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})aorientation:(i)b;
+ - ({CGAffineTransform=dddddd}) ctmForImageWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})aorientation:(int)b;
  - (id) context;
 
 

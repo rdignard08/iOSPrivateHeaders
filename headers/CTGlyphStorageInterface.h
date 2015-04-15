@@ -1,7 +1,7 @@
 
 @interface CTGlyphStorageInterface : NSObject {
 
-    q _glyphCount;
+    long long _glyphCount;
     ^S _glyphs;
     ^{CGSize=dd} _advances;
     ^I _props;
@@ -11,18 +11,18 @@
 
  - (void) disposeGlyphStack;
  - (^{__CTGlyphStorage=}) createCopy:({?=qq})a;
- - (void) getCustomAdvance:(^{CGSize=dd})aforIndex:(q)b;
- - (void) setAbsorbedCount:(q)aforIndex:(q)b;
- - (void) setProps:(I)aforIndex:(q)b;
- - (void) setGlyphID:(S)aforIndex:(q)b;
- - (void) setAdvance:({CGSize=dd})aforIndex:(q)b;
- - (void) setStringIndex:(q)aforIndex:(q)b;
+ - (void) getCustomAdvance:(^{CGSize=dd})aforIndex:(long long)b;
+ - (void) setAbsorbedCount:(long long)aforIndex:(long long)b;
+ - (void) setProps:(unsigned int)aforIndex:(long long)b;
+ - (void) setGlyphID:(unsigned short)aforIndex:(long long)b;
+ - (void) setAdvance:({CGSize=dd})aforIndex:(long long)b;
+ - (void) setStringIndex:(long long)aforIndex:(long long)b;
  - (void) insertGlyphs:({?=qq})a;
- - (void) swapGlyph:(q)awithIndex:(q)b;
- - (void) moveGlyphsTo:(q)afrom:({?=qq})b;
- - (void) initGlyphStack:(q)a;
- - (void) pushGlyph:(q)a;
- - (void) popGlyph:(q)a;
+ - (void) swapGlyph:(long long)awithIndex:(long long)b;
+ - (void) moveGlyphsTo:(long long)afrom:({?=qq})b;
+ - (void) initGlyphStack:(long long)a;
+ - (void) pushGlyph:(long long)a;
+ - (void) popGlyph:(long long)a;
 
 
 @end

@@ -3,7 +3,7 @@
 
     @"UIColor" m_patternColor;
     @"UIColor" m_checkerColor;
-    d m_scale;
+    double m_scale;
 }
 
  - (void) dealloc;

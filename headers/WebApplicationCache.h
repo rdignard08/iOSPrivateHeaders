@@ -4,13 +4,13 @@
 }
  + (void) deleteAllApplicationCaches;
  + (void) initializeWithBundleIdentifier:(id)a;
- + (q) maximumSize;
- + (q) defaultOriginQuota;
- + (void) setDefaultOriginQuota:(q)a;
- + (q) diskUsageForOrigin:(id)a;
+ + (long long) maximumSize;
+ + (long long) defaultOriginQuota;
+ + (void) setDefaultOriginQuota:(long long)a;
+ + (long long) diskUsageForOrigin:(id)a;
  + (void) deleteCacheForOrigin:(id)a;
  + (id) originsWithCache;
- + (void) setMaximumSize:(q)a;
+ + (void) setMaximumSize:(long long)a;
 
 
 

@@ -6,7 +6,7 @@
     @"CUICommonAssetStorage" _store;
     @"NSLock" _cacheLock;
     @"NSLock" _storeLock;
-    Q _themeIndex;
+    unsigned long long _themeIndex;
     @"NSString" _bundleID;
     @"NSCache" _assetExistanceCache;
     @"NSCache" _assetFPOStatus;
@@ -17,15 +17,15 @@
  - (id) initWithURL:(id)a;
  - (id) debugDescription;
  - (id) bundleID;
- - (Q) colorSpaceID;
+ - (unsigned long long) colorSpaceID;
  - (id) renditionWithKey:(r^{_renditionkeytoken=SS})a;
  - (r^{_renditionkeytoken=SS}) renditionKeyForName:(id)a;
  - (r^{_renditionkeyfmt=III[0I]}) keyFormat;
  - (BOOL) canGetRenditionWithKey:(r^{_renditionkeytoken=SS})a;
- - (id) copyKeySignatureForKey:(r^{_renditionkeytoken=SS})awithBytesNoCopy:(*)blength:(Q)c;
+ - (id) copyKeySignatureForKey:(r^{_renditionkeytoken=SS})awithBytesNoCopy:(char*)blength:(unsigned long long)c;
  - (id) renditionWithKey:(r^{_renditionkeytoken=SS})ausingKeySignature:(id)b;
  - (void) clearRenditionCache;
- - (q) maximumRenditionKeyTokenCount;
+ - (long long) maximumRenditionKeyTokenCount;
  - (BOOL) usesCUISystemThemeRenditionKey;
  - (id) allImageNames;
  - (r^{_renditionkeytoken=SS}) renditionKeyForName:(id)acursorHotSpot:(^{CGPoint=dd})b;
@@ -35,12 +35,12 @@
  - (id) debugDescriptionForKeyList:(r^{_renditionkeytoken=SS})a;
  - (BOOL) assetExistsForKey:(^{_renditionkeytoken=SS})a;
  - (BOOL) getFontName:(^@)abaselineOffset:(^d)bforFontType:(id)c;
- - (d) fontSizeForFontSizeType:(id)a;
- - (id) constantNameForElementID:(q)a;
- - (id) displayNameForElementID:(q)a;
- - (id) constantNameForPartID:(q)a;
- - (id) displayNameForPartID:(q)a;
- - (BOOL) _formatStorageKeyArrayBytes:(^v)alength:(Q)bfromKey:(^{_renditionkeytoken=SS})c;
+ - (double) fontSizeForFontSizeType:(id)a;
+ - (id) constantNameForElementID:(long long)a;
+ - (id) displayNameForElementID:(long long)a;
+ - (id) constantNameForPartID:(long long)a;
+ - (id) displayNameForPartID:(long long)a;
+ - (BOOL) _formatStorageKeyArrayBytes:(^v)alength:(unsigned long long)bfromKey:(^{_renditionkeytoken=SS})c;
  - (void) _updateKeyWithCompatibilityMapping:(^{_renditionkeytoken=SS})a;
  - (id) _newRenditionKeyDataFromKey:(^{_renditionkeytoken=SS})a;
  - (void) _getKeyForAssetClosestToKey:(^{_renditionkeytoken=SS})afoundAsset:(^B)b;
@@ -50,16 +50,16 @@
  - (BOOL) _canGetRenditionWithKey:(r^{_renditionkeytoken=SS})aisFPO:(^B)blookForSubstitutions:(BOOL)c;
  - (BOOL) getPhysicalColor:(^{_colordef=II{_rgbquad=b8b8b8b8}})awithName:(id)b;
  - (BOOL) hasPhysicalColorWithName:(id)a;
- - (I) documentFormatVersion;
- - (I) distilledInCoreUIVersion;
- - (I) authoredWithSchemaVersion;
+ - (unsigned int) documentFormatVersion;
+ - (unsigned int) distilledInCoreUIVersion;
+ - (unsigned int) authoredWithSchemaVersion;
  - (id) baseGradationKeySignatureForKey:(r^{_renditionkeytoken=SS})a;
  - (id) copyLookupKeySignatureForKey:(r^{_renditionkeytoken=SS})a;
  - (id) keySignatureForKey:(r^{_renditionkeytoken=SS})a;
  - (id) themeStore;
  - (id) convertRenditionKeyToKeyData:(^{_renditionkeytoken=SS})a;
  - (id) prefilteredAssetDataForKey:(^{_renditionkeytoken=SS})a;
- - (void) setThemeIndex:(Q)a;
+ - (void) setThemeIndex:(unsigned long long)a;
 
 
 @end

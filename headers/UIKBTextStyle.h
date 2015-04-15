@@ -3,14 +3,14 @@
 @interface UIKBTextStyle : NSObject <NSCopying> {
 
     @"NSString" _fontName;
-    d _fontSize;
-    d _minFontSize;
-    d _kerning;
-    d _textOpacity;
+    double _fontSize;
+    double _minFontSize;
+    double _kerning;
+    double _textOpacity;
     @"NSString" _textColor;
     @"NSString" _etchColor;
-    d _pathWeight;
-    q _selector;
+    double _pathWeight;
+    long long _selector;
     {CGPoint="x"d"y"d} _textOffset;
     {CGPoint="x"d"y"d} _etchOffset;
 }
@@ -25,37 +25,37 @@
 @property (nonatomic, assign, readwrite) NSNumber* etchOffset;
 @property (nonatomic, assign, readwrite) NSNumber* pathWeight;
 @property (nonatomic, assign, readwrite) NSNumber* selector;
- + (id) styleWithFontName:(id)awithFontSize:(d)b;
+ + (id) styleWithFontName:(id)awithFontSize:(double)b;
  + (id) styleWithTextColor:(id)a;
 
  - (id) copyWithZone:(^{_NSZone=})a;
- - (q) selector;
+ - (long long) selector;
  - (id) description;
  - (void) dealloc;
  - (BOOL) isEqual:(id)a;
  - (void) setTextColor:(id)a;
  - (id) textColor;
- - (void) setMinFontSize:(d)a;
- - (d) minFontSize;
- - (void) setFontSize:(d)a;
+ - (void) setMinFontSize:(double)a;
+ - (double) minFontSize;
+ - (void) setFontSize:(double)a;
  - (void) setTextOffset:({CGPoint=dd})a;
- - (void) setPathWeight:(d)a;
+ - (void) setPathWeight:(double)a;
  - ({CGPoint=dd}) textOffset;
- - (void) setKerning:(d)a;
- - (void) setTextOpacity:(d)a;
- - (d) kerning;
- - (d) textOpacity;
+ - (void) setKerning:(double)a;
+ - (void) setTextOpacity:(double)a;
+ - (double) kerning;
+ - (double) textOpacity;
  - (id) etchColor;
  - ({CGPoint=dd}) etchOffset;
- - (d) pathWeight;
+ - (double) pathWeight;
  - (void) setEtchColor:(id)a;
  - (void) setEtchOffset:({CGPoint=dd})a;
  - (void) overlayWithStyle:(id)a;
  - (id) init;
- - (void) setSelector:(q)a;
+ - (void) setSelector:(long long)a;
  - (id) fontName;
  - (void) setFontName:(id)a;
- - (d) fontSize;
+ - (double) fontSize;
 
 
 @end

@@ -24,7 +24,7 @@
 @property (nonatomic, assign, readwrite, setPaddingRight:) NSNumber* paddingRight;
 @property (nonatomic, assign, readwrite) NSNumber* explicitlySpecified;
  + (id) geometry;
- + (void) performOperations:(@?)awithScale:(d)b;
+ + (void) performOperations:(@?)awithScale:(double)b;
  + (id) geometryWithRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  + (id) geometryWithOriginValue:({?=di})asizeValue:({?=di})b;
  + (id) codeStringForValue:({?=di})a;

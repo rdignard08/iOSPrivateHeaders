@@ -2,12 +2,12 @@
 @interface _NSXPCConnectionRequestedReplies : NSObject {
 
     ^{__CFDictionary=} _replyTable;
-    i _lock;
+    int _lock;
 }
 
- - (void) addSequence:(Q)awithProgress:(id)bcleanupBlock:(@?)c;
- - (BOOL) removeSequence:(Q)a;
- - (id) progressForSequence:(Q)a;
+ - (void) addSequence:(unsigned long long)awithProgress:(id)bcleanupBlock:(@?)c;
+ - (BOOL) removeSequence:(unsigned long long)a;
+ - (id) progressForSequence:(unsigned long long)a;
  - (void) dealloc;
  - (void) finalize;
  - (id) init;

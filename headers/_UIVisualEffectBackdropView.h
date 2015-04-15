@@ -2,19 +2,19 @@
 @interface _UIVisualEffectBackdropView : _UIVisualEffectSubview {
 
     id _statisticsDelegate;
-    Q _blurHardEdges;
-    d _blurRadius;
+    unsigned long long _blurHardEdges;
+    double _blurRadius;
 }
  + (Class) layerClass;
 
  - (void) dealloc;
- - (d) blurRadius;
- - (void) setBlurRadius:(d)a;
- - (void) setBlurHardEdges:(Q)a;
+ - (double) blurRadius;
+ - (void) setBlurRadius:(double)a;
+ - (void) setBlurHardEdges:(unsigned long long)a;
  - (id) _groupName;
  - (void) _setGroupName:(id)a;
  - (id) backdropLayer;
- - (Q) blurHardEdges;
+ - (unsigned long long) blurHardEdges;
  - (void) _updateInputBounds;
  - (id) statisticsDelegate;
  - (id) _initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})asettings:(id)b;

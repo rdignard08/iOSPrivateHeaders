@@ -1,8 +1,8 @@
 
 @interface NSConnectionHelper : NSObject {
 
-    d reqLim;
-    d repLim;
+    double reqLim;
+    double repLim;
     BOOL remoteUsesKeyedDO;
     @"NSSet" whitelist;
     BOOL useKeyedDO;

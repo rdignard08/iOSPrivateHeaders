@@ -22,8 +22,8 @@
  - (BOOL) alreadylocked_requestNewData;
  - (BOOL) synchronize;
  - (id) createRequestNewContentMessageForDaemon:(BOOL)a;
- - (void) handleReply:(id)atoRequestNewDataMessage:(id)bonConnection:(id)cretryCount:(i)derror:(^B)e;
- - (q) generationCount;
+ - (void) handleReply:(id)atoRequestNewDataMessage:(id)bonConnection:(id)cretryCount:(int)derror:(^B)e;
+ - (long long) generationCount;
  - (^{__CFString=}) domainIdentifier;
  - (void) addSource:(id)a;
  - (void) freeze;
@@ -35,7 +35,7 @@
  - (void) addSourceForIdentifier:(^{__CFString=})auser:(^{__CFString=})bbyHost:(BOOL)ccontainer:(^{__CFString=})d;
  - (void) addSuiteSourceForIdentifier:(^{__CFString=})auser:(^{__CFString=})b;
  - (void) addCompatibilitySource;
- - (q) generationCountFromListOfSources:(^@)acount:(q)b;
+ - (long long) generationCountFromListOfSources:(^@)acount:(long long)b;
 
 
 @end

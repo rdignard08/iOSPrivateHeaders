@@ -167,15 +167,15 @@
  - (void) URLSession:(id)atask:(id)bwillPerformHTTPRedirection:(id)cnewRequest:(id)dcompletionHandler:(@?)e;
  - (void) URLSession:(id)atask:(id)bdidReceiveChallenge:(id)ccompletionHandler:(@?)d;
  - (void) URLSession:(id)atask:(id)bneedNewBodyStream:(@?)c;
- - (void) URLSession:(id)atask:(id)bdidSendBodyData:(q)ctotalBytesSent:(q)dtotalBytesExpectedToSend:(q)e;
+ - (void) URLSession:(id)atask:(id)bdidSendBodyData:(long long)ctotalBytesSent:(long long)dtotalBytesExpectedToSend:(long long)e;
  - (void) URLSession:(id)atask:(id)bdidCompleteWithError:(id)c;
  - (void) URLSession:(id)adataTask:(id)bdidReceiveResponse:(id)ccompletionHandler:(@?)d;
  - (void) URLSession:(id)adataTask:(id)bdidBecomeDownloadTask:(id)c;
  - (void) URLSession:(id)adataTask:(id)bdidReceiveData:(id)c;
  - (void) URLSession:(id)adataTask:(id)bwillCacheResponse:(id)ccompletionHandler:(@?)d;
  - (void) URLSession:(id)adownloadTask:(id)bdidFinishDownloadingToURL:(id)c;
- - (void) URLSession:(id)adownloadTask:(id)bdidWriteData:(q)ctotalBytesWritten:(q)dtotalBytesExpectedToWrite:(q)e;
- - (void) URLSession:(id)adownloadTask:(id)bdidResumeAtOffset:(q)cexpectedTotalBytes:(q)d;
+ - (void) URLSession:(id)adownloadTask:(id)bdidWriteData:(long long)ctotalBytesWritten:(long long)dtotalBytesExpectedToWrite:(long long)e;
+ - (void) URLSession:(id)adownloadTask:(id)bdidResumeAtOffset:(long long)cexpectedTotalBytes:(long long)d;
  - (void) URLSessionDidFinishEventsForBackgroundURLSession:(id)a;
 
 

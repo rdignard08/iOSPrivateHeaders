@@ -1,15 +1,15 @@
 
 @interface UIStoryboardPushSegue : UIStoryboardSegue {
 
-    q _destinationContainmentContext;
-    q _splitViewControllerIndex;
+    long long _destinationContainmentContext;
+    long long _splitViewControllerIndex;
 }
 
  - (void) perform;
- - (q) destinationContainmentContext;
- - (q) splitViewControllerIndex;
- - (void) setDestinationContainmentContext:(q)a;
- - (void) setSplitViewControllerIndex:(q)a;
+ - (long long) destinationContainmentContext;
+ - (long long) splitViewControllerIndex;
+ - (void) setDestinationContainmentContext:(long long)a;
+ - (void) setSplitViewControllerIndex:(long long)a;
 
 
 @end

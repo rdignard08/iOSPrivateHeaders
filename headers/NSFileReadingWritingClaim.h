@@ -3,17 +3,17 @@
 
     @"NSURL" _readingURL;
     BOOL _readingURLDidChange;
-    Q _readingOptions;
+    unsigned long long _readingOptions;
     @"NSURL" _writingURL;
     BOOL _writingURLDidChange;
-    Q _writingOptions;
+    unsigned long long _writingOptions;
     @"NSFileAccessNode" _readingLocation;
     @"NSFileAccessNode" _writingLocation;
     @"NSFileAccessNode" _rootNode;
-    q _readingLinkResolutionCount;
+    long long _readingLinkResolutionCount;
 }
 
- - (id) initWithPurposeID:(id)areadingURL:(id)boptions:(Q)cwritingURL:(id)doptions:(Q)eclaimer:(@?)f;
+ - (id) initWithPurposeID:(id)areadingURL:(id)boptions:(unsigned long long)cwritingURL:(id)doptions:(unsigned long long)eclaimer:(@?)f;
  - (void) granted;
  - (void) invokeClaimer;
  - (BOOL) blocksClaim:(id)a;
@@ -21,8 +21,8 @@
  - (id) initWithClient:(id)amessageParameters:(id)breplySender:(@?)c;
  - (void) forwardUsingMessageSender:(@?)acrashHandler:(@?)b;
  - (BOOL) evaluateSelfWithRootNode:(id)acheckSubarbitrability:(BOOL)b;
- - (BOOL) isBlockedByReadingItemAtLocation:(id)aoptions:(Q)b;
- - (BOOL) isBlockedByWritingItemAtLocation:(id)aoptions:(Q)b;
+ - (BOOL) isBlockedByReadingItemAtLocation:(id)aoptions:(unsigned long long)b;
+ - (BOOL) isBlockedByWritingItemAtLocation:(id)aoptions:(unsigned long long)b;
  - (void) itemAtLocation:(id)awasReplacedByItemAtLocation:(id)b;
  - (void) resolveURLsThenMaybeContinueInvokingClaimer:(@?)a;
  - (void) dealloc;

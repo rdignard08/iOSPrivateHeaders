@@ -9,16 +9,16 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
- - (Q) count;
- - (id) objectAtIndex:(Q)a;
- - (void) insertObject:(id)aatIndex:(Q)b;
- - (void) removeObjectAtIndex:(Q)a;
- - (id) initWithObjects:(r^@)acount:(Q)b;
- - (id) initWithCapacity:(Q)a;
- - (void) replaceObjectAtIndex:(Q)awithObject:(id)b;
- - (Q) indexOfObject:(id)a;
+ - (unsigned long long) count;
+ - (id) objectAtIndex:(unsigned long long)a;
+ - (void) insertObject:(id)aatIndex:(unsigned long long)b;
+ - (void) removeObjectAtIndex:(unsigned long long)a;
+ - (id) initWithObjects:(r^@)acount:(unsigned long long)b;
+ - (id) initWithCapacity:(unsigned long long)a;
+ - (void) replaceObjectAtIndex:(unsigned long long)awithObject:(id)b;
+ - (unsigned long long) indexOfObject:(id)a;
  - (id) init;
 
 

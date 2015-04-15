@@ -9,7 +9,7 @@
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (void) finalize;
  - (BOOL) _tryRetain;

@@ -3,14 +3,14 @@
 
 }
 
- - (S) primitiveType;
+ - (unsigned short) primitiveType;
  - (id) getStringValue;
- - (f) getFloatValue:(S)a;
+ - (float) getFloatValue:(unsigned short)a;
  - (id) getRGBColorValue;
- - (void) setFloatValue:(S)afloatValue:(f)b;
- - (void) setFloatValue:(S)a;
- - (void) setStringValue:(S)astringValue:(id)b;
- - (void) setStringValue:(S)a;
+ - (void) setFloatValue:(unsigned short)afloatValue:(float)b;
+ - (void) setFloatValue:(unsigned short)a;
+ - (void) setStringValue:(unsigned short)astringValue:(id)b;
+ - (void) setStringValue:(unsigned short)a;
  - (id) getCounterValue;
  - (id) getRectValue;
 

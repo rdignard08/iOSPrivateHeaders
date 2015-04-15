@@ -14,8 +14,8 @@
  - (void) dealloc;
  - (r^v) bytes;
  - (void) getBytes:(^v)arange:({_NSRange=QQ})b;
- - (void) getBytes:(^v)alength:(Q)b;
- - (Q) length;
+ - (void) getBytes:(^v)alength:(unsigned long long)b;
+ - (unsigned long long) length;
  - (id) init;
 
 

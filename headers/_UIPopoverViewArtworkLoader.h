@@ -1,14 +1,14 @@
 
 @interface _UIPopoverViewArtworkLoader : NSObject {
 
-    q _backgroundStyle;
+    long long _backgroundStyle;
     @"NSString" _backgroundSelector;
 }
- + (id) backgroundSelectorForBackgroundStyle:(q)a;
+ + (id) backgroundSelectorForBackgroundStyle:(long long)a;
 
  - (void) dealloc;
- - (d) arrowHeight;
- - (id) initWithBackgroundStyle:(q)a;
+ - (double) arrowHeight;
+ - (id) initWithBackgroundStyle:(long long)a;
  - (id) topArrowLeftEndCapView;
  - (id) topArrowPinnedView;
  - (id) topArrowView;
@@ -23,23 +23,23 @@
  - (id) rightArrowPinnedBottomView;
  - (id) rightArrowTopEndCapView;
  - (id) rightArrowView;
- - (d) arrowBase;
+ - (double) arrowBase;
  - (id) templateImageForDirection:(id)ashortArtwork:(BOOL)b;
  - (BOOL) modern;
- - (d) topArrowStart;
+ - (double) topArrowStart;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) contentRectForRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainImageOfSize:({CGSize=dd})b;
- - (d) arrowTopGradientEnd;
- - (d) capCornerRadius;
+ - (double) arrowTopGradientEnd;
+ - (double) capCornerRadius;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) contentsCenterForRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainImageOfSize:({CGSize=dd})b;
- - (id) viewWithContentsImage:(id)arect:({CGRect={CGPoint=dd}{CGSize=dd}})bcenter:({CGRect={CGPoint=dd}{CGSize=dd}})cantialiasingMask:(I)ddirectionSelector:(id)e;
- - (d) clampArrowBase;
- - (d) sideArrowStart;
- - (d) noArrowTopGradientEnd;
- - (d) bottomEndCapHeight;
- - (d) shortArtArrowTopGradientEnd;
+ - (id) viewWithContentsImage:(id)arect:({CGRect={CGPoint=dd}{CGSize=dd}})bcenter:({CGRect={CGPoint=dd}{CGSize=dd}})cantialiasingMask:(unsigned int)ddirectionSelector:(id)e;
+ - (double) clampArrowBase;
+ - (double) sideArrowStart;
+ - (double) noArrowTopGradientEnd;
+ - (double) bottomEndCapHeight;
+ - (double) shortArtArrowTopGradientEnd;
  - (id) shortTopArrowLeftEndCapView;
- - (d) shortArtRightArrowBase;
- - (d) shortArtNoArrowTopGradientEnd;
+ - (double) shortArtRightArrowBase;
+ - (double) shortArtNoArrowTopGradientEnd;
  - (id) shortBottomArrowLeftEndCapView;
  - (id) shortTopArrowView;
  - (id) shortTopArrowPinnedView;

@@ -12,13 +12,13 @@
  - (void) setSplitAndUndocked:(BOOL)a;
  - (void) didFinishSplitTransition;
  - ({CGSize=dd}) preferredSize;
- - (q) defaultSelectedIndex;
- - (void) didSelectItemAtIndex:(i)a;
- - (id) titleForItemAtIndex:(i)a;
+ - (long long) defaultSelectedIndex;
+ - (void) didSelectItemAtIndex:(int)a;
+ - (id) titleForItemAtIndex:(int)a;
  - (void) setFinishSplitTransitionBlock:(@?)a;
  - (@?) finishSplitTransitionBlock;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (q) numberOfItems;
+ - (long long) numberOfItems;
 
 
 @end

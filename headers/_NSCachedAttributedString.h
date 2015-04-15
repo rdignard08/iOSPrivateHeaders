@@ -3,12 +3,12 @@
 
     id _contents;
     @"NSAttributeDictionary" _baseAttributes;
-    q _length;
-    Q _hashValue;
+    long long _length;
+    unsigned long long _hashValue;
     ^{?=@q} _runs;
-    q _numRuns;
-    q _allocedRunsSize;
-    q _numHits;
+    long long _numRuns;
+    long long _allocedRunsSize;
+    long long _numHits;
 }
  + (void) initialize;
  + (id) allocWithZone:(^{_NSZone=})a;
@@ -21,13 +21,13 @@
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (id) string;
- - (id) attributesAtIndex:(Q)aeffectiveRange:(^{_NSRange=QQ})b;
- - (id) attributesAtIndex:(Q)alongestEffectiveRange:(^{_NSRange=QQ})binRange:({_NSRange=QQ})c;
+ - (id) attributesAtIndex:(unsigned long long)aeffectiveRange:(^{_NSRange=QQ})b;
+ - (id) attributesAtIndex:(unsigned long long)alongestEffectiveRange:(^{_NSRange=QQ})binRange:({_NSRange=QQ})c;
  - (void) setAttributes:(id)arange:({_NSRange=QQ})b;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) initWithString:(id)a;
- - (Q) length;
+ - (unsigned long long) length;
  - (id) init;
  - (BOOL) _isStringDrawingTextStorage;
  - (BOOL) _baselineMode;

@@ -1,14 +1,14 @@
 
 @interface _UIInputViewSetPlacementDragToDismiss : UIInputViewSetPlacementOnScreen {
 
-    d _offset;
+    double _offset;
 }
- + (id) placementWithOffset:(d)a;
+ + (id) placementWithOffset:(double)a;
 
  - (BOOL) isInteractive;
  - (id) verticalConstraintForInputViewSet:(id)ahostView:(id)bcontainerView:(id)c;
- - (d) offset;
- - (void) setOffset:(d)a;
+ - (double) offset;
+ - (void) setOffset:(double)a;
 
 
 @end

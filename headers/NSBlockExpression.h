@@ -6,9 +6,9 @@
 }
 
  - (id) predicateFormat;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (id) _expressionWithSubstitutionVariables:(id)a;
- - (id) initWithType:(Q)ablock:(@?)barguments:(id)c;
+ - (id) initWithType:(unsigned long long)ablock:(@?)barguments:(id)c;
  - (@?) expressionBlock;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;

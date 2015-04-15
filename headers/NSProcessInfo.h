@@ -5,7 +5,7 @@
     @"NSArray" arguments;
     @"NSString" hostName;
     @"NSString" name;
-    q automaticTerminationOptOutCounter;
+    long long automaticTerminationOptOutCounter;
 }
 @property (atomic, copy, readonly) NSDictionary* environment;
 @property (atomic, copy, readonly) NSArray* arguments;
@@ -25,12 +25,12 @@
  - (void) _disableAutomaticTerminationWithoutSettingRelaunchable:(id)a;
  - (void) _enableAutomaticTerminationWithoutSettingRelaunchable:(id)a;
  - (id) processName;
- - (id) beginActivityWithOptions:(Q)areason:(id)b;
+ - (id) beginActivityWithOptions:(unsigned long long)areason:(id)b;
  - (void) _reactivateActivity:(id)a;
  - (void) endActivity:(id)a;
- - (Q) operatingSystem;
+ - (unsigned long long) operatingSystem;
  - ({?=qqq}) operatingSystemVersion;
- - (void) performActivityWithOptions:(Q)areason:(id)busingBlock:(@?)c;
+ - (void) performActivityWithOptions:(unsigned long long)areason:(id)busingBlock:(@?)c;
  - (void) setArguments:(id)a;
  - (id) hostName;
  - (void) setProcessName:(id)a;
@@ -41,30 +41,30 @@
  - (id) operatingSystemName;
  - (id) operatingSystemVersionString;
  - (BOOL) isOperatingSystemAtLeastVersion:({?=qqq})a;
- - (Q) activeProcessorCount;
- - (Q) physicalMemory;
+ - (unsigned long long) activeProcessorCount;
+ - (unsigned long long) physicalMemory;
  - (BOOL) isTranslated;
  - (void) disableSuddenTermination;
  - (void) enableSuddenTermination;
- - (void) _exitIfSuddenTerminationEnabledWithStatus:(i)a;
- - (void) _exitWhenSuddenTerminationEnabledWithStatus:(i)a;
- - (q) _suddenTerminationDisablingCount;
+ - (void) _exitIfSuddenTerminationEnabledWithStatus:(int)a;
+ - (void) _exitWhenSuddenTerminationEnabledWithStatus:(int)a;
+ - (long long) _suddenTerminationDisablingCount;
  - (void) disableAutomaticTermination:(id)a;
  - (void) enableAutomaticTermination:(id)a;
  - (void) setAutomaticTerminationSupportEnabled:(BOOL)a;
  - (BOOL) automaticTerminationSupportEnabled;
  - (void) _disableAutomaticTerminationOnly:(id)a;
  - (void) _enableAutomaticTerminationOnly:(id)a;
- - (id) beginSuspensionOfSystemBehaviors:(Q)areason:(id)b;
+ - (id) beginSuspensionOfSystemBehaviors:(unsigned long long)areason:(id)b;
  - (void) endSystemBehaviorSuspension:(id)a;
- - (void) performActivityWithOptions:(Q)areason:(id)bblock:(@?)c;
+ - (void) performActivityWithOptions:(unsigned long long)areason:(id)bblock:(@?)c;
  - (void) dealloc;
  - (void) performExpiringActivityWithReason:(id)ausingBlock:(@?)b;
  - (id) arguments;
- - (i) processIdentifier;
- - (Q) processorCount;
+ - (int) processIdentifier;
+ - (unsigned long long) processorCount;
  - (id) environment;
- - (d) systemUptime;
+ - (double) systemUptime;
 
 
 @end

@@ -9,7 +9,7 @@
  - (void) finalize;
  - (r^v) bytes;
  - (^v) mutableBytes;
- - (Q) length;
+ - (unsigned long long) length;
  - (id) init;
 
 

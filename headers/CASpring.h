@@ -8,9 +8,9 @@
     {CGPoint="x"d"y"d} _attachmentPointA;
     {CGPoint="x"d"y"d} _attachmentPointB;
     @"CAValueFunction" _function;
-    d _stiffness;
-    d _damping;
-    d _restLength;
+    double _stiffness;
+    double _damping;
+    double _restLength;
     BOOL _enabled;
     id _delegate;
     ^v _priv;
@@ -50,8 +50,8 @@
  - (id) function;
  - (id) valueForKeyPath:(id)a;
  - (void) setName:(id)a;
- - (void) setStiffness:(d)a;
- - (d) stiffness;
+ - (void) setStiffness:(double)a;
+ - (double) stiffness;
  - (void) CAMLParser:(id)asetValue:(id)bforKey:(id)c;
  - (void) encodeWithCAMLWriter:(id)a;
  - (id) CAMLTypeForKey:(id)a;
@@ -61,10 +61,10 @@
  - (id) layerB;
  - ({CGPoint=dd}) attachmentPointA;
  - ({CGPoint=dd}) attachmentPointB;
- - (d) restLength;
- - (void) setRestLength:(d)a;
- - (d) damping;
- - (void) setDamping:(d)a;
+ - (double) restLength;
+ - (void) setRestLength:(double)a;
+ - (double) damping;
+ - (void) setDamping:(double)a;
  - (BOOL) isEnabled;
  - (void) setEnabled:(BOOL)a;
 

@@ -4,9 +4,9 @@
 }
  + (id) assertionWithAssertionName:(id)areason:(id)bwithHandler:(@?)c;
 
- - (I) port;
+ - (unsigned int) port;
  - (id) reason;
- - (id) keyDescriptionForSetting:(Q)a;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
  - (id) assertionName;
 
 

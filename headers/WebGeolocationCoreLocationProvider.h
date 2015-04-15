@@ -5,7 +5,7 @@
     @"<WebGeolocationCoreLocationUpdateListener>" _positionListener;
     {RetainPtr<CLLocationManager>="m_ptr"^v} _locationManager;
     BOOL _isWaitingForAuthorization;
-    i _lastAuthorizationStatus;
+    int _lastAuthorizationStatus;
 }
 
  - (void) stop;
@@ -20,7 +20,7 @@
  - (void) sendLocation:(id)a;
  - (void) locationManager:(id)adidUpdateLocations:(id)b;
  - (void) locationManager:(id)adidFailWithError:(id)b;
- - (void) locationManager:(id)adidChangeAuthorizationStatus:(i)b;
+ - (void) locationManager:(id)adidChangeAuthorizationStatus:(int)b;
 
 
 @end

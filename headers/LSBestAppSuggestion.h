@@ -1,13 +1,13 @@
 
 @interface LSBestAppSuggestion : NSObject {
 
-    Q _type;
+    unsigned long long _type;
     @"NSUUID" _uniqueIdentifier;
     @"NSDictionary" _options;
     @"NSString" _bundleIdentifier;
     @"NSString" _activityType;
     @"NSDate" _lastUpdateTime;
-    d _confidence;
+    double _confidence;
     @"NSString" _originatingDeviceIdentifier;
     @"NSString" _originatingDeviceName;
     @"NSString" _originatingDeviceType;
@@ -27,7 +27,7 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) lastUpdateTime;
- - (id) initWithBundleIdentifier:(id)auuid:(id)bactivityType:(id)clastUpdateTime:(id)dtype:(Q)edeviceName:(id)fdeviceIdentifier:(id)gdeviceType:(id)hoptions:(id)i;
+ - (id) initWithBundleIdentifier:(id)auuid:(id)bactivityType:(id)clastUpdateTime:(id)dtype:(unsigned long long)edeviceName:(id)fdeviceIdentifier:(id)gdeviceType:(id)hoptions:(id)i;
  - (id) when;
  - (void) setActivityType:(id)a;
  - (id) originatingDeviceIdentifier;
@@ -35,13 +35,13 @@
  - (id) originatingDeviceType;
  - (id) userActivityTypeIdentifier;
  - (id) activityType;
- - (d) confidence;
+ - (double) confidence;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) debugDescription;
- - (Q) type;
+ - (unsigned long long) type;
  - (void) setUniqueIdentifier:(id)a;
  - (id) uniqueIdentifier;
  - (id) options;

@@ -2,12 +2,12 @@
 @interface UIInputViewPlacementTransition : NSObject {
 
     BOOL cancelled;
-    i animationState;
+    int animationState;
     @"UIInputViewSetPlacement" fromPlacement;
     @"UIInputViewSetPlacement" toPlacement;
     @"UIInputViewAnimationStyle" animationStyle;
     @"UIInputViewSetNotificationInfo" notificationInfo;
-    Q notifications;
+    unsigned long long notifications;
     @"<NSObject>" animationContext;
     @"<UIInputViewAnimationController>" animationController;
 }
@@ -28,18 +28,18 @@
  - (id) animationController;
  - (void) setCancelled:(BOOL)a;
  - (id) animationStyle;
- - (i) animationState;
- - (void) setAnimationState:(i)a;
+ - (int) animationState;
+ - (void) setAnimationState:(int)a;
  - (void) setAnimationStyle:(id)a;
  - (void) setFromPlacement:(id)a;
  - (void) setToPlacement:(id)a;
  - (id) fromPlacement;
  - (id) toPlacement;
- - (BOOL) didAdvanceAnimationToState:(i)a;
+ - (BOOL) didAdvanceAnimationToState:(int)a;
  - (id) notificationInfo;
  - (void) setNotificationInfo:(id)a;
- - (Q) notifications;
- - (void) setNotifications:(Q)a;
+ - (unsigned long long) notifications;
+ - (void) setNotifications:(unsigned long long)a;
  - (id) animationContext;
  - (void) setAnimationContext:(id)a;
 

@@ -5,11 +5,11 @@
     ^v _priv;
     [3^v] _pad;
 }
- + (id) colorWithSRGBRed:(d)agreen:(d)bblue:(d)calpha:(d)d;
- + (id) colorWithSRGBRed:(d)agreen:(d)bblue:(d)c;
- + (id) colorWithRed:(d)agreen:(d)bblue:(d)calpha:(d)d;
+ + (id) colorWithSRGBRed:(double)agreen:(double)bblue:(double)calpha:(double)d;
+ + (id) colorWithSRGBRed:(double)agreen:(double)bblue:(double)c;
+ + (id) colorWithRed:(double)agreen:(double)bblue:(double)calpha:(double)d;
  + (id) colorWithCGColor:(^{CGColor=})a;
- + (id) colorWithRed:(d)agreen:(d)bblue:(d)c;
+ + (id) colorWithRed:(double)agreen:(double)bblue:(double)c;
  + (id) colorWithString:(id)a;
 
  - (id) initWithColor:(id)a;
@@ -18,21 +18,21 @@
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) initWithString:(id)a;
- - (Q) numberOfComponents;
+ - (unsigned long long) numberOfComponents;
  - (^{CGColor=}) cgColor;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (^{CGColor=}) CGColor;
- - (d) red;
- - (d) green;
- - (d) blue;
- - (d) alpha;
+ - (double) red;
+ - (double) green;
+ - (double) blue;
+ - (double) alpha;
  - (id) stringRepresentation;
  - (id) initWithCGColor:(^{CGColor=})a;
- - (id) initWithRed:(d)agreen:(d)bblue:(d)calpha:(d)d;
+ - (id) initWithRed:(double)agreen:(double)bblue:(double)calpha:(double)d;
  - (^{CGColorSpace=}) colorSpace;
 
 

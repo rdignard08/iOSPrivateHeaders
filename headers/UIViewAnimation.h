@@ -4,10 +4,10 @@
     @"UIView" _view;
     @"NSIndexPath" _indexPath;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _endRect;
-    d _endAlpha;
-    d _startFraction;
-    d _endFraction;
-    i _curve;
+    double _endAlpha;
+    double _startFraction;
+    double _endFraction;
+    int _curve;
     BOOL _animateFromCurrentPosition;
     BOOL _shouldDeleteAfterAnimation;
     BOOL _editing;
@@ -34,11 +34,11 @@
  - (id) description;
  - (void) dealloc;
  - (id) indexPath;
- - (i) curve;
- - (d) startFraction;
- - (d) endFraction;
+ - (int) curve;
+ - (double) startFraction;
+ - (double) endFraction;
  - (BOOL) animateFromCurrentPosition;
- - (d) endAlpha;
+ - (double) endAlpha;
  - (void) setShouldAllowGroupOpacityAfterAnimation:(BOOL)a;
  - (void) setShouldResetGroupOpacityAfterAnimation:(BOOL)a;
  - (void) setShouldClipToBoundsAfterAnimation:(BOOL)a;
@@ -49,7 +49,7 @@
  - (BOOL) shouldResetGroupOpacityAfterAnimation;
  - (BOOL) shouldAllowGroupOpacityAfterAnimation;
  - (BOOL) shouldClipToBoundsAfterAnimation;
- - (id) initWithView:(id)aindexPath:(id)bendRect:({CGRect={CGPoint=dd}{CGSize=dd}})cendAlpha:(d)dstartFraction:(d)eendFraction:(d)fcurve:(i)ganimateFromCurrentPosition:(BOOL)hshouldDeleteAfterAnimation:(BOOL)iediting:(BOOL)j;
+ - (id) initWithView:(id)aindexPath:(id)bendRect:({CGRect={CGPoint=dd}{CGSize=dd}})cendAlpha:(double)dstartFraction:(double)eendFraction:(double)fcurve:(int)ganimateFromCurrentPosition:(BOOL)hshouldDeleteAfterAnimation:(BOOL)iediting:(BOOL)j;
  - (void) setShouldAnimateShadow:(BOOL)a;
  - (id) view;
 

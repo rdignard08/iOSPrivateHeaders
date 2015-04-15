@@ -13,10 +13,10 @@
  - (id) themedView;
  - (id) arrowDirection;
  - (void) setArrowDirection:(id)a;
- - (void) setArrowColor:(id)aforState:(Q)b;
+ - (void) setArrowColor:(id)aforState:(unsigned long long)b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) labelFrameFromFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) updateArrow;
- - (id) arrowColorForState:(Q)a;
+ - (id) arrowColorForState:(unsigned long long)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

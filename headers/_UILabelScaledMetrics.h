@@ -1,10 +1,10 @@
 
 @interface _UILabelScaledMetrics : NSObject {
 
-    d _actualScaleFactor;
-    d _baselineOffset;
-    d _scaledBaselineOffset;
-    d _scaledLineHeight;
+    double _actualScaleFactor;
+    double _baselineOffset;
+    double _scaledBaselineOffset;
+    double _scaledLineHeight;
     @"NSAttributedString" _scaledAttributedText;
     {CGSize="width"d"height"d} _targetSize;
     {CGSize="width"d"height"d} _scaledSize;
@@ -22,16 +22,16 @@
  - (void) setTargetSize:({CGSize=dd})a;
  - ({CGSize=dd}) scaledSize;
  - (void) setScaledSize:({CGSize=dd})a;
- - (d) actualScaleFactor;
- - (d) scaledBaselineOffset;
- - (d) scaledLineHeight;
+ - (double) actualScaleFactor;
+ - (double) scaledBaselineOffset;
+ - (double) scaledLineHeight;
  - (id) scaledAttributedText;
  - (void) setScaledAttributedText:(id)a;
- - (void) setActualScaleFactor:(d)a;
- - (d) baselineOffset;
- - (void) setBaselineOffset:(d)a;
- - (void) setScaledBaselineOffset:(d)a;
- - (void) setScaledLineHeight:(d)a;
+ - (void) setActualScaleFactor:(double)a;
+ - (double) baselineOffset;
+ - (void) setBaselineOffset:(double)a;
+ - (void) setScaledBaselineOffset:(double)a;
+ - (void) setScaledLineHeight:(double)a;
 
 
 @end

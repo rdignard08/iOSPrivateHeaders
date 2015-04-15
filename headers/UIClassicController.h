@@ -12,9 +12,9 @@
 
  - (void) dealloc;
  - (void) _initializeStatusBarOrientation;
- - (void) setStatusBarStyle:(q)aanimationParameters:(id)b;
+ - (void) setStatusBarStyle:(long long)aanimationParameters:(id)b;
  - (void) setStatusBarHidden:(BOOL)aanimationParameters:(id)b;
- - (void) setStatusBarOrientation:(q)aanimationParameters:(id)b;
+ - (void) setStatusBarOrientation:(long long)aanimationParameters:(id)b;
  - (id) _window;
  - (void) _setupWindow;
  - (BOOL) isClassicControlWindow:(id)a;

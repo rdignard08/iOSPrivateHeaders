@@ -19,14 +19,14 @@
  - (id) build;
  - (id) appendObject:(id)awithName:(id)bskipIfNil:(BOOL)c;
  - (id) appendObject:(id)awithName:(id)b;
- - (id) appendFloat:(d)awithName:(id)bdecimalPrecision:(Q)c;
+ - (id) appendFloat:(double)awithName:(id)bdecimalPrecision:(unsigned long long)c;
  - (id) appendCString:(r*)awithName:(id)b;
  - (void) tryAppendKey:(id)a;
  - (id) appendBool:(BOOL)awithName:(id)b;
- - (id) appendInteger:(q)awithName:(id)b;
- - (id) appendUnsignedInteger:(Q)awithName:(id)b;
- - (id) appendInt:(i)awithName:(id)b;
- - (id) appendFloat:(d)awithName:(id)b;
+ - (id) appendInteger:(long long)awithName:(id)b;
+ - (id) appendUnsignedInteger:(unsigned long long)awithName:(id)b;
+ - (id) appendInt:(int)awithName:(id)b;
+ - (id) appendFloat:(double)awithName:(id)b;
  - (id) appendSelector:(SEL)awithName:(id)b;
  - (id) appendQueue:(id)awithName:(id)b;
  - (id) appendPoint:({CGPoint=dd})awithName:(id)b;
@@ -34,7 +34,7 @@
  - (id) appendObjectsAndNames:(id)a;
  - (id) appendKey:(id)a;
  - (id) appendKeys:(id)a;
- - (id) appendUnsignedInt:(i)awithName:(id)b;
+ - (id) appendUnsignedInt:(int)awithName:(id)b;
 
 
 @end

@@ -16,7 +16,7 @@
  + (id) sharedInstanceForInlineView:(BOOL)a;
  + (id) activeCandidateList;
  + (void) setActiveCandidateView:(id)a;
- + (d) defaultExtendedControlHeight;
+ + (double) defaultExtendedControlHeight;
  + (id) sharedInstanceForInlineView;
 
  - (void) dealloc;
@@ -32,10 +32,10 @@
  - (void) _toggleExtendedCandidateView:(id)a;
  - (void) updatePageControlStatus;
  - (void) setCandidateBarCanExtend:(BOOL)a;
- - (Q) _numberOfColumns:(BOOL)a;
- - (d) barHeight;
+ - (unsigned long long) _numberOfColumns:(BOOL)a;
+ - (double) barHeight;
  - (void) setCandidatesToExtendedViewFromCollapsedView:(id)a;
- - (d) extendedViewAnimationDuration;
+ - (double) extendedViewAnimationDuration;
  - (void) setInlineView:(id)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;

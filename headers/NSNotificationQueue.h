@@ -11,9 +11,9 @@
 
  - (id) initWithNotificationCenter:(id)a;
  - (void) _flushNotificationQueue;
- - (void) enqueueNotification:(id)apostingStyle:(Q)bcoalesceMask:(Q)cforModes:(id)d;
- - (void) enqueueNotification:(id)apostingStyle:(Q)b;
- - (void) dequeueNotificationsMatching:(id)acoalesceMask:(Q)b;
+ - (void) enqueueNotification:(id)apostingStyle:(unsigned long long)bcoalesceMask:(unsigned long long)cforModes:(id)d;
+ - (void) enqueueNotification:(id)apostingStyle:(unsigned long long)b;
+ - (void) dequeueNotificationsMatching:(id)acoalesceMask:(unsigned long long)b;
  - (void) dealloc;
  - (id) init;
 

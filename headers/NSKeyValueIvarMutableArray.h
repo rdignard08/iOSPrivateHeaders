@@ -12,13 +12,13 @@
  - (void) replaceObjectsAtIndexes:(id)awithObjects:(id)b;
  - (void) _raiseNilValueExceptionWithSelector:(SEL)a;
  - (id) _nonNilMutableArrayValueWithSelector:(SEL)a;
- - (Q) count;
- - (id) objectAtIndex:(Q)a;
+ - (unsigned long long) count;
+ - (id) objectAtIndex:(unsigned long long)a;
  - (void) getObjects:(^@)arange:({_NSRange=QQ})b;
  - (void) addObject:(id)a;
- - (void) insertObject:(id)aatIndex:(Q)b;
- - (void) removeObjectAtIndex:(Q)a;
- - (void) replaceObjectAtIndex:(Q)awithObject:(id)b;
+ - (void) insertObject:(id)aatIndex:(unsigned long long)b;
+ - (void) removeObjectAtIndex:(unsigned long long)a;
+ - (void) replaceObjectAtIndex:(unsigned long long)awithObject:(id)b;
  - (id) objectsAtIndexes:(id)a;
  - (void) removeObjectsAtIndexes:(id)a;
 

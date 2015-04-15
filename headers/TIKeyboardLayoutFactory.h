@@ -11,7 +11,7 @@
 
  - (void) dealloc;
  - (id) keyboardWithName:(id)ainCache:(id)b;
- - (id) keyboardPrefixForWidth:(d)a;
+ - (id) keyboardPrefixForWidth:(double)a;
  - (id) init;
  - (id) internalCache;
  - (void) setInternalCache:(id)a;

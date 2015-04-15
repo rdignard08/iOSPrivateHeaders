@@ -10,7 +10,7 @@
  - (id) expressionValueWithObject:(id)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) initWithObject:(id)a;
  - (void) encodeWithCoder:(id)a;

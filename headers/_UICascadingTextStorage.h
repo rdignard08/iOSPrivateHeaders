@@ -6,23 +6,23 @@
  + (id) defaultFont;
 
  - (void) dealloc;
- - (id) attributesAtIndex:(Q)aeffectiveRange:(^{_NSRange=QQ})b;
- - (id) attribute:(id)aatIndex:(Q)beffectiveRange:(^{_NSRange=QQ})c;
- - (id) attributesAtIndex:(Q)alongestEffectiveRange:(^{_NSRange=QQ})binRange:({_NSRange=QQ})c;
- - (id) attribute:(id)aatIndex:(Q)blongestEffectiveRange:(^{_NSRange=QQ})cinRange:({_NSRange=QQ})d;
- - (void) setTextAlignment:(q)a;
+ - (id) attributesAtIndex:(unsigned long long)aeffectiveRange:(^{_NSRange=QQ})b;
+ - (id) attribute:(id)aatIndex:(unsigned long long)beffectiveRange:(^{_NSRange=QQ})c;
+ - (id) attributesAtIndex:(unsigned long long)alongestEffectiveRange:(^{_NSRange=QQ})binRange:({_NSRange=QQ})c;
+ - (id) attribute:(id)aatIndex:(unsigned long long)blongestEffectiveRange:(^{_NSRange=QQ})cinRange:({_NSRange=QQ})d;
+ - (void) setTextAlignment:(long long)a;
  - (void) setTextColor:(id)a;
  - (void) setFont:(id)a;
  - (id) textColor;
  - (void) setDefaultAttributes:(id)a;
- - (q) textAlignment;
+ - (long long) textAlignment;
  - (id) defaultAttributes;
- - (q) _ui_resolvedTextAlignment;
+ - (long long) _ui_resolvedTextAlignment;
  - (id) _defaultAttributes;
  - (id) _shadow;
  - (void) _setShadow:(id)a;
- - (void) setShadowBlur:(d)a;
- - (d) shadowBlur;
+ - (void) setShadowBlur:(double)a;
+ - (double) shadowBlur;
  - (void) _restoreOriginalFontAttribute;
  - (void) setShadowOffset:({CGSize=dd})a;
  - (void) setShadowColor:(id)a;
@@ -30,8 +30,8 @@
  - ({CGSize=dd}) shadowOffset;
  - (id) shadowColor;
  - (id) font;
- - (q) lineBreakMode;
- - (void) setLineBreakMode:(q)a;
+ - (long long) lineBreakMode;
+ - (void) setLineBreakMode:(long long)a;
 
 
 @end

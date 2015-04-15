@@ -1,13 +1,13 @@
 
 @interface UIKeyboardPredictiveSettings : _UISettings {
 
-    i _lastVolume;
+    int _lastVolume;
     BOOL _nextPage;
     @"NSString" _currentInputMode;
     BOOL _currentInputModeEnablePrediction;
     BOOL _didShowHUD;
     BOOL _alwaysShowTypedText;
-    i _minLetters;
+    int _minLetters;
 }
  + (id) sharedInstance;
  + (void) loadSettings;
@@ -19,12 +19,12 @@
  - (void) hide;
  - (id) _sharedHUD;
  - (BOOL) _isShowingHUD;
- - (void) setMinLetters:(i)a;
- - (i) minLetters;
+ - (void) setMinLetters:(int)a;
+ - (int) minLetters;
  - (BOOL) alwaysShowTypedText;
- - (i) messageCount;
+ - (int) messageCount;
  - (void) setAlwaysShowTypedText:(BOOL)a;
- - (void) setMessageCount:(i)a;
+ - (void) setMessageCount:(int)a;
  - (void) saveSettings;
  - (void) next;
  - (void) show;

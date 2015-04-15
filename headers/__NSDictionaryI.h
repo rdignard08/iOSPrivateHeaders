@@ -12,14 +12,14 @@
  - (id) mutableCopyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (void) finalize;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
  - (id) keyEnumerator;
- - (void) getObjects:(^@)aandKeys:(^@)bcount:(Q)c;
- - (void) enumerateKeysAndObjectsWithOptions:(Q)ausingBlock:(@?)b;
- - (d) _clumpingFactor;
- - (d) _clumpingInterestingThreshold;
+ - (void) getObjects:(^@)aandKeys:(^@)bcount:(unsigned long long)c;
+ - (void) enumerateKeysAndObjectsWithOptions:(unsigned long long)ausingBlock:(@?)b;
+ - (double) _clumpingFactor;
+ - (double) _clumpingInterestingThreshold;
 
 
 @end

@@ -3,11 +3,11 @@
 @interface NSPredicate : NSObject <NSSecureCoding, NSCopying> {
 
     {_predicateFlags="_evaluationBlocked"b1"_reservedPredicateFlags"b31} _predicateFlags;
-    I reserved;
+    unsigned int reserved;
 }
 @property (atomic, copy, readonly) NSString* predicateFormat;
  + (BOOL) supportsSecureCoding;
- + (id) newStringFrom:(id)ausingUnicodeTransforms:(Q)b;
+ + (id) newStringFrom:(id)ausingUnicodeTransforms:(unsigned long long)b;
  + (^{__CFLocale=}) retainedLocale;
  + (id) predicateWithFormat:(id)aarguments:([1{__va_list_tag=II^v^v}])b;
  + (id) predicateWithFormat:(id)aargumentArray:(id)b;
@@ -20,7 +20,7 @@
  - (void) allowEvaluation;
  - (id) predicateFormat;
  - (BOOL) _allowsEvaluation;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (BOOL) evaluateWithObject:(id)asubstitutionVariables:(id)b;
  - (void) _validateForMetadataQueryScopes:(id)a;
  - (id) generateMetadataDescription;

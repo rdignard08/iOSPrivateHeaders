@@ -2,21 +2,21 @@
 @protocol BSXPCCoding;
 @interface BKSProcessAssertionCreateEvent : BKSProcessAssertionUpdateEvent <BSXPCCoding> {
 
-    I _reason;
+    unsigned int _reason;
     @"NSString" _targetBundleIdentifier;
-    i _targetPID;
+    int _targetPID;
 }
 
  - (id) description;
  - (void) dealloc;
- - (I) reason;
+ - (unsigned int) reason;
  - (void) encodeWithXPCDictionary:(id)a;
  - (id) initWithXPCDictionary:(id)a;
  - (void) setTargetBundleIdentifier:(id)a;
- - (void) setTargetPID:(i)a;
- - (void) setReason:(I)a;
+ - (void) setTargetPID:(int)a;
+ - (void) setReason:(unsigned int)a;
  - (id) targetBundleIdentifier;
- - (i) targetPID;
+ - (int) targetPID;
 
 
 @end

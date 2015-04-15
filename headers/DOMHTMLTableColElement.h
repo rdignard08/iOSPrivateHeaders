@@ -11,8 +11,8 @@
  - (void) setChOff:(id)a;
  - (id) vAlign;
  - (void) setVAlign:(id)a;
- - (i) span;
- - (void) setSpan:(i)a;
+ - (int) span;
+ - (void) setSpan:(int)a;
  - (id) width;
  - (void) setWidth:(id)a;
 

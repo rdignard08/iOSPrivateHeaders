@@ -4,7 +4,7 @@
     BOOL _queriesLocalAssetInformationOnly;
     @"NSPredicate" _predicate;
     @"NSArray" _results;
-    d _networkTimeout;
+    double _networkTimeout;
     @"NSString" _assetType;
 }
 @property (nonatomic, retain, readwrite) NSPredicate* predicate;
@@ -22,8 +22,8 @@
  - (id) assetType;
  - (void) setResults:(id)a;
  - (BOOL) queriesLocalAssetInformationOnly;
- - (d) networkTimeout;
- - (void) setNetworkTimeout:(d)a;
+ - (double) networkTimeout;
+ - (void) setNetworkTimeout:(double)a;
  - (void) setAssetType:(id)a;
  - (void) startQuery:(@?)a;
  - (id) initWithAssetType:(id)a;

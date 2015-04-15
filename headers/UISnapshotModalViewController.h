@@ -1,7 +1,7 @@
 
 @interface UISnapshotModalViewController : UIViewController {
 
-    q _interfaceOrientation;
+    long long _interfaceOrientation;
     @"UIViewController" _disappearingViewController;
     @"UINavigationController" _parentController;
 }
@@ -9,9 +9,9 @@
  - (void) dealloc;
  - (void) viewWillDisappear:(BOOL)a;
  - (void) viewDidDisappear:(BOOL)a;
- - (BOOL) _isSupportedInterfaceOrientation:(q)a;
+ - (BOOL) _isSupportedInterfaceOrientation:(long long)a;
  - (id) disappearingViewController;
- - (id) initWithInterfaceOrientation:(q)a;
+ - (id) initWithInterfaceOrientation:(long long)a;
  - (void) setDisappearingViewController:(id)a;
 
 

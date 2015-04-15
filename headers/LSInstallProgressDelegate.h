@@ -30,12 +30,12 @@
  - (void) sendInstalledNotificationForApp:(id)areply:(@?)b;
  - (void) sendUninstalledNotificationForApps:(id)a;
  - (void) sendChangeNotificationForApp:(id)a;
- - (void) createInstallProgressForApplication:(id)awithPhase:(Q)bandPublishingString:(id)c;
+ - (void) createInstallProgressForApplication:(id)awithPhase:(unsigned long long)bandPublishingString:(id)c;
  - (void) installationFailedForApplication:(id)areply:(@?)b;
  - (void) sendInstalledNotificationForApps:(id)a;
  - (void) sendNetworkUsageChangedNotification;
  - (void) restoreInactiveInstalls;
- - (id) parentProgressForApplication:(id)aandPhase:(Q)bisActive:(BOOL)c;
+ - (id) parentProgressForApplication:(id)aandPhase:(unsigned long long)bisActive:(BOOL)c;
  - (void) rebuildInstallIndexes;
  - (void) sendAppControlsNotificationForApp:(id)awithName:(id)b;
  - (void) handleCancelInstallationForApp:(id)a;

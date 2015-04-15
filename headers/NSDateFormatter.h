@@ -3,13 +3,13 @@
 
     @"NSMutableDictionary" _attributes;
     ^{__CFDateFormatter=} _formatter;
-    Q _counter;
+    unsigned long long _counter;
     @"NSObject<OS_dispatch_semaphore>" _lock;
 }
- + (void) setDefaultFormatterBehavior:(Q)a;
- + (Q) defaultFormatterBehavior;
- + (id) localizedStringFromDate:(id)adateStyle:(Q)btimeStyle:(Q)c;
- + (id) dateFormatFromTemplate:(id)aoptions:(Q)blocale:(id)c;
+ + (void) setDefaultFormatterBehavior:(unsigned long long)a;
+ + (unsigned long long) defaultFormatterBehavior;
+ + (id) localizedStringFromDate:(id)adateStyle:(unsigned long long)btimeStyle:(unsigned long long)c;
+ + (id) dateFormatFromTemplate:(id)aoptions:(unsigned long long)blocale:(id)c;
  + (void) initialize;
 
  - (BOOL) getObjectValue:(o^@)aforString:(id)berrorDescription:(o^@)c;
@@ -21,17 +21,17 @@
  - (id) _locale_forOldMethods;
  - (void) _regenerateFormatterIfAbsent;
  - (BOOL) getObjectValue:(o^@)aforString:(id)brange:(N^{_NSRange=QQ})cerror:(o^@)d;
- - (void) setFormatterBehavior:(Q)a;
- - (void) setDateStyle:(Q)a;
- - (void) setTimeStyle:(Q)a;
+ - (void) setFormatterBehavior:(unsigned long long)a;
+ - (void) setDateStyle:(unsigned long long)a;
+ - (void) setTimeStyle:(unsigned long long)a;
  - (id) _getLocaleAlreadyLocked:(BOOL)a;
  - (void) _setDateFormat:(id)aalreadyLocked:(BOOL)b;
  - (void) setLocalizedDateFormatFromTemplate:(id)a;
- - (Q) dateStyle;
- - (Q) timeStyle;
+ - (unsigned long long) dateStyle;
+ - (unsigned long long) timeStyle;
  - (BOOL) generatesCalendarDates;
  - (void) setGeneratesCalendarDates:(BOOL)a;
- - (Q) formatterBehavior;
+ - (unsigned long long) formatterBehavior;
  - (id) _dateFormat;
  - (void) _setDateFormat:(id)a;
  - (void) _setIsLenient:(BOOL)a;
@@ -61,8 +61,8 @@
  - (void) setShortQuarterSymbols:(id)a;
  - (void) setStandaloneQuarterSymbols:(id)a;
  - (void) setShortStandaloneQuarterSymbols:(id)a;
- - (void) setFormattingContext:(q)a;
- - (q) formattingContext;
+ - (void) setFormattingContext:(long long)a;
+ - (long long) formattingContext;
  - (BOOL) doesRelativeDateFormatting;
  - (BOOL) _usesCharacterDirection;
  - (void) _setUsesCharacterDirection:(BOOL)a;

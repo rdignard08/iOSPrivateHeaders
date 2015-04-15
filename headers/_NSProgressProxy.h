@@ -11,9 +11,9 @@
  - (void) setPrioritizable:(BOOL)a;
  - (void) setUserInfoObject:(id)aforKey:(id)b;
  - (void) setPrioritizationHandler:(@?)a;
- - (void) setCompletedUnitCount:(q)a;
- - (void) setTotalUnitCount:(q)a;
- - (void) becomeCurrentWithPendingUnitCount:(q)a;
+ - (void) setCompletedUnitCount:(long long)a;
+ - (void) setTotalUnitCount:(long long)a;
+ - (void) becomeCurrentWithPendingUnitCount:(long long)a;
  - (void) resignCurrent;
  - (void) setCancellationHandler:(@?)a;
  - (void) setPausingHandler:(@?)a;

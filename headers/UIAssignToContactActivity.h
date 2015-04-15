@@ -25,7 +25,7 @@
  - (void) setImagePickerController:(id)a;
  - (void) peoplePickerNavigationControllerDidCancel:(id)a;
  - (BOOL) peoplePickerNavigationController:(id)ashouldContinueAfterSelectingPerson:(^v)b;
- - (BOOL) peoplePickerNavigationController:(id)ashouldContinueAfterSelectingPerson:(^v)bproperty:(i)cidentifier:(i)d;
+ - (BOOL) peoplePickerNavigationController:(id)ashouldContinueAfterSelectingPerson:(^v)bproperty:(int)cidentifier:(int)d;
  - (^v) person;
  - (void) setPerson:(^v)a;
  - (void) _cleanup;

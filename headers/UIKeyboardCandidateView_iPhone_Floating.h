@@ -9,7 +9,7 @@
  - (void) candidatesDidChange;
  - (void) setCandidateViewExtended:(BOOL)a;
  - (id) activeCandidateList;
- - (Q) _numberOfColumns:(BOOL)a;
+ - (unsigned long long) _numberOfColumns:(BOOL)a;
  - (BOOL) _shouldShowHideKeyboard;
  - (BOOL) _shouldUseFullMetrics;
  - (void) _collapse:(id)a;

@@ -11,9 +11,9 @@
 
  - (void) dealloc;
  - (void) show;
- - (void) dismissWithClickedButtonIndex:(q)aanimated:(BOOL)b;
- - (q) addButtonWithTitle:(id)a;
- - (id) textFieldAtIndex:(q)a;
+ - (void) dismissWithClickedButtonIndex:(long long)aanimated:(BOOL)b;
+ - (long long) addButtonWithTitle:(id)a;
+ - (id) textFieldAtIndex:(long long)a;
  - (BOOL) runsModal;
  - (void) setRunsModal:(BOOL)a;
  - (void) setRemoteViewController:(id)a;

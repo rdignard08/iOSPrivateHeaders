@@ -4,14 +4,14 @@
     @"NSInvocation" invocation;
     @"NSArray" importedObjects;
     id conversation;
-    I sequence;
+    unsigned int sequence;
     @"NSConnection" connection;
 }
 
  - (id) connection;
  - (id) conversation;
  - (void) replyWithException:(id)a;
- - (id) initWithInvocation:(id)aconversation:(id)bsequence:(I)cimportedObjects:(id)dconnection:(id)e;
+ - (id) initWithInvocation:(id)aconversation:(id)bsequence:(unsigned int)cimportedObjects:(id)dconnection:(id)e;
  - (void) dealloc;
  - (id) invocation;
 

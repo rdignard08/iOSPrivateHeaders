@@ -9,8 +9,8 @@
  - (id) highlightedKeyColor;
  - (id) activeTextColor;
  - (id) inactiveTextColor;
- - (d) highlightedFontSize;
- - (d) enabledFontSize;
+ - (double) highlightedFontSize;
+ - (double) enabledFontSize;
  - ({CGPoint=dd}) highlightedTextOffset;
  - ({CGPoint=dd}) enabledTextOffset;
  - (id) fontName;

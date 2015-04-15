@@ -9,7 +9,7 @@
     BOOL _activityIndexDidChangeWhileDragging;
     BOOL _allowsUserCustomization;
     @"<UIActivityGroupViewControllerDelegate>" _delegate;
-    q _activityCategory;
+    long long _activityCategory;
     @"NSDictionary" _customActivityTitles;
     @"NSArray" _activities;
     @"<UIActivityGroupViewControllerDataSource>" _dataSource;
@@ -27,7 +27,7 @@
  - (void) dealloc;
  - (void) setDelegate:(id)a;
  - (BOOL) gestureRecognizerShouldBegin:(id)a;
- - (q) collectionView:(id)anumberOfItemsInSection:(q)b;
+ - (long long) collectionView:(id)anumberOfItemsInSection:(long long)b;
  - (id) collectionView:(id)acellForItemAtIndexPath:(id)b;
  - (BOOL) collectionView:(id)ashouldHighlightItemAtIndexPath:(id)b;
  - (BOOL) collectionView:(id)ashouldSelectItemAtIndexPath:(id)b;
@@ -38,11 +38,11 @@
  - (void) viewDidLayoutSubviews;
  - (void) setEditing:(BOOL)aanimated:(BOOL)b;
  - (void) viewDidLoad;
- - (id) initWithActivityCategory:(q)auserDefaults:(id)buserDefaultsIdentifier:(id)c;
+ - (id) initWithActivityCategory:(long long)auserDefaults:(id)buserDefaultsIdentifier:(id)c;
  - (void) setAllowsUserCustomization:(BOOL)a;
  - (void) setPicker:(BOOL)a;
  - (void) setCachedPreferredItemSizesByString:(id)a;
- - (void) setActivityCategory:(q)a;
+ - (void) setActivityCategory:(long long)a;
  - (void) setUserDefaults:(id)a;
  - (BOOL) allowsUserCustomization;
  - (void) setUserDefaultsActivity:(id)a;
@@ -63,7 +63,7 @@
  - (id) activityForItemAtIndexPath:(id)a;
  - (id) _titleTextForActivity:(id)a;
  - (BOOL) darkStyleOnLegacyApp;
- - (q) activityCategory;
+ - (long long) activityCategory;
  - (void) _updateItemSizeIfNeeded;
  - (id) editingGestureRecognizer;
  - (void) setIndexPathForMenuActivity:(id)a;
@@ -79,7 +79,7 @@
  - (id) collectionView:(id)alayout:(id)bmoveItemAtIndexPath:(id)ctoIndexPath:(id)d;
  - (id) collectionView:(id)alayout:(id)bneedsContainerViewForDraggingItemAtIndexPath:(id)c;
  - ({CGSize=dd}) collectionView:(id)alayout:(id)bpreferredSizeForItemAtIndexPath:(id)c;
- - (id) initWithActivityCategory:(q)auserDefaults:(id)b;
+ - (id) initWithActivityCategory:(long long)auserDefaults:(id)b;
  - (void) setActivities:(id)a;
  - (void) reloadItemForActivityOfTypeIfNeeded:(id)a;
  - (id) customActivityTitles;

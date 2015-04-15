@@ -20,8 +20,8 @@
  - (BOOL) transitionIsVisible;
  - (^{CGImage=}) defaultKeyboardImage;
  - (^{CGImage=}) splitKeyboardImage;
- - (void) rebuildFromKeyplane:(id)atoKeyplane:(id)bkeyboardType:(q)corientation:(q)d;
- - (void) rebuildControlKeys:(Q)a;
+ - (void) rebuildFromKeyplane:(id)atoKeyplane:(id)bkeyboardType:(long long)corientation:(long long)d;
+ - (void) rebuildControlKeys:(unsigned long long)a;
  - (void) _flipToFront:(BOOL)aanimated:(BOOL)b;
  - (void) rebuildControlSlicesForKeyName:(id)a;
  - (void) updateMoreIntlKey:(id)aasStart:(BOOL)bwithRect:({CGRect={CGPoint=dd}{CGSize=dd}})cshowIntl:(BOOL)dshowDictKey:(BOOL)e;

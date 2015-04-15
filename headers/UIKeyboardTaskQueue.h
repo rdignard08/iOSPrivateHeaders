@@ -18,7 +18,7 @@
  - (void) waitUntilAllTasksAreFinished;
  - (void) addTask:(@?)a;
  - (void) addDeferredTask:(@?)a;
- - (id) scheduleTask:(@?)atimeInterval:(d)brepeats:(BOOL)c;
+ - (id) scheduleTask:(@?)atimeInterval:(double)brepeats:(BOOL)c;
  - (id) executionContext;
  - (void) setExecutionContext:(id)a;
  - (void) finishExecution;

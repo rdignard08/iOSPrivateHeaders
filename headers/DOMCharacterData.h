@@ -6,16 +6,16 @@
  - (id) data;
  - (void) setData:(id)a;
  - (void) remove;
- - (I) length;
+ - (unsigned int) length;
  - (void) appendData:(id)a;
- - (id) substringData:(I)alength:(I)b;
- - (id) substringData:(I)a;
- - (void) insertData:(I)adata:(id)b;
- - (void) insertData:(I)a;
- - (void) deleteData:(I)alength:(I)b;
- - (void) deleteData:(I)a;
- - (void) replaceData:(I)alength:(I)bdata:(id)c;
- - (void) replaceData:(I)a;
+ - (id) substringData:(unsigned int)alength:(unsigned int)b;
+ - (id) substringData:(unsigned int)a;
+ - (void) insertData:(unsigned int)adata:(id)b;
+ - (void) insertData:(unsigned int)a;
+ - (void) deleteData:(unsigned int)alength:(unsigned int)b;
+ - (void) deleteData:(unsigned int)a;
+ - (void) replaceData:(unsigned int)alength:(unsigned int)bdata:(id)c;
+ - (void) replaceData:(unsigned int)a;
 
 
 @end

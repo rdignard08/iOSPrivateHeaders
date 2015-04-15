@@ -1,13 +1,13 @@
 
 @interface UISoftwareDimmingWindow : UIWindow {
 
-    f _overlayLevel;
+    float _overlayLevel;
 }
 
  - (BOOL) _ignoresHitTest;
  - (void) updateOverlayColor;
- - (void) setOverlayLevel:(f)a;
- - (f) overlayLevel;
+ - (void) setOverlayLevel:(float)a;
+ - (float) overlayLevel;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

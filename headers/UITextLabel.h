@@ -12,12 +12,12 @@
  - (void) setWrapsText:(BOOL)a;
  - (void) setTextAutoresizesToFit:(BOOL)a;
  - (BOOL) textAutoresizesToFit;
- - (void) setMinFontSize:(f)a;
- - (f) minFontSize;
+ - (void) setMinFontSize:(float)a;
+ - (float) minFontSize;
  - (void) setColor:(id)a;
  - (id) color;
- - (q) alignment;
- - (void) setAlignment:(q)a;
+ - (long long) alignment;
+ - (void) setAlignment:(long long)a;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

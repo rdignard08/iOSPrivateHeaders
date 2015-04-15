@@ -1,18 +1,18 @@
 
 @interface UIRotationGestureRecognizer : UIGestureRecognizer {
 
-    d _initialTouchDistance;
-    d _initialTouchAngle;
-    d _currentTouchAngle;
-    q _currentRotationCount;
-    d _lastTouchTime;
-    d _velocity;
-    d _previousVelocity;
+    double _initialTouchDistance;
+    double _initialTouchAngle;
+    double _currentTouchAngle;
+    long long _currentRotationCount;
+    double _lastTouchTime;
+    double _velocity;
+    double _previousVelocity;
     {CGPoint="x"d"y"d} _anchorSceneReferencePoint;
     id _transformAnalyzer;
     [2@"UITouch"] _touches;
-    f _preRecognitionWeight;
-    f _postRecognitionWeight;
+    float _preRecognitionWeight;
+    float _postRecognitionWeight;
 }
 
  - (void) dealloc;
@@ -20,18 +20,18 @@
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) touchesEnded:(id)awithEvent:(id)b;
  - (void) touchesCancelled:(id)awithEvent:(id)b;
- - (void) setRotation:(d)a;
+ - (void) setRotation:(double)a;
  - (void) _resetGestureRecognizer;
  - (void) _updateTransformAnalyzerWeights;
- - (void) _setPreRecognitionWeight:(d)a;
- - (d) _preRecognitionWeight;
- - (void) _setPostRecognitionWeight:(d)a;
- - (d) _postRecognitionWeight;
+ - (void) _setPreRecognitionWeight:(double)a;
+ - (double) _preRecognitionWeight;
+ - (void) _setPostRecognitionWeight:(double)a;
+ - (double) _postRecognitionWeight;
  - (id) initWithCoder:(id)a;
  - ({CGPoint=dd}) anchorPoint;
- - (d) rotation;
+ - (double) rotation;
  - (id) initWithTarget:(id)aaction:(SEL)b;
- - (d) velocity;
+ - (double) velocity;
 
 
 @end

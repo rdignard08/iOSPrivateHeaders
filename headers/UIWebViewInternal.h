@@ -14,7 +14,7 @@
     b1 inRotation;
     b1 didRotateEnclosingScrollView;
     @"NSURLRequest" request;
-    q clickedAlertButtonIndex;
+    long long clickedAlertButtonIndex;
     @"UIWebViewWebViewDelegate" webViewDelegate;
     @"UIWebPDFViewHandler" pdfHandler;
 }

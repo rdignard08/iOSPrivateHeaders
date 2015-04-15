@@ -3,7 +3,7 @@
 
     @"NSObject<OS_dispatch_queue>" _queue;
     @"NSSet" _displayIdentifiers;
-    i _changedToken;
+    int _changedToken;
     @? _changedBlock;
 }
  + (id) sharedInstance;

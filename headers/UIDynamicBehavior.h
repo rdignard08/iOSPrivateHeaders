@@ -25,7 +25,7 @@
  - (void) _associate;
  - (void) _dissociate;
  - (void) _changedParameterForBody:(id)a;
- - (void) _reevaluate:(Q)a;
+ - (void) _reevaluate:(unsigned long long)a;
  - (id) _itemsDescription;
  - (void) _setItems:(id)a;
  - (void) willMoveToAnimator:(id)a;

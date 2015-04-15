@@ -2,11 +2,11 @@
 @protocol NSSecureCoding;
 @interface TIKeyboardTouchEvent : NSObject <NSSecureCoding> {
 
-    i _stage;
-    d _radius;
-    d _timestamp;
-    q _pathIndex;
-    q _forcedKeyCode;
+    int _stage;
+    double _radius;
+    double _timestamp;
+    long long _pathIndex;
+    long long _forcedKeyCode;
     {CGPoint="x"d"y"d} _location;
 }
 @property (nonatomic, assign, readonly) NSNumber* stage;
@@ -16,18 +16,18 @@
 @property (nonatomic, assign, readonly) NSNumber* pathIndex;
 @property (nonatomic, assign, readonly) NSNumber* forcedKeyCode;
  + (BOOL) supportsSecureCoding;
- + (id) touchEventWithStage:(i)alocation:({CGPoint=dd})bradius:(d)ctimestamp:(d)dpathIndex:(q)eforcedKeyCode:(q)f;
+ + (id) touchEventWithStage:(int)alocation:({CGPoint=dd})bradius:(double)ctimestamp:(double)dpathIndex:(long long)eforcedKeyCode:(long long)f;
 
  - (id) description;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (id) initWithStage:(i)alocation:({CGPoint=dd})bradius:(d)ctimestamp:(d)dpathIndex:(q)eforcedKeyCode:(q)f;
- - (i) stage;
+ - (id) initWithStage:(int)alocation:({CGPoint=dd})bradius:(double)ctimestamp:(double)dpathIndex:(long long)eforcedKeyCode:(long long)f;
+ - (int) stage;
  - ({CGPoint=dd}) location;
- - (d) radius;
- - (d) timestamp;
- - (q) pathIndex;
- - (q) forcedKeyCode;
+ - (double) radius;
+ - (double) timestamp;
+ - (long long) pathIndex;
+ - (long long) forcedKeyCode;
 
 
 @end

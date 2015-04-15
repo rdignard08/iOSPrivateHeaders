@@ -4,29 +4,29 @@
     BOOL extensionCandidate;
     BOOL _isFromPhraseDictionary;
     BOOL _isFromTextChecker;
-    I _usageTrackingMask;
-    Q _wordOriginFeedbackID;
+    unsigned int _usageTrackingMask;
+    unsigned long long _wordOriginFeedbackID;
     @"NSString" _label;
 }
  + (BOOL) supportsSecureCoding;
- + (i) type;
+ + (int) type;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (void) setLabel:(id)a;
- - (I) usageTrackingMask;
+ - (unsigned int) usageTrackingMask;
  - (BOOL) isAutocorrection;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (id) initWithCandidateResultSetCoder:(id)a;
  - (void) encodeWithCandidateResultSetCoder:(id)a;
  - (id) label;
- - (Q) wordOriginFeedbackID;
+ - (unsigned long long) wordOriginFeedbackID;
  - (BOOL) isExtensionCandidate;
- - (id) initWithCandidate:(id)aforInput:(id)bwordOriginFeedbackID:(Q)cusageTrackingMask:(I)d;
+ - (id) initWithCandidate:(id)aforInput:(id)bwordOriginFeedbackID:(unsigned long long)cusageTrackingMask:(unsigned int)d;
  - (BOOL) isFromPhraseDictionary;
  - (BOOL) isFromTextChecker;
- - (id) initWithCandidate:(id)aforInput:(id)bwordOriginFeedbackID:(Q)c;
+ - (id) initWithCandidate:(id)aforInput:(id)bwordOriginFeedbackID:(unsigned long long)c;
  - (void) setExtensionCandidate:(BOOL)a;
  - (void) setIsFromPhraseDictionary:(BOOL)a;
  - (void) setIsFromTextChecker:(BOOL)a;

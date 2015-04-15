@@ -6,7 +6,7 @@
 }
 @property (atomic, copy, readwrite) NSNumber* completionHandler;
 
- - (void) alertView:(id)adidDismissWithButtonIndex:(q)b;
+ - (void) alertView:(id)adidDismissWithButtonIndex:(long long)b;
  - (@?) completionHandler;
  - (void) willPresentAlertView:(id)a;
  - (void) setCompletionHandler:(@?)a;

@@ -7,7 +7,7 @@
  + (id) bottomShadowImage;
 
  - (void) dealloc;
- - (void) setShadowImage:(id)aforEdge:(Q)binside:(BOOL)c;
+ - (void) setShadowImage:(id)aforEdge:(unsigned long long)binside:(BOOL)c;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

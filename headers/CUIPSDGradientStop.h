@@ -2,7 +2,7 @@
 @protocol NSCoding, NSCopying;
 @interface CUIPSDGradientStop : NSObject <NSCoding, NSCopying> {
 
-    d location;
+    double location;
 }
  + (void) initialize;
 
@@ -11,10 +11,10 @@
  - (id) initWithCoder:(id)a;
  - (BOOL) isColorStop;
  - (BOOL) isOpacityStop;
- - (id) initWithLocation:(d)a;
- - (void) setLocation:(d)a;
+ - (id) initWithLocation:(double)a;
+ - (void) setLocation:(double)a;
  - (BOOL) isDoubleStop;
- - (d) location;
+ - (double) location;
 
 
 @end

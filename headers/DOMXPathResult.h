@@ -6,14 +6,14 @@
  - (void) dealloc;
  - (void) finalize;
  - (id) stringValue;
- - (d) numberValue;
+ - (double) numberValue;
  - (BOOL) booleanValue;
  - (id) singleNodeValue;
  - (BOOL) invalidIteratorState;
- - (I) snapshotLength;
+ - (unsigned int) snapshotLength;
  - (id) iterateNext;
- - (id) snapshotItem:(I)a;
- - (S) resultType;
+ - (id) snapshotItem:(unsigned int)a;
+ - (unsigned short) resultType;
 
 
 @end

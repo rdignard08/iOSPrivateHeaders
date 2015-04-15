@@ -5,7 +5,7 @@
     {?="buffer"[64S]"theString"^{__CFString}"directUniCharBuffer"^S"directCStringBuffer"*"rangeToBuffer"{?="location"q"length"q}"bufferedRangeStart"q"bufferedRangeEnd"q} m_inlineBuffer;
     {_NSRange="location"Q"length"Q} m_tokenRange;
     {_NSRange="location"Q"length"Q} m_searchRange;
-    Q m_bufferOffset;
+    unsigned long long m_bufferOffset;
 }
 
  - (void) dealloc;

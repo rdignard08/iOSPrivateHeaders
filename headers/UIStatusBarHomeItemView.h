@@ -4,8 +4,8 @@
 }
 
  - (id) contentsImage;
- - (q) buttonType;
- - (d) extraRightPadding;
+ - (long long) buttonType;
+ - (double) extraRightPadding;
  - (BOOL) usesAdvancedActions;
 
 

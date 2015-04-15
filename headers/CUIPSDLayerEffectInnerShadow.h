@@ -1,31 +1,31 @@
 
 @interface CUIPSDLayerEffectInnerShadow : CUIPSDLayerEffectComponent {
 
-    i _blendMode;
-    d _opacity;
+    int _blendMode;
+    double _opacity;
     @"CUIColor" _color;
-    s _angle;
-    Q _distance;
-    Q _blurSize;
+    short _angle;
+    unsigned long long _distance;
+    unsigned long long _blurSize;
 }
 
  - (void) dealloc;
  - (id) init;
- - (i) blendMode;
- - (void) setBlendMode:(i)a;
+ - (int) blendMode;
+ - (void) setBlendMode:(int)a;
  - (void) setColor:(id)a;
- - (void) setBlurSize:(Q)a;
- - (void) setDistance:(Q)a;
- - (void) setAngle:(s)a;
+ - (void) setBlurSize:(unsigned long long)a;
+ - (void) setDistance:(unsigned long long)a;
+ - (void) setAngle:(short)a;
  - (BOOL) updateLayerEffectPreset:(id)aerror:(^@)b;
- - (id) initWithEffectFromPreset:(id)aatIndex:(I)b;
- - (Q) blurSize;
- - (Q) distance;
- - (s) angle;
- - (I) effectType;
+ - (id) initWithEffectFromPreset:(id)aatIndex:(unsigned int)b;
+ - (unsigned long long) blurSize;
+ - (unsigned long long) distance;
+ - (short) angle;
+ - (unsigned int) effectType;
  - (id) color;
- - (d) opacity;
- - (void) setOpacity:(d)a;
+ - (double) opacity;
+ - (void) setOpacity:(double)a;
 
 
 @end

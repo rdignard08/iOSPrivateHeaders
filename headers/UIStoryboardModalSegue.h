@@ -4,14 +4,14 @@
     BOOL _useDefaultModalPresentationStyle;
     BOOL _useDefaultModalTransitionStyle;
     BOOL _animates;
-    q _modalPresentationStyle;
-    q _modalTransitionStyle;
+    long long _modalPresentationStyle;
+    long long _modalTransitionStyle;
 }
 
- - (q) modalPresentationStyle;
- - (void) setModalPresentationStyle:(q)a;
- - (q) modalTransitionStyle;
- - (void) setModalTransitionStyle:(q)a;
+ - (long long) modalPresentationStyle;
+ - (void) setModalPresentationStyle:(long long)a;
+ - (long long) modalTransitionStyle;
+ - (void) setModalTransitionStyle:(long long)a;
  - (void) perform;
  - (void) setUseDefaultModalPresentationStyle:(BOOL)a;
  - (void) setUseDefaultModalTransitionStyle:(BOOL)a;

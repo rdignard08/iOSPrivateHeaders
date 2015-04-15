@@ -1,28 +1,28 @@
 
 @interface _EditScriptIndexedAtom : NSObject {
 
-    q _editOperation;
-    Q _indexToEdit;
-    Q _indexInArrayB;
+    long long _editOperation;
+    unsigned long long _indexToEdit;
+    unsigned long long _indexInArrayB;
     @"NSString" _replacementText;
 }
 @property (nonatomic, assign, readwrite) NSNumber* editOperation;
 @property (nonatomic, assign, readwrite) NSNumber* indexToEdit;
 @property (nonatomic, assign, readwrite) NSNumber* indexInArrayB;
 @property (nonatomic, retain, readwrite) NSString* replacementText;
- + (id) atomWithEditOperation:(q)aindexToEdit:(Q)bnewText:(id)cindexInArrayB:(Q)d;
+ + (id) atomWithEditOperation:(long long)aindexToEdit:(unsigned long long)bnewText:(id)cindexInArrayB:(unsigned long long)d;
 
  - (id) description;
  - (void) dealloc;
  - (void) setReplacementText:(id)a;
  - (id) replacementText;
- - (q) editOperation;
- - (Q) indexToEdit;
- - (void) setIndexToEdit:(Q)a;
- - (void) setEditOperation:(q)a;
- - (void) setIndexInArrayB:(Q)a;
- - (id) initWithEditOperation:(q)aindexToEdit:(Q)bnewText:(id)cindexInArrayB:(Q)d;
- - (Q) indexInArrayB;
+ - (long long) editOperation;
+ - (unsigned long long) indexToEdit;
+ - (void) setIndexToEdit:(unsigned long long)a;
+ - (void) setEditOperation:(long long)a;
+ - (void) setIndexInArrayB:(unsigned long long)a;
+ - (id) initWithEditOperation:(long long)aindexToEdit:(unsigned long long)bnewText:(id)cindexInArrayB:(unsigned long long)d;
+ - (unsigned long long) indexInArrayB;
 
 
 @end

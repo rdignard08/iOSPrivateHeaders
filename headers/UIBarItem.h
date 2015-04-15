@@ -25,8 +25,8 @@
 
  - (BOOL) _shouldArchiveUIAppearanceTags;
  - (void) _setShouldArchiveUIAppearanceTags:(BOOL)a;
- - (void) setTitleTextAttributes:(id)aforState:(Q)b;
- - (id) titleTextAttributesForState:(Q)a;
+ - (void) setTitleTextAttributes:(id)aforState:(unsigned long long)b;
+ - (id) titleTextAttributesForState:(unsigned long long)a;
  - (BOOL) _hasCustomizableInstanceAppearanceModifications;
  - (void) _setHasCustomizableInstanceAppearanceModifications:(BOOL)a;
  - (void) encodeWithCoder:(id)a;

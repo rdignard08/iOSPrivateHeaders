@@ -13,15 +13,15 @@
  - (id) stringValue;
  - (id) initWithURL:(id)a;
  - (id) host;
- - (S) port;
+ - (unsigned short) port;
  - (id) databaseQuotaManager;
- - (void) setQuota:(Q)a;
+ - (void) setQuota:(unsigned long long)a;
  - (id) applicationCacheQuotaManager;
  - (id) protocol;
- - (Q) usage;
+ - (unsigned long long) usage;
  - (^{SecurityOrigin={atomic<int>=Ai}{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}SBBBBiBB}) _core;
  - (id) _initWithWebCoreSecurityOrigin:(^{SecurityOrigin={atomic<int>=Ai}{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}SBBBBiBB})a;
- - (Q) quota;
+ - (unsigned long long) quota;
  - (id) databaseIdentifier;
  - (id) toString;
 

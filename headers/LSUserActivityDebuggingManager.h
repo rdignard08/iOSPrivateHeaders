@@ -5,9 +5,9 @@
     @"NSUserDefaults" _userDefaults;
     @"NSString" _logFileDirectoryPath;
     @"NSString" _logFilePath;
-    i _additionalLogFile;
+    int _additionalLogFile;
     @"NSObject<OS_dispatch_source>" _logRotationTimerSource;
-    Q _lastLogRotationTime;
+    unsigned long long _lastLogRotationTime;
 }
 @property (atomic, retain, readwrite) NSUserDefaults* userDefaults;
 @property (atomic, assign, readonly) NSNumber* loggingEnabled;
@@ -18,7 +18,7 @@
 @property (atomic, assign, readonly) NSNumber* logFileEnabled;
 @property (atomic, assign, readwrite) NSNumber* lastLogRotationTime;
 @property (atomic, assign, readwrite) NSNumber* logRotationTimerSource;
- + (void) log:(i)aformat:(id)b;
+ + (void) log:(int)aformat:(id)b;
  + (id) hexDataDump:(id)a;
  + (id) sharedDebugManager;
 
@@ -32,23 +32,23 @@
  - (void) setLogRotationTimerSource:(id)a;
  - (id) logRotationTimerSource;
  - (void) doRotateLogFiles;
- - (i) additionalLogFile;
- - (void) setAdditionalLogFile:(i)a;
- - (d) logRotationTimeInSeconds;
- - (Q) lastLogRotationTime;
+ - (int) additionalLogFile;
+ - (void) setAdditionalLogFile:(int)a;
+ - (double) logRotationTimeInSeconds;
+ - (unsigned long long) lastLogRotationTime;
  - (BOOL) logFileEnabled;
  - (id) logFilePath;
- - (void) setLastLogRotationTime:(Q)a;
- - (q) logRotationMaximumFiles;
+ - (void) setLastLogRotationTime:(unsigned long long)a;
+ - (long long) logRotationMaximumFiles;
  - (id) userDefaults;
- - (BOOL) shouldLogCommon:(Q)a;
- - (void) log:(i)aformat:(id)bargs:([1{__va_list_tag=II^v^v}])c;
- - (void) log:(i)aformat:(id)bargs:([1{__va_list_tag=II^v^v}])cfile:(r*)dline:(q)e;
- - (void) log:(i)aformat:(id)b;
- - (void) log:(i)afile:(r*)bline:(q)cformat:(id)d;
- - (void) logCommon:(Q)aformat:(id)bargs:([1{__va_list_tag=II^v^v}])c;
- - (BOOL) shouldLog:(i)a;
- - (void) log:(i)acommon:(BOOL)bformat:(id)cargs:([1{__va_list_tag=II^v^v}])dfile:(r*)eline:(q)f;
+ - (BOOL) shouldLogCommon:(unsigned long long)a;
+ - (void) log:(int)aformat:(id)bargs:([1{__va_list_tag=II^v^v}])c;
+ - (void) log:(int)aformat:(id)bargs:([1{__va_list_tag=II^v^v}])cfile:(r*)dline:(long long)e;
+ - (void) log:(int)aformat:(id)b;
+ - (void) log:(int)afile:(r*)bline:(long long)cformat:(id)d;
+ - (void) logCommon:(unsigned long long)aformat:(id)bargs:([1{__va_list_tag=II^v^v}])c;
+ - (BOOL) shouldLog:(int)a;
+ - (void) log:(int)acommon:(BOOL)bformat:(id)cargs:([1{__va_list_tag=II^v^v}])dfile:(r*)eline:(long long)f;
  - (void) setUserDefaults:(id)a;
  - (id) init;
  - (void) suspend;

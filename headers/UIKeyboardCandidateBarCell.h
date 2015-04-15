@@ -10,7 +10,7 @@
     @"NSString" _candidateText;
 }
  + (id) reuseIdentifier;
- + (d) widthForCandidateText:(id)a;
+ + (double) widthForCandidateText:(id)a;
  + ({UIEdgeInsets=dddd}) cacheInsets;
  + (BOOL) drawsSideBorders;
  + (id) textColorWithHighlight:(BOOL)awhiteText:(BOOL)b;
@@ -25,7 +25,7 @@
  - (void) setLabel:(id)a;
  - (void) _setRenderConfig:(id)a;
  - (id) cacheKey;
- - (d) cachedWidth;
+ - (double) cachedWidth;
  - (id) cacheKeysForRenderFlags:(id)a;
  - (BOOL) cacheDeferable;
  - (BOOL) keepNonPersistent;

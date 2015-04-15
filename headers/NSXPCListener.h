@@ -6,7 +6,7 @@
     ^v reserved0;
     @"<NSXPCListenerDelegate>" _delegate;
     @"NSString" _serviceName;
-    Q _state;
+    unsigned long long _state;
     id _reserved1;
     id _reserved2;
 }
@@ -30,7 +30,7 @@
  - (id) _xpcConnection;
  - (void) suspend;
  - (id) delegate;
- - (void) setOptions:(Q)a;
+ - (void) setOptions:(unsigned long long)a;
  - (id) initWithMachServiceName:(id)a;
  - (void) resume;
  - (id) initWithServiceName:(id)a;

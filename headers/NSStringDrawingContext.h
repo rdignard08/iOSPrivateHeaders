@@ -1,18 +1,18 @@
 
 @interface NSStringDrawingContext : NSObject {
 
-    d _minimumScaleFactor;
-    d _minimumTrackingAdjustment;
-    d _actualScaleFactor;
-    d _actualTrackingAdjustment;
+    double _minimumScaleFactor;
+    double _minimumTrackingAdjustment;
+    double _actualScaleFactor;
+    double _actualTrackingAdjustment;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _totalBounds;
     @"NSDictionary" _linkAttributes;
-    Q _numberOfLineFragments;
-    Q _maximumNumberOfLines;
-    d _baselineOffset;
-    d _scaledBaselineOffset;
-    d _scaledLineHeight;
-    d _firstBaselineOffset;
+    unsigned long long _numberOfLineFragments;
+    unsigned long long _maximumNumberOfLines;
+    double _baselineOffset;
+    double _scaledBaselineOffset;
+    double _scaledLineHeight;
+    double _firstBaselineOffset;
     id _layout;
     {?="_wantsNumberOfLineFragments"b1"_wrapsForTruncationMode"b1"_wantsBaselineOffset"b1"_wantsScaledBaselineOffset"b1"_wantsScaledLineHeight"b1"_drawsDebugBaselines"b1"_cachesLayout"b1"_usesSimpleTextEffects"b1} _sdcFlags;
 }
@@ -41,20 +41,20 @@
  - (id) description;
  - (void) dealloc;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) totalBounds;
- - (d) actualScaleFactor;
- - (d) scaledBaselineOffset;
- - (d) scaledLineHeight;
- - (d) firstBaselineOffset;
- - (d) minimumScaleFactor;
- - (void) setMinimumScaleFactor:(d)a;
- - (d) minimumTrackingAdjustment;
- - (void) setMinimumTrackingAdjustment:(d)a;
+ - (double) actualScaleFactor;
+ - (double) scaledBaselineOffset;
+ - (double) scaledLineHeight;
+ - (double) firstBaselineOffset;
+ - (double) minimumScaleFactor;
+ - (void) setMinimumScaleFactor:(double)a;
+ - (double) minimumTrackingAdjustment;
+ - (void) setMinimumTrackingAdjustment:(double)a;
  - (BOOL) wantsNumberOfLineFragments;
  - (void) setWantsNumberOfLineFragments:(BOOL)a;
  - (BOOL) wrapsForTruncationMode;
  - (void) setWrapsForTruncationMode:(BOOL)a;
- - (Q) maximumNumberOfLines;
- - (void) setMaximumNumberOfLines:(Q)a;
+ - (unsigned long long) maximumNumberOfLines;
+ - (void) setMaximumNumberOfLines:(unsigned long long)a;
  - (BOOL) wantsBaselineOffset;
  - (void) setWantsBaselineOffset:(BOOL)a;
  - (BOOL) wantsScaledBaselineOffset;
@@ -69,17 +69,17 @@
  - (void) setLayout:(id)a;
  - (BOOL) usesSimpleTextEffects;
  - (void) setUsesSimpleTextEffects:(BOOL)a;
- - (void) setActualScaleFactor:(d)a;
- - (d) actualTrackingAdjustment;
- - (void) setActualTrackingAdjustment:(d)a;
+ - (void) setActualScaleFactor:(double)a;
+ - (double) actualTrackingAdjustment;
+ - (void) setActualTrackingAdjustment:(double)a;
  - (void) setTotalBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (Q) numberOfLineFragments;
- - (void) setNumberOfLineFragments:(Q)a;
- - (d) baselineOffset;
- - (void) setBaselineOffset:(d)a;
- - (void) setScaledBaselineOffset:(d)a;
- - (void) setScaledLineHeight:(d)a;
- - (void) setFirstBaselineOffset:(d)a;
+ - (unsigned long long) numberOfLineFragments;
+ - (void) setNumberOfLineFragments:(unsigned long long)a;
+ - (double) baselineOffset;
+ - (void) setBaselineOffset:(double)a;
+ - (void) setScaledBaselineOffset:(double)a;
+ - (void) setScaledLineHeight:(double)a;
+ - (void) setFirstBaselineOffset:(double)a;
 
 
 @end

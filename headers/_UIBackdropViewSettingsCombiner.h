@@ -3,7 +3,7 @@
 
     @"_UIBackdropViewSettings" _inputSettingsA;
     @"_UIBackdropViewSettings" _inputSettingsB;
-    d _weighting;
+    double _weighting;
     @"_UIBackdropViewSettings" _outputSettingsA;
     @"_UIBackdropViewSettings" _outputSettingsB;
 }
@@ -18,8 +18,8 @@
  - (id) inputSettingsA;
  - (id) outputSettingsB;
  - (id) inputSettingsB;
- - (d) weighting;
- - (void) setWeighting:(d)a;
+ - (double) weighting;
+ - (void) setWeighting:(double)a;
 
 
 @end

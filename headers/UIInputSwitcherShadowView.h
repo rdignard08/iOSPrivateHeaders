@@ -1,8 +1,8 @@
 
 @interface UIInputSwitcherShadowView : UIView {
 
-    i m_mode;
-    d m_pointerOffset;
+    int m_mode;
+    double m_pointerOffset;
     @"NSArray" m_gradientColors;
     @"UIKeyboardMenuView" _menu;
     @"_UIBackdropView" _blurView;
@@ -10,9 +10,9 @@
 }
 
  - (void) dealloc;
- - (void) setMode:(i)a;
+ - (void) setMode:(int)a;
  - (void) layoutSubviews;
- - (i) mode;
+ - (int) mode;
  - (void) setGradientColors:(id)a;
  - (id) blurView;
  - (void) setBlurView:(id)a;
@@ -20,8 +20,8 @@
  - (void) setMenu:(id)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) keyRect;
  - (id) gradientColors;
- - (d) pointerOffset;
- - (void) setPointerOffset:(d)a;
+ - (double) pointerOffset;
+ - (void) setPointerOffset:(double)a;
  - (void) setKeyRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;

@@ -1,11 +1,11 @@
 
 @interface UIKeyboardEmojiInputController : NSObject {
 
-    i _currentSequence;
+    int _currentSequence;
     @"NSMutableDictionary" _usageHistory;
     @"NSMutableArray" _recents;
     @"NSMutableDictionary" _skinToneBaseKeyPreferences;
-    i _lastViewedCategory;
+    int _lastViewedCategory;
 }
 @property (atomic, assign, readwrite) NSNumber* lastViewedCategory;
  + (void) writeEmojiDefaultsAndReleaseActiveInputView;
@@ -15,15 +15,15 @@
 
  - (void) dealloc;
  - (id) initWithInputView:(id)a;
- - (i) lastViewedCategory;
+ - (int) lastViewedCategory;
  - (id) skinToneBaseKeyPreferences;
  - (void) updateSkinToneBaseKey:(id)avariantUsed:(id)b;
  - (void) emojiUsed:(id)a;
  - (id) recents;
- - (void) setLastViewedCategory:(i)a;
- - (d) scoreForSequence:(i)a;
- - (d) scoreForEmoji:(id)a;
- - (BOOL) isAncientSequence:(i)a;
+ - (void) setLastViewedCategory:(int)a;
+ - (double) scoreForSequence:(int)a;
+ - (double) scoreForEmoji:(id)a;
+ - (BOOL) isAncientSequence:(int)a;
  - (void) clearAncientHistory;
  - (id) defaultsDictionary;
 

@@ -13,7 +13,7 @@
  - (void) _setTargetQueue:(id)a;
  - (id) debugDescription;
  - (id) init;
- - (id) initWithBytes:(^v)alength:(Q)bcopy:(BOOL)cfreeWhenDone:(BOOL)dbytesAreVM:(BOOL)e;
+ - (id) initWithBytes:(^v)alength:(unsigned long long)bcopy:(BOOL)cfreeWhenDone:(BOOL)dbytesAreVM:(BOOL)e;
  - (BOOL) _bytesAreVM;
 
 

@@ -4,15 +4,15 @@
 
     r^v memory;
     r* current;
-    Q left;
-    Q max;
+    unsigned long long left;
+    unsigned long long max;
     BOOL freeWhenDone;
 }
 
- - (id) initFromMemoryNoCopy:(r^v)alength:(Q)bfreeWhenDone:(BOOL)c;
- - (i) readInt;
- - (Q) readAlignedDataSize;
- - (void) readData:(^v)alength:(Q)b;
+ - (id) initFromMemoryNoCopy:(r^v)alength:(unsigned long long)bfreeWhenDone:(BOOL)c;
+ - (int) readInt;
+ - (unsigned long long) readAlignedDataSize;
+ - (void) readData:(^v)alength:(unsigned long long)b;
  - (id) initFromPath:(id)a;
  - (void) dealloc;
  - (void) finalize;

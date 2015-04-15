@@ -1,10 +1,10 @@
 
 @interface UIAutocorrectShadowView : UIView {
 
-    i m_edgeType;
+    int m_edgeType;
 }
 
- - (void) setEdgeType:(i)a;
+ - (void) setEdgeType:(int)a;
  - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

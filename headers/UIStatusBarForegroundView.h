@@ -4,11 +4,11 @@
     BOOL _usesVerticalLayout;
     [31B] _itemIsEnabled;
     [3@"UIStatusBarLayoutManager"] _layoutManagers;
-    i _ignoreDataLevel;
+    int _ignoreDataLevel;
     @"NSMutableArray" _actionAnimationStack;
     @"UIStatusBarComposedData" _pendedData;
-    i _pendedActions;
-    q _idiom;
+    int _pendedActions;
+    long long _idiom;
     @"UIStatusBarForegroundStyleAttributes" _foregroundStyle;
 }
 
@@ -17,24 +17,24 @@
  - (id) foregroundStyle;
  - (void) startIgnoringData;
  - (void) _cleanUpAfterDataChange;
- - (void) _reflowItemViewsWithDuration:(d)apreserveHistory:(BOOL)b;
+ - (void) _reflowItemViewsWithDuration:(double)apreserveHistory:(BOOL)b;
  - (BOOL) ignoringData;
- - (void) _setStatusBarData:(id)aactions:(i)banimated:(BOOL)c;
+ - (void) _setStatusBarData:(id)aactions:(int)banimated:(BOOL)c;
  - (void) stopIgnoringData:(BOOL)a;
- - (void) _reflowItemViewsCrossfadingCenterWithDuration:(d)a;
+ - (void) _reflowItemViewsCrossfadingCenterWithDuration:(double)a;
  - (id) _computeVisibleItemsPreservingHistory:(BOOL)a;
  - (void) _cleanUpAfterSimpleReflow;
- - (void) setStatusBarData:(id)aactions:(i)banimated:(BOOL)c;
- - (d) edgePadding;
+ - (void) setStatusBarData:(id)aactions:(int)banimated:(BOOL)c;
+ - (double) edgePadding;
  - (BOOL) _tryToPlaceItem:(id)ainItemArray:(id)blayoutManager:(id)croomRemaining:(^d)dallowSwap:(BOOL)eswappedItem:(^@)f;
  - (void) setPersistentAnimationsEnabled:(BOOL)a;
  - (void) reflowItemViews:(BOOL)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aforegroundStyle:(id)busesVerticalLayout:(BOOL)c;
- - (void) reflowItemViewsCrossfadingCenter:(id)aduration:(d)b;
+ - (void) reflowItemViewsCrossfadingCenter:(id)aduration:(double)b;
  - (void) reflowItemViewsForgettingEitherSideItemHistory;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setIdiom:(q)a;
- - (q) idiom;
+ - (void) setIdiom:(long long)a;
+ - (long long) idiom;
  - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

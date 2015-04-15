@@ -2,12 +2,12 @@
 @protocol UITableViewSubviewReusing;
 @interface UITableViewHeaderFooterView : UIView <UITableViewSubviewReusing> {
 
-    q _tableViewStyle;
+    long long _tableViewStyle;
     @"UIImage" _backgroundImage;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frame;
-    q _textAlignment;
+    long long _textAlignment;
     @"UITableView" _tableView;
-    d _maxTitleWidth;
+    double _maxTitleWidth;
     @"NSString" _reuseIdentifier;
     @"UIView" _backgroundView;
     @"_UITableViewHeaderFooterViewLabel" _label;
@@ -18,29 +18,29 @@
     {?="isHeader"b1"labelBackgroundColorNeedsUpdate"b1"detailLabelBackgroundColorNeedsUpdate"b1"floating"b1"stripPadding"b1"isTopHeader"b1} _headerFooterFlags;
 }
  + (id) _defaultPlainHeaderFooterFont;
- + (id) _defaultFontForTableViewStyle:(q)aisSectionHeader:(BOOL)b;
- + (id) _defaultTextColorForTableViewStyle:(q)aisSectionHeader:(BOOL)b;
+ + (id) _defaultFontForTableViewStyle:(long long)aisSectionHeader:(BOOL)b;
+ + (id) _defaultTextColorForTableViewStyle:(long long)aisSectionHeader:(BOOL)b;
 
  - (void) dealloc;
  - (void) layoutSubviews;
  - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a;
- - (void) setTextAlignment:(q)a;
+ - (void) setTextAlignment:(long long)a;
  - (void) setText:(id)a;
  - (id) tintColor;
  - (void) setTintColor:(id)a;
  - (BOOL) _transparentFocusContainer;
- - ({CGSize=dd}) systemLayoutSizeFittingSize:({CGSize=dd})awithHorizontalFittingPriority:(f)bverticalFittingPriority:(f)c;
+ - ({CGSize=dd}) systemLayoutSizeFittingSize:({CGSize=dd})awithHorizontalFittingPriority:(float)bverticalFittingPriority:(float)c;
  - (id) _scriptingInfo;
  - (id) backgroundImage;
  - (void) _updateBackgroundImage;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _labelFrame;
- - (void) setMaxTitleWidth:(d)a;
+ - (void) setMaxTitleWidth:(double)a;
  - (void) setFloating:(BOOL)a;
- - (void) setTableViewStyle:(q)a;
+ - (void) setTableViewStyle:(long long)a;
  - (void) setSectionHeader:(BOOL)a;
  - (void) setTableView:(id)a;
- - (void) _setMarginWidth:(d)a;
- - (void) _setRightMarginWidth:(d)a;
+ - (void) _setMarginWidth:(double)a;
+ - (void) _setRightMarginWidth:(double)a;
  - (void) _setupLabelAppearance;
  - (void) _setBackgroundViewColor:(id)a;
  - (id) initWithReuseIdentifier:(id)a;
@@ -54,14 +54,14 @@
  - (void) _setStripPadding:(BOOL)a;
  - (id) backgroundView;
  - (void) _tableViewDidUpdateMarginWidth;
- - (d) _marginWidth;
- - (q) textAlignment;
+ - (double) _marginWidth;
+ - (long long) textAlignment;
  - (void) setBackgroundImage:(id)a;
  - (void) setNeedsUpdateConstraints;
  - (id) tableView;
  - ({CGSize=dd}) _sizeThatFits:({CGSize=dd})astripPaddingForAbuttingView:(BOOL)bisTopHeader:(BOOL)c;
- - (q) tableViewStyle;
- - (d) _rightMarginWidth;
+ - (long long) tableViewStyle;
+ - (double) _rightMarginWidth;
  - (void) _setupBackgroundView;
  - (void) _invalidateLabelBackgroundColor;
  - (void) _invalidateDetailLabelBackgroundColor;
@@ -71,8 +71,8 @@
  - (void) _updateLabelBackgroundColor;
  - (void) _updateDetailLabelBackgroundColor;
  - (id) _label:(BOOL)a;
- - ({CGSize=dd}) _textSizeForWidth:(d)a;
- - ({CGSize=dd}) _detailTextSizeForWidth:(d)a;
+ - ({CGSize=dd}) _textSizeForWidth:(double)a;
+ - ({CGSize=dd}) _detailTextSizeForWidth:(double)a;
  - (void) _updateLayerContents;
  - (void) _updateContentAndBackgroundView;
  - (void) _updateLabelBackgroundColorIfNeeeded;
@@ -81,7 +81,7 @@
  - (BOOL) floating;
  - (BOOL) _stripPadding;
  - (BOOL) _isTopHeader;
- - (d) maxTitleWidth;
+ - (double) maxTitleWidth;
  - (void) setBackgroundColor:(id)a;
  - (id) contentView;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;

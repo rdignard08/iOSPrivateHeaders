@@ -7,8 +7,8 @@
     @"NSCountedSet" _runloops;
     @"SSDownloadHandler" _handler;
     @"NSAsyncSSDownloadManager" _manager;
-    q _downloadIdent;
-    q _ctLast;
+    long long _downloadIdent;
+    long long _ctLast;
     BOOL _terminated;
     @"NSTimer" _deferredStartTimer;
 }
@@ -45,7 +45,7 @@
  - (void) downloadHandler:(id)ahandleAuthenticationSession:(id)b;
  - (void) invokeForDelegate:(@?)a;
  - (void) _sourcePerform;
- - (q) _getDownloadIdent;
+ - (long long) _getDownloadIdent;
 
 
 @end

@@ -2,36 +2,36 @@
 @protocol NSSecureCoding, NSCopying;
 @interface NSPredicateOperator : NSObject <NSSecureCoding, NSCopying> {
 
-    Q _operatorType;
-    Q _modifier;
+    unsigned long long _operatorType;
+    unsigned long long _modifier;
 }
  + (BOOL) supportsSecureCoding;
- + (id) _newOperatorWithType:(Q)amodifier:(Q)boptions:(Q)c;
- + (SEL) _getSelectorForType:(Q)a;
- + (id) _getSymbolForType:(Q)a;
- + (id) operatorWithType:(Q)amodifier:(Q)boptions:(Q)c;
- + (id) operatorWithCustomSelector:(SEL)amodifier:(Q)b;
+ + (id) _newOperatorWithType:(unsigned long long)amodifier:(unsigned long long)boptions:(unsigned long long)c;
+ + (SEL) _getSelectorForType:(unsigned long long)a;
+ + (id) _getSymbolForType:(unsigned long long)a;
+ + (id) operatorWithType:(unsigned long long)amodifier:(unsigned long long)boptions:(unsigned long long)c;
+ + (id) operatorWithCustomSelector:(SEL)amodifier:(unsigned long long)b;
 
- - (void) _setOptions:(Q)a;
- - (id) initWithOperatorType:(Q)amodifier:(Q)b;
- - (Q) operatorType;
+ - (void) _setOptions:(unsigned long long)a;
+ - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)b;
+ - (unsigned long long) operatorType;
  - (id) predicateFormat;
  - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
- - (Q) modifier;
+ - (unsigned long long) modifier;
  - (BOOL) performOperationUsingObject:(id)aandObject:(id)b;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (id) symbol;
- - (id) initWithOperatorType:(Q)a;
- - (id) initWithOperatorType:(Q)amodifier:(Q)boptions:(Q)c;
- - (void) _setModifier:(Q)a;
+ - (id) initWithOperatorType:(unsigned long long)a;
+ - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)boptions:(unsigned long long)c;
+ - (void) _setModifier:(unsigned long long)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (SEL) selector;
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (Q) options;
+ - (unsigned long long) options;
 
 
 @end

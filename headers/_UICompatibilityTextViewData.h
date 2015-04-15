@@ -3,7 +3,7 @@
 
     @"WebFrame" m_frame;
     @"DOMHTMLElement" m_body;
-    i m_marginTop;
+    int m_marginTop;
     @"UIDelayedAction" m_selectionTimer;
     @"UIDelayedAction" m_longPressAction;
     BOOL m_editable;
@@ -17,10 +17,10 @@
     @"UIWebDocumentView" m_webView;
     @"UIFont" m_font;
     @"UIColor" m_textColor;
-    q m_textAlignment;
+    long long m_textAlignment;
     @"UIView" m_inputView;
     @"UIView" m_inputAccessoryView;
-    d m_lineHeight;
+    double m_lineHeight;
     BOOL m_skipScrollContainingView;
     BOOL m_allowsEditingTextAttributes;
     BOOL m_usesAttributedText;

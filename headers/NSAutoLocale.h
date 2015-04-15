@@ -12,7 +12,7 @@
  - (id) description;
  - (void) dealloc;
  - (id) objectForKey:(id)a;
- - (C) _nullLocale;
+ - (unsigned char) _nullLocale;
  - (void) _setNullLocale;
  - (id) _prefs;
  - (id) displayNameForKey:(id)avalue:(id)b;

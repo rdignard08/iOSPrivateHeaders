@@ -5,7 +5,7 @@
 }
 
  - (id) copyWithZone:(^{_NSZone=})a;
- - (void) setActions:(id)aforContext:(Q)b;
+ - (void) setActions:(id)aforContext:(unsigned long long)b;
  - (id) identifier;
  - (void) setIdentifier:(id)a;
 

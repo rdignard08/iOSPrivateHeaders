@@ -1,9 +1,9 @@
 
 @interface UIKeyboardEmojiCategory : NSObject {
 
-    i _categoryType;
+    int _categoryType;
     @"NSArray" _emoji;
-    q _lastVisibleFirstEmojiIndex;
+    long long _lastVisibleFirstEmojiIndex;
     @"NSString" _displaySymbol;
 }
 @property (atomic, assign, readwrite) NSNumber* categoryType;
@@ -12,23 +12,23 @@
 @property (nonatomic, assign, readonly, name) NSString* name;
 @property (atomic, assign, readonly, displaySymbol) NSString* displaySymbol;
  + (id) localizedStringForKey:(id)a;
- + (q) numberOfCategories;
- + (id) categoryForType:(i)a;
- + (id) displayName:(i)a;
+ + (long long) numberOfCategories;
+ + (id) categoryForType:(int)a;
+ + (id) displayName:(int)a;
  + (id) categories;
- + (BOOL) emojiString:(id)ainGroup:(^I)bwithGroupCount:(i)c;
- + (Q) hasVariantsForEmoji:(id)a;
+ + (BOOL) emojiString:(id)ainGroup:(^I)bwithGroupCount:(int)c;
+ + (unsigned long long) hasVariantsForEmoji:(id)a;
  + (id) emojiRecentsFromPreferences;
 
  - (void) dealloc;
  - (id) name;
  - (id) emoji;
  - (void) setEmoji:(id)a;
- - (void) setCategoryType:(i)a;
- - (i) categoryType;
+ - (void) setCategoryType:(int)a;
+ - (int) categoryType;
  - (void) releaseCategories;
- - (q) lastVisibleFirstEmojiIndex;
- - (void) setLastVisibleFirstEmojiIndex:(q)a;
+ - (long long) lastVisibleFirstEmojiIndex;
+ - (void) setLastVisibleFirstEmojiIndex:(long long)a;
  - (id) displaySymbol;
 
 

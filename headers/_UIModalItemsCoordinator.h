@@ -14,7 +14,7 @@
 @property (nonatomic, retain, readwrite) _UIModalItemHostingWindow* _hostingWindowForSBAlerts;
 @property (nonatomic, retain, readwrite) _UIModalItemAppViewController* _viewControllerForAlerts;
 @property (nonatomic, retain, readwrite) _UIModalItemHostingWindow* _hostingWindowForAlerts;
- + (void) noteOrientationChangingTo:(q)aanimated:(BOOL)b;
+ + (void) noteOrientationChangingTo:(long long)aanimated:(BOOL)b;
  + (id) sharedModalItemsCoordinator;
  + (void) _resaturateUIForSB;
  + (void) _desaturateUIForSB;
@@ -22,11 +22,11 @@
  + (void) _getRidOfViewControllerForAlerts;
 
  - (void) dealloc;
- - (void) noteOrientationChangingTo:(q)aanimated:(BOOL)b;
- - (BOOL) _notifyDelegateModalItem:(id)atappedButtonAtIndex:(q)b;
- - (void) _dismissItem:(id)awithTappedButtonIndex:(q)banimated:(BOOL)cnotifyDelegate:(BOOL)d;
- - (void) _notifyDelegateWillDismissItem:(id)awithIndex:(q)b;
- - (void) _notifyDelegateDidDismissItem:(id)awithIndex:(q)b;
+ - (void) noteOrientationChangingTo:(long long)aanimated:(BOOL)b;
+ - (BOOL) _notifyDelegateModalItem:(id)atappedButtonAtIndex:(long long)b;
+ - (void) _dismissItem:(id)awithTappedButtonIndex:(long long)banimated:(BOOL)cnotifyDelegate:(BOOL)d;
+ - (void) _notifyDelegateWillDismissItem:(id)awithIndex:(long long)b;
+ - (void) _notifyDelegateDidDismissItem:(id)awithIndex:(long long)b;
  - (void) _notifyDelegateWillPresentItem:(id)a;
  - (void) _notifyDelegateDidPresentItem:(id)a;
  - (void) _updateItem:(id)aanimated:(BOOL)b;
@@ -35,7 +35,7 @@
  - (void) _presentItem:(id)areplacingItem:(id)binViewController:(id)canimated:(BOOL)d;
  - (id) _presentingViewControllerForSBCompatibility;
  - (id) _presentingViewControllerForAlertCompatibilityCreateIfNeeded:(BOOL)a;
- - (void) _hideModalItemsForType:(q)apresentingViewController:(id)bdimSpotlightView:(BOOL)canimated:(BOOL)d;
+ - (void) _hideModalItemsForType:(long long)apresentingViewController:(id)bdimSpotlightView:(BOOL)canimated:(BOOL)d;
  - (id) _viewControllerForSBAlerts;
  - (void) set_viewControllerForSBAlerts:(id)a;
  - (void) set_hostingWindowForSBAlerts:(id)a;
@@ -52,8 +52,8 @@
  - (void) _notifyDissmissedItem:(id)a;
  - (void) setPresentingSessionsMapTable:(id)a;
  - (void) setSessionForItemMapTable:(id)a;
- - (id) _presentingSessionForViewController:(id)aofItemsType:(q)b;
- - (void) _showModalItemsForType:(q)apresentingViewController:(id)bundimSpotlightView:(BOOL)canimated:(BOOL)d;
+ - (id) _presentingSessionForViewController:(id)aofItemsType:(long long)b;
+ - (void) _showModalItemsForType:(long long)apresentingViewController:(id)bundimSpotlightView:(BOOL)canimated:(BOOL)d;
  - (id) _presentingViewControllerForAlertCompatibility;
  - (id) _rootViewControllerForModalItem:(id)a;
  - (id) hostingViewControllerForViewController:(id)aandModalItem:(id)bcreate:(BOOL)c;

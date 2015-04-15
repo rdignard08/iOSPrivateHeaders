@@ -3,7 +3,7 @@
 
 }
 
- - (void) _observeOtherSetting:(Q)awithBlock:(@?)b;
+ - (void) _observeOtherSetting:(unsigned long long)awithBlock:(@?)b;
  - (void) observeStatusBarStyleWithBlock:(@?)a;
  - (void) observeStatusBarHiddenWithBlock:(@?)a;
  - (void) observeDefaultStatusBarStyleWithBlock:(@?)a;

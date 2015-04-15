@@ -8,9 +8,9 @@
     {CGPoint="x"d"y"d} _initialPoint;
     {CGPoint="x"d"y"d} _initialDragPoint;
     BOOL _dragged;
-    i _stage;
+    int _stage;
     BOOL _maySuppressUpAction;
-    i _initialKeyState;
+    int _initialKeyState;
 }
 @property (nonatomic, retain, readwrite) UITouch* touch;
 @property (nonatomic, retain, readwrite) UIKBTree* key;
@@ -33,17 +33,17 @@
  - (id) slidOffKey;
  - ({CGPoint=dd}) initialPoint;
  - (void) setInitialPoint:({CGPoint=dd})a;
- - (void) setStage:(i)a;
+ - (void) setStage:(int)a;
  - ({CGPoint=dd}) initialDragPoint;
  - (void) setInitialDragPoint:({CGPoint=dd})a;
  - (BOOL) dragged;
  - (void) setDragged:(BOOL)a;
  - (BOOL) maySuppressUpAction;
  - (void) setMaySuppressUpAction:(BOOL)a;
- - (i) initialKeyState;
- - (void) setInitialKeyState:(i)a;
+ - (int) initialKeyState;
+ - (void) setInitialKeyState:(int)a;
  - (id) key;
- - (i) stage;
+ - (int) stage;
 
 
 @end

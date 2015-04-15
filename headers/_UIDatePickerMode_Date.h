@@ -1,30 +1,30 @@
 
 @interface _UIDatePickerMode_Date : _UIDatePickerMode {
 
-    d _dateYearWidth;
-    d _dateMonthWidth;
-    d _dateDayWidth;
+    double _dateYearWidth;
+    double _dateMonthWidth;
+    double _dateDayWidth;
     @"NSString" _yearFormat;
     @"NSString" _monthFormat;
     @"NSString" _dayFormat;
 }
- + (q) datePickerMode;
- + (Q) extractableCalendarUnits;
+ + (long long) datePickerMode;
+ + (unsigned long long) extractableCalendarUnits;
 
  - (void) dealloc;
  - (void) noteCalendarChanged;
- - (q) displayedCalendarUnits;
+ - (long long) displayedCalendarUnits;
  - (void) resetComponentWidths;
  - (void) _shouldReset:(id)a;
- - (id) dateFormatForCalendarUnit:(Q)a;
- - (d) widthForCalendarUnit:(Q)afont:(id)bmaxWidth:(d)c;
+ - (id) dateFormatForCalendarUnit:(unsigned long long)a;
+ - (double) widthForCalendarUnit:(unsigned long long)afont:(id)bmaxWidth:(double)c;
  - (id) localizedFormatString;
- - (q) numberOfRowsForCalendarUnit:(Q)a;
- - (Q) nextUnitSmallerThanUnit:(Q)a;
- - (Q) nextUnitLargerThanUnit:(Q)a;
- - (id) _dateForYearRow:(q)a;
- - (q) rowForDate:(id)adateComponents:(id)bcomponent:(q)ccurrentRow:(q)d;
- - (BOOL) _shouldEnableValueForRow:(q)ainComponent:(q)bcalendarUnit:(Q)c;
+ - (long long) numberOfRowsForCalendarUnit:(unsigned long long)a;
+ - (unsigned long long) nextUnitSmallerThanUnit:(unsigned long long)a;
+ - (unsigned long long) nextUnitLargerThanUnit:(unsigned long long)a;
+ - (id) _dateForYearRow:(long long)a;
+ - (long long) rowForDate:(id)adateComponents:(id)bcomponent:(long long)ccurrentRow:(long long)d;
+ - (BOOL) _shouldEnableValueForRow:(long long)ainComponent:(long long)bcalendarUnit:(unsigned long long)c;
 
 
 @end

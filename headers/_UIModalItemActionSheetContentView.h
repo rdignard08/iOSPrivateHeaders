@@ -11,7 +11,7 @@
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
  - (void) _prepareViewIfNeeded;
  - (void) _createOtherButtonTableView;
- - (d) numberOfOtherButtonTitles;
+ - (double) numberOfOtherButtonTitles;
  - (void) _moveAllSubviewsToEffectContentView;
  - (void) layout;
 

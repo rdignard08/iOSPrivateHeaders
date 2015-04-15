@@ -2,9 +2,9 @@
 @protocol NSCoding;
 @interface UIProgressView : UIView <NSCoding> {
 
-    q _progressViewStyle;
-    f _progress;
-    q _barStyle;
+    long long _progressViewStyle;
+    float _progress;
+    long long _barStyle;
     @"UIColor" _progressTintColor;
     @"UIColor" _trackTintColor;
     @"UIImageView" _trackView;
@@ -16,10 +16,10 @@
     @"UIImage" _progressImage;
 }
  + ({CGSize=dd}) defaultSize;
- + (id) _tintedImageForHeight:(d)aandColors:(id)broundingRectCorners:(Q)c;
- + (id) _tintedImageForHeight:(d)aandColors:(id)b;
- + (i) _indexForStyle:(q)abarStyle:(q)b;
- + ({?=@@}) _standardImagesForStyle:(q)abarStyle:(q)b;
+ + (id) _tintedImageForHeight:(double)aandColors:(id)broundingRectCorners:(unsigned long long)c;
+ + (id) _tintedImageForHeight:(double)aandColors:(id)b;
+ + (int) _indexForStyle:(long long)abarStyle:(long long)b;
+ + ({?=@@}) _standardImagesForStyle:(long long)abarStyle:(long long)b;
 
  - (BOOL) af_uploadProgressAnimated;
  - (BOOL) af_downloadProgressAnimated;
@@ -30,8 +30,8 @@
  - (void) setProgressWithUploadProgressOfOperation:(id)aanimated:(BOOL)b;
  - (void) setProgressWithDownloadProgressOfOperation:(id)aanimated:(BOOL)b;
  - (void) observeValueForKeyPath:(id)aofObject:(id)bchange:(id)ccontext:(^v)d;
- - (f) progress;
- - (void) setProgress:(f)a;
+ - (float) progress;
+ - (void) setProgress:(float)a;
  - (void) dealloc;
  - (void) _populateArchivedSubviews:(id)a;
  - ({CGSize=dd}) _intrinsicSizeWithinSize:({CGSize=dd})a;
@@ -40,30 +40,30 @@
  - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a;
  - ({UIEdgeInsets=dddd}) alignmentRectInsets;
  - (void) tintColorDidChange;
- - (void) setBarStyle:(q)a;
- - (q) barStyle;
+ - (void) setBarStyle:(long long)a;
+ - (long long) barStyle;
  - (void) _updateImages;
- - (void) _setProgress:(f)a;
- - (void) setProgressViewStyle:(q)a;
+ - (void) _setProgress:(float)a;
+ - (void) setProgressViewStyle:(long long)a;
  - (BOOL) _shouldTintTrack;
  - (BOOL) _shouldTintProgress;
  - (id) trackTintColor;
  - (id) _defaultTrackColorForCurrentStyle;
- - (Q) _roundedCornersForTrackForCurrentStyle;
+ - (unsigned long long) _roundedCornersForTrackForCurrentStyle;
  - (id) progressTintColor;
- - (Q) _roundedCornersForProgressForCurrentStyle;
+ - (unsigned long long) _roundedCornersForProgressForCurrentStyle;
  - (id) _appropriateProgressImage;
  - (id) _appropriateTrackImage;
- - (void) _setProgressAnimated:(f)aduration:(d)bdelay:(d)coptions:(Q)d;
+ - (void) _setProgressAnimated:(float)aduration:(double)bdelay:(double)coptions:(unsigned long long)d;
  - (void) setProgressTintColor:(id)a;
- - (id) initWithProgressViewStyle:(q)a;
- - (void) setProgress:(f)aanimated:(BOOL)b;
+ - (id) initWithProgressViewStyle:(long long)a;
+ - (void) setProgress:(float)aanimated:(BOOL)b;
  - (id) _progressColor;
  - (void) _setProgressColor:(id)a;
  - (void) setProgressImage:(id)a;
  - (void) setTrackTintColor:(id)a;
  - (void) setTrackImage:(id)a;
- - (q) progressViewStyle;
+ - (long long) progressViewStyle;
  - (id) trackImage;
  - (id) progressImage;
  - (BOOL) isElementAccessibilityExposedToInterfaceBuilder;

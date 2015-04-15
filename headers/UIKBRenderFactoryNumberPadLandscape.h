@@ -6,8 +6,8 @@
  - ({CGPoint=dd}) deleteGlyphOffset;
  - ({CGPoint=dd}) dictationGlyphOffset;
  - ({CGPoint=dd}) loneZeroOffset;
- - (d) numberFontSize;
- - (d) letterFontSize;
+ - (double) numberFontSize;
+ - (double) letterFontSize;
  - ({CGPoint=dd}) leftColumnNumberOffset;
  - ({CGPoint=dd}) leftColumnLetterOffset;
  - ({CGPoint=dd}) rightColumnNumberOffset;

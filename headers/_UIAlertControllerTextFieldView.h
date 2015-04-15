@@ -11,7 +11,7 @@
  - (void) _addConstraints;
  - (id) textField;
  - (id) _textFieldFont;
- - (d) _borderWidth;
+ - (double) _borderWidth;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

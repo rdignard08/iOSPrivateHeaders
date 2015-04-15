@@ -3,7 +3,7 @@
 
     b1 _systemGesturesRecognitionPossible;
     b1 _waitingForSystemGestureStateNotification;
-    d _lastTouchTime;
+    double _lastTouchTime;
     @"NSTimer" _delayTimeoutTimer;
 }
 
@@ -17,7 +17,7 @@
  - (BOOL) canPreventGestureRecognizer:(id)a;
  - (void) _resetGestureRecognizer;
  - (id) _gateGestureTypeString;
- - (i) _gateGestureType;
+ - (int) _gateGestureType;
  - (void) _timeOut;
  - (BOOL) _shouldBeRequiredToFailByGestureRecognizer:(id)a;
  - (id) initWithTarget:(id)aaction:(SEL)b;

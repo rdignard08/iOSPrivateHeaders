@@ -7,29 +7,29 @@
 @property (atomic, assign, readwrite) NSNumber* tolerance;
 @property (atomic, assign, readonly, isValid) NSNumber* valid;
 @property (atomic, retain, readonly) NSNumber* userInfo;
- + (id) timerWithTimeInterval:(d)ainvocation:(id)brepeats:(BOOL)c;
- + (id) scheduledTimerWithTimeInterval:(d)ainvocation:(id)brepeats:(BOOL)c;
+ + (id) timerWithTimeInterval:(double)ainvocation:(id)brepeats:(BOOL)c;
+ + (id) scheduledTimerWithTimeInterval:(double)ainvocation:(id)brepeats:(BOOL)c;
  + (id) timerWithFireDate:(id)atarget:(id)bselector:(SEL)cuserInfo:(id)d;
  + (id) allocWithZone:(^{_NSZone=})a;
- + (id) scheduledTimerWithTimeInterval:(d)atarget:(id)bselector:(SEL)cuserInfo:(id)drepeats:(BOOL)e;
- + (id) timerWithTimeInterval:(d)atarget:(id)bselector:(SEL)cuserInfo:(id)drepeats:(BOOL)e;
+ + (id) scheduledTimerWithTimeInterval:(double)atarget:(id)bselector:(SEL)cuserInfo:(id)drepeats:(BOOL)e;
+ + (id) timerWithTimeInterval:(double)atarget:(id)bselector:(SEL)cuserInfo:(id)drepeats:(BOOL)e;
 
- - (id) initWithFireDate:(id)ainterval:(d)btarget:(id)cselector:(SEL)duserInfo:(id)erepeats:(BOOL)f;
+ - (id) initWithFireDate:(id)ainterval:(double)btarget:(id)cselector:(SEL)duserInfo:(id)erepeats:(BOOL)f;
  - (id) fireDate;
  - (void) setFireDate:(id)a;
  - (void) fire;
  - (^{__CFString=}) copyDebugDescription;
- - (d) fireTime;
- - (void) setFireTime:(d)a;
+ - (double) fireTime;
+ - (void) setFireTime:(double)a;
  - (id) userInfo;
  - (void) invalidate;
  - (BOOL) isValid;
- - (d) timeInterval;
- - (d) tolerance;
- - (void) setTolerance:(d)a;
- - (d) _cffireTime;
- - (q) order;
- - (d) interval;
+ - (double) timeInterval;
+ - (double) tolerance;
+ - (void) setTolerance:(double)a;
+ - (double) _cffireTime;
+ - (long long) order;
+ - (double) interval;
  - ({?=q^v^?^?^?}) context;
 
 

@@ -8,17 +8,17 @@
 
  - (id) numberFormatter;
  - (void) setNumberFormatter:(id)a;
- - (q) unitStyle;
- - (void) setUnitStyle:(q)a;
- - (id) unitStringFromValue:(d)aunit:(q)b;
- - (id) stringFromValue:(d)aunit:(q)b;
+ - (long long) unitStyle;
+ - (void) setUnitStyle:(long long)a;
+ - (id) unitStringFromValue:(double)aunit:(long long)b;
+ - (id) stringFromValue:(double)aunit:(long long)b;
  - (BOOL) getObjectValue:(o^@)aforString:(id)berrorDescription:(o^@)c;
  - (id) stringForObjectValue:(id)a;
  - (id) attributedStringForObjectValue:(id)awithDefaultAttributes:(id)b;
  - (BOOL) isForFoodEnergyUse;
- - (q) targetUnitFromJoules:(d)a;
- - (id) stringFromJoules:(d)a;
- - (id) unitStringFromJoules:(d)ausedUnit:(^q)b;
+ - (long long) targetUnitFromJoules:(double)a;
+ - (id) stringFromJoules:(double)a;
+ - (id) unitStringFromJoules:(double)ausedUnit:(^q)b;
  - (void) setForFoodEnergyUse:(BOOL)a;
  - (void) dealloc;
  - (id) init;

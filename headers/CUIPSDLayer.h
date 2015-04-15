@@ -1,8 +1,8 @@
 
 @interface CUIPSDLayer : NSObject {
 
-    d _opacity;
-    i _blendMode;
+    double _opacity;
+    int _blendMode;
     @"NSString" _name;
 }
 @property (nonatomic, assign, readwrite) NSNumber* opacity;
@@ -13,10 +13,10 @@
  - (id) name;
  - (id) init;
  - (void) setName:(id)a;
- - (i) blendMode;
- - (void) setBlendMode:(i)a;
- - (d) opacity;
- - (void) setOpacity:(d)a;
+ - (int) blendMode;
+ - (void) setBlendMode:(int)a;
+ - (double) opacity;
+ - (void) setOpacity:(double)a;
 
 
 @end

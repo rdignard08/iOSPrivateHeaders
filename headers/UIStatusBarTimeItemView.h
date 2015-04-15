@@ -5,10 +5,10 @@
 }
 
  - (void) dealloc;
- - (BOOL) updateForNewData:(id)aactions:(i)b;
+ - (BOOL) updateForNewData:(id)aactions:(int)b;
  - (id) contentsImage;
- - (d) extraRightPadding;
- - (q) textStyle;
+ - (double) extraRightPadding;
+ - (long long) textStyle;
 
 
 @end

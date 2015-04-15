@@ -9,9 +9,9 @@
  - (void) setSourcePoints:(id)a;
  - (void) setKeyPath:(id)a;
  - (BOOL) _setCARenderAnimation:(^{Animation=^^?{Atomic={?=i}}f{Ref<CA::Render::Timing>=^{Timing}}{Ref<CA::Render::Vector>=^{Vector}}^vIIII})alayer:(id)b;
- - (I) _propertyFlagsForLayer:(id)a;
+ - (unsigned int) _propertyFlagsForLayer:(id)a;
  - (^{Animation=^^?{Atomic={?=i}}f{Ref<CA::Render::Timing>=^{Timing}}{Ref<CA::Render::Vector>=^{Vector}}^vIIII}) _copyRenderAnimationForLayer:(id)a;
- - (void) applyForTime:(d)apresentationObject:(id)bmodelObject:(id)c;
+ - (void) applyForTime:(double)apresentationObject:(id)bmodelObject:(id)c;
  - (BOOL) isAdditive;
  - (id) sourceLayer;
  - (BOOL) targetsSuperlayer;

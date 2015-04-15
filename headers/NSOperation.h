@@ -2,8 +2,8 @@
 @interface NSOperation : NSObject {
 
     id _private;
-    i _private1;
-    i _private1b;
+    int _private1;
+    int _private1b;
 }
 @property (nonatomic, assign, readwrite) NSNumber* tag;
 @property (atomic, assign, readonly, isCancelled) NSNumber* cancelled;
@@ -21,8 +21,8 @@
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
  + (id) currentOperation;
 
- - (void) setTag:(Q)a;
- - (Q) tag;
+ - (void) setTag:(unsigned long long)a;
+ - (unsigned long long) tag;
  - (void) addDependency:(id)a;
  - (id) _activity;
  - (BOOL) isCancelled;
@@ -31,19 +31,19 @@
  - (id) _implicitObservationInfo;
  - (BOOL) isFinished;
  - (BOOL) isReady;
- - (d) threadPriority;
- - (void) setThreadPriority:(d)a;
+ - (double) threadPriority;
+ - (void) setThreadPriority:(double)a;
  - (@?) completionBlock;
  - (void) setCompletionBlock:(@?)a;
  - (BOOL) isExecuting;
  - (id) __;
  - (BOOL) isConcurrent;
  - (BOOL) isAsynchronous;
- - (q) _effQoS;
- - (q) queuePriority;
- - (q) qualityOfService;
- - (void) setQualityOfService:(q)a;
- - (void) waitUntilFinishedOrTimeout:(d)a;
+ - (long long) _effQoS;
+ - (long long) queuePriority;
+ - (long long) qualityOfService;
+ - (void) setQualityOfService:(long long)a;
+ - (void) waitUntilFinishedOrTimeout:(double)a;
  - (void) removeDependency:(id)a;
  - (id) dependencies;
  - (id) description;
@@ -56,7 +56,7 @@
  - (void) cancel;
  - (void) start;
  - (void) setName:(id)a;
- - (void) setQueuePriority:(q)a;
+ - (void) setQueuePriority:(long long)a;
 
 
 @end

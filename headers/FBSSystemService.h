@@ -4,10 +4,10 @@
 }
  + (id) sharedService;
 
- - (void) openURL:(id)aapplication:(id)boptions:(id)cclientPort:(I)dwithResult:(@?)e;
- - (void) cleanupClientPort:(I)a;
- - (I) createClientPort;
- - (void) openApplication:(id)aoptions:(id)bclientPort:(I)cwithResult:(@?)d;
+ - (void) openURL:(id)aapplication:(id)boptions:(id)cclientPort:(unsigned int)dwithResult:(@?)e;
+ - (void) cleanupClientPort:(unsigned int)a;
+ - (unsigned int) createClientPort;
+ - (void) openApplication:(id)aoptions:(id)bclientPort:(unsigned int)cwithResult:(@?)d;
  - (void) dealloc;
  - (id) init;
  - (void) setBadgeValue:(id)aforBundleID:(id)b;
@@ -16,12 +16,12 @@
  - (void) reboot;
  - (void) shutdown;
  - (id) systemApplicationBundleIdentifier;
- - (i) pidForApplication:(id)a;
+ - (int) pidForApplication:(id)a;
  - (BOOL) canOpenApplication:(id)areason:(^q)b;
  - (void) openDataActivationURL:(id)awithResult:(@?)b;
  - (void) openApplication:(id)aoptions:(id)bwithResult:(@?)c;
- - (void) terminateApplication:(id)aforReason:(q)bandReport:(BOOL)cwithDescription:(id)d;
- - (void) terminateApplicationGroup:(q)aforReason:(q)bandReport:(BOOL)cwithDescription:(id)d;
+ - (void) terminateApplication:(id)aforReason:(long long)bandReport:(BOOL)cwithDescription:(id)d;
+ - (void) terminateApplicationGroup:(long long)aforReason:(long long)bandReport:(BOOL)cwithDescription:(id)d;
  - (void) fireCompletion:(@?)aerror:(id)b;
  - (id) clientCallbackQueue;
 

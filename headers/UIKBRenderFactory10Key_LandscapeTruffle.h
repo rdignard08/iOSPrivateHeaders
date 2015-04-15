@@ -3,8 +3,8 @@
 
 }
 
- - (void) setupColumnLayoutSegmentsWithControlWidth:(d)a;
- - (d) controlColumnWidthFactor;
+ - (void) setupColumnLayoutSegmentsWithControlWidth:(double)a;
+ - (double) controlColumnWidthFactor;
 
 
 @end

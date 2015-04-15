@@ -2,8 +2,8 @@
 @interface UIInputViewSetNotificationInfo : NSObject {
 
     BOOL _changedAccessoryOnly;
-    d _duration;
-    Q _options;
+    double _duration;
+    unsigned long long _options;
     {CGPoint="x"d"y"d} _beginCenter;
     {CGPoint="x"d"y"d} _endCenter;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _beginFrame;
@@ -22,7 +22,7 @@
 @property (nonatomic, assign, readwrite) NSNumber* bounds;
  + (id) info;
 
- - (d) duration;
+ - (double) duration;
  - (id) userInfo;
  - (void) setEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) beginFrame;
@@ -39,11 +39,11 @@
  - (void) logGeometry;
  - (void) populateWithAnimationStyle:(id)a;
  - (void) setChangedAccessoryOnly:(BOOL)a;
- - (void) setOptions:(Q)a;
- - (Q) options;
+ - (void) setOptions:(unsigned long long)a;
+ - (unsigned long long) options;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
  - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setDuration:(d)a;
+ - (void) setDuration:(double)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) endFrame;
 
 

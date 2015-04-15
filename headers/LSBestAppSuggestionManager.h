@@ -3,7 +3,7 @@
 
     @"<LSBestAppSuggestionManagerDelegate>" _delegate;
     BOOL _listeningForBestAppSuggestions;
-    i _bestAppNotificationCount;
+    int _bestAppNotificationCount;
     @"LSBestAppSuggestion" _lastBestAppSuggestion;
     @"NSXPCConnection" _connection;
 }
@@ -16,12 +16,12 @@
  - (void) launchAppWithBundleIdentifier:(id)auserActivityUniqueIdentifier:(id)buserActivityTypeIdentifier:(id)c;
  - (void) launchAppWithBundleIdentifier:(id)auserActivityUniqueIdentifier:(id)buserActivityTypeIdentifier:(id)cdeviceName:(id)ddeviceIdentifier:(id)edeviceType:(id)f;
  - (void) removeBestApp:(id)aoptions:(id)b;
- - (BOOL) determineBestAppWithDelay:(d)awithBlock:(@?)b;
- - (id) bestAppSuggestions:(q)a;
+ - (BOOL) determineBestAppWithDelay:(double)awithBlock:(@?)b;
+ - (id) bestAppSuggestions:(long long)a;
  - (void) queueFetchOfPayloadForBestAppSuggestion:(id)a;
- - (void) bestAppSuggestionWasLaunched:(id)awithInteractionType:(i)b;
+ - (void) bestAppSuggestionWasLaunched:(id)awithInteractionType:(int)b;
  - (void) bestAppSuggestionLaunchWasCancelled:(id)a;
- - (void) notifyBestAppChanged:(id)atype:(Q)boptions:(id)cbundleIdentifier:(id)dactivityType:(id)ewhen:(id)fconfidence:(d)gdeviceName:(id)hdeviceIdentifier:(id)ideviceType:(id)j;
+ - (void) notifyBestAppChanged:(id)atype:(unsigned long long)boptions:(id)cbundleIdentifier:(id)dactivityType:(id)ewhen:(id)fconfidence:(double)gdeviceName:(id)hdeviceIdentifier:(id)ideviceType:(id)j;
  - (void) launchAppWithBundleIdentifier:(id)ataskContinuationIdentifier:(id)b;
  - (void) launchAppWithBestAppSuggestion:(id)a;
  - (id) connection;

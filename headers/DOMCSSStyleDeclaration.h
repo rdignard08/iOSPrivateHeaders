@@ -20,7 +20,7 @@
  - (void) setMarginTop:(id)a;
  - (void) setFontSize:(id)a;
  - (void) setBorderStyle:(id)a;
- - (id) item:(I)a;
+ - (id) item:(unsigned int)a;
  - (id) background;
  - (void) setBackground:(id)a;
  - (id) paddingTop;
@@ -39,7 +39,7 @@
  - (id) zIndex;
  - (void) setZIndex:(id)a;
  - (id) borderStyle;
- - (I) length;
+ - (unsigned int) length;
  - (void) setSize:(id)a;
  - (void) setBackgroundColor:(id)a;
  - (void) setBorderColor:(id)a;

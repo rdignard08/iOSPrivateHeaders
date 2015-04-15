@@ -16,7 +16,7 @@
  - (void) setHighlighted:(BOOL)a;
  - (void) _updateState;
  - (id) _contentBackgroundColor;
- - (q) buttonType;
+ - (long long) buttonType;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})afillColor:(id)b;
  - (void) _commonRoundedRectButtonInit;
  - (BOOL) _wantsTableViewStyleBackground;

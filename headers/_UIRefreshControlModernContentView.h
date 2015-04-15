@@ -8,7 +8,7 @@
     BOOL _hasFinishedRevealing;
     @"UILabel" _textLabel;
     BOOL _areAnimationsValid;
-    d _currentPopStiffness;
+    double _currentPopStiffness;
 }
 
  - (void) dealloc;
@@ -19,14 +19,14 @@
  - (id) textLabel;
  - (id) _effectiveTintColor;
  - (id) attributedTitle;
- - (d) _heightAtWhichNoneOfTheInterfaceElementsAreVisibleEvenIfTheControlIsStillPartiallyOnScreen;
- - (d) maximumSnappingHeight;
- - (void) setCurrentPopStiffness:(d)a;
- - (void) willTransitionFromState:(i)atoState:(i)b;
- - (void) didTransitionFromState:(i)atoState:(i)b;
+ - (double) _heightAtWhichNoneOfTheInterfaceElementsAreVisibleEvenIfTheControlIsStillPartiallyOnScreen;
+ - (double) maximumSnappingHeight;
+ - (void) setCurrentPopStiffness:(double)a;
+ - (void) willTransitionFromState:(int)atoState:(int)b;
+ - (void) didTransitionFromState:(int)atoState:(int)b;
  - (void) setAreAnimationsValid:(BOOL)a;
  - (void) _snappingMagic;
- - (d) _currentTimeOffset;
+ - (double) _currentTimeOffset;
  - (BOOL) areAnimationsValid;
  - (void) _updateTimeOffsetOfRelevantLayers;
  - (void) _resetToRevealingState;
@@ -35,13 +35,13 @@
  - (void) _goAway;
  - (void) _cleanUpAfterRevealing;
  - (void) _setSpunAppearance;
- - (id) _effectiveTintColorWithAlpha:(d)a;
+ - (id) _effectiveTintColorWithAlpha:(double)a;
  - (void) _reveal;
- - (d) currentPopStiffness;
- - (d) _percentageShowing;
- - (d) _effectiveScrollViewHeight;
+ - (double) currentPopStiffness;
+ - (double) _percentageShowing;
+ - (double) _effectiveScrollViewHeight;
  - (void) _tick;
- - (q) style;
+ - (long long) style;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

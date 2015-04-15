@@ -3,9 +3,9 @@
 
 }
 
- - (q) UIActionType;
+ - (long long) UIActionType;
  - (id) init;
- - (id) initWithInfo:(id)atimeout:(d)bforResponseOnQueue:(id)cwithHandler:(@?)d;
+ - (id) initWithInfo:(id)atimeout:(double)bforResponseOnQueue:(id)cwithHandler:(@?)d;
 
 
 @end

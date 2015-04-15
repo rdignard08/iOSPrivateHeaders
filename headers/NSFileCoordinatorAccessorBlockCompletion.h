@@ -2,7 +2,7 @@
 @interface NSFileCoordinatorAccessorBlockCompletion : NSObject {
 
     @? block;
-    i count;
+    int count;
 }
  + (id) completionWithBlock:(@?)a;
 

@@ -5,9 +5,9 @@
     @"NSMutableSet" _slices;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _startRect;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _endRect;
-    d _leftWidth;
-    d _rightWidth;
-    d _mergePoint;
+    double _leftWidth;
+    double _rightWidth;
+    double _mergePoint;
     @"NSMutableDictionary" _controlKeys;
 }
 @property (atomic, assign, readonly) NSMutableSet* slices;
@@ -27,16 +27,16 @@
  - (id) initWithSliceID:(id)a;
  - (void) setStartRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setEndRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setLeftWidth:(d)a;
- - (void) setRightWidth:(d)a;
+ - (void) setLeftWidth:(double)a;
+ - (void) setRightWidth:(double)a;
  - (void) addSlice:(id)a;
  - (id) slices;
  - (void) setSliceSetID:(id)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) startRect;
- - (d) leftWidth;
- - (d) rightWidth;
- - (d) mergePoint;
- - (void) setMergePoint:(d)a;
+ - (double) leftWidth;
+ - (double) rightWidth;
+ - (double) mergePoint;
+ - (void) setMergePoint:(double)a;
  - (id) controlKeys;
  - (void) setControlKeys:(id)a;
 

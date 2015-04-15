@@ -4,11 +4,11 @@
 
 }
 
- - (void) setCornerRadius:(d)a;
+ - (void) setCornerRadius:(double)a;
  - (void) setHighlighted:(BOOL)aanimated:(BOOL)b;
  - (void) setPressed:(BOOL)aanimated:(BOOL)b;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (d) cornerRadius;
+ - (double) cornerRadius;
 
 
 @end

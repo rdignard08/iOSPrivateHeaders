@@ -7,7 +7,7 @@
 
  - (void) dealloc;
  - (BOOL) _canCacheImages;
- - (id) imageNamed:(id)aforGroup:(id)bwithScale:(d)c;
+ - (id) imageNamed:(id)aforGroup:(id)bwithScale:(double)c;
  - (void) cacheImage:(id)anamed:(id)bforGroup:(id)c;
  - (void) removeImagesInGroup:(id)a;
  - (id) init;

@@ -2,9 +2,9 @@
 @interface UISnapBehavior : UIDynamicBehavior {
 
     {CGPoint="x"d"y"d} _anchorPoint;
-    d _damping;
-    d _distance;
-    d _frequency;
+    double _damping;
+    double _distance;
+    double _frequency;
     {?="attachedToView"b1"dampingSet"b1"frequencySet"b1"lengthSet"b1} _stateFlags;
     @"NSMutableArray" _joints;
     @"PKPhysicsBody" _anchorBody;
@@ -14,14 +14,14 @@
  - (void) dealloc;
  - (void) _associate;
  - (void) _dissociate;
- - (d) _frequency;
+ - (double) _frequency;
  - (id) initWithItem:(id)asnapToPoint:({CGPoint=dd})b;
- - (d) _distance;
- - (void) _setDistance:(d)a;
- - (void) _setFrequency:(d)a;
+ - (double) _distance;
+ - (void) _setDistance:(double)a;
+ - (void) _setFrequency:(double)a;
  - (id) init;
- - (d) damping;
- - (void) setDamping:(d)a;
+ - (double) damping;
+ - (void) setDamping:(double)a;
 
 
 @end

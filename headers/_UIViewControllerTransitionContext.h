@@ -2,7 +2,7 @@
 @protocol UIViewControllerContextTransitioningEx;
 @interface _UIViewControllerTransitionContext : NSObject <UIViewControllerContextTransitioningEx> {
 
-    d _previousPercentComplete;
+    double _previousPercentComplete;
     @"NSArray" _disabledViews;
     {?="interactorImplementsCompletionSpeed"b1"interactorImplementsCompletionCurve"b1"transitionWasCancelled"b1"transitionIsCompleting"b1} _transitionContextFlags;
     BOOL __allowUserInteraction;
@@ -12,21 +12,21 @@
     BOOL _isAnimated;
     BOOL __isPresentation;
     @"NSArray" __containerViews;
-    d __percentOffset;
+    double __percentOffset;
     @"<UIViewControllerAnimatedTransitioning>" __animator;
     @"<UIViewControllerInteractiveTransitioning>" __interactor;
     @"UIView" _containerView;
     @? __willCompleteHandler;
     @? __completionHandler;
     @? __didCompleteHandler;
-    d __completionVelocity;
-    q __completionCurve;
+    double __completionVelocity;
+    long long __completionCurve;
     @"_UIViewControllerTransitionCoordinator" __auxContext;
-    d __duration;
-    q __state;
+    double __duration;
+    long long __state;
     @? __interactiveUpdateHandler;
     @? __postInteractiveCompletionHandler;
-    q _presentationStyle;
+    long long _presentationStyle;
 }
 @property (nonatomic, retain, readwrite, _setContainerViews:) NSArray* _containerViews;
 @property (nonatomic, assign, readwrite, _setPercentOffset:) NSNumber* _percentOffset;
@@ -61,29 +61,29 @@
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) initialFrameForViewController:(id)a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) finalFrameForViewController:(id)a;
  - (BOOL) isInteractive;
- - (q) _completionCurve;
+ - (long long) _completionCurve;
  - (BOOL) _allowUserInteraction;
  - (BOOL) transitionWasCancelled;
  - (void) completeTransition:(BOOL)a;
  - (void) cancelInteractiveTransition;
  - (void) finishInteractiveTransition;
- - (void) updateInteractiveTransition:(d)a;
- - (d) _duration;
- - (q) presentationStyle;
+ - (void) updateInteractiveTransition:(double)a;
+ - (double) _duration;
+ - (long long) presentationStyle;
  - (BOOL) isAnimated;
  - (id) _transitionCoordinator;
  - (void) _setCompletionHandler:(@?)a;
  - (void) _setDidCompleteHandler:(@?)a;
  - (void) _setIsAnimated:(BOOL)a;
  - (void) _setContainerView:(id)a;
- - (void) _setCompletionCurve:(q)a;
+ - (void) _setCompletionCurve:(long long)a;
  - (void) _setAnimator:(id)a;
  - (id) _animator;
  - (void) _setRotating:(BOOL)a;
  - (void) _enableInteractionForDisabledViews;
  - (BOOL) _isPresentation;
  - (void) _setInteractor:(id)a;
- - (void) _setPresentationStyle:(q)a;
+ - (void) _setPresentationStyle:(long long)a;
  - (@?) _postInteractiveCompletionHandler;
  - (void) _setPostInteractiveCompletionHandler:(@?)a;
  - (void) _setTransitionIsInFlight:(BOOL)a;
@@ -93,7 +93,7 @@
  - (void) __runAlongsideAnimations;
  - (void) _setAllowUserInteraction:(BOOL)a;
  - (void) _disableInteractionForViews:(id)a;
- - (d) _completionVelocity;
+ - (double) _completionVelocity;
  - (id) _interactor;
  - (@?) _willCompleteHandler;
  - (void) _setWillCompleteHandler:(@?)a;
@@ -110,21 +110,21 @@
  - ({CGAffineTransform=dddddd}) _affineTransform;
  - (BOOL) isCurrentlyInteractive;
  - (@?) _interactiveUpdateHandler;
- - (d) _percentOffset;
+ - (double) _percentOffset;
  - (void) _interactivityDidChange:(BOOL)a;
  - (void) _runAlongsideCompletions;
  - (void) _setContainerViews:(id)a;
- - (void) _setPercentOffset:(d)a;
- - (d) _previousPercentComplete;
- - (void) _setPreviousPercentComplete:(d)a;
- - (void) _updateInteractiveTransitionWithoutTrackingPercentComplete:(d)a;
+ - (void) _setPercentOffset:(double)a;
+ - (double) _previousPercentComplete;
+ - (void) _setPreviousPercentComplete:(double)a;
+ - (void) _updateInteractiveTransitionWithoutTrackingPercentComplete:(double)a;
  - (BOOL) _transitionIsCompleting;
  - (@?) _didCompleteHandler;
- - (void) _setCompletionVelocity:(d)a;
+ - (void) _setCompletionVelocity:(double)a;
  - (id) init;
- - (void) _setState:(q)a;
- - (q) _state;
- - (void) _setDuration:(d)a;
+ - (void) _setState:(long long)a;
+ - (long long) _state;
+ - (void) _setDuration:(double)a;
 
 
 @end

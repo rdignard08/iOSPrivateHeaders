@@ -5,8 +5,8 @@
 
  - (id) replacementString;
  - ({_NSRange=QQ}) range;
- - (Q) modificationType;
- - (d) modificationScore;
+ - (unsigned long long) modificationType;
+ - (double) modificationScore;
  - ({_NSRange=QQ}) syllableRange;
  - ({_NSRange=QQ}) additionalSyllableRange;
 

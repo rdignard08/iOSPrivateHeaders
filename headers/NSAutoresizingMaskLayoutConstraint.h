@@ -2,10 +2,10 @@
 @interface NSAutoresizingMaskLayoutConstraint : NSLayoutConstraint {
 
 }
- + (id) constraintWithItem:(id)aattribute:(q)brelatedBy:(q)ctoItem:(id)dattribute:(q)emultiplier:(d)fconstant:(d)g;
- + (id) constraintsWithAutoresizingMask:(Q)asubitem:(id)bframe:({CGRect={CGPoint=dd}{CGSize=dd}})csuperitem:(id)dbounds:({CGRect={CGPoint=dd}{CGSize=dd}})e;
+ + (id) constraintWithItem:(id)aattribute:(long long)brelatedBy:(long long)ctoItem:(id)dattribute:(long long)emultiplier:(double)fconstant:(double)g;
+ + (id) constraintsWithAutoresizingMask:(unsigned long long)asubitem:(id)bframe:({CGRect={CGPoint=dd}{CGSize=dd}})csuperitem:(id)dbounds:({CGRect={CGPoint=dd}{CGSize=dd}})e;
 
- - (i) _constraintType;
+ - (int) _constraintType;
  - (id) descriptionAccessory;
  - (id) _viewForAutoresizingMask;
 

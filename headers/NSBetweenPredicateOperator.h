@@ -3,7 +3,7 @@
 
 }
 
- - (void) _setOptions:(Q)a;
+ - (void) _setOptions:(unsigned long long)a;
  - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
  - (id) copyWithZone:(^{_NSZone=})a;
 

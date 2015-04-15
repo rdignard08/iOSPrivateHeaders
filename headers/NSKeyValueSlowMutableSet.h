@@ -17,7 +17,7 @@
  - (void) setSet:(id)a;
  - (id) _setValueWithSelector:(SEL)a;
  - (id) _createMutableSetValueWithSelector:(SEL)a;
- - (Q) count;
+ - (unsigned long long) count;
  - (void) addObject:(id)a;
  - (void) removeAllObjects;
  - (id) member:(id)a;

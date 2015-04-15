@@ -25,7 +25,7 @@
  - (id) popoverController;
  - (void) setNode:(id)a;
  - (void) setPresentationPoint:({CGPoint=dd})a;
- - (Q) popoverArrowDirections;
+ - (unsigned long long) popoverArrowDirections;
  - ({CGPoint=dd}) presentationPoint;
  - (id) dismissDelegate;
  - (void) setDismissDelegate:(id)a;

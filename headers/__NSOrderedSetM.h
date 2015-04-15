@@ -1,7 +1,7 @@
 
 @interface __NSOrderedSetM : NSMutableOrderedSet {
 
-    Q _used;
+    unsigned long long _used;
     ^{__CFBasicHash=} _set;
     @"NSMutableArray" _array;
 }
@@ -11,19 +11,19 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (Q) count;
- - (id) objectAtIndex:(Q)a;
+ - (unsigned long long) count;
+ - (id) objectAtIndex:(unsigned long long)a;
  - (void) getObjects:(^@)arange:({_NSRange=QQ})b;
- - (void) setObject:(id)aatIndex:(Q)b;
- - (void) insertObject:(id)aatIndex:(Q)b;
- - (void) removeObjectAtIndex:(Q)a;
- - (Q) countForObject:(id)a;
+ - (void) setObject:(id)aatIndex:(unsigned long long)b;
+ - (void) insertObject:(id)aatIndex:(unsigned long long)b;
+ - (void) removeObjectAtIndex:(unsigned long long)a;
+ - (unsigned long long) countForObject:(id)a;
  - (BOOL) containsObject:(id)a;
- - (Q) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(Q)c;
- - (void) replaceObjectAtIndex:(Q)awithObject:(id)b;
- - (void) enumerateObjectsWithOptions:(Q)ausingBlock:(@?)b;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
+ - (void) replaceObjectAtIndex:(unsigned long long)awithObject:(id)b;
+ - (void) enumerateObjectsWithOptions:(unsigned long long)ausingBlock:(@?)b;
  - (void) _mutate;
- - (Q) indexOfObject:(id)a;
+ - (unsigned long long) indexOfObject:(id)a;
 
 
 @end

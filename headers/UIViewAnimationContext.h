@@ -2,7 +2,7 @@
 @interface UIViewAnimationContext : NSObject {
 
     @"NSArray" _viewAnimations;
-    q _animationCount;
+    long long _animationCount;
     id _completionHandler;
     @"UITableViewCell" _swipeToDeleteCell;
 }
@@ -14,8 +14,8 @@
  - (void) dealloc;
  - (id) initWithCompletionHandler:(@?)a;
  - (void) setViewAnimations:(id)a;
- - (q) animationCount;
- - (void) setAnimationCount:(q)a;
+ - (long long) animationCount;
+ - (void) setAnimationCount:(long long)a;
  - (void) setSwipeToDeleteCell:(id)a;
  - (id) viewAnimations;
  - (id) swipeToDeleteCell;

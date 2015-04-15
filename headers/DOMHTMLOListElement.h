@@ -5,8 +5,8 @@
 
  - (BOOL) compact;
  - (void) setType:(id)a;
- - (void) setStart:(i)a;
- - (i) start;
+ - (void) setStart:(int)a;
+ - (int) start;
  - (id) type;
  - (void) setCompact:(BOOL)a;
  - (BOOL) reversed;

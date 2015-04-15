@@ -1,14 +1,14 @@
 
 @interface UIActivity : NSObject {
 
-    q _defaultPriority;
+    long long _defaultPriority;
     @? _activityCompletionHandler;
     @? _activityCompletionWithItemsHandler;
 }
 @property (nonatomic, assign, readonly) NSExtension* applicationExtension;
 @property (nonatomic, copy, readwrite) NSNumber* activityCompletionHandler;
 @property (nonatomic, copy, readwrite) NSNumber* activityCompletionWithItemsHandler;
- + (q) activityCategory;
+ + (long long) activityCategory;
  + (id) _activityFunctionImage:(id)a;
  + (id) _activityImageForApplication:(id)a;
  + (id) _activitySettingsImageForApplication:(id)a;

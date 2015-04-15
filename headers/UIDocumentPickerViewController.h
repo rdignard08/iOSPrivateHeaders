@@ -3,7 +3,7 @@
 @interface UIDocumentPickerViewController : UIViewController <_UIDocumentPickerRemoteViewControllerContaining> {
 
     @"<UIDocumentPickerDelegate>" _weak_delegate;
-    Q _documentPickerMode;
+    unsigned long long _documentPickerMode;
     @"_UIDocumentPickerRemoteViewController" _remoteViewController;
     @"_UIRemoteViewService" _remoteViewService;
     @"NSURL" _uploadURL;
@@ -13,7 +13,7 @@
  + (id) _identifier;
  + (id) _extension;
  + (id) supportedContentTypes;
- + (Q) supportedModes;
+ + (unsigned long long) supportedModes;
  + (id) image;
 
  - (void) dealloc;
@@ -25,23 +25,23 @@
  - (id) stitchingTokens;
  - (void) _finishStitching;
  - (void) _callDelegateWithSelectedURLAndDismiss:(id)a;
- - (void) setDocumentPickerMode:(Q)a;
+ - (void) setDocumentPickerMode:(unsigned long long)a;
  - (void) _commonInitWithCompletion:(@?)a;
  - (void) setUploadURL:(id)a;
  - (void) _prepareForDeletionIfNecessary;
- - (Q) documentPickerMode;
+ - (unsigned long long) documentPickerMode;
  - (id) uploadURL;
- - (id) initWithDocumentTypes:(id)ainMode:(Q)b;
- - (id) initWithURL:(id)ainMode:(Q)b;
+ - (id) initWithDocumentTypes:(id)ainMode:(unsigned long long)b;
+ - (id) initWithURL:(id)ainMode:(unsigned long long)b;
  - (void) _didSelectURL:(id)a;
  - (void) _didSelectPicker;
  - (void) _dismissWithOption:(id)a;
  - (void) _stitchFileCreationAtURL:(id)a;
  - (void) _displayLocationsMenuFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) addAuxiliaryOptionWithTitle:(id)aimage:(id)bidentifier:(id)c;
- - (id) _initWithRemoteViewController:(id)ainMode:(Q)buploadURLOrNil:(id)c;
- - (id) initForSelectingDocumentMatchingTypes:(id)ainMode:(Q)b;
- - (id) initWithExistingDocumentAtURL:(id)ainMode:(Q)b;
+ - (id) _initWithRemoteViewController:(id)ainMode:(unsigned long long)buploadURLOrNil:(id)c;
+ - (id) initForSelectingDocumentMatchingTypes:(id)ainMode:(unsigned long long)b;
+ - (id) initWithExistingDocumentAtURL:(id)ainMode:(unsigned long long)b;
  - (id) remoteViewService;
  - (void) setRemoteViewService:(id)a;
  - (id) delegate;

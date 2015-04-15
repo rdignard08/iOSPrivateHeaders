@@ -22,7 +22,7 @@
  + (id) _pathForURL:(id)areading:(BOOL)berror:(^@)c;
  + (BOOL) _canSafelyMapFilesAtPath:(id)a;
  + (BOOL) _forPath:(id)agetItemKind:(^@)bmodificationDate:(^@)c;
- + (id) _newContentsAtURL:(id)apath:(id)bitemKind:(id)coldChildrenByUniqueFileName:(id)doptions:(Q)eerror:(^@)f;
+ + (id) _newContentsAtURL:(id)apath:(id)bitemKind:(id)coldChildrenByUniqueFileName:(id)doptions:(unsigned long long)eerror:(^@)f;
  + (id) _temporaryDirectoryURLForWritingToURL:(id)aerror:(^@)b;
  + (BOOL) _finishWritingToURL:(id)abyTakingContentsFromItemAtURL:(id)baddingAttributes:(id)cusingTemporaryDirectoryAtURL:(id)dbackupFileName:(id)eerror:(^@)f;
  + (BOOL) _finishWritingToURL:(id)abyMovingItemAtURL:(id)baddingAttributes:(id)cerror:(^@)d;
@@ -33,7 +33,7 @@
  - (BOOL) isDirectory;
  - (id) fileAttributes;
  - (id) _init;
- - (BOOL) _readContentsFromURL:(id)apath:(id)bitemKind:(id)coptions:(Q)derror:(^@)e;
+ - (BOOL) _readContentsFromURL:(id)apath:(id)bitemKind:(id)coptions:(unsigned long long)derror:(^@)e;
  - (id) preferredFilename;
  - (void) setPreferredFilename:(id)a;
  - (id) _addChild:(id)aforUniqueFileName:(id)b;
@@ -48,11 +48,11 @@
  - (BOOL) isSymbolicLink;
  - (BOOL) _matchesItemKind:(id)amodificationDate:(id)b;
  - (BOOL) matchesContentsOfURL:(id)a;
- - (BOOL) readFromURL:(id)aoptions:(Q)berror:(^@)c;
+ - (BOOL) readFromURL:(id)aoptions:(unsigned long long)berror:(^@)c;
  - (void) _removeChild:(id)aforUniqueFileName:(id)b;
  - (void) setFileAttributes:(id)a;
  - (id) filename;
- - (BOOL) writeToURL:(id)aoptions:(Q)boriginalContentsURL:(id)cerror:(^@)d;
+ - (BOOL) writeToURL:(id)aoptions:(unsigned long long)boriginalContentsURL:(id)cerror:(^@)d;
  - (void) _forWritingToURL:(id)areturnContentsLazyReadingError:(^@)b;
  - (id) regularFileContents;
  - (id) symbolicLinkDestinationURL;
@@ -73,7 +73,7 @@
  - (id) init;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (id) initWithURL:(id)aoptions:(Q)berror:(^@)c;
+ - (id) initWithURL:(id)aoptions:(unsigned long long)berror:(^@)c;
  - (id) initRegularFileWithContents:(id)a;
  - (id) initDirectoryWithFileWrappers:(id)a;
  - (id) addRegularFileWithContents:(id)apreferredFilename:(id)b;

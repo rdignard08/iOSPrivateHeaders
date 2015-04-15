@@ -3,7 +3,7 @@
 
     @"UIDelayedAction" m_switcherDelay;
     @"UIDelayedAction" m_hideSwitcherDelay;
-    i m_state;
+    int m_state;
     @"UIInputSwitcherView" m_switcherView;
     @"NSString" _newMode;
 }

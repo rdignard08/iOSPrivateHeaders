@@ -1,19 +1,19 @@
 
 @interface NSCIDGlyphInfo : NSGlyphInfo {
 
-    S _cid;
-    Q _collection;
+    unsigned short _cid;
+    unsigned long long _collection;
 }
  + (void) initialize;
- + (id) glyphInfoWithCharacterIdentifier:(Q)acollection:(Q)bbaseString:(id)c;
+ + (id) glyphInfoWithCharacterIdentifier:(unsigned long long)acollection:(unsigned long long)bbaseString:(id)c;
 
  - (id) description;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (I) _glyphForFont:(id)abaseString:(id)b;
- - (id) initWithCharacterIdentifier:(Q)acollection:(Q)bbaseString:(id)c;
- - (Q) characterIdentifier;
- - (Q) characterCollection;
+ - (unsigned int) _glyphForFont:(id)abaseString:(id)b;
+ - (id) initWithCharacterIdentifier:(unsigned long long)acollection:(unsigned long long)bbaseString:(id)c;
+ - (unsigned long long) characterIdentifier;
+ - (unsigned long long) characterCollection;
 
 
 @end

@@ -1,7 +1,7 @@
 
 @interface AFNetworkReachabilityManager : NSObject {
 
-    q _networkReachabilityStatus;
+    long long _networkReachabilityStatus;
     ^{__SCNetworkReachability=} _networkReachability;
     @? _networkReachabilityStatusBlock;
 }
@@ -18,11 +18,11 @@
 
  - (id) initWithReachability:(^{__SCNetworkReachability=})a;
  - (void) setNetworkReachability:(^{__SCNetworkReachability=})a;
- - (void) setNetworkReachabilityStatus:(q)a;
+ - (void) setNetworkReachabilityStatus:(long long)a;
  - (void) stopMonitoring;
  - (BOOL) isReachableViaWWAN;
  - (BOOL) isReachableViaWiFi;
- - (q) networkReachabilityStatus;
+ - (long long) networkReachabilityStatus;
  - (^{__SCNetworkReachability=}) networkReachability;
  - (@?) networkReachabilityStatusBlock;
  - (void) setNetworkReachabilityStatusBlock:(@?)a;

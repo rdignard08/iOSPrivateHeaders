@@ -16,9 +16,9 @@
 
  - (void) dealloc;
  - (BOOL) readFromURL:(id)aerror:(^@)b;
- - (BOOL) writeContents:(id)atoURL:(id)bforSaveOperation:(q)coriginalContentsURL:(id)derror:(^@)e;
+ - (BOOL) writeContents:(id)atoURL:(id)bforSaveOperation:(long long)coriginalContentsURL:(id)derror:(^@)e;
  - (id) contentsForType:(id)aerror:(^@)b;
- - (BOOL) writeContents:(id)aandAttributes:(id)bsafelyToURL:(id)cforSaveOperation:(q)derror:(^@)e;
+ - (BOOL) writeContents:(id)aandAttributes:(id)bsafelyToURL:(id)cforSaveOperation:(long long)derror:(^@)e;
  - (void) revertToContentsOfURL:(id)acompletionHandler:(@?)b;
  - (id) initWithFileURL:(id)a;
  - (id) managedObjectModel;

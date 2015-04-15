@@ -21,9 +21,9 @@
  - (id) _initWithOptions:(id)a;
  - (id) _initWithEAGLContext:(id)aoptions:(id)b;
  - (void) endFrame;
- - (void) beginFrameAtTime:(d)atimeStamp:(^{?=IiqQdq{CVSMPTETime=ssIIIssss}QQ})b;
+ - (void) beginFrameAtTime:(double)atimeStamp:(^{?=IiqQdq{CVSMPTETime=ssIIIssss}QQ})b;
  - (void) addUpdateRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (d) nextFrameTime;
+ - (double) nextFrameTime;
  - (BOOL) hasMissingContent;
  - (void) render;
  - (id) context;

@@ -2,17 +2,17 @@
 @protocol NSURLSessionSubclass;
 @interface __NSURLSessionLocal : NSURLSession <NSURLSessionSubclass> {
 
-    Q _identSeed;
+    unsigned long long _identSeed;
     ^{XTubeManager=^^?^{__CFAllocator}i^{RetainableTypedDict<const CoreSchedulingSet *, TubeManager *>}{_opaque_pthread_mutex_t=q[56c]}{HTTPConnectionCacheLimits=iiiiiiiiii}} _tubeManager;
     @"NSMutableDictionary" _tasks;
     @"NSObject<OS_dispatch_queue>" _invalidateQueue;
     @? _invalidateCallback;
     r^{XURLCache=^^?^{__CFAllocator}i} _xCache;
-    q _xCacheOnce;
+    long long _xCacheOnce;
     r^{XCookieStorage=^^?^{__CFAllocator}i} _xCookies;
-    q _xCookiesOnce;
+    long long _xCookiesOnce;
     r^{XCredentialStorage=^^?^{__CFAllocator}i} _xCreds;
-    q _xCredsOnce;
+    long long _xCredsOnce;
     @"NSArray" _localProtocolClassesForDefaultSession;
     BOOL _isInvalid;
 }
@@ -20,7 +20,7 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (void) _onqueue_connectUploadTask:(id)astrippedRequest:(id)bbodyStream:(id)cbodyParts:(id)d;
- - (Q) nextSeed;
+ - (unsigned long long) nextSeed;
  - (void) _onqueue_invokeInvalidateCallback;
  - (void) _onqueue_checkForCompletion;
  - (id) copyTasks;
@@ -29,7 +29,7 @@
  - (r^{XURLCache=^^?^{__CFAllocator}i}) _createXURLCache;
  - (id) initWithConfiguration:(id)adelegate:(id)bdelegateQueue:(id)c;
  - (id) taskForClass:(Class)arequest:(id)buploadFile:(id)cbodyData:(id)dcompletion:(@?)e;
- - (void) _flushOrResetStorage:(@?)areset:(C)b;
+ - (void) _flushOrResetStorage:(@?)areset:(unsigned char)b;
  - (void) _onqueue_invalidateSession:(BOOL)awithQueue:(id)bcompletion:(@?)c;
  - (r^{XURLCache=^^?^{__CFAllocator}i}) _createXURLCache0;
  - (r^{XCookieStorage=^^?^{__CFAllocator}i}) _createXCookieStorage0;
@@ -44,7 +44,7 @@
  - (id) uploadTaskForRequest:(id)auploadFile:(id)bbodyData:(id)ccompletion:(@?)d;
  - (id) downloadTaskForRequest:(id)adownloadFilePath:(id)bresumeData:(id)ccompletion:(@?)d;
  - (id) _AVAssetDownloadTaskForURL:(id)adestinationURL:(id)boptions:(id)c;
- - (id) _streamTaskForHost:(id)aport:(q)btls:(BOOL)ccompletionHandler:(@?)d;
+ - (id) _streamTaskForHost:(id)aport:(long long)btls:(BOOL)ccompletionHandler:(@?)d;
  - (void) _onqueue_flushWithCompletionHandler:(@?)a;
  - (void) _onqueue_completeInvalidation:(BOOL)a;
  - (void) _onqueue_resetStorageWithCompletionHandler:(@?)a;

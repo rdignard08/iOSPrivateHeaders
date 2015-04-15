@@ -3,8 +3,8 @@
 
     @"NSString" _line;
     r* _lineChars;
-    Q _lineLength;
-    Q _opts;
+    unsigned long long _lineLength;
+    unsigned long long _opts;
     BOOL _useHorizontalArrangement;
     @"NSDictionary" _metrics;
     @"NSDictionary" _views;
@@ -12,17 +12,17 @@
     @"NSMutableArray" _constraints;
     @"NSMutableArray" _unflushedWidthConstraints;
     @"NSMutableArray" _alignmentConstraints;
-    Q _currentCharacter;
+    unsigned long long _currentCharacter;
     @"NSMutableArray" _incompleteConstraints;
     @"<NSLayoutItem>" _parsedLeftView;
     @"<NSLayoutItem>" _parsedRightView;
     @"<NSLayoutItem>" _parsedConstrainedWidthView;
 }
- + (id) constraintsWithVisualFormat:(id)aoptions:(Q)bmetrics:(id)cviews:(id)d;
+ + (id) constraintsWithVisualFormat:(id)aoptions:(unsigned long long)bmetrics:(id)cviews:(id)d;
 
  - (void) parse;
  - (id) constraints;
- - (id) initWithFormat:(id)aoptions:(Q)bmetrics:(id)cviews:(id)d;
+ - (id) initWithFormat:(id)aoptions:(unsigned long long)bmetrics:(id)cviews:(id)d;
  - (id) descriptionLineWithCurrentCharacterPointer;
  - (void) failWithDescription:(id)a;
  - (void) parseConnection;
@@ -35,7 +35,7 @@
  - (void) parsePredicateWithParentheses;
  - (void) parsePredicate;
  - (void) parseOp;
- - (d) parseConstant;
+ - (double) parseConstant;
  - (id) metricForKey:(id)a;
  - (void) findContainerView;
  - (id) description;

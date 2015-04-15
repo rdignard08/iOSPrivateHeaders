@@ -18,8 +18,8 @@
 }
 
  - (void) dealloc;
- - (Q) supportedInterfaceOrientations;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
+ - (unsigned long long) supportedInterfaceOrientations;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) navigationController:(id)awillShowViewController:(id)banimated:(BOOL)c;
  - (void) navigationController:(id)adidShowViewController:(id)banimated:(BOOL)c;
  - (void) printerBrowserViewDidDisappear;

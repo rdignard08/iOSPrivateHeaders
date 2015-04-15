@@ -6,7 +6,7 @@
     @"UILabel" _dateLabel;
     @"UILabel" _weekdayLabel;
     @"NSString" _formattedDateString;
-    d _weekdayWidth;
+    double _weekdayWidth;
 }
 
  - (void) dealloc;
@@ -16,12 +16,12 @@
  - (id) weekdayLabel;
  - (BOOL) isModern;
  - (void) setIsModern:(BOOL)a;
- - (void) setWeekdayWidth:(d)a;
+ - (void) setWeekdayWidth:(double)a;
  - (BOOL) weekdayLast;
  - (void) setWeekdayLast:(BOOL)a;
  - (id) formattedDateString;
  - (void) setFormattedDateString:(id)a;
- - (d) weekdayWidth;
+ - (double) weekdayWidth;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 
 

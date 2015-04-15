@@ -8,7 +8,7 @@
  - (id) initWithOwner:(id)a;
  - (id) retain;
  - (Vv) release;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
  - (id) keyEnumerator;
 

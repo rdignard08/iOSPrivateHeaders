@@ -15,12 +15,12 @@
  - (void) didMoveToSuperview;
  - (id) _shadowView;
  - (void) setAppearanceStorage:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})abarStyle:(q)bbarTintColor:(id)cappearance:(id)dbarTranslucence:(q)e;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})abarStyle:(long long)bbarTintColor:(id)cappearance:(id)dbarTranslucence:(long long)e;
  - (id) appearanceStorage;
  - (void) updateBackgroundImage;
- - (void) setBarStyle:(q)a;
+ - (void) setBarStyle:(long long)a;
  - (void) setBarWantsAdaptiveBackdrop:(BOOL)a;
- - (q) barStyle;
+ - (long long) barStyle;
  - (void) setTranslucent:(BOOL)a;
  - (void) setBarTintColor:(id)a;
  - (void) _setIsContainedInPopover:(BOOL)a;
@@ -31,8 +31,8 @@
  - (id) _currentCustomBackgroundDedicatedToBarMetrics:(^q)abarPosition:(^q)b;
  - (BOOL) barWantsAdaptiveBackdrop;
  - (void) _setShadowView:(id)a;
- - (id) backdropView:(id)awillChangeToGraphicsQuality:(q)b;
- - (void) backdropView:(id)adidChangeToGraphicsQuality:(q)b;
+ - (id) backdropView:(id)awillChangeToGraphicsQuality:(long long)b;
+ - (void) backdropView:(id)adidChangeToGraphicsQuality:(long long)b;
  - (id) _adaptiveBackdrop;
  - (id) _customShadowImageForSearchBar;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;

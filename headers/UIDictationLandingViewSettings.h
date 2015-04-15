@@ -2,12 +2,12 @@
 @interface UIDictationLandingViewSettings : NSObject {
 
     BOOL _useBlackWave;
-    d _fadeInDuration;
-    d _fadeOutDuration;
-    d _shrinkDuration;
-    d _colorTransitionInDuration;
-    d _colorTransitionOutDuration;
-    d _circleRPM;
+    double _fadeInDuration;
+    double _fadeOutDuration;
+    double _shrinkDuration;
+    double _colorTransitionInDuration;
+    double _colorTransitionOutDuration;
+    double _circleRPM;
 }
 @property (nonatomic, assign, readwrite) NSNumber* fadeInDuration;
 @property (nonatomic, assign, readwrite) NSNumber* fadeOutDuration;
@@ -18,20 +18,20 @@
 @property (nonatomic, assign, readwrite) NSNumber* useBlackWave;
  + (id) sharedInstance;
 
- - (d) fadeOutDuration;
- - (d) colorTransitionInDuration;
- - (d) colorTransitionOutDuration;
+ - (double) fadeOutDuration;
+ - (double) colorTransitionInDuration;
+ - (double) colorTransitionOutDuration;
  - (BOOL) useBlackWave;
  - (void) setUseBlackWave:(BOOL)a;
- - (void) setFadeInDuration:(d)a;
- - (void) setFadeOutDuration:(d)a;
- - (void) setShrinkDuration:(d)a;
- - (void) setColorTransitionInDuration:(d)a;
- - (void) setColorTransitionOutDuration:(d)a;
- - (void) setCircleRPM:(d)a;
- - (d) fadeInDuration;
- - (d) shrinkDuration;
- - (d) circleRPM;
+ - (void) setFadeInDuration:(double)a;
+ - (void) setFadeOutDuration:(double)a;
+ - (void) setShrinkDuration:(double)a;
+ - (void) setColorTransitionInDuration:(double)a;
+ - (void) setColorTransitionOutDuration:(double)a;
+ - (void) setCircleRPM:(double)a;
+ - (double) fadeInDuration;
+ - (double) shrinkDuration;
+ - (double) circleRPM;
  - (id) init;
 
 

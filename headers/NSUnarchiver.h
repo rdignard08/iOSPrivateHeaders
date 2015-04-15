@@ -2,17 +2,17 @@
 @interface NSUnarchiver : NSCoder {
 
     ^v datax;
-    Q cursor;
+    unsigned long long cursor;
     ^{_NSZone=} objectZone;
-    Q systemVersion;
-    c streamerVersion;
-    c swap;
-    c unused1;
-    c unused2;
+    unsigned long long systemVersion;
+    char streamerVersion;
+    char swap;
+    char unused1;
+    char unused2;
     ^v pointerTable;
     ^v stringTable;
     id classVersions;
-    q lastLabel;
+    long long lastLabel;
     ^v map;
     ^v allUnarchivedObjects;
     id reserved;
@@ -23,9 +23,9 @@
  + (void) initialize;
  + (id) unarchiveObjectWithData:(id)a;
 
- - (void) decodeArrayOfObjCType:(r*)acount:(Q)bat:(^v)c;
+ - (void) decodeArrayOfObjCType:(r*)acount:(unsigned long long)bat:(^v)c;
  - (void) replaceObject:(id)awithObject:(id)b;
- - (q) versionForClassName:(id)a;
+ - (long long) versionForClassName:(id)a;
  - (void) decodeClassName:(id)aasClassName:(id)b;
  - (id) initForReadingWithData:(id)a;
  - (BOOL) isAtEnd;
@@ -38,7 +38,7 @@
  - (void) dealloc;
  - (void) finalize;
  - (id) data;
- - (I) systemVersion;
+ - (unsigned int) systemVersion;
  - (void) _setAllowedClasses:(id)a;
  - (void) decodeValueOfObjCType:(r*)aat:(^v)b;
  - (id) decodeObject;

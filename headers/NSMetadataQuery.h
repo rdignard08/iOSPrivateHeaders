@@ -1,8 +1,8 @@
 
 @interface NSMetadataQuery : NSObject {
 
-    Q _flags;
-    d _interval;
+    unsigned long long _flags;
+    double _interval;
     [11@] _private;
     ^v _reserved;
 }
@@ -52,18 +52,18 @@
  - (void) _noteNote4:(id)a;
  - (void) _inOriginalContextInvokeBlock:(@?)a;
  - (void) _noteNote5:(id)a;
- - (Q) resultCount;
- - (void) enumerateResultsWithOptions:(Q)ausingBlock:(@?)b;
+ - (unsigned long long) resultCount;
+ - (void) enumerateResultsWithOptions:(unsigned long long)ausingBlock:(@?)b;
  - (void) disableUpdates;
  - (void) enableUpdates;
  - (void) _enableAutoUpdates;
- - (id) valueOfAttribute:(id)aforResultAtIndex:(Q)b;
+ - (id) valueOfAttribute:(id)aforResultAtIndex:(unsigned long long)b;
  - (id) sortDescriptors;
  - (void) setValueListAttributes:(id)a;
  - (void) setGroupingAttributes:(id)a;
  - (id) _allAttributes;
- - (d) notificationBatchingInterval;
- - (void) setNotificationBatchingInterval:(d)a;
+ - (double) notificationBatchingInterval;
+ - (void) setNotificationBatchingInterval:(double)a;
  - (id) searchScopes;
  - (id) searchItemURLs;
  - (void) setSearchItemURLs:(id)a;
@@ -71,10 +71,10 @@
  - (id) _queryString;
  - (BOOL) isGathering;
  - (BOOL) isStopped;
- - (id) resultAtIndex:(Q)a;
+ - (id) resultAtIndex:(unsigned long long)a;
  - (void) enumerateResultsUsingBlock:(@?)a;
  - (void) _zapResultArrayIfIdenticalTo:(id)a;
- - (Q) indexOfResult:(id)a;
+ - (unsigned long long) indexOfResult:(id)a;
  - (id) valueLists;
  - (id) groupedResults;
  - (void) dealloc;

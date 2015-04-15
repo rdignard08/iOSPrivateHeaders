@@ -4,7 +4,7 @@
     id _undoStack;
     id _redoStack;
     @"NSArray" _runLoopModes;
-    Q _NSUndoManagerPrivate1;
+    unsigned long long _NSUndoManagerPrivate1;
     id _target;
     id _proxy;
     ^v _NSUndoManagerPrivate2;
@@ -40,7 +40,7 @@
  - (void) enableUndoRegistration;
  - (void) _commitUndoGrouping;
  - (void) _rollbackUndoGrouping;
- - (void) _delayAutomaticTermination:(d)a;
+ - (void) _delayAutomaticTermination:(double)a;
  - (id) runLoopModes;
  - (void) _scheduleAutomaticTopLevelGroupEnding;
  - (void) beginUndoGrouping;
@@ -56,8 +56,8 @@
  - (id) undoMenuTitleForUndoActionName:(id)a;
  - (id) redoActionName;
  - (id) redoMenuTitleForUndoActionName:(id)a;
- - (void) setLevelsOfUndo:(Q)a;
- - (Q) levelsOfUndo;
+ - (void) setLevelsOfUndo:(unsigned long long)a;
+ - (unsigned long long) levelsOfUndo;
  - (id) prepareWithInvocationTarget:(id)a;
  - (void) setActionIsDiscardable:(BOOL)a;
  - (BOOL) undoActionIsDiscardable;
@@ -75,7 +75,7 @@
  - (BOOL) isRedoing;
  - (void) registerUndoWithTarget:(id)aselector:(SEL)bobject:(id)c;
  - (void) setActionName:(id)a;
- - (q) groupingLevel;
+ - (long long) groupingLevel;
  - (void) removeAllActionsWithTarget:(id)a;
  - (void) undo;
  - (void) redo;

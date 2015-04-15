@@ -5,12 +5,12 @@
     @? _block;
     @"NSLock" _lock;
     BOOL _launched;
-    i _notifyToken;
-    i _notifyAppExitedToken;
-    I _notifyRegisterStatus;
-    I _notifyAppExitedStatus;
+    int _notifyToken;
+    int _notifyAppExitedToken;
+    unsigned int _notifyRegisterStatus;
+    unsigned int _notifyAppExitedStatus;
 }
- + (BOOL) waitForLaunchThatSpringBoardKnowsAbout:(id)atimeout:(d)b;
+ + (BOOL) waitForLaunchThatSpringBoardKnowsAbout:(id)atimeout:(double)b;
 
  - (void) dealloc;
  - (void) invalidate;

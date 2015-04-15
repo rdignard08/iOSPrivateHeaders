@@ -5,15 +5,15 @@
     @"UIPrintingMessageView" _messageView;
     @"UINavigationController" _navController;
     @"UIWindow" _window;
-    d _rotationDelay;
+    double _rotationDelay;
 }
 
  - (void) dealloc;
  - (void) show;
- - (Q) supportedInterfaceOrientations;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
- - (void) willAnimateRotationToInterfaceOrientation:(q)aduration:(d)b;
- - (void) didRotateFromInterfaceOrientation:(q)a;
+ - (unsigned long long) supportedInterfaceOrientations;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
+ - (void) willAnimateRotationToInterfaceOrientation:(long long)aduration:(double)b;
+ - (void) didRotateFromInterfaceOrientation:(long long)a;
  - (void) setMessage:(id)a;
  - (void) dismissAnimated:(BOOL)a;
  - (void) setDonePrinting:(BOOL)a;
@@ -21,7 +21,7 @@
  - (void) cancelProgress;
  - (void) cleanupAfterDismiss;
  - (id) initWithTitle:(id)amessage:(id)bprintingProgress:(id)c;
- - (d) rotationDelay;
+ - (double) rotationDelay;
  - (BOOL) visible;
 
 

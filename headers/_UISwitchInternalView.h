@@ -7,7 +7,7 @@
     @"UIImage" _shapeShadow;
     @"UIImage" _thumb;
     @"UIImage" _thumbPressed;
-    d _position;
+    double _position;
     BOOL _pressed;
     @"UIImageView" _colorView;
     @"UIImageView" _thumbView;
@@ -47,9 +47,9 @@
  - (void) _buildControl;
  - (id) _snapshotImage;
  - (void) _onAnimationDidStop:(id)afinished:(id)bcontext:(^v)c;
- - (void) _setProgress:(d)aanimated:(BOOL)bwithDuration:(d)cforce:(BOOL)dsendAction:(BOOL)e;
+ - (void) _setProgress:(double)aanimated:(BOOL)bwithDuration:(double)cforce:(BOOL)dsendAction:(BOOL)e;
  - (void) _sendActions;
- - (void) _setProgress:(d)a;
+ - (void) _setProgress:(double)a;
  - (void) _prepareForInteraction;
  - (void) setSendAction:(BOOL)a;
  - (void) _setPressed:(BOOL)aon:(BOOL)banimated:(BOOL)cshouldAnimateLabels:(BOOL)dcompletion:(@?)e;

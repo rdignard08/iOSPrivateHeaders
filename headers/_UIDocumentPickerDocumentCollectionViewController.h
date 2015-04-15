@@ -13,7 +13,7 @@
 }
 
  - (void) dealloc;
- - (q) collectionView:(id)anumberOfItemsInSection:(q)b;
+ - (long long) collectionView:(id)anumberOfItemsInSection:(long long)b;
  - (id) collectionView:(id)acellForItemAtIndexPath:(id)b;
  - (BOOL) collectionView:(id)ashouldSelectItemAtIndexPath:(id)b;
  - (void) collectionView:(id)adidSelectItemAtIndexPath:(id)b;

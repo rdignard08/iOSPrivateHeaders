@@ -8,8 +8,8 @@
  + (id) allocWithZone:(^{_NSZone=})a;
 
  - ({?=qi}) _cfStreamError;
- - (Q) _cfTypeID;
- - (q) read:(*)amaxLength:(Q)b;
+ - (unsigned long long) _cfTypeID;
+ - (long long) read:(char*)amaxLength:(unsigned long long)b;
  - (BOOL) getBuffer:(^*)alength:(^Q)b;
  - (BOOL) hasBytesAvailable;
 

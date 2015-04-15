@@ -8,39 +8,39 @@
     id _signature;
     id _delegate;
     id _lock;
-    Q _maxSize;
-    Q _useCount;
-    Q _reserved;
+    unsigned long long _maxSize;
+    unsigned long long _useCount;
+    unsigned long long _reserved;
 }
- + (BOOL) sendBeforeTime:(d)astreamData:(id)bcomponents:(id)cto:(id)dfrom:(id)emsgid:(I)freserved:(Q)g;
+ + (BOOL) sendBeforeTime:(double)astreamData:(id)bcomponents:(id)cto:(id)dfrom:(id)emsgid:(unsigned int)freserved:(unsigned long long)g;
  + (void) _fixNSSocketPortLeak;
  + (void) initialize;
 
- - (BOOL) sendBeforeDate:(id)acomponents:(id)bfrom:(id)creserved:(Q)d;
- - (BOOL) sendBeforeDate:(id)amsgid:(Q)bcomponents:(id)cfrom:(id)dreserved:(Q)e;
+ - (BOOL) sendBeforeDate:(id)acomponents:(id)bfrom:(id)creserved:(unsigned long long)d;
+ - (BOOL) sendBeforeDate:(id)amsgid:(unsigned long long)bcomponents:(id)cfrom:(id)dreserved:(unsigned long long)e;
  - (void) addConnection:(id)atoRunLoop:(id)bforMode:(id)c;
  - (void) handlePortMessage:(id)a;
- - (BOOL) sendBeforeTime:(d)astreamData:(^v)bcomponents:(id)cfrom:(id)dmsgid:(I)e;
+ - (BOOL) sendBeforeTime:(double)astreamData:(^v)bcomponents:(id)cfrom:(id)dmsgid:(unsigned int)e;
  - (id) address;
- - (id) initWithTCPPort:(S)a;
- - (id) initWithProtocolFamily:(i)asocketType:(i)bprotocol:(i)caddress:(id)d;
- - (id) initRemoteWithProtocolFamily:(i)asocketType:(i)bprotocol:(i)caddress:(id)d;
+ - (id) initWithTCPPort:(unsigned short)a;
+ - (id) initWithProtocolFamily:(int)asocketType:(int)bprotocol:(int)caddress:(id)d;
+ - (id) initRemoteWithProtocolFamily:(int)asocketType:(int)bprotocol:(int)caddress:(id)d;
  - (void) _incrementUseCount;
  - (void) handleConnDeath:(id)a;
  - (id) _initRemoteWithSignature:(id)a;
- - (id) _initWithRetainedCFSocket:(^{__CFSocket=})aprotocolFamily:(i)bsocketType:(i)cprotocol:(i)d;
+ - (id) _initWithRetainedCFSocket:(^{__CFSocket=})aprotocolFamily:(int)bsocketType:(int)cprotocol:(int)d;
  - (id) signature;
- - (^{__CFSocket=}) _sendingSocketForPort:(id)abeforeTime:(d)b;
- - (i) protocolFamily;
- - (i) socketType;
- - (i) socket;
- - (id) initRemoteWithTCPPort:(S)ahost:(id)b;
- - (id) initWithProtocolFamily:(i)asocketType:(i)bprotocol:(i)csocket:(i)d;
+ - (^{__CFSocket=}) _sendingSocketForPort:(id)abeforeTime:(double)b;
+ - (int) protocolFamily;
+ - (int) socketType;
+ - (int) socket;
+ - (id) initRemoteWithTCPPort:(unsigned short)ahost:(id)b;
+ - (id) initWithProtocolFamily:(int)asocketType:(int)bprotocol:(int)csocket:(int)d;
  - (void) _handleMessage:(^{__CFData=})afrom:(^{__CFData=})bsocket:(^{__CFSocket=})c;
  - (id) description;
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (void) finalize;
  - (BOOL) _tryRetain;
@@ -52,7 +52,7 @@
  - (void) removeFromRunLoop:(id)aforMode:(id)b;
  - (id) init;
  - (id) delegate;
- - (i) protocol;
+ - (int) protocol;
 
 
 @end

@@ -3,8 +3,8 @@
 @interface NSExpression : NSObject <NSSecureCoding, NSCopying> {
 
     {_expressionFlags="_evaluationBlocked"b1"_reservedExpressionFlags"b31} _expressionFlags;
-    I reserved;
-    Q _expressionType;
+    unsigned int reserved;
+    unsigned long long _expressionType;
 }
 @property (atomic, assign, readonly) NSNumber* expressionType;
 @property (atomic, retain, readonly) NSNumber* constantValue;
@@ -46,9 +46,9 @@
  - (id) predicateFormat;
  - (id) constantValue;
  - (BOOL) _allowsEvaluation;
- - (void) acceptVisitor:(id)aflags:(Q)b;
+ - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
  - (id) _expressionWithSubstitutionVariables:(id)a;
- - (id) initWithExpressionType:(Q)a;
+ - (id) initWithExpressionType:(unsigned long long)a;
  - (@?) expressionBlock;
  - (id) subexpression;
  - (id) trueExpression;
@@ -61,7 +61,7 @@
  - (id) initWithCoder:(id)a;
  - (id) leftExpression;
  - (id) rightExpression;
- - (Q) expressionType;
+ - (unsigned long long) expressionType;
  - (id) function;
  - (id) arguments;
  - (id) expressionValueWithObject:(id)acontext:(id)b;

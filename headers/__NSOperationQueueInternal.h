@@ -9,14 +9,14 @@
     [5@"NSOperation"] __firstPriOperation;
     [5@"NSOperation"] __lastPriOperation;
     @"NSObject<OS_dispatch_queue>" __pending_barrier;
-    q __maxNumOps;
-    i __actualMaxNumOps;
-    i __numExecOps;
-    I __unused2;
-    C __mainQ;
-    C __suspended;
-    C __overcommit;
-    c __propertyQOS;
+    long long __maxNumOps;
+    int __actualMaxNumOps;
+    int __numExecOps;
+    unsigned int __unused2;
+    unsigned char __mainQ;
+    unsigned char __suspended;
+    unsigned char __overcommit;
+    char __propertyQOS;
     @"NSObject<OS_dispatch_queue>" __dispatch_queue;
     [160c] __nameBuffer;
 }

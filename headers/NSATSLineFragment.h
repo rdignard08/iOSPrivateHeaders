@@ -5,12 +5,12 @@
     @"NSATSTypesetter" _typesetter;
     {_NSRange="location"Q"length"Q} _glyphRange;
     {_NSRange="location"Q"length"Q} _characterRange;
-    d _minPosition;
-    d _maxPosition;
-    q _elasticCharIndex;
-    d _elasticRangeWidth;
-    I _hyphenGlyph;
-    d _hyphenGlyphWidth;
+    double _minPosition;
+    double _maxPosition;
+    long long _elasticCharIndex;
+    double _elasticRangeWidth;
+    unsigned int _hyphenGlyph;
+    double _hyphenGlyphWidth;
     {?="_directionState"b2"_drawsOutside"b1"_isLineArray"b1"_reserved"b28} _flags;
 }
 
@@ -18,19 +18,19 @@
  - (void) finalize;
  - (void) _invalidate;
  - (id) initWithTypesetter:(id)a;
- - (void) layoutForStartingGlyphAtIndex:(Q)acharacterIndex:(Q)bminPosition:(d)cmaxPosition:(d)dlineFragmentRect:({CGRect={CGPoint=dd}{CGSize=dd}})e;
+ - (void) layoutForStartingGlyphAtIndex:(unsigned long long)acharacterIndex:(unsigned long long)bminPosition:(double)cmaxPosition:(double)dlineFragmentRect:({CGRect={CGPoint=dd}{CGSize=dd}})e;
  - ({_NSRange=QQ}) glyphRange;
  - ({_NSRange=QQ}) characterRange;
  - (void) getTypographicLineHeight:(^d)abaselineOffset:(^d)bleading:(^d)c;
- - (void) justifyWithFactor:(d)a;
- - (d) lineWidthForType:(i)a;
+ - (void) justifyWithFactor:(double)a;
+ - (double) lineWidthForType:(int)a;
  - (BOOL) hasElasticRange;
  - (void) saveMorphedGlyphs:(^{_NSRange=QQ})a;
- - (void) saveWithGlyphOrigin:(d)a;
- - (id) _copyRenderingContextWithGlyphOrigin:(d)a;
+ - (void) saveWithGlyphOrigin:(double)a;
+ - (id) _copyRenderingContextWithGlyphOrigin:(double)a;
  - (void) _flushCachedObjects;
- - (q) resolvedLineBreakMode:(BOOL)a;
- - (q) _charIndexToBreakLineByWordWrappingAtIndex:(q)alineFragmentWidth:(d)bhyphenate:(^B)c;
+ - (long long) resolvedLineBreakMode:(BOOL)a;
+ - (long long) _charIndexToBreakLineByWordWrappingAtIndex:(long long)alineFragmentWidth:(double)bhyphenate:(^B)c;
 
 
 @end

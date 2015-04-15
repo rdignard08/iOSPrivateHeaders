@@ -8,8 +8,8 @@
     @"DOMNode" _assistedNodeStartingFocusRedirects;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _inputViewBounds;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _addressViewBounds;
-    d _lastAdjustmentForScroller;
-    Q _audioSessionCategoryOverride;
+    double _lastAdjustmentForScroller;
+    unsigned long long _audioSessionCategoryOverride;
     b1 _accessoryEnabled;
     b1 _forceInputView;
     b1 _formIsAutoFilling;
@@ -20,7 +20,7 @@
     @"UIWebTouchEventsGestureRecognizer" _webTouchEventsGestureRecognizer;
     @"UIWebFormDelegate" _formDelegate;
     @"UIResponder" _editingDelegateForEverythingExceptForms;
-    Q _dispatchedTouchEvents;
+    unsigned long long _dispatchedTouchEvents;
     @"NSMutableArray" _deferredTouchEvents;
     @"NSHashTable" _activeHighlighters;
     @"NSMutableSet" _overflowScrollViewsPendingInsertion;
@@ -35,7 +35,7 @@
 }
  + (void) initialize;
  + (id) getUIWebBrowserViewForWebFrame:(id)a;
- + (d) preferredScrollDecelerationFactor;
+ + (double) preferredScrollDecelerationFactor;
 
  - (void) dealloc;
  - (BOOL) canPerformAction:(SEL)awithSender:(id)b;
@@ -89,7 +89,7 @@
  - (id) _currentAssistedNode;
  - (void) setAlwaysDispatchesScrollEvents:(BOOL)a;
  - (BOOL) alwaysDispatchesScrollEvents;
- - (void) setAudioSessionCategoryOverride:(I)a;
+ - (void) setAudioSessionCategoryOverride:(unsigned int)a;
  - (void) setNetworkInterfaceName:(id)a;
  - (void) _keyboardDidHide:(id)a;
  - (void) _keyboardDidChangeFrame:(id)a;
@@ -134,10 +134,10 @@
  - (void) _deferWebEvent:(id)a;
  - (void) _handleDeferredEvents;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _activeRectForRectToCenter:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) _centerRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforSizeChange:(BOOL)bwithVisibleHeight:(d)cpinningEdge:(Q)dtoValue:(d)e;
- - (void) _zoomToRect:({CGRect={CGPoint=dd}{CGSize=dd}})aensuringVisibilityOfRect:({CGRect={CGPoint=dd}{CGSize=dd}})bwithScale:(d)cforceScroll:(BOOL)d;
- - (void) _zoomToRect:({CGRect={CGPoint=dd}{CGSize=dd}})aensuringVisibilityOfRect:({CGRect={CGPoint=dd}{CGSize=dd}})bwithScale:(d)cforceScroll:(BOOL)dformAssistantFrame:({CGRect={CGPoint=dd}{CGSize=dd}})eanimationDuration:(d)f;
- - (void) clearMessagesMatchingMask:(i)a;
+ - (void) _centerRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforSizeChange:(BOOL)bwithVisibleHeight:(double)cpinningEdge:(unsigned long long)dtoValue:(double)e;
+ - (void) _zoomToRect:({CGRect={CGPoint=dd}{CGSize=dd}})aensuringVisibilityOfRect:({CGRect={CGPoint=dd}{CGSize=dd}})bwithScale:(double)cforceScroll:(BOOL)d;
+ - (void) _zoomToRect:({CGRect={CGPoint=dd}{CGSize=dd}})aensuringVisibilityOfRect:({CGRect={CGPoint=dd}{CGSize=dd}})bwithScale:(double)cforceScroll:(BOOL)dformAssistantFrame:({CGRect={CGPoint=dd}{CGSize=dd}})eanimationDuration:(double)f;
+ - (void) clearMessagesMatchingMask:(int)a;
  - ({CGSize=dd}) _defaultScrollViewContentSize;
  - (void) _noteOverflowScrollViewPendingInsertion:(id)a;
  - (void) _noteOverflowScrollViewPendingDeletion:(id)a;
@@ -148,18 +148,18 @@
  - ({?=ddd}) scalesForContainerSize:({CGSize=dd})a;
  - (void) updateBoundariesOfScrollView:(id)awithScales:({?=ddd})b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectOfInterestForRotation;
- - (d) minimumVerticalContentOffset;
- - (d) heightToKeepVisible;
+ - (double) minimumVerticalContentOffset;
+ - (double) heightToKeepVisible;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) activeRectForRectOfInterest:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (BOOL) considerHeightOfRectOfInterestForRotation;
- - (d) scaleForProposedNewScale:(d)aandOldScale:(d)b;
+ - (double) scaleForProposedNewScale:(double)aandOldScale:(double)b;
  - ({CGSize=dd}) contentSizeForScrollView:(id)a;
  - (void) simulateDidScroll;
  - (void) _assistFormNode:(id)a;
  - ({CGPoint=dd}) _convertWindowPointToViewport:({CGPoint=dd})a;
- - (void) _centerRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforSizeChange:(BOOL)bwithVisibleHeight:(d)cpinningEdge:(Q)d;
- - (void) _zoomToRect:({CGRect={CGPoint=dd}{CGSize=dd}})awithScale:(d)b;
- - (id) messagesMatchingMask:(i)a;
+ - (void) _centerRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforSizeChange:(BOOL)bwithVisibleHeight:(double)cpinningEdge:(unsigned long long)d;
+ - (void) _zoomToRect:({CGRect={CGPoint=dd}{CGSize=dd}})awithScale:(double)b;
+ - (id) messagesMatchingMask:(int)a;
  - (BOOL) _dumpWebArchiveAtPath:(id)a;
  - (void) _clearSelectionAndUI;
  - (void) _setSelectedDOMRangeAndUpdateUI:(id)a;
@@ -191,7 +191,7 @@
  - (void) webViewDidCommitCompositingLayerChanges:(id)a;
  - (void) webView:(id)adidCreateOrUpdateScrollingLayer:(id)bwithContentsLayer:(id)cscrollSize:(id)dforNode:(id)eallowHorizontalScrollbar:(BOOL)fallowVerticalScrollbar:(BOOL)g;
  - (void) webView:(id)awillRemoveScrollingLayer:(id)bwithContentsLayer:(id)cforNode:(id)d;
- - (I) audioSessionCategoryOverride;
+ - (unsigned int) audioSessionCategoryOverride;
  - (id) networkInterfaceName;
  - (BOOL) resignFirstResponder;
 

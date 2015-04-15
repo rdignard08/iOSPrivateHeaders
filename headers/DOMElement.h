@@ -6,7 +6,7 @@
 
  - (BOOL) selectable;
  - (BOOL) hasCustomLineHeight;
- - (BOOL) exceedsStructuralComplexity:(i)a;
+ - (BOOL) exceedsStructuralComplexity:(int)a;
  - (BOOL) inDocument;
  - (BOOL) isHidden;
  - (BOOL) touchCalloutEnabled;
@@ -15,17 +15,17 @@
  - (BOOL) matches:(id)a;
  - (BOOL) isFocused;
  - (id) innerText;
- - (i) scrollLeft;
- - (i) scrollTop;
- - (i) scrollWidth;
- - (i) scrollHeight;
- - (void) setScrollLeft:(i)a;
- - (void) setScrollTop:(i)a;
+ - (int) scrollLeft;
+ - (int) scrollTop;
+ - (int) scrollWidth;
+ - (int) scrollHeight;
+ - (void) setScrollLeft:(int)a;
+ - (void) setScrollTop:(int)a;
  - (id) className;
  - (id) getElementsByTagName:(id)a;
- - (i) offsetWidth;
- - (i) offsetHeight;
- - (i) structuralComplexityContribution;
+ - (int) offsetWidth;
+ - (int) offsetHeight;
+ - (int) structuralComplexityContribution;
  - (id) firstElementChild;
  - (id) nextElementSibling;
  - (void) remove;
@@ -33,8 +33,8 @@
  - (void) focus;
  - (id) style;
  - (id) tagName;
- - (i) clientWidth;
- - (i) clientHeight;
+ - (int) clientWidth;
+ - (int) clientHeight;
  - (id) getAttribute:(id)a;
  - (^{__CTFont=}) _font;
  - (void) setAttribute:(id)avalue:(id)b;
@@ -44,16 +44,16 @@
  - (id) getElementsByClassName:(id)a;
  - (id) querySelector:(id)a;
  - (id) querySelectorAll:(id)a;
- - (i) offsetLeft;
- - (i) offsetTop;
- - (i) clientLeft;
- - (i) clientTop;
+ - (int) offsetLeft;
+ - (int) offsetTop;
+ - (int) clientLeft;
+ - (int) clientTop;
  - (id) offsetParent;
  - (void) setClassName:(id)a;
  - (id) classList;
  - (id) lastElementChild;
  - (id) previousElementSibling;
- - (I) childElementCount;
+ - (unsigned int) childElementCount;
  - (id) webkitRegionOverset;
  - (void) setAttribute:(id)a;
  - (void) removeAttribute:(id)a;
@@ -74,8 +74,8 @@
  - (BOOL) hasAttributeNS:(id)a;
  - (void) scrollIntoView:(BOOL)a;
  - (void) scrollIntoViewIfNeeded:(BOOL)a;
- - (void) scrollByLines:(i)a;
- - (void) scrollByPages:(i)a;
+ - (void) scrollByLines:(int)a;
+ - (void) scrollByPages:(int)a;
  - (BOOL) webkitMatchesSelector:(id)a;
 
 

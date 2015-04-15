@@ -7,7 +7,7 @@
     @"NSError" _error;
 }
  + (id) filesystemItemMoveOperationWithSourcePath:(id)adestinationPath:(id)b;
- + (id) _errorWithErrno:(i)asourcePath:(id)bdestinationPath:(id)c;
+ + (id) _errorWithErrno:(int)asourcePath:(id)bdestinationPath:(id)c;
 
  - (BOOL) filesystemItemCopyOperation:(id)ashouldProceedAfterError:(id)bcopyingItemAtPath:(id)ctoPath:(id)d;
  - (void) _setError:(id)a;

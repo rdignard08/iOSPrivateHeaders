@@ -2,7 +2,7 @@
 @protocol NSCoding;
 @interface CACGPathCodingSegment : NSObject <NSCoding> {
 
-    i _type;
+    int _type;
     [3{CGPoint="x"d"y"d}] _points;
 }
 

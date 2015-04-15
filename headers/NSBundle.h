@@ -1,9 +1,9 @@
 
 @interface NSBundle : NSObject {
 
-    Q _flags;
+    unsigned long long _flags;
     id _cfBundle;
-    Q _reserved2;
+    unsigned long long _reserved2;
     Class _principalClass;
     id _initialPath;
     id _resolvedPath;
@@ -49,7 +49,7 @@
  + (id) allBundles;
  + (id) allFrameworks;
  + (id) preferredLocalizationsFromArray:(id)a;
- + (id) findBundleResources:(id)acallingMethod:(SEL)bdirectory:(id)clanguages:(id)dname:(id)etypes:(id)flimit:(Q)g;
+ + (id) findBundleResources:(id)acallingMethod:(SEL)bdirectory:(id)clanguages:(id)dname:(id)etypes:(id)flimit:(unsigned long long)g;
  + (id) findBundleResourceURLsCallingMethod:(SEL)abaseURL:(id)bpassingTest:(@?)c;
  + (id) URLForResource:(id)awithExtension:(id)bsubdirectory:(id)cinBundleWithURL:(id)d;
  + (id) pathsForResourcesOfType:(id)ainDirectory:(id)b;
@@ -121,7 +121,7 @@
  - (id) pathForResource:(id)aofType:(id)binDirectory:(id)c;
  - (id) preferredLocalizations;
  - (Class) classNamed:(id)a;
- - (Q) versionNumber;
+ - (unsigned long long) versionNumber;
  - (id) resourcePath;
 
 

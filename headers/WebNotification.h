@@ -10,7 +10,7 @@
  - (id) body;
  - (id) tag;
  - (id) iconURL;
- - (Q) notificationID;
+ - (unsigned long long) notificationID;
  - (void) dispatchShowEvent;
  - (void) dispatchCloseEvent;
  - (void) dispatchClickEvent;

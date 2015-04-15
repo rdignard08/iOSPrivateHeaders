@@ -2,19 +2,19 @@
 @protocol NSCoding;
 @interface CUIPSDGradientOpacityStop : CUIPSDGradientStop <NSCoding> {
 
-    d opacity;
+    double opacity;
 }
  + (void) initialize;
- + (id) opacityStopWithLocation:(d)aopacity:(d)b;
+ + (id) opacityStopWithLocation:(double)aopacity:(double)b;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (BOOL) isOpacityStop;
- - (d) opacityLocation;
- - (id) initWithLocation:(d)aopacity:(d)b;
- - (d) opacity;
+ - (double) opacityLocation;
+ - (id) initWithLocation:(double)aopacity:(double)b;
+ - (double) opacity;
 
 
 @end

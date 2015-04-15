@@ -8,7 +8,7 @@
  - (id) _proxyInitWithContainer:(id)agetter:(id)b;
  - (void) _proxyNonGCFinalize;
  - (id) _nonNilSetValueWithSelector:(SEL)a;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) member:(id)a;
  - (id) objectEnumerator;
 

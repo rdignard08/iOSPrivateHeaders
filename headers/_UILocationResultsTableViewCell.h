@@ -1,7 +1,7 @@
 
 @interface _UILocationResultsTableViewCell : UITableViewCell {
 
-    q _locationImageType;
+    long long _locationImageType;
     @"UIImage" _customLocationImage;
     @"UILabel" _searchTextLabel;
     @"UILabel" _searchDetailTextLabel;
@@ -10,29 +10,29 @@
     @"NSLayoutConstraint" _interLabelSpaceConstraint;
     @"NSLayoutConstraint" _bottomMarginConstraint;
     @"UIView" _cellHeightStrut;
-    d _additionalLeftSidePadding;
+    double _additionalLeftSidePadding;
 }
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (id) initWithStyle:(q)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
  - (void) prepareForReuse;
  - (id) textLabel;
  - (id) detailTextLabel;
  - (id) imageView;
  - (id) _searchImageView;
- - (q) locationImageType;
- - (d) _defaultCellTopMargin;
+ - (long long) locationImageType;
+ - (double) _defaultCellTopMargin;
  - (void) setTopMarginConstraint:(id)a;
- - (d) _defaultCellBottomMargin;
+ - (double) _defaultCellBottomMargin;
  - (void) setBottomMarginConstraint:(id)a;
- - (d) _subtitleCellTopMargin;
+ - (double) _subtitleCellTopMargin;
  - (void) _applyLeftAndRightAlignmentConstraints:(id)a;
- - (d) _subtitleCellBottomMargin;
- - (d) _subtitleCellInterLabelSpace;
+ - (double) _subtitleCellBottomMargin;
+ - (double) _subtitleCellInterLabelSpace;
  - (void) setInterLabelSpaceConstraint:(id)a;
  - (void) _updateLabelFontsAndConstraints;
- - (void) setLocationImageType:(q)a;
+ - (void) setLocationImageType:(long long)a;
  - (void) setCustomLocationImage:(id)a;
  - (id) customLocationImage;
  - (id) searchTextLabel;
@@ -46,8 +46,8 @@
  - (id) bottomMarginConstraint;
  - (id) cellHeightStrut;
  - (void) setCellHeightStrut:(id)a;
- - (d) additionalLeftSidePadding;
- - (void) setAdditionalLeftSidePadding:(d)a;
+ - (double) additionalLeftSidePadding;
+ - (void) setAdditionalLeftSidePadding:(double)a;
  - (id) contentView;
 
 

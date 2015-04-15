@@ -4,12 +4,12 @@
     @"NSString" _label;
 }
  + (BOOL) supportsSecureCoding;
- + (i) type;
+ + (int) type;
  + (id) candidateWithPinyinSyllable:(id)a;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

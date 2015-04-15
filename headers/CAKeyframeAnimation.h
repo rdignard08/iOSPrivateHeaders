@@ -10,7 +10,7 @@
  - (void) CA_prepareRenderValue;
  - (BOOL) _setCARenderAnimation:(^{Animation=^^?{Atomic={?=i}}f{Ref<CA::Render::Timing>=^{Timing}}{Ref<CA::Render::Vector>=^{Vector}}^vIIII})alayer:(id)b;
  - (^{Animation=^^?{Atomic={?=i}}f{Ref<CA::Render::Timing>=^{Timing}}{Ref<CA::Render::Vector>=^{Vector}}^vIIII}) _copyRenderAnimationForLayer:(id)a;
- - (void) applyForTime:(d)apresentationObject:(id)bmodelObject:(id)c;
+ - (void) applyForTime:(double)apresentationObject:(id)bmodelObject:(id)c;
  - (id) calculationMode;
  - (id) values;
  - (id) keyTimes;

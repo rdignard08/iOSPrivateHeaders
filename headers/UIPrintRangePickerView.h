@@ -1,11 +1,11 @@
 
 @interface UIPrintRangePickerView : UIPickerView {
 
-    d _shift;
+    double _shift;
 }
 
  - (void) layoutSubviews;
- - (d) _wheelShift;
+ - (double) _wheelShift;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
 
 

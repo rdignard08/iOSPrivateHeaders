@@ -5,7 +5,7 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (S) type;
+ - (unsigned short) type;
  - (void) setCssText:(id)a;
  - (id) cssText;
  - (id) parentStyleSheet;

@@ -5,7 +5,7 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (S) code;
+ - (unsigned short) code;
 
 
 @end

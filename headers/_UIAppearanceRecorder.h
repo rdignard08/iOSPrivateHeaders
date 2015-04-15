@@ -20,7 +20,7 @@
  - (void) forwardInvocation:(id)a;
  - (id) methodSignatureForSelector:(SEL)a;
  - (void) _recordInvocation:(id)awithClassName:(id)bcontainerClassNames:(id)ctraitCollection:(id)dselectorString:(id)eforRemoteProcess:(BOOL)f;
- - (void) _importCustomizations:(id)awithArchiveVersion:(q)b;
+ - (void) _importCustomizations:(id)awithArchiveVersion:(long long)b;
  - (void) _setClassNameToRecord:(id)a;
  - (void) _setSuperclassToRecord:(Class)a;
  - (void) _setContainerClassNames:(id)a;

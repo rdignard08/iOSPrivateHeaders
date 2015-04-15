@@ -2,23 +2,23 @@
 @interface CUIPSDGradient : NSObject {
 
     @"CUIPSDGradientEvaluator" evaluator;
-    d drawingAngle;
-    I gradientStyle;
+    double drawingAngle;
+    unsigned int gradientStyle;
 }
 @property (atomic, retain, readwrite) CUIPSDGradientEvaluator* evaluator;
 @property (atomic, assign, readwrite) NSNumber* drawingAngle;
 @property (atomic, assign, readwrite) NSNumber* gradientStyle;
- + (id) getMidpointLocationFromArray:(id)aatIndex:(q)bwithPolicy:(i)c;
- + (id) cuiPSDGradientWithColors:(id)alocations:(id)bmidpointLocations:(id)cangle:(d)disRadial:(BOOL)e;
+ + (id) getMidpointLocationFromArray:(id)aatIndex:(long long)bwithPolicy:(int)c;
+ + (id) cuiPSDGradientWithColors:(id)alocations:(id)bmidpointLocations:(id)cangle:(double)disRadial:(BOOL)e;
 
  - (void) dealloc;
  - (id) evaluator;
- - (I) gradientStyle;
- - (d) drawingAngle;
- - (id) initWithEvaluator:(id)adrawingAngle:(d)bgradientStyle:(I)c;
+ - (unsigned int) gradientStyle;
+ - (double) drawingAngle;
+ - (id) initWithEvaluator:(id)adrawingAngle:(double)bgradientStyle:(unsigned int)c;
  - (void) setEvaluator:(id)a;
- - (void) setDrawingAngle:(d)a;
- - (void) setGradientStyle:(I)a;
+ - (void) setDrawingAngle:(double)a;
+ - (void) setGradientStyle:(unsigned int)a;
 
 
 @end

@@ -3,7 +3,7 @@
 
 }
 
- - (id) deserializePListValueIn:(id)akey:(id)blength:(Q)c;
+ - (id) deserializePListValueIn:(id)akey:(id)blength:(unsigned long long)c;
 
 
 @end

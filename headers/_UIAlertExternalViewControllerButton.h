@@ -1,11 +1,11 @@
 
 @interface _UIAlertExternalViewControllerButton : UIButton {
 
-    q _index;
+    long long _index;
 }
 
- - (q) index;
- - (void) setIndex:(q)a;
+ - (long long) index;
+ - (void) setIndex:(long long)a;
 
 
 @end

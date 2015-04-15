@@ -4,20 +4,20 @@
 }
  + (id) defaultValueForKey:(id)a;
 
- - (void) setMass:(d)a;
- - (void) setStiffness:(d)a;
- - (d) durationForEpsilon:(d)a;
- - (d) stiffness;
+ - (void) setMass:(double)a;
+ - (void) setStiffness:(double)a;
+ - (double) durationForEpsilon:(double)a;
+ - (double) stiffness;
  - (BOOL) _setCARenderAnimation:(^{Animation=^^?{Atomic={?=i}}f{Ref<CA::Render::Timing>=^{Timing}}{Ref<CA::Render::Vector>=^{Vector}}^vIIII})alayer:(id)b;
- - (I) _propertyFlagsForLayer:(id)a;
+ - (unsigned int) _propertyFlagsForLayer:(id)a;
  - (^{Animation=^^?{Atomic={?=i}}f{Ref<CA::Render::Timing>=^{Timing}}{Ref<CA::Render::Vector>=^{Vector}}^vIIII}) _copyRenderAnimationForLayer:(id)a;
- - (d) _timeFunction:(d)a;
- - (f) _solveForInput:(f)a;
- - (d) velocity;
- - (void) setVelocity:(d)a;
- - (d) mass;
- - (d) damping;
- - (void) setDamping:(d)a;
+ - (double) _timeFunction:(double)a;
+ - (float) _solveForInput:(float)a;
+ - (double) velocity;
+ - (void) setVelocity:(double)a;
+ - (double) mass;
+ - (double) damping;
+ - (void) setDamping:(double)a;
 
 
 @end

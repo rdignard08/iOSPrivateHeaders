@@ -1,11 +1,11 @@
 
 @interface UITableViewIndexOverlaySelectionViewCollectionViewLayoutAttributes : UICollectionViewLayoutAttributes {
 
-    d rightMargin;
+    double rightMargin;
 }
 
- - (d) rightMargin;
- - (void) setRightMargin:(d)a;
+ - (double) rightMargin;
+ - (void) setRightMargin:(double)a;
 
 
 @end

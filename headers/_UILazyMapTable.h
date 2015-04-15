@@ -9,7 +9,7 @@
 
  - (id) description;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
  - (id) initWithMappingBlock:(@?)a;
  - (id) cachedObjectEnumerable;

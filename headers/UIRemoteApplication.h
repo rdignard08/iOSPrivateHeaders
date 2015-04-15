@@ -2,19 +2,19 @@
 @interface UIRemoteApplication : NSObject {
 
     @"NSString" _machServiceName;
-    I _port;
+    unsigned int _port;
 }
 
  - (id) initWithBundleIdentifier:(id)a;
  - (void) dealloc;
  - (void) updatePort;
  - (void) hideTopMostMiniAlert;
- - (void) showTopMostMiniAlertWithSynchronizationPort:(I)a;
- - (void) statusBarWillChangeOrientation:(q)aduration:(f)b;
- - (void) simpleRemoteActionDidOccur:(q)a;
+ - (void) showTopMostMiniAlertWithSynchronizationPort:(unsigned int)a;
+ - (void) statusBarWillChangeOrientation:(long long)aduration:(float)b;
+ - (void) simpleRemoteActionDidOccur:(long long)a;
  - (void) sheetWithRemoteViewIdentifierDidDismiss:(id)a;
  - (void) remoteNotificationRegistrationSucceededWithDeviceToken:(id)a;
- - (void) remoteNotificationRegistrationFailedWithErrorDomain:(id)acode:(q)blocalizedDescription:(id)c;
+ - (void) remoteNotificationRegistrationFailedWithErrorDomain:(id)acode:(long long)blocalizedDescription:(id)c;
  - (void) remoteNotificationMessageDelivered;
  - (void) didRegisterUserNotificationSettings:(id)a;
  - (void) localNotificationMessageDelivered:(id)a;

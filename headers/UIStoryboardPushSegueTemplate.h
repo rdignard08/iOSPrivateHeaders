@@ -1,16 +1,16 @@
 
 @interface UIStoryboardPushSegueTemplate : UIStoryboardSegueTemplate {
 
-    q _destinationContainmentContext;
-    q _splitViewControllerIndex;
+    long long _destinationContainmentContext;
+    long long _splitViewControllerIndex;
 }
 
  - (id) segueWithDestinationViewController:(id)a;
  - (id) defaultSegueClassName;
- - (q) destinationContainmentContext;
- - (q) splitViewControllerIndex;
- - (void) setDestinationContainmentContext:(q)a;
- - (void) setSplitViewControllerIndex:(q)a;
+ - (long long) destinationContainmentContext;
+ - (long long) splitViewControllerIndex;
+ - (void) setDestinationContainmentContext:(long long)a;
+ - (void) setSplitViewControllerIndex:(long long)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

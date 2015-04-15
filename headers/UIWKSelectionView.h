@@ -38,11 +38,11 @@
  - (void) selectionCreationStartedWithPoint:({CGPoint=dd})a;
  - (void) selectionCreationUpdatedWithPoint:({CGPoint=dd})a;
  - (void) selectionCreationEndedWithPoint:({CGPoint=dd})a;
- - (void) selectionChangedWithTouchAt:({CGPoint=dd})awithSelectionTouch:(q)bwithFlags:(q)c;
- - (void) blockSelectionChangedWithTouch:(q)awithFlags:(q)bgrowThreshold:(d)cshrinkThreshold:(d)d;
+ - (void) selectionChangedWithTouchAt:({CGPoint=dd})awithSelectionTouch:(long long)bwithFlags:(long long)c;
+ - (void) blockSelectionChangedWithTouch:(long long)awithFlags:(long long)bgrowThreshold:(double)cshrinkThreshold:(double)d;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) unobscuredRect;
  - (void) switchToBlockModeForHandle:(id)awithPoint:({CGPoint=dd})b;
- - (d) handleOffsetForPoint:({CGPoint=dd})ahandlePosition:(i)b;
+ - (double) handleOffsetForPoint:({CGPoint=dd})ahandlePosition:(int)b;
  - (void) updateRangedSelectionData;
  - (void) updateFrameAndHandlesWithAnimation:(BOOL)ashowHandles:(BOOL)b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) visibleRect;

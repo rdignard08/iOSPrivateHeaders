@@ -3,13 +3,13 @@
 @interface UITextEffectsWindow : UIAutoRotatingWindow <_UIScreenBasedObject> {
 
     BOOL _inDealloc;
-    Q _activeEffectsCount;
-    Q _hostedUseCount;
-    d _defaultWindowLevel;
+    unsigned long long _activeEffectsCount;
+    unsigned long long _hostedUseCount;
+    double _defaultWindowLevel;
     {CGPoint="x"d"y"d} _hostedWindowOffset;
     @"NSDictionary" _perScreenOptions;
-    Q _activeRemoteViewCount;
-    Q _windowLevelCount;
+    unsigned long long _activeRemoteViewCount;
+    unsigned long long _windowLevelCount;
     [5d] _windowLevelStack;
 }
  + (BOOL) _isSystemWindow;
@@ -41,9 +41,9 @@
  - (void) _configureContextOptions:(id)a;
  - ({CGPoint=dd}) convertPoint:({CGPoint=dd})atoWindow:(id)b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) convertRect:({CGRect={CGPoint=dd}{CGSize=dd}})atoWindow:(id)b;
- - (BOOL) _shouldAutorotateToInterfaceOrientation:(q)a;
+ - (BOOL) _shouldAutorotateToInterfaceOrientation:(long long)a;
  - (void) _handleStatusBarOrientationChange:(id)a;
- - (void) handleStatusBarChangeFromHeight:(d)atoHeight:(d)b;
+ - (void) handleStatusBarChangeFromHeight:(double)atoHeight:(double)b;
  - (BOOL) _shouldResizeWithScene;
  - (BOOL) _disableViewScaling;
  - (void) didAddSubview:(id)a;
@@ -52,8 +52,8 @@
  - (BOOL) useHostedInstance;
  - (void) _matchDeviceOrientation;
  - (id) _basicInitWithScreen:(id)aoptions:(id)b;
- - (void) setDefaultWindowLevel:(d)a;
- - (d) defaultWindowLevel;
+ - (void) setDefaultWindowLevel:(double)a;
+ - (double) defaultWindowLevel;
  - (id) _initWithScreen:(id)aoptions:(id)b;
  - (BOOL) _matchingOptions:(id)a;
  - (id) _intendedScreen;
@@ -61,11 +61,11 @@
  - ({CGPoint=dd}) _adjustPointForHostedDisplay:({CGPoint=dd})ahasTarget:(BOOL)binset:(BOOL)c;
  - (void) delayHideWindow;
  - (void) sortSubviews;
- - (void) updateForOrientation:(q)a;
- - (void) updateForOrientation:(q)aforceResetTransform:(BOOL)b;
+ - (void) updateForOrientation:(long long)a;
+ - (void) updateForOrientation:(long long)aforceResetTransform:(BOOL)b;
  - (id) aboveStatusBarWindow;
  - (void) setUseHostedInstance:(BOOL)a;
- - (void) _setWindowLevel:(d)a;
+ - (void) _setWindowLevel:(double)a;
  - (void) _restoreWindowLevel;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) hostedFrame;
  - ({CGPoint=dd}) classicWindowPointForPoint:({CGPoint=dd})a;
@@ -76,8 +76,8 @@
  - (void) setHostedWindowOffset:({CGPoint=dd})a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) convertRect:({CGRect={CGPoint=dd}{CGSize=dd}})atoView:(id)b;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (q) interfaceOrientation;
- - (I) contextID;
+ - (long long) interfaceOrientation;
+ - (unsigned int) contextID;
  - ({CGPoint=dd}) convertPoint:({CGPoint=dd})afromView:(id)b;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) convertRect:({CGRect={CGPoint=dd}{CGSize=dd}})afromView:(id)b;
  - ({CGPoint=dd}) convertPoint:({CGPoint=dd})atoView:(id)b;

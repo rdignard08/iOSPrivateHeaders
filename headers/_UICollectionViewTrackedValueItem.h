@@ -1,16 +1,16 @@
 
 @interface _UICollectionViewTrackedValueItem : NSObject {
 
-    d _timeStamp;
-    d _value;
+    double _timeStamp;
+    double _value;
 }
 @property (nonatomic, assign, readwrite) NSNumber* timeStamp;
 @property (nonatomic, assign, readwrite) NSNumber* value;
 
- - (d) timeStamp;
- - (void) setTimeStamp:(d)a;
- - (void) setValue:(d)a;
- - (d) value;
+ - (double) timeStamp;
+ - (void) setTimeStamp:(double)a;
+ - (void) setValue:(double)a;
+ - (double) value;
 
 
 @end

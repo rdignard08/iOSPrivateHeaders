@@ -25,7 +25,7 @@
  - (void) searchForBrowsableDomains;
  - (void) searchForRegistrationDomains;
  - (void) searchForServicesOfType:(id)ainDomain:(id)b;
- - (void) _dispatchCallBack:(^v)aflags:(Q)berror:({?=qi})c;
+ - (void) _dispatchCallBack:(^v)aflags:(unsigned long long)berror:({?=qi})c;
  - (void) searchForAllDomains;
 
 

@@ -3,7 +3,7 @@
 
     @"NSObject<OS_dispatch_queue>" _queue;
     @"NSFileWatcher" _watcher;
-    Q _writingRelinquishmentCount;
+    unsigned long long _writingRelinquishmentCount;
     id _currentWriterPurposeID;
     @"NSMutableArray" _previousWriterPurposeIDs;
     BOOL _didObserveMovingByWriter;
@@ -19,8 +19,8 @@
  - (void) forwardRelinquishmentMessageWithKind:(id)aparameters:(id)bresultHandler:(@?)c;
  - (void) disconnect;
  - (void) startWatchingWithQueue:(id)alastEventID:(id)bunannouncedMoveHandler:(@?)c;
- - (void) relinquishToReadingClaimWithID:(id)aoptions:(Q)bpurposeID:(id)cresultHandler:(@?)d;
- - (void) relinquishToWritingClaimWithID:(id)aoptions:(Q)bpurposeID:(id)csubitemPath:(id)dresultHandler:(@?)e;
+ - (void) relinquishToReadingClaimWithID:(id)aoptions:(unsigned long long)bpurposeID:(id)cresultHandler:(@?)d;
+ - (void) relinquishToWritingClaimWithID:(id)aoptions:(unsigned long long)bpurposeID:(id)csubitemPath:(id)dresultHandler:(@?)e;
  - (void) saveChangesWithCompletionHandler:(@?)a;
  - (void) accommodateDeletionWithSubitemPath:(id)acompletionHandler:(@?)b;
  - (void) observeMoveByWriterWithPurposeID:(id)a;

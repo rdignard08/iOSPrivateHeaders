@@ -2,7 +2,7 @@
 @interface TIShortcutConversionCandidate : TIKeyboardCandidateSingle {
 
 }
- + (i) type;
+ + (int) type;
 
  - (BOOL) isForShortcutConversion;
 

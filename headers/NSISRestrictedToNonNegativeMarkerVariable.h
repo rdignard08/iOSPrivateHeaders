@@ -3,7 +3,7 @@
 
 }
 
- - (i) valueRestriction;
+ - (int) valueRestriction;
  - (id) markedConstraint;
  - (BOOL) shouldBeMinimized;
 

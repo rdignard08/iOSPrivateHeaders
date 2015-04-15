@@ -7,12 +7,12 @@
     {CGPoint="x"d"y"d} _center;
     {CGSize="width"d"height"d} _size;
     {CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}} _frame;
-    d _alpha;
+    double _alpha;
     {CATransform3D="m11"d"m12"d"m13"d"m14"d"m21"d"m22"d"m23"d"m24"d"m31"d"m32"d"m33"d"m34"d"m41"d"m42"d"m43"d"m44"d} _transform;
     @"NSIndexPath" _indexPath;
     @"NSString" _isCloneString;
     {?="isCellKind"b1"isDecorationView"b1"isHidden"b1"isClone"b1} _layoutFlags;
-    q _zIndex;
+    long long _zIndex;
 }
 @property (nonatomic, assign, readwrite) NSNumber* frame;
 @property (nonatomic, assign, readwrite) NSNumber* center;
@@ -34,10 +34,10 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (void) setAlpha:(d)a;
- - (Q) representedElementCategory;
+ - (void) setAlpha:(double)a;
+ - (unsigned long long) representedElementCategory;
  - (id) indexPath;
  - (void) setCenter:({CGPoint=dd})a;
  - (id) _reuseIdentifier;
@@ -46,7 +46,7 @@
  - (BOOL) _isSupplementaryView;
  - (BOOL) _isClone;
  - ({CATransform3D=dddddddddddddddd}) transform3D;
- - (q) zIndex;
+ - (long long) zIndex;
  - (BOOL) _isDecorationView;
  - (BOOL) _isEquivalentTo:(id)a;
  - (BOOL) _isTransitionVisibleTo:(id)a;
@@ -57,12 +57,12 @@
  - (void) _setElementKind:(id)a;
  - (id) initialLayoutAttributesForInsertedDecorationElementOfKind:(id)aatIndexPath:(id)b;
  - (id) representedElementKind;
- - (void) setZIndex:(q)a;
+ - (void) setZIndex:(long long)a;
  - (id) init;
  - (void) setSize:({CGSize=dd})a;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frame;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (d) alpha;
+ - (double) alpha;
  - ({CGPoint=dd}) center;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
  - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;

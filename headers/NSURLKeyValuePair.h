@@ -3,7 +3,7 @@
 
     id key;
     id value;
-    Q hash;
+    unsigned long long hash;
 }
  + (id) pairWithKey:(id)avalue:(id)b;
  + (id) pair;
@@ -12,7 +12,7 @@
  - (void) setKey:(id)a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (id) key;
  - (void) setValue:(id)a;

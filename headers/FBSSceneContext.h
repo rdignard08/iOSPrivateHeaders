@@ -1,8 +1,8 @@
 
 @interface FBSSceneContext : NSObject {
 
-    I _identifier;
-    d _level;
+    unsigned int _identifier;
+    double _level;
     @"CAContext" _context;
     @"<FBSSceneContextDelegate>" _delegate;
     BOOL _shouldObserveContext;
@@ -16,15 +16,15 @@
  - (void) observeValueForKeyPath:(id)aofObject:(id)bchange:(id)ccontext:(^v)d;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) setDelegate:(id)a;
  - (id) delegate;
- - (I) identifier;
- - (d) level;
- - (void) setLevel:(d)a;
+ - (unsigned int) identifier;
+ - (double) level;
+ - (void) setLevel:(double)a;
  - (id) initWithCAContext:(id)a;
- - (id) initWithIdentifier:(I)alevel:(d)b;
+ - (id) initWithIdentifier:(unsigned int)alevel:(double)b;
  - (id) CAContext;
 
 

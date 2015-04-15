@@ -3,12 +3,12 @@
 
 }
 
- - (d) numberPadKeyPrimarySymbolSize;
+ - (double) numberPadKeyPrimarySymbolSize;
  - ({CGPoint=dd}) numberPadKeyPrimaryTextOffset;
  - ({CGPoint=dd}) numberPadVBarSecondaryTextOffset;
  - ({CGPoint=dd}) numberPadKeySecondaryTextOffset;
  - ({CGPoint=dd}) abcKeyTextOffset;
- - (d) controlColumnWidthFactor;
+ - (double) controlColumnWidthFactor;
 
 
 @end

@@ -6,7 +6,7 @@
     BOOL _hasBeenDismissed;
     BOOL _showingSpinner;
     @"NSArray" _pickableTypes;
-    Q _pickerMode;
+    unsigned long long _pickerMode;
     @"NSURL" _uploadURL;
     @"NSArray" _auxiliaryOptions;
     @"NSString" _currentPickerIdentifier;
@@ -20,7 +20,7 @@
  - (void) _dismissViewController;
  - (void) _prepareForDisplayWithCompletion:(@?)a;
  - (void) _setPickableTypes:(id)a;
- - (void) _setPickerMode:(Q)a;
+ - (void) _setPickerMode:(unsigned long long)a;
  - (void) _setUploadURLWrapper:(id)a;
  - (id) uploadURL;
  - (void) _didSelectURL:(id)a;
@@ -28,16 +28,16 @@
  - (void) _dismissWithOption:(id)a;
  - (void) _stitchFileCreationAtURL:(id)a;
  - (void) _displayLocationsMenuFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setSortOrder:(i)a;
+ - (void) setSortOrder:(int)a;
  - (id) pickableTypes;
- - (Q) pickerMode;
- - (i) sortOrder;
+ - (unsigned long long) pickerMode;
+ - (int) sortOrder;
  - (void) setViewControllers:(id)aanimated:(BOOL)b;
  - (void) _setAuxiliaryOptions:(id)a;
  - (void) _documentPickerDidDismiss;
  - (void) _setUploadURL:(id)a;
  - (id) auxiliaryOptions;
- - (q) displayMode;
+ - (long long) displayMode;
  - (void) beginDownloadingURL:(id)acompletion:(@?)b;
  - (id) hostingViewController;
  - (BOOL) hasBeenDismissed;
@@ -63,7 +63,7 @@
  - (BOOL) _appIsSharingAware;
  - (void) overviewController:(id)aselectedAuxiliaryOptionWithIdentifier:(id)b;
  - (BOOL) shouldShowSearch;
- - (void) setDisplayMode:(q)a;
+ - (void) setDisplayMode:(long long)a;
  - (void) _dismissWithImportURL:(id)a;
  - (void) _willAppearInRemoteViewController;
  - (BOOL) showingSpinner;

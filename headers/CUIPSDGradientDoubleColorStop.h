@@ -5,7 +5,7 @@
     {_psdGradientColor="red"d"green"d"blue"d"alpha"d} leadOutColor;
 }
  + (void) initialize;
- + (id) doubleColorStopWithLocation:(d)aleadInColor:({_psdGradientColor=dddd})bleadOutColor:({_psdGradientColor=dddd})c;
+ + (id) doubleColorStopWithLocation:(double)aleadInColor:({_psdGradientColor=dddd})bleadOutColor:({_psdGradientColor=dddd})c;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
@@ -13,7 +13,7 @@
  - (id) initWithCoder:(id)a;
  - ({_psdGradientColor=dddd}) leadOutColor;
  - (BOOL) isDoubleStop;
- - (id) initWithLocation:(d)aleadInColor:({_psdGradientColor=dddd})bleadOutColor:({_psdGradientColor=dddd})c;
+ - (id) initWithLocation:(double)aleadInColor:({_psdGradientColor=dddd})bleadOutColor:({_psdGradientColor=dddd})c;
  - ({_psdGradientColor=dddd}) leadInColor;
 
 

@@ -6,7 +6,7 @@
     @"NSDOStreamData" doStreamData;
     @"NSMutableArray" components;
     @"NSMutableArray" importedObjects;
-    Q componentIndex;
+    unsigned long long componentIndex;
     BOOL isBycopy;
     BOOL isByref;
     BOOL isValid;
@@ -14,8 +14,8 @@
  + (void) _enableLogging:(BOOL)a;
  + (id) allocWithZone:(^{_NSZone=})a;
 
- - (q) versionForClassName:(id)a;
- - (void) encodeBytes:(r^v)alength:(Q)b;
+ - (long long) versionForClassName:(id)a;
+ - (void) encodeBytes:(r^v)alength:(unsigned long long)b;
  - (void) encodeDataObject:(id)a;
  - (^v) decodeBytesWithReturnedLength:(^Q)a;
  - (id) decodeDataObject;

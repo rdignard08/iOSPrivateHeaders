@@ -3,8 +3,8 @@
 @interface UIInputViewAnimationStyle : NSObject <NSCopying> {
 
     BOOL animated;
-    d duration;
-    Q extraOptions;
+    double duration;
+    unsigned long long extraOptions;
     BOOL interactivelyCancelled;
     BOOL force;
 }
@@ -17,16 +17,16 @@
 @property (nonatomic, assign, readwrite) NSNumber* force;
  + (id) animationStyleImmediate;
  + (id) animationStyleDefault;
- + (id) animationStyleAnimated:(BOOL)aduration:(d)b;
+ + (id) animationStyleAnimated:(BOOL)aduration:(double)b;
 
- - (d) duration;
+ - (double) duration;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (BOOL) isEqual:(id)a;
  - (BOOL) animated;
  - (void) setAnimated:(BOOL)a;
- - (void) setExtraOptions:(Q)a;
- - (Q) extraOptions;
+ - (void) setExtraOptions:(unsigned long long)a;
+ - (unsigned long long) extraOptions;
  - (void) setInteractivelyCancelled:(BOOL)a;
  - (void) launchAnimation:(@?)aafterStarted:(@?)bcompletion:(@?)cforHost:(id)dfromCurrentPosition:(BOOL)e;
  - (id) controllerForStartPlacement:(id)aendPlacement:(id)b;
@@ -37,7 +37,7 @@
  - (BOOL) interactivelyCancelled;
  - (BOOL) force;
  - (id) startPlacementForInputViewSet:(id)acurrentPlacement:(id)b;
- - (void) setDuration:(d)a;
+ - (void) setDuration:(double)a;
 
 
 @end

@@ -6,7 +6,7 @@
     BOOL _mediaPlaybackRequiresUserAction;
     BOOL _mediaPlaybackAllowsAirPlay;
     BOOL _suppressesIncrementalRendering;
-    Q _dataDetectorTypes;
+    unsigned long long _dataDetectorTypes;
     @"NSString" _customUserAgent;
 }
 @property (nonatomic, assign, readwrite) NSNumber* dataDetectorTypes;
@@ -19,8 +19,8 @@
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
- - (void) setDataDetectorTypes:(Q)a;
- - (Q) dataDetectorTypes;
+ - (void) setDataDetectorTypes:(unsigned long long)a;
+ - (unsigned long long) dataDetectorTypes;
  - (void) setCustomUserAgent:(id)a;
  - (void) setMediaPlaybackAllowsAirPlay:(BOOL)a;
  - (void) setSuppressesIncrementalRendering:(BOOL)a;

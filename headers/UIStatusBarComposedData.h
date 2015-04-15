@@ -12,8 +12,8 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;
  - (^{?=[26B][64c]ii[100c][100c][2[100c]][1024c]IiiIiI[150c]iib1b1b1[256c]b1b1b1b1b1I}) rawData;
- - (BOOL) isItemEnabled:(i)a;
- - (void) setItem:(i)aenabled:(BOOL)b;
+ - (BOOL) isItemEnabled:(int)a;
+ - (void) setItem:(int)aenabled:(BOOL)b;
  - (id) doubleHeightStatus;
  - (id) initWithRawData:(r^{?=[26B][64c]ii[100c][100c][2[100c]][1024c]IiiIiI[150c]iib1b1b1[256c]b1b1b1b1b1I})a;
  - (void) setDoubleHeightStatus:(id)a;

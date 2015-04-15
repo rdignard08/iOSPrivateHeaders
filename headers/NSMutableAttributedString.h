@@ -4,7 +4,7 @@
 }
  + (id) allocWithZone:(^{_NSZone=})a;
 
- - (void) MP_addAttributes:(id)atoOccurrencesOfSubstring:(id)boptions:(Q)c;
+ - (void) MP_addAttributes:(id)atoOccurrencesOfSubstring:(id)boptions:(unsigned long long)c;
  - (void) _ui_restoreOriginalFontAttributes;
  - (void) convertBidiControlCharactersToWritingDirection;
  - (BOOL) _attributeFixingInProgress;
@@ -15,14 +15,14 @@
  - (void) fixAttachmentAttributeInRange:({_NSRange=QQ})a;
  - (BOOL) _shouldSetOriginalFontAttribute;
  - (void) _fixGlyphInfo:(id)ainRange:({_NSRange=QQ})b;
- - (void) _changeIntAttribute:(id)aby:(q)brange:({_NSRange=QQ})c;
+ - (void) _changeIntAttribute:(id)aby:(long long)brange:({_NSRange=QQ})c;
  - (BOOL) readFromURL:(id)aoptions:(id)bdocumentAttributes:(^@)cerror:(^@)d;
  - (BOOL) readFromData:(id)aoptions:(id)bdocumentAttributes:(^@)cerror:(^@)d;
- - (void) setBaseWritingDirection:(q)arange:({_NSRange=QQ})b;
- - ({_NSRange=QQ}) convertBidiControlCharactersToWritingDirectionForParagraphAtIndex:(Q)a;
- - ({_NSRange=QQ}) convertWritingDirectionToBidiControlCharactersForParagraphAtIndex:(Q)a;
+ - (void) setBaseWritingDirection:(long long)arange:({_NSRange=QQ})b;
+ - ({_NSRange=QQ}) convertBidiControlCharactersToWritingDirectionForParagraphAtIndex:(unsigned long long)a;
+ - ({_NSRange=QQ}) convertWritingDirectionToBidiControlCharactersForParagraphAtIndex:(unsigned long long)a;
  - (void) fixAttributesInRange:({_NSRange=QQ})a;
- - (void) setAlignment:(q)arange:({_NSRange=QQ})b;
+ - (void) setAlignment:(long long)arange:({_NSRange=QQ})b;
  - (void) superscriptRange:({_NSRange=QQ})a;
  - (void) subscriptRange:({_NSRange=QQ})a;
  - (void) unscriptRange:({_NSRange=QQ})a;
@@ -42,7 +42,7 @@
  - (void) beginEditing;
  - (void) endEditing;
  - (void) deleteCharactersInRange:({_NSRange=QQ})a;
- - (void) insertAttributedString:(id)aatIndex:(Q)b;
+ - (void) insertAttributedString:(id)aatIndex:(unsigned long long)b;
  - (void) setAttributedString:(id)a;
 
 

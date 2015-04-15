@@ -1,7 +1,7 @@
 
 @interface UIAccelerometer : NSObject {
 
-    d _updateInterval;
+    double _updateInterval;
     @"<UIAccelerometerDelegate>" _delegate;
     {?="delegateDidAccelerate"b1"reserved"b31} _accelerometerFlags;
     @"CMMotionManager" _motionManager;
@@ -12,7 +12,7 @@
 
  - (void) dealloc;
  - (void) setDelegate:(id)a;
- - (void) _acceleratedInX:(d)ay:(d)bz:(d)ctimestamp:(d)d;
+ - (void) _acceleratedInX:(double)ay:(double)bz:(double)ctimestamp:(double)d;
  - (void) _willResume:(id)a;
  - (void) _didSuspend:(id)a;
  - (id) _motionManager;
@@ -20,8 +20,8 @@
  - (void) _stopAccelerometer;
  - (id) init;
  - (id) delegate;
- - (d) updateInterval;
- - (void) setUpdateInterval:(d)a;
+ - (double) updateInterval;
+ - (void) setUpdateInterval:(double)a;
 
 
 @end

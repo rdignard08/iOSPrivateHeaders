@@ -1,14 +1,14 @@
 
 @interface NSSimpleOrthography : NSOrthography {
 
-    I _orthographyFlags;
+    unsigned int _orthographyFlags;
 }
- + (id) orthographyWithFlags:(I)a;
+ + (id) orthographyWithFlags:(unsigned int)a;
  + (void) initialize;
 
  - (Class) classForCoder;
  - (id) initWithDominantScript:(id)alanguageMap:(id)b;
- - (I) orthographyFlags;
+ - (unsigned int) orthographyFlags;
  - (id) dominantScript;
  - (id) languageMap;
  - (id) dominantLanguage;
@@ -16,7 +16,7 @@
  - (id) languagesForScript:(id)a;
  - (id) dominantLanguageForScript:(id)a;
  - (id) allLanguages;
- - (id) initWithFlags:(I)a;
+ - (id) initWithFlags:(unsigned int)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

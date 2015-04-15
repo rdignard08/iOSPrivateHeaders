@@ -9,7 +9,7 @@
  - (void) setString:(id)a;
  - (void) didMoveToSuperview;
  - (void) _updateContentsScale:(id)a;
- - (void) setTextRotationAngle:(d)a;
+ - (void) setTextRotationAngle:(double)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
 

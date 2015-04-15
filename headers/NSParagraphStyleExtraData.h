@@ -1,11 +1,11 @@
 
 @interface NSParagraphStyleExtraData : NSObject {
 
-    d _lineHeightMultiple;
-    d _paragraphSpacingBefore;
-    d _hyphenationFactor;
-    d _tighteningFactor;
-    q _headerLevel;
+    double _lineHeightMultiple;
+    double _paragraphSpacingBefore;
+    double _hyphenationFactor;
+    double _tighteningFactor;
+    long long _headerLevel;
     @"NSArray" _textBlocks;
     @"NSArray" _textLists;
 }

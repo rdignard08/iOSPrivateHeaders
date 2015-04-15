@@ -4,10 +4,10 @@
 
 }
  + (id) localeForBundleLanguage:(id)a;
- + (id) mostPreferredLanguageOf:(id)awithPreferredLanguages:(id)bforUsage:(Q)coptions:(Q)d;
+ + (id) mostPreferredLanguageOf:(id)awithPreferredLanguages:(id)bforUsage:(unsigned long long)coptions:(unsigned long long)d;
  + (void) setPreferredLanguages:(id)a;
- + (void) registerPreferredLanguage:(id)ausage:(Q)bconfidence:(f)c;
- + (id) mostPreferredLanguageOf:(id)aforUsage:(Q)boptions:(Q)c;
+ + (void) registerPreferredLanguage:(id)ausage:(unsigned long long)bconfidence:(float)c;
+ + (id) mostPreferredLanguageOf:(id)aforUsage:(unsigned long long)boptions:(unsigned long long)c;
  + (id) systemLanguages;
  + (id) autoupdatingCurrentLocale;
  + (BOOL) supportsSecureCoding;
@@ -23,11 +23,11 @@
  + (id) ISOCountryCodes;
  + (id) ISOCurrencyCodes;
  + (id) commonISOCurrencyCodes;
- + (id) localeIdentifierFromWindowsLocaleCode:(I)a;
- + (I) windowsLocaleCodeFromLocaleIdentifier:(id)a;
- + (Q) lineDirectionForLanguage:(id)a;
+ + (id) localeIdentifierFromWindowsLocaleCode:(unsigned int)a;
+ + (unsigned int) windowsLocaleCodeFromLocaleIdentifier:(id)a;
+ + (unsigned long long) lineDirectionForLanguage:(id)a;
  + (id) internetServicesRegion;
- + (Q) characterDirectionForLanguage:(id)a;
+ + (unsigned long long) characterDirectionForLanguage:(id)a;
  + (id) canonicalLocaleIdentifierFromString:(id)a;
  + (id) ISOLanguageCodes;
 
@@ -37,14 +37,14 @@
  - (id) initWithCoder:(id)a;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) objectForKey:(id)a;
- - (C) _nullLocale;
+ - (unsigned char) _nullLocale;
  - (void) _setNullLocale;
  - (id) _prefs;
  - (id) localeIdentifier;
  - (id) _copyDisplayNameForKey:(id)avalue:(id)b;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
- - (Q) _cfTypeID;
+ - (unsigned long long) _cfTypeID;
  - (id) displayNameForKey:(id)avalue:(id)b;
  - (id) initWithLocaleIdentifier:(id)a;
  - (id) init;

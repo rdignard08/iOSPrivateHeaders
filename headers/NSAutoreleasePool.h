@@ -8,16 +8,16 @@
 }
  + (void) showPools;
  + (void) releaseAllPools;
- + (Q) autoreleasedObjectCount;
- + (Q) topAutoreleasePoolCount;
+ + (unsigned long long) autoreleasedObjectCount;
+ + (unsigned long long) topAutoreleasePoolCount;
  + (BOOL) autoreleasePoolExists;
  + (void) enableRelease:(BOOL)a;
  + (void) enableFreedObjectCheck:(BOOL)a;
- + (Q) poolCountHighWaterMark;
- + (void) setPoolCountHighWaterMark:(Q)a;
- + (Q) poolCountHighWaterResolution;
- + (void) setPoolCountHighWaterResolution:(Q)a;
- + (Q) totalAutoreleasedObjects;
+ + (unsigned long long) poolCountHighWaterMark;
+ + (void) setPoolCountHighWaterMark:(unsigned long long)a;
+ + (unsigned long long) poolCountHighWaterResolution;
+ + (void) setPoolCountHighWaterResolution:(unsigned long long)a;
+ + (unsigned long long) totalAutoreleasedObjects;
  + (void) resetTotalAutoreleasedObjects;
  + (id) allocWithZone:(^{_NSZone=})a;
  + (void) addObject:(id)a;
@@ -25,10 +25,10 @@
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (void) addObject:(id)a;
- - (id) initWithCapacity:(Q)a;
+ - (id) initWithCapacity:(unsigned long long)a;
  - (id) init;
  - (void) drain;
 

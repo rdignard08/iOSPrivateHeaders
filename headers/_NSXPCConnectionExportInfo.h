@@ -3,7 +3,7 @@
 
     id _exportedObject;
     @"NSXPCInterface" _exportedInterface;
-    q _exportCount;
+    long long _exportCount;
 }
 @property (atomic, retain, readwrite) NSNumber* exportedObject;
 @property (atomic, retain, readwrite) NSXPCInterface* exportedInterface;
@@ -11,8 +11,8 @@
 
  - (id) exportedObject;
  - (id) exportedInterface;
- - (q) exportCount;
- - (void) setExportCount:(q)a;
+ - (long long) exportCount;
+ - (void) setExportCount:(long long)a;
  - (id) description;
  - (void) dealloc;
  - (id) init;

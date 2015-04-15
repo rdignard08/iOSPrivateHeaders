@@ -6,7 +6,7 @@
  + (BOOL) supportsSecureCoding;
 
  - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
- - (id) initWithCustomSelector:(SEL)amodifier:(Q)b;
+ - (id) initWithCustomSelector:(SEL)amodifier:(unsigned long long)b;
  - (id) symbol;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (SEL) selector;

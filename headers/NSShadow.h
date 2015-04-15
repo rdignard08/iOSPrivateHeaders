@@ -2,9 +2,9 @@
 @protocol NSCopying, NSCoding;
 @interface NSShadow : NSObject <NSCopying, NSCoding> {
 
-    Q _shadowFlags;
+    unsigned long long _shadowFlags;
     {CGSize="width"d"height"d} _shadowOffset;
-    d _shadowBlurRadius;
+    double _shadowBlurRadius;
     @"NSColor" _shadowColor;
 }
 @property (nonatomic, assign, readwrite) NSNumber* shadowOffset;
@@ -17,13 +17,13 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
  - (void) setShadowOffset:({CGSize=dd})a;
- - (d) shadowBlurRadius;
- - (void) setShadowBlurRadius:(d)a;
+ - (double) shadowBlurRadius;
+ - (void) setShadowBlurRadius:(double)a;
  - (void) setShadowColor:(id)a;
  - (id) initWithShadow:(id)a;
  - ({CGSize=dd}) shadowOffset;

@@ -10,11 +10,11 @@
  - (void) setItem:(r^v)aforKnownAbsentKey:(r^v)b;
  - (^v) existingItemForSetItem:(r^v)aforAbsentKey:(r^v)b;
  - (BOOL) mapMember:(r^v)aoriginalKey:(r^^v)bvalue:(r^^v)c;
- - (Q) getKeys:(r^^v)avalues:(r^^v)b;
+ - (unsigned long long) getKeys:(r^^v)avalues:(r^^v)b;
  - (id) description;
  - (void) dealloc;
  - (id) copy;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
  - (void) removeObjectForKey:(id)a;
  - (BOOL) isEqual:(id)a;

@@ -7,9 +7,9 @@
 
  - (id) retain;
  - (Vv) release;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
- - (d) timeIntervalSinceReferenceDate;
+ - (double) timeIntervalSinceReferenceDate;
 
 
 @end

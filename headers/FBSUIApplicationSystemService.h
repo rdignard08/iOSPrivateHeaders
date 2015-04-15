@@ -14,15 +14,15 @@
  - (void) dealloc;
  - (void) setDelegate:(id)a;
  - (void) setBadgeString:(id)a;
- - (q) badgeNumber;
- - (void) setBadgeNumber:(q)a;
- - (BOOL) setNextWakeInterval:(d)a;
- - (void) setCurrentBacklightLevel:(d)a;
- - (d) currentBacklightLevel;
+ - (long long) badgeNumber;
+ - (void) setBadgeNumber:(long long)a;
+ - (BOOL) setNextWakeInterval:(double)a;
+ - (void) setCurrentBacklightLevel:(double)a;
+ - (double) currentBacklightLevel;
  - (id) init;
  - (id) delegate;
  - (id) _getBadgeValue;
- - (d) backgroundTimeRemaining;
+ - (double) backgroundTimeRemaining;
  - (id) badgeString;
 
 

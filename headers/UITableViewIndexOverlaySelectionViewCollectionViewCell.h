@@ -2,7 +2,7 @@
 @interface UITableViewIndexOverlaySelectionViewCollectionViewCell : UICollectionViewCell {
 
     @"UIButton" _button;
-    d _rightMargin;
+    double _rightMargin;
     BOOL _rightMarginAdjusted;
     id _tapTarget;
     SEL _tapAction;
@@ -11,12 +11,12 @@
  - (void) dealloc;
  - (id) button;
  - (void) layoutSubviews;
- - (void) setTextAlignment:(q)a;
+ - (void) setTextAlignment:(long long)a;
  - (void) setText:(id)a;
- - (q) textAlignment;
- - (d) rightMargin;
+ - (long long) textAlignment;
+ - (double) rightMargin;
  - (void) applyLayoutAttributes:(id)a;
- - (void) setRightMargin:(d)a;
+ - (void) setRightMargin:(double)a;
  - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
  - (id) label;
  - (id) text;

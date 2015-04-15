@@ -12,7 +12,7 @@
  - (Class) classForCoder;
  - (id) replacementObjectForPortCoder:(id)a;
  - (id) initWithDominantScript:(id)alanguageMap:(id)b;
- - (I) orthographyFlags;
+ - (unsigned int) orthographyFlags;
  - (id) dominantScript;
  - (id) languageMap;
  - (id) dominantLanguage;
@@ -22,7 +22,7 @@
  - (id) allLanguages;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;

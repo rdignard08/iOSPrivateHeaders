@@ -2,11 +2,11 @@
 @interface _UIDatePickerMode_MonthDay : _UIDatePickerMode_Date {
 
 }
- + (q) datePickerMode;
- + (Q) extractableCalendarUnits;
+ + (long long) datePickerMode;
+ + (unsigned long long) extractableCalendarUnits;
 
- - (Q) nextUnitSmallerThanUnit:(Q)a;
- - (Q) nextUnitLargerThanUnit:(Q)a;
+ - (unsigned long long) nextUnitSmallerThanUnit:(unsigned long long)a;
+ - (unsigned long long) nextUnitLargerThanUnit:(unsigned long long)a;
 
 
 @end

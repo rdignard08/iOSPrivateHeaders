@@ -12,10 +12,10 @@
  - (void) dealloc;
  - (void) finalize;
  - (id) string;
- - (id) attributesAtIndex:(Q)aeffectiveRange:(^{_NSRange=QQ})b;
- - (id) attribute:(id)aatIndex:(Q)beffectiveRange:(^{_NSRange=QQ})c;
+ - (id) attributesAtIndex:(unsigned long long)aeffectiveRange:(^{_NSRange=QQ})b;
+ - (id) attribute:(id)aatIndex:(unsigned long long)beffectiveRange:(^{_NSRange=QQ})c;
  - (id) initWithString:(id)a;
- - (Q) length;
+ - (unsigned long long) length;
  - (id) init;
 
 

@@ -8,7 +8,7 @@
     @"NSHashTable" _objectRemovals;
 }
  + (id) diffFromSettings:(id)atoSettings:(id)b;
- + (id) _newHashTableWithInitialCapacity:(Q)a;
+ + (id) _newHashTableWithInitialCapacity:(unsigned long long)a;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
@@ -21,7 +21,7 @@
  - (id) _initWithChanges:(id)aflagRemovals:(id)bobjectRemovals:(id)c;
  - (void) _enumerateSettingsInTable:(id)awithBlock:(@?)b;
  - (id) allSettings;
- - (Q) _diffTypesForSetting:(Q)a;
+ - (unsigned long long) _diffTypesForSetting:(unsigned long long)a;
  - (id) descriptionOfSettingsWithMultilinePrefix:(id)aproviderBlock:(@?)b;
 
 

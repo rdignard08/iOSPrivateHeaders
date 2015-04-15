@@ -2,20 +2,20 @@
 @protocol NSSecureCoding;
 @interface _UIViewAnimationAttributes : NSObject <NSSecureCoding> {
 
-    d _duration;
-    d _delay;
-    Q _options;
-    q _curve;
+    double _duration;
+    double _delay;
+    unsigned long long _options;
+    long long _curve;
 }
 @property (nonatomic, assign, readonly, _duration) NSNumber* duration;
 @property (nonatomic, assign, readonly, _delay) NSNumber* delay;
 @property (nonatomic, assign, readonly, _curve) NSNumber* curve;
  + (BOOL) supportsSecureCoding;
 
- - (d) _duration;
- - (d) _delay;
- - (q) _curve;
- - (q) curve;
+ - (double) _duration;
+ - (double) _delay;
+ - (long long) _curve;
+ - (long long) curve;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

@@ -5,8 +5,8 @@
     @"NSString" _replacementString;
 }
 
- - (id) resultByAdjustingRangesWithOffset:(q)a;
- - (BOOL) _adjustRangesWithOffset:(q)a;
+ - (id) resultByAdjustingRangesWithOffset:(long long)a;
+ - (BOOL) _adjustRangesWithOffset:(long long)a;
  - (id) replacementString;
  - (id) initWithRange:({_NSRange=QQ})areplacementString:(id)b;
  - (id) description;

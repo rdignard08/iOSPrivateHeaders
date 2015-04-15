@@ -3,7 +3,7 @@
 @interface _UIViewerRelativeDevicePose : NSObject <NSCopying, NSCoding> {
 
     @"_UIMotionEffectAcceleratedOutputRange" _acceleratedOutputRange;
-    d _planarRotationAngle;
+    double _planarRotationAngle;
     {UIOffset="horizontal"d"vertical"d} _viewerOffset;
 }
 @property (nonatomic, assign, readwrite) NSNumber* viewerOffset;
@@ -12,7 +12,7 @@
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) description;
  - (void) dealloc;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - ({UIOffset=dd}) viewerOffset;
  - (void) _reset;
@@ -20,8 +20,8 @@
  - (id) _acceleratedOutputRange;
  - (void) _setAcceleration:({CGPoint=dd})afixingOutputForViewerOffset:({UIOffset=dd})b;
  - ({UIOffset=dd}) _acceleratedOutputForViewerOffset:({UIOffset=dd})aaccelerationBoostFactor:({CGPoint=dd})b;
- - (d) planarRotationAngle;
- - (void) setPlanarRotationAngle:(d)a;
+ - (double) planarRotationAngle;
+ - (void) setPlanarRotationAngle:(double)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
 

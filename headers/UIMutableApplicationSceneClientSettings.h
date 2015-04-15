@@ -8,30 +8,30 @@
  - (void) setIdleTimerDisabled:(BOOL)a;
  - (BOOL) isUISubclass;
  - (BOOL) statusBarHidden;
- - (q) statusBarStyle;
- - (void) setStatusBarStyle:(q)a;
+ - (long long) statusBarStyle;
+ - (void) setStatusBarStyle:(long long)a;
  - (void) setStatusBarHidden:(BOOL)a;
- - (void) setDefaultStatusBarStyle:(q)a;
+ - (void) setDefaultStatusBarStyle:(long long)a;
  - (void) setDefaultStatusBarHidden:(BOOL)a;
  - (void) setDefaultPNGName:(id)a;
- - (void) setDefaultPNGExpirationTime:(d)a;
- - (void) setCompatibilityMode:(q)a;
- - (Q) proximityDetectionModes;
- - (void) setProximityDetectionModes:(Q)a;
- - (q) compatibilityMode;
+ - (void) setDefaultPNGExpirationTime:(double)a;
+ - (void) setCompatibilityMode:(long long)a;
+ - (unsigned long long) proximityDetectionModes;
+ - (void) setProximityDetectionModes:(unsigned long long)a;
+ - (long long) compatibilityMode;
  - (id) defaultPNGName;
  - (void) setOrientationEnabled:(BOOL)a;
- - (q) defaultStatusBarStyle;
+ - (long long) defaultStatusBarStyle;
  - (BOOL) defaultStatusBarHidden;
- - (d) defaultPNGExpirationTime;
+ - (double) defaultPNGExpirationTime;
  - (BOOL) idleTimerDisabled;
  - (BOOL) orientationEnabled;
- - (q) controlCenterRevealMode;
- - (q) notificationCenterRevealMode;
- - (void) setControlCenterRevealMode:(q)a;
- - (void) setNotificationCenterRevealMode:(q)a;
- - (id) keyDescriptionForSetting:(Q)a;
- - (id) valueDescriptionForFlag:(q)aobject:(id)bofSetting:(Q)c;
+ - (long long) controlCenterRevealMode;
+ - (long long) notificationCenterRevealMode;
+ - (void) setControlCenterRevealMode:(long long)a;
+ - (void) setNotificationCenterRevealMode:(long long)a;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
 
 
 @end

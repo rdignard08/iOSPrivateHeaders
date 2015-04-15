@@ -2,12 +2,12 @@
 @interface UIFetchContentInBackgroundActionResponse : BSActionResponse {
 
 }
- + (id) responseWithResult:(Q)a;
+ + (id) responseWithResult:(unsigned long long)a;
 
- - (id) initWithBackgroundFetchResult:(Q)a;
- - (id) keyDescriptionForSetting:(Q)a;
+ - (id) initWithBackgroundFetchResult:(unsigned long long)a;
+ - (id) keyDescriptionForSetting:(unsigned long long)a;
  - (id) initWithInfo:(id)aerror:(id)b;
- - (Q) result;
+ - (unsigned long long) result;
 
 
 @end

@@ -2,12 +2,12 @@
 @interface UIGestureAnimation : UIAnimation {
 
     SEL _progressSelector;
-    i _gestureType;
+    int _gestureType;
 }
 
- - (void) setProgress:(f)a;
- - (i) gestureType;
- - (id) initWithTarget:(id)aprogressSelector:(SEL)bgestureType:(i)c;
+ - (void) setProgress:(float)a;
+ - (int) gestureType;
+ - (id) initWithTarget:(id)aprogressSelector:(SEL)bgestureType:(int)c;
 
 
 @end

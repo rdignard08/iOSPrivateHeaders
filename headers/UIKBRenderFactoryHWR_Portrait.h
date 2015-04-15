@@ -5,12 +5,12 @@
 
  - (id) _traitsForKey:(id)aonKeyplane:(id)b;
  - (void) setupLayoutSegments;
- - (d) spaceKeyFontSize;
+ - (double) spaceKeyFontSize;
  - ({CGPoint=dd}) spaceKeyTextOffset;
  - ({CGPoint=dd}) moreKeyTextOffset;
  - ({CGPoint=dd}) deleteGlyphOffset;
  - ({UIEdgeInsets=dddd}) handwritingAreaInsets;
- - (d) handwritingGradientStartLocation;
+ - (double) handwritingGradientStartLocation;
 
 
 @end

@@ -16,10 +16,10 @@
  - (id) initWithCoder:(id)a;
  - (void) encodeWithCAMLWriter:(id)a;
  - (^{Object=^^?{Atomic={?=i}}}) CA_copyRenderValue;
- - (Q) inputCount;
- - (Q) outputCount;
+ - (unsigned long long) inputCount;
+ - (unsigned long long) outputCount;
  - (BOOL) apply:(r^d)aresult:(^d)bparameterFunction:(^?)ccontext:(^v)d;
- - (id) _initWithName:(i)a;
+ - (id) _initWithName:(int)a;
  - (BOOL) apply:(r^d)aresult:(^d)b;
 
 

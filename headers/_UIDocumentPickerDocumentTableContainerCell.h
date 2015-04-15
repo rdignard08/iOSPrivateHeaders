@@ -5,7 +5,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithStyle:(q)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
  - (void) prepareForReuse;
  - (void) reloadItem:(BOOL)a;
  - (id) containerIconView;

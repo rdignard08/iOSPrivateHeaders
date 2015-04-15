@@ -1,7 +1,7 @@
 
 @interface _UITintColorVisitor : _UIViewVisitor {
 
-    Q _reasons;
+    unsigned long long _reasons;
     BOOL _visitedViewIsWindow;
     BOOL _viewHasDefinedTintColor;
     BOOL _viewHasNonAutomaticTintAdjustmentMode;
@@ -9,8 +9,8 @@
     @"UIView" _changedSubview;
 }
 
- - (id) initWithNotificationReasons:(Q)a;
- - (id) initWithTraversalDirection:(Q)a;
+ - (id) initWithNotificationReasons:(unsigned long long)a;
+ - (id) initWithTraversalDirection:(unsigned long long)a;
  - (BOOL) _prepareVisitor:(id)atoVisitView:(id)bchangedSubview:(id)cpreviousWindow:(id)dpreviousSuperview:(id)e;
  - (BOOL) _visitView:(id)a;
  - (void) _prepareForView:(id)atrackingHierarchy:(BOOL)b;

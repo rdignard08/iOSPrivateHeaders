@@ -1,19 +1,19 @@
 
 @interface UISwipeGestureRecognizer : UIGestureRecognizer {
 
-    d _maximumDuration;
-    d _minimumPrimaryMovement;
-    d _maximumPrimaryMovement;
-    d _minimumSecondaryMovement;
-    d _maximumSecondaryMovement;
-    d _rateOfMinimumMovementDecay;
-    d _rateOfMaximumMovementDecay;
-    Q _numberOfTouchesRequired;
+    double _maximumDuration;
+    double _minimumPrimaryMovement;
+    double _maximumPrimaryMovement;
+    double _minimumSecondaryMovement;
+    double _maximumSecondaryMovement;
+    double _rateOfMinimumMovementDecay;
+    double _rateOfMaximumMovementDecay;
+    unsigned long long _numberOfTouchesRequired;
     @"NSMutableArray" _touches;
-    Q _direction;
+    unsigned long long _direction;
     {CGPoint="x"d"y"d} _startLocation;
     ^{CGPoint=dd} _startLocations;
-    d _startTime;
+    double _startTime;
     b1 _failed;
 }
 
@@ -23,31 +23,31 @@
  - (void) touchesMoved:(id)awithEvent:(id)b;
  - (void) touchesEnded:(id)awithEvent:(id)b;
  - (void) touchesCancelled:(id)awithEvent:(id)b;
- - (Q) numberOfTouches;
- - (void) setMaximumDuration:(d)a;
- - (Q) numberOfTouchesRequired;
- - (void) setNumberOfTouchesRequired:(Q)a;
- - ({CGPoint=dd}) locationOfTouch:(Q)ainView:(id)b;
- - (void) setMinimumPrimaryMovement:(d)a;
+ - (unsigned long long) numberOfTouches;
+ - (void) setMaximumDuration:(double)a;
+ - (unsigned long long) numberOfTouchesRequired;
+ - (void) setNumberOfTouchesRequired:(unsigned long long)a;
+ - ({CGPoint=dd}) locationOfTouch:(unsigned long long)ainView:(id)b;
+ - (void) setMinimumPrimaryMovement:(double)a;
  - (void) _resetGestureRecognizer;
  - (void) _appendSubclassDescription:(id)a;
- - (BOOL) _checkForSwipeWithDelta:({CGPoint=dd})atime:(d)b;
- - (d) maximumDuration;
- - (d) minimumPrimaryMovement;
- - (d) maximumPrimaryMovement;
- - (void) setMaximumPrimaryMovement:(d)a;
- - (d) minimumSecondaryMovement;
- - (void) setMinimumSecondaryMovement:(d)a;
- - (d) maximumSecondaryMovement;
- - (void) setMaximumSecondaryMovement:(d)a;
- - (d) rateOfMinimumMovementDecay;
- - (void) setRateOfMinimumMovementDecay:(d)a;
- - (d) rateOfMaximumMovementDecay;
- - (void) setRateOfMaximumMovementDecay:(d)a;
+ - (BOOL) _checkForSwipeWithDelta:({CGPoint=dd})atime:(double)b;
+ - (double) maximumDuration;
+ - (double) minimumPrimaryMovement;
+ - (double) maximumPrimaryMovement;
+ - (void) setMaximumPrimaryMovement:(double)a;
+ - (double) minimumSecondaryMovement;
+ - (void) setMinimumSecondaryMovement:(double)a;
+ - (double) maximumSecondaryMovement;
+ - (void) setMaximumSecondaryMovement:(double)a;
+ - (double) rateOfMinimumMovementDecay;
+ - (void) setRateOfMinimumMovementDecay:(double)a;
+ - (double) rateOfMaximumMovementDecay;
+ - (void) setRateOfMaximumMovementDecay:(double)a;
  - (void) encodeWithCoder:(id)a;
  - (id) initWithCoder:(id)a;
- - (void) setDirection:(Q)a;
- - (Q) direction;
+ - (void) setDirection:(unsigned long long)a;
+ - (unsigned long long) direction;
  - ({CGPoint=dd}) startPoint;
  - (id) initWithTarget:(id)aaction:(SEL)b;
 

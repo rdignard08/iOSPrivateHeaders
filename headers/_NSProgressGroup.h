@@ -2,18 +2,18 @@
 @interface _NSProgressGroup : NSObject {
 
     @"NSProgress" _parent;
-    q _portionOfParent;
+    long long _portionOfParent;
     @"NSMutableSet" _children;
     @"_NSProgressFraction" _childrenFraction;
-    Q _finishedChildrenCount;
+    unsigned long long _finishedChildrenCount;
     BOOL _closed;
 }
 
  - (id) parent;
  - (void) pause;
  - (void) prioritize;
- - (id) _indentedDescription:(Q)a;
- - (id) initWithParent:(id)aportion:(q)b;
+ - (id) _indentedDescription:(unsigned long long)a;
+ - (id) initWithParent:(id)aportion:(long long)b;
  - (void) addChild:(id)a;
  - (void) updateChildWithOldFraction:(id)anewFraction:(id)b;
  - (void) stopNotifications;

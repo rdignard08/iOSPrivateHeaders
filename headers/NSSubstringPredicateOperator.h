@@ -1,14 +1,14 @@
 
 @interface NSSubstringPredicateOperator : NSStringPredicateOperator {
 
-    Q _position;
+    unsigned long long _position;
 }
  + (BOOL) supportsSecureCoding;
 
  - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
  - (id) symbol;
- - (id) initWithOperatorType:(Q)amodifier:(Q)bvariant:(Q)cposition:(Q)d;
- - (Q) position;
+ - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)bvariant:(unsigned long long)cposition:(unsigned long long)d;
+ - (unsigned long long) position;
  - (SEL) selector;
  - (BOOL) isEqual:(id)a;
  - (void) encodeWithCoder:(id)a;

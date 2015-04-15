@@ -5,18 +5,18 @@
     @"NSMutableDictionary" titleVerticalAdjustmentsForBarMetrics;
     @"UIImage" shadowImage;
     BOOL hidesShadow;
-    q barMetrics;
+    long long barMetrics;
     @"UIImage" backIndicatorImage;
     @"UIImage" backIndicatorTransitionMaskImage;
     @"NSNumber" backIndicatorLeftMargin;
     BOOL reversesShadowOffset;
     @"_UIBarButtonItemAppearanceStorage" buttonAppearanceStorage;
     BOOL _deferShadowToSearchBar;
-    q defaultBarMetrics;
-    q activeBarMetrics;
+    long long defaultBarMetrics;
+    long long activeBarMetrics;
     @"NSString" _backdropViewGroupName;
 }
- + (q) typicalBarPosition;
+ + (long long) typicalBarPosition;
 
  - (void) dealloc;
  - (id) cardBackgroundImage;
@@ -25,11 +25,11 @@
  - (id) promptBackgroundImage;
  - (id) miniPromptBackgroundImage;
  - (id) condensedBackgroundImage;
- - (void) setTitleVerticalAdjustment:(d)aforBarMetrics:(q)b;
- - (d) titleVerticalAdjustmentForBarMetrics:(q)a;
+ - (void) setTitleVerticalAdjustment:(double)aforBarMetrics:(long long)b;
+ - (double) titleVerticalAdjustmentForBarMetrics:(long long)a;
  - (id) _barButtonAppearanceStorage;
  - (id) barButtonAppearanceStorage;
- - (id) representativeImageForIdiom:(q)a;
+ - (id) representativeImageForIdiom:(long long)a;
  - (BOOL) hidesShadow;
  - (void) setHidesShadow:(BOOL)a;
  - (id) textAttributes;
@@ -38,10 +38,10 @@
  - (void) setReversesShadowOffset:(BOOL)a;
  - (id) shadowImage;
  - (void) setShadowImage:(id)a;
- - (q) defaultBarMetrics;
- - (void) setDefaultBarMetrics:(q)a;
- - (q) activeBarMetrics;
- - (void) setActiveBarMetrics:(q)a;
+ - (long long) defaultBarMetrics;
+ - (void) setDefaultBarMetrics:(long long)a;
+ - (long long) activeBarMetrics;
+ - (void) setActiveBarMetrics:(long long)a;
  - (id) backIndicatorImage;
  - (void) setBackIndicatorImage:(id)a;
  - (id) backIndicatorTransitionMaskImage;

@@ -1,17 +1,17 @@
 
 @interface AFPropertyListResponseSerializer : AFHTTPResponseSerializer {
 
-    Q _format;
-    Q _readOptions;
+    unsigned long long _format;
+    unsigned long long _readOptions;
 }
  + (id) serializer;
- + (id) serializerWithFormat:(Q)areadOptions:(Q)b;
+ + (id) serializerWithFormat:(unsigned long long)areadOptions:(unsigned long long)b;
 
  - (id) responseObjectForResponse:(id)adata:(id)berror:(^@)c;
- - (void) setFormat:(Q)a;
- - (Q) format;
- - (void) setReadOptions:(Q)a;
- - (Q) readOptions;
+ - (void) setFormat:(unsigned long long)a;
+ - (unsigned long long) format;
+ - (void) setReadOptions:(unsigned long long)a;
+ - (unsigned long long) readOptions;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) init;
  - (void) encodeWithCoder:(id)a;

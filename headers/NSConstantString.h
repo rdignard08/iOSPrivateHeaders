@@ -3,31 +3,31 @@
 
 }
 
- - (q) compare:(id)aoptions:(Q)brange:({_NSRange=QQ})c;
- - (Q) fastestEncoding;
- - (Q) smallestEncoding;
- - (BOOL) canBeConvertedToEncoding:(Q)a;
- - (id) initWithCharactersNoCopy:(^S)alength:(Q)b;
+ - (long long) compare:(id)aoptions:(unsigned long long)brange:({_NSRange=QQ})c;
+ - (unsigned long long) fastestEncoding;
+ - (unsigned long long) smallestEncoding;
+ - (BOOL) canBeConvertedToEncoding:(unsigned long long)a;
+ - (id) initWithCharactersNoCopy:(^S)alength:(unsigned long long)b;
  - (r*) lossyCString;
  - (id) copyWithZone:(^{_NSZone=})a;
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
- - (Q) retainCount;
+ - (unsigned long long) retainCount;
  - (void) dealloc;
  - (id) copy;
  - (void) finalize;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
- - (Q) hash;
+ - (unsigned long long) hash;
  - (BOOL) isEqual:(id)a;
  - (r*) cString;
- - (Q) cStringLength;
- - (S) characterAtIndex:(Q)a;
+ - (unsigned long long) cStringLength;
+ - (unsigned short) characterAtIndex:(unsigned long long)a;
  - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
  - (r*) _fastCStringContents:(BOOL)a;
  - (BOOL) isEqualToString:(id)a;
- - (Q) length;
+ - (unsigned long long) length;
 
 
 @end

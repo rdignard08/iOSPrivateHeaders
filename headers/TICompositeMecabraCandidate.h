@@ -5,7 +5,7 @@
     @"NSArray" _autoconvertedCandidatePointerValues;
 }
  + (BOOL) supportsSecureCoding;
- + (i) type;
+ + (int) type;
 
  - (id) copyWithZone:(^{_NSZone=})a;
  - (void) dealloc;

@@ -1,7 +1,7 @@
 
 @interface _CUIRawPixelRendition : CUIThemeRendition {
 
-    I _nimages;
+    unsigned int _nimages;
     [16^{CGImage}] _image;
     ^{CGImage=} _unslicedImage;
     @"CUIRenditionMetrics" _renditionMetrics;
@@ -9,13 +9,13 @@
 }
 
  - (void) dealloc;
- - (id) imageForSliceIndex:(q)a;
+ - (id) imageForSliceIndex:(long long)a;
  - (BOOL) isScaled;
- - (id) maskForSliceIndex:(q)a;
+ - (id) maskForSliceIndex:(long long)a;
  - (^{CGImage=}) unslicedImage;
  - (id) metrics;
  - (id) sliceInformation;
- - (id) initWithCSIData:(id)aforKey:(r^{_renditionkeytoken=SS})bartworkStatus:(q)c;
+ - (id) initWithCSIData:(id)aforKey:(r^{_renditionkeytoken=SS})bartworkStatus:(long long)c;
  - (id) _initWithCSIHeader:(r^{_csiheader=IIIIIIIb4b28{_csimetadata=ISS[128c]}I{_csibitmaplist=I[0I]}})a;
 
 

@@ -13,7 +13,7 @@
  - (id) sendRight;
  - (id) initWithSendRight:(id)aqueue:(id)bdeathHandler:(@?)c;
  - (void) queue_handlePortDeathEvent;
- - (id) initWithPort:(I)aqueue:(id)bdeathHandler:(@?)c;
+ - (id) initWithPort:(unsigned int)aqueue:(id)bdeathHandler:(@?)c;
 
 
 @end

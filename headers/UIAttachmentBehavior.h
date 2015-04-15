@@ -6,17 +6,17 @@
     {CGPoint="x"d"y"d} _anchorPointB;
     @"PKExtendedPhysicsBody" _anchorBody;
     @"PKPhysicsJoint" _joint;
-    d _damping;
-    d _frequency;
-    d _length;
-    q _type;
+    double _damping;
+    double _frequency;
+    double _length;
+    long long _type;
     {?="dampingSet"b1"frequencySet"b1"lengthSet"b1"isRevolute"b1} _stateFlags;
-    q _attachedBehaviorType;
+    long long _attachedBehaviorType;
 }
 
  - (id) description;
  - (void) dealloc;
- - (void) setLength:(d)a;
+ - (void) setLength:(double)a;
  - (id) items;
  - (id) initWithItem:(id)apoint:({CGPoint=dd})battachedToAnchor:({CGPoint=dd})c;
  - (id) initWithItem:(id)apoint:({CGPoint=dd})battachedToItem:(id)cpoint:({CGPoint=dd})d;
@@ -28,16 +28,16 @@
  - (id) initWithItem:(id)aoffsetFromCenter:({UIOffset=dd})battachedToItem:(id)coffsetFromCenter:({UIOffset=dd})d;
  - (void) _associate;
  - (void) _dissociate;
- - (q) attachedBehaviorType;
- - (d) length;
+ - (long long) attachedBehaviorType;
+ - (double) length;
  - (id) init;
- - (q) type;
+ - (long long) type;
  - ({CGPoint=dd}) anchorPoint;
  - (void) setAnchorPoint:({CGPoint=dd})a;
- - (d) damping;
- - (d) frequency;
- - (void) setDamping:(d)a;
- - (void) setFrequency:(d)a;
+ - (double) damping;
+ - (double) frequency;
+ - (void) setDamping:(double)a;
+ - (void) setFrequency:(double)a;
 
 
 @end

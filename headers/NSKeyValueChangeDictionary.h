@@ -12,7 +12,7 @@
  - (id) initWithDetailsNoCopy:({?=Q@@@@})aoriginalObservable:(id)bisPriorNotification:(BOOL)c;
  - (void) retainObjects;
  - (void) dealloc;
- - (Q) count;
+ - (unsigned long long) count;
  - (id) objectForKey:(id)a;
  - (id) keyEnumerator;
 

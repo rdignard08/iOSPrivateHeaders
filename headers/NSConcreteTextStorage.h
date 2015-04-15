@@ -5,17 +5,17 @@
     {_opaque_pthread_rwlock_t="__sig"q"__opaque"[192c]} _lock;
     {?="_forceFixAttributes"b1"_needLock"b1"_lockInitialized"b1"_inFixingAttributes"b1"_reserved"b28} _pFlags;
 }
- + (Q) _writerCountTSDKey;
+ + (unsigned long long) _writerCountTSDKey;
 
  - (Class) classForCoder;
  - (id) initWithString:(id)aattributes:(id)b;
  - (id) initWithAttributedString:(id)a;
  - (void) dealloc;
  - (id) string;
- - (id) attributesAtIndex:(Q)aeffectiveRange:(^{_NSRange=QQ})b;
- - (id) attribute:(id)aatIndex:(Q)beffectiveRange:(^{_NSRange=QQ})c;
- - (id) attributesAtIndex:(Q)alongestEffectiveRange:(^{_NSRange=QQ})binRange:({_NSRange=QQ})c;
- - (id) attribute:(id)aatIndex:(Q)blongestEffectiveRange:(^{_NSRange=QQ})cinRange:({_NSRange=QQ})d;
+ - (id) attributesAtIndex:(unsigned long long)aeffectiveRange:(^{_NSRange=QQ})b;
+ - (id) attribute:(id)aatIndex:(unsigned long long)beffectiveRange:(^{_NSRange=QQ})c;
+ - (id) attributesAtIndex:(unsigned long long)alongestEffectiveRange:(^{_NSRange=QQ})binRange:({_NSRange=QQ})c;
+ - (id) attribute:(id)aatIndex:(unsigned long long)blongestEffectiveRange:(^{_NSRange=QQ})cinRange:({_NSRange=QQ})d;
  - (void) replaceCharactersInRange:({_NSRange=QQ})awithString:(id)b;
  - (void) setAttributes:(id)arange:({_NSRange=QQ})b;
  - (void) addAttributes:(id)arange:({_NSRange=QQ})b;
@@ -23,7 +23,7 @@
  - (void) removeAttribute:(id)arange:({_NSRange=QQ})b;
  - (void) replaceCharactersInRange:({_NSRange=QQ})awithAttributedString:(id)b;
  - (id) initWithString:(id)a;
- - (Q) length;
+ - (unsigned long long) length;
  - (id) init;
  - (BOOL) _lockForReading;
  - (void) _unlock;

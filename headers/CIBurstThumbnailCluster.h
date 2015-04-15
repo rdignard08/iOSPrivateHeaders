@@ -22,7 +22,7 @@
  - (id) initWithImageData:(id)adict:(id)bidentifier:(id)cimageProps:(id)dcompletionBlock:(@?)e;
  - (void) addItemsFromCluster:(id)a;
  - (void) setImageProps:(id)a;
- - (f) computeMergeCost:(id)a;
+ - (float) computeMergeCost:(id)a;
  - (void) setBurstImages:(id)a;
  - (id) image;
 

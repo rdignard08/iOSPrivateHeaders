@@ -7,10 +7,10 @@
 
  - (void) dealloc;
  - (void) tableView:(id)awillDisplayCell:(id)bforRowAtIndexPath:(id)c;
- - (d) tableView:(id)aheightForRowAtIndexPath:(id)b;
- - (q) tableView:(id)anumberOfRowsInSection:(q)b;
+ - (double) tableView:(id)aheightForRowAtIndexPath:(id)b;
+ - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
  - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (q) numberOfSectionsInTableView:(id)a;
+ - (long long) numberOfSectionsInTableView:(id)a;
  - (id) defaultIndexPath;
  - (BOOL) shouldCache;
  - (id) picker;

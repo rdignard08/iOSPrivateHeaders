@@ -4,9 +4,9 @@
 }
 
  - (BOOL) shouldAutorotate;
- - (Q) supportedInterfaceOrientations;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(q)a;
- - (q) preferredInterfaceOrientationForPresentation;
+ - (unsigned long long) supportedInterfaceOrientations;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
+ - (long long) preferredInterfaceOrientationForPresentation;
 
 
 @end

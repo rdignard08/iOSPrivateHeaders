@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (id) rendition;
- - (void) setRendition:(id)a;
+ - (void) setRendition:(id)a ;
 
 
 @end

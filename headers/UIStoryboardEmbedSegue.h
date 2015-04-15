@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (id) containerView;
- - (void) setContainerView:(id)a;
+ - (void) setContainerView:(id)a ;
  - (void) perform;
 
 

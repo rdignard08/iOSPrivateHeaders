@@ -7,13 +7,13 @@
 }
 
  - (^{_CFURLAuthChallenge=}) cfChallenge;
- - (void) useCredential:(id)aforAuthenticationChallenge:(id)b;
+ - (void) useCredential:(id)a forAuthenticationChallenge:(id)b ;
  - (^{AuthenticationClient=^^?}) client;
- - (void) continueWithoutCredentialForAuthenticationChallenge:(id)a;
- - (void) cancelAuthenticationChallenge:(id)a;
- - (id) initWithAuthenticationClient:(^{AuthenticationClient=^^?})a;
+ - (void) continueWithoutCredentialForAuthenticationChallenge:(id)a ;
+ - (void) cancelAuthenticationChallenge:(id)a ;
+ - (id) initWithAuthenticationClient:(^{AuthenticationClient=^^?})a ;
  - (void) detachClient;
- - (void) setCFChallenge:(^{_CFURLAuthChallenge=})a;
+ - (void) setCFChallenge:(^{_CFURLAuthChallenge=})a ;
 
 
 @end

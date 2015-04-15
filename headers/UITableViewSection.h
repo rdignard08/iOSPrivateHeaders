@@ -15,19 +15,19 @@
 @property (nonatomic, copy, readwrite) NSArray* rows;
  + (id) sectionWithRows:(id)a;
 
- - (void) setRows:(id)a;
+ - (void) setRows:(id)a ;
  - (void) dealloc;
  - (id) headerView;
- - (void) setHeaderView:(id)a;
+ - (void) setHeaderView:(id)a ;
  - (id) rows;
  - (id) headerTitle;
- - (void) setHeaderTitle:(id)a;
+ - (void) setHeaderTitle:(id)a ;
  - (id) footerTitle;
- - (void) setFooterTitle:(id)a;
+ - (void) setFooterTitle:(id)a ;
  - (id) footerView;
- - (void) setFooterView:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setFooterView:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

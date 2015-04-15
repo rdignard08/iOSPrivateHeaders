@@ -6,8 +6,8 @@
 }
 
  - (BOOL) _isTextFieldCenteredLabel;
- - (void) setTextXPosition:(double)a;
- - (void) setTextWidth:(double)a;
+ - (void) setTextXPosition:(double)a ;
+ - (void) setTextWidth:(double)a ;
  - (double) textXPosition;
  - (double) textWidth;
 

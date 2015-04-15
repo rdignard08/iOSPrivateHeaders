@@ -11,13 +11,13 @@
  - (void) dealloc;
  - (id) button;
  - (void) layoutSubviews;
- - (void) setTextAlignment:(long long)a;
- - (void) setText:(id)a;
+ - (void) setTextAlignment:(long long)a ;
+ - (void) setText:(id)a ;
  - (long long) textAlignment;
  - (double) rightMargin;
- - (void) applyLayoutAttributes:(id)a;
- - (void) setRightMargin:(double)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) applyLayoutAttributes:(id)a ;
+ - (void) setRightMargin:(double)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) label;
  - (id) text;
 

@@ -7,9 +7,9 @@
 @property (nonatomic, assign, readonly) NSArray* entries;
  + (id) _lexiconWithTILexicon:(id)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) entries;
 
 

@@ -10,13 +10,13 @@
  + (id) filesystemItemRemoveOperationWithPath:(id)a;
  + (id) _errorWithErrno:(int)aatPath:(id)b;
 
- - (id) initWithPath:(id)a;
- - (void) _setError:(id)a;
+ - (id) initWithPath:(id)a ;
+ - (void) _setError:(id)a ;
  - (void) main;
  - (BOOL) _filtersUnderbars;
- - (void) _setFilterUnderbars:(BOOL)a;
+ - (void) _setFilterUnderbars:(BOOL)a ;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) error;
  - (id) delegate;
 

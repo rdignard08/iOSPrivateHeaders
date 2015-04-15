@@ -3,7 +3,7 @@
 
 }
 
- - (id) initWithKeyboardRect:({CGRect={CGPoint=dd}{CGSize=dd}})aonScreen:(BOOL)b;
+ - (id) initWithKeyboardRect:({CGRect={CGPoint=dd}{CGSize=dd}})a onScreen:(BOOL)b ;
 
 
 @end

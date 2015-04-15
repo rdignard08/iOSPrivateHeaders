@@ -3,8 +3,8 @@
 
 }
 
- - (id) actionForKey:(id)a;
- - (void) drawInContext:(^{CGContext=})a;
+ - (id) actionForKey:(id)a ;
+ - (void) drawInContext:(^{CGContext=})a ;
 
 
 @end

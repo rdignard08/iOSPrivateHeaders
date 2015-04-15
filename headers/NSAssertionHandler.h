@@ -5,8 +5,8 @@
 }
  + (id) currentHandler;
 
- - (void) handleFailureInMethod:(SEL)aobject:(id)bfile:(id)clineNumber:(long long)ddescription:(id)e;
- - (void) handleFailureInFunction:(id)afile:(id)blineNumber:(long long)cdescription:(id)d;
+ - (void) handleFailureInMethod:(SEL)a object:(id)b file:(id)c lineNumber:(long long)d description:(id)e ;
+ - (void) handleFailureInFunction:(id)a file:(id)b lineNumber:(long long)c description:(id)d ;
 
 
 @end

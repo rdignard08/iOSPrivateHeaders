@@ -12,13 +12,13 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) getControlPointAtIndex:(unsigned long long)avalues:([2f])b;
- - (void) encodeWithCAMLWriter:(id)a;
- - (void) _getPoints:(^d)a;
- - (float) _solveForInput:(float)a;
- - (id) initWithControlPoints:(float)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) getControlPointAtIndex:(unsigned long long)a values:([2f])b ;
+ - (void) encodeWithCAMLWriter:(id)a ;
+ - (void) _getPoints:(^d)a ;
+ - (float) _solveForInput:(float)a ;
+ - (id) initWithControlPoints:(float)a ;
  - (id) CAMLType;
 
 

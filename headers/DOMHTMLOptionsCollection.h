@@ -3,16 +3,16 @@
 
 }
 
- - (void) remove:(unsigned int)a;
+ - (void) remove:(unsigned int)a ;
  - (void) dealloc;
  - (void) finalize;
- - (void) setLength:(unsigned int)a;
+ - (void) setLength:(unsigned int)a ;
  - (int) selectedIndex;
- - (void) setSelectedIndex:(int)a;
- - (id) item:(unsigned int)a;
+ - (void) setSelectedIndex:(int)a ;
+ - (id) item:(unsigned int)a ;
  - (unsigned int) length;
- - (id) namedItem:(id)a;
- - (void) add:(id)aindex:(unsigned int)b;
+ - (id) namedItem:(id)a ;
+ - (void) add:(id)a index:(unsigned int)b ;
 
 
 @end

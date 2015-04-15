@@ -7,8 +7,8 @@
 }
 
  - (void) dealloc;
- - (void) _setHIDEvent:(^{__IOHIDEvent=})a;
- - (void) _sendEventToResponder:(id)a;
+ - (void) _setHIDEvent:(^{__IOHIDEvent=})a ;
+ - (void) _sendEventToResponder:(id)a ;
  - (double) _wheelVelocity;
  - (BOOL) _canHaveVelocity;
  - (long long) type;

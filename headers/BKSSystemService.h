@@ -4,19 +4,19 @@
     FBSSystemService* _fbsSystemService;
 }
 
- - (void) openURL:(id)aapplication:(id)boptions:(id)cclientPort:(unsigned int)dwithResult:(@?)e;
- - (void) cleanupClientPort:(unsigned int)a;
+ - (void) openURL:(id)a application:(id)b options:(id)c clientPort:(unsigned int)d withResult:(@?)e ;
+ - (void) cleanupClientPort:(unsigned int)a ;
  - (unsigned int) createClientPort;
- - (void) openApplication:(id)aoptions:(id)bclientPort:(unsigned int)cwithResult:(@?)d;
+ - (void) openApplication:(id)a options:(id)b clientPort:(unsigned int)c withResult:(@?)d ;
  - (void) dealloc;
  - (id) init;
  - (id) systemApplicationBundleIdentifier;
- - (int) pidForApplication:(id)a;
- - (BOOL) canOpenApplication:(id)areason:(^i)b;
- - (void) openDataActivationURL:(id)awithResult:(@?)b;
- - (void) openApplication:(id)aoptions:(id)bwithResult:(@?)c;
- - (void) terminateApplication:(id)aforReason:(int)bandReport:(BOOL)cwithDescription:(id)d;
- - (void) terminateApplicationGroup:(int)aforReason:(int)bandReport:(BOOL)cwithDescription:(id)d;
+ - (int) pidForApplication:(id)a ;
+ - (BOOL) canOpenApplication:(id)a reason:(^i)b ;
+ - (void) openDataActivationURL:(id)a withResult:(@?)b ;
+ - (void) openApplication:(id)a options:(id)b withResult:(@?)c ;
+ - (void) terminateApplication:(id)a forReason:(int)b andReport:(BOOL)c withDescription:(id)d ;
+ - (void) terminateApplicationGroup:(int)a forReason:(int)b andReport:(BOOL)c withDescription:(id)d ;
 
 
 @end

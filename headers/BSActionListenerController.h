@@ -12,8 +12,8 @@
  - (void) dealloc;
  - (id) init;
  - (id) listener;
- - (void) beginTransactionForListener:(id)a;
- - (void) endTransactionForListener:(id)a;
+ - (void) beginTransactionForListener:(id)a ;
+ - (void) endTransactionForListener:(id)a ;
  - (void) beginTransaction;
  - (void) endTransaction;
 

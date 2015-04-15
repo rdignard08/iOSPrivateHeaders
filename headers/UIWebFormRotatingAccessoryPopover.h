@@ -4,10 +4,10 @@
 
 }
 
- - (id) initWithDOMNode:(id)a;
+ - (id) initWithDOMNode:(id)a ;
  - (void) accessoryDone;
  - (unsigned long long) popoverArrowDirections;
- - (void) popoverWasDismissed:(id)a;
+ - (void) popoverWasDismissed:(id)a ;
 
 
 @end

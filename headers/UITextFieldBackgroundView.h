@@ -7,16 +7,16 @@
     UIColor* _fillColor;
 }
 
- - (void) setActive:(BOOL)a;
- - (void) setProgress:(float)a;
+ - (void) setActive:(BOOL)a ;
+ - (void) setProgress:(float)a ;
  - (void) dealloc;
  - (void) _updateImages;
- - (void) setEnabled:(BOOL)aanimated:(BOOL)b;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aactive:(BOOL)b;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setEnabled:(BOOL)a animated:(BOOL)b ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a active:(BOOL)b ;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) fillColor;
- - (void) setFillColor:(id)a;
+ - (void) setFillColor:(id)a ;
 
 
 @end

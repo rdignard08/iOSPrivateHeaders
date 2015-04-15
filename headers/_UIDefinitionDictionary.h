@@ -17,17 +17,17 @@
  - (void) dealloc;
  - (id) localizedDictionaryName;
  - (id) rawAsset;
- - (id) _HTMLDefinitionForTerm:(id)atype:(long long)b;
- - (id) _shortHTMLDefinitionForTerm:(id)a;
- - (id) _attributedDefinitionForTerm:(id)a;
- - (id) _fullHTMLDefinitionForTerm:(id)a;
+ - (id) _HTMLDefinitionForTerm:(id)a type:(long long)b ;
+ - (id) _shortHTMLDefinitionForTerm:(id)a ;
+ - (id) _attributedDefinitionForTerm:(id)a ;
+ - (id) _fullHTMLDefinitionForTerm:(id)a ;
  - (BOOL) activated;
  - (id) localizedLanguageName;
- - (BOOL) _hasDefinitionForTerm:(id)a;
- - (id) _definitionValueForTerm:(id)a;
+ - (BOOL) _hasDefinitionForTerm:(id)a ;
+ - (id) _definitionValueForTerm:(id)a ;
  - (id) definitionLanguage;
- - (void) setActivated:(BOOL)a;
- - (id) initWithAsset:(id)a;
+ - (void) setActivated:(BOOL)a ;
+ - (id) initWithAsset:(id)a ;
 
 
 @end

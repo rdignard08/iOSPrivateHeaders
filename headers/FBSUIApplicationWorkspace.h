@@ -4,9 +4,9 @@
 
 }
 
- - (void) client:(id)ahandleLaunch:(id)bwithCompletion:(@?)c;
- - (void) clientHandleExit:(id)a;
- - (void) clientHandleAssertionExpirationImminent:(id)a;
+ - (void) client:(id)a handleLaunch:(id)b withCompletion:(@?)c ;
+ - (void) clientHandleExit:(id)a ;
+ - (void) clientHandleAssertionExpirationImminent:(id)a ;
  - (Class) _clientClass;
  - (BOOL) isUIApplicationWorkspace;
 

@@ -6,7 +6,7 @@
  + (id) gradientWithUIColor:(id)a;
 
  - (void) dealloc;
- - (id) initWithUIColor:(id)a;
+ - (id) initWithUIColor:(id)a ;
  - (^{CGGradient=}) CGGradient;
 
 

@@ -5,8 +5,8 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (id) evaluate:(id)atype:(unsigned short)binResult:(id)c;
- - (id) evaluate:(id)a;
+ - (id) evaluate:(id)a type:(unsigned short)b inResult:(id)c ;
+ - (id) evaluate:(id)a ;
 
 
 @end

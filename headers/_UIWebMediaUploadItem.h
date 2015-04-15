@@ -11,15 +11,15 @@
  + (id) mediaUploadItemWithFilePath:(id)aimage:(id)bisVideo:(BOOL)c;
 
  - (void) dealloc;
- - (void) setFilePath:(id)a;
- - (void) setOriginalImage:(id)a;
- - (void) setVideo:(BOOL)a;
- - (id) initWithFilePath:(id)aimage:(id)bisVideo:(BOOL)c;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) _squareCropRectForSize:({CGSize=dd})a;
+ - (void) setFilePath:(id)a ;
+ - (void) setOriginalImage:(id)a ;
+ - (void) setVideo:(BOOL)a ;
+ - (id) initWithFilePath:(id)a image:(id)b isVideo:(BOOL)c ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) _squareCropRectForSize:({CGSize=dd})a ;
  - (id) originalImage;
- - (id) _squareImage:(id)a;
+ - (id) _squareImage:(id)a ;
  - (id) filePath;
- - (id) _imageForVideoFile:(id)a;
+ - (id) _imageForVideoFile:(id)a ;
  - (id) displayImage;
  - (BOOL) isVideo;
 

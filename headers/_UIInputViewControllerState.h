@@ -10,15 +10,15 @@
  + (BOOL) supportsSecureCoding;
  + (id) stateForKeyboardState:(id)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
- - (void) setTextInputTraits:(id)a;
- - (void) setDocumentState:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setTextInputTraits:(id)a ;
+ - (void) setDocumentState:(id)a ;
  - (void) createDocumentStateIfNecessary;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) documentState;
  - (id) textInputTraits;
 

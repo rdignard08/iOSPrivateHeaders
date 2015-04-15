@@ -10,14 +10,14 @@
  - (void) finalize;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
- - (id) objectForKey:(id)a;
+ - (id) objectForKey:(id)a ;
  - (unsigned char) _nullLocale;
  - (void) _setNullLocale;
  - (id) _prefs;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (id) displayNameForKey:(id)avalue:(id)b;
- - (id) initWithLocaleIdentifier:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (id) displayNameForKey:(id)a value:(id)b ;
+ - (id) initWithLocaleIdentifier:(id)a ;
 
 
 @end

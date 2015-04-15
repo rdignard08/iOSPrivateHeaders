@@ -12,14 +12,14 @@
 @property (nonatomic, retain, readwrite) NSURL* url;
 
  - (void) dealloc;
- - (void) setUrl:(id)a;
+ - (void) setUrl:(id)a ;
  - (BOOL) isSiteWide;
  - ({CGSize=dd}) bestSize;
  - (BOOL) isPrecomposed;
- - (long long) compare:(id)apreferringDeviceIconSizes:(BOOL)b;
- - (void) setPrecomposed:(BOOL)a;
- - (void) setSiteWide:(BOOL)a;
- - (void) setBestSize:({CGSize=dd})a;
+ - (long long) compare:(id)a preferringDeviceIconSizes:(BOOL)b ;
+ - (void) setPrecomposed:(BOOL)a ;
+ - (void) setSiteWide:(BOOL)a ;
+ - (void) setBestSize:({CGSize=dd})a ;
  - (id) url;
 
 

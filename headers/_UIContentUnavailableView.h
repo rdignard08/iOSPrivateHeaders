@@ -21,33 +21,33 @@
 }
 
  - (id) title;
- - (void) setTitle:(id)a;
+ - (void) setTitle:(id)a ;
  - (void) dealloc;
  - (void) didMoveToWindow;
  - (void) layoutSubviews;
  - (id) message;
  - (void) updateConstraints;
- - (void) setMessage:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atitle:(id)bstyle:(unsigned long long)c;
- - (void) setButtonAction:(@?)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atitle:(id)bstyle:(unsigned long long)cincludeBackdrop:(BOOL)d;
+ - (void) setMessage:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a title:(id)b style:(unsigned long long)c ;
+ - (void) setButtonAction:(@?)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a title:(id)b style:(unsigned long long)c includeBackdrop:(BOOL)d ;
  - (BOOL) _hasVibrantButton;
  - (void) _updateViewHierarchy;
  - (BOOL) _hasVibrantText;
  - (id) _vibrantBaseColor;
  - (id) _flatTextColor;
  - (double) _labelAlpha;
- - (void) _actionButtonPressed:(id)a;
- - (id) _buttonBackgroundImageForStyle:(unsigned long long)acontrolState:(unsigned long long)b;
+ - (void) _actionButtonPressed:(id)a ;
+ - (id) _buttonBackgroundImageForStyle:(unsigned long long)a controlState:(unsigned long long)b ;
  - (@?) buttonAction;
- - (void) windowWillRotateNotification:(id)a;
- - (void) windowWillAnimateRotateNotification:(id)a;
- - (void) windowDidRotateNotification:(id)a;
+ - (void) windowWillRotateNotification:(id)a ;
+ - (void) windowWillAnimateRotateNotification:(id)a ;
+ - (void) windowDidRotateNotification:(id)a ;
  - (unsigned long long) vibrantOptions;
- - (void) setButtonTitle:(id)a;
- - (void) setVibrantOptions:(unsigned long long)a;
+ - (void) setButtonTitle:(id)a ;
+ - (void) setVibrantOptions:(unsigned long long)a ;
  - (id) buttonTitle;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

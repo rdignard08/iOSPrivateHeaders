@@ -11,10 +11,10 @@
 
  - (void) dealloc;
  - (void) pop;
- - (id) animationForLayer:(id)aforKey:(id)bforView:(id)c;
- - (void) setupWithDuration:(double)adelay:(double)bview:(id)coptions:(unsigned long long)dfactory:(id)eparentState:(id)fstart:(@?)gcompletion:(@?)h;
+ - (id) animationForLayer:(id)a forKey:(id)b forView:(id)c ;
+ - (void) setupWithDuration:(double)a delay:(double)b view:(id)c options:(unsigned long long)d factory:(id)e parentState:(id)f start:(@?)g completion:(@?)h ;
  - (void) cleanupTrackedLayers;
- - (void) addKeyframeWithRelativeStartTime:(double)arelativeDuration:(double)banimations:(@?)c;
+ - (void) addKeyframeWithRelativeStartTime:(double)a relativeDuration:(double)b animations:(@?)c ;
  - (id) init;
 
 

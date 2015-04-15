@@ -21,20 +21,20 @@
 
  - (void) dealloc;
  - (id) bundleResourceName;
- - (void) setBundleResourceName:(id)a;
+ - (void) setBundleResourceName:(id)a ;
  - (id) bundleDirectoryName;
- - (void) setBundleDirectoryName:(id)a;
- - (void) setBundle:(id)a;
+ - (void) setBundleDirectoryName:(id)a ;
+ - (void) setBundle:(id)a ;
  - (id) identifierForStringsFile;
- - (void) setIdentifierForStringsFile:(id)a;
+ - (void) setIdentifierForStringsFile:(id)a ;
  - (id) archiveData;
- - (void) setArchiveData:(id)a;
+ - (void) setArchiveData:(id)a ;
  - (id) nibDecoder;
- - (void) setNibDecoder:(id)a;
+ - (void) setNibDecoder:(id)a ;
  - (BOOL) instantiatingForSimulator;
- - (void) setInstantiatingForSimulator:(BOOL)a;
+ - (void) setInstantiatingForSimulator:(BOOL)a ;
  - (BOOL) captureImplicitLoadingContextOnDecode;
- - (void) setCaptureImplicitLoadingContextOnDecode:(BOOL)a;
+ - (void) setCaptureImplicitLoadingContextOnDecode:(BOOL)a ;
  - (id) bundle;
 
 

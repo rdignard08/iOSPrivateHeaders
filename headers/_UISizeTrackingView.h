@@ -11,14 +11,14 @@
  + (id) viewWithRemoteViewController:(id)aviewControllerOperatorProxy:(id)btextEffectsOperatorProxy:(id)c;
 
  - (void) dealloc;
- - ({CGSize=dd}) _intrinsicSizeWithinSize:({CGSize=dd})a;
+ - ({CGSize=dd}) _intrinsicSizeWithinSize:({CGSize=dd})a ;
  - (BOOL) isScrollEnabled;
- - (void) _scrollToTopFromTouchAtScreenLocation:({CGPoint=dd})aresultHandler:(@?)b;
- - (void) _geometryChanges:(id)aforAncestor:(id)b;
- - (void) _didMoveFromWindow:(id)atoWindow:(id)b;
- - (void) _updateTextEffectsGeometries:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) _scrollToTopFromTouchAtScreenLocation:({CGPoint=dd})a resultHandler:(@?)b ;
+ - (void) _geometryChanges:(id)a forAncestor:(id)b ;
+ - (void) _didMoveFromWindow:(id)a toWindow:(id)b ;
+ - (void) _updateTextEffectsGeometries:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) remoteViewController;
- - (void) updateIntrinsicContentSize:({CGSize=dd})a;
+ - (void) updateIntrinsicContentSize:({CGSize=dd})a ;
 
 
 @end

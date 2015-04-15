@@ -10,14 +10,14 @@
 @property (nonatomic, assign, readonly) NSNumber* horizontalPriority;
 @property (nonatomic, assign, readonly) NSNumber* verticalPriority;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (float) horizontalPriority;
  - (float) verticalPriority;
  - ({CGSize=dd}) targetSize;
- - (BOOL) isEqualToTargetInfo:(id)a;
- - (id) initWithTargetSize:({CGSize=dd})ahorizontalPriority:(float)bverticalPriority:(float)c;
+ - (BOOL) isEqualToTargetInfo:(id)a ;
+ - (id) initWithTargetSize:({CGSize=dd})a horizontalPriority:(float)b verticalPriority:(float)c ;
 
 
 @end

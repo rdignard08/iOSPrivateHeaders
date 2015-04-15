@@ -24,17 +24,17 @@
  + (id) characterSetWithRange:({_NSRange=QQ})a;
 
  - (BOOL) isMutable;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
- - (void) addCharactersInRange:({_NSRange=QQ})a;
- - (void) removeCharactersInRange:({_NSRange=QQ})a;
- - (void) addCharactersInString:(id)a;
- - (void) removeCharactersInString:(id)a;
- - (void) formUnionWithCharacterSet:(id)a;
- - (void) formIntersectionWithCharacterSet:(id)a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
+ - (void) addCharactersInRange:({_NSRange=QQ})a ;
+ - (void) removeCharactersInRange:({_NSRange=QQ})a ;
+ - (void) addCharactersInString:(id)a ;
+ - (void) removeCharactersInString:(id)a ;
+ - (void) formUnionWithCharacterSet:(id)a ;
+ - (void) formIntersectionWithCharacterSet:(id)a ;
  - (void) invert;
  - (id) init;
- - (id) initWithCoder:(id)a;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

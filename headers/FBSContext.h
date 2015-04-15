@@ -11,11 +11,11 @@
 
  - (id) description;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned int) identifier;
  - (double) level;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
 
 
 @end

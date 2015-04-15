@@ -12,16 +12,16 @@
 @property (nonatomic, retain, readwrite) UIImage* scopeBarBackgroundImage;
 
  - (void) dealloc;
- - (void) setSearchFieldBackgroundImage:(id)aforState:(unsigned long long)b;
- - (id) searchFieldBackgroundImageForState:(unsigned long long)a;
- - (void) setImage:(id)aforIcon:(long long)bstate:(unsigned long long)c;
- - (id) imageForIcon:(long long)astate:(unsigned long long)b;
+ - (void) setSearchFieldBackgroundImage:(id)a forState:(unsigned long long)b ;
+ - (id) searchFieldBackgroundImageForState:(unsigned long long)a ;
+ - (void) setImage:(id)a forIcon:(long long)b state:(unsigned long long)c ;
+ - (id) imageForIcon:(long long)a state:(unsigned long long)b ;
  - (id) searchFieldPositionAdjustment;
- - (void) setSearchFieldPositionAdjustment:(id)a;
+ - (void) setSearchFieldPositionAdjustment:(id)a ;
  - (id) separatorImage;
- - (void) setSeparatorImage:(id)a;
+ - (void) setSeparatorImage:(id)a ;
  - (id) scopeBarBackgroundImage;
- - (void) setScopeBarBackgroundImage:(id)a;
+ - (void) setScopeBarBackgroundImage:(id)a ;
 
 
 @end

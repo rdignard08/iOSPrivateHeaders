@@ -7,7 +7,7 @@
  + (id) deputyWithViewController:(id)a;
 
  - (id) invalidate;
- - (void) __prepareForDisconnectionWithCompletionHandler:(@?)a;
+ - (void) __prepareForDisconnectionWithCompletionHandler:(@?)a ;
 
 
 @end

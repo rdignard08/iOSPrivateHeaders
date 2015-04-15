@@ -7,10 +7,10 @@
     NSMutableArray* _attributesArray;
 }
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (id) initWithTextStorage:(id)arange:({_NSRange=QQ})b;
- - (void) restoreAttributesOfTextStorage:(id)a;
+ - (id) initWithTextStorage:(id)a range:({_NSRange=QQ})b ;
+ - (void) restoreAttributesOfTextStorage:(id)a ;
  - ({_NSRange=QQ}) range;
 
 

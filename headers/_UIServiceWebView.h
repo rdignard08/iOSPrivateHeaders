@@ -5,14 +5,14 @@
     _UIServiceWebViewController* _serviceWebViewController;
 }
 
- - (BOOL) _webView:(id)apresentViewController:(id)banimated:(BOOL)ccompletion:(@?)d;
- - (void) _webView:(id)adismissViewControllerAnimated:(BOOL)bcompletion:(@?)c;
+ - (BOOL) _webView:(id)a presentViewController:(id)b animated:(BOOL)c completion:(@?)d ;
+ - (void) _webView:(id)a dismissViewControllerAnimated:(BOOL)b completion:(@?)c ;
  - (id) _makeAlertView;
- - (void) setShouldDecidePolicyRemotely:(BOOL)a;
- - (void) setServiceWebViewController:(id)a;
+ - (void) setShouldDecidePolicyRemotely:(BOOL)a ;
+ - (void) setServiceWebViewController:(id)a ;
  - (id) serviceWebViewController;
  - (BOOL) shouldDecidePolicyRemotely;
- - (void) webView:(id)adecidePolicyForNavigationAction:(id)brequest:(id)cframe:(id)ddecisionListener:(id)e;
+ - (void) webView:(id)a decidePolicyForNavigationAction:(id)b request:(id)c frame:(id)d decisionListener:(id)e ;
 
 
 @end

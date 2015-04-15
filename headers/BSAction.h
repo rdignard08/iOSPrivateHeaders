@@ -17,17 +17,17 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (BOOL) canSendResponse;
- - (void) sendResponse:(id)a;
+ - (void) sendResponse:(id)a ;
  - (id) init;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
- - (id) initWithInfo:(id)atimeout:(double)bforResponseOnQueue:(id)cwithHandler:(@?)d;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
+ - (id) initWithInfo:(id)a timeout:(double)b forResponseOnQueue:(id)c withHandler:(@?)d ;
  - (id) _handlerDescription;
- - (id) descriptionWithMultilinePrefix:(id)a;
- - (id) keyDescriptionForSetting:(unsigned long long)a;
- - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
+ - (id) descriptionWithMultilinePrefix:(id)a ;
+ - (id) keyDescriptionForSetting:(unsigned long long)a ;
+ - (id) valueDescriptionForFlag:(long long)a object:(id)b ofSetting:(unsigned long long)c ;
  - (id) info;
 
 

@@ -5,10 +5,10 @@
 }
 
  - (void) dealloc;
- - (id) textAttributesForState:(unsigned long long)a;
- - (id) textAttributeForKey:(id)astate:(unsigned long long)b;
- - (void) setTextAttributes:(id)aforState:(unsigned long long)b;
- - (void) setTextAttribute:(id)aforKey:(id)bstate:(unsigned long long)c;
+ - (id) textAttributesForState:(unsigned long long)a ;
+ - (id) textAttributeForKey:(id)a state:(unsigned long long)b ;
+ - (void) setTextAttributes:(id)a forState:(unsigned long long)b ;
+ - (void) setTextAttribute:(id)a forKey:(id)b state:(unsigned long long)c ;
 
 
 @end

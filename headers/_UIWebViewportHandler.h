@@ -22,27 +22,27 @@
 @property (nonatomic, assign, readonly) NSNumber* rawViewConfiguration;
 
  - (id) .cxx_construct;
- - (void) setDelegate:(id)a;
- - (double) integralScaleForScale:(double)akeepingPointFixed:(^{CGPoint=dd})b;
- - (float) minimumScaleForViewSize:({CGSize=dd})a;
+ - (void) setDelegate:(id)a ;
+ - (double) integralScaleForScale:(double)a keepingPointFixed:(^{CGPoint=dd})b ;
+ - (float) minimumScaleForViewSize:({CGSize=dd})a ;
  - (float) initialScale;
  - (float) maximumScale;
  - (float) minimumScale;
  - (BOOL) allowsUserScaling;
  - ({CGSize=dd}) availableViewSize;
  - (void) clearWebKitViewportConfigurationFlags;
- - (void) resetViewportConfiguration:(r^{_UIWebViewportConfiguration={CGSize=dd}fffB})a;
+ - (void) resetViewportConfiguration:(r^{_UIWebViewportConfiguration={CGSize=dd}fffB})a ;
  - ({_UIWebViewportConfiguration={CGSize=dd}fffB}) rawViewConfiguration;
  - (unsigned int) webkitDefinedConfigurationFlags;
- - (void) update:(@?)a;
- - (void) setDocumentBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) update:(@?)a ;
+ - (void) setDocumentBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (float) viewportWidth;
  - (float) viewportHeight;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) documentBounds;
- - (void) applyWebKitViewportArgumentsSize:({CGSize=dd})ainitialScale:(float)bminimumScale:(float)cmaximumScale:(float)dallowsUserScaling:(float)e;
+ - (void) applyWebKitViewportArgumentsSize:({CGSize=dd})a initialScale:(float)b minimumScale:(float)c maximumScale:(float)d allowsUserScaling:(float)e ;
  - (BOOL) isClassicViewportMode;
- - (void) overrideViewportConfiguration:(r^{_UIWebViewportConfiguration={CGSize=dd}fffB})a;
- - (void) setAvailableViewSize:({CGSize=dd})a;
+ - (void) overrideViewportConfiguration:(r^{_UIWebViewportConfiguration={CGSize=dd}fffB})a ;
+ - (void) setAvailableViewSize:({CGSize=dd})a ;
  - (double) integralInitialScale;
  - (id) delegate;
 

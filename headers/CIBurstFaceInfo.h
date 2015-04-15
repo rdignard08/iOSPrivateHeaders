@@ -20,14 +20,14 @@
 @property (atomic, assign, readwrite) NSNumber* hwLastFrameSeen;
 
  - (id) init;
- - (void) setSwFaceId:(int)a;
- - (void) setSwCenter:({CGPoint=dd})a;
- - (void) setSwSize:({CGSize=dd})a;
- - (void) setSwLastFrameSeen:(int)a;
- - (void) setHwFaceId:(int)a;
- - (void) setHwCenter:({CGPoint=dd})a;
- - (void) setHwSize:({CGSize=dd})a;
- - (void) setHwLastFrameSeen:(int)a;
+ - (void) setSwFaceId:(int)a ;
+ - (void) setSwCenter:({CGPoint=dd})a ;
+ - (void) setSwSize:({CGSize=dd})a ;
+ - (void) setSwLastFrameSeen:(int)a ;
+ - (void) setHwFaceId:(int)a ;
+ - (void) setHwCenter:({CGPoint=dd})a ;
+ - (void) setHwSize:({CGSize=dd})a ;
+ - (void) setHwLastFrameSeen:(int)a ;
  - ({CGPoint=dd}) hwCenter;
  - ({CGSize=dd}) hwSize;
  - ({CGPoint=dd}) swCenter;
@@ -36,8 +36,8 @@
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) hwFaceRect;
  - (int) swFaceId;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) swFaceRect;
- - (float) overlapWithHwRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (float) overlapWithSwRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (float) overlapWithHwRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (float) overlapWithSwRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (int) swLastFrameSeen;
  - (int) hwLastFrameSeen;
 

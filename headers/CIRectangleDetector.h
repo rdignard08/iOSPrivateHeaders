@@ -14,11 +14,11 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (void) setContext:(id)a;
- - (id) featuresInImage:(id)aoptions:(id)b;
- - (id) initWithContext:(id)aoptions:(id)b;
- - (id) featuresInImage:(id)a;
- - (id) featuresInImageUsingCCRect:(id)aoptions:(id)b;
+ - (void) setContext:(id)a ;
+ - (id) featuresInImage:(id)a options:(id)b ;
+ - (id) initWithContext:(id)a options:(id)b ;
+ - (id) featuresInImage:(id)a ;
+ - (id) featuresInImageUsingCCRect:(id)a options:(id)b ;
  - (id) context;
 
 

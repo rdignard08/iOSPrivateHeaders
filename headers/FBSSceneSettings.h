@@ -24,28 +24,28 @@
  + (BOOL) _isMutable;
 
  - (BOOL) isUISubclass;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) init;
  - (double) level;
- - (id) _descriptionOfSettingsWithMultilinePrefix:(id)a;
+ - (id) _descriptionOfSettingsWithMultilinePrefix:(id)a ;
  - (id) otherSettings;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frame;
  - (long long) interfaceOrientation;
  - (BOOL) isBackgrounded;
  - (id) occlusions;
- - (id) initWithSettings:(id)a;
+ - (id) initWithSettings:(id)a ;
  - ({CGPoint=dd}) contentOffset;
  - (id) transientLocalSettings;
  - (id) ignoreOcclusionReasons;
  - (BOOL) isOccluded;
  - (BOOL) isIgnoringOcclusions;
- - (id) keyDescriptionForSetting:(unsigned long long)a;
- - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
+ - (id) keyDescriptionForSetting:(unsigned long long)a ;
+ - (id) valueDescriptionForFlag:(long long)a object:(id)b ofSetting:(unsigned long long)c ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
 
 

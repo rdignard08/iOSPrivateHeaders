@@ -11,10 +11,10 @@
 
  - (void) dealloc;
  - (unsigned long long) _attributeToBumpIndex;
- - (BOOL) _bumpTestKeyAttributeIndex:(unsigned long long)a;
- - (id) _nonZeroFlexibleAttributesInKey:(r^{_renditionkeytoken=SS})a;
+ - (BOOL) _bumpTestKeyAttributeIndex:(unsigned long long)a ;
+ - (id) _nonZeroFlexibleAttributesInKey:(r^{_renditionkeytoken=SS})a ;
  - (void) _bumpTestKey;
- - (id) initWithRenditionKey:(r^{_renditionkeytoken=SS})a;
+ - (id) initWithRenditionKey:(r^{_renditionkeytoken=SS})a ;
  - (^{_renditionkeytoken=SS}) nextKey;
 
 

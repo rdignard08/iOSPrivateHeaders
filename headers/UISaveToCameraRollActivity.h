@@ -8,12 +8,12 @@
  - (id) activityType;
  - (id) _activityImage;
  - (id) activityTitle;
- - (BOOL) canPerformWithActivityItems:(id)a;
+ - (BOOL) canPerformWithActivityItems:(id)a ;
  - (void) performActivity;
- - (void) prepareWithActivityItems:(id)a;
- - (void) setImageCount:(long long)a;
+ - (void) prepareWithActivityItems:(id)a ;
+ - (void) setImageCount:(long long)a ;
  - (long long) videoCount;
- - (void) setVideoCount:(long long)a;
+ - (void) setVideoCount:(long long)a ;
  - (long long) imageCount;
 
 

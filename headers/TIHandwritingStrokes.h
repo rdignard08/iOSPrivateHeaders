@@ -7,19 +7,19 @@
 }
  + (BOOL) supportsSecureCoding;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (id) .cxx_construct;
  - (void) .cxx_destruct;
  - (unsigned long long) numberOfStrokes;
- - (void) addPoint:({CGPoint=dd})a;
- - (unsigned long long) numberOfPointsInStrokeAtIndex:(unsigned long long)a;
- - ({CGPoint=dd}) pointAtIndex:(unsigned long long)ainStrokeAtIndex:(unsigned long long)b;
- - (void) removeStrokeAtIndex:(unsigned long long)a;
+ - (void) addPoint:({CGPoint=dd})a ;
+ - (unsigned long long) numberOfPointsInStrokeAtIndex:(unsigned long long)a ;
+ - ({CGPoint=dd}) pointAtIndex:(unsigned long long)a inStrokeAtIndex:(unsigned long long)b ;
+ - (void) removeStrokeAtIndex:(unsigned long long)a ;
  - (void) endStroke;
  - (void) removeAllStrokes;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (unsigned long long) totalNumberOfPoints;
 
 

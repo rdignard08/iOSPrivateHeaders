@@ -5,7 +5,7 @@
 }
 
  - (BOOL) isStart;
- - (void) setIsStart:(BOOL)a;
+ - (void) setIsStart:(BOOL)a ;
 
 
 @end

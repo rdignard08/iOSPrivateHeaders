@@ -9,9 +9,9 @@
 
  - (void) main;
  - (void) dealloc;
- - (void) setAsset:(id)a;
- - (id) initWithURL:(id)aassetsLibrary:(id)b;
- - (void) setCondition:(id)a;
+ - (void) setAsset:(id)a ;
+ - (id) initWithURL:(id)a assetsLibrary:(id)b ;
+ - (void) setCondition:(id)a ;
  - (id) condition;
  - (id) asset;
 

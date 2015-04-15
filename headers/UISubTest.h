@@ -11,9 +11,9 @@
 }
 
  - (void) .cxx_destruct;
- - (id) initWithName:(id)ametrics:(id)b;
- - (void) startWithFrameCount:(id)a;
- - (void) stopWithFrameCount:(id)a;
+ - (id) initWithName:(id)a metrics:(id)b ;
+ - (void) startWithFrameCount:(id)a ;
+ - (void) stopWithFrameCount:(id)a ;
  - (id) outputData;
 
 

@@ -13,14 +13,14 @@
 @property (nonatomic, assign, readwrite) NSNumber* keyboardWidth;
  + (id) traitsWithScreen:(id)aorientation:(long long)b;
 
- - (id) initWithScreen:(id)aorientation:(long long)b;
+ - (id) initWithScreen:(id)a orientation:(long long)b ;
  - (BOOL) knobInput;
  - (double) keyboardWidth;
- - (void) setKeyboardWidth:(double)a;
+ - (void) setKeyboardWidth:(double)a ;
  - (id) screen;
  - (long long) idiom;
  - (long long) orientation;
- - (void) setOrientation:(long long)a;
+ - (void) setOrientation:(long long)a ;
 
 
 @end

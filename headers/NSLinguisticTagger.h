@@ -13,34 +13,34 @@
  + (BOOL) supportsLanguage:(id)a;
  + (id) availableTagSchemesForLanguage:(id)a;
 
- - (id) initWithTagSchemes:(id)aoptions:(unsigned long long)b;
- - (void) setOrthography:(id)arange:({_NSRange=QQ})b;
- - (id) tagsInRange:({_NSRange=QQ})ascheme:(id)boptions:(unsigned long long)ctokenRanges:(^@)d;
- - (void) enumerateTagsInRange:({_NSRange=QQ})ascheme:(id)boptions:(unsigned long long)cusingBlock:(@?)d;
- - (id) _tokenDataForParagraphAtIndex:(unsigned long long)aparagraphRange:(^{_NSRange=QQ})btagScheme:(id)c;
- - (id) orthographyAtIndex:(unsigned long long)aeffectiveRange:(^{_NSRange=QQ})b;
- - (id) _rankedCandidatesForMisspelledRange:({_NSRange=QQ})acandidates:(id)bcontextualFrequencies:(^@)cbaseFrequencies:(^@)d;
- - (id) _tagSchemeForScheme:(id)a;
- - (BOOL) _acceptSentenceTerminatorRange:({_NSRange=QQ})aparagraphRange:({_NSRange=QQ})btokens:(^{_NSLTToken=SCCI(?=^v{?=CC})})ccount:(unsigned long long)dtokenIndex:(unsigned long long)e;
- - (void) _analyzePunctuationTokensInRange:({_NSRange=QQ})aparagraphRange:({_NSRange=QQ})b;
- - (void) _analyzeTokensInWordRange:({_NSRange=QQ})aparagraphRange:({_NSRange=QQ})b;
- - (void) _analyzeTokensInInterwordRange:({_NSRange=QQ})aparagraphRange:({_NSRange=QQ})b;
- - (void) _acceptSentencesForParagraphRange:({_NSRange=QQ})a;
- - (void) _calculateSentenceRangesForParagraphRange:({_NSRange=QQ})a;
- - (id) _tokenDataForParagraphRange:({_NSRange=QQ})arequireLemmas:(BOOL)brequirePartsOfSpeech:(BOOL)crequireNamedEntities:(BOOL)d;
- - (void) _tokenizeParagraphAtIndex:(unsigned long long)arequireLemmas:(BOOL)brequirePartsOfSpeech:(BOOL)crequireNamedEntities:(BOOL)d;
- - (id) _tokenDataForParagraphAtIndex:(unsigned long long)aparagraphRange:(^{_NSRange=QQ})brequireLemmas:(BOOL)crequirePartsOfSpeech:(BOOL)drequireNamedEntities:(BOOL)e;
+ - (id) initWithTagSchemes:(id)a options:(unsigned long long)b ;
+ - (void) setOrthography:(id)a range:({_NSRange=QQ})b ;
+ - (id) tagsInRange:({_NSRange=QQ})a scheme:(id)b options:(unsigned long long)c tokenRanges:(^@)d ;
+ - (void) enumerateTagsInRange:({_NSRange=QQ})a scheme:(id)b options:(unsigned long long)c usingBlock:(@?)d ;
+ - (id) _tokenDataForParagraphAtIndex:(unsigned long long)a paragraphRange:(^{_NSRange=QQ})b tagScheme:(id)c ;
+ - (id) orthographyAtIndex:(unsigned long long)a effectiveRange:(^{_NSRange=QQ})b ;
+ - (id) _rankedCandidatesForMisspelledRange:({_NSRange=QQ})a candidates:(id)b contextualFrequencies:(^@)c baseFrequencies:(^@)d ;
+ - (id) _tagSchemeForScheme:(id)a ;
+ - (BOOL) _acceptSentenceTerminatorRange:({_NSRange=QQ})a paragraphRange:({_NSRange=QQ})b tokens:(^{_NSLTToken=SCCI(?=^v{?=CC})})c count:(unsigned long long)d tokenIndex:(unsigned long long)e ;
+ - (void) _analyzePunctuationTokensInRange:({_NSRange=QQ})a paragraphRange:({_NSRange=QQ})b ;
+ - (void) _analyzeTokensInWordRange:({_NSRange=QQ})a paragraphRange:({_NSRange=QQ})b ;
+ - (void) _analyzeTokensInInterwordRange:({_NSRange=QQ})a paragraphRange:({_NSRange=QQ})b ;
+ - (void) _acceptSentencesForParagraphRange:({_NSRange=QQ})a ;
+ - (void) _calculateSentenceRangesForParagraphRange:({_NSRange=QQ})a ;
+ - (id) _tokenDataForParagraphRange:({_NSRange=QQ})a requireLemmas:(BOOL)b requirePartsOfSpeech:(BOOL)c requireNamedEntities:(BOOL)d ;
+ - (void) _tokenizeParagraphAtIndex:(unsigned long long)a requireLemmas:(BOOL)b requirePartsOfSpeech:(BOOL)c requireNamedEntities:(BOOL)d ;
+ - (id) _tokenDataForParagraphAtIndex:(unsigned long long)a paragraphRange:(^{_NSRange=QQ})b requireLemmas:(BOOL)c requirePartsOfSpeech:(BOOL)d requireNamedEntities:(BOOL)e ;
  - (id) tagSchemes;
- - (void) stringEditedInRange:({_NSRange=QQ})achangeInLength:(long long)b;
- - ({_NSRange=QQ}) sentenceRangeForRange:({_NSRange=QQ})a;
- - (id) _rankedCandidatesForMisspelledRange:({_NSRange=QQ})acandidates:(id)b;
- - (BOOL) _ngramTagsAndFrequenciesForMisspelledRange:({_NSRange=QQ})aword:(id)btags:(^@)cfrequencies:(^@)d;
- - (id) possibleTagsAtIndex:(unsigned long long)ascheme:(id)btokenRange:(^{_NSRange=QQ})csentenceRange:(^{_NSRange=QQ})dscores:(^@)e;
+ - (void) stringEditedInRange:({_NSRange=QQ})a changeInLength:(long long)b ;
+ - ({_NSRange=QQ}) sentenceRangeForRange:({_NSRange=QQ})a ;
+ - (id) _rankedCandidatesForMisspelledRange:({_NSRange=QQ})a candidates:(id)b ;
+ - (BOOL) _ngramTagsAndFrequenciesForMisspelledRange:({_NSRange=QQ})a word:(id)b tags:(^@)c frequencies:(^@)d ;
+ - (id) possibleTagsAtIndex:(unsigned long long)a scheme:(id)b tokenRange:(^{_NSRange=QQ})c sentenceRange:(^{_NSRange=QQ})d scores:(^@)e ;
  - (id) description;
  - (void) dealloc;
  - (id) string;
- - (void) setString:(id)a;
- - (id) tagAtIndex:(unsigned long long)ascheme:(id)btokenRange:(^{_NSRange=QQ})csentenceRange:(^{_NSRange=QQ})d;
+ - (void) setString:(id)a ;
+ - (id) tagAtIndex:(unsigned long long)a scheme:(id)b tokenRange:(^{_NSRange=QQ})c sentenceRange:(^{_NSRange=QQ})d ;
 
 
 @end

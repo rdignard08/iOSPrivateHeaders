@@ -7,11 +7,11 @@
 
  - (void) dealloc;
  - (id) transitionContext;
- - (void) setTransitionContext:(id)a;
+ - (void) setTransitionContext:(id)a ;
  - (id) settingsDiff;
- - (void) setSettingsDiff:(id)a;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (void) setSettingsDiff:(id)a ;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
 
 
 @end

@@ -7,8 +7,8 @@
 }
 
  - (id) allowedClassNames;
- - (void) setAllowedClassNames:(id)a;
- - (BOOL) classNameAllowed:(Class)a;
+ - (void) setAllowedClassNames:(id)a ;
+ - (BOOL) classNameAllowed:(Class)a ;
  - (void) dealloc;
  - (id) init;
 

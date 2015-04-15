@@ -10,12 +10,12 @@
 }
 
  - (id) numberFormatter;
- - (void) setNumberFormatter:(id)a;
+ - (void) setNumberFormatter:(id)a ;
  - (long long) unitStyle;
- - (void) setUnitStyle:(long long)a;
- - (id) unitStringFromValue:(double)aunit:(unsigned long long)b;
- - (id) stringForValue:(double)aunit:(unsigned long long)b;
- - (id) stringForValue1:(double)aunit1:(unsigned long long)bvalue2:(double)cunit2:(unsigned long long)d;
+ - (void) setUnitStyle:(long long)a ;
+ - (id) unitStringFromValue:(double)a unit:(unsigned long long)b ;
+ - (id) stringForValue:(double)a unit:(unsigned long long)b ;
+ - (id) stringForValue1:(double)a unit1:(unsigned long long)b value2:(double)c unit2:(unsigned long long)d ;
  - (void) dealloc;
  - (void) finalize;
  - (id) init;

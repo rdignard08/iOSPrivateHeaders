@@ -20,24 +20,24 @@
  + (id) animationStyleAnimated:(BOOL)aduration:(double)b;
 
  - (double) duration;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (BOOL) animated;
- - (void) setAnimated:(BOOL)a;
- - (void) setExtraOptions:(unsigned long long)a;
+ - (void) setAnimated:(BOOL)a ;
+ - (void) setExtraOptions:(unsigned long long)a ;
  - (unsigned long long) extraOptions;
- - (void) setInteractivelyCancelled:(BOOL)a;
- - (void) launchAnimation:(@?)aafterStarted:(@?)bcompletion:(@?)cforHost:(id)dfromCurrentPosition:(BOOL)e;
- - (id) controllerForStartPlacement:(id)aendPlacement:(id)b;
+ - (void) setInteractivelyCancelled:(BOOL)a ;
+ - (void) launchAnimation:(@?)a afterStarted:(@?)b completion:(@?)c forHost:(id)d fromCurrentPosition:(BOOL)e ;
+ - (id) controllerForStartPlacement:(id)a endPlacement:(id)b ;
  - (BOOL) isAnimationCompleted;
  - (BOOL) canDismissWithScrollView;
- - (void) setForce:(BOOL)a;
- - (id) endPlacementForInputViewSet:(id)a;
+ - (void) setForce:(BOOL)a ;
+ - (id) endPlacementForInputViewSet:(id)a ;
  - (BOOL) interactivelyCancelled;
  - (BOOL) force;
- - (id) startPlacementForInputViewSet:(id)acurrentPlacement:(id)b;
- - (void) setDuration:(double)a;
+ - (id) startPlacementForInputViewSet:(id)a currentPlacement:(id)b ;
+ - (void) setDuration:(double)a ;
 
 
 @end

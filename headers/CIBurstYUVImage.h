@@ -16,19 +16,19 @@
 @property (atomic, assign, readwrite) NSNumber* Cbuffer;
 
  - (void) dealloc;
- - (id) initWithCGImage:(^{CGImage=})amaxDimension:(int)b;
+ - (id) initWithCGImage:(^{CGImage=})a maxDimension:(int)b ;
  - (char*) Ybuffer;
  - (int) bytesPerRow;
  - (char*) Cbuffer;
- - (void) convertRGBAToYUV420:(char*)argbaBytesPerRow:(int)b;
+ - (void) convertRGBAToYUV420:(char*)a rgbaBytesPerRow:(int)b ;
  - (^{__CVBuffer=}) pixelBuffer;
- - (void) setYbuffer:(char*)a;
- - (void) setCbuffer:(char*)a;
+ - (void) setYbuffer:(char*)a ;
+ - (void) setCbuffer:(char*)a ;
  - (int) width;
  - (int) height;
- - (void) setWidth:(int)a;
- - (void) setHeight:(int)a;
- - (void) setBytesPerRow:(int)a;
+ - (void) setWidth:(int)a ;
+ - (void) setHeight:(int)a ;
+ - (void) setBytesPerRow:(int)a ;
 
 
 @end

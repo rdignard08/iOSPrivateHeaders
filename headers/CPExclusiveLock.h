@@ -11,9 +11,9 @@
  - (void) lock;
  - (void) unlock;
  - (id) name;
- - (id) initWithName:(id)a;
+ - (id) initWithName:(id)a ;
  - (id) init;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
 
 
 @end

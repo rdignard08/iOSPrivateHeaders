@@ -15,7 +15,7 @@
  - (long long) code;
  - (id) userInfo;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
 
 
 @end

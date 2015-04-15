@@ -4,22 +4,22 @@
     NSArray* _allPickers;
 }
 
- - (void) tableView:(id)awillDisplayCell:(id)bforRowAtIndexPath:(id)c;
- - (BOOL) tableView:(id)ashouldHighlightRowAtIndexPath:(id)b;
- - (long long) tableView:(id)aeditingStyleForRowAtIndexPath:(id)b;
- - (BOOL) tableView:(id)ashouldIndentWhileEditingRowAtIndexPath:(id)b;
- - (id) tableView:(id)atargetIndexPathForMoveFromRowAtIndexPath:(id)btoProposedIndexPath:(id)c;
- - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (long long) numberOfSectionsInTableView:(id)a;
- - (BOOL) tableView:(id)acanMoveRowAtIndexPath:(id)b;
- - (void) tableView:(id)amoveRowAtIndexPath:(id)btoIndexPath:(id)c;
- - (void) traitCollectionDidChange:(id)a;
- - (id) initWithStyle:(long long)a;
+ - (void) tableView:(id)a willDisplayCell:(id)b forRowAtIndexPath:(id)c ;
+ - (BOOL) tableView:(id)a shouldHighlightRowAtIndexPath:(id)b ;
+ - (long long) tableView:(id)a editingStyleForRowAtIndexPath:(id)b ;
+ - (BOOL) tableView:(id)a shouldIndentWhileEditingRowAtIndexPath:(id)b ;
+ - (id) tableView:(id)a targetIndexPathForMoveFromRowAtIndexPath:(id)b toProposedIndexPath:(id)c ;
+ - (long long) tableView:(id)a numberOfRowsInSection:(long long)b ;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
+ - (long long) numberOfSectionsInTableView:(id)a ;
+ - (BOOL) tableView:(id)a canMoveRowAtIndexPath:(id)b ;
+ - (void) tableView:(id)a moveRowAtIndexPath:(id)b toIndexPath:(id)c ;
+ - (void) traitCollectionDidChange:(id)a ;
+ - (id) initWithStyle:(long long)a ;
  - (void) _doneButtonPressed;
  - (id) allPickers;
- - (void) setAllPickers:(id)a;
- - (void) switchToggled:(id)a;
+ - (void) setAllPickers:(id)a ;
+ - (void) switchToggled:(id)a ;
  - (id) init;
 
 

@@ -14,8 +14,8 @@
 
  - ({CGAffineTransform=dddddd}) rootLayerTransform;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) rootLayerFrame;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (unsigned int) contextID;
 
 

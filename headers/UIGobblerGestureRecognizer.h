@@ -5,10 +5,10 @@
 }
 
  - (void) dealloc;
- - (void) touchesBegan:(id)awithEvent:(id)b;
- - (id) initWithTarget:(id)aaction:(SEL)bexcludedView:(id)c;
- - (BOOL) canBePreventedByGestureRecognizer:(id)a;
- - (BOOL) canPreventGestureRecognizer:(id)a;
+ - (void) touchesBegan:(id)a withEvent:(id)b ;
+ - (id) initWithTarget:(id)a action:(SEL)b excludedView:(id)c ;
+ - (BOOL) canBePreventedByGestureRecognizer:(id)a ;
+ - (BOOL) canPreventGestureRecognizer:(id)a ;
 
 
 @end

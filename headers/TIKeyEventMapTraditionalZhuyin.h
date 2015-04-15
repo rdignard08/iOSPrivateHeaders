@@ -4,8 +4,8 @@
 }
  + (BOOL) supportsSecureCoding;
 
- - (id) remapKeyWithString:(id)astringWithoutModifiers:(id)bmodifierFlags:(unsigned long long)ckeyboardState:(id)d;
- - (BOOL) isZhuyinCharacterBeforeInsertionPointOfKeyboardState:(id)a;
+ - (id) remapKeyWithString:(id)a stringWithoutModifiers:(id)b modifierFlags:(unsigned long long)c keyboardState:(id)d ;
+ - (BOOL) isZhuyinCharacterBeforeInsertionPointOfKeyboardState:(id)a ;
 
 
 @end

@@ -6,7 +6,7 @@
 @property (atomic, retain, readwrite) NSString* localizedDisplayName;
 
  - (id) localizedDisplayName;
- - (void) setLocalizedDisplayName:(id)a;
+ - (void) setLocalizedDisplayName:(id)a ;
 
 
 @end

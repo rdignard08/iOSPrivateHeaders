@@ -11,9 +11,9 @@
  - (void) dealloc;
  - (BOOL) dataRequired;
  - (id) reorderControl;
- - (void) setReorderControl:(id)a;
+ - (void) setReorderControl:(id)a ;
  - (id) separatorView;
- - (void) setSeparatorView:(id)a;
+ - (void) setSeparatorView:(id)a ;
 
 
 @end

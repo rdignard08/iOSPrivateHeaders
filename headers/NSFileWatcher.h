@@ -18,17 +18,17 @@
 }
 
  - (void) stop;
- - (void) setObserver:(@?)a;
- - (id) initWithQueue:(id)a;
- - (void) setLastObservedEventID:(unsigned long long)a;
+ - (void) setObserver:(@?)a ;
+ - (id) initWithQueue:(id)a ;
+ - (void) setLastObservedEventID:(unsigned long long)a ;
  - (void) settle;
  - (void) watchItem;
  - (void) _coalesceSubitemObservations;
- - (void) handleFSEventPath:(id)aflags:(unsigned int)bid:(unsigned long long)c;
+ - (void) handleFSEventPath:(id)a flags:(unsigned int)b id:(unsigned long long)c ;
  - (void) unsettle;
  - (void) dealloc;
  - (void) start;
- - (void) setURL:(id)a;
+ - (void) setURL:(id)a ;
 
 
 @end

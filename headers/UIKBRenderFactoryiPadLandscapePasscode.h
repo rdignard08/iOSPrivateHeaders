@@ -3,9 +3,9 @@
 
 }
 
- - (id) backgroundTraitsForKeyplane:(id)a;
+ - (id) backgroundTraitsForKeyplane:(id)a ;
  - (id) defaultKeyBackgroundColorName;
- - (id) _traitsForKey:(id)aonKeyplane:(id)b;
+ - (id) _traitsForKey:(id)a onKeyplane:(id)b ;
  - (id) controlKeyTraits;
  - (id) activeControlKeyTraits;
  - (id) hashStringElement;

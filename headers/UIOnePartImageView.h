@@ -6,9 +6,9 @@
 }
 
  - (void) dealloc;
- - (void) setFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setImage:(id)a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setImage:(id)a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

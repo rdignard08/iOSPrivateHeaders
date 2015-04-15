@@ -3,8 +3,8 @@
 
 }
 
- - (BOOL) pointInside:({CGPoint=dd})awithEvent:(id)b;
- - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a;
+ - (BOOL) pointInside:({CGPoint=dd})a withEvent:(id)b ;
+ - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a ;
 
 
 @end

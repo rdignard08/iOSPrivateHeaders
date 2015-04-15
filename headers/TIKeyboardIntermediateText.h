@@ -16,15 +16,15 @@
  + (id) intermediateTextWithInputString:(id)adisplayString:(id)bselectionLocation:(unsigned long long)c;
  + (id) intermediateTextWithInputString:(id)adisplayString:(id)bselectionLocation:(unsigned long long)csearchString:(id)d;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) inputString;
- - (id) initWithInputString:(id)adisplayString:(id)bselectionLocation:(unsigned long long)csearchString:(id)d;
+ - (id) initWithInputString:(id)a displayString:(id)b selectionLocation:(unsigned long long)c searchString:(id)d ;
  - (id) displayString;
  - (id) searchString;
  - ({_NSRange=QQ}) selectedRange;

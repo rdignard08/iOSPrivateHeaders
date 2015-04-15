@@ -10,19 +10,19 @@
 }
 
  - (void) disposeGlyphStack;
- - (^{__CTGlyphStorage=}) createCopy:({?=qq})a;
- - (void) getCustomAdvance:(^{CGSize=dd})aforIndex:(long long)b;
- - (void) setAbsorbedCount:(long long)aforIndex:(long long)b;
- - (void) setProps:(unsigned int)aforIndex:(long long)b;
- - (void) setGlyphID:(unsigned short)aforIndex:(long long)b;
- - (void) setAdvance:({CGSize=dd})aforIndex:(long long)b;
- - (void) setStringIndex:(long long)aforIndex:(long long)b;
- - (void) insertGlyphs:({?=qq})a;
- - (void) swapGlyph:(long long)awithIndex:(long long)b;
- - (void) moveGlyphsTo:(long long)afrom:({?=qq})b;
- - (void) initGlyphStack:(long long)a;
- - (void) pushGlyph:(long long)a;
- - (void) popGlyph:(long long)a;
+ - (^{__CTGlyphStorage=}) createCopy:({?=qq})a ;
+ - (void) getCustomAdvance:(^{CGSize=dd})a forIndex:(long long)b ;
+ - (void) setAbsorbedCount:(long long)a forIndex:(long long)b ;
+ - (void) setProps:(unsigned int)a forIndex:(long long)b ;
+ - (void) setGlyphID:(unsigned short)a forIndex:(long long)b ;
+ - (void) setAdvance:({CGSize=dd})a forIndex:(long long)b ;
+ - (void) setStringIndex:(long long)a forIndex:(long long)b ;
+ - (void) insertGlyphs:({?=qq})a ;
+ - (void) swapGlyph:(long long)a withIndex:(long long)b ;
+ - (void) moveGlyphsTo:(long long)a from:({?=qq})b ;
+ - (void) initGlyphStack:(long long)a ;
+ - (void) pushGlyph:(long long)a ;
+ - (void) popGlyph:(long long)a ;
 
 
 @end

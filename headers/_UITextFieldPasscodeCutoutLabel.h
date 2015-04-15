@@ -3,7 +3,7 @@
 
 }
 
- - (void) drawTextInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawTextInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -11,18 +11,18 @@
  - (id) description;
  - (void) dealloc;
  - (id) baseKey;
- - (id) initWithRenditions:(id)apart:(^{?=**[5{_renditionkeytoken=SS}]qq[12{?=**qQ}]})b;
+ - (id) initWithRenditions:(id)a part:(^{?=**[5{_renditionkeytoken=SS}]qq[12{?=**qQ}]})b ;
  - (id) renditions;
- - (void) setRenditions:(id)a;
+ - (void) setRenditions:(id)a ;
  - (long long) partFeatures;
  - (id) themeSchemaLayers;
- - (void) addLayoutMetricsToPSDImageRef:(id)awithRendition:(id)b;
+ - (void) addLayoutMetricsToPSDImageRef:(id)a withRendition:(id)b ;
  - (id) schemaLayersAndLayerGroups;
  - (id) _renditionsSortedIntoLayers;
- - (id) _layerNameForDrawingLayer:(long long)a;
- - (id) _layerNameForState:(long long)a;
- - (void) addStatesAndDrawingLayersToPSDLayers:(id)aforPresentationState:(unsigned long long)b;
- - (void) addValueOrDim1LayersToPSDLayers:(id)aforPresentationState:(unsigned long long)bstate:(unsigned long long)cdrawingLayer:(unsigned long long)d;
+ - (id) _layerNameForDrawingLayer:(long long)a ;
+ - (id) _layerNameForState:(long long)a ;
+ - (void) addStatesAndDrawingLayersToPSDLayers:(id)a forPresentationState:(unsigned long long)b ;
+ - (void) addValueOrDim1LayersToPSDLayers:(id)a forPresentationState:(unsigned long long)b state:(unsigned long long)c drawingLayer:(unsigned long long)d ;
  - (id) mutablePSDImageRef;
  - (id) mutablePSDImageRefColumnStyle;
 

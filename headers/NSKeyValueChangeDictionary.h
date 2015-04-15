@@ -7,13 +7,13 @@
     BOOL _isRetainingObjects;
 }
 
- - (void) setOriginalObservable:(id)a;
- - (void) setDetailsNoCopy:({?=Q@@@@})aoriginalObservable:(id)b;
- - (id) initWithDetailsNoCopy:({?=Q@@@@})aoriginalObservable:(id)bisPriorNotification:(BOOL)c;
+ - (void) setOriginalObservable:(id)a ;
+ - (void) setDetailsNoCopy:({?=Q@@@@})a originalObservable:(id)b ;
+ - (id) initWithDetailsNoCopy:({?=Q@@@@})a originalObservable:(id)b isPriorNotification:(BOOL)c ;
  - (void) retainObjects;
  - (void) dealloc;
  - (unsigned long long) count;
- - (id) objectForKey:(id)a;
+ - (id) objectForKey:(id)a ;
  - (id) keyEnumerator;
 
 

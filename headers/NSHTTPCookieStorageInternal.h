@@ -8,10 +8,10 @@
 }
 
  - (void) dealloc;
- - (id) _initWithIdentifier:(id)aprivate:(BOOL)b;
+ - (id) _initWithIdentifier:(id)a private:(BOOL)b ;
  - (void) _syncCookies;
  - (void) registerForPostingNotifications;
- - (id) initInternalWithCFStorage:(^{OpaqueCFHTTPCookieStorage=})a;
+ - (id) initInternalWithCFStorage:(^{OpaqueCFHTTPCookieStorage=})a ;
 
 
 @end

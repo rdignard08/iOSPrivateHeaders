@@ -17,11 +17,11 @@
  - (id) contextBeforeSelection;
  - (id) contextAfterSelection;
  - ({_NSRange=QQ}) rangeInMarkedText;
- - (void) setSelectedText:(id)a;
- - (void) setContextBeforeSelection:(id)a;
- - (void) setContextAfterSelection:(id)a;
- - (void) setMarkedText:(id)a;
- - (void) setRangeInMarkedText:({_NSRange=QQ})a;
+ - (void) setSelectedText:(id)a ;
+ - (void) setContextBeforeSelection:(id)a ;
+ - (void) setContextAfterSelection:(id)a ;
+ - (void) setMarkedText:(id)a ;
+ - (void) setRangeInMarkedText:({_NSRange=QQ})a ;
  - (id) markedText;
  - (id) selectedText;
 

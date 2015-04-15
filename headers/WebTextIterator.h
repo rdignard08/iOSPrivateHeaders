@@ -5,7 +5,7 @@
 }
 
  - (id) currentNode;
- - (id) initWithRange:(id)a;
+ - (id) initWithRange:(id)a ;
  - (void) dealloc;
  - (void) advance;
  - (BOOL) atEnd;

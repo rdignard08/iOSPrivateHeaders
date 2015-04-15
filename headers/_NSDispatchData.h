@@ -4,20 +4,20 @@
 }
  + (BOOL) supportsSecureCoding;
 
- - (id) subdataWithRange:({_NSRange=QQ})a;
+ - (id) subdataWithRange:({_NSRange=QQ})a ;
  - (Class) classForCoder;
  - (BOOL) _isDispatchData;
- - (void) enumerateByteRangesUsingBlock:(@?)a;
+ - (void) enumerateByteRangesUsingBlock:(@?)a ;
  - (BOOL) _allowsDirectEncoding;
- - (void) getBytes:(^v)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (void) getBytes:(^v)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (r^v) bytes;
- - (void) getBytes:(^v)arange:({_NSRange=QQ})b;
+ - (void) getBytes:(^v)a range:({_NSRange=QQ})b ;
  - (unsigned long long) hash;
- - (void) getBytes:(^v)alength:(unsigned long long)b;
+ - (void) getBytes:(^v)a length:(unsigned long long)b ;
  - (unsigned long long) length;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

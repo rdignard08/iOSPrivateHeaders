@@ -5,8 +5,8 @@
 }
 
  - (void) dealloc;
- - (id) initWithImage:(id)a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithImage:(id)a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

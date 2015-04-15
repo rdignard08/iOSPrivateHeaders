@@ -10,13 +10,13 @@
     NSString* _path;
 }
 
- - (id) initWithPath:(id)a;
+ - (id) initWithPath:(id)a ;
  - (void) addAttributeChange;
  - (void) addContentsChange;
  - (void) addDeletion;
- - (void) addDetectedMoveToPath:(id)a;
- - (void) addAnnouncedMoveToPath:(id)a;
- - (void) notifyObserver:(@?)a;
+ - (void) addDetectedMoveToPath:(id)a ;
+ - (void) addAnnouncedMoveToPath:(id)a ;
+ - (void) notifyObserver:(@?)a ;
  - (id) description;
  - (void) dealloc;
 

@@ -5,10 +5,10 @@
 }
 
  - (void) dealloc;
- - (void) setActions:(id)a;
+ - (void) setActions:(id)a ;
  - (id) actions;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
 
 
 @end

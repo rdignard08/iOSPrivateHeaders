@@ -17,16 +17,16 @@
  - (id) _layoutVariablesWithAmbiguousValue;
  - (id) _archivedIdentifier;
  - (id) _constraintsToRemoveAtRuntime;
- - (void) _setConstraintsToRemoveAtRuntime:(id)a;
+ - (void) _setConstraintsToRemoveAtRuntime:(id)a ;
  - (id) _relevantLayoutVariables;
  - (void) _setUpCounterDimensionConstraint;
- - (void) _setAllowsArchivingAsSubview:(BOOL)a;
- - (void) _setArchivedIdentifier:(id)a;
- - (void) _setHorizontal:(BOOL)a;
+ - (void) _setAllowsArchivingAsSubview:(BOOL)a ;
+ - (void) _setArchivedIdentifier:(id)a ;
+ - (void) _setHorizontal:(BOOL)a ;
  - (double) length;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (BOOL) isHorizontal;
 
 

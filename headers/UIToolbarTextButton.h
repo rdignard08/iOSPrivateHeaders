@@ -10,10 +10,10 @@
  - (void) layoutSubviews;
  - ({UIEdgeInsets=dddd}) alignmentRectInsets;
  - (id) _scriptingInfo;
- - (void) _UIAppearance_setTitleTextAttributes:(id)aforState:(unsigned long long)b;
- - (void) _setTitleTextAttributes:(id)aforState:(unsigned long long)b;
- - (void) _setPressed:(BOOL)a;
- - (id) initWithTitle:(id)apressedTitle:(id)bwithFont:(id)cwithBarStyle:(long long)dwithStyle:(long long)ewithTitleWidth:(float)fpossibleTitles:(id)gwithToolbarTintColor:(id)h;
+ - (void) _UIAppearance_setTitleTextAttributes:(id)a forState:(unsigned long long)b ;
+ - (void) _setTitleTextAttributes:(id)a forState:(unsigned long long)b ;
+ - (void) _setPressed:(BOOL)a ;
+ - (id) initWithTitle:(id)a pressedTitle:(id)b withFont:(id)c withBarStyle:(long long)d withStyle:(long long)e withTitleWidth:(float)f possibleTitles:(id)g withToolbarTintColor:(id)h ;
 
 
 @end

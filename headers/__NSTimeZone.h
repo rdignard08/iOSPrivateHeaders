@@ -15,12 +15,12 @@
  - (void) finalize;
  - (id) data;
  - (id) name;
- - (double) daylightSavingTimeOffsetForDate:(id)a;
- - (long long) secondsFromGMTForDate:(id)a;
- - (id) abbreviationForDate:(id)a;
- - (BOOL) isDaylightSavingTimeForDate:(id)a;
- - (id) nextDaylightSavingTimeTransitionAfterDate:(id)a;
- - (id) localizedName:(long long)alocale:(id)b;
+ - (double) daylightSavingTimeOffsetForDate:(id)a ;
+ - (long long) secondsFromGMTForDate:(id)a ;
+ - (id) abbreviationForDate:(id)a ;
+ - (BOOL) isDaylightSavingTimeForDate:(id)a ;
+ - (id) nextDaylightSavingTimeTransitionAfterDate:(id)a ;
+ - (id) localizedName:(long long)a locale:(id)b ;
 
 
 @end

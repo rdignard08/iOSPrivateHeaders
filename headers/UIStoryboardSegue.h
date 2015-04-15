@@ -19,9 +19,9 @@
  - (id) destinationViewController;
  - (id) sourceViewController;
  - (void) perform;
- - (id) initWithIdentifier:(id)asource:(id)bdestination:(id)c;
- - (void) setSender:(id)a;
- - (void) setPerformHandler:(@?)a;
+ - (id) initWithIdentifier:(id)a source:(id)b destination:(id)c ;
+ - (void) setSender:(id)a ;
+ - (void) setPerformHandler:(@?)a ;
  - (@?) performHandler;
  - (id) sender;
  - (id) identifier;

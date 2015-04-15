@@ -19,26 +19,26 @@
 
  - (void) dealloc;
  - (unsigned long long) supportedInterfaceOrientations;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
- - (void) navigationController:(id)awillShowViewController:(id)banimated:(BOOL)c;
- - (void) navigationController:(id)adidShowViewController:(id)banimated:(BOOL)c;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a ;
+ - (void) navigationController:(id)a willShowViewController:(id)b animated:(BOOL)c ;
+ - (void) navigationController:(id)a didShowViewController:(id)b animated:(BOOL)c ;
  - (void) printerBrowserViewDidDisappear;
  - (void) _presentWindow;
- - (void) _keyWindowWillRotate:(id)a;
- - (void) _presentInParentAnimated:(BOOL)a;
- - (void) dismissAnimated:(BOOL)a;
- - (void) dismissPrinterPickerAnimated:(BOOL)a;
+ - (void) _keyWindowWillRotate:(id)a ;
+ - (void) _presentInParentAnimated:(BOOL)a ;
+ - (void) dismissAnimated:(BOOL)a ;
+ - (void) dismissPrinterPickerAnimated:(BOOL)a ;
  - (BOOL) filtersPrinters;
  - (void) cancelPrinting;
- - (void) setUserSelectedPrinter:(BOOL)a;
- - (BOOL) shouldShowPrinter:(id)a;
+ - (void) setUserSelectedPrinter:(BOOL)a ;
+ - (BOOL) shouldShowPrinter:(id)a ;
  - (id) printer;
- - (void) setPrinter:(id)a;
- - (id) initWithPrinterPickerController:(id)ainParentController:(id)b;
- - (void) presentPrinterPickerPanelAnimated:(BOOL)a;
- - (void) presentPrinterPickerPanelFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainView:(id)banimated:(BOOL)c;
- - (void) presentPrinterPickerPanelFromBarButtonItem:(id)aanimated:(BOOL)b;
- - (void) popoverControllerDidDismissPopover:(id)a;
+ - (void) setPrinter:(id)a ;
+ - (id) initWithPrinterPickerController:(id)a inParentController:(id)b ;
+ - (void) presentPrinterPickerPanelAnimated:(BOOL)a ;
+ - (void) presentPrinterPickerPanelFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a inView:(id)b animated:(BOOL)c ;
+ - (void) presentPrinterPickerPanelFromBarButtonItem:(id)a animated:(BOOL)b ;
+ - (void) popoverControllerDidDismissPopover:(id)a ;
  - (BOOL) userSelectedPrinter;
 
 

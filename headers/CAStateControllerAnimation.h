@@ -9,7 +9,7 @@
 
  - (void) dealloc;
  - (id) key;
- - (id) initWithLayer:(id)akey:(id)b;
+ - (id) initWithLayer:(id)a key:(id)b ;
  - (id) layer;
 
 

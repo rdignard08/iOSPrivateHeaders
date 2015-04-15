@@ -18,24 +18,24 @@
 
  - (void) dealloc;
  - (BOOL) _isTransitioning;
- - (void) _setRenderConfig:(id)a;
+ - (void) _setRenderConfig:(id)a ;
  - (int) textEffectsVisibilityLevel;
- - (void) layoutInputBackdropToFullWithRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) layoutInputBackdropToFullWithRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) inputBackdropLeftView;
  - (id) inputBackdropRightView;
  - (id) inputBackdropFullView;
- - (void) transitionToStyle:(long long)aisSplit:(BOOL)b;
- - (void) _setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aleftOffset:(double)bgapWidth:(double)cprogress:(double)dinnerCorners:(unsigned long long)e;
- - (void) _setInitialProgressWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) layoutInputBackdropToSplitWithLeftViewRect:({CGRect={CGPoint=dd}{CGSize=dd}})aandRightViewRect:({CGRect={CGPoint=dd}{CGSize=dd}})binnerCorners:(int)c;
- - (void) _setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aleftOffset:(double)bgapWidth:(double)cprogress:(double)d;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aprimaryBackdrop:(BOOL)b;
- - (void) _setProgress:(double)awithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) _beginSplitTransitionIfNeeded:(double)agapWidth:(double)b;
- - (void) _endSplitTransitionIfNeeded:(BOOL)a;
- - (void) setInputBackdropFullView:(id)a;
- - (void) setInputBackdropLeftView:(id)a;
- - (void) setInputBackdropRightView:(id)a;
+ - (void) transitionToStyle:(long long)a isSplit:(BOOL)b ;
+ - (void) _setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a leftOffset:(double)b gapWidth:(double)c progress:(double)d innerCorners:(unsigned long long)e ;
+ - (void) _setInitialProgressWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) layoutInputBackdropToSplitWithLeftViewRect:({CGRect={CGPoint=dd}{CGSize=dd}})a andRightViewRect:({CGRect={CGPoint=dd}{CGSize=dd}})b innerCorners:(int)c ;
+ - (void) _setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a leftOffset:(double)b gapWidth:(double)c progress:(double)d ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a primaryBackdrop:(BOOL)b ;
+ - (void) _setProgress:(double)a withFrame:({CGRect={CGPoint=dd}{CGSize=dd}})b ;
+ - (void) _beginSplitTransitionIfNeeded:(double)a gapWidth:(double)b ;
+ - (void) _endSplitTransitionIfNeeded:(BOOL)a ;
+ - (void) setInputBackdropFullView:(id)a ;
+ - (void) setInputBackdropLeftView:(id)a ;
+ - (void) setInputBackdropRightView:(id)a ;
 
 
 @end

@@ -9,7 +9,7 @@
 
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) object;
 
 

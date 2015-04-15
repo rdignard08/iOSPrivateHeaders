@@ -22,11 +22,11 @@
  - (void) dealloc;
  - (void) startLoading;
  - (void) stopLoading;
- - (id) initWithRequest:(id)acachedResponse:(id)bclient:(id)c;
+ - (id) initWithRequest:(id)a cachedResponse:(id)b client:(id)c ;
  - (id) client;
  - (id) request;
  - (id) cachedResponse;
- - (id) initWithTask:(id)acachedResponse:(id)bclient:(id)c;
+ - (id) initWithTask:(id)a cachedResponse:(id)b client:(id)c ;
 
 
 @end

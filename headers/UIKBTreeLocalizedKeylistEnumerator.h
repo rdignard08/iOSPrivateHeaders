@@ -7,7 +7,7 @@
 
  - (void) dealloc;
  - (id) nextObject;
- - (id) initWithKeyplaneCache:(id)a;
+ - (id) initWithKeyplaneCache:(id)a ;
 
 
 @end

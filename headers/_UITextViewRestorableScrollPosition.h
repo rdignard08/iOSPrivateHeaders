@@ -10,10 +10,10 @@
  + (id) restorableScrollPositionWithDictionary:(id)a;
 
  - (id) dictionaryRepresentation;
- - (id) initWithTextView:(id)a;
+ - (id) initWithTextView:(id)a ;
  - (double) offsetWithinLine;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - ({_NSRange=QQ}) range;
 
 

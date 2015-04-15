@@ -40,34 +40,34 @@
  + (id) traitsWithGeometry:(id)a;
  + (id) traitsWithSymbolStyle:(id)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
- - (void) setBackgroundGradient:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setBackgroundGradient:(id)a ;
  - (id) geometry;
- - (void) setSymbolStyle:(id)a;
+ - (void) setSymbolStyle:(id)a ;
  - (id) symbolStyle;
- - (void) addRenderEffect:(id)a;
- - (void) setVariantGeometries:(id)a;
- - (void) setVariantTraits:(id)a;
- - (void) setHighlightedVariantTraits:(id)a;
- - (void) setBlendForm:(long long)a;
- - (void) setControlOpacities:(BOOL)a;
+ - (void) addRenderEffect:(id)a ;
+ - (void) setVariantGeometries:(id)a ;
+ - (void) setVariantTraits:(id)a ;
+ - (void) setHighlightedVariantTraits:(id)a ;
+ - (void) setBlendForm:(long long)a ;
+ - (void) setControlOpacities:(BOOL)a ;
  - (id) variantTraits;
  - (id) variantGeometries;
- - (void) setLayeredBackgroundGradient:(id)a;
+ - (void) setLayeredBackgroundGradient:(id)a ;
  - (void) removeAllRenderEffects;
- - (void) setGeometry:(id)a;
+ - (void) setGeometry:(id)a ;
  - (id) hashString;
  - (long long) blendForm;
  - (BOOL) controlOpacities;
  - (void) modifyForMasking;
- - (void) setSecondarySymbolStyle:(id)a;
+ - (void) setSecondarySymbolStyle:(id)a ;
  - (id) secondarySymbolStyle;
- - (void) setForceOpacity:(double)a;
- - (void) setLayeredForegroundGradient:(id)a;
- - (void) overlayWithTraits:(id)a;
+ - (void) setForceOpacity:(double)a ;
+ - (void) setLayeredForegroundGradient:(id)a ;
+ - (void) overlayWithTraits:(id)a ;
  - (id) backgroundGradient;
  - (double) forceOpacity;
  - (id) layeredBackgroundGradient;
@@ -76,9 +76,9 @@
  - (id) renderEffects;
  - (id) foregroundRenderEffects;
  - (id) highlightedVariantTraits;
- - (void) setHashString:(id)a;
- - (void) addForegroundRenderEffect:(id)a;
- - (void) setFallbackSymbolStyle:(id)a;
+ - (void) setHashString:(id)a ;
+ - (void) addForegroundRenderEffect:(id)a ;
+ - (void) setFallbackSymbolStyle:(id)a ;
 
 
 @end

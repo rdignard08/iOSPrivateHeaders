@@ -15,30 +15,30 @@
  + (id) _invocationWithMethodSignature:(id)aframe:(^v)b;
  + (id) invocationWithMethodSignature:(id)a;
 
- - (void) _webkit_invokeAndHandleException:(id)a;
+ - (void) _webkit_invokeAndHandleException:(id)a ;
  - (BOOL) _hasBlockArgument;
  - (id) userInfo;
- - (void) setUserInfo:(id)a;
+ - (void) setUserInfo:(id)a ;
  - (id) debugDescription;
  - (id) target;
- - (void) _addAttachedObject:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (void) _addAttachedObject:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (SEL) selector;
  - (void) dealloc;
- - (void) setTarget:(id)a;
+ - (void) setTarget:(id)a ;
  - (void) retainArguments;
- - (void) getArgument:(^v)aatIndex:(long long)b;
- - (void) setArgument:(^v)aatIndex:(long long)b;
+ - (void) getArgument:(^v)a atIndex:(long long)b ;
+ - (void) setArgument:(^v)a atIndex:(long long)b ;
  - (void) invoke;
  - (BOOL) argumentsRetained;
  - (void) invokeSuper;
- - (void) invokeUsingIMP:(^?)a;
- - (void) setReturnValue:(^v)a;
+ - (void) invokeUsingIMP:(^?)a ;
+ - (void) setReturnValue:(^v)a ;
  - (id) init;
  - (id) methodSignature;
- - (void) setSelector:(SEL)a;
- - (void) invokeWithTarget:(id)a;
- - (void) getReturnValue:(^v)a;
+ - (void) setSelector:(SEL)a ;
+ - (void) invokeWithTarget:(id)a ;
+ - (void) getReturnValue:(^v)a ;
 
 
 @end

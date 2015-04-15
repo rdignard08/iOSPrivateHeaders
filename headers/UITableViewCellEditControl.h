@@ -23,22 +23,22 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (BOOL) isRotating;
- - (void) setHighlighted:(BOOL)a;
+ - (void) setHighlighted:(BOOL)a ;
  - (void) _multiselectColorChanged;
- - (void) setSelected:(BOOL)a;
+ - (void) setSelected:(BOOL)a ;
  - (id) _currentImage;
- - (void) _toggleRotateAnimationDidStop:(id)afinished:(BOOL)b;
- - (void) setHiding:(BOOL)a;
+ - (void) _toggleRotateAnimationDidStop:(id)a finished:(BOOL)b ;
+ - (void) setHiding:(BOOL)a ;
  - (BOOL) isHiding;
  - (BOOL) isRotated;
  - (id) _shadowImage;
- - (void) setRotated:(BOOL)a;
- - (void) setRotated:(BOOL)aanimated:(BOOL)b;
- - (id) initWithTableViewCell:(id)aeditingStyle:(long long)b;
+ - (void) setRotated:(BOOL)a ;
+ - (void) setRotated:(BOOL)a animated:(BOOL)b ;
+ - (id) initWithTableViewCell:(id)a editingStyle:(long long)b ;
  - (void) _updateImageView;
  - (id) _minusView;
  - (void) _toggleRotate;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

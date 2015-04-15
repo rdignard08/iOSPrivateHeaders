@@ -15,17 +15,17 @@
  - (id) backgroundImage;
  - (id) miniBackgroundImage;
  - (BOOL) hidesShadow;
- - (void) setHidesShadow:(BOOL)a;
+ - (void) setHidesShadow:(BOOL)a ;
  - (id) shadowImage;
- - (void) setShadowImage:(id)a;
+ - (void) setShadowImage:(id)a ;
  - (id) topShadowImage;
  - (id) topBackgroundImage;
  - (id) miniTopBackgroundImage;
- - (void) setTopShadowImage:(id)a;
- - (void) setBackgroundImage:(id)a;
- - (void) setMiniBackgroundImage:(id)a;
- - (void) setTopBackgroundImage:(id)a;
- - (void) setMiniTopBackgroundImage:(id)a;
+ - (void) setTopShadowImage:(id)a ;
+ - (void) setBackgroundImage:(id)a ;
+ - (void) setMiniBackgroundImage:(id)a ;
+ - (void) setTopBackgroundImage:(id)a ;
+ - (void) setMiniTopBackgroundImage:(id)a ;
 
 
 @end

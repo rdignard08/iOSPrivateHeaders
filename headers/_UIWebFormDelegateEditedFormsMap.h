@@ -7,11 +7,11 @@
 
  - (void) dealloc;
  - (void) removeAllObjects;
- - (id) objectForKey:(id)a;
- - (void) removeObjectForKey:(id)a;
- - (void) setObject:(id)aforKey:(id)b;
+ - (id) objectForKey:(id)a ;
+ - (void) removeObjectForKey:(id)a ;
+ - (void) setObject:(id)a forKey:(id)b ;
  - (id) allValues;
- - (id) _keyForWebFrame:(id)a;
+ - (id) _keyForWebFrame:(id)a ;
  - (id) init;
 
 

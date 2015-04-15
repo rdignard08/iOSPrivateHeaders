@@ -14,7 +14,7 @@
  - (void) dealloc;
  - (void) startLoading;
  - (void) stopLoading;
- - (id) initWithRequest:(id)acachedResponse:(id)bclient:(id)c;
+ - (id) initWithRequest:(id)a cachedResponse:(id)b client:(id)c ;
  - (^{CFURLProtocolClient=q^v^?^?^?^?^?^?^?^?^?^?}) cfurlClient;
 
 

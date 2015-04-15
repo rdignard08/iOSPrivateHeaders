@@ -3,11 +3,11 @@
 
 }
 
- - (id) toDataURL:(id)a;
+ - (id) toDataURL:(id)a ;
  - (int) width;
  - (int) height;
- - (void) setWidth:(int)a;
- - (void) setHeight:(int)a;
+ - (void) setWidth:(int)a ;
+ - (void) setHeight:(int)a ;
 
 
 @end

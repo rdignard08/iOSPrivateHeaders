@@ -23,24 +23,24 @@
  + (void) initialize;
  + (id) unarchiveObjectWithData:(id)a;
 
- - (void) decodeArrayOfObjCType:(r*)acount:(unsigned long long)bat:(^v)c;
- - (void) replaceObject:(id)awithObject:(id)b;
- - (long long) versionForClassName:(id)a;
- - (void) decodeClassName:(id)aasClassName:(id)b;
- - (id) initForReadingWithData:(id)a;
+ - (void) decodeArrayOfObjCType:(r*)a count:(unsigned long long)b at:(^v)c ;
+ - (void) replaceObject:(id)a withObject:(id)b ;
+ - (long long) versionForClassName:(id)a ;
+ - (void) decodeClassName:(id)a asClassName:(id)b ;
+ - (id) initForReadingWithData:(id)a ;
  - (BOOL) isAtEnd;
- - (id) classNameDecodedForArchiveClassName:(id)a;
- - (void) setObjectZone:(^{_NSZone=})a;
+ - (id) classNameDecodedForArchiveClassName:(id)a ;
+ - (void) setObjectZone:(^{_NSZone=})a ;
  - (^{_NSZone=}) objectZone;
- - (void) decodeValuesOfObjCTypes:(r*)a;
- - (^v) decodeBytesWithReturnedLength:(^Q)a;
+ - (void) decodeValuesOfObjCTypes:(r*)a ;
+ - (^v) decodeBytesWithReturnedLength:(^Q)a ;
  - (id) decodeDataObject;
  - (void) dealloc;
  - (void) finalize;
  - (id) data;
  - (unsigned int) systemVersion;
- - (void) _setAllowedClasses:(id)a;
- - (void) decodeValueOfObjCType:(r*)aat:(^v)b;
+ - (void) _setAllowedClasses:(id)a ;
+ - (void) decodeValueOfObjCType:(r*)a at:(^v)b ;
  - (id) decodeObject;
 
 

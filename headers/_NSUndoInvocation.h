@@ -4,7 +4,7 @@
     NSInvocation* _invocation;
 }
 
- - (id) initWithTarget:(id)ainvocation:(id)b;
+ - (id) initWithTarget:(id)a invocation:(id)b ;
  - (id) description;
  - (void) dealloc;
  - (void) invoke;

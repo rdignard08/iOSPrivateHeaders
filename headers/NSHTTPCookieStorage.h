@@ -11,25 +11,25 @@
  - (void) dealloc;
  - (id) init;
  - (^{OpaqueCFHTTPCookieStorage=}) _cookieStorage;
- - (void) setCookies:(id)aforURL:(id)bmainDocumentURL:(id)c;
- - (id) cookiesForURL:(id)a;
+ - (void) setCookies:(id)a forURL:(id)b mainDocumentURL:(id)c ;
+ - (id) cookiesForURL:(id)a ;
  - (void) _saveCookies;
  - (id) cookies;
- - (void) deleteCookie:(id)a;
- - (void) setCookie:(id)a;
+ - (void) deleteCookie:(id)a ;
+ - (void) setCookie:(id)a ;
  - (unsigned long long) cookieAcceptPolicy;
- - (void) setCookieAcceptPolicy:(unsigned long long)a;
- - (id) sortedCookiesUsingDescriptors:(id)a;
- - (void) removeCookiesSinceDate:(id)a;
- - (void) storeCookies:(id)aforTask:(id)b;
- - (void) getCookiesForTask:(id)acompletionHandler:(@?)b;
- - (id) _initWithIdentifier:(id)aprivate:(BOOL)b;
- - (void) _setPrivateBrowsingEnabled:(BOOL)a;
- - (id) _initWithCFHTTPCookieStorage:(^{OpaqueCFHTTPCookieStorage=})a;
- - (id) _cookiesForURL:(id)amainDocumentURL:(id)b;
+ - (void) setCookieAcceptPolicy:(unsigned long long)a ;
+ - (id) sortedCookiesUsingDescriptors:(id)a ;
+ - (void) removeCookiesSinceDate:(id)a ;
+ - (void) storeCookies:(id)a forTask:(id)b ;
+ - (void) getCookiesForTask:(id)a completionHandler:(@?)b ;
+ - (id) _initWithIdentifier:(id)a private:(BOOL)b ;
+ - (void) _setPrivateBrowsingEnabled:(BOOL)a ;
+ - (id) _initWithCFHTTPCookieStorage:(^{OpaqueCFHTTPCookieStorage=})a ;
+ - (id) _cookiesForURL:(id)a mainDocumentURL:(id)b ;
  - (^{OpaqueCFHTTPCookieStorage=}) _CFHTTPCookieStorage;
- - (id) cookieRequestHeaderFieldsForURL:(id)a;
- - (void) setCookiesFromResponseHeader:(id)aforURL:(id)bpolicyBaseURL:(id)c;
+ - (id) cookieRequestHeaderFieldsForURL:(id)a ;
+ - (void) setCookiesFromResponseHeader:(id)a forURL:(id)b policyBaseURL:(id)c ;
 
 
 @end

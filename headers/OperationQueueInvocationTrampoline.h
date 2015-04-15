@@ -6,8 +6,8 @@
 }
 
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
- - (id) initWithTarget:(id)aoperationQueue:(id)bpriority:(long long)c;
+ - (void) forwardInvocation:(id)a ;
+ - (id) initWithTarget:(id)a operationQueue:(id)b priority:(long long)c ;
 
 
 @end

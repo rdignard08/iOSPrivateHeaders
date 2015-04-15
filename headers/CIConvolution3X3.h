@@ -9,12 +9,12 @@
 
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (BOOL) _isIdentity;
  - (id) inputWeights;
- - (void) setInputWeights:(id)a;
+ - (void) setInputWeights:(id)a ;
  - (id) inputBias;
- - (void) setInputBias:(id)a;
+ - (void) setInputBias:(id)a ;
 
 
 @end

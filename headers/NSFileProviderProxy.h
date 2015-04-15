@@ -4,15 +4,15 @@
     BOOL _wantsWriteNotifications;
 }
 
- - (void) setItemLocation:(id)a;
- - (void) forwardUsingMessageSender:(@?)a;
- - (void) observePresentationChangeOfKind:(id)awithPresenter:(id)burl:(id)cnewURL:(id)d;
- - (void) provideLogicalURLForURL:(id)acompletionHandler:(@?)b;
- - (@?) provideItemAtURL:(id)aforAccessClaim:(id)bcompletionHandler:(@?)c;
- - (void) providePhysicalURLForURL:(id)acompletionHandler:(@?)b;
- - (void) observeEndOfWriteAtLocation:(id)aforAccessClaim:(id)b;
+ - (void) setItemLocation:(id)a ;
+ - (void) forwardUsingMessageSender:(@?)a ;
+ - (void) observePresentationChangeOfKind:(id)a withPresenter:(id)b url:(id)c newURL:(id)d ;
+ - (void) provideLogicalURLForURL:(id)a completionHandler:(@?)b ;
+ - (@?) provideItemAtURL:(id)a forAccessClaim:(id)b completionHandler:(@?)c ;
+ - (void) providePhysicalURLForURL:(id)a completionHandler:(@?)b ;
+ - (void) observeEndOfWriteAtLocation:(id)a forAccessClaim:(id)b ;
  - (BOOL) wantsWriteNotifications;
- - (void) setWantsWriteNotifications:(BOOL)a;
+ - (void) setWantsWriteNotifications:(BOOL)a ;
 
 
 @end

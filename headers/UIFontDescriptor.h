@@ -24,30 +24,30 @@
  + (id) fontDescriptorWithName:(id)amatrix:({CGAffineTransform=dddddd})b;
 
  - (Class) classForCoder;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
- - (id) objectForKey:(id)a;
+ - (id) objectForKey:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (double) pointSize;
  - (id) _attributes;
- - (id) _initWithFontAttributes:(id)aoptions:(unsigned long long)b;
- - (id) initWithFontAttributes:(id)a;
+ - (id) _initWithFontAttributes:(id)a options:(unsigned long long)b ;
+ - (id) initWithFontAttributes:(id)a ;
  - (id) postscriptName;
  - ({CGAffineTransform=dddddd}) matrix;
- - (id) fontDescriptorWithSize:(double)a;
- - (id) fontDescriptorWithMatrix:({CGAffineTransform=dddddd})a;
- - (id) fontDescriptorWithFace:(id)a;
+ - (id) fontDescriptorWithSize:(double)a ;
+ - (id) fontDescriptorWithMatrix:({CGAffineTransform=dddddd})a ;
+ - (id) fontDescriptorWithFace:(id)a ;
  - (id) _visibleName;
- - (id) fontDescriptorByAddingAttributes:(id)a;
+ - (id) fontDescriptorByAddingAttributes:(id)a ;
  - (id) fontAttributes;
- - (id) matchingFontDescriptorsWithMandatoryKeys:(id)a;
- - (id) matchingFontDescriptorWithMandatoryKeys:(id)a;
+ - (id) matchingFontDescriptorsWithMandatoryKeys:(id)a ;
+ - (id) matchingFontDescriptorWithMandatoryKeys:(id)a ;
  - (unsigned int) symbolicTraits;
- - (id) fontDescriptorWithSymbolicTraits:(unsigned int)a;
- - (id) fontDescriptorWithFamily:(id)a;
+ - (id) fontDescriptorWithSymbolicTraits:(unsigned int)a ;
+ - (id) fontDescriptorWithFamily:(id)a ;
 
 
 @end

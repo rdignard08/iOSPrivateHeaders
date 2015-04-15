@@ -3,7 +3,7 @@
 
 }
 
- - (id) initWithImage:(id)a;
+ - (id) initWithImage:(id)a ;
 
 
 @end

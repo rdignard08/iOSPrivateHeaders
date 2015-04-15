@@ -25,28 +25,28 @@
 @property (atomic, retain, readwrite) NSSharedKeySet* subSharedKeySet;
  + (id) keySetWithKeys:(id)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (void) finalize;
  - (unsigned long long) count;
- - (void) setSelect:(unsigned char)a;
- - (void) setC:(double)a;
- - (void) setM:(unsigned int)a;
- - (void) setFactor:(unsigned int)a;
- - (void) setNumKey:(unsigned int)a;
- - (void) setSeeds:(^I)a;
- - (void) setG:(char*)a;
- - (void) setRankTable:(^v)a;
- - (void) setKeys:(^@)a;
- - (void) setSubSharedKeySet:(id)a;
- - (id) initWithKeys:(^@)acount:(unsigned long long)b;
+ - (void) setSelect:(unsigned char)a ;
+ - (void) setC:(double)a ;
+ - (void) setM:(unsigned int)a ;
+ - (void) setFactor:(unsigned int)a ;
+ - (void) setNumKey:(unsigned int)a ;
+ - (void) setSeeds:(^I)a ;
+ - (void) setG:(char*)a ;
+ - (void) setRankTable:(^v)a ;
+ - (void) setKeys:(^@)a ;
+ - (void) setSubSharedKeySet:(id)a ;
+ - (id) initWithKeys:(^@)a count:(unsigned long long)b ;
  - (BOOL) isEmpty;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
+ - (BOOL) isEqual:(id)a ;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})a objects:(^@)b count:(unsigned long long)c ;
  - (id) allKeys;
  - (unsigned long long) keySetCount;
- - (id) keyAtIndex:(unsigned long long)a;
+ - (id) keyAtIndex:(unsigned long long)a ;
  - (unsigned long long) maximumIndex;
  - (char*) g;
  - (unsigned char) select;
@@ -57,12 +57,12 @@
  - (unsigned int) numKey;
  - (^I) seeds;
  - (id) subSharedKeySet;
- - (unsigned long long) indexForKey:(id)a;
- - (id) generateSubclassCode:(id)aprintChainOfKeySetIfPossible:(BOOL)bprintSpecialCode:(unsigned long long)c;
+ - (unsigned long long) indexForKey:(id)a ;
+ - (id) generateSubclassCode:(id)a printChainOfKeySetIfPossible:(BOOL)b printSpecialCode:(unsigned long long)c ;
  - (^@) keys;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

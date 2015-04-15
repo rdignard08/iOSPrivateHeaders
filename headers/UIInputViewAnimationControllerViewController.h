@@ -9,10 +9,10 @@
  + (id) controllerWithContext:(id)a;
 
  - (void) dealloc;
- - (id) prepareAnimationWithHost:(id)astartPlacement:(id)bendPlacement:(id)c;
- - (void) performAnimationWithHost:(id)acontext:(id)b;
- - (void) completeAnimationWithHost:(id)acontext:(id)b;
- - (id) initWithContext:(id)a;
+ - (id) prepareAnimationWithHost:(id)a startPlacement:(id)b endPlacement:(id)c ;
+ - (void) performAnimationWithHost:(id)a context:(id)b ;
+ - (void) completeAnimationWithHost:(id)a context:(id)b ;
+ - (id) initWithContext:(id)a ;
 
 
 @end

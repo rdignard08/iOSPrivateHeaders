@@ -5,7 +5,7 @@
 }
 
  - (long long) index;
- - (void) setIndex:(long long)a;
+ - (void) setIndex:(long long)a ;
 
 
 @end

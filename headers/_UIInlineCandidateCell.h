@@ -13,13 +13,13 @@
 }
 
  - (void) dealloc;
- - (void) setHighlighted:(BOOL)a;
+ - (void) setHighlighted:(BOOL)a ;
  - (unsigned long long) index;
- - (id) initWithCandidate:(id)aandIndex:(unsigned long long)bwithFontSize:(double)ctarget:(id)daction:(SEL)e;
+ - (id) initWithCandidate:(id)a andIndex:(unsigned long long)b withFontSize:(double)c target:(id)d action:(SEL)e ;
  - ({CGSize=dd}) stringImageSize;
- - (void) setLastItem:(BOOL)a;
- - (void) dontDrawRightEdge:(BOOL)a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setLastItem:(BOOL)a ;
+ - (void) dontDrawRightEdge:(BOOL)a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

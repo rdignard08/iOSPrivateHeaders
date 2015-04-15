@@ -5,10 +5,10 @@
 }
 
  - (void) dealloc;
- - (BOOL) _shouldAnimatePropertyWithKey:(id)a;
- - (id) _generateBackdropMaskViewForFlag:(long long)a;
+ - (BOOL) _shouldAnimatePropertyWithKey:(id)a ;
+ - (id) _generateBackdropMaskViewForFlag:(long long)a ;
  - (id) directionSelector;
- - (void) setDirectionSelector:(id)a;
+ - (void) setDirectionSelector:(id)a ;
 
 
 @end

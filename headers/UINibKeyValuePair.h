@@ -14,9 +14,9 @@
  - (id) object;
  - (void) applyForSimulator;
  - (void) apply;
- - (id) initWithObject:(id)akeyPath:(id)bvalue:(id)c;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (id) initWithObject:(id)a keyPath:(id)b value:(id)c ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) value;
 
 

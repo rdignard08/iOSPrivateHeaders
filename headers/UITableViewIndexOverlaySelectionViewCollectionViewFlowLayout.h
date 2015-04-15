@@ -6,12 +6,12 @@
 }
  + (Class) layoutAttributesClass;
 
- - (id) layoutAttributesForElementsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (id) layoutAttributesForSupplementaryViewOfKind:(id)aatIndexPath:(id)b;
+ - (id) layoutAttributesForElementsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (id) layoutAttributesForSupplementaryViewOfKind:(id)a atIndexPath:(id)b ;
  - (double) rightMarginForDoneButton;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frameForDoneButton;
- - (void) setFrameForDoneButton:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setRightMarginForDoneButton:(double)a;
+ - (void) setFrameForDoneButton:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setRightMarginForDoneButton:(double)a ;
 
 
 @end

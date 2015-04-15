@@ -6,9 +6,9 @@
 
  - (Class) classForCoder;
  - (id) description;
- - (id) initWithCoder:(id)a;
- - (void) encodeWithCAMLWriter:(id)a;
- - (void) _getPoints:(^d)a;
+ - (id) initWithCoder:(id)a ;
+ - (void) encodeWithCAMLWriter:(id)a ;
+ - (void) _getPoints:(^d)a ;
 
 
 @end

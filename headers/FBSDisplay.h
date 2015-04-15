@@ -20,17 +20,17 @@
  + (id) _CADisplayForId:(unsigned int)a;
 
  - (double) scale;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (unsigned long long) type;
  - (id) caDisplay;
- - (id) initWithCADisplay:(id)aisMainDisplay:(BOOL)b;
- - (id) initWithCADisplay:(id)aisMainDisplay:(BOOL)bseed:(unsigned int)ctags:(long long)dscale:(double)e;
- - (unsigned long long) _typeFromTags:(unsigned long long)a;
+ - (id) initWithCADisplay:(id)a isMainDisplay:(BOOL)b ;
+ - (id) initWithCADisplay:(id)a isMainDisplay:(BOOL)b seed:(unsigned int)c tags:(long long)d scale:(double)e ;
+ - (unsigned long long) _typeFromTags:(unsigned long long)a ;
  - (BOOL) isMainDisplay;
  - (long long) tags;
  - (BOOL) isCarDisplay;
@@ -40,17 +40,17 @@
  - (BOOL) isWatchOnlyDisplay;
  - (BOOL) isHiddenDisplay;
  - (BOOL) isExternal;
- - (id) initWithCADisplay:(id)a;
+ - (id) initWithCADisplay:(id)a ;
  - (id) _nameForDisplayType;
- - (void) setConnected:(BOOL)a;
+ - (void) setConnected:(BOOL)a ;
  - (BOOL) isConnected;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) referenceBounds;
- - (void) setReferenceBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setSeed:(unsigned int)a;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (void) setReferenceBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setSeed:(unsigned int)a ;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
  - (double) orientation;
- - (void) setScale:(double)a;
+ - (void) setScale:(double)a ;
  - (unsigned int) seed;
 
 

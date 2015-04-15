@@ -13,7 +13,7 @@
  - (id) data;
  - (id) URL;
  - (Class) _webResourceClass;
- - (id) initWithData:(id)aURL:(id)bMIMEType:(id)ctextEncodingName:(id)dframeName:(id)e;
+ - (id) initWithData:(id)a URL:(id)b MIMEType:(id)c textEncodingName:(id)d frameName:(id)e ;
  - (id) frameName;
  - (id) webResource;
  - (id) textEncodingName;

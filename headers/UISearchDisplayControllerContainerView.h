@@ -10,24 +10,24 @@
 }
 
  - (void) dealloc;
- - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;
- - (void) _didMoveFromWindow:(id)atoWindow:(id)b;
+ - (id) hitTest:({CGPoint=dd})a withEvent:(id)b ;
+ - (void) _didMoveFromWindow:(id)a toWindow:(id)b ;
  - (id) topView;
- - (void) setBottomViewUserInteractionEnabled:(BOOL)a;
- - (void) updateTopViewHeight:(double)a;
- - (void) updateTopAttributeConstant:(double)a;
+ - (void) setBottomViewUserInteractionEnabled:(BOOL)a ;
+ - (void) updateTopViewHeight:(double)a ;
+ - (void) updateTopAttributeConstant:(double)a ;
  - (void) collapseTopView;
- - (void) updateTopViewHeight:(double)aanimateUpdate:(BOOL)b;
- - (void) configureInteractionForContainment:(BOOL)a;
- - (void) adjustTopAttributeConstantByDelta:(double)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atopViewHeight:(double)b;
+ - (void) updateTopViewHeight:(double)a animateUpdate:(BOOL)b ;
+ - (void) configureInteractionForContainment:(BOOL)a ;
+ - (void) adjustTopAttributeConstantByDelta:(double)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a topViewHeight:(double)b ;
  - (id) bottomView;
  - (id) behindView;
- - (void) setTopViewHeightConstraint:(id)a;
- - (void) setTopViewAttributeTopConstraint:(id)a;
+ - (void) setTopViewHeightConstraint:(id)a ;
+ - (void) setTopViewAttributeTopConstraint:(id)a ;
  - (id) topViewHeightConstraint;
  - (id) topViewAttributeTopConstraint;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

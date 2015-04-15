@@ -8,7 +8,7 @@
 
  - (id) nextObject;
  - (id) allObjects;
- - (id) initWithArray:(^@)acapacity:(unsigned long long)b;
+ - (id) initWithArray:(^@)a capacity:(unsigned long long)b ;
 
 
 @end

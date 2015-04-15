@@ -28,33 +28,33 @@
  - (void) reset;
  - (id) description;
  - (void) dealloc;
- - (void) settings:(id)achangedValueForKey:(id)b;
- - (void) updateWithDeviceMotionStruct:(r^{?={?=dddd}{?=fff}{?=fff}{?=fff}iBBB})atimestamp:(double)b;
+ - (void) settings:(id)a changedValueForKey:(id)b ;
+ - (void) updateWithDeviceMotionStruct:(r^{?={?=dddd}{?=fff}{?=fff}{?=fff}iBBB})a timestamp:(double)b ;
  - (id) viewerRelativeDevicePose;
- - (void) _shiftReferenceToYieldRelativeQuaternion:((_GLKQuaternion={?=(_GLKVector3={?=fff}{?=fff}{?=fff}[3f])f}{?=ffff}[4f]))a;
+ - (void) _shiftReferenceToYieldRelativeQuaternion:((_GLKQuaternion={?=(_GLKVector3={?=fff}{?=fff}{?=fff}[3f])f}{?=ffff}[4f]))a ;
  - ((_GLKQuaternion={?=(_GLKVector3={?=fff}{?=fff}{?=fff}[3f])f}{?=ffff}[4f])) _relativeQuaternion;
- - (void) updateWithDeviceMotion:(id)a;
+ - (void) updateWithDeviceMotion:(id)a ;
  - (void) _updateSettings;
  - (void) _tearDownDiagnosticsWindow;
  - (void) _tearDownDirectionLockIndicators;
  - (void) _tearDownIdleIndicator;
- - ({UIOffset=dd}) _currentRawOffset:((_GLKQuaternion={?=(_GLKVector3={?=fff}{?=fff}{?=fff}[3f])f}{?=ffff}[4f]))a;
- - (void) _updateSmoothedOffsetForRawOffset:({UIOffset=dd})a;
- - (void) _updateIdleStateForRawOffset:({UIOffset=dd})atimestamp:(double)b;
- - (void) _updateReferenceAttitude:((_GLKQuaternion={?=(_GLKVector3={?=fff}{?=fff}{?=fff}[3f])f}{?=ffff}[4f]))atimestamp:(double)b;
- - (void) _resetDirectionalLockWithViewerOffset:({UIOffset=dd})a;
+ - ({UIOffset=dd}) _currentRawOffset:((_GLKQuaternion={?=(_GLKVector3={?=fff}{?=fff}{?=fff}[3f])f}{?=ffff}[4f]))a ;
+ - (void) _updateSmoothedOffsetForRawOffset:({UIOffset=dd})a ;
+ - (void) _updateIdleStateForRawOffset:({UIOffset=dd})a timestamp:(double)b ;
+ - (void) _updateReferenceAttitude:((_GLKQuaternion={?=(_GLKVector3={?=fff}{?=fff}{?=fff}[3f])f}{?=ffff}[4f]))a timestamp:(double)b ;
+ - (void) _resetDirectionalLockWithViewerOffset:({UIOffset=dd})a ;
  - (void) _updateDirectionalLockIndicators;
- - (void) _updateAcceleratedOutputRangeFixingOffset:({UIOffset=dd})a;
+ - (void) _updateAcceleratedOutputRangeFixingOffset:({UIOffset=dd})a ;
  - (long long) _directionLockStatus;
- - (BOOL) isIdleGivenTimestamp:(double)a;
- - (float) _referenceShiftRadiansPerSecondForAngle:(float)a;
- - (void) _showIdleUI:(BOOL)a;
+ - (BOOL) isIdleGivenTimestamp:(double)a ;
+ - (float) _referenceShiftRadiansPerSecondForAngle:(float)a ;
+ - (void) _showIdleUI:(BOOL)a ;
  - (void) _createIdleIndicator;
  - (void) _createDirectionLockIndicators;
  - (void) _createDiagnosticsWindow;
  - (double) _directionLockStrength;
  - (id) init;
- - (id) initWithSettings:(id)a;
+ - (id) initWithSettings:(id)a ;
 
 
 @end

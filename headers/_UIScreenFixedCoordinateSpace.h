@@ -8,11 +8,11 @@
 @property (nonatomic, assign, readonly) NSNumber* bounds;
 
  - (id) _screen;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) convertRect:({CGRect={CGPoint=dd}{CGSize=dd}})atoCoordinateSpace:(id)b;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) convertRect:({CGRect={CGPoint=dd}{CGSize=dd}})afromCoordinateSpace:(id)b;
- - ({CGPoint=dd}) convertPoint:({CGPoint=dd})atoCoordinateSpace:(id)b;
- - ({CGPoint=dd}) convertPoint:({CGPoint=dd})afromCoordinateSpace:(id)b;
- - (void) _setScreen:(id)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) convertRect:({CGRect={CGPoint=dd}{CGSize=dd}})a toCoordinateSpace:(id)b ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) convertRect:({CGRect={CGPoint=dd}{CGSize=dd}})a fromCoordinateSpace:(id)b ;
+ - ({CGPoint=dd}) convertPoint:({CGPoint=dd})a toCoordinateSpace:(id)b ;
+ - ({CGPoint=dd}) convertPoint:({CGPoint=dd})a fromCoordinateSpace:(id)b ;
+ - (void) _setScreen:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
 
 

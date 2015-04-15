@@ -10,12 +10,12 @@
 }
 
  - (BOOL) cancelTouchTracking;
- - (BOOL) _touchLocationConsideredMovement:(id)a;
+ - (BOOL) _touchLocationConsideredMovement:(id)a ;
  - (void) clearTapState;
  - (void) releaseAndClearWeakRefs;
- - (void) touchBegan:(id)awithEvent:(id)b;
- - (void) touchMoved:(id)awithEvent:(id)b;
- - (void) touchEnded:(id)awithEvent:(id)b;
+ - (void) touchBegan:(id)a withEvent:(id)b ;
+ - (void) touchMoved:(id)a withEvent:(id)b ;
+ - (void) touchEnded:(id)a withEvent:(id)b ;
 
 
 @end

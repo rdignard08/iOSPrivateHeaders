@@ -10,12 +10,12 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
- - (void) setInputTime:(id)a;
+ - (void) setInputTime:(id)a ;
  - (id) _fadeKernel;
  - (id) inputTargetImage;
- - (void) setInputTargetImage:(id)a;
+ - (void) setInputTargetImage:(id)a ;
  - (id) inputTime;
 
 

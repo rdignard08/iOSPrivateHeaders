@@ -13,7 +13,7 @@
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
 
 
 @end

@@ -18,16 +18,16 @@
  - (id) description;
  - (void) dealloc;
  - (id) string;
- - (void) setString:(id)a;
- - (void) setStrings:(id)a;
+ - (void) setString:(id)a ;
+ - (void) setStrings:(id)a ;
  - (id) strings;
- - (void) setRects:(id)a;
+ - (void) setRects:(id)a ;
  - (id) rects;
  - (id) rotationAngles;
  - (unsigned long long) pageIndex;
- - (void) setRotationAngles:(id)a;
- - (void) setPageIndex:(unsigned long long)a;
- - (void) setBoundingBox:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setRotationAngles:(id)a ;
+ - (void) setPageIndex:(unsigned long long)a ;
+ - (void) setBoundingBox:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) boundingBox;
 
 

@@ -50,11 +50,11 @@
  - (id) description;
  - (id) .cxx_construct;
  - (void) dealloc;
- - (id) initWithKeyEventType:(int)atimeStamp:(double)bcharacters:(id)ccharactersIgnoringModifiers:(id)dmodifiers:(unsigned int)eisRepeating:(BOOL)fwithFlags:(unsigned long long)gkeyCode:(unsigned short)hisTabKey:(BOOL)icharacterSet:(int)j;
- - (id) initWithMouseEventType:(int)atimeStamp:(double)blocation:({CGPoint=dd})c;
+ - (id) initWithKeyEventType:(int)a timeStamp:(double)b characters:(id)c charactersIgnoringModifiers:(id)d modifiers:(unsigned int)e isRepeating:(BOOL)f withFlags:(unsigned long long)g keyCode:(unsigned short)h isTabKey:(BOOL)i characterSet:(int)j ;
+ - (id) initWithMouseEventType:(int)a timeStamp:(double)b location:({CGPoint=dd})c ;
  - (BOOL) wasHandled;
- - (id) initWithScrollWheelEventWithTimeStamp:(double)alocation:({CGPoint=dd})bdeltaX:(float)cdeltaY:(float)d;
- - (id) initWithTouchEventType:(int)atimeStamp:(double)blocation:({CGPoint=dd})cmodifiers:(unsigned int)dtouchCount:(unsigned int)etouchLocations:(id)ftouchIdentifiers:(id)gtouchPhases:(id)hisGesture:(BOOL)igestureScale:(float)jgestureRotation:(float)k;
+ - (id) initWithScrollWheelEventWithTimeStamp:(double)a location:({CGPoint=dd})b deltaX:(float)c deltaY:(float)d ;
+ - (id) initWithTouchEventType:(int)a timeStamp:(double)b location:({CGPoint=dd})c modifiers:(unsigned int)d touchCount:(unsigned int)e touchLocations:(id)f touchIdentifiers:(id)g touchPhases:(id)h isGesture:(BOOL)i gestureScale:(float)j gestureRotation:(float)k ;
  - (int) type;
  - (int) characterSet;
  - (BOOL) isPopupVariant;
@@ -64,7 +64,7 @@
  - (unsigned short) keyCode;
  - (float) deltaX;
  - (float) deltaY;
- - (void) setWasHandled:(BOOL)a;
+ - (void) setWasHandled:(BOOL)a ;
  - ({CGPoint=dd}) locationInWindow;
  - (id) charactersIgnoringModifiers;
  - (float) gestureScale;
@@ -77,14 +77,14 @@
  - (unsigned int) modifierFlags;
  - (id) characters;
  - (BOOL) isKeyRepeating;
- - (id) _touchPhaseDescription:(int)a;
+ - (id) _touchPhaseDescription:(int)a ;
  - (id) _characterSetDescription;
- - (id) _touchLocationsDescription:(id)a;
+ - (id) _touchLocationsDescription:(id)a ;
  - (id) _touchIdentifiersDescription;
  - (id) _touchPhasesDescription;
  - (id) _typeDescription;
  - (id) _eventDescription;
- - (id) initWithKeyEventType:(int)atimeStamp:(double)bcharacters:(id)ccharactersIgnoringModifiers:(id)dmodifiers:(unsigned int)eisRepeating:(BOOL)fisPopupVariant:(BOOL)gkeyCode:(unsigned short)hisTabKey:(BOOL)icharacterSet:(int)j;
+ - (id) initWithKeyEventType:(int)a timeStamp:(double)b characters:(id)c charactersIgnoringModifiers:(id)d modifiers:(unsigned int)e isRepeating:(BOOL)f isPopupVariant:(BOOL)g keyCode:(unsigned short)h isTabKey:(BOOL)i characterSet:(int)j ;
  - (id) _modiferFlagsDescription;
 
 

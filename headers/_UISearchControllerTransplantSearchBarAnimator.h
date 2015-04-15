@@ -3,7 +3,7 @@
 
 }
 
- - (void) animateTransition:(id)a;
+ - (void) animateTransition:(id)a ;
 
 
 @end

@@ -4,13 +4,13 @@
 }
 
  - (id) size;
- - (void) setSize:(id)a;
+ - (void) setSize:(id)a ;
  - (id) align;
- - (void) setAlign:(id)a;
+ - (void) setAlign:(id)a ;
  - (BOOL) noShade;
- - (void) setNoShade:(BOOL)a;
+ - (void) setNoShade:(BOOL)a ;
  - (id) width;
- - (void) setWidth:(id)a;
+ - (void) setWidth:(id)a ;
 
 
 @end

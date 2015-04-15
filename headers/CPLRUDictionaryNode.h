@@ -11,9 +11,9 @@
 
  - (void) dealloc;
  - (id) object;
- - (void) setObject:(id)a;
+ - (void) setObject:(id)a ;
  - (id) key;
- - (id) initWithKey:(id)aobject:(id)b;
+ - (id) initWithKey:(id)a object:(id)b ;
 
 
 @end

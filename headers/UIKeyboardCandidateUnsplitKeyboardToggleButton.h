@@ -9,16 +9,16 @@
 }
 
  - (void) dealloc;
- - (void) setHighlighted:(BOOL)a;
- - (void) setSelected:(BOOL)a;
- - (void) setDrawsPocketShadow:(BOOL)a;
+ - (void) setHighlighted:(BOOL)a ;
+ - (void) setSelected:(BOOL)a ;
+ - (void) setDrawsPocketShadow:(BOOL)a ;
  - (void) updateBackgroundImages;
- - (id) toggleButtonBackgroundImageWithHighlight:(BOOL)a;
+ - (id) toggleButtonBackgroundImageWithHighlight:(BOOL)a ;
  - (BOOL) drawsPocketShadow;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (BOOL) drawsBackground;
- - (void) setDrawsBackground:(BOOL)a;
+ - (void) setDrawsBackground:(BOOL)a ;
 
 
 @end

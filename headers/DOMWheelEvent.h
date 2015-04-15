@@ -12,7 +12,7 @@
  - (int) wheelDeltaY;
  - (int) wheelDelta;
  - (BOOL) webkitDirectionInvertedFromDevice;
- - (void) initWheelEvent:(int)awheelDeltaY:(int)bview:(id)cscreenX:(int)dscreenY:(int)eclientX:(int)fclientY:(int)gctrlKey:(BOOL)haltKey:(BOOL)ishiftKey:(BOOL)jmetaKey:(BOOL)k;
+ - (void) initWheelEvent:(int)a wheelDeltaY:(int)b view:(id)c screenX:(int)d screenY:(int)e clientX:(int)f clientY:(int)g ctrlKey:(BOOL)h altKey:(BOOL)i shiftKey:(BOOL)j metaKey:(BOOL)k ;
 
 
 @end

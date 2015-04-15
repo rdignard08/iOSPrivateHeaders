@@ -13,7 +13,7 @@
  - (void) clear_alreadyLocked;
  - (void) disableTimer_alreadyLocked;
  - (void) enableTimer_alreadyLocked;
- - (void) noteDirtySource:(id)a;
+ - (void) noteDirtySource:(id)a ;
  - (void) synchronizeAndWait;
  - (id) init;
 

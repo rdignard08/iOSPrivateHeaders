@@ -11,8 +11,8 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
- - (BOOL) respondsToSelector:(SEL)a;
+ - (void) forwardInvocation:(id)a ;
+ - (BOOL) respondsToSelector:(SEL)a ;
  - (void) _dispatchSuspendedMessages;
  - (void) removeAllEnqueuedInvocations;
  - (void) suspend;

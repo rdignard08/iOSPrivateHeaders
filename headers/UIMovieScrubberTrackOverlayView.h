@@ -14,19 +14,19 @@
 }
 
  - (void) layoutSubviews;
- - (void) setEditing:(BOOL)a;
- - (void) setMinimumValue:(double)a;
- - (void) setMaximumValue:(double)a;
+ - (void) setEditing:(BOOL)a ;
+ - (void) setMinimumValue:(double)a ;
+ - (void) setMaximumValue:(double)a ;
  - (void) animateFillFramesAway;
- - (void) setStartValue:(double)a;
- - (void) setEditingHandle:(int)a;
- - (void) setEndValue:(double)a;
- - (void) setIsZoomed:(BOOL)a;
+ - (void) setStartValue:(double)a ;
+ - (void) setEditingHandle:(int)a ;
+ - (void) setEndValue:(double)a ;
+ - (void) setIsZoomed:(BOOL)a ;
  - (void) _clampValueAndLayout;
  - (void) _updateLeftFill;
  - (void) _updateRightFill;
- - (void) setValue:(double)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setValue:(double)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

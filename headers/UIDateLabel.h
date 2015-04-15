@@ -27,11 +27,11 @@
  - (void) invalidate;
  - (double) timeInterval;
  - (id) date;
- - ({CGSize=dd}) _intrinsicSizeWithinSize:({CGSize=dd})a;
- - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a;
+ - ({CGSize=dd}) _intrinsicSizeWithinSize:({CGSize=dd})a ;
+ - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a ;
  - (id) _stringDrawingContext;
- - (void) drawTextInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setShouldRecomputeText:(BOOL)a;
+ - (void) drawTextInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setShouldRecomputeText:(BOOL)a ;
  - (void) _recomputeTextIfNecessary;
  - ({CGSize=dd}) timeDesignatorSize;
  - (id) timeDesignator;
@@ -39,8 +39,8 @@
  - (id) timeDesignatorFont;
  - (id) _calendar;
  - (id) _todayDate;
- - (id) _dateWithDayDiffFromToday:(long long)a;
- - (void) setDate:(id)a;
+ - (id) _dateWithDayDiffFromToday:(long long)a ;
+ - (void) setDate:(id)a ;
  - (BOOL) shouldRecomputeText;
  - (id) _dateString;
  - (BOOL) boldForAllLocales;
@@ -51,16 +51,16 @@
  - (double) _lastWeek;
  - (BOOL) use24HourTime;
  - (double) _noon;
- - (void) setForceTimeOnly:(BOOL)a;
- - (void) setBoldForAllLocales:(BOOL)a;
- - (void) setTimeInterval:(double)a;
+ - (void) setForceTimeOnly:(BOOL)a ;
+ - (void) setBoldForAllLocales:(BOOL)a ;
+ - (void) setTimeInterval:(double)a ;
  - (BOOL) forceTimeOnly;
  - (double) paddingFromTimeToDesignator;
- - (void) setPaddingFromTimeToDesignator:(double)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setPaddingFromTimeToDesignator:(double)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) font;
  - (id) text;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

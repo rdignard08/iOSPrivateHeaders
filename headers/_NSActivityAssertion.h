@@ -20,7 +20,7 @@
  + (id) _expiringTaskExecutionQueue;
  + (void) _dumpExpiringActivitives;
 
- - (id) _initWithActivityOptions:(unsigned long long)areason:(id)bexpirationHandler:(@?)c;
+ - (id) _initWithActivityOptions:(unsigned long long)a reason:(id)b expirationHandler:(@?)c ;
  - (void) _end;
  - (void) _reactivate;
  - (void) _fireExpirationHandler;

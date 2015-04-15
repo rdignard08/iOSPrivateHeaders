@@ -3,12 +3,12 @@
 
 }
 
- - (id) initWithBytes:(^v)alength:(unsigned long long)bcopy:(BOOL)cdeallocator:(@?)d;
+ - (id) initWithBytes:(^v)a length:(unsigned long long)b copy:(BOOL)c deallocator:(@?)d ;
  - (id) retain;
  - (Vv) release;
  - (unsigned long long) retainCount;
  - (id) init;
- - (id) initWithData:(id)a;
+ - (id) initWithData:(id)a ;
 
 
 @end

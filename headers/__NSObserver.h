@@ -11,7 +11,7 @@
  + (BOOL) isAnObserver:(id)a;
  + (void) forgetObserver:(id)a;
 
- - (void) _doit:(id)a;
+ - (void) _doit:(id)a ;
  - (void) dealloc;
  - (id) name;
  - (id) object;

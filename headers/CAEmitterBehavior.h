@@ -16,26 +16,26 @@
  + (id) behaviorWithType:(id)a;
  + (id) behaviorTypes;
 
- - (void) setValue:(id)aforKeyPath:(id)b;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (void) setValue:(id)a forKeyPath:(id)b ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (void) setValue:(id)aforKey:(id)b;
+ - (void) setValue:(id)a forKey:(id)b ;
  - (id) name;
- - (void) didChangeValueForKey:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) didChangeValueForKey:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) type;
- - (id) valueForKey:(id)a;
- - (id) valueForKeyPath:(id)a;
- - (void) setName:(id)a;
- - (void) CAMLParser:(id)asetValue:(id)bforKey:(id)c;
- - (void) encodeWithCAMLWriter:(id)a;
- - (id) CAMLTypeForKey:(id)a;
+ - (id) valueForKey:(id)a ;
+ - (id) valueForKeyPath:(id)a ;
+ - (void) setName:(id)a ;
+ - (void) CAMLParser:(id)a setValue:(id)b forKey:(id)c ;
+ - (void) encodeWithCAMLWriter:(id)a ;
+ - (id) CAMLTypeForKey:(id)a ;
  - (^{Object=^^?{Atomic={?=i}}}) CA_copyRenderValue;
- - (id) initWithType:(id)a;
+ - (id) initWithType:(id)a ;
  - (BOOL) isEnabled;
- - (void) setEnabled:(BOOL)a;
+ - (void) setEnabled:(BOOL)a ;
 
 
 @end

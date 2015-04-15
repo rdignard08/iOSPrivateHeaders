@@ -26,12 +26,12 @@
 
  - (void) dealloc;
  - (id) statusBar;
- - (void) setStatusBar:(id)a;
- - (void) _receivedStatusBarData:(^{?=[26B][64c]ii[100c][100c][2[100c]][1024c]IiiIiI[150c]iib1b1b1[256c]b1b1b1b1b1I})aactions:(int)b;
- - (void) _receivedStyleOverrides:(int)a;
- - (void) _receivedGlowAnimationState:(BOOL)aforStyle:(long long)b;
- - (void) _receivedDoubleHeightStatus:(r*)aforStyle:(long long)b;
- - (id) initWithStatusBar:(id)a;
+ - (void) setStatusBar:(id)a ;
+ - (void) _receivedStatusBarData:(^{?=[26B][64c]ii[100c][100c][2[100c]][1024c]IiiIiI[150c]iib1b1b1[256c]b1b1b1b1b1I})a actions:(int)b ;
+ - (void) _receivedStyleOverrides:(int)a ;
+ - (void) _receivedGlowAnimationState:(BOOL)a forStyle:(long long)b ;
+ - (void) _receivedDoubleHeightStatus:(r*)a forStyle:(long long)b ;
+ - (id) initWithStatusBar:(id)a ;
 
 
 @end

@@ -7,7 +7,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithTextBlock:(id)alayoutRect:({CGRect={CGPoint=dd}{CGSize=dd}})bboundsRect:({CGRect={CGPoint=dd}{CGSize=dd}})c;
+ - (id) initWithTextBlock:(id)a layoutRect:({CGRect={CGPoint=dd}{CGSize=dd}})b boundsRect:({CGRect={CGPoint=dd}{CGSize=dd}})c ;
 
 
 @end

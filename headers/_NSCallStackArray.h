@@ -12,8 +12,8 @@
  - (void) dealloc;
  - (void) finalize;
  - (unsigned long long) count;
- - (id) objectAtIndex:(unsigned long long)a;
- - (id) descriptionWithLocale:(id)aindent:(unsigned long long)b;
+ - (id) objectAtIndex:(unsigned long long)a ;
+ - (id) descriptionWithLocale:(id)a indent:(unsigned long long)b ;
 
 
 @end

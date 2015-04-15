@@ -11,22 +11,22 @@
  + (BOOL) supportsSecureCoding;
  + (int) type;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (BOOL) isFullwidthCandidate;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) candidate;
- - (id) initWithCandidateResultSetCoder:(id)a;
- - (void) encodeWithCandidateResultSetCoder:(id)a;
+ - (id) initWithCandidateResultSetCoder:(id)a ;
+ - (void) encodeWithCandidateResultSetCoder:(id)a ;
  - (id) input;
  - (BOOL) isForShortcutConversion;
  - (BOOL) isExtensionCandidate;
  - (BOOL) isEmojiCandidate;
- - (id) initWithCandidate:(id)aforInput:(id)bmecabraCandidatePointerValue:(id)cisExtension:(BOOL)disEmoji:(BOOL)eisShortcut:(BOOL)f;
+ - (id) initWithCandidate:(id)a forInput:(id)b mecabraCandidatePointerValue:(id)c isExtension:(BOOL)d isEmoji:(BOOL)e isShortcut:(BOOL)f ;
  - (id) mecabraCandidatePointerValue;
- - (id) initWithSurface:(id)ainput:(id)bmecabraCandidatePointerValue:(id)c;
- - (void) setMecabraCandidatePointerValue:(id)a;
+ - (id) initWithSurface:(id)a input:(id)b mecabraCandidatePointerValue:(id)c ;
+ - (void) setMecabraCandidatePointerValue:(id)a ;
 
 
 @end

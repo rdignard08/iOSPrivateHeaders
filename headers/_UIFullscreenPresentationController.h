@@ -11,17 +11,17 @@
  - (void) dealloc;
  - (long long) presentationStyle;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frameOfPresentedViewInContainerView;
- - (void) _setPresentedViewController:(id)a;
+ - (void) _setPresentedViewController:(id)a ;
  - (BOOL) shouldRemovePresentersView;
  - (BOOL) shouldPresentInFullscreen;
  - (BOOL) _shouldRespectDefinesPresentationContext;
- - (void) _adjustOrientationIfNecessaryInWindow:(id)aforViewController:(id)bpreservingViewController:(id)c;
- - (void) transitionDidFinish:(BOOL)a;
- - (void) presentationTransitionDidEnd:(BOOL)a;
- - (void) dismissalTransitionDidEnd:(BOOL)a;
+ - (void) _adjustOrientationIfNecessaryInWindow:(id)a forViewController:(id)b preservingViewController:(id)c ;
+ - (void) transitionDidFinish:(BOOL)a ;
+ - (void) presentationTransitionDidEnd:(BOOL)a ;
+ - (void) dismissalTransitionDidEnd:(BOOL)a ;
  - (void) _removeCounterRotation;
  - (BOOL) _invokesDelegatesOnOrientationChange;
- - (void) _placeCounterRotationViewWithView:(id)ainWindow:(id)bfromOrientation:(long long)ctoOrientation:(long long)dforce:(BOOL)e;
+ - (void) _placeCounterRotationViewWithView:(id)a inWindow:(id)b fromOrientation:(long long)c toOrientation:(long long)d force:(BOOL)e ;
 
 
 @end

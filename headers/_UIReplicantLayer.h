@@ -4,7 +4,7 @@
     hasSetContents* _layerFlags;
 }
 
- - (void) setContents:(id)a;
+ - (void) setContents:(id)a ;
 
 
 @end

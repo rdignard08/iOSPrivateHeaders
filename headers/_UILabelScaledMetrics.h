@@ -19,19 +19,19 @@
 
  - (void) dealloc;
  - ({CGSize=dd}) targetSize;
- - (void) setTargetSize:({CGSize=dd})a;
+ - (void) setTargetSize:({CGSize=dd})a ;
  - ({CGSize=dd}) scaledSize;
- - (void) setScaledSize:({CGSize=dd})a;
+ - (void) setScaledSize:({CGSize=dd})a ;
  - (double) actualScaleFactor;
  - (double) scaledBaselineOffset;
  - (double) scaledLineHeight;
  - (id) scaledAttributedText;
- - (void) setScaledAttributedText:(id)a;
- - (void) setActualScaleFactor:(double)a;
+ - (void) setScaledAttributedText:(id)a ;
+ - (void) setActualScaleFactor:(double)a ;
  - (double) baselineOffset;
- - (void) setBaselineOffset:(double)a;
- - (void) setScaledBaselineOffset:(double)a;
- - (void) setScaledLineHeight:(double)a;
+ - (void) setBaselineOffset:(double)a ;
+ - (void) setScaledBaselineOffset:(double)a ;
+ - (void) setScaledLineHeight:(double)a ;
 
 
 @end

@@ -6,8 +6,8 @@
 }
 
  - (void) clear;
- - (BOOL) containsClass:(Class)a;
- - (void) addClass:(Class)a;
+ - (BOOL) containsClass:(Class)a ;
+ - (void) addClass:(Class)a ;
  - (void) dealloc;
  - (id) init;
 

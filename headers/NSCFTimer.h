@@ -5,9 +5,9 @@
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
  + (id) allocWithZone:(^{_NSZone=})a;
 
- - (id) initWithFireDate:(id)ainterval:(double)btarget:(id)cselector:(SEL)duserInfo:(id)erepeats:(BOOL)f;
+ - (id) initWithFireDate:(id)a interval:(double)b target:(id)c selector:(SEL)d userInfo:(id)e repeats:(BOOL)f ;
  - (id) fireDate;
- - (void) setFireDate:(id)a;
+ - (void) setFireDate:(id)a ;
  - (void) fire;
  - (id) retain;
  - (Vv) release;
@@ -19,11 +19,11 @@
  - (void) invalidate;
  - (BOOL) isValid;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned long long) _cfTypeID;
  - (double) timeInterval;
  - (double) tolerance;
- - (void) setTolerance:(double)a;
+ - (void) setTolerance:(double)a ;
  - (id) init;
 
 

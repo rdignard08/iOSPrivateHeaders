@@ -6,7 +6,7 @@
  + (BOOL) _preventsAppearanceProxyCustomization;
 
  - ({CGSize=dd}) preferredContentSize;
- - (void) setPreferredContentSize:({CGSize=dd})a;
+ - (void) setPreferredContentSize:({CGSize=dd})a ;
 
 
 @end

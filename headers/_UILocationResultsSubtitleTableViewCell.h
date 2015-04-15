@@ -3,7 +3,7 @@
 
 }
 
- - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)a reuseIdentifier:(id)b ;
 
 
 @end

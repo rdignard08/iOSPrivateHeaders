@@ -17,23 +17,23 @@
 @property (nonatomic, assign, readwrite) NSNumber* weight;
  + (id) effectWithColor:(id)aoffset:({CGSize=dd})binsets:({UIEdgeInsets=dddd})cweight:(double)d;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (BOOL) isValid;
- - (BOOL) isEqual:(id)a;
- - (void) setConcaveInsets:({UIEdgeInsets=dddd})a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setConcaveInsets:({UIEdgeInsets=dddd})a ;
  - (double) weight;
  - (BOOL) renderUnder;
  - (SEL) renderSelector;
- - (void) setWeight:(double)a;
- - (id) initWithColor:(id)aoffset:({CGSize=dd})binsets:({UIEdgeInsets=dddd})cweight:(double)d;
+ - (void) setWeight:(double)a ;
+ - (id) initWithColor:(id)a offset:({CGSize=dd})b insets:({UIEdgeInsets=dddd})c weight:(double)d ;
  - ({UIEdgeInsets=dddd}) insets;
  - ({UIEdgeInsets=dddd}) concaveInsets;
- - (void) setInsets:({UIEdgeInsets=dddd})a;
+ - (void) setInsets:({UIEdgeInsets=dddd})a ;
  - (^{CGColor=}) CGColor;
  - ({CGSize=dd}) offset;
- - (void) setOffset:({CGSize=dd})a;
+ - (void) setOffset:({CGSize=dd})a ;
 
 
 @end

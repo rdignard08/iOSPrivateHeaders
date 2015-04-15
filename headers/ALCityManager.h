@@ -13,24 +13,24 @@
 
  - (void) dealloc;
  - (id) init;
- - (id) citiesMatchingQualifier:(id)a;
- - (void) localizeCities:(id)a;
- - (id) citiesMatchingName:(id)alocalized:(BOOL)b;
- - (id) citiesWithIdentifiers:(id)a;
- - (id) cityForClassicIdentifier:(id)a;
- - (id) citiesMatchingName:(id)a;
- - (id) localeWithCode:(id)a;
- - (id) defaultCitiesForLocaleCode:(id)aoptions:(int)b;
- - (id) _defaultCityForTimeZone:(id)alocaleCode:(id)b;
- - (id) _cityForTimeZone:(id)alocaleCode:(id)b;
- - (id) citiesWithTimeZone:(id)a;
+ - (id) citiesMatchingQualifier:(id)a ;
+ - (void) localizeCities:(id)a ;
+ - (id) citiesMatchingName:(id)a localized:(BOOL)b ;
+ - (id) citiesWithIdentifiers:(id)a ;
+ - (id) cityForClassicIdentifier:(id)a ;
+ - (id) citiesMatchingName:(id)a ;
+ - (id) localeWithCode:(id)a ;
+ - (id) defaultCitiesForLocaleCode:(id)a options:(int)b ;
+ - (id) _defaultCityForTimeZone:(id)a localeCode:(id)b ;
+ - (id) _cityForTimeZone:(id)a localeCode:(id)b ;
+ - (id) citiesWithTimeZone:(id)a ;
  - (id) allCities;
- - (id) bestCityForLegacyCity:(^{__CFArray=})a;
+ - (id) bestCityForLegacyCity:(^{__CFArray=})a ;
  - (id) allLocales;
- - (id) defaultCitiesForLocaleCode:(id)a;
+ - (id) defaultCitiesForLocaleCode:(id)a ;
  - (id) defaultCitiesShownInWorldClock;
- - (id) defaultCityForTimeZone:(id)a;
- - (id) defaultCityForTimeZone:(id)alocaleCode:(id)b;
+ - (id) defaultCityForTimeZone:(id)a ;
+ - (id) defaultCityForTimeZone:(id)a localeCode:(id)b ;
  - (id) citySearchMatcher;
 
 

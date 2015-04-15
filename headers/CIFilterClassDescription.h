@@ -10,7 +10,7 @@
  - (id) attributes;
  - (id) inputKeys;
  - (id) outputKeys;
- - (id) initWithClass:(Class)a;
+ - (id) initWithClass:(Class)a ;
 
 
 @end

@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (id) replacements;
- - (id) initWithAlternatives:(id)astringToReplace:(id)breplacementRange:(id)c;
+ - (id) initWithAlternatives:(id)a stringToReplace:(id)b replacementRange:(id)c ;
  - (id) alternatives;
 
 

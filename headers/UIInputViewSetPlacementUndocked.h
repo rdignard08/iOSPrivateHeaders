@@ -6,12 +6,12 @@
 }
  + (id) placementWithUndockedOffset:(double)achromeBuffer:({UIEdgeInsets=dddd})b;
 
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (BOOL) inputViewWillAppear;
  - (BOOL) isUndocked;
- - (id) verticalConstraintForInputViewSet:(id)ahostView:(id)bcontainerView:(id)c;
- - (void) setNormalizedOffset:(double)a;
- - (void) setChromeBuffer:({UIEdgeInsets=dddd})a;
+ - (id) verticalConstraintForInputViewSet:(id)a hostView:(id)b containerView:(id)c ;
+ - (void) setNormalizedOffset:(double)a ;
+ - (void) setChromeBuffer:({UIEdgeInsets=dddd})a ;
  - ({UIEdgeInsets=dddd}) chromeBuffer;
  - (double) normalizedOffset;
 

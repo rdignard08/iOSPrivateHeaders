@@ -4,7 +4,7 @@
     id _originalObject;
 }
 
- - (void) animationDidStop:(id)afinished:(BOOL)b;
+ - (void) animationDidStop:(id)a finished:(BOOL)b ;
 
 
 @end

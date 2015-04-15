@@ -6,10 +6,10 @@
 
  - (void) clear;
  - (void) dealloc;
- - (void) addPoint:({CGPoint=dd})a;
- - (id) initWithFIFO:(id)a;
+ - (void) addPoint:({CGPoint=dd})a ;
+ - (id) initWithFIFO:(id)a ;
  - (id) strokes;
- - (void) setStrokes:(id)a;
+ - (void) setStrokes:(id)a ;
  - (void) flush;
 
 

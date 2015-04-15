@@ -5,12 +5,12 @@
 }
  + (BOOL) supportsSecureCoding;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (id) keyBehaviorsForState:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (id) keyBehaviorsForState:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

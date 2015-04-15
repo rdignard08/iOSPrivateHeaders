@@ -35,8 +35,8 @@
  + (long long) _defaultWritingDirection;
 
  - (long long) _ui_resolvedTextAlignment;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (id) retain;
  - (Vv) release;
@@ -45,19 +45,19 @@
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) textBlocks;
  - (float) hyphenationFactor;
  - (float) tighteningFactorForTruncation;
  - (id) textLists;
  - (void) _allocExtraData;
  - (long long) headerLevel;
- - (id) _initWithParagraphStyle:(id)a;
+ - (id) _initWithParagraphStyle:(id)a ;
  - (void) _deallocExtraData;
- - (BOOL) _isSuitableForFastStringDrawingWithAlignment:(^q)alineBreakMode:(^q)btighteningFactorForTruncation:(^d)c;
+ - (BOOL) _isSuitableForFastStringDrawingWithAlignment:(^q)a lineBreakMode:(^q)b tighteningFactorForTruncation:(^d)c ;
  - (long long) alignment;
  - (double) firstLineHeadIndent;
  - (double) headIndent;

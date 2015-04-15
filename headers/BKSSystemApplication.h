@@ -8,14 +8,14 @@
 }
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 
- - (id) initWithQueue:(id)a;
+ - (id) initWithQueue:(id)a ;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) delegate;
  - (void) start;
  - (void) restart;
- - (void) sendActions:(id)a;
- - (BOOL) clientIsAliveForWatchdog:(id)a;
+ - (void) sendActions:(id)a ;
+ - (BOOL) clientIsAliveForWatchdog:(id)a ;
 
 
 @end

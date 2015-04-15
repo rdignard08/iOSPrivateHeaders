@@ -20,7 +20,7 @@
  + (id) connectToViewService:(id)adeputyInterfaces:(id)bconnectionHandler:(@?)c;
 
  - (id) disconnect;
- - (void) connection:(id)ahandleInvocation:(id)bisReply:(BOOL)c;
+ - (void) connection:(id)a handleInvocation:(id)b isReply:(BOOL)c ;
  - (id) retain;
  - (Vv) release;
  - (unsigned long long) retainCount;
@@ -28,15 +28,15 @@
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (int) __automatic_invalidation_logic;
- - (id) connectToDeputyWithInterface:(id)afromExportedHostingObject:(id)bconnectionHandler:(@?)c;
- - (id) _terminateWithError:(id)a;
- - (void) setTerminationHandler:(@?)a;
- - (void) _terminateUnconditionallyThen:(@?)a;
+ - (id) connectToDeputyWithInterface:(id)a fromExportedHostingObject:(id)b connectionHandler:(@?)c ;
+ - (id) _terminateWithError:(id)a ;
+ - (void) setTerminationHandler:(@?)a ;
+ - (void) _terminateUnconditionallyThen:(@?)a ;
  - (int) servicePID;
  - ({?=[8I]}) serviceAuditToken;
- - (id) _initWithConnectionInfo:({?=@@})aserviceBundleIdentifier:(id)bdeputyInterfaces:(id)c;
- - (id) _initWithConnectionInfo:({?=@@})aservice:(id)bdeputyInterfaces:(id)c;
- - (id) _initWithConnectionInfo:({?=@@})aserviceBundleIdentifier:(id)bservice:(id)cdeputyInterfaces:(id)d;
+ - (id) _initWithConnectionInfo:({?=@@})a serviceBundleIdentifier:(id)b deputyInterfaces:(id)c ;
+ - (id) _initWithConnectionInfo:({?=@@})a service:(id)b deputyInterfaces:(id)c ;
+ - (id) _initWithConnectionInfo:({?=@@})a serviceBundleIdentifier:(id)b service:(id)c deputyInterfaces:(id)d ;
 
 
 @end

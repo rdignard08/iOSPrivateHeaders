@@ -6,21 +6,21 @@
  + (id) serverInterface;
  + (void) setClassesForSelectorsReplyingWithCandidatesInInterface:(id)a;
 
- - (void) textAccepted:(id)a;
- - (void) syncToKeyboardState:(id)acompletionHandler:(@?)b;
- - (void) handleKeyboardInput:(id)akeyboardState:(id)bcompletionHandler:(@?)c;
- - (void) generateCandidatesWithKeyboardState:(id)acandidateRange:({_NSRange=QQ})bcompletionHandler:(@?)c;
- - (void) generateAutocorrectionsWithKeyboardState:(id)acompletionHandler:(@?)b;
- - (void) handleAcceptedCandidate:(id)akeyboardState:(id)bcompletionHandler:(@?)c;
- - (void) skipHitTestForTouchEvent:(id)akeyboardState:(id)b;
- - (void) performHitTestForTouchEvent:(id)akeyboardState:(id)bcontinuation:(@?)c;
- - (void) adjustPhraseBoundaryInForwardDirection:(BOOL)akeyboardState:(id)bcompletionHandler:(@?)c;
+ - (void) textAccepted:(id)a ;
+ - (void) syncToKeyboardState:(id)a completionHandler:(@?)b ;
+ - (void) handleKeyboardInput:(id)a keyboardState:(id)b completionHandler:(@?)c ;
+ - (void) generateCandidatesWithKeyboardState:(id)a candidateRange:({_NSRange=QQ})b completionHandler:(@?)c ;
+ - (void) generateAutocorrectionsWithKeyboardState:(id)a completionHandler:(@?)b ;
+ - (void) handleAcceptedCandidate:(id)a keyboardState:(id)b completionHandler:(@?)c ;
+ - (void) skipHitTestForTouchEvent:(id)a keyboardState:(id)b ;
+ - (void) performHitTestForTouchEvent:(id)a keyboardState:(id)b continuation:(@?)c ;
+ - (void) adjustPhraseBoundaryInForwardDirection:(BOOL)a keyboardState:(id)b completionHandler:(@?)c ;
  - (void) lastAcceptedCandidateCorrected;
- - (void) setOriginalInput:(id)a;
- - (void) candidateRejected:(id)a;
- - (void) writeTypologyLogWithCompletionHandler:(@?)a;
- - (void) generateReplacementsForString:(id)akeyLayout:(id)bcontinuation:(@?)c;
- - (void) generateRefinementsForCandidate:(id)akeyboardState:(id)bcompletionHandler:(@?)c;
+ - (void) setOriginalInput:(id)a ;
+ - (void) candidateRejected:(id)a ;
+ - (void) writeTypologyLogWithCompletionHandler:(@?)a ;
+ - (void) generateReplacementsForString:(id)a keyLayout:(id)b continuation:(@?)c ;
+ - (void) generateRefinementsForCandidate:(id)a keyboardState:(id)b completionHandler:(@?)c ;
  - (id) keyboardConfiguration;
 
 

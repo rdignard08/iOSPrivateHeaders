@@ -4,7 +4,7 @@
 }
 
  - (id) controlKeyBackgroundColorName;
- - (id) _traitsForKey:(id)aonKeyplane:(id)b;
+ - (id) _traitsForKey:(id)a onKeyplane:(id)b ;
  - (id) defaultKeyDividerColorName;
  - (id) controlKeyDividerColorName;
  - (long long) lightHighQualityEnabledBlendForm;
@@ -21,7 +21,7 @@
  - ({CGPoint=dd}) rightColumnLetterOffset;
  - ({CGPoint=dd}) centerColumnNumberOffset;
  - ({CGPoint=dd}) centerColumnLetterOffset;
- - (void) _customizeSymbolStyle:(id)asecondaryStyle:(id)bforKey:(id)ccontents:(id)d;
+ - (void) _customizeSymbolStyle:(id)a secondaryStyle:(id)b forKey:(id)c contents:(id)d ;
 
 
 @end

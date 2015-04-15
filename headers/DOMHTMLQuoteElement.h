@@ -4,7 +4,7 @@
 }
 
  - (id) cite;
- - (void) setCite:(id)a;
+ - (void) setCite:(id)a ;
 
 
 @end

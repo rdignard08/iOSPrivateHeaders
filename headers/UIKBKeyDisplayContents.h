@@ -32,17 +32,17 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setDisplayString:(id)a;
- - (void) setVariantDisplayContents:(id)a;
- - (void) setHighlightedVariantsList:(id)a;
- - (void) setDisplayPathType:(long long)a;
- - (void) setDisplayStringImage:(id)a;
- - (void) setSecondaryDisplayStringImage:(id)a;
- - (void) setIsCustomGlyph:(BOOL)a;
+ - (void) setDisplayString:(id)a ;
+ - (void) setVariantDisplayContents:(id)a ;
+ - (void) setHighlightedVariantsList:(id)a ;
+ - (void) setDisplayPathType:(long long)a ;
+ - (void) setDisplayStringImage:(id)a ;
+ - (void) setSecondaryDisplayStringImage:(id)a ;
+ - (void) setIsCustomGlyph:(BOOL)a ;
  - (id) secondaryDisplayString;
  - (id) highlightedVariantsList;
  - (id) displayStringImage;
- - (void) setForce1xImages:(BOOL)a;
+ - (void) setForce1xImages:(BOOL)a ;
  - (BOOL) isCustomGlyph;
  - (BOOL) secondaryIsCustomGlyph;
  - (id) variantDisplayContents;
@@ -52,11 +52,11 @@
  - (id) fallbackContents;
  - (BOOL) stringKeycapOverImage;
  - (id) secondaryDisplayStringImage;
- - (void) setSecondaryDisplayString:(id)a;
- - (void) setSecondaryIsCustomGlyph:(BOOL)a;
- - (void) setFillPath:(BOOL)a;
- - (void) setFallbackContents:(id)a;
- - (void) setStringKeycapOverImage:(BOOL)a;
+ - (void) setSecondaryDisplayString:(id)a ;
+ - (void) setSecondaryIsCustomGlyph:(BOOL)a ;
+ - (void) setFillPath:(BOOL)a ;
+ - (void) setFallbackContents:(id)a ;
+ - (void) setStringKeycapOverImage:(BOOL)a ;
  - (id) displayString;
 
 

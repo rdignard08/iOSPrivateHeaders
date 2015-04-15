@@ -12,7 +12,7 @@
 
  - (void) dealloc;
  - (id) type;
- - (id) initWithType:(id)apointCount:(unsigned long long)bpoints:(^{CGPoint=dd})c;
+ - (id) initWithType:(id)a pointCount:(unsigned long long)b points:(^{CGPoint=dd})c ;
  - (unsigned long long) pointCount;
  - (^{CGPoint=dd}) points;
 

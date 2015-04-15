@@ -26,28 +26,28 @@
 
  - (void) clear;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (void) reloadData;
  - (void) layoutSubviews;
- - (void) setEditing:(BOOL)a;
+ - (void) setEditing:(BOOL)a ;
  - (void) animateFillFramesAway;
- - (void) setStartValue:(double)a;
- - (void) setEndValue:(double)a;
- - (id) _createImageViewForTimestamp:(id)aisSummaryThumbnail:(BOOL)b;
+ - (void) setStartValue:(double)a ;
+ - (void) setEndValue:(double)a ;
+ - (id) _createImageViewForTimestamp:(id)a isSummaryThumbnail:(BOOL)b ;
  - (void) _reallyReloadData;
- - (void) _zoomAnimation:(id)adidFinish:(id)bcontext:(id)c;
- - (void) _setOverlayViewIsZoomed:(BOOL)aminValue:(float)bmaxValue:(float)c;
- - (void) _unzoomAnimation:(id)adidFinish:(id)bcontext:(id)c;
- - (void) setThumbnailImage:(^{CGImage=})aforTimestamp:(id)b;
- - (void) setZoomAnimationDuration:(double)a;
+ - (void) _zoomAnimation:(id)a didFinish:(id)b context:(id)c ;
+ - (void) _setOverlayViewIsZoomed:(BOOL)a minValue:(float)b maxValue:(float)c ;
+ - (void) _unzoomAnimation:(id)a didFinish:(id)b context:(id)c ;
+ - (void) setThumbnailImage:(^{CGImage=})a forTimestamp:(id)b ;
+ - (void) setZoomAnimationDuration:(double)a ;
  - (double) zoomAnimationDuration;
- - (BOOL) zoomAtPoint:({CGPoint=dd})a;
+ - (BOOL) zoomAtPoint:({CGPoint=dd})a ;
  - (void) unzoom;
  - (id) delegate;
- - (void) setValue:(double)a;
+ - (void) setValue:(double)a ;
  - (id) dataSource;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setDataSource:(id)a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setDataSource:(id)a ;
 
 
 @end

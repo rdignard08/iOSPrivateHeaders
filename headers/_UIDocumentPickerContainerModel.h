@@ -18,23 +18,23 @@
  - (void) dealloc;
  - (BOOL) afterInitialUpdate;
  - (void) updateSortDescriptors;
- - (id) addUpdateHandler:(@?)aweakSelf:(id)b;
- - (void) removeUpdateHandler:(id)a;
+ - (id) addUpdateHandler:(@?)a weakSelf:(id)b ;
+ - (void) removeUpdateHandler:(id)a ;
  - (id) modelObjects;
  - (void) startMonitoringChanges;
  - (void) stopMonitoringChanges;
  - (id) displayTitle;
- - (void) refreshItem:(id)athumbnailOnly:(BOOL)b;
- - (void) setSortOrder:(int)a;
+ - (void) refreshItem:(id)a thumbnailOnly:(BOOL)b ;
+ - (void) setSortOrder:(int)a ;
  - (id) pickableTypes;
- - (void) setPickableTypes:(id)a;
+ - (void) setPickableTypes:(id)a ;
  - (unsigned long long) pickerMode;
- - (void) setPickerMode:(unsigned long long)a;
+ - (void) setPickerMode:(unsigned long long)a ;
  - (int) sortOrder;
  - (id) updateHandlers;
- - (void) setUpdateHandlers:(id)a;
+ - (void) setUpdateHandlers:(id)a ;
  - (id) thumbnailQueue;
- - (void) setThumbnailQueue:(id)a;
+ - (void) setThumbnailQueue:(id)a ;
  - (id) init;
 
 

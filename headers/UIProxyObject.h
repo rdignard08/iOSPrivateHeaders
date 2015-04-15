@@ -12,9 +12,9 @@
 
  - (void) dealloc;
  - (id) proxiedObjectIdentifier;
- - (void) setProxiedObjectIdentifier:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setProxiedObjectIdentifier:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

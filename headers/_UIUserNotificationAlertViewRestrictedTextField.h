@@ -5,7 +5,7 @@
  + (id) _supportedMethodSelectorNames;
  + (id) restrictedProxyForTextField:(id)a;
 
- - (void) forwardInvocation:(id)a;
+ - (void) forwardInvocation:(id)a ;
 
 
 @end

@@ -6,14 +6,14 @@
 }
 @property (nonatomic, assign, readonly) NSNumber* weightedPoint;
 
- - (void) addPoint:({CGPoint=dd})a;
- - (float) distanceCoveredInInterval:(double)apriorTo:(double)b;
- - ({CGSize=dd}) displacementInInterval:(double)apriorTo:(double)b;
+ - (void) addPoint:({CGPoint=dd})a ;
+ - (float) distanceCoveredInInterval:(double)a priorTo:(double)b ;
+ - ({CGSize=dd}) displacementInInterval:(double)a priorTo:(double)b ;
  - (void) clearHistory;
  - ({CGPoint=dd}) weightedPoint;
- - (BOOL) historyCovers:(double)a;
- - (float) distanceCoveredInInterval:(double)a;
- - ({CGSize=dd}) displacementInInterval:(double)a;
+ - (BOOL) historyCovers:(double)a ;
+ - (float) distanceCoveredInInterval:(double)a ;
+ - ({CGSize=dd}) displacementInInterval:(double)a ;
 
 
 @end

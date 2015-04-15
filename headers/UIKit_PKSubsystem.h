@@ -13,10 +13,10 @@
 
  - (BOOL) isPlugInKitProcess;
  - (id) infoDictionary;
- - (void) endUsing:(id)a;
- - (void) setInfoDictionary:(id)a;
- - (void) beginUsing:(id)awithBundle:(id)b;
- - (void) setPlugInKitProcess:(BOOL)a;
+ - (void) endUsing:(id)a ;
+ - (void) setInfoDictionary:(id)a ;
+ - (void) beginUsing:(id)a withBundle:(id)b ;
+ - (void) setPlugInKitProcess:(BOOL)a ;
 
 
 @end

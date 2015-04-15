@@ -12,20 +12,20 @@
 
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
- - (void) setInputTime:(id)a;
+ - (void) setInputTime:(id)a ;
  - (id) inputTargetImage;
- - (void) setInputTargetImage:(id)a;
+ - (void) setInputTargetImage:(id)a ;
  - (id) _kernelWarpS;
  - (id) _kernelWarpT;
  - (id) _kernelMix;
  - (id) inputBottomHeight;
- - (void) setInputBottomHeight:(id)a;
+ - (void) setInputBottomHeight:(id)a ;
  - (id) inputNumberOfFolds;
- - (void) setInputNumberOfFolds:(id)a;
+ - (void) setInputNumberOfFolds:(id)a ;
  - (id) inputFoldShadowAmount;
- - (void) setInputFoldShadowAmount:(id)a;
+ - (void) setInputFoldShadowAmount:(id)a ;
  - (id) inputTime;
 
 

@@ -8,15 +8,15 @@
  + (Class) invalidationContextClass;
 
  - (void) dealloc;
- - (id) layoutAttributesForElementsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (BOOL) shouldInvalidateLayoutForPreferredLayoutAttributes:(id)awithOriginalAttributes:(id)b;
- - (id) layoutAttributesForSupplementaryViewOfKind:(id)aatIndexPath:(id)b;
+ - (id) layoutAttributesForElementsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (BOOL) shouldInvalidateLayoutForPreferredLayoutAttributes:(id)a withOriginalAttributes:(id)b ;
+ - (id) layoutAttributesForSupplementaryViewOfKind:(id)a atIndexPath:(id)b ;
  - (void) prepareLayout;
- - (void) invalidateLayoutWithContext:(id)a;
- - (id) invalidationContextForBoundsChange:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (id) invalidationContextForPreferredLayoutAttributes:(id)awithOriginalAttributes:(id)b;
- - (void) _setAttributes:(id)aForSection:(long long)b;
- - (BOOL) shouldInvalidateLayoutForBoundsChange:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) invalidateLayoutWithContext:(id)a ;
+ - (id) invalidationContextForBoundsChange:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (id) invalidationContextForPreferredLayoutAttributes:(id)a withOriginalAttributes:(id)b ;
+ - (void) _setAttributes:(id)a ForSection:(long long)b ;
+ - (BOOL) shouldInvalidateLayoutForBoundsChange:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

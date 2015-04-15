@@ -7,9 +7,9 @@
  - (void) dealloc;
  - (id) init;
  - (id) gradient;
- - (void) setGradient:(id)a;
- - (BOOL) updateLayerEffectPreset:(id)aerror:(^@)b;
- - (id) initWithEffectFromPreset:(id)aatIndex:(unsigned int)b;
+ - (void) setGradient:(id)a ;
+ - (BOOL) updateLayerEffectPreset:(id)a error:(^@)b ;
+ - (id) initWithEffectFromPreset:(id)a atIndex:(unsigned int)b ;
  - (unsigned int) effectType;
 
 

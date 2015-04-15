@@ -9,19 +9,19 @@
     (?="_space"[12C]"_deallocator"@?) _u;
 }
 
- - (id) initWithBytes:(^v)alength:(unsigned long long)bcopy:(BOOL)cdeallocator:(@?)d;
+ - (id) initWithBytes:(^v)a length:(unsigned long long)b copy:(BOOL)c deallocator:(@?)d ;
  - (BOOL) _isCompact;
  - (BOOL) _copyWillRetain;
- - (void) getBytes:(^v)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (void) getBytes:(^v)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (void) finalize;
  - (r^v) bytes;
- - (void) getBytes:(^v)arange:({_NSRange=QQ})b;
- - (void) getBytes:(^v)alength:(unsigned long long)b;
+ - (void) getBytes:(^v)a range:({_NSRange=QQ})b ;
+ - (void) getBytes:(^v)a length:(unsigned long long)b ;
  - (unsigned long long) length;
  - (id) init;
- - (id) initWithBytes:(^v)alength:(unsigned long long)bcopy:(BOOL)cfreeWhenDone:(BOOL)dbytesAreVM:(BOOL)e;
+ - (id) initWithBytes:(^v)a length:(unsigned long long)b copy:(BOOL)c freeWhenDone:(BOOL)d bytesAreVM:(BOOL)e ;
 
 
 @end

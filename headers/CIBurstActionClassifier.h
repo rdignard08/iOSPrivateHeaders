@@ -28,33 +28,33 @@
 @property (atomic, assign, readwrite) NSNumber* svmParameters;
 
  - (id) init;
- - (void) setSvmParameters:(^{__SVMParameters=[7{__SVMScaleOffset=ff}]ddii^{CIBurstSupportVector}^{CIBurstSupportVector}})a;
+ - (void) setSvmParameters:(^{__SVMParameters=[7{__SVMScaleOffset=ff}]ddii^{CIBurstSupportVector}^{CIBurstSupportVector}})a ;
  - (^{__SVMParameters=[7{__SVMScaleOffset=ff}]ddii^{CIBurstSupportVector}^{CIBurstSupportVector}}) svmParameters;
- - (double) computeKernelValueWithSupportVector:(r^{CIBurstSupportVector=d[7d]})a;
+ - (double) computeKernelValueWithSupportVector:(r^{CIBurstSupportVector=d[7d]})a ;
  - (void) scaleVector;
  - (float) predictResult;
- - (id) initWithVersion:(int)a;
+ - (id) initWithVersion:(int)a ;
  - (BOOL) isBurstAction;
  - (float) testAverageCameraTravelDistance;
- - (void) setTestAverageCameraTravelDistance:(float)a;
+ - (void) setTestAverageCameraTravelDistance:(float)a ;
  - (float) testMaxRegistrationErrorIntegral;
- - (void) setTestMaxRegistrationErrorIntegral:(float)a;
+ - (void) setTestMaxRegistrationErrorIntegral:(float)a ;
  - (float) testMaxPeakRegistrationError;
- - (void) setTestMaxPeakRegistrationError:(float)a;
+ - (void) setTestMaxPeakRegistrationError:(float)a ;
  - (float) testMeanPeakRegistrationError;
- - (void) setTestMeanPeakRegistrationError:(float)a;
+ - (void) setTestMeanPeakRegistrationError:(float)a ;
  - (float) testBeginningVsEndAEMatrixVsAverageAdjacentAEMatrix;
- - (void) setTestBeginningVsEndAEMatrixVsAverageAdjacentAEMatrix:(float)a;
+ - (void) setTestBeginningVsEndAEMatrixVsAverageAdjacentAEMatrix:(float)a ;
  - (float) testInOutRatio;
- - (void) setTestInOutRatio:(float)a;
+ - (void) setTestInOutRatio:(float)a ;
  - (float) testMaxInnerDistance;
- - (void) setTestMaxInnerDistance:(float)a;
+ - (void) setTestMaxInnerDistance:(float)a ;
  - (float) testAverageRegistrationErrorSkewness;
- - (void) setTestAverageRegistrationErrorSkewness:(float)a;
+ - (void) setTestAverageRegistrationErrorSkewness:(float)a ;
  - (float) testMinRegionOfInterestSize;
- - (void) setTestMinRegionOfInterestSize:(float)a;
+ - (void) setTestMinRegionOfInterestSize:(float)a ;
  - (float) testMaxRegistrationErrorSkewness;
- - (void) setTestMaxRegistrationErrorSkewness:(float)a;
+ - (void) setTestMaxRegistrationErrorSkewness:(float)a ;
 
 
 @end

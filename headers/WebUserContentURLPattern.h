@@ -8,9 +8,9 @@
  - (BOOL) isValid;
  - (id) scheme;
  - (id) host;
- - (id) initWithPatternString:(id)a;
+ - (id) initWithPatternString:(id)a ;
  - (BOOL) matchesSubdomains;
- - (BOOL) matchesURL:(id)a;
+ - (BOOL) matchesURL:(id)a ;
 
 
 @end

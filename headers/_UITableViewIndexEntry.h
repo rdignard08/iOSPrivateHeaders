@@ -15,15 +15,15 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setLine:(id)a;
+ - (void) setLine:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) typeBounds;
  - ({CGPoint=dd}) baselinePoint;
  - (id) line;
- - (void) setTypeBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setBaselinePoint:({CGPoint=dd})a;
- - (void) setImage:(id)a;
+ - (void) setTypeBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setBaselinePoint:({CGPoint=dd})a ;
+ - (void) setImage:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) image;
 
 

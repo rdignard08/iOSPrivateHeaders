@@ -12,7 +12,7 @@
 
  - (void) dealloc;
  - (id) filterType;
- - (void) configureLayerView:(id)a;
+ - (void) configureLayerView:(id)a ;
  - (double) opacity;
  - (id) fillColor;
 

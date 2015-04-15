@@ -4,8 +4,8 @@
     UIWindow* _window;
 }
 
- - (BOOL) _addToEngine:(id)aintegralizationAdjustment:(double)bmutuallyExclusiveConstraints:(^@)c;
- - (void) setWindow:(id)a;
+ - (BOOL) _addToEngine:(id)a integralizationAdjustment:(double)b mutuallyExclusiveConstraints:(^@)c ;
+ - (void) setWindow:(id)a ;
  - (id) window;
 
 

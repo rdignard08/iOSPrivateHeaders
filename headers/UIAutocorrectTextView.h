@@ -10,16 +10,16 @@
 }
 
  - (void) dealloc;
- - (BOOL) pointInside:({CGPoint=dd})awithEvent:(id)b;
- - (BOOL) pointInside:({CGPoint=dd})aforEvent:(^{__GSEvent=})b;
- - (void) setAnimating:(BOOL)a;
- - (void) setEdgeType:(int)a;
+ - (BOOL) pointInside:({CGPoint=dd})a withEvent:(id)b ;
+ - (BOOL) pointInside:({CGPoint=dd})a forEvent:(^{__GSEvent=})b ;
+ - (void) setAnimating:(BOOL)a ;
+ - (void) setEdgeType:(int)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _calculateRectForExpandedHitRegion;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})astring:(id)btype:(int)cedgeType:(int)d;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a string:(id)b type:(int)c edgeType:(int)d ;
  - (BOOL) animating;
  - (BOOL) isLongString;
- - (void) setIsLongString:(BOOL)a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setIsLongString:(BOOL)a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

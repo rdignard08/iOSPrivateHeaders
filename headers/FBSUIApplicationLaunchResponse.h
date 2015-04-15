@@ -7,14 +7,14 @@
 }
 
  - (void) dealloc;
- - (void) setSupportsTaskSuspension:(BOOL)a;
- - (void) setSupportsTaskSuspensionOnLock:(BOOL)a;
+ - (void) setSupportsTaskSuspension:(BOOL)a ;
+ - (void) setSupportsTaskSuspensionOnLock:(BOOL)a ;
  - (BOOL) supportsTaskSuspension;
  - (BOOL) supportsTaskSuspensionOnLock;
  - (id) taskPort;
- - (void) setTaskPort:(id)a;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (void) setTaskPort:(id)a ;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
 
 
 @end

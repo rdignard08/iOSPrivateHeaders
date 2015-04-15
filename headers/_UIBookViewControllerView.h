@@ -5,8 +5,8 @@
 }
 
  - (void) layoutSubviews;
- - (void) touchesEnded:(id)awithEvent:(id)b;
- - (id) initWithBookViewController:(id)awithView:(id)b;
+ - (void) touchesEnded:(id)a withEvent:(id)b ;
+ - (id) initWithBookViewController:(id)a withView:(id)b ;
 
 
 @end

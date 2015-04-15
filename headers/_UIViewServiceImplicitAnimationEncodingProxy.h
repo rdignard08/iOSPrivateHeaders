@@ -6,7 +6,7 @@
  + (id) proxyEncodingAnimationsForTarget:(id)acontrolMessageTarget:(id)b;
 
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
+ - (void) forwardInvocation:(id)a ;
 
 
 @end

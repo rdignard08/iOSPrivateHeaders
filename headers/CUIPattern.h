@@ -10,11 +10,11 @@
  - (^{CGPattern=}) pattern;
  - (id) description;
  - (void) dealloc;
- - (void) setAlpha:(double)a;
+ - (void) setAlpha:(double)a ;
  - (double) alpha;
  - (^{CGPattern=}) _newPattern;
- - (id) initWithImageRef:(^{CGImage=})a;
- - (void) setPatternInContext:(^{CGContext=})a;
+ - (id) initWithImageRef:(^{CGImage=})a ;
+ - (void) setPatternInContext:(^{CGContext=})a ;
  - (^{CGImage=}) patternImageRef;
 
 

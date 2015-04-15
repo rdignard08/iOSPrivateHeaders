@@ -5,11 +5,11 @@
     int _count;
 }
 
- - (void) setCount:(long long)a;
+ - (void) setCount:(long long)a ;
  - (void) dealloc;
  - (long long) count;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})awithCountString:(id)bwithCount:(long long)c;
- - (void) setCountString:(id)awithCount:(long long)b;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a withCountString:(id)b withCount:(long long)c ;
+ - (void) setCountString:(id)a withCount:(long long)b ;
 
 
 @end

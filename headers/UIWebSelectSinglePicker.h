@@ -11,14 +11,14 @@
 }
 
  - (void) dealloc;
- - (long long) numberOfComponentsInPickerView:(id)a;
- - (long long) pickerView:(id)anumberOfRowsInComponent:(long long)b;
- - (id) pickerView:(id)aattributedTitleForRow:(long long)bforComponent:(long long)c;
- - (void) pickerView:(id)adidSelectRow:(long long)binComponent:(long long)c;
+ - (long long) numberOfComponentsInPickerView:(id)a ;
+ - (long long) pickerView:(id)a numberOfRowsInComponent:(long long)b ;
+ - (id) pickerView:(id)a attributedTitleForRow:(long long)b forComponent:(long long)c ;
+ - (void) pickerView:(id)a didSelectRow:(long long)b inComponent:(long long)c ;
  - (id) controlView;
  - (void) controlBeginEditing;
  - (void) controlEndEditing;
- - (id) initWithDOMHTMLSelectElement:(id)aallItems:(id)b;
+ - (id) initWithDOMHTMLSelectElement:(id)a allItems:(id)b ;
 
 
 @end

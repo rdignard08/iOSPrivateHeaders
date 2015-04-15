@@ -9,21 +9,21 @@
 
  - (void) dealloc;
  - (id) init;
- - (void) drawDirtyLayer:(id)aintoContext:(^{CGContext=})b;
- - (void) _buildTilesForRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) _cullAndAddLayers:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) _hideAndShowTiles:({CGRect={CGPoint=dd}{CGSize=dd}})avisibleBounds:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ - (void) drawDirtyLayer:(id)a intoContext:(^{CGContext=})b ;
+ - (void) _buildTilesForRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) _cullAndAddLayers:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) _hideAndShowTiles:({CGRect={CGPoint=dd}{CGSize=dd}})a visibleBounds:({CGRect={CGPoint=dd}{CGSize=dd}})b ;
  - (BOOL) usesTiledLayers;
- - (void) setUsesTiledLayers:(BOOL)a;
+ - (void) setUsesTiledLayers:(BOOL)a ;
  - (void) _validateTiles;
  - (void) suspendTiling;
  - (void) resumeTiling;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setNeedsDisplayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) renderInContext:(^{CGContext=})a;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setNeedsDisplayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) renderInContext:(^{CGContext=})a ;
  - (void) layoutSublayers;
  - ({CGSize=dd}) tileSize;
- - (void) setTileSize:({CGSize=dd})a;
+ - (void) setTileSize:({CGSize=dd})a ;
 
 
 @end

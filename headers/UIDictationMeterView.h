@@ -24,26 +24,26 @@
  - (void) _startAttack;
  - (void) _clearDisplayLink;
  - (void) _removeAnimationsAndClearLayers;
- - (float) _updateMedianWithNewValue:(float)a;
- - (float) _powerLevelForMicPower:(float)a;
+ - (float) _updateMedianWithNewValue:(float)a ;
+ - (float) _powerLevelForMicPower:(float)a ;
  - (double) _animationInterval;
- - (id) imageForMicLevel:(double)a;
- - (float) _adjustedDuration:(float)a;
- - (id) _keyframeAnimationForCGImages:(id)aduration:(double)b;
+ - (id) imageForMicLevel:(double)a ;
+ - (float) _adjustedDuration:(float)a ;
+ - (id) _keyframeAnimationForCGImages:(id)a duration:(double)b ;
  - (id) _attackKeyFrameAnimation;
  - (id) _decayKeyFrameAnimation;
  - (id) _sustainKeyFrameAnimation;
  - (float) _currentMicPowerLevel;
  - (void) _resetRunningPowerLevels;
- - (void) _updateReleaseAnimation:(id)a;
- - (void) _updateListeningAnimation:(id)a;
+ - (void) _updateReleaseAnimation:(id)a ;
+ - (void) _updateListeningAnimation:(id)a ;
  - (void) _startDecay;
  - (void) _startSustain;
  - (void) _startRelease;
- - (void) setState:(int)a;
+ - (void) setState:(int)a ;
  - (void) _startListening;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) animationDidStop:(id)afinished:(BOOL)b;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) animationDidStop:(id)a finished:(BOOL)b ;
 
 
 @end

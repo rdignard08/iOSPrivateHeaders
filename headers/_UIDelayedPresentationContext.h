@@ -11,19 +11,19 @@
 @property (nonatomic, copy, readwrite) NSNumber* cancellationHandler;
 @property (nonatomic, retain, readwrite) NSInvocation* presentInvocation;
 
- - (void) setCancellationHandler:(@?)a;
+ - (void) setCancellationHandler:(@?)a ;
  - (@?) cancellationHandler;
  - (void) dealloc;
  - (id) invocationTarget;
- - (void) setPresentInvocation:(id)a;
+ - (void) setPresentInvocation:(id)a ;
  - (id) delayingController;
- - (id) initWithTimeout:(double)acancellationHandler:(@?)b;
+ - (id) initWithTimeout:(double)a cancellationHandler:(@?)b ;
  - (long long) requestCount;
  - (long long) decrementRequestCount;
  - (long long) incrementRequestCount;
- - (void) cancelDelayedPresentation:(BOOL)a;
+ - (void) cancelDelayedPresentation:(BOOL)a ;
  - (void) beginDelayedPresentation;
- - (void) finishDelayedPresentation:(id)a;
+ - (void) finishDelayedPresentation:(id)a ;
  - (id) presentInvocation;
 
 

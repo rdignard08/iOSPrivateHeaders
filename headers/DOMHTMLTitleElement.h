@@ -3,7 +3,7 @@
 
 }
 
- - (void) setText:(id)a;
+ - (void) setText:(id)a ;
  - (id) text;
 
 

@@ -21,23 +21,23 @@
  - (void) dealloc;
  - (void) invalidate;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) uniqueIdentifier;
- - (void) setInvalidationHandler:(@?)a;
+ - (void) setInvalidationHandler:(@?)a ;
  - (int) pid;
- - (id) initWithStatusBarStyleOverrides:(int)aforPID:(int)bexclusive:(BOOL)c;
- - (id) initWithStatusBarStyleOverridesAssertionData:(id)a;
+ - (id) initWithStatusBarStyleOverrides:(int)a forPID:(int)b exclusive:(BOOL)c ;
+ - (id) initWithStatusBarStyleOverridesAssertionData:(id)a ;
  - (int) statusBarStyleOverrides;
  - (BOOL) isExclusive;
  - (void) _callInvalidationHandler;
  - (id) assertionData;
- - (void) acquireWithHandler:(@?)aonQueue:(id)b;
+ - (void) acquireWithHandler:(@?)a onQueue:(id)b ;
  - (id) invalidationQueue;
- - (void) setInvalidationQueue:(id)a;
+ - (void) setInvalidationQueue:(id)a ;
  - (void) invalidateFromServer;
- - (void) setAssertionData:(id)a;
+ - (void) setAssertionData:(id)a ;
  - (id) invalidationLock;
- - (void) setInvalidationLock:(id)a;
+ - (void) setInvalidationLock:(id)a ;
 
 
 @end

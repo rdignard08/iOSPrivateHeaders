@@ -3,7 +3,7 @@
 
 }
 
- - (id) keyBehaviorsForState:(id)a;
+ - (id) keyBehaviorsForState:(id)a ;
 
 
 @end

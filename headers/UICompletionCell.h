@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (id) _contentString;
- - (void) _setContentString:(id)a;
+ - (void) _setContentString:(id)a ;
 
 
 @end

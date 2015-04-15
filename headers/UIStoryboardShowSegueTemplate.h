@@ -6,11 +6,11 @@
 
  - (void) dealloc;
  - (id) action;
- - (void) setAction:(id)a;
- - (id) segueWithDestinationViewController:(id)a;
+ - (void) setAction:(id)a ;
+ - (id) segueWithDestinationViewController:(id)a ;
  - (id) defaultSegueClassName;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

@@ -5,33 +5,33 @@
 }
  + (id) sharedInstance;
 
- - (void) openURL:(id)aapplication:(id)boptions:(id)cclientPort:(unsigned int)dwithResult:(@?)e;
- - (void) openApplication:(id)aoptions:(id)bclientPort:(unsigned int)cwithResult:(@?)d;
+ - (void) openURL:(id)a application:(id)b options:(id)c clientPort:(unsigned int)d withResult:(@?)e ;
+ - (void) openApplication:(id)a options:(id)b clientPort:(unsigned int)c withResult:(@?)d ;
  - (void) invalidate;
  - (id) init;
  - (void) checkInUIApplication;
- - (void) setBadgeValue:(id)aforBundleID:(id)b;
- - (void) badgeValueForBundleID:(id)acompletion:(@?)b;
- - (void) setNextWakeInterval:(double)acompletion:(@?)b;
- - (void) applicationBundleID:(id)arequestBrightness:(double)bcompletion:(@?)c;
- - (void) systemApplicationBundleIdentifierWithResult:(@?)a;
- - (void) pidForApplication:(id)awithResult:(@?)b;
- - (void) canActivateApplication:(id)awithResult:(@?)b;
- - (void) sendActions:(id)awithResult:(@?)b;
- - (void) terminateApplication:(id)aforReason:(int)bandReport:(BOOL)cwithDescription:(id)dwithResult:(@?)e;
- - (void) terminateApplicationGroup:(int)aforReason:(int)bandReport:(BOOL)cwithDescription:(id)dwithResult:(@?)e;
- - (void) shutdownAndReboot:(BOOL)a;
- - (void) setUIApplicationClient:(BOOL)a;
- - (void) fireCompletion:(@?)abundleIDResult:(id)berror:(id)c;
- - (void) fireCompletion:(@?)apidResult:(int)berror:(id)c;
- - (void) fireCompletion:(@?)aopenAppErrorCode:(long long)b;
+ - (void) setBadgeValue:(id)a forBundleID:(id)b ;
+ - (void) badgeValueForBundleID:(id)a completion:(@?)b ;
+ - (void) setNextWakeInterval:(double)a completion:(@?)b ;
+ - (void) applicationBundleID:(id)a requestBrightness:(double)b completion:(@?)c ;
+ - (void) systemApplicationBundleIdentifierWithResult:(@?)a ;
+ - (void) pidForApplication:(id)a withResult:(@?)b ;
+ - (void) canActivateApplication:(id)a withResult:(@?)b ;
+ - (void) sendActions:(id)a withResult:(@?)b ;
+ - (void) terminateApplication:(id)a forReason:(int)b andReport:(BOOL)c withDescription:(id)d withResult:(@?)e ;
+ - (void) terminateApplicationGroup:(int)a forReason:(int)b andReport:(BOOL)c withDescription:(id)d withResult:(@?)e ;
+ - (void) shutdownAndReboot:(BOOL)a ;
+ - (void) setUIApplicationClient:(BOOL)a ;
+ - (void) fireCompletion:(@?)a bundleIDResult:(id)b error:(id)c ;
+ - (void) fireCompletion:(@?)a pidResult:(int)b error:(id)c ;
+ - (void) fireCompletion:(@?)a openAppErrorCode:(long long)b ;
  - (BOOL) isClientLoggingEnabled;
  - (BOOL) isUIApplicationClient;
  - (void) queue_connectionWasCreated;
- - (id) initWithEndpoint:(id)a;
- - (void) fireCompletion:(@?)aerror:(id)b;
+ - (id) initWithEndpoint:(id)a ;
+ - (void) fireCompletion:(@?)a error:(id)b ;
  - (id) clientCallbackQueue;
- - (void) _sendMessageType:(long long)awithMessage:(@?)bwithReplyHandler:(@?)cwaitForReply:(BOOL)d;
+ - (void) _sendMessageType:(long long)a withMessage:(@?)b withReplyHandler:(@?)c waitForReply:(BOOL)d ;
 
 
 @end

@@ -20,17 +20,17 @@
 }
 
  - (void) dealloc;
- - (void) _willMoveToWindow:(id)a;
- - (void) updateImageIfNeededWithTintColor:(id)a;
+ - (void) _willMoveToWindow:(id)a ;
+ - (void) updateImageIfNeededWithTintColor:(id)a ;
  - (void) updateImageIfNeeded;
- - (void) setBezelStyleForBarStyle:(long long)atintColor:(id)b;
- - (void) setBezelStyleForBarStyle:(long long)atintColor:(id)biconTintColor:(id)ciconTintColorDidChange:(BOOL)d;
- - (id) initWithImage:(id)aalternateImage:(id)bbarStyle:(long long)cbarButtonItemStyle:(long long)dtintColor:(id)ebezel:(BOOL)f;
- - (void) showAlternateImage:(BOOL)a;
- - (void) setFlipped:(BOOL)a;
- - (void) animateImage:(float)awithButtonBar:(id)bwithTag:(int)ctarget:(id)ddidFinishSelector:(SEL)e;
- - (void) setImage:(id)a;
- - (void) animationDidStop:(id)afinished:(BOOL)b;
+ - (void) setBezelStyleForBarStyle:(long long)a tintColor:(id)b ;
+ - (void) setBezelStyleForBarStyle:(long long)a tintColor:(id)b iconTintColor:(id)c iconTintColorDidChange:(BOOL)d ;
+ - (id) initWithImage:(id)a alternateImage:(id)b barStyle:(long long)c barButtonItemStyle:(long long)d tintColor:(id)e bezel:(BOOL)f ;
+ - (void) showAlternateImage:(BOOL)a ;
+ - (void) setFlipped:(BOOL)a ;
+ - (void) animateImage:(float)a withButtonBar:(id)b withTag:(int)c target:(id)d didFinishSelector:(SEL)e ;
+ - (void) setImage:(id)a ;
+ - (void) animationDidStop:(id)a finished:(BOOL)b ;
 
 
 @end

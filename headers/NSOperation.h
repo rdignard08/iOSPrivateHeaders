@@ -21,9 +21,9 @@
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
  + (id) currentOperation;
 
- - (void) setTag:(unsigned long long)a;
+ - (void) setTag:(unsigned long long)a ;
  - (unsigned long long) tag;
- - (void) addDependency:(id)a;
+ - (void) addDependency:(id)a ;
  - (id) _activity;
  - (BOOL) isCancelled;
  - (void) main;
@@ -32,9 +32,9 @@
  - (BOOL) isFinished;
  - (BOOL) isReady;
  - (double) threadPriority;
- - (void) setThreadPriority:(double)a;
+ - (void) setThreadPriority:(double)a ;
  - (@?) completionBlock;
- - (void) setCompletionBlock:(@?)a;
+ - (void) setCompletionBlock:(@?)a ;
  - (BOOL) isExecuting;
  - (id) __;
  - (BOOL) isConcurrent;
@@ -42,21 +42,21 @@
  - (long long) _effQoS;
  - (long long) queuePriority;
  - (long long) qualityOfService;
- - (void) setQualityOfService:(long long)a;
- - (void) waitUntilFinishedOrTimeout:(double)a;
- - (void) removeDependency:(id)a;
+ - (void) setQualityOfService:(long long)a ;
+ - (void) waitUntilFinishedOrTimeout:(double)a ;
+ - (void) removeDependency:(id)a ;
  - (id) dependencies;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
  - (id) name;
  - (void) waitUntilFinished;
- - (void) setObservationInfo:(^v)a;
+ - (void) setObservationInfo:(^v)a ;
  - (id) init;
  - (void) cancel;
  - (void) start;
- - (void) setName:(id)a;
- - (void) setQueuePriority:(long long)a;
+ - (void) setName:(id)a ;
+ - (void) setQueuePriority:(long long)a ;
 
 
 @end

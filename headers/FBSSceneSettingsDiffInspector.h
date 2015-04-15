@@ -7,17 +7,17 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) inspectDiff:(id)awithContext:(^v)b;
- - (void) observeOtherSetting:(unsigned long long)awithBlock:(@?)b;
+ - (void) inspectDiff:(id)a withContext:(^v)b ;
+ - (void) observeOtherSetting:(unsigned long long)a withBlock:(@?)b ;
  - (id) init;
- - (void) _addObserver:(id)aforSetting:(unsigned long long)binInfo:(id)c;
+ - (void) _addObserver:(id)a forSetting:(unsigned long long)b inInfo:(id)c ;
  - (void) removeAllObservers;
- - (void) observeClassWithBlock:(@?)a;
- - (void) observeFrameWithBlock:(@?)a;
- - (void) observeLevelWithBlock:(@?)a;
- - (void) observeInterfaceOrientationWithBlock:(@?)a;
- - (void) observeIsBackgroundedWithBlock:(@?)a;
- - (void) observeOcclusionsWithBlock:(@?)a;
+ - (void) observeClassWithBlock:(@?)a ;
+ - (void) observeFrameWithBlock:(@?)a ;
+ - (void) observeLevelWithBlock:(@?)a ;
+ - (void) observeInterfaceOrientationWithBlock:(@?)a ;
+ - (void) observeIsBackgroundedWithBlock:(@?)a ;
+ - (void) observeOcclusionsWithBlock:(@?)a ;
 
 
 @end

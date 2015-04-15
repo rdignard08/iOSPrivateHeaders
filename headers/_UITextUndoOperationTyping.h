@@ -6,8 +6,8 @@
 }
 
  - (void) dealloc;
- - (BOOL) coalesceAffectedRange:({_NSRange=QQ})areplacementRange:({_NSRange=QQ})bselectedRange:({_NSRange=QQ})ctextStorage:(id)d;
- - (id) initWithAffectedRange:({_NSRange=QQ})ainputController:(id)breplacementRange:({_NSRange=QQ})c;
+ - (BOOL) coalesceAffectedRange:({_NSRange=QQ})a replacementRange:({_NSRange=QQ})b selectedRange:({_NSRange=QQ})c textStorage:(id)d ;
+ - (id) initWithAffectedRange:({_NSRange=QQ})a inputController:(id)b replacementRange:({_NSRange=QQ})c ;
  - (void) undoRedo;
  - (BOOL) supportsCoalescing;
 

@@ -24,26 +24,26 @@
 
  - (double) duration;
  - (id) userInfo;
- - (void) setEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) beginFrame;
- - (void) setBeginFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) populateStartInfoWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) populateEndInfoWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setBeginFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) populateStartInfoWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) populateEndInfoWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - ({CGPoint=dd}) beginCenter;
  - ({CGPoint=dd}) endCenter;
  - (BOOL) changedAccessoryOnly;
- - (void) setBeginCenter:({CGPoint=dd})a;
- - (void) setEndCenter:({CGPoint=dd})a;
+ - (void) setBeginCenter:({CGPoint=dd})a ;
+ - (void) setEndCenter:({CGPoint=dd})a ;
  - (id) inverseInfo;
  - (id) privateUserInfo;
  - (void) logGeometry;
- - (void) populateWithAnimationStyle:(id)a;
- - (void) setChangedAccessoryOnly:(BOOL)a;
- - (void) setOptions:(unsigned long long)a;
+ - (void) populateWithAnimationStyle:(id)a ;
+ - (void) setChangedAccessoryOnly:(BOOL)a ;
+ - (void) setOptions:(unsigned long long)a ;
  - (unsigned long long) options;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setDuration:(double)a;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setDuration:(double)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) endFrame;
 
 

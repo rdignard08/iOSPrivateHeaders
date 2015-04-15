@@ -6,7 +6,7 @@
 
  - (void) layoutSubviews;
  - (double) _wheelShift;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
 
 
 @end

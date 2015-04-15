@@ -9,19 +9,19 @@
  + (id) animationStyleWithContext:(id)auseCustomTransition:(BOOL)b;
  + (id) animationStyleWithContext:(id)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
- - (void) setDisableAlongsideView:(BOOL)a;
- - (void) setAllowCustomTransition:(BOOL)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setDisableAlongsideView:(BOOL)a ;
+ - (void) setAllowCustomTransition:(BOOL)a ;
  - (BOOL) disableAlongsideView;
- - (void) launchAnimation:(@?)aafterStarted:(@?)bcompletion:(@?)cforHost:(id)dfromCurrentPosition:(BOOL)e;
+ - (void) launchAnimation:(@?)a afterStarted:(@?)b completion:(@?)c forHost:(id)d fromCurrentPosition:(BOOL)e ;
  - (BOOL) allowCustomTransition;
- - (id) controllerForStartPlacement:(id)aendPlacement:(id)b;
+ - (id) controllerForStartPlacement:(id)a endPlacement:(id)b ;
  - (BOOL) isAnimationCompleted;
  - (BOOL) canDismissWithScrollView;
  - (id) info;
- - (id) initWithContext:(id)a;
+ - (id) initWithContext:(id)a ;
  - (id) context;
 
 

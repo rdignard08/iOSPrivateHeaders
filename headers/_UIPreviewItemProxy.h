@@ -17,16 +17,16 @@
  - (void) dealloc;
  - (id) previewItemURL;
  - (id) previewItemURLOverride;
- - (void) setPreviewItemContentType:(id)a;
+ - (void) setPreviewItemContentType:(id)a ;
  - (id) previewItemContentType;
  - (id) _primitive_previewItemContentType;
  - (id) previewItemURLForDisplay;
- - (void) setPreviewItemURL:(id)a;
- - (void) setPreviewItemURLOverride:(id)a;
+ - (void) setPreviewItemURL:(id)a ;
+ - (void) setPreviewItemURLOverride:(id)a ;
  - (id) previewItemTitle;
- - (void) setPreviewItemTitle:(id)a;
+ - (void) setPreviewItemTitle:(id)a ;
  - (id) URLToDeleteOnDealloc;
- - (void) setURLToDeleteOnDealloc:(id)a;
+ - (void) setURLToDeleteOnDealloc:(id)a ;
 
 
 @end

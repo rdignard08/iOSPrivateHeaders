@@ -14,10 +14,10 @@
 
  - (void) dealloc;
  - (SEL) action;
- - (id) initWithTitle:(id)aorImage:(id)baction:(SEL)ctype:(int)d;
+ - (id) initWithTitle:(id)a orImage:(id)b action:(SEL)c type:(int)d ;
  - (@?) configurationBlock;
- - (id) materializeButtonInView:(id)a;
- - (void) setConfigurationBlock:(@?)a;
+ - (id) materializeButtonInView:(id)a ;
+ - (void) setConfigurationBlock:(@?)a ;
 
 
 @end

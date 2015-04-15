@@ -24,21 +24,21 @@
  - (void) dealloc;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) endRect;
  - (id) sliceSetID;
- - (id) initWithSliceID:(id)a;
- - (void) setStartRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setEndRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setLeftWidth:(double)a;
- - (void) setRightWidth:(double)a;
- - (void) addSlice:(id)a;
+ - (id) initWithSliceID:(id)a ;
+ - (void) setStartRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setEndRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setLeftWidth:(double)a ;
+ - (void) setRightWidth:(double)a ;
+ - (void) addSlice:(id)a ;
  - (id) slices;
- - (void) setSliceSetID:(id)a;
+ - (void) setSliceSetID:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) startRect;
  - (double) leftWidth;
  - (double) rightWidth;
  - (double) mergePoint;
- - (void) setMergePoint:(double)a;
+ - (void) setMergePoint:(double)a ;
  - (id) controlKeys;
- - (void) setControlKeys:(id)a;
+ - (void) setControlKeys:(id)a ;
 
 
 @end

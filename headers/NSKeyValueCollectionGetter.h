@@ -4,7 +4,7 @@
     NSKeyValueNonmutatingCollectionMethodSet* _methods;
 }
 
- - (id) initWithContainerClassID:(id)akey:(id)bmethods:(id)cproxyClass:(Class)d;
+ - (id) initWithContainerClassID:(id)a key:(id)b methods:(id)c proxyClass:(Class)d ;
  - (id) methods;
  - (void) dealloc;
 

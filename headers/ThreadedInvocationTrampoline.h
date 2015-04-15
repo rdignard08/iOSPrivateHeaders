@@ -6,8 +6,8 @@
 }
 
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
- - (id) initWithTarget:(id)athread:(id)bimmediateForMatchingThread:(BOOL)c;
+ - (void) forwardInvocation:(id)a ;
+ - (id) initWithTarget:(id)a thread:(id)b immediateForMatchingThread:(BOOL)c ;
 
 
 @end

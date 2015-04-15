@@ -6,8 +6,8 @@
 }
 
  - (void) dealloc;
- - (void) setHighlightedContent:(^{CGImage=})awithOrigin:({CGPoint=dd})b;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setHighlightedContent:(^{CGImage=})a withOrigin:({CGPoint=dd})b ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

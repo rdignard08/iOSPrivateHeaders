@@ -7,7 +7,7 @@
 
  - (void) hide;
  - (void) show;
- - (void) fadeWithDelay:(double)a;
+ - (void) fadeWithDelay:(double)a ;
  - (void) fade;
  - (BOOL) usesTable;
  - ({CGSize=dd}) preferredSize;
@@ -15,7 +15,7 @@
  - (void) performShowAnimation;
  - (BOOL) centerPopUpOverKey;
  - (void) cleanupForFadeOrHide;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -9,9 +9,9 @@
  + (id) _proxyShare;
 
  - ({?=@@}) _proxyLocator;
- - (id) _proxyInitWithContainer:(id)agetter:(id)b;
+ - (id) _proxyInitWithContainer:(id)a getter:(id)b ;
  - (void) _proxyNonGCFinalize;
- - (void) setArray:(id)a;
+ - (void) setArray:(id)a ;
  - (void) dealloc;
 
 

@@ -13,18 +13,18 @@
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
  + (id) contextWithCAContext:(id)a;
 
- - (void) observeValueForKeyPath:(id)aofObject:(id)bchange:(id)ccontext:(^v)d;
+ - (void) observeValueForKeyPath:(id)a ofObject:(id)b change:(id)c context:(^v)d ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) setDelegate:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setDelegate:(id)a ;
  - (id) delegate;
  - (unsigned int) identifier;
  - (double) level;
- - (void) setLevel:(double)a;
- - (id) initWithCAContext:(id)a;
- - (id) initWithIdentifier:(unsigned int)alevel:(double)b;
+ - (void) setLevel:(double)a ;
+ - (id) initWithCAContext:(id)a ;
+ - (id) initWithIdentifier:(unsigned int)a level:(double)b ;
  - (id) CAContext;
 
 

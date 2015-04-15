@@ -10,16 +10,16 @@
  + (id) rangeWithRange:({_NSRange=QQ})aaffinity:(long long)b;
  + (id) defaultRange;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (BOOL) isEmpty;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - ({_NSRange=QQ}) asRange;
  - (id) end;
  - (long long) affinity;
- - (void) setStart:(id)a;
- - (void) setEnd:(id)a;
+ - (void) setStart:(id)a ;
+ - (void) setEnd:(id)a ;
  - (id) init;
  - (id) start;
 

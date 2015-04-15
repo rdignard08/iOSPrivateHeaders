@@ -5,14 +5,14 @@
 }
  + (BOOL) supportsSecureCoding;
 
- - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
+ - (BOOL) performPrimitiveOperationUsingObject:(id)a andObject:(id)b ;
  - (id) symbol;
- - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)bvariant:(unsigned long long)cposition:(unsigned long long)d;
+ - (id) initWithOperatorType:(unsigned long long)a modifier:(unsigned long long)b variant:(unsigned long long)c position:(unsigned long long)d ;
  - (unsigned long long) position;
  - (SEL) selector;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

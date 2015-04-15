@@ -12,22 +12,22 @@
 @property (nonatomic, copy, readwrite) NSString* boundary;
 @property (nonatomic, retain, readwrite) AFMultipartBodyStream* bodyStream;
 
- - (void) setRequest:(id)a;
- - (void) setStringEncoding:(unsigned long long)a;
- - (id) initWithURLRequest:(id)astringEncoding:(unsigned long long)b;
+ - (void) setRequest:(id)a ;
+ - (void) setStringEncoding:(unsigned long long)a ;
+ - (id) initWithURLRequest:(id)a stringEncoding:(unsigned long long)b ;
  - (unsigned long long) stringEncoding;
- - (void) appendPartWithFormData:(id)aname:(id)b;
+ - (void) appendPartWithFormData:(id)a name:(id)b ;
  - (id) requestByFinalizingMultipartFormData;
- - (void) setBoundary:(id)a;
- - (void) setBodyStream:(id)a;
- - (BOOL) appendPartWithFileURL:(id)aname:(id)bfileName:(id)cmimeType:(id)derror:(^@)e;
+ - (void) setBoundary:(id)a ;
+ - (void) setBodyStream:(id)a ;
+ - (BOOL) appendPartWithFileURL:(id)a name:(id)b fileName:(id)c mimeType:(id)d error:(^@)e ;
  - (id) boundary;
  - (id) bodyStream;
- - (void) appendPartWithHeaders:(id)abody:(id)b;
- - (BOOL) appendPartWithFileURL:(id)aname:(id)berror:(^@)c;
- - (void) appendPartWithInputStream:(id)aname:(id)bfileName:(id)clength:(long long)dmimeType:(id)e;
- - (void) appendPartWithFileData:(id)aname:(id)bfileName:(id)cmimeType:(id)d;
- - (void) throttleBandwidthWithPacketSize:(unsigned long long)adelay:(double)b;
+ - (void) appendPartWithHeaders:(id)a body:(id)b ;
+ - (BOOL) appendPartWithFileURL:(id)a name:(id)b error:(^@)c ;
+ - (void) appendPartWithInputStream:(id)a name:(id)b fileName:(id)c length:(long long)d mimeType:(id)e ;
+ - (void) appendPartWithFileData:(id)a name:(id)b fileName:(id)c mimeType:(id)d ;
+ - (void) throttleBandwidthWithPacketSize:(unsigned long long)a delay:(double)b ;
  - (void) .cxx_destruct;
  - (id) request;
 

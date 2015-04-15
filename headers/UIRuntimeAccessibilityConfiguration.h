@@ -15,19 +15,19 @@
 
  - (void) dealloc;
  - (id) object;
- - (void) setObject:(id)a;
+ - (void) setObject:(id)a ;
  - (void) applyConfiguration;
- - (id) initWithObject:(id)alabel:(id)bhint:(id)ctraits:(id)dandIsAccessibilityElement:(id)e;
+ - (id) initWithObject:(id)a label:(id)b hint:(id)c traits:(id)d andIsAccessibilityElement:(id)e ;
  - (id) accessibilityConfigurationHint;
- - (void) setAccessibilityConfigurationHint:(id)a;
+ - (void) setAccessibilityConfigurationHint:(id)a ;
  - (id) accessibilityConfigurationLabel;
- - (void) setAccessibilityConfigurationLabel:(id)a;
+ - (void) setAccessibilityConfigurationLabel:(id)a ;
  - (id) accessibilityConfigurationTraits;
- - (void) setAccessibilityConfigurationTraits:(id)a;
+ - (void) setAccessibilityConfigurationTraits:(id)a ;
  - (id) isAccessibilityConfigurationElement;
- - (void) setIsAccessibilityConfigurationElement:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setIsAccessibilityConfigurationElement:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

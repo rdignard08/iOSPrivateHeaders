@@ -16,15 +16,15 @@
  - (void) dealloc;
  - (id) init;
  - (void) update;
- - (void) addMotionClient:(^{DeviceMotionClientIOS=^^?@^{DeviceMotionController}{RefPtr<WebCore::DeviceMotionData>=^{DeviceMotionData}}B})a;
- - (void) removeMotionClient:(^{DeviceMotionClientIOS=^^?@^{DeviceMotionController}{RefPtr<WebCore::DeviceMotionData>=^{DeviceMotionData}}B})a;
- - (void) addOrientationClient:(^{DeviceOrientationClientIOS=^^?@^{DeviceOrientationController}{RefPtr<WebCore::DeviceOrientationData>=^{DeviceOrientationData}}B})a;
- - (void) removeOrientationClient:(^{DeviceOrientationClientIOS=^^?@^{DeviceOrientationController}{RefPtr<WebCore::DeviceOrientationData>=^{DeviceOrientationData}}B})a;
+ - (void) addMotionClient:(^{DeviceMotionClientIOS=^^?@^{DeviceMotionController}{RefPtr<WebCore::DeviceMotionData>=^{DeviceMotionData}}B})a ;
+ - (void) removeMotionClient:(^{DeviceMotionClientIOS=^^?@^{DeviceMotionController}{RefPtr<WebCore::DeviceMotionData>=^{DeviceMotionData}}B})a ;
+ - (void) addOrientationClient:(^{DeviceOrientationClientIOS=^^?@^{DeviceOrientationController}{RefPtr<WebCore::DeviceOrientationData>=^{DeviceOrientationData}}B})a ;
+ - (void) removeOrientationClient:(^{DeviceOrientationClientIOS=^^?@^{DeviceOrientationController}{RefPtr<WebCore::DeviceOrientationData>=^{DeviceOrientationData}}B})a ;
  - (void) initializeOnMainThread;
  - (void) checkClientStatus;
  - (BOOL) headingAvailable;
- - (void) sendMotionData:(id)awithHeading:(id)b;
- - (void) sendAccelerometerData:(id)a;
+ - (void) sendMotionData:(id)a withHeading:(id)b ;
+ - (void) sendAccelerometerData:(id)a ;
  - (BOOL) gyroAvailable;
 
 

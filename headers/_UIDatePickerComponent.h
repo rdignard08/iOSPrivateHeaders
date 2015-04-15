@@ -20,11 +20,11 @@
  - (unsigned long long) calendarUnit;
  - (id) formatString;
  - (unsigned long long) equivalentUnit;
- - (void) setUnitRange:({_NSRange=QQ})a;
+ - (void) setUnitRange:({_NSRange=QQ})a ;
  - ({_NSRange=QQ}) unitRange;
- - (id) _initWithFormatString:(id)acalendarUnit:(unsigned long long)b;
+ - (id) _initWithFormatString:(id)a calendarUnit:(unsigned long long)b ;
  - (double) width;
- - (void) setWidth:(double)a;
+ - (void) setWidth:(double)a ;
 
 
 @end

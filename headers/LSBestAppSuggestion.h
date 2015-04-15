@@ -27,9 +27,9 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) lastUpdateTime;
- - (id) initWithBundleIdentifier:(id)auuid:(id)bactivityType:(id)clastUpdateTime:(id)dtype:(unsigned long long)edeviceName:(id)fdeviceIdentifier:(id)gdeviceType:(id)hoptions:(id)i;
+ - (id) initWithBundleIdentifier:(id)a uuid:(id)b activityType:(id)c lastUpdateTime:(id)d type:(unsigned long long)e deviceName:(id)f deviceIdentifier:(id)g deviceType:(id)h options:(id)i ;
  - (id) when;
- - (void) setActivityType:(id)a;
+ - (void) setActivityType:(id)a ;
  - (id) originatingDeviceIdentifier;
  - (id) originatingDeviceName;
  - (id) originatingDeviceType;
@@ -39,10 +39,10 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) debugDescription;
  - (unsigned long long) type;
- - (void) setUniqueIdentifier:(id)a;
+ - (void) setUniqueIdentifier:(id)a ;
  - (id) uniqueIdentifier;
  - (id) options;
  - (id) bundleIdentifier;

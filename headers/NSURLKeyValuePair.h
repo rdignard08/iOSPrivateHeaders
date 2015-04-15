@@ -8,14 +8,14 @@
  + (id) pairWithKey:(id)avalue:(id)b;
  + (id) pair;
 
- - (id) initWithKey:(id)avalue:(id)b;
- - (void) setKey:(id)a;
+ - (id) initWithKey:(id)a value:(id)b ;
+ - (void) setKey:(id)a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) key;
- - (void) setValue:(id)a;
+ - (void) setValue:(id)a ;
  - (id) value;
 
 

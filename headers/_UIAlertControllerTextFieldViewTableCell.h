@@ -4,10 +4,10 @@
     _UIAlertControllerTextFieldView* _textField;
 }
 
- - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)a reuseIdentifier:(id)b ;
  - (void) prepareForReuse;
  - (id) textField;
- - (void) setTextField:(id)a;
+ - (void) setTextField:(id)a ;
 
 
 @end

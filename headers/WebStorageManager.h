@@ -8,9 +8,9 @@
  + (void) closeIdleLocalStorageDatabases;
 
  - (id) init;
- - (unsigned long long) diskUsageForOrigin:(id)a;
+ - (unsigned long long) diskUsageForOrigin:(id)a ;
  - (id) origins;
- - (void) deleteOrigin:(id)a;
+ - (void) deleteOrigin:(id)a ;
  - (void) deleteAllOrigins;
  - (void) syncLocalStorage;
  - (void) syncFileSystemAndTrackerDatabase;

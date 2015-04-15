@@ -10,9 +10,9 @@
 
  - (void) dealloc;
  - (id) traitCollection;
- - (id) initWithTraitCollection:(id)avalue:(id)b;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (id) initWithTraitCollection:(id)a value:(id)b ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) value;
 
 

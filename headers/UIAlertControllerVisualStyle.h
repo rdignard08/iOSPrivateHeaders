@@ -8,11 +8,11 @@
 @property (nonatomic, retain, readwrite) UITraitCollection* traitCollection;
 
  - (id) traitCollection;
- - (void) setTraitCollection:(id)a;
+ - (void) setTraitCollection:(id)a ;
  - (double) maximumWidth;
  - (id) backgroundView;
  - (id) dimmingView;
- - (void) setDescriptor:(id)a;
+ - (void) setDescriptor:(id)a ;
  - (double) verticalContentMargin;
  - (id) titleLabelFont;
  - (id) titleLabelColor;
@@ -39,7 +39,7 @@
  - (double) marginAboveMessageLabelFirstBaseline;
  - (double) marginBelowMessageLabelLastBaseline;
  - (id) _detailMessageFont;
- - (double) actionWidthForMinimumActionWidth:(double)a;
+ - (double) actionWidthForMinimumActionWidth:(double)a ;
  - (double) backgroundCornerRadius;
  - ({CGSize=dd}) collectionViewOutsetSize;
  - (double) _scaledMarginAboveTitleLabelFirstBaseline;

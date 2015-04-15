@@ -3,9 +3,9 @@
 
 }
 
- - (id) backgroundTraitsForKeyplane:(id)a;
- - (id) _traitsForKey:(id)aonKeyplane:(id)b;
- - (id) displayContentsForKey:(id)a;
+ - (id) backgroundTraitsForKeyplane:(id)a ;
+ - (id) _traitsForKey:(id)a onKeyplane:(id)b ;
+ - (id) displayContentsForKey:(id)a ;
  - (id) highlightedKeyColor;
  - (id) activeTextColor;
  - (id) inactiveTextColor;

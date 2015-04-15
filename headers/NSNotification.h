@@ -11,18 +11,18 @@
  + (id) notificationWithName:(id)aobject:(id)b;
 
  - (Class) classForCoder;
- - (id) initWithName:(id)aobject:(id)buserInfo:(id)c;
- - (id) replacementObjectForPortCoder:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) initWithName:(id)a object:(id)b userInfo:(id)c ;
+ - (id) replacementObjectForPortCoder:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (id) userInfo;
  - (id) name;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) object;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

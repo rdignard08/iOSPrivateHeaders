@@ -3,7 +3,7 @@
 
 }
 
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
 
 
 @end

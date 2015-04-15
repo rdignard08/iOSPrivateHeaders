@@ -3,12 +3,12 @@
 
 }
 
- - (void) setType:(id)a;
+ - (void) setType:(id)a ;
  - (BOOL) disabled;
  - (id) type;
- - (void) setDisabled:(BOOL)a;
+ - (void) setDisabled:(BOOL)a ;
  - (id) media;
- - (void) setMedia:(id)a;
+ - (void) setMedia:(id)a ;
  - (id) sheet;
 
 

@@ -7,7 +7,7 @@
 
  - (void) setDefaults;
  - (^{CGImage=}) outputCGImage;
- - (void) setInputOptions:(id)a;
+ - (void) setInputOptions:(id)a ;
  - (id) inputOptions;
 
 

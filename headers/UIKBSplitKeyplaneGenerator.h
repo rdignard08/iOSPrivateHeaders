@@ -16,17 +16,17 @@
 }
 
  - (void) dealloc;
- - (id) generateRivenKeyplaneFromKeyplane:(id)aforKeyboard:(id)b;
+ - (id) generateRivenKeyplaneFromKeyplane:(id)a forKeyboard:(id)b ;
  - (id) keysOrderedByPosition;
- - (void) addSliceStart:({CGRect={CGPoint=dd}{CGSize=dd}})aend:({CGRect={CGPoint=dd}{CGSize=dd}})bstartToken:(id)cendToken:(id)dleft:(BOOL)enormalization:(int)fisDefaultWidth:(BOOL)grow:(int)h;
- - (void) splitSpaceKey:(id)aleftSpace:(id)bleft:({CGRect={CGPoint=dd}{CGSize=dd}})cright:({CGRect={CGPoint=dd}{CGSize=dd}})d;
- - (void) addKey:(id)awithShape:(id)bforRow:(id)cattribs:(id)dleft:(BOOL)eforce:(BOOL)fisDefaultWidth:(BOOL)g;
+ - (void) addSliceStart:({CGRect={CGPoint=dd}{CGSize=dd}})a end:({CGRect={CGPoint=dd}{CGSize=dd}})b startToken:(id)c endToken:(id)d left:(BOOL)e normalization:(int)f isDefaultWidth:(BOOL)g row:(int)h ;
+ - (void) splitSpaceKey:(id)a leftSpace:(id)b left:({CGRect={CGPoint=dd}{CGSize=dd}})c right:({CGRect={CGPoint=dd}{CGSize=dd}})d ;
+ - (void) addKey:(id)a withShape:(id)b forRow:(id)c attribs:(id)d left:(BOOL)e force:(BOOL)f isDefaultWidth:(BOOL)g ;
  - (void) commitUncommittedSlices;
  - (void) alignSpaceKeyEdges;
- - (id) hintsForRow:(id)a;
- - (void) initializeGeneratorForKeyplane:(id)aname:(id)b;
+ - (id) hintsForRow:(id)a ;
+ - (void) initializeGeneratorForKeyplane:(id)a name:(id)b ;
  - (void) organizeKeyplaneIntoRows;
- - (void) splitRow:(id)a;
+ - (void) splitRow:(id)a ;
  - (id) finalizeSplitKeyplane;
  - (id) init;
 

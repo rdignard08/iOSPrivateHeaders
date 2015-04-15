@@ -15,15 +15,15 @@
  - (id) controlView;
  - (void) controlBeginEditing;
  - (void) controlEndEditing;
- - (long long) _timeZoneOffsetFromGMT:(id)a;
+ - (long long) _timeZoneOffsetFromGMT:(id)a ;
  - (void) _dateChangedSetAsString;
  - (void) _dateChangedSetAsNumber;
  - (void) _dateChanged;
- - (void) set_inputElement:(id)a;
- - (void) set_datePicker:(id)a;
- - (void) _dateChangeHandler:(id)a;
- - (id) _sanitizeInputValueForFormatter:(id)a;
- - (id) initWithDOMHTMLInputElement:(id)adatePickerMode:(long long)b;
+ - (void) set_inputElement:(id)a ;
+ - (void) set_datePicker:(id)a ;
+ - (void) _dateChangeHandler:(id)a ;
+ - (id) _sanitizeInputValueForFormatter:(id)a ;
+ - (id) initWithDOMHTMLInputElement:(id)a datePickerMode:(long long)b ;
  - (id) _inputElement;
  - (id) _datePicker;
 

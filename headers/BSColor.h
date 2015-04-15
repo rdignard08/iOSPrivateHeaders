@@ -14,19 +14,19 @@
  + (BOOL) supportsSecureCoding;
  + (id) colorWithRed:(double)agreen:(double)bblue:(double)calpha:(double)d;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
  - (double) red;
  - (double) green;
  - (double) blue;
  - (double) alpha;
- - (BOOL) isEqualToColor:(id)a;
+ - (BOOL) isEqualToColor:(id)a ;
 
 
 @end

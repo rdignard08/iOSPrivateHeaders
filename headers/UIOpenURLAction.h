@@ -3,11 +3,11 @@
 
 }
 
- - (id) initWithURL:(id)a;
+ - (id) initWithURL:(id)a ;
  - (long long) UIActionType;
  - (id) url;
- - (id) initWithInfo:(id)atimeout:(double)bforResponseOnQueue:(id)cwithHandler:(@?)d;
- - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) initWithInfo:(id)a timeout:(double)b forResponseOnQueue:(id)c withHandler:(@?)d ;
+ - (id) keyDescriptionForSetting:(unsigned long long)a ;
 
 
 @end

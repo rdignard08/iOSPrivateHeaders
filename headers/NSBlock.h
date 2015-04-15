@@ -6,10 +6,10 @@
  + (id) alloc;
  + (id) allocWithZone:(^{_NSZone=})a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) copy;
  - (void) invoke;
- - (void) performAfterDelay:(double)a;
+ - (void) performAfterDelay:(double)a ;
 
 
 @end

@@ -4,7 +4,7 @@
 }
  + (id) serializer;
 
- - (id) responseObjectForResponse:(id)adata:(id)berror:(^@)c;
+ - (id) responseObjectForResponse:(id)a data:(id)b error:(^@)c ;
  - (id) init;
 
 

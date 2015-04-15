@@ -8,10 +8,10 @@
  - (void) dealloc;
  - (id) transitionContext;
  - (id) clientSettingsDiff;
- - (void) setClientSettingsDiff:(id)a;
- - (void) setTransitionContext:(id)a;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (void) setClientSettingsDiff:(id)a ;
+ - (void) setTransitionContext:(id)a ;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
 
 
 @end

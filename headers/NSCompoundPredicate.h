@@ -11,26 +11,26 @@
  + (id) orPredicateWithSubpredicates:(id)a;
  + (id) andPredicateWithSubpredicates:(id)a;
 
- - (id) minimalFormInContext:(id)a;
+ - (id) minimalFormInContext:(id)a ;
  - (void) allowEvaluation;
  - (id) predicateFormat;
  - (id) predicateOperator;
- - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
- - (BOOL) evaluateWithObject:(id)asubstitutionVariables:(id)b;
+ - (void) acceptVisitor:(id)a flags:(unsigned long long)b ;
+ - (BOOL) evaluateWithObject:(id)a substitutionVariables:(id)b ;
  - (id) _predicateOperator;
- - (id) initWithType:(unsigned long long)asubpredicates:(id)b;
+ - (id) initWithType:(unsigned long long)a subpredicates:(id)b ;
  - (unsigned long long) compoundPredicateType;
- - (id) _subpredicateDescription:(id)a;
- - (void) _acceptSubpredicates:(id)aflags:(unsigned long long)b;
+ - (id) _subpredicateDescription:(id)a ;
+ - (void) _acceptSubpredicates:(id)a flags:(unsigned long long)b ;
  - (id) generateMetadataDescription;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) subpredicates;
- - (id) predicateWithSubstitutionVariables:(id)a;
+ - (id) predicateWithSubstitutionVariables:(id)a ;
 
 
 @end

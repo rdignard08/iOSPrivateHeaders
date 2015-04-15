@@ -10,13 +10,13 @@
 @property (atomic, retain, readwrite) NSMutableArray* replyArguments;
 @property (atomic, retain, readwrite) NSMutableArray* arguments;
 
- - (void) setArguments:(id)a;
- - (void) setReplySignature:(id)a;
+ - (void) setArguments:(id)a ;
+ - (void) setReplySignature:(id)a ;
  - (r*) replySignature;
  - (id) replyArguments;
- - (void) setReplyArguments:(id)a;
+ - (void) setReplyArguments:(id)a ;
  - (int) replyPosition;
- - (void) setReplyPosition:(int)a;
+ - (void) setReplyPosition:(int)a ;
  - (void) dealloc;
  - (void) finalize;
  - (id) init;

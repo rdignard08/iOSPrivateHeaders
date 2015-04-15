@@ -14,16 +14,16 @@
  + (id) mergeActionWithRemainingKeyName:(id)adisappearingKeyName:(id)bfactors:(id)c;
  + (id) mergeActionWithOrderedKeyList:(id)afactors:(id)b;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (id) orderedKeyList;
  - (id) disappearingKeyName;
  - (id) remainingKeyName;
  - (id) factors;
- - (void) setRemainingKeyName:(id)a;
- - (void) setDisappearingKeyName:(id)a;
- - (void) setOrderedKeyList:(id)a;
- - (void) setFactors:(id)a;
+ - (void) setRemainingKeyName:(id)a ;
+ - (void) setDisappearingKeyName:(id)a ;
+ - (void) setOrderedKeyList:(id)a ;
+ - (void) setFactors:(id)a ;
 
 
 @end

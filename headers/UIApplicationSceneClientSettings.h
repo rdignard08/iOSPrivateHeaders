@@ -4,7 +4,7 @@
 
 }
 
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (BOOL) isUISubclass;
  - (BOOL) statusBarHidden;
  - (long long) statusBarStyle;
@@ -18,8 +18,8 @@
  - (BOOL) orientationEnabled;
  - (long long) controlCenterRevealMode;
  - (long long) notificationCenterRevealMode;
- - (id) keyDescriptionForSetting:(unsigned long long)a;
- - (id) valueDescriptionForFlag:(long long)aobject:(id)bofSetting:(unsigned long long)c;
+ - (id) keyDescriptionForSetting:(unsigned long long)a ;
+ - (id) valueDescriptionForFlag:(long long)a object:(id)b ofSetting:(unsigned long long)c ;
 
 
 @end

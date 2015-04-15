@@ -43,32 +43,32 @@
  + (void) popAnimationState;
 
  - (void) dealloc;
- - (void) _acceptEarlyAnimationCutoff:(id)a;
+ - (void) _acceptEarlyAnimationCutoff:(id)a ;
  - (void) _runAlongsideAnimations;
- - (void) _trackAnimation:(id)awithAnimationKey:(id)bforKeyPath:(id)cinLayer:(id)d;
- - (void) _setAlongsideAnimations:(@?)a;
- - (void) _addAnimationStateForTracking:(id)a;
+ - (void) _trackAnimation:(id)a withAnimationKey:(id)b forKeyPath:(id)c inLayer:(id)d ;
+ - (void) _setAlongsideAnimations:(@?)a ;
+ - (void) _addAnimationStateForTracking:(id)a ;
  - (void) pop;
- - (void) sendDelegateAnimationDidStop:(id)afinished:(BOOL)b;
- - (BOOL) _shouldAnimateAdditivelyForKey:(id)aonLayer:(id)b;
- - (BOOL) _shouldStartFromCurrentStateForLayer:(id)akey:(id)b;
- - (id) _defaultAnimationForKey:(id)a;
- - (void) configureAnimation:(id)aforLayer:(id)bforKey:(id)c;
- - (void) setAnimationAttributes:(id)acorrectZeroDuration:(BOOL)bskipDelegateAssignment:(BOOL)ccustomCurve:(id)d;
- - (id) animationForLayer:(id)aforKey:(id)bforView:(id)c;
+ - (void) sendDelegateAnimationDidStop:(id)a finished:(BOOL)b ;
+ - (BOOL) _shouldAnimateAdditivelyForKey:(id)a onLayer:(id)b ;
+ - (BOOL) _shouldStartFromCurrentStateForLayer:(id)a key:(id)b ;
+ - (id) _defaultAnimationForKey:(id)a ;
+ - (void) configureAnimation:(id)a forLayer:(id)b forKey:(id)c ;
+ - (void) setAnimationAttributes:(id)a correctZeroDuration:(BOOL)b skipDelegateAssignment:(BOOL)c customCurve:(id)d ;
+ - (id) animationForLayer:(id)a forKey:(id)b forView:(id)c ;
  - (void) setupCustomTimingCurve;
- - (void) setAnimationAttributes:(id)acorrectZeroDuration:(BOOL)bskipDelegateAssignment:(BOOL)c;
- - (void) setAnimationAttributes:(id)a;
- - (void) _removeAnimationStateFromTrackingMap:(BOOL)adisableTrackingIfNeeded:(BOOL)b;
+ - (void) setAnimationAttributes:(id)a correctZeroDuration:(BOOL)b skipDelegateAssignment:(BOOL)c ;
+ - (void) setAnimationAttributes:(id)a ;
+ - (void) _removeAnimationStateFromTrackingMap:(BOOL)a disableTrackingIfNeeded:(BOOL)b ;
  - (BOOL) _allowsUserInteraction;
  - (BOOL) _allowsUserInteractionToCutOffEndOfAnimation;
  - (id) _trackedAnimations;
- - (id) actionForLayer:(id)aforKey:(id)bforView:(id)c;
- - (void) setupWithDuration:(double)adelay:(double)bview:(id)coptions:(unsigned long long)dfactory:(id)eparentState:(id)fstart:(@?)gcompletion:(@?)h;
- - (void) _removeAnimationStateFromTrackingMap:(BOOL)a;
+ - (id) actionForLayer:(id)a forKey:(id)b forView:(id)c ;
+ - (void) setupWithDuration:(double)a delay:(double)b view:(id)c options:(unsigned long long)d factory:(id)e parentState:(id)f start:(@?)g completion:(@?)h ;
+ - (void) _removeAnimationStateFromTrackingMap:(BOOL)a ;
  - (id) init;
- - (void) animationDidStop:(id)afinished:(BOOL)b;
- - (void) animationDidStart:(id)a;
+ - (void) animationDidStop:(id)a finished:(BOOL)b ;
+ - (void) animationDidStart:(id)a ;
 
 
 @end

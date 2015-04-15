@@ -6,9 +6,9 @@
 
  - (id) activityType;
  - (id) activityTitle;
- - (BOOL) canPerformWithActivityItems:(id)a;
+ - (BOOL) canPerformWithActivityItems:(id)a ;
  - (void) performActivity;
- - (id) initWithDocumentInteractionController:(id)a;
+ - (id) initWithDocumentInteractionController:(id)a ;
  - (id) activityImage;
  - (void) _cleanup;
 

@@ -7,9 +7,9 @@
 }
 
  - (void) dealloc;
- - (id) imageWithTraitCollection:(id)a;
- - (void) setImagePaths:(id)a;
- - (void) setHaveCGCacheImages:(BOOL)a;
+ - (id) imageWithTraitCollection:(id)a ;
+ - (void) setImagePaths:(id)a ;
+ - (void) setHaveCGCacheImages:(BOOL)a ;
  - (void) _clearResolvedImageResources;
  - (id) imagePaths;
  - (BOOL) haveCGCacheImages;

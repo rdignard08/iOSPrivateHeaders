@@ -20,7 +20,7 @@
 
  - (void) dealloc;
  - (void) show;
- - (void) keyboardDidShow:(id)a;
+ - (void) keyboardDidShow:(id)a ;
  - (void) applicationWillResignActive;
  - (void) highlightEndpointButton;
  - (void) finishReturnToKeyboard;
@@ -28,15 +28,15 @@
  - (BOOL) isShowing;
  - (void) returnToKeyboard;
  - (BOOL) drawsOwnBackground;
- - (float) audioLevelForWaveyView:(id)a;
+ - (float) audioLevelForWaveyView:(id)a ;
  - (id) endpointButton;
  - ({CGSize=dd}) currentScreenSize;
  - (void) applicationEnteredBackground;
  - ({CGPoint=dd}) positionForShow;
  - ({CGPoint=dd}) backgroundOffset;
  - (void) endpointButtonPressed;
- - (void) setState:(int)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setState:(int)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - ({CGPoint=dd}) contentOffset;
  - (BOOL) visible;
 

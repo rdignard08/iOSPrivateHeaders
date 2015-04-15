@@ -15,15 +15,15 @@
  + (id) _sharedAppearanceRecorder;
  + (id) _sharedAppearanceRecorderForClassNamed:(id)asuperclass:(Class)bwhenContainedIn:(id)c;
 
- - (id) initWithSerializedRepresentation:(id)a;
+ - (id) initWithSerializedRepresentation:(id)a ;
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
- - (id) methodSignatureForSelector:(SEL)a;
- - (void) _recordInvocation:(id)awithClassName:(id)bcontainerClassNames:(id)ctraitCollection:(id)dselectorString:(id)eforRemoteProcess:(BOOL)f;
- - (void) _importCustomizations:(id)awithArchiveVersion:(long long)b;
- - (void) _setClassNameToRecord:(id)a;
- - (void) _setSuperclassToRecord:(Class)a;
- - (void) _setContainerClassNames:(id)a;
+ - (void) forwardInvocation:(id)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
+ - (void) _recordInvocation:(id)a withClassName:(id)b containerClassNames:(id)c traitCollection:(id)d selectorString:(id)e forRemoteProcess:(BOOL)f ;
+ - (void) _importCustomizations:(id)a withArchiveVersion:(long long)b ;
+ - (void) _setClassNameToRecord:(id)a ;
+ - (void) _setSuperclassToRecord:(Class)a ;
+ - (void) _setContainerClassNames:(id)a ;
  - (id) _classNameToRecord;
  - (void) _applyCustomizations;
  - (id) _serializedRepresentation;

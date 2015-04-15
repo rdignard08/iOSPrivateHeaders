@@ -11,7 +11,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithData:(id)amaxSize:({CGSize=dd})brenderingIntent:(int)c;
+ - (id) initWithData:(id)a maxSize:({CGSize=dd})b renderingIntent:(int)c ;
 
 
 @end

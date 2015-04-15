@@ -6,11 +6,11 @@
 
  - (void) dealloc;
  - (id) containerView;
- - (void) setContainerView:(id)a;
- - (id) segueWithDestinationViewController:(id)a;
+ - (void) setContainerView:(id)a ;
+ - (id) segueWithDestinationViewController:(id)a ;
  - (id) defaultSegueClassName;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

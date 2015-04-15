@@ -5,9 +5,9 @@
 }
 
  - ({CGSize=dd}) patternPhase;
- - (void) setPatternPhase:({CGSize=dd})a;
+ - (void) setPatternPhase:({CGSize=dd})a ;
  - (id) init;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

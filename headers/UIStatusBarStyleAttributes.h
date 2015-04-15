@@ -7,17 +7,17 @@
 
  - (void) dealloc;
  - (BOOL) isTranslucent;
- - (double) heightForOrientation:(long long)a;
+ - (double) heightForOrientation:(long long)a ;
  - (BOOL) isDoubleHeight;
  - (id) foregroundStyle;
- - (BOOL) shouldShowInternalItemType:(int)awithScreenCapabilities:(id)b;
- - (double) heightForMetrics:(long long)a;
- - (id) initWithRequest:(id)a;
+ - (BOOL) shouldShowInternalItemType:(int)a withScreenCapabilities:(id)b ;
+ - (double) heightForMetrics:(long long)a ;
+ - (id) initWithRequest:(id)a ;
  - (long long) legibilityStyle;
  - (BOOL) isTransparent;
  - (BOOL) shouldUseVisualAltitude;
- - (id) backgroundColorWithTintColor:(id)a;
- - (id) newForegroundStyleWithHeight:(double)a;
+ - (id) backgroundColorWithTintColor:(id)a ;
+ - (id) newForegroundStyleWithHeight:(double)a ;
  - (BOOL) usesVerticalLayout;
  - (BOOL) supportsRasterization;
  - (int) cornerStyle;

@@ -15,11 +15,11 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (id) _copyResizableSnapshotViewFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})awithCapInsets:({UIEdgeInsets=dddd})b;
+ - (id) _copyResizableSnapshotViewFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a withCapInsets:({UIEdgeInsets=dddd})b ;
  - ({CGAffineTransform=dddddd}) _appliedTransform;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

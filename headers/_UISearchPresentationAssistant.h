@@ -15,25 +15,25 @@
 @property (nonatomic, retain, readwrite) NSNumber* transitioningToSizeCoordinator;
 
  - (void) dealloc;
- - (id) initWithSearchPresentationController:(id)a;
- - (void) setPresentationWasAnimated:(BOOL)a;
- - (void) ensureAppropriatelySizedSearchBar:(id)a;
+ - (id) initWithSearchPresentationController:(id)a ;
+ - (void) setPresentationWasAnimated:(BOOL)a ;
+ - (void) ensureAppropriatelySizedSearchBar:(id)a ;
  - (id) searchBarContainerView;
  - (BOOL) searchBarToBecomeTopAttached;
  - (double) statusBarAdjustment;
  - (id) dimmingView;
- - (void) setAdaptivePresentationController:(id)a;
+ - (void) setAdaptivePresentationController:(id)a ;
  - (double) resultsControllerContentOffset;
  - (BOOL) shouldAccountForStatusBar;
  - (id) adaptivePresentationController;
- - (void) dimmingViewWasTapped:(id)a;
+ - (void) dimmingViewWasTapped:(id)a ;
  - (BOOL) presentationIsPopoverToOverFullScreenAdaptation;
  - (id) _searchBarContainerSuperview;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) optimalFrameForSearchBar:(id)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) optimalFrameForSearchBar:(id)a ;
  - (BOOL) _currentTransitionIsRotating;
  - (BOOL) searchBarWillResizeForScopeBar;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _containerFrame;
- - (BOOL) _statusBarPreferredHiddenForInterfaceOrientation:(long long)a;
+ - (BOOL) _statusBarPreferredHiddenForInterfaceOrientation:(long long)a ;
  - (id) locateNavigationController;
  - (double) _statusBarHeightChangeDueToRotation;
  - (BOOL) _statusBarPreferredHidden;
@@ -41,7 +41,7 @@
  - ({CGSize=dd}) updateSearchBarContainerFrame;
  - (BOOL) presentationWasAnimated;
  - (id) transitioningToSizeCoordinator;
- - (void) setTransitioningToSizeCoordinator:(id)a;
+ - (void) setTransitioningToSizeCoordinator:(id)a ;
 
 
 @end

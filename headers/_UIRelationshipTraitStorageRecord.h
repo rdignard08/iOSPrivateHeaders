@@ -12,11 +12,11 @@
 
  - (void) dealloc;
  - (id) traitCollection;
- - (id) initWithTraitCollection:(id)aaddedObjects:(id)bremovedObjects:(id)c;
+ - (id) initWithTraitCollection:(id)a addedObjects:(id)b removedObjects:(id)c ;
  - (id) addedObjects;
  - (id) removedObjects;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

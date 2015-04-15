@@ -15,17 +15,17 @@
 
  - (void) dealloc;
  - (BOOL) sourceIsManaged;
- - (void) setSourceIsManaged:(BOOL)a;
+ - (void) setSourceIsManaged:(BOOL)a ;
  - (id) extensionMatchingContext;
- - (void) setExtensionMatchingContext:(id)a;
- - (void) setMatchesOnlyUserElectedExtensions:(BOOL)a;
- - (id) activitiesMatchingInputItems:(id)aerror:(^@)bupdateBlock:(@?)c;
+ - (void) setExtensionMatchingContext:(id)a ;
+ - (void) setMatchesOnlyUserElectedExtensions:(BOOL)a ;
+ - (id) activitiesMatchingInputItems:(id)a error:(^@)b updateBlock:(@?)c ;
  - (void) cancelUpdatesIfNeeded;
- - (void) setExtensionPointIdentifiers:(id)a;
- - (id) initWithExtensionPointIdentifiers:(id)a;
+ - (void) setExtensionPointIdentifiers:(id)a ;
+ - (id) initWithExtensionPointIdentifiers:(id)a ;
  - (BOOL) matchesOnlyUserElectedExtensions;
  - (id) extensionPointIdentifiers;
- - (void) setPerformsInitialMatching:(BOOL)a;
+ - (void) setPerformsInitialMatching:(BOOL)a ;
  - (BOOL) performsInitialMatching;
  - (id) init;
 

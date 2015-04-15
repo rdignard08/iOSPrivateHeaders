@@ -10,19 +10,19 @@
  + (id) rendererWithEAGLContext:(id)aoptions:(id)b;
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) updateBounds;
  - (id) delegate;
- - (void) setContext:(id)a;
+ - (void) setContext:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) layer;
- - (void) setLayer:(id)a;
- - (id) _initWithOptions:(id)a;
- - (id) _initWithEAGLContext:(id)aoptions:(id)b;
+ - (void) setLayer:(id)a ;
+ - (id) _initWithOptions:(id)a ;
+ - (id) _initWithEAGLContext:(id)a options:(id)b ;
  - (void) endFrame;
- - (void) beginFrameAtTime:(double)atimeStamp:(^{?=IiqQdq{CVSMPTETime=ssIIIssss}QQ})b;
- - (void) addUpdateRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) beginFrameAtTime:(double)a timeStamp:(^{?=IiqQdq{CVSMPTETime=ssIIIssss}QQ})b ;
+ - (void) addUpdateRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (double) nextFrameTime;
  - (BOOL) hasMissingContent;
  - (void) render;

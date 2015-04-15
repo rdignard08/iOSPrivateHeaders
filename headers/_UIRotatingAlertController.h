@@ -13,10 +13,10 @@
  - (void) willRotate;
  - (void) didRotate;
  - (void) doneWithSheet;
- - (void) setRotatingSheetDelegate:(id)a;
+ - (void) setRotatingSheetDelegate:(id)a ;
  - (BOOL) presentSheet;
- - (void) setArrowDirections:(unsigned long long)a;
- - (BOOL) presentSheetFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setArrowDirections:(unsigned long long)a ;
+ - (BOOL) presentSheetFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (void) _didRotateAndLayout;
  - (void) _updateSheetPositionAfterRotation;
  - (id) rotatingSheetDelegate;

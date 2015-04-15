@@ -14,8 +14,8 @@
  - (void) dealloc;
  - (^{JSObject=ICCCC{CopyWriteBarrier<JSC::Butterfly>=^{Butterfly}}}) prototype;
  - ({pair<JSC::JSObject *, JSC::JSObject *>=^{JSObject}^{JSObject}}) allocateConstructorAndPrototype;
- - (id) initWithContext:(id)aforClass:(Class)b;
- - (id) wrapperForObject:(id)a;
+ - (id) initWithContext:(id)a forClass:(Class)b ;
+ - (id) wrapperForObject:(id)a ;
  - (id) constructor;
 
 

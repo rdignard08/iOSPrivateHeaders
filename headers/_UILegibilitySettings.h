@@ -25,33 +25,33 @@
  + (id) sharedInstanceForStyle:(long long)a;
 
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
- - (id) initWithStyle:(long long)a;
+ - (BOOL) isEqual:(id)a ;
+ - (id) initWithStyle:(long long)a ;
  - (id) primaryColor;
- - (void) setContentColor:(id)a;
+ - (void) setContentColor:(id)a ;
  - (id) contentColor;
- - (id) initWithStyle:(long long)acontentColor:(id)b;
- - (void) setMinFillHeight:(double)a;
- - (void) setPropertiesForStyle:(long long)a;
- - (void) setPrimaryColor:(id)a;
- - (void) setSecondaryColor:(id)a;
- - (void) setShadowAlpha:(double)a;
- - (void) setImageOutset:(double)a;
- - (void) setShadowCompositingFilterName:(id)a;
- - (id) initWithContentColor:(id)a;
- - (id) initWithContentColor:(id)acontrast:(double)b;
- - (id) initWithStyle:(long long)aprimaryColor:(id)bsecondaryColor:(id)cshadowColor:(id)d;
+ - (id) initWithStyle:(long long)a contentColor:(id)b ;
+ - (void) setMinFillHeight:(double)a ;
+ - (void) setPropertiesForStyle:(long long)a ;
+ - (void) setPrimaryColor:(id)a ;
+ - (void) setSecondaryColor:(id)a ;
+ - (void) setShadowAlpha:(double)a ;
+ - (void) setImageOutset:(double)a ;
+ - (void) setShadowCompositingFilterName:(id)a ;
+ - (id) initWithContentColor:(id)a ;
+ - (id) initWithContentColor:(id)a contrast:(double)b ;
+ - (id) initWithStyle:(long long)a primaryColor:(id)b secondaryColor:(id)c shadowColor:(id)d ;
  - (id) secondaryColor;
  - (double) shadowAlpha;
  - (double) imageOutset;
  - (double) minFillHeight;
  - (id) shadowCompositingFilterName;
- - (void) setShadowColor:(id)a;
+ - (void) setShadowColor:(id)a ;
  - (long long) style;
  - (double) shadowRadius;
  - (id) shadowColor;
- - (void) setStyle:(long long)a;
- - (void) setShadowRadius:(double)a;
+ - (void) setStyle:(long long)a ;
+ - (void) setShadowRadius:(double)a ;
 
 
 @end

@@ -10,12 +10,12 @@
 @property (nonatomic, copy, readwrite) NSNumber* handler;
 
  - (id) title;
- - (void) setTitle:(id)a;
+ - (void) setTitle:(id)a ;
  - (void) dealloc;
- - (void) setType:(int)a;
+ - (void) setType:(int)a ;
  - (int) type;
  - (@?) handler;
- - (void) setHandler:(@?)a;
+ - (void) setHandler:(@?)a ;
 
 
 @end

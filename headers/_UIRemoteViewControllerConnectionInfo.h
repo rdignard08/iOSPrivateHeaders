@@ -30,32 +30,32 @@
 @property (atomic, retain, readwrite) _UIHostedWindowHostingHandle* remoteKeyboardsWindowHostingHandle;
 
  - (id) interface;
- - (void) setInterface:(id)a;
+ - (void) setInterface:(id)a ;
  - (void) dealloc;
  - (long long) preferredStatusBarStyle;
  - (BOOL) prefersStatusBarHidden;
  - (id) serviceViewControllerProxy;
  - (id) viewControllerOperatorProxy;
- - (void) setViewControllerOperatorProxy:(id)a;
- - (void) setServiceViewControllerProxy:(id)a;
+ - (void) setViewControllerOperatorProxy:(id)a ;
+ - (void) setServiceViewControllerProxy:(id)a ;
  - (id) serviceViewControllerControlMessageProxy;
- - (void) setServiceViewControllerControlMessageProxy:(id)a;
+ - (void) setServiceViewControllerControlMessageProxy:(id)a ;
  - (id) textEffectsOperatorProxy;
- - (void) setTextEffectsOperatorProxy:(id)a;
+ - (void) setTextEffectsOperatorProxy:(id)a ;
  - (id) serviceViewControllerSupportedInterfaceOrientations;
- - (void) setServiceViewControllerSupportedInterfaceOrientations:(id)a;
+ - (void) setServiceViewControllerSupportedInterfaceOrientations:(id)a ;
  - (id) serviceAccessibilityServerPortWrapper;
- - (void) setServiceAccessibilityServerPortWrapper:(id)a;
- - (void) setPreferredStatusBarStyle:(long long)a;
- - (void) setPrefersStatusBarHidden:(BOOL)a;
+ - (void) setServiceAccessibilityServerPortWrapper:(id)a ;
+ - (void) setPreferredStatusBarStyle:(long long)a ;
+ - (void) setPrefersStatusBarHidden:(BOOL)a ;
  - (id) hostedWindowHostingHandle;
- - (void) setHostedWindowHostingHandle:(id)a;
+ - (void) setHostedWindowHostingHandle:(id)a ;
  - (id) textEffectsWindowHostingHandle;
- - (void) setTextEffectsWindowHostingHandle:(id)a;
+ - (void) setTextEffectsWindowHostingHandle:(id)a ;
  - (id) textEffectsWindowAboveStatusBarHostingHandle;
- - (void) setTextEffectsWindowAboveStatusBarHostingHandle:(id)a;
+ - (void) setTextEffectsWindowAboveStatusBarHostingHandle:(id)a ;
  - (id) remoteKeyboardsWindowHostingHandle;
- - (void) setRemoteKeyboardsWindowHostingHandle:(id)a;
+ - (void) setRemoteKeyboardsWindowHostingHandle:(id)a ;
 
 
 @end

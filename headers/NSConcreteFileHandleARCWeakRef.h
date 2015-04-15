@@ -5,7 +5,7 @@
 }
 
  - (id) loadWeak;
- - (void) storeWeak:(id)a;
+ - (void) storeWeak:(id)a ;
  - (void) dealloc;
 
 

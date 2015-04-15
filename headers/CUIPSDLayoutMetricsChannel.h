@@ -9,11 +9,11 @@
 
  - (id) .cxx_construct;
  - (id) name;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) edgeInsets;
- - (void) setEdgeInsets:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setEdgeInsets:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (void) sanitizeEdgeInsets;
- - (id) initWithEdgeInsets:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithEdgeInsets:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

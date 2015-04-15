@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (long long) textAlignment;
- - (BOOL) updateForNewData:(id)aactions:(int)b;
+ - (BOOL) updateForNewData:(id)a actions:(int)b ;
  - (id) contentsImage;
  - (double) extraRightPadding;
  - (BOOL) animatesDataChange;

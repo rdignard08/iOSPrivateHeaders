@@ -10,11 +10,11 @@
 
  - (void) dealloc;
  - (id) name;
- - (void) setCategory:(id)a;
- - (void) setName:(id)a;
- - (void) logWithFormat:(id)aarguments:([1{__va_list_tag=II^v^v}])b;
- - (void) logWithFormat:(id)a;
- - (id) initWithLoggerName:(id)acategory:(id)b;
+ - (void) setCategory:(id)a ;
+ - (void) setName:(id)a ;
+ - (void) logWithFormat:(id)a arguments:([1{__va_list_tag=II^v^v}])b ;
+ - (void) logWithFormat:(id)a ;
+ - (id) initWithLoggerName:(id)a category:(id)b ;
  - (id) category;
 
 

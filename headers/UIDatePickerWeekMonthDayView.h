@@ -15,14 +15,14 @@
  - (id) dateLabel;
  - (id) weekdayLabel;
  - (BOOL) isModern;
- - (void) setIsModern:(BOOL)a;
- - (void) setWeekdayWidth:(double)a;
+ - (void) setIsModern:(BOOL)a ;
+ - (void) setWeekdayWidth:(double)a ;
  - (BOOL) weekdayLast;
- - (void) setWeekdayLast:(BOOL)a;
+ - (void) setWeekdayLast:(BOOL)a ;
  - (id) formattedDateString;
- - (void) setFormattedDateString:(id)a;
+ - (void) setFormattedDateString:(id)a ;
  - (double) weekdayWidth;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

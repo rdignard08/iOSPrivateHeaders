@@ -10,7 +10,7 @@
 
  - (id) description;
  - (void) dealloc;
- - (id) initWithText:(id)aalternativeInterpretations:(id)b;
+ - (id) initWithText:(id)a alternativeInterpretations:(id)b ;
  - (id) alternativeInterpretations;
  - (id) text;
 

@@ -4,7 +4,7 @@
 }
  + (id) tokenTemplateFilledForKey:(id)astyle:(int)bsize:({CGSize=dd})c;
 
- - (id) _stringWithAdditionalValues:(@?)a;
+ - (id) _stringWithAdditionalValues:(@?)a ;
 
 
 @end

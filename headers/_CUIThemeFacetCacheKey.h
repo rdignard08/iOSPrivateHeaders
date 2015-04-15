@@ -6,11 +6,11 @@
     unsigned long long hashPrecalc;
 }
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned long long) hash64;
- - (id) initWithKeyList:(r^{_renditionkeytoken=SS})athemeIndex:(long long)b;
+ - (id) initWithKeyList:(r^{_renditionkeytoken=SS})a themeIndex:(long long)b ;
 
 
 @end

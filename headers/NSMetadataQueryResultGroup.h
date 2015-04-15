@@ -12,9 +12,9 @@
 @property (atomic, copy, readonly) NSArray* results;
 
  - (unsigned long long) resultCount;
- - (id) _init:(id)aattributes:(id)bindex:(unsigned long long)cvalue:(id)d;
- - (void) _addResult:(unsigned long long)a;
- - (id) resultAtIndex:(unsigned long long)a;
+ - (id) _init:(id)a attributes:(id)b index:(unsigned long long)c value:(id)d ;
+ - (void) _addResult:(unsigned long long)a ;
+ - (id) resultAtIndex:(unsigned long long)a ;
  - (id) attribute;
  - (id) subgroups;
  - (void) _zapResultArray;

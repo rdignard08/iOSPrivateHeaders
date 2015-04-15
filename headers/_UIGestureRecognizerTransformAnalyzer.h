@@ -15,13 +15,13 @@
 @property (nonatomic, assign, readwrite) NSNumber* rotationWeight;
 
  - (void) reset;
- - (void) analyzeTouches:(id)a;
+ - (void) analyzeTouches:(id)a ;
  - (double) translationWeight;
- - (void) setTranslationWeight:(double)a;
+ - (void) setTranslationWeight:(double)a ;
  - (double) pinchingWeight;
- - (void) setPinchingWeight:(double)a;
+ - (void) setPinchingWeight:(double)a ;
  - (double) rotationWeight;
- - (void) setRotationWeight:(double)a;
+ - (void) setRotationWeight:(double)a ;
  - (int) dominantComponent;
  - (id) init;
 

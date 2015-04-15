@@ -9,8 +9,8 @@
  + (id) valueTransformerNames;
  + (Class) transformedValueClass;
 
- - (id) transformedValue:(id)a;
- - (id) reverseTransformedValue:(id)a;
+ - (id) transformedValue:(id)a ;
+ - (id) reverseTransformedValue:(id)a ;
 
 
 @end

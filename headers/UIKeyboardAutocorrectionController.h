@@ -15,16 +15,16 @@
  - (void) dealloc;
  - (void) clearAutocorrection;
  - (void) updateSuggestionViews;
- - (void) setAutocorrectionList:(id)a;
+ - (void) setAutocorrectionList:(id)a ;
  - (void) setNeedsAutocorrection;
  - (id) autocorrectionList;
  - (BOOL) needsAutocorrection;
  - (BOOL) requestedAutocorrection;
- - (void) requestAutocorrectionWithExecutionContext:(id)a;
- - (void) setNeedsAutocorrection:(BOOL)a;
+ - (void) requestAutocorrectionWithExecutionContext:(id)a ;
+ - (void) setNeedsAutocorrection:(BOOL)a ;
  - (BOOL) deferredAutocorrection;
- - (void) setDeferredAutocorrection:(BOOL)a;
- - (void) setRequestedAutocorrection:(BOOL)a;
+ - (void) setDeferredAutocorrection:(BOOL)a ;
+ - (void) setRequestedAutocorrection:(BOOL)a ;
  - (id) autocorrection;
  - (BOOL) hasAutocorrection;
 

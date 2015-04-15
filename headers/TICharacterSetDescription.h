@@ -13,25 +13,25 @@
 @property (nonatomic, assign, readonly) NSNumber* inverted;
  + (BOOL) supportsSecureCoding;
 
- - (id) awakeAfterUsingCoder:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) awakeAfterUsingCoder:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithBase:(long long)aadditionalCharacters:(id)binverted:(BOOL)c;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithBase:(long long)a additionalCharacters:(id)b inverted:(BOOL)c ;
  - (long long) baseIdentifier;
  - (BOOL) inverted;
  - (id) charactersAddedToBase;
  - (id) newCharacterSetFromDescription;
- - (id) initWithBaseCharacterSet:(long long)a;
- - (id) initWithCharactersInString:(id)a;
+ - (id) initWithBaseCharacterSet:(long long)a ;
+ - (id) initWithCharactersInString:(id)a ;
  - (id) invertedSetDescription;
  - (id) characterSet;
  - (void) clearCachedCharacterSet;
- - (void) setCharactersAddedToBase:(id)a;
+ - (void) setCharactersAddedToBase:(id)a ;
 
 
 @end

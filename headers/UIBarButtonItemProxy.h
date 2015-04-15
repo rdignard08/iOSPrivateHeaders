@@ -7,7 +7,7 @@
 
  - (id) item;
  - (void) dealloc;
- - (id) initWithItem:(id)ainToolbar:(id)b;
+ - (id) initWithItem:(id)a inToolbar:(id)b ;
  - (id) view;
 
 

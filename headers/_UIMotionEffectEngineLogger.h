@@ -7,9 +7,9 @@
     double _lastUpdateTimeStamp;
 }
 
- - (id) initWithFastUpdateInterval:(double)aslowUpdateInterval:(double)b;
+ - (id) initWithFastUpdateInterval:(double)a slowUpdateInterval:(double)b ;
  - (double) lastRecordedTimestamp;
- - (void) recordMotionMagnitude:(double)aatTimestamp:(double)b;
+ - (void) recordMotionMagnitude:(double)a atTimestamp:(double)b ;
  - (void) _dumpToAggregated;
 
 

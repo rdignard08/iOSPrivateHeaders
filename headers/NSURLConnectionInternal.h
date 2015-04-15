@@ -14,24 +14,24 @@
 
  - (void) dealloc;
  - (id) currentRequest;
- - (void) useCredential:(id)aforAuthenticationChallenge:(id)b;
- - (void) performDefaultHandlingForAuthenticationChallenge:(id)a;
+ - (void) useCredential:(id)a forAuthenticationChallenge:(id)b ;
+ - (void) performDefaultHandlingForAuthenticationChallenge:(id)a ;
  - (id) originalRequest;
- - (void) continueWithoutCredentialForAuthenticationChallenge:(id)a;
- - (void) cancelAuthenticationChallenge:(id)a;
- - (void) rejectProtectionSpaceAndContinueWithChallenge:(id)a;
- - (id) initWithInfo:(r^{InternalInit=@@@@Bq})a;
+ - (void) continueWithoutCredentialForAuthenticationChallenge:(id)a ;
+ - (void) cancelAuthenticationChallenge:(id)a ;
+ - (void) rejectProtectionSpaceAndContinueWithChallenge:(id)a ;
+ - (id) initWithInfo:(r^{InternalInit=@@@@Bq})a ;
  - (id) _timingData;
- - (void) _setDelegateQueue:(id)a;
+ - (void) _setDelegateQueue:(id)a ;
  - (id) _connectionProperties;
- - (void) _withConnectionAndDelegate:(@?)a;
+ - (void) _withConnectionAndDelegate:(@?)a ;
  - (void) _withConnectionDisconnectFromConnection;
  - (void) _invalidate;
- - (void) setConnectionActive:(BOOL)a;
- - (void) _withActiveConnectionAndDelegate:(@?)a;
+ - (void) setConnectionActive:(BOOL)a ;
+ - (void) _withActiveConnectionAndDelegate:(@?)a ;
  - (BOOL) isConnectionActive;
- - (void) invokeForDelegate:(@?)a;
- - (void) _withConnectionAndDelegate:(@?)aonlyActive:(BOOL)b;
+ - (void) invokeForDelegate:(@?)a ;
+ - (void) _withConnectionAndDelegate:(@?)a onlyActive:(BOOL)b ;
 
 
 @end

@@ -9,20 +9,20 @@
  - (void) dealloc;
  - (id) init;
  - (id) allCredentials;
- - (void) removeCredential:(id)aforProtectionSpace:(id)b;
- - (void) getCredentialsForProtectionSpace:(id)atask:(id)bcompletionHandler:(@?)c;
- - (void) getDefaultCredentialForProtectionSpace:(id)atask:(id)bcompletionHandler:(@?)c;
- - (void) setCredential:(id)aforProtectionSpace:(id)btask:(id)c;
- - (void) setDefaultCredential:(id)aforProtectionSpace:(id)btask:(id)c;
- - (id) defaultCredentialForProtectionSpace:(id)a;
- - (id) credentialsForProtectionSpace:(id)a;
- - (void) setCredential:(id)aforProtectionSpace:(id)b;
- - (void) setDefaultCredential:(id)aforProtectionSpace:(id)b;
- - (id) _initWithCFURLCredentialStorage:(^{_CFURLCredentialStorage=})a;
- - (void) removeCredential:(id)aforProtectionSpace:(id)boptions:(id)c;
- - (id) _initWithIdentifier:(id)aprivate:(BOOL)b;
+ - (void) removeCredential:(id)a forProtectionSpace:(id)b ;
+ - (void) getCredentialsForProtectionSpace:(id)a task:(id)b completionHandler:(@?)c ;
+ - (void) getDefaultCredentialForProtectionSpace:(id)a task:(id)b completionHandler:(@?)c ;
+ - (void) setCredential:(id)a forProtectionSpace:(id)b task:(id)c ;
+ - (void) setDefaultCredential:(id)a forProtectionSpace:(id)b task:(id)c ;
+ - (id) defaultCredentialForProtectionSpace:(id)a ;
+ - (id) credentialsForProtectionSpace:(id)a ;
+ - (void) setCredential:(id)a forProtectionSpace:(id)b ;
+ - (void) setDefaultCredential:(id)a forProtectionSpace:(id)b ;
+ - (id) _initWithCFURLCredentialStorage:(^{_CFURLCredentialStorage=})a ;
+ - (void) removeCredential:(id)a forProtectionSpace:(id)b options:(id)c ;
+ - (id) _initWithIdentifier:(id)a private:(BOOL)b ;
  - (^{_CFURLCredentialStorage=}) _CFURLCredentialStorage;
- - (void) removeCredential:(id)aforProtectionSpace:(id)boptions:(id)ctask:(id)d;
+ - (void) removeCredential:(id)a forProtectionSpace:(id)b options:(id)c task:(id)d ;
 
 
 @end

@@ -8,12 +8,12 @@
 
  - (void) dealloc;
  - (unsigned char) alreadylocked_requestNewData;
- - (id) createRequestNewContentMessageForDaemon:(BOOL)a;
+ - (id) createRequestNewContentMessageForDaemon:(BOOL)a ;
  - (BOOL) managed;
- - (void) sendFullyPreparedMessage:(id)asettingValue:(^v)bforKey:(^{__CFString=})cretryCount:(int)d;
- - (void) setManaged:(BOOL)a;
- - (^v) copyReplyForDirectMessage:(id)aerror:(^B)b;
- - (BOOL) sendMessage:(id)a;
+ - (void) sendFullyPreparedMessage:(id)a settingValue:(^v)b forKey:(^{__CFString=})c retryCount:(int)d ;
+ - (void) setManaged:(BOOL)a ;
+ - (^v) copyReplyForDirectMessage:(id)a error:(^B)b ;
+ - (BOOL) sendMessage:(id)a ;
 
 
 @end

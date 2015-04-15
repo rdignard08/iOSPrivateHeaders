@@ -8,15 +8,15 @@
 }
 
  - (void) dealloc;
- - (void) setSelectionTintColor:(id)a;
- - (void) setMultiselect:(BOOL)a;
+ - (void) setSelectionTintColor:(id)a ;
+ - (void) setMultiselect:(BOOL)a ;
  - (BOOL) isMultiselect;
- - (void) setSelectionStyle:(long long)a;
+ - (void) setSelectionStyle:(long long)a ;
  - (long long) selectionStyle;
  - (id) multiselectBackgroundColor;
- - (void) setMultiselectBackgroundColor:(id)a;
+ - (void) setMultiselectBackgroundColor:(id)a ;
  - (id) selectionTintColor;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

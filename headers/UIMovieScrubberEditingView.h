@@ -15,21 +15,21 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (BOOL) isEditing;
- - (void) setEditing:(BOOL)a;
- - (void) setEdgeInset:(double)a;
+ - (void) setEditing:(BOOL)a ;
+ - (void) setEdgeInset:(double)a ;
  - (void) bounce;
- - (int) handleForPoint:({CGPoint=dd})ahitOffset:(^d)b;
+ - (int) handleForPoint:({CGPoint=dd})a hitOffset:(^d)b ;
  - (double) edgeInset;
  - (void) _updateHandleImages;
  - (id) _handleImages;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _leftHandleRect;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _rightHandleRect;
- - (double) _bounceValueForFraction:(double)a;
- - (BOOL) pointInsideLeftHandle:({CGPoint=dd})a;
- - (BOOL) pointInsideRightHandle:({CGPoint=dd})a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (double) _bounceValueForFraction:(double)a ;
+ - (BOOL) pointInsideLeftHandle:({CGPoint=dd})a ;
+ - (BOOL) pointInsideRightHandle:({CGPoint=dd})a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (BOOL) isEnabled;
- - (void) setEnabled:(BOOL)a;
+ - (void) setEnabled:(BOOL)a ;
 
 
 @end

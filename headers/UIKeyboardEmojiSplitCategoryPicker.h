@@ -11,17 +11,17 @@
 
  - (void) dealloc;
  - (void) didMoveToWindow;
- - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
+ - (void) tableView:(id)a didSelectRowAtIndexPath:(id)b ;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
  - (BOOL) whiteText;
- - (void) setCategory:(int)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})akeyplane:(id)bkey:(id)c;
- - (void) setRenderConfig:(id)a;
- - (void) receiveNotifictaion:(id)a;
- - (void) updateCategorySelectedIndicator:(int)a;
- - (id) titleForRow:(long long)a;
- - (id) symbolForRow:(long long)a;
- - (void) setWhiteText:(BOOL)a;
+ - (void) setCategory:(int)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a keyplane:(id)b key:(id)c ;
+ - (void) setRenderConfig:(id)a ;
+ - (void) receiveNotifictaion:(id)a ;
+ - (void) updateCategorySelectedIndicator:(int)a ;
+ - (id) titleForRow:(long long)a ;
+ - (id) symbolForRow:(long long)a ;
+ - (void) setWhiteText:(BOOL)a ;
 
 
 @end

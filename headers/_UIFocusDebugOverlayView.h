@@ -5,16 +5,16 @@
     UIView* _highlightView;
 }
 
- - (void) doesNotRecognizeSelector:(SEL)a;
+ - (void) doesNotRecognizeSelector:(SEL)a ;
  - (void) dealloc;
- - (id) _focusItemsOverlayCreateIfNecessary:(BOOL)a;
+ - (id) _focusItemsOverlayCreateIfNecessary:(BOOL)a ;
  - (void) _removeFocusItemOverlayViews;
- - (id) initWithView:(id)a;
- - (void) _highlightPreferredFocusView:(id)a;
+ - (id) initWithView:(id)a ;
+ - (void) _highlightPreferredFocusView:(id)a ;
  - (void) _unhighlightPreferredFocusView;
- - (void) setOverlayColor:(id)a;
+ - (void) setOverlayColor:(id)a ;
  - (id) overlayColor;
- - (void) setHighlightView:(id)a;
+ - (void) setHighlightView:(id)a ;
  - (id) highlightView;
 
 

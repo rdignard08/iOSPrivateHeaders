@@ -12,36 +12,36 @@
 }
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (long long) modalPresentationStyle;
  - (void) loadView;
- - (void) _setRemoteViewController:(id)a;
+ - (void) _setRemoteViewController:(id)a ;
  - (void) _dismissViewController;
- - (void) setModalPresentationStyle:(long long)a;
+ - (void) setModalPresentationStyle:(long long)a ;
  - (id) _remoteViewController;
- - (void) setDocumentPickerMode:(unsigned long long)a;
- - (void) _commonInitWithCompletion:(@?)a;
- - (void) setUploadURL:(id)a;
+ - (void) setDocumentPickerMode:(unsigned long long)a ;
+ - (void) _commonInitWithCompletion:(@?)a ;
+ - (void) setUploadURL:(id)a ;
  - (unsigned long long) documentPickerMode;
  - (id) uploadURL;
- - (id) initWithDocumentTypes:(id)ainMode:(unsigned long long)b;
- - (id) initWithURL:(id)ainMode:(unsigned long long)b;
- - (void) _didSelectURL:(id)a;
+ - (id) initWithDocumentTypes:(id)a inMode:(unsigned long long)b ;
+ - (id) initWithURL:(id)a inMode:(unsigned long long)b ;
+ - (void) _didSelectURL:(id)a ;
  - (void) _didSelectPicker;
- - (void) _dismissWithOption:(id)a;
- - (void) _stitchFileCreationAtURL:(id)a;
- - (void) _displayLocationsMenuFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) viewWillAppear:(BOOL)a;
- - (id) _presentationControllerForPresentedController:(id)apresentingController:(id)bsourceController:(id)c;
+ - (void) _dismissWithOption:(id)a ;
+ - (void) _stitchFileCreationAtURL:(id)a ;
+ - (void) _displayLocationsMenuFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) viewWillAppear:(BOOL)a ;
+ - (id) _presentationControllerForPresentedController:(id)a presentingController:(id)b sourceController:(id)c ;
  - (BOOL) _requiresCustomPresentationController;
  - (id) _containedAlertController;
- - (void) setAlertController:(id)a;
- - (void) setAuxiliaryOptions:(id)a;
+ - (void) setAlertController:(id)a ;
+ - (void) setAuxiliaryOptions:(id)a ;
  - (id) auxiliaryOptions;
  - (id) alertController;
- - (void) setDismissDelegateCalled:(BOOL)a;
+ - (void) setDismissDelegateCalled:(BOOL)a ;
  - (BOOL) dismissDelegateCalled;
- - (void) addOptionWithTitle:(id)aimage:(id)border:(unsigned long long)chandler:(@?)d;
+ - (void) addOptionWithTitle:(id)a image:(id)b order:(unsigned long long)c handler:(@?)d ;
  - (id) delegate;
 
 

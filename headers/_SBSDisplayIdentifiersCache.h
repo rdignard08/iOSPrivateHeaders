@@ -12,7 +12,7 @@
  - (id) init;
  - (void) _queue_noteChanged;
  - (id) displayIdentifiers;
- - (void) registerChangedBlock:(@?)a;
+ - (void) registerChangedBlock:(@?)a ;
 
 
 @end

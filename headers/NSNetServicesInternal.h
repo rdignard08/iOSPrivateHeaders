@@ -10,12 +10,12 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (void) copyScheduledRunLoop:(^^{__CFRunLoop})aandMode:(r^^{__CFString})b;
- - (void) setScheduledRunLoop:(^{__CFRunLoop=})aandMode:(^{__CFString=})b;
+ - (void) copyScheduledRunLoop:(^^{__CFRunLoop})a andMode:(r^^{__CFString})b ;
+ - (void) setScheduledRunLoop:(^{__CFRunLoop=})a andMode:(^{__CFString=})b ;
  - (id) listener;
- - (void) setListener:(id)a;
+ - (void) setListener:(id)a ;
  - (id) monitors;
- - (void) setMonitors:(id)a;
+ - (void) setMonitors:(id)a ;
 
 
 @end

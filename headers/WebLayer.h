@@ -3,7 +3,7 @@
 
 }
 
- - (void) drawInContext:(^{CGContext=})a;
+ - (void) drawInContext:(^{CGContext=})a ;
 
 
 @end

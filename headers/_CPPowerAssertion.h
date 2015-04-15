@@ -7,11 +7,11 @@
 }
 @property (nonatomic, assign, readwrite) NSNumber* timeout;
 
- - (void) setTimeout:(double)a;
+ - (void) setTimeout:(double)a ;
  - (void) dealloc;
  - (double) timeout;
  - (void) timedout;
- - (id) initWithIdentifier:(id)atimeout:(double)b;
+ - (id) initWithIdentifier:(id)a timeout:(double)b ;
 
 
 @end

@@ -14,13 +14,13 @@
  + (void) _fixNSMachPortLeak;
  + (id) port;
 
- - (id) initWithMachPort:(unsigned int)a;
- - (BOOL) sendBeforeDate:(id)acomponents:(id)bfrom:(id)creserved:(unsigned long long)d;
- - (BOOL) sendBeforeDate:(id)amsgid:(unsigned long long)bcomponents:(id)cfrom:(id)dreserved:(unsigned long long)e;
- - (void) addConnection:(id)atoRunLoop:(id)bforMode:(id)c;
- - (id) initWithMachPort:(unsigned int)aoptions:(unsigned long long)b;
- - (void) handlePortMessage:(id)a;
- - (BOOL) sendBeforeTime:(double)astreamData:(^v)bcomponents:(id)cfrom:(id)dmsgid:(unsigned int)e;
+ - (id) initWithMachPort:(unsigned int)a ;
+ - (BOOL) sendBeforeDate:(id)a components:(id)b from:(id)c reserved:(unsigned long long)d ;
+ - (BOOL) sendBeforeDate:(id)a msgid:(unsigned long long)b components:(id)c from:(id)d reserved:(unsigned long long)e ;
+ - (void) addConnection:(id)a toRunLoop:(id)b forMode:(id)c ;
+ - (id) initWithMachPort:(unsigned int)a options:(unsigned long long)b ;
+ - (void) handlePortMessage:(id)a ;
+ - (BOOL) sendBeforeTime:(double)a streamData:(^v)b components:(id)c from:(id)d msgid:(unsigned int)e ;
  - (id) retain;
  - (Vv) release;
  - (unsigned long long) retainCount;
@@ -28,18 +28,18 @@
  - (void) finalize;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
- - (BOOL) isKindOfClass:(Class)a;
+ - (BOOL) isKindOfClass:(Class)a ;
  - (void) invalidate;
  - (unsigned int) machPort;
  - (BOOL) isValid;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned long long) _cfTypeID;
- - (void) setDelegate:(id)a;
- - (void) scheduleInRunLoop:(id)aforMode:(id)b;
- - (void) removeFromRunLoop:(id)aforMode:(id)b;
+ - (void) setDelegate:(id)a ;
+ - (void) scheduleInRunLoop:(id)a forMode:(id)b ;
+ - (void) removeFromRunLoop:(id)a forMode:(id)b ;
  - (id) init;
- - (BOOL) isMemberOfClass:(Class)a;
+ - (BOOL) isMemberOfClass:(Class)a ;
  - (id) delegate;
 
 

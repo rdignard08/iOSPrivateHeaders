@@ -28,33 +28,33 @@
  + (id) styleWithFontName:(id)awithFontSize:(double)b;
  + (id) styleWithTextColor:(id)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (long long) selector;
  - (id) description;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
- - (void) setTextColor:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setTextColor:(id)a ;
  - (id) textColor;
- - (void) setMinFontSize:(double)a;
+ - (void) setMinFontSize:(double)a ;
  - (double) minFontSize;
- - (void) setFontSize:(double)a;
- - (void) setTextOffset:({CGPoint=dd})a;
- - (void) setPathWeight:(double)a;
+ - (void) setFontSize:(double)a ;
+ - (void) setTextOffset:({CGPoint=dd})a ;
+ - (void) setPathWeight:(double)a ;
  - ({CGPoint=dd}) textOffset;
- - (void) setKerning:(double)a;
- - (void) setTextOpacity:(double)a;
+ - (void) setKerning:(double)a ;
+ - (void) setTextOpacity:(double)a ;
  - (double) kerning;
  - (double) textOpacity;
  - (id) etchColor;
  - ({CGPoint=dd}) etchOffset;
  - (double) pathWeight;
- - (void) setEtchColor:(id)a;
- - (void) setEtchOffset:({CGPoint=dd})a;
- - (void) overlayWithStyle:(id)a;
+ - (void) setEtchColor:(id)a ;
+ - (void) setEtchOffset:({CGPoint=dd})a ;
+ - (void) overlayWithStyle:(id)a ;
  - (id) init;
- - (void) setSelector:(long long)a;
+ - (void) setSelector:(long long)a ;
  - (id) fontName;
- - (void) setFontName:(id)a;
+ - (void) setFontName:(id)a ;
  - (double) fontSize;
 
 

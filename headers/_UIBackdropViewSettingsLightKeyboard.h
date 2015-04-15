@@ -5,7 +5,7 @@
 
  - (void) setDefaultValues;
  - (BOOL) _shouldUseDarkeningTintLayer;
- - (id) _defaultColorTintColorWithOpacity:(double)a;
+ - (id) _defaultColorTintColorWithOpacity:(double)a ;
 
 
 @end

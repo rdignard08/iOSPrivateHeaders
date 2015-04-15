@@ -3,8 +3,8 @@
 
 }
 
- - (BOOL) shouldShowInternalItemType:(int)awithScreenCapabilities:(id)b;
- - (double) heightForMetrics:(long long)a;
+ - (BOOL) shouldShowInternalItemType:(int)a withScreenCapabilities:(id)b ;
+ - (double) heightForMetrics:(long long)a ;
  - (Class) foregroundStyleClass;
 
 

@@ -5,7 +5,7 @@
 }
 
  - (id) inputController;
- - (void) setInputController:(id)a;
+ - (void) setInputController:(id)a ;
  - (void) removeAllActions;
 
 

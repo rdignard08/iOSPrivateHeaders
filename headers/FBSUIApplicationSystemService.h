@@ -10,14 +10,14 @@
 @property (nonatomic, assign, readonly) NSNumber* backgroundTimeRemaining;
 @property (nonatomic, assign, readwrite) NSNumber* currentBacklightLevel;
 
- - (id) initWithQueue:(id)a;
+ - (id) initWithQueue:(id)a ;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
- - (void) setBadgeString:(id)a;
+ - (void) setDelegate:(id)a ;
+ - (void) setBadgeString:(id)a ;
  - (long long) badgeNumber;
- - (void) setBadgeNumber:(long long)a;
- - (BOOL) setNextWakeInterval:(double)a;
- - (void) setCurrentBacklightLevel:(double)a;
+ - (void) setBadgeNumber:(long long)a ;
+ - (BOOL) setNextWakeInterval:(double)a ;
+ - (void) setCurrentBacklightLevel:(double)a ;
  - (double) currentBacklightLevel;
  - (id) init;
  - (id) delegate;

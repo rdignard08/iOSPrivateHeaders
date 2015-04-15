@@ -13,16 +13,16 @@
 
  - (id) description;
  - (void) dealloc;
- - (id) initWithISize:(unsigned long long)ajSize:(unsigned long long)b;
+ - (id) initWithISize:(unsigned long long)a jSize:(unsigned long long)b ;
  - (long long) ;
- - (BOOL) inBoundsForIIndex:(unsigned long long)ajIndex:(unsigned long long)b;
- - (void) assertBoundsForIIndex:(unsigned long long)ajIndex:(unsigned long long)b;
- - (long long) outOfBoundsReturnValue:(unsigned long long)a;
- - (void) newValue:(unsigned long long)a;
+ - (BOOL) inBoundsForIIndex:(unsigned long long)a jIndex:(unsigned long long)b ;
+ - (void) assertBoundsForIIndex:(unsigned long long)a jIndex:(unsigned long long)b ;
+ - (long long) outOfBoundsReturnValue:(unsigned long long)a ;
+ - (void) newValue:(unsigned long long)a ;
  - (unsigned long long) iSize;
  - (unsigned long long) jSize;
  - (BOOL) shouldBoundsCheck;
- - (void) setShouldBoundsCheck:(BOOL)a;
+ - (void) setShouldBoundsCheck:(BOOL)a ;
 
 
 @end

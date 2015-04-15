@@ -11,11 +11,11 @@
 
  - (void) dealloc;
  - (id) cell;
- - (id) initWithCell:(id)aindexPath:(id)b;
+ - (id) initWithCell:(id)a indexPath:(id)b ;
  - (id) originalIndexPath;
- - (void) setOriginalIndexPath:(id)a;
+ - (void) setOriginalIndexPath:(id)a ;
  - (id) targetIndexPath;
- - (void) setTargetIndexPath:(id)a;
+ - (void) setTargetIndexPath:(id)a ;
 
 
 @end

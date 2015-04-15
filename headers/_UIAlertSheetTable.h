@@ -3,7 +3,7 @@
 
 }
 
- - (void) drawExtraSeparator:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawExtraSeparator:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

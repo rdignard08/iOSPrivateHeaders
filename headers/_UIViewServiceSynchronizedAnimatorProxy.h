@@ -6,8 +6,8 @@
  + (id) proxyWithTarget:(id)aremoteOperator:(id)b;
 
  - (void) dealloc;
- - (BOOL) animateAlongsideTransition:(@?)acompletion:(@?)b;
- - (BOOL) animateAlongsideTransitionInView:(id)aanimation:(@?)bcompletion:(@?)c;
+ - (BOOL) animateAlongsideTransition:(@?)a completion:(@?)b ;
+ - (BOOL) animateAlongsideTransitionInView:(id)a animation:(@?)b completion:(@?)c ;
 
 
 @end

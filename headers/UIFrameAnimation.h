@@ -6,11 +6,11 @@
     int _fieldsToChange;
 }
 
- - (id) initWithTarget:(id)a;
- - (void) setProgress:(float)a;
- - (void) setStartFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setSignificantRectFields:(int)a;
+ - (id) initWithTarget:(id)a ;
+ - (void) setProgress:(float)a ;
+ - (void) setStartFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setSignificantRectFields:(int)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) endFrame;
 
 

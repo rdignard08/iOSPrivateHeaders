@@ -4,7 +4,7 @@
 }
  + (double) cornerRadius;
 
- - (id) _shadowPathForRect:({CGRect={CGPoint=dd}{CGSize=dd}})aarrowDirection:(unsigned long long)b;
+ - (id) _shadowPathForRect:({CGRect={CGPoint=dd}{CGSize=dd}})a arrowDirection:(unsigned long long)b ;
 
 
 @end

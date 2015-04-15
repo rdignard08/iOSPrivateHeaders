@@ -28,13 +28,13 @@
 @property (nonatomic, assign, readonly) NSNumber* canMoveCursorRight;
  + (id) traitsWithResponder:(id)akeyMaskFlags:(unsigned long long)b;
 
- - (id) initWithResponder:(id)akeyMaskFlags:(unsigned long long)b;
+ - (id) initWithResponder:(id)a keyMaskFlags:(unsigned long long)b ;
  - (BOOL) canToggleBoldface;
  - (BOOL) canToggleItalics;
  - (BOOL) canToggleUnderline;
  - (BOOL) supportStyling;
  - (BOOL) canCut;
- - (void) setCanCut:(BOOL)a;
+ - (void) setCanCut:(BOOL)a ;
  - (BOOL) canCopy;
  - (BOOL) canPaste;
  - (BOOL) canMoveCursorLeft;

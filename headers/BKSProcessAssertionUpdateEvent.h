@@ -9,10 +9,10 @@
  - (id) description;
  - (void) dealloc;
  - (id) name;
- - (void) setName:(id)a;
- - (void) setFlags:(unsigned int)a;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (void) setName:(id)a ;
+ - (void) setFlags:(unsigned int)a ;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
 
 
 @end

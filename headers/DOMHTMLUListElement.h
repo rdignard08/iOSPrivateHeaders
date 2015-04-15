@@ -4,9 +4,9 @@
 }
 
  - (BOOL) compact;
- - (void) setType:(id)a;
+ - (void) setType:(id)a ;
  - (id) type;
- - (void) setCompact:(BOOL)a;
+ - (void) setCompact:(BOOL)a ;
 
 
 @end

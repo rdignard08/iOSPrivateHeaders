@@ -9,11 +9,11 @@
 }
 
  - (void) dealloc;
- - (void) setLeftImage:(id)amiddleImage:(id)brightImage:(id)c;
- - (void) setInset:(double)a;
- - (void) setShift:(double)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setLeftImage:(id)a middleImage:(id)b rightImage:(id)c ;
+ - (void) setInset:(double)a ;
+ - (void) setShift:(double)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

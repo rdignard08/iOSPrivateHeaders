@@ -9,8 +9,8 @@
 @property (nonatomic, assign, readonly) NSNumber* slotLength;
 
  - (void) dealloc;
- - (id) nextSlotWithBytes:(r^v)alength:(unsigned long long)b;
- - (id) initWithLabel:(r*)aslotLength:(unsigned long long)b;
+ - (id) nextSlotWithBytes:(r^v)a length:(unsigned long long)b ;
+ - (id) initWithLabel:(r*)a slotLength:(unsigned long long)b ;
  - (unsigned long long) slotLength;
 
 

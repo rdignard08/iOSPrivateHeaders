@@ -11,8 +11,8 @@
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
 
  - (Class) classForCoder;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (id) retain;
  - (Vv) release;
  - (unsigned long long) retainCount;
@@ -21,14 +21,14 @@
  - (BOOL) _isDeallocating;
  - (unsigned long long) count;
  - (void) removeAllObjects;
- - (id) objectForKey:(id)a;
- - (void) removeObjectForKey:(id)a;
+ - (id) objectForKey:(id)a ;
+ - (void) removeObjectForKey:(id)a ;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
+ - (BOOL) isEqual:(id)a ;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})a objects:(^@)b count:(unsigned long long)c ;
  - (id) keyEnumerator;
- - (void) setObject:(id)aforKey:(id)b;
- - (void) setObservationInfo:(^v)a;
+ - (void) setObject:(id)a forKey:(id)b ;
+ - (void) setObservationInfo:(^v)a ;
 
 
 @end

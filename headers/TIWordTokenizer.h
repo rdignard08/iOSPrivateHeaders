@@ -10,10 +10,10 @@
 
  - (void) dealloc;
  - (id) init;
- - (void) setString:(id)awithSearchRange:({_NSRange=QQ})b;
+ - (void) setString:(id)a withSearchRange:({_NSRange=QQ})b ;
  - ({_NSRange=QQ}) advanceToNextToken;
  - ({_NSRange=QQ}) rangeOfCurrentToken;
- - (id) allTokensForString:(id)a;
+ - (id) allTokensForString:(id)a ;
 
 
 @end

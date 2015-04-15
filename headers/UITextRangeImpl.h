@@ -10,13 +10,13 @@
  - (id) description;
  - (void) dealloc;
  - (BOOL) isEmpty;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) end;
  - (long long) affinity;
  - (id) domRange;
- - (void) setDomRange:(id)a;
- - (void) setAffinity:(long long)a;
- - (void) adjustAffinityOfPosition:(id)aisStart:(BOOL)b;
+ - (void) setDomRange:(id)a ;
+ - (void) setAffinity:(long long)a ;
+ - (void) adjustAffinityOfPosition:(id)a isStart:(BOOL)b ;
  - (id) start;
 
 

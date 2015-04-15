@@ -11,13 +11,13 @@
  - (id) description;
  - (void) dealloc;
  - (id) name;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
  - (@?) handler;
  - (void) executeFromEventQueue;
- - (void) setHandler:(@?)a;
+ - (void) setHandler:(@?)a ;
  - (void) _execute;
  - (void) execute;
- - (BOOL) isEqualToEvent:(id)a;
+ - (BOOL) isEqualToEvent:(id)a ;
 
 
 @end

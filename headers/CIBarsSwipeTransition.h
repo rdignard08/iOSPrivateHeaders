@@ -13,16 +13,16 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
  - (id) inputAngle;
- - (void) setInputAngle:(id)a;
- - (void) setInputWidth:(id)a;
+ - (void) setInputAngle:(id)a ;
+ - (void) setInputWidth:(id)a ;
  - (id) inputWidth;
- - (void) setInputTime:(id)a;
+ - (void) setInputTime:(id)a ;
  - (id) inputTargetImage;
- - (void) setInputTargetImage:(id)a;
- - (void) setInputBarOffset:(id)a;
+ - (void) setInputTargetImage:(id)a ;
+ - (void) setInputBarOffset:(id)a ;
  - (id) inputBarOffset;
  - (id) inputTime;
 

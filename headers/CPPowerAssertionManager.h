@@ -15,19 +15,19 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) init;
  - (id) delegate;
  - (id) uuid;
- - (void) retainPowerAssertionWithContext:(id)awithGroupIdentifier:(id)b;
+ - (void) retainPowerAssertionWithContext:(id)a withGroupIdentifier:(id)b ;
  - (void) _retainAssertions;
  - (void) _releaseAssertions;
- - (unsigned long long) retainCountForContext:(id)a;
- - (void) setUUIDPrefix:(id)a;
- - (void) retainPowerAssertionWithContext:(id)a;
- - (void) releasePowerAssertionWithContext:(id)a;
- - (void) temporarilyReleasePowerAssertionsForGroupIdentifier:(id)a;
- - (void) reretainPowerAssertionsForGroupIdentifier:(id)a;
+ - (unsigned long long) retainCountForContext:(id)a ;
+ - (void) setUUIDPrefix:(id)a ;
+ - (void) retainPowerAssertionWithContext:(id)a ;
+ - (void) releasePowerAssertionWithContext:(id)a ;
+ - (void) temporarilyReleasePowerAssertionsForGroupIdentifier:(id)a ;
+ - (void) reretainPowerAssertionsForGroupIdentifier:(id)a ;
 
 
 @end

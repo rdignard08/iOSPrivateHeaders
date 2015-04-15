@@ -11,16 +11,16 @@
 
  - (void) dealloc;
  - (void) show;
- - (void) dismissWithClickedButtonIndex:(long long)aanimated:(BOOL)b;
- - (long long) addButtonWithTitle:(id)a;
- - (id) textFieldAtIndex:(long long)a;
+ - (void) dismissWithClickedButtonIndex:(long long)a animated:(BOOL)b ;
+ - (long long) addButtonWithTitle:(id)a ;
+ - (id) textFieldAtIndex:(long long)a ;
  - (BOOL) runsModal;
- - (void) setRunsModal:(BOOL)a;
- - (void) setRemoteViewController:(id)a;
+ - (void) setRunsModal:(BOOL)a ;
+ - (void) setRemoteViewController:(id)a ;
  - (void) _removeObservervations;
  - (void) cancelAlertView;
  - (void) _cancelUserNotification;
- - (void) setHostedWindow:(id)a;
+ - (void) setHostedWindow:(id)a ;
  - (BOOL) isVisible;
 
 

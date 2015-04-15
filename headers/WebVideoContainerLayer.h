@@ -3,7 +3,7 @@
 
 }
 
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

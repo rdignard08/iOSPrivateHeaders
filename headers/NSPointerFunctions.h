@@ -14,14 +14,14 @@
  + (id) allocWithZone:(^{_NSZone=})a;
  + (id) pointerFunctionsWithOptions:(unsigned long long)a;
 
- - (id) initWithOptions:(unsigned long long)a;
- - (void) setHashFunction:(^?)a;
- - (void) setIsEqualFunction:(^?)a;
- - (void) setSizeFunction:(^?)a;
- - (void) setAcquireFunction:(^?)a;
- - (void) setRelinquishFunction:(^?)a;
- - (void) setUsesStrongWriteBarrier:(BOOL)a;
- - (void) setUsesWeakReadAndWriteBarriers:(BOOL)a;
+ - (id) initWithOptions:(unsigned long long)a ;
+ - (void) setHashFunction:(^?)a ;
+ - (void) setIsEqualFunction:(^?)a ;
+ - (void) setSizeFunction:(^?)a ;
+ - (void) setAcquireFunction:(^?)a ;
+ - (void) setRelinquishFunction:(^?)a ;
+ - (void) setUsesStrongWriteBarrier:(BOOL)a ;
+ - (void) setUsesWeakReadAndWriteBarriers:(BOOL)a ;
  - (^?) sizeFunction;
  - (^?) hashFunction;
  - (^?) isEqualFunction;
@@ -30,8 +30,8 @@
  - (^?) relinquishFunction;
  - (BOOL) usesStrongWriteBarrier;
  - (BOOL) usesWeakReadAndWriteBarriers;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (void) setDescriptionFunction:(^?)a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (void) setDescriptionFunction:(^?)a ;
 
 
 @end

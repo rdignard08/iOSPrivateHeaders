@@ -4,7 +4,7 @@
     NSBundle* nsBundle;
 }
 
- - (id) initWithPath:(id)a;
+ - (id) initWithPath:(id)a ;
  - (BOOL) load;
  - (void) dealloc;
  - (Class) viewFactory;

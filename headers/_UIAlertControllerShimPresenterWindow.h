@@ -5,9 +5,9 @@
 }
  + (BOOL) _isSystemWindow;
 
- - (BOOL) _shouldAutorotateToInterfaceOrientation:(long long)a;
+ - (BOOL) _shouldAutorotateToInterfaceOrientation:(long long)a ;
  - (id) alertController;
- - (void) presentAlertController:(id)aanimated:(BOOL)bcompletionBlock:(@?)c;
+ - (void) presentAlertController:(id)a animated:(BOOL)b completionBlock:(@?)c ;
  - (id) _presentationViewController;
  - (id) init;
 

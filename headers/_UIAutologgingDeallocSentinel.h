@@ -9,9 +9,9 @@
 
  - (void) dealloc;
  - (id) message;
- - (void) setMessage:(id)a;
+ - (void) setMessage:(id)a ;
  - (BOOL) called;
- - (void) setCalled:(BOOL)a;
+ - (void) setCalled:(BOOL)a ;
 
 
 @end

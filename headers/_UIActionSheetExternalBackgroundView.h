@@ -4,7 +4,7 @@
 }
 
  - (void) layoutSubviews;
- - (void) setMaskImage:(id)a;
+ - (void) setMaskImage:(id)a ;
 
 
 @end

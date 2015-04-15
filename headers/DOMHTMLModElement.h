@@ -4,9 +4,9 @@
 }
 
  - (id) cite;
- - (void) setCite:(id)a;
+ - (void) setCite:(id)a ;
  - (id) dateTime;
- - (void) setDateTime:(id)a;
+ - (void) setDateTime:(id)a ;
 
 
 @end

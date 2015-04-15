@@ -7,7 +7,7 @@
 @property (atomic, copy, readwrite) NSString* name;
  + (id) allocWithZone:(^{_NSZone=})a;
 
- - (BOOL) lockBeforeDate:(id)a;
+ - (BOOL) lockBeforeDate:(id)a ;
  - (BOOL) tryLock;
  - (id) description;
  - (void) dealloc;
@@ -16,7 +16,7 @@
  - (void) unlock;
  - (id) name;
  - (id) init;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
 
 
 @end

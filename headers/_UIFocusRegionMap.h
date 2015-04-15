@@ -13,26 +13,26 @@
  + (BOOL) supportsSecureCoding;
 
  - (void) dealloc;
- - (id) initWithContainingView:(id)a;
- - (void) setWindowSize:({CGSize=dd})a;
- - (id) closestFocusableViewFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainDirection:({CGSize=dd})bincludeCurrentlyFocused:(BOOL)c;
+ - (id) initWithContainingView:(id)a ;
+ - (void) setWindowSize:({CGSize=dd})a ;
+ - (id) closestFocusableViewFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a inDirection:({CGSize=dd})b includeCurrentlyFocused:(BOOL)c ;
  - (id) linearlyOrderedFocusViews;
- - (void) setContainingView:(id)a;
- - (void) _punchHoleInMapAtFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setContainingView:(id)a ;
+ - (void) _punchHoleInMapAtFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (void) _buildRegionMap;
  - (id) linearlyOrderedFocusRegionMaps;
- - (void) addUnfocusableView:(id)awithFrameInWindow:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) addFocusableView:(id)awithFrameInWindow:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ - (void) addUnfocusableView:(id)a withFrameInWindow:({CGRect={CGPoint=dd}{CGSize=dd}})b ;
+ - (void) addFocusableView:(id)a withFrameInWindow:({CGRect={CGPoint=dd}{CGSize=dd}})b ;
  - (id) containingView;
  - (id) debuggingImage;
- - (id) closestFocusableViewFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainDirection:({CGSize=dd})b;
+ - (id) closestFocusableViewFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a inDirection:({CGSize=dd})b ;
  - (id) debugQuickLookObject;
  - ({CGSize=dd}) windowSize;
  - (id) mapEntries;
- - (void) setMapEntries:(id)a;
+ - (void) setMapEntries:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

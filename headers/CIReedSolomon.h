@@ -8,26 +8,26 @@
     ^{?=^ii} _cachedGenerators;
 }
 
- - (^{?=^ii}) divide:(^{?=^ii})aby:(^{?=^ii})b;
+ - (^{?=^ii}) divide:(^{?=^ii})a by:(^{?=^ii})b ;
  - (void) dealloc;
  - (id) initReedSolomon;
- - (BOOL) encode:(^i)alength:(int)bbytes:(int)c;
- - (BOOL) fillPoly:(^{?=^ii})acoefficients:(^i)blength:(int)c;
- - (void) clearPoly:(^{?=^ii})a;
- - (BOOL) isZero:({?=^ii})a;
- - (^{?=^ii}) copyPoly:(^{?=^ii})a;
- - (int) addOrSubtract:(int)awith:(int)b;
- - (int) multiply:(int)awith:(int)b;
- - (int) Degree:({?=^ii})a;
- - (int) polyCoefficient:(^{?=^ii})adegree:(int)b;
- - (int) inverse:(int)a;
- - (^{?=^ii}) multiplyByMonomial:(^{?=^ii})adegree:(int)bcoefficient:(int)c;
- - (^{?=^ii}) addOrSubtractPoly:(^{?=^ii})awith:(^{?=^ii})b;
- - (int) Exp:(int)a;
- - (^{?=^ii}) multiplyPoly:(^{?=^ii})awith:(^{?=^ii})b;
- - (^{?=^ii}) buildGenerator:(int)a;
- - (^{?=^ii}) createMonomial:(int)acoefficient:(int)b;
- - (^i) coefficients:({?=^ii})a;
+ - (BOOL) encode:(^i)a length:(int)b bytes:(int)c ;
+ - (BOOL) fillPoly:(^{?=^ii})a coefficients:(^i)b length:(int)c ;
+ - (void) clearPoly:(^{?=^ii})a ;
+ - (BOOL) isZero:({?=^ii})a ;
+ - (^{?=^ii}) copyPoly:(^{?=^ii})a ;
+ - (int) addOrSubtract:(int)a with:(int)b ;
+ - (int) multiply:(int)a with:(int)b ;
+ - (int) Degree:({?=^ii})a ;
+ - (int) polyCoefficient:(^{?=^ii})a degree:(int)b ;
+ - (int) inverse:(int)a ;
+ - (^{?=^ii}) multiplyByMonomial:(^{?=^ii})a degree:(int)b coefficient:(int)c ;
+ - (^{?=^ii}) addOrSubtractPoly:(^{?=^ii})a with:(^{?=^ii})b ;
+ - (int) Exp:(int)a ;
+ - (^{?=^ii}) multiplyPoly:(^{?=^ii})a with:(^{?=^ii})b ;
+ - (^{?=^ii}) buildGenerator:(int)a ;
+ - (^{?=^ii}) createMonomial:(int)a coefficient:(int)b ;
+ - (^i) coefficients:({?=^ii})a ;
 
 
 @end

@@ -9,8 +9,8 @@
 
  - (void) dealloc;
  - (long long) count;
- - (BOOL) lookupKey:(id)aidentifier:(^q)b;
- - (id) initWithKeysTransferingOwnership:(^@)acount:(unsigned long long)b;
+ - (BOOL) lookupKey:(id)a identifier:(^q)b ;
+ - (id) initWithKeysTransferingOwnership:(^@)a count:(unsigned long long)b ;
 
 
 @end

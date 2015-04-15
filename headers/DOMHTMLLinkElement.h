@@ -4,26 +4,26 @@
 }
 
  - (id) target;
- - (void) setType:(id)a;
- - (void) setTarget:(id)a;
+ - (void) setType:(id)a ;
+ - (void) setTarget:(id)a ;
  - (id) absoluteLinkURL;
  - (id) href;
- - (void) setHref:(id)a;
+ - (void) setHref:(id)a ;
  - (id) rel;
- - (void) setRel:(id)a;
- - (BOOL) _mediaQueryMatchesForOrientation:(int)a;
+ - (void) setRel:(id)a ;
+ - (BOOL) _mediaQueryMatchesForOrientation:(int)a ;
  - (BOOL) disabled;
  - (id) type;
- - (void) setDisabled:(BOOL)a;
+ - (void) setDisabled:(BOOL)a ;
  - (BOOL) _mediaQueryMatches;
  - (id) media;
  - (id) charset;
- - (void) setCharset:(id)a;
+ - (void) setCharset:(id)a ;
  - (id) hreflang;
- - (void) setHreflang:(id)a;
+ - (void) setHreflang:(id)a ;
  - (id) rev;
- - (void) setRev:(id)a;
- - (void) setMedia:(id)a;
+ - (void) setRev:(id)a ;
+ - (void) setMedia:(id)a ;
  - (id) sheet;
 
 

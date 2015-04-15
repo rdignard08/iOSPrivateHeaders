@@ -11,24 +11,24 @@
 }
 
  - (void) dealloc;
- - (void) willMoveToSuperview:(id)a;
- - (void) searchBar:(id)atextDidChange:(id)b;
- - (void) searchBarTextDidBeginEditing:(id)a;
+ - (void) willMoveToSuperview:(id)a ;
+ - (void) searchBar:(id)a textDidChange:(id)b ;
+ - (void) searchBarTextDidBeginEditing:(id)a ;
  - (id) serviceViewController;
- - (void) setPalette:(id)a;
- - (void) setSearchModel:(id)a;
+ - (void) setPalette:(id)a ;
+ - (void) setSearchModel:(id)a ;
  - (id) searchModel;
- - (void) setResultsController:(id)a;
+ - (void) setResultsController:(id)a ;
  - (id) resultsController;
- - (void) setSearchController:(id)a;
+ - (void) setSearchController:(id)a ;
  - (id) searchController;
  - (id) palette;
- - (void) searchCanceled:(id)a;
+ - (void) searchCanceled:(id)a ;
  - (id) searchFieldLeftConstraint;
- - (void) setSearchFieldLeftConstraint:(id)a;
+ - (void) setSearchFieldLeftConstraint:(id)a ;
  - (id) searchFieldRightConstraint;
- - (void) setSearchFieldRightConstraint:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setSearchFieldRightConstraint:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

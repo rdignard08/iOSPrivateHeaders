@@ -3,7 +3,7 @@
 
 }
 
- - (id) _traitsForKey:(id)aonKeyplane:(id)b;
+ - (id) _traitsForKey:(id)a onKeyplane:(id)b ;
  - (id) multitapCompleteKeyImageName;
  - (id) muttitapReverseKeyImageName;
  - (id) shiftKeyImageName;
@@ -34,7 +34,7 @@
  - ({UIEdgeInsets=dddd}) variantSymbolFrameInsets;
  - ({UIEdgeInsets=dddd}) variantPaddedFrameInsets;
  - (BOOL) isTallPopup;
- - (id) variantGeometriesForGeometry:(id)avariantCount:(unsigned long long)browLimit:(long long)c;
+ - (id) variantGeometriesForGeometry:(id)a variantCount:(unsigned long long)b rowLimit:(long long)c ;
  - (double) _row4ControlSegmentWidth;
 
 

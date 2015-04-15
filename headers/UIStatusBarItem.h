@@ -19,19 +19,19 @@
  - (id) description;
  - (BOOL) appearsOnLeft;
  - (BOOL) appearsOnRight;
- - (BOOL) appearsInRegion:(int)a;
- - (long long) comparePriority:(id)a;
+ - (BOOL) appearsInRegion:(int)a ;
+ - (long long) comparePriority:(id)a ;
  - (id) indicatorName;
  - (int) leftOrder;
  - (int) rightOrder;
  - (int) centerOrder;
  - (Class) viewClass;
- - (long long) compareLeftOrder:(id)a;
- - (long long) compareRightOrder:(id)a;
- - (long long) compareCenterOrder:(id)a;
+ - (long long) compareLeftOrder:(id)a ;
+ - (long long) compareRightOrder:(id)a ;
+ - (long long) compareCenterOrder:(id)a ;
  - (int) type;
  - (int) priority;
- - (id) initWithType:(int)a;
+ - (id) initWithType:(int)a ;
 
 
 @end

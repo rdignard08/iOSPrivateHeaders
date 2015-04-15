@@ -30,7 +30,7 @@
  - (void) dealloc;
  - (id) data;
  - (id) name;
- - (void) setExifOrientation:(int)a;
+ - (void) setExifOrientation:(int)a ;
  - (long long) type;
  - (r^{_renditionkeytoken=SS}) key;
  - (long long) templateRenderingMode;
@@ -41,33 +41,33 @@
  - (unsigned long long) colorSpaceID;
  - (id) gradient;
  - (id) effectPreset;
- - (void) setBlendMode:(int)a;
+ - (void) setBlendMode:(int)a ;
  - (int) exifOrientation;
- - (void) _initializeRenditionKey:(r^{_renditionkeytoken=SS})a;
- - (unsigned short) valueForTokenIdentifier:(unsigned short)a;
+ - (void) _initializeRenditionKey:(r^{_renditionkeytoken=SS})a ;
+ - (unsigned short) valueForTokenIdentifier:(unsigned short)a ;
  - (BOOL) isTiled;
- - (id) imageForSliceIndex:(long long)a;
+ - (id) imageForSliceIndex:(long long)a ;
  - (BOOL) isScaled;
- - (id) maskForSliceIndex:(long long)a;
+ - (id) maskForSliceIndex:(long long)a ;
  - (^{CGImage=}) unslicedImage;
  - (id) metrics;
  - (id) sliceInformation;
  - (double) gradientDrawingAngle;
- - (id) initWithCSIData:(id)aforKey:(r^{_renditionkeytoken=SS})bartworkStatus:(long long)c;
+ - (id) initWithCSIData:(id)a forKey:(r^{_renditionkeytoken=SS})b artworkStatus:(long long)c ;
  - (BOOL) isHeaderFlaggedFPO;
  - (long long) artworkStatus;
- - (id) _initWithCSIHeader:(r^{_csiheader=IIIIIIIb4b28{_csimetadata=ISS[128c]}I{_csibitmaplist=I[0I]}})a;
- - (id) _initWithCSIData:(id)aforKey:(r^{_renditionkeytoken=SS})bartworkStatus:(long long)c;
+ - (id) _initWithCSIHeader:(r^{_csiheader=IIIIIIIb4b28{_csimetadata=ISS[128c]}I{_csibitmaplist=I[0I]}})a ;
+ - (id) _initWithCSIData:(id)a forKey:(r^{_renditionkeytoken=SS})b artworkStatus:(long long)c ;
  - (^{CGPDFDocument=}) pdfDocument;
- - (void) _initializeTypeIdentifiersWithLayout:(unsigned short)a;
- - (void) _initializeCompositingOptionsFromCSIData:(r^{_csiheader=IIIIIIIb4b28{_csimetadata=ISS[128c]}I{_csibitmaplist=I[0I]}})a;
- - (void) _initalizeMetadataFromCSIData:(r^{_csiheader=IIIIIIIb4b28{_csimetadata=ISS[128c]}I{_csibitmaplist=I[0I]}})a;
- - (id) initWithCSIData:(id)aforKey:(r^{_renditionkeytoken=SS})b;
- - (BOOL) isValidForLookGradation:(long long)a;
+ - (void) _initializeTypeIdentifiersWithLayout:(unsigned short)a ;
+ - (void) _initializeCompositingOptionsFromCSIData:(r^{_csiheader=IIIIIIIb4b28{_csimetadata=ISS[128c]}I{_csibitmaplist=I[0I]}})a ;
+ - (void) _initalizeMetadataFromCSIData:(r^{_csiheader=IIIIIIIb4b28{_csimetadata=ISS[128c]}I{_csibitmaplist=I[0I]}})a ;
+ - (id) initWithCSIData:(id)a forKey:(r^{_renditionkeytoken=SS})b ;
+ - (BOOL) isValidForLookGradation:(long long)a ;
  - (unsigned int) subtype;
  - (double) opacity;
  - (BOOL) isOpaque;
- - (void) setOpacity:(double)a;
+ - (void) setOpacity:(double)a ;
 
 
 @end

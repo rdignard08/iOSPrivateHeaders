@@ -16,7 +16,7 @@
  - (int) size;
  - (id) description;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) faceRect;
- - (id) initWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})aandImage:(id)busingContext:(id)c;
+ - (id) initWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a andImage:(id)b usingContext:(id)c ;
  - (int) centerX;
  - (int) centerY;
  - (double) I;

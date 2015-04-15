@@ -3,7 +3,7 @@
 
 }
 
- - (unsigned long long) recognizeString:(r*)awithDataLength:(unsigned long long)bwithReplacement:(r*)cwithReplacementLength:(unsigned long long)dinNewData:(char*)emaxBufferLength:(unsigned long long)factualBufferLength:(^Q)g;
+ - (unsigned long long) recognizeString:(r*)a withDataLength:(unsigned long long)b withReplacement:(r*)c withReplacementLength:(unsigned long long)d inNewData:(char*)e maxBufferLength:(unsigned long long)f actualBufferLength:(^Q)g ;
  - (id) init;
 
 

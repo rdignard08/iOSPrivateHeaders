@@ -8,19 +8,19 @@
  - (BOOL) disabled;
  - (id) challenge;
  - (id) type;
- - (void) setName:(id)a;
- - (void) setDisabled:(BOOL)a;
+ - (void) setName:(id)a ;
+ - (void) setDisabled:(BOOL)a ;
  - (BOOL) autofocus;
- - (void) setAutofocus:(BOOL)a;
+ - (void) setAutofocus:(BOOL)a ;
  - (BOOL) willValidate;
  - (id) validity;
  - (id) validationMessage;
  - (id) labels;
  - (BOOL) checkValidity;
- - (void) setCustomValidity:(id)a;
- - (void) setChallenge:(id)a;
+ - (void) setCustomValidity:(id)a ;
+ - (void) setChallenge:(id)a ;
  - (id) keytype;
- - (void) setKeytype:(id)a;
+ - (void) setKeytype:(id)a ;
 
 
 @end

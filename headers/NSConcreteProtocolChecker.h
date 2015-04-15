@@ -6,7 +6,7 @@
 }
 
  - (id) target;
- - (id) initWithTarget:(id)aprotocol:(id)b;
+ - (id) initWithTarget:(id)a protocol:(id)b ;
  - (void) dealloc;
  - (id) protocol;
 

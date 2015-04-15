@@ -14,18 +14,18 @@
 @property (atomic, copy, readonly) NSString* authenticationMethod;
  + (BOOL) supportsSecureCoding;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) host;
  - (long long) port;
  - (id) init;
  - (BOOL) isProxy;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) _initWithCFURLProtectionSpace:(^{_CFURLProtectionSpace=})a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) _initWithCFURLProtectionSpace:(^{_CFURLProtectionSpace=})a ;
  - (^{_CFURLProtectionSpace=}) _cfurlprtotectionspace;
  - (id) _internalInit;
  - (id) authenticationMethod;
@@ -34,8 +34,8 @@
  - (BOOL) receivesCredentialSecurely;
  - (id) protocol;
  - (^{_CFURLProtectionSpace=}) _CFURLProtectionSpace;
- - (id) initWithProxyHost:(id)aport:(long long)btype:(id)crealm:(id)dauthenticationMethod:(id)e;
- - (id) initWithHost:(id)aport:(long long)bprotocol:(id)crealm:(id)dauthenticationMethod:(id)e;
+ - (id) initWithProxyHost:(id)a port:(long long)b type:(id)c realm:(id)d authenticationMethod:(id)e ;
+ - (id) initWithHost:(id)a port:(long long)b protocol:(id)c realm:(id)d authenticationMethod:(id)e ;
  - (id) distinguishedNames;
  - (^{__SecTrust=}) serverTrust;
 

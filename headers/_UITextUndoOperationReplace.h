@@ -6,7 +6,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithAffectedRange:({_NSRange=QQ})ainputController:(id)breplacementRange:({_NSRange=QQ})c;
+ - (id) initWithAffectedRange:({_NSRange=QQ})a inputController:(id)b replacementRange:({_NSRange=QQ})c ;
  - (void) undoRedo;
 
 

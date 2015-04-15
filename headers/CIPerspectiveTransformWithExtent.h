@@ -10,20 +10,20 @@
 }
  + (id) customAttributes;
 
- - (void) setInputExtent:(id)a;
+ - (void) setInputExtent:(id)a ;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) inputExtent;
  - (id) _kernel;
  - (id) inputTopLeft;
- - (void) setInputTopLeft:(id)a;
+ - (void) setInputTopLeft:(id)a ;
  - (id) inputTopRight;
- - (void) setInputTopRight:(id)a;
+ - (void) setInputTopRight:(id)a ;
  - (id) inputBottomRight;
- - (void) setInputBottomRight:(id)a;
+ - (void) setInputBottomRight:(id)a ;
  - (id) inputBottomLeft;
- - (void) setInputBottomLeft:(id)a;
+ - (void) setInputBottomLeft:(id)a ;
 
 
 @end

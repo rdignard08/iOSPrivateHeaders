@@ -12,17 +12,17 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) gestureRecognizerDeallocated:(id)a;
+ - (void) gestureRecognizerDeallocated:(id)a ;
  - (void) reloadFailureMap;
- - (void) gestureRecognizerFinished:(id)awithEvent:(id)b;
- - (BOOL) isGestureRecognizerWaitingForGestureRecognizersToFail:(id)a;
+ - (void) gestureRecognizerFinished:(id)a withEvent:(id)b ;
+ - (BOOL) isGestureRecognizerWaitingForGestureRecognizersToFail:(id)a ;
  - (BOOL) hasUnmetFailureRequirementsOrDependents;
- - (void) gestureRecognizerBecameDirty:(id)a;
+ - (void) gestureRecognizerBecameDirty:(id)a ;
  - (void) rebuildFailureMap;
  - (void) _rebuildFailureMapDefferingRelease;
- - (void) _gestureRecognizerFinished:(id)awithEvent:(id)b;
+ - (void) _gestureRecognizerFinished:(id)a withEvent:(id)b ;
  - (void) _queueRecognizersForResetIfFinished;
- - (id) initWithRelatedGestures:(id)a;
+ - (id) initWithRelatedGestures:(id)a ;
 
 
 @end

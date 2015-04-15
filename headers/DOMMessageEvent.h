@@ -8,7 +8,7 @@
  - (id) source;
  - (id) lastEventId;
  - (id) messagePort;
- - (void) initMessageEvent:(id)acanBubbleArg:(BOOL)bcancelableArg:(BOOL)cdataArg:(id)doriginArg:(id)elastEventIdArg:(id)fsourceArg:(id)gmessagePort:(id)h;
+ - (void) initMessageEvent:(id)a canBubbleArg:(BOOL)b cancelableArg:(BOOL)c dataArg:(id)d originArg:(id)e lastEventIdArg:(id)f sourceArg:(id)g messagePort:(id)h ;
 
 
 @end

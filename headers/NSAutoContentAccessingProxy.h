@@ -7,9 +7,9 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (void) forwardInvocation:(id)a;
- - (id) methodSignatureForSelector:(SEL)a;
- - (id) forwardingTargetForSelector:(SEL)a;
+ - (void) forwardInvocation:(id)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
+ - (id) forwardingTargetForSelector:(SEL)a ;
 
 
 @end

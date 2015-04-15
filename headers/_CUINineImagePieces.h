@@ -14,7 +14,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithCenter:(id)atopLeft:(id)btop:(id)ctopRight:(id)dright:(id)ebottomRight:(id)fbottom:(id)gbottomLeft:(id)hleft:(id)itileCenterAndEdges:(BOOL)j;
+ - (id) initWithCenter:(id)a topLeft:(id)b top:(id)c topRight:(id)d right:(id)e bottomRight:(id)f bottom:(id)g bottomLeft:(id)h left:(id)i tileCenterAndEdges:(BOOL)j ;
  - (id) center;
  - (id) topLeft;
  - (id) top;

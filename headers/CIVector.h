@@ -15,17 +15,17 @@
  + (id) vectorWithCGPoint:({CGPoint=dd})a;
  + (id) vectorWithCGAffineTransform:({CGAffineTransform=dddddd})a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
  - (unsigned long long) count;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (id) initWithString:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (id) initWithString:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - ({CGAffineTransform=dddddd}) CGAffineTransformValue;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) CGRectValue;
  - (id) stringRepresentation;
@@ -33,17 +33,17 @@
  - (double) Y;
  - (double) Z;
  - (double) W;
- - (id) initWithValues:(r^d)acount:(unsigned long long)b;
- - (id) initWithX:(double)a;
- - (id) initWithX:(double)aY:(double)b;
- - (id) initWithX:(double)aY:(double)bZ:(double)c;
- - (id) initWithX:(double)aY:(double)bZ:(double)cW:(double)d;
- - (id) initWithCGPoint:({CGPoint=dd})a;
- - (id) initWithCGRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (id) initWithCGAffineTransform:({CGAffineTransform=dddddd})a;
+ - (id) initWithValues:(r^d)a count:(unsigned long long)b ;
+ - (id) initWithX:(double)a ;
+ - (id) initWithX:(double)a Y:(double)b ;
+ - (id) initWithX:(double)a Y:(double)b Z:(double)c ;
+ - (id) initWithX:(double)a Y:(double)b Z:(double)c W:(double)d ;
+ - (id) initWithCGPoint:({CGPoint=dd})a ;
+ - (id) initWithCGRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (id) initWithCGAffineTransform:({CGAffineTransform=dddddd})a ;
  - (^d) _values;
  - ({CGPoint=dd}) CGPointValue;
- - (double) valueAtIndex:(unsigned long long)a;
+ - (double) valueAtIndex:(unsigned long long)a ;
 
 
 @end

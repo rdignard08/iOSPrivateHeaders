@@ -12,14 +12,14 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) properties;
- - (id) initWithProperties:(id)adeferredProperties:(id)b;
- - (BOOL) defersProperties:(id)a;
+ - (id) initWithProperties:(id)a deferredProperties:(id)b ;
+ - (BOOL) defersProperties:(id)a ;
  - (id) deferredProperties;
- - (id) deferredPropertiesForProperties:(id)a;
+ - (id) deferredPropertiesForProperties:(id)a ;
 
 
 @end

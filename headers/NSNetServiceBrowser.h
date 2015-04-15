@@ -12,20 +12,20 @@
  - (void) stop;
  - (void) dealloc;
  - (void) finalize;
- - (void) setDelegate:(id)a;
- - (void) scheduleInRunLoop:(id)aforMode:(id)b;
- - (void) removeFromRunLoop:(id)aforMode:(id)b;
+ - (void) setDelegate:(id)a ;
+ - (void) scheduleInRunLoop:(id)a forMode:(id)b ;
+ - (void) removeFromRunLoop:(id)a forMode:(id)b ;
  - (id) init;
  - (id) delegate;
  - (BOOL) includesPeerToPeer;
  - (BOOL) _includesAWDL;
- - (void) setIncludesPeerToPeer:(BOOL)a;
- - (void) _setIncludesAWDL:(BOOL)a;
+ - (void) setIncludesPeerToPeer:(BOOL)a ;
+ - (void) _setIncludesAWDL:(BOOL)a ;
  - (^{__CFNetServiceBrowser=}) _internalNetServiceBrowser;
  - (void) searchForBrowsableDomains;
  - (void) searchForRegistrationDomains;
- - (void) searchForServicesOfType:(id)ainDomain:(id)b;
- - (void) _dispatchCallBack:(^v)aflags:(unsigned long long)berror:({?=qi})c;
+ - (void) searchForServicesOfType:(id)a inDomain:(id)b ;
+ - (void) _dispatchCallBack:(^v)a flags:(unsigned long long)b error:({?=qi})c ;
  - (void) searchForAllDomains;
 
 

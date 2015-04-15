@@ -10,9 +10,9 @@
  - (id) executionBlocks;
  - (void) dealloc;
  - (void) finalize;
- - (void) addExecutionBlock:(@?)a;
+ - (void) addExecutionBlock:(@?)a ;
  - (id) init;
- - (id) initWithBlock:(@?)a;
+ - (id) initWithBlock:(@?)a ;
 
 
 @end

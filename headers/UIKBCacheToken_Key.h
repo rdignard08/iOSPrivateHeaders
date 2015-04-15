@@ -18,14 +18,14 @@
  - (void) dealloc;
  - (id) string;
  - (BOOL) hasKey;
- - (id) stringForRenderFlags:(long long)alightKeyboard:(BOOL)b;
+ - (id) stringForRenderFlags:(long long)a lightKeyboard:(BOOL)b ;
  - (int) rowHint;
- - (void) setRowHint:(int)a;
+ - (void) setRowHint:(int)a ;
  - (int) displayHint;
- - (void) setDisplayHint:(int)a;
- - (id) _initWithKey:(id)astyle:({?=b6b1b1b8b16})bdisplayInsets:({UIEdgeInsets=dddd})c;
- - (id) _stringWithAdditionalValues:(@?)a;
- - (void) setSize:({CGSize=dd})a;
+ - (void) setDisplayHint:(int)a ;
+ - (id) _initWithKey:(id)a style:({?=b6b1b1b8b16})b displayInsets:({UIEdgeInsets=dddd})c ;
+ - (id) _stringWithAdditionalValues:(@?)a ;
+ - (void) setSize:({CGSize=dd})a ;
 
 
 @end

@@ -9,7 +9,7 @@
  - (id) href;
  - (BOOL) disabled;
  - (id) type;
- - (void) setDisabled:(BOOL)a;
+ - (void) setDisabled:(BOOL)a ;
  - (id) media;
  - (id) parentStyleSheet;
  - (id) ownerNode;

@@ -10,12 +10,12 @@
  - (void) layoutSubviews;
  - (void) candidatesDidChange;
  - (id) _inheritedRenderConfig;
- - (void) setCandidateViewExtended:(BOOL)a;
+ - (void) setCandidateViewExtended:(BOOL)a ;
  - (id) activeCandidateList;
- - (unsigned long long) _numberOfColumns:(BOOL)a;
- - (void) setPresentationSize:({CGSize=dd})a;
+ - (unsigned long long) _numberOfColumns:(BOOL)a ;
+ - (void) setPresentationSize:({CGSize=dd})a ;
  - ({CGSize=dd}) presentationSize;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

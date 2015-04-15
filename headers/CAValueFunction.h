@@ -12,15 +12,15 @@
 
  - (void) dealloc;
  - (id) name;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) encodeWithCAMLWriter:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) encodeWithCAMLWriter:(id)a ;
  - (^{Object=^^?{Atomic={?=i}}}) CA_copyRenderValue;
  - (unsigned long long) inputCount;
  - (unsigned long long) outputCount;
- - (BOOL) apply:(r^d)aresult:(^d)bparameterFunction:(^?)ccontext:(^v)d;
- - (id) _initWithName:(int)a;
- - (BOOL) apply:(r^d)aresult:(^d)b;
+ - (BOOL) apply:(r^d)a result:(^d)b parameterFunction:(^?)c context:(^v)d ;
+ - (id) _initWithName:(int)a ;
+ - (BOOL) apply:(r^d)a result:(^d)b ;
 
 
 @end

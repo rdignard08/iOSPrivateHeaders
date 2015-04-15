@@ -7,9 +7,9 @@
 
  - (id) description;
  - (id) init;
- - (void) setEventRouters:(id)a;
+ - (void) setEventRouters:(id)a ;
  - (id) eventRouters;
- - (long long) routerDestinationForDescriptor:(id)a;
+ - (long long) routerDestinationForDescriptor:(id)a ;
 
 
 @end

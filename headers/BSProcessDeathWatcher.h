@@ -7,7 +7,7 @@
 
  - (void) dealloc;
  - (void) invalidate;
- - (id) initWithPID:(int)aqueue:(id)bdeathHandler:(@?)c;
+ - (id) initWithPID:(int)a queue:(id)b deathHandler:(@?)c ;
 
 
 @end

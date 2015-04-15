@@ -9,9 +9,9 @@
 @property (nonatomic, assign, readonly) NSString* userInput;
  + (id) _entryWithTILexiconEntry:(id)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) userInput;
  - (id) documentText;
 

@@ -11,8 +11,8 @@
 
  - (void) dealloc;
  - (id) container;
- - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;
- - (void) setRects:(id)a;
+ - (id) hitTest:({CGPoint=dd})a withEvent:(id)b ;
+ - (void) setRects:(id)a ;
  - (id) rects;
  - (void) prepareForMagnification;
  - (void) doneMagnifying;
@@ -23,12 +23,12 @@
  - (void) geometryChanged;
  - (BOOL) startIsHorizontal;
  - (BOOL) endIsHorizontal;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})atextContainer:(id)b;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectAtIndex:(int)a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a textContainer:(id)b ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectAtIndex:(int)a ;
  - ({CGPoint=dd}) endCorner;
  - ({CGPoint=dd}) startCorner;
  - (void) updateDragDots;
- - (id) rectViewAtIndex:(int)a;
+ - (id) rectViewAtIndex:(int)a ;
  - (void) removeFromSuperview;
 
 

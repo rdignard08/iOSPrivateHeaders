@@ -10,22 +10,22 @@
 }
 
  - (void) dealloc;
- - (void) setMode:(int)a;
+ - (void) setMode:(int)a ;
  - (void) layoutSubviews;
  - (int) mode;
- - (void) setGradientColors:(id)a;
+ - (void) setGradientColors:(id)a ;
  - (id) blurView;
- - (void) setBlurView:(id)a;
+ - (void) setBlurView:(id)a ;
  - (id) menu;
- - (void) setMenu:(id)a;
+ - (void) setMenu:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) keyRect;
  - (id) gradientColors;
  - (double) pointerOffset;
- - (void) setPointerOffset:(double)a;
- - (void) setKeyRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setPointerOffset:(double)a ;
+ - (void) setKeyRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

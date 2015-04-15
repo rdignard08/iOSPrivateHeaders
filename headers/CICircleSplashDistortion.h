@@ -9,12 +9,12 @@
 
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
- - (void) setInputRadius:(id)a;
+ - (void) setInputImage:(id)a ;
+ - (void) setInputRadius:(id)a ;
  - (id) inputRadius;
  - (id) _kernel;
  - (id) inputCenter;
- - (void) setInputCenter:(id)a;
+ - (void) setInputCenter:(id)a ;
 
 
 @end

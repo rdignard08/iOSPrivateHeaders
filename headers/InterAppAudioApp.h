@@ -20,7 +20,7 @@
  - (id) name;
  - (long long) key;
  - (id) url;
- - (id) init:(r^{InterAppAudioAppInfo=Bi^{ObjCUIImage}^{__CFString}^{__CFString}^{__CFURL}})aiconSize:(float)b;
+ - (id) init:(r^{InterAppAudioAppInfo=Bi^{ObjCUIImage}^{__CFString}^{__CFString}^{__CFURL}})a iconSize:(float)b ;
  - (id) icon;
  - (BOOL) isHost;
  - (BOOL) isCurrentApp;

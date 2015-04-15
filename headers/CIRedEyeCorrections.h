@@ -10,12 +10,12 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (BOOL) _isIdentity;
  - (id) _outputProperties;
- - (id) _initFromProperties:(id)a;
- - (void) setInputCorrectionInfo:(id)a;
- - (void) setInputCameraModel:(id)a;
+ - (id) _initFromProperties:(id)a ;
+ - (void) setInputCorrectionInfo:(id)a ;
+ - (void) setInputCameraModel:(id)a ;
  - (id) inputCameraModel;
  - (id) inputCorrectionInfo;
 

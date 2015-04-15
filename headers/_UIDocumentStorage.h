@@ -8,7 +8,7 @@
 @property (atomic, assign, readonly, getter=isUbiquitous) NSNumber* ubiquitous;
 
  - (void) dealloc;
- - (id) initWithSearchScope:(id)arootURL:(id)b;
+ - (id) initWithSearchScope:(id)a rootURL:(id)b ;
  - (BOOL) isUbiquitous;
  - (id) rootURL;
 

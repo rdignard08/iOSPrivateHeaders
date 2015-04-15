@@ -8,12 +8,12 @@
  - (id) gestureRecognizerView;
  - (void) startInteractiveTransition;
  - (void) setNotInteractiveTransition;
- - (BOOL) gestureRecognizerShouldBegin:(id)a;
- - (BOOL) gestureRecognizer:(id)ashouldRecognizeSimultaneouslyWithGestureRecognizer:(id)b;
- - (BOOL) gestureRecognizer:(id)ashouldReceiveTouch:(id)b;
- - (BOOL) _gestureRecognizer:(id)ashouldBeRequiredToFailByGestureRecognizer:(id)b;
+ - (BOOL) gestureRecognizerShouldBegin:(id)a ;
+ - (BOOL) gestureRecognizer:(id)a shouldRecognizeSimultaneouslyWithGestureRecognizer:(id)b ;
+ - (BOOL) gestureRecognizer:(id)a shouldReceiveTouch:(id)b ;
+ - (BOOL) _gestureRecognizer:(id)a shouldBeRequiredToFailByGestureRecognizer:(id)b ;
  - (void) _configureNavigationGesture;
- - (id) initWithViewController:(id)aanimator:(id)b;
+ - (id) initWithViewController:(id)a animator:(id)b ;
  - (id) screenEdgePanGestureRecognizer;
 
 

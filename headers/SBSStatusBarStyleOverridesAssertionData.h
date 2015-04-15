@@ -17,20 +17,20 @@
 
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) setUniqueIdentifier:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) setUniqueIdentifier:(id)a ;
  - (id) uniqueIdentifier;
  - (int) pid;
- - (void) setPid:(int)a;
- - (id) initWithStatusBarStyleOverrides:(int)aforPID:(int)bexclusive:(BOOL)c;
+ - (void) setPid:(int)a ;
+ - (id) initWithStatusBarStyleOverrides:(int)a forPID:(int)b exclusive:(BOOL)c ;
  - (int) statusBarStyleOverrides;
  - (BOOL) isExclusive;
  - (BOOL) isExclusive;
- - (id) initWithStatusBarStyleOverrides:(int)aforPID:(int)bexclusive:(BOOL)cuniqueIdentifier:(id)d;
- - (void) setStatusBarStyleOverrides:(int)a;
- - (void) setExclusive:(BOOL)a;
+ - (id) initWithStatusBarStyleOverrides:(int)a forPID:(int)b exclusive:(BOOL)c uniqueIdentifier:(id)d ;
+ - (void) setStatusBarStyleOverrides:(int)a ;
+ - (void) setExclusive:(BOOL)a ;
 
 
 @end

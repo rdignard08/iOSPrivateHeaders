@@ -4,7 +4,7 @@
 }
  + (id) shared;
 
- - (id) actionForLayer:(id)aforKey:(id)b;
+ - (id) actionForLayer:(id)a forKey:(id)b ;
 
 
 @end

@@ -4,7 +4,7 @@
 }
 
  - (id) name;
- - (void) setValue:(id)a;
+ - (void) setValue:(id)a ;
  - (id) value;
  - (id) style;
  - (BOOL) specified;

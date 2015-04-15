@@ -16,18 +16,18 @@
 @property (nonatomic, assign, readonly) NSArray* childNodes;
 
  - (id) innerXML;
- - (id) childrenNamed:(id)a;
- - (void) addChildNode:(id)a;
- - (void) setInnerXML:(id)a;
+ - (id) childrenNamed:(id)a ;
+ - (void) addChildNode:(id)a ;
+ - (void) setInnerXML:(id)a ;
  - (void) .cxx_destruct;
- - (void) setKeys:(id)a;
- - (void) setValue:(id)aforKey:(id)b;
+ - (void) setKeys:(id)a ;
+ - (void) setValue:(id)a forKey:(id)b ;
  - (id) name;
- - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})a objects:(^@)b count:(unsigned long long)c ;
  - (id) keys;
- - (id) valueForKey:(id)a;
- - (id) valueForKeyPath:(id)a;
- - (void) setName:(id)a;
+ - (id) valueForKey:(id)a ;
+ - (id) valueForKeyPath:(id)a ;
+ - (void) setName:(id)a ;
  - (id) attributes;
  - (id) parentNode;
  - (id) childNodes;

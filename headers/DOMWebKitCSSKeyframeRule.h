@@ -5,7 +5,7 @@
 
  - (id) style;
  - (id) keyText;
- - (void) setKeyText:(id)a;
+ - (void) setKeyText:(id)a ;
 
 
 @end

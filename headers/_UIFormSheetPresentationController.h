@@ -20,8 +20,8 @@
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _frameOfPresentedViewControllerViewInSuperview;
  - (BOOL) _shouldOccludeDuringPresentation;
  - (id) presentedView;
- - (void) presentationTransitionDidEnd:(BOOL)a;
- - (void) dismissalTransitionDidEnd:(BOOL)a;
+ - (void) presentationTransitionDidEnd:(BOOL)a ;
+ - (void) dismissalTransitionDidEnd:(BOOL)a ;
  - (void) _transitionToDidEnd;
  - (void) _transitionFromDidEnd;
  - (void) presentationTransitionWillBegin;
@@ -29,13 +29,13 @@
  - (void) _transitionFromWillBegin;
  - (void) _transitionToWillBegin;
  - (void) containerViewWillLayoutSubviews;
- - (long long) _defaultPresentationStyleForTraitCollection:(id)a;
- - ({CGSize=dd}) sizeForChildContentContainer:(id)awithParentContainerSize:({CGSize=dd})b;
- - (id) initWithPresentedViewController:(id)apresentingViewController:(id)b;
+ - (long long) _defaultPresentationStyleForTraitCollection:(id)a ;
+ - ({CGSize=dd}) sizeForChildContentContainer:(id)a withParentContainerSize:({CGSize=dd})b ;
+ - (id) initWithPresentedViewController:(id)a presentingViewController:(id)b ;
  - (BOOL) _shouldChangeStatusBarViewController;
- - (void) _keyboardWillShow:(id)a;
- - (void) _keyboardWillHide:(id)a;
- - (void) _changeLayoutModeToAvoidKeyboard:(BOOL)a;
+ - (void) _keyboardWillShow:(id)a ;
+ - (void) _keyboardWillHide:(id)a ;
+ - (void) _changeLayoutModeToAvoidKeyboard:(BOOL)a ;
 
 
 @end

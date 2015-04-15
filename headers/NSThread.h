@@ -32,24 +32,24 @@
  - (void) main;
  - (BOOL) isFinished;
  - (double) threadPriority;
- - (void) setThreadPriority:(double)a;
+ - (void) setThreadPriority:(double)a ;
  - (BOOL) isExecuting;
  - (long long) qualityOfService;
- - (void) setQualityOfService:(long long)a;
- - (id) initWithTarget:(id)aselector:(SEL)bobject:(id)c;
+ - (void) setQualityOfService:(long long)a ;
+ - (id) initWithTarget:(id)a selector:(SEL)b object:(id)c ;
  - (BOOL) isDying;
  - (BOOL) isMainThread;
  - (id) runLoop;
- - (void) setStackSize:(unsigned long long)a;
+ - (void) setStackSize:(unsigned long long)a ;
  - (unsigned long long) stackSize;
- - (void) _nq:(id)a;
+ - (void) _nq:(id)a ;
  - (id) description;
  - (void) dealloc;
  - (id) name;
  - (id) init;
  - (void) cancel;
  - (void) start;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
 
 
 @end

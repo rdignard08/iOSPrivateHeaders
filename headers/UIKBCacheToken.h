@@ -25,33 +25,33 @@
  + (id) tokenTemplateForKey:(id)astyle:(int)bsize:({CGSize=dd})c;
 
  - ({CGSize=dd}) size;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (id) string;
  - (id) name;
- - (id) initWithName:(id)a;
+ - (id) initWithName:(id)a ;
  - (int) emptyFields;
  - (BOOL) hasKey;
- - (id) stringForKey:(id)astate:(int)b;
- - (id) stringForSplitState:(BOOL)a;
- - (id) stringForRenderFlags:(long long)alightKeyboard:(BOOL)b;
+ - (id) stringForKey:(id)a state:(int)b ;
+ - (id) stringForSplitState:(BOOL)a ;
+ - (id) stringForRenderFlags:(long long)a lightKeyboard:(BOOL)b ;
  - (long long) renderFlags;
- - (id) initWithComponents:(id)aname:(id)b;
- - (int) _writeString:(id)atoStr:(char*)bmaxLen:(int)c;
- - (int) _writeNumber:(float)atoStr:(char*)b;
- - (int) _writeEdgeInsets:({UIEdgeInsets=dddd})atoStr:(char*)bmaxLen:(int)c;
- - (int) _writeArray:(id)atoStr:(char*)bmaxLen:(int)c;
- - (id) stringForConstruction:(@?)a;
- - (id) stringForComponentArray:(id)aadditionalValues:(@?)b;
+ - (id) initWithComponents:(id)a name:(id)b ;
+ - (int) _writeString:(id)a toStr:(char*)b maxLen:(int)c ;
+ - (int) _writeNumber:(float)a toStr:(char*)b ;
+ - (int) _writeEdgeInsets:({UIEdgeInsets=dddd})a toStr:(char*)b maxLen:(int)c ;
+ - (int) _writeArray:(id)a toStr:(char*)b maxLen:(int)c ;
+ - (id) stringForConstruction:(@?)a ;
+ - (id) stringForComponentArray:(id)a additionalValues:(@?)b ;
  - (int) rowHint;
- - (void) setRowHint:(int)a;
+ - (void) setRowHint:(int)a ;
  - (int) displayHint;
- - (void) setDisplayHint:(int)a;
- - (void) setEmptyFields:(int)a;
- - (void) setRenderFlags:(long long)a;
- - (void) setName:(id)a;
- - (void) setSize:({CGSize=dd})a;
- - (id) stringForState:(int)a;
+ - (void) setDisplayHint:(int)a ;
+ - (void) setEmptyFields:(int)a ;
+ - (void) setRenderFlags:(long long)a ;
+ - (void) setName:(id)a ;
+ - (void) setSize:({CGSize=dd})a ;
+ - (id) stringForState:(int)a ;
 
 
 @end

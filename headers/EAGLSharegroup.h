@@ -8,13 +8,13 @@
 
  - (void) dealloc;
  - (id) init;
- - (id) initWithAPI:(unsigned long long)asharedWithCompute:(BOOL)b;
+ - (id) initWithAPI:(unsigned long long)a sharedWithCompute:(BOOL)b ;
  - (unsigned long long) APIs;
- - (void) setDebugLabel:(id)a;
+ - (void) setDebugLabel:(id)a ;
  - (id) debugLabel;
- - (void) loadGLIPlugin:(^{__GLDPixelFormatRec=^{__GLDPixelFormatRec}IIIIIIIssssICCCCI})asharedWithCompute:(BOOL)b;
+ - (void) loadGLIPlugin:(^{__GLDPixelFormatRec=^{__GLDPixelFormatRec}IIIIIIIssssICCCCI})a sharedWithCompute:(BOOL)b ;
  - (^{__GLISharedRec=}) getGLIShared;
- - (id) initWithAPI:(unsigned long long)a;
+ - (id) initWithAPI:(unsigned long long)a ;
 
 
 @end

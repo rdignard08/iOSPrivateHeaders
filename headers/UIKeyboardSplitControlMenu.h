@@ -9,15 +9,15 @@
  + (id) activeInstance;
 
  - (void) dealloc;
- - (void) setSplitAndUndocked:(BOOL)a;
+ - (void) setSplitAndUndocked:(BOOL)a ;
  - (void) didFinishSplitTransition;
  - ({CGSize=dd}) preferredSize;
  - (long long) defaultSelectedIndex;
- - (void) didSelectItemAtIndex:(int)a;
- - (id) titleForItemAtIndex:(int)a;
- - (void) setFinishSplitTransitionBlock:(@?)a;
+ - (void) didSelectItemAtIndex:(int)a ;
+ - (id) titleForItemAtIndex:(int)a ;
+ - (void) setFinishSplitTransitionBlock:(@?)a ;
  - (@?) finishSplitTransitionBlock;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (long long) numberOfItems;
 
 

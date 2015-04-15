@@ -4,7 +4,7 @@
 }
 
  - (id) clear;
- - (void) setClear:(id)a;
+ - (void) setClear:(id)a ;
 
 
 @end

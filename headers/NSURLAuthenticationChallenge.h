@@ -15,20 +15,20 @@
  + (id) _createAuthenticationChallengeForCFAuthChallenge:(^{_CFURLAuthChallenge=})asender:(id)b;
 
  - (void) dealloc;
- - (void) setSender:(id)a;
+ - (void) setSender:(id)a ;
  - (id) init;
  - (^{_CFURLAuthChallenge=}) _createCFAuthChallenge;
  - (id) sender;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) error;
  - (id) protectionSpace;
- - (id) initWithProtectionSpace:(id)aproposedCredential:(id)bpreviousFailureCount:(long long)cfailureResponse:(id)derror:(id)esender:(id)f;
+ - (id) initWithProtectionSpace:(id)a proposedCredential:(id)b previousFailureCount:(long long)c failureResponse:(id)d error:(id)e sender:(id)f ;
  - (id) proposedCredential;
  - (long long) previousFailureCount;
  - (id) failureResponse;
- - (id) _initWithCFAuthChallenge:(^{_CFURLAuthChallenge=})asender:(id)b;
- - (id) initWithAuthenticationChallenge:(id)asender:(id)b;
+ - (id) _initWithCFAuthChallenge:(^{_CFURLAuthChallenge=})a sender:(id)b ;
+ - (id) initWithAuthenticationChallenge:(id)a sender:(id)b ;
 
 
 @end

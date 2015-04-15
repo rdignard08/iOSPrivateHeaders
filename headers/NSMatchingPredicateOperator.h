@@ -5,8 +5,8 @@
     ^{?=@^v} _regexContext;
 }
 
- - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
- - (id) initWithOperatorType:(unsigned long long)amodifier:(unsigned long long)bvariant:(unsigned long long)c;
+ - (BOOL) performPrimitiveOperationUsingObject:(id)a andObject:(id)b ;
+ - (id) initWithOperatorType:(unsigned long long)a modifier:(unsigned long long)b variant:(unsigned long long)c ;
  - (id) symbol;
  - (BOOL) _shouldEscapeForLike;
  - (void) _clearContext;

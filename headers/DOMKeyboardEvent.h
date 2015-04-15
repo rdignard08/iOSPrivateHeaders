@@ -13,11 +13,11 @@
  - (BOOL) altGraphKey;
  - (int) keyCode;
  - (int) charCode;
- - (BOOL) getModifierState:(id)a;
- - (void) initKeyboardEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)dkeyIdentifier:(id)elocation:(unsigned int)fctrlKey:(BOOL)galtKey:(BOOL)hshiftKey:(BOOL)imetaKey:(BOOL)jaltGraphKey:(BOOL)k;
- - (void) initKeyboardEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)dkeyIdentifier:(id)elocation:(unsigned int)fctrlKey:(BOOL)galtKey:(BOOL)hshiftKey:(BOOL)imetaKey:(BOOL)j;
- - (void) initKeyboardEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)dkeyIdentifier:(id)ekeyLocation:(unsigned int)fctrlKey:(BOOL)galtKey:(BOOL)hshiftKey:(BOOL)imetaKey:(BOOL)jaltGraphKey:(BOOL)k;
- - (void) initKeyboardEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)dkeyIdentifier:(id)ekeyLocation:(unsigned int)fctrlKey:(BOOL)galtKey:(BOOL)hshiftKey:(BOOL)imetaKey:(BOOL)j;
+ - (BOOL) getModifierState:(id)a ;
+ - (void) initKeyboardEvent:(id)a canBubble:(BOOL)b cancelable:(BOOL)c view:(id)d keyIdentifier:(id)e location:(unsigned int)f ctrlKey:(BOOL)g altKey:(BOOL)h shiftKey:(BOOL)i metaKey:(BOOL)j altGraphKey:(BOOL)k ;
+ - (void) initKeyboardEvent:(id)a canBubble:(BOOL)b cancelable:(BOOL)c view:(id)d keyIdentifier:(id)e location:(unsigned int)f ctrlKey:(BOOL)g altKey:(BOOL)h shiftKey:(BOOL)i metaKey:(BOOL)j ;
+ - (void) initKeyboardEvent:(id)a canBubble:(BOOL)b cancelable:(BOOL)c view:(id)d keyIdentifier:(id)e keyLocation:(unsigned int)f ctrlKey:(BOOL)g altKey:(BOOL)h shiftKey:(BOOL)i metaKey:(BOOL)j altGraphKey:(BOOL)k ;
+ - (void) initKeyboardEvent:(id)a canBubble:(BOOL)b cancelable:(BOOL)c view:(id)d keyIdentifier:(id)e keyLocation:(unsigned int)f ctrlKey:(BOOL)g altKey:(BOOL)h shiftKey:(BOOL)i metaKey:(BOOL)j ;
 
 
 @end

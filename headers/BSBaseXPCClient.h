@@ -15,17 +15,17 @@
  - (id) _connection;
  - (void) dealloc;
  - (void) invalidate;
- - (id) initWithServiceName:(id)a;
- - (id) _getStringFromMessage:(id)akey:(char*)b;
+ - (id) initWithServiceName:(id)a ;
+ - (id) _getStringFromMessage:(id)a key:(char*)b ;
  - (id) _notifyTokenName;
- - (void) queue_handleMessage:(id)a;
- - (id) initWithServiceName:(id)aendpoint:(id)b;
+ - (void) queue_handleMessage:(id)a ;
+ - (id) initWithServiceName:(id)a endpoint:(id)b ;
  - (void) queue_invalidate;
  - (BOOL) queue_isSuspended;
  - (void) queue_registerWithServerIfNecessary;
  - (void) queue_suspendConnection;
  - (void) queue_resumeConnection;
- - (void) _sendMessage:(@?)awithReplyHandler:(@?)bwaitForReply:(BOOL)cwaitDuration:(unsigned long long)d;
+ - (void) _sendMessage:(@?)a withReplyHandler:(@?)b waitForReply:(BOOL)c waitDuration:(unsigned long long)d ;
  - (void) queue_connectionWasResumed;
  - (void) queue_connectionWasSuspended;
  - (id) _connectionInstanceUUID;
@@ -38,12 +38,12 @@
  - (void) queue_connectionWasDestroyed;
  - (void) suspendConnection;
  - (void) resumeConnection;
- - (id) _errorFromMessageIfAny:(id)a;
- - (void) _sendMessage:(@?)a;
- - (void) _setEndpoint:(id)a;
+ - (id) _errorFromMessageIfAny:(id)a ;
+ - (void) _sendMessage:(@?)a ;
+ - (void) _setEndpoint:(id)a ;
  - (id) queue_connection;
- - (void) _sendReply:(id)amessagePacker:(@?)b;
- - (id) initWithEndpoint:(id)a;
+ - (void) _sendReply:(id)a messagePacker:(@?)b ;
+ - (id) initWithEndpoint:(id)a ;
  - (BOOL) isSuspended;
 
 

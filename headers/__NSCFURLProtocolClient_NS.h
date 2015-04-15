@@ -9,15 +9,15 @@
 }
 
  - (void) dealloc;
- - (void) URLProtocol:(id)awasRedirectedToRequest:(id)bredirectResponse:(id)c;
- - (void) URLProtocol:(id)acachedResponseIsValid:(id)b;
- - (void) URLProtocol:(id)adidReceiveResponse:(id)bcacheStoragePolicy:(unsigned long long)c;
- - (void) URLProtocol:(id)adidLoadData:(id)b;
- - (void) URLProtocolDidFinishLoading:(id)a;
- - (void) URLProtocol:(id)adidFailWithError:(id)b;
- - (void) URLProtocol:(id)adidReceiveAuthenticationChallenge:(id)b;
- - (void) URLProtocol:(id)adidCancelAuthenticationChallenge:(id)b;
- - (id) initWithCFClient:(^{URLProtocolClient=^^?})aprot:(^{URLProtocol=^^?^^?^{CoreSchedulingSet}dCCCCCCCCqqqCiq@^{URLProtocolClient}^{_CFCachedURLResponse}})b;
+ - (void) URLProtocol:(id)a wasRedirectedToRequest:(id)b redirectResponse:(id)c ;
+ - (void) URLProtocol:(id)a cachedResponseIsValid:(id)b ;
+ - (void) URLProtocol:(id)a didReceiveResponse:(id)b cacheStoragePolicy:(unsigned long long)c ;
+ - (void) URLProtocol:(id)a didLoadData:(id)b ;
+ - (void) URLProtocolDidFinishLoading:(id)a ;
+ - (void) URLProtocol:(id)a didFailWithError:(id)b ;
+ - (void) URLProtocol:(id)a didReceiveAuthenticationChallenge:(id)b ;
+ - (void) URLProtocol:(id)a didCancelAuthenticationChallenge:(id)b ;
+ - (id) initWithCFClient:(^{URLProtocolClient=^^?})a prot:(^{URLProtocol=^^?^^?^{CoreSchedulingSet}dCCCCCCCCqqqCiq@^{URLProtocolClient}^{_CFCachedURLResponse}})b ;
  - (void) teardown;
  - (id) challenge;
  - (^{_CFURLAuthChallenge=}) cfChallenge;

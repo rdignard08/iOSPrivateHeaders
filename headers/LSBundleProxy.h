@@ -24,11 +24,11 @@
  - (BOOL) foundBackingBundle;
  - (id) containerURL;
  - (id) dataContainerURL;
- - (unsigned char) _createContext:(^{LSContext=^{LSDatabase}})aandGetBundle:(^I)bwithData:(r^^{LSBundleData})c;
- - (id) _plistValueForKey:(id)a;
+ - (unsigned char) _createContext:(^{LSContext=^{LSDatabase}})a andGetBundle:(^I)b withData:(r^^{LSBundleData})c ;
+ - (id) _plistValueForKey:(id)a ;
  - (id) bundleType;
- - (id) _initWithBundleUnit:(unsigned int)abundleType:(unsigned long long)bBundleID:(id)clocalizedName:(id)dbundleContainerURL:(id)edataContainerURL:(id)fresourcesDirectoryURL:(id)giconsDictionary:(id)hiconFileNames:(id)iversion:(id)j;
- - (void) setLocalizedShortName:(id)a;
+ - (id) _initWithBundleUnit:(unsigned int)a bundleType:(unsigned long long)b BundleID:(id)c localizedName:(id)d bundleContainerURL:(id)e dataContainerURL:(id)f resourcesDirectoryURL:(id)g iconsDictionary:(id)h iconFileNames:(id)i version:(id)j ;
+ - (void) setLocalizedShortName:(id)a ;
  - (id) bundleVersion;
  - (id) signerIdentity;
  - (id) entitlements;
@@ -43,7 +43,7 @@
  - (id) groupContainerURLs;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) bundleIdentifier;
  - (id) bundleContainerURL;
 

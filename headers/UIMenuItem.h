@@ -10,12 +10,12 @@
 @property (nonatomic, assign, readwrite) NSNumber* dontDismiss;
 
  - (id) title;
- - (void) setTitle:(id)a;
+ - (void) setTitle:(id)a ;
  - (void) dealloc;
  - (SEL) action;
- - (void) setAction:(SEL)a;
- - (id) initWithTitle:(id)aaction:(SEL)b;
- - (void) setDontDismiss:(BOOL)a;
+ - (void) setAction:(SEL)a ;
+ - (id) initWithTitle:(id)a action:(SEL)b ;
+ - (void) setDontDismiss:(BOOL)a ;
  - (BOOL) dontDismiss;
 
 

@@ -11,9 +11,9 @@
 }
 
  - (void) dealloc;
- - (id) initWithLabel:(r*)aslotCount:(unsigned long long)bslotLength:(unsigned long long)c;
- - (id) nextSlotWithBytes:(r^v)alength:(unsigned long long)b;
- - (void) returnSlot:(^v)a;
+ - (id) initWithLabel:(r*)a slotCount:(unsigned long long)b slotLength:(unsigned long long)c ;
+ - (id) nextSlotWithBytes:(r^v)a length:(unsigned long long)b ;
+ - (void) returnSlot:(^v)a ;
 
 
 @end

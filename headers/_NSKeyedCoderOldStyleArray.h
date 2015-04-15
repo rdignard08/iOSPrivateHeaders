@@ -9,12 +9,12 @@
     [2c] _padding;
 }
 
- - (id) initWithObjCType:(char)acount:(unsigned long long)bat:(r^v)c;
- - (void) fillObjCType:(char)acount:(unsigned long long)bat:(^v)c;
+ - (id) initWithObjCType:(char)a count:(unsigned long long)b at:(r^v)c ;
+ - (void) fillObjCType:(char)a count:(unsigned long long)b at:(^v)c ;
  - (void) dealloc;
  - (void) finalize;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

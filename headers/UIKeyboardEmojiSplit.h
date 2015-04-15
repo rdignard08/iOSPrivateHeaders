@@ -6,15 +6,15 @@
 }
 
  - (void) dealloc;
- - (void) tableView:(id)awillDisplayCell:(id)bforRowAtIndexPath:(id)c;
- - (double) tableView:(id)aheightForRowAtIndexPath:(id)b;
- - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (long long) numberOfSectionsInTableView:(id)a;
+ - (void) tableView:(id)a willDisplayCell:(id)b forRowAtIndexPath:(id)c ;
+ - (double) tableView:(id)a heightForRowAtIndexPath:(id)b ;
+ - (long long) tableView:(id)a numberOfRowsInSection:(long long)b ;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
+ - (long long) numberOfSectionsInTableView:(id)a ;
  - (id) defaultIndexPath;
  - (BOOL) shouldCache;
  - (id) picker;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

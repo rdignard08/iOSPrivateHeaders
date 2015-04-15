@@ -32,17 +32,17 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
- - (id) methodSignatureForSelector:(SEL)a;
+ - (void) forwardInvocation:(id)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
  - (id) _traitCollection;
  - (id) _resettableInvocationsCreateIfNecessary;
- - (BOOL) _isValidAppearanceForCustomizableObject:(id)a;
- - (void) _removeInvocationsForSource:(id)a;
- - (void) updateResettableSelectorsWithInvocation:(id)aremoveSelector:(BOOL)b;
- - (void) _invalidateAppearanceInWindow:(id)a;
+ - (BOOL) _isValidAppearanceForCustomizableObject:(id)a ;
+ - (void) _removeInvocationsForSource:(id)a ;
+ - (void) updateResettableSelectorsWithInvocation:(id)a removeSelector:(BOOL)b ;
+ - (void) _invalidateAppearanceInWindow:(id)a ;
  - (id) _appearanceInvocations;
  - (id) _resettableInvocations;
- - (void) _setResettableInvocations:(id)a;
+ - (void) _setResettableInvocations:(id)a ;
  - (id) _customizableClassInfo;
 
 

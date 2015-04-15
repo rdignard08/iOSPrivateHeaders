@@ -15,13 +15,13 @@
 
  - (id) description;
  - (void) dealloc;
- - (id) initWithKeyboardRect:({CGRect={CGPoint=dd}{CGSize=dd}})aonScreen:(BOOL)b;
+ - (id) initWithKeyboardRect:({CGRect={CGPoint=dd}{CGSize=dd}})a onScreen:(BOOL)b ;
  - (unsigned int) animationFencingPort;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) keyboardPosition;
  - (BOOL) keyboardOnScreen;
  - (void) insertPermissions;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

@@ -10,8 +10,8 @@
  + (id) configWithLayerConfigs:(id)a;
 
  - (void) dealloc;
- - (void) addLayerConfig:(id)a;
- - (void) enumerateLayerConfigs:(@?)a;
+ - (void) addLayerConfig:(id)a ;
+ - (void) enumerateLayerConfigs:(@?)a ;
  - (id) layerConfigs;
  - (id) contentConfig;
 

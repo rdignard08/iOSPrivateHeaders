@@ -7,9 +7,9 @@
 
  - (id) description;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) webVisiblePosition;
- - (void) setWebVisiblePosition:(id)a;
+ - (void) setWebVisiblePosition:(id)a ;
 
 
 @end

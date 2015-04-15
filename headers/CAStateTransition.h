@@ -12,21 +12,21 @@
  + (void) CAMLParserStartElement:(id)a;
 
  - (double) duration;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (id) debugDescription;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) fromState;
  - (id) toState;
- - (void) setElements:(id)a;
+ - (void) setElements:(id)a ;
  - (id) elements;
- - (void) CAMLParser:(id)asetValue:(id)bforKey:(id)c;
- - (void) encodeWithCAMLWriter:(id)a;
- - (id) CAMLTypeForKey:(id)a;
- - (void) setFromState:(id)a;
- - (void) setToState:(id)a;
+ - (void) CAMLParser:(id)a setValue:(id)b forKey:(id)c ;
+ - (void) encodeWithCAMLWriter:(id)a ;
+ - (id) CAMLTypeForKey:(id)a ;
+ - (void) setFromState:(id)a ;
+ - (void) setToState:(id)a ;
 
 
 @end

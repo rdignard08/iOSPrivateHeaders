@@ -8,13 +8,13 @@
 
  - (void) clear;
  - (void) dealloc;
- - (void) addPoint:({CGPoint=dd})a;
- - (void) setStrokeView:(id)a;
+ - (void) addPoint:({CGPoint=dd})a ;
+ - (void) setStrokeView:(id)a ;
  - (id) strokeView;
- - (id) initWithFIFO:(id)astrokeView:(id)b;
- - (void) setPrevPoints:(id)a;
+ - (id) initWithFIFO:(id)a strokeView:(id)b ;
+ - (void) setPrevPoints:(id)a ;
  - (id) prevPoints;
- - (void) setPath:(id)a;
+ - (void) setPath:(id)a ;
  - (id) path;
  - (void) flush;
 

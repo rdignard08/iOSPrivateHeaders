@@ -26,7 +26,7 @@
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (unsigned long long) hash;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) init;
  - (id) delegate;
 

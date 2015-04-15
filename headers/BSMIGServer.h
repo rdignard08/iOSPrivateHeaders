@@ -12,15 +12,15 @@
 @property (nonatomic, assign, readonly) NSString* threadName;
 
  - (int) threadPriority;
- - (void) setThreadPriority:(int)a;
+ - (void) setThreadPriority:(int)a ;
  - (void) dealloc;
  - (unsigned int) port;
  - (id) init;
  - (^v) _start;
- - (void) setThreadName:(id)a;
- - (unsigned int) _createPortNamed:(id)a;
- - (void) _installAutoreleasePoolsIfNecessaryForMode:(^{__CFString=})a;
- - (id) initWithPortName:(id)asubsystem:(^{mig_subsystem=^?iiIQ[1{routine_descriptor=^?^?II^{?}I}]})bseparateThread:(BOOL)c;
+ - (void) setThreadName:(id)a ;
+ - (unsigned int) _createPortNamed:(id)a ;
+ - (void) _installAutoreleasePoolsIfNecessaryForMode:(^{__CFString=})a ;
+ - (id) initWithPortName:(id)a subsystem:(^{mig_subsystem=^?iiIQ[1{routine_descriptor=^?^?II^{?}I}]})b separateThread:(BOOL)c ;
  - (id) threadName;
 
 

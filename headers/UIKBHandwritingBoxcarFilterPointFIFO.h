@@ -7,14 +7,14 @@
 
  - (void) clear;
  - (void) dealloc;
- - (void) addPoint:({CGPoint=dd})a;
- - (id) initWithFIFO:(id)awidth:(unsigned long long)b;
- - (void) setPrevPoints:(id)a;
+ - (void) addPoint:({CGPoint=dd})a ;
+ - (id) initWithFIFO:(id)a width:(unsigned long long)b ;
+ - (void) setPrevPoints:(id)a ;
  - (id) prevPoints;
  - (void) emitAveragedPoint;
  - (void) flush;
  - (unsigned long long) width;
- - (void) setWidth:(unsigned long long)a;
+ - (void) setWidth:(unsigned long long)a ;
 
 
 @end

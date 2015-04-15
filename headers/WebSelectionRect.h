@@ -25,7 +25,7 @@
  + ({CGRect={CGPoint=dd}{CGSize=dd}}) endEdge:(id)a;
  + (id) selectionRect;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (id) init;
  - (BOOL) containsStart;
@@ -33,15 +33,15 @@
  - (BOOL) isHorizontal;
  - (int) writingDirection;
  - (BOOL) containsEnd;
- - (void) setRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setWritingDirection:(int)a;
- - (void) setIsLineBreak:(BOOL)a;
- - (void) setIsFirstOnLine:(BOOL)a;
- - (void) setIsLastOnLine:(BOOL)a;
- - (void) setContainsStart:(BOOL)a;
- - (void) setContainsEnd:(BOOL)a;
- - (void) setIsInFixedPosition:(BOOL)a;
- - (void) setIsHorizontal:(BOOL)a;
+ - (void) setRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setWritingDirection:(int)a ;
+ - (void) setIsLineBreak:(BOOL)a ;
+ - (void) setIsFirstOnLine:(BOOL)a ;
+ - (void) setIsLastOnLine:(BOOL)a ;
+ - (void) setContainsStart:(BOOL)a ;
+ - (void) setContainsEnd:(BOOL)a ;
+ - (void) setIsInFixedPosition:(BOOL)a ;
+ - (void) setIsHorizontal:(BOOL)a ;
  - (BOOL) isLineBreak;
  - (BOOL) isFirstOnLine;
  - (BOOL) isLastOnLine;

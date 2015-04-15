@@ -13,18 +13,18 @@
  - (void) _transitionFromWillBegin;
  - (void) _transitionToWillBegin;
  - (long long) adaptivePresentationStyle;
- - (id) initWithPresentedViewController:(id)apresentingViewController:(id)b;
- - (id) _presentationControllerForTraitCollection:(id)a;
+ - (id) initWithPresentedViewController:(id)a presentingViewController:(id)b ;
+ - (id) _presentationControllerForTraitCollection:(id)a ;
  - (id) searchBarContainerView;
  - (BOOL) searchBarToBecomeTopAttached;
  - (double) statusBarAdjustment;
- - (void) setContentVisible:(BOOL)a;
+ - (void) setContentVisible:(BOOL)a ;
  - (double) resultsControllerContentOffset;
  - (BOOL) shouldAccountForStatusBar;
  - (id) adaptivePresentationController;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) finalFrameForContainerView;
  - (id) _popoverHostingWindow;
- - (id) _presentedViewControllerForSizeClassPair:({?=qq})a;
+ - (id) _presentedViewControllerForSizeClassPair:({?=qq})a ;
 
 
 @end

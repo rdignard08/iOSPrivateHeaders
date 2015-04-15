@@ -11,26 +11,26 @@
  - (Vv) _webcore_releaseOnWebThread;
  - (id) description;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
- - (long long) compare:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (long long) compare:(id)a ;
  - (int) affinity;
- - (BOOL) atBoundaryOfGranularity:(int)ainDirection:(int)b;
- - (id) enclosingTextUnitOfGranularity:(int)ainDirectionIfAtBoundary:(int)b;
- - (id) positionOfNextBoundaryOfGranularity:(int)ainDirection:(int)b;
- - (int) distanceFromPosition:(id)a;
- - (id) positionByMovingInDirection:(int)aamount:(unsigned int)b;
- - (BOOL) withinTextUnitOfGranularity:(int)ainDirectionIfAtBoundary:(int)b;
+ - (BOOL) atBoundaryOfGranularity:(int)a inDirection:(int)b ;
+ - (id) enclosingTextUnitOfGranularity:(int)a inDirectionIfAtBoundary:(int)b ;
+ - (id) positionOfNextBoundaryOfGranularity:(int)a inDirection:(int)b ;
+ - (int) distanceFromPosition:(id)a ;
+ - (id) positionByMovingInDirection:(int)a amount:(unsigned int)b ;
+ - (BOOL) withinTextUnitOfGranularity:(int)a inDirectionIfAtBoundary:(int)b ;
  - (id) enclosingRangeWithCorrectionIndicator;
  - (id) positionAtStartOrEndOfWord;
- - (void) setAffinity:(int)a;
+ - (void) setAffinity:(int)a ;
  - ({VisiblePosition={Position={RefPtr<WebCore::Node>=^{Node}}ib3b1}i}) _visiblePosition;
  - (int) textDirection;
- - (id) positionByMovingInDirection:(int)aamount:(unsigned int)bwithAffinityDownstream:(BOOL)c;
- - (BOOL) directionIsDownstream:(int)a;
+ - (id) positionByMovingInDirection:(int)a amount:(unsigned int)b withAffinityDownstream:(BOOL)c ;
+ - (BOOL) directionIsDownstream:(int)a ;
  - (BOOL) isEditable;
  - (BOOL) requiresContextForWordBoundary;
- - (BOOL) atAlphaNumericBoundaryInDirection:(int)a;
- - (id) enclosingRangeWithDictationPhraseAlternatives:(^@)a;
+ - (BOOL) atAlphaNumericBoundaryInDirection:(int)a ;
+ - (id) enclosingRangeWithDictationPhraseAlternatives:(^@)a ;
 
 
 @end

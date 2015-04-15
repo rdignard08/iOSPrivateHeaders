@@ -5,9 +5,9 @@
     double _endAngle;
 }
 
- - (void) setProgress:(float)a;
- - (void) setStartRotationAngle:(double)a;
- - (void) setEndRotationAngle:(double)a;
+ - (void) setProgress:(float)a ;
+ - (void) setStartRotationAngle:(double)a ;
+ - (void) setEndRotationAngle:(double)a ;
 
 
 @end

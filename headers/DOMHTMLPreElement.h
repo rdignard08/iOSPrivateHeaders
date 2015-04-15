@@ -4,9 +4,9 @@
 }
 
  - (BOOL) wrap;
- - (void) setWrap:(BOOL)a;
+ - (void) setWrap:(BOOL)a ;
  - (int) width;
- - (void) setWidth:(int)a;
+ - (void) setWidth:(int)a ;
 
 
 @end

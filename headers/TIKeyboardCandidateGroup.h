@@ -12,23 +12,23 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) title;
- - (void) setTitle:(id)a;
- - (void) sortUsingComparator:(@?)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (void) setTitle:(id)a ;
+ - (void) sortUsingComparator:(@?)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) sortWithOptions:(unsigned long long)ausingComparator:(@?)b;
- - (id) initWithTitle:(id)acandidates:(id)b;
+ - (BOOL) isEqual:(id)a ;
+ - (void) sortWithOptions:(unsigned long long)a usingComparator:(@?)b ;
+ - (id) initWithTitle:(id)a candidates:(id)b ;
  - (BOOL) hasAlternativeText;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) nonExtensionCandidates;
- - (void) setCandidates:(id)a;
+ - (void) setCandidates:(id)a ;
  - (id) mutableCandidates;
- - (void) setNonExtensionCandidates:(id)a;
- - (void) addCandidate:(id)a;
+ - (void) setNonExtensionCandidates:(id)a ;
+ - (void) addCandidate:(id)a ;
  - (id) candidates;
 
 

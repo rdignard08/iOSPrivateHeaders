@@ -12,8 +12,8 @@
 
  - (id) _options;
  - (void) dealloc;
- - (id) _initWithScreen:(id)aoptions:(id)b;
- - (BOOL) _matchingOptions:(id)a;
+ - (id) _initWithScreen:(id)a options:(id)b ;
+ - (BOOL) _matchingOptions:(id)a ;
  - (id) _intendedScreen;
  - (id) graphCache;
 

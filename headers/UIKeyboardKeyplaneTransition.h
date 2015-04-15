@@ -22,22 +22,22 @@
 @property (nonatomic, assign, readonly) NSNumber* endHeight;
 
  - (@?) completionBlock;
- - (void) setCompletionBlock:(@?)a;
+ - (void) setCompletionBlock:(@?)a ;
  - (void) dealloc;
  - (void) removeAllAnimations;
  - (id) transitionDelegate;
  - (double) startHeight;
  - (double) endHeight;
  - (void) finalizeTransition;
- - (void) updateWithProgress:(double)a;
- - (void) transitionToFinalState:(id)a;
- - (void) rebuildWithStartKeyplane:(id)astartView:(id)bendKeyplane:(id)cendView:(id)d;
+ - (void) updateWithProgress:(double)a ;
+ - (void) transitionToFinalState:(id)a ;
+ - (void) rebuildWithStartKeyplane:(id)a startView:(id)b endKeyplane:(id)c endView:(id)d ;
  - (void) commitTransitionRebuild;
- - (void) finishWithProgress:(double)acompletionBlock:(@?)b;
- - (BOOL) canDisplayTransitionFromKeyplane:(id)atoKeyplane:(id)b;
- - (void) setTransitionDelegate:(id)a;
+ - (void) finishWithProgress:(double)a completionBlock:(@?)b ;
+ - (BOOL) canDisplayTransitionFromKeyplane:(id)a toKeyplane:(id)b ;
+ - (void) setTransitionDelegate:(id)a ;
  - (BOOL) initiallyAtEnd;
- - (void) setInitiallyAtEnd:(BOOL)a;
+ - (void) setInitiallyAtEnd:(BOOL)a ;
 
 
 @end

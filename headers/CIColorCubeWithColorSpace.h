@@ -7,7 +7,7 @@
 
  - (void) setDefaults;
  - (id) outputImage;
- - (void) setInputColorSpace:(id)a;
+ - (void) setInputColorSpace:(id)a ;
  - (id) inputColorSpace;
 
 

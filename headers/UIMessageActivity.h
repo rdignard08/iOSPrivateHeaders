@@ -11,14 +11,14 @@
  - (id) _activityImage;
  - (id) activityTitle;
  - (id) _activitySettingsImage;
- - (BOOL) canPerformWithActivityItems:(id)a;
+ - (BOOL) canPerformWithActivityItems:(id)a ;
  - (BOOL) sourceIsManaged;
  - (id) activityViewController;
- - (void) setSourceIsManaged:(BOOL)a;
- - (void) prepareWithActivityItems:(id)a;
- - (void) setMessageComposeViewController:(id)a;
+ - (void) setSourceIsManaged:(BOOL)a ;
+ - (void) prepareWithActivityItems:(id)a ;
+ - (void) setMessageComposeViewController:(id)a ;
  - (id) messageComposeViewController;
- - (void) messageComposeViewController:(id)adidFinishWithResult:(int)b;
+ - (void) messageComposeViewController:(id)a didFinishWithResult:(int)b ;
  - (void) _cleanup;
 
 

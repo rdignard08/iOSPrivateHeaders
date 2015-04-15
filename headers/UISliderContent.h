@@ -13,11 +13,11 @@
  - (void) dealloc;
  - (BOOL) isEmpty;
  - (id) thumb;
- - (void) setThumb:(id)a;
+ - (void) setThumb:(id)a ;
  - (id) minTrack;
- - (void) setMinTrack:(id)a;
+ - (void) setMinTrack:(id)a ;
  - (id) maxTrack;
- - (void) setMaxTrack:(id)a;
+ - (void) setMaxTrack:(id)a ;
 
 
 @end

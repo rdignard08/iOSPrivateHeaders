@@ -7,7 +7,7 @@
 
  - (int) textEffectsVisibilityLevel;
  - (id) remoteViewController;
- - (void) setRemoteViewController:(id)a;
+ - (void) setRemoteViewController:(id)a ;
 
 
 @end

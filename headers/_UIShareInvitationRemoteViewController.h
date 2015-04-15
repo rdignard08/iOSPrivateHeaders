@@ -10,18 +10,18 @@
  + (id) serviceViewControllerInterface;
 
  - (void) invalidate;
- - (void) setExtensionRequestIdentifier:(id)a;
- - (void) setExtension:(id)a;
+ - (void) setExtensionRequestIdentifier:(id)a ;
+ - (void) setExtension:(id)a ;
  - (void) _dismissViewController;
- - (void) setPublicController:(id)a;
+ - (void) setPublicController:(id)a ;
  - (void) viewDidLoad;
- - (void) _tintColorDidChangeToColor:(id)a;
+ - (void) _tintColorDidChangeToColor:(id)a ;
  - (id) publicController;
- - (void) viewServiceDidTerminateWithError:(id)a;
+ - (void) viewServiceDidTerminateWithError:(id)a ;
  - (id) extension;
  - (id) extensionRequestIdentifier;
- - (void) _performAuxiliaryActionWithCompletion:(@?)a;
- - (void) _performHeaderActionWithCompletion:(@?)a;
+ - (void) _performAuxiliaryActionWithCompletion:(@?)a ;
+ - (void) _performHeaderActionWithCompletion:(@?)a ;
  - (void) _shareDidChange;
  - (void) _shareWasMadePrivate;
 

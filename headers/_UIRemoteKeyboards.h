@@ -20,33 +20,33 @@
 
  - (id) connection;
  - (void) dealloc;
- - (void) keyboardChanged:(id)a;
+ - (void) keyboardChanged:(id)a ;
  - (id) keyboardWindow;
  - (BOOL) keyboardVisible;
- - (void) performOnControllers:(@?)a;
- - (void) prepareToMoveKeyboard:({CGRect={CGPoint=dd}{CGSize=dd}})ashowing:(BOOL)bforScreen:(id)c;
+ - (void) performOnControllers:(@?)a ;
+ - (void) prepareToMoveKeyboard:({CGRect={CGPoint=dd}{CGSize=dd}})a showing:(BOOL)b forScreen:(id)c ;
  - (BOOL) keyboardActive;
  - (double) intersectionHeight;
- - (void) willResume:(id)a;
- - (void) didSuspend:(id)a;
- - (void) completeMoveKeyboardForScreen:(id)a;
+ - (void) willResume:(id)a ;
+ - (void) didSuspend:(id)a ;
+ - (void) completeMoveKeyboardForScreen:(id)a ;
  - (void) startConnection;
- - (void) willDeactivate:(id)a;
- - (void) didActivate:(id)a;
+ - (void) willDeactivate:(id)a ;
+ - (void) didActivate:(id)a ;
  - (void) stopConnection;
  - (id) proxy;
  - (BOOL) currentKeyboard;
- - (void) setCurrentKeyboard:(BOOL)a;
- - (void) setWindowEnabled:(BOOL)a;
- - (void) controllerDidLayoutSubviews:(id)a;
- - (void) registerController:(id)a;
- - (void) unregisterController:(id)a;
+ - (void) setCurrentKeyboard:(BOOL)a ;
+ - (void) setWindowEnabled:(BOOL)a ;
+ - (void) controllerDidLayoutSubviews:(id)a ;
+ - (void) registerController:(id)a ;
+ - (void) unregisterController:(id)a ;
  - (id) prepareForHostedWindow;
- - (void) setHostedWindowView:(id)a;
+ - (void) setHostedWindowView:(id)a ;
  - (id) init;
- - (void) setConnection:(id)a;
+ - (void) setConnection:(id)a ;
  - (id) currentState;
- - (void) setCurrentState:(id)a;
+ - (void) setCurrentState:(id)a ;
 
 
 @end

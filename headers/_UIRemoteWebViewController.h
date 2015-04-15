@@ -6,12 +6,12 @@
  + (id) exportedInterface;
  + (id) serviceViewControllerInterface;
 
- - (void) forwardInvocation:(id)a;
- - (id) methodSignatureForSelector:(SEL)a;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
- - (void) viewServiceDidTerminateWithError:(id)a;
+ - (void) forwardInvocation:(id)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a ;
+ - (void) viewServiceDidTerminateWithError:(id)a ;
  - (id) webViewController;
- - (void) setWebViewController:(id)a;
+ - (void) setWebViewController:(id)a ;
 
 
 @end

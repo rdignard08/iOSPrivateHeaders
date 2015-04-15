@@ -9,8 +9,8 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
- - (void) setInputTransform:(id)a;
+ - (void) setInputImage:(id)a ;
+ - (void) setInputTransform:(id)a ;
  - (id) inputTransform;
 
 

@@ -10,8 +10,8 @@
  - (id) directoryAttributes;
  - (void) skipDescendents;
  - (void) skipDescendants;
- - (void) setErrorHandler:(@?)a;
- - (id) initWithURL:(id)aincludingPropertiesForKeys:(id)boptions:(unsigned long long)cerrorHandler:(@?)d;
+ - (void) setErrorHandler:(@?)a ;
+ - (id) initWithURL:(id)a includingPropertiesForKeys:(id)b options:(unsigned long long)c errorHandler:(@?)d ;
  - (@?) errorHandler;
  - (void) dealloc;
  - (void) finalize;

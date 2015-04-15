@@ -6,9 +6,9 @@
  - (id) activityType;
  - (id) _activityImage;
  - (id) activityTitle;
- - (BOOL) canPerformWithActivityItems:(id)a;
+ - (BOOL) canPerformWithActivityItems:(id)a ;
  - (void) performActivity;
- - (void) prepareWithActivityItems:(id)a;
+ - (void) prepareWithActivityItems:(id)a ;
  - (id) pasteboard;
 
 

@@ -3,7 +3,7 @@
 
 }
 
- - (void) computeOutputSettingsUsingModel:(id)a;
+ - (void) computeOutputSettingsUsingModel:(id)a ;
  - (void) setDefaultValues;
 
 

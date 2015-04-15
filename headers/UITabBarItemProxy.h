@@ -7,8 +7,8 @@
 
  - (id) item;
  - (void) dealloc;
- - (void) setSelected:(BOOL)a;
- - (id) initWithItem:(id)ainTabBar:(id)b;
+ - (void) setSelected:(BOOL)a ;
+ - (id) initWithItem:(id)a inTabBar:(id)b ;
  - (id) view;
 
 

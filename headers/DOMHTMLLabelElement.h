@@ -5,9 +5,9 @@
 
  - (id) form;
  - (id) accessKey;
- - (void) setAccessKey:(id)a;
+ - (void) setAccessKey:(id)a ;
  - (id) htmlFor;
- - (void) setHtmlFor:(id)a;
+ - (void) setHtmlFor:(id)a ;
  - (id) control;
 
 

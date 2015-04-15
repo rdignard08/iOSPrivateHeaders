@@ -7,9 +7,9 @@
  + (id) _appearanceObjectKeyForProperties:(id)a;
 
  - (void) dealloc;
- - (BOOL) _isValidAppearanceForCustomizableObject:(id)a;
+ - (BOOL) _isValidAppearanceForCustomizableObject:(id)a ;
  - (id) _propertiesToMatch;
- - (void) _setPropertiesToMatch:(id)a;
+ - (void) _setPropertiesToMatch:(id)a ;
 
 
 @end

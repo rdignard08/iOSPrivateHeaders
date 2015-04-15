@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (void) viewDidLoad;
- - (id) initWithDefinitionValue:(id)a;
+ - (id) initWithDefinitionValue:(id)a ;
 
 
 @end

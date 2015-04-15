@@ -10,7 +10,7 @@
 
  - ({?=qi}) _cfStreamError;
  - (unsigned long long) _cfTypeID;
- - (long long) write:(r*)amaxLength:(unsigned long long)b;
+ - (long long) write:(r*)a maxLength:(unsigned long long)b ;
  - (BOOL) hasSpaceAvailable;
 
 

@@ -16,19 +16,19 @@
  + (id) bootstrapLookUpPortWithName:(id)a;
  + (id) wrapSendRight:(unsigned int)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (void) invalidate;
  - (unsigned int) port;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
- - (id) initWithRight:(int)a;
- - (id) initWithSendRight:(unsigned int)aassumeOwnership:(BOOL)b;
- - (void) _addRight:(int)a;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
+ - (id) initWithRight:(int)a ;
+ - (id) initWithSendRight:(unsigned int)a assumeOwnership:(BOOL)b ;
+ - (void) _addRight:(int)a ;
  - (BOOL) isUsable;
- - (id) initWithPort:(unsigned int)awithRights:(@?)b;
- - (id) initWithSendRight:(unsigned int)a;
+ - (id) initWithPort:(unsigned int)a withRights:(@?)b ;
+ - (id) initWithSendRight:(unsigned int)a ;
 
 
 @end

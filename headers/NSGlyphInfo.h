@@ -11,12 +11,12 @@
  + (id) glyphInfoWithGlyphName:(id)aforFont:(id)bbaseString:(id)c;
 
  - (Class) classForKeyedArchiver;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (unsigned int) _glyphForFont:(id)abaseString:(id)b;
- - (id) initWithBaseString:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (unsigned int) _glyphForFont:(id)a baseString:(id)b ;
+ - (id) initWithBaseString:(id)a ;
  - (id) _baseString;
  - (unsigned long long) characterIdentifier;
  - (unsigned long long) characterCollection;

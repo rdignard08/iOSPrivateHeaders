@@ -12,9 +12,9 @@
 
  - (void) dealloc;
  - ({UIPeripheralAnimationGeometry={CGPoint=dd}{CGPoint=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGAffineTransform=dddddd}d}) geometry;
- - (void) setGeometry:({UIPeripheralAnimationGeometry={CGPoint=dd}{CGPoint=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGAffineTransform=dddddd}d})a;
- - (void) setInPositionIsDestination:(BOOL)a;
- - (void) setScreenGeometry:(id)a;
+ - (void) setGeometry:({UIPeripheralAnimationGeometry={CGPoint=dd}{CGPoint=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGAffineTransform=dddddd}d})a ;
+ - (void) setInPositionIsDestination:(BOOL)a ;
+ - (void) setScreenGeometry:(id)a ;
  - (id) screenGeometry;
  - (BOOL) inPositionIsDestination;
 

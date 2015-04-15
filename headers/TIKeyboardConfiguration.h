@@ -16,18 +16,18 @@
  + (BOOL) supportsSecureCoding;
 
  - (void) dealloc;
- - (void) setLayoutTag:(id)a;
+ - (void) setLayoutTag:(id)a ;
  - (id) inputManagerState;
  - (id) intermediateText;
  - (BOOL) assertDefaultKeyPlane;
  - (id) accentKeyString;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) setInputManagerState:(id)a;
- - (void) setIntermediateText:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) setInputManagerState:(id)a ;
+ - (void) setIntermediateText:(id)a ;
  - (id) layoutTag;
- - (void) setAccentKeyString:(id)a;
- - (void) setAssertDefaultKeyPlane:(BOOL)a;
+ - (void) setAccentKeyString:(id)a ;
+ - (void) setAssertDefaultKeyPlane:(BOOL)a ;
 
 
 @end

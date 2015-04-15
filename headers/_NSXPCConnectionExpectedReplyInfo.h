@@ -18,20 +18,20 @@
 @property (atomic, assign, readwrite) NSNumber* proxyNumber;
 
  - (id) interface;
- - (void) setInterface:(id)a;
+ - (void) setInterface:(id)a ;
  - (id) replyBlock;
  - (unsigned long long) proxyNumber;
  - (@?) cleanupBlock;
  - (@?) errorBlock;
- - (void) setProxyNumber:(unsigned long long)a;
- - (void) setReplyBlock:(id)a;
- - (void) setErrorBlock:(@?)a;
- - (void) setCleanupBlock:(@?)a;
+ - (void) setProxyNumber:(unsigned long long)a ;
+ - (void) setReplyBlock:(id)a ;
+ - (void) setErrorBlock:(@?)a ;
+ - (void) setCleanupBlock:(@?)a ;
  - (SEL) selector;
  - (void) dealloc;
  - (id) userInfo;
- - (void) setUserInfo:(id)a;
- - (void) setSelector:(SEL)a;
+ - (void) setUserInfo:(id)a ;
+ - (void) setSelector:(SEL)a ;
 
 
 @end

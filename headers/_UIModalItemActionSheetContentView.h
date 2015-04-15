@@ -7,8 +7,8 @@
 }
 
  - (void) dealloc;
- - (void) tableView:(id)awillDisplayCell:(id)bforRowAtIndexPath:(id)c;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
+ - (void) tableView:(id)a willDisplayCell:(id)b forRowAtIndexPath:(id)c ;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
  - (void) _prepareViewIfNeeded;
  - (void) _createOtherButtonTableView;
  - (double) numberOfOtherButtonTitles;

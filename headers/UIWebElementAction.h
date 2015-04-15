@@ -13,10 +13,10 @@
  + (id) standardElementActionWithType:(int)a;
 
  - (void) dealloc;
- - (id) initWithTitle:(id)aactionHandler:(@?)btype:(int)c;
- - (void) _runActionWithElement:(id)atargetURL:(id)bdocumentView:(id)cinteractionLocation:({CGPoint=dd})d;
+ - (id) initWithTitle:(id)a actionHandler:(@?)b type:(int)c ;
+ - (void) _runActionWithElement:(id)a targetURL:(id)b documentView:(id)c interactionLocation:({CGPoint=dd})d ;
  - (@?) dismissalHandler;
- - (void) setDismissalHandler:(@?)a;
+ - (void) setDismissalHandler:(@?)a ;
  - (int) type;
  - (id) _title;
 

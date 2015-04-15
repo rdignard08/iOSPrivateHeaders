@@ -17,18 +17,18 @@
 
  - (id) description;
  - (void) dealloc;
- - (long long) inverseCompareIndexPaths:(id)a;
- - (long long) compareIndexPaths:(id)a;
+ - (long long) inverseCompareIndexPaths:(id)a ;
+ - (long long) compareIndexPaths:(id)a ;
  - (id) _indexPath;
- - (id) initWithOldIndexPath:(id)anewIndexPath:(id)b;
+ - (id) initWithOldIndexPath:(id)a newIndexPath:(id)b ;
  - (long long) _action;
  - (id) _gap;
  - (id) _newIndexPath;
  - (BOOL) _isSectionOperation;
- - (void) _setGap:(id)a;
- - (id) initWithAction:(long long)aforIndexPath:(id)b;
- - (id) initWithInitialIndexPath:(id)afinalIndexPath:(id)bupdateAction:(long long)c;
- - (void) _setNewIndexPath:(id)a;
+ - (void) _setGap:(id)a ;
+ - (id) initWithAction:(long long)a forIndexPath:(id)b ;
+ - (id) initWithInitialIndexPath:(id)a finalIndexPath:(id)b updateAction:(long long)c ;
+ - (void) _setNewIndexPath:(id)a ;
  - (long long) updateAction;
  - (id) indexPathBeforeUpdate;
  - (id) indexPathAfterUpdate;

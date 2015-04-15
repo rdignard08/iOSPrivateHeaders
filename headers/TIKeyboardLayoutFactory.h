@@ -10,11 +10,11 @@
  + (id) layoutsFileName;
 
  - (void) dealloc;
- - (id) keyboardWithName:(id)ainCache:(id)b;
- - (id) keyboardPrefixForWidth:(double)a;
+ - (id) keyboardWithName:(id)a inCache:(id)b ;
+ - (id) keyboardPrefixForWidth:(double)a ;
  - (id) init;
  - (id) internalCache;
- - (void) setInternalCache:(id)a;
+ - (void) setInternalCache:(id)a ;
  - (^v) layoutsLibraryHandle;
 
 

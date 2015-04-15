@@ -13,26 +13,26 @@
  + (void) loadSettings;
  + (void) hideViaNotification;
 
- - (void) setValue:(id)aforKey:(id)b;
+ - (void) setValue:(id)a forKey:(id)b ;
  - (void) pressRingerButton;
  - (id) initWithDefaultValues;
  - (void) hide;
  - (id) _sharedHUD;
  - (BOOL) _isShowingHUD;
- - (void) setMinLetters:(int)a;
+ - (void) setMinLetters:(int)a ;
  - (int) minLetters;
  - (BOOL) alwaysShowTypedText;
  - (int) messageCount;
- - (void) setAlwaysShowTypedText:(BOOL)a;
- - (void) setMessageCount:(int)a;
+ - (void) setAlwaysShowTypedText:(BOOL)a ;
+ - (void) setMessageCount:(int)a ;
  - (void) saveSettings;
  - (void) next;
  - (void) show;
- - (void) show:(BOOL)a;
+ - (void) show:(BOOL)a ;
  - (id) settingsHUDConfiguration;
  - (void) previous;
  - (void) cancel;
- - (id) valueForKey:(id)a;
+ - (id) valueForKey:(id)a ;
 
 
 @end

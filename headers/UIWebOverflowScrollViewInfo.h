@@ -9,11 +9,11 @@
 @property (nonatomic, retain, readwrite) UIView* oldSuperview;
 
  - (void) dealloc;
- - (void) setScrollView:(id)a;
+ - (void) setScrollView:(id)a ;
  - (id) scrollView;
- - (id) initWithScrollView:(id)a;
+ - (id) initWithScrollView:(id)a ;
  - (id) oldSuperview;
- - (void) setOldSuperview:(id)a;
+ - (void) setOldSuperview:(id)a ;
 
 
 @end

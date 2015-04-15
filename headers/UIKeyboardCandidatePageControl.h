@@ -8,11 +8,11 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) _setRenderConfig:(id)a;
- - (void) setUseVerticalArrows:(BOOL)a;
- - (void) _changePage:(id)a;
- - (void) updatePageControlWithStatus:(BOOL)arightControlButtonEnabled:(BOOL)b;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) _setRenderConfig:(id)a ;
+ - (void) setUseVerticalArrows:(BOOL)a ;
+ - (void) _changePage:(id)a ;
+ - (void) updatePageControlWithStatus:(BOOL)a rightControlButtonEnabled:(BOOL)b ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -11,12 +11,12 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
  - (id) inputCenter;
- - (void) setInputCenter:(id)a;
- - (void) setInputWidth:(id)a;
- - (void) setInputSharpness:(id)a;
+ - (void) setInputCenter:(id)a ;
+ - (void) setInputWidth:(id)a ;
+ - (void) setInputSharpness:(id)a ;
  - (id) inputWidth;
  - (id) inputSharpness;
 

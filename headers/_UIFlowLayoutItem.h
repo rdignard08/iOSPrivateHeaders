@@ -14,12 +14,12 @@
  - (id) copy;
  - (id) section;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) itemFrame;
- - (void) setItemFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setItemFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) rowObject;
  - (BOOL) isPositionEstimated;
- - (void) setPositionEstimated:(BOOL)a;
- - (void) setSection:(id)a;
- - (void) setRowObject:(id)a;
+ - (void) setPositionEstimated:(BOOL)a ;
+ - (void) setSection:(id)a ;
+ - (void) setRowObject:(id)a ;
 
 
 @end

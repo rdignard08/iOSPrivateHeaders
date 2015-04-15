@@ -7,13 +7,13 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) _endpoint;
- - (id) _initWithConnection:(id)a;
+ - (id) _initWithConnection:(id)a ;
  - (void) dealloc;
  - (void) finalize;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) _setEndpoint:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) _setEndpoint:(id)a ;
 
 
 @end

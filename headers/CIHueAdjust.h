@@ -9,9 +9,9 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) inputAngle;
- - (void) setInputAngle:(id)a;
+ - (void) setInputAngle:(id)a ;
 
 
 @end

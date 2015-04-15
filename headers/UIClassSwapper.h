@@ -8,10 +8,10 @@
 
  - (void) dealloc;
  - (id) object;
- - (id) initWithObject:(id)aandClassName:(id)b;
+ - (id) initWithObject:(id)a andClassName:(id)b ;
  - (id) className;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

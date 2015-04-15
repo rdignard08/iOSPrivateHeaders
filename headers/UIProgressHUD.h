@@ -10,17 +10,17 @@
 
  - (void) dealloc;
  - (void) hide;
- - (void) show:(BOOL)a;
+ - (void) show:(BOOL)a ;
  - (void) layoutSubviews;
- - (void) setText:(id)a;
- - (id) initWithWindow:(id)a;
- - (void) setFontSize:(int)a;
+ - (void) setText:(id)a ;
+ - (id) initWithWindow:(id)a ;
+ - (void) setFontSize:(int)a ;
  - (id) _progressIndicator;
- - (void) setShowsText:(BOOL)a;
- - (void) showInView:(id)a;
+ - (void) setShowsText:(BOOL)a ;
+ - (void) showInView:(id)a ;
  - (void) done;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

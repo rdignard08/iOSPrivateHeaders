@@ -14,30 +14,30 @@
 @property (nonatomic, retain, readwrite) NSMutableDictionary* _loadHandlers;
  + (BOOL) supportsSecureCoding;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (id) userInfo;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithItem:(id)atypeIdentifier:(id)b;
- - (void) registerItemForTypeIdentifier:(id)aloadHandler:(@?)b;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithItem:(id)a typeIdentifier:(id)b ;
+ - (void) registerItemForTypeIdentifier:(id)a loadHandler:(@?)b ;
  - (id) _loadHandlers;
- - (void) setUserInfo:(id)a;
+ - (void) setUserInfo:(id)a ;
  - (@?) previewImageHandler;
- - (void) setPreviewImageHandler:(@?)a;
+ - (void) setPreviewImageHandler:(@?)a ;
  - (id) _loadOperator;
- - (void) set_loadOperator:(id)a;
+ - (void) set_loadOperator:(id)a ;
  - (id) registeredTypeIdentifiers;
- - (void) _loadItemOfClass:(Class)aforTypeIdentifier:(id)boptions:(id)ccoerceForCoding:(BOOL)dcompletionHandler:(@?)e;
- - (BOOL) hasItemConformingToTypeIdentifier:(id)a;
- - (void) _loadItemOfClass:(Class)awithLoadHandler:(@?)boptions:(id)ccoerceForCoding:(BOOL)dcompletionHandler:(@?)e;
- - (id) initWithContentsOfURL:(id)a;
- - (void) loadItemForTypeIdentifier:(id)aoptions:(id)bcompletionHandler:(@?)c;
- - (void) _loadPreviewImageOfClass:(Class)aoptions:(id)bcoerceForCoding:(BOOL)ccompletionHandler:(@?)d;
- - (void) set_loadHandlers:(id)a;
- - (void) loadPreviewImageWithOptions:(id)acompletionHandler:(@?)b;
+ - (void) _loadItemOfClass:(Class)a forTypeIdentifier:(id)b options:(id)c coerceForCoding:(BOOL)d completionHandler:(@?)e ;
+ - (BOOL) hasItemConformingToTypeIdentifier:(id)a ;
+ - (void) _loadItemOfClass:(Class)a withLoadHandler:(@?)b options:(id)c coerceForCoding:(BOOL)d completionHandler:(@?)e ;
+ - (id) initWithContentsOfURL:(id)a ;
+ - (void) loadItemForTypeIdentifier:(id)a options:(id)b completionHandler:(@?)c ;
+ - (void) _loadPreviewImageOfClass:(Class)a options:(id)b coerceForCoding:(BOOL)c completionHandler:(@?)d ;
+ - (void) set_loadHandlers:(id)a ;
+ - (void) loadPreviewImageWithOptions:(id)a completionHandler:(@?)b ;
 
 
 @end

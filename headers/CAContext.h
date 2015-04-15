@@ -18,19 +18,19 @@
  + (id) remoteContext;
  + (id) currentContext;
 
- - (void) _setAssociatedScreen:(id)a;
+ - (void) _setAssociatedScreen:(id)a ;
  - (id) _associatedScreen;
  - (void) invalidate;
- - (void) orderAbove:(unsigned int)a;
- - (void) setFencePort:(unsigned int)acommitHandler:(@?)b;
- - (void) setFencePort:(unsigned int)a;
- - (void) setFence:(unsigned int)acount:(unsigned int)b;
+ - (void) orderAbove:(unsigned int)a ;
+ - (void) setFencePort:(unsigned int)a commitHandler:(@?)b ;
+ - (void) setFencePort:(unsigned int)a ;
+ - (void) setFence:(unsigned int)a count:(unsigned int)b ;
  - (unsigned int) createFencePort;
- - (unsigned int) createImageSlot:({CGSize=dd})ahasAlpha:(BOOL)b;
- - (void) deleteSlot:(unsigned int)a;
- - (void) orderBelow:(unsigned int)a;
+ - (unsigned int) createImageSlot:({CGSize=dd})a hasAlpha:(BOOL)b ;
+ - (void) deleteSlot:(unsigned int)a ;
+ - (void) orderBelow:(unsigned int)a ;
  - (unsigned int) createSlot;
- - (void) setObject:(id)aforSlot:(unsigned int)b;
+ - (void) setObject:(id)a forSlot:(unsigned int)b ;
 
 
 @end

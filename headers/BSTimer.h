@@ -12,9 +12,9 @@
 
  - (void) dealloc;
  - (void) cancel;
- - (id) initWithFireInterval:(double)aqueue:(id)bhandler:(@?)c;
+ - (id) initWithFireInterval:(double)a queue:(id)b handler:(@?)c ;
  - (void) schedule;
- - (id) initWithFireInterval:(double)arepeatInterval:(double)bleewayInterval:(double)cqueue:(id)dhandler:(@?)e;
+ - (id) initWithFireInterval:(double)a repeatInterval:(double)b leewayInterval:(double)c queue:(id)d handler:(@?)e ;
 
 
 @end

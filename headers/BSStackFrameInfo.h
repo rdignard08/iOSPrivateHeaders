@@ -16,7 +16,7 @@
  - (id) description;
  - (void) dealloc;
  - (id) className;
- - (id) initWithReturnAddress:(unsigned long long)a;
+ - (id) initWithReturnAddress:(unsigned long long)a ;
  - (id) functionName;
  - (id) executableName;
 

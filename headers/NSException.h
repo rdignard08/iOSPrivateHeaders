@@ -16,25 +16,25 @@
  + (void) raise:(id)aformat:(id)b;
  + (id) exceptionWithName:(id)areason:(id)buserInfo:(id)c;
 
- - (id) replacementObjectForPortCoder:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (id) replacementObjectForPortCoder:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (void) raise;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (id) userInfo;
  - (id) name;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (id) initWithName:(id)areason:(id)buserInfo:(id)c;
+ - (BOOL) isEqual:(id)a ;
+ - (id) initWithName:(id)a reason:(id)b userInfo:(id)c ;
  - (id) reason;
  - (id) callStackReturnAddresses;
  - (id) callStackSymbols;
  - (BOOL) _installStackTraceKeyIfNeeded;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

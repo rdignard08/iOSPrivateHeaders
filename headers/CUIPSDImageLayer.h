@@ -5,7 +5,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithCGImageRef:(^{CGImage=})a;
+ - (id) initWithCGImageRef:(^{CGImage=})a ;
  - (^{CGImage=}) cgImageRef;
 
 

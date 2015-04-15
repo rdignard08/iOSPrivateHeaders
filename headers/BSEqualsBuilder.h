@@ -7,19 +7,19 @@
  + (id) builder;
 
  - (id) init;
- - (id) appendBool:(BOOL)acounterpart:(@?)b;
- - (id) appendCGRect:({CGRect={CGPoint=dd}{CGSize=dd}})acounterpart:(@?)b;
- - (id) appendInteger:(long long)acounterpart:(@?)b;
- - (id) appendEqualsBlocks:(@?)a;
- - (id) appendObject:(id)acounterpart:(@?)b;
- - (id) appendCGFloat:(double)acounterpart:(@?)b;
+ - (id) appendBool:(BOOL)a counterpart:(@?)b ;
+ - (id) appendCGRect:({CGRect={CGPoint=dd}{CGSize=dd}})a counterpart:(@?)b ;
+ - (id) appendInteger:(long long)a counterpart:(@?)b ;
+ - (id) appendEqualsBlocks:(@?)a ;
+ - (id) appendObject:(id)a counterpart:(@?)b ;
+ - (id) appendCGFloat:(double)a counterpart:(@?)b ;
  - (BOOL) isEqual;
- - (id) appendUnsignedInteger:(unsigned long long)acounterpart:(@?)b;
- - (id) appendString:(id)acounterpart:(@?)b;
- - (id) appendPointer:(^v)acounterpart:(@?)b;
- - (id) appendArray:(id)acounterpart:(@?)b;
- - (id) appendCGPoint:({CGPoint=dd})acounterpart:(@?)b;
- - (id) appendCGSize:({CGSize=dd})acounterpart:(@?)b;
+ - (id) appendUnsignedInteger:(unsigned long long)a counterpart:(@?)b ;
+ - (id) appendString:(id)a counterpart:(@?)b ;
+ - (id) appendPointer:(^v)a counterpart:(@?)b ;
+ - (id) appendArray:(id)a counterpart:(@?)b ;
+ - (id) appendCGPoint:({CGPoint=dd})a counterpart:(@?)b ;
+ - (id) appendCGSize:({CGSize=dd})a counterpart:(@?)b ;
 
 
 @end

@@ -10,18 +10,18 @@
 @property (nonatomic, assign, readwrite) NSNumber* viewIsDisappearing;
 @property (nonatomic, assign, readwrite) NSNumber* registeredForNotifications;
 
- - (void) _keyboardWillShow:(id)a;
- - (void) _keyboardWillHide:(id)a;
- - (void) setViewIsDisappearing:(BOOL)a;
+ - (void) _keyboardWillShow:(id)a ;
+ - (void) _keyboardWillHide:(id)a ;
+ - (void) setViewIsDisappearing:(BOOL)a ;
  - (BOOL) viewIsDisappearing;
- - (void) setRegisteredForNotifications:(BOOL)a;
+ - (void) setRegisteredForNotifications:(BOOL)a ;
  - (BOOL) registeredForNotifications;
- - (id) initWithTableViewController:(id)a;
- - (void) _keyboardDidShow:(id)a;
- - (void) _keyboardDidHide:(id)a;
- - (void) _keyboardDidChangeFrame:(id)a;
+ - (id) initWithTableViewController:(id)a ;
+ - (void) _keyboardDidShow:(id)a ;
+ - (void) _keyboardDidHide:(id)a ;
+ - (void) _keyboardDidChangeFrame:(id)a ;
  - (double) adjustmentForKeyboard;
- - (void) setAdjustmentForKeyboard:(double)a;
+ - (void) setAdjustmentForKeyboard:(double)a ;
 
 
 @end

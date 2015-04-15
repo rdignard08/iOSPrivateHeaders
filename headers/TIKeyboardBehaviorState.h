@@ -22,15 +22,15 @@
 @property (nonatomic, assign, readwrite) NSNumber* showsCandidatesInLayout;
 
  - (BOOL) hasNextPage;
- - (void) setHasInput:(BOOL)a;
- - (void) setHasAutocorrection:(BOOL)a;
- - (void) setHasCandidates:(BOOL)a;
- - (void) setHasCandidateSelected:(BOOL)a;
- - (void) setHasNextPage:(BOOL)a;
- - (void) setShowsExtendedList:(BOOL)a;
- - (void) setShowsCandidatesInLayout:(BOOL)a;
- - (void) setFollowsZhuyin:(BOOL)a;
- - (void) setSpaceConfirmation:(BOOL)a;
+ - (void) setHasInput:(BOOL)a ;
+ - (void) setHasAutocorrection:(BOOL)a ;
+ - (void) setHasCandidates:(BOOL)a ;
+ - (void) setHasCandidateSelected:(BOOL)a ;
+ - (void) setHasNextPage:(BOOL)a ;
+ - (void) setShowsExtendedList:(BOOL)a ;
+ - (void) setShowsCandidatesInLayout:(BOOL)a ;
+ - (void) setFollowsZhuyin:(BOOL)a ;
+ - (void) setSpaceConfirmation:(BOOL)a ;
  - (BOOL) hasInput;
  - (BOOL) hasCandidates;
  - (BOOL) hasCandidateSelected;

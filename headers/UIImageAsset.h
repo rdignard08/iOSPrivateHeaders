@@ -16,24 +16,24 @@
  + (id) _assetGeneratingImagesWithDrawingBlock:(@?)a;
 
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
- - (id) imageWithTraitCollection:(id)a;
- - (void) _registerImage:(id)awithTraitCollection:(id)bcache:(BOOL)c;
+ - (BOOL) isEqual:(id)a ;
+ - (id) imageWithTraitCollection:(id)a ;
+ - (void) _registerImage:(id)a withTraitCollection:(id)b cache:(BOOL)c ;
  - (id) assetName;
  - (id) _defaultTraitCollection;
- - (id) _initWithAssetName:(id)aforManager:(id)b;
+ - (id) _initWithAssetName:(id)a forManager:(id)b ;
  - (void) _clearResolvedImageResources;
  - (id) _assetManager;
- - (void) setCreationBlock:(@?)a;
+ - (void) setCreationBlock:(@?)a ;
  - (id) _mutableCatalog;
- - (id) _updateAssetFromBlockGenerationWithTraitCollection:(id)aresolvedCatalogImage:(id)b;
+ - (id) _updateAssetFromBlockGenerationWithTraitCollection:(id)a resolvedCatalogImage:(id)b ;
  - (@?) creationBlock;
- - (void) registerImage:(id)awithTraitCollection:(id)b;
- - (void) unregisterImageWithTraitCollection:(id)a;
- - (void) setAssetName:(id)a;
+ - (void) registerImage:(id)a withTraitCollection:(id)b ;
+ - (void) unregisterImageWithTraitCollection:(id)a ;
+ - (void) setAssetName:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

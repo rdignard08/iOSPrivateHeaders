@@ -8,11 +8,11 @@
  - (id) _recursiveAllKeys;
  - (id) _recursiveAllValues;
  - (unsigned long long) count;
- - (id) objectForKey:(id)a;
- - (void) removeObjectForKey:(id)a;
+ - (id) objectForKey:(id)a ;
+ - (void) removeObjectForKey:(id)a ;
  - (id) objectEnumerator;
  - (id) keyEnumerator;
- - (void) setObject:(id)aforKey:(id)b;
+ - (void) setObject:(id)a forKey:(id)b ;
 
 
 @end

@@ -6,7 +6,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithBlock:(@?)a;
+ - (id) initWithBlock:(@?)a ;
  - (void) doit;
 
 

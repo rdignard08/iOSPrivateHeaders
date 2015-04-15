@@ -6,8 +6,8 @@
 }
 
  - (void) main;
- - (void) didTimeOut:(id)a;
- - (void) addAssertion:(id)a;
+ - (void) didTimeOut:(id)a ;
+ - (void) addAssertion:(id)a ;
 
 
 @end

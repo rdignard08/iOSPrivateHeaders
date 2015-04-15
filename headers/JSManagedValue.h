@@ -15,10 +15,10 @@
  - (void) dealloc;
  - (id) init;
  - (id) value;
- - (id) initWithValue:(id)a;
+ - (id) initWithValue:(id)a ;
  - (void) disconnectValue;
- - (void) didAddOwner:(id)a;
- - (void) didRemoveOwner:(id)a;
+ - (void) didAddOwner:(id)a ;
+ - (void) didRemoveOwner:(id)a ;
 
 
 @end

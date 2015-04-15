@@ -8,7 +8,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithRowCharRange:({_NSRange=QQ})acontainerWidth:(double)browArray:(id)ccollapseBorders:(BOOL)d;
+ - (id) initWithRowCharRange:({_NSRange=QQ})a containerWidth:(double)b rowArray:(id)c collapseBorders:(BOOL)d ;
 
 
 @end

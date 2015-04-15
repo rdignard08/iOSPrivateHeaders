@@ -10,10 +10,10 @@
 @property (nonatomic, retain, readwrite) NSArray* options;
 
  - (void) dealloc;
- - (void) setGroup:(id)a;
- - (id) initWithGroup:(id)aitemOffset:(long long)b;
+ - (void) setGroup:(id)a ;
+ - (id) initWithGroup:(id)a itemOffset:(long long)b ;
  - (id) group;
- - (void) setOptions:(id)a;
+ - (void) setOptions:(id)a ;
  - (id) options;
  - (long long) offset;
 

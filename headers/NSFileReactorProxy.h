@@ -7,14 +7,14 @@
     NSFileAccessNode* _itemLocation;
 }
 
- - (id) descriptionWithIndenting:(id)a;
- - (id) initWithClient:(id)areactorID:(id)bmessageSender:(@?)c;
+ - (id) descriptionWithIndenting:(id)a ;
+ - (id) initWithClient:(id)a reactorID:(id)b messageSender:(@?)c ;
  - (id) reactorID;
  - (@?) messageSender;
- - (void) setItemLocation:(id)a;
+ - (void) setItemLocation:(id)a ;
  - (id) itemLocation;
- - (void) forwardUsingMessageSender:(@?)a;
- - (void) collectDebuggingInformationWithCompletionHandler:(@?)a;
+ - (void) forwardUsingMessageSender:(@?)a ;
+ - (void) collectDebuggingInformationWithCompletionHandler:(@?)a ;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;

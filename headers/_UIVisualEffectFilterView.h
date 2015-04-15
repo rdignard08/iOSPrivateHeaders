@@ -3,8 +3,8 @@
 
 }
 
- - (id) _initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})asettings:(id)btype:(long long)c;
- - (id) _initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aconfig:(id)b;
+ - (id) _initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a settings:(id)b type:(long long)c ;
+ - (id) _initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a config:(id)b ;
 
 
 @end

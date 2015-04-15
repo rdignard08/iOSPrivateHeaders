@@ -20,17 +20,17 @@
  + (id) _filterArrayFromImageMetadata:(^{CGImageMetadata=})ainputImageExtent:({CGRect={CGPoint=dd}{CGSize=dd}})b;
  + (id) _filterArrayFromProperties:(id)a;
 
- - (id) valueForUndefinedKey:(id)a;
- - (void) setValue:(id)aforUndefinedKey:(id)b;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) valueForUndefinedKey:(id)a ;
+ - (void) setValue:(id)a forUndefinedKey:(id)b ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (id) name;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) attributes;
  - (void) setDefaults;
  - (id) outputImage;
@@ -38,11 +38,11 @@
  - (id) inputKeys;
  - (id) _filterClassDescription;
  - (id) outputKeys;
- - (id) _copyFilterWithZone:(^{_NSZone=})a;
- - (BOOL) _filterClassInCategory:(id)a;
+ - (id) _copyFilterWithZone:(^{_NSZone=})a ;
+ - (BOOL) _filterClassInCategory:(id)a ;
  - (id) _serializedXMPString;
- - (id) apply:(id)aarguments:(id)boptions:(id)c;
- - (id) apply:(id)a;
+ - (id) apply:(id)a arguments:(id)b options:(id)c ;
+ - (id) apply:(id)a ;
 
 
 @end

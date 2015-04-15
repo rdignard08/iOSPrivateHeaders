@@ -19,18 +19,18 @@
  - (double) duration;
  - (void) dealloc;
  - (id) initWithDefaultParameters;
- - (void) setDelay:(double)a;
- - (void) setCurve:(long long)a;
+ - (void) setDelay:(double)a ;
+ - (void) setCurve:(long long)a ;
  - (long long) curve;
  - (BOOL) shouldAnimate;
  - (id) initWithEmptyParameters;
  - (id) animationFactory;
- - (void) setAnimationFactory:(id)a;
+ - (void) setAnimationFactory:(id)a ;
  - (id) init;
  - (double) startTime;
- - (void) setStartTime:(double)a;
+ - (void) setStartTime:(double)a ;
  - (double) delay;
- - (void) setDuration:(double)a;
+ - (void) setDuration:(double)a ;
 
 
 @end

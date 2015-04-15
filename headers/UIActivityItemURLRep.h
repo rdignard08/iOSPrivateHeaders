@@ -13,10 +13,10 @@
  - (id) scheme;
  - (BOOL) isFileURL;
  - (long long) attachmentURLType;
- - (void) setThumbnail:(id)a;
- - (void) setAttachmentURLType:(long long)a;
+ - (void) setThumbnail:(id)a ;
+ - (void) setAttachmentURLType:(long long)a ;
  - (id) URL;
- - (void) setURL:(id)a;
+ - (void) setURL:(id)a ;
  - (id) thumbnail;
 
 

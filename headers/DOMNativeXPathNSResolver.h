@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (id) lookupNamespaceURI:(id)a;
+ - (id) lookupNamespaceURI:(id)a ;
 
 
 @end

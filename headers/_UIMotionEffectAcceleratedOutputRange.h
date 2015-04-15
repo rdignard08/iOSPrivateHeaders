@@ -9,15 +9,15 @@
 @property (nonatomic, assign, readonly) NSNumber* acceleration;
 
  - (void) reset;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) setAcceleration:({CGPoint=dd})afixingOutputForViewerOffset:({UIOffset=dd})b;
- - ({UIOffset=dd}) acceleratedOutputForViewerOffset:({UIOffset=dd})aaccelerationBoostFactor:({CGPoint=dd})b;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setAcceleration:({CGPoint=dd})a fixingOutputForViewerOffset:({UIOffset=dd})b ;
+ - ({UIOffset=dd}) acceleratedOutputForViewerOffset:({UIOffset=dd})a accelerationBoostFactor:({CGPoint=dd})b ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - ({CGPoint=dd}) acceleration;
 
 

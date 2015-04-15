@@ -5,8 +5,8 @@
 }
 
  - (BOOL) needsExtraBulletRendering;
- - (void) setNeedsExtraBulletRendering:(BOOL)a;
- - (void) showCGGlyphs:(r^S)apositions:(r^{CGPoint=dd})bcount:(unsigned long long)cfont:(id)dmatrix:({CGAffineTransform=dddddd})eattributes:(id)finContext:(^{CGContext=})g;
+ - (void) setNeedsExtraBulletRendering:(BOOL)a ;
+ - (void) showCGGlyphs:(r^S)a positions:(r^{CGPoint=dd})b count:(unsigned long long)c font:(id)d matrix:({CGAffineTransform=dddddd})e attributes:(id)f inContext:(^{CGContext=})g ;
 
 
 @end

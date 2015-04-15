@@ -7,7 +7,7 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (id) initWithSnapshotView:(id)a;
+ - (id) initWithSnapshotView:(id)a ;
  - (id) snapshotView;
 
 

@@ -8,7 +8,7 @@
 
  - (^v) bytes;
  - (BOOL) validatePlist;
- - (^v) copyPropertyListWithMutability:(unsigned long long)a;
+ - (^v) copyPropertyListWithMutability:(unsigned long long)a ;
  - (^{__CFData=}) copyCFData;
  - (id) copyXPCData;
  - (BOOL) beginAccessing;

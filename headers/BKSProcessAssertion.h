@@ -30,21 +30,21 @@
  - (id) name;
  - (unsigned int) reason;
  - (id) init;
- - (void) setInvalidationHandler:(@?)a;
- - (void) setName:(id)a;
+ - (void) setInvalidationHandler:(@?)a ;
+ - (void) setName:(id)a ;
  - (BOOL) valid;
- - (void) setFlags:(unsigned int)a;
- - (id) initWithPID:(int)aflags:(unsigned int)breason:(unsigned int)cname:(id)dwithHandler:(@?)e;
- - (void) _clientQueue_setAcquisitionHandler:(@?)a;
+ - (void) setFlags:(unsigned int)a ;
+ - (id) initWithPID:(int)a flags:(unsigned int)b reason:(unsigned int)c name:(id)d withHandler:(@?)e ;
+ - (void) _clientQueue_setAcquisitionHandler:(@?)a ;
  - (void) _clientQueue_acquireAssertion;
  - (void) _clientQueue_updateAssertion;
- - (void) _clientQueue_invalidate:(BOOL)a;
- - (void) setReason:(unsigned int)a;
- - (void) _clientQueue_notifyAssertionAcquired:(BOOL)a;
+ - (void) _clientQueue_invalidate:(BOOL)a ;
+ - (void) setReason:(unsigned int)a ;
+ - (void) _clientQueue_notifyAssertionAcquired:(BOOL)a ;
  - (void) assertionDidInvalidate;
- - (id) initWithBundleIdentifier:(id)aflags:(unsigned int)breason:(unsigned int)cname:(id)dwithHandler:(@?)e;
+ - (id) initWithBundleIdentifier:(id)a flags:(unsigned int)b reason:(unsigned int)c name:(id)d withHandler:(@?)e ;
  - (@?) acquisitionHandler;
- - (void) setAcquisitionHandler:(@?)a;
+ - (void) setAcquisitionHandler:(@?)a ;
 
 
 @end

@@ -3,9 +3,9 @@
 
 }
 
- - (void) setType:(id)a;
+ - (void) setType:(id)a ;
  - (id) type;
- - (void) setValue:(int)a;
+ - (void) setValue:(int)a ;
  - (int) value;
 
 

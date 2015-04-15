@@ -14,7 +14,7 @@
  - (double) scale;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) contentRect;
  - ({CGSize=dd}) imageSize;
- - (id) initWithImageSize:({CGSize=dd})aedgeBottomLeft:({CGSize=dd})bedgeTopRight:({CGSize=dd})ccontentBottomLeft:({CGSize=dd})dcontentTopRight:({CGSize=dd})ebaseline:(double)fscalesVertically:(BOOL)gscalesHorizontally:(BOOL)hscale:(double)i;
+ - (id) initWithImageSize:({CGSize=dd})a edgeBottomLeft:({CGSize=dd})b edgeTopRight:({CGSize=dd})c contentBottomLeft:({CGSize=dd})d contentTopRight:({CGSize=dd})e baseline:(double)f scalesVertically:(BOOL)g scalesHorizontally:(BOOL)h scale:(double)i ;
  - ({CGSize=dd}) edgeBottomLeftMargin;
  - ({CGSize=dd}) edgeTopRightMargin;
  - ({CGSize=dd}) contentBottomLeftMargin;
@@ -23,8 +23,8 @@
  - (BOOL) scalesVertically;
  - (BOOL) scalesHorizontally;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) edgeRect;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) insetRectWithMetrics:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) insetContentRectWithMetrics:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) insetRectWithMetrics:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) insetContentRectWithMetrics:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (BOOL) hasOpaqueContentBounds;
  - (BOOL) hasAlignmentEdgeMargins;
 

@@ -5,8 +5,8 @@
 }
 
  - (id) fieldEditor;
- - (void) setFieldEditor:(id)a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setFieldEditor:(id)a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

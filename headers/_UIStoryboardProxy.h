@@ -6,9 +6,9 @@
 
  - (id) description;
  - (void) dealloc;
- - (id) initWithStoryboard:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (id) initWithStoryboard:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

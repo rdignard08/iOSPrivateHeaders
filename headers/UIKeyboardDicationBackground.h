@@ -8,9 +8,9 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (id) shadows;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) gradient;
- - (void) setGradient:(id)a;
+ - (void) setGradient:(id)a ;
 
 
 @end

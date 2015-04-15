@@ -30,31 +30,31 @@
 
  - (double) scale;
  - (id) description;
- - (void) setSizeClassHorizontal:(long long)a;
- - (void) setSizeClassVertical:(long long)a;
- - (void) setTemplateRenderingMode:(long long)a;
- - (void) setAlignmentEdgeInsets:({?=dddd})a;
- - (void) setResizingMode:(long long)a;
- - (void) setImageType:(long long)a;
- - (void) setExifOrientation:(int)a;
+ - (void) setSizeClassHorizontal:(long long)a ;
+ - (void) setSizeClassVertical:(long long)a ;
+ - (void) setTemplateRenderingMode:(long long)a ;
+ - (void) setAlignmentEdgeInsets:({?=dddd})a ;
+ - (void) setResizingMode:(long long)a ;
+ - (void) setImageType:(long long)a ;
+ - (void) setExifOrientation:(int)a ;
  - (long long) templateRenderingMode;
  - (int) blendMode;
- - (void) setBlendMode:(int)a;
+ - (void) setBlendMode:(int)a ;
  - (int) exifOrientation;
- - (void) setIdiom:(long long)a;
- - (void) setSubtype:(long long)a;
+ - (void) setIdiom:(long long)a ;
+ - (void) setSubtype:(long long)a ;
  - (long long) idiom;
  - (long long) sizeClassHorizontal;
  - (long long) sizeClassVertical;
  - ({?=dddd}) edgeInsets;
- - (void) setEdgeInsets:({?=dddd})a;
- - (void) setIsTemplate:(BOOL)a;
+ - (void) setEdgeInsets:({?=dddd})a ;
+ - (void) setIsTemplate:(BOOL)a ;
  - (BOOL) isTemplate;
  - (long long) imageType;
  - ({?=dddd}) alignmentEdgeInsets;
  - (long long) resizingMode;
  - (long long) subtype;
- - (void) setScale:(double)a;
+ - (void) setScale:(double)a ;
 
 
 @end

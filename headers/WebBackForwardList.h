@@ -11,31 +11,31 @@
 @property (nonatomic, assign, readonly) NSNumber* forwardListCount;
  + (void) initialize;
 
- - (void) removeItem:(id)a;
+ - (void) removeItem:(id)a ;
  - (id) dictionaryRepresentation;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
  - (id) backItem;
  - (id) currentItem;
- - (void) setToMatchDictionaryRepresentation:(id)a;
+ - (void) setToMatchDictionaryRepresentation:(id)a ;
  - (id) init;
- - (void) setCapacity:(int)a;
- - (id) initWithBackForwardList:({PassRefPtr<WebCore::BackForwardList>=^{BackForwardList}})a;
+ - (void) setCapacity:(int)a ;
+ - (id) initWithBackForwardList:({PassRefPtr<WebCore::BackForwardList>=^{BackForwardList}})a ;
  - (void) _close;
- - (void) addItem:(id)a;
- - (BOOL) containsItem:(id)a;
+ - (void) addItem:(id)a ;
+ - (BOOL) containsItem:(id)a ;
  - (void) goBack;
  - (void) goForward;
- - (void) goToItem:(id)a;
+ - (void) goToItem:(id)a ;
  - (id) forwardItem;
- - (id) backListWithLimit:(int)a;
- - (id) forwardListWithLimit:(int)a;
- - (void) setPageCacheSize:(unsigned long long)a;
+ - (id) backListWithLimit:(int)a ;
+ - (id) forwardListWithLimit:(int)a ;
+ - (void) setPageCacheSize:(unsigned long long)a ;
  - (unsigned long long) pageCacheSize;
  - (int) backListCount;
  - (int) forwardListCount;
- - (id) itemAtIndex:(int)a;
+ - (id) itemAtIndex:(int)a ;
  - (int) capacity;
 
 

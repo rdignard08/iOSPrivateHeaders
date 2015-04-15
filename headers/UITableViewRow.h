@@ -11,14 +11,14 @@
  + (id) row;
 
  - (void) dealloc;
- - (void) setIndentationLevel:(long long)a;
+ - (void) setIndentationLevel:(long long)a ;
  - (long long) indentationLevel;
  - (id) cell;
- - (void) setCell:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setCell:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (double) height;
- - (void) setHeight:(double)a;
+ - (void) setHeight:(double)a ;
 
 
 @end

@@ -16,32 +16,32 @@
 
  - (void) dealloc;
  - (id) button;
- - (void) traitCollectionDidChange:(id)a;
+ - (void) traitCollectionDidChange:(id)a ;
  - (id) titleLabel;
  - (id) textLabel;
- - (id) initWithNibName:(id)abundle:(id)b;
- - (void) setTitleLabel:(id)a;
- - (void) setTextLabel:(id)a;
- - (void) setLeadImageView:(id)a;
+ - (id) initWithNibName:(id)a bundle:(id)b ;
+ - (void) setTitleLabel:(id)a ;
+ - (void) setTextLabel:(id)a ;
+ - (void) setLeadImageView:(id)a ;
  - (id) leadImageView;
- - (void) setTopConstraint:(id)a;
+ - (void) setTopConstraint:(id)a ;
  - (id) topConstraint;
- - (void) setImageToTitleConstraint:(id)a;
+ - (void) setImageToTitleConstraint:(id)a ;
  - (id) imageToTitleConstraint;
- - (void) setTitleToTextConstraint:(id)a;
+ - (void) setTitleToTextConstraint:(id)a ;
  - (id) titleToTextConstraint;
- - (void) setButtonURL:(id)a;
- - (void) setTextLabel2:(id)a;
+ - (void) setButtonURL:(id)a ;
+ - (void) setTextLabel2:(id)a ;
  - (id) textLabel2;
- - (void) setTextToTextConstraint:(id)a;
+ - (void) setTextToTextConstraint:(id)a ;
  - (id) textToTextConstraint;
- - (void) setButton:(id)a;
- - (void) _buttonPressed:(id)a;
- - (void) setTextToButtonConstraint:(id)a;
+ - (void) setButton:(id)a ;
+ - (void) _buttonPressed:(id)a ;
+ - (void) setTextToButtonConstraint:(id)a ;
  - (id) textToButtonConstraint;
- - (void) _fontSizeDidChange:(id)a;
+ - (void) _fontSizeDidChange:(id)a ;
  - (id) buttonURL;
- - (id) _buttonBackgroundImageForState:(unsigned long long)atraits:(id)b;
+ - (id) _buttonBackgroundImageForState:(unsigned long long)a traits:(id)b ;
 
 
 @end

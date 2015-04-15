@@ -5,7 +5,7 @@
  + (id) reuseIdentifier;
  + (id) collectionViewKind;
 
- - (void) setHeaderView:(id)a;
+ - (void) setHeaderView:(id)a ;
 
 
 @end

@@ -5,9 +5,9 @@
 }
  + (id) customAttributes;
 
- - (void) setValue:(id)aforUndefinedKey:(id)b;
+ - (void) setValue:(id)a forUndefinedKey:(id)b ;
  - (^{CGImage=}) outputCGImage;
- - (void) setInputCorrectionLevel:(id)a;
+ - (void) setInputCorrectionLevel:(id)a ;
  - (id) inputCorrectionLevel;
 
 

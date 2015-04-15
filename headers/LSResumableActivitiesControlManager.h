@@ -9,22 +9,22 @@
  + (id) resumableActivitiesControlManager;
 
  - (void) terminateServer;
- - (id) matchingUUIDForString:(id)a;
+ - (id) matchingUUIDForString:(id)a ;
  - (id) advertisedItemUUID;
- - (id) allUUIDsOfType:(unsigned long long)a;
+ - (id) allUUIDsOfType:(unsigned long long)a ;
  - (id) enabledUUIDs;
  - (id) currentAdvertisedItemUUID;
  - (id) debuggingInfo;
  - (void) restartServer;
- - (void) injectBTLEItem:(id)atype:(unsigned long long)bidentifier:(id)ctitle:(id)dactivityPayload:(id)eframeworkPayload:(id)fpayloadDelay:(double)g;
- - (void) callWillSaveDelegate:(id)a;
- - (void) callWillSaveDelegate:(id)acompletionHandler:(@?)b;
- - (void) callDidSaveDelegate:(id)a;
+ - (void) injectBTLEItem:(id)a type:(unsigned long long)b identifier:(id)c title:(id)d activityPayload:(id)e frameworkPayload:(id)f payloadDelay:(double)g ;
+ - (void) callWillSaveDelegate:(id)a ;
+ - (void) callWillSaveDelegate:(id)a completionHandler:(@?)b ;
+ - (void) callDidSaveDelegate:(id)a ;
  - (id) connection;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) init;
- - (void) setConnection:(id)a;
+ - (void) setConnection:(id)a ;
  - (id) delegate;
  - (id) status;
 

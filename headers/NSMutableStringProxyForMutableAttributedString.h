@@ -4,12 +4,12 @@
     NSMutableAttributedString* mutableAttributedString;
 }
 
- - (id) initWithMutableAttributedString:(id)a;
+ - (id) initWithMutableAttributedString:(id)a ;
  - (void) dealloc;
  - (void) finalize;
- - (void) replaceCharactersInRange:({_NSRange=QQ})awithString:(id)b;
- - (unsigned short) characterAtIndex:(unsigned long long)a;
- - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
+ - (void) replaceCharactersInRange:({_NSRange=QQ})a withString:(id)b ;
+ - (unsigned short) characterAtIndex:(unsigned long long)a ;
+ - (void) getCharacters:(^S)a range:({_NSRange=QQ})b ;
  - (unsigned long long) length;
 
 

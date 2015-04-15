@@ -11,11 +11,11 @@
 @property (nonatomic, assign, readonly, getter=isDataRequired) NSNumber* dataRequired;
 
  - (void) dealloc;
- - (id) editControl:(BOOL)a;
- - (id) deleteConfirmationControl:(BOOL)a;
- - (id) initWithTableViewCell:(id)aeditingStyle:(long long)b;
- - (id) reorderControl:(BOOL)a;
- - (id) reorderSeparatorView:(BOOL)a;
+ - (id) editControl:(BOOL)a ;
+ - (id) deleteConfirmationControl:(BOOL)a ;
+ - (id) initWithTableViewCell:(id)a editingStyle:(long long)b ;
+ - (id) reorderControl:(BOOL)a ;
+ - (id) reorderSeparatorView:(BOOL)a ;
  - (BOOL) isDataRequired;
 
 

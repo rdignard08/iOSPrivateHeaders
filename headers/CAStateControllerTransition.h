@@ -21,11 +21,11 @@
  - (void) invalidate;
  - (id) transition;
  - (id) init;
- - (void) addAnimation:(id)a;
+ - (void) addAnimation:(id)a ;
  - (double) beginTime;
  - (id) layer;
- - (void) removeAnimationFromLayer:(id)aforKey:(id)b;
- - (void) animationDidStop:(id)afinished:(BOOL)b;
+ - (void) removeAnimationFromLayer:(id)a forKey:(id)b ;
+ - (void) animationDidStop:(id)a finished:(BOOL)b ;
  - (float) speed;
 
 

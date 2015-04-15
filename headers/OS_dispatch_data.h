@@ -7,13 +7,13 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (void) _setContext:(^v)a;
+ - (void) _setContext:(^v)a ;
  - (^v) _getContext;
- - (void) _setFinalizer:(^?)a;
- - (void) _setTargetQueue:(id)a;
+ - (void) _setFinalizer:(^?)a ;
+ - (void) _setTargetQueue:(id)a ;
  - (id) debugDescription;
  - (id) init;
- - (id) initWithBytes:(^v)alength:(unsigned long long)bcopy:(BOOL)cfreeWhenDone:(BOOL)dbytesAreVM:(BOOL)e;
+ - (id) initWithBytes:(^v)a length:(unsigned long long)b copy:(BOOL)c freeWhenDone:(BOOL)d bytesAreVM:(BOOL)e ;
  - (BOOL) _bytesAreVM;
 
 

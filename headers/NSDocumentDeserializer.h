@@ -5,7 +5,7 @@
 
  - (id) deserializeNewData;
  - (id) deserializeNewPList;
- - (void) fixupDirInfo:(id)a;
+ - (void) fixupDirInfo:(id)a ;
 
 
 @end

@@ -14,14 +14,14 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setReplacementText:(id)a;
+ - (void) setReplacementText:(id)a ;
  - (id) replacementText;
  - (long long) editOperation;
  - (unsigned long long) indexToEdit;
- - (void) setIndexToEdit:(unsigned long long)a;
- - (void) setEditOperation:(long long)a;
- - (void) setIndexInArrayB:(unsigned long long)a;
- - (id) initWithEditOperation:(long long)aindexToEdit:(unsigned long long)bnewText:(id)cindexInArrayB:(unsigned long long)d;
+ - (void) setIndexToEdit:(unsigned long long)a ;
+ - (void) setEditOperation:(long long)a ;
+ - (void) setIndexInArrayB:(unsigned long long)a ;
+ - (id) initWithEditOperation:(long long)a indexToEdit:(unsigned long long)b newText:(id)c indexInArrayB:(unsigned long long)d ;
  - (unsigned long long) indexInArrayB;
 
 

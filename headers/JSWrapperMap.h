@@ -10,10 +10,10 @@
  - (id) .cxx_construct;
  - (void) .cxx_destruct;
  - (void) dealloc;
- - (id) initWithContext:(id)a;
- - (id) jsWrapperForObject:(id)a;
- - (id) objcWrapperForJSValueRef:(^{OpaqueJSValue=})a;
- - (id) classInfoForClass:(Class)a;
+ - (id) initWithContext:(id)a ;
+ - (id) jsWrapperForObject:(id)a ;
+ - (id) objcWrapperForJSValueRef:(^{OpaqueJSValue=})a ;
+ - (id) classInfoForClass:(Class)a ;
 
 
 @end

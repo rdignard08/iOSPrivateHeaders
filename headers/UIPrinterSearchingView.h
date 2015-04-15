@@ -8,8 +8,8 @@
 
  - (void) dealloc;
  - (void) searchTimeout;
- - (id) initInView:(id)a;
- - (void) setSearching:(BOOL)a;
+ - (id) initInView:(id)a ;
+ - (void) setSearching:(BOOL)a ;
 
 
 @end

@@ -4,8 +4,8 @@
     UIView* _excludedView;
 }
 
- - (void) touchesBegan:(id)awithEvent:(id)b;
- - (id) initWithTarget:(id)aaction:(SEL)bexcludedView:(id)c;
+ - (void) touchesBegan:(id)a withEvent:(id)b ;
+ - (id) initWithTarget:(id)a action:(SEL)b excludedView:(id)c ;
 
 
 @end

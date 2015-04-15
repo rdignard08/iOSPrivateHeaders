@@ -10,7 +10,7 @@
 @property (atomic, assign, readwrite) NSNumber* reactor;
  + (id) operationRecordWithDescription:(id)a;
 
- - (void) setReactor:(id)a;
+ - (void) setReactor:(id)a ;
  - (void) didBegin;
  - (void) willEnd;
  - (void) didEnd;

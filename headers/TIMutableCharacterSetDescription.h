@@ -4,8 +4,8 @@
 }
  + (BOOL) supportsSecureCoding;
 
- - (id) copyWithZone:(^{_NSZone=})a;
- - (void) addCharactersInString:(id)a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (void) addCharactersInString:(id)a ;
 
 
 @end

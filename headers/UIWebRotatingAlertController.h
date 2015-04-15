@@ -7,7 +7,7 @@
 
  - (void) dealloc;
  - (void) doneWithSheet;
- - (id) initWithUIWebDocumentView:(id)a;
+ - (id) initWithUIWebDocumentView:(id)a ;
  - (BOOL) presentSheet;
  - (void) _enableWebView;
  - (void) _disableWebView;

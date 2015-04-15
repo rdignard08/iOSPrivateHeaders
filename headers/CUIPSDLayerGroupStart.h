@@ -3,7 +3,7 @@
 
 }
 
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
 
 
 @end

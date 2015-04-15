@@ -39,9 +39,9 @@
  - (double) endFraction;
  - (BOOL) animateFromCurrentPosition;
  - (double) endAlpha;
- - (void) setShouldAllowGroupOpacityAfterAnimation:(BOOL)a;
- - (void) setShouldResetGroupOpacityAfterAnimation:(BOOL)a;
- - (void) setShouldClipToBoundsAfterAnimation:(BOOL)a;
+ - (void) setShouldAllowGroupOpacityAfterAnimation:(BOOL)a ;
+ - (void) setShouldResetGroupOpacityAfterAnimation:(BOOL)a ;
+ - (void) setShouldClipToBoundsAfterAnimation:(BOOL)a ;
  - (BOOL) shouldAnimateShadow;
  - (BOOL) shouldDeleteAfterAnimation;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) endRect;
@@ -49,8 +49,8 @@
  - (BOOL) shouldResetGroupOpacityAfterAnimation;
  - (BOOL) shouldAllowGroupOpacityAfterAnimation;
  - (BOOL) shouldClipToBoundsAfterAnimation;
- - (id) initWithView:(id)aindexPath:(id)bendRect:({CGRect={CGPoint=dd}{CGSize=dd}})cendAlpha:(double)dstartFraction:(double)eendFraction:(double)fcurve:(int)ganimateFromCurrentPosition:(BOOL)hshouldDeleteAfterAnimation:(BOOL)iediting:(BOOL)j;
- - (void) setShouldAnimateShadow:(BOOL)a;
+ - (id) initWithView:(id)a indexPath:(id)b endRect:({CGRect={CGPoint=dd}{CGSize=dd}})c endAlpha:(double)d startFraction:(double)e endFraction:(double)f curve:(int)g animateFromCurrentPosition:(BOOL)h shouldDeleteAfterAnimation:(BOOL)i editing:(BOOL)j ;
+ - (void) setShouldAnimateShadow:(BOOL)a ;
  - (id) view;
 
 

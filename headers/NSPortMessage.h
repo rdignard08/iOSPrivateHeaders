@@ -16,12 +16,12 @@
  - (id) receivePort;
  - (id) sendPort;
  - (id) components;
- - (id) initWithSendPort:(id)areceivePort:(id)bcomponents:(id)c;
- - (void) setMsgid:(unsigned int)a;
- - (id) initWithReceivePort:(id)asendPort:(id)bcomponents:(id)c;
+ - (id) initWithSendPort:(id)a receivePort:(id)b components:(id)c ;
+ - (void) setMsgid:(unsigned int)a ;
+ - (id) initWithReceivePort:(id)a sendPort:(id)b components:(id)c ;
  - (unsigned int) msgid;
- - (BOOL) sendBeforeDate:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (BOOL) sendBeforeDate:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
 
 

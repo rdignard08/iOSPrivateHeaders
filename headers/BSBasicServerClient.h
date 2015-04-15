@@ -11,11 +11,11 @@
  - (id) description;
  - (void) dealloc;
  - (void) invalidate;
- - (void) sendMessage:(id)a;
- - (void) setConnection:(id)a;
- - (id) initWithConnection:(id)a;
- - (void) sendMessageWithPacker:(@?)areplyHandler:(@?)bonQueue:(id)c;
- - (void) sendMessageWithPacker:(@?)a;
+ - (void) sendMessage:(id)a ;
+ - (void) setConnection:(id)a ;
+ - (id) initWithConnection:(id)a ;
+ - (void) sendMessageWithPacker:(@?)a replyHandler:(@?)b onQueue:(id)c ;
+ - (void) sendMessageWithPacker:(@?)a ;
 
 
 @end

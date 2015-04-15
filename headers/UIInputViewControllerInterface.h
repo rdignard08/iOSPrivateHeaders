@@ -9,14 +9,14 @@
 
  - (void) dealloc;
  - (id) responseDelegate;
- - (void) setResponseDelegate:(id)a;
- - (void) syncToKeyboardState:(id)acompletionHandler:(@?)b;
+ - (void) setResponseDelegate:(id)a ;
+ - (void) syncToKeyboardState:(id)a completionHandler:(@?)b ;
  - (id) _cachedState;
  - (id) forwardingInterface;
- - (void) _handleInputViewControllerState:(id)a;
- - (void) _setCachedState:(id)a;
+ - (void) _handleInputViewControllerState:(id)a ;
+ - (void) _setCachedState:(id)a ;
  - (void) _tearDownRemoteService;
- - (void) setForwardingInterface:(id)a;
+ - (void) setForwardingInterface:(id)a ;
  - (id) init;
 
 

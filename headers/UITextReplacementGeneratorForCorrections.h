@@ -12,28 +12,28 @@
 }
 
  - (void) dealloc;
- - (void) setTextChecker:(id)a;
- - (void) setAutocorrectionRecord:(id)a;
- - (void) setForceHistoryReplacement:(BOOL)a;
- - (void) setForceAutocorrectionGuesses:(BOOL)a;
- - (void) setForceSpellingGuesses:(BOOL)a;
- - (void) setMaxCountAfterAutocorrectionGuesses:(unsigned long long)a;
- - (void) setMaxCountAfterSpellingGuesses:(unsigned long long)a;
+ - (void) setTextChecker:(id)a ;
+ - (void) setAutocorrectionRecord:(id)a ;
+ - (void) setForceHistoryReplacement:(BOOL)a ;
+ - (void) setForceAutocorrectionGuesses:(BOOL)a ;
+ - (void) setForceSpellingGuesses:(BOOL)a ;
+ - (void) setMaxCountAfterAutocorrectionGuesses:(unsigned long long)a ;
+ - (void) setMaxCountAfterSpellingGuesses:(unsigned long long)a ;
  - (id) replacements;
- - (void) setMaxEditDistance:(unsigned long long)a;
+ - (void) setMaxEditDistance:(unsigned long long)a ;
  - (id) textChecker;
  - (id) autocorrectionRecord;
  - (unsigned long long) maxCountAfterAutocorrectionGuesses;
  - (unsigned long long) maxEditDistance;
  - (unsigned long long) maxCountAfterSpellingGuesses;
- - (BOOL) isStringMisspelled:(id)a;
+ - (BOOL) isStringMisspelled:(id)a ;
  - (BOOL) forceHistoryReplacement;
- - (id) addReplacementRevertingAutocorrectionToReplacements:(id)a;
- - (void) addPreviouslySuggestedAutocorrectionToReplacements:(id)a;
+ - (id) addReplacementRevertingAutocorrectionToReplacements:(id)a ;
+ - (void) addPreviouslySuggestedAutocorrectionToReplacements:(id)a ;
  - (BOOL) forceAutocorrectionGuesses;
- - (void) addAutocorrectionGuessesToReplacements:(id)a;
+ - (void) addAutocorrectionGuessesToReplacements:(id)a ;
  - (BOOL) forceSpellingGuesses;
- - (void) addSpellingGuessesForString:(id)aToReplacements:(id)b;
+ - (void) addSpellingGuessesForString:(id)a ToReplacements:(id)b ;
  - (id) init;
 
 

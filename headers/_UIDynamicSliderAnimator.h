@@ -4,7 +4,7 @@
     _UIDynamicSlider* _slider;
 }
 
- - (BOOL) _animatorStep:(double)a;
+ - (BOOL) _animatorStep:(double)a ;
 
 
 @end

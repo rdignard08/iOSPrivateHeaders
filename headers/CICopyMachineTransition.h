@@ -12,23 +12,23 @@
 }
  + (id) customAttributes;
 
- - (void) setInputExtent:(id)a;
+ - (void) setInputExtent:(id)a ;
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) inputExtent;
  - (id) _kernel;
  - (id) inputAngle;
- - (void) setInputAngle:(id)a;
- - (void) setInputColor:(id)a;
+ - (void) setInputAngle:(id)a ;
+ - (void) setInputColor:(id)a ;
  - (id) inputColor;
- - (void) setInputWidth:(id)a;
+ - (void) setInputWidth:(id)a ;
  - (id) inputWidth;
- - (void) setInputTime:(id)a;
+ - (void) setInputTime:(id)a ;
  - (id) inputTargetImage;
- - (void) setInputTargetImage:(id)a;
- - (void) setInputOpacity:(id)a;
+ - (void) setInputTargetImage:(id)a ;
+ - (void) setInputOpacity:(id)a ;
  - (id) inputOpacity;
  - (id) inputTime;
 

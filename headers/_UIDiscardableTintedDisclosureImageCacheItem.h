@@ -13,12 +13,12 @@
  - (void) endContentAccess;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (void) discardContentIfPossible;
  - (BOOL) isContentDiscarded;
  - (id) tintColor;
- - (id) _tintedDisclosureImage:(BOOL)a;
- - (id) initWithPressed:(BOOL)atintColor:(id)b;
+ - (id) _tintedDisclosureImage:(BOOL)a ;
+ - (id) initWithPressed:(BOOL)a tintColor:(id)b ;
  - (id) tintedImage;
 
 

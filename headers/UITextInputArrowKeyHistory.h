@@ -19,16 +19,16 @@
 
  - (void) dealloc;
  - (id) end;
- - (void) setStart:(id)a;
- - (void) setEnd:(id)a;
- - (void) setStartPosition:(id)a;
+ - (void) setStart:(id)a ;
+ - (void) setEnd:(id)a ;
+ - (void) setStartPosition:(id)a ;
  - (id) cursor;
  - (int) anchor;
- - (void) setAnchor:(int)a;
+ - (void) setAnchor:(int)a ;
  - (BOOL) affinityDownstream;
- - (void) setCursor:(id)a;
- - (void) setAffinityDownstream:(BOOL)a;
- - (void) setAmount:(long long)a;
+ - (void) setCursor:(id)a ;
+ - (void) setAffinityDownstream:(BOOL)a ;
+ - (void) setAmount:(long long)a ;
  - (long long) amount;
  - (id) start;
  - (id) startPosition;

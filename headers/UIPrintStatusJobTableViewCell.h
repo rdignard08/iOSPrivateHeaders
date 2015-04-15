@@ -6,9 +6,9 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (id) initWithReuseIdentifier:(id)a;
+ - (id) initWithReuseIdentifier:(id)a ;
  - (BOOL) showActive;
- - (void) setShowActive:(BOOL)a;
+ - (void) setShowActive:(BOOL)a ;
 
 
 @end

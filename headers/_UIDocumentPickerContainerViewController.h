@@ -11,32 +11,32 @@
 
  - (void) dealloc;
  - (void) invalidate;
- - (id) initWithURL:(id)a;
+ - (id) initWithURL:(id)a ;
  - (void) viewDidLayoutSubviews;
- - (void) didMoveToParentViewController:(id)a;
- - (void) viewWillAppear:(BOOL)a;
- - (void) willMoveToParentViewController:(id)a;
- - (void) viewWillDisappear:(BOOL)a;
+ - (void) didMoveToParentViewController:(id)a ;
+ - (void) viewWillAppear:(BOOL)a ;
+ - (void) willMoveToParentViewController:(id)a ;
+ - (void) viewWillDisappear:(BOOL)a ;
  - (id) model;
  - (id) serviceViewController;
- - (void) setServiceViewController:(id)a;
- - (void) setRootContainer:(BOOL)a;
- - (id) initWithModel:(id)a;
- - (void) setModel:(id)a;
+ - (void) setServiceViewController:(id)a ;
+ - (void) setRootContainer:(BOOL)a ;
+ - (id) initWithModel:(id)a ;
+ - (void) setModel:(id)a ;
  - (BOOL) isRootContainer;
  - (void) teardownPalettes;
  - (id) childViewController;
- - (void) setChildViewController:(id)a;
- - (void) setChildViewController:(id)aanimated:(BOOL)b;
- - (void) _sortOrderViewChanged:(id)a;
+ - (void) setChildViewController:(id)a ;
+ - (void) setChildViewController:(id)a animated:(BOOL)b ;
+ - (void) _sortOrderViewChanged:(id)a ;
  - (void) ensureChildViewController;
  - (void) _updateForServiceView;
  - (void) setupPalettes;
- - (void) setSearchPalette:(id)a;
+ - (void) setSearchPalette:(id)a ;
  - (id) searchPalette;
- - (void) _pickCurrentLocationForUpload:(id)a;
- - (void) _tryExportingFile:(id)atoLocation:(id)b;
- - (id) _mangledFilenameForURL:(id)a;
+ - (void) _pickCurrentLocationForUpload:(id)a ;
+ - (void) _tryExportingFile:(id)a toLocation:(id)b ;
+ - (id) _mangledFilenameForURL:(id)a ;
  - (id) url;
 
 

@@ -22,12 +22,12 @@
  - (id) description;
  - (void) dealloc;
  - (BOOL) _isDetectingMotionEvents;
- - (void) _setSubtype:(long long)a;
- - (void) setShakeState:(int)a;
+ - (void) _setSubtype:(long long)a ;
+ - (void) setShakeState:(int)a ;
  - (id) _windows;
- - (void) _sendEventToResponder:(id)a;
+ - (void) _sendEventToResponder:(id)a ;
  - (int) _shakeState;
- - (void) _enablePeakDetectionForScreenBlanked:(id)a;
+ - (void) _enablePeakDetectionForScreenBlanked:(id)a ;
  - (void) _willResume;
  - (void) _willSuspend;
  - (void) _updateAccelerometerEnabled;
@@ -35,14 +35,14 @@
  - (BOOL) _detectWhenNotActive;
  - (void) _idleTimerFired;
  - (void) _resetLowPassState;
- - (void) _accelerometerDidDetectMovementWithTimestamp:(double)a;
- - (float) _determineShakeLevelX:(float)ay:(float)bz:(float)ccurrentState:(long long)d;
- - (long long) _feedStateMachine:(float)acurrentState:(long long)btimestamp:(double)c;
- - (float) _highPass:(float)a;
- - (float) _lowPass:(float)a;
+ - (void) _accelerometerDidDetectMovementWithTimestamp:(double)a ;
+ - (float) _determineShakeLevelX:(float)a y:(float)b z:(float)c currentState:(long long)d ;
+ - (long long) _feedStateMachine:(float)a currentState:(long long)b timestamp:(double)c ;
+ - (float) _highPass:(float)a ;
+ - (float) _lowPass:(float)a ;
  - (void) _enablePeakDetectionIfNecessary;
  - (long long) type;
- - (void) accelerometer:(id)adidAccelerateWithTimeStamp:(double)bx:(float)cy:(float)dz:(float)eeventType:(int)f;
+ - (void) accelerometer:(id)a didAccelerateWithTimeStamp:(double)b x:(float)c y:(float)d z:(float)e eventType:(int)f ;
  - (long long) subtype;
 
 

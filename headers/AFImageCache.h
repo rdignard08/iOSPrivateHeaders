@@ -4,8 +4,8 @@
 
 }
 
- - (id) cachedImageForRequest:(id)a;
- - (void) cacheImage:(id)aforRequest:(id)b;
+ - (id) cachedImageForRequest:(id)a ;
+ - (void) cacheImage:(id)a forRequest:(id)b ;
 
 
 @end

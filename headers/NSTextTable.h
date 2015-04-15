@@ -11,26 +11,26 @@
 
  - (void) dealloc;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (unsigned long long) numberOfColumns;
- - (void) _takeValuesFromTextBlock:(id)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForBlock:(id)alayoutAtPoint:({CGPoint=dd})binRect:({CGRect={CGPoint=dd}{CGSize=dd}})ctextContainer:(id)dcharacterRange:({_NSRange=QQ})e;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) boundsRectForBlock:(id)acontentRect:({CGRect={CGPoint=dd}{CGSize=dd}})binRect:({CGRect={CGPoint=dd}{CGSize=dd}})ctextContainer:(id)dcharacterRange:({_NSRange=QQ})e;
- - (void) drawBackgroundForBlock:(id)awithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})binView:(id)ccharacterRange:({_NSRange=QQ})dlayoutManager:(id)e;
+ - (void) _takeValuesFromTextBlock:(id)a ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForBlock:(id)a layoutAtPoint:({CGPoint=dd})b inRect:({CGRect={CGPoint=dd}{CGSize=dd}})c textContainer:(id)d characterRange:({_NSRange=QQ})e ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) boundsRectForBlock:(id)a contentRect:({CGRect={CGPoint=dd}{CGSize=dd}})b inRect:({CGRect={CGPoint=dd}{CGSize=dd}})c textContainer:(id)d characterRange:({_NSRange=QQ})e ;
+ - (void) drawBackgroundForBlock:(id)a withFrame:({CGRect={CGPoint=dd}{CGSize=dd}})b inView:(id)c characterRange:({_NSRange=QQ})d layoutManager:(id)e ;
  - (BOOL) collapsesBorders;
- - (id) _rowArrayForBlock:(id)aatIndex:(unsigned long long)btext:(id)clayoutManager:(id)dcontainerWidth:(double)ewithRepetitions:(BOOL)fcollapseBorders:(BOOL)growCharRange:(^{_NSRange=QQ})hindexInRow:(^Q)istartingRow:(^q)jstartingColumn:(^q)kpreviousRowBlockHelper:(^@)l;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) _contentRectForCharRange:({_NSRange=QQ})atextContainer:(id)b;
+ - (id) _rowArrayForBlock:(id)a atIndex:(unsigned long long)b text:(id)c layoutManager:(id)d containerWidth:(double)e withRepetitions:(BOOL)f collapseBorders:(BOOL)g rowCharRange:(^{_NSRange=QQ})h indexInRow:(^Q)i startingRow:(^q)j startingColumn:(^q)k previousRowBlockHelper:(^@)l ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) _contentRectForCharRange:({_NSRange=QQ})a textContainer:(id)b ;
  - (BOOL) hidesEmptyCells;
- - (BOOL) _missingColumnsForRowRange:({_NSRange=QQ})ablockIndex:(unsigned long long)btext:(id)c;
- - (void) setNumberOfColumns:(unsigned long long)a;
- - (void) setCollapsesBorders:(BOOL)a;
- - (void) setHidesEmptyCells:(BOOL)a;
+ - (BOOL) _missingColumnsForRowRange:({_NSRange=QQ})a blockIndex:(unsigned long long)b text:(id)c ;
+ - (void) setNumberOfColumns:(unsigned long long)a ;
+ - (void) setCollapsesBorders:(BOOL)a ;
+ - (void) setHidesEmptyCells:(BOOL)a ;
  - (unsigned long long) layoutAlgorithm;
- - (void) setLayoutAlgorithm:(unsigned long long)a;
+ - (void) setLayoutAlgorithm:(unsigned long long)a ;
  - (unsigned long long) _tableFlags;
- - (void) _setTableFlags:(unsigned long long)a;
- - (id) _descriptionAtIndex:(unsigned long long)atext:(id)b;
+ - (void) _setTableFlags:(unsigned long long)a ;
+ - (id) _descriptionAtIndex:(unsigned long long)a text:(id)b ;
 
 
 @end

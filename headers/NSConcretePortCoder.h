@@ -4,8 +4,8 @@
     NSSet* whitelist;
 }
 
- - (void) _setWhitelist:(id)a;
- - (BOOL) _classAllowed:(Class)a;
+ - (void) _setWhitelist:(id)a ;
+ - (BOOL) _classAllowed:(Class)a ;
  - (void) dealloc;
 
 

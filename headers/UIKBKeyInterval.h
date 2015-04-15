@@ -7,10 +7,10 @@
 @property (nonatomic, retain, readwrite) UIKBTree* key;
 @property (nonatomic, assign, readwrite) NSNumber* interval;
 
- - (void) setKey:(id)a;
+ - (void) setKey:(id)a ;
  - (void) dealloc;
- - (void) setInterval:(double)a;
- - (id) initWithKey:(id)ainterval:(double)b;
+ - (void) setInterval:(double)a ;
+ - (id) initWithKey:(id)a interval:(double)b ;
  - (double) interval;
  - (id) key;
 

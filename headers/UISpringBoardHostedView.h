@@ -8,8 +8,8 @@
 
  - (void) dealloc;
  - (void) unregister;
- - (void) setRemoteViewOpaque:(BOOL)a;
- - (void) registerWithIdentifier:(id)aandController:(id)b;
+ - (void) setRemoteViewOpaque:(BOOL)a ;
+ - (void) registerWithIdentifier:(id)a andController:(id)b ;
  - (id) remoteViewIdentifier;
 
 

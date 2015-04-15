@@ -6,7 +6,7 @@
  + (id) newWithSublayerCount:(unsigned int)aindexSet:(id)b;
 
  - (unsigned int) numberOfSublayers;
- - (unsigned int) sublayerAtIndex:(unsigned int)aisValid:(^B)b;
+ - (unsigned int) sublayerAtIndex:(unsigned int)a isValid:(^B)b ;
 
 
 @end

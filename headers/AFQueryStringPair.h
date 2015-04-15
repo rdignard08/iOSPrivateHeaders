@@ -7,12 +7,12 @@
 @property (nonatomic, retain, readwrite) NSNumber* field;
 @property (nonatomic, retain, readwrite) NSNumber* value;
 
- - (void) setField:(id)a;
+ - (void) setField:(id)a ;
  - (id) field;
- - (id) initWithField:(id)avalue:(id)b;
- - (id) URLEncodedStringValueWithEncoding:(unsigned long long)a;
+ - (id) initWithField:(id)a value:(id)b ;
+ - (id) URLEncodedStringValueWithEncoding:(unsigned long long)a ;
  - (void) .cxx_destruct;
- - (void) setValue:(id)a;
+ - (void) setValue:(id)a ;
  - (id) value;
 
 

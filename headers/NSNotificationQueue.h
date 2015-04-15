@@ -9,11 +9,11 @@
 }
  + (id) defaultQueue;
 
- - (id) initWithNotificationCenter:(id)a;
+ - (id) initWithNotificationCenter:(id)a ;
  - (void) _flushNotificationQueue;
- - (void) enqueueNotification:(id)apostingStyle:(unsigned long long)bcoalesceMask:(unsigned long long)cforModes:(id)d;
- - (void) enqueueNotification:(id)apostingStyle:(unsigned long long)b;
- - (void) dequeueNotificationsMatching:(id)acoalesceMask:(unsigned long long)b;
+ - (void) enqueueNotification:(id)a postingStyle:(unsigned long long)b coalesceMask:(unsigned long long)c forModes:(id)d ;
+ - (void) enqueueNotification:(id)a postingStyle:(unsigned long long)b ;
+ - (void) dequeueNotificationsMatching:(id)a coalesceMask:(unsigned long long)b ;
  - (void) dealloc;
  - (id) init;
 

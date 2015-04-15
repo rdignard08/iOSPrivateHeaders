@@ -5,8 +5,8 @@
 }
  + (id) fontWithName:(id)asize:(double)b;
 
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) initWithCoder:(id)a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

@@ -4,9 +4,9 @@
 }
  + (id) data;
 
- - (id) initWithBytes:(^v)alength:(unsigned long long)bcopy:(BOOL)cdeallocator:(@?)d;
+ - (id) initWithBytes:(^v)a length:(unsigned long long)b copy:(BOOL)c deallocator:(@?)d ;
  - (BOOL) _isCompact;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) retain;
  - (Vv) release;
  - (unsigned long long) retainCount;

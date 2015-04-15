@@ -3,8 +3,8 @@
 
 }
 
- - (id) querySelector:(id)a;
- - (id) querySelectorAll:(id)a;
+ - (id) querySelector:(id)a ;
+ - (id) querySelectorAll:(id)a ;
 
 
 @end

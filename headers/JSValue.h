@@ -26,20 +26,20 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setObject:(id)aatIndexedSubscript:(unsigned long long)b;
+ - (void) setObject:(id)a atIndexedSubscript:(unsigned long long)b ;
  - (id) init;
- - (id) valueForProperty:(id)a;
- - (void) setValue:(id)aforProperty:(id)b;
- - (id) objectForKeyedSubscript:(id)a;
- - (void) setObject:(id)aforKeyedSubscript:(id)b;
- - (id) objectAtIndexedSubscript:(unsigned long long)a;
+ - (id) valueForProperty:(id)a ;
+ - (void) setValue:(id)a forProperty:(id)b ;
+ - (id) objectForKeyedSubscript:(id)a ;
+ - (void) setObject:(id)a forKeyedSubscript:(id)b ;
+ - (id) objectAtIndexedSubscript:(unsigned long long)a ;
  - (id) context;
  - (^{OpaqueJSValue=}) JSValueRef;
  - (id) toObject;
  - (double) toDouble;
- - (id) invokeMethod:(id)awithArguments:(id)b;
+ - (id) invokeMethod:(id)a withArguments:(id)b ;
  - (id) toString;
- - (id) toObjectOfClass:(Class)a;
+ - (id) toObjectOfClass:(Class)a ;
  - (BOOL) toBool;
  - (int) toInt32;
  - (unsigned int) toUInt32;
@@ -47,27 +47,27 @@
  - (id) toDate;
  - (id) toArray;
  - (id) toDictionary;
- - (BOOL) deleteProperty:(id)a;
- - (BOOL) hasProperty:(id)a;
- - (void) defineProperty:(id)adescriptor:(id)b;
- - (id) valueAtIndex:(unsigned long long)a;
- - (void) setValue:(id)aatIndex:(unsigned long long)b;
+ - (BOOL) deleteProperty:(id)a ;
+ - (BOOL) hasProperty:(id)a ;
+ - (void) defineProperty:(id)a descriptor:(id)b ;
+ - (id) valueAtIndex:(unsigned long long)a ;
+ - (void) setValue:(id)a atIndex:(unsigned long long)b ;
  - (BOOL) isUndefined;
  - (BOOL) isNull;
  - (BOOL) isBoolean;
  - (BOOL) isNumber;
  - (BOOL) isString;
  - (BOOL) isObject;
- - (BOOL) isEqualToObject:(id)a;
- - (BOOL) isEqualWithTypeCoercionToObject:(id)a;
- - (BOOL) isInstanceOf:(id)a;
- - (id) callWithArguments:(id)a;
- - (id) constructWithArguments:(id)a;
+ - (BOOL) isEqualToObject:(id)a ;
+ - (BOOL) isEqualWithTypeCoercionToObject:(id)a ;
+ - (BOOL) isInstanceOf:(id)a ;
+ - (id) callWithArguments:(id)a ;
+ - (id) constructWithArguments:(id)a ;
  - ({CGPoint=dd}) toPoint;
  - ({CGSize=dd}) toSize;
  - ({_NSRange=QQ}) toRange;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) toRect;
- - (id) initWithValue:(^{OpaqueJSValue=})ainContext:(id)b;
+ - (id) initWithValue:(^{OpaqueJSValue=})a inContext:(id)b ;
 
 
 @end

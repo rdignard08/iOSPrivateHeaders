@@ -14,23 +14,23 @@
  - (void) dealloc;
  - (void) finalize;
  - (void) removeAllObjects;
- - (id) objectForKey:(id)a;
- - (void) removeObjectForKey:(id)a;
+ - (id) objectForKey:(id)a ;
+ - (void) removeObjectForKey:(id)a ;
  - (id) name;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) allObjects;
- - (void) setObject:(id)aforKey:(id)b;
- - (void) setEvictsObjectsWhenApplicationEntersBackground:(BOOL)a;
+ - (void) setObject:(id)a forKey:(id)b ;
+ - (void) setEvictsObjectsWhenApplicationEntersBackground:(BOOL)a ;
  - (BOOL) evictsObjectsWithDiscardedContent;
- - (void) setObject:(id)aforKey:(id)bcost:(unsigned long long)c;
+ - (void) setObject:(id)a forKey:(id)b cost:(unsigned long long)c ;
  - (unsigned long long) totalCostLimit;
  - (BOOL) evictsObjectsWhenApplicationEntersBackground;
  - (id) init;
  - (id) delegate;
- - (void) setName:(id)a;
- - (void) setEvictsObjectsWithDiscardedContent:(BOOL)a;
- - (void) setTotalCostLimit:(unsigned long long)a;
- - (void) setCountLimit:(unsigned long long)a;
+ - (void) setName:(id)a ;
+ - (void) setEvictsObjectsWithDiscardedContent:(BOOL)a ;
+ - (void) setTotalCostLimit:(unsigned long long)a ;
+ - (void) setCountLimit:(unsigned long long)a ;
  - (unsigned long long) countLimit;
 
 

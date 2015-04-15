@@ -20,7 +20,7 @@
  + (id) prefixesForInputString:(id)a;
 
  - (Class) classForCoder;
- - (id) initWithString:(id)asyllableCount:(unsigned long long)blastSyllableIsPartial:(BOOL)cscore:(unsigned long long)dreplacementCount:(unsigned long long)etranspositionCount:(unsigned long long)finsertionCount:(unsigned long long)gdeletionCount:(unsigned long long)hindexOfFirstModification:(unsigned long long)irangeCount:(unsigned long long)jranges:(^{_NSRange=QQ})k;
+ - (id) initWithString:(id)a syllableCount:(unsigned long long)b lastSyllableIsPartial:(BOOL)c score:(unsigned long long)d replacementCount:(unsigned long long)e transpositionCount:(unsigned long long)f insertionCount:(unsigned long long)g deletionCount:(unsigned long long)h indexOfFirstModification:(unsigned long long)i rangeCount:(unsigned long long)j ranges:(^{_NSRange=QQ})k ;
  - (unsigned long long) syllableCount;
  - (BOOL) lastSyllableIsPartial;
  - (unsigned long long) score;
@@ -30,18 +30,18 @@
  - (unsigned long long) numberOfInsertions;
  - (unsigned long long) numberOfDeletions;
  - (unsigned long long) indexOfFirstModification;
- - ({_NSRange=QQ}) nonPinyinRangeAtIndex:(unsigned long long)a;
+ - ({_NSRange=QQ}) nonPinyinRangeAtIndex:(unsigned long long)a ;
  - (id) nonPinyinIndexSet;
- - (id) initWithString:(id)asyllableCount:(unsigned long long)blastSyllableIsPartial:(BOOL)cscore:(unsigned long long)dreplacementCount:(unsigned long long)etranspositionCount:(unsigned long long)finsertionCount:(unsigned long long)gdeletionCount:(unsigned long long)hrangeCount:(unsigned long long)iranges:(^{_NSRange=QQ})j;
+ - (id) initWithString:(id)a syllableCount:(unsigned long long)b lastSyllableIsPartial:(BOOL)c score:(unsigned long long)d replacementCount:(unsigned long long)e transpositionCount:(unsigned long long)f insertionCount:(unsigned long long)g deletionCount:(unsigned long long)h rangeCount:(unsigned long long)i ranges:(^{_NSRange=QQ})j ;
  - (id) description;
  - (void) dealloc;
  - (id) string;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (unsigned short) characterAtIndex:(unsigned long long)a;
+ - (BOOL) isEqual:(id)a ;
+ - (unsigned short) characterAtIndex:(unsigned long long)a ;
  - (unsigned long long) length;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

@@ -11,9 +11,9 @@
  - (void) dealloc;
  - (void) invalidate;
  - (id) sendRight;
- - (id) initWithSendRight:(id)aqueue:(id)bdeathHandler:(@?)c;
+ - (id) initWithSendRight:(id)a queue:(id)b deathHandler:(@?)c ;
  - (void) queue_handlePortDeathEvent;
- - (id) initWithPort:(unsigned int)aqueue:(id)bdeathHandler:(@?)c;
+ - (id) initWithPort:(unsigned int)a queue:(id)b deathHandler:(@?)c ;
 
 
 @end

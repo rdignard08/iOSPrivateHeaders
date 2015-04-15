@@ -7,8 +7,8 @@
     ^{__CFSet=} _knownProxies;
 }
 
- - (void) addProxy:(id)a;
- - (BOOL) removeProxy:(id)a;
+ - (void) addProxy:(id)a ;
+ - (BOOL) removeProxy:(id)a ;
  - (void) dealloc;
  - (void) finalize;
  - (id) init;

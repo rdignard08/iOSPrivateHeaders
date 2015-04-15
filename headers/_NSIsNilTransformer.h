@@ -4,7 +4,7 @@
 }
  + (BOOL) supportsReverseTransformation;
 
- - (id) transformedValue:(id)a;
+ - (id) transformedValue:(id)a ;
  - (id) description;
 
 

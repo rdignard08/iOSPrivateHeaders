@@ -13,19 +13,19 @@
  - (id) save;
  - (id) keyPath;
  - (id) target;
- - (BOOL) matches:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (BOOL) matches:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (void) setTarget:(id)a;
+ - (void) setTarget:(id)a ;
  - (id) source;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) foreachLayer:(@?)a;
- - (void) CAMLParser:(id)asetValue:(id)bforKey:(id)c;
- - (void) encodeWithCAMLWriter:(id)a;
- - (id) CAMLTypeForKey:(id)a;
- - (void) setSource:(id)a;
- - (void) apply:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) foreachLayer:(@?)a ;
+ - (void) CAMLParser:(id)a setValue:(id)b forKey:(id)c ;
+ - (void) encodeWithCAMLWriter:(id)a ;
+ - (id) CAMLTypeForKey:(id)a ;
+ - (void) setSource:(id)a ;
+ - (void) apply:(id)a ;
  - (id) targetName;
 
 

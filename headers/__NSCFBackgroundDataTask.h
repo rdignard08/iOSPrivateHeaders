@@ -12,19 +12,19 @@
 }
 
  - (void) dealloc;
- - (BOOL) isKindOfClass:(Class)a;
- - (void) stream:(id)ahandleEvent:(unsigned long long)b;
- - (void) _onqueue_didFinishWithError:(id)a;
- - (void) _onqueue_didReceiveResponse:(id)aredirectRequest:(id)bwithCompletion:(@?)c;
- - (void) _onqueue_needNewBodyStream:(BOOL)awithCompletion:(@?)b;
- - (void) _onqueue_willSendRequestForEstablishedConnection:(id)awithCompletion:(@?)b;
- - (id) initWithSession:(id)aremoteSession:(id)brequest:(id)cident:(unsigned long long)d;
+ - (BOOL) isKindOfClass:(Class)a ;
+ - (void) stream:(id)a handleEvent:(unsigned long long)b ;
+ - (void) _onqueue_didFinishWithError:(id)a ;
+ - (void) _onqueue_didReceiveResponse:(id)a redirectRequest:(id)b withCompletion:(@?)c ;
+ - (void) _onqueue_needNewBodyStream:(BOOL)a withCompletion:(@?)b ;
+ - (void) _onqueue_willSendRequestForEstablishedConnection:(id)a withCompletion:(@?)b ;
+ - (id) initWithSession:(id)a remoteSession:(id)b request:(id)c ident:(unsigned long long)d ;
  - (void) _onqueue_willBeRetried;
- - (void) _onqueue_didReceiveResponse:(id)awithCompletion:(@?)b;
- - (void) _onqueue_didReceiveData:(id)awithCompletion:(@?)b;
- - (void) captureStream:(id)a;
+ - (void) _onqueue_didReceiveResponse:(id)a withCompletion:(@?)b ;
+ - (void) _onqueue_didReceiveData:(id)a withCompletion:(@?)b ;
+ - (void) captureStream:(id)a ;
  - (void) _onqueue_openStream;
- - (void) finishStream:(BOOL)a;
+ - (void) finishStream:(BOOL)a ;
  - (void) readFromStream;
  - (id) readHandle;
  - (BOOL) isStreamBased;

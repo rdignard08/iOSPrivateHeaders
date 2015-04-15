@@ -10,7 +10,7 @@
 
  - (id) predicateFormat;
  - (id) _initPrivate;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
@@ -18,11 +18,11 @@
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) expressionValueWithObject:(id)acontext:(id)b;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) expressionValueWithObject:(id)a context:(id)b ;
 
 
 @end

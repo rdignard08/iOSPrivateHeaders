@@ -12,11 +12,11 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
- - (void) setInputHeight:(id)a;
- - (void) setInputLowLimit:(id)a;
- - (void) setInputHighLimit:(id)a;
+ - (void) setInputHeight:(id)a ;
+ - (void) setInputLowLimit:(id)a ;
+ - (void) setInputHighLimit:(id)a ;
  - (id) inputHeight;
  - (id) inputHighLimit;
  - (id) inputLowLimit;

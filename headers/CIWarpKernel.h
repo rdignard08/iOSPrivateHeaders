@@ -3,11 +3,11 @@
 
 }
 
- - (id) initWithString:(id)a;
- - (id) applyWithExtent:({CGRect={CGPoint=dd}{CGSize=dd}})aroiCallback:(@?)binputImage:(id)carguments:(id)d;
- - (id) initWithDict:(id)a;
- - (id) applyWithExtent:({CGRect={CGPoint=dd}{CGSize=dd}})aroiCallback:(@?)bandArguments:(id)c;
- - (id) applyWithExtent:({CGRect={CGPoint=dd}{CGSize=dd}})aroiCallback:(@?)binputImage:(id)candArguments:(id)d;
+ - (id) initWithString:(id)a ;
+ - (id) applyWithExtent:({CGRect={CGPoint=dd}{CGSize=dd}})a roiCallback:(@?)b inputImage:(id)c arguments:(id)d ;
+ - (id) initWithDict:(id)a ;
+ - (id) applyWithExtent:({CGRect={CGPoint=dd}{CGSize=dd}})a roiCallback:(@?)b andArguments:(id)c ;
+ - (id) applyWithExtent:({CGRect={CGPoint=dd}{CGSize=dd}})a roiCallback:(@?)b inputImage:(id)c andArguments:(id)d ;
 
 
 @end

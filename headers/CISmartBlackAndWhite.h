@@ -13,23 +13,23 @@
 
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
- - (void) getNonNormalizedSettings:(^{?=Bffff[3f]})a;
+ - (void) getNonNormalizedSettings:(^{?=Bffff[3f]})a ;
  - (^f) createHueArray;
- - (id) hueArrayImage:(^f)a;
+ - (id) hueArrayImage:(^f)a ;
  - (id) inputGrain;
  - (id) inputStrength;
- - (void) setInputStrength:(id)a;
+ - (void) setInputStrength:(id)a ;
  - (id) inputNeutralGamma;
- - (void) setInputNeutralGamma:(id)a;
+ - (void) setInputNeutralGamma:(id)a ;
  - (id) inputTone;
- - (void) setInputTone:(id)a;
+ - (void) setInputTone:(id)a ;
  - (id) inputHue;
- - (void) setInputHue:(id)a;
- - (void) setInputGrain:(id)a;
+ - (void) setInputHue:(id)a ;
+ - (void) setInputGrain:(id)a ;
  - (id) inputScaleFactor;
- - (void) setInputScaleFactor:(id)a;
+ - (void) setInputScaleFactor:(id)a ;
 
 
 @end

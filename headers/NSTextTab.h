@@ -13,7 +13,7 @@
  + (id) allocWithZone:(^{_NSZone=})a;
  + (id) columnTerminatorsForLocale:(id)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (id) retain;
  - (Vv) release;
@@ -21,12 +21,12 @@
  - (void) dealloc;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) options;
- - (id) initWithTextAlignment:(long long)alocation:(double)boptions:(id)c;
- - (id) initWithType:(unsigned long long)alocation:(double)b;
+ - (id) initWithTextAlignment:(long long)a location:(double)b options:(id)c ;
+ - (id) initWithType:(unsigned long long)a location:(double)b ;
  - (unsigned long long) tabStopType;
  - (long long) alignment;
  - (double) location;

@@ -4,14 +4,14 @@
     NSKeyValueMutatingOrderedSetMethodSet* _mutatingMethods;
 }
 
- - (id) _proxyInitWithContainer:(id)agetter:(id)b;
+ - (id) _proxyInitWithContainer:(id)a getter:(id)b ;
  - (void) _proxyNonGCFinalize;
- - (void) insertObjects:(id)aatIndexes:(id)b;
- - (void) replaceObjectsAtIndexes:(id)awithObjects:(id)b;
- - (void) insertObject:(id)aatIndex:(unsigned long long)b;
- - (void) removeObjectAtIndex:(unsigned long long)a;
- - (void) replaceObjectAtIndex:(unsigned long long)awithObject:(id)b;
- - (void) removeObjectsAtIndexes:(id)a;
+ - (void) insertObjects:(id)a atIndexes:(id)b ;
+ - (void) replaceObjectsAtIndexes:(id)a withObjects:(id)b ;
+ - (void) insertObject:(id)a atIndex:(unsigned long long)b ;
+ - (void) removeObjectAtIndex:(unsigned long long)a ;
+ - (void) replaceObjectAtIndex:(unsigned long long)a withObject:(id)b ;
+ - (void) removeObjectsAtIndexes:(id)a ;
 
 
 @end

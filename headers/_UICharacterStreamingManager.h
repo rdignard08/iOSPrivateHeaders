@@ -23,27 +23,27 @@
 @property (nonatomic, assign, readwrite) NSNumber* discardNextHypothesis;
 
  - (void) dealloc;
- - (void) setDiscardNextHypothesis:(BOOL)a;
+ - (void) setDiscardNextHypothesis:(BOOL)a ;
  - (void) _stopStreamingAnimation;
- - (void) setPendingEdits:(id)a;
- - (void) setLastHypothesis:(id)a;
- - (void) setTargetHypothesis:(id)a;
- - (void) setPreviousHypothesis:(id)a;
+ - (void) setPendingEdits:(id)a ;
+ - (void) setLastHypothesis:(id)a ;
+ - (void) setTargetHypothesis:(id)a ;
+ - (void) setPreviousHypothesis:(id)a ;
  - (id) lastHypothesis;
  - (id) targetHypothesis;
  - (void) _startStreamingAnimations;
- - (void) _displayLinkFired:(id)a;
+ - (void) _displayLinkFired:(id)a ;
  - (id) pendingEdits;
  - (BOOL) discardNextHypothesis;
  - (id) previousHypothesis;
- - (void) setupToInsertResultForNewHypothesis:(id)a;
- - (id) initWithTextView:(id)a;
+ - (void) setupToInsertResultForNewHypothesis:(id)a ;
+ - (id) initWithTextView:(id)a ;
  - (void) commitFinalResults;
- - (void) setWords:(id)a;
+ - (void) setWords:(id)a ;
  - (double) streamingCharacterInsertionRate;
- - (void) setStreamingCharacterInsertionRate:(double)a;
+ - (void) setStreamingCharacterInsertionRate:(double)a ;
  - (double) minDurationBetweenHypotheses;
- - (void) setMinDurationBetweenHypotheses:(double)a;
+ - (void) setMinDurationBetweenHypotheses:(double)a ;
 
 
 @end

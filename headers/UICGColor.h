@@ -4,21 +4,21 @@
     ^{CGColor=} cachedColor;
 }
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (void) set;
  - (id) colorSpaceName;
  - (BOOL) isPatternColor;
  - (^{CGColor=}) CGColor;
- - (BOOL) getRed:(^d)agreen:(^d)bblue:(^d)calpha:(^d)d;
+ - (BOOL) getRed:(^d)a green:(^d)b blue:(^d)c alpha:(^d)d ;
  - (void) setFill;
- - (id) colorWithAlphaComponent:(double)a;
+ - (id) colorWithAlphaComponent:(double)a ;
  - (double) alphaComponent;
- - (BOOL) getWhite:(^d)aalpha:(^d)b;
- - (id) initWithCGColor:(^{CGColor=})a;
+ - (BOOL) getWhite:(^d)a alpha:(^d)b ;
+ - (id) initWithCGColor:(^{CGColor=})a ;
  - (void) setStroke;
 
 

@@ -4,7 +4,7 @@
 }
  + (void) load;
 
- - (void) getValue:(^v)a;
+ - (void) getValue:(^v)a ;
  - (unsigned short) unsignedShortValue;
  - (unsigned char) unsignedCharValue;
  - ({?=b8b4b1b1b18[8S]}) decimalValue;

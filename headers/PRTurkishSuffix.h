@@ -23,8 +23,8 @@
  - (void) _fillPatternBuffer;
  - (int) suffixType;
  - (BOOL) postponesApostrophe;
- - (id) initWithPattern:(id)aname:(id)btype:(int)cpostponesApostrophe:(BOOL)d;
- - (unsigned long long) matchingIndexInBuffer:(char*)alength:(unsigned long long)bfollowedByLetter:(unsigned char)cmatchWithNameOnly:(^B)d;
+ - (id) initWithPattern:(id)a name:(id)b type:(int)c postponesApostrophe:(BOOL)d ;
+ - (unsigned long long) matchingIndexInBuffer:(char*)a length:(unsigned long long)b followedByLetter:(unsigned char)c matchWithNameOnly:(^B)d ;
 
 
 @end

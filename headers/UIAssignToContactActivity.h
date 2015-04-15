@@ -10,26 +10,26 @@
 
  - (id) activityType;
  - (void) dealloc;
- - (void) imagePickerControllerDidCancel:(id)a;
- - (void) imagePickerController:(id)adidFinishPickingMediaWithInfo:(id)b;
+ - (void) imagePickerControllerDidCancel:(id)a ;
+ - (void) imagePickerController:(id)a didFinishPickingMediaWithInfo:(id)b ;
  - (id) _activityImage;
  - (id) activityTitle;
- - (BOOL) canPerformWithActivityItems:(id)a;
+ - (BOOL) canPerformWithActivityItems:(id)a ;
  - (id) activityViewController;
- - (void) prepareWithActivityItems:(id)a;
+ - (void) prepareWithActivityItems:(id)a ;
  - (id) _embeddedActivityViewController;
  - (void) _willPresentAsFormSheet;
  - (id) peoplePicker;
- - (void) setPeoplePicker:(id)a;
+ - (void) setPeoplePicker:(id)a ;
  - (id) imagePickerController;
- - (void) setImagePickerController:(id)a;
- - (void) peoplePickerNavigationControllerDidCancel:(id)a;
- - (BOOL) peoplePickerNavigationController:(id)ashouldContinueAfterSelectingPerson:(^v)b;
- - (BOOL) peoplePickerNavigationController:(id)ashouldContinueAfterSelectingPerson:(^v)bproperty:(int)cidentifier:(int)d;
+ - (void) setImagePickerController:(id)a ;
+ - (void) peoplePickerNavigationControllerDidCancel:(id)a ;
+ - (BOOL) peoplePickerNavigationController:(id)a shouldContinueAfterSelectingPerson:(^v)b ;
+ - (BOOL) peoplePickerNavigationController:(id)a shouldContinueAfterSelectingPerson:(^v)b property:(int)c identifier:(int)d ;
  - (^v) person;
- - (void) setPerson:(^v)a;
+ - (void) setPerson:(^v)a ;
  - (void) _cleanup;
- - (void) setImage:(id)a;
+ - (void) setImage:(id)a ;
  - (id) image;
 
 

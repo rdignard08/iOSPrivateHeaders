@@ -10,9 +10,9 @@
 
  - (void) dealloc;
  - (id) shadowImage;
- - (void) setShadowImage:(id)a;
- - (id) initWithImage:(id)ashadowImage:(id)b;
- - (void) setImage:(id)a;
+ - (void) setShadowImage:(id)a ;
+ - (id) initWithImage:(id)a shadowImage:(id)b ;
+ - (void) setImage:(id)a ;
  - (id) image;
 
 

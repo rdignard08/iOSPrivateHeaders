@@ -11,8 +11,8 @@
  - (BOOL) _canDrawContent;
  - (void) updatePatternColor;
  - (id) checkerColor;
- - (void) setCheckerColor:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setCheckerColor:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

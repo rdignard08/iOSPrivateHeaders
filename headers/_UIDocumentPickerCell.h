@@ -16,30 +16,30 @@
  + (id) folderIconForTraits:(id)a;
 
  - (void) dealloc;
- - (void) traitCollectionDidChange:(id)a;
+ - (void) traitCollectionDidChange:(id)a ;
  - (id) titleLabel;
  - (void) prepareForReuse;
  - (id) subtitleLabel;
  - (void) _showPickableDiagnostic;
- - (void) setPickableDiagnosticGestureRecognizer:(id)a;
+ - (void) setPickableDiagnosticGestureRecognizer:(id)a ;
  - (id) pickableDiagnosticGestureRecognizer;
- - (void) setTitleLabel:(id)a;
- - (void) setSubtitleLabel:(id)a;
- - (void) setSubtitle2Label:(id)a;
+ - (void) setTitleLabel:(id)a ;
+ - (void) setSubtitleLabel:(id)a ;
+ - (void) setSubtitle2Label:(id)a ;
  - (id) subtitle2Label;
- - (void) setThumbnailCenterView:(id)a;
- - (void) setThumbnailView:(id)a;
+ - (void) setThumbnailCenterView:(id)a ;
+ - (void) setThumbnailView:(id)a ;
  - (id) thumbnailView;
- - (void) setProgressView:(id)a;
+ - (void) setProgressView:(id)a ;
  - (id) progressView;
  - (id) thumbnailCenterView;
- - (void) setThumbnailCenterHeightConstraint:(id)a;
- - (void) setThumbnailCenterWidthConstraint:(id)a;
+ - (void) setThumbnailCenterHeightConstraint:(id)a ;
+ - (void) setThumbnailCenterWidthConstraint:(id)a ;
  - (id) thumbnailCenterHeightConstraint;
  - (id) thumbnailCenterWidthConstraint;
  - (id) viewControllerForDisplay;
- - (void) reloadItem:(BOOL)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) reloadItem:(BOOL)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

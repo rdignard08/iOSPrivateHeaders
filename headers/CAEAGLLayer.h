@@ -9,17 +9,17 @@
 
  - (BOOL) isAsynchronous;
  - (void) dealloc;
- - (void) didChangeValueForKey:(id)a;
+ - (void) didChangeValueForKey:(id)a ;
  - (^{_EAGLWindowObject=^?^?^?}) nativeWindow;
  - (id) drawableProperties;
- - (BOOL) shouldArchiveValueForKey:(id)a;
+ - (BOOL) shouldArchiveValueForKey:(id)a ;
  - (BOOL) _deferrsDidBecomeVisiblePostCommit;
- - (void) layerDidBecomeVisible:(BOOL)a;
+ - (void) layerDidBecomeVisible:(BOOL)a ;
  - (void) _display;
- - (void) _didCommitLayer:(^{Transaction=^{Shared}i^{HashTable<CA::Layer *, unsigned int *>}^{SpinLock}I^{Level}^{List<void (^)()>}^{Command}^{Deleted}^{List<const void *>}^{Context}^{HashTable<CA::Layer *, CA::Layer *>}^{__CFRunLoop}^{__CFRunLoopObserver}^{LayoutList}^{List<CA::Layer *>}b1b1b1b1b1b1})a;
- - (void) setDrawableProperties:(id)a;
+ - (void) _didCommitLayer:(^{Transaction=^{Shared}i^{HashTable<CA::Layer *, unsigned int *>}^{SpinLock}I^{Level}^{List<void (^)()>}^{Command}^{Deleted}^{List<const void *>}^{Context}^{HashTable<CA::Layer *, CA::Layer *>}^{__CFRunLoop}^{__CFRunLoopObserver}^{LayoutList}^{List<CA::Layer *>}b1b1b1b1b1b1})a ;
+ - (void) setDrawableProperties:(id)a ;
  - (void) discardContents;
- - (void) setAsynchronous:(BOOL)a;
+ - (void) setAsynchronous:(BOOL)a ;
 
 
 @end

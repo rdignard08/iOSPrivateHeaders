@@ -13,10 +13,10 @@
  - (SEL) selector;
  - (void) dealloc;
  - (id) name;
- - (void) setTarget:(id)a;
- - (id) initWithName:(id)atarget:(id)bselector:(SEL)c;
- - (void) setSelector:(SEL)a;
- - (void) setName:(id)a;
+ - (void) setTarget:(id)a ;
+ - (id) initWithName:(id)a target:(id)b selector:(SEL)c ;
+ - (void) setSelector:(SEL)a ;
+ - (void) setName:(id)a ;
 
 
 @end

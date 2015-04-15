@@ -6,7 +6,7 @@
  + (BOOL) rendersLocally;
 
  - (long long) statusBarOrientation;
- - (void) setStatusBarOrientation:(long long)aanimationParameters:(id)b;
+ - (void) setStatusBarOrientation:(long long)a animationParameters:(id)b ;
  - (id) init;
 
 

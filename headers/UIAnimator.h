@@ -11,20 +11,20 @@
  + (id) sharedAnimator;
 
  - (void) dealloc;
- - (void) removeAnimationsForTarget:(id)aofKind:(Class)b;
- - (void) addAnimation:(id)awithDuration:(double)bstart:(BOOL)c;
- - (void) stopAnimation:(id)a;
- - (void) _addAnimation:(id)awithDuration:(double)bstart:(BOOL)cstartTime:(double)d;
- - (void) _startAnimation:(id)awithStartTime:(double)b;
- - (void) addAnimations:(id)awithDuration:(double)bstart:(BOOL)c;
- - (void) removeAnimationsForTarget:(id)a;
- - (void) startAnimation:(id)a;
- - (float) fractionForAnimation:(id)a;
- - (void) _advanceAnimationsOfType:(int)awithTimestamp:(double)b;
- - (void) _TimerHeartbeatCallback:(id)a;
- - (void) _TVHeartbeatCallback:(id)a;
- - (void) _LCDHeartbeatCallback:(id)a;
- - (BOOL) _isRunningAnimation:(id)a;
+ - (void) removeAnimationsForTarget:(id)a ofKind:(Class)b ;
+ - (void) addAnimation:(id)a withDuration:(double)b start:(BOOL)c ;
+ - (void) stopAnimation:(id)a ;
+ - (void) _addAnimation:(id)a withDuration:(double)b start:(BOOL)c startTime:(double)d ;
+ - (void) _startAnimation:(id)a withStartTime:(double)b ;
+ - (void) addAnimations:(id)a withDuration:(double)b start:(BOOL)c ;
+ - (void) removeAnimationsForTarget:(id)a ;
+ - (void) startAnimation:(id)a ;
+ - (float) fractionForAnimation:(id)a ;
+ - (void) _advanceAnimationsOfType:(int)a withTimestamp:(double)b ;
+ - (void) _TimerHeartbeatCallback:(id)a ;
+ - (void) _TVHeartbeatCallback:(id)a ;
+ - (void) _LCDHeartbeatCallback:(id)a ;
+ - (BOOL) _isRunningAnimation:(id)a ;
 
 
 @end

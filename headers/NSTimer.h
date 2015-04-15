@@ -14,19 +14,19 @@
  + (id) scheduledTimerWithTimeInterval:(double)atarget:(id)bselector:(SEL)cuserInfo:(id)drepeats:(BOOL)e;
  + (id) timerWithTimeInterval:(double)atarget:(id)bselector:(SEL)cuserInfo:(id)drepeats:(BOOL)e;
 
- - (id) initWithFireDate:(id)ainterval:(double)btarget:(id)cselector:(SEL)duserInfo:(id)erepeats:(BOOL)f;
+ - (id) initWithFireDate:(id)a interval:(double)b target:(id)c selector:(SEL)d userInfo:(id)e repeats:(BOOL)f ;
  - (id) fireDate;
- - (void) setFireDate:(id)a;
+ - (void) setFireDate:(id)a ;
  - (void) fire;
  - (^{__CFString=}) copyDebugDescription;
  - (double) fireTime;
- - (void) setFireTime:(double)a;
+ - (void) setFireTime:(double)a ;
  - (id) userInfo;
  - (void) invalidate;
  - (BOOL) isValid;
  - (double) timeInterval;
  - (double) tolerance;
- - (void) setTolerance:(double)a;
+ - (void) setTolerance:(double)a ;
  - (double) _cffireTime;
  - (long long) order;
  - (double) interval;

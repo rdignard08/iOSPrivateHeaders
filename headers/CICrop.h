@@ -10,10 +10,10 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _outputProperties;
- - (id) _initFromProperties:(id)a;
- - (void) setInputRectangle:(id)a;
+ - (id) _initFromProperties:(id)a ;
+ - (void) setInputRectangle:(id)a ;
  - (id) inputRectangle;
 
 

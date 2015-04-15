@@ -14,11 +14,11 @@
 @property (nonatomic, assign, readwrite) NSNumber* blendMode;
  + (void) initialize;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (int) blendMode;
  - (id) colorStops;
  - (id) colorMidpointLocations;
@@ -26,20 +26,20 @@
  - (id) opacityMidpointLocations;
  - (double) smoothingCoefficient;
  - (BOOL) isDithered;
- - (void) setBlendMode:(int)a;
- - (id) initWithColorStops:(id)acolorMidpoints:(id)bopacityStops:(id)copacityMidpoints:(id)dsmoothingCoefficient:(double)efillColor:({_psdGradientColor=dddd})fdither:(BOOL)g;
- - (id) _cleanedUpMidpointLocationsFromLocations:(id)a;
- - (void) _createOrderedStops:(^@)amidpoints:(^@)bfromStops:(id)cmidpoints:(id)dedgePixel:(^q)e;
- - (double) _smoothedInterpolationOfLocation:(double)abetweenLower:(double)bupper:(double)cscaledMidpoint:(double)d;
- - (id) initWithColorStops:(id)acolorMidpoints:(id)bopacityStops:(id)copacityMidpoints:(id)dsmoothingCoefficient:(double)efillCoefficient:(double)f;
- - ({_psdGradientColor=dddd}) _smoothedGradientColorAtLocation:(double)a;
+ - (void) setBlendMode:(int)a ;
+ - (id) initWithColorStops:(id)a colorMidpoints:(id)b opacityStops:(id)c opacityMidpoints:(id)d smoothingCoefficient:(double)e fillColor:({_psdGradientColor=dddd})f dither:(BOOL)g ;
+ - (id) _cleanedUpMidpointLocationsFromLocations:(id)a ;
+ - (void) _createOrderedStops:(^@)a midpoints:(^@)b fromStops:(id)c midpoints:(id)d edgePixel:(^q)e ;
+ - (double) _smoothedInterpolationOfLocation:(double)a betweenLower:(double)b upper:(double)c scaledMidpoint:(double)d ;
+ - (id) initWithColorStops:(id)a colorMidpoints:(id)b opacityStops:(id)c opacityMidpoints:(id)d smoothingCoefficient:(double)e fillCoefficient:(double)f ;
+ - ({_psdGradientColor=dddd}) _smoothedGradientColorAtLocation:(double)a ;
  - (double) fillCoefficient;
  - (BOOL) hasEdgePixel;
- - (void) setColorStops:(id)amidpoints:(id)b;
- - (void) setOpacityStops:(id)amidpoints:(id)b;
- - (void) setSmoothingCoefficient:(double)a;
- - (void) setFillCoefficient:(double)a;
- - (void) customizeForDistance:(double)a;
+ - (void) setColorStops:(id)a midpoints:(id)b ;
+ - (void) setOpacityStops:(id)a midpoints:(id)b ;
+ - (void) setSmoothingCoefficient:(double)a ;
+ - (void) setFillCoefficient:(double)a ;
+ - (void) customizeForDistance:(double)a ;
  - ({_psdGradientColor=dddd}) fillColor;
 
 

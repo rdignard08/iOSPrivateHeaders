@@ -13,29 +13,29 @@
     b1 _transfersTrackingFromParentScrollView;
 }
 
- - (void) setDelegate:(id)a;
- - ({CGPoint=dd}) translationInView:(id)a;
- - ({CGPoint=dd}) velocityInView:(id)a;
+ - (void) setDelegate:(id)a ;
+ - ({CGPoint=dd}) translationInView:(id)a ;
+ - ({CGPoint=dd}) velocityInView:(id)a ;
  - (double) _hysteresis;
- - (void) touchesBegan:(id)awithEvent:(id)b;
- - (void) touchesMoved:(id)awithEvent:(id)b;
- - (void) touchesCancelled:(id)awithEvent:(id)b;
- - (void) setDirectionalLockEnabled:(BOOL)a;
+ - (void) touchesBegan:(id)a withEvent:(id)b ;
+ - (void) touchesMoved:(id)a withEvent:(id)b ;
+ - (void) touchesCancelled:(id)a withEvent:(id)b ;
+ - (void) setDirectionalLockEnabled:(BOOL)a ;
  - (BOOL) isDirectionalLockEnabled;
- - (void) setScrollView:(id)a;
- - (void) removeTarget:(id)aaction:(SEL)b;
+ - (void) setScrollView:(id)a ;
+ - (void) removeTarget:(id)a action:(SEL)b ;
  - (BOOL) _caughtDeceleratingScrollView;
  - (void) _scrollViewDidEndZooming;
- - (BOOL) canBePreventedByGestureRecognizer:(id)a;
+ - (BOOL) canBePreventedByGestureRecognizer:(id)a ;
  - (id) scrollView;
  - (void) _resetGestureRecognizer;
- - ({CGPoint=dd}) _adjustSceneReferenceLocation:({CGPoint=dd})a;
- - (void) _centroidMovedTo:({CGPoint=dd})aatTime:(double)b;
- - (BOOL) _shouldTryToBeginWithEvent:(id)a;
+ - ({CGPoint=dd}) _adjustSceneReferenceLocation:({CGPoint=dd})a ;
+ - (void) _centroidMovedTo:({CGPoint=dd})a atTime:(double)b ;
+ - (BOOL) _shouldTryToBeginWithEvent:(id)a ;
  - (BOOL) _canTransferTrackingFromParentPagingScrollView;
  - (BOOL) _shouldTransferTrackingFromParentScrollViewForCurrentOffset;
  - (BOOL) _shouldContinueToWaitToTransferTrackingFromParentScrollView;
- - (id) initWithTarget:(id)aaction:(SEL)b;
+ - (id) initWithTarget:(id)a action:(SEL)b ;
 
 
 @end

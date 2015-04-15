@@ -20,24 +20,24 @@
 @property (nonatomic, assign, readwrite) NSNumber* _pathMajorRadius;
  + (id) syntheticTouchWithPoint:({CGPoint=dd})atimestamp:(double)bwindow:(id)c;
 
- - ({CGPoint=dd}) locationInView:(id)a;
- - (void) setWindow:(id)a;
+ - ({CGPoint=dd}) locationInView:(id)a ;
+ - (void) setWindow:(id)a ;
  - (long long) phase;
- - (void) setTapCount:(unsigned long long)a;
- - (void) setPhase:(long long)a;
+ - (void) setTapCount:(unsigned long long)a ;
+ - (void) setPhase:(long long)a ;
  - (unsigned char) _pathIndex;
- - (void) _setLocationInWindow:({CGPoint=dd})aresetPrevious:(BOOL)b;
- - ({CGPoint=dd}) previousLocationInView:(id)a;
+ - (void) _setLocationInWindow:({CGPoint=dd})a resetPrevious:(BOOL)b ;
+ - ({CGPoint=dd}) previousLocationInView:(id)a ;
  - (unsigned long long) tapCount;
  - (float) _pathMajorRadius;
  - (unsigned char) _pathIdentity;
- - (id) initWithPoint:({CGPoint=dd})atimestamp:(double)bwindow:(id)c;
- - (void) setLocationInWindow:({CGPoint=dd})a;
+ - (id) initWithPoint:({CGPoint=dd})a timestamp:(double)b window:(id)c ;
+ - (void) setLocationInWindow:({CGPoint=dd})a ;
  - ({CGPoint=dd}) getLocationInWindow;
- - (void) set_pathMajorRadius:(float)a;
+ - (void) set_pathMajorRadius:(float)a ;
  - (id) window;
  - (double) timestamp;
- - (void) setTimestamp:(double)a;
+ - (void) setTimestamp:(double)a ;
  - ({CGPoint=dd}) locationInWindow;
 
 

@@ -8,7 +8,7 @@
 
  - (id) nextObject;
  - (id) allObjects;
- - (id) initWithFirstKeyPointer:(^@)acapacity:(unsigned long long)b;
+ - (id) initWithFirstKeyPointer:(^@)a capacity:(unsigned long long)b ;
 
 
 @end

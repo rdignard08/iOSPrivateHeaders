@@ -17,19 +17,19 @@
 @property (nonatomic, copy, readwrite) NSNumber* enqueuedTask;
 
  - (id) timer;
- - (void) setTimer:(id)a;
+ - (void) setTimer:(id)a ;
  - (void) dealloc;
  - (void) invalidate;
  - (BOOL) isValid;
  - (double) timeInterval;
- - (void) timerFired:(id)a;
+ - (void) timerFired:(id)a ;
  - (id) taskQueue;
- - (id) initWithTaskQueue:(id)atimeInterval:(double)brepeats:(BOOL)ctask:(@?)d;
+ - (id) initWithTaskQueue:(id)a timeInterval:(double)b repeats:(BOOL)c task:(@?)d ;
  - (id) deferredAction;
  - (@?) enqueuedTask;
  - (void) handleDeferredTimerFiredEvent;
- - (void) setDeferredAction:(id)a;
- - (void) setEnqueuedTask:(@?)a;
+ - (void) setDeferredAction:(id)a ;
+ - (void) setEnqueuedTask:(@?)a ;
  - (BOOL) repeats;
  - (@?) task;
  - (void) resetTimer;

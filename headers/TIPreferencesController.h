@@ -9,31 +9,31 @@
 @property (nonatomic, assign, readwrite) NSNumber* isInternalInstall;
  + (id) sharedPreferencesController;
 
- - (BOOL) boolForKey:(int)a;
+ - (BOOL) boolForKey:(int)a ;
  - (void) dealloc;
- - (void) setValue:(id)aforKey:(int)b;
- - (BOOL) isKeyLockedDown:(int)a;
+ - (void) setValue:(id)a forKey:(int)b ;
+ - (BOOL) isKeyLockedDown:(int)a ;
  - (id) init;
- - (id) valueForKey:(int)a;
+ - (id) valueForKey:(int)a ;
  - (BOOL) isInternalInstall;
- - (void) setAutocorrectionEnabled:(BOOL)a;
+ - (void) setAutocorrectionEnabled:(BOOL)a ;
  - (BOOL) dontSynchronizePreferences;
  - (^{?=@@BBQi}) domains;
- - (void) setIsInternalInstall:(BOOL)a;
- - (void) managedKeyboardSettingDidChange:(id)a;
+ - (void) setIsInternalInstall:(BOOL)a ;
+ - (void) managedKeyboardSettingDidChange:(id)a ;
  - (^{?=@@i@@i}) preferences;
- - (id) valueForManagedKey:(int)a;
- - (id) defaultForKey:(int)a;
- - (^{?=@@BBQi}) domainForType:(int)a;
- - (void) setDontSynchronizePreferences:(BOOL)a;
+ - (id) valueForManagedKey:(int)a ;
+ - (id) defaultForKey:(int)a ;
+ - (^{?=@@BBQi}) domainForType:(int)a ;
+ - (void) setDontSynchronizePreferences:(BOOL)a ;
  - (void) clearSynchronizePreferencesTimer;
  - (void) releaseDontSynchronizePreferences;
  - (void) synchronizePreferences;
- - (void) setValue:(id)aforManagedKey:(int)b;
+ - (void) setValue:(id)a forManagedKey:(int)b ;
  - (void) touchSynchronizePreferencesTimer;
- - (void) setPredictionEnabled:(BOOL)a;
- - (void) setCheckSpellingEnabled:(BOOL)a;
- - (void) preferencesChangedCallback:(id)a;
+ - (void) setPredictionEnabled:(BOOL)a ;
+ - (void) setCheckSpellingEnabled:(BOOL)a ;
+ - (void) preferencesChangedCallback:(id)a ;
 
 
 @end

@@ -23,13 +23,13 @@
  + (id) requestViewControllerWithService:(id)aserializedAppearanceCustomizations:(id)blegacyAppearance:(BOOL)cexportedHostingObject:(id)dremoteViewControllerClass:(Class)eserviceViewControllerDeputyInterface:(id)fconnectionHandler:(@?)g;
 
  - (void) dealloc;
- - (void) _cancelUnconditionallyThen:(@?)a;
+ - (void) _cancelUnconditionallyThen:(@?)a ;
  - (void) _connectToPlugInKitService;
  - (void) _connectToViewService;
- - (id) _cancelWithError:(id)a;
+ - (id) _cancelWithError:(id)a ;
  - (void) _connectToViewControllerOperator;
  - (void) _sendServiceViewControllerRequest;
- - (void) _connectToDeputyWithInterface:(id)afromExportedHostingObject:(id)bsuccessHandler:(@?)c;
+ - (void) _connectToDeputyWithInterface:(id)a fromExportedHostingObject:(id)b successHandler:(@?)c ;
  - (void) _connectToTextEffectsOperator;
  - (void) _connectToServiceViewController;
  - (void) _sendServiceTextEffectsRequest;

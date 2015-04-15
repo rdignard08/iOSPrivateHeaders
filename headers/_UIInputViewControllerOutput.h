@@ -19,31 +19,31 @@
 @property (nonatomic, assign, readwrite) NSNumber* shouldPostReturnKeyNotification;
  + (BOOL) supportsSecureCoding;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (void) deleteBackward;
  - (id) primaryLanguage;
- - (void) setShouldPostReturnKeyNotification:(BOOL)a;
+ - (void) setShouldPostReturnKeyNotification:(BOOL)a ;
  - (BOOL) requiresInputManagerSync;
- - (void) setRequiresInputManagerSync:(BOOL)a;
- - (void) setShouldAdvanceResponder:(BOOL)a;
+ - (void) setRequiresInputManagerSync:(BOOL)a ;
+ - (void) setShouldAdvanceResponder:(BOOL)a ;
  - (id) keyboardOutputs;
- - (void) setKeyboardOutputs:(id)a;
+ - (void) setKeyboardOutputs:(id)a ;
  - (BOOL) shouldAdvanceResponder;
- - (void) setPrimaryLanguage:(id)a;
+ - (void) setPrimaryLanguage:(id)a ;
  - (BOOL) shouldPostReturnKeyNotification;
  - (BOOL) shouldAdvanceInputMode;
  - (BOOL) shouldDismiss;
- - (void) adjustTextPositionByCharacterOffset:(long long)a;
- - (void) setShouldDismiss:(BOOL)a;
- - (void) setShouldAdvanceInputMode:(BOOL)a;
+ - (void) adjustTextPositionByCharacterOffset:(long long)a ;
+ - (void) setShouldDismiss:(BOOL)a ;
+ - (void) setShouldAdvanceInputMode:(BOOL)a ;
  - (void) _pushNewKeyboardOutput;
  - (id) _currentKeyboardOutput;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) insertText:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) insertText:(id)a ;
 
 
 @end

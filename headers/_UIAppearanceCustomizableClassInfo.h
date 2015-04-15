@@ -17,7 +17,7 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (Class) _customizableViewClass;
  - (id) _appearanceNodeKey;
  - (Class) _guideClass;

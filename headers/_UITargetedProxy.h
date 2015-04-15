@@ -7,10 +7,10 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
- - (id) methodSignatureForSelector:(SEL)a;
+ - (void) forwardInvocation:(id)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
  - (id) _target;
- - (void) _setTarget:(id)a;
+ - (void) _setTarget:(id)a ;
 
 
 @end

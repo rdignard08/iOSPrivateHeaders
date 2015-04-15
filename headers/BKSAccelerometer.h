@@ -27,28 +27,28 @@
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) init;
  - (id) delegate;
- - (void) setAccelerometerEventsEnabled:(BOOL)a;
- - (void) setOrientationEventsEnabled:(BOOL)a;
+ - (void) setAccelerometerEventsEnabled:(BOOL)a ;
+ - (void) setOrientationEventsEnabled:(BOOL)a ;
  - (BOOL) accelerometerEventsEnabled;
  - (void) _checkOut;
  - (void) _updateOrientationServer;
  - (void) _orientationDidChange;
  - (int) currentDeviceOrientation;
  - (void) _serverWasRestarted;
- - (void) setPassiveOrientationEvents:(BOOL)a;
+ - (void) setPassiveOrientationEvents:(BOOL)a ;
  - (id) _orientationEventsThread;
  - (BOOL) passiveOrientationEvents;
  - (double) updateInterval;
- - (void) setUpdateInterval:(double)a;
+ - (void) setUpdateInterval:(double)a ;
  - (float) xThreshold;
- - (void) setXThreshold:(float)a;
+ - (void) setXThreshold:(float)a ;
  - (float) yThreshold;
- - (void) setYThreshold:(float)a;
+ - (void) setYThreshold:(float)a ;
  - (float) zThreshold;
- - (void) setZThreshold:(float)a;
+ - (void) setZThreshold:(float)a ;
  - (BOOL) orientationEventsEnabled;
  - (void) _checkIn;
 

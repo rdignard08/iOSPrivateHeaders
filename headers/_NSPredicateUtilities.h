@@ -59,7 +59,7 @@
  + (id) _operatorClassesForSecureCoding;
  + (id) _constantValueClassesForSecureCoding;
 
- - (double) distanceFromLocation:(id)a;
+ - (double) distanceFromLocation:(id)a ;
 
 
 @end

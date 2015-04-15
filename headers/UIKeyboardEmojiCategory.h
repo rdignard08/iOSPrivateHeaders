@@ -23,12 +23,12 @@
  - (void) dealloc;
  - (id) name;
  - (id) emoji;
- - (void) setEmoji:(id)a;
- - (void) setCategoryType:(int)a;
+ - (void) setEmoji:(id)a ;
+ - (void) setCategoryType:(int)a ;
  - (int) categoryType;
  - (void) releaseCategories;
  - (long long) lastVisibleFirstEmojiIndex;
- - (void) setLastVisibleFirstEmojiIndex:(long long)a;
+ - (void) setLastVisibleFirstEmojiIndex:(long long)a ;
  - (id) displaySymbol;
 
 

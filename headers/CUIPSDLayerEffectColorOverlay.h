@@ -9,14 +9,14 @@
  - (void) dealloc;
  - (id) init;
  - (int) blendMode;
- - (void) setBlendMode:(int)a;
- - (void) setColor:(id)a;
- - (BOOL) updateLayerEffectPreset:(id)aerror:(^@)b;
- - (id) initWithEffectFromPreset:(id)aatIndex:(unsigned int)b;
+ - (void) setBlendMode:(int)a ;
+ - (void) setColor:(id)a ;
+ - (BOOL) updateLayerEffectPreset:(id)a error:(^@)b ;
+ - (id) initWithEffectFromPreset:(id)a atIndex:(unsigned int)b ;
  - (unsigned int) effectType;
  - (id) color;
  - (double) opacity;
- - (void) setOpacity:(double)a;
+ - (void) setOpacity:(double)a ;
 
 
 @end

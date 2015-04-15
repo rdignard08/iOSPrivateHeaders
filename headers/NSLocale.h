@@ -33,23 +33,23 @@
 
  - (Class) classForCoder;
  - (id) debugDescription;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) objectForKey:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) objectForKey:(id)a ;
  - (unsigned char) _nullLocale;
  - (void) _setNullLocale;
  - (id) _prefs;
  - (id) localeIdentifier;
- - (id) _copyDisplayNameForKey:(id)avalue:(id)b;
+ - (id) _copyDisplayNameForKey:(id)a value:(id)b ;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned long long) _cfTypeID;
- - (id) displayNameForKey:(id)avalue:(id)b;
- - (id) initWithLocaleIdentifier:(id)a;
+ - (id) displayNameForKey:(id)a value:(id)b ;
+ - (id) initWithLocaleIdentifier:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) identifier;
 
 

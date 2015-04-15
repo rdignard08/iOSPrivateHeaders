@@ -8,8 +8,8 @@
 }
 
  - (void) dealloc;
- - (void) stream:(id)ahandleEvent:(unsigned long long)b;
- - (id) initWithStreamEvents:(unsigned long long)acallback:(^v)bcontext:(^{?=q^v^?^?^?})c;
+ - (void) stream:(id)a handleEvent:(unsigned long long)b ;
+ - (id) initWithStreamEvents:(unsigned long long)a callback:(^v)b context:(^{?=q^v^?^?^?})c ;
 
 
 @end

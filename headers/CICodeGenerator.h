@@ -7,7 +7,7 @@
  - (id) outputImage;
  - (^{CGImage=}) outputCGImage;
  - (id) inputMessage;
- - (void) setInputMessage:(id)a;
+ - (void) setInputMessage:(id)a ;
 
 
 @end

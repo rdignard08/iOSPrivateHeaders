@@ -24,25 +24,25 @@
 
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) tintColor;
- - (void) setTintColor:(id)a;
+ - (void) setTintColor:(id)a ;
  - (long long) _style;
  - (id) referenceColor;
  - (id) legibilitySettings;
- - (id) initWithReferenceColor:(id)areferenceContrast:(double)blegibilitySettings:(id)c;
- - (id) _computeSourceColorDodgeColorForDestinationColor:(id)aproducingLuminanceChange:(double)b;
+ - (id) initWithReferenceColor:(id)a referenceContrast:(double)b legibilitySettings:(id)c ;
+ - (id) _computeSourceColorDodgeColorForDestinationColor:(id)a producingLuminanceChange:(double)b ;
  - (id) highlightLimitingColor;
  - (id) shimmerColor;
  - (id) chevronShimmerColor;
- - (id) tintViewWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (id) highlightLimitingViewWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) tintViewWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (id) highlightLimitingViewWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (double) referenceContrast;
- - (void) setShimmerColor:(id)a;
- - (void) setChevronShimmerColor:(id)a;
- - (void) setHighlightLimitingColor:(id)a;
+ - (void) setShimmerColor:(id)a ;
+ - (void) setChevronShimmerColor:(id)a ;
+ - (void) setHighlightLimitingColor:(id)a ;
  - (long long) style;
- - (void) setHighlightColor:(id)a;
+ - (void) setHighlightColor:(id)a ;
  - (id) highlightColor;
 
 

@@ -4,10 +4,10 @@
     float _curlUpDY;
 }
 
- - (BOOL) canBePreventedByGestureRecognizer:(id)a;
+ - (BOOL) canBePreventedByGestureRecognizer:(id)a ;
  - (float) _curlUpDY;
- - (BOOL) _delegateShouldReceiveTouch:(id)a;
- - (void) _setCurlUpDY:(float)a;
+ - (BOOL) _delegateShouldReceiveTouch:(id)a ;
+ - (void) _setCurlUpDY:(float)a ;
 
 
 @end

@@ -4,7 +4,7 @@
 }
 
  - (id) currentNode;
- - (void) setCurrentNode:(id)a;
+ - (void) setCurrentNode:(id)a ;
  - (void) dealloc;
  - (void) finalize;
  - (id) previousSibling;

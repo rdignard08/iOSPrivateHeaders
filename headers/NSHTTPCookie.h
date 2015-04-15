@@ -23,19 +23,19 @@
  + (id) _cf2nsCookies:(^{__CFArray=})a;
  + (id) cookieWithProperties:(id)a;
 
- - (id) replacementObjectForPortCoder:(id)a;
+ - (id) replacementObjectForPortCoder:(id)a ;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
  - (id) domain;
  - (id) name;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithProperties:(id)a;
- - (id) initWithCFHTTPCookie:(^{OpaqueCFHTTPCookie=})a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithProperties:(id)a ;
+ - (id) initWithCFHTTPCookie:(^{OpaqueCFHTTPCookie=})a ;
  - (BOOL) isSessionOnly;
  - (id) expiresDate;
  - (id) comment;
@@ -59,7 +59,7 @@
  - (id) Discard;
  - (id) Port;
  - (id) MaxAge;
- - (long long) _compareForHeaderOrder:(id)a;
+ - (long long) _compareForHeaderOrder:(id)a ;
  - (id) _key;
  - (BOOL) _isExpired;
  - (id) value;

@@ -5,8 +5,8 @@
 }
 
  - (void) dealloc;
- - (id) initWithImageRef:(id)alayerIndex:(unsigned int)b;
- - (id) layerRefAtIndex:(unsigned int)a;
+ - (id) initWithImageRef:(id)a layerIndex:(unsigned int)b ;
+ - (id) layerRefAtIndex:(unsigned int)a ;
  - (unsigned int) numberOfLayers;
  - (id) layerNames;
  - (BOOL) isLayerGroup;

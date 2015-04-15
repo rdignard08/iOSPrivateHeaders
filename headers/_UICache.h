@@ -13,12 +13,12 @@
 
  - (void) dealloc;
  - (void) removeAllObjects;
- - (id) objectForKey:(id)a;
- - (void) removeObjectForKey:(id)a;
- - (void) setObject:(id)aforKey:(id)b;
+ - (id) objectForKey:(id)a ;
+ - (void) removeObjectForKey:(id)a ;
+ - (void) setObject:(id)a forKey:(id)b ;
  - (id) init;
- - (void) setClearsCacheOnLowMemoryWarnings:(BOOL)a;
- - (void) setClearsCacheOnApplicationBackground:(BOOL)a;
+ - (void) setClearsCacheOnLowMemoryWarnings:(BOOL)a ;
+ - (void) setClearsCacheOnApplicationBackground:(BOOL)a ;
  - (BOOL) clearsCacheOnLowMemoryWarnings;
  - (BOOL) clearsCacheOnApplicationBackground;
 

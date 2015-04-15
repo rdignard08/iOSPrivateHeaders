@@ -6,7 +6,7 @@
 }
 
  - (void) logToAggregate;
- - (void) recordTypingDelay:(double)a;
+ - (void) recordTypingDelay:(double)a ;
  - (id) init;
 
 

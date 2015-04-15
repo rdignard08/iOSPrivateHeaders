@@ -12,21 +12,21 @@
  + (id) settingsForUserNotificationTypes:(unsigned long long)auserNotificationActionSettings:(id)b;
  + (id) settingsForRegisteredSettings:(id)arequestedSettings:(id)b;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned long long) types;
  - (id) validatedSettings;
- - (id) initWithUserNotificationTypes:(unsigned long long)auserNotificationActionSettings:(id)b;
- - (id) initWithTypes:(unsigned long long)acategories:(id)b;
+ - (id) initWithUserNotificationTypes:(unsigned long long)a userNotificationActionSettings:(id)b ;
+ - (id) initWithTypes:(unsigned long long)a categories:(id)b ;
  - (id) categories;
- - (BOOL) mayPresentUserNotificationOfType:(unsigned long long)a;
+ - (BOOL) mayPresentUserNotificationOfType:(unsigned long long)a ;
  - (unsigned long long) allowedUserNotificationTypes;
  - (id) userNotificationActionSettings;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

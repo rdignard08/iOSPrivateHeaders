@@ -13,29 +13,29 @@
 }
 
  - (void) main;
- - (id) _publisherForPort:(unsigned int)a;
- - (void) _broadcastStatusBarDataWithActions:(int)a;
+ - (id) _publisherForPort:(unsigned int)a ;
+ - (void) _broadcastStatusBarDataWithActions:(int)a ;
  - (void) _broadcastStyleOverrides;
  - (^{?=[26B][64c]ii[100c][100c][2[100c]][1024c]IiiIiI[150c]iib1b1b1[256c]b1b1b1b1b1I}) _statusBarData;
  - (int) _styleOverrides;
- - (void) _setAnimationEndTimesForOverrides:(int)a;
- - (void) _removeAnimationEndTimesForOverrides:(int)a;
- - (double) _glowAnimationEndTimeForStyle:(long long)a;
- - (void) _addClient:(unsigned int)a;
- - (void) _removeClient:(^{__CFMachPort=})a;
- - (void) _removePublisher:(^{__CFMachPort=})a;
+ - (void) _setAnimationEndTimesForOverrides:(int)a ;
+ - (void) _removeAnimationEndTimesForOverrides:(int)a ;
+ - (double) _glowAnimationEndTimeForStyle:(long long)a ;
+ - (void) _addClient:(unsigned int)a ;
+ - (void) _removeClient:(^{__CFMachPort=})a ;
+ - (void) _removePublisher:(^{__CFMachPort=})a ;
  - (^{?=[26B]b1b1b1b1b2b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1{?=[26B][64c]ii[100c][100c][2[100c]][1024c]IiiIiI[150c]iib1b1b1[256c]b1b1b1b1b1I}}) _statusBarOverrideData;
- - (void) _postStatusBarData:(^{?=[26B][64c]ii[100c][100c][2[100c]][1024c]IiiIiI[150c]iib1b1b1[256c]b1b1b1b1b1I})aactions:(int)b;
- - (void) _addStyleOverrides:(int)aforPublisher:(id)b;
- - (void) _removeStyleOverrides:(int)aforPublisher:(id)b;
- - (BOOL) _glowAnimationStateForStyle:(long long)a;
- - (void) _postGlowAnimationState:(BOOL)aforStyle:(long long)b;
- - (id) _doubleHeightStatusStringForStyle:(long long)a;
- - (void) _postDoubleHeightStatus:(char*)aforStyle:(long long)b;
- - (void) _postStatusBarOverrideData:(^{?=[26B]b1b1b1b1b2b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1{?=[26B][64c]ii[100c][100c][2[100c]][1024c]IiiIiI[150c]iib1b1b1[256c]b1b1b1b1b1I}})a;
+ - (void) _postStatusBarData:(^{?=[26B][64c]ii[100c][100c][2[100c]][1024c]IiiIiI[150c]iib1b1b1[256c]b1b1b1b1b1I})a actions:(int)b ;
+ - (void) _addStyleOverrides:(int)a forPublisher:(id)b ;
+ - (void) _removeStyleOverrides:(int)a forPublisher:(id)b ;
+ - (BOOL) _glowAnimationStateForStyle:(long long)a ;
+ - (void) _postGlowAnimationState:(BOOL)a forStyle:(long long)b ;
+ - (id) _doubleHeightStatusStringForStyle:(long long)a ;
+ - (void) _postDoubleHeightStatus:(char*)a forStyle:(long long)b ;
+ - (void) _postStatusBarOverrideData:(^{?=[26B]b1b1b1b1b2b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1{?=[26B][64c]ii[100c][100c][2[100c]][1024c]IiiIiI[150c]iib1b1b1[256c]b1b1b1b1b1I}})a ;
  - (BOOL) _permanentizeStatusBarOverrideData;
- - (void) _addStatusBarItem:(int)aforPublisher:(id)b;
- - (void) _removeStatusBarItem:(int)aforPublisher:(id)b;
+ - (void) _addStatusBarItem:(int)a forPublisher:(id)b ;
+ - (void) _removeStatusBarItem:(int)a forPublisher:(id)b ;
 
 
 @end

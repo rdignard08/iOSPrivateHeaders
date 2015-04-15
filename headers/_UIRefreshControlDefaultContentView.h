@@ -14,9 +14,9 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) setAttributedTitle:(id)a;
- - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a;
- - (void) setTintColor:(id)a;
+ - (void) setAttributedTitle:(id)a ;
+ - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a ;
+ - (void) setTintColor:(id)a ;
  - (id) textLabel;
  - (id) imageView;
  - (id) attributedTitle;
@@ -24,9 +24,9 @@
  - (double) _heightAtWhichNoneOfTheInterfaceElementsAreVisibleEvenIfTheControlIsStillPartiallyOnScreen;
  - (double) maximumSnappingHeight;
  - (double) minimumSnappingHeight;
- - (void) willTransitionFromState:(int)atoState:(int)b;
- - (void) didTransitionFromState:(int)atoState:(int)b;
- - (void) setAreAnimationsValid:(BOOL)a;
+ - (void) willTransitionFromState:(int)a toState:(int)b ;
+ - (void) didTransitionFromState:(int)a toState:(int)b ;
+ - (void) setAreAnimationsValid:(BOOL)a ;
  - (void) _fadeInMagic;
  - (void) _revealingMagic;
  - (void) _snappingMagic;
@@ -44,7 +44,7 @@
  - (id) arrow;
  - (id) spinner;
  - (long long) style;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

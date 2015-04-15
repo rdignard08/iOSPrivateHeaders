@@ -14,24 +14,24 @@
 @property (nonatomic, assign, readwrite) NSNumber* notifyForExternalChangeOnly;
  + (BOOL) shouldMirrorAirplaneMode;
 
- - (id) initWithQueue:(id)a;
- - (^v) getValueForKey:(id)a;
+ - (id) initWithQueue:(id)a ;
+ - (^v) getValueForKey:(id)a ;
  - (Vv) release;
  - (void) dealloc;
- - (void) setValue:(^v)aforKey:(id)b;
+ - (void) setValue:(^v)a forKey:(id)b ;
  - (void) synchronize;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) init;
  - (id) delegate;
- - (void) notifyTarget:(unsigned int)a;
- - (void) initializeSCPrefs:(id)a;
- - (void) setAirplaneModeWithoutMirroring:(BOOL)a;
+ - (void) notifyTarget:(unsigned int)a ;
+ - (void) initializeSCPrefs:(id)a ;
+ - (void) setAirplaneModeWithoutMirroring:(BOOL)a ;
  - (BOOL) notifyForExternalChangeOnly;
  - (void) refresh;
  - (BOOL) airplaneMode;
- - (void) setAirplaneMode:(BOOL)a;
- - (void) setCallback:(^?)awithContext:(^{?=q^v^?^?^?})b;
- - (void) setNotifyForExternalChangeOnly:(BOOL)a;
+ - (void) setAirplaneMode:(BOOL)a ;
+ - (void) setCallback:(^?)a withContext:(^{?=q^v^?^?^?})b ;
+ - (void) setNotifyForExternalChangeOnly:(BOOL)a ;
 
 
 @end

@@ -4,11 +4,11 @@
 }
 
  - (long long) UIActionType;
- - (void) sendResponse:(id)a;
- - (id) initWithRequest:(id)awithHandler:(@?)b;
+ - (void) sendResponse:(id)a ;
+ - (id) initWithRequest:(id)a withHandler:(@?)b ;
  - (id) request;
- - (id) initWithInfo:(id)atimeout:(double)bforResponseOnQueue:(id)cwithHandler:(@?)d;
- - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) initWithInfo:(id)a timeout:(double)b forResponseOnQueue:(id)c withHandler:(@?)d ;
+ - (id) keyDescriptionForSetting:(unsigned long long)a ;
 
 
 @end

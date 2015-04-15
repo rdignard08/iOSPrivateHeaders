@@ -7,11 +7,11 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setContext:(id)a;
- - (void) setOrderOut:(BOOL)a;
+ - (void) setContext:(id)a ;
+ - (void) setOrderOut:(BOOL)a ;
  - (BOOL) orderOut;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
  - (id) context;
 
 

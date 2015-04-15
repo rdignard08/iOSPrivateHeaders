@@ -9,7 +9,7 @@
  - (id) target;
  - (BOOL) isEndMark;
  - (BOOL) isBeginMark;
- - (id) initWithTarget:(id)a;
+ - (id) initWithTarget:(id)a ;
  - (void) invoke;
  - (id) init;
 

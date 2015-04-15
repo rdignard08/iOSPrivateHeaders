@@ -15,13 +15,13 @@
 @property (atomic, retain, readwrite) UIEvent* event;
 @property (atomic, assign, readwrite) NSNumber* cloneForSecondDelivery;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (id) touch;
- - (void) setTouch:(id)a;
- - (void) setEvent:(id)a;
- - (void) setStateWhenDelayed:(id)a;
+ - (void) setTouch:(id)a ;
+ - (void) setEvent:(id)a ;
+ - (void) setStateWhenDelayed:(id)a ;
  - (BOOL) cloneForSecondDelivery;
  - (long long) decrementDelayCount;
  - (void) incrementDelayCount;
@@ -31,9 +31,9 @@
  - (double) timestampForDelivery;
  - (id) stateWhenDelayed;
  - (id) stateWhenDelivered;
- - (void) setStateWhenDelivered:(id)a;
+ - (void) setStateWhenDelivered:(id)a ;
  - (id) event;
- - (void) setCloneForSecondDelivery:(BOOL)a;
+ - (void) setCloneForSecondDelivery:(BOOL)a ;
  - (id) init;
 
 

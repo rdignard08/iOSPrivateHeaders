@@ -13,14 +13,14 @@
  + (id) newNode;
 
  - (void) clear;
- - (void) put:(id)a;
+ - (void) put:(id)a ;
  - (id) take;
  - (id) peek;
- - (id) peekAt:(unsigned long long)a;
- - (BOOL) remove:(id)a;
- - (long long) indexOf:(id)a;
+ - (id) peekAt:(unsigned long long)a ;
+ - (BOOL) remove:(id)a ;
+ - (long long) indexOf:(id)a ;
  - (BOOL) waitOnTake;
- - (void) setWaitOnTake:(BOOL)a;
+ - (void) setWaitOnTake:(BOOL)a ;
  - (void) dealloc;
  - (void) finalize;
  - (unsigned long long) count;

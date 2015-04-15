@@ -18,20 +18,20 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) title;
- - (void) setTitle:(id)a;
+ - (void) setTitle:(id)a ;
  - (void) dealloc;
- - (void) setOrder:(unsigned long long)a;
+ - (void) setOrder:(unsigned long long)a ;
  - (unsigned long long) order;
  - (BOOL) isNewlyAdded;
- - (void) setNewlyAdded:(BOOL)a;
+ - (void) setNewlyAdded:(BOOL)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) identifier;
- - (void) setIdentifier:(id)a;
- - (void) setImage:(id)a;
+ - (void) setIdentifier:(id)a ;
+ - (void) setImage:(id)a ;
  - (@?) handler;
- - (void) setHandler:(@?)a;
+ - (void) setHandler:(@?)a ;
  - (id) image;
 
 

@@ -10,7 +10,7 @@
 
  - (void) dealloc;
  - (void) invalidate;
- - (id) initWithProcessAssertion:(id)aexpirationHandler:(@?)b;
+ - (id) initWithProcessAssertion:(id)a expirationHandler:(@?)b ;
  - (void) fireExpirationHandler;
 
 

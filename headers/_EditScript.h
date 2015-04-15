@@ -14,17 +14,17 @@
 
  - (id) description;
  - (void) dealloc;
- - (id) initWithOperationPrecedence:(long long)aorderAtomsAscending:(BOOL)b;
+ - (id) initWithOperationPrecedence:(long long)a orderAtomsAscending:(BOOL)b ;
  - (void) computeDistanceMatrix;
  - (void) computeEditsFromMatrix;
  - (id) script;
  - (void) finalizeCurrentScriptAtom;
  - (void) initializeCurrentScriptAtom;
- - (void) addToCurrentScriptAtomEditOperation:(long long)aeditIndex:(unsigned long long)bnewText:(id)cindexInArrayB:(unsigned long long)d;
- - (id) operationPrecedenceArrayFromOperationPrecedence:(long long)a;
- - (void) setScript:(id)a;
+ - (void) addToCurrentScriptAtomEditOperation:(long long)a editIndex:(unsigned long long)b newText:(id)c indexInArrayB:(unsigned long long)d ;
+ - (id) operationPrecedenceArrayFromOperationPrecedence:(long long)a ;
+ - (void) setScript:(id)a ;
  - (id) operationPrecedenceArray;
- - (void) setOperationPrecedenceArray:(id)a;
+ - (void) setOperationPrecedenceArray:(id)a ;
 
 
 @end

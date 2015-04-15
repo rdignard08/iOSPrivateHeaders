@@ -9,14 +9,14 @@
 @property (nonatomic, copy, readwrite) NSUUID* contextToken;
 
  - (void) dealloc;
- - (void) setExtension:(id)a;
+ - (void) setExtension:(id)a ;
  - (id) extension;
- - (id) initWithExtension:(id)aandContextToken:(id)b;
- - (id) initWithPlugIn:(id)aandContextToken:(id)b;
- - (void) setPlugin:(id)a;
+ - (id) initWithExtension:(id)a andContextToken:(id)b ;
+ - (id) initWithPlugIn:(id)a andContextToken:(id)b ;
+ - (void) setPlugin:(id)a ;
  - (id) plugin;
  - (id) contextToken;
- - (void) setContextToken:(id)a;
+ - (void) setContextToken:(id)a ;
 
 
 @end

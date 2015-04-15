@@ -12,15 +12,15 @@
 }
 
  - (void) dealloc;
- - (void) tableView:(id)awillDisplayCell:(id)bforRowAtIndexPath:(id)c;
- - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
+ - (void) tableView:(id)a willDisplayCell:(id)b forRowAtIndexPath:(id)c ;
+ - (void) tableView:(id)a didSelectRowAtIndexPath:(id)b ;
+ - (long long) tableView:(id)a numberOfRowsInSection:(long long)b ;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
  - (void) _reloadButtons;
- - (void) setEnableFirstOtherButton:(BOOL)a;
+ - (void) setEnableFirstOtherButton:(BOOL)a ;
  - (void) _prepareViewIfNeeded;
  - (void) layout;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

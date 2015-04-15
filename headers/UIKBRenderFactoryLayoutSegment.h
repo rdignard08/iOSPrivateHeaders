@@ -17,13 +17,13 @@
  + (id) segmentWithTraits:(id)a;
 
  - (void) dealloc;
- - (void) setKeyStates:(int)a;
- - (void) addLayoutRect:({CGRect={CGPoint=dd}{CGSize=dd}})aasTriangle:(int)b;
- - (void) setRequireAllMatches:(BOOL)a;
- - (void) addRelativeLayoutRectFromEdge:(unsigned long long)aofCachedKey:(id)b;
- - (id) initWithTraits:(id)a;
+ - (void) setKeyStates:(int)a ;
+ - (void) addLayoutRect:({CGRect={CGPoint=dd}{CGSize=dd}})a asTriangle:(int)b ;
+ - (void) setRequireAllMatches:(BOOL)a ;
+ - (void) addRelativeLayoutRectFromEdge:(unsigned long long)a ofCachedKey:(id)b ;
+ - (id) initWithTraits:(id)a ;
  - (BOOL) requireAllMatches;
- - (BOOL) containsPoint:({CGPoint=dd})ainRect:({CGRect={CGPoint=dd}{CGSize=dd}})bwithKeyplane:(id)c;
+ - (BOOL) containsPoint:({CGPoint=dd})a inRect:({CGRect={CGPoint=dd}{CGSize=dd}})b withKeyplane:(id)c ;
  - (int) keyStates;
  - (id) traits;
 

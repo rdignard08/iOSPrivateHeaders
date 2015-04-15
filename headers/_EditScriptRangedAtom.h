@@ -10,9 +10,9 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setEditRange:({_NSRange=QQ})a;
- - (void) setReplacementText:(id)a;
- - (id) initWithEditRange:({_NSRange=QQ})areplacementText:(id)b;
+ - (void) setEditRange:({_NSRange=QQ})a ;
+ - (void) setReplacementText:(id)a ;
+ - (id) initWithEditRange:({_NSRange=QQ})a replacementText:(id)b ;
  - ({_NSRange=QQ}) editRange;
  - (id) replacementText;
 

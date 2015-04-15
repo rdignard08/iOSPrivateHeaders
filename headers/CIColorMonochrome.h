@@ -10,11 +10,11 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
- - (void) setInputIntensity:(id)a;
+ - (void) setInputIntensity:(id)a ;
  - (id) inputIntensity;
- - (void) setInputColor:(id)a;
+ - (void) setInputColor:(id)a ;
  - (id) inputColor;
 
 

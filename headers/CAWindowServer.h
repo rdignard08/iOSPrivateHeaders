@@ -15,25 +15,25 @@
  - (id) _init;
  - (id) description;
  - (void) dealloc;
- - (void) setRendererFlags:(unsigned int)a;
- - (void) setSecure:(BOOL)a;
+ - (void) setRendererFlags:(unsigned int)a ;
+ - (void) setSecure:(BOOL)a ;
  - (id) init;
  - (BOOL) isSecure;
  - (id) displays;
- - (void) addDisplay:(id)a;
- - (void) removeDisplay:(id)a;
+ - (void) addDisplay:(id)a ;
+ - (void) removeDisplay:(id)a ;
  - (void) removeAllDisplays;
- - (id) displayWithDisplayId:(unsigned int)a;
- - (id) displayWithUniqueId:(id)a;
+ - (id) displayWithDisplayId:(unsigned int)a ;
+ - (id) displayWithUniqueId:(id)a ;
  - (void) _detectDisplays;
- - (void) setMirroringEnabled:(BOOL)a;
+ - (void) setMirroringEnabled:(BOOL)a ;
  - (BOOL) isMirroringEnabled;
  - (unsigned int) rendererFlags;
  - (id) insecureProcessIds;
- - (unsigned int) clientPortOfContextId:(unsigned int)a;
- - (unsigned int) taskPortOfContextId:(unsigned int)a;
- - (unsigned int) contextIdHostingContextId:(unsigned int)a;
- - (id) displayWithName:(id)a;
+ - (unsigned int) clientPortOfContextId:(unsigned int)a ;
+ - (unsigned int) taskPortOfContextId:(unsigned int)a ;
+ - (unsigned int) contextIdHostingContextId:(unsigned int)a ;
+ - (id) displayWithName:(id)a ;
 
 
 @end

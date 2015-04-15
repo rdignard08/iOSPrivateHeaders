@@ -14,17 +14,17 @@
  - (id) .cxx_construct;
  - (void) .cxx_destruct;
  - (id) init;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) videoRect;
- - (void) setVideoLayerGravity:(long long)a;
- - (void) setPlayerController:(id)a;
+ - (void) setVideoLayerGravity:(long long)a ;
+ - (void) setPlayerController:(id)a ;
  - (long long) videoLayerGravity;
  - (BOOL) isReadyForDisplay;
- - (void) setPlayerViewController:(id)a;
- - (void) setVideoSublayer:(id)a;
+ - (void) setPlayerViewController:(id)a ;
+ - (void) setVideoSublayer:(id)a ;
  - (id) videoSublayer;
- - (void) setReadyForDisplay:(BOOL)a;
- - (void) setVideoRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setReadyForDisplay:(BOOL)a ;
+ - (void) setVideoRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

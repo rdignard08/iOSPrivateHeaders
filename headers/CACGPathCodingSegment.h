@@ -7,10 +7,10 @@
 }
 
  - (id) .cxx_construct;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithCGPathElement:(r^{CGPathElement=i^{CGPoint}})a;
- - (void) addToCGPath:(^{CGPath=})a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithCGPathElement:(r^{CGPathElement=i^{CGPoint}})a ;
+ - (void) addToCGPath:(^{CGPath=})a ;
 
 
 @end

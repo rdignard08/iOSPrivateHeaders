@@ -16,13 +16,13 @@
  + (id) wrapperWithURL:(id)a;
 
  - (void) dealloc;
- - (void) setUrl:(id)a;
- - (void) setCreateSandbox:(BOOL)a;
- - (void) setScope:(id)a;
+ - (void) setUrl:(id)a ;
+ - (void) setCreateSandbox:(BOOL)a ;
+ - (void) setScope:(id)a ;
  - (id) scope;
  - (BOOL) createSandbox;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) url;
 
 

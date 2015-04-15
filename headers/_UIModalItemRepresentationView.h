@@ -6,8 +6,8 @@
 }
 
  - (void) layoutSubviews;
- - (void) setUseFakeEffectSource:(BOOL)aanimated:(BOOL)b;
- - (void) setUseFakeEffectSource:(BOOL)a;
+ - (void) setUseFakeEffectSource:(BOOL)a animated:(BOOL)b ;
+ - (void) setUseFakeEffectSource:(BOOL)a ;
  - (BOOL) useFakeEffectSource;
 
 

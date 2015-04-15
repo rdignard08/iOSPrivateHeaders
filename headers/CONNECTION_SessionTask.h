@@ -15,17 +15,17 @@
 
  - (void) dealloc;
  - (id) workQueue;
- - (void) updateCurrentRequest:(id)a;
+ - (void) updateCurrentRequest:(id)a ;
  - (id) state;
  - (r^{XCookieStorage=^^?^{__CFAllocator}i}) _createXCookieStorage;
  - (r^{XCredentialStorage=^^?^{__CFAllocator}i}) _createXCredentialStorage;
  - (r^{XURLCache=^^?^{__CFAllocator}i}) _createXURLCache;
- - (id) initWithRequest:(^{_CFURLRequest=})amutableCurrent:(^{_CFURLRequest=})bconnProps:(^{__CFDictionary=})csockProps:(^{__CFDictionary=})dsession:(id)e;
+ - (id) initWithRequest:(^{_CFURLRequest=})a mutableCurrent:(^{_CFURLRequest=})b connProps:(^{__CFDictionary=})c sockProps:(^{__CFDictionary=})d session:(id)e ;
  - (^{_CFURLRequest=}) _currentCFURLRequest;
  - (BOOL) shouldHandleCookiesAndSchemeIsAppropriate;
  - (id) _protocolForTask;
  - (id) currentRequest;
- - (void) set_protocolForTask:(id)a;
+ - (void) set_protocolForTask:(id)a ;
  - (^{_CFHSTSPolicy=}) _copyHSTSPolicy;
  - (id) error;
  - (id) countOfBytesReceived;
@@ -45,7 +45,7 @@
  - (^{_CFURLRequest=}) _copyOriginalCFURLRequest;
  - (^{__CFDictionary=}) _copySocketStreamProperties;
  - (^{__PerformanceTiming=}) _performanceTiming;
- - (void) _setSocketProperties:(^{__CFDictionary=})aconnectionProperties:(^{__CFDictionary=})b;
+ - (void) _setSocketProperties:(^{__CFDictionary=})a connectionProperties:(^{__CFDictionary=})b ;
  - (^{__CFHTTPMessage=}) _copyHTTPMessage;
  - (int) _cachePolicy;
  - (double) _timeoutInterval;
@@ -66,11 +66,11 @@
  - (id) _timeWindowDuration;
  - (void) _takePreventIdleSleepAssertionIfAppropriate;
  - (float) priority;
- - (void) _setConnectionIsCellular:(BOOL)a;
+ - (void) _setConnectionIsCellular:(BOOL)a ;
  - (void) _releasePreventIdleSleepAssertionIfAppropriate;
  - (BOOL) _shouldSkipPreferredClientCertificateLookup;
  - (^{__CFURL=}) originalRequest_mainDocumentURL;
- - (void) _initializeTimingDataWithSessionConfiguration:(id)a;
+ - (void) _initializeTimingDataWithSessionConfiguration:(id)a ;
  - (id) _cfHSTS;
  - (id) _cfCreds;
  - (id) _cfCookies;

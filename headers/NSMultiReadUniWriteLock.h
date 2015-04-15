@@ -8,10 +8,10 @@
 
  - (void) lockForReading;
  - (BOOL) tryLockForReading;
- - (BOOL) lockForReadingBeforeDate:(id)a;
+ - (BOOL) lockForReadingBeforeDate:(id)a ;
  - (void) lockForWriting;
  - (BOOL) tryLockForWriting;
- - (BOOL) lockForWritingBeforeDate:(id)a;
+ - (BOOL) lockForWritingBeforeDate:(id)a ;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
@@ -19,7 +19,7 @@
  - (void) unlock;
  - (id) name;
  - (id) init;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
 
 
 @end

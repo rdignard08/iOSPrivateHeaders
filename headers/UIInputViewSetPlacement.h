@@ -10,18 +10,18 @@
 @property (nonatomic, assign, readwrite) NSNumber* extendedHeight;
  + (id) placement;
 
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (BOOL) isInteractive;
  - (BOOL) showsInputViews;
  - (BOOL) inputViewWillAppear;
  - (BOOL) isUndocked;
  - (BOOL) showsKeyboard;
- - (id) horizontalConstraintForInputViewSet:(id)ahostView:(id)bcontainerView:(id)c;
- - (id) verticalConstraintForInputViewSet:(id)ahostView:(id)bcontainerView:(id)c;
- - (unsigned long long) notificationsForTransitionToPlacement:(id)a;
+ - (id) horizontalConstraintForInputViewSet:(id)a hostView:(id)b containerView:(id)c ;
+ - (id) verticalConstraintForInputViewSet:(id)a hostView:(id)b containerView:(id)c ;
+ - (unsigned long long) notificationsForTransitionToPlacement:(id)a ;
  - (BOOL) accessoryViewWillAppear;
  - (double) extendedHeight;
- - (void) setExtendedHeight:(double)a;
+ - (void) setExtendedHeight:(double)a ;
 
 
 @end

@@ -10,10 +10,10 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
- - (void) setInputColor0:(id)a;
- - (void) setInputColor1:(id)a;
+ - (void) setInputColor0:(id)a ;
+ - (void) setInputColor1:(id)a ;
  - (id) inputColor0;
  - (id) inputColor1;
 

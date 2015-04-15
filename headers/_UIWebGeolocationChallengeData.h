@@ -12,13 +12,13 @@
 @property (nonatomic, retain, readwrite) NSNumber* listener;
 
  - (void) dealloc;
- - (void) setWindow:(id)a;
+ - (void) setWindow:(id)a ;
  - (id) token;
- - (void) setToken:(id)a;
+ - (void) setToken:(id)a ;
  - (id) requestingURL;
- - (void) setRequestingURL:(id)a;
+ - (void) setRequestingURL:(id)a ;
  - (id) listener;
- - (void) setListener:(id)a;
+ - (void) setListener:(id)a ;
  - (id) window;
 
 

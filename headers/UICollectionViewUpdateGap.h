@@ -22,9 +22,9 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setFirstUpdateItem:(id)a;
- - (void) setLastUpdateItem:(id)a;
- - (void) addUpdateItem:(id)a;
+ - (void) setFirstUpdateItem:(id)a ;
+ - (void) setLastUpdateItem:(id)a ;
+ - (void) addUpdateItem:(id)a ;
  - (BOOL) isDeleteBasedGap;
  - (BOOL) hasInserts;
  - (id) updateItems;
@@ -34,9 +34,9 @@
  - (id) deleteItems;
  - (id) insertItems;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) beginningRect;
- - (void) setBeginningRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setBeginningRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) endingRect;
- - (void) setEndingRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setEndingRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) init;
 
 

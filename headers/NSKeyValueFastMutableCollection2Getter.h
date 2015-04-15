@@ -6,7 +6,7 @@
 }
 
  - (id) mutatingMethods;
- - (id) initWithContainerClassID:(id)akey:(id)bbaseGetter:(id)cmutatingMethods:(id)dproxyClass:(Class)e;
+ - (id) initWithContainerClassID:(id)a key:(id)b baseGetter:(id)c mutatingMethods:(id)d proxyClass:(Class)e ;
  - (id) baseGetter;
  - (void) dealloc;
 

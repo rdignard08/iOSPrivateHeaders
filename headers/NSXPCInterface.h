@@ -9,23 +9,23 @@
  + (id) signatureForBlock:(id)a;
  + (id) interfaceWithProtocol:(id)a;
 
- - (id) _verifiedMethodSignatureForReplyBlockOfSelector:(SEL)a;
- - (id) _interfaceForArgument:(unsigned long long)aofSelector:(SEL)breply:(BOOL)c;
- - (id) _allowedClassesForSelector:(SEL)areply:(BOOL)b;
- - (id) _verifiedMethodSignatureForSelector:(SEL)a;
- - (void) setProtocol:(id)a;
- - (id) classesForSelector:(SEL)aargumentIndex:(unsigned long long)bofReply:(BOOL)c;
- - (id) interfaceForSelector:(SEL)aargumentIndex:(unsigned long long)bofReply:(BOOL)c;
- - (void) setClass:(Class)aforSelector:(SEL)bargumentIndex:(unsigned long long)cofReply:(BOOL)d;
- - (Class) classForSelector:(SEL)aargumentIndex:(unsigned long long)bofReply:(BOOL)c;
- - (void) setReplyBlockSignature:(id)aforSelector:(SEL)b;
- - (id) replyBlockSignatureForSelector:(SEL)a;
+ - (id) _verifiedMethodSignatureForReplyBlockOfSelector:(SEL)a ;
+ - (id) _interfaceForArgument:(unsigned long long)a ofSelector:(SEL)b reply:(BOOL)c ;
+ - (id) _allowedClassesForSelector:(SEL)a reply:(BOOL)b ;
+ - (id) _verifiedMethodSignatureForSelector:(SEL)a ;
+ - (void) setProtocol:(id)a ;
+ - (id) classesForSelector:(SEL)a argumentIndex:(unsigned long long)b ofReply:(BOOL)c ;
+ - (id) interfaceForSelector:(SEL)a argumentIndex:(unsigned long long)b ofReply:(BOOL)c ;
+ - (void) setClass:(Class)a forSelector:(SEL)b argumentIndex:(unsigned long long)c ofReply:(BOOL)d ;
+ - (Class) classForSelector:(SEL)a argumentIndex:(unsigned long long)b ofReply:(BOOL)c ;
+ - (void) setReplyBlockSignature:(id)a forSelector:(SEL)b ;
+ - (id) replyBlockSignatureForSelector:(SEL)a ;
  - (void) dealloc;
  - (void) finalize;
  - (id) debugDescription;
  - (id) init;
- - (void) setInterface:(id)aforSelector:(SEL)bargumentIndex:(unsigned long long)cofReply:(BOOL)d;
- - (void) setClasses:(id)aforSelector:(SEL)bargumentIndex:(unsigned long long)cofReply:(BOOL)d;
+ - (void) setInterface:(id)a forSelector:(SEL)b argumentIndex:(unsigned long long)c ofReply:(BOOL)d ;
+ - (void) setClasses:(id)a forSelector:(SEL)b argumentIndex:(unsigned long long)c ofReply:(BOOL)d ;
  - (id) protocol;
 
 

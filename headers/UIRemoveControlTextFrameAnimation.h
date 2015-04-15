@@ -3,7 +3,7 @@
 
 }
 
- - (void) setProgress:(float)a;
+ - (void) setProgress:(float)a ;
 
 
 @end

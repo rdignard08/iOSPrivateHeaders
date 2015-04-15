@@ -12,11 +12,11 @@
  + (id) bodyWithEdgeChainFromPath:(^{CGPath=})a;
 
  - (id) description;
- - (void) setNormalizedDensity:(double)a;
+ - (void) setNormalizedDensity:(double)a ;
  - (double) normalizedDensity;
  - (BOOL) dissociate;
  - (void) associate;
- - (id) initWithRectangleOfSize:({CGSize=dd})a;
+ - (id) initWithRectangleOfSize:({CGSize=dd})a ;
  - (id) init;
 
 

@@ -9,8 +9,8 @@
 
  - ({?=qi}) _cfStreamError;
  - (unsigned long long) _cfTypeID;
- - (long long) read:(char*)amaxLength:(unsigned long long)b;
- - (BOOL) getBuffer:(^*)alength:(^Q)b;
+ - (long long) read:(char*)a maxLength:(unsigned long long)b ;
+ - (BOOL) getBuffer:(^*)a length:(^Q)b ;
  - (BOOL) hasBytesAvailable;
 
 

@@ -6,9 +6,9 @@
  + (id) placementWithOffset:(double)a;
 
  - (BOOL) isInteractive;
- - (id) verticalConstraintForInputViewSet:(id)ahostView:(id)bcontainerView:(id)c;
+ - (id) verticalConstraintForInputViewSet:(id)a hostView:(id)b containerView:(id)c ;
  - (double) offset;
- - (void) setOffset:(double)a;
+ - (void) setOffset:(double)a ;
 
 
 @end

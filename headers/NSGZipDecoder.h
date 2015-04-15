@@ -19,10 +19,10 @@
  - (void) dealloc;
  - (void) finalize;
  - (id) init;
- - (id) decodeData:(id)a;
+ - (id) decodeData:(id)a ;
  - (BOOL) isFinishedDecoding;
- - (id) filenameWithOriginalFilename:(id)a;
- - (BOOL) decodeDownloadData:(id)adataForkData:(^@)bresourceForkData:(^@)c;
+ - (id) filenameWithOriginalFilename:(id)a ;
+ - (BOOL) decodeDownloadData:(id)a dataForkData:(^@)b resourceForkData:(^@)c ;
  - (BOOL) finishDownloadDecoding;
 
 

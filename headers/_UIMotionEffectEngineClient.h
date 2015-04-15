@@ -7,8 +7,8 @@
 
  - (id) description;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (id) initWithMotionEffect:(id)aview:(id)b;
+ - (BOOL) isEqual:(id)a ;
+ - (id) initWithMotionEffect:(id)a view:(id)b ;
 
 
 @end

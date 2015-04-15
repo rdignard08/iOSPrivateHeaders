@@ -8,7 +8,7 @@
     ^{?=##^{__CFSet}^{__CFDictionary}} _notifyingInfo;
 }
 
- - (id) initWithOriginalClass:(Class)a;
+ - (id) initWithOriginalClass:(Class)a ;
  - (id) description;
 
 

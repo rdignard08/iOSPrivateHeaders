@@ -8,7 +8,7 @@
 
  - (void) dealloc;
  - (double) timeIntervalSinceReferenceDate;
- - (id) initWithTimeIntervalSinceReferenceDate:(double)a;
+ - (id) initWithTimeIntervalSinceReferenceDate:(double)a ;
 
 
 @end

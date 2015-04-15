@@ -8,9 +8,9 @@
  - (BOOL) _canAffectStatusBarAppearance;
  - (BOOL) isInternalWindow;
  - (void) _updateTransformLayerForClassicPresentation;
- - (void) handleStatusBarChangeFromHeight:(double)atoHeight:(double)b;
+ - (void) handleStatusBarChangeFromHeight:(double)a toHeight:(double)b ;
  - (int) textEffectsVisibilityLevel;
- - (void) _handleMouseUp:(^{__GSEvent=})a;
+ - (void) _handleMouseUp:(^{__GSEvent=})a ;
  - (id) representation;
 
 

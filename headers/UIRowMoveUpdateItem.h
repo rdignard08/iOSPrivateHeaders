@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (id) newIndexPath;
- - (id) initWithOldIndexPath:(id)anewIndexPath:(id)b;
+ - (id) initWithOldIndexPath:(id)a newIndexPath:(id)b ;
 
 
 @end

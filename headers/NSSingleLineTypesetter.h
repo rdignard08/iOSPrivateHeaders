@@ -13,29 +13,29 @@
  + (BOOL) _validateAttributes:(id)ameasuringOnly:(BOOL)b;
 
  - (id) init;
- - ({_NSRange=QQ}) characterRangeForGlyphRange:({_NSRange=QQ})aactualGlyphRange:(^{_NSRange=QQ})b;
- - ({_NSRange=QQ}) glyphRangeForCharacterRange:({_NSRange=QQ})aactualCharacterRange:(^{_NSRange=QQ})b;
+ - ({_NSRange=QQ}) characterRangeForGlyphRange:({_NSRange=QQ})a actualGlyphRange:(^{_NSRange=QQ})b ;
+ - ({_NSRange=QQ}) glyphRangeForCharacterRange:({_NSRange=QQ})a actualCharacterRange:(^{_NSRange=QQ})b ;
  - (id) attributedString;
- - (id) substituteFontForFont:(id)a;
+ - (id) substituteFontForFont:(id)a ;
  - (BOOL) _allowsEllipsisGlyphSubstitution;
- - (void) setLineFragmentRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforGlyphRange:({_NSRange=QQ})busedRect:({CGRect={CGPoint=dd}{CGSize=dd}})cbaselineOffset:(double)d;
- - (void) getLineFragmentRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})ausedRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})bremainingRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})cforStartingGlyphAtIndex:(unsigned long long)dproposedRect:({CGRect={CGPoint=dd}{CGSize=dd}})elineSpacing:(double)fparagraphSpacingBefore:(double)gparagraphSpacingAfter:(double)h;
- - (void) setLocation:({CGPoint=dd})awithAdvancements:(r^d)bforStartOfGlyphRange:({_NSRange=QQ})c;
- - (void) setNotShownAttribute:(BOOL)aforGlyphRange:({_NSRange=QQ})b;
+ - (void) setLineFragmentRect:({CGRect={CGPoint=dd}{CGSize=dd}})a forGlyphRange:({_NSRange=QQ})b usedRect:({CGRect={CGPoint=dd}{CGSize=dd}})c baselineOffset:(double)d ;
+ - (void) getLineFragmentRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})a usedRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})b remainingRect:(^{CGRect={CGPoint=dd}{CGSize=dd}})c forStartingGlyphAtIndex:(unsigned long long)d proposedRect:({CGRect={CGPoint=dd}{CGSize=dd}})e lineSpacing:(double)f paragraphSpacingBefore:(double)g paragraphSpacingAfter:(double)h ;
+ - (void) setLocation:({CGPoint=dd})a withAdvancements:(r^d)b forStartOfGlyphRange:({_NSRange=QQ})c ;
+ - (void) setNotShownAttribute:(BOOL)a forGlyphRange:({_NSRange=QQ})b ;
  - (BOOL) _usesScreenFonts;
- - (unsigned long long) getGlyphsInRange:({_NSRange=QQ})aglyphs:(^S)bproperties:(^q)ccharacterIndexes:(^Q)dbidiLevels:(char*)e;
- - (void) substituteGlyphsInRange:({_NSRange=QQ})awithGlyphs:(^I)b;
- - (void) insertGlyph:(unsigned int)aatGlyphIndex:(unsigned long long)bcharacterIndex:(unsigned long long)c;
- - (void) setAttachmentSize:({CGSize=dd})aforGlyphRange:({_NSRange=QQ})b;
- - (void) setBidiLevels:(r*)aforGlyphRange:({_NSRange=QQ})b;
- - (void) setDrawsOutsideLineFragment:(BOOL)aforGlyphRange:({_NSRange=QQ})b;
+ - (unsigned long long) getGlyphsInRange:({_NSRange=QQ})a glyphs:(^S)b properties:(^q)c characterIndexes:(^Q)d bidiLevels:(char*)e ;
+ - (void) substituteGlyphsInRange:({_NSRange=QQ})a withGlyphs:(^I)b ;
+ - (void) insertGlyph:(unsigned int)a atGlyphIndex:(unsigned long long)b characterIndex:(unsigned long long)c ;
+ - (void) setAttachmentSize:({CGSize=dd})a forGlyphRange:({_NSRange=QQ})b ;
+ - (void) setBidiLevels:(r*)a forGlyphRange:({_NSRange=QQ})b ;
+ - (void) setDrawsOutsideLineFragment:(BOOL)a forGlyphRange:({_NSRange=QQ})b ;
  - (void) done;
- - (id) createRenderingContextForCharacterRange:({_NSRange=QQ})atypesetterBehavior:(long long)busesScreenFonts:(BOOL)chasStrongRight:(BOOL)dmaximumWidth:(double)e;
- - (void) setGlyphs:(r^S)aproperties:(r^q)bcharacterIndexes:(r^Q)cfont:(id)dforGlyphRange:({_NSRange=QQ})e;
- - (void) insertGlyphs:(r^I)alength:(unsigned long long)bforStartingGlyphAtIndex:(unsigned long long)ccharacterIndex:(unsigned long long)d;
- - (void) setIntAttribute:(long long)avalue:(long long)bforGlyphAtIndex:(unsigned long long)c;
+ - (id) createRenderingContextForCharacterRange:({_NSRange=QQ})a typesetterBehavior:(long long)b usesScreenFonts:(BOOL)c hasStrongRight:(BOOL)d maximumWidth:(double)e ;
+ - (void) setGlyphs:(r^S)a properties:(r^q)b characterIndexes:(r^Q)c font:(id)d forGlyphRange:({_NSRange=QQ})e ;
+ - (void) insertGlyphs:(r^I)a length:(unsigned long long)b forStartingGlyphAtIndex:(unsigned long long)c characterIndex:(unsigned long long)d ;
+ - (void) setIntAttribute:(long long)a value:(long long)b forGlyphAtIndex:(unsigned long long)c ;
  - (unsigned long long) layoutOptions;
- - (void) deleteGlyphsInRange:({_NSRange=QQ})a;
+ - (void) deleteGlyphsInRange:({_NSRange=QQ})a ;
 
 
 @end

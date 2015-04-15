@@ -7,14 +7,14 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) scrollRectToVisible:({CGRect={CGPoint=dd}{CGSize=dd}})aanimated:(BOOL)b;
+ - (void) scrollRectToVisible:({CGRect={CGPoint=dd}{CGSize=dd}})a animated:(BOOL)b ;
  - (BOOL) _scrollsToMakeFirstResponderVisible;
- - (void) keyboardDidChangeFrame:(id)a;
+ - (void) keyboardDidChangeFrame:(id)a ;
  - (double) visibleHeight;
- - (void) setVisibleHeight:(double)a;
+ - (void) setVisibleHeight:(double)a ;
  - (id) contentView;
- - (id) initWithContentView:(id)a;
- - (void) setContentView:(id)a;
+ - (id) initWithContentView:(id)a ;
+ - (void) setContentView:(id)a ;
 
 
 @end

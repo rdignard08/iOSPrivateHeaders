@@ -8,16 +8,16 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) _setRenderConfig:(id)a;
- - (void) setThemedView:(id)a;
+ - (void) _setRenderConfig:(id)a ;
+ - (void) setThemedView:(id)a ;
  - (id) themedView;
  - (id) arrowDirection;
- - (void) setArrowDirection:(id)a;
- - (void) setArrowColor:(id)aforState:(unsigned long long)b;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) labelFrameFromFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setArrowDirection:(id)a ;
+ - (void) setArrowColor:(id)a forState:(unsigned long long)b ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) labelFrameFromFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (void) updateArrow;
- - (id) arrowColorForState:(unsigned long long)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) arrowColorForState:(unsigned long long)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

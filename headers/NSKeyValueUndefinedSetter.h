@@ -3,7 +3,7 @@
 
 }
 
- - (id) initWithContainerClassID:(id)akey:(id)bcontainerIsa:(Class)c;
+ - (id) initWithContainerClassID:(id)a key:(id)b containerIsa:(Class)c ;
 
 
 @end

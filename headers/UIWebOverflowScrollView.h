@@ -9,20 +9,20 @@
 }
 
  - (void) dealloc;
- - (void) setContentOffset:({CGPoint=dd})a;
+ - (void) setContentOffset:({CGPoint=dd})a ;
  - (id) node;
- - (void) setNode:(id)a;
- - (id) initWithLayer:(id)anode:(id)bwebBrowserView:(id)c;
- - (void) setOverflowContentView:(id)a;
+ - (void) setNode:(id)a ;
+ - (id) initWithLayer:(id)a node:(id)b webBrowserView:(id)c ;
+ - (void) setOverflowContentView:(id)a ;
  - (id) overflowContentView;
- - (void) _replaceLayer:(id)a;
- - (void) setBeingRemoved:(BOOL)a;
+ - (void) _replaceLayer:(id)a ;
+ - (void) setBeingRemoved:(BOOL)a ;
  - (BOOL) fixUpViewAfterInsertion;
  - (id) webBrowserView;
  - (void) prepareForRemoval;
- - (void) setWebBrowserView:(id)a;
+ - (void) setWebBrowserView:(id)a ;
  - (id) scrollListener;
- - (void) setScrollListener:(id)a;
+ - (void) setScrollListener:(id)a ;
  - (BOOL) isBeingRemoved;
  - (id) superview;
 

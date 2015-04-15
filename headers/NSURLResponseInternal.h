@@ -5,7 +5,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithURLResponse:(^{_CFURLResponse=})a;
+ - (id) initWithURLResponse:(^{_CFURLResponse=})a ;
 
 
 @end

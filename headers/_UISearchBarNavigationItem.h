@@ -3,7 +3,7 @@
 
 }
 
- - (void) setTitleView:(id)a;
+ - (void) setTitleView:(id)a ;
 
 
 @end

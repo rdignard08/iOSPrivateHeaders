@@ -5,10 +5,10 @@
 }
  + (Class) _mutableStringClass;
 
- - (void) edited:(unsigned long long)arange:({_NSRange=QQ})bchangeInLength:(long long)c;
+ - (void) edited:(unsigned long long)a range:({_NSRange=QQ})b changeInLength:(long long)c ;
  - (void) beginEditing;
  - (void) endEditing;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) delegate;
 
 

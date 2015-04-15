@@ -5,7 +5,7 @@
     id _arg;
 }
 
- - (id) initWithTarget:(id)aselector:(SEL)bobject:(id)c;
+ - (id) initWithTarget:(id)a selector:(SEL)b object:(id)c ;
  - (id) _argument;
  - (id) description;
  - (void) dealloc;

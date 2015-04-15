@@ -4,7 +4,7 @@
 }
 
  - (id) data;
- - (void) initTextEvent:(id)acanBubbleArg:(BOOL)bcancelableArg:(BOOL)cviewArg:(id)ddataArg:(id)e;
+ - (void) initTextEvent:(id)a canBubbleArg:(BOOL)b cancelableArg:(BOOL)c viewArg:(id)d dataArg:(id)e ;
 
 
 @end

@@ -8,11 +8,11 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) _tapGestureChanged:(id)a;
- - (id) initWithTable:(id)a;
+ - (void) _tapGestureChanged:(id)a ;
+ - (id) initWithTable:(id)a ;
  - (void) _invalidateTable;
- - (void) _willChangeToIdiom:(long long)aonScreen:(id)b;
- - (void) setCurrentText:(id)a;
+ - (void) _willChangeToIdiom:(long long)a onScreen:(id)b ;
+ - (void) setCurrentText:(id)a ;
  - (id) currentText;
 
 

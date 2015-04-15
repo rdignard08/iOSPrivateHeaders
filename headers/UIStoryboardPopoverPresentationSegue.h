@@ -15,13 +15,13 @@
  - (id) anchorView;
  - (id) anchorBarButtonItem;
  - (unsigned long long) permittedArrowDirections;
- - (void) setPermittedArrowDirections:(unsigned long long)a;
+ - (void) setPermittedArrowDirections:(unsigned long long)a ;
  - (void) perform;
  - (id) passthroughViews;
- - (void) setPassthroughViews:(id)a;
- - (void) setAnchorBarButtonItem:(id)a;
- - (void) setAnchorView:(id)a;
- - (void) setAnchorRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setPassthroughViews:(id)a ;
+ - (void) setAnchorBarButtonItem:(id)a ;
+ - (void) setAnchorView:(id)a ;
+ - (void) setAnchorRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -4,7 +4,7 @@
 }
  + (Class) layerClass;
 
- - (void) setGradientColors:(id)a;
+ - (void) setGradientColors:(id)a ;
 
 
 @end

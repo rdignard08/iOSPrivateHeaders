@@ -13,22 +13,22 @@
  - (void) startListeningForBestAppSuggestions;
  - (void) stopListeningForBestAppSuggestions;
  - (id) bestAppSuggestion;
- - (void) launchAppWithBundleIdentifier:(id)auserActivityUniqueIdentifier:(id)buserActivityTypeIdentifier:(id)c;
- - (void) launchAppWithBundleIdentifier:(id)auserActivityUniqueIdentifier:(id)buserActivityTypeIdentifier:(id)cdeviceName:(id)ddeviceIdentifier:(id)edeviceType:(id)f;
- - (void) removeBestApp:(id)aoptions:(id)b;
- - (BOOL) determineBestAppWithDelay:(double)awithBlock:(@?)b;
- - (id) bestAppSuggestions:(long long)a;
- - (void) queueFetchOfPayloadForBestAppSuggestion:(id)a;
- - (void) bestAppSuggestionWasLaunched:(id)awithInteractionType:(int)b;
- - (void) bestAppSuggestionLaunchWasCancelled:(id)a;
- - (void) notifyBestAppChanged:(id)atype:(unsigned long long)boptions:(id)cbundleIdentifier:(id)dactivityType:(id)ewhen:(id)fconfidence:(double)gdeviceName:(id)hdeviceIdentifier:(id)ideviceType:(id)j;
- - (void) launchAppWithBundleIdentifier:(id)ataskContinuationIdentifier:(id)b;
- - (void) launchAppWithBestAppSuggestion:(id)a;
+ - (void) launchAppWithBundleIdentifier:(id)a userActivityUniqueIdentifier:(id)b userActivityTypeIdentifier:(id)c ;
+ - (void) launchAppWithBundleIdentifier:(id)a userActivityUniqueIdentifier:(id)b userActivityTypeIdentifier:(id)c deviceName:(id)d deviceIdentifier:(id)e deviceType:(id)f ;
+ - (void) removeBestApp:(id)a options:(id)b ;
+ - (BOOL) determineBestAppWithDelay:(double)a withBlock:(@?)b ;
+ - (id) bestAppSuggestions:(long long)a ;
+ - (void) queueFetchOfPayloadForBestAppSuggestion:(id)a ;
+ - (void) bestAppSuggestionWasLaunched:(id)a withInteractionType:(int)b ;
+ - (void) bestAppSuggestionLaunchWasCancelled:(id)a ;
+ - (void) notifyBestAppChanged:(id)a type:(unsigned long long)b options:(id)c bundleIdentifier:(id)d activityType:(id)e when:(id)f confidence:(double)g deviceName:(id)h deviceIdentifier:(id)i deviceType:(id)j ;
+ - (void) launchAppWithBundleIdentifier:(id)a taskContinuationIdentifier:(id)b ;
+ - (void) launchAppWithBestAppSuggestion:(id)a ;
  - (id) connection;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) init;
- - (void) setConnection:(id)a;
+ - (void) setConnection:(id)a ;
  - (id) delegate;
 
 

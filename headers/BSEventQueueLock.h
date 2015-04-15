@@ -12,10 +12,10 @@
  - (void) dealloc;
  - (id) reason;
  - (void) relinquish;
- - (id) initWithEventQueue:(id)areason:(id)b;
+ - (id) initWithEventQueue:(id)a reason:(id)b ;
  - (id) eventQueue;
- - (void) setEventQueue:(id)a;
- - (void) setReason:(id)a;
+ - (void) setEventQueue:(id)a ;
+ - (void) setReason:(id)a ;
 
 
 @end

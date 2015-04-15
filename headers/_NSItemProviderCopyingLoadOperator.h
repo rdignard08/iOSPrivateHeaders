@@ -10,17 +10,17 @@
  + (BOOL) supportsSecureCoding;
 
  - (void) dealloc;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) loadItemForTypeIdentifier:(id)acompletionHandler:(@?)bexpectedValueClass:(Class)coptions:(id)d;
- - (void) loadPreviewImageWithCompletionHandler:(@?)aexpectedValueClass:(Class)boptions:(id)c;
- - (id) initWithItemProvider:(id)a;
- - (void) setItemProvider:(id)a;
- - (void) setLoadedItems:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) loadItemForTypeIdentifier:(id)a completionHandler:(@?)b expectedValueClass:(Class)c options:(id)d ;
+ - (void) loadPreviewImageWithCompletionHandler:(@?)a expectedValueClass:(Class)b options:(id)c ;
+ - (id) initWithItemProvider:(id)a ;
+ - (void) setItemProvider:(id)a ;
+ - (void) setLoadedItems:(id)a ;
  - (id) itemProvider;
- - (id) _loadItemsForTypeIdentifiers:(id)aitemProvider:(id)b;
+ - (id) _loadItemsForTypeIdentifiers:(id)a itemProvider:(id)b ;
  - (id) loadedItems;
- - (id) _sandboxedResourceForItemIfNeeded:(id)aerror:(^@)b;
+ - (id) _sandboxedResourceForItemIfNeeded:(id)a error:(^@)b ;
 
 
 @end

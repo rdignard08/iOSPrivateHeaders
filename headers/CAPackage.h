@@ -8,24 +8,24 @@
  + (id) packageWithData:(id)atype:(id)boptions:(id)cerror:(^@)d;
  + (id) packageWithContentsOfURL:(id)atype:(id)boptions:(id)cerror:(^@)d;
 
- - (id) unarchiver:(id)adidDecodeObject:(id)b;
- - (Class) unarchiver:(id)acannotDecodeObjectOfClassName:(id)boriginalClasses:(id)c;
+ - (id) unarchiver:(id)a didDecodeObject:(id)b ;
+ - (Class) unarchiver:(id)a cannotDecodeObjectOfClassName:(id)b originalClasses:(id)c ;
  - (void) dealloc;
- - (id) publishedObjectWithName:(id)a;
- - (void) foreachLayer:(@?)a;
+ - (id) publishedObjectWithName:(id)a ;
+ - (void) foreachLayer:(@?)a ;
  - (BOOL) isGeometryFlipped;
- - (id) _initWithContentsOfURL:(id)atype:(id)boptions:(id)cerror:(^@)d;
- - (id) _initWithData:(id)atype:(id)boptions:(id)cerror:(^@)d;
- - (void) _readFromCAMLURL:(id)atype:(id)boptions:(id)cerror:(^@)d;
- - (void) _readFromArchiveData:(id)aoptions:(id)berror:(^@)c;
- - (void) _readFromCAMLData:(id)atype:(id)boptions:(id)cerror:(^@)d;
+ - (id) _initWithContentsOfURL:(id)a type:(id)b options:(id)c error:(^@)d ;
+ - (id) _initWithData:(id)a type:(id)b options:(id)c error:(^@)d ;
+ - (void) _readFromCAMLURL:(id)a type:(id)b options:(id)c error:(^@)d ;
+ - (void) _readFromArchiveData:(id)a options:(id)b error:(^@)c ;
+ - (void) _readFromCAMLData:(id)a type:(id)b options:(id)c error:(^@)d ;
  - (id) substitutedClasses;
- - (void) _addClassSubstitutions:(id)a;
+ - (void) _addClassSubstitutions:(id)a ;
  - (id) rootLayer;
  - (id) publishedObjectNames;
- - (Class) CAMLParser:(id)adidFailToFindClassWithName:(id)b;
- - (id) CAMLParser:(id)aresourceForURL:(id)b;
- - (void) CAMLParser:(id)adidLoadResource:(id)bfromURL:(id)c;
+ - (Class) CAMLParser:(id)a didFailToFindClassWithName:(id)b ;
+ - (id) CAMLParser:(id)a resourceForURL:(id)b ;
+ - (void) CAMLParser:(id)a didLoadResource:(id)b fromURL:(id)c ;
 
 
 @end

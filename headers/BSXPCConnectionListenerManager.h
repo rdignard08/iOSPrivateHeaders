@@ -15,8 +15,8 @@
  - (void) dealloc;
  - (id) init;
  - (id) _defaultHandlerQueue;
- - (void) _addService:(id)awithHandler:(id)bonQueue:(id)c;
- - (void) _removeService:(id)a;
+ - (void) _addService:(id)a withHandler:(id)b onQueue:(id)c ;
+ - (void) _removeService:(id)a ;
 
 
 @end

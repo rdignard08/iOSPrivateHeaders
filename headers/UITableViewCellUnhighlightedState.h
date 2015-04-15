@@ -10,12 +10,12 @@
 @property (atomic, retain, readwrite) UIColor* backgroundColor;
 
  - (void) dealloc;
- - (void) setHighlighted:(BOOL)a;
+ - (void) setHighlighted:(BOOL)a ;
  - (BOOL) highlighted;
  - (BOOL) opaque;
- - (void) setBackgroundColor:(id)a;
+ - (void) setBackgroundColor:(id)a ;
  - (id) backgroundColor;
- - (void) setOpaque:(BOOL)a;
+ - (void) setOpaque:(BOOL)a ;
 
 
 @end

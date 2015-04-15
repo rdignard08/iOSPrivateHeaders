@@ -14,20 +14,20 @@
 }
 
  - (void) dealloc;
- - (id) viewControllerForKey:(id)a;
- - (id) viewForKey:(id)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) initialFrameForViewController:(id)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) finalFrameForViewController:(id)a;
- - (void) _setFromViewController:(id)a;
- - (void) _setToViewController:(id)a;
- - (void) _setFromStartFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) _setToEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) _setToStartFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) _setFromEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) viewControllerForKey:(id)a ;
+ - (id) viewForKey:(id)a ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) initialFrameForViewController:(id)a ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) finalFrameForViewController:(id)a ;
+ - (void) _setFromViewController:(id)a ;
+ - (void) _setToViewController:(id)a ;
+ - (void) _setFromStartFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) _setToEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) _setToStartFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) _setFromEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) _fromView;
  - (id) _toView;
- - (void) _setFromView:(id)a;
- - (void) _setToView:(id)a;
+ - (void) _setFromView:(id)a ;
+ - (void) _setToView:(id)a ;
  - (id) fromViewController;
  - (id) toViewController;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) toStartFrame;

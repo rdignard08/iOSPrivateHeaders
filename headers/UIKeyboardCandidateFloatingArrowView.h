@@ -9,10 +9,10 @@
  - (void) dealloc;
  - (void) prepareForReuse;
  - (id) arrowButton;
- - (void) applyLayoutAttributes:(id)a;
+ - (void) applyLayoutAttributes:(id)a ;
  - (void) updateArrow;
- - (void) setArrowButton:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setArrowButton:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -10,10 +10,10 @@
 @property (atomic, assign, readwrite) NSNumber* dt;
 
  - ({CGPoint=dd}) end;
- - (void) setStart:({CGPoint=dd})a;
- - (void) setEnd:({CGPoint=dd})a;
+ - (void) setStart:({CGPoint=dd})a ;
+ - (void) setEnd:({CGPoint=dd})a ;
  - (double) dt;
- - (void) setDt:(double)a;
+ - (void) setDt:(double)a ;
  - ({CGPoint=dd}) start;
 
 

@@ -14,14 +14,14 @@
 
  - (void) dealloc;
  - (BOOL) isRotating;
- - (void) animator:(id)astopAnimation:(id)b;
- - (void) _toggleRotateAnimationDidStop:(id)afinished:(BOOL)b;
- - (id) initWithRemoveControl:(id)a;
- - (void) setHiding:(BOOL)a;
+ - (void) animator:(id)a stopAnimation:(id)b ;
+ - (void) _toggleRotateAnimationDidStop:(id)a finished:(BOOL)b ;
+ - (id) initWithRemoveControl:(id)a ;
+ - (void) setHiding:(BOOL)a ;
  - (BOOL) isHiding;
- - (void) toggleRotate:(BOOL)a;
+ - (void) toggleRotate:(BOOL)a ;
  - (BOOL) isRotated;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

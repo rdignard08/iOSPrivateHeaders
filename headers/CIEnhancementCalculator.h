@@ -9,19 +9,19 @@
 
  - (void) dealloc;
  - (id) init;
- - (void) setFaceBalanceEnabled:(BOOL)a;
- - (void) setVibranceEnabled:(BOOL)a;
- - (void) setCurvesEnabled:(BOOL)a;
- - (void) setShadowsEnabled:(BOOL)a;
+ - (void) setFaceBalanceEnabled:(BOOL)a ;
+ - (void) setVibranceEnabled:(BOOL)a ;
+ - (void) setCurvesEnabled:(BOOL)a ;
+ - (void) setShadowsEnabled:(BOOL)a ;
  - (BOOL) faceBalanceEnabled;
- - (void) setupFaceColorFromImage:(id)ausingContext:(id)bfeatures:(id)c;
- - (void) setupHistogramsUsing:(id)aredIndex:(int)bgreenIndex:(int)cblueIndex:(int)d;
+ - (void) setupFaceColorFromImage:(id)a usingContext:(id)b features:(id)c ;
+ - (void) setupHistogramsUsing:(id)a redIndex:(int)b greenIndex:(int)c blueIndex:(int)d ;
  - (BOOL) vibranceEnabled;
  - (BOOL) curvesEnabled;
  - (BOOL) shadowsEnabled;
- - (void) analyzeFeatures:(id)ausingContext:(id)bbaseImage:(id)c;
- - (id) histogramFromRows:(id)acomponentOffset:(unsigned int)b;
- - (id) setupFaceColorFromImage:(id)ausingContext:(id)bdetectorOpts:(id)c;
+ - (void) analyzeFeatures:(id)a usingContext:(id)b baseImage:(id)c ;
+ - (id) histogramFromRows:(id)a componentOffset:(unsigned int)b ;
+ - (id) setupFaceColorFromImage:(id)a usingContext:(id)b detectorOpts:(id)c ;
 
 
 @end

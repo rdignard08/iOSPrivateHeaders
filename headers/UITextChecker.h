@@ -24,33 +24,33 @@
  + (void) unlearnWord:(id)a;
 
  - (void) dealloc;
- - (id) _initWithAsynchronousLoading:(BOOL)a;
+ - (id) _initWithAsynchronousLoading:(BOOL)a ;
  - (BOOL) _doneLoading;
- - ({_NSRange=QQ}) rangeOfMisspelledWordInString:(id)arange:({_NSRange=QQ})bstartingAt:(long long)cwrap:(BOOL)dlanguage:(id)e;
- - (id) _nameOfDictionaryForDocumentTag:(long long)a;
+ - ({_NSRange=QQ}) rangeOfMisspelledWordInString:(id)a range:({_NSRange=QQ})b startingAt:(long long)c wrap:(BOOL)d language:(id)e ;
+ - (id) _nameOfDictionaryForDocumentTag:(long long)a ;
  - (void) initUserDictionaries;
  - (void) queryUpdateBundle;
  - (void) initGlobals;
- - (void) setIgnoredWords:(id)a;
- - ({_NSRange=QQ}) checkSpellingOfString:(id)astartingAt:(long long)blanguage:(id)cwrap:(BOOL)dcorrection:(^@)e;
+ - (void) setIgnoredWords:(id)a ;
+ - ({_NSRange=QQ}) checkSpellingOfString:(id)a startingAt:(long long)b language:(id)c wrap:(BOOL)d correction:(^@)e ;
  - (id) _checker;
- - (long long) adjustOffsetToNextWordBoundaryInString:(id)astartingAt:(long long)b;
- - (void) _setLanguageDictionaryName:(id)a;
- - (void) _setDocumentDictionaryName:(id)a;
- - ({_NSRange=QQ}) _chunkAndFindMisspelledWordInString:(id)alanguage:(id)blearnedDictionaries:(id)cwordCount:(^q)dcorrection:(^@)eusingChecker:(id)f;
- - ({_NSRange=QQ}) _chunkAndCheckGrammarInString:(id)alanguage:(id)busingChecker:(id)cdetails:(^@)d;
- - ({_NSRange=QQ}) checkGrammarOfString:(id)astartingAt:(long long)blanguage:(id)cwrap:(BOOL)ddetails:(^@)e;
- - (id) correctionForWordRange:({_NSRange=QQ})ainString:(id)blanguage:(id)c;
- - (id) guessesForWordRange:({_NSRange=QQ})ainString:(id)blanguage:(id)c;
- - (id) completionsForPartialWordRange:({_NSRange=QQ})ainString:(id)blanguage:(id)c;
- - (id) suggestWordInLanguage:(id)a;
- - (BOOL) canChangeCaseOfFirstLetterInString:(id)atoUpperCase:(BOOL)blanguage:(id)c;
- - (id) stringForInputString:(id)alanguage:(id)b;
- - (id) alternativesForPinyinInputString:(id)a;
- - (void) ignoreWord:(id)a;
+ - (long long) adjustOffsetToNextWordBoundaryInString:(id)a startingAt:(long long)b ;
+ - (void) _setLanguageDictionaryName:(id)a ;
+ - (void) _setDocumentDictionaryName:(id)a ;
+ - ({_NSRange=QQ}) _chunkAndFindMisspelledWordInString:(id)a language:(id)b learnedDictionaries:(id)c wordCount:(^q)d correction:(^@)e usingChecker:(id)f ;
+ - ({_NSRange=QQ}) _chunkAndCheckGrammarInString:(id)a language:(id)b usingChecker:(id)c details:(^@)d ;
+ - ({_NSRange=QQ}) checkGrammarOfString:(id)a startingAt:(long long)b language:(id)c wrap:(BOOL)d details:(^@)e ;
+ - (id) correctionForWordRange:({_NSRange=QQ})a inString:(id)b language:(id)c ;
+ - (id) guessesForWordRange:({_NSRange=QQ})a inString:(id)b language:(id)c ;
+ - (id) completionsForPartialWordRange:({_NSRange=QQ})a inString:(id)b language:(id)c ;
+ - (id) suggestWordInLanguage:(id)a ;
+ - (BOOL) canChangeCaseOfFirstLetterInString:(id)a toUpperCase:(BOOL)b language:(id)c ;
+ - (id) stringForInputString:(id)a language:(id)b ;
+ - (id) alternativesForPinyinInputString:(id)a ;
+ - (void) ignoreWord:(id)a ;
  - (id) ignoredWords;
  - (id) init;
- - (BOOL) isWordInUserDictionaries:(id)acaseSensitive:(BOOL)b;
+ - (BOOL) isWordInUserDictionaries:(id)a caseSensitive:(BOOL)b ;
 
 
 @end

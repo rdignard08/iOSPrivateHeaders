@@ -3,8 +3,8 @@
 
 }
 
- - (id) transformedValue:(id)a;
- - (id) reverseTransformedValue:(id)a;
+ - (id) transformedValue:(id)a ;
+ - (id) reverseTransformedValue:(id)a ;
  - (id) description;
 
 

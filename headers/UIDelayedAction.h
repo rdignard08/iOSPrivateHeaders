@@ -13,12 +13,12 @@
  - (id) target;
  - (void) dealloc;
  - (id) userInfo;
- - (void) setTarget:(id)a;
- - (void) touchWithDelay:(double)a;
- - (id) initWithTarget:(id)aaction:(SEL)buserInfo:(id)cdelay:(double)dmode:(id)e;
- - (void) timerFired:(id)a;
+ - (void) setTarget:(id)a ;
+ - (void) touchWithDelay:(double)a ;
+ - (id) initWithTarget:(id)a action:(SEL)b userInfo:(id)c delay:(double)d mode:(id)e ;
+ - (void) timerFired:(id)a ;
  - (void) unschedule;
- - (id) initWithTarget:(id)aaction:(SEL)buserInfo:(id)cdelay:(double)d;
+ - (id) initWithTarget:(id)a action:(SEL)b userInfo:(id)c delay:(double)d ;
  - (void) touch;
  - (BOOL) scheduled;
  - (void) cancel;

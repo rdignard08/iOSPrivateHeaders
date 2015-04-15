@@ -23,9 +23,9 @@
  - (BOOL) isDirectory;
  - (void) dealloc;
  - (unsigned long long) count;
- - (id) objectForKey:(id)a;
+ - (id) objectForKey:(id)a ;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) keyEnumerator;
  - (unsigned long long) fileSize;
 

@@ -12,15 +12,15 @@
 @property (atomic, assign, readwrite) NSNumber* numScores;
 
  - (float) computeAverage;
- - (id) initWithScore:(float)a;
- - (void) addScore:(float)a;
+ - (id) initWithScore:(float)a ;
+ - (void) addScore:(float)a ;
  - (float) computeStandardDeviation;
  - (float) maxScore;
- - (void) setMaxScore:(float)a;
+ - (void) setMaxScore:(float)a ;
  - (float) minScore;
- - (void) setMinScore:(float)a;
+ - (void) setMinScore:(float)a ;
  - (int) numScores;
- - (void) setNumScores:(int)a;
+ - (void) setNumScores:(int)a ;
 
 
 @end

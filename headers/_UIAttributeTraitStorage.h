@@ -3,9 +3,9 @@
 
 }
 
- - (void) applyRecordsMatchingTraitCollection:(id)a;
- - (id) initWithObject:(id)akeyPath:(id)b;
- - (void) addRecordWithTraitCollection:(id)avalue:(id)b;
+ - (void) applyRecordsMatchingTraitCollection:(id)a ;
+ - (id) initWithObject:(id)a keyPath:(id)b ;
+ - (void) addRecordWithTraitCollection:(id)a value:(id)b ;
 
 
 @end

@@ -14,21 +14,21 @@
 @property (nonatomic, assign, readonly) NSNumber* path;
  + (id) infiniteRegion;
 
- - (id) initWithPath:(^{CGPath=})a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) initWithPath:(^{CGPath=})a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) .cxx_construct;
  - (void) .cxx_destruct;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (^{CGPath=}) path;
- - (id) initWithSize:({CGSize=dd})a;
- - (BOOL) containsPoint:({CGPoint=dd})a;
- - (id) initWithRadius:(float)a;
+ - (id) initWithSize:({CGSize=dd})a ;
+ - (BOOL) containsPoint:({CGPoint=dd})a ;
+ - (id) initWithRadius:(float)a ;
  - (id) inverseRegion;
- - (id) regionByUnionWithRegion:(id)a;
- - (id) regionByDifferenceFromRegion:(id)a;
- - (id) regionByIntersectionWithRegion:(id)a;
- - (void) containsPoints:(r^f)alocationStride:(long long)bresults:(char*)cresultsStride:(long long)dcount:(int)e;
+ - (id) regionByUnionWithRegion:(id)a ;
+ - (id) regionByDifferenceFromRegion:(id)a ;
+ - (id) regionByIntersectionWithRegion:(id)a ;
+ - (void) containsPoints:(r^f)a locationStride:(long long)b results:(char*)c resultsStride:(long long)d count:(int)e ;
 
 
 @end

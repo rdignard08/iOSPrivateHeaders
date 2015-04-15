@@ -3,7 +3,7 @@
 
 }
 
- - (void) setColorTint:(id)a;
+ - (void) setColorTint:(id)a ;
  - (void) setDefaultValues;
 
 

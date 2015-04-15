@@ -20,20 +20,20 @@
  - (void) dealloc;
  - (id) backgroundImage;
  - (id) shadowImage;
- - (void) setShadowImage:(id)a;
- - (void) setBarTintColor:(id)a;
+ - (void) setShadowImage:(id)a ;
+ - (void) setBarTintColor:(id)a ;
  - (id) barTintColor;
- - (void) setBackgroundImage:(id)a;
- - (void) setTabItemAppearanceStorage:(id)a;
+ - (void) setBackgroundImage:(id)a ;
+ - (void) setTabItemAppearanceStorage:(id)a ;
  - (id) tabItemAppearanceStorage;
  - (id) _tabItemAppearanceStorage;
- - (void) _setDividerImage:(id)aforLeftButtonState:(unsigned long long)brightButtonState:(unsigned long long)c;
- - (id) _dividerImageForLeftButtonState:(unsigned long long)arightButtonState:(unsigned long long)b;
+ - (void) _setDividerImage:(id)a forLeftButtonState:(unsigned long long)b rightButtonState:(unsigned long long)c ;
+ - (id) _dividerImageForLeftButtonState:(unsigned long long)a rightButtonState:(unsigned long long)b ;
  - (id) dividerImagesForCoding;
  - (id) selectionIndicatorImage;
- - (void) setSelectionIndicatorImage:(id)a;
+ - (void) setSelectionIndicatorImage:(id)a ;
  - (id) selectedImageTintColor;
- - (void) setSelectedImageTintColor:(id)a;
+ - (void) setSelectedImageTintColor:(id)a ;
 
 
 @end

@@ -3,8 +3,8 @@
 
 }
 
- - (void) forwardInvocation:(id)a;
- - (void) _forwardInvocation:(id)awithIncomingReplyDispatchBlock:(@?)b;
+ - (void) forwardInvocation:(id)a ;
+ - (void) _forwardInvocation:(id)a withIncomingReplyDispatchBlock:(@?)b ;
 
 
 @end

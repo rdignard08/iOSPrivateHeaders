@@ -15,10 +15,10 @@
  - (id) evaluator;
  - (unsigned int) gradientStyle;
  - (double) drawingAngle;
- - (id) initWithEvaluator:(id)adrawingAngle:(double)bgradientStyle:(unsigned int)c;
- - (void) setEvaluator:(id)a;
- - (void) setDrawingAngle:(double)a;
- - (void) setGradientStyle:(unsigned int)a;
+ - (id) initWithEvaluator:(id)a drawingAngle:(double)b gradientStyle:(unsigned int)c ;
+ - (void) setEvaluator:(id)a ;
+ - (void) setDrawingAngle:(double)a ;
+ - (void) setGradientStyle:(unsigned int)a ;
 
 
 @end

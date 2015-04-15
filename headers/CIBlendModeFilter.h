@@ -10,9 +10,9 @@
 
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) inputBackgroundImage;
- - (void) setInputBackgroundImage:(id)a;
+ - (void) setInputBackgroundImage:(id)a ;
  - (BOOL) _needUnpremuls;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _extent;
 

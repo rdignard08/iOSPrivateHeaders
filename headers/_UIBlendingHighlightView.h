@@ -9,10 +9,10 @@
  + (id) _blendingPressedView;
 
  - (void) dealloc;
- - (void) setCornerRadius:(double)a;
- - (void) setHighlighted:(BOOL)aanimated:(BOOL)b;
- - (void) setPressed:(BOOL)aanimated:(BOOL)b;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})acolorBurnColor:(id)bplusDColor:(id)c;
+ - (void) setCornerRadius:(double)a ;
+ - (void) setHighlighted:(BOOL)a animated:(BOOL)b ;
+ - (void) setPressed:(BOOL)a animated:(BOOL)b ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a colorBurnColor:(id)b plusDColor:(id)c ;
  - (double) cornerRadius;
 
 

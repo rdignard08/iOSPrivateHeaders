@@ -6,12 +6,12 @@
 }
 
  - (void) dealloc;
- - (void) setContentSize:({CGSize=dd})a;
+ - (void) setContentSize:({CGSize=dd})a ;
  - (BOOL) shouldPinToBottomOnResize;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) _boundsForPinningToBottomWithNewBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) _boundsForPinningToBottomWithNewBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (void) _updateScrollabilityAndShadow;
- - (void) setShouldPinToBottomOnResize:(BOOL)a;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setShouldPinToBottomOnResize:(BOOL)a ;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

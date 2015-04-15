@@ -6,7 +6,7 @@
 }
 
  - (id) baseGetter;
- - (id) initWithContainerClassID:(id)akey:(id)bbaseGetter:(id)cbaseSetter:(id)dcontainerIsa:(Class)eproxyClass:(Class)f;
+ - (id) initWithContainerClassID:(id)a key:(id)b baseGetter:(id)c baseSetter:(id)d containerIsa:(Class)e proxyClass:(Class)f ;
  - (id) baseSetter;
  - (BOOL) treatNilValuesLikeEmptyCollections;
  - (void) dealloc;

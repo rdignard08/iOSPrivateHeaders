@@ -11,13 +11,13 @@
  - (void) dealloc;
  - (void) finalizeCurrentScriptAtom;
  - (void) initializeCurrentScriptAtom;
- - (void) addToCurrentScriptAtomEditOperation:(long long)aeditIndex:(unsigned long long)bnewText:(id)cindexInArrayB:(unsigned long long)d;
- - (id) initWithOperationPrecedence:(long long)adataClass:(Class)bchunkSize:(long long)cstringA:(id)dstringB:(id)eorderAtomsAscending:(BOOL)foptions:(long long)g;
- - (void) removeAnyOverlapBetweenIndexOfFirstDifference:(^q)aandReverseIndexOfLastDifference:(^q)bshouldShortenFirstDifference:(BOOL)c;
+ - (void) addToCurrentScriptAtomEditOperation:(long long)a editIndex:(unsigned long long)b newText:(id)c indexInArrayB:(unsigned long long)d ;
+ - (id) initWithOperationPrecedence:(long long)a dataClass:(Class)b chunkSize:(long long)c stringA:(id)d stringB:(id)e orderAtomsAscending:(BOOL)f options:(long long)g ;
+ - (void) removeAnyOverlapBetweenIndexOfFirstDifference:(^q)a andReverseIndexOfLastDifference:(^q)b shouldShortenFirstDifference:(BOOL)c ;
  - (void) computeSmallestSingleEdit;
  - (id) stringA;
  - (id) stringB;
- - (id) applyToString:(id)a;
+ - (id) applyToString:(id)a ;
 
 
 @end

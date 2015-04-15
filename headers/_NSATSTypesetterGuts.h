@@ -16,7 +16,7 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (id) initWithTypesetter:(id)a;
+ - (id) initWithTypesetter:(id)a ;
 
 
 @end

@@ -19,24 +19,24 @@
  - (long long) completed;
  - (double) fractionCompleted;
  - (id) fractionBySimplifying;
- - (void) _simplifyFromDouble:(double)a;
- - (void) addFraction:(id)a;
- - (void) subtractFraction:(id)a;
- - (void) multiplyByFraction:(id)a;
+ - (void) _simplifyFromDouble:(double)a ;
+ - (void) addFraction:(id)a ;
+ - (void) subtractFraction:(id)a ;
+ - (void) multiplyByFraction:(id)a ;
  - (BOOL) isIndeterminate;
- - (id) initWithCompleted:(long long)atotal:(long long)b;
+ - (id) initWithCompleted:(long long)a total:(long long)b ;
  - (BOOL) overflowed;
- - (id) fractionByAddingFraction:(id)a;
- - (id) fractionBySubtractingFraction:(id)a;
- - (void) divideByValue:(long long)a;
- - (id) fractionByMultiplyingFraction:(id)a;
- - (void) setCompleted:(long long)a;
- - (void) setTotal:(long long)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) fractionByAddingFraction:(id)a ;
+ - (id) fractionBySubtractingFraction:(id)a ;
+ - (void) divideByValue:(long long)a ;
+ - (id) fractionByMultiplyingFraction:(id)a ;
+ - (void) setCompleted:(long long)a ;
+ - (void) setTotal:(long long)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

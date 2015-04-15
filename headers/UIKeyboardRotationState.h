@@ -17,15 +17,15 @@
  - (void) dealloc;
  - (id) animationStyle;
  - (long long) targetOrientation;
- - (void) setPostRotationState:(int)aanimationStyle:(id)b;
- - (void) setAnimationStyle:(id)a;
- - (void) setRequiresNewState:(BOOL)a;
- - (void) setPostRotationState:(int)a;
- - (void) setTargetOrientation:(long long)a;
+ - (void) setPostRotationState:(int)a animationStyle:(id)b ;
+ - (void) setAnimationStyle:(id)a ;
+ - (void) setRequiresNewState:(BOOL)a ;
+ - (void) setPostRotationState:(int)a ;
+ - (void) setTargetOrientation:(long long)a ;
  - (BOOL) requiresNewState;
  - (int) postRotationState;
  - (int) state;
- - (void) setState:(int)a;
+ - (void) setState:(int)a ;
 
 
 @end

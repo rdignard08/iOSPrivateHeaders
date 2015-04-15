@@ -12,11 +12,11 @@
 @property (nonatomic, retain, readwrite) UITableViewCell* swipeToDeleteCell;
 
  - (void) dealloc;
- - (id) initWithCompletionHandler:(@?)a;
- - (void) setViewAnimations:(id)a;
+ - (id) initWithCompletionHandler:(@?)a ;
+ - (void) setViewAnimations:(id)a ;
  - (long long) animationCount;
- - (void) setAnimationCount:(long long)a;
- - (void) setSwipeToDeleteCell:(id)a;
+ - (void) setAnimationCount:(long long)a ;
+ - (void) setSwipeToDeleteCell:(id)a ;
  - (id) viewAnimations;
  - (id) swipeToDeleteCell;
  - (@?) completionHandler;

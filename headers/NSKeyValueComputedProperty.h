@@ -6,17 +6,17 @@
     NSKeyValueProperty* _operationArgumentProperty;
 }
 
- - (void) object:(id)adidAddObservance:(id)brecurse:(BOOL)c;
- - (void) object:(id)adidRemoveObservance:(id)brecurse:(BOOL)c;
- - (BOOL) matchesWithoutOperatorComponentsKeyPath:(id)a;
- - (void) object:(id)awithObservance:(id)bdidChangeValueForKeyOrKeys:(id)crecurse:(BOOL)dforwardingValues:({?=@@})e;
- - (BOOL) object:(id)awithObservance:(id)bwillChangeValueForKeyOrKeys:(id)crecurse:(BOOL)dforwardingValues:(^{?=@@})e;
+ - (void) object:(id)a didAddObservance:(id)b recurse:(BOOL)c ;
+ - (void) object:(id)a didRemoveObservance:(id)b recurse:(BOOL)c ;
+ - (BOOL) matchesWithoutOperatorComponentsKeyPath:(id)a ;
+ - (void) object:(id)a withObservance:(id)b didChangeValueForKeyOrKeys:(id)c recurse:(BOOL)d forwardingValues:({?=@@})e ;
+ - (BOOL) object:(id)a withObservance:(id)b willChangeValueForKeyOrKeys:(id)c recurse:(BOOL)d forwardingValues:(^{?=@@})e ;
  - (Class) _isaForAutonotifying;
- - (id) _keyPathIfAffectedByValueForKey:(id)aexactMatch:(^B)b;
- - (id) _keyPathIfAffectedByValueForMemberOfKeys:(id)a;
- - (id) _initWithContainerClass:(id)akeyPath:(id)bpropertiesBeingInitialized:(^{__CFSet=})c;
- - (void) _givenPropertiesBeingInitialized:(^{__CFSet=})agetAffectingProperties:(id)b;
- - (void) _addDependentValueKey:(id)a;
+ - (id) _keyPathIfAffectedByValueForKey:(id)a exactMatch:(^B)b ;
+ - (id) _keyPathIfAffectedByValueForMemberOfKeys:(id)a ;
+ - (id) _initWithContainerClass:(id)a keyPath:(id)b propertiesBeingInitialized:(^{__CFSet=})c ;
+ - (void) _givenPropertiesBeingInitialized:(^{__CFSet=})a getAffectingProperties:(id)b ;
+ - (void) _addDependentValueKey:(id)a ;
  - (id) description;
  - (void) dealloc;
 

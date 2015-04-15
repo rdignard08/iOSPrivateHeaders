@@ -5,8 +5,8 @@
 }
 
  - (void) notifyCookiesChangedOnMainThread;
- - (void) cookiesChangedNotificationHandler:(id)a;
- - (void) startListeningForCookieChangeNotificationsWithCallback:(^?)a;
+ - (void) cookiesChangedNotificationHandler:(id)a ;
+ - (void) startListeningForCookieChangeNotificationsWithCallback:(^?)a ;
  - (void) stopListeningForCookieChangeNotifications;
 
 

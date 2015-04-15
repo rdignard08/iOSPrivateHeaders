@@ -8,11 +8,11 @@
  + (id) placeholderWithWidth:(double)aheight:(double)b;
 
  - (void) dealloc;
- - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;
+ - (id) hitTest:({CGPoint=dd})a withEvent:(id)b ;
  - ({CGSize=dd}) intrinsicContentSize;
  - (BOOL) refreshPlaceholder;
  - (id) placeheldView;
- - (id) initWithSize:({CGSize=dd})a;
+ - (id) initWithSize:({CGSize=dd})a ;
 
 
 @end

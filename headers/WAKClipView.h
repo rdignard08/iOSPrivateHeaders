@@ -6,12 +6,12 @@
 }
 
  - (void) dealloc;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) documentView;
- - (void) setCopiesOnScroll:(BOOL)a;
+ - (void) setCopiesOnScroll:(BOOL)a ;
  - (BOOL) copiesOnScroll;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) documentVisibleRect;
- - (void) _setDocumentView:(id)a;
+ - (void) _setDocumentView:(id)a ;
 
 
 @end

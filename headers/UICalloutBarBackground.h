@@ -11,16 +11,16 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (id) separatorView;
- - (void) setSeparatorView:(id)a;
+ - (void) setSeparatorView:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) highlightRect;
- - (void) setHighlightRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setDividerOffsets:(^d)a;
- - (void) setHighlighted:(BOOL)aforFrame:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) setBlurDisabled:(BOOL)a;
+ - (void) setHighlightRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setDividerOffsets:(^d)a ;
+ - (void) setHighlighted:(BOOL)a forFrame:({CGRect={CGPoint=dd}{CGSize=dd}})b ;
+ - (void) setBlurDisabled:(BOOL)a ;
  - (id) blurMaskView;
- - (void) setBlurMaskView:(id)a;
+ - (void) setBlurMaskView:(id)a ;
  - (id) tintMaskView;
- - (void) setTintMaskView:(id)a;
+ - (void) setTintMaskView:(id)a ;
  - (id) init;
 
 

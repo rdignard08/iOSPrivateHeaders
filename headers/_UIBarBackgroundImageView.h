@@ -8,10 +8,10 @@
 
  - (BOOL) isTranslucent;
  - (id) topStripView;
- - (void) setTranslucent:(BOOL)a;
+ - (void) setTranslucent:(BOOL)a ;
  - (void) updateTopStripViewCreateIfNecessary;
  - (void) removeTopStripView;
- - (void) setImage:(id)a;
+ - (void) setImage:(id)a ;
  - (id) image;
 
 

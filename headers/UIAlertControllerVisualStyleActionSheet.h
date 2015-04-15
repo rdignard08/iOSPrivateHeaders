@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (double) maximumWidth;
- - (void) setDescriptor:(id)a;
+ - (void) setDescriptor:(id)a ;
  - (double) verticalContentMargin;
  - (id) titleLabelFont;
  - (id) titleLabelColor;

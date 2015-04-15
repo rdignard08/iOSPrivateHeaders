@@ -4,7 +4,7 @@
     BOOL _layoutsSuspended;
 }
 
- - (void) setLayoutsSuspended:(BOOL)a;
+ - (void) setLayoutsSuspended:(BOOL)a ;
  - (void) setNeedsLayout;
 
 

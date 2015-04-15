@@ -7,7 +7,7 @@
 
  - (Vv) release;
  - (Vv) _webcore_releaseOnWebThread;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (id) init;
  - (id) sheet;

@@ -3,13 +3,13 @@
 
 }
 
- - (id) _traitsForKey:(id)aonKeyplane:(id)b;
+ - (id) _traitsForKey:(id)a onKeyplane:(id)b ;
  - (id) lightKeycapsFontName;
- - (void) _customizeTraits:(id)aforPopupForKey:(id)bwithRenderConfig:(id)ckeycapsFontName:(id)d;
- - (BOOL) shouldClearBaseDisplayStringForVariants:(id)a;
+ - (void) _customizeTraits:(id)a forPopupForKey:(id)b withRenderConfig:(id)c keycapsFontName:(id)d ;
+ - (BOOL) shouldClearBaseDisplayStringForVariants:(id)a ;
  - (id) thinKeycapsFontName;
  - (double) keyCornerRadius;
- - (id) displayContentsForKey:(id)a;
+ - (id) displayContentsForKey:(id)a ;
  - (id) multitapCompleteKeyImageName;
  - (id) muttitapReverseKeyImageName;
  - (void) setupLayoutSegments;
@@ -35,13 +35,13 @@
  - ({CGPoint=dd}) shiftKeyOffset;
  - (double) stringKeyFontSize;
  - (double) zhuyinFirstToneKeyFontSize;
- - (void) _customizeSymbolStyle:(id)aforKey:(id)bcontents:(id)c;
- - (void) _customizeGeometry:(id)aforKey:(id)bcontents:(id)c;
- - (void) _customizePopupTraits:(id)aforKey:(id)bonKeyplane:(id)c;
+ - (void) _customizeSymbolStyle:(id)a forKey:(id)b contents:(id)c ;
+ - (void) _customizeGeometry:(id)a forKey:(id)b contents:(id)c ;
+ - (void) _customizePopupTraits:(id)a forKey:(id)b onKeyplane:(id)c ;
  - ({UIEdgeInsets=dddd}) variantDisplayFrameInsets;
  - ({UIEdgeInsets=dddd}) variantSymbolFrameInsets;
- - (long long) rowLimitForKey:(id)a;
- - (id) variantGeometriesForGeometry:(id)avariantCount:(unsigned long long)browLimit:(long long)c;
+ - (long long) rowLimitForKey:(id)a ;
+ - (id) variantGeometriesForGeometry:(id)a variantCount:(unsigned long long)b rowLimit:(long long)c ;
  - (double) _row4ControlSegmentWidth;
  - ({CGPoint=dd}) secondaryShiftKeyOffset;
  - (double) keyInsetBottom;

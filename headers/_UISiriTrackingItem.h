@@ -28,32 +28,32 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setTextColor:(id)a;
+ - (void) setTextColor:(id)a ;
  - (id) textColor;
- - (void) setCapturedGlyphImage:(id)a;
- - (void) setTargetFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setCapturedGlyphImage:(id)a ;
+ - (void) setTargetFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (void) animateOut;
- - (void) captureGlyphsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})acontainerOrigin:({CGPoint=dd})bfromLayoutManager:(id)c;
+ - (void) captureGlyphsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a containerOrigin:({CGPoint=dd})b fromLayoutManager:(id)c ;
  - (id) animatedView;
- - (void) setAnimatedView:(id)a;
+ - (void) setAnimatedView:(id)a ;
  - ({_NSRange=QQ}) textRange;
- - (void) setTextRange:({_NSRange=QQ})a;
- - (void) setGlyphRange:({_NSRange=QQ})a;
+ - (void) setTextRange:({_NSRange=QQ})a ;
+ - (void) setGlyphRange:({_NSRange=QQ})a ;
  - (double) offscreenXLocation;
- - (void) setOffscreenXLocation:(double)a;
+ - (void) setOffscreenXLocation:(double)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) targetFrame;
  - (@?) animationCompletionHandler;
- - (void) setAnimationCompletionHandler:(@?)a;
+ - (void) setAnimationCompletionHandler:(@?)a ;
  - (BOOL) isABigReplacement;
- - (void) setIsABigReplacement:(BOOL)a;
+ - (void) setIsABigReplacement:(BOOL)a ;
  - (BOOL) isASmallReplacement;
- - (void) setIsASmallReplacement:(BOOL)a;
+ - (void) setIsASmallReplacement:(BOOL)a ;
  - (BOOL) isAnIntroduction;
- - (void) setIsAnIntroduction:(BOOL)a;
+ - (void) setIsAnIntroduction:(BOOL)a ;
  - (id) capturedGlyphImage;
  - (id) init;
  - ({_NSRange=QQ}) glyphRange;
- - (void) animationDidStop:(id)afinished:(BOOL)b;
+ - (void) animationDidStop:(id)a finished:(BOOL)b ;
 
 
 @end

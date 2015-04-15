@@ -17,21 +17,21 @@
 
  - (void) dealloc;
  - (id) name;
- - (id) _initWithServerName:(id)a;
+ - (id) _initWithServerName:(id)a ;
  - (void) _checkOutAndRemoveSource;
  - (void) _checkIn;
- - (void) startDeliveringNotificationsToRunLoop:(^{__CFRunLoop=})a;
- - (void) _createReceiveSourceForRunLoop:(^{__CFRunLoop=})a;
- - (void) deliverNotification:(id)auserInfo:(id)b;
+ - (void) startDeliveringNotificationsToRunLoop:(^{__CFRunLoop=})a ;
+ - (void) _createReceiveSourceForRunLoop:(^{__CFRunLoop=})a ;
+ - (void) deliverNotification:(id)a userInfo:(id)b ;
  - (void) runServer;
- - (BOOL) postNotificationName:(id)auserInfo:(id)btoBundleIdentifier:(id)c;
- - (void) _receivedCheckIn:(unsigned int)aauditToken:(^{?=[8I]})b;
+ - (BOOL) postNotificationName:(id)a userInfo:(id)b toBundleIdentifier:(id)c ;
+ - (void) _receivedCheckIn:(unsigned int)a auditToken:(^{?=[8I]})b ;
  - (void) _notificationServerWasRestarted;
  - (void) startDeliveringNotificationsToMainThread;
  - (void) stopDeliveringNotifications;
  - (void) runServerOnCurrentThread;
- - (void) postNotificationName:(id)a;
- - (void) postNotificationName:(id)auserInfo:(id)b;
+ - (void) postNotificationName:(id)a ;
+ - (void) postNotificationName:(id)a userInfo:(id)b ;
 
 
 @end

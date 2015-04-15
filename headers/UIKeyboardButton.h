@@ -4,7 +4,7 @@
     long long _keyboardButtonStyle;
 }
 
- - (id) initWithKeyboardButtonStyle:(long long)a;
+ - (id) initWithKeyboardButtonStyle:(long long)a ;
  - (long long) keyboardButtonStyle;
 
 

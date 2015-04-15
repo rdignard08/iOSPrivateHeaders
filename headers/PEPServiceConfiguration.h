@@ -10,9 +10,9 @@
  - (void) dealloc;
  - (id) init;
  - (void) _postNotification;
- - (BOOL) registerNetworkDefaultsForAppIDs:(id)aforceUpdate:(BOOL)b;
- - (void) _updateDefaults:(id)a;
- - (BOOL) registerNetworkDefaultsForAppID:(id)a;
+ - (BOOL) registerNetworkDefaultsForAppIDs:(id)a forceUpdate:(BOOL)b ;
+ - (void) _updateDefaults:(id)a ;
+ - (BOOL) registerNetworkDefaultsForAppID:(id)a ;
 
 
 @end

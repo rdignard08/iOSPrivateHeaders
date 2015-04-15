@@ -5,7 +5,7 @@
     UIActivityIndicatorView* _activityIndicator;
 }
 
- - (void) setPrinterState:(int)a;
+ - (void) setPrinterState:(int)a ;
  - (int) printerState;
 
 

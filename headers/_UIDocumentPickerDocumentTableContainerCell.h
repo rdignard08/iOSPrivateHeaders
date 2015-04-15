@@ -5,12 +5,12 @@
 }
 
  - (void) dealloc;
- - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)a reuseIdentifier:(id)b ;
  - (void) prepareForReuse;
- - (void) reloadItem:(BOOL)a;
+ - (void) reloadItem:(BOOL)a ;
  - (id) containerIconView;
- - (void) containersChangedWithSnapshot:(id)adifferences:(id)b;
- - (void) setContainerIconView:(id)a;
+ - (void) containersChangedWithSnapshot:(id)a differences:(id)b ;
+ - (void) setContainerIconView:(id)a ;
 
 
 @end

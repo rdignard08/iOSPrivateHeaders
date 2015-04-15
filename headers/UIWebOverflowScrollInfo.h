@@ -11,13 +11,13 @@
 
  - (void) dealloc;
  - (id) node;
- - (id) initWithNode:(id)aoffset:({CGPoint=dd})bisUserScroll:(BOOL)c;
- - (BOOL) coalesceScrollForNode:(id)aoffset:({CGPoint=dd})bisUserScroll:(BOOL)c;
- - (void) setNode:(id)a;
+ - (id) initWithNode:(id)a offset:({CGPoint=dd})b isUserScroll:(BOOL)c ;
+ - (BOOL) coalesceScrollForNode:(id)a offset:({CGPoint=dd})b isUserScroll:(BOOL)c ;
+ - (void) setNode:(id)a ;
  - (BOOL) isUserScroll;
- - (void) setIsUserScroll:(BOOL)a;
+ - (void) setIsUserScroll:(BOOL)a ;
  - ({CGPoint=dd}) offset;
- - (void) setOffset:({CGPoint=dd})a;
+ - (void) setOffset:({CGPoint=dd})a ;
 
 
 @end

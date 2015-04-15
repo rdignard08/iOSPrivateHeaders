@@ -9,13 +9,13 @@
 }
 
  - (id) title;
- - (void) setTitle:(id)a;
+ - (void) setTitle:(id)a ;
  - (void) dealloc;
  - (void) layoutSubviews;
  - (id) _textColor;
  - (id) message;
- - (void) setMessage:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setMessage:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -28,24 +28,24 @@
  - (id) localizedName;
  - (id) description;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (long long) compare:(id)a;
- - (void) setExtension:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (long long) compare:(id)a ;
+ - (void) setExtension:(id)a ;
  - (id) supportedContentTypes;
  - (id) extension;
  - (BOOL) enabled;
  - (BOOL) isNewlyAdded;
- - (void) setNewlyAdded:(BOOL)a;
- - (BOOL) supportsPickerMode:(unsigned long long)a;
- - (id) _extensionValueOfClass:(Class)aforKey:(id)b;
+ - (void) setNewlyAdded:(BOOL)a ;
+ - (BOOL) supportsPickerMode:(unsigned long long)a ;
+ - (id) _extensionValueOfClass:(Class)a forKey:(id)b ;
  - (id) _ownBundle;
  - (id) _parentApp;
  - (id) nonUIBundle;
  - (id) fileProviderDocumentGroup;
  - (id) nonUIIdentifier;
- - (id) imageWithScale:(double)a;
+ - (id) imageWithScale:(double)a ;
  - (id) identifier;
- - (void) setEnabled:(BOOL)a;
+ - (void) setEnabled:(BOOL)a ;
 
 
 @end

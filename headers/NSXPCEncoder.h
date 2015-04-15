@@ -12,37 +12,37 @@
 }
  + (id) _dataWithXPCObject:(id)a;
 
- - (void) encodeDataObject:(id)a;
- - (void) _encodeArrayOfObjects:(id)aforKey:(id)b;
- - (void) encodeInt:(int)aforKey:(id)b;
- - (void) encodeConditionalObject:(id)aforKey:(id)b;
- - (void) encodeXPCObject:(id)aforKey:(id)b;
+ - (void) encodeDataObject:(id)a ;
+ - (void) _encodeArrayOfObjects:(id)a forKey:(id)b ;
+ - (void) encodeInt:(int)a forKey:(id)b ;
+ - (void) encodeConditionalObject:(id)a forKey:(id)b ;
+ - (void) encodeXPCObject:(id)a forKey:(id)b ;
  - (id) _connection;
- - (void) encodeInvocation:(id)a;
- - (void) set_connection:(id)a;
- - (void) _insertIntoXPCObject:(id)a;
- - (void) _encodeCString:(r*)aforKey:(id)b;
- - (id) _replaceObject:(id)a;
- - (void) _checkObject:(id)a;
- - (void) _encodeObject:(id)a;
+ - (void) encodeInvocation:(id)a ;
+ - (void) set_connection:(id)a ;
+ - (void) _insertIntoXPCObject:(id)a ;
+ - (void) _encodeCString:(r*)a forKey:(id)b ;
+ - (id) _replaceObject:(id)a ;
+ - (void) _checkObject:(id)a ;
+ - (void) _encodeObject:(id)a ;
  - (id) _createRootXPCObject;
  - (void) dealloc;
  - (void) finalize;
  - (BOOL) allowsKeyedCoding;
- - (void) encodeInteger:(long long)aforKey:(id)b;
- - (void) encodeInt64:(long long)aforKey:(id)b;
- - (void) encodeObject:(id)aforKey:(id)b;
- - (void) encodeBool:(BOOL)aforKey:(id)b;
- - (void) setDelegate:(id)a;
- - (void) encodeBytes:(r*)alength:(unsigned long long)bforKey:(id)c;
- - (void) encodeInt32:(int)aforKey:(id)b;
+ - (void) encodeInteger:(long long)a forKey:(id)b ;
+ - (void) encodeInt64:(long long)a forKey:(id)b ;
+ - (void) encodeObject:(id)a forKey:(id)b ;
+ - (void) encodeBool:(BOOL)a forKey:(id)b ;
+ - (void) setDelegate:(id)a ;
+ - (void) encodeBytes:(r*)a length:(unsigned long long)b forKey:(id)c ;
+ - (void) encodeInt32:(int)a forKey:(id)b ;
  - (id) debugDescription;
  - (id) init;
- - (void) encodeValueOfObjCType:(r*)aat:(r^v)b;
- - (void) encodeObject:(id)a;
+ - (void) encodeValueOfObjCType:(r*)a at:(r^v)b ;
+ - (void) encodeObject:(id)a ;
  - (id) delegate;
- - (void) encodeDouble:(double)aforKey:(id)b;
- - (void) encodeFloat:(float)aforKey:(id)b;
+ - (void) encodeDouble:(double)a forKey:(id)b ;
+ - (void) encodeFloat:(float)a forKey:(id)b ;
 
 
 @end

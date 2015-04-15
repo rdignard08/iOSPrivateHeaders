@@ -5,7 +5,7 @@
 }
 
  - (id) initWithDefaultParameters;
- - (void) setOrientationAnimation:(int)a;
+ - (void) setOrientationAnimation:(int)a ;
  - (int) orientationAnimation;
  - (BOOL) shouldAnimate;
 

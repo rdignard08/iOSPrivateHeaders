@@ -20,26 +20,26 @@
  + (id) keyCommandWithInput:(id)amodifierFlags:(long long)bbuttonType:(long long)c;
  + (id) keyCommandWithInput:(id)amodifierFlags:(long long)bsegueIdentifier:(id)c;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (SEL) action;
  - (long long) _buttonType;
  - (BOOL) triggerSegueIfPossible;
- - (void) _setButtonType:(long long)a;
- - (void) setAction:(SEL)a;
- - (void) _setTriggeringEvent:(id)a;
+ - (void) _setButtonType:(long long)a ;
+ - (void) setAction:(SEL)a ;
+ - (void) _setTriggeringEvent:(id)a ;
  - (id) _segueIdentifier;
- - (void) _setViewControllerForSegue:(id)a;
+ - (void) _setViewControllerForSegue:(id)a ;
  - (id) _keyCodes;
- - (id) initWithKeyCodes:(id)amodifierFlags:(long long)baction:(SEL)c;
- - (id) initWithInput:(id)amodifierFlags:(long long)bsegueIdentifier:(id)c;
- - (id) initWithInput:(id)amodifierFlags:(long long)baction:(SEL)c;
- - (id) initWithKeyCodes:(id)amodifierFlags:(long long)bbuttonType:(long long)c;
- - (id) initWithInput:(id)amodifierFlags:(long long)bbuttonType:(long long)c;
+ - (id) initWithKeyCodes:(id)a modifierFlags:(long long)b action:(SEL)c ;
+ - (id) initWithInput:(id)a modifierFlags:(long long)b segueIdentifier:(id)c ;
+ - (id) initWithInput:(id)a modifierFlags:(long long)b action:(SEL)c ;
+ - (id) initWithKeyCodes:(id)a modifierFlags:(long long)b buttonType:(long long)c ;
+ - (id) initWithInput:(id)a modifierFlags:(long long)b buttonType:(long long)c ;
  - (id) _controllerForSegue;
  - (id) _triggeringEvent;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) input;
  - (long long) modifierFlags;
 

@@ -6,16 +6,16 @@
     {CGSize="width"d"height"d} _textSize;
 }
 
- - (void) setText:(id)a;
- - (void) setHighlighted:(BOOL)a;
+ - (void) setText:(id)a ;
+ - (void) setHighlighted:(BOOL)a ;
  - (BOOL) isHighlighted;
  - (BOOL) isSelected;
- - (void) setSelected:(BOOL)a;
+ - (void) setSelected:(BOOL)a ;
  - (void) _sizeToFit;
- - (void) setIsSelected:(BOOL)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setIsSelected:(BOOL)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) text;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

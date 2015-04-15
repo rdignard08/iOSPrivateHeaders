@@ -7,11 +7,11 @@
  + (id) editScriptFromArray:(id)atoArray:(id)b;
 
  - (void) dealloc;
- - (id) initWithOperationPrecedence:(long long)adataClass:(Class)bfromArray:(id)ctoArray:(id)dorderAtomsAscending:(BOOL)e;
+ - (id) initWithOperationPrecedence:(long long)a dataClass:(Class)b fromArray:(id)c toArray:(id)d orderAtomsAscending:(BOOL)e ;
  - (void) finalizeCurrentScriptAtom;
- - (id) applyToArray:(id)a;
+ - (id) applyToArray:(id)a ;
  - (void) initializeCurrentScriptAtom;
- - (void) addToCurrentScriptAtomEditOperation:(long long)aeditIndex:(unsigned long long)bnewText:(id)cindexInArrayB:(unsigned long long)d;
+ - (void) addToCurrentScriptAtomEditOperation:(long long)a editIndex:(unsigned long long)b newText:(id)c indexInArrayB:(unsigned long long)d ;
 
 
 @end

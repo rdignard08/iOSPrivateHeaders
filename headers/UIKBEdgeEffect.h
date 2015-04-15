@@ -19,25 +19,25 @@
 @property (nonatomic, assign, readwrite) NSNumber* weight;
  + (id) effectWithColor:(id)aedges:(unsigned long long)binset:(double)cweight:(double)d;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (BOOL) isValid;
- - (BOOL) isEqual:(id)a;
- - (void) setInset:(double)a;
- - (void) setEdges:(unsigned long long)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setInset:(double)a ;
+ - (void) setEdges:(unsigned long long)a ;
  - (unsigned long long) edges;
  - (double) weight;
- - (id) initWithColor:(id)aedges:(unsigned long long)binset:(double)cweight:(double)d;
+ - (id) initWithColor:(id)a edges:(unsigned long long)b inset:(double)c weight:(double)d ;
  - (double) inset;
  - (BOOL) renderUnder;
  - (SEL) renderSelector;
- - (void) setWeight:(double)a;
+ - (void) setWeight:(double)a ;
  - (^{CGColor=}) CGColor;
  - (id) gradient;
- - (void) setGradient:(id)a;
+ - (void) setGradient:(id)a ;
  - (double) opacity;
- - (void) setOpacity:(double)a;
+ - (void) setOpacity:(double)a ;
 
 
 @end

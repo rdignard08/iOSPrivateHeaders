@@ -4,9 +4,9 @@
     unsigned short _length;
 }
 
- - (id) initWithBytes:(r^v)alength:(unsigned long long)b;
+ - (id) initWithBytes:(r^v)a length:(unsigned long long)b ;
  - (BOOL) _isCompact;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (r^v) bytes;
  - (unsigned long long) length;
 

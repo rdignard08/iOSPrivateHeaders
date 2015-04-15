@@ -4,8 +4,8 @@
 
 }
 
- - (id) animationControllerForPresentedController:(id)apresentingController:(id)bsourceController:(id)c;
- - (id) animationControllerForDismissedController:(id)a;
+ - (id) animationControllerForPresentedController:(id)a presentingController:(id)b sourceController:(id)c ;
+ - (id) animationControllerForDismissedController:(id)a ;
 
 
 @end

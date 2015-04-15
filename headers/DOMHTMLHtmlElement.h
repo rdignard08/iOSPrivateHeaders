@@ -3,10 +3,10 @@
 
 }
 
- - (void) setVersion:(id)a;
+ - (void) setVersion:(id)a ;
  - (id) version;
  - (id) manifest;
- - (void) setManifest:(id)a;
+ - (void) setManifest:(id)a ;
 
 
 @end

@@ -12,15 +12,15 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
- - (void) setInputColor:(id)a;
+ - (void) setInputColor:(id)a ;
  - (id) inputColor;
  - (id) inputStrength;
- - (void) setInputStrength:(id)a;
- - (void) setInputWarmth:(id)a;
+ - (void) setInputStrength:(id)a ;
+ - (void) setInputWarmth:(id)a ;
  - (id) inputWarmth;
- - (void) setInputDamping:(id)a;
+ - (void) setInputDamping:(id)a ;
  - (id) inputDamping;
 
 

@@ -17,29 +17,29 @@
 }
 
  - (void) dealloc;
- - (id) layoutAttributesForElementsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (id) layoutAttributesForItemAtIndexPath:(id)a;
+ - (id) layoutAttributesForElementsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (id) layoutAttributesForItemAtIndexPath:(id)a ;
  - ({CGSize=dd}) collectionViewContentSize;
  - (void) invalidateLayout;
- - (id) layoutAttributesForSupplementaryViewOfKind:(id)aatIndexPath:(id)b;
- - (id) layoutAttributesForDecorationViewOfKind:(id)aatIndexPath:(id)b;
+ - (id) layoutAttributesForSupplementaryViewOfKind:(id)a atIndexPath:(id)b ;
+ - (id) layoutAttributesForDecorationViewOfKind:(id)a atIndexPath:(id)b ;
  - (void) prepareLayout;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _oldVisibleBounds;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _newVisibleBounds;
- - (void) _setCollectionView:(id)a;
- - ({CGPoint=dd}) targetContentOffsetForProposedContentOffset:({CGPoint=dd})a;
- - (void) _prepareForTransitionToLayout:(id)a;
- - (void) _prepareForTransitionFromLayout:(id)a;
- - (void) setTransitionProgress:(double)a;
+ - (void) _setCollectionView:(id)a ;
+ - ({CGPoint=dd}) targetContentOffsetForProposedContentOffset:({CGPoint=dd})a ;
+ - (void) _prepareForTransitionToLayout:(id)a ;
+ - (void) _prepareForTransitionFromLayout:(id)a ;
+ - (void) setTransitionProgress:(double)a ;
  - (BOOL) _supportsAdvancedTransitionAnimations;
  - (void) _finalizeLayoutTransition;
- - (id) initWithCurrentLayout:(id)anextLayout:(id)b;
+ - (id) initWithCurrentLayout:(id)a nextLayout:(id)b ;
  - (id) currentLayout;
  - (id) nextLayout;
  - (double) transitionProgress;
- - (id) interpolatedLayoutAttributesFromLayoutAttributes:(id)atoLayoutAttributes:(id)bprogress:(double)c;
- - (void) updateValue:(double)aforAnimatedKey:(id)b;
- - (double) valueForAnimatedKey:(id)a;
+ - (id) interpolatedLayoutAttributesFromLayoutAttributes:(id)a toLayoutAttributes:(id)b progress:(double)c ;
+ - (void) updateValue:(double)a forAnimatedKey:(id)b ;
+ - (double) valueForAnimatedKey:(id)a ;
 
 
 @end

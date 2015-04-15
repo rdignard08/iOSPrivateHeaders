@@ -9,14 +9,14 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a;
+ - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a ;
  - (id) action;
  - (id) backgroundEffect;
- - (void) setBackgroundEffect:(id)a;
- - (void) setAction:(id)a;
+ - (void) setBackgroundEffect:(id)a ;
+ - (void) setAction:(id)a ;
  - (unsigned long long) style;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setStyle:(unsigned long long)a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setStyle:(unsigned long long)a ;
 
 
 @end

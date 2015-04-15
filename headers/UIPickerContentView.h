@@ -9,12 +9,12 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) setChecked:(BOOL)a;
- - (void) setHighlighted:(BOOL)a;
+ - (void) setChecked:(BOOL)a ;
+ - (void) setHighlighted:(BOOL)a ;
  - (id) titleLabel;
  - (BOOL) isHighlighted;
  - (BOOL) _isSelectable;
- - (double) labelWidthForBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (double) labelWidthForBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (BOOL) isChecked;
  - (id) checkedColor;
 

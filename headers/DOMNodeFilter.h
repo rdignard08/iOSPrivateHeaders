@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (short) acceptNode:(id)a;
+ - (short) acceptNode:(id)a ;
 
 
 @end

@@ -7,9 +7,9 @@
 
  - (void) dealloc;
  - (id) message;
- - (id) initWithReply:(id)a;
+ - (id) initWithReply:(id)a ;
  - (long long) messageKind;
- - (void) sendReply:(@?)a;
+ - (void) sendReply:(@?)a ;
 
 
 @end

@@ -7,32 +7,32 @@
 }
  + (BOOL) canEditVideoAtPath:(id)a;
 
- - (void) viewWillAppear:(BOOL)a;
+ - (void) viewWillAppear:(BOOL)a ;
  - (void) viewWillUnload;
- - (void) viewWillDisappear:(BOOL)a;
- - (void) viewDidDisappear:(BOOL)a;
- - (BOOL) _isSupportedInterfaceOrientation:(long long)a;
- - (id) _valueForProperty:(id)a;
- - (void) _setValue:(id)aforProperty:(id)b;
+ - (void) viewWillDisappear:(BOOL)a ;
+ - (void) viewDidDisappear:(BOOL)a ;
+ - (BOOL) _isSupportedInterfaceOrientation:(long long)a ;
+ - (id) _valueForProperty:(id)a ;
+ - (void) _setValue:(id)a forProperty:(id)b ;
  - (void) _initializeProperties;
  - (void) _removeAllChildren;
  - (id) _createInitialController;
  - (void) _autoDismiss;
  - (double) videoMaximumDuration;
- - (void) setVideoMaximumDuration:(double)a;
+ - (void) setVideoMaximumDuration:(double)a ;
  - (long long) videoQuality;
- - (void) setVideoQuality:(long long)a;
- - (void) _setProperties:(id)a;
+ - (void) setVideoQuality:(long long)a ;
+ - (void) _setProperties:(id)a ;
  - (id) _properties;
  - (BOOL) _didRevertStatusBar;
  - (void) _setupControllers;
- - (void) editVideoViewControllerDidCancel:(id)a;
+ - (void) editVideoViewControllerDidCancel:(id)a ;
  - (id) _videoURL;
- - (void) _setVideoURL:(id)a;
- - (void) editVideoViewController:(id)adidTrimVideoWithOptions:(id)b;
- - (void) editVideoViewController:(id)adidFailWithError:(id)b;
+ - (void) _setVideoURL:(id)a ;
+ - (void) editVideoViewController:(id)a didTrimVideoWithOptions:(id)b ;
+ - (void) editVideoViewController:(id)a didFailWithError:(id)b ;
  - (id) videoPath;
- - (void) setVideoPath:(id)a;
+ - (void) setVideoPath:(id)a ;
  - (id) init;
 
 

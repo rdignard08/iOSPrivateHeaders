@@ -12,12 +12,12 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
- - (void) setInputPoint:(id)a;
+ - (void) setInputImage:(id)a ;
+ - (void) setInputPoint:(id)a ;
  - (id) inputPoint;
- - (void) setInputRotation:(id)a;
- - (void) setInputSize:(id)a;
- - (void) setInputDecay:(id)a;
+ - (void) setInputRotation:(id)a ;
+ - (void) setInputSize:(id)a ;
+ - (void) setInputDecay:(id)a ;
  - (id) _geomKernel;
  - (id) _colorKernel;
  - (id) inputSize;

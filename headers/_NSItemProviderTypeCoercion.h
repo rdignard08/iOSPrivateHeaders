@@ -12,14 +12,14 @@
 
  - (void) dealloc;
  - (BOOL) shouldCoerceForCoding;
- - (id) coerceValueAndReturnError:(^@)a;
- - (void) setValue:(id)a;
- - (void) setTargetClass:(Class)a;
+ - (id) coerceValueAndReturnError:(^@)a ;
+ - (void) setValue:(id)a ;
+ - (void) setTargetClass:(Class)a ;
  - (id) value;
  - (Class) targetClass;
- - (id) _NSItemProviderTypeCoercion_coercedNSDataValueFromNSURLValue:(id)aerror:(^@)b;
- - (id) _NSItemProviderTypeCoercion_coercedNSFileWrapperValueFromNSURLValue:(id)aerror:(^@)b;
- - (id) _NSItemProviderTypeCoercion_coercedNSFileWrapperValueFromNSDataValue:(id)aerror:(^@)b;
+ - (id) _NSItemProviderTypeCoercion_coercedNSDataValueFromNSURLValue:(id)a error:(^@)b ;
+ - (id) _NSItemProviderTypeCoercion_coercedNSFileWrapperValueFromNSURLValue:(id)a error:(^@)b ;
+ - (id) _NSItemProviderTypeCoercion_coercedNSFileWrapperValueFromNSDataValue:(id)a error:(^@)b ;
 
 
 @end

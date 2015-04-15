@@ -4,7 +4,7 @@
 }
 
  - (BOOL) open;
- - (void) setOpen:(BOOL)a;
+ - (void) setOpen:(BOOL)a ;
 
 
 @end

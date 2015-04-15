@@ -5,7 +5,7 @@
 }
 
  - (SEL) action;
- - (void) setAction:(SEL)a;
+ - (void) setAction:(SEL)a ;
  - (void) perform;
 
 

@@ -8,7 +8,7 @@
     NSHashTable* _observables;
 }
 
- - (id) _initWithObservances:(^@)acount:(unsigned long long)b;
+ - (id) _initWithObservances:(^@)a count:(unsigned long long)b ;
  - (id) description;
  - (id) retain;
  - (Vv) release;
@@ -17,7 +17,7 @@
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
 
 
 @end

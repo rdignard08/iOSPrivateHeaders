@@ -3,7 +3,7 @@
 
 }
 
- - (void) updateImageIfNeededWithTintColor:(id)a;
+ - (void) updateImageIfNeededWithTintColor:(id)a ;
  - (void) updateImageIfNeeded;
 
 

@@ -8,7 +8,7 @@
  - (id) scopes;
  - (void) startMonitoringChanges;
  - (id) displayTitle;
- - (void) setQueryString:(id)a;
+ - (void) setQueryString:(id)a ;
  - (void) _updateObserverForQuery;
  - (id) queryString;
 

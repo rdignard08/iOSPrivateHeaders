@@ -17,32 +17,32 @@
  + (id) defaultDimmingColor;
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
- - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;
- - (BOOL) gestureRecognizer:(id)ashouldReceiveTouch:(id)b;
- - (void) setDimmingColor:(id)a;
+ - (void) setDelegate:(id)a ;
+ - (id) hitTest:({CGPoint=dd})a withEvent:(id)b ;
+ - (BOOL) gestureRecognizer:(id)a shouldReceiveTouch:(id)b ;
+ - (void) setDimmingColor:(id)a ;
  - (id) dimmingColor;
- - (void) touchesEnded:(id)awithEvent:(id)b;
- - (id) hitTest:({CGPoint=dd})aforEvent:(^{__GSEvent=})b;
+ - (void) touchesEnded:(id)a withEvent:(id)b ;
+ - (id) hitTest:({CGPoint=dd})a forEvent:(^{__GSEvent=})b ;
  - (BOOL) displayed;
- - (void) setIgnoresTouches:(BOOL)a;
- - (void) setSuppressesBackdrops:(BOOL)a;
- - (void) display:(BOOL)awithAnimationDuration:(double)bafterDelay:(double)c;
+ - (void) setIgnoresTouches:(BOOL)a ;
+ - (void) setSuppressesBackdrops:(BOOL)a ;
+ - (void) display:(BOOL)a withAnimationDuration:(double)b afterDelay:(double)c ;
  - (id) passthroughViews;
- - (void) setPassthroughViews:(id)a;
- - (void) display:(BOOL)a;
- - (void) handleSingleTap:(id)a;
+ - (void) setPassthroughViews:(id)a ;
+ - (void) display:(BOOL)a ;
+ - (void) handleSingleTap:(id)a ;
  - (BOOL) suppressesBackdrops;
  - (id) _backdropViewsToAnimate;
  - (void) dimmingRemovalAnimationDidStop;
- - (void) setHighlightedBarButtonItem:(id)a;
+ - (void) setHighlightedBarButtonItem:(id)a ;
  - (id) highlightedBarButtonItem;
  - (void) _simulateTap;
  - (BOOL) ignoresTouches;
- - (void) setDisplayed:(BOOL)a;
+ - (void) setDisplayed:(BOOL)a ;
  - (id) delegate;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) mouseUp:(^{__GSEvent=})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) mouseUp:(^{__GSEvent=})a ;
 
 
 @end

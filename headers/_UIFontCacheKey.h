@@ -20,21 +20,21 @@
  + (id) fontCacheKeyWithTextStyle:(id)acontentSizeCategory:(id)b;
  + (id) fontCacheKeyWithFontDescriptor:(id)apointSize:(double)b;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (double) pointSize;
  - (id) fontName;
  - (id) fontDescriptor;
  - (int) traits;
- - (void) setFontName:(id)a;
- - (void) setTraits:(int)a;
- - (void) setPointSize:(double)a;
- - (void) setTextStyle:(id)a;
- - (void) setContentSizeCategory:(id)a;
- - (void) setFontDescriptor:(id)a;
+ - (void) setFontName:(id)a ;
+ - (void) setTraits:(int)a ;
+ - (void) setPointSize:(double)a ;
+ - (void) setTextStyle:(id)a ;
+ - (void) setContentSizeCategory:(id)a ;
+ - (void) setFontDescriptor:(id)a ;
  - (id) textStyle;
  - (id) contentSizeCategory;
 

@@ -7,8 +7,8 @@
 @property (atomic, assign, readwrite) NSNumber* hasTitle;
 @property (atomic, assign, readwrite) NSNumber* hasMessage;
 
- - (void) setHasTitle:(BOOL)a;
- - (void) setHasMessage:(BOOL)a;
+ - (void) setHasTitle:(BOOL)a ;
+ - (void) setHasMessage:(BOOL)a ;
  - (BOOL) hasTitle;
  - (BOOL) hasMessage;
 

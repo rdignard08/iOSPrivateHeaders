@@ -10,13 +10,13 @@
 @property (nonatomic, retain, readwrite) UIImage* shadow;
 
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) settings;
- - (void) setSettings:(id)a;
+ - (void) setSettings:(id)a ;
  - (double) strength;
- - (BOOL) matchesSettings:(id)astrength:(double)b;
- - (void) setStrength:(double)a;
- - (void) setShadow:(id)a;
+ - (BOOL) matchesSettings:(id)a strength:(double)b ;
+ - (void) setStrength:(double)a ;
+ - (void) setShadow:(id)a ;
  - (id) shadow;
 
 

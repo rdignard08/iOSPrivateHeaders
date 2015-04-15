@@ -18,13 +18,13 @@
 
  - (void) dealloc;
  - (^{__CFStringTokenizer=}) tokenizer;
- - (id) transformedCollationStringForString:(id)a;
+ - (id) transformedCollationStringForString:(id)a ;
  - (id) sectionTitles;
  - (id) sectionIndexTitles;
- - (long long) sectionForSectionIndexTitleAtIndex:(long long)a;
- - (long long) sectionForObject:(id)acollationStringSelector:(SEL)b;
- - (id) sortedArrayFromArray:(id)acollationStringSelector:(SEL)b;
- - (id) initWithDictionary:(id)a;
+ - (long long) sectionForSectionIndexTitleAtIndex:(long long)a ;
+ - (long long) sectionForObject:(id)a collationStringSelector:(SEL)b ;
+ - (id) sortedArrayFromArray:(id)a collationStringSelector:(SEL)b ;
+ - (id) initWithDictionary:(id)a ;
 
 
 @end

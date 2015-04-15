@@ -39,15 +39,15 @@
 }
 
  - (void) dealloc;
- - (id) initWithTableView:(id)aupdateItems:(id)boldRowData:(id)cnewRowData:(id)doldRowRange:({_NSRange=QQ})enewRowRange:({_NSRange=QQ})fcontext:(id)g;
+ - (id) initWithTableView:(id)a updateItems:(id)b oldRowData:(id)c newRowData:(id)d oldRowRange:({_NSRange=QQ})e newRowRange:({_NSRange=QQ})f context:(id)g ;
  - (void) _setupAnimations;
- - (void) _setupInsertAnimationForHeaderInSection:(long long)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
- - (void) _setupInsertAnimationForFooterInSection:(long long)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
- - (void) _addBottomShadowViewViewForViewAnimation:(id)a;
- - (void) _setupDeleteAnimationForHeaderInSection:(long long)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
- - (void) _setupDeleteAnimationForFooterInSection:(long long)awithTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})bforUpdateItem:(id)c;
+ - (void) _setupInsertAnimationForHeaderInSection:(long long)a withTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})b forUpdateItem:(id)c ;
+ - (void) _setupInsertAnimationForFooterInSection:(long long)a withTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})b forUpdateItem:(id)c ;
+ - (void) _addBottomShadowViewViewForViewAnimation:(id)a ;
+ - (void) _setupDeleteAnimationForHeaderInSection:(long long)a withTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})b forUpdateItem:(id)c ;
+ - (void) _setupDeleteAnimationForFooterInSection:(long long)a withTargetRect:({CGRect={CGPoint=dd}{CGSize=dd}})b forUpdateItem:(id)c ;
  - (BOOL) _isReloadSectionUpdate;
- - (id) _imageViewForView:(id)a;
+ - (id) _imageViewForView:(id)a ;
  - (void) _validateAnimatedCells;
  - (void) _computeVisibleBounds;
  - (void) _faultInRealHeightsOfNeededCells;

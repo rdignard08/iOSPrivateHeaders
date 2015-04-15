@@ -7,14 +7,14 @@
 }
  + (id) customAttributes;
 
- - (void) setValue:(id)aforUndefinedKey:(id)b;
+ - (void) setValue:(id)a forUndefinedKey:(id)b ;
  - (^{CGImage=}) outputCGImage;
- - (void) setInputCorrectionLevel:(id)a;
+ - (void) setInputCorrectionLevel:(id)a ;
  - (id) inputCorrectionLevel;
- - (void) setInputLayers:(id)a;
+ - (void) setInputLayers:(id)a ;
  - (id) inputLayers;
  - (id) inputCompactStyle;
- - (void) setInputCompactStyle:(id)a;
+ - (void) setInputCompactStyle:(id)a ;
 
 
 @end

@@ -10,7 +10,7 @@
  - (BOOL) shiftKey;
  - (BOOL) altKey;
  - (BOOL) metaKey;
- - (void) initGestureEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)ddetail:(int)escreenX:(int)fscreenY:(int)gclientX:(int)hclientY:(int)ictrlKey:(BOOL)jaltKey:(BOOL)kshiftKey:(BOOL)lmetaKey:(BOOL)mtarget:(id)nscale:(float)orotation:(float)p;
+ - (void) initGestureEvent:(id)a canBubble:(BOOL)b cancelable:(BOOL)c view:(id)d detail:(int)e screenX:(int)f screenY:(int)g clientX:(int)h clientY:(int)i ctrlKey:(BOOL)j altKey:(BOOL)k shiftKey:(BOOL)l metaKey:(BOOL)m target:(id)n scale:(float)o rotation:(float)p ;
 
 
 @end

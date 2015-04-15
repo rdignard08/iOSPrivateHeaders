@@ -14,25 +14,25 @@
 }
  + (id) customAttributes;
 
- - (void) setInputExtent:(id)a;
+ - (void) setInputExtent:(id)a ;
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) inputExtent;
  - (id) inputCenter;
- - (void) setInputCenter:(id)a;
- - (void) setInputColor:(id)a;
+ - (void) setInputCenter:(id)a ;
+ - (void) setInputColor:(id)a ;
  - (id) inputColor;
  - (id) _geomKernel;
  - (id) _colorKernel;
- - (void) setInputTime:(id)a;
+ - (void) setInputTime:(id)a ;
  - (id) inputTargetImage;
- - (void) setInputTargetImage:(id)a;
- - (void) setInputMaxStriationRadius:(id)a;
- - (void) setInputStriationStrength:(id)a;
- - (void) setInputStriationContrast:(id)a;
- - (void) setInputFadeThreshold:(id)a;
+ - (void) setInputTargetImage:(id)a ;
+ - (void) setInputMaxStriationRadius:(id)a ;
+ - (void) setInputStriationStrength:(id)a ;
+ - (void) setInputStriationContrast:(id)a ;
+ - (void) setInputFadeThreshold:(id)a ;
  - (id) inputMaxStriationRadius;
  - (id) inputStriationStrength;
  - (id) inputStriationContrast;

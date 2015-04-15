@@ -5,7 +5,7 @@
 }
  + (id) sharedDelegate;
 
- - (id) archiver:(id)awillEncodeObject:(id)b;
+ - (id) archiver:(id)a willEncodeObject:(id)b ;
 
 
 @end

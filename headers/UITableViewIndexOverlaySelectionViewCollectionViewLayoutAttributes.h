@@ -5,7 +5,7 @@
 }
 
  - (double) rightMargin;
- - (void) setRightMargin:(double)a;
+ - (void) setRightMargin:(double)a ;
 
 
 @end

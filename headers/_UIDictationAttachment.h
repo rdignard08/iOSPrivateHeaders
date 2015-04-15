@@ -7,9 +7,9 @@
 
  - (void) dealloc;
  - ({_NSRange=QQ}) attachmentRange;
- - (void) setAttachmentRange:({_NSRange=QQ})a;
+ - (void) setAttachmentRange:({_NSRange=QQ})a ;
  - (id) typingAttributesBeforeInsertion;
- - (void) setTypingAttributesBeforeInsertion:(id)a;
+ - (void) setTypingAttributesBeforeInsertion:(id)a ;
 
 
 @end

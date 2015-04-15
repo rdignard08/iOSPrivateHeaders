@@ -7,7 +7,7 @@
  + (id) XPCInterface;
 
  - (id) invalidate;
- - (void) __prepareForDisconnectionWithCompletionHandler:(@?)a;
+ - (void) __prepareForDisconnectionWithCompletionHandler:(@?)a ;
 
 
 @end

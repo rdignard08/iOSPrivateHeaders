@@ -12,13 +12,13 @@
  + (id) settingsControllerModule;
 
  - (void) setDefaultValues;
- - (void) setLongPressPermittedHorizontalMovement:(double)a;
- - (void) setLongPressPermittedVerticalMovement:(double)a;
- - (void) setLongPressFlatPermittedHorizontalMovement:(double)a;
- - (void) setLongPressFlatPermittedVerticalMovement:(double)a;
- - (void) setLongPressTipPermittedHorizontalMovement:(double)a;
- - (void) setLongPressTipPermittedVerticalMovement:(double)a;
- - (void) setLongPressRequiredDuration:(double)a;
+ - (void) setLongPressPermittedHorizontalMovement:(double)a ;
+ - (void) setLongPressPermittedVerticalMovement:(double)a ;
+ - (void) setLongPressFlatPermittedHorizontalMovement:(double)a ;
+ - (void) setLongPressFlatPermittedVerticalMovement:(double)a ;
+ - (void) setLongPressTipPermittedHorizontalMovement:(double)a ;
+ - (void) setLongPressTipPermittedVerticalMovement:(double)a ;
+ - (void) setLongPressRequiredDuration:(double)a ;
  - (double) longPressFlatPermittedHorizontalMovement;
  - (double) longPressFlatPermittedVerticalMovement;
  - (double) longPressTipPermittedHorizontalMovement;

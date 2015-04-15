@@ -15,13 +15,13 @@
 
  - (void) dealloc;
  - (BOOL) shouldAcceptTopCandidate;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithAutocorrection:(id)apredictions:(id)b;
- - (id) initWithCandidates:(id)ashouldAcceptTopCandidate:(BOOL)b;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithAutocorrection:(id)a predictions:(id)b ;
+ - (id) initWithCandidates:(id)a shouldAcceptTopCandidate:(BOOL)b ;
  - (id) autocorrection;
  - (id) predictions;
- - (id) initWithCandidates:(id)a;
+ - (id) initWithCandidates:(id)a ;
  - (id) candidates;
 
 

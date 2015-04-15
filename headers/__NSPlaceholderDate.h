@@ -10,7 +10,7 @@
  - (unsigned long long) retainCount;
  - (void) dealloc;
  - (double) timeIntervalSinceReferenceDate;
- - (id) initWithTimeIntervalSinceReferenceDate:(double)a;
+ - (id) initWithTimeIntervalSinceReferenceDate:(double)a ;
  - (id) init;
 
 

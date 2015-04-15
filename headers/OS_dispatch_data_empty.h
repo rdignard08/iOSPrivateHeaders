@@ -9,10 +9,10 @@
  - (Vv) release;
  - (id) autorelease;
  - (unsigned long long) retainCount;
- - (void) _setContext:(^v)a;
+ - (void) _setContext:(^v)a ;
  - (^v) _getContext;
- - (void) _setFinalizer:(^?)a;
- - (void) _setTargetQueue:(id)a;
+ - (void) _setFinalizer:(^?)a ;
+ - (void) _setTargetQueue:(id)a ;
 
 
 @end

@@ -5,9 +5,9 @@
 }
  + (Class) classForCategoryControl;
 
- - (id) initWithCategoryControl:(id)a;
- - (void) setCurrentCategory:(int)a;
- - (long long) sectionWithOffsetPercentage:(double)a;
+ - (id) initWithCategoryControl:(id)a ;
+ - (void) setCurrentCategory:(int)a ;
+ - (long long) sectionWithOffsetPercentage:(double)a ;
 
 
 @end

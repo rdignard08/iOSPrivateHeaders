@@ -7,18 +7,18 @@
 }
 
  - (id) title;
- - (void) setTitle:(id)a;
+ - (void) setTitle:(id)a ;
  - (id) symbol;
  - (void) dealloc;
- - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
- - (void) setPressIndicatorHidden:(BOOL)a;
- - (void) setTitleText:(id)a;
- - (void) setSelectedCircleBlendMode:(BOOL)a;
+ - (id) initWithStyle:(long long)a reuseIdentifier:(id)b ;
+ - (void) setPressIndicatorHidden:(BOOL)a ;
+ - (void) setTitleText:(id)a ;
+ - (void) setSelectedCircleBlendMode:(BOOL)a ;
  - (id) titleFont;
  - (id) symbolFont;
- - (void) setSymbol:(id)a;
+ - (void) setSymbol:(id)a ;
  - (id) selectedCircle;
- - (void) setSelectedCircle:(id)a;
+ - (void) setSelectedCircle:(id)a ;
 
 
 @end

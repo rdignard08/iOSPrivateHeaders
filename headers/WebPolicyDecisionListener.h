@@ -12,8 +12,8 @@
  - (void) _invalidate;
  - (void) use;
  - (void) ignore;
- - (id) _initWithTarget:(id)aaction:(SEL)b;
- - (void) _usePolicy:(int)a;
+ - (id) _initWithTarget:(id)a action:(SEL)b ;
+ - (void) _usePolicy:(int)a ;
 
 
 @end

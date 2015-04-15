@@ -21,27 +21,27 @@
 @property (atomic, assign, readwrite) NSNumber* appObserverSelector;
 
  - (id) timer;
- - (void) setTimer:(id)a;
+ - (void) setTimer:(id)a ;
  - (id) applications;
  - (void) stopTimer;
- - (void) addApplication:(id)a;
+ - (void) addApplication:(id)a ;
  - (id) lastFiredDate;
  - (double) minInterval;
  - (double) latency;
- - (void) setLastFiredDate:(id)a;
+ - (void) setLastFiredDate:(id)a ;
  - (SEL) appObserverSelector;
- - (id) initWithAppSelector:(SEL)aqueue:(id)b;
- - (void) removeApplication:(id)a;
- - (void) notifyObservers:(id)awithApplication:(id)b;
- - (void) setApplications:(id)a;
- - (void) setPlugins:(id)a;
- - (void) setAppObserverSelector:(SEL)a;
+ - (id) initWithAppSelector:(SEL)a queue:(id)b ;
+ - (void) removeApplication:(id)a ;
+ - (void) notifyObservers:(id)a withApplication:(id)b ;
+ - (void) setApplications:(id)a ;
+ - (void) setPlugins:(id)a ;
+ - (void) setAppObserverSelector:(SEL)a ;
  - (void) clear;
  - (id) description;
  - (void) dealloc;
  - (id) name;
- - (void) sendMessage:(id)a;
- - (void) setName:(id)a;
+ - (void) sendMessage:(id)a ;
+ - (void) setName:(id)a ;
  - (id) plugins;
 
 

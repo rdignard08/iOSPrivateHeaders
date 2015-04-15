@@ -15,13 +15,13 @@
  - (void) _associate;
  - (void) _dissociate;
  - (double) _frequency;
- - (id) initWithItem:(id)asnapToPoint:({CGPoint=dd})b;
+ - (id) initWithItem:(id)a snapToPoint:({CGPoint=dd})b ;
  - (double) _distance;
- - (void) _setDistance:(double)a;
- - (void) _setFrequency:(double)a;
+ - (void) _setDistance:(double)a ;
+ - (void) _setFrequency:(double)a ;
  - (id) init;
  - (double) damping;
- - (void) setDamping:(double)a;
+ - (void) setDamping:(double)a ;
 
 
 @end

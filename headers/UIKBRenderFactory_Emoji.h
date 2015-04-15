@@ -3,7 +3,7 @@
 
 }
 
- - (id) backgroundTraitsForKeyplane:(id)a;
+ - (id) backgroundTraitsForKeyplane:(id)a ;
  - (id) defaultKeyBackgroundColorName;
  - (id) controlKeyBackgroundColorName;
  - (id) _emojiDefaultControlKeyActiveBackgroundColorGradient;

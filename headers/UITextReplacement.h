@@ -18,7 +18,7 @@
  - (id) replacementText;
  - (id) originalText;
  - (unsigned int) usageTrackingMask;
- - (void) setUsageTrackingMask:(unsigned int)a;
+ - (void) setUsageTrackingMask:(unsigned int)a ;
  - (id) menuTitle;
  - (id) range;
 

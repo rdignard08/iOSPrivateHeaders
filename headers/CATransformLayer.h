@@ -4,7 +4,7 @@
 }
 
  - (id) init;
- - (id) initWithLayer:(id)a;
+ - (id) initWithLayer:(id)a ;
 
 
 @end

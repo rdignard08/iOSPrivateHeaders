@@ -9,11 +9,11 @@
 
  - (id) description;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (BOOL) describes:(id)a;
- - (id) _initWithPage:(unsigned int)ausage:(unsigned int)beventType:(unsigned int)c;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (BOOL) describes:(id)a ;
+ - (id) _initWithPage:(unsigned int)a usage:(unsigned int)b eventType:(unsigned int)c ;
  - (unsigned int) page;
  - (unsigned int) usage;
 

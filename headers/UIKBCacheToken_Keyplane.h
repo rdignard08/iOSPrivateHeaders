@@ -9,8 +9,8 @@
  + (id) tokenForKeyplane:(id)a;
 
  - (void) dealloc;
- - (id) stringForSplitState:(BOOL)a;
- - (id) _initWithKeyplane:(id)akeylayout:(id)b;
+ - (id) stringForSplitState:(BOOL)a ;
+ - (id) _initWithKeyplane:(id)a keylayout:(id)b ;
 
 
 @end

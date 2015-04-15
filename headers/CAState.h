@@ -21,34 +21,34 @@
 @property (atomic, assign, readwrite, getter=isInitial) NSNumber* initial;
  + (void) CAMLParserStartElement:(id)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (id) name;
  - (BOOL) isLocked;
- - (void) setLocked:(BOOL)a;
+ - (void) setLocked:(BOOL)a ;
  - (id) debugDescription;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) setName:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) setName:(id)a ;
  - (id) basedOn;
- - (void) foreachLayer:(@?)a;
- - (void) setElements:(id)a;
+ - (void) foreachLayer:(@?)a ;
+ - (void) setElements:(id)a ;
  - (id) elements;
- - (void) addElement:(id)a;
- - (void) removeElement:(id)a;
- - (void) CAMLParser:(id)asetValue:(id)bforKey:(id)c;
- - (void) encodeWithCAMLWriter:(id)a;
- - (id) CAMLTypeForKey:(id)a;
- - (void) setBasedOn:(id)a;
+ - (void) addElement:(id)a ;
+ - (void) removeElement:(id)a ;
+ - (void) CAMLParser:(id)a setValue:(id)b forKey:(id)c ;
+ - (void) encodeWithCAMLWriter:(id)a ;
+ - (id) CAMLTypeForKey:(id)a ;
+ - (void) setBasedOn:(id)a ;
  - (double) nextDelay;
- - (void) setNextDelay:(double)a;
+ - (void) setNextDelay:(double)a ;
  - (double) previousDelay;
- - (void) setPreviousDelay:(double)a;
+ - (void) setPreviousDelay:(double)a ;
  - (BOOL) isInitial;
- - (void) setInitial:(BOOL)a;
+ - (void) setInitial:(BOOL)a ;
  - (BOOL) isEnabled;
- - (void) setEnabled:(BOOL)a;
+ - (void) setEnabled:(BOOL)a ;
 
 
 @end

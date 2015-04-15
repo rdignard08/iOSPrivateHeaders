@@ -5,7 +5,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithSlotId:(unsigned int)a;
+ - (id) initWithSlotId:(unsigned int)a ;
 
 
 @end

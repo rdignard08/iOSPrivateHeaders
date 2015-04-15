@@ -21,20 +21,20 @@
  + (id) gradientWithStartColor:(id)aendColor:(id)b;
  + (id) gradientWithName:(id)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
- - (id) initWithName:(id)a;
- - (void) setHorizontal:(BOOL)a;
+ - (BOOL) isEqual:(id)a ;
+ - (id) initWithName:(id)a ;
+ - (void) setHorizontal:(BOOL)a ;
  - (BOOL) horizontal;
  - (^{CGGradient=}) CGGradient;
- - (id) initWithFlatColor:(id)a;
- - (id) initWithStartColor:(id)aendColor:(id)b;
- - (id) initWith3Colors:(id)amiddleLocation:(double)b;
+ - (id) initWithFlatColor:(id)a ;
+ - (id) initWithStartColor:(id)a endColor:(id)b ;
+ - (id) initWith3Colors:(id)a middleLocation:(double)b ;
  - (BOOL) usesRGBColors;
  - (double) opacity;
- - (void) setOpacity:(double)a;
+ - (void) setOpacity:(double)a ;
 
 
 @end

@@ -6,16 +6,16 @@
 }
 
  - (id) predicateFormat;
- - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
- - (id) _expressionWithSubstitutionVariables:(id)a;
- - (id) initWithType:(unsigned long long)ablock:(@?)barguments:(id)c;
+ - (void) acceptVisitor:(id)a flags:(unsigned long long)b ;
+ - (id) _expressionWithSubstitutionVariables:(id)a ;
+ - (id) initWithType:(unsigned long long)a block:(@?)b arguments:(id)c ;
  - (@?) expressionBlock;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) arguments;
- - (id) expressionValueWithObject:(id)acontext:(id)b;
+ - (id) expressionValueWithObject:(id)a context:(id)b ;
 
 
 @end

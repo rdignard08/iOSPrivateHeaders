@@ -10,13 +10,13 @@
  - (void) dealloc;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
  - (id) gradientImage;
- - (void) setInputGradientImage:(id)a;
+ - (void) setInputGradientImage:(id)a ;
  - (id) inputGradientImage;
  - (id) cachedGradientImage;
- - (void) setCachedGradientImage:(id)a;
+ - (void) setCachedGradientImage:(id)a ;
 
 
 @end

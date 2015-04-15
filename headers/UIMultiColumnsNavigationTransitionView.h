@@ -21,24 +21,24 @@
  + (double) defaultDurationForTransition:(long long)a;
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (BOOL) isTransitioning;
- - (BOOL) _isTransitioningFromView:(id)a;
+ - (BOOL) _isTransitioningFromView:(id)a ;
  - (void) _navigationTransitionDidStop;
- - (BOOL) transition:(long long)afromViews:(id)btoViews:(id)c;
- - (id) _dividerViewForView:(id)a;
- - (void) _removeDividerViewForView:(id)a;
- - (BOOL) transition:(long long)atoViews:(id)b;
- - (id) _containerViewForView:(id)a;
- - (void) _removeContainerViewForView:(id)a;
+ - (BOOL) transition:(long long)a fromViews:(id)b toViews:(id)c ;
+ - (id) _dividerViewForView:(id)a ;
+ - (void) _removeDividerViewForView:(id)a ;
+ - (BOOL) transition:(long long)a toViews:(id)b ;
+ - (id) _containerViewForView:(id)a ;
+ - (void) _removeContainerViewForView:(id)a ;
  - (double) columnWidth;
- - (void) setColumnWidth:(double)a;
+ - (void) setColumnWidth:(double)a ;
  - (int) columnCount;
- - (void) setColumnCount:(int)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setColumnCount:(int)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) delegate;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -8,8 +8,8 @@
  + (id) proxyDecodingAnimationsForTarget:(id)a;
 
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
- - (void) __animateNextInvocationOfSelector:(id)awithAnimationAttributes:(id)b;
+ - (void) forwardInvocation:(id)a ;
+ - (void) __animateNextInvocationOfSelector:(id)a withAnimationAttributes:(id)b ;
 
 
 @end

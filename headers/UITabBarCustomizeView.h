@@ -20,23 +20,23 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) touchesBegan:(id)awithEvent:(id)b;
- - (void) touchesMoved:(id)awithEvent:(id)b;
- - (void) touchesEnded:(id)awithEvent:(id)b;
- - (void) touchesCancelled:(id)awithEvent:(id)b;
+ - (void) touchesBegan:(id)a withEvent:(id)b ;
+ - (void) touchesMoved:(id)a withEvent:(id)b ;
+ - (void) touchesEnded:(id)a withEvent:(id)b ;
+ - (void) touchesCancelled:(id)a withEvent:(id)b ;
  - (long long) _barMetrics;
  - (void) updateProxiesSelection;
- - (void) setAvailableItems:(id)a;
- - (void) tintTabBarItemsForEdit:(BOOL)a;
- - (void) adjustDragImageWithTouches:(id)awithEvent:(id)b;
- - (id) itemInTabBarWithTouches:(id)awithEvent:(id)b;
- - (void) tabBarTouchesEnded:(id)awithEvent:(id)b;
- - (void) setTabBar:(id)acurrentItems:(id)bavailableItems:(id)c;
- - (void) tabBarTouchesBegan:(id)awithEvent:(id)b;
- - (void) tabBarTouchesMoved:(id)awithEvent:(id)b;
- - (void) tabBarTouchesCancelled:(id)awithEvent:(id)b;
+ - (void) setAvailableItems:(id)a ;
+ - (void) tintTabBarItemsForEdit:(BOOL)a ;
+ - (void) adjustDragImageWithTouches:(id)a withEvent:(id)b ;
+ - (id) itemInTabBarWithTouches:(id)a withEvent:(id)b ;
+ - (void) tabBarTouchesEnded:(id)a withEvent:(id)b ;
+ - (void) setTabBar:(id)a currentItems:(id)b availableItems:(id)c ;
+ - (void) tabBarTouchesBegan:(id)a withEvent:(id)b ;
+ - (void) tabBarTouchesMoved:(id)a withEvent:(id)b ;
+ - (void) tabBarTouchesCancelled:(id)a withEvent:(id)b ;
  - (id) availableItems;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

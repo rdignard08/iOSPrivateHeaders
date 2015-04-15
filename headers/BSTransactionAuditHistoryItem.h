@@ -10,7 +10,7 @@
 
  - (id) description;
  - (void) dealloc;
- - (id) initWithDescription:(id)a;
+ - (id) initWithDescription:(id)a ;
  - (id) _timeFormatter;
 
 

@@ -4,7 +4,7 @@
     id _attr;
 }
 
- - (id) valueForKey:(id)a;
+ - (id) valueForKey:(id)a ;
 
 
 @end

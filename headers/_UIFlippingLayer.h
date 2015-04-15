@@ -3,7 +3,7 @@
 
 }
 
- - (void) setOpaque:(BOOL)a;
+ - (void) setOpaque:(BOOL)a ;
 
 
 @end

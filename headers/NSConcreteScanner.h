@@ -10,19 +10,19 @@
 }
 
  - (unsigned long long) scanLocation;
- - (void) setScanLocation:(unsigned long long)a;
- - (void) setCharactersToBeSkipped:(id)a;
- - (BOOL) scanInt:(^i)a;
+ - (void) setScanLocation:(unsigned long long)a ;
+ - (void) setCharactersToBeSkipped:(id)a ;
+ - (BOOL) scanInt:(^i)a ;
  - (id) charactersToBeSkipped;
  - (BOOL) caseSensitive;
- - (void) setCaseSensitive:(BOOL)a;
- - (BOOL) scanLongLong:(^q)a;
+ - (void) setCaseSensitive:(BOOL)a ;
+ - (BOOL) scanLongLong:(^q)a ;
  - (id) _invertedSkipSet;
  - (void) dealloc;
  - (void) finalize;
  - (id) string;
- - (id) initWithString:(id)a;
- - (void) setLocale:(id)a;
+ - (id) initWithString:(id)a ;
+ - (void) setLocale:(id)a ;
  - (id) locale;
 
 

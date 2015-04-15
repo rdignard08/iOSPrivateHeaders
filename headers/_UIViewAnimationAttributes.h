@@ -16,8 +16,8 @@
  - (double) _delay;
  - (long long) _curve;
  - (long long) curve;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

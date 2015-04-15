@@ -18,23 +18,23 @@
  - (void) stop;
  - (id) description;
  - (void) dealloc;
- - (void) runWithCompletion:(@?)a;
- - (BOOL) _animateForInterval:(double)a;
+ - (void) runWithCompletion:(@?)a ;
+ - (BOOL) _animateForInterval:(double)a ;
  - (void) _stopAnimation;
  - (BOOL) _usesNSTimer;
- - (void) runWithCompletion:(@?)aforScreen:(id)brunLoopMode:(id)c;
- - (void) _appendSubclassDescription:(id)aatLevel:(int)b;
- - (void) _callAppliers:(@?)aadditionalEndAppliers:(@?)bdone:(BOOL)c;
- - (void) _cancelWithAppliers:(@?)a;
+ - (void) runWithCompletion:(@?)a forScreen:(id)b runLoopMode:(id)c ;
+ - (void) _appendSubclassDescription:(id)a atLevel:(int)b ;
+ - (void) _callAppliers:(@?)a additionalEndAppliers:(@?)b done:(BOOL)c ;
+ - (void) _cancelWithAppliers:(@?)a ;
  - (BOOL) _shouldYield;
- - (void) _setShouldYield:(BOOL)a;
- - (void) _setUsesNSTimer:(BOOL)a;
+ - (void) _setShouldYield:(BOOL)a ;
+ - (void) _setUsesNSTimer:(BOOL)a ;
  - (BOOL) _isGrouped;
- - (void) _setGrouped:(BOOL)a;
+ - (void) _setGrouped:(BOOL)a ;
  - (BOOL) _isRunning;
  - (id) init;
  - (int) state;
- - (void) _appendDescriptionToString:(id)aatLevel:(int)b;
+ - (void) _appendDescriptionToString:(id)a atLevel:(int)b ;
 
 
 @end

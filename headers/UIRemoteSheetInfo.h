@@ -17,16 +17,16 @@
 
  - (SEL) selector;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
- - (void) setSheetView:(id)a;
- - (void) setRemoteView:(id)a;
+ - (void) setDelegate:(id)a ;
+ - (void) setSheetView:(id)a ;
+ - (void) setRemoteView:(id)a ;
  - (id) sheetView;
- - (void) setReturnCode:(long long)a;
+ - (void) setReturnCode:(long long)a ;
  - (id) remoteView;
  - (long long) returnCode;
  - (id) delegate;
- - (void) setSelector:(SEL)a;
- - (void) setContext:(^v)a;
+ - (void) setSelector:(SEL)a ;
+ - (void) setContext:(^v)a ;
  - (^v) context;
 
 

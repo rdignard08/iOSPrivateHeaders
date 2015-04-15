@@ -12,7 +12,7 @@
  - (BOOL) invalidIteratorState;
  - (unsigned int) snapshotLength;
  - (id) iterateNext;
- - (id) snapshotItem:(unsigned int)a;
+ - (id) snapshotItem:(unsigned int)a ;
  - (unsigned short) resultType;
 
 

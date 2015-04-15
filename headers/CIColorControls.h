@@ -11,10 +11,10 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
- - (void) setInputSaturation:(id)a;
- - (void) setInputContrast:(id)a;
- - (void) setInputBrightness:(id)a;
+ - (void) setInputImage:(id)a ;
+ - (void) setInputSaturation:(id)a ;
+ - (void) setInputContrast:(id)a ;
+ - (void) setInputBrightness:(id)a ;
  - (id) inputSaturation;
  - (id) inputBrightness;
  - (id) inputContrast;

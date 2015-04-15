@@ -3,8 +3,8 @@
 
 }
 
- - (BOOL) isKindOfClass:(Class)a;
- - (void) _onqueue_didReceiveResponse:(id)acompletion:(@?)b;
+ - (BOOL) isKindOfClass:(Class)a ;
+ - (void) _onqueue_didReceiveResponse:(id)a completion:(@?)b ;
 
 
 @end

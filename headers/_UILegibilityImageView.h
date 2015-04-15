@@ -3,8 +3,8 @@
 
 }
 
- - (BOOL) _shouldAnimatePropertyWithKey:(id)a;
- - (void) setImage:(id)a;
+ - (BOOL) _shouldAnimatePropertyWithKey:(id)a ;
+ - (void) setImage:(id)a ;
 
 
 @end

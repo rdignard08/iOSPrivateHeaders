@@ -24,15 +24,15 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (void) deleteBackward;
- - (void) insertTextAfterSelection:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) setAcceptedCandidate:(id)a;
+ - (void) insertTextAfterSelection:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) setAcceptedCandidate:(id)a ;
  - (id) acceptedCandidate;
- - (void) setInsertionText:(id)a;
- - (void) setDeletionCount:(unsigned long long)a;
+ - (void) setInsertionText:(id)a ;
+ - (void) setDeletionCount:(unsigned long long)a ;
  - (id) textToCommit;
  - (unsigned long long) deletionCount;
  - (id) insertionText;
@@ -40,15 +40,15 @@
  - (id) insertionTextAfterSelection;
  - (id) shortcutConversion;
  - (id) handwritingStrokesToDelete;
- - (void) deleteBackward:(unsigned long long)a;
- - (void) setInsertionTextAfterSelection:(id)a;
- - (void) deleteForward:(unsigned long long)a;
+ - (void) deleteBackward:(unsigned long long)a ;
+ - (void) setInsertionTextAfterSelection:(id)a ;
+ - (void) deleteForward:(unsigned long long)a ;
  - (void) deleteForward;
- - (void) setTextToCommit:(id)a;
- - (void) setForwardDeletionCount:(unsigned long long)a;
- - (void) setShortcutConversion:(id)a;
- - (void) setHandwritingStrokesToDelete:(id)a;
- - (void) insertText:(id)a;
+ - (void) setTextToCommit:(id)a ;
+ - (void) setForwardDeletionCount:(unsigned long long)a ;
+ - (void) setShortcutConversion:(id)a ;
+ - (void) setHandwritingStrokesToDelete:(id)a ;
+ - (void) insertText:(id)a ;
 
 
 @end

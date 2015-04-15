@@ -12,12 +12,12 @@
  - (id) keyPath;
  - (void) dealloc;
  - (id) object;
- - (void) applyRecordsMatchingTraitCollection:(id)a;
- - (id) initWithObject:(id)akeyPath:(id)b;
+ - (void) applyRecordsMatchingTraitCollection:(id)a ;
+ - (id) initWithObject:(id)a keyPath:(id)b ;
  - (id) records;
- - (void) addRecord:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) addRecord:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

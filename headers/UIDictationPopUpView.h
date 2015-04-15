@@ -6,7 +6,7 @@
  - (void) layoutSubviews;
  - (void) returnToKeyboard;
  - (BOOL) drawsOwnBackground;
- - (void) setState:(int)a;
+ - (void) setState:(int)a ;
 
 
 @end

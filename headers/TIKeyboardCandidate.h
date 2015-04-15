@@ -21,20 +21,20 @@
  + (BOOL) supportsSecureCoding;
  + (int) type;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) setAlternativeText:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setAlternativeText:(id)a ;
  - (BOOL) isCompletionCandidate;
  - (BOOL) isFullwidthCandidate;
  - (unsigned int) usageTrackingMask;
  - (BOOL) isAutocorrection;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) candidate;
- - (id) initWithCandidateResultSetCoder:(id)a;
- - (void) encodeWithCandidateResultSetCoder:(id)a;
+ - (id) initWithCandidateResultSetCoder:(id)a ;
+ - (void) encodeWithCandidateResultSetCoder:(id)a ;
  - (unsigned long long) deleteCount;
  - (id) label;
  - (id) alternativeText;

@@ -27,13 +27,13 @@
  - (id) bodyB;
  - ({CGVector=dd}) contactNormal;
  - (double) collisionImpulse;
- - (void) setDidBegin:(BOOL)a;
- - (void) setDidEnd:(BOOL)a;
- - (void) setContactPoint:({CGPoint=dd})a;
- - (void) setContactNormal:({CGVector=dd})a;
- - (void) setBodyA:(id)a;
- - (void) setBodyB:(id)a;
- - (void) setCollisionImpulse:(double)a;
+ - (void) setDidBegin:(BOOL)a ;
+ - (void) setDidEnd:(BOOL)a ;
+ - (void) setContactPoint:({CGPoint=dd})a ;
+ - (void) setContactNormal:({CGVector=dd})a ;
+ - (void) setBodyA:(id)a ;
+ - (void) setBodyB:(id)a ;
+ - (void) setCollisionImpulse:(double)a ;
 
 
 @end

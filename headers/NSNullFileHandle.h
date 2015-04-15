@@ -5,19 +5,19 @@
 
  - (id) availableData;
  - (id) readDataToEndOfFile;
- - (id) readDataOfLength:(unsigned long long)a;
+ - (id) readDataOfLength:(unsigned long long)a ;
  - (unsigned long long) offsetInFile;
  - (unsigned long long) seekToEndOfFile;
- - (void) truncateFileAtOffset:(unsigned long long)a;
+ - (void) truncateFileAtOffset:(unsigned long long)a ;
  - (void) synchronizeFile;
  - (@?) writeabilityHandler;
- - (void) setWriteabilityHandler:(@?)a;
+ - (void) setWriteabilityHandler:(@?)a ;
  - (@?) readabilityHandler;
- - (void) setReadabilityHandler:(@?)a;
+ - (void) setReadabilityHandler:(@?)a ;
  - (int) fileDescriptor;
  - (void) closeFile;
- - (void) seekToFileOffset:(unsigned long long)a;
- - (void) writeData:(id)a;
+ - (void) seekToFileOffset:(unsigned long long)a ;
+ - (void) writeData:(id)a ;
 
 
 @end

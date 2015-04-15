@@ -5,7 +5,7 @@
     unsigned long long _index;
 }
 
- - (id) initWithIndexSet:(id)a;
+ - (id) initWithIndexSet:(id)a ;
  - (void) dealloc;
  - (id) nextObject;
 

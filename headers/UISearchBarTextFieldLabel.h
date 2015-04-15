@@ -6,8 +6,8 @@
  + (id) _defaultAttributes;
 
  - (BOOL) ignoresGeometryChanges;
- - (void) setIgnoresGeometryChanges:(BOOL)a;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setIgnoresGeometryChanges:(BOOL)a ;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

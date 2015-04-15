@@ -8,11 +8,11 @@
 
  - (void) dealloc;
  - (id) wrappedView;
- - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
- - (void) setWrappedView:(id)a;
- - (void) resizeSubviewsWithOldSize:({CGSize=dd})a;
+ - (id) initWithStyle:(long long)a reuseIdentifier:(id)b ;
+ - (void) setWrappedView:(id)a ;
+ - (void) resizeSubviewsWithOldSize:({CGSize=dd})a ;
  - (void) prepareForReuse;
- - (void) _setIsCenterCell:(BOOL)ashouldModifyAlphaOfView:(BOOL)b;
+ - (void) _setIsCenterCell:(BOOL)a shouldModifyAlphaOfView:(BOOL)b ;
  - (void) _updateWrappedViewFrame;
  - (void) _updateWrappedView;
  - (id) _anyDateLabel;

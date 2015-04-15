@@ -6,26 +6,26 @@
     (?="d"{?="data"@"NSData""dataBytes"*}"s"{?="storage"^{__CFStorage}}) contents;
 }
 
- - (void) _checkForInvalidMutationWithSelector:(SEL)a;
+ - (void) _checkForInvalidMutationWithSelector:(SEL)a ;
  - (BOOL) _isCString;
- - (BOOL) _getData:(^@)aencoding:(^Q)b;
- - (BOOL) _setData:(id)aencoding:(unsigned long long)b;
- - (BOOL) _copyStorage:(^^{__CFStorage})aencoding:(^Q)b;
- - (BOOL) _setStorage:(^{__CFStorage=})aencoding:(unsigned long long)b;
- - (id) initWithStorage:(^{__CFStorage=})alength:(unsigned long long)bisUnicode:(BOOL)c;
+ - (BOOL) _getData:(^@)a encoding:(^Q)b ;
+ - (BOOL) _setData:(id)a encoding:(unsigned long long)b ;
+ - (BOOL) _copyStorage:(^^{__CFStorage})a encoding:(^Q)b ;
+ - (BOOL) _setStorage:(^{__CFStorage=})a encoding:(unsigned long long)b ;
+ - (id) initWithStorage:(^{__CFStorage=})a length:(unsigned long long)b isUnicode:(BOOL)c ;
  - (void) _markAsImmutable;
- - (id) _newSmallImmutableSubstringWithRange:({_NSRange=QQ})azone:(^{_NSZone=})b;
- - (id) _newBigSubstringWithRange:({_NSRange=QQ})awantsMutable:(BOOL)bzone:(^{_NSZone=})c;
+ - (id) _newSmallImmutableSubstringWithRange:({_NSRange=QQ})a zone:(^{_NSZone=})b ;
+ - (id) _newBigSubstringWithRange:({_NSRange=QQ})a wantsMutable:(BOOL)b zone:(^{_NSZone=})c ;
  - (BOOL) _isMarkedAsImmutable;
- - (id) _newSubstringWithRange:({_NSRange=QQ})azone:(^{_NSZone=})b;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) _newSubstringWithRange:({_NSRange=QQ})a zone:(^{_NSZone=})b ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (void) replaceCharactersInRange:({_NSRange=QQ})awithString:(id)b;
- - (unsigned short) characterAtIndex:(unsigned long long)a;
- - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
- - (id) _createSubstringWithRange:({_NSRange=QQ})a;
- - (id) initWithString:(id)a;
+ - (void) replaceCharactersInRange:({_NSRange=QQ})a withString:(id)b ;
+ - (unsigned short) characterAtIndex:(unsigned long long)a ;
+ - (void) getCharacters:(^S)a range:({_NSRange=QQ})b ;
+ - (id) _createSubstringWithRange:({_NSRange=QQ})a ;
+ - (id) initWithString:(id)a ;
  - (unsigned long long) length;
 
 

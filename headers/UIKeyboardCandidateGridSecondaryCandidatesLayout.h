@@ -6,13 +6,13 @@
 }
  + (Class) layoutAttributesClass;
 
- - (id) layoutAttributesForElementsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (id) layoutAttributesForItemAtIndexPath:(id)a;
- - (void) setVisualStyling:({?=b6b1b1b8b16})a;
+ - (id) layoutAttributesForElementsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (id) layoutAttributesForItemAtIndexPath:(id)a ;
+ - (void) setVisualStyling:({?=b6b1b1b8b16})a ;
  - ({?=b6b1b1b8b16}) visualStyling;
- - (void) setCandidatesVisualStyle:(int)a;
+ - (void) setCandidatesVisualStyle:(int)a ;
  - (int) candidatesVisualStyle;
- - (void) updateAttributes:(id)a;
+ - (void) updateAttributes:(id)a ;
 
 
 @end

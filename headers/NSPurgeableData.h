@@ -8,7 +8,7 @@
     ^v _reserved;
 }
 
- - (id) initWithBytes:(^v)alength:(unsigned long long)bcopy:(BOOL)cdeallocator:(@?)d;
+ - (id) initWithBytes:(^v)a length:(unsigned long long)b copy:(BOOL)c deallocator:(@?)d ;
  - (void) _destroyMemory;
  - (BOOL) beginContentAccess;
  - (void) endContentAccess;
@@ -17,8 +17,8 @@
  - (void) finalize;
  - (r^v) bytes;
  - (^v) mutableBytes;
- - (void) setLength:(unsigned long long)a;
- - (id) initWithCapacity:(unsigned long long)a;
+ - (void) setLength:(unsigned long long)a ;
+ - (id) initWithCapacity:(unsigned long long)a ;
  - (void) discardContentIfPossible;
  - (BOOL) isContentDiscarded;
  - (unsigned long long) length;

@@ -10,20 +10,20 @@
  + (id) credentialWithUser:(id)apassword:(id)bpersistence:(unsigned long long)c;
  + (id) credentialWithIdentity:(^{__SecIdentity=})acertificates:(id)bpersistence:(unsigned long long)c;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) user;
  - (id) password;
- - (id) _initWithCFURLCredential:(^{_CFURLCredential=})a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (id) _initWithCFURLCredential:(^{_CFURLCredential=})a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (^{_CFURLCredential=}) _cfurlcredential;
- - (id) initWithUser:(id)apassword:(id)bpersistence:(unsigned long long)c;
- - (id) initWithIdentity:(^{__SecIdentity=})acertificates:(id)bpersistence:(unsigned long long)c;
- - (id) initWithTrust:(^{__SecTrust=})a;
+ - (id) initWithUser:(id)a password:(id)b persistence:(unsigned long long)c ;
+ - (id) initWithIdentity:(^{__SecIdentity=})a certificates:(id)b persistence:(unsigned long long)c ;
+ - (id) initWithTrust:(^{__SecTrust=})a ;
  - (^{_CFURLCredential=}) _CFURLCredential;
  - (BOOL) hasPassword;
  - (unsigned long long) persistence;

@@ -29,9 +29,9 @@
  - (void) _addReplacements;
  - (void) _addDeletions;
  - (void) _filterModifications;
- - (void) addInputCharacter:(unsigned short)ageometryModel:(^v)bgeometryData:(id)c;
+ - (void) addInputCharacter:(unsigned short)a geometryModel:(^v)b geometryData:(id)c ;
  - (void) _addInsertions;
- - (void) removeNumberOfInputCharacters:(unsigned long long)a;
+ - (void) removeNumberOfInputCharacters:(unsigned long long)a ;
  - (id) currentModifications;
  - (id) addedModifications;
  - (id) removedModifications;

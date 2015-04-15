@@ -13,13 +13,13 @@
  - (void) dealloc;
  - (id) data;
  - (id) name;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
  - (id) utiType;
  - (id) _rendition;
  - (id) _themeStore;
- - (id) _renditionForSpecificKey:(id)a;
+ - (id) _renditionForSpecificKey:(id)a ;
  - (id) _renditionName;
- - (id) initWithName:(id)ausingRenditionKey:(id)bfromTheme:(unsigned long long)c;
+ - (id) initWithName:(id)a usingRenditionKey:(id)b fromTheme:(unsigned long long)c ;
 
 
 @end

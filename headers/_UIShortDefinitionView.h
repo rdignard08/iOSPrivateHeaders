@@ -6,9 +6,9 @@
 }
 
  - (void) dealloc;
- - (void) setDefinitionValue:(id)a;
+ - (void) setDefinitionValue:(id)a ;
  - (id) definitionValue;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

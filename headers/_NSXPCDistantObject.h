@@ -18,29 +18,29 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) _connection;
- - (void) set_connection:(id)a;
- - (id) _initWithConnection:(id)aexportedObject:(id)binterface:(id)c;
+ - (void) set_connection:(id)a ;
+ - (id) _initWithConnection:(id)a exportedObject:(id)b interface:(id)c ;
  - (unsigned long long) _proxyNumber;
  - (unsigned long long) _generationCount;
- - (id) _initWithConnection:(id)aproxyNumber:(unsigned long long)bgenerationCount:(unsigned long long)cinterface:(id)d;
- - (id) remoteObjectProxyWithUserInfo:(id)aerrorHandler:(@?)b;
- - (id) remoteObjectProxyWithTimeout:(double)aerrorHandler:(@?)b;
- - (void) set_remoteInterface:(id)a;
- - (void) set_proxyNumber:(unsigned long long)a;
- - (void) set_generationCount:(unsigned long long)a;
+ - (id) _initWithConnection:(id)a proxyNumber:(unsigned long long)b generationCount:(unsigned long long)c interface:(id)d ;
+ - (id) remoteObjectProxyWithUserInfo:(id)a errorHandler:(@?)b ;
+ - (id) remoteObjectProxyWithTimeout:(double)a errorHandler:(@?)b ;
+ - (void) set_remoteInterface:(id)a ;
+ - (void) set_proxyNumber:(unsigned long long)a ;
+ - (void) set_generationCount:(unsigned long long)a ;
  - (id) _remoteInterface;
  - (BOOL) _exported;
- - (void) set_exported:(BOOL)a;
+ - (void) set_exported:(BOOL)a ;
  - (void) dealloc;
  - (void) finalize;
- - (void) forwardInvocation:(id)a;
- - (BOOL) conformsToProtocol:(id)a;
- - (id) methodSignatureForSelector:(SEL)a;
+ - (void) forwardInvocation:(id)a ;
+ - (BOOL) conformsToProtocol:(id)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) remoteObjectProxy;
- - (id) remoteObjectProxyWithErrorHandler:(@?)a;
+ - (id) remoteObjectProxyWithErrorHandler:(@?)a ;
 
 
 @end

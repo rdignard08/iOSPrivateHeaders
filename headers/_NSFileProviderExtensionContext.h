@@ -7,14 +7,14 @@
  + (id) _extensionAuxiliaryHostProtocol;
  + (id) _extensionAuxiliaryVendorProtocol;
 
- - (void) setPrincipalInstance:(id)a;
- - (void) _performInitialSetupWithCompletion:(@?)a;
- - (void) _providePlaceholderAtURL:(id)acompletion:(@?)b;
- - (void) _startProvidingItemAtURL:(id)acompletion:(@?)b;
- - (void) _itemChangedAtURL:(id)acompletion:(@?)b;
- - (void) _stopProvidingItemAtURL:(id)acompletion:(@?)b;
- - (void) _identifierForItemAtURL:(id)acompletion:(@?)b;
- - (void) _URLForItemIdentifier:(id)acompletion:(@?)b;
+ - (void) setPrincipalInstance:(id)a ;
+ - (void) _performInitialSetupWithCompletion:(@?)a ;
+ - (void) _providePlaceholderAtURL:(id)a completion:(@?)b ;
+ - (void) _startProvidingItemAtURL:(id)a completion:(@?)b ;
+ - (void) _itemChangedAtURL:(id)a completion:(@?)b ;
+ - (void) _stopProvidingItemAtURL:(id)a completion:(@?)b ;
+ - (void) _identifierForItemAtURL:(id)a completion:(@?)b ;
+ - (void) _URLForItemIdentifier:(id)a completion:(@?)b ;
  - (id) principalInstance;
 
 

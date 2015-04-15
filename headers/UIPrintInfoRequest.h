@@ -13,8 +13,8 @@
  - (@?) completionHandler;
  - (void) requestPrintInfo;
  - (int) requestState;
- - (void) setRequestState:(int)a;
- - (void) setCompletionHandler:(@?)a;
+ - (void) setRequestState:(int)a ;
+ - (void) setCompletionHandler:(@?)a ;
 
 
 @end

@@ -22,7 +22,7 @@
  - (double) fillOpacity;
  - (id) layerMaskRef;
  - (id) vectorMaskRef;
- - (^{CGImage=}) _createMaskFromAlphaChannel:(long long)a;
+ - (^{CGImage=}) _createMaskFromAlphaChannel:(long long)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
  - (double) opacity;
  - (BOOL) visibility;

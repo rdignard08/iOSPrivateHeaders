@@ -16,14 +16,14 @@
  - ({CGPoint=dd}) topRight;
  - ({CGPoint=dd}) bottomRight;
  - ({CGPoint=dd}) bottomLeft;
- - (id) initWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (id) initWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})atopLeft:({CGPoint=dd})btopRight:({CGPoint=dd})cbottomLeft:({CGPoint=dd})dbottomRight:({CGPoint=dd})e;
- - (void) setTopLeft:({CGPoint=dd})a;
- - (void) setTopRight:({CGPoint=dd})a;
- - (void) setBottomLeft:({CGPoint=dd})a;
- - (void) setBottomRight:({CGPoint=dd})a;
+ - (id) initWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (id) initWithBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a topLeft:({CGPoint=dd})b topRight:({CGPoint=dd})c bottomLeft:({CGPoint=dd})d bottomRight:({CGPoint=dd})e ;
+ - (void) setTopLeft:({CGPoint=dd})a ;
+ - (void) setTopRight:({CGPoint=dd})a ;
+ - (void) setBottomLeft:({CGPoint=dd})a ;
+ - (void) setBottomRight:({CGPoint=dd})a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

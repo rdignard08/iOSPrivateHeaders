@@ -8,15 +8,15 @@
 }
 
  - (id) title;
- - (void) setTitle:(id)a;
+ - (void) setTitle:(id)a ;
  - (void) dealloc;
  - (BOOL) _canBeReusedInPickerView;
- - (id) initWithStyle:(long long)areuseIdentifier:(id)bisModern:(BOOL)ctextColor:(id)d;
- - (void) setAttributedTitle:(id)a;
+ - (id) initWithStyle:(long long)a reuseIdentifier:(id)b isModern:(BOOL)c textColor:(id)d ;
+ - (void) setAttributedTitle:(id)a ;
  - (void) prepareForReuse;
  - (id) _titleLabel;
  - (id) attributedTitle;
- - (void) _setIsCenterCell:(BOOL)ashouldModifyAlphaOfView:(BOOL)b;
+ - (void) _setIsCenterCell:(BOOL)a shouldModifyAlphaOfView:(BOOL)b ;
  - (BOOL) _isAttributed;
 
 

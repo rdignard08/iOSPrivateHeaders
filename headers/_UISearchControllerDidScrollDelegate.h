@@ -9,12 +9,12 @@
 @property (nonatomic, assign, readwrite) UIScrollView* scrollView;
 
  - (void) dealloc;
- - (void) _updateBackdropMaskViewsInScrollView:(id)a;
+ - (void) _updateBackdropMaskViewsInScrollView:(id)a ;
  - (void) _didScroll;
- - (void) setScrollView:(id)a;
+ - (void) setScrollView:(id)a ;
  - (id) scrollView;
  - (id) controller;
- - (void) setController:(id)a;
+ - (void) setController:(id)a ;
 
 
 @end

@@ -15,15 +15,15 @@
 
  - (id) description;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) _pkPaper;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) printableRect;
- - (void) _updatePKPaper:(id)a;
- - (id) _initWithPrintKitPaper:(id)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) _printableRectForDuplex:(BOOL)a;
+ - (void) _updatePKPaper:(id)a ;
+ - (id) _initWithPrintKitPaper:(id)a ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) _printableRectForDuplex:(BOOL)a ;
  - (id) _localizedName;
  - (id) _localizedMediaTypeName;
- - (void) _setPaperOrientation:(int)a;
+ - (void) _setPaperOrientation:(int)a ;
  - (int) _paperOrientation;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) printRect;
  - ({CGSize=dd}) paperSize;

@@ -8,7 +8,7 @@
 
  - (void) dealloc;
  - (double) arrowHeight;
- - (id) initWithBackgroundStyle:(long long)a;
+ - (id) initWithBackgroundStyle:(long long)a ;
  - (id) topArrowLeftEndCapView;
  - (id) topArrowPinnedView;
  - (id) topArrowView;
@@ -24,14 +24,14 @@
  - (id) rightArrowTopEndCapView;
  - (id) rightArrowView;
  - (double) arrowBase;
- - (id) templateImageForDirection:(id)ashortArtwork:(BOOL)b;
+ - (id) templateImageForDirection:(id)a shortArtwork:(BOOL)b ;
  - (BOOL) modern;
  - (double) topArrowStart;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) contentRectForRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainImageOfSize:({CGSize=dd})b;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) contentRectForRect:({CGRect={CGPoint=dd}{CGSize=dd}})a inImageOfSize:({CGSize=dd})b ;
  - (double) arrowTopGradientEnd;
  - (double) capCornerRadius;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) contentsCenterForRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainImageOfSize:({CGSize=dd})b;
- - (id) viewWithContentsImage:(id)arect:({CGRect={CGPoint=dd}{CGSize=dd}})bcenter:({CGRect={CGPoint=dd}{CGSize=dd}})cantialiasingMask:(unsigned int)ddirectionSelector:(id)e;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) contentsCenterForRect:({CGRect={CGPoint=dd}{CGSize=dd}})a inImageOfSize:({CGSize=dd})b ;
+ - (id) viewWithContentsImage:(id)a rect:({CGRect={CGPoint=dd}{CGSize=dd}})b center:({CGRect={CGPoint=dd}{CGSize=dd}})c antialiasingMask:(unsigned int)d directionSelector:(id)e ;
  - (double) clampArrowBase;
  - (double) sideArrowStart;
  - (double) noArrowTopGradientEnd;

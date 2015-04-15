@@ -15,38 +15,38 @@
 }
  + (id) _createXPCObjectWithData:(id)a;
 
- - (id) _decodeArrayOfObjectsForKey:(id)a;
- - (int) decodeIntForKey:(id)a;
- - (void) _validateAllowedClass:(Class)aforKey:(id)ballowingInvocations:(BOOL)c;
- - (float) decodeFloatForKey:(id)a;
- - (id) decodeXPCObjectOfType:(^{_xpc_type_s=})aforKey:(id)b;
+ - (id) _decodeArrayOfObjectsForKey:(id)a ;
+ - (int) decodeIntForKey:(id)a ;
+ - (void) _validateAllowedClass:(Class)a forKey:(id)b allowingInvocations:(BOOL)c ;
+ - (float) decodeFloatForKey:(id)a ;
+ - (id) decodeXPCObjectOfType:(^{_xpc_type_s=})a forKey:(id)b ;
  - (id) _connection;
  - (id) decodeInvocation;
- - (id) _initWithRootXPCObject:(id)a;
+ - (id) _initWithRootXPCObject:(id)a ;
  - (id) interface;
- - (void) setInterface:(id)a;
- - (void) setReplyToSelector:(SEL)a;
- - (void) set_connection:(id)a;
- - (id) decodeXPCObjectForKey:(id)a;
- - (r*) _decodeCStringForKey:(id)a;
+ - (void) setInterface:(id)a ;
+ - (void) setReplyToSelector:(SEL)a ;
+ - (void) set_connection:(id)a ;
+ - (id) decodeXPCObjectForKey:(id)a ;
+ - (r*) _decodeCStringForKey:(id)a ;
  - (SEL) replyToSelector;
  - (void) dealloc;
  - (void) finalize;
  - (BOOL) allowsKeyedCoding;
- - (r*) decodeBytesForKey:(id)areturnedLength:(^Q)b;
- - (id) decodeObjectForKey:(id)a;
- - (long long) decodeInt64ForKey:(id)a;
- - (int) decodeInt32ForKey:(id)a;
+ - (r*) decodeBytesForKey:(id)a returnedLength:(^Q)b ;
+ - (id) decodeObjectForKey:(id)a ;
+ - (long long) decodeInt64ForKey:(id)a ;
+ - (int) decodeInt32ForKey:(id)a ;
  - (id) debugDescription;
- - (void) decodeValueOfObjCType:(r*)aat:(^v)b;
+ - (void) decodeValueOfObjCType:(r*)a at:(^v)b ;
  - (id) decodeObject;
- - (long long) decodeIntegerForKey:(id)a;
- - (double) decodeDoubleForKey:(id)a;
- - (BOOL) decodeBoolForKey:(id)a;
- - (BOOL) containsValueForKey:(id)a;
- - (id) decodeObjectOfClass:(Class)aforKey:(id)b;
+ - (long long) decodeIntegerForKey:(id)a ;
+ - (double) decodeDoubleForKey:(id)a ;
+ - (BOOL) decodeBoolForKey:(id)a ;
+ - (BOOL) containsValueForKey:(id)a ;
+ - (id) decodeObjectOfClass:(Class)a forKey:(id)b ;
  - (id) allowedClasses;
- - (id) decodeObjectOfClasses:(id)aforKey:(id)b;
+ - (id) decodeObjectOfClasses:(id)a forKey:(id)b ;
 
 
 @end

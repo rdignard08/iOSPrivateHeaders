@@ -20,10 +20,10 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) localizedName;
- - (id) iconDataForVariant:(int)a;
+ - (id) iconDataForVariant:(int)a ;
  - (id) localizedShortName;
- - (id) _initWithPlugin:(unsigned int)a;
- - (id) _initWithUUID:(id)abundleIdentifier:(id)bpluginIdentifier:(id)cversion:(id)dbundleURL:(id)e;
+ - (id) _initWithPlugin:(unsigned int)a ;
+ - (id) _initWithUUID:(id)a bundleIdentifier:(id)b pluginIdentifier:(id)c version:(id)d bundleURL:(id)e ;
  - (id) pluginIdentifier;
  - (id) pluginUUID;
  - (id) containingBundle;
@@ -33,10 +33,10 @@
  - (id) appStoreReceiptURL;
  - (id) description;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) pluginKitDictionary;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) protocol;
 
 

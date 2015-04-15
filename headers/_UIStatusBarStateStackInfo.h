@@ -10,11 +10,11 @@
 @property (atomic, assign, readwrite) NSNumber* hostPID;
 
  - (long long) statusBarOrientationWithoutHost;
- - (void) setStatusBarOrientationWithoutHost:(long long)a;
+ - (void) setStatusBarOrientationWithoutHost:(long long)a ;
  - (double) statusBarHeightWithoutHost;
- - (void) setStatusBarHeightWithoutHost:(double)a;
+ - (void) setStatusBarHeightWithoutHost:(double)a ;
  - (int) hostPID;
- - (void) setHostPID:(int)a;
+ - (void) setHostPID:(int)a ;
 
 
 @end

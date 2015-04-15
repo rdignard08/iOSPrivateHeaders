@@ -8,23 +8,23 @@
 
  - (void) dealloc;
  - (id) init;
- - (void) decidePolicyForRequest:(id)adecisionListener:(id)b;
- - (id) initWithBaseURL:(id)a;
+ - (void) decidePolicyForRequest:(id)a decisionListener:(id)b ;
+ - (id) initWithBaseURL:(id)a ;
  - (BOOL) loadDidFinish;
  - (BOOL) loadDidSucceed;
- - (void) webView:(id)adecidePolicyForMIMEType:(id)brequest:(id)cframe:(id)ddecisionListener:(id)e;
- - (void) webView:(id)adecidePolicyForNavigationAction:(id)brequest:(id)cframe:(id)ddecisionListener:(id)e;
- - (void) webView:(id)adecidePolicyForNewWindowAction:(id)brequest:(id)cnewFrameName:(id)ddecisionListener:(id)e;
- - (void) webView:(id)adidStartProvisionalLoadForFrame:(id)b;
- - (void) webView:(id)adidFailProvisionalLoadWithError:(id)bforFrame:(id)c;
- - (void) webView:(id)adidCommitLoadForFrame:(id)b;
- - (void) webView:(id)adidFinishLoadForFrame:(id)b;
- - (void) webView:(id)adidFailLoadWithError:(id)bforFrame:(id)c;
- - (id) webView:(id)aidentifierForInitialRequest:(id)bfromDataSource:(id)c;
- - (id) webView:(id)aresource:(id)bwillSendRequest:(id)credirectResponse:(id)dfromDataSource:(id)e;
- - (void) webView:(id)aresource:(id)bdidReceiveAuthenticationChallenge:(id)cfromDataSource:(id)d;
- - (void) webView:(id)aresource:(id)bdidFinishLoadingFromDataSource:(id)c;
- - (void) webView:(id)aresource:(id)bdidFailLoadingWithError:(id)cfromDataSource:(id)d;
+ - (void) webView:(id)a decidePolicyForMIMEType:(id)b request:(id)c frame:(id)d decisionListener:(id)e ;
+ - (void) webView:(id)a decidePolicyForNavigationAction:(id)b request:(id)c frame:(id)d decisionListener:(id)e ;
+ - (void) webView:(id)a decidePolicyForNewWindowAction:(id)b request:(id)c newFrameName:(id)d decisionListener:(id)e ;
+ - (void) webView:(id)a didStartProvisionalLoadForFrame:(id)b ;
+ - (void) webView:(id)a didFailProvisionalLoadWithError:(id)b forFrame:(id)c ;
+ - (void) webView:(id)a didCommitLoadForFrame:(id)b ;
+ - (void) webView:(id)a didFinishLoadForFrame:(id)b ;
+ - (void) webView:(id)a didFailLoadWithError:(id)b forFrame:(id)c ;
+ - (id) webView:(id)a identifierForInitialRequest:(id)b fromDataSource:(id)c ;
+ - (id) webView:(id)a resource:(id)b willSendRequest:(id)c redirectResponse:(id)d fromDataSource:(id)e ;
+ - (void) webView:(id)a resource:(id)b didReceiveAuthenticationChallenge:(id)c fromDataSource:(id)d ;
+ - (void) webView:(id)a resource:(id)b didFinishLoadingFromDataSource:(id)c ;
+ - (void) webView:(id)a resource:(id)b didFailLoadingWithError:(id)c fromDataSource:(id)d ;
 
 
 @end

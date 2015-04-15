@@ -12,11 +12,11 @@
  - (void) dealloc;
  - (id) name;
  - (id) init;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
  - (int) blendMode;
- - (void) setBlendMode:(int)a;
+ - (void) setBlendMode:(int)a ;
  - (double) opacity;
- - (void) setOpacity:(double)a;
+ - (void) setOpacity:(double)a ;
 
 
 @end

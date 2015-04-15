@@ -8,8 +8,8 @@
 }
 
  - (void) dealloc;
- - (void) _physicalButtonsBegan:(id)awithEvent:(id)b;
- - (void) _physicalButtonsEnded:(id)awithEvent:(id)b;
+ - (void) _physicalButtonsBegan:(id)a withEvent:(id)b ;
+ - (void) _physicalButtonsEnded:(id)a withEvent:(id)b ;
  - (void) viewDidLayoutSubviews;
  - (void) viewDidLoad;
  - (id) _titleAttributedString;
@@ -19,11 +19,11 @@
  - (id) _titleAttributes;
  - (id) _messageAttributes;
  - (id) _messageAttributesSmallText;
- - (void) _buttonTapped:(id)a;
+ - (void) _buttonTapped:(id)a ;
  - (void) _dismissIfCapable;
- - (id) _buttonWithTitle:(id)aindex:(long long)b;
+ - (id) _buttonWithTitle:(id)a index:(long long)b ;
  - (id) _messageAttributedStringSmallText;
- - (void) setRepresentedAlert:(id)a;
+ - (void) setRepresentedAlert:(id)a ;
  - (id) init;
 
 

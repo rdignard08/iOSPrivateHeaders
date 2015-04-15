@@ -3,7 +3,7 @@
 
 }
 
- - (id) _traitsForKey:(id)aonKeyplane:(id)b;
+ - (id) _traitsForKey:(id)a onKeyplane:(id)b ;
  - (id) controlKeyTraits;
  - (id) activeControlKeyTraits;
  - (id) shiftedControlKeyTraits;
@@ -49,18 +49,18 @@
  - ({CGPoint=dd}) popupSymbolTextOffset;
  - ({UIEdgeInsets=dddd}) wideShadowPaddleInsets;
  - ({CGPoint=dd}) variantSymbolTextOffset;
- - (void) _customizeSymbolStyle:(id)aforKey:(id)bcontents:(id)c;
- - (void) _customizeGeometry:(id)aforKey:(id)bcontents:(id)c;
- - (BOOL) _popupMenuStyleForKey:(id)a;
- - (void) _customizePopupTraits:(id)aforKey:(id)bonKeyplane:(id)c;
- - (BOOL) _popupStyleForKey:(id)a;
+ - (void) _customizeSymbolStyle:(id)a forKey:(id)b contents:(id)c ;
+ - (void) _customizeGeometry:(id)a forKey:(id)b contents:(id)c ;
+ - (BOOL) _popupMenuStyleForKey:(id)a ;
+ - (void) _customizePopupTraits:(id)a forKey:(id)b onKeyplane:(id)c ;
+ - (BOOL) _popupStyleForKey:(id)a ;
  - ({UIEdgeInsets=dddd}) variantDisplayFrameInsets;
  - ({UIEdgeInsets=dddd}) variantSymbolFrameInsets;
  - ({UIEdgeInsets=dddd}) variantPaddedFrameInsets;
  - (BOOL) isTallPopup;
- - (long long) rowLimitForKey:(id)a;
- - (id) variantGeometriesForGeometry:(id)avariantCount:(unsigned long long)browLimit:(long long)c;
- - (double) dualStringBottomAdditionalOffsetForDisplayContents:(id)a;
+ - (long long) rowLimitForKey:(id)a ;
+ - (id) variantGeometriesForGeometry:(id)a variantCount:(unsigned long long)b rowLimit:(long long)c ;
+ - (double) dualStringBottomAdditionalOffsetForDisplayContents:(id)a ;
  - (id) shiftLockControlKeyTraits;
  - (double) _row4ControlSegmentWidth;
  - (id) shiftDeleteGlyphTraits;

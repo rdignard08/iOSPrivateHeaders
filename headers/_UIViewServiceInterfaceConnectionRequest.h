@@ -25,13 +25,13 @@
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (int) __automatic_invalidation_logic;
- - (void) _cancelUnconditionallyThen:(@?)a;
- - (void) _cancelWithError:(id)a;
+ - (void) _cancelUnconditionallyThen:(@?)a ;
+ - (void) _cancelWithError:(id)a ;
  - (void) _launchService;
  - (void) _createPlugInProcessAssertion;
  - (void) _createProcessAssertion;
  - (void) _createAndEstablishConnection;
- - (void) _createProcessAssertionForPID:(int)aaquiredHandler:(@?)b;
+ - (void) _createProcessAssertionForPID:(int)a aquiredHandler:(@?)b ;
  - (void) _establishConnection;
  - (void) _didConnectToService;
 

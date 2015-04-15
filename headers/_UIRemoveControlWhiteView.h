@@ -4,7 +4,7 @@
 }
 
  - (id) init;
- - (void) setBackgroundColor:(id)a;
+ - (void) setBackgroundColor:(id)a ;
 
 
 @end

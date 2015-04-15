@@ -15,32 +15,32 @@
 
  - (id) _queryResults;
  - (id) documentStorageURL;
- - (id) _initWithCompletionHandler:(@?)a;
+ - (id) _initWithCompletionHandler:(@?)a ;
  - (void) _ubiquityIdentityTokenChanged;
- - (void) runSetupProcessWithCompletionHandler:(@?)a;
+ - (void) runSetupProcessWithCompletionHandler:(@?)a ;
  - (id) dataStorageURL;
- - (id) _userICloudChoiceForIdentityToken:(id)a;
- - (void) _finishSetupWithDecision:(BOOL)acompletionHandler:(@?)b;
- - (void) _loadUserICloudChoiceWithCompletionHandler:(@?)a;
- - (void) _setStorage:(id)a;
+ - (id) _userICloudChoiceForIdentityToken:(id)a ;
+ - (void) _finishSetupWithDecision:(BOOL)a completionHandler:(@?)b ;
+ - (void) _loadUserICloudChoiceWithCompletionHandler:(@?)a ;
+ - (void) _setStorage:(id)a ;
  - (void) _resetQuery;
  - (id) _userICloudChoiceArray;
  - (void) _initialGatherFinished;
  - (void) _updateObservers;
  - (void) _queryUpdated;
- - (id) _observeContentsOfDirectories:(id)asortedWithDescriptors:(id)bupdateHandler:(@?)c;
+ - (id) _observeContentsOfDirectories:(id)a sortedWithDescriptors:(id)b updateHandler:(@?)c ;
  - (BOOL) usesUbiquitousStorage;
  - (id) _identifierToURLMap;
- - (void) _appActivated:(id)a;
- - (void) _storeUserICloudChoice:(BOOL)aforIdentityToken:(id)b;
- - (void) willAddURL:(id)a;
- - (void) willRemoveURL:(id)a;
- - (void) willMoveURL:(id)atoURL:(id)b;
- - (id) observeContentsOfDirectory:(id)asortedWithDescriptors:(id)bupdateHandler:(@?)c;
- - (id) observeContentsOfUbiquitousContainersWithIdentifiers:(id)asortedWithDescriptors:(id)bupdateHandler:(@?)c;
- - (void) updateObserver:(id)awithSortDescriptors:(id)b;
+ - (void) _appActivated:(id)a ;
+ - (void) _storeUserICloudChoice:(BOOL)a forIdentityToken:(id)b ;
+ - (void) willAddURL:(id)a ;
+ - (void) willRemoveURL:(id)a ;
+ - (void) willMoveURL:(id)a toURL:(id)b ;
+ - (id) observeContentsOfDirectory:(id)a sortedWithDescriptors:(id)b updateHandler:(@?)c ;
+ - (id) observeContentsOfUbiquitousContainersWithIdentifiers:(id)a sortedWithDescriptors:(id)b updateHandler:(@?)c ;
+ - (void) updateObserver:(id)a withSortDescriptors:(id)b ;
  - (id) init;
- - (void) removeObserver:(id)a;
+ - (void) removeObserver:(id)a ;
 
 
 @end

@@ -19,40 +19,40 @@
 }
 
  - (@?) completionBlock;
- - (void) setCompletionBlock:(@?)a;
+ - (void) setCompletionBlock:(@?)a ;
  - (void) dealloc;
  - (void) didMoveToWindow;
  - (void) finalizeTransition;
- - (void) updateWithProgress:(double)a;
- - (void) transitionToFinalState:(id)a;
- - (void) finishWithProgress:(double)acompletionBlock:(@?)b;
- - (void) setSplitTransitionDelegate:(id)a;
- - (void) rebuildTransitionForSplitStyleChange:(id)a;
+ - (void) updateWithProgress:(double)a ;
+ - (void) transitionToFinalState:(id)a ;
+ - (void) finishWithProgress:(double)a completionBlock:(@?)b ;
+ - (void) setSplitTransitionDelegate:(id)a ;
+ - (void) rebuildTransitionForSplitStyleChange:(id)a ;
  - (id) backgroundLayers;
  - (id) shadowLayers;
  - (id) topDropShadow;
  - (id) centerDropShadow;
  - (id) bottomDropShadow;
  - (id) outerCenterDropShadow;
- - (id) colorsForBackgroundLayer:(int)a;
+ - (id) colorsForBackgroundLayer:(int)a ;
  - (BOOL) shouldAllowRubberiness;
  - (id) splitTransitionDelegate;
  - (BOOL) transitionIsVisible;
- - (void) transformForProgress:(double)a;
+ - (void) transformForProgress:(double)a ;
  - (^{CGImage=}) defaultKeyboardImage;
  - (^{CGImage=}) splitKeyboardImage;
  - (void) initializeLayers;
- - ({CGSize=dd}) sizeForShadowLayer:(int)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectEnclosingKeyplane:(id)a;
- - (void) rebuildFromKeyplane:(id)atoKeyplane:(id)bkeyboardType:(long long)corientation:(long long)d;
- - (void) rebuildControlKeys:(unsigned long long)a;
+ - ({CGSize=dd}) sizeForShadowLayer:(int)a ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectEnclosingKeyplane:(id)a ;
+ - (void) rebuildFromKeyplane:(id)a toKeyplane:(id)b keyboardType:(long long)c orientation:(long long)d ;
+ - (void) rebuildControlKeys:(unsigned long long)a ;
  - (BOOL) canDisplayTransition;
- - (^{CGImage=}) keyImageWithToken:(id)a;
+ - (^{CGImage=}) keyImageWithToken:(id)a ;
  - (BOOL) showIntlKey;
  - (BOOL) showDictationKey;
  - (id) splitTransitionDataSource;
- - (void) setSplitTransitionDataSource:(id)a;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setSplitTransitionDataSource:(id)a ;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

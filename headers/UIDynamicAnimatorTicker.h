@@ -5,9 +5,9 @@
 }
 @property (atomic, assign, readwrite) UIDynamicAnimator* animator;
 
- - (void) setAnimator:(id)a;
+ - (void) setAnimator:(id)a ;
  - (id) animator;
- - (void) _displayLinkTick:(id)a;
+ - (void) _displayLinkTick:(id)a ;
 
 
 @end

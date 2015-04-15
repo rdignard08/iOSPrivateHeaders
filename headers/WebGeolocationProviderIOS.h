@@ -21,18 +21,18 @@
  - (void) dealloc;
  - (void) suspend;
  - (void) resume;
- - (void) registerWebView:(id)a;
- - (void) unregisterWebView:(id)a;
- - (void) setEnableHighAccuracy:(BOOL)a;
- - (void) initializeGeolocationForWebView:(id)alistener:(id)b;
+ - (void) registerWebView:(id)a ;
+ - (void) unregisterWebView:(id)a ;
+ - (void) setEnableHighAccuracy:(BOOL)a ;
+ - (void) initializeGeolocationForWebView:(id)a listener:(id)b ;
  - (id) lastPosition;
  - (void) resetGeolocation;
- - (void) _handlePendingInitialPosition:(id)a;
- - (void) stopTrackingWebView:(id)a;
+ - (void) _handlePendingInitialPosition:(id)a ;
+ - (void) stopTrackingWebView:(id)a ;
  - (void) geolocationAuthorizationGranted;
  - (void) geolocationAuthorizationDenied;
- - (void) positionChanged:(id)a;
- - (void) errorOccurred:(id)a;
+ - (void) positionChanged:(id)a ;
+ - (void) errorOccurred:(id)a ;
 
 
 @end

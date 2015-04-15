@@ -13,7 +13,7 @@
     int _result;
 }
 
- - (id) initForOpeningResource:(id)ausingApplication:(id)buniqueDocumentIdentifier:(id)csourceIsManaged:(BOOL)duserInfo:(id)eoptions:(id)fdelegate:(id)g;
+ - (id) initForOpeningResource:(id)a usingApplication:(id)b uniqueDocumentIdentifier:(id)c sourceIsManaged:(BOOL)d userInfo:(id)e options:(id)f delegate:(id)g ;
  - (BOOL) didSucceed;
  - (void) completeOperation;
  - (void) main;

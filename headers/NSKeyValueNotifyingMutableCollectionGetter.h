@@ -4,7 +4,7 @@
     NSKeyValueProxyGetter* _mutableCollectionGetter;
 }
 
- - (id) initWithContainerClassID:(id)akey:(id)bmutableCollectionGetter:(id)cproxyClass:(Class)d;
+ - (id) initWithContainerClassID:(id)a key:(id)b mutableCollectionGetter:(id)c proxyClass:(Class)d ;
  - (id) mutableCollectionGetter;
  - (void) dealloc;
 

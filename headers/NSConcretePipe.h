@@ -5,7 +5,7 @@
     NSFileHandle* _writeHandle;
 }
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (id) init;
  - (id) fileHandleForReading;

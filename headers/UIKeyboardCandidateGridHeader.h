@@ -9,17 +9,17 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) setInlineText:(id)a;
+ - (void) setInlineText:(id)a ;
  - (id) inlineText;
- - (void) setBackdropView:(id)a;
+ - (void) setBackdropView:(id)a ;
  - (id) backdropView;
- - (void) setInlineTextLabel:(id)a;
- - (void) setToggleButton:(id)a;
+ - (void) setInlineTextLabel:(id)a ;
+ - (void) setToggleButton:(id)a ;
  - (id) inlineTextLabel;
  - (double) inlineTextRightMargin;
  - (id) toggleButton;
- - (void) setInlineTextRightMargin:(double)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setInlineTextRightMargin:(double)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

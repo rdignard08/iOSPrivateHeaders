@@ -13,13 +13,13 @@
 
  - (id) description;
  - (double) x;
- - (void) setX:(double)a;
+ - (void) setX:(double)a ;
  - (double) y;
- - (void) setY:(double)a;
+ - (void) setY:(double)a ;
  - (double) z;
- - (void) setZ:(double)a;
+ - (void) setZ:(double)a ;
  - (double) timestamp;
- - (void) setTimestamp:(double)a;
+ - (void) setTimestamp:(double)a ;
 
 
 @end

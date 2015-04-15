@@ -8,9 +8,9 @@
 @property (atomic, retain, readwrite) NSProgress* progress;
 
  - (@?) cleanupBlock;
- - (void) setCleanupBlock:(@?)a;
+ - (void) setCleanupBlock:(@?)a ;
  - (id) progress;
- - (void) setProgress:(id)a;
+ - (void) setProgress:(id)a ;
  - (void) dealloc;
 
 

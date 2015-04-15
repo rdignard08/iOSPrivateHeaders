@@ -7,9 +7,9 @@
 
  - (void) dealloc;
  - (unsigned long long) count;
- - (id) objectAtIndex:(unsigned long long)a;
- - (void) getObjects:(^@)arange:({_NSRange=QQ})b;
- - (id) initWithArray:(id)a;
+ - (id) objectAtIndex:(unsigned long long)a ;
+ - (void) getObjects:(^@)a range:({_NSRange=QQ})b ;
+ - (id) initWithArray:(id)a ;
 
 
 @end

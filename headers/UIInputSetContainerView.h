@@ -9,14 +9,14 @@
 
  - (void) dealloc;
  - (BOOL) _disableGeometryObserverNotification;
- - (void) _setRenderConfig:(id)a;
+ - (void) _setRenderConfig:(id)a ;
  - (int) textEffectsVisibilityLevel;
  - (id) _inheritedRenderConfig;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _accessoryViewFrame;
- - (void) _setAccessoryViewFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) _setAccessoryViewFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) _inputWindowController;
- - (void) performWithoutGeometryObserverNotifications:(@?)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) performWithoutGeometryObserverNotifications:(@?)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

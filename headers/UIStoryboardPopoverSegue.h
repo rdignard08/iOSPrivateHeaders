@@ -17,11 +17,11 @@
  - (id) _anchorView;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _anchorRect;
  - (id) popoverController;
- - (void) _setPassthroughViews:(id)a;
- - (void) _setPermittedArrowDirections:(unsigned long long)a;
- - (void) _setAnchorBarButtonItem:(id)a;
- - (void) _setAnchorView:(id)a;
- - (void) _setAnchorRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) _setPassthroughViews:(id)a ;
+ - (void) _setPermittedArrowDirections:(unsigned long long)a ;
+ - (void) _setAnchorBarButtonItem:(id)a ;
+ - (void) _setAnchorView:(id)a ;
+ - (void) _setAnchorRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

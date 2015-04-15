@@ -20,16 +20,16 @@
 @property (nonatomic, assign, readonly) NSTextStorage* streamingTextStorage;
 
  - (void) dealloc;
- - (id) initWithTextView:(id)a;
+ - (id) initWithTextView:(id)a ;
  - (void) commitFinalResults;
- - (void) setWords:(id)a;
+ - (void) setWords:(id)a ;
  - (void) _commitFinalResults;
  - (void) animateText;
  - (id) words;
  - (id) streamingLayoutManager;
  - (id) streamingTextContainer;
  - (id) streamingTextStorage;
- - (void) behaviorDidStop:(id)a;
+ - (void) behaviorDidStop:(id)a ;
 
 
 @end

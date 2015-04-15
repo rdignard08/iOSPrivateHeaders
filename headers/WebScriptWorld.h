@@ -11,7 +11,7 @@
 
  - (void) dealloc;
  - (id) init;
- - (id) initWithWorld:({PassRefPtr<WebCore::DOMWrapperWorld>=^{DOMWrapperWorld}})a;
+ - (id) initWithWorld:({PassRefPtr<WebCore::DOMWrapperWorld>=^{DOMWrapperWorld}})a ;
  - (void) unregisterWorld;
 
 

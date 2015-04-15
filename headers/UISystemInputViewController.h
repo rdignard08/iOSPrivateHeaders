@@ -16,16 +16,16 @@
  - (void) updateViewConstraints;
  - (id) keyboard;
  - (id) _keyboard;
- - (void) setKeyboard:(id)a;
- - (id) accessoryViewForEdge:(long long)a;
+ - (void) setKeyboard:(id)a ;
+ - (id) accessoryViewForEdge:(long long)a ;
  - (id) keyboardConstraits;
- - (id) constraintFromView:(id)aattribute:(long long)btoView:(id)cattribute:(long long)d;
- - (void) setKeyboardConstraits:(id)a;
- - (void) setConstraits:(id)aforEdge:(long long)b;
- - (id) constraitsForEdge:(long long)a;
+ - (id) constraintFromView:(id)a attribute:(long long)b toView:(id)c attribute:(long long)d ;
+ - (void) setKeyboardConstraits:(id)a ;
+ - (void) setConstraits:(id)a forEdge:(long long)b ;
+ - (id) constraitsForEdge:(long long)a ;
  - (id) persistentDelegate;
- - (void) setAccessoryView:(id)aforEdge:(long long)b;
- - (void) setPersistentDelegate:(id)a;
+ - (void) setAccessoryView:(id)a forEdge:(long long)b ;
+ - (void) setPersistentDelegate:(id)a ;
  - (id) init;
 
 

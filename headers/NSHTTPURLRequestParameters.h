@@ -14,7 +14,7 @@
 
  - (void) dealloc;
  - (id) init;
- - (id) initWithCoder:(id)a;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

@@ -5,7 +5,7 @@
 }
  + (BOOL) supportsSecureCoding;
 
- - (void) getValue:(^v)a;
+ - (void) getValue:(^v)a ;
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;
@@ -16,8 +16,8 @@
  - (BOOL) _isDeallocating;
  - (r*) objCType;
  - (id) init;
- - (id) initWithCoder:(id)a;
- - (id) initWithBytes:(r^v)aobjCType:(r*)b;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithBytes:(r^v)a objCType:(r*)b ;
 
 
 @end

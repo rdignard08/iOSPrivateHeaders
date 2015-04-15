@@ -8,14 +8,14 @@
 
  - (void) dealloc;
  - (BOOL) synchronize;
- - (id) objectForKey:(id)a;
- - (void) removeObjectForKey:(id)a;
- - (void) setObject:(id)aforKey:(id)b;
+ - (id) objectForKey:(id)a ;
+ - (void) removeObjectForKey:(id)a ;
+ - (void) setObject:(id)a forKey:(id)b ;
  - (id) init;
- - (void) setBackgroundTaskIdentifier:(unsigned long long)a;
+ - (void) setBackgroundTaskIdentifier:(unsigned long long)a ;
  - (void) _synchronizeIfNeeded;
- - (void) setUserDefaultsHelper:(id)a;
- - (void) setUserDefaultsDictionary:(id)a;
+ - (void) setUserDefaultsHelper:(id)a ;
+ - (void) setUserDefaultsDictionary:(id)a ;
  - (id) userDefaultsDictionary;
  - (void) loadDefaultsDictionaryIfNeeded;
  - (void) _scheduleSynchronization;

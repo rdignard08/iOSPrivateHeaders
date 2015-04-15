@@ -9,24 +9,24 @@
 }
  + (Class) layoutAttributesClass;
 
- - (id) layoutAttributesForElementsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setHideSeparators:(BOOL)a;
+ - (id) layoutAttributesForElementsInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setHideSeparators:(BOOL)a ;
  - (id) visualStyle;
- - (void) setVisualStyle:(id)a;
- - (id) layoutAttributesForDecorationViewOfKind:(id)aatIndexPath:(id)b;
- - (void) setAlignedDescriptiveLabelTextWidth:(double)a;
+ - (void) setVisualStyle:(id)a ;
+ - (id) layoutAttributesForDecorationViewOfKind:(id)a atIndexPath:(id)b ;
+ - (void) setAlignedDescriptiveLabelTextWidth:(double)a ;
  - (double) alignedDescriptiveLabelTextWidth;
- - (BOOL) _collectionViewIsLayingOutHorizontallyWithCellHeight:(double)a;
+ - (BOOL) _collectionViewIsLayingOutHorizontallyWithCellHeight:(double)a ;
  - (BOOL) shouldRoundFirstCell;
- - (id) _topDecorationViewLayoutAttributesAtIndexPath:(id)a;
- - (BOOL) _indexPathIsSectionDelimiter:(id)a;
- - (double) _decorationDimensionAtIndexPath:(id)a;
- - (double) _delimiterShiftForCellAtIndexPath:(id)a;
+ - (id) _topDecorationViewLayoutAttributesAtIndexPath:(id)a ;
+ - (BOOL) _indexPathIsSectionDelimiter:(id)a ;
+ - (double) _decorationDimensionAtIndexPath:(id)a ;
+ - (double) _delimiterShiftForCellAtIndexPath:(id)a ;
  - (id) actionDelimiterIndices;
- - (double) _delimiterShiftForDecorationViewAtIndexPath:(id)a;
+ - (double) _delimiterShiftForDecorationViewAtIndexPath:(id)a ;
  - (BOOL) hideSeparators;
- - (void) setShouldRoundFirstCell:(BOOL)a;
- - (void) setActionDelimiterIndices:(id)a;
+ - (void) setShouldRoundFirstCell:(BOOL)a ;
+ - (void) setActionDelimiterIndices:(id)a ;
  - (id) init;
 
 

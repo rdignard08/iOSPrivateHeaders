@@ -6,10 +6,10 @@
 }
 
  - (void) dealloc;
- - (id) initWithContentsOfFile:(id)aandRuntimeResourceName:(id)b;
- - (id) initWithData:(id)aandRuntimeResourceName:(id)b;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (id) initWithContentsOfFile:(id)a andRuntimeResourceName:(id)b ;
+ - (id) initWithData:(id)a andRuntimeResourceName:(id)b ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

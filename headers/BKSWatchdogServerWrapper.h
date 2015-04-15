@@ -3,7 +3,7 @@
 
 }
 
- - (int) _BKSWatchdogGetIsAlive:(unsigned int)aisAlive:(char*)btimeout:(unsigned int)c;
+ - (int) _BKSWatchdogGetIsAlive:(unsigned int)a isAlive:(char*)b timeout:(unsigned int)c ;
 
 
 @end

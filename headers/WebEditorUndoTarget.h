@@ -3,8 +3,8 @@
 
 }
 
- - (void) undoEditing:(id)a;
- - (void) redoEditing:(id)a;
+ - (void) undoEditing:(id)a ;
+ - (void) redoEditing:(id)a ;
 
 
 @end

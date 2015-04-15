@@ -10,8 +10,8 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) setDrawsWithVibrantLightMode:(BOOL)a;
- - (void) setSeparatorEffect:(id)a;
+ - (void) setDrawsWithVibrantLightMode:(BOOL)a ;
+ - (void) setSeparatorEffect:(id)a ;
  - (id) separatorEffect;
  - (BOOL) drawsWithVibrantLightMode;
 

@@ -23,10 +23,10 @@
 
  - (void) dealloc;
  - (void) buildGlyphViews;
- - (id) initWithLabel:(id)aattributedString:(id)b;
+ - (id) initWithLabel:(id)a attributedString:(id)b ;
  - (void) removeGlyphs;
  - (void) placeGlyphs;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) boundingRectForGlyphsInRange:({_NSRange=QQ})a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) boundingRectForGlyphsInRange:({_NSRange=QQ})a ;
  - (unsigned long long) glyphCount;
  - (r^S) glyphs;
  - (r^{CGRect={CGPoint=dd}{CGSize=dd}}) glyphFrames;

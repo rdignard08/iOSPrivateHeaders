@@ -4,16 +4,16 @@
 
 }
 
- - (BOOL) getObjectValue:(o^@)aforString:(id)berrorDescription:(o^@)c;
- - (id) stringForObjectValue:(id)a;
- - (id) attributedStringForObjectValue:(id)awithDefaultAttributes:(id)b;
- - (BOOL) getObjectValue:(o^@)aforString:(id)brange:(N^{_NSRange=QQ})cerror:(o^@)d;
- - (BOOL) isPartialStringValid:(id)anewEditingString:(^@)berrorDescription:(^@)c;
- - (id) editingStringForObjectValue:(id)a;
- - (BOOL) isPartialStringValid:(^@)aproposedSelectedRange:(^{_NSRange=QQ})boriginalString:(id)coriginalSelectedRange:({_NSRange=QQ})derrorDescription:(^@)e;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) getObjectValue:(o^@)a forString:(id)b errorDescription:(o^@)c ;
+ - (id) stringForObjectValue:(id)a ;
+ - (id) attributedStringForObjectValue:(id)a withDefaultAttributes:(id)b ;
+ - (BOOL) getObjectValue:(o^@)a forString:(id)b range:(N^{_NSRange=QQ})c error:(o^@)d ;
+ - (BOOL) isPartialStringValid:(id)a newEditingString:(^@)b errorDescription:(^@)c ;
+ - (id) editingStringForObjectValue:(id)a ;
+ - (BOOL) isPartialStringValid:(^@)a proposedSelectedRange:(^{_NSRange=QQ})b originalString:(id)c originalSelectedRange:({_NSRange=QQ})d errorDescription:(^@)e ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

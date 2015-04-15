@@ -12,12 +12,12 @@
  - (id) exportedObject;
  - (id) exportedInterface;
  - (long long) exportCount;
- - (void) setExportCount:(long long)a;
+ - (void) setExportCount:(long long)a ;
  - (id) description;
  - (void) dealloc;
  - (id) init;
- - (void) setExportedInterface:(id)a;
- - (void) setExportedObject:(id)a;
+ - (void) setExportedInterface:(id)a ;
+ - (void) setExportedObject:(id)a ;
 
 
 @end

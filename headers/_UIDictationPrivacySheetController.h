@@ -6,8 +6,8 @@
  + (id) controllerWithDismissHandler:(@?)a;
 
  - (void) dismiss;
- - (id) initWithHandler:(@?)a;
- - (void) setDismissHandler:(@?)a;
+ - (id) initWithHandler:(@?)a ;
+ - (void) setDismissHandler:(@?)a ;
  - (@?) dismissHandler;
 
 

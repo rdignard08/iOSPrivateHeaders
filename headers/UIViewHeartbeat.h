@@ -9,7 +9,7 @@
  + (void) stopHeartbeatWithView:(id)aselector:(SEL)b;
 
  - (void) dealloc;
- - (void) _updateDisplayLink:(id)a;
+ - (void) _updateDisplayLink:(id)a ;
 
 
 @end

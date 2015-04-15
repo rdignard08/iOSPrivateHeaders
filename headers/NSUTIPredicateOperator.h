@@ -4,10 +4,10 @@
 }
 
  - (unsigned long long) variant;
- - (id) initForVariant:(unsigned long long)a;
+ - (id) initForVariant:(unsigned long long)a ;
  - (id) predicateFormat;
- - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (BOOL) performPrimitiveOperationUsingObject:(id)a andObject:(id)b ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
 
 
 @end

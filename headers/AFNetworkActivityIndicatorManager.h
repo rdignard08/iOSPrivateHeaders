@@ -13,22 +13,22 @@
  + (id) keyPathsForValuesAffectingIsNetworkActivityIndicatorVisible;
  + (id) sharedManager;
 
- - (void) networkRequestDidStart:(id)a;
- - (void) networkRequestDidFinish:(id)a;
+ - (void) networkRequestDidStart:(id)a ;
+ - (void) networkRequestDidFinish:(id)a ;
  - (BOOL) isNetworkActivityIndicatorVisible;
  - (id) activityIndicatorVisibilityTimer;
  - (void) updateNetworkActivityIndicatorVisibility;
- - (void) setActivityIndicatorVisibilityTimer:(id)a;
+ - (void) setActivityIndicatorVisibilityTimer:(id)a ;
  - (long long) activityCount;
  - (void) updateNetworkActivityIndicatorVisibilityDelayed;
  - (void) incrementActivityCount;
  - (void) decrementActivityCount;
- - (void) setActivityCount:(long long)a;
+ - (void) setActivityCount:(long long)a ;
  - (void) .cxx_destruct;
  - (void) dealloc;
  - (id) init;
  - (BOOL) isEnabled;
- - (void) setEnabled:(BOOL)a;
+ - (void) setEnabled:(BOOL)a ;
 
 
 @end

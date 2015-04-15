@@ -11,17 +11,17 @@
  + (id) activeInstance;
 
  - (void) dealloc;
- - (BOOL) switchMode:(id)awithDelay:(BOOL)b;
- - (BOOL) handleSwitchCommand:(BOOL)a;
+ - (BOOL) switchMode:(id)a withDelay:(BOOL)b ;
+ - (BOOL) handleSwitchCommand:(BOOL)a ;
  - (void) hideSwitcher;
- - (BOOL) handleModifiersChangedEvent:(id)a;
+ - (BOOL) handleModifiersChangedEvent:(id)a ;
  - (void) clearSwitcherTimer;
  - (void) clearHideSwitcherTimer;
  - (void) cancelSwitcherTimer;
  - (void) touchHideSwitcherTimer;
- - (void) handleRotate:(id)a;
+ - (void) handleRotate:(id)a ;
  - (void) showSwitcher;
- - (void) setNewMode:(id)a;
+ - (void) setNewMode:(id)a ;
  - (id) newMode;
  - (void) touchSwitcherTimer;
  - (id) init;

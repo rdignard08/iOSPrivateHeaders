@@ -7,7 +7,7 @@
 @property (atomic, copy, readwrite) NSString* name;
  + (id) allocWithZone:(^{_NSZone=})a;
 
- - (BOOL) waitUntilDate:(id)a;
+ - (BOOL) waitUntilDate:(id)a ;
  - (void) signal;
  - (id) description;
  - (void) dealloc;
@@ -18,7 +18,7 @@
  - (id) init;
  - (void) wait;
  - (void) broadcast;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
 
 
 @end

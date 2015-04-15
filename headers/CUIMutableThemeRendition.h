@@ -9,8 +9,8 @@
 
  - (void) dealloc;
  - (r^{_renditionkeytoken=SS}) key;
- - (void) setName:(id)a;
- - (id) initWithCGImage:(^{CGImage=})awithDescription:(id)bforKey:(r^{_renditionkeytoken=SS})c;
+ - (void) setName:(id)a ;
+ - (id) initWithCGImage:(^{CGImage=})a withDescription:(id)b forKey:(r^{_renditionkeytoken=SS})c ;
  - (^{CGImage=}) unslicedImage;
  - (id) metrics;
  - (id) sliceInformation;

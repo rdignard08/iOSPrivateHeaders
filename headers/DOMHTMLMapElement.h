@@ -4,7 +4,7 @@
 }
 
  - (id) name;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
  - (id) areas;
 
 

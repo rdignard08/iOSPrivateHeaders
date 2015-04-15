@@ -15,30 +15,30 @@
 }
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - ({UIEdgeInsets=dddd}) contentInset;
- - (void) setContentInset:({UIEdgeInsets=dddd})a;
- - (id) initWithNibName:(id)abundle:(id)b;
+ - (void) setContentInset:({UIEdgeInsets=dddd})a ;
+ - (id) initWithNibName:(id)a bundle:(id)b ;
  - (void) _setupContentViewIfNecessary;
- - (void) _setNewPage:(id)aisLeft:(BOOL)b;
- - (void) _positionPage:(id)aisLeft:(BOOL)b;
+ - (void) _setNewPage:(id)a isLeft:(BOOL)b ;
+ - (void) _positionPage:(id)a isLeft:(BOOL)b ;
  - (void) _turnSinglePageAnimated;
  - (void) _turnAllPagesNonAnimated;
- - (void) setEvenPage:(id)a;
- - (void) setOddPage:(id)a;
- - (void) turnPages:(long long)aanimated:(BOOL)b;
+ - (void) setEvenPage:(id)a ;
+ - (void) setOddPage:(id)a ;
+ - (void) turnPages:(long long)a animated:(BOOL)b ;
  - (id) oddPage;
  - (id) evenPage;
  - (double) turnMargin;
- - (void) setTurnMargin:(double)a;
+ - (void) setTurnMargin:(double)a ;
  - (double) turnDuration;
- - (void) setTurnDuration:(double)a;
+ - (void) setTurnDuration:(double)a ;
  - (void) _setupCurlFilters;
  - (void) _startCurlAnimation;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) delegate;
- - (void) animationDidStop:(id)afinished:(BOOL)b;
+ - (void) animationDidStop:(id)a finished:(BOOL)b ;
  - (id) view;
 
 

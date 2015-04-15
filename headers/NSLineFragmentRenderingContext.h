@@ -29,17 +29,17 @@
  - (id) cuiCatalog;
  - (id) cuiStyleEffects;
  - (BOOL) _usesSimpleTextEffects;
- - (id) initWithRuns:(^{__CFArray=})aglyphOrigin:(double)blineFragmentWidth:(double)celasticWidth:(double)dusesScreenFonts:(BOOL)eisRTL:(BOOL)f;
- - (void) _setUsesSimpleTextEffects:(BOOL)a;
- - (void) drawAtPoint:({CGPoint=dd})ainContext:(^{CGContext=})b;
- - ({CGSize=dd}) sizeWithBehavior:(long long)ausesFontLeading:(BOOL)bbaselineDelta:(^d)c;
- - (void) getMaximumAscender:(^d)aminimumDescender:(^d)b;
+ - (id) initWithRuns:(^{__CFArray=})a glyphOrigin:(double)b lineFragmentWidth:(double)c elasticWidth:(double)d usesScreenFonts:(BOOL)e isRTL:(BOOL)f ;
+ - (void) _setUsesSimpleTextEffects:(BOOL)a ;
+ - (void) drawAtPoint:({CGPoint=dd})a inContext:(^{CGContext=})b ;
+ - ({CGSize=dd}) sizeWithBehavior:(long long)a usesFontLeading:(BOOL)b baselineDelta:(^d)c ;
+ - (void) getMaximumAscender:(^d)a minimumDescender:(^d)b ;
  - (double) lineFragmentWidth;
  - (double) elasticWidth;
  - (BOOL) isRTL;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) imageBounds;
- - (void) setCuiCatalog:(id)a;
- - (void) setCuiStyleEffects:(id)a;
+ - (void) setCuiCatalog:(id)a ;
+ - (void) setCuiStyleEffects:(id)a ;
 
 
 @end

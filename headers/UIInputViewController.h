@@ -10,20 +10,20 @@
 
  - (void) dealloc;
  - (void) didReceiveMemoryWarning;
- - (void) setView:(id)a;
- - (id) initWithNibName:(id)abundle:(id)b;
+ - (void) setView:(id)a ;
+ - (id) initWithNibName:(id)a bundle:(id)b ;
  - (void) loadView;
- - (void) textWillChange:(id)a;
- - (void) textDidChange:(id)a;
+ - (void) textWillChange:(id)a ;
+ - (void) textDidChange:(id)a ;
  - (void) viewDidLoad;
- - (void) _setExtensionContext:(id)a;
- - ({CGSize=dd}) _systemLayoutSizeFittingSize:({CGSize=dd})awithHorizontalFittingPriority:(float)bverticalFittingPriority:(float)c;
+ - (void) _setExtensionContext:(id)a ;
+ - ({CGSize=dd}) _systemLayoutSizeFittingSize:({CGSize=dd})a withHorizontalFittingPriority:(float)b verticalFittingPriority:(float)c ;
  - (id) inputView;
- - (void) setInputView:(id)a;
+ - (void) setInputView:(id)a ;
  - (id) primaryLanguage;
- - (void) selectionWillChange:(id)a;
- - (void) selectionDidChange:(id)a;
- - (void) setPrimaryLanguage:(id)a;
+ - (void) selectionWillChange:(id)a ;
+ - (void) selectionDidChange:(id)a ;
+ - (void) setPrimaryLanguage:(id)a ;
  - (void) dismissKeyboard;
  - (id) _keyboard;
  - (id) _compatibilityController;
@@ -33,15 +33,15 @@
  - (id) _proxyInterface;
  - (id) _textDocumentInterface;
  - (id) textDocumentProxy;
- - (void) _setTextDocumentProxy:(id)a;
+ - (void) _setTextDocumentProxy:(id)a ;
  - (id) _extensionContext;
  - (BOOL) _shouldForwardSystemLayoutFittingSizeChanges;
  - (void) advanceToNextInputMode;
  - (void) returnToPreviousInputMode;
- - (void) requestSupplementaryLexiconWithCompletion:(@?)a;
+ - (void) requestSupplementaryLexiconWithCompletion:(@?)a ;
  - (BOOL) _alignsToContentViewController;
- - (void) set_alignsToContentViewController:(BOOL)a;
- - (id) initWithCoder:(id)a;
+ - (void) set_alignsToContentViewController:(BOOL)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

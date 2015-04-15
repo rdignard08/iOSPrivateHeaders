@@ -8,12 +8,12 @@
 }
 
  - (void) dealloc;
- - (void) setTimeColor:(id)a;
- - (void) setTimeShadowColor:(id)a;
- - (void) setTime:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setTimeColor:(id)a ;
+ - (void) setTimeShadowColor:(id)a ;
+ - (void) setTime:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) time;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

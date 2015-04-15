@@ -17,19 +17,19 @@
 @property (nonatomic, copy, readwrite) NSString* customUserAgent;
  + (id) defaultSettings;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (void) setDataDetectorTypes:(unsigned long long)a;
+ - (void) setDataDetectorTypes:(unsigned long long)a ;
  - (unsigned long long) dataDetectorTypes;
- - (void) setCustomUserAgent:(id)a;
- - (void) setMediaPlaybackAllowsAirPlay:(BOOL)a;
- - (void) setSuppressesIncrementalRendering:(BOOL)a;
- - (void) setAllowsInlineMediaPlayback:(BOOL)a;
+ - (void) setCustomUserAgent:(id)a ;
+ - (void) setMediaPlaybackAllowsAirPlay:(BOOL)a ;
+ - (void) setSuppressesIncrementalRendering:(BOOL)a ;
+ - (void) setAllowsInlineMediaPlayback:(BOOL)a ;
  - (BOOL) allowsInlineMediaPlayback;
- - (void) setMediaPlaybackRequiresUserAction:(BOOL)a;
+ - (void) setMediaPlaybackRequiresUserAction:(BOOL)a ;
  - (BOOL) mediaPlaybackRequiresUserAction;
  - (id) customUserAgent;
- - (id) _initWithDictionary:(id)a;
+ - (id) _initWithDictionary:(id)a ;
  - (id) _encodeAsDictionary;
  - (id) init;
  - (BOOL) suppressesIncrementalRendering;

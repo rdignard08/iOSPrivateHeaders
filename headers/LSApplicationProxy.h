@@ -44,11 +44,11 @@
  + (id) applicationProxyForItemID:(id)a;
  + (BOOL) supportsSecureCoding;
 
- - ({CGSize=dd}) _defaultStyleSize:(id)a;
- - (^{?=i{CGSize=dd}}) _iconVariantDefinitions:(id)a;
- - (void) setPrivateDocumentIconNames:(id)a;
- - (void) setPrivateDocumentIconAllowOverride:(BOOL)a;
- - (void) setPrivateDocumentTypeOwner:(id)a;
+ - ({CGSize=dd}) _defaultStyleSize:(id)a ;
+ - (^{?=i{CGSize=dd}}) _iconVariantDefinitions:(id)a ;
+ - (void) setPrivateDocumentIconNames:(id)a ;
+ - (void) setPrivateDocumentIconAllowOverride:(BOOL)a ;
+ - (void) setPrivateDocumentTypeOwner:(id)a ;
  - (id) plugInKitPlugins;
  - (id) applicationIdentifier;
  - (void) populateNotificationData;
@@ -63,10 +63,10 @@
  - (id) iconStyleDomain;
  - (id) resourcesDirectoryURL;
  - (id) privateDocumentIconNames;
- - (id) iconDataForVariant:(int)a;
+ - (id) iconDataForVariant:(int)a ;
  - (id) localizedShortName;
  - (id) machOUUIDs;
- - (id) _initWithBundleUnit:(unsigned int)aapplicationIdentifier:(id)b;
+ - (id) _initWithBundleUnit:(unsigned int)a applicationIdentifier:(id)b ;
  - (BOOL) isContainerized;
  - (BOOL) profileValidated;
  - (BOOL) isNewsstandApp;
@@ -103,7 +103,7 @@
  - (BOOL) isInstalled;
  - (BOOL) isPurchasedReDownload;
  - (BOOL) isWatchKitApp;
- - (id) userActivityStringForAdvertisementData:(id)a;
+ - (id) userActivityStringForAdvertisementData:(id)a ;
  - (unsigned long long) installType;
  - (unsigned long long) originalInstallType;
  - (id) groupIdentifiers;
@@ -112,9 +112,9 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) audioComponents;
 
 

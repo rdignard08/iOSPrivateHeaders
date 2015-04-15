@@ -22,17 +22,17 @@
  + (id) darkConfig;
  + (id) configForAppearance:(long long)ainputMode:(id)b;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (BOOL) whiteText;
  - (double) blurRadius;
- - (void) setBlurRadius:(double)a;
+ - (void) setBlurRadius:(double)a ;
  - (long long) backdropStyle;
- - (void) setBlurSaturation:(double)a;
- - (void) setLightKeyboard:(BOOL)a;
- - (void) setKeycapOpacity:(double)a;
- - (void) setLightKeycapOpacity:(double)a;
+ - (void) setBlurSaturation:(double)a ;
+ - (void) setLightKeyboard:(BOOL)a ;
+ - (void) setKeycapOpacity:(double)a ;
+ - (void) setLightKeycapOpacity:(double)a ;
  - (BOOL) lightKeyboard;
  - (double) keycapOpacity;
  - (double) lightKeycapOpacity;

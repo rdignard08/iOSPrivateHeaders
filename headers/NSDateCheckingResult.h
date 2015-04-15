@@ -12,17 +12,17 @@
     BOOL _timeIsPast;
 }
 
- - (id) resultByAdjustingRangesWithOffset:(long long)a;
- - (BOOL) _adjustRangesWithOffset:(long long)a;
+ - (id) resultByAdjustingRangesWithOffset:(long long)a ;
+ - (BOOL) _adjustRangesWithOffset:(long long)a ;
  - (double) duration;
  - (^v) underlyingResult;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)b;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)d;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)dreferenceDate:(id)eunderlyingResult:(^v)ftimeIsSignificant:(BOOL)gtimeIsApproximate:(BOOL)htimeIsPast:(BOOL)i;
+ - (id) initWithRange:({_NSRange=QQ})a date:(id)b ;
+ - (id) initWithRange:({_NSRange=QQ})a date:(id)b timeZone:(id)c duration:(double)d ;
+ - (id) initWithRange:({_NSRange=QQ})a date:(id)b timeZone:(id)c duration:(double)d referenceDate:(id)e underlyingResult:(^v)f timeIsSignificant:(BOOL)g timeIsApproximate:(BOOL)h timeIsPast:(BOOL)i ;
  - (id) referenceDate;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)dreferenceDate:(id)e;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)dreferenceDate:(id)eunderlyingResult:(^v)f;
- - (id) initWithRange:({_NSRange=QQ})adate:(id)btimeZone:(id)cduration:(double)dreferenceDate:(id)eunderlyingResult:(^v)ftimeIsSignificant:(BOOL)gtimeIsApproximate:(BOOL)h;
+ - (id) initWithRange:({_NSRange=QQ})a date:(id)b timeZone:(id)c duration:(double)d referenceDate:(id)e ;
+ - (id) initWithRange:({_NSRange=QQ})a date:(id)b timeZone:(id)c duration:(double)d referenceDate:(id)e underlyingResult:(^v)f ;
+ - (id) initWithRange:({_NSRange=QQ})a date:(id)b timeZone:(id)c duration:(double)d referenceDate:(id)e underlyingResult:(^v)f timeIsSignificant:(BOOL)g timeIsApproximate:(BOOL)h ;
  - (BOOL) timeIsSignificant;
  - (BOOL) timeIsApproximate;
  - (BOOL) timeIsPast;
@@ -30,8 +30,8 @@
  - (void) dealloc;
  - (id) date;
  - (id) timeZone;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - ({_NSRange=QQ}) range;
  - (unsigned long long) resultType;
 

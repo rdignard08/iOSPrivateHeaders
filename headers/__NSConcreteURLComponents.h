@@ -24,10 +24,10 @@
 }
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
 
- - (void) setScheme:(id)a;
- - (void) setQueryItems:(id)a;
+ - (void) setScheme:(id)a ;
+ - (void) setQueryItems:(id)a ;
  - (id) queryItems;
- - (void) setPort:(id)a;
+ - (void) setPort:(id)a ;
  - (id) percentEncodedPath;
  - (id) percentEncodedHost;
  - (id) percentEncodedQuery;
@@ -35,25 +35,25 @@
  - (id) percentEncodedUser;
  - (id) percentEncodedPassword;
  - (void) freeIvars;
- - (id) URLRelativeToURL:(id)a;
- - (void) setPercentEncodedQuery:(id)a;
- - (id) initWithURL:(id)aresolvingAgainstBaseURL:(BOOL)b;
- - (void) setUser:(id)a;
- - (void) setPassword:(id)a;
- - (void) setHost:(id)a;
- - (void) setFragment:(id)a;
- - (void) setPercentEncodedUser:(id)a;
- - (void) setPercentEncodedPassword:(id)a;
- - (void) setPercentEncodedHost:(id)a;
- - (void) setPercentEncodedPath:(id)a;
- - (void) setPercentEncodedFragment:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) URLRelativeToURL:(id)a ;
+ - (void) setPercentEncodedQuery:(id)a ;
+ - (id) initWithURL:(id)a resolvingAgainstBaseURL:(BOOL)b ;
+ - (void) setUser:(id)a ;
+ - (void) setPassword:(id)a ;
+ - (void) setHost:(id)a ;
+ - (void) setFragment:(id)a ;
+ - (void) setPercentEncodedUser:(id)a ;
+ - (void) setPercentEncodedPassword:(id)a ;
+ - (void) setPercentEncodedHost:(id)a ;
+ - (void) setPercentEncodedPath:(id)a ;
+ - (void) setPercentEncodedFragment:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
  - (id) string;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) scheme;
  - (id) host;
  - (id) port;
@@ -61,11 +61,11 @@
  - (id) password;
  - (id) fragment;
  - (id) query;
- - (id) initWithString:(id)a;
- - (void) setQuery:(id)a;
+ - (id) initWithString:(id)a ;
+ - (void) setQuery:(id)a ;
  - (id) init;
  - (id) URL;
- - (void) setPath:(id)a;
+ - (void) setPath:(id)a ;
  - (id) path;
 
 

@@ -3,14 +3,14 @@
 
 }
 
- - (id) backgroundTraitsForKeyplane:(id)a;
- - (id) _traitsForKey:(id)aonKeyplane:(id)b;
+ - (id) backgroundTraitsForKeyplane:(id)a ;
+ - (id) _traitsForKey:(id)a onKeyplane:(id)b ;
  - (id) lightKeycapsFontName;
- - (void) _customizeTraits:(id)aforPopupForKey:(id)bwithRenderConfig:(id)ckeycapsFontName:(id)d;
+ - (void) _customizeTraits:(id)a forPopupForKey:(id)b withRenderConfig:(id)c keycapsFontName:(id)d ;
  - (double) emojiInternationalKeySize;
  - ({CGPoint=dd}) emojiInternationalKeyOffset;
  - ({CGPoint=dd}) emojiPopupTextOffset;
- - (BOOL) shouldClearBaseDisplayStringForVariants:(id)a;
+ - (BOOL) shouldClearBaseDisplayStringForVariants:(id)a ;
  - (id) thinKeycapsFontName;
  - (double) keyCornerRadius;
 

@@ -7,10 +7,10 @@
  - (void) dealloc;
  - (BOOL) shouldAutorotate;
  - (unsigned long long) supportedInterfaceOrientations;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a ;
  - (long long) preferredInterfaceOrientationForPresentation;
  - (id) rotationDelegate;
- - (void) setRotationDelegate:(id)a;
+ - (void) setRotationDelegate:(id)a ;
 
 
 @end

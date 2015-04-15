@@ -11,9 +11,9 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (int) cornerStyle;
- - (id) initForAlignment:(int)astyle:(int)b;
- - (id) _imageForCornerWithStyle:(int)a;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initForAlignment:(int)a style:(int)b ;
+ - (id) _imageForCornerWithStyle:(int)a ;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

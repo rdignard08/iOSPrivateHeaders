@@ -3,7 +3,7 @@
 
 }
 
- - (void) willSuspend:(id)a;
+ - (void) willSuspend:(id)a ;
 
 
 @end

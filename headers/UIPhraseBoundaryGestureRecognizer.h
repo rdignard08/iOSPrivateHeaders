@@ -11,15 +11,15 @@
  - (void) _resetGestureRecognizer;
  - (void) clearTimer;
  - (void) startTimer;
- - (void) secondDelayElapsed:(id)a;
+ - (void) secondDelayElapsed:(id)a ;
  - (double) secondDelay;
  - (id) textInput;
- - (void) setTextInput:(id)a;
- - (void) setSecondDelay:(double)a;
+ - (void) setTextInput:(id)a ;
+ - (void) setSecondDelay:(double)a ;
  - (BOOL) secondDelayElapsed;
  - (id) userData;
- - (void) setUserData:(id)a;
- - (void) setState:(long long)a;
+ - (void) setUserData:(id)a ;
+ - (void) setState:(long long)a ;
 
 
 @end

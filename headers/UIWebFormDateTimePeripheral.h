@@ -14,11 +14,11 @@
  - (void) endEditing;
  - (id) _control;
  - (id) assistantView;
- - (void) set_inputElement:(id)a;
+ - (void) set_inputElement:(id)a ;
  - (id) _inputElement;
- - (long long) _datePickerModeForInputType:(id)a;
- - (void) set_control:(id)a;
- - (id) initWithDOMHTMLInputElement:(id)a;
+ - (long long) _datePickerModeForInputType:(id)a ;
+ - (void) set_control:(id)a ;
+ - (id) initWithDOMHTMLInputElement:(id)a ;
 
 
 @end

@@ -8,11 +8,11 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (id) emoji;
- - (void) setEmoji:(id)a;
- - (void) setEmojiFontSize:(long long)a;
+ - (void) setEmoji:(id)a ;
+ - (void) setEmojiFontSize:(long long)a ;
  - (long long) emojiFontSize;
  - (id) debugDescription;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -7,8 +7,8 @@
     BOOL _showRSSI;
 }
 
- - (void) touchesEnded:(id)awithEvent:(id)b;
- - (BOOL) updateForNewData:(id)aactions:(int)b;
+ - (void) touchesEnded:(id)a withEvent:(id)b ;
+ - (BOOL) updateForNewData:(id)a actions:(int)b ;
  - (id) contentsImage;
  - (double) extraRightPadding;
  - (id) _stringForRSSI;

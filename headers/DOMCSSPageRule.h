@@ -5,7 +5,7 @@
 
  - (id) style;
  - (id) selectorText;
- - (void) setSelectorText:(id)a;
+ - (void) setSelectorText:(id)a ;
 
 
 @end

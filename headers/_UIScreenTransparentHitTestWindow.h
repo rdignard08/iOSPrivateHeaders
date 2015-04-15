@@ -5,11 +5,11 @@
 }
 
  - (void) dealloc;
- - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;
+ - (id) hitTest:({CGPoint=dd})a withEvent:(id)b ;
  - (void) _updateTransformLayer;
- - (BOOL) pointWithinHitTestInsets:({CGPoint=dd})a;
- - (void) setHitTestInsets:({UIEdgeInsets=dddd})a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (BOOL) pointWithinHitTestInsets:({CGPoint=dd})a ;
+ - (void) setHitTestInsets:({UIEdgeInsets=dddd})a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

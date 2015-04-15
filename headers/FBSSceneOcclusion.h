@@ -9,13 +9,13 @@
 
  - (id) description;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) init;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) CGRect;
- - (id) _initWithCGRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (BOOL) isEqualToOcclusion:(id)a;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (id) _initWithCGRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (BOOL) isEqualToOcclusion:(id)a ;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
 
 
 @end

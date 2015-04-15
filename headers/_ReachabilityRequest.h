@@ -13,13 +13,13 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) removeObserver:(id)a;
- - (void) reachabilityChangedWithFlags:(unsigned int)a;
- - (id) initWithHostname:(id)a;
- - (void) addObserver:(id)aselector:(SEL)b;
+ - (void) removeObserver:(id)a ;
+ - (void) reachabilityChangedWithFlags:(unsigned int)a ;
+ - (id) initWithHostname:(id)a ;
+ - (void) addObserver:(id)a selector:(SEL)b ;
  - (BOOL) hasObservers;
  - (id) hostname;
- - (void) setHostname:(id)a;
+ - (void) setHostname:(id)a ;
 
 
 @end

@@ -8,12 +8,12 @@
 }
 
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
- - (BOOL) respondsToSelector:(SEL)a;
- - (id) methodSignatureForSelector:(SEL)a;
+ - (void) forwardInvocation:(id)a ;
+ - (BOOL) respondsToSelector:(SEL)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
  - (id) asyncForwarder;
  - (void) clearTarget;
- - (id) initWithTarget:(id)adefaultTarget:(id)b;
+ - (id) initWithTarget:(id)a defaultTarget:(id)b ;
 
 
 @end

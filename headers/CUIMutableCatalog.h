@@ -6,14 +6,14 @@
 }
 
  - (void) dealloc;
- - (id) initWithName:(id)a;
- - (void) removeImageNamed:(id)ascale:(double)bidiom:(long long)csubtype:(long long)d;
+ - (id) initWithName:(id)a ;
+ - (void) removeImageNamed:(id)a scale:(double)b idiom:(long long)c subtype:(long long)d ;
  - (id) init;
- - (void) insertCGImage:(^{CGImage=})awithName:(id)bandDescription:(id)c;
- - (void) removeImageNamed:(id)awithDescription:(id)b;
- - (id) initWithName:(id)afromBundle:(id)berror:(^@)c;
- - (id) _baseKeyForName:(id)a;
- - (void) insertCGImage:(^{CGImage=})aname:(id)bscale:(double)cidiom:(long long)dsubtype:(long long)e;
+ - (void) insertCGImage:(^{CGImage=})a withName:(id)b andDescription:(id)c ;
+ - (void) removeImageNamed:(id)a withDescription:(id)b ;
+ - (id) initWithName:(id)a fromBundle:(id)b error:(^@)c ;
+ - (id) _baseKeyForName:(id)a ;
+ - (void) insertCGImage:(^{CGImage=})a name:(id)b scale:(double)c idiom:(long long)d subtype:(long long)e ;
 
 
 @end

@@ -3,9 +3,9 @@
 
 }
 
- - (id) backgroundTraitsForKeyplane:(id)a;
- - (id) _traitsForKey:(id)aonKeyplane:(id)b;
- - (void) _customizeTraits:(id)aforPopupForKey:(id)bwithRenderConfig:(id)ckeycapsFontName:(id)d;
+ - (id) backgroundTraitsForKeyplane:(id)a ;
+ - (id) _traitsForKey:(id)a onKeyplane:(id)b ;
+ - (void) _customizeTraits:(id)a forPopupForKey:(id)b withRenderConfig:(id)c keycapsFontName:(id)d ;
  - (double) keyCornerRadius;
  - (id) multitapCompleteKeyImageName;
  - (id) muttitapReverseKeyImageName;
@@ -21,9 +21,9 @@
  - (id) dictationKeyImageName;
  - ({CGPoint=dd}) deleteKeyOffset;
  - ({CGPoint=dd}) shiftKeyOffset;
- - (void) _customizeSymbolStyle:(id)aforKey:(id)bcontents:(id)c;
- - (void) _customizeGeometry:(id)aforKey:(id)bcontents:(id)c;
- - (id) variantGeometriesForGeometry:(id)avariantCount:(unsigned long long)browLimit:(long long)c;
+ - (void) _customizeSymbolStyle:(id)a forKey:(id)b contents:(id)c ;
+ - (void) _customizeGeometry:(id)a forKey:(id)b contents:(id)c ;
+ - (id) variantGeometriesForGeometry:(id)a variantCount:(unsigned long long)b rowLimit:(long long)c ;
  - (double) keyInsetBottom;
  - (double) symbolFrameInset;
  - (double) defaultPathWeight;

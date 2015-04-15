@@ -9,21 +9,21 @@
 
  - (void) dealloc;
  - (id) string;
- - (void) setString:(id)a;
- - (void) didChangeValueForKey:(id)a;
- - (void) setFont:(^v)a;
- - (void) setFontSize:(double)a;
- - (void) setForegroundColor:(^{CGColor=})a;
- - (void) setAlignmentMode:(id)a;
+ - (void) setString:(id)a ;
+ - (void) didChangeValueForKey:(id)a ;
+ - (void) setFont:(^v)a ;
+ - (void) setFontSize:(double)a ;
+ - (void) setForegroundColor:(^{CGColor=})a ;
+ - (void) setAlignmentMode:(id)a ;
  - (id) init;
- - (id) initWithLayer:(id)a;
+ - (id) initWithLayer:(id)a ;
  - (^{CGColor=}) foregroundColor;
- - (id) implicitAnimationForKeyPath:(id)a;
- - (void) _prepareContext:(^{CGContext=})a;
- - (void) drawInContext:(^{CGContext=})a;
+ - (id) implicitAnimationForKeyPath:(id)a ;
+ - (void) _prepareContext:(^{CGContext=})a ;
+ - (void) drawInContext:(^{CGContext=})a ;
  - ({CGSize=dd}) _preferredSize;
  - (BOOL) allowsFontSubpixelQuantization;
- - (void) _drawLine:(^{__CTLine=})ainContext:(^{CGContext=})batPoint:({CGPoint=dd})c;
+ - (void) _drawLine:(^{__CTLine=})a inContext:(^{CGContext=})b atPoint:({CGPoint=dd})c ;
  - (BOOL) isWrapped;
  - (^v) font;
  - (double) fontSize;
@@ -33,12 +33,12 @@
  - (id) alignmentMode;
  - (id) truncationMode;
  - (^{__CTLine=}) _createTruncationToken;
- - (void) _applyLinesToFunction:(^?)ainfo:(^v)b;
- - (void) setWrapped:(BOOL)a;
- - (void) setTruncationMode:(id)a;
+ - (void) _applyLinesToFunction:(^?)a info:(^v)b ;
+ - (void) setWrapped:(BOOL)a ;
+ - (void) setTruncationMode:(id)a ;
  - (BOOL) wrapped;
- - (void) setTruncationString:(id)a;
- - (void) setAllowsFontSubpixelQuantization:(BOOL)a;
+ - (void) setTruncationString:(id)a ;
+ - (void) setAllowsFontSubpixelQuantization:(BOOL)a ;
 
 
 @end

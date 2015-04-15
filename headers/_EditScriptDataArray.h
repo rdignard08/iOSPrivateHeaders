@@ -14,14 +14,14 @@
  - (void) dealloc;
  - (id) data;
  - (id) stringValue;
- - (id) initWithArray:(id)a;
- - (void) setData:(id)a;
- - (long long) lengthOfItem:(long long)a;
- - (long long) characterIndexForItem:(long long)a;
- - (long long) indexOfFirstDifferenceWithOtherData:(id)ashouldReverseIterate:(BOOL)b;
- - (id) stringAtIndex:(long long)a;
- - (void) setCachedStringValue:(id)a;
- - (id) initWithString:(id)achunkSize:(long long)b;
+ - (id) initWithArray:(id)a ;
+ - (void) setData:(id)a ;
+ - (long long) lengthOfItem:(long long)a ;
+ - (long long) characterIndexForItem:(long long)a ;
+ - (long long) indexOfFirstDifferenceWithOtherData:(id)a shouldReverseIterate:(BOOL)b ;
+ - (id) stringAtIndex:(long long)a ;
+ - (void) setCachedStringValue:(id)a ;
+ - (id) initWithString:(id)a chunkSize:(long long)b ;
  - (id) cachedStringValue;
  - (long long) length;
 

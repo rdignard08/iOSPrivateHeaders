@@ -7,7 +7,7 @@
 
  - (void) dealloc;
  - (id) sceneViewController;
- - (void) setSceneViewController:(id)a;
+ - (void) setSceneViewController:(id)a ;
 
 
 @end

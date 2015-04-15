@@ -11,11 +11,11 @@
  - (void) _updateContentLayer;
  - (void) updateContentInsets;
  - (void) updateContentLayerSize;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setNeedsDisplayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setNeedsDisplayInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (void) layoutSublayers;
- - (void) setMasksToBounds:(BOOL)a;
+ - (void) setMasksToBounds:(BOOL)a ;
 
 
 @end

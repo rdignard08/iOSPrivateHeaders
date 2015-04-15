@@ -18,26 +18,26 @@
  + (id) settingsWithDuration:(double)adelay:(double)btimingFunction:(id)c;
 
  - (double) duration;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
- - (id) _initWithDuration:(double)adelay:(double)bframeInterval:(double)ctimingFunction:(id)d;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
+ - (id) _initWithDuration:(double)a delay:(double)b frameInterval:(double)c timingFunction:(id)d ;
  - (double) delay;
  - (double) frameInterval;
  - (id) timingFunction;
  - (BOOL) isSpringAnimation;
- - (void) _setDuration:(double)a;
- - (void) _setDelay:(double)a;
- - (void) _setTimingFunction:(id)a;
- - (void) _setFrameInterval:(double)a;
+ - (void) _setDuration:(double)a ;
+ - (void) _setDelay:(double)a ;
+ - (void) _setTimingFunction:(id)a ;
+ - (void) _setFrameInterval:(double)a ;
 
 
 @end

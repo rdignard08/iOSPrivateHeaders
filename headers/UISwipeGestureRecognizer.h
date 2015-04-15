@@ -18,38 +18,38 @@
 }
 
  - (void) dealloc;
- - ({CGPoint=dd}) locationInView:(id)a;
- - (void) touchesBegan:(id)awithEvent:(id)b;
- - (void) touchesMoved:(id)awithEvent:(id)b;
- - (void) touchesEnded:(id)awithEvent:(id)b;
- - (void) touchesCancelled:(id)awithEvent:(id)b;
+ - ({CGPoint=dd}) locationInView:(id)a ;
+ - (void) touchesBegan:(id)a withEvent:(id)b ;
+ - (void) touchesMoved:(id)a withEvent:(id)b ;
+ - (void) touchesEnded:(id)a withEvent:(id)b ;
+ - (void) touchesCancelled:(id)a withEvent:(id)b ;
  - (unsigned long long) numberOfTouches;
- - (void) setMaximumDuration:(double)a;
+ - (void) setMaximumDuration:(double)a ;
  - (unsigned long long) numberOfTouchesRequired;
- - (void) setNumberOfTouchesRequired:(unsigned long long)a;
- - ({CGPoint=dd}) locationOfTouch:(unsigned long long)ainView:(id)b;
- - (void) setMinimumPrimaryMovement:(double)a;
+ - (void) setNumberOfTouchesRequired:(unsigned long long)a ;
+ - ({CGPoint=dd}) locationOfTouch:(unsigned long long)a inView:(id)b ;
+ - (void) setMinimumPrimaryMovement:(double)a ;
  - (void) _resetGestureRecognizer;
- - (void) _appendSubclassDescription:(id)a;
- - (BOOL) _checkForSwipeWithDelta:({CGPoint=dd})atime:(double)b;
+ - (void) _appendSubclassDescription:(id)a ;
+ - (BOOL) _checkForSwipeWithDelta:({CGPoint=dd})a time:(double)b ;
  - (double) maximumDuration;
  - (double) minimumPrimaryMovement;
  - (double) maximumPrimaryMovement;
- - (void) setMaximumPrimaryMovement:(double)a;
+ - (void) setMaximumPrimaryMovement:(double)a ;
  - (double) minimumSecondaryMovement;
- - (void) setMinimumSecondaryMovement:(double)a;
+ - (void) setMinimumSecondaryMovement:(double)a ;
  - (double) maximumSecondaryMovement;
- - (void) setMaximumSecondaryMovement:(double)a;
+ - (void) setMaximumSecondaryMovement:(double)a ;
  - (double) rateOfMinimumMovementDecay;
- - (void) setRateOfMinimumMovementDecay:(double)a;
+ - (void) setRateOfMinimumMovementDecay:(double)a ;
  - (double) rateOfMaximumMovementDecay;
- - (void) setRateOfMaximumMovementDecay:(double)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) setDirection:(unsigned long long)a;
+ - (void) setRateOfMaximumMovementDecay:(double)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) setDirection:(unsigned long long)a ;
  - (unsigned long long) direction;
  - ({CGPoint=dd}) startPoint;
- - (id) initWithTarget:(id)aaction:(SEL)b;
+ - (id) initWithTarget:(id)a action:(SEL)b ;
 
 
 @end

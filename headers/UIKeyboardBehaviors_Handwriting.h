@@ -5,8 +5,8 @@
 }
 
  - (BOOL) usesCandidateSelection;
- - (id) keyBehaviorsForState:(id)a;
- - (void) setUsesCandidateSelection:(BOOL)a;
+ - (id) keyBehaviorsForState:(id)a ;
+ - (void) setUsesCandidateSelection:(BOOL)a ;
 
 
 @end

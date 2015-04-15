@@ -27,12 +27,12 @@
  - (short) green;
  - (short) blue;
  - (short) alpha;
- - (void) _dumpImage:(id)acolorspace:(^{CGColorSpace=})b;
- - (r*) rowAtIndex:(unsigned int)a;
+ - (void) _dumpImage:(id)a colorspace:(^{CGColorSpace=})b ;
+ - (r*) rowAtIndex:(unsigned int)a ;
  - (unsigned int) bytesPerPixel;
- - (void) dumpImage:(id)a;
- - (void) dumpImageAsDeviceRGB:(id)a;
- - (void) dumpImageAsDict:(id)a;
+ - (void) dumpImage:(id)a ;
+ - (void) dumpImageAsDeviceRGB:(id)a ;
+ - (void) dumpImageAsDict:(id)a ;
  - (unsigned long long) width;
  - (unsigned long long) height;
 

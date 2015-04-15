@@ -10,11 +10,11 @@
  - (void) connectForSimulator;
  - (id) runtimeCollectionClassName;
  - (void) performConnect;
- - (void) setRuntimeCollectionClassName:(id)a;
+ - (void) setRuntimeCollectionClassName:(id)a ;
  - (BOOL) addsContentToExistingCollection;
- - (void) setAddsContentToExistingCollection:(BOOL)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setAddsContentToExistingCollection:(BOOL)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (void) connect;
 
 

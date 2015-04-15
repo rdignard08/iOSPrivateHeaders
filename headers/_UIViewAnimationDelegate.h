@@ -5,8 +5,8 @@
 }
 
  - (void) dealloc;
- - (id) initWithCompletionBlock:(@?)a;
- - (void) animationDidStop:(id)afinished:(BOOL)b;
+ - (id) initWithCompletionBlock:(@?)a ;
+ - (void) animationDidStop:(id)a finished:(BOOL)b ;
 
 
 @end

@@ -15,17 +15,17 @@
  - (void) dealloc;
  - (id) init;
  - (BOOL) cancel;
- - (id) resultBeforeDate:(id)aerror:(^@)b;
+ - (id) resultBeforeDate:(id)a error:(^@)b ;
  - (BOOL) _nts_isFinished;
  - (void) _flushCompletionBlocks;
  - (void) didCancel;
- - (BOOL) finishWithResult:(id)aerror:(id)b;
- - (void) _addCompletionBlock:(@?)a;
- - (id) result:(^@)a;
- - (void) addSuccessBlock:(@?)a;
- - (void) addFailureBlock:(@?)a;
- - (BOOL) finishWithResult:(id)a;
- - (BOOL) finishWithError:(id)a;
+ - (BOOL) finishWithResult:(id)a error:(id)b ;
+ - (void) _addCompletionBlock:(@?)a ;
+ - (id) result:(^@)a ;
+ - (void) addSuccessBlock:(@?)a ;
+ - (void) addFailureBlock:(@?)a ;
+ - (BOOL) finishWithResult:(id)a ;
+ - (BOOL) finishWithError:(id)a ;
 
 
 @end

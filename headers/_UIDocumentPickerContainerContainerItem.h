@@ -6,8 +6,8 @@
 
  - (id) title;
  - (void) dealloc;
- - (id) _defaultThumbnailWithSize:({CGSize=dd})ascale:(double)b;
- - (id) _blockingThumbnailWithSize:({CGSize=dd})ascale:(double)b;
+ - (id) _defaultThumbnailWithSize:({CGSize=dd})a scale:(double)b ;
+ - (id) _blockingThumbnailWithSize:({CGSize=dd})a scale:(double)b ;
  - (id) sortDate;
  - (void) _modelChanged;
  - (id) subtitle;

@@ -14,21 +14,21 @@
 @property (nonatomic, copy, readwrite) NSString* assetType;
  + (id) queryPredicateForProperties:(id)a;
 
- - (void) setPredicate:(id)a;
+ - (void) setPredicate:(id)a ;
  - (void) dealloc;
  - (void) stopQuery;
  - (id) results;
  - (id) predicate;
  - (id) assetType;
- - (void) setResults:(id)a;
+ - (void) setResults:(id)a ;
  - (BOOL) queriesLocalAssetInformationOnly;
  - (double) networkTimeout;
- - (void) setNetworkTimeout:(double)a;
- - (void) setAssetType:(id)a;
- - (void) startQuery:(@?)a;
- - (id) initWithAssetType:(id)a;
- - (void) setQueriesLocalAssetInformationOnly:(BOOL)a;
- - (id) runQueryAndReturnError:(^@)a;
+ - (void) setNetworkTimeout:(double)a ;
+ - (void) setAssetType:(id)a ;
+ - (void) startQuery:(@?)a ;
+ - (id) initWithAssetType:(id)a ;
+ - (void) setQueriesLocalAssetInformationOnly:(BOOL)a ;
+ - (id) runQueryAndReturnError:(^@)a ;
 
 
 @end

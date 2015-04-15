@@ -3,8 +3,8 @@
 
 }
 
- - (id) initWithRootViewController:(id)a;
- - (id) initWithDocumentInteractionController:(id)a;
+ - (id) initWithRootViewController:(id)a ;
+ - (id) initWithDocumentInteractionController:(id)a ;
 
 
 @end

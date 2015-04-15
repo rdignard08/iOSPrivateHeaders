@@ -24,19 +24,19 @@
 
  - (id) description;
  - (void) dealloc;
- - (id) keyAtIndex:(int)a;
+ - (id) keyAtIndex:(int)a ;
  - (unsigned char) rowIndex;
  - (id) keys;
- - (void) setRowIndex:(unsigned char)a;
- - (void) setHints:(id)a;
- - (void) addKey:(id)a;
- - (id) listOfType:(int)aleft:(BOOL)b;
+ - (void) setRowIndex:(unsigned char)a ;
+ - (void) setHints:(id)a ;
+ - (void) addKey:(id)a ;
+ - (id) listOfType:(int)a left:(BOOL)b ;
  - (double) rowOffset;
- - (void) setRowOffset:(double)a;
+ - (void) setRowOffset:(double)a ;
  - (double) rowWidth;
- - (void) setRowWidth:(double)a;
+ - (void) setRowWidth:(double)a ;
  - ({CGSize=dd}) defaultKeySize;
- - (void) setDefaultKeySize:({CGSize=dd})a;
+ - (void) setDefaultKeySize:({CGSize=dd})a ;
  - (id) hints;
  - (id) init;
 

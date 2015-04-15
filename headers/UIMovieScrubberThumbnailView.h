@@ -4,7 +4,7 @@
     b1 _hasPlaceholderImage;
 }
 
- - (void) setHasPlaceholderImage:(BOOL)a;
+ - (void) setHasPlaceholderImage:(BOOL)a ;
  - (BOOL) hasPlaceholderImage;
 
 

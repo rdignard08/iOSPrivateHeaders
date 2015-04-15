@@ -5,9 +5,9 @@
 
  - (id) keyPath;
  - (id) predicateFormat;
- - (id) initWithKeyPath:(id)a;
+ - (id) initWithKeyPath:(id)a ;
  - (id) pathExpression;
- - (id) initWithOperand:(id)aandKeyPath:(id)b;
+ - (id) initWithOperand:(id)a andKeyPath:(id)b ;
  - (void) dealloc;
 
 

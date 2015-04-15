@@ -5,7 +5,7 @@
 }
 
  - (void) invalidate;
- - (void) setTextView:(id)a;
+ - (void) setTextView:(id)a ;
  - (void) startTimer;
  - (BOOL) isCloseToCaret;
  - (id) textView;

@@ -4,10 +4,10 @@
 }
 
  - (void) dealloc;
- - (void) computeOutputSettingsUsingModel:(id)a;
- - (void) _accessibilityButtonShapesDidChangeNotification:(id)a;
+ - (void) computeOutputSettingsUsingModel:(id)a ;
+ - (void) _accessibilityButtonShapesDidChangeNotification:(id)a ;
  - (void) setDefaultValues;
- - (id) initWithDefaultValuesForGraphicsQuality:(long long)a;
+ - (id) initWithDefaultValuesForGraphicsQuality:(long long)a ;
 
 
 @end

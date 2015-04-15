@@ -3,14 +3,14 @@
 
 }
 
- - (id) backgroundTraitsForKeyplane:(id)a;
- - (id) _traitsForKey:(id)aonKeyplane:(id)b;
+ - (id) backgroundTraitsForKeyplane:(id)a ;
+ - (id) _traitsForKey:(id)a onKeyplane:(id)b ;
  - (id) lightKeycapsFontName;
- - (void) _customizeTraits:(id)aforPopupForKey:(id)bwithRenderConfig:(id)ckeycapsFontName:(id)d;
+ - (void) _customizeTraits:(id)a forPopupForKey:(id)b withRenderConfig:(id)c keycapsFontName:(id)d ;
  - (id) thinKeycapsFontName;
  - (double) keyCornerRadius;
  - ({UIEdgeInsets=dddd}) topEdgeAdjustmentInsets;
- - (unsigned long long) edgesAdjustedForTranslucentGapsForGeometry:(id)akey:(id)bonKeyplane:(id)c;
+ - (unsigned long long) edgesAdjustedForTranslucentGapsForGeometry:(id)a key:(id)b onKeyplane:(id)c ;
  - (double) controlColumnWidthFactor;
  - (id) multitapCompleteKeyImageName;
  - (id) muttitapReverseKeyImageName;

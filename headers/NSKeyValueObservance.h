@@ -12,8 +12,8 @@
     NSPointerArray* _observationInfos;
 }
 
- - (id) _initWithObserver:(id)aproperty:(id)boptions:(unsigned long long)ccontext:(^v)doriginalObservable:(id)e;
- - (void) observeValueForKeyPath:(id)aofObject:(id)bchange:(id)ccontext:(^v)d;
+ - (id) _initWithObserver:(id)a property:(id)b options:(unsigned long long)c context:(^v)d originalObservable:(id)e ;
+ - (void) observeValueForKeyPath:(id)a ofObject:(id)b change:(id)c context:(^v)d ;
  - (id) description;
  - (id) retain;
  - (Vv) release;
@@ -22,7 +22,7 @@
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
 
 
 @end

@@ -8,9 +8,9 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (id) prompt;
- - (void) setPrompt:(id)a;
- - (void) clearWeakReference:(id)a;
- - (id) initWithPrompt:(id)anavBar:(id)b;
+ - (void) setPrompt:(id)a ;
+ - (void) clearWeakReference:(id)a ;
+ - (id) initWithPrompt:(id)a navBar:(id)b ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) promptBounds;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) _labelFrame;
  - ({CGSize=dd}) _updateLabelTextColorAndFontReturningShadowOffset;

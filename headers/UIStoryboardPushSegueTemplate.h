@@ -5,14 +5,14 @@
     long long _splitViewControllerIndex;
 }
 
- - (id) segueWithDestinationViewController:(id)a;
+ - (id) segueWithDestinationViewController:(id)a ;
  - (id) defaultSegueClassName;
  - (long long) destinationContainmentContext;
  - (long long) splitViewControllerIndex;
- - (void) setDestinationContainmentContext:(long long)a;
- - (void) setSplitViewControllerIndex:(long long)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setDestinationContainmentContext:(long long)a ;
+ - (void) setSplitViewControllerIndex:(long long)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

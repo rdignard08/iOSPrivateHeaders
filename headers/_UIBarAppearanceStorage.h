@@ -6,8 +6,8 @@
  + (long long) typicalBarPosition;
 
  - (void) dealloc;
- - (id) backgroundImageForBarPosition:(long long)abarMetrics:(long long)b;
- - (void) setBackgroundImage:(id)aforBarPosition:(long long)bbarMetrics:(long long)c;
+ - (id) backgroundImageForBarPosition:(long long)a barMetrics:(long long)b ;
+ - (void) setBackgroundImage:(id)a forBarPosition:(long long)b barMetrics:(long long)c ;
  - (BOOL) hasAnyCustomBackgroundImage;
 
 

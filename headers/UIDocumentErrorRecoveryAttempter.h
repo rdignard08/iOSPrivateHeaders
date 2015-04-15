@@ -11,11 +11,11 @@
 }
 
  - (void) dealloc;
- - (BOOL) attemptRecoveryFromError:(id)aoptionIndex:(unsigned long long)b;
- - (BOOL) attemptSilentRecoveryFromError:(id)aerror:(^@)b;
+ - (BOOL) attemptRecoveryFromError:(id)a optionIndex:(unsigned long long)b ;
+ - (BOOL) attemptSilentRecoveryFromError:(id)a error:(^@)b ;
  - (void) cancelRecovery;
- - (id) initWithDocument:(id)awrappedRecoveryAttempter:(id)b;
- - (id) initWithDocument:(id)asilentRecoveryOptionIndex:(unsigned long long)bappModalRecoveryAttempter:(@?)crecoveryCanceler:(@?)d;
+ - (id) initWithDocument:(id)a wrappedRecoveryAttempter:(id)b ;
+ - (id) initWithDocument:(id)a silentRecoveryOptionIndex:(unsigned long long)b appModalRecoveryAttempter:(@?)c recoveryCanceler:(@?)d ;
 
 
 @end

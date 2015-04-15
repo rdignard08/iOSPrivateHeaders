@@ -8,12 +8,12 @@
 
  - (id) localizedName;
  - (void) dealloc;
- - (id) initWithBundleProxy:(id)a;
- - (void) setBundleProxy:(id)a;
+ - (id) initWithBundleProxy:(id)a ;
+ - (void) setBundleProxy:(id)a ;
  - (id) bundleProxy;
- - (id) activityImageForApplicationBundleURL:(id)aapplicationIconFormat:(int)bactivityCategory:(long long)c;
+ - (id) activityImageForApplicationBundleURL:(id)a applicationIconFormat:(int)b activityCategory:(long long)c ;
  - (double) preferredImageScale;
- - (id) imageForApplicationIconFormat:(int)aactivityCategory:(long long)b;
+ - (id) imageForApplicationIconFormat:(int)a activityCategory:(long long)b ;
  - (id) debugDescription;
 
 

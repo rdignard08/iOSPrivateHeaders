@@ -5,16 +5,16 @@
     NSRLEArray* attributes;
 }
 
- - (id) initWithString:(id)aattributes:(id)b;
- - (id) initWithAttributedString:(id)a;
+ - (id) initWithString:(id)a attributes:(id)b ;
+ - (id) initWithAttributedString:(id)a ;
  - (id) _runArrayHoldingAttributes;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (void) finalize;
  - (id) string;
- - (id) attributesAtIndex:(unsigned long long)aeffectiveRange:(^{_NSRange=QQ})b;
- - (id) attribute:(id)aatIndex:(unsigned long long)beffectiveRange:(^{_NSRange=QQ})c;
- - (id) initWithString:(id)a;
+ - (id) attributesAtIndex:(unsigned long long)a effectiveRange:(^{_NSRange=QQ})b ;
+ - (id) attribute:(id)a atIndex:(unsigned long long)b effectiveRange:(^{_NSRange=QQ})c ;
+ - (id) initWithString:(id)a ;
  - (unsigned long long) length;
  - (id) init;
 

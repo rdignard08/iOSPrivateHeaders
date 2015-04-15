@@ -13,12 +13,12 @@
  - (void) dealloc;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
- - (unsigned short) characterAtIndex:(unsigned long long)a;
- - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
+ - (unsigned short) characterAtIndex:(unsigned long long)a ;
+ - (void) getCharacters:(^S)a range:({_NSRange=QQ})b ;
  - (r^S) _fastCharacterContents;
  - (unsigned long long) length;
- - (void) _setOriginalString:(id)arange:({_NSRange=QQ})b;
- - (id) initWithOriginalString:(id)arange:({_NSRange=QQ})b;
+ - (void) _setOriginalString:(id)a range:({_NSRange=QQ})b ;
+ - (id) initWithOriginalString:(id)a range:({_NSRange=QQ})b ;
 
 
 @end

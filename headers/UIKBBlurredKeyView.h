@@ -8,17 +8,17 @@
  - (void) dealloc;
  - (id) renderConfig;
  - (id) contentsKeyView;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})akeyplane:(id)bkey:(id)c;
- - (void) setRenderConfig:(id)a;
- - (void) updateForKeyplane:(id)akey:(id)b;
- - (void) setDrawFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a keyplane:(id)b key:(id)c ;
+ - (void) setRenderConfig:(id)a ;
+ - (void) updateForKeyplane:(id)a key:(id)b ;
+ - (void) setDrawFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) keyplane;
- - (void) dimKeyCaps:(double)aduration:(double)b;
+ - (void) dimKeyCaps:(double)a duration:(double)b ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) drawFrame;
  - (BOOL) requiresSublayers;
  - (id) key;
  - (void) setNeedsDisplay;
- - (void) displayLayer:(id)a;
+ - (void) displayLayer:(id)a ;
 
 
 @end

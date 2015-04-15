@@ -6,10 +6,10 @@
 }
 @property (atomic, assign, readwrite, getter=isPresentation) NSNumber* presentation;
 
- - (double) transitionDuration:(id)a;
- - (void) animateTransition:(id)a;
+ - (double) transitionDuration:(id)a ;
+ - (void) animateTransition:(id)a ;
  - (BOOL) isPresentation;
- - (void) setPresentation:(BOOL)a;
+ - (void) setPresentation:(BOOL)a ;
 
 
 @end

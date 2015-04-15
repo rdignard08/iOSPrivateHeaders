@@ -6,14 +6,14 @@
 
  - (id) description;
  - (id) init;
- - (void) setCookies:(id)aforURL:(id)bmainDocumentURL:(id)c;
- - (id) cookiesForURL:(id)a;
+ - (void) setCookies:(id)a forURL:(id)b mainDocumentURL:(id)c ;
+ - (id) cookiesForURL:(id)a ;
  - (id) cookies;
- - (void) deleteCookie:(id)a;
- - (void) setCookie:(id)a;
+ - (void) deleteCookie:(id)a ;
+ - (void) setCookie:(id)a ;
  - (unsigned long long) cookieAcceptPolicy;
- - (void) setCookieAcceptPolicy:(unsigned long long)a;
- - (id) sortedCookiesUsingDescriptors:(id)a;
+ - (void) setCookieAcceptPolicy:(unsigned long long)a ;
+ - (id) sortedCookiesUsingDescriptors:(id)a ;
 
 
 @end

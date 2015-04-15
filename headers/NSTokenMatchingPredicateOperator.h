@@ -3,7 +3,7 @@
 
 }
 
- - (BOOL) performPrimitiveOperationUsingObject:(id)aandObject:(id)b;
+ - (BOOL) performPrimitiveOperationUsingObject:(id)a andObject:(id)b ;
  - (id) symbol;
  - (SEL) selector;
 

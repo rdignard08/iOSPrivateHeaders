@@ -9,7 +9,7 @@
 
  - (void) dealloc;
  - (^v) bytes;
- - (id) initWithPropertyList:(^v)a;
+ - (id) initWithPropertyList:(^v)a ;
  - (BOOL) beginAccessing;
  - (void) endAccessing;
  - (unsigned long long) length;

@@ -12,16 +12,16 @@
 }
 
  - (void) dealloc;
- - (void) buttonTapped:(id)a;
+ - (void) buttonTapped:(id)a ;
  - (void) _updateButtonConstraints;
  - (void) _updateDividerConstraints;
  - (BOOL) shouldInsetButtons;
  - (BOOL) isOnLeftSide;
- - (void) setTarget:(id)aforAction:(SEL)b;
- - (void) setShouldInsetButtons:(BOOL)a;
- - (void) setIsOnLeftSide:(BOOL)a;
+ - (void) setTarget:(id)a forAction:(SEL)b ;
+ - (void) setShouldInsetButtons:(BOOL)a ;
+ - (void) setIsOnLeftSide:(BOOL)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) centeringBounds;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

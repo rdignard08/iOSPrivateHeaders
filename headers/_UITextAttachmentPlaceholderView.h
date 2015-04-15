@@ -4,7 +4,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithData:(id)aofType:(id)b;
+ - (id) initWithData:(id)a ofType:(id)b ;
 
 
 @end

@@ -4,7 +4,7 @@
     Class _proxyClass;
 }
 
- - (id) initWithContainerClassID:(id)akey:(id)bproxyClass:(Class)c;
+ - (id) initWithContainerClassID:(id)a key:(id)b proxyClass:(Class)c ;
  - (Class) proxyClass;
 
 

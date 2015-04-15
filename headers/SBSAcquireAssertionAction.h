@@ -6,7 +6,7 @@
 
  - (unsigned int) port;
  - (id) reason;
- - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) keyDescriptionForSetting:(unsigned long long)a ;
  - (id) assertionName;
 
 

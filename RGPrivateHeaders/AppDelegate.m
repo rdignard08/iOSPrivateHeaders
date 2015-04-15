@@ -242,6 +242,7 @@ void indent_n_times(const char* indent, long count, FILE* file) {
                     free(argumentType);
                     fputs(")", output);
                     fputc(c, output);
+                    fputs(" ", output);
                     c++;
                     k++;
                 }

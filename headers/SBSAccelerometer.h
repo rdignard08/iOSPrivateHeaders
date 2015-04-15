@@ -14,23 +14,23 @@
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) init;
  - (id) delegate;
- - (void) setAccelerometerEventsEnabled:(BOOL)a;
- - (void) setOrientationEventsEnabled:(BOOL)a;
+ - (void) setAccelerometerEventsEnabled:(BOOL)a ;
+ - (void) setOrientationEventsEnabled:(BOOL)a ;
  - (BOOL) accelerometerEventsEnabled;
- - (void) accelerometer:(id)adidAccelerateWithTimeStamp:(double)bx:(float)cy:(float)dz:(float)eeventType:(int)f;
- - (void) accelerometer:(id)adidChangeDeviceOrientation:(int)b;
+ - (void) accelerometer:(id)a didAccelerateWithTimeStamp:(double)b x:(float)c y:(float)d z:(float)e eventType:(int)f ;
+ - (void) accelerometer:(id)a didChangeDeviceOrientation:(int)b ;
  - (int) currentDeviceOrientation;
  - (double) updateInterval;
- - (void) setUpdateInterval:(double)a;
+ - (void) setUpdateInterval:(double)a ;
  - (float) xThreshold;
- - (void) setXThreshold:(float)a;
+ - (void) setXThreshold:(float)a ;
  - (float) yThreshold;
- - (void) setYThreshold:(float)a;
+ - (void) setYThreshold:(float)a ;
  - (float) zThreshold;
- - (void) setZThreshold:(float)a;
+ - (void) setZThreshold:(float)a ;
  - (BOOL) orientationEventsEnabled;
 
 

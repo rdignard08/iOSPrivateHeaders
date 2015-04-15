@@ -9,12 +9,12 @@
  - (id) description;
  - (void) dealloc;
  - (id) init;
- - (id) _initWithChanges:(id)a;
- - (void) inspectChangesWithBlock:(@?)a;
- - (id) settingsByApplyingToMutableCopyOfSettings:(id)a;
- - (void) inspectOtherChangesWithBlock:(@?)a;
- - (void) encodeWithXPCDictionary:(id)a;
- - (id) initWithXPCDictionary:(id)a;
+ - (id) _initWithChanges:(id)a ;
+ - (void) inspectChangesWithBlock:(@?)a ;
+ - (id) settingsByApplyingToMutableCopyOfSettings:(id)a ;
+ - (void) inspectOtherChangesWithBlock:(@?)a ;
+ - (void) encodeWithXPCDictionary:(id)a ;
+ - (id) initWithXPCDictionary:(id)a ;
 
 
 @end

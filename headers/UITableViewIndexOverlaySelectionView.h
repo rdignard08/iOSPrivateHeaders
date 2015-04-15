@@ -9,15 +9,15 @@
 
  - (void) reloadData;
  - (void) layoutSubviews;
- - (long long) collectionView:(id)anumberOfItemsInSection:(long long)b;
- - (id) collectionView:(id)acellForItemAtIndexPath:(id)b;
- - (id) collectionView:(id)aviewForSupplementaryElementOfKind:(id)batIndexPath:(id)c;
- - (id) initWithTable:(id)a;
+ - (long long) collectionView:(id)a numberOfItemsInSection:(long long)b ;
+ - (id) collectionView:(id)a cellForItemAtIndexPath:(id)b ;
+ - (id) collectionView:(id)a viewForSupplementaryElementOfKind:(id)b atIndexPath:(id)c ;
+ - (id) initWithTable:(id)a ;
  - (void) _invalidateTable;
  - (BOOL) canBecomeFirstResponder;
- - (void) _cellTapped:(id)a;
+ - (void) _cellTapped:(id)a ;
  - (void) _doneTapped;
- - (void) _setIndexColor:(id)a;
+ - (void) _setIndexColor:(id)a ;
 
 
 @end

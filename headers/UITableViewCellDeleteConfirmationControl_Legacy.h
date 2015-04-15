@@ -7,20 +7,20 @@
  + ({CGSize=dd}) defaultSizeForTitle:(id)a;
 
  - (void) dealloc;
- - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;
+ - (id) hitTest:({CGPoint=dd})a withEvent:(id)b ;
  - ({CGSize=dd}) defaultSize;
  - (void) layoutSubviews;
- - (id) initWithTitle:(id)a;
- - (void) cancelTrackingWithEvent:(id)a;
- - (BOOL) beginTrackingWithTouch:(id)awithEvent:(id)b;
- - (BOOL) continueTrackingWithTouch:(id)awithEvent:(id)b;
- - (void) endTrackingWithTouch:(id)awithEvent:(id)b;
+ - (id) initWithTitle:(id)a ;
+ - (void) cancelTrackingWithEvent:(id)a ;
+ - (BOOL) beginTrackingWithTouch:(id)a withEvent:(id)b ;
+ - (BOOL) continueTrackingWithTouch:(id)a withEvent:(id)b ;
+ - (void) endTrackingWithTouch:(id)a withEvent:(id)b ;
  - (void) _confirmationAnimationDidEnd;
- - (void) touchUpInside:(id)a;
- - (void) touchUpOutside:(id)a;
- - (void) cancelDeleteConfirmationWithGesture:(id)a;
- - (void) setVisible:(BOOL)aanimated:(BOOL)b;
- - (void) setVisible:(BOOL)a;
+ - (void) touchUpInside:(id)a ;
+ - (void) touchUpOutside:(id)a ;
+ - (void) cancelDeleteConfirmationWithGesture:(id)a ;
+ - (void) setVisible:(BOOL)a animated:(BOOL)b ;
+ - (void) setVisible:(BOOL)a ;
  - (BOOL) isVisible;
 
 

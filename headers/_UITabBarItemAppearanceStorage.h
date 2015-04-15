@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (id) titleOffset;
- - (void) setTitleOffset:(id)a;
+ - (void) setTitleOffset:(id)a ;
 
 
 @end

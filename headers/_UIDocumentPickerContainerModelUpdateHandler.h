@@ -8,10 +8,10 @@
 @property (nonatomic, copy, readwrite) NSNumber* handler;
 
  - (void) dealloc;
- - (void) setWeakSelf:(id)a;
+ - (void) setWeakSelf:(id)a ;
  - (id) weakSelf;
  - (@?) handler;
- - (void) setHandler:(@?)a;
+ - (void) setHandler:(@?)a ;
 
 
 @end

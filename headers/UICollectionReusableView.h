@@ -13,27 +13,27 @@
  - (id) _collectionView;
  - (id) reuseIdentifier;
  - (void) prepareForReuse;
- - (void) applyLayoutAttributes:(id)a;
- - (void) _setBaseLayoutAttributes:(id)a;
+ - (void) applyLayoutAttributes:(id)a ;
+ - (void) _setBaseLayoutAttributes:(id)a ;
  - (BOOL) _disableRasterizeInAnimations;
- - (void) _setLayoutAttributes:(id)a;
- - (void) _setCollectionView:(id)a;
+ - (void) _setLayoutAttributes:(id)a ;
+ - (void) _setCollectionView:(id)a ;
  - (BOOL) _isInUpdateAnimation;
  - (id) _layoutAttributes;
  - (BOOL) _arePreferredAttributesValid;
- - (id) _preferredLayoutAttributesFittingAttributes:(id)a;
+ - (id) _preferredLayoutAttributesFittingAttributes:(id)a ;
  - (BOOL) _wasDequeued;
  - (void) _invalidatePreferredAttributes;
  - (void) _markAsDequeued;
- - (void) willTransitionFromLayout:(id)atoLayout:(id)b;
+ - (void) willTransitionFromLayout:(id)a toLayout:(id)b ;
  - (void) _addUpdateAnimation;
- - (void) didTransitionFromLayout:(id)atoLayout:(id)b;
+ - (void) didTransitionFromLayout:(id)a toLayout:(id)b ;
  - (void) _clearUpdateAnimation;
- - (void) _setReuseIdentifier:(id)a;
- - (id) preferredLayoutAttributesFittingAttributes:(id)a;
- - (void) setPreferredAttributesValid:(BOOL)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) _setReuseIdentifier:(id)a ;
+ - (id) preferredLayoutAttributesFittingAttributes:(id)a ;
+ - (void) setPreferredAttributesValid:(BOOL)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

@@ -24,47 +24,47 @@
 }
 
  - (void) dealloc;
- - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
+ - (void) tableView:(id)a didSelectRowAtIndexPath:(id)b ;
+ - (long long) tableView:(id)a numberOfRowsInSection:(long long)b ;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
  - (long long) cancelButtonIndex;
  - (id) presentingViewController;
  - ({CGSize=dd}) maxSize;
  - (id) titleLabel;
- - (void) setModalItem:(id)askipLayout:(BOOL)b;
+ - (void) setModalItem:(id)a skipLayout:(BOOL)b ;
  - (void) _createAndConfigureTitleLabel;
  - (void) _createAndConfigureSubtitleLabel;
  - (void) _createAndConfigureMessageLabel;
- - (void) _createAndConfigureTextFieldsForInputStyle:(long long)a;
+ - (void) _createAndConfigureTextFieldsForInputStyle:(long long)a ;
  - (void) _createAndConfigureButtonTable;
  - (void) _createViewControllerContentView;
  - (long long) defaultButtonIndex;
  - (id) modalItem;
- - (void) textFieldValueDidChange:(id)a;
+ - (void) textFieldValueDidChange:(id)a ;
  - (id) passwordTextField;
  - (id) loginTextField;
- - (void) setModalItem:(id)a;
+ - (void) setModalItem:(id)a ;
  - (void) _reloadButtons;
  - ({CGSize=dd}) presentingSize;
- - (void) setPresentingSize:({CGSize=dd})a;
- - (void) setPresentingViewController:(id)a;
+ - (void) setPresentingSize:({CGSize=dd})a ;
+ - (void) setPresentingViewController:(id)a ;
  - ({CGSize=dd}) actualViewControllerSize;
- - (void) setActualViewControllerSize:({CGSize=dd})a;
+ - (void) setActualViewControllerSize:({CGSize=dd})a ;
  - (BOOL) enableFirstOtherButton;
- - (void) setEnableFirstOtherButton:(BOOL)a;
+ - (void) setEnableFirstOtherButton:(BOOL)a ;
  - (id) subtitleLabel;
  - (id) messageLabel;
  - (id) accessoryViewController;
  - ({CGSize=dd}) accessoryViewControllerSize;
  - (id) accessoryViewControllerContrainerView;
  - (id) cancelButton;
- - (void) setCancelButton:(id)a;
+ - (void) setCancelButton:(id)a ;
  - (id) defaultButton;
- - (void) setDefaultButton:(id)a;
+ - (void) setDefaultButton:(id)a ;
  - (id) buttonTable;
- - (void) setMaxSize:({CGSize=dd})a;
+ - (void) setMaxSize:({CGSize=dd})a ;
  - (void) layout;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

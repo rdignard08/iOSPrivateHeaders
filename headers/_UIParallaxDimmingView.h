@@ -11,17 +11,17 @@
 
  - (void) dealloc;
  - (void) didMoveToWindow;
- - (void) setBackgroundIsDimmed:(BOOL)a;
+ - (void) setBackgroundIsDimmed:(BOOL)a ;
  - (void) crossFade;
- - (void) setDimmingColor:(id)a;
+ - (void) setDimmingColor:(id)a ;
  - (id) dimmingColor;
- - (void) setAddingSubview:(id)a;
- - (id) initViewWrappingView:(id)awithLeftBorder:(double)b;
+ - (void) setAddingSubview:(id)a ;
+ - (id) initViewWrappingView:(id)a withLeftBorder:(double)b ;
  - (id) addingSubview;
  - (BOOL) backgroundIsDimmed;
  - (id) defaultBorderColor;
- - (id) _basicAnimationWithKeyPath:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) _basicAnimationWithKeyPath:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

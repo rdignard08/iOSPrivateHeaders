@@ -8,22 +8,22 @@
 
  - (id) userDefaults;
  - (void) dealloc;
- - (long long) tableView:(id)aeditingStyleForRowAtIndexPath:(id)b;
- - (BOOL) tableView:(id)ashouldIndentWhileEditingRowAtIndexPath:(id)b;
- - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (void) tableView:(id)amoveRowAtIndexPath:(id)btoIndexPath:(id)c;
+ - (long long) tableView:(id)a editingStyleForRowAtIndexPath:(id)b ;
+ - (BOOL) tableView:(id)a shouldIndentWhileEditingRowAtIndexPath:(id)b ;
+ - (long long) tableView:(id)a numberOfRowsInSection:(long long)b ;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
+ - (void) tableView:(id)a moveRowAtIndexPath:(id)b toIndexPath:(id)c ;
  - (void) viewDidLoad;
- - (void) setUserDefaults:(id)a;
+ - (void) setUserDefaults:(id)a ;
  - (id) activities;
- - (void) setActivities:(id)a;
- - (void) setPlaceholderImage:(id)a;
+ - (void) setActivities:(id)a ;
+ - (void) setPlaceholderImage:(id)a ;
  - (long long) preferredActivityCategory;
- - (id) activityForRowAtIndexPath:(id)a;
- - (id) settingsImageForActivity:(id)a;
- - (void) toggleActivityHiddenForControl:(id)a;
- - (void) toggleActivityHiddenForRowAtIndexPath:(id)a;
- - (id) initWithActivities:(id)auserDefaults:(id)b;
+ - (id) activityForRowAtIndexPath:(id)a ;
+ - (id) settingsImageForActivity:(id)a ;
+ - (void) toggleActivityHiddenForControl:(id)a ;
+ - (void) toggleActivityHiddenForRowAtIndexPath:(id)a ;
+ - (id) initWithActivities:(id)a userDefaults:(id)b ;
  - (id) placeholderImage;
 
 

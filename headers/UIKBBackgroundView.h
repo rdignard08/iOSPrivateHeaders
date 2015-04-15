@@ -20,19 +20,19 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (id) renderConfig;
- - (void) setRenderConfig:(id)a;
- - (void) refreshStyleForKeyplane:(id)ainputTraits:(id)b;
- - (void) setGeometryCacheKey:(id)a;
+ - (void) setRenderConfig:(id)a ;
+ - (void) refreshStyleForKeyplane:(id)a inputTraits:(id)b ;
+ - (void) setGeometryCacheKey:(id)a ;
  - (id) cacheKey;
  - (double) cachedWidth;
- - (id) cacheKeysForRenderFlags:(id)a;
- - (void) drawContentsOfRenderers:(id)a;
+ - (id) cacheKeysForRenderFlags:(id)a ;
+ - (void) drawContentsOfRenderers:(id)a ;
  - (BOOL) cacheDeferable;
  - (BOOL) keepNonPersistent;
  - (id) geometryCacheKey;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) displayLayer:(id)a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) displayLayer:(id)a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

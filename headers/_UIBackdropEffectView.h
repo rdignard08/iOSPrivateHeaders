@@ -6,15 +6,15 @@
 }
  + (Class) layerClass;
 
- - (id) valueForUndefinedKey:(id)a;
+ - (id) valueForUndefinedKey:(id)a ;
  - (void) dealloc;
- - (BOOL) _shouldAnimatePropertyWithKey:(id)a;
+ - (BOOL) _shouldAnimatePropertyWithKey:(id)a ;
  - (id) backdropLayer;
- - (void) setZoom:(double)a;
- - (void) setBackdropLayer:(id)a;
+ - (void) setZoom:(double)a ;
+ - (void) setBackdropLayer:(id)a ;
  - (double) zoom;
  - (id) init;
- - (void) backdropLayerStatisticsDidChange:(id)a;
+ - (void) backdropLayerStatisticsDidChange:(id)a ;
 
 
 @end

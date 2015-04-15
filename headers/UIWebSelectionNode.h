@@ -18,11 +18,11 @@
  - (void) dealloc;
  - (void) invalidate;
  - (id) selection;
- - (void) setSelection:(id)a;
- - (id) nodeByMovingEdge:(int)aoutwards:(BOOL)b;
- - (^@) nodeByReferenceFromEdge:(int)aoutwards:(BOOL)b;
- - (id) initWithSelection:(id)ainGraph:(id)b;
- - (int) oppositeEdge:(int)a;
+ - (void) setSelection:(id)a ;
+ - (id) nodeByMovingEdge:(int)a outwards:(BOOL)b ;
+ - (^@) nodeByReferenceFromEdge:(int)a outwards:(BOOL)b ;
+ - (id) initWithSelection:(id)a inGraph:(id)b ;
+ - (int) oppositeEdge:(int)a ;
 
 
 @end

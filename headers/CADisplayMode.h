@@ -14,12 +14,12 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) _display;
  - (int) _mode;
- - (id) _initWithMode:(int)adisplay:(id)b;
+ - (id) _initWithMode:(int)a display:(id)b ;
  - (double) pixelAspectRatio;
- - (void) _setWidth:(unsigned long long)aheight:(unsigned long long)b;
+ - (void) _setWidth:(unsigned long long)a height:(unsigned long long)b ;
  - (unsigned long long) width;
  - (unsigned long long) height;
 

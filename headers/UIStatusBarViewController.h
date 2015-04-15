@@ -10,22 +10,22 @@
  + (double) statusBarOrientationAnimationDurationFrom:(long long)ato:(long long)b;
 
  - (void) dealloc;
- - (void) setStatusBarStyle:(long long)aanimationParameters:(id)b;
- - (void) setStatusBarHidden:(BOOL)aanimationParameters:(id)b;
- - (void) setStatusBarOrientation:(long long)aanimationParameters:(id)b;
+ - (void) setStatusBarStyle:(long long)a animationParameters:(id)b ;
+ - (void) setStatusBarHidden:(BOOL)a animationParameters:(id)b ;
+ - (void) setStatusBarOrientation:(long long)a animationParameters:(id)b ;
  - (void) loadView;
- - (BOOL) isClassicControlWindow:(id)a;
- - (void) _updateStatusBarForRotationFromInterfaceOrientation:(long long)atoInterfaceOrientation:(long long)bstyle:(long long)chidden:(BOOL)dslideUp:(BOOL)e;
- - (void) _changeStatusBarOrientationFrom:(long long)atoOrientation:(long long)b;
- - (void) _prepareForZoom:(BOOL)a;
- - (void) _zoom:(BOOL)aanimated:(BOOL)b;
- - (void) _statusBarViewControllerKeyboardWillShow:(id)a;
- - (void) _statusBarViewControllerKeyboardDidHide:(id)a;
- - (void) _statusBarHideAnimationFinished:(id)afinished:(BOOL)bhidden:(id)c;
- - (void) _updateStatusBarGeometryForRotationFromInterfaceOrientation:(long long)atoInterfaceOrientation:(long long)bhidden:(BOOL)cslideUp:(BOOL)d;
- - (void) _changeStatusBarOrientationFinished:(id)afinished:(BOOL)bcontext:(^v)c;
+ - (BOOL) isClassicControlWindow:(id)a ;
+ - (void) _updateStatusBarForRotationFromInterfaceOrientation:(long long)a toInterfaceOrientation:(long long)b style:(long long)c hidden:(BOOL)d slideUp:(BOOL)e ;
+ - (void) _changeStatusBarOrientationFrom:(long long)a toOrientation:(long long)b ;
+ - (void) _prepareForZoom:(BOOL)a ;
+ - (void) _zoom:(BOOL)a animated:(BOOL)b ;
+ - (void) _statusBarViewControllerKeyboardWillShow:(id)a ;
+ - (void) _statusBarViewControllerKeyboardDidHide:(id)a ;
+ - (void) _statusBarHideAnimationFinished:(id)a finished:(BOOL)b hidden:(id)c ;
+ - (void) _updateStatusBarGeometryForRotationFromInterfaceOrientation:(long long)a toInterfaceOrientation:(long long)b hidden:(BOOL)c slideUp:(BOOL)d ;
+ - (void) _changeStatusBarOrientationFinished:(id)a finished:(BOOL)b context:(^v)c ;
  - (void) _finishStatusBarOrientationChange;
- - ({CGSize=dd}) _statusBarSizeForOrientation:(long long)a;
+ - ({CGSize=dd}) _statusBarSizeForOrientation:(long long)a ;
  - (id) init;
  - (id) window;
 

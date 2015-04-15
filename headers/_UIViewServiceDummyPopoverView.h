@@ -3,7 +3,7 @@
 
 }
 
- - (void) setUseToolbarShine:(BOOL)a;
+ - (void) setUseToolbarShine:(BOOL)a ;
 
 
 @end

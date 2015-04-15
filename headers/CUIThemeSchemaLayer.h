@@ -12,13 +12,13 @@
 
  - (id) name;
  - (unsigned long long) index;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
  - (id) renditions;
- - (void) setRenditions:(id)a;
- - (void) calculateColumLefts:(^@)arowTops:(^@)btotalSize:(^{CGSize=dd})cforPartFeatures:(unsigned long long)d;
- - (void) setIndex:(unsigned long long)a;
- - (id) initWithRenditions:(id)aname:(id)bindex:(unsigned long long)c;
- - (double) translateFromWidthsOrHeightsToLeftsOrTops:(id)aleftsOrTops:(^@)b;
+ - (void) setRenditions:(id)a ;
+ - (void) calculateColumLefts:(^@)a rowTops:(^@)b totalSize:(^{CGSize=dd})c forPartFeatures:(unsigned long long)d ;
+ - (void) setIndex:(unsigned long long)a ;
+ - (id) initWithRenditions:(id)a name:(id)b index:(unsigned long long)c ;
+ - (double) translateFromWidthsOrHeightsToLeftsOrTops:(id)a leftsOrTops:(^@)b ;
 
 
 @end

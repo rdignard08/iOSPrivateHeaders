@@ -3,7 +3,7 @@
 
 }
 
- - (void) _physicalButtonsBegan:(id)awithEvent:(id)b;
+ - (void) _physicalButtonsBegan:(id)a withEvent:(id)b ;
 
 
 @end

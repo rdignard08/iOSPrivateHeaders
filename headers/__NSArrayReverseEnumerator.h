@@ -6,7 +6,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithObject:(id)a;
+ - (id) initWithObject:(id)a ;
  - (id) nextObject;
 
 

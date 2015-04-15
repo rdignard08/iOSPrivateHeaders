@@ -15,23 +15,23 @@
 }
 
  - (@?) messageSender;
- - (id) initWithReadingURLs:(id)aoptions:(unsigned long long)bwritingURLs:(id)coptions:(unsigned long long)dclaimer:(@?)e;
+ - (id) initWithReadingURLs:(id)a options:(unsigned long long)b writingURLs:(id)c options:(unsigned long long)d claimer:(@?)e ;
  - (void) granted;
  - (void) invokeClaimer;
  - (void) devalueSelf;
- - (id) initWithClient:(id)amessageParameters:(id)breplySender:(@?)c;
- - (void) forwardUsingMessageSender:(@?)acrashHandler:(@?)b;
- - (BOOL) evaluateSelfWithRootNode:(id)acheckSubarbitrability:(BOOL)b;
- - (void) evaluateNewClaim:(id)a;
- - (BOOL) isBlockedByReadingItemAtLocation:(id)aoptions:(unsigned long long)b;
- - (BOOL) isBlockedByWritingItemAtLocation:(id)aoptions:(unsigned long long)b;
+ - (id) initWithClient:(id)a messageParameters:(id)b replySender:(@?)c ;
+ - (void) forwardUsingMessageSender:(@?)a crashHandler:(@?)b ;
+ - (BOOL) evaluateSelfWithRootNode:(id)a checkSubarbitrability:(BOOL)b ;
+ - (void) evaluateNewClaim:(id)a ;
+ - (BOOL) isBlockedByReadingItemAtLocation:(id)a options:(unsigned long long)b ;
+ - (BOOL) isBlockedByWritingItemAtLocation:(id)a options:(unsigned long long)b ;
  - (void) revoked;
- - (void) devalueOldClaim:(id)a;
- - (void) itemAtLocation:(id)awasReplacedByItemAtLocation:(id)b;
- - (void) setMessageSender:(@?)a;
- - (void) forwardRelinquishmentMessageWithKind:(id)aparameters:(id)btoPresenter:(id)cusingReplySender:(@?)d;
- - (void) forwardReacquisitionMessageWithKind:(id)aparameters:(id)btoPresenterForID:(id)cusingReplySender:(@?)d;
- - (id) relinquishmentForMessageOfKind:(id)atoPresenterForID:(id)b;
+ - (void) devalueOldClaim:(id)a ;
+ - (void) itemAtLocation:(id)a wasReplacedByItemAtLocation:(id)b ;
+ - (void) setMessageSender:(@?)a ;
+ - (void) forwardRelinquishmentMessageWithKind:(id)a parameters:(id)b toPresenter:(id)c usingReplySender:(@?)d ;
+ - (void) forwardReacquisitionMessageWithKind:(id)a parameters:(id)b toPresenterForID:(id)c usingReplySender:(@?)d ;
+ - (id) relinquishmentForMessageOfKind:(id)a toPresenterForID:(id)b ;
  - (void) dealloc;
 
 

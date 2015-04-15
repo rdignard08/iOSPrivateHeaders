@@ -20,16 +20,16 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithClientID:(id)apid:(int)bdisplayUUID:(id)ccontextID:(unsigned int)d;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithClientID:(id)a pid:(int)b displayUUID:(id)c contextID:(unsigned int)d ;
  - (id) clientID;
  - (int) pid;
  - (id) displayUUID;
  - (unsigned int) contextID;
- - (BOOL) isEqualNotIncludingClientIDAndPid:(id)a;
- - (void) setPid:(int)a;
+ - (BOOL) isEqualNotIncludingClientIDAndPid:(id)a ;
+ - (void) setPid:(int)a ;
  - (id) propertiesOneLevelMoreGeneric;
 
 

@@ -9,14 +9,14 @@
 }
 
  - (void) dealloc;
- - (void) touchesBegan:(id)awithEvent:(id)b;
- - (void) touchesMoved:(id)awithEvent:(id)b;
- - (void) touchesEnded:(id)awithEvent:(id)b;
- - (void) touchesCancelled:(id)awithEvent:(id)b;
+ - (void) touchesBegan:(id)a withEvent:(id)b ;
+ - (void) touchesMoved:(id)a withEvent:(id)b ;
+ - (void) touchesEnded:(id)a withEvent:(id)b ;
+ - (void) touchesCancelled:(id)a withEvent:(id)b ;
  - (void) _resetGestureRecognizer;
  - (void) clearTimer;
- - (void) enoughTimeElapsed:(id)a;
- - (void) _processNewLocation:({CGPoint=dd})a;
+ - (void) enoughTimeElapsed:(id)a ;
+ - (void) _processNewLocation:({CGPoint=dd})a ;
 
 
 @end

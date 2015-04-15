@@ -14,20 +14,20 @@
 @property (nonatomic, assign, readwrite) NSNumber* useSimplifiedEffect;
 @property (nonatomic, assign, readwrite) NSNumber* foregroundColorShouldTintEffects;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
- - (void) setForegroundColorShouldTintEffects:(BOOL)a;
+ - (void) setForegroundColorShouldTintEffects:(BOOL)a ;
  - (id) init;
  - (long long) state;
- - (void) setState:(long long)a;
- - (void) setValue:(long long)a;
+ - (void) setState:(long long)a ;
+ - (void) setValue:(long long)a ;
  - (long long) value;
- - (void) setUseSimplifiedEffect:(BOOL)a;
+ - (void) setUseSimplifiedEffect:(BOOL)a ;
  - (long long) presentationState;
  - (BOOL) useSimplifiedEffect;
  - (BOOL) shouldIgnoreForegroundColor;
  - (BOOL) shouldRespectOutputBlending;
- - (void) setPresentationState:(long long)a;
+ - (void) setPresentationState:(long long)a ;
  - (BOOL) foregroundColorShouldTintEffects;
 
 

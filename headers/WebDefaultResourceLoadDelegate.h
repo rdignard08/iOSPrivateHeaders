@@ -4,20 +4,20 @@
 }
  + (id) sharedResourceLoadDelegate;
 
- - (void) webView:(id)adidLoadResourceFromMemoryCache:(id)bresponse:(id)clength:(long long)dfromDataSource:(id)e;
- - (id) webView:(id)aidentifierForInitialRequest:(id)bfromDataSource:(id)c;
- - (id) webView:(id)aresource:(id)bwillSendRequest:(id)credirectResponse:(id)dfromDataSource:(id)e;
- - (BOOL) webView:(id)aresource:(id)bshouldUseCredentialStorageForDataSource:(id)c;
- - (void) webView:(id)aresource:(id)bdidReceiveAuthenticationChallenge:(id)cfromDataSource:(id)d;
- - (BOOL) webView:(id)aresource:(id)bcanAuthenticateAgainstProtectionSpace:(id)cforDataSource:(id)d;
- - (id) webView:(id)aconnectionPropertiesForResource:(id)bdataSource:(id)c;
- - (void) webView:(id)aresource:(id)bdidCancelAuthenticationChallenge:(id)cfromDataSource:(id)d;
- - (void) webView:(id)aresource:(id)bdidReceiveResponse:(id)cfromDataSource:(id)d;
- - (id) webView:(id)aresource:(id)bwillCacheResponse:(id)cfromDataSource:(id)d;
- - (void) webView:(id)aresource:(id)bdidReceiveContentLength:(long long)cfromDataSource:(id)d;
- - (void) webView:(id)aresource:(id)bdidFinishLoadingFromDataSource:(id)c;
- - (void) webView:(id)aresource:(id)bdidFailLoadingWithError:(id)cfromDataSource:(id)d;
- - (void) webView:(id)aplugInFailedWithError:(id)bdataSource:(id)c;
+ - (void) webView:(id)a didLoadResourceFromMemoryCache:(id)b response:(id)c length:(long long)d fromDataSource:(id)e ;
+ - (id) webView:(id)a identifierForInitialRequest:(id)b fromDataSource:(id)c ;
+ - (id) webView:(id)a resource:(id)b willSendRequest:(id)c redirectResponse:(id)d fromDataSource:(id)e ;
+ - (BOOL) webView:(id)a resource:(id)b shouldUseCredentialStorageForDataSource:(id)c ;
+ - (void) webView:(id)a resource:(id)b didReceiveAuthenticationChallenge:(id)c fromDataSource:(id)d ;
+ - (BOOL) webView:(id)a resource:(id)b canAuthenticateAgainstProtectionSpace:(id)c forDataSource:(id)d ;
+ - (id) webView:(id)a connectionPropertiesForResource:(id)b dataSource:(id)c ;
+ - (void) webView:(id)a resource:(id)b didCancelAuthenticationChallenge:(id)c fromDataSource:(id)d ;
+ - (void) webView:(id)a resource:(id)b didReceiveResponse:(id)c fromDataSource:(id)d ;
+ - (id) webView:(id)a resource:(id)b willCacheResponse:(id)c fromDataSource:(id)d ;
+ - (void) webView:(id)a resource:(id)b didReceiveContentLength:(long long)c fromDataSource:(id)d ;
+ - (void) webView:(id)a resource:(id)b didFinishLoadingFromDataSource:(id)c ;
+ - (void) webView:(id)a resource:(id)b didFailLoadingWithError:(id)c fromDataSource:(id)d ;
+ - (void) webView:(id)a plugInFailedWithError:(id)b dataSource:(id)c ;
 
 
 @end

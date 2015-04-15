@@ -5,7 +5,7 @@
 }
 
  - (id) initWithDefaultParameters;
- - (void) setStyleAnimation:(int)a;
+ - (void) setStyleAnimation:(int)a ;
  - (BOOL) shouldAnimate;
  - (int) styleAnimation;
 

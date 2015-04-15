@@ -6,14 +6,14 @@
 }
 @property (nonatomic, assign, readonly) NSString* path;
 
- - (id) initWithPath:(id)a;
+ - (id) initWithPath:(id)a ;
  - (void) dealloc;
  - (id) path;
- - (BOOL) scalarsForKeyPrefix:(id)aminDaysSince1970:(int)bmaxDaysSince1970:(int)crowHandler:(@?)d;
- - (BOOL) distributionsForKeyPrefix:(id)aminDaysSince1970:(int)bmaxDaysSince1970:(int)crowHandler:(@?)d;
+ - (BOOL) scalarsForKeyPrefix:(id)a minDaysSince1970:(int)b maxDaysSince1970:(int)c rowHandler:(@?)d ;
+ - (BOOL) distributionsForKeyPrefix:(id)a minDaysSince1970:(int)b maxDaysSince1970:(int)c rowHandler:(@?)d ;
  - (id) initWithDefaultPath;
- - (BOOL) scalarsForKeyPrefix:(id)aminDaysSince1970:(int)bmaxDaysSince1970:(int)cwithConsumer:(id)d;
- - (BOOL) distributionsForKeyPrefix:(id)aminDaysSince1970:(int)bmaxDaysSince1970:(int)cwithConsumer:(id)d;
+ - (BOOL) scalarsForKeyPrefix:(id)a minDaysSince1970:(int)b maxDaysSince1970:(int)c withConsumer:(id)d ;
+ - (BOOL) distributionsForKeyPrefix:(id)a minDaysSince1970:(int)b maxDaysSince1970:(int)c withConsumer:(id)d ;
 
 
 @end

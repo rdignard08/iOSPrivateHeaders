@@ -18,24 +18,24 @@
 @property (nonatomic, assign, readwrite) NSNumber* count;
 @property (nonatomic, assign, readwrite) NSNumber* active;
 
- - (void) setCount:(unsigned long long)a;
+ - (void) setCount:(unsigned long long)a ;
  - (id) target;
- - (void) setActive:(BOOL)a;
+ - (void) setActive:(BOOL)a ;
  - (void) dealloc;
  - (unsigned long long) count;
  - (void) invalidate;
- - (void) setTarget:(id)a;
- - (void) setRepeatInterval:(double)a;
+ - (void) setTarget:(id)a ;
+ - (void) setRepeatInterval:(double)a ;
  - (BOOL) active;
- - (BOOL) startAutoscroll:(id)ascrollContainer:(id)bpoint:({CGPoint=dd})cdirections:(int)drepeatInterval:(double)e;
+ - (BOOL) startAutoscroll:(id)a scrollContainer:(id)b point:({CGPoint=dd})c directions:(int)d repeatInterval:(double)e ;
  - (int) directions;
  - ({CGPoint=dd}) point;
- - (void) timerFired:(id)a;
+ - (void) timerFired:(id)a ;
  - (id) scrollContainer;
  - (double) repeatInterval;
- - (void) setPoint:({CGPoint=dd})a;
- - (void) setScrollContainer:(id)a;
- - (void) setDirections:(int)a;
+ - (void) setPoint:({CGPoint=dd})a ;
+ - (void) setScrollContainer:(id)a ;
+ - (void) setDirections:(int)a ;
 
 
 @end

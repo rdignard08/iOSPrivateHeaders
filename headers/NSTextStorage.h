@@ -10,21 +10,21 @@
 }
  + (id) allocWithZone:(^{_NSZone=})a;
 
- - (void) _undoRedoTextOperation:(id)a;
- - (id) _undoRedoAttributedSubstringFromRange:({_NSRange=QQ})a;
+ - (void) _undoRedoTextOperation:(id)a ;
+ - (id) _undoRedoAttributedSubstringFromRange:({_NSRange=QQ})a ;
  - (Class) classForCoder;
- - (void) edited:(unsigned long long)arange:({_NSRange=QQ})bchangeInLength:(long long)c;
+ - (void) edited:(unsigned long long)a range:({_NSRange=QQ})b changeInLength:(long long)c ;
  - (void) dealloc;
  - (void) finalize;
  - (void) beginEditing;
  - (void) endEditing;
- - (void) setDelegate:(id)a;
- - (void) coordinateAccess:(@?)a;
- - (void) coordinateEditing:(@?)a;
- - (void) coordinateReading:(@?)a;
+ - (void) setDelegate:(id)a ;
+ - (void) coordinateAccess:(@?)a ;
+ - (void) coordinateEditing:(@?)a ;
+ - (void) coordinateReading:(@?)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) delegate;
  - (id) cuiCatalog;
  - (id) cuiStyleEffects;
@@ -32,30 +32,30 @@
  - (BOOL) _isEditing;
  - (BOOL) _lockForReading;
  - (void) _unlock;
- - (void) _setForceFixAttributes:(BOOL)a;
- - (void) _setUsesSimpleTextEffects:(BOOL)a;
- - (void) addLayoutManager:(id)a;
+ - (void) _setForceFixAttributes:(BOOL)a ;
+ - (void) _setUsesSimpleTextEffects:(BOOL)a ;
+ - (void) addLayoutManager:(id)a ;
  - (id) layoutManagers;
- - (void) removeLayoutManager:(id)a;
+ - (void) removeLayoutManager:(id)a ;
  - (BOOL) _lockForWriting;
  - (BOOL) _attributeFixingInProgress;
- - (void) _setAttributeFixingInProgress:(BOOL)a;
+ - (void) _setAttributeFixingInProgress:(BOOL)a ;
  - (BOOL) _shouldSetOriginalFontAttribute;
  - ({_NSRange=QQ}) editedRange;
- - (void) invalidateAttributesInRange:({_NSRange=QQ})a;
+ - (void) invalidateAttributesInRange:({_NSRange=QQ})a ;
  - (unsigned long long) editedMask;
  - (long long) changeInLength;
- - (void) _notifyEdited:(unsigned long long)arange:({_NSRange=QQ})bchangeInLength:(long long)cinvalidatedRange:({_NSRange=QQ})d;
+ - (void) _notifyEdited:(unsigned long long)a range:({_NSRange=QQ})b changeInLength:(long long)c invalidatedRange:({_NSRange=QQ})d ;
  - (void) fontSetChanged;
  - (void) processEditing;
- - (BOOL) _lockForWritingWithExceptionHandler:(BOOL)a;
+ - (BOOL) _lockForWritingWithExceptionHandler:(BOOL)a ;
  - (BOOL) fixesAttributesLazily;
- - ({_NSRange=QQ}) _rangeByEstimatingAttributeFixingForRange:({_NSRange=QQ})a;
+ - ({_NSRange=QQ}) _rangeByEstimatingAttributeFixingForRange:({_NSRange=QQ})a ;
  - (BOOL) _forceFixAttributes;
- - (void) setEditedMask:(unsigned long long)a;
- - (void) ensureAttributesAreFixedInRange:({_NSRange=QQ})a;
- - (void) setEditedRange:({_NSRange=QQ})a;
- - (void) setChangeInLength:(long long)a;
+ - (void) setEditedMask:(unsigned long long)a ;
+ - (void) ensureAttributesAreFixedInRange:({_NSRange=QQ})a ;
+ - (void) setEditedRange:({_NSRange=QQ})a ;
+ - (void) setChangeInLength:(long long)a ;
 
 
 @end

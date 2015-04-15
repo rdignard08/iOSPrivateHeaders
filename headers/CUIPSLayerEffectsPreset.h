@@ -3,7 +3,7 @@
 
 }
 
- - (id) initWithLayerEffects:(id)aforScaleFactor:(double)b;
+ - (id) initWithLayerEffects:(id)a forScaleFactor:(double)b ;
 
 
 @end

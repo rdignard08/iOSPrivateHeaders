@@ -6,8 +6,8 @@
 }
 
  - (void) layoutSubviews;
- - (id) _gradientImageForBoundsSize:({CGSize=dd})awithInnerColor:(id)bouterColor:(id)c;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) _gradientImageForBoundsSize:({CGSize=dd})a withInnerColor:(id)b outerColor:(id)c ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

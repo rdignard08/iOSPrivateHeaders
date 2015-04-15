@@ -19,29 +19,29 @@
  - (BOOL) isTranslucent;
  - (id) backgroundImage;
  - (void) _updateBackgroundImage;
- - (void) _setBarPosition:(long long)a;
- - (void) setBarStyle:(long long)a;
+ - (void) _setBarPosition:(long long)a ;
+ - (void) setBarStyle:(long long)a ;
  - (long long) barStyle;
- - (void) setTranslucent:(BOOL)a;
- - (void) setBarTintColor:(id)a;
+ - (void) setTranslucent:(BOOL)a ;
+ - (void) setBarTintColor:(id)a ;
  - (long long) _barPosition;
  - (id) barTintColor;
- - (void) setUsesEmbeddedAppearance:(BOOL)a;
- - (void) setSearchBarStyle:(unsigned long long)a;
- - (void) _setBehavesAsIfSearchBarHasController:(BOOL)a;
+ - (void) setUsesEmbeddedAppearance:(BOOL)a ;
+ - (void) setSearchBarStyle:(unsigned long long)a ;
+ - (void) _setBehavesAsIfSearchBarHasController:(BOOL)a ;
  - (BOOL) _hasCustomBackgroundImage;
- - (void) setUsesContiguousBarBackground:(BOOL)a;
- - (void) _setBackgroundImage:(id)aforBarPosition:(long long)bbarMetrics:(long long)c;
- - (id) _backgroundImageForBarPosition:(long long)abarMetrics:(long long)b;
+ - (void) setUsesContiguousBarBackground:(BOOL)a ;
+ - (void) _setBackgroundImage:(id)a forBarPosition:(long long)b barMetrics:(long long)c ;
+ - (id) _backgroundImageForBarPosition:(long long)a barMetrics:(long long)b ;
  - (BOOL) usesEmbeddedAppearance;
  - (unsigned long long) searchBarStyle;
  - (void) _updateBackgroundImageIfPossible;
- - (id) _createBackgroundImageForBarStyle:(long long)aalpha:(double)b;
+ - (id) _createBackgroundImageForBarStyle:(long long)a alpha:(double)b ;
  - (id) backgroundImagePrompt;
  - (BOOL) usesContiguousBarBackground;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

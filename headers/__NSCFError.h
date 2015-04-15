@@ -5,7 +5,7 @@
  + (BOOL) automaticallyNotifiesObserversForKey:(id)a;
 
  - (Class) classForCoder;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) retain;
  - (Vv) release;
  - (unsigned long long) retainCount;
@@ -16,7 +16,7 @@
  - (long long) code;
  - (id) userInfo;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
 
 
 @end

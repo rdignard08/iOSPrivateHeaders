@@ -30,10 +30,10 @@
  - (void) _computeSectionUpdates;
  - (void) _computeGaps;
  - (void) _computeItemUpdates;
- - (id) initWithCollectionView:(id)aupdateItems:(id)boldModel:(id)cnewModel:(id)doldVisibleBounds:({CGRect={CGPoint=dd}{CGSize=dd}})enewVisibleBounds:({CGRect={CGPoint=dd}{CGSize=dd}})f;
+ - (id) initWithCollectionView:(id)a updateItems:(id)b oldModel:(id)c newModel:(id)d oldVisibleBounds:({CGRect={CGPoint=dd}{CGSize=dd}})e newVisibleBounds:({CGRect={CGPoint=dd}{CGSize=dd}})f ;
  - (void) _computeSupplementaryUpdates;
- - (id) newIndexPathForSupplementaryElementOfKind:(id)aoldIndexPath:(id)b;
- - (id) oldIndexPathForSupplementaryElementOfKind:(id)anewIndexPath:(id)b;
+ - (id) newIndexPathForSupplementaryElementOfKind:(id)a oldIndexPath:(id)b ;
+ - (id) oldIndexPathForSupplementaryElementOfKind:(id)a newIndexPath:(id)b ;
 
 
 @end

@@ -10,9 +10,9 @@
 
  - (unsigned long long) spaceKeyBehavior;
  - (unsigned long long) returnKeyBehavior;
- - (id) initWithSpaceKeyBehavior:(unsigned long long)areturnKeyBehavior:(unsigned long long)b;
- - (void) setSpaceKeyBehavior:(unsigned long long)a;
- - (void) setReturnKeyBehavior:(unsigned long long)a;
+ - (id) initWithSpaceKeyBehavior:(unsigned long long)a returnKeyBehavior:(unsigned long long)b ;
+ - (void) setSpaceKeyBehavior:(unsigned long long)a ;
+ - (void) setReturnKeyBehavior:(unsigned long long)a ;
 
 
 @end

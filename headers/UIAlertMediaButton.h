@@ -10,9 +10,9 @@
  - (void) layoutSubviews;
  - (id) checkmarkView;
  - (id) tableIcon;
- - (void) setTableIcon:(id)a;
+ - (void) setTableIcon:(id)a ;
  - (id) highlightedTableIcon;
- - (void) setHighlightedTableIcon:(id)a;
+ - (void) setHighlightedTableIcon:(id)a ;
 
 
 @end

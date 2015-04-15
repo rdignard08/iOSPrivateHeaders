@@ -5,7 +5,7 @@
 }
 
  - (^{objc_ivar=}) ivar;
- - (id) initWithContainerClassID:(id)akey:(id)bcontainerIsa:(Class)civar:(^{objc_ivar=})dproxyClass:(Class)e;
+ - (id) initWithContainerClassID:(id)a key:(id)b containerIsa:(Class)c ivar:(^{objc_ivar=})d proxyClass:(Class)e ;
 
 
 @end

@@ -3,14 +3,14 @@
 
 }
 
- - (void) setType:(id)a;
+ - (void) setType:(id)a ;
  - (id) name;
  - (id) type;
- - (void) setValue:(id)a;
+ - (void) setValue:(id)a ;
  - (id) value;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
  - (id) valueType;
- - (void) setValueType:(id)a;
+ - (void) setValueType:(id)a ;
 
 
 @end

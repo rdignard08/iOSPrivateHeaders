@@ -12,29 +12,29 @@
  - (Vv) release;
  - (void) dealloc;
  - (void) finalize;
- - (id) objectAtIndex:(unsigned int)a;
- - (void) setValue:(id)aforKey:(id)b;
- - (id) valueForKey:(id)a;
+ - (id) objectAtIndex:(unsigned int)a ;
+ - (void) setValue:(id)a forKey:(id)b ;
+ - (id) valueForKey:(id)a ;
  - (id) stringRepresentation;
  - (^{RootObject=^^?IB^v{Strong<JSC::JSGlobalObject>=^{JSValue}}{HashCountedSet<JSC::JSObject *, WTF::PtrHash<JSC::JSObject *>, WTF::HashTraits<JSC::JSObject *> >={HashMap<JSC::JSObject *, unsigned int, WTF::PtrHash<JSC::JSObject *>, WTF::HashTraits<JSC::JSObject *>, WTF::HashTraits<unsigned int> >={HashTable<JSC::JSObject *, WTF::KeyValuePair<JSC::JSObject *, unsigned int>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<JSC::JSObject *, unsigned int> >, WTF::PtrHash<JSC::JSObject *>, WTF::HashMap<JSC::JSObject *, unsigned int, WTF::PtrHash<JSC::JSObject *>, WTF::HashTraits<JSC::JSObject *>, WTF::HashTraits<unsigned int> >::KeyValuePairTraits, WTF::HashTraits<JSC::JSObject *> >=^{KeyValuePair<JSC::JSObject *, unsigned int>}iiii}}}{HashMap<JSC::Bindings::RuntimeObject *, JSC::Weak<JSC::Bindings::RuntimeObject>, WTF::PtrHash<JSC::Bindings::RuntimeObject *>, WTF::HashTraits<JSC::Bindings::RuntimeObject *>, WTF::HashTraits<JSC::Weak<JSC::Bindings::RuntimeObject> > >={HashTable<JSC::Bindings::RuntimeObject *, WTF::KeyValuePair<JSC::Bindings::RuntimeObject *, JSC::Weak<JSC::Bindings::RuntimeObject> >, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<JSC::Bindings::RuntimeObject *, JSC::Weak<JSC::Bindings::RuntimeObject> > >, WTF::PtrHash<JSC::Bindings::RuntimeObject *>, WTF::HashMap<JSC::Bindings::RuntimeObject *, JSC::Weak<JSC::Bindings::RuntimeObject>, WTF::PtrHash<JSC::Bindings::RuntimeObject *>, WTF::HashTraits<JSC::Bindings::RuntimeObject *>, WTF::HashTraits<JSC::Weak<JSC::Bindings::RuntimeObject> > >::KeyValuePairTraits, WTF::HashTraits<JSC::Bindings::RuntimeObject *> >=^{KeyValuePair<JSC::Bindings::RuntimeObject *, JSC::Weak<JSC::Bindings::RuntimeObject> >}iiii}}{HashSet<JSC::Bindings::RootObject::InvalidationCallback *, WTF::PtrHash<JSC::Bindings::RootObject::InvalidationCallback *>, WTF::HashTraits<JSC::Bindings::RootObject::InvalidationCallback *> >={HashTable<JSC::Bindings::RootObject::InvalidationCallback *, JSC::Bindings::RootObject::InvalidationCallback *, WTF::IdentityExtractor, WTF::PtrHash<JSC::Bindings::RootObject::InvalidationCallback *>, WTF::HashTraits<JSC::Bindings::RootObject::InvalidationCallback *>, WTF::HashTraits<JSC::Bindings::RootObject::InvalidationCallback *> >=^^{InvalidationCallback}iiii}}}) _rootObject;
- - (void) _setImp:(^{JSObject=ICCCC{CopyWriteBarrier<JSC::Butterfly>=^{Butterfly}}})aoriginRootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})brootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})c;
+ - (void) _setImp:(^{JSObject=ICCCC{CopyWriteBarrier<JSC::Butterfly>=^{Butterfly}}})a originRootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})b rootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})c ;
  - (void) _initializeScriptDOMNodeImp;
  - (BOOL) _hasImp;
  - (^{JSObject=ICCCC{CopyWriteBarrier<JSC::Butterfly>=^{Butterfly}}}) _imp;
- - (void) _setOriginRootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})aandRootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})b;
- - (id) _initWithJSObject:(^{JSObject=ICCCC{CopyWriteBarrier<JSC::Butterfly>=^{Butterfly}}})aoriginRootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})brootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})c;
+ - (void) _setOriginRootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})a andRootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})b ;
+ - (id) _initWithJSObject:(^{JSObject=ICCCC{CopyWriteBarrier<JSC::Butterfly>=^{Butterfly}}})a originRootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})b rootObject:({PassRefPtr<JSC::Bindings::RootObject>=^{RootObject}})c ;
  - (BOOL) _isSafeScript;
  - (^{RootObject=^^?IB^v{Strong<JSC::JSGlobalObject>=^{JSValue}}{HashCountedSet<JSC::JSObject *, WTF::PtrHash<JSC::JSObject *>, WTF::HashTraits<JSC::JSObject *> >={HashMap<JSC::JSObject *, unsigned int, WTF::PtrHash<JSC::JSObject *>, WTF::HashTraits<JSC::JSObject *>, WTF::HashTraits<unsigned int> >={HashTable<JSC::JSObject *, WTF::KeyValuePair<JSC::JSObject *, unsigned int>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<JSC::JSObject *, unsigned int> >, WTF::PtrHash<JSC::JSObject *>, WTF::HashMap<JSC::JSObject *, unsigned int, WTF::PtrHash<JSC::JSObject *>, WTF::HashTraits<JSC::JSObject *>, WTF::HashTraits<unsigned int> >::KeyValuePairTraits, WTF::HashTraits<JSC::JSObject *> >=^{KeyValuePair<JSC::JSObject *, unsigned int>}iiii}}}{HashMap<JSC::Bindings::RuntimeObject *, JSC::Weak<JSC::Bindings::RuntimeObject>, WTF::PtrHash<JSC::Bindings::RuntimeObject *>, WTF::HashTraits<JSC::Bindings::RuntimeObject *>, WTF::HashTraits<JSC::Weak<JSC::Bindings::RuntimeObject> > >={HashTable<JSC::Bindings::RuntimeObject *, WTF::KeyValuePair<JSC::Bindings::RuntimeObject *, JSC::Weak<JSC::Bindings::RuntimeObject> >, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<JSC::Bindings::RuntimeObject *, JSC::Weak<JSC::Bindings::RuntimeObject> > >, WTF::PtrHash<JSC::Bindings::RuntimeObject *>, WTF::HashMap<JSC::Bindings::RuntimeObject *, JSC::Weak<JSC::Bindings::RuntimeObject>, WTF::PtrHash<JSC::Bindings::RuntimeObject *>, WTF::HashTraits<JSC::Bindings::RuntimeObject *>, WTF::HashTraits<JSC::Weak<JSC::Bindings::RuntimeObject> > >::KeyValuePairTraits, WTF::HashTraits<JSC::Bindings::RuntimeObject *> >=^{KeyValuePair<JSC::Bindings::RuntimeObject *, JSC::Weak<JSC::Bindings::RuntimeObject> >}iiii}}{HashSet<JSC::Bindings::RootObject::InvalidationCallback *, WTF::PtrHash<JSC::Bindings::RootObject::InvalidationCallback *>, WTF::HashTraits<JSC::Bindings::RootObject::InvalidationCallback *> >={HashTable<JSC::Bindings::RootObject::InvalidationCallback *, JSC::Bindings::RootObject::InvalidationCallback *, WTF::IdentityExtractor, WTF::PtrHash<JSC::Bindings::RootObject::InvalidationCallback *>, WTF::HashTraits<JSC::Bindings::RootObject::InvalidationCallback *>, WTF::HashTraits<JSC::Bindings::RootObject::InvalidationCallback *> >=^^{InvalidationCallback}iiii}}}) _originRootObject;
  - (^{OpaqueJSValue=}) JSObject;
  - (^{OpaqueJSContext=}) _globalContextRef;
- - (id) callWebScriptMethod:(id)awithArguments:(id)b;
- - (id) evaluateWebScript:(id)a;
- - (void) removeWebScriptKey:(id)a;
- - (BOOL) hasWebScriptKey:(id)a;
- - (id) webScriptValueAtIndex:(unsigned int)a;
- - (void) setWebScriptValueAtIndex:(unsigned int)avalue:(id)b;
+ - (id) callWebScriptMethod:(id)a withArguments:(id)b ;
+ - (id) evaluateWebScript:(id)a ;
+ - (void) removeWebScriptKey:(id)a ;
+ - (BOOL) hasWebScriptKey:(id)a ;
+ - (id) webScriptValueAtIndex:(unsigned int)a ;
+ - (void) setWebScriptValueAtIndex:(unsigned int)a value:(id)b ;
  - (id) JSValue;
- - (void) setException:(id)a;
+ - (void) setException:(id)a ;
 
 
 @end

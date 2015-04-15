@@ -19,26 +19,26 @@
  + (id) actionWithIdentifier:(id)atitle:(id)bactivationMode:(unsigned long long)cisAuthenticationRequired:(BOOL)d;
 
  - (id) title;
- - (void) setTitle:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (void) setTitle:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) validatedAction;
- - (id) initWithIdentifier:(id)atitle:(id)bactivationMode:(unsigned long long)cisAuthenticationRequired:(BOOL)disDestructive:(BOOL)e;
+ - (id) initWithIdentifier:(id)a title:(id)b activationMode:(unsigned long long)c isAuthenticationRequired:(BOOL)d isDestructive:(BOOL)e ;
  - (unsigned long long) activationMode;
  - (BOOL) isAuthenticationRequired;
  - (BOOL) isDestructive;
  - (id) activationModeString;
- - (void) setActivationMode:(unsigned long long)a;
- - (void) setAuthenticationRequired:(BOOL)a;
- - (void) setDestructive:(BOOL)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setActivationMode:(unsigned long long)a ;
+ - (void) setAuthenticationRequired:(BOOL)a ;
+ - (void) setDestructive:(BOOL)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) identifier;
- - (void) setIdentifier:(id)a;
+ - (void) setIdentifier:(id)a ;
 
 
 @end

@@ -6,10 +6,10 @@
 }
 
  - (void) crap;
- - (r*) typeForEncoding:(r*)a;
+ - (r*) typeForEncoding:(r*)a ;
  - (void) .cxx_destruct;
- - (BOOL) application:(id)adidFinishLaunchingWithOptions:(id)b;
- - (void) setWindow:(id)a;
+ - (BOOL) application:(id)a didFinishLaunchingWithOptions:(id)b ;
+ - (void) setWindow:(id)a ;
  - (id) window;
 
 

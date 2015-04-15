@@ -12,24 +12,24 @@
  + (id) customAttributes;
 
  - (void) dealloc;
- - (void) setValue:(id)aforKey:(id)b;
+ - (void) setValue:(id)a forKey:(id)b ;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (BOOL) _isIdentity;
- - (void) setInputContrast:(id)a;
+ - (void) setInputContrast:(id)a ;
  - (id) inputContrast;
  - (id) inputUseCube;
- - (void) setInputUseCube:(id)a;
+ - (void) setInputUseCube:(id)a ;
  - (id) _kernelV_lt1;
  - (id) _kernelV_gt1;
  - (id) _kernelCPos;
  - (id) _kernelCNeg;
  - (id) _kernelCast;
  - (id) inputVibrancy;
- - (void) setInputVibrancy:(id)a;
+ - (void) setInputVibrancy:(id)a ;
  - (id) inputCast;
- - (void) setInputCast:(id)a;
+ - (void) setInputCast:(id)a ;
 
 
 @end

@@ -20,26 +20,26 @@
  + (id) traitCollectionWithTouchLevel:(long long)a;
  + (id) _traitCollectionWithValue:(id)aforTraitNamed:(id)b;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (long long) userInterfaceIdiom;
  - (long long) verticalSizeClass;
  - (long long) horizontalSizeClass;
- - (id) _initWithBuiltinTraitStorage:(^{?=qdqQqq})aclientDefinedTraits:(id)b;
+ - (id) _initWithBuiltinTraitStorage:(^{?=qdqQqq})a clientDefinedTraits:(id)b ;
  - (double) displayScale;
- - (BOOL) containsTraitsInCollection:(id)a;
+ - (BOOL) containsTraitsInCollection:(id)a ;
  - (unsigned long long) interactionModel;
- - (id) _valueForTraitNamed:(id)a;
- - (long long) _compare:(id)a;
+ - (id) _valueForTraitNamed:(id)a ;
+ - (long long) _compare:(id)a ;
  - (id) _namedImageDescription;
- - (BOOL) _matchesIntersectionWithTraitCollection:(id)a;
+ - (BOOL) _matchesIntersectionWithTraitCollection:(id)a ;
  - (long long) touchLevel;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

@@ -22,21 +22,21 @@
 
  - (void) parse;
  - (id) constraints;
- - (id) initWithFormat:(id)aoptions:(unsigned long long)bmetrics:(id)cviews:(id)d;
+ - (id) initWithFormat:(id)a options:(unsigned long long)b metrics:(id)c views:(id)d ;
  - (id) descriptionLineWithCurrentCharacterPointer;
- - (void) failWithDescription:(id)a;
+ - (void) failWithDescription:(id)a ;
  - (void) parseConnection;
  - (id) parseView;
  - (void) finishConstraint;
  - (void) flushWidthConstraints;
  - ({_NSRange=QQ}) rangeOfName;
- - (id) layoutItemForKey:(id)a;
+ - (id) layoutItemForKey:(id)a ;
  - (void) parsePredicateList;
  - (void) parsePredicateWithParentheses;
  - (void) parsePredicate;
  - (void) parseOp;
  - (double) parseConstant;
- - (id) metricForKey:(id)a;
+ - (id) metricForKey:(id)a ;
  - (void) findContainerView;
  - (id) description;
  - (void) dealloc;

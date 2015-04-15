@@ -19,8 +19,8 @@
  - (int) offsetY;
  - (id) fromElement;
  - (id) toElement;
- - (void) initMouseEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)ddetail:(int)escreenX:(int)fscreenY:(int)gclientX:(int)hclientY:(int)ictrlKey:(BOOL)jaltKey:(BOOL)kshiftKey:(BOOL)lmetaKey:(BOOL)mbutton:(unsigned short)nrelatedTarget:(id)o;
- - (void) initMouseEvent:(id)a;
+ - (void) initMouseEvent:(id)a canBubble:(BOOL)b cancelable:(BOOL)c view:(id)d detail:(int)e screenX:(int)f screenY:(int)g clientX:(int)h clientY:(int)i ctrlKey:(BOOL)j altKey:(BOOL)k shiftKey:(BOOL)l metaKey:(BOOL)m button:(unsigned short)n relatedTarget:(id)o ;
+ - (void) initMouseEvent:(id)a ;
 
 
 @end

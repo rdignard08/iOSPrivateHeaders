@@ -9,7 +9,7 @@
 @property (nonatomic, assign, readwrite) NSNumber* cancelled;
 
  - (BOOL) cancelled;
- - (void) setCancelled:(BOOL)a;
+ - (void) setCancelled:(BOOL)a ;
 
 
 @end

@@ -14,32 +14,32 @@
 @property (nonatomic, assign, readwrite) NSNumber* enabled;
 
  - (void) dealloc;
- - (BOOL) gestureRecognizerShouldBegin:(id)a;
- - (BOOL) gestureRecognizer:(id)ashouldRecognizeSimultaneouslyWithGestureRecognizer:(id)b;
- - (BOOL) gestureRecognizer:(id)ashouldReceiveTouch:(id)b;
+ - (BOOL) gestureRecognizerShouldBegin:(id)a ;
+ - (BOOL) gestureRecognizer:(id)a shouldRecognizeSimultaneouslyWithGestureRecognizer:(id)b ;
+ - (BOOL) gestureRecognizer:(id)a shouldReceiveTouch:(id)b ;
  - (id) selectionView;
  - (id) selection;
  - (void) selectionChanged;
- - (id) initWithView:(id)a;
+ - (id) initWithView:(id)a ;
  - (void) setGestureRecognizers;
  - (void) resignedFirstResponder;
  - (BOOL) enabled;
  - (void) clearSelection;
- - (void) layoutChangedByScrolling:(BOOL)a;
+ - (void) layoutChangedByScrolling:(BOOL)a ;
  - (void) willStartScrollingOverflow;
  - (void) didEndScrollingOverflow;
  - (void) scaleChanged;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) selectionFrame;
  - (void) willStartScrollingOrZoomingPage;
  - (void) didEndScrollingOrZoomingPage;
- - (BOOL) isSelectionGestureRecognizer:(id)a;
- - (void) willRotate:(id)a;
- - (void) didRotate:(id)a;
- - (void) makeWebSelection:(id)a;
+ - (BOOL) isSelectionGestureRecognizer:(id)a ;
+ - (void) willRotate:(id)a ;
+ - (void) didRotate:(id)a ;
+ - (void) makeWebSelection:(id)a ;
  - (void) hideCallout;
- - (void) tap:(id)a;
- - (id) hitTest:({CGPoint=dd})awithEvent:(id)bfromView:(id)c;
- - (void) setEnabled:(BOOL)a;
+ - (void) tap:(id)a ;
+ - (id) hitTest:({CGPoint=dd})a withEvent:(id)b fromView:(id)c ;
+ - (void) setEnabled:(BOOL)a ;
 
 
 @end

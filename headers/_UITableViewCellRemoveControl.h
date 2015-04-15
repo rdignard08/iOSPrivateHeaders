@@ -4,7 +4,7 @@
     float _verticalOffset;
 }
 
- - (id) initWithTarget:(id)a;
+ - (id) initWithTarget:(id)a ;
  - (float) _verticalOffsetFromTarget;
 
 

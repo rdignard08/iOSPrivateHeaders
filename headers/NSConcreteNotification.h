@@ -8,7 +8,7 @@
 }
  + (id) newTempNotificationWithName:(id)aobject:(id)buserInfo:(id)c;
 
- - (id) initWithName:(id)aobject:(id)buserInfo:(id)c;
+ - (id) initWithName:(id)a object:(id)b userInfo:(id)c ;
  - (void) recycle;
  - (void) dealloc;
  - (id) userInfo;

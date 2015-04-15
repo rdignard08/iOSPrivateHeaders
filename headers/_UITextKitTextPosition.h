@@ -8,12 +8,12 @@
  + (id) positionWithOffset:(long long)aaffinity:(long long)b;
 
  - (id) description;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (long long) affinity;
- - (void) setAffinity:(long long)a;
+ - (void) setAffinity:(long long)a ;
  - (id) init;
  - (long long) offset;
- - (void) setOffset:(long long)a;
+ - (void) setOffset:(long long)a ;
 
 
 @end

@@ -8,19 +8,19 @@
  + (id) writerWithData:(id)a;
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) baseURL;
- - (void) encodeObject:(id)a;
+ - (void) encodeObject:(id)a ;
  - (id) delegate;
- - (id) initWithData:(id)a;
- - (void) setElementAttribute:(id)aforKey:(id)b;
- - (void) beginPropertyElement:(id)a;
+ - (id) initWithData:(id)a ;
+ - (void) setElementAttribute:(id)a forKey:(id)b ;
+ - (void) beginPropertyElement:(id)a ;
  - (void) endElement;
- - (void) beginElement:(unsigned int)a;
- - (void) setElementContent:(id)a;
- - (id) URLStringForResource:(id)a;
- - (void) setBaseURL:(id)a;
- - (void) _writeElementTree:(^{_CAMLWriterElement=^{_CAMLWriterElement}^{_CAMLWriterElement}^{_CAMLWriterElement}^^{_CAMLWriterElement}^v^{__CFString}^{_CAMLWriterAttribute}^^{_CAMLWriterAttribute}^{__CFString}I})a;
+ - (void) beginElement:(unsigned int)a ;
+ - (void) setElementContent:(id)a ;
+ - (id) URLStringForResource:(id)a ;
+ - (void) setBaseURL:(id)a ;
+ - (void) _writeElementTree:(^{_CAMLWriterElement=^{_CAMLWriterElement}^{_CAMLWriterElement}^{_CAMLWriterElement}^^{_CAMLWriterElement}^v^{__CFString}^{_CAMLWriterAttribute}^^{_CAMLWriterAttribute}^{__CFString}I})a ;
 
 
 @end

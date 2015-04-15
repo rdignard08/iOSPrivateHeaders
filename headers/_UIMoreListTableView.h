@@ -5,7 +5,7 @@
 }
 
  - (void) didMoveToWindow;
- - (void) set_listController:(id)a;
+ - (void) set_listController:(id)a ;
  - (id) _listController;
 
 

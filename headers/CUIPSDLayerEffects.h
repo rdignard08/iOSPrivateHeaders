@@ -11,14 +11,14 @@
 
  - (void) dealloc;
  - (id) init;
- - (void) setVisible:(BOOL)a;
- - (void) setEffectScale:(double)a;
- - (void) addLayerEffectComponent:(id)a;
+ - (void) setVisible:(BOOL)a ;
+ - (void) setEffectScale:(double)a ;
+ - (void) addLayerEffectComponent:(id)a ;
  - (id) effectList;
  - (BOOL) visible;
  - (double) effectScale;
  - (id) dropShadow;
- - (void) setEffectList:(id)a;
+ - (void) setEffectList:(id)a ;
 
 
 @end

@@ -9,7 +9,7 @@
     NSConnection* parent;
 }
 
- - (void) setWhitelist:(id)a;
+ - (void) setWhitelist:(id)a ;
  - (void) dealloc;
  - (void) finalize;
  - (id) init;

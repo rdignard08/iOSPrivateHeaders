@@ -24,16 +24,16 @@
  - (id) description;
  - (void) dealloc;
  - (id) name;
- - (void) setReserved:(id)a;
+ - (void) setReserved:(id)a ;
  - (id) reserved;
- - (id) initToResolve:(id)aas:(int)b;
- - (void) __resolveWithFlags:(int)aresultArray:(id)bhandler:(@?)c;
- - (void) resolveCurrentHostWithHandler:(@?)a;
- - (void) resolve:(@?)a;
+ - (id) initToResolve:(id)a as:(int)b ;
+ - (void) __resolveWithFlags:(int)a resultArray:(id)b handler:(@?)c ;
+ - (void) resolveCurrentHostWithHandler:(@?)a ;
+ - (void) resolve:(@?)a ;
  - (id) addresses;
- - (void) blockingResolveUntil:(int)a;
+ - (void) blockingResolveUntil:(int)a ;
  - (id) names;
- - (BOOL) isEqualToHost:(id)a;
+ - (BOOL) isEqualToHost:(id)a ;
 
 
 @end

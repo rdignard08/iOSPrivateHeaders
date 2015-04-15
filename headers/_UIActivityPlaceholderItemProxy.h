@@ -5,15 +5,15 @@
     id _placeholderItem;
 }
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
+ - (void) forwardInvocation:(id)a ;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (BOOL) respondsToSelector:(SEL)a;
- - (id) methodSignatureForSelector:(SEL)a;
- - (id) initWithPlaceholderItem:(id)a;
+ - (BOOL) isEqual:(id)a ;
+ - (BOOL) respondsToSelector:(SEL)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
+ - (id) initWithPlaceholderItem:(id)a ;
  - (Class) class;
  - (BOOL) isProxy;
  - (Class) superclass;

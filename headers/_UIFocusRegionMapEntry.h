@@ -11,12 +11,12 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setAssociatedView:(id)a;
+ - (void) setAssociatedView:(id)a ;
  - (id) associatedView;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frame;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

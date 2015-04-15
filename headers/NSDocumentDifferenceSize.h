@@ -10,8 +10,8 @@
  - (long long) changeCount;
  - (id) description;
  - (long long) generationCount;
- - (void) setGenerationCount:(long long)a;
- - (void) setChangeCount:(long long)a;
+ - (void) setGenerationCount:(long long)a ;
+ - (void) setChangeCount:(long long)a ;
 
 
 @end

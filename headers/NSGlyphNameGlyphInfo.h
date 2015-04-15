@@ -7,9 +7,9 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithGlyphName:(id)aglyph:(unsigned int)bforFont:(id)cbaseString:(id)d;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithGlyphName:(id)a glyph:(unsigned int)b forFont:(id)c baseString:(id)d ;
  - (id) glyphName;
 
 

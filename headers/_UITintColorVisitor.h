@@ -9,11 +9,11 @@
     UIView* _changedSubview;
 }
 
- - (id) initWithNotificationReasons:(unsigned long long)a;
- - (id) initWithTraversalDirection:(unsigned long long)a;
- - (BOOL) _prepareVisitor:(id)atoVisitView:(id)bchangedSubview:(id)cpreviousWindow:(id)dpreviousSuperview:(id)e;
- - (BOOL) _visitView:(id)a;
- - (void) _prepareForView:(id)atrackingHierarchy:(BOOL)b;
+ - (id) initWithNotificationReasons:(unsigned long long)a ;
+ - (id) initWithTraversalDirection:(unsigned long long)a ;
+ - (BOOL) _prepareVisitor:(id)a toVisitView:(id)b changedSubview:(id)c previousWindow:(id)d previousSuperview:(id)e ;
+ - (BOOL) _visitView:(id)a ;
+ - (void) _prepareForView:(id)a trackingHierarchy:(BOOL)b ;
 
 
 @end

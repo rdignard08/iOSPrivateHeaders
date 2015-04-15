@@ -11,10 +11,10 @@
  + (void) loadPackageViewWithContentsOfURL:(id)apublishedObjectViewClassMap:(id)bcompletion:(@?)c;
 
  - (void) dealloc;
- - (id) initWithData:(id)apublishedObjectViewClassMap:(id)b;
- - (id) publishedObjectWithName:(id)a;
- - (id) initWithContentsOfURL:(id)apublishedObjectViewClassMap:(id)b;
- - (id) publishedViewWithName:(id)a;
+ - (id) initWithData:(id)a publishedObjectViewClassMap:(id)b ;
+ - (id) publishedObjectWithName:(id)a ;
+ - (id) initWithContentsOfURL:(id)a publishedObjectViewClassMap:(id)b ;
+ - (id) publishedViewWithName:(id)a ;
 
 
 @end

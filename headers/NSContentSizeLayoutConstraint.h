@@ -6,10 +6,10 @@
 }
 
  - (id) _priorityDescription;
- - (double) priorityForVariable:(id)a;
+ - (double) priorityForVariable:(id)a ;
  - (double) huggingPriority;
  - (double) compressionResistancePriority;
- - (id) initWithLayoutItem:(id)avalue:(double)bhuggingPriority:(double)ccompressionResistancePriority:(double)dorientation:(long long)e;
+ - (id) initWithLayoutItem:(id)a value:(double)b huggingPriority:(double)c compressionResistancePriority:(double)d orientation:(long long)e ;
 
 
 @end

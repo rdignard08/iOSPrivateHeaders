@@ -13,13 +13,13 @@
  + (id) extraView:(id)awithAlignment:(int)banimation:(@?)conSnapshot:(BOOL)d;
 
  - (void) dealloc;
- - (void) setView:(id)a;
- - (void) setClipContainerType:(int)a;
+ - (void) setView:(id)a ;
+ - (void) setClipContainerType:(int)a ;
  - (int) clipContainerType;
  - (@?) animation;
- - (void) setAnimation:(@?)a;
+ - (void) setAnimation:(@?)a ;
  - (int) alignment;
- - (void) setAlignment:(int)a;
+ - (void) setAlignment:(int)a ;
  - (id) view;
 
 

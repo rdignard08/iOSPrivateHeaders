@@ -13,23 +13,23 @@
  - (id) opacityStops;
  - (double) smoothingCoefficient;
  - (BOOL) isDithered;
- - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})aangle:(double)bwithContext:(^{CGContext=})c;
- - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})arelativeCenterPosition:({CGPoint=dd})bwithContext:(^{CGContext=})c;
- - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})aangle:(double)b;
- - ({_psdGradientColor=dddd}) _psdGradientColorWithColor:(id)acolorSpace:(^{CGColorSpace=})b;
- - (id) initWithColors:(id)acolorlocations:(id)bcolorMidpoints:(id)copacities:(id)dopacityLocations:(id)eopacityMidpoints:(id)fsmoothingCoefficient:(double)gfillColor:(id)hcolorSpace:(^{CGColorSpace=})idither:(BOOL)j;
- - (id) _psdGradientColorStopsWithColors:(id)alocations:(id)bcolorSpace:(^{CGColorSpace=})c;
- - (id) _psdGradientOpacityStopsWithOpacities:(id)alocations:(id)b;
- - (id) _initWithGradientEvaluator:(id)acolorSpace:(^{CGColorSpace=})b;
- - (id) _colorFromPSDGradientColor:({_psdGradientColor=dddd})a;
- - (void) drawFromPoint:({CGPoint=dd})atoPoint:({CGPoint=dd})boptions:(unsigned long long)cwithContext:(^{CGContext=})d;
- - (^{CGFunction=}) _newColorShaderForDistance:(double)a;
+ - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a angle:(double)b withContext:(^{CGContext=})c ;
+ - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a relativeCenterPosition:({CGPoint=dd})b withContext:(^{CGContext=})c ;
+ - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a angle:(double)b ;
+ - ({_psdGradientColor=dddd}) _psdGradientColorWithColor:(id)a colorSpace:(^{CGColorSpace=})b ;
+ - (id) initWithColors:(id)a colorlocations:(id)b colorMidpoints:(id)c opacities:(id)d opacityLocations:(id)e opacityMidpoints:(id)f smoothingCoefficient:(double)g fillColor:(id)h colorSpace:(^{CGColorSpace=})i dither:(BOOL)j ;
+ - (id) _psdGradientColorStopsWithColors:(id)a locations:(id)b colorSpace:(^{CGColorSpace=})c ;
+ - (id) _psdGradientOpacityStopsWithOpacities:(id)a locations:(id)b ;
+ - (id) _initWithGradientEvaluator:(id)a colorSpace:(^{CGColorSpace=})b ;
+ - (id) _colorFromPSDGradientColor:({_psdGradientColor=dddd})a ;
+ - (void) drawFromPoint:({CGPoint=dd})a toPoint:({CGPoint=dd})b options:(unsigned long long)c withContext:(^{CGContext=})d ;
+ - (^{CGFunction=}) _newColorShaderForDistance:(double)a ;
  - (^{CGFunction=}) colorShader;
- - (id) interpolatedColorAtLocation:(double)a;
- - (id) initWithColors:(id)acolorlocations:(id)bcolorMidpoints:(id)copacities:(id)dopacityLocations:(id)eopacityMidpoints:(id)fsmoothingCoefficient:(double)gfillColor:(id)hcolorSpace:(^{CGColorSpace=})i;
+ - (id) interpolatedColorAtLocation:(double)a ;
+ - (id) initWithColors:(id)a colorlocations:(id)b colorMidpoints:(id)c opacities:(id)d opacityLocations:(id)e opacityMidpoints:(id)f smoothingCoefficient:(double)g fillColor:(id)h colorSpace:(^{CGColorSpace=})i ;
  - (id) colorLocations;
  - (id) opacityLocations;
- - (void) drawFromPoint:({CGPoint=dd})atoPoint:({CGPoint=dd})boptions:(unsigned long long)c;
+ - (void) drawFromPoint:({CGPoint=dd})a toPoint:({CGPoint=dd})b options:(unsigned long long)c ;
  - (id) fillColor;
 
 

@@ -8,14 +8,14 @@
  + (id) newWithDictionary:(id)a;
  + (id) emptyAttributeDictionary;
 
- - (id) newWithKey:(id)aobject:(id)b;
- - (unsigned long long) slotForKey:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) newWithKey:(id)a object:(id)b ;
+ - (unsigned long long) slotForKey:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (void) finalize;
  - (unsigned long long) count;
- - (id) objectForKey:(id)a;
+ - (id) objectForKey:(id)a ;
  - (id) keyEnumerator;
 
 

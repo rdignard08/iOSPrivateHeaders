@@ -14,13 +14,13 @@
 
  - (void) dealloc;
  - (unsigned long long) bytesPerRow;
- - (id) initWithWidth:(unsigned long long)aheight:(unsigned long long)bbytesPerRow:(unsigned long long)cbuffer:(char*)dfreeBufferWhenDone:(BOOL)e;
+ - (id) initWithWidth:(unsigned long long)a height:(unsigned long long)b bytesPerRow:(unsigned long long)c buffer:(char*)d freeBufferWhenDone:(BOOL)e ;
  - (unsigned long long) width;
  - (unsigned long long) height;
  - (char*) getAlignedImageData;
- - (void) setWidth:(unsigned long long)a;
- - (void) setHeight:(unsigned long long)a;
- - (void) setBytesPerRow:(unsigned long long)a;
+ - (void) setWidth:(unsigned long long)a ;
+ - (void) setHeight:(unsigned long long)a ;
+ - (void) setBytesPerRow:(unsigned long long)a ;
 
 
 @end

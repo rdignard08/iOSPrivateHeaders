@@ -11,10 +11,10 @@
  + (id) _tagBlipColors;
  + (id) allTags;
 
- - (void) setObserver:(id)a;
+ - (void) setObserver:(id)a ;
  - (id) description;
  - (void) dealloc;
- - (id) initWithURL:(id)a;
+ - (id) initWithURL:(id)a ;
  - (id) scopes;
  - (BOOL) afterInitialUpdate;
  - (void) updateSortDescriptors;
@@ -22,16 +22,16 @@
  - (void) startMonitoringChanges;
  - (void) stopMonitoringChanges;
  - (id) displayTitle;
- - (void) refreshItem:(id)athumbnailOnly:(BOOL)b;
- - (void) setUrl:(id)a;
- - (void) setDisplayTitle:(id)a;
+ - (void) refreshItem:(id)a thumbnailOnly:(BOOL)b ;
+ - (void) setUrl:(id)a ;
+ - (void) setDisplayTitle:(id)a ;
  - (id) observer;
  - (id) _containerListDidChange;
- - (void) modelChangedWithSnapshot:(id)adifferences:(id)b;
- - (void) callUpdateHandlerWithNewItems:(id)adiff:(id)b;
- - (BOOL) shouldShowContainerForType:(id)a;
- - (BOOL) shouldAllowPickingType:(id)a;
- - (void) setModelObjects:(id)a;
+ - (void) modelChangedWithSnapshot:(id)a differences:(id)b ;
+ - (void) callUpdateHandlerWithNewItems:(id)a diff:(id)b ;
+ - (BOOL) shouldShowContainerForType:(id)a ;
+ - (BOOL) shouldAllowPickingType:(id)a ;
+ - (void) setModelObjects:(id)a ;
  - (id) url;
 
 

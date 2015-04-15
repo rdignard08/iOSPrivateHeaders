@@ -12,26 +12,26 @@
  - (BOOL) isCancelled;
  - (void) dealloc;
  - (id) containerView;
- - (id) viewControllerForKey:(id)a;
- - (id) viewForKey:(id)a;
+ - (id) viewControllerForKey:(id)a ;
+ - (id) viewForKey:(id)a ;
  - (BOOL) isInteractive;
  - (double) percentComplete;
  - (long long) presentationStyle;
  - (BOOL) isRotating;
  - (BOOL) isAnimated;
  - (void) _runAlongsideAnimations;
- - (void) setContainerView:(id)a;
+ - (void) setContainerView:(id)a ;
  - (void) _runAlongsideCompletionsAfterCommit;
- - (BOOL) animateAlongsideTransition:(@?)acompletion:(@?)b;
- - (BOOL) animateAlongsideTransitionInView:(id)aanimation:(@?)bcompletion:(@?)c;
+ - (BOOL) animateAlongsideTransition:(@?)a completion:(@?)b ;
+ - (BOOL) animateAlongsideTransitionInView:(id)a animation:(@?)b completion:(@?)c ;
  - (double) transitionDuration;
  - (long long) completionCurve;
- - (void) notifyWhenInteractionEndsUsingBlock:(@?)a;
+ - (void) notifyWhenInteractionEndsUsingBlock:(@?)a ;
  - (BOOL) initiallyInteractive;
  - ({CGAffineTransform=dddddd}) targetTransform;
- - (id) _alongsideAnimations:(BOOL)a;
- - (id) _alongsideCompletions:(BOOL)a;
- - (void) _applyBlocks:(id)areleaseBlocks:(@?)b;
+ - (id) _alongsideAnimations:(BOOL)a ;
+ - (id) _alongsideCompletions:(BOOL)a ;
+ - (void) _applyBlocks:(id)a releaseBlocks:(@?)b ;
  - (double) completionVelocity;
 
 

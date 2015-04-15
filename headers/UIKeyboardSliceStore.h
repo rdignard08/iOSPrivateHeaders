@@ -9,8 +9,8 @@
  + (void) archiveSet:(id)a;
 
  - (void) dealloc;
- - (id) sliceSetForID:(id)a;
- - (void) addSet:(id)a;
+ - (id) sliceSetForID:(id)a ;
+ - (void) addSet:(id)a ;
  - (id) init;
 
 

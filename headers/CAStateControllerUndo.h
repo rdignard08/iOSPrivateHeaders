@@ -15,14 +15,14 @@
  - (void) dealloc;
  - (id) next;
  - (id) state;
- - (void) setState:(id)a;
- - (void) setElements:(id)a;
+ - (void) setState:(id)a ;
+ - (void) setElements:(id)a ;
  - (id) elements;
- - (void) addElement:(id)a;
- - (void) willAddLayer:(id)a;
- - (void) addTransition:(id)a;
+ - (void) addElement:(id)a ;
+ - (void) willAddLayer:(id)a ;
+ - (void) addTransition:(id)a ;
  - (id) transitions;
- - (void) setTransitions:(id)a;
+ - (void) setTransitions:(id)a ;
 
 
 @end

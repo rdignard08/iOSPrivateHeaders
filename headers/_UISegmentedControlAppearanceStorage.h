@@ -19,28 +19,28 @@
 @property (nonatomic, retain, readwrite) UIImage* optionsBackgroundImage;
 
  - (void) dealloc;
- - (id) textAttributesForState:(unsigned long long)a;
- - (void) setTextAttributes:(id)aforState:(unsigned long long)b;
- - (id) contentPositionOffsetForSegment:(long long)ainMiniBar:(BOOL)bnoFallback:(BOOL)c;
- - (id) backgroundImageForState:(unsigned long long)aisMini:(BOOL)bwithFallback:(BOOL)c;
- - (id) anyDividerImageForMini:(BOOL)a;
- - (id) dividerImageForLeftSegmentState:(unsigned long long)arightSegmentState:(unsigned long long)bisMini:(BOOL)cwithFallback:(BOOL)d;
- - (void) setContentPositionOffset:(id)aforSegment:(long long)binMiniBar:(BOOL)c;
- - (void) setBackgroundImage:(id)aforState:(unsigned long long)bisMini:(BOOL)c;
- - (void) setDividerImage:(id)aforLeftSegmentState:(unsigned long long)brightSegmentState:(unsigned long long)cisMini:(BOOL)d;
- - (void) takeTextAttributesFrom:({?=@@@@@{CGSize=dd}})aforState:(unsigned long long)b;
+ - (id) textAttributesForState:(unsigned long long)a ;
+ - (void) setTextAttributes:(id)a forState:(unsigned long long)b ;
+ - (id) contentPositionOffsetForSegment:(long long)a inMiniBar:(BOOL)b noFallback:(BOOL)c ;
+ - (id) backgroundImageForState:(unsigned long long)a isMini:(BOOL)b withFallback:(BOOL)c ;
+ - (id) anyDividerImageForMini:(BOOL)a ;
+ - (id) dividerImageForLeftSegmentState:(unsigned long long)a rightSegmentState:(unsigned long long)b isMini:(BOOL)c withFallback:(BOOL)d ;
+ - (void) setContentPositionOffset:(id)a forSegment:(long long)b inMiniBar:(BOOL)c ;
+ - (void) setBackgroundImage:(id)a forState:(unsigned long long)b isMini:(BOOL)c ;
+ - (void) setDividerImage:(id)a forLeftSegmentState:(unsigned long long)b rightSegmentState:(unsigned long long)c isMini:(BOOL)d ;
+ - (void) takeTextAttributesFrom:({?=@@@@@{CGSize=dd}})a forState:(unsigned long long)b ;
  - (BOOL) wantsTrackingSuppressed;
- - (void) setBackgroundPositionAdjustment:(double)aforBarMetrics:(long long)b;
- - (double) backgroundPositionAdjustmentForBarMetrics:(long long)a;
- - (id) contentPositionOffsetForSegment:(long long)ainMiniBar:(BOOL)b;
- - (id) backgroundImageForState:(unsigned long long)aisMini:(BOOL)b;
+ - (void) setBackgroundPositionAdjustment:(double)a forBarMetrics:(long long)b ;
+ - (double) backgroundPositionAdjustmentForBarMetrics:(long long)a ;
+ - (id) contentPositionOffsetForSegment:(long long)a inMiniBar:(BOOL)b ;
+ - (id) backgroundImageForState:(unsigned long long)a isMini:(BOOL)b ;
  - (id) anyDividerImage;
- - (id) dividerImageForLeftSegmentState:(unsigned long long)arightSegmentState:(unsigned long long)bisMini:(BOOL)c;
+ - (id) dividerImageForLeftSegmentState:(unsigned long long)a rightSegmentState:(unsigned long long)b isMini:(BOOL)c ;
  - (BOOL) legacySuppressOptionsBackground;
- - (void) setDetail:(^{?=@dd{?=@@@@@{CGSize=dd}}{?=@@@@@{CGSize=dd}}{?=@@@@@{CGSize=dd}}{?=@@@@@{CGSize=dd}}B})a;
- - (void) setIsTiled:(BOOL)aleftCapWidth:(unsigned long long)brightCapWidth:(unsigned long long)c;
+ - (void) setDetail:(^{?=@dd{?=@@@@@{CGSize=dd}}{?=@@@@@{CGSize=dd}}{?=@@@@@{CGSize=dd}}{?=@@@@@{CGSize=dd}}B})a ;
+ - (void) setIsTiled:(BOOL)a leftCapWidth:(unsigned long long)b rightCapWidth:(unsigned long long)c ;
  - (id) optionsBackgroundImage;
- - (void) setOptionsBackgroundImage:(id)a;
+ - (void) setOptionsBackgroundImage:(id)a ;
  - (id) init;
 
 

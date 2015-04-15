@@ -9,12 +9,12 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (id) titleLabel;
- - (id) initWithReuseIdentifier:(id)a;
- - (void) setTitleLabel:(id)a;
+ - (id) initWithReuseIdentifier:(id)a ;
+ - (void) setTitleLabel:(id)a ;
  - (BOOL) showActive;
- - (void) setShowActive:(BOOL)a;
+ - (void) setShowActive:(BOOL)a ;
  - (id) hostLabel;
- - (void) setHostLabel:(id)a;
+ - (void) setHostLabel:(id)a ;
 
 
 @end

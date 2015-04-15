@@ -7,7 +7,7 @@
 }
  + (void) initialize;
 
- - (id) initWithDominantScript:(id)alanguageMap:(id)b;
+ - (id) initWithDominantScript:(id)a languageMap:(id)b ;
  - (unsigned int) orthographyFlags;
  - (id) dominantScript;
  - (id) languageMap;

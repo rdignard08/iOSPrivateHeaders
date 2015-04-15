@@ -12,7 +12,7 @@
  - (BOOL) metaKey;
  - (id) targetTouches;
  - (id) changedTouches;
- - (void) initTouchEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)cview:(id)ddetail:(int)escreenX:(int)fscreenY:(int)gclientX:(int)hclientY:(int)ictrlKey:(BOOL)jaltKey:(BOOL)kshiftKey:(BOOL)lmetaKey:(BOOL)mtouches:(id)ntargetTouches:(id)ochangedTouches:(id)pscale:(float)qrotation:(float)r;
+ - (void) initTouchEvent:(id)a canBubble:(BOOL)b cancelable:(BOOL)c view:(id)d detail:(int)e screenX:(int)f screenY:(int)g clientX:(int)h clientY:(int)i ctrlKey:(BOOL)j altKey:(BOOL)k shiftKey:(BOOL)l metaKey:(BOOL)m touches:(id)n targetTouches:(id)o changedTouches:(id)p scale:(float)q rotation:(float)r ;
 
 
 @end

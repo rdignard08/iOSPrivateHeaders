@@ -9,9 +9,9 @@
 
  - (void) dealloc;
  - (@?) previousCompleteHandler;
- - (void) setPreviousCompleteHandler:(@?)a;
+ - (void) setPreviousCompleteHandler:(@?)a ;
  - (BOOL) isAnimationCompleting;
- - (void) setIsAnimationCompleting:(BOOL)a;
+ - (void) setIsAnimationCompleting:(BOOL)a ;
 
 
 @end

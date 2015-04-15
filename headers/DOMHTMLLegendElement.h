@@ -5,9 +5,9 @@
 
  - (id) form;
  - (id) accessKey;
- - (void) setAccessKey:(id)a;
+ - (void) setAccessKey:(id)a ;
  - (id) align;
- - (void) setAlign:(id)a;
+ - (void) setAlign:(id)a ;
 
 
 @end

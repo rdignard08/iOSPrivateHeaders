@@ -15,9 +15,9 @@
  - (void) dealloc;
  - (BOOL) _allowsUserInteraction;
  - (BOOL) _allowsUserInteractionToCutOffEndOfAnimation;
- - (void) _willBeginBlockAnimation:(id)acontext:(id)b;
- - (void) _didEndBlockAnimation:(id)afinished:(id)bcontext:(id)c;
- - (void) _sendDeferredCompletion:(id)a;
+ - (void) _willBeginBlockAnimation:(id)a context:(id)b ;
+ - (void) _didEndBlockAnimation:(id)a finished:(id)b context:(id)c ;
+ - (void) _sendDeferredCompletion:(id)a ;
 
 
 @end

@@ -5,8 +5,8 @@
 }
 
  - (void) dealloc;
- - (id) initWithTimestamp:(double)alatitude:(double)blongitude:(double)caccuracy:(double)d;
- - (id) initWithGeolocationPosition:({PassRefPtr<WebCore::GeolocationPosition>=^{GeolocationPosition}})a;
+ - (id) initWithTimestamp:(double)a latitude:(double)b longitude:(double)c accuracy:(double)d ;
+ - (id) initWithGeolocationPosition:({PassRefPtr<WebCore::GeolocationPosition>=^{GeolocationPosition}})a ;
 
 
 @end

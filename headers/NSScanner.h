@@ -14,35 +14,35 @@
 
  - (BOOL) isAtEnd;
  - (unsigned long long) scanLocation;
- - (void) setScanLocation:(unsigned long long)a;
+ - (void) setScanLocation:(unsigned long long)a ;
  - (id) _remainingString;
- - (BOOL) _scanDecimal:(unsigned long long)ainto:(^q)b;
- - (void) setCharactersToBeSkipped:(id)a;
- - (BOOL) scanCharactersFromSet:(id)aintoString:(^@)b;
- - (BOOL) scanUpToCharactersFromSet:(id)aintoString:(^@)b;
- - (BOOL) scanString:(id)aintoString:(^@)b;
- - (BOOL) scanInt:(^i)a;
+ - (BOOL) _scanDecimal:(unsigned long long)a into:(^q)b ;
+ - (void) setCharactersToBeSkipped:(id)a ;
+ - (BOOL) scanCharactersFromSet:(id)a intoString:(^@)b ;
+ - (BOOL) scanUpToCharactersFromSet:(id)a intoString:(^@)b ;
+ - (BOOL) scanString:(id)a intoString:(^@)b ;
+ - (BOOL) scanInt:(^i)a ;
  - (id) charactersToBeSkipped;
  - (BOOL) caseSensitive;
- - (void) setCaseSensitive:(BOOL)a;
- - (BOOL) scanLongLong:(^q)a;
- - (BOOL) scanUnsignedLongLong:(^Q)a;
- - (BOOL) scanHexLongLong:(^Q)a;
+ - (void) setCaseSensitive:(BOOL)a ;
+ - (BOOL) scanLongLong:(^q)a ;
+ - (BOOL) scanUnsignedLongLong:(^Q)a ;
+ - (BOOL) scanHexLongLong:(^Q)a ;
  - (id) _invertedSkipSet;
- - (BOOL) scanFloat:(^f)a;
- - (BOOL) scanHexDouble:(^d)a;
- - (BOOL) scanHexFloat:(^f)a;
- - (BOOL) scanUnsignedInteger:(^Q)a;
- - (BOOL) scanHexInt:(^I)a;
- - (BOOL) scanDecimal:(^{?=b8b4b1b1b18[8S]})a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (BOOL) scanFloat:(^f)a ;
+ - (BOOL) scanHexDouble:(^d)a ;
+ - (BOOL) scanHexFloat:(^f)a ;
+ - (BOOL) scanUnsignedInteger:(^Q)a ;
+ - (BOOL) scanHexInt:(^I)a ;
+ - (BOOL) scanDecimal:(^{?=b8b4b1b1b18[8S]})a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) string;
- - (id) initWithString:(id)a;
- - (void) setLocale:(id)a;
+ - (id) initWithString:(id)a ;
+ - (void) setLocale:(id)a ;
  - (id) locale;
- - (BOOL) scanInteger:(^q)a;
- - (BOOL) scanUpToString:(id)aintoString:(^@)b;
- - (BOOL) scanDouble:(^d)a;
+ - (BOOL) scanInteger:(^q)a ;
+ - (BOOL) scanUpToString:(id)a intoString:(^@)b ;
+ - (BOOL) scanDouble:(^d)a ;
 
 
 @end

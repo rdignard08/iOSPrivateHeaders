@@ -10,8 +10,8 @@
  + (id) activeFencePort;
 
  - (void) dealloc;
- - (void) fencingControlProxy:(id)adidBeginFencingWithSendRight:(id)bexpectedParticipatingFencingProxyCount:(unsigned long long)c;
- - (void) fencingControlProxy:(id)adidEndFencingWithSendRight:(id)b;
+ - (void) fencingControlProxy:(id)a didBeginFencingWithSendRight:(id)b expectedParticipatingFencingProxyCount:(unsigned long long)c ;
+ - (void) fencingControlProxy:(id)a didEndFencingWithSendRight:(id)b ;
  - (void) _fencingControlTimedOut;
  - (id) init;
 

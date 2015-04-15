@@ -12,10 +12,10 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
- - (void) setInputCubeData:(id)a;
- - (void) setInputCubeDimension:(id)a;
+ - (void) setInputCubeData:(id)a ;
+ - (void) setInputCubeDimension:(id)a ;
  - (BOOL) _checkInputs;
  - (id) cubeImage;
  - (id) inputCubeDimension;

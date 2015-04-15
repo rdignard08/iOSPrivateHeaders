@@ -20,18 +20,18 @@
  - (id) providerIdentifier;
  - (id) memberQueue;
  - (id) memberQueueDocumentStorageURL;
- - (id) URLForItemWithPersistentIdentifier:(id)a;
- - (id) persistentIdentifierForItemAtURL:(id)a;
- - (void) providePlaceholderAtURL:(id)acompletionHandler:(@?)b;
- - (void) startProvidingItemAtURL:(id)acompletionHandler:(@?)b;
- - (void) itemChangedAtURL:(id)a;
- - (void) stopProvidingItemAtURL:(id)a;
- - (void) setMemberQueue:(id)a;
- - (void) setMemberQueueDocumentStorageURL:(id)a;
+ - (id) URLForItemWithPersistentIdentifier:(id)a ;
+ - (id) persistentIdentifierForItemAtURL:(id)a ;
+ - (void) providePlaceholderAtURL:(id)a completionHandler:(@?)b ;
+ - (void) startProvidingItemAtURL:(id)a completionHandler:(@?)b ;
+ - (void) itemChangedAtURL:(id)a ;
+ - (void) stopProvidingItemAtURL:(id)a ;
+ - (void) setMemberQueue:(id)a ;
+ - (void) setMemberQueueDocumentStorageURL:(id)a ;
  - (id) memberQueueProviderIdentifier;
- - (void) setMemberQueueProviderIdentifier:(id)a;
+ - (void) setMemberQueueProviderIdentifier:(id)a ;
  - (id) init;
- - (void) beginRequestWithExtensionContext:(id)a;
+ - (void) beginRequestWithExtensionContext:(id)a ;
 
 
 @end

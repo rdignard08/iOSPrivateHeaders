@@ -3,7 +3,7 @@
 
 }
 
- - (void) encodeWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
 
 
 @end

@@ -20,14 +20,14 @@
  - (id) init;
  - (void) cleanup;
  - (int) resolveType;
- - (void) setResolveType:(int)a;
+ - (void) setResolveType:(int)a ;
  - (id) thingToResolve;
- - (void) setThingToResolve:(id)a;
+ - (void) setThingToResolve:(id)a ;
  - (id) resolveQueue;
  - (id) cacheAccessQueue;
  - (id) callbackQueue;
  - (BOOL) startedResolving;
- - (void) setStartedResolving:(BOOL)a;
+ - (void) setStartedResolving:(BOOL)a ;
 
 
 @end

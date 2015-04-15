@@ -3,7 +3,7 @@
 
 }
 
- - (BOOL) _shouldAnimatePropertyWithKey:(id)a;
+ - (BOOL) _shouldAnimatePropertyWithKey:(id)a ;
 
 
 @end

@@ -7,18 +7,18 @@
 }
  + (id) defaultCenter;
 
- - (void) postNotification:(id)a;
+ - (void) postNotification:(id)a ;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
  - (BOOL) isEmpty;
  - (id) init;
- - (void) removeObserver:(id)a;
- - (void) postNotificationName:(id)aobject:(id)b;
- - (void) postNotificationName:(id)aobject:(id)buserInfo:(id)c;
- - (void) removeObserver:(id)aname:(id)bobject:(id)c;
- - (void) addObserver:(id)aselector:(SEL)bname:(id)cobject:(id)d;
- - (id) addObserverForName:(id)aobject:(id)bqueue:(id)cusingBlock:(@?)d;
+ - (void) removeObserver:(id)a ;
+ - (void) postNotificationName:(id)a object:(id)b ;
+ - (void) postNotificationName:(id)a object:(id)b userInfo:(id)c ;
+ - (void) removeObserver:(id)a name:(id)b object:(id)c ;
+ - (void) addObserver:(id)a selector:(SEL)b name:(id)c object:(id)d ;
+ - (id) addObserverForName:(id)a object:(id)b queue:(id)c usingBlock:(@?)d ;
 
 
 @end

@@ -17,10 +17,10 @@
 
  - (short) scale;
  - (unsigned long long) roundingMode;
- - (id) initWithRoundingMode:(unsigned long long)ascale:(short)braiseOnExactness:(BOOL)craiseOnOverflow:(BOOL)draiseOnUnderflow:(BOOL)eraiseOnDivideByZero:(BOOL)f;
- - (id) exceptionDuringOperation:(SEL)aerror:(unsigned long long)bleftOperand:(id)crightOperand:(id)d;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (id) initWithRoundingMode:(unsigned long long)a scale:(short)b raiseOnExactness:(BOOL)c raiseOnOverflow:(BOOL)d raiseOnUnderflow:(BOOL)e raiseOnDivideByZero:(BOOL)f ;
+ - (id) exceptionDuringOperation:(SEL)a error:(unsigned long long)b leftOperand:(id)c rightOperand:(id)d ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

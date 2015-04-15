@@ -5,7 +5,7 @@
     NSKeyValueMutatingCollectionMethodSet* _mutatingMethods;
 }
 
- - (id) initWithContainerClassID:(id)akey:(id)bnonmutatingMethods:(id)cmutatingMethods:(id)dproxyClass:(Class)e;
+ - (id) initWithContainerClassID:(id)a key:(id)b nonmutatingMethods:(id)c mutatingMethods:(id)d proxyClass:(Class)e ;
  - (id) nonmutatingMethods;
  - (id) mutatingMethods;
  - (void) dealloc;

@@ -4,8 +4,8 @@
 }
 
  - (void) layoutSubviews;
- - (id) initWithHTMLOptGroupNode:(id)a;
- - (double) labelWidthForBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithHTMLOptGroupNode:(id)a ;
+ - (double) labelWidthForBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

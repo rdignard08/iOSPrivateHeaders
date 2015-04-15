@@ -3,10 +3,10 @@
 
 }
 
- - (void) setRows:(id)a;
+ - (void) setRows:(id)a ;
  - (id) rows;
  - (id) cols;
- - (void) setCols:(id)a;
+ - (void) setCols:(id)a ;
 
 
 @end

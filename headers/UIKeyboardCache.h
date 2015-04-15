@@ -11,13 +11,13 @@
  - (void) dealloc;
  - (void) commitTransaction;
  - (void) clearNonPersistentCache;
- - (void) updateCacheForInputModes:(id)a;
- - (id) displayImagesForView:(id)afromLayout:(id)bimageFlags:(id)c;
- - (^{CGImage=}) cachedCompositeImageForCacheKeys:(id)afromLayout:(id)bopacities:(id)c;
- - (^{CGImage=}) cachedImageForKey:(id)afromLayout:(id)b;
- - (void) displayView:(id)aimageWidth:(double)bfromLayout:(id)c;
- - (id) uniqueLayoutsFromInputModes:(id)a;
- - (void) displayView:(id)afromLayout:(id)b;
+ - (void) updateCacheForInputModes:(id)a ;
+ - (id) displayImagesForView:(id)a fromLayout:(id)b imageFlags:(id)c ;
+ - (^{CGImage=}) cachedCompositeImageForCacheKeys:(id)a fromLayout:(id)b opacities:(id)c ;
+ - (^{CGImage=}) cachedImageForKey:(id)a fromLayout:(id)b ;
+ - (void) displayView:(id)a imageWidth:(double)b fromLayout:(id)c ;
+ - (id) uniqueLayoutsFromInputModes:(id)a ;
+ - (void) displayView:(id)a fromLayout:(id)b ;
  - (id) init;
 
 

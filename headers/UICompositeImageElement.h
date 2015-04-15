@@ -10,7 +10,7 @@
  + (id) elementWithImage:(id)atoRect:({CGRect={CGPoint=dd}{CGSize=dd}})bfromRect:({CGRect={CGPoint=dd}{CGSize=dd}})coperation:(int)dfraction:(double)e;
 
  - (void) dealloc;
- - (id) initWithImage:(id)atoRect:({CGRect={CGPoint=dd}{CGSize=dd}})bfromRect:({CGRect={CGPoint=dd}{CGSize=dd}})coperation:(int)dfraction:(double)e;
+ - (id) initWithImage:(id)a toRect:({CGRect={CGPoint=dd}{CGSize=dd}})b fromRect:({CGRect={CGPoint=dd}{CGSize=dd}})c operation:(int)d fraction:(double)e ;
  - (void) draw;
 
 

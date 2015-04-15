@@ -13,19 +13,19 @@
  - (id) _init;
  - (Vv) release;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (void) _printerPickerDidPresent;
  - (void) _printerPickerWillDismiss;
  - (void) _printerPickerDidDismiss;
- - (void) dismissAnimated:(BOOL)a;
+ - (void) dismissAnimated:(BOOL)a ;
  - (BOOL) _delegateFiltersPrinters;
- - (BOOL) _shouldShowPrinter:(id)a;
- - (void) setSelectedPrinter:(id)a;
- - (BOOL) presentFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainView:(id)banimated:(BOOL)ccompletionHandler:(@?)d;
- - (BOOL) _setupPickerPanel:(@?)a;
- - (BOOL) presentAnimated:(BOOL)acompletionHandler:(@?)b;
+ - (BOOL) _shouldShowPrinter:(id)a ;
+ - (void) setSelectedPrinter:(id)a ;
+ - (BOOL) presentFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a inView:(id)b animated:(BOOL)c completionHandler:(@?)d ;
+ - (BOOL) _setupPickerPanel:(@?)a ;
+ - (BOOL) presentAnimated:(BOOL)a completionHandler:(@?)b ;
  - (id) selectedPrinter;
- - (BOOL) presentFromBarButtonItem:(id)aanimated:(BOOL)bcompletionHandler:(@?)c;
+ - (BOOL) presentFromBarButtonItem:(id)a animated:(BOOL)b completionHandler:(@?)c ;
  - (id) init;
  - (id) delegate;
 

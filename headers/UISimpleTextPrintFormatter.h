@@ -3,8 +3,8 @@
 
 }
 
- - (id) initWithText:(id)a;
- - (id) initWithAttributedText:(id)a;
+ - (id) initWithText:(id)a ;
+ - (id) initWithAttributedText:(id)a ;
 
 
 @end

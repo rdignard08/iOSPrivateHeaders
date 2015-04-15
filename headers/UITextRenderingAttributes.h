@@ -17,7 +17,7 @@
     BOOL _drawUnderline;
 }
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) init;
 
 

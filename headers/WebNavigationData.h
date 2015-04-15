@@ -9,7 +9,7 @@
  - (id) response;
  - (id) originalRequest;
  - (id) url;
- - (id) initWithURLString:(id)atitle:(id)boriginalRequest:(id)cresponse:(id)dhasSubstituteData:(BOOL)eclientRedirectSource:(id)f;
+ - (id) initWithURLString:(id)a title:(id)b originalRequest:(id)c response:(id)d hasSubstituteData:(BOOL)e clientRedirectSource:(id)f ;
  - (BOOL) hasSubstituteData;
  - (id) clientRedirectSource;
 

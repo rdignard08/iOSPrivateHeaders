@@ -10,26 +10,26 @@
 @property (nonatomic, retain, readonly) FBSSceneClientSettings* clientSettings;
 @property (nonatomic, retain, readonly) NSArray* contexts;
 
- - (void) updateUIClientSettingsWithBlock:(@?)a;
+ - (void) updateUIClientSettingsWithBlock:(@?)a ;
  - (id) _init;
  - (void) invalidate;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) fbsDisplay;
  - (id) settings;
- - (void) attachContext:(id)a;
- - (void) detachContext:(id)a;
- - (void) updateClientSettingsWithBlock:(@?)a;
+ - (void) attachContext:(id)a ;
+ - (void) detachContext:(id)a ;
+ - (void) updateClientSettingsWithBlock:(@?)a ;
  - (id) init;
  - (id) delegate;
  - (id) identifier;
- - (id) initWithQueue:(id)aidentifier:(id)bdisplay:(id)csettings:(id)dclientSettings:(id)e;
+ - (id) initWithQueue:(id)a identifier:(id)b display:(id)c settings:(id)d clientSettings:(id)e ;
  - (id) clientSettings;
  - (id) contexts;
- - (void) updateClientSettings:(id)awithTransitionContext:(id)b;
- - (void) attachSceneContext:(id)a;
- - (void) detachSceneContext:(id)a;
- - (id) _descriptionWithMultilinePrefix:(id)a;
- - (void) sendActions:(id)a;
+ - (void) updateClientSettings:(id)a withTransitionContext:(id)b ;
+ - (void) attachSceneContext:(id)a ;
+ - (void) detachSceneContext:(id)a ;
+ - (id) _descriptionWithMultilinePrefix:(id)a ;
+ - (void) sendActions:(id)a ;
  - (id) display;
 
 

@@ -20,21 +20,21 @@
  - (void) dealloc;
  - (id) indexPath;
  - (int) action;
- - (long long) inverseCompareIndexPaths:(id)a;
- - (long long) compareIndexPaths:(id)a;
+ - (long long) inverseCompareIndexPaths:(id)a ;
+ - (long long) compareIndexPaths:(id)a ;
  - (BOOL) isSectionOperation;
- - (id) initWithAction:(int)aforIndexPath:(id)banimation:(long long)c;
+ - (id) initWithAction:(int)a forIndexPath:(id)b animation:(long long)c ;
  - (BOOL) headerFooterOnly;
- - (void) setHeaderFooterOnly:(BOOL)a;
- - (void) setGap:(id)a;
+ - (void) setHeaderFooterOnly:(BOOL)a ;
+ - (void) setGap:(id)a ;
  - (id) _actionDescription;
  - (id) gap;
  - (BOOL) skipAnimation;
- - (void) setSkipAnimation:(BOOL)a;
+ - (void) setSkipAnimation:(BOOL)a ;
  - (long long) animation;
- - (void) setAnimation:(long long)a;
+ - (void) setAnimation:(long long)a ;
  - (double) offset;
- - (void) setOffset:(double)a;
+ - (void) setOffset:(double)a ;
 
 
 @end

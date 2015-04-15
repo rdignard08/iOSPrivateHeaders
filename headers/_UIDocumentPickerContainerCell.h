@@ -10,29 +10,29 @@
     NSLayoutConstraint* _containerIconBottomConstraint;
 }
 
- - (void) setItem:(id)a;
+ - (void) setItem:(id)a ;
  - (id) item;
  - (void) dealloc;
- - (void) traitCollectionDidChange:(id)a;
+ - (void) traitCollectionDidChange:(id)a ;
  - (void) prepareForReuse;
  - (void) _showPickableDiagnostic;
  - (id) viewControllerForDisplay;
- - (void) reloadItem:(BOOL)a;
+ - (void) reloadItem:(BOOL)a ;
  - (id) containerIconView;
- - (void) containersChangedWithSnapshot:(id)adifferences:(id)b;
- - (void) setContainerIconView:(id)a;
- - (void) setContainerIconBottomConstraint:(id)a;
+ - (void) containersChangedWithSnapshot:(id)a differences:(id)b ;
+ - (void) setContainerIconView:(id)a ;
+ - (void) setContainerIconBottomConstraint:(id)a ;
  - (id) containerIconBottomConstraint;
- - (void) setContainerIconWidthConstraint:(id)a;
- - (void) setContainerIconHeightConstraint:(id)a;
+ - (void) setContainerIconWidthConstraint:(id)a ;
+ - (void) setContainerIconHeightConstraint:(id)a ;
  - (id) containerIconWidthConstraint;
  - (id) containerIconHeightConstraint;
  - (void) updateSubtitle;
- - (void) setObserverToken:(id)a;
- - (void) setContainerDisplayName:(id)a;
+ - (void) setObserverToken:(id)a ;
+ - (void) setContainerDisplayName:(id)a ;
  - (id) containerDisplayName;
  - (id) observerToken;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -5,9 +5,9 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (id) item:(unsigned int)a;
+ - (id) item:(unsigned int)a ;
  - (unsigned int) length;
- - (id) namedItem:(id)a;
+ - (id) namedItem:(id)a ;
 
 
 @end

@@ -7,14 +7,14 @@
 }
  + (Class) layerClass;
 
- - (void) setStrokeColor:(id)a;
+ - (void) setStrokeColor:(id)a ;
  - (id) shapeLayer;
- - (void) setPath:(id)a;
+ - (void) setPath:(id)a ;
  - (id) path;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) fillColor;
  - (id) strokeColor;
- - (void) setFillColor:(id)a;
+ - (void) setFillColor:(id)a ;
 
 
 @end

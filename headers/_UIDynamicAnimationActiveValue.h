@@ -20,21 +20,21 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setType:(int)a;
+ - (void) setType:(int)a ;
  - (@?) _applier;
- - (void) _setBoundaryPull:(double)a;
+ - (void) _setBoundaryPull:(double)a ;
  - (BOOL) _isLowerBoundary;
  - (BOOL) _isUpperBoundary;
  - (double) minimumActiveValue;
  - (double) maximumActiveValue;
- - (void) setMinimumActiveValue:(double)a;
- - (void) setMaximumActiveValue:(double)a;
+ - (void) setMinimumActiveValue:(double)a ;
+ - (void) setMaximumActiveValue:(double)a ;
  - (double) _boundaryPull;
  - (id) init;
  - (int) type;
- - (void) setValue:(double)a;
+ - (void) setValue:(double)a ;
  - (double) value;
- - (void) _appendDescriptionToString:(id)aatLevel:(int)b;
+ - (void) _appendDescriptionToString:(id)a atLevel:(int)b ;
 
 
 @end

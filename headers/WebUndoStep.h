@@ -10,7 +10,7 @@
  - (void) .cxx_destruct;
  - (void) dealloc;
  - (void) finalize;
- - (id) initWithUndoStep:({PassRefPtr<WebCore::UndoStep>=^{UndoStep}})a;
+ - (id) initWithUndoStep:({PassRefPtr<WebCore::UndoStep>=^{UndoStep}})a ;
  - (^{UndoStep=^^?I}) step;
 
 

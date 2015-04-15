@@ -4,7 +4,7 @@
 }
 
  - (id) align;
- - (void) setAlign:(id)a;
+ - (void) setAlign:(id)a ;
 
 
 @end

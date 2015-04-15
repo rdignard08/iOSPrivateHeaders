@@ -8,8 +8,8 @@
  + (id) fieldWithCustomBatchBlock:(@?)a;
 
  - (void) .cxx_destruct;
- - (id) initWithCustomBlock:(@?)a;
- - (id) initWithCustomBatchBlock:(@?)a;
+ - (id) initWithCustomBlock:(@?)a ;
+ - (id) initWithCustomBatchBlock:(@?)a ;
 
 
 @end

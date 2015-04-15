@@ -10,13 +10,13 @@
 
  - (void) setDefaults;
  - (id) outputImage;
- - (void) setInputRadius:(id)a;
+ - (void) setInputRadius:(id)a ;
  - (id) inputRadius;
  - (id) _kernel;
  - (id) inputCenter;
- - (void) setInputCenter:(id)a;
- - (void) setInputColor0:(id)a;
- - (void) setInputColor1:(id)a;
+ - (void) setInputCenter:(id)a ;
+ - (void) setInputColor0:(id)a ;
+ - (void) setInputColor1:(id)a ;
  - (id) inputColor0;
  - (id) inputColor1;
 

@@ -9,9 +9,9 @@
 
  - (void) dealloc;
  - (id) fromAnimation;
- - (void) setFromAnimation:(id)a;
+ - (void) setFromAnimation:(id)a ;
  - (id) toAnimation;
- - (void) setToAnimation:(id)a;
+ - (void) setToAnimation:(id)a ;
 
 
 @end

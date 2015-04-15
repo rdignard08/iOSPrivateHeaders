@@ -16,16 +16,16 @@
  + (id) _errorWithErrno:(int)aatPath:(id)b;
  + (id) directoryTraversalOperationAtPath:(id)a;
 
- - (id) initWithPath:(id)a;
- - (BOOL) _shouldFilterEntry:(^{_ftsent=^{_ftsent}^{_ftsent}^{_ftsent}q^v**iiSSQiSsSSS^{stat}[1c]})a;
- - (void) handlePathname:(id)a;
- - (BOOL) shouldProceedAfterError:(id)a;
- - (void) _setError:(id)a;
- - (BOOL) _validatePaths:(^@)a;
- - (void) _handleFTSEntry:(^{_ftsent=^{_ftsent}^{_ftsent}^{_ftsent}q^v**iiSSQiSsSSS^{stat}[1c]})a;
+ - (id) initWithPath:(id)a ;
+ - (BOOL) _shouldFilterEntry:(^{_ftsent=^{_ftsent}^{_ftsent}^{_ftsent}q^v**iiSSQiSsSSS^{stat}[1c]})a ;
+ - (void) handlePathname:(id)a ;
+ - (BOOL) shouldProceedAfterError:(id)a ;
+ - (void) _setError:(id)a ;
+ - (BOOL) _validatePaths:(^@)a ;
+ - (void) _handleFTSEntry:(^{_ftsent=^{_ftsent}^{_ftsent}^{_ftsent}q^v**iiSSQiSsSSS^{stat}[1c]})a ;
  - (void) main;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) error;
  - (id) delegate;
 

@@ -9,22 +9,22 @@
 @property (atomic, assign, readonly) NSArray* alternativeStrings;
 
  - (id) alternativeStrings;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (id) originalText;
  - (id) alternatives;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) identifier;
- - (id) initWithPrimaryString:(id)aalternativeStrings:(id)b;
- - (id) initWithPrimaryString:(id)aalternativeStrings:(id)bidentifier:(id)c;
+ - (id) initWithPrimaryString:(id)a alternativeStrings:(id)b ;
+ - (id) initWithPrimaryString:(id)a alternativeStrings:(id)b identifier:(id)c ;
  - (id) primaryString;
- - (id) initWithOriginalText:(id)aalternatives:(id)b;
- - (id) initWithOriginalText:(id)aalternatives:(id)bidentifier:(id)c;
- - (void) noteSelectedAlternativeString:(id)a;
+ - (id) initWithOriginalText:(id)a alternatives:(id)b ;
+ - (id) initWithOriginalText:(id)a alternatives:(id)b identifier:(id)c ;
+ - (void) noteSelectedAlternativeString:(id)a ;
  - (unsigned long long) numberOfAlternatives;
- - (id) alternativeAtIndex:(unsigned long long)a;
+ - (id) alternativeAtIndex:(unsigned long long)a ;
 
 
 @end

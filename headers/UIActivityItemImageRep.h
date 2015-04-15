@@ -12,9 +12,9 @@
 
  - (void) dealloc;
  - (id) data;
- - (void) setAsset:(id)a;
- - (void) setThumbnailProvider:(@?)a;
- - (void) setDataProvider:(@?)a;
+ - (void) setAsset:(id)a ;
+ - (void) setThumbnailProvider:(@?)a ;
+ - (void) setDataProvider:(@?)a ;
  - (@?) thumbnailProvider;
  - (@?) dataProvider;
  - (id) thumbnail;

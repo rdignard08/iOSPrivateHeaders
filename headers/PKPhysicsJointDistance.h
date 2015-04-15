@@ -10,21 +10,21 @@
  + (id) jointWithBodyA:(id)abodyB:(id)banchorA:({CGPoint=dd})canchorB:({CGPoint=dd})d;
 
  - (id) .cxx_construct;
- - (void) setLength:(double)a;
- - (void) setCollideConnected:(BOOL)a;
+ - (void) setLength:(double)a ;
+ - (void) setCollideConnected:(BOOL)a ;
  - (double) length;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (^{b2Joint=^^?i^{b2Joint}^{b2Joint}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}^{b2Body}^{b2Body}BB^v}) _joint;
- - (void) set_joint:(^{b2Joint=^^?i^{b2Joint}^{b2Joint}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}^{b2Body}^{b2Body}BB^v})a;
+ - (void) set_joint:(^{b2Joint=^^?i^{b2Joint}^{b2Joint}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}^{b2Body}^{b2Body}BB^v})a ;
  - (^{b2JointDef=i^v^{b2Body}^{b2Body}B}) _jointDef;
  - (void) create;
- - (id) initWithBodyA:(id)abodyB:(id)blocalAnchorA:({CGPoint=dd})clocalAnchorB:({CGPoint=dd})d;
- - (id) initWithBodyA:(id)abodyB:(id)banchorA:({CGPoint=dd})canchorB:({CGPoint=dd})d;
+ - (id) initWithBodyA:(id)a bodyB:(id)b localAnchorA:({CGPoint=dd})c localAnchorB:({CGPoint=dd})d ;
+ - (id) initWithBodyA:(id)a bodyB:(id)b anchorA:({CGPoint=dd})c anchorB:({CGPoint=dd})d ;
  - (double) damping;
  - (double) frequency;
- - (void) setDamping:(double)a;
- - (void) setFrequency:(double)a;
+ - (void) setDamping:(double)a ;
+ - (void) setFrequency:(double)a ;
  - (BOOL) collideConnected;
 
 

@@ -8,8 +8,8 @@
  - (void) dealloc;
  - (double) inkWidth;
  - (id) keyView;
- - (void) setKeyView:(id)a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setKeyView:(id)a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

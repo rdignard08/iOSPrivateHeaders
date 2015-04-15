@@ -11,17 +11,17 @@
  + (BOOL) supportsSecureCoding;
  + (id) queryItemWithName:(id)avalue:(id)b;
 
- - (id) initWithName:(id)avalue:(id)b;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) initWithName:(id)a value:(id)b ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
  - (id) name;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) value;
 
 

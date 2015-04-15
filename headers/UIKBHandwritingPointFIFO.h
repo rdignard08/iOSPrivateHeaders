@@ -7,11 +7,11 @@
 
  - (void) clear;
  - (void) dealloc;
- - (void) addPoint:({CGPoint=dd})a;
- - (id) initWithFIFO:(id)a;
- - (void) setNextFIFO:(id)a;
+ - (void) addPoint:({CGPoint=dd})a ;
+ - (id) initWithFIFO:(id)a ;
+ - (void) setNextFIFO:(id)a ;
  - (id) nextFIFO;
- - (void) emitPoint:({CGPoint=dd})a;
+ - (void) emitPoint:({CGPoint=dd})a ;
  - (void) flush;
 
 

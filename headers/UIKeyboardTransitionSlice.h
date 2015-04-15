@@ -21,19 +21,19 @@
  - (id) description;
  - (void) dealloc;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) endRect;
- - (void) setStartRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setEndRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setStartRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setEndRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) startRect;
- - (void) addStartRect:({CGRect={CGPoint=dd}{CGSize=dd}})aend:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ - (void) addStartRect:({CGRect={CGPoint=dd}{CGSize=dd}})a end:({CGRect={CGPoint=dd}{CGSize=dd}})b ;
  - (BOOL) hasGeometry;
  - (id) startToken;
- - (void) setStartToken:(id)a;
+ - (void) setStartToken:(id)a ;
  - (id) endToken;
- - (void) setEndToken:(id)a;
+ - (void) setEndToken:(id)a ;
  - (int) normalization;
- - (void) setNormalization:(int)a;
+ - (void) setNormalization:(int)a ;
  - (BOOL) delayCrossfade;
- - (void) setDelayCrossfade:(BOOL)a;
+ - (void) setDelayCrossfade:(BOOL)a ;
  - (id) init;
 
 

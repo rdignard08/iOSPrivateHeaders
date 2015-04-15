@@ -22,29 +22,29 @@
 
  - (BOOL) isIndeterminate;
  - (double) progress;
- - (void) setProgress:(double)a;
+ - (void) setProgress:(double)a ;
  - (void) dealloc;
  - (void) didMoveToWindow;
  - (void) layoutSubviews;
- - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a;
+ - ({CGSize=dd}) sizeThatFits:({CGSize=dd})a ;
  - (void) tintColorDidChange;
- - (void) setHighlighted:(BOOL)a;
+ - (void) setHighlighted:(BOOL)a ;
  - (BOOL) isHighlighted;
- - (void) setImageInsets:({UIEdgeInsets=dddd})a;
+ - (void) setImageInsets:({UIEdgeInsets=dddd})a ;
  - ({UIEdgeInsets=dddd}) imageInsets;
- - (void) setProgress:(double)aanimated:(BOOL)b;
+ - (void) setProgress:(double)a animated:(BOOL)b ;
  - (void) _startIndeterminateAnimation;
- - (void) _animateValueOnDisplayLink:(id)a;
- - (void) setBorderImage:(id)a;
- - (void) setFillImage:(id)a;
- - (void) setIndeterminate:(BOOL)a;
- - (void) _setHidesBorderView:(BOOL)a;
+ - (void) _animateValueOnDisplayLink:(id)a ;
+ - (void) setBorderImage:(id)a ;
+ - (void) setFillImage:(id)a ;
+ - (void) setIndeterminate:(BOOL)a ;
+ - (void) _setHidesBorderView:(BOOL)a ;
  - (id) borderImage;
  - (id) fillImage;
- - (void) setImage:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setImage:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (id) image;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

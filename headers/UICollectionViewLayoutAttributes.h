@@ -31,15 +31,15 @@
  + (id) layoutAttributesForCellWithIndexPath:(id)a;
 
  - ({CGSize=dd}) size;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) setAlpha:(double)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setAlpha:(double)a ;
  - (unsigned long long) representedElementCategory;
  - (id) indexPath;
- - (void) setCenter:({CGPoint=dd})a;
+ - (void) setCenter:({CGPoint=dd})a ;
  - (id) _reuseIdentifier;
  - (id) _elementKind;
  - (BOOL) _isCell;
@@ -48,28 +48,28 @@
  - ({CATransform3D=dddddddddddddddd}) transform3D;
  - (long long) zIndex;
  - (BOOL) _isDecorationView;
- - (BOOL) _isEquivalentTo:(id)a;
- - (BOOL) _isTransitionVisibleTo:(id)a;
- - (void) setIndexPath:(id)a;
- - (void) _setReuseIdentifier:(id)a;
- - (void) setTransform3D:({CATransform3D=dddddddddddddddd})a;
- - (void) _setIsClone:(BOOL)a;
- - (void) _setElementKind:(id)a;
- - (id) initialLayoutAttributesForInsertedDecorationElementOfKind:(id)aatIndexPath:(id)b;
+ - (BOOL) _isEquivalentTo:(id)a ;
+ - (BOOL) _isTransitionVisibleTo:(id)a ;
+ - (void) setIndexPath:(id)a ;
+ - (void) _setReuseIdentifier:(id)a ;
+ - (void) setTransform3D:({CATransform3D=dddddddddddddddd})a ;
+ - (void) _setIsClone:(BOOL)a ;
+ - (void) _setElementKind:(id)a ;
+ - (id) initialLayoutAttributesForInsertedDecorationElementOfKind:(id)a atIndexPath:(id)b ;
  - (id) representedElementKind;
- - (void) setZIndex:(long long)a;
+ - (void) setZIndex:(long long)a ;
  - (id) init;
- - (void) setSize:({CGSize=dd})a;
+ - (void) setSize:({CGSize=dd})a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frame;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (double) alpha;
  - ({CGPoint=dd}) center;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) bounds;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - ({CGAffineTransform=dddddd}) transform;
- - (void) setTransform:({CGAffineTransform=dddddd})a;
+ - (void) setTransform:({CGAffineTransform=dddddd})a ;
  - (BOOL) isHidden;
- - (void) setHidden:(BOOL)a;
+ - (void) setHidden:(BOOL)a ;
 
 
 @end

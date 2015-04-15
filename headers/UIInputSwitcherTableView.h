@@ -4,10 +4,10 @@
     UIKeyboardMenuView* _menu;
 }
 
- - (void) selectRowAtIndexPath:(id)aanimated:(BOOL)bscrollPosition:(long long)c;
- - (void) deselectRowAtIndexPath:(id)aanimated:(BOOL)b;
+ - (void) selectRowAtIndexPath:(id)a animated:(BOOL)b scrollPosition:(long long)c ;
+ - (void) deselectRowAtIndexPath:(id)a animated:(BOOL)b ;
  - (id) menu;
- - (void) setMenu:(id)a;
+ - (void) setMenu:(id)a ;
 
 
 @end

@@ -10,8 +10,8 @@
 
  - (void) dealloc;
  - (id) _traitCollection;
- - (BOOL) _isValidAppearanceForCustomizableObject:(id)a;
- - (void) _invalidateAppearanceInWindow:(id)a;
+ - (BOOL) _isValidAppearanceForCustomizableObject:(id)a ;
+ - (void) _invalidateAppearanceInWindow:(id)a ;
 
 
 @end

@@ -10,18 +10,18 @@
 }
 
  - (BOOL) shouldBeRevokedPriorToInvokingAccessor;
- - (id) initWithPurposeID:(id)aurl:(id)boptions:(unsigned long long)cclaimer:(@?)d;
+ - (id) initWithPurposeID:(id)a url:(id)b options:(unsigned long long)c claimer:(@?)d ;
  - (void) granted;
  - (void) invokeClaimer;
- - (BOOL) blocksClaim:(id)a;
+ - (BOOL) blocksClaim:(id)a ;
  - (void) devalueSelf;
- - (id) initWithClient:(id)amessageParameters:(id)breplySender:(@?)c;
- - (void) forwardUsingMessageSender:(@?)acrashHandler:(@?)b;
- - (BOOL) evaluateSelfWithRootNode:(id)acheckSubarbitrability:(BOOL)b;
- - (BOOL) isBlockedByReadingItemAtLocation:(id)aoptions:(unsigned long long)b;
- - (BOOL) isBlockedByWritingItemAtLocation:(id)aoptions:(unsigned long long)b;
- - (void) itemAtLocation:(id)awasReplacedByItemAtLocation:(id)b;
- - (void) resolveURLThenMaybeContinueInvokingClaimer:(@?)a;
+ - (id) initWithClient:(id)a messageParameters:(id)b replySender:(@?)c ;
+ - (void) forwardUsingMessageSender:(@?)a crashHandler:(@?)b ;
+ - (BOOL) evaluateSelfWithRootNode:(id)a checkSubarbitrability:(BOOL)b ;
+ - (BOOL) isBlockedByReadingItemAtLocation:(id)a options:(unsigned long long)b ;
+ - (BOOL) isBlockedByWritingItemAtLocation:(id)a options:(unsigned long long)b ;
+ - (void) itemAtLocation:(id)a wasReplacedByItemAtLocation:(id)b ;
+ - (void) resolveURLThenMaybeContinueInvokingClaimer:(@?)a ;
  - (void) dealloc;
 
 

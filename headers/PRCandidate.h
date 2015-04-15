@@ -16,13 +16,13 @@
  - (id) description;
  - (void) dealloc;
  - (id) string;
- - (id) initWithString:(id)aerrorScore:(double)b;
+ - (id) initWithString:(id)a errorScore:(double)b ;
  - (double) errorScore;
  - (double) languageModelScore;
  - (BOOL) isBlacklisted;
- - (void) setErrorScore:(double)a;
- - (void) setLanguageModelScore:(double)a;
- - (void) setBlacklisted:(BOOL)a;
+ - (void) setErrorScore:(double)a ;
+ - (void) setLanguageModelScore:(double)a ;
+ - (void) setBlacklisted:(BOOL)a ;
 
 
 @end

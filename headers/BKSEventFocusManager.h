@@ -14,16 +14,16 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) deferEventsForClientWithProperties:(id)atoClientWithProperties:(id)b;
+ - (void) deferEventsForClientWithProperties:(id)a toClientWithProperties:(id)b ;
  - (id) init;
  - (BOOL) needsFlush;
- - (void) setNeedsFlush:(BOOL)a;
- - (void) deferEventsForClientWithProperties:(id)atoClientWithProperties:(id)bwithPriority:(int)c;
- - (void) _pruneSet:(id)aofDeferralsPassingTest:(@?)b;
+ - (void) setNeedsFlush:(BOOL)a ;
+ - (void) deferEventsForClientWithProperties:(id)a toClientWithProperties:(id)b withPriority:(int)c ;
+ - (void) _pruneSet:(id)a ofDeferralsPassingTest:(@?)b ;
  - (id) pendingStatesByPriority;
- - (void) reallyFlushWithSet:(id)a;
- - (void) setSystemAppControlsFocusOnMainDisplay:(BOOL)a;
- - (void) setForegroundApplicationOnMainDisplay:(id)apid:(int)b;
+ - (void) reallyFlushWithSet:(id)a ;
+ - (void) setSystemAppControlsFocusOnMainDisplay:(BOOL)a ;
+ - (void) setForegroundApplicationOnMainDisplay:(id)a pid:(int)b ;
  - (BOOL) systemAppControlsFocusOnMainDisplay;
  - (id) currentState;
  - (void) flush;

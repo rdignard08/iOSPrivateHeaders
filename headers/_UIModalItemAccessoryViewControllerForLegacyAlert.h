@@ -5,8 +5,8 @@
 }
 
  - (void) dealloc;
- - (void) _setAccessoryView:(id)a;
- - (void) viewWillAppear:(BOOL)a;
+ - (void) _setAccessoryView:(id)a ;
+ - (void) viewWillAppear:(BOOL)a ;
 
 
 @end

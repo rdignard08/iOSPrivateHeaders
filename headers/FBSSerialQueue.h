@@ -13,10 +13,10 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) init;
- - (void) performAsync:(@?)a;
- - (id) _initWithDispatchQueue:(id)amainRunLoopModes:(id)b;
+ - (void) performAsync:(@?)a ;
+ - (id) _initWithDispatchQueue:(id)a mainRunLoopModes:(id)b ;
  - (void) assertOnQueue;
 
 

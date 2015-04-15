@@ -24,16 +24,16 @@
  - (1) scale;
  - (1) position;
  - (BOOL) isActive;
- - (void) setActive:(BOOL)a;
+ - (void) setActive:(BOOL)a ;
  - (id) .cxx_construct;
  - (void) .cxx_destruct;
  - (void) dealloc;
- - (void) setRotation:(float)a;
- - (void) setRegion:(id)a;
+ - (void) setRotation:(float)a ;
+ - (void) setRegion:(id)a ;
  - (id) region;
  - (float) strength;
- - (void) setStrength:(float)a;
- - (void) setRepresentedObject:(id)a;
+ - (void) setStrength:(float)a ;
+ - (void) setRepresentedObject:(id)a ;
  - (id) init;
  - (void) setDirection;
  - (1) direction;
@@ -41,20 +41,20 @@
  - (void) setScale;
  - (void) setPosition;
  - (unsigned int) categoryBitMask;
- - (void) setCategoryBitMask:(unsigned int)a;
+ - (void) setCategoryBitMask:(unsigned int)a ;
  - (id) representedObject;
  - ({shared_ptr<PKCField>=^{PKCField}^{__shared_weak_count}}) _field;
- - (void) setMinimumRadius:(float)a;
+ - (void) setMinimumRadius:(float)a ;
  - (BOOL) isEnabled;
- - (void) setEnabled:(BOOL)a;
- - (void) set_field:({shared_ptr<PKCField>=^{PKCField}^{__shared_weak_count}})a;
+ - (void) setEnabled:(BOOL)a ;
+ - (void) set_field:({shared_ptr<PKCField>=^{PKCField}^{__shared_weak_count}})a ;
  - (float) falloff;
- - (void) setFalloff:(float)a;
+ - (void) setFalloff:(float)a ;
  - (BOOL) override;
- - (void) setIsOverride:(BOOL)a;
+ - (void) setIsOverride:(BOOL)a ;
  - (float) minimumRadius;
  - (BOOL) isOverride;
- - (void) setOverride:(BOOL)a;
+ - (void) setOverride:(BOOL)a ;
 
 
 @end

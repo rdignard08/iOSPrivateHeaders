@@ -15,30 +15,30 @@
     [4^v] _reserved;
 }
 
- - (BOOL) getObjectValue:(o^@)aforString:(id)berrorDescription:(o^@)c;
- - (id) stringForObjectValue:(id)a;
- - (id) attributedStringForObjectValue:(id)awithDefaultAttributes:(id)b;
- - (void) setDateStyle:(unsigned long long)a;
- - (void) setTimeStyle:(unsigned long long)a;
+ - (BOOL) getObjectValue:(o^@)a forString:(id)b errorDescription:(o^@)c ;
+ - (id) stringForObjectValue:(id)a ;
+ - (id) attributedStringForObjectValue:(id)a withDefaultAttributes:(id)b ;
+ - (void) setDateStyle:(unsigned long long)a ;
+ - (void) setTimeStyle:(unsigned long long)a ;
  - (unsigned long long) dateStyle;
  - (unsigned long long) timeStyle;
- - (BOOL) isPartialStringValid:(id)anewEditingString:(^@)berrorDescription:(^@)c;
- - (id) editingStringForObjectValue:(id)a;
- - (BOOL) isPartialStringValid:(^@)aproposedSelectedRange:(^{_NSRange=QQ})boriginalString:(id)coriginalSelectedRange:({_NSRange=QQ})derrorDescription:(^@)e;
- - (id) stringFromDate:(id)atoDate:(id)b;
+ - (BOOL) isPartialStringValid:(id)a newEditingString:(^@)b errorDescription:(^@)c ;
+ - (id) editingStringForObjectValue:(id)a ;
+ - (BOOL) isPartialStringValid:(^@)a proposedSelectedRange:(^{_NSRange=QQ})b originalString:(id)c originalSelectedRange:({_NSRange=QQ})d errorDescription:(^@)e ;
+ - (id) stringFromDate:(id)a toDate:(id)b ;
  - (id) dateTemplate;
- - (void) setDateTemplate:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (void) setDateTemplate:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (void) setTimeZone:(id)a;
- - (void) setLocale:(id)a;
+ - (void) setTimeZone:(id)a ;
+ - (void) setLocale:(id)a ;
  - (id) locale;
  - (id) timeZone;
  - (id) calendar;
- - (void) setCalendar:(id)a;
+ - (void) setCalendar:(id)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

@@ -16,19 +16,19 @@
 
  - (void) dealloc;
  - (id) init;
- - (void) setShadowColor:(id)a;
- - (void) setBlurSize:(unsigned long long)a;
- - (void) setAngle:(short)a;
- - (void) setSoftenSize:(unsigned long long)a;
- - (void) setAltitude:(unsigned long long)a;
- - (void) setHighlightBlendMode:(int)a;
- - (void) setHighlightColor:(id)a;
- - (void) setHighlightOpacity:(double)a;
- - (void) setShadowBlendMode:(int)a;
- - (void) setDirection:(unsigned int)a;
+ - (void) setShadowColor:(id)a ;
+ - (void) setBlurSize:(unsigned long long)a ;
+ - (void) setAngle:(short)a ;
+ - (void) setSoftenSize:(unsigned long long)a ;
+ - (void) setAltitude:(unsigned long long)a ;
+ - (void) setHighlightBlendMode:(int)a ;
+ - (void) setHighlightColor:(id)a ;
+ - (void) setHighlightOpacity:(double)a ;
+ - (void) setShadowBlendMode:(int)a ;
+ - (void) setDirection:(unsigned int)a ;
  - (unsigned int) direction;
- - (BOOL) updateLayerEffectPreset:(id)aerror:(^@)b;
- - (id) initWithEffectFromPreset:(id)aatIndex:(unsigned int)b;
+ - (BOOL) updateLayerEffectPreset:(id)a error:(^@)b ;
+ - (id) initWithEffectFromPreset:(id)a atIndex:(unsigned int)b ;
  - (unsigned long long) blurSize;
  - (short) angle;
  - (id) highlightColor;
@@ -40,7 +40,7 @@
  - (double) shadowOpacity;
  - (id) shadowColor;
  - (unsigned long long) altitude;
- - (void) setShadowOpacity:(double)a;
+ - (void) setShadowOpacity:(double)a ;
 
 
 @end

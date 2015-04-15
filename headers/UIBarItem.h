@@ -24,13 +24,13 @@
  + (id) _appearanceBlindViewClasses;
 
  - (BOOL) _shouldArchiveUIAppearanceTags;
- - (void) _setShouldArchiveUIAppearanceTags:(BOOL)a;
- - (void) setTitleTextAttributes:(id)aforState:(unsigned long long)b;
- - (id) titleTextAttributesForState:(unsigned long long)a;
+ - (void) _setShouldArchiveUIAppearanceTags:(BOOL)a ;
+ - (void) setTitleTextAttributes:(id)a forState:(unsigned long long)b ;
+ - (id) titleTextAttributesForState:(unsigned long long)a ;
  - (BOOL) _hasCustomizableInstanceAppearanceModifications;
- - (void) _setHasCustomizableInstanceAppearanceModifications:(BOOL)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) _setHasCustomizableInstanceAppearanceModifications:(BOOL)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

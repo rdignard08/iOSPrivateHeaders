@@ -11,11 +11,11 @@
 
  - (void) open;
  - (void) close;
- - (void) setDelegate:(id)a;
- - (id) propertyForKey:(id)a;
- - (BOOL) setProperty:(id)aforKey:(id)b;
- - (void) scheduleInRunLoop:(id)aforMode:(id)b;
- - (void) removeFromRunLoop:(id)aforMode:(id)b;
+ - (void) setDelegate:(id)a ;
+ - (id) propertyForKey:(id)a ;
+ - (BOOL) setProperty:(id)a forKey:(id)b ;
+ - (void) scheduleInRunLoop:(id)a forMode:(id)b ;
+ - (void) removeFromRunLoop:(id)a forMode:(id)b ;
  - (unsigned long long) streamStatus;
  - (id) streamError;
  - (id) delegate;

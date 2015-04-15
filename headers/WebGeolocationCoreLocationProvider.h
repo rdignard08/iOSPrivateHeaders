@@ -13,14 +13,14 @@
  - (void) .cxx_destruct;
  - (void) dealloc;
  - (void) start;
- - (void) setEnableHighAccuracy:(BOOL)a;
- - (id) initWithListener:(id)a;
+ - (void) setEnableHighAccuracy:(BOOL)a ;
+ - (id) initWithListener:(id)a ;
  - (void) requestGeolocationAuthorization;
  - (void) createLocationManager;
- - (void) sendLocation:(id)a;
- - (void) locationManager:(id)adidUpdateLocations:(id)b;
- - (void) locationManager:(id)adidFailWithError:(id)b;
- - (void) locationManager:(id)adidChangeAuthorizationStatus:(int)b;
+ - (void) sendLocation:(id)a ;
+ - (void) locationManager:(id)a didUpdateLocations:(id)b ;
+ - (void) locationManager:(id)a didFailWithError:(id)b ;
+ - (void) locationManager:(id)a didChangeAuthorizationStatus:(int)b ;
 
 
 @end

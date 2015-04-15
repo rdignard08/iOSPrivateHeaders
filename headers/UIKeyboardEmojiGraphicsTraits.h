@@ -53,7 +53,7 @@
  - (double) scrubViewTopPadding;
  - (double) categorySelectedCirWidth;
  - (double) categorySelectedCirPadding;
- - (id) initWithScreenTrait:(id)a;
+ - (id) initWithScreenTrait:(id)a ;
  - (double) categoryHeaderLeftPadding;
  - (double) rightBiasPercentage;
 

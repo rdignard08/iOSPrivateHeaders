@@ -7,7 +7,7 @@
 
  - (^{CGImage=}) outputCGImage;
  - (id) inputQuietSpace;
- - (void) setInputQuietSpace:(id)a;
+ - (void) setInputQuietSpace:(id)a ;
 
 
 @end

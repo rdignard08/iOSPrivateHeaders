@@ -10,13 +10,13 @@
  + (id) _proxyShare;
 
  - ({?=@@}) _proxyLocator;
- - (id) _proxyInitWithContainer:(id)agetter:(id)b;
+ - (id) _proxyInitWithContainer:(id)a getter:(id)b ;
  - (void) _proxyNonGCFinalize;
  - (void) dealloc;
  - (unsigned long long) count;
- - (id) objectAtIndex:(unsigned long long)a;
- - (void) getObjects:(^@)arange:({_NSRange=QQ})b;
- - (id) objectsAtIndexes:(id)a;
+ - (id) objectAtIndex:(unsigned long long)a ;
+ - (void) getObjects:(^@)a range:({_NSRange=QQ})b ;
+ - (id) objectsAtIndexes:(id)a ;
 
 
 @end

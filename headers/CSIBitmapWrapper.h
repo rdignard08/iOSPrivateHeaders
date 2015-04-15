@@ -16,18 +16,18 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (id) compressedData:(BOOL)ausedEncoding:(^i)bandRowChunkSize:(^I)c;
+ - (id) compressedData:(BOOL)a usedEncoding:(^i)b andRowChunkSize:(^I)c ;
  - (BOOL) allowsMultiPassEncoding;
  - (unsigned int) sourceImageAlpha;
  - (unsigned long long) rowbytes;
  - (unsigned int) pixelFormat;
- - (void) setPixelFormat:(unsigned int)a;
- - (void) setAllowsMultiPassEncoding:(BOOL)a;
+ - (void) setPixelFormat:(unsigned int)a ;
+ - (void) setAllowsMultiPassEncoding:(BOOL)a ;
  - (^{CGContext=}) bitmapContext;
  - (id) pixelData;
- - (id) initWithPixelWidth:(unsigned int)apixelHeight:(unsigned int)b;
- - (void) setSourceAlphaInfo:(unsigned int)a;
- - (void) setPixelData:(id)a;
+ - (id) initWithPixelWidth:(unsigned int)a pixelHeight:(unsigned int)b ;
+ - (void) setSourceAlphaInfo:(unsigned int)a ;
+ - (void) setPixelData:(id)a ;
  - (unsigned int) width;
  - (unsigned int) height;
 

@@ -19,9 +19,9 @@
  + (id) touchEventWithStage:(int)alocation:({CGPoint=dd})bradius:(double)ctimestamp:(double)dpathIndex:(long long)eforcedKeyCode:(long long)f;
 
  - (id) description;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithStage:(int)alocation:({CGPoint=dd})bradius:(double)ctimestamp:(double)dpathIndex:(long long)eforcedKeyCode:(long long)f;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithStage:(int)a location:({CGPoint=dd})b radius:(double)c timestamp:(double)d pathIndex:(long long)e forcedKeyCode:(long long)f ;
  - (int) stage;
  - ({CGPoint=dd}) location;
  - (double) radius;

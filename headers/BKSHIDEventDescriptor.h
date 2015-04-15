@@ -13,12 +13,12 @@
 
  - (id) description;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithEventType:(unsigned int)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithEventType:(unsigned int)a ;
  - (unsigned int) hidEventType;
- - (BOOL) describes:(id)a;
+ - (BOOL) describes:(id)a ;
 
 
 @end

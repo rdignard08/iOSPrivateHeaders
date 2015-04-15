@@ -12,7 +12,7 @@
 }
 
  - (void) dealloc;
- - (void) setMinimumTrackImage:(id)aforStates:(unsigned long long)b;
+ - (void) setMinimumTrackImage:(id)a forStates:(unsigned long long)b ;
 
 
 @end

@@ -12,7 +12,7 @@
  - (id) textField;
  - (id) _textFieldFont;
  - (double) _borderWidth;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

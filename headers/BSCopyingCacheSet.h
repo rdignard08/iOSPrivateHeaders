@@ -9,9 +9,9 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) count;
- - (void) addObject:(id)a;
- - (BOOL) containsObject:(id)a;
- - (void) removeObject:(id)a;
+ - (void) addObject:(id)a ;
+ - (BOOL) containsObject:(id)a ;
+ - (void) removeObject:(id)a ;
  - (id) immutableSet;
 
 

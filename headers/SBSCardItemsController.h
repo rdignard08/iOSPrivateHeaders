@@ -7,12 +7,12 @@
 }
 
  - (void) dealloc;
- - (id) initWithIdentifier:(id)a;
- - (void) addCardItems:(id)a;
- - (void) removeCardItems:(id)a;
- - (void) setCardItems:(id)a;
+ - (id) initWithIdentifier:(id)a ;
+ - (void) addCardItems:(id)a ;
+ - (void) removeCardItems:(id)a ;
+ - (void) setCardItems:(id)a ;
  - (void) clearAllCardItems;
- - (void) getCardItemsWithHandler:(@?)a;
+ - (void) getCardItemsWithHandler:(@?)a ;
 
 
 @end

@@ -9,15 +9,15 @@
 
  - (double) duration;
  - (@?) animations;
- - (void) setAnimations:(@?)a;
+ - (void) setAnimations:(@?)a ;
  - (void) dealloc;
- - (double) transitionDuration:(id)a;
- - (void) animateTransition:(id)a;
+ - (double) transitionDuration:(id)a ;
+ - (void) animateTransition:(id)a ;
  - (BOOL) skipCallbacks;
- - (void) setSkipCallbacks:(BOOL)a;
- - (void) setUpdateStatusBarIfNecessary:(BOOL)a;
+ - (void) setSkipCallbacks:(BOOL)a ;
+ - (void) setUpdateStatusBarIfNecessary:(BOOL)a ;
  - (BOOL) updateStatusBarIfNecessary;
- - (void) setDuration:(double)a;
+ - (void) setDuration:(double)a ;
 
 
 @end

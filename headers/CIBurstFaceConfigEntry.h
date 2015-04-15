@@ -11,11 +11,11 @@
 
  - (int) faceId;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) faceRect;
- - (id) initWithRect:({CGRect={CGPoint=dd}{CGSize=dd}})awithFaceId:(int)b;
- - (void) setFaceId:(int)a;
- - (void) setFaceRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithRect:({CGRect={CGPoint=dd}{CGSize=dd}})a withFaceId:(int)b ;
+ - (void) setFaceId:(int)a ;
+ - (void) setFaceRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (int) framesSinceLast;
- - (void) setFramesSinceLast:(int)a;
+ - (void) setFramesSinceLast:(int)a ;
 
 
 @end

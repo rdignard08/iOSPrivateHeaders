@@ -19,21 +19,21 @@
 
  - (void) stop;
  - (id) serviceName;
- - (void) _setQueue:(id)a;
+ - (void) _setQueue:(id)a ;
  - (id) _initShared;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;
  - (void) invalidate;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) _queue;
  - (id) _xpcConnection;
  - (void) suspend;
  - (id) delegate;
- - (void) setOptions:(unsigned long long)a;
- - (id) initWithMachServiceName:(id)a;
+ - (void) setOptions:(unsigned long long)a ;
+ - (id) initWithMachServiceName:(id)a ;
  - (void) resume;
- - (id) initWithServiceName:(id)a;
+ - (id) initWithServiceName:(id)a ;
  - (id) endpoint;
 
 

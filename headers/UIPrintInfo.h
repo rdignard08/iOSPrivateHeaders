@@ -21,28 +21,28 @@
  + (id) printInfoWithDictionary:(id)a;
 
  - (id) dictionaryRepresentation;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (void) setJobName:(id)a;
- - (void) setOutputType:(long long)a;
- - (id) _initWithDictionary:(id)a;
- - (void) setPrinterID:(id)a;
- - (void) _updateWithPrinter:(id)a;
- - (id) _createPrintSettingsForPrinter:(id)a;
+ - (void) setJobName:(id)a ;
+ - (void) setOutputType:(long long)a ;
+ - (id) _initWithDictionary:(id)a ;
+ - (void) setPrinterID:(id)a ;
+ - (void) _updateWithPrinter:(id)a ;
+ - (id) _createPrintSettingsForPrinter:(id)a ;
  - (id) printerID;
  - (id) jobName;
  - (long long) outputType;
  - (long long) duplex;
- - (void) setDuplex:(long long)a;
+ - (void) setDuplex:(long long)a ;
  - (long long) copies;
- - (void) setCopies:(long long)a;
+ - (void) setCopies:(long long)a ;
  - (BOOL) scaleUp;
- - (void) setScaleUp:(BOOL)a;
+ - (void) setScaleUp:(BOOL)a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (long long) orientation;
- - (void) setOrientation:(long long)a;
+ - (void) setOrientation:(long long)a ;
 
 
 @end

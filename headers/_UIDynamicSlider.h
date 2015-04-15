@@ -14,15 +14,15 @@
 
  - (void) dealloc;
  - (BOOL) cancelTouchTracking;
- - (BOOL) beginTrackingWithTouch:(id)awithEvent:(id)b;
- - (BOOL) continueTrackingWithTouch:(id)awithEvent:(id)b;
- - (void) endTrackingWithTouch:(id)awithEvent:(id)b;
+ - (BOOL) beginTrackingWithTouch:(id)a withEvent:(id)b ;
+ - (BOOL) continueTrackingWithTouch:(id)a withEvent:(id)b ;
+ - (void) endTrackingWithTouch:(id)a withEvent:(id)b ;
  - (void) _clearDynamics;
- - (void) _initializeDynamicsTracking:(id)a;
- - (void) _updateDynamicsTracking:(id)a;
+ - (void) _initializeDynamicsTracking:(id)a ;
+ - (void) _updateDynamicsTracking:(id)a ;
  - (void) _handleConversionToDynamicsTracking;
- - (void) dynamicAnimatorDidPause:(id)a;
- - (void) collisionBehavior:(id)abeganContactForItem:(id)bwithBoundaryIdentifier:(id)catPoint:({CGPoint=dd})d;
+ - (void) dynamicAnimatorDidPause:(id)a ;
+ - (void) collisionBehavior:(id)a beganContactForItem:(id)b withBoundaryIdentifier:(id)c atPoint:({CGPoint=dd})d ;
  - (void) _handleDynamicsStep;
 
 

@@ -6,8 +6,8 @@
 }
 
  - (void) dealloc;
- - (void) setMessage:(id)a;
- - (id) initInView:(id)atitle:(id)b;
+ - (void) setMessage:(id)a ;
+ - (id) initInView:(id)a title:(id)b ;
 
 
 @end

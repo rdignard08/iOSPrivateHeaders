@@ -9,7 +9,7 @@
  + (id) allocWithZone:(^{_NSZone=})a;
 
  - (void) dealloc;
- - (id) initWithObject:(id)a;
+ - (id) initWithObject:(id)a ;
  - (id) nextObject;
 
 

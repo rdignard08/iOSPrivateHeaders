@@ -12,16 +12,16 @@
 
  - (id) description;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) matchSharingTouchesPolicy:(@?)aorCancelTouchesPolicy:(@?)borCombinedPolicy:(@?)c;
- - (id) reducePolicyToObjectWithBlock:(@?)a;
- - (id) policyByMappingContainedPoliciesWithBlock:(@?)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) matchSharingTouchesPolicy:(@?)a orCancelTouchesPolicy:(@?)b orCombinedPolicy:(@?)c ;
+ - (id) reducePolicyToObjectWithBlock:(@?)a ;
+ - (id) policyByMappingContainedPoliciesWithBlock:(@?)a ;
  - (id) assertionEndpoint;
- - (void) setAssertionEndpoint:(id)a;
- - (id) policyIncludingPolicy:(id)a;
- - (id) policyExcludingPolicy:(id)a;
+ - (void) setAssertionEndpoint:(id)a ;
+ - (id) policyIncludingPolicy:(id)a ;
+ - (id) policyExcludingPolicy:(id)a ;
 
 
 @end

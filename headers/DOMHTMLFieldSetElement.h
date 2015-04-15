@@ -7,14 +7,14 @@
  - (id) form;
  - (BOOL) disabled;
  - (id) type;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
  - (id) elements;
- - (void) setDisabled:(BOOL)a;
+ - (void) setDisabled:(BOOL)a ;
  - (BOOL) willValidate;
  - (id) validity;
  - (id) validationMessage;
  - (BOOL) checkValidity;
- - (void) setCustomValidity:(id)a;
+ - (void) setCustomValidity:(id)a ;
 
 
 @end

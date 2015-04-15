@@ -15,29 +15,29 @@
  + (id) currentQueue;
  + (id) mainQueue;
 
- - (void) executeAndWaitForBlock:(@?)a;
+ - (void) executeAndWaitForBlock:(@?)a ;
  - (id) __;
  - (long long) qualityOfService;
- - (void) setQualityOfService:(long long)a;
- - (void) addOperations:(id)awaitUntilFinished:(BOOL)b;
+ - (void) setQualityOfService:(long long)a ;
+ - (void) addOperations:(id)a waitUntilFinished:(BOOL)b ;
  - (long long) maxConcurrentOperationCount;
  - (BOOL) overcommitsOperations;
- - (void) setOvercommitsOperations:(BOOL)a;
+ - (void) setOvercommitsOperations:(BOOL)a ;
  - (id) underlyingQueue;
  - (id) description;
  - (void) dealloc;
  - (id) name;
- - (void) addOperation:(id)a;
- - (void) addOperationWithBlock:(@?)a;
- - (void) setUnderlyingQueue:(id)a;
+ - (void) addOperation:(id)a ;
+ - (void) addOperationWithBlock:(@?)a ;
+ - (void) setUnderlyingQueue:(id)a ;
  - (void) cancelAllOperations;
  - (void) waitUntilAllOperationsAreFinished;
  - (id) operations;
  - (unsigned long long) operationCount;
- - (void) setSuspended:(BOOL)a;
+ - (void) setSuspended:(BOOL)a ;
  - (id) init;
- - (void) setMaxConcurrentOperationCount:(long long)a;
- - (void) setName:(id)a;
+ - (void) setMaxConcurrentOperationCount:(long long)a ;
+ - (void) setName:(id)a ;
  - (BOOL) isSuspended;
 
 

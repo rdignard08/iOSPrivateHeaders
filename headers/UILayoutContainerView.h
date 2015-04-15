@@ -12,24 +12,24 @@
 }
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (void) didMoveToWindow;
  - (void) layoutSubviews;
- - (void) willMoveToWindow:(id)a;
- - (void) setUsesRoundedCorners:(BOOL)a;
- - (void) setUsesInnerShadow:(BOOL)a;
+ - (void) willMoveToWindow:(id)a ;
+ - (void) setUsesRoundedCorners:(BOOL)a ;
+ - (void) setUsesInnerShadow:(BOOL)a ;
  - (BOOL) forwardMoveToWindowCallbacks;
  - (void) _installShadowViews;
  - (void) _tearDownShadowViews;
  - (BOOL) usesRoundedCorners;
  - (BOOL) usesInnerShadow;
- - (void) setForwardMoveToWindowCallbacks:(BOOL)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setForwardMoveToWindowCallbacks:(BOOL)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) delegate;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) addSubview:(id)a;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) addSubview:(id)a ;
 
 
 @end

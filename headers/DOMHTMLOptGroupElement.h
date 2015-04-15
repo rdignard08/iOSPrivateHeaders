@@ -6,11 +6,11 @@
  - (id) itemTitle;
  - (id) createSelectedItem;
  - (id) createPickerCell;
- - (void) populateCell:(id)a;
- - (void) setLabel:(id)a;
+ - (void) populateCell:(id)a ;
+ - (void) setLabel:(id)a ;
  - (BOOL) disabled;
  - (id) label;
- - (void) setDisabled:(BOOL)a;
+ - (void) setDisabled:(BOOL)a ;
 
 
 @end

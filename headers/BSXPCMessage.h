@@ -15,11 +15,11 @@
  + (id) messageWithPacker:(@?)areplyHandler:(@?)breplyQueue:(id)c;
 
  - (void) dealloc;
- - (id) initWithMessagePacker:(@?)areplyHandler:(@?)breplyQueue:(id)c;
- - (void) sendToConnection:(id)a;
- - (id) initWithMessage:(long long)apacker:(@?)breplyHandler:(@?)creplyQueue:(id)d;
- - (id) initWithMessage:(id)areplyHandler:(@?)breplyQueue:(id)c;
- - (void) forcefullyInvokeReplyHandler:(id)a;
+ - (id) initWithMessagePacker:(@?)a replyHandler:(@?)b replyQueue:(id)c ;
+ - (void) sendToConnection:(id)a ;
+ - (id) initWithMessage:(long long)a packer:(@?)b replyHandler:(@?)c replyQueue:(id)d ;
+ - (id) initWithMessage:(id)a replyHandler:(@?)b replyQueue:(id)c ;
+ - (void) forcefullyInvokeReplyHandler:(id)a ;
 
 
 @end

@@ -17,7 +17,7 @@
 
  - (void) main;
  - (void) dealloc;
- - (id) initWithCenter:(id)amessageName:(id)buserInfoData:(id)coolKey:(id)doolData:(id)etarget:(id)fselector:(SEL)gcontext:(^v)hmakeServer:(BOOL)i;
+ - (id) initWithCenter:(id)a messageName:(id)b userInfoData:(id)c oolKey:(id)d oolData:(id)e target:(id)f selector:(SEL)g context:(^v)h makeServer:(BOOL)i ;
  - (void) _releaseSendingData;
  - (void) _performCallout;
 

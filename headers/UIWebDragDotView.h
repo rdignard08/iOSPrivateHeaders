@@ -14,13 +14,13 @@
  - (BOOL) isPointedUp;
  - (BOOL) isPointedRight;
  - (BOOL) isPointedLeft;
- - (id) initWithEdge:({CGRect={CGPoint=dd}{CGSize=dd}})acontainer:(id)borientation:(int)c;
- - (void) setEdge:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setShowsBall:(BOOL)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) stickFrameForEdge:({CGRect={CGPoint=dd}{CGSize=dd}})awithOverlap:(double)b;
+ - (id) initWithEdge:({CGRect={CGPoint=dd}{CGSize=dd}})a container:(id)b orientation:(int)c ;
+ - (void) setEdge:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setShowsBall:(BOOL)a ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) stickFrameForEdge:({CGRect={CGPoint=dd}{CGSize=dd}})a withOverlap:(double)b ;
  - (BOOL) showsBall;
  - (BOOL) isVertical;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -12,11 +12,11 @@
 
  - (void) dealloc;
  - (id) traitStorages;
- - (id) initWithTopLevelObject:(id)atraitStorages:(id)bdescendants:(id)c;
+ - (id) initWithTopLevelObject:(id)a traitStorages:(id)b descendants:(id)c ;
  - (id) topLevelObject;
  - (id) descendants;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

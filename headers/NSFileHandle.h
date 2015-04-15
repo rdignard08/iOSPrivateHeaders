@@ -25,28 +25,28 @@
  - (void) ml_lock;
  - (void) ml_unlock;
  - (Class) classForCoder;
- - (id) initWithFileDescriptor:(int)acloseOnDealloc:(BOOL)b;
- - (id) initWithPath:(id)aflags:(long long)bcreateMode:(long long)cerror:(^@)d;
- - (id) initWithPath:(id)aflags:(long long)bcreateMode:(long long)c;
- - (id) initWithURL:(id)aflags:(long long)bcreateMode:(long long)cerror:(^@)d;
- - (id) initWithFileDescriptor:(int)a;
+ - (id) initWithFileDescriptor:(int)a closeOnDealloc:(BOOL)b ;
+ - (id) initWithPath:(id)a flags:(long long)b createMode:(long long)c error:(^@)d ;
+ - (id) initWithPath:(id)a flags:(long long)b createMode:(long long)c ;
+ - (id) initWithURL:(id)a flags:(long long)b createMode:(long long)c error:(^@)d ;
+ - (id) initWithFileDescriptor:(int)a ;
  - (id) availableData;
  - (id) readDataToEndOfFile;
- - (id) readDataOfLength:(unsigned long long)a;
+ - (id) readDataOfLength:(unsigned long long)a ;
  - (unsigned long long) offsetInFile;
  - (unsigned long long) seekToEndOfFile;
- - (void) truncateFileAtOffset:(unsigned long long)a;
+ - (void) truncateFileAtOffset:(unsigned long long)a ;
  - (void) synchronizeFile;
  - (@?) writeabilityHandler;
- - (void) setWriteabilityHandler:(@?)a;
+ - (void) setWriteabilityHandler:(@?)a ;
  - (@?) readabilityHandler;
- - (void) setReadabilityHandler:(@?)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setReadabilityHandler:(@?)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (int) fileDescriptor;
  - (void) closeFile;
- - (void) seekToFileOffset:(unsigned long long)a;
- - (void) writeData:(id)a;
+ - (void) seekToFileOffset:(unsigned long long)a ;
+ - (void) writeData:(id)a ;
 
 
 @end

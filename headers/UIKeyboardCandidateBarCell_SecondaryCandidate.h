@@ -8,7 +8,7 @@
  + (BOOL) highlightAffectsBackground;
  + (id) font;
 
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

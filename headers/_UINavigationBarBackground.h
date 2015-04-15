@@ -11,32 +11,32 @@
 
  - (void) dealloc;
  - (BOOL) isTranslucent;
- - (void) _didMoveFromWindow:(id)atoWindow:(id)b;
+ - (void) _didMoveFromWindow:(id)a toWindow:(id)b ;
  - (void) didMoveToSuperview;
  - (id) _shadowView;
- - (void) setAppearanceStorage:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})abarStyle:(long long)bbarTintColor:(id)cappearance:(id)dbarTranslucence:(long long)e;
+ - (void) setAppearanceStorage:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a barStyle:(long long)b barTintColor:(id)c appearance:(id)d barTranslucence:(long long)e ;
  - (id) appearanceStorage;
  - (void) updateBackgroundImage;
- - (void) setBarStyle:(long long)a;
- - (void) setBarWantsAdaptiveBackdrop:(BOOL)a;
+ - (void) setBarStyle:(long long)a ;
+ - (void) setBarWantsAdaptiveBackdrop:(BOOL)a ;
  - (long long) barStyle;
- - (void) setTranslucent:(BOOL)a;
- - (void) setBarTintColor:(id)a;
- - (void) _setIsContainedInPopover:(BOOL)a;
+ - (void) setTranslucent:(BOOL)a ;
+ - (void) setBarTintColor:(id)a ;
+ - (void) _setIsContainedInPopover:(BOOL)a ;
  - (id) _currentCustomBackground;
- - (id) _currentCustomBackgroundRespectOversize_legacy:(^B)a;
- - (void) _setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aforceUpdateBackgroundImage:(BOOL)b;
+ - (id) _currentCustomBackgroundRespectOversize_legacy:(^B)a ;
+ - (void) _setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a forceUpdateBackgroundImage:(BOOL)b ;
  - (id) barTintColor;
- - (id) _currentCustomBackgroundDedicatedToBarMetrics:(^q)abarPosition:(^q)b;
+ - (id) _currentCustomBackgroundDedicatedToBarMetrics:(^q)a barPosition:(^q)b ;
  - (BOOL) barWantsAdaptiveBackdrop;
- - (void) _setShadowView:(id)a;
- - (id) backdropView:(id)awillChangeToGraphicsQuality:(long long)b;
- - (void) backdropView:(id)adidChangeToGraphicsQuality:(long long)b;
+ - (void) _setShadowView:(id)a ;
+ - (id) backdropView:(id)a willChangeToGraphicsQuality:(long long)b ;
+ - (void) backdropView:(id)a didChangeToGraphicsQuality:(long long)b ;
  - (id) _adaptiveBackdrop;
  - (id) _customShadowImageForSearchBar;
- - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

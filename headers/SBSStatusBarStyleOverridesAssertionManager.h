@@ -13,19 +13,19 @@
 
  - (void) dealloc;
  - (id) init;
- - (void) removeStatusBarStyleOverridesAssertion:(id)a;
- - (void) addStatusBarStyleOverridesAssertion:(id)awithHandler:(@?)bonQueue:(id)c;
- - (void) invalidateStatusBarStyleOverridesAssertionsWithIdentifiers:(id)a;
+ - (void) removeStatusBarStyleOverridesAssertion:(id)a ;
+ - (void) addStatusBarStyleOverridesAssertion:(id)a withHandler:(@?)b onQueue:(id)c ;
+ - (void) invalidateStatusBarStyleOverridesAssertionsWithIdentifiers:(id)a ;
  - (void) _reactivateAssertions;
  - (void) _tearDownXPCConnection;
- - (void) _internalQueue_removeStatusBarStyleOverridesAssertionMatchingData:(id)ainvalidate:(BOOL)b;
- - (void) _invalidateStatusBarStyleOverridesAssertionsWithData:(id)a;
+ - (void) _internalQueue_removeStatusBarStyleOverridesAssertionMatchingData:(id)a invalidate:(BOOL)b ;
+ - (void) _invalidateStatusBarStyleOverridesAssertionsWithData:(id)a ;
  - (id) assertions;
- - (void) setAssertions:(id)a;
+ - (void) setAssertions:(id)a ;
  - (id) sbXPCConnection;
- - (void) setSbXPCConnection:(id)a;
+ - (void) setSbXPCConnection:(id)a ;
  - (id) internalQueue;
- - (void) setInternalQueue:(id)a;
+ - (void) setInternalQueue:(id)a ;
 
 
 @end

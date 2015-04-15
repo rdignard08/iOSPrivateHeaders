@@ -10,9 +10,9 @@
  + (id) proxyWithTarget:(id)a;
 
  - (void) dealloc;
- - (BOOL) respondsToSelector:(SEL)a;
- - (id) methodSignatureForSelector:(SEL)a;
- - (id) forwardingTargetForSelector:(SEL)a;
+ - (BOOL) respondsToSelector:(SEL)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
+ - (id) forwardingTargetForSelector:(SEL)a ;
  - (id) _deliveringRepliesAsynchronously;
  - (id) _awaitingReply;
 

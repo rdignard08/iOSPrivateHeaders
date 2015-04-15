@@ -17,16 +17,16 @@
  + (id) rowActionWithStyle:(long long)atitle:(id)bhandler:(@?)c;
 
  - (id) title;
- - (void) setTitle:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (void) setTitle:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (id) _initWithStyle:(id)atitle:(id)bhandler:(@?)c;
+ - (id) _initWithStyle:(id)a title:(id)b handler:(@?)c ;
  - (id) _button;
- - (void) _setButton:(id)a;
+ - (void) _setButton:(id)a ;
  - (id) backgroundEffect;
- - (void) setBackgroundEffect:(id)a;
+ - (void) setBackgroundEffect:(id)a ;
  - (@?) _handler;
- - (void) setBackgroundColor:(id)a;
+ - (void) setBackgroundColor:(id)a ;
  - (long long) style;
  - (id) backgroundColor;
 

@@ -4,9 +4,9 @@
     WebView* _webView;
 }
 
- - (id) actionForKey:(id)a;
+ - (id) actionForKey:(id)a ;
  - (void) layoutSublayers;
- - (id) initWithWebView:(id)a;
+ - (id) initWithWebView:(id)a ;
 
 
 @end

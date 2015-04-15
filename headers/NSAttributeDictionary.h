@@ -8,15 +8,15 @@
  + (id) emptyAttributeDictionary;
  + (void) initialize;
 
- - (id) newWithKey:(id)aobject:(id)b;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) newWithKey:(id)a object:(id)b ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (unsigned long long) count;
- - (id) objectForKey:(id)a;
- - (void) getObjects:(^@)aandKeys:(^@)b;
+ - (id) objectForKey:(id)a ;
+ - (void) getObjects:(^@)a andKeys:(^@)b ;
  - (id) keyEnumerator;
- - (BOOL) isEqualToDictionary:(id)a;
+ - (BOOL) isEqualToDictionary:(id)a ;
 
 
 @end

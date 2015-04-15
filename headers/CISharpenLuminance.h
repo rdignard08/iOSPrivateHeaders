@@ -9,10 +9,10 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (BOOL) _isIdentity;
  - (id) _kernel;
- - (void) setInputSharpness:(id)a;
+ - (void) setInputSharpness:(id)a ;
  - (id) inputSharpness;
 
 

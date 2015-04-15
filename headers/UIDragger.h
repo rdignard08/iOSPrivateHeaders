@@ -19,23 +19,23 @@
 }
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
- - (void) setTarget:(id)a;
- - (void) setAction:(SEL)a;
- - (void) setStartLocation:({CGPoint=dd})a;
+ - (void) setDelegate:(id)a ;
+ - (void) setTarget:(id)a ;
+ - (void) setAction:(SEL)a ;
+ - (void) setStartLocation:({CGPoint=dd})a ;
  - (void) dragDidEnd;
- - (void) _postMouseEvent:(int)atimestamp:(unsigned long long)blocation:({CGPoint=dd})c;
- - (void) _continueDrag:(id)a;
+ - (void) _postMouseEvent:(int)a timestamp:(unsigned long long)b location:({CGPoint=dd})c ;
+ - (void) _continueDrag:(id)a ;
  - (double) _delayUntilNextEvent;
- - (void) _stopDrag:(id)a;
- - (void) setInterpolation:(^?)a;
- - (void) setStopLocation:({CGPoint=dd})a;
+ - (void) _stopDrag:(id)a ;
+ - (void) setInterpolation:(^?)a ;
+ - (void) setStopLocation:({CGPoint=dd})a ;
  - (void) showFinger;
- - (void) _smoothScrollingWillStart:(id)a;
- - (void) _smoothScrollingDidEnd:(id)a;
+ - (void) _smoothScrollingWillStart:(id)a ;
+ - (void) _smoothScrollingDidEnd:(id)a ;
  - (id) init;
  - (void) run;
- - (void) setDuration:(double)a;
+ - (void) setDuration:(double)a ;
 
 
 @end

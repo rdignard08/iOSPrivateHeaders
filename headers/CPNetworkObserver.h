@@ -17,20 +17,20 @@
 
  - (void) dealloc;
  - (id) init;
- - (void) removeObserver:(id)a;
- - (void) removeObserver:(id)aforHostname:(id)b;
- - (void) _networkReachableFirstCallBack:(id)a;
- - (void) _networkReachableCallBack:(unsigned int)a;
+ - (void) removeObserver:(id)a ;
+ - (void) removeObserver:(id)a forHostname:(id)b ;
+ - (void) _networkReachableFirstCallBack:(id)a ;
+ - (void) _networkReachableCallBack:(unsigned int)a ;
  - (void) _networkObserversInitialize;
- - (void) _wifiFirstCallBack:(id)a;
- - (void) _wifiCallBack:(unsigned int)a;
+ - (void) _wifiFirstCallBack:(id)a ;
+ - (void) _wifiCallBack:(unsigned int)a ;
  - (void) _wifiObserversInitialize;
- - (void) addObserver:(id)aselector:(SEL)bforHostname:(id)c;
+ - (void) addObserver:(id)a selector:(SEL)b forHostname:(id)c ;
  - (BOOL) isWiFiEnabled;
- - (void) addWiFiObserver:(id)aselector:(SEL)b;
- - (void) removeWiFiObserver:(id)a;
- - (void) addNetworkReachableObserver:(id)aselector:(SEL)b;
- - (void) removeNetworkReachableObserver:(id)a;
+ - (void) addWiFiObserver:(id)a selector:(SEL)b ;
+ - (void) removeWiFiObserver:(id)a ;
+ - (void) addNetworkReachableObserver:(id)a selector:(SEL)b ;
+ - (void) removeNetworkReachableObserver:(id)a ;
  - (BOOL) isNetworkReachable;
 
 

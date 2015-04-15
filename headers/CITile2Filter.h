@@ -6,7 +6,7 @@
  + (id) customAttributes;
 
  - (void) setDefaults;
- - (void) setInputAcuteAngle:(id)a;
+ - (void) setInputAcuteAngle:(id)a ;
  - (id) inputAcuteAngle;
 
 

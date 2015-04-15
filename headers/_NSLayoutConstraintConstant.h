@@ -9,12 +9,12 @@
 @property (nonatomic, assign, readonly) NSNumber* numericValue;
  + (id) constantWithSymbolicValue:(id)anumericValue:(double)b;
 
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) initWithSymbolicValue:(id)anumericValue:(double)b;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) initWithSymbolicValue:(id)a numericValue:(double)b ;
  - (id) symbolicValue;
  - (double) numericValue;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

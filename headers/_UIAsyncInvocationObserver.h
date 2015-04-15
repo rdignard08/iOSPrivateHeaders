@@ -6,7 +6,7 @@
  + (void) whenInvocationsCompleteForObservers:(id)ado:(@?)b;
 
  - (void) dealloc;
- - (void) whenCompleteDo:(@?)a;
+ - (void) whenCompleteDo:(@?)a ;
  - (void) _didCompleteInvocation;
  - (id) init;
 

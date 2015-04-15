@@ -5,7 +5,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithName:(unsigned int)a;
+ - (id) initWithName:(unsigned int)a ;
  - (^{Object=^^?{Atomic={?=i}}}) CA_copyRenderValue;
 
 

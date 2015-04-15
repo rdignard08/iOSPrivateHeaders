@@ -18,15 +18,15 @@
  - (id) name;
  - (double) _curlUpRevealedHeight;
  - (@?) completion;
- - (void) setCompletion:(@?)a;
- - (void) setViewController:(id)a;
- - (void) setTransition:(int)a;
+ - (void) setCompletion:(@?)a ;
+ - (void) setViewController:(id)a ;
+ - (void) setTransition:(int)a ;
  - (int) transition;
- - (id) initWithViewController:(id)aname:(id)btransition:(int)c;
+ - (id) initWithViewController:(id)a name:(id)b transition:(int)c ;
  - (BOOL) animated;
- - (void) _setCurlUpRevealedHeight:(double)a;
+ - (void) _setCurlUpRevealedHeight:(double)a ;
  - (id) viewController;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
 
 
 @end

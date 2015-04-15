@@ -17,15 +17,15 @@
  - (void) dealloc;
  - (id) hrefURL;
  - (id) href;
- - (void) setHref:(id)a;
+ - (void) setHref:(id)a ;
  - (id) rel;
- - (void) setRel:(id)a;
+ - (void) setRel:(id)a ;
  - (id) sizes;
- - (void) setSizes:(id)a;
+ - (void) setSizes:(id)a ;
  - (BOOL) mediaMatchesPortraitOrientation;
- - (void) setMediaMatchesPortraitOrientation:(BOOL)a;
+ - (void) setMediaMatchesPortraitOrientation:(BOOL)a ;
  - (BOOL) mediaMatchesLandscapeOrientation;
- - (void) setMediaMatchesLandscapeOrientation:(BOOL)a;
+ - (void) setMediaMatchesLandscapeOrientation:(BOOL)a ;
 
 
 @end

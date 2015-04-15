@@ -6,10 +6,10 @@
  - (id) activityType;
  - (id) _activityImage;
  - (id) activityTitle;
- - (BOOL) canPerformWithActivityItems:(id)a;
+ - (BOOL) canPerformWithActivityItems:(id)a ;
  - (void) performActivity;
- - (void) prepareWithActivityItems:(id)a;
- - (void) _addToReadingList:(id)awithTitle:(id)b;
+ - (void) prepareWithActivityItems:(id)a ;
+ - (void) _addToReadingList:(id)a withTitle:(id)b ;
 
 
 @end

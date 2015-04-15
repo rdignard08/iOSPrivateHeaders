@@ -14,15 +14,15 @@
  + (void) _removeHierarchyTrackingVisitor:(id)a;
  + (void) _startTraversalOfVisitor:(id)awithView:(id)b;
 
- - (id) initWithTraversalDirection:(unsigned long long)a;
+ - (id) initWithTraversalDirection:(unsigned long long)a ;
  - (unsigned long long) traversalDirection;
- - (void) setTracksHierarchy:(BOOL)a;
+ - (void) setTracksHierarchy:(BOOL)a ;
  - (BOOL) tracksHierarchy;
- - (BOOL) _prepareVisitor:(id)atoVisitView:(id)bchangedSubview:(id)cpreviousWindow:(id)dpreviousSuperview:(id)e;
- - (void) set_currentlyVisitingHierarchy:(BOOL)a;
- - (BOOL) _visitView:(id)a;
+ - (BOOL) _prepareVisitor:(id)a toVisitView:(id)b changedSubview:(id)c previousWindow:(id)d previousSuperview:(id)e ;
+ - (void) set_currentlyVisitingHierarchy:(BOOL)a ;
+ - (BOOL) _visitView:(id)a ;
  - (BOOL) visitMaskViews;
- - (void) setVisitMaskViews:(BOOL)a;
+ - (void) setVisitMaskViews:(BOOL)a ;
  - (BOOL) _currentlyVisitingHierarchy;
 
 

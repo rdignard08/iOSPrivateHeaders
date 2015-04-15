@@ -9,12 +9,12 @@
 
  - (void) dealloc;
  - (id) name;
- - (void) setName:(id)a;
- - (void) setVisible:(BOOL)a;
+ - (void) setName:(id)a ;
+ - (void) setVisible:(BOOL)a ;
  - (BOOL) visible;
- - (BOOL) updateLayerEffectPreset:(id)aerror:(^@)b;
- - (id) initWithEffectFromPreset:(id)aatIndex:(unsigned int)b;
- - (id) _colorFromShapeEffectValue:((?=dQ{_rgbcolor=CCC}sI))a;
+ - (BOOL) updateLayerEffectPreset:(id)a error:(^@)b ;
+ - (id) initWithEffectFromPreset:(id)a atIndex:(unsigned int)b ;
+ - (id) _colorFromShapeEffectValue:((?=dQ{_rgbcolor=CCC}sI))a ;
  - (unsigned int) effectType;
 
 

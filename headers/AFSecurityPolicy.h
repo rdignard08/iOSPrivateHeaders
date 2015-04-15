@@ -19,20 +19,20 @@
  + (id) policyWithPinningMode:(unsigned long long)a;
  + (id) keyPathsForValuesAffectingPinnedPublicKeys;
 
- - (void) setSSLPinningMode:(unsigned long long)a;
- - (void) setPinnedCertificates:(id)a;
- - (void) setValidatesCertificateChain:(BOOL)a;
+ - (void) setSSLPinningMode:(unsigned long long)a ;
+ - (void) setPinnedCertificates:(id)a ;
+ - (void) setValidatesCertificateChain:(BOOL)a ;
  - (unsigned long long) SSLPinningMode;
- - (void) setValidatesDomainName:(BOOL)a;
+ - (void) setValidatesDomainName:(BOOL)a ;
  - (id) pinnedCertificates;
- - (void) setPinnedPublicKeys:(id)a;
- - (BOOL) evaluateServerTrust:(^{__SecTrust=})aforDomain:(id)b;
+ - (void) setPinnedPublicKeys:(id)a ;
+ - (BOOL) evaluateServerTrust:(^{__SecTrust=})a forDomain:(id)b ;
  - (BOOL) validatesDomainName;
  - (BOOL) allowInvalidCertificates;
  - (BOOL) validatesCertificateChain;
  - (id) pinnedPublicKeys;
- - (BOOL) evaluateServerTrust:(^{__SecTrust=})a;
- - (void) setAllowInvalidCertificates:(BOOL)a;
+ - (BOOL) evaluateServerTrust:(^{__SecTrust=})a ;
+ - (void) setAllowInvalidCertificates:(BOOL)a ;
  - (void) .cxx_destruct;
  - (id) init;
 

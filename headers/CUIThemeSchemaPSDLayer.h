@@ -7,7 +7,7 @@
 
  - (void) dealloc;
  - (id) name;
- - (void) setName:(id)a;
+ - (void) setName:(id)a ;
 
 
 @end

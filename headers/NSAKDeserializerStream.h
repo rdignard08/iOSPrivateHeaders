@@ -9,11 +9,11 @@
     BOOL freeWhenDone;
 }
 
- - (id) initFromMemoryNoCopy:(r^v)alength:(unsigned long long)bfreeWhenDone:(BOOL)c;
+ - (id) initFromMemoryNoCopy:(r^v)a length:(unsigned long long)b freeWhenDone:(BOOL)c ;
  - (int) readInt;
  - (unsigned long long) readAlignedDataSize;
- - (void) readData:(^v)alength:(unsigned long long)b;
- - (id) initFromPath:(id)a;
+ - (void) readData:(^v)a length:(unsigned long long)b ;
+ - (id) initFromPath:(id)a ;
  - (void) dealloc;
  - (void) finalize;
 

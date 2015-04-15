@@ -13,39 +13,39 @@
     {?="delegateBeganWithItem"b1"delegateEndedWithItem"b1"delegateBeganWithBoundary"b1"delegateEndedWithBoundary"b1} _collisionBehaviorFlags;
 }
 
- - (void) removeItem:(id)a;
+ - (void) removeItem:(id)a ;
  - (id) description;
  - (void) dealloc;
  - (id) items;
- - (id) initWithItems:(id)a;
+ - (id) initWithItems:(id)a ;
  - (void) _associate;
  - (void) _dissociate;
- - (void) addBoundaryWithIdentifier:(id)afromPoint:({CGPoint=dd})btoPoint:({CGPoint=dd})c;
- - (void) setCollisionDelegate:(id)a;
- - (void) _reevaluate:(unsigned long long)a;
+ - (void) addBoundaryWithIdentifier:(id)a fromPoint:({CGPoint=dd})b toPoint:({CGPoint=dd})c ;
+ - (void) setCollisionDelegate:(id)a ;
+ - (void) _reevaluate:(unsigned long long)a ;
  - (id) collisionDelegate;
- - (void) _didBeginContact:(id)a;
- - (void) _didEndContact:(id)a;
- - (void) _addItem:(id)a;
- - (void) _setCollisions:(BOOL)aforBody:(id)bisEdge:(BOOL)c;
+ - (void) _didBeginContact:(id)a ;
+ - (void) _didEndContact:(id)a ;
+ - (void) _addItem:(id)a ;
+ - (void) _setCollisions:(BOOL)a forBody:(id)b isEdge:(BOOL)c ;
  - (unsigned long long) collisionMode;
  - (void) _setupImplicitBoundaries;
  - (void) _applySettings;
  - (void) _setupExplicitBoundaries;
  - (void) _removeImplicitBoundaries;
  - (void) _removeExplicitBoundaries;
- - (void) _setTranslatesReferenceItemBounds:(BOOL)aintoBoundaryWithInsets:({UIEdgeInsets=dddd})b;
+ - (void) _setTranslatesReferenceItemBounds:(BOOL)a intoBoundaryWithInsets:({UIEdgeInsets=dddd})b ;
  - (BOOL) translatesReferenceBoundsIntoBoundary;
- - (void) setCollisionMode:(unsigned long long)a;
- - (void) setTranslatesReferenceBoundsIntoBoundary:(BOOL)a;
- - (void) setTranslatesReferenceBoundsIntoBoundaryWithInsets:({UIEdgeInsets=dddd})a;
- - (void) addBoundaryWithIdentifier:(id)aforPath:(id)b;
- - (id) boundaryWithIdentifier:(id)a;
- - (void) removeBoundaryWithIdentifier:(id)a;
+ - (void) setCollisionMode:(unsigned long long)a ;
+ - (void) setTranslatesReferenceBoundsIntoBoundary:(BOOL)a ;
+ - (void) setTranslatesReferenceBoundsIntoBoundaryWithInsets:({UIEdgeInsets=dddd})a ;
+ - (void) addBoundaryWithIdentifier:(id)a forPath:(id)b ;
+ - (id) boundaryWithIdentifier:(id)a ;
+ - (void) removeBoundaryWithIdentifier:(id)a ;
  - (id) boundaryIdentifiers;
  - (void) removeAllBoundaries;
  - (id) init;
- - (void) addItem:(id)a;
+ - (void) addItem:(id)a ;
 
 
 @end

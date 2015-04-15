@@ -4,9 +4,9 @@
     UIResponder<UITextInput>* _textView;
 }
 
- - (void) setTextView:(id)a;
+ - (void) setTextView:(id)a ;
  - (BOOL) isCloseToSelection;
- - (void) setState:(long long)a;
+ - (void) setState:(long long)a ;
  - (id) textView;
 
 

@@ -9,17 +9,17 @@
 
  - (void) allowEvaluation;
  - (id) predicateFormat;
- - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
- - (id) _expressionWithSubstitutionVariables:(id)a;
- - (id) initWithPredicate:(id)atrueExpression:(id)bfalseExpression:(id)c;
+ - (void) acceptVisitor:(id)a flags:(unsigned long long)b ;
+ - (id) _expressionWithSubstitutionVariables:(id)a ;
+ - (id) initWithPredicate:(id)a trueExpression:(id)b falseExpression:(id)c ;
  - (id) trueExpression;
  - (id) falseExpression;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (BOOL) isEqual:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) expressionValueWithObject:(id)acontext:(id)b;
+ - (BOOL) isEqual:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) expressionValueWithObject:(id)a context:(id)b ;
  - (id) predicate;
 
 

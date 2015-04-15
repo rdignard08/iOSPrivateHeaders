@@ -20,9 +20,9 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) setFirstUpdateItem:(id)a;
- - (void) setLastUpdateItem:(id)a;
- - (void) addUpdateItem:(id)a;
+ - (void) setFirstUpdateItem:(id)a ;
+ - (void) setLastUpdateItem:(id)a ;
+ - (void) addUpdateItem:(id)a ;
  - (BOOL) isDeleteBasedGap;
  - (BOOL) hasInserts;
  - (id) updateItems;

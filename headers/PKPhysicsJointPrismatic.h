@@ -9,19 +9,19 @@
  + (id) jointWithBodyA:(id)abodyB:(id)banchor:({CGPoint=dd})caxis:({CGVector=dd})d;
 
  - (id) .cxx_construct;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (^{b2Joint=^^?i^{b2Joint}^{b2Joint}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}^{b2Body}^{b2Body}BB^v}) _joint;
- - (void) set_joint:(^{b2Joint=^^?i^{b2Joint}^{b2Joint}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}^{b2Body}^{b2Body}BB^v})a;
+ - (void) set_joint:(^{b2Joint=^^?i^{b2Joint}^{b2Joint}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}^{b2Body}^{b2Body}BB^v})a ;
  - (^{b2JointDef=i^v^{b2Body}^{b2Body}B}) _jointDef;
  - (void) create;
  - (BOOL) shouldEnableLimits;
- - (void) setShouldEnableLimits:(BOOL)a;
- - (id) initWithBodyA:(id)abodyB:(id)banchor:({CGPoint=dd})caxis:({CGVector=dd})d;
+ - (void) setShouldEnableLimits:(BOOL)a ;
+ - (id) initWithBodyA:(id)a bodyB:(id)b anchor:({CGPoint=dd})c axis:({CGVector=dd})d ;
  - (double) lowerDistanceLimit;
  - (double) upperDistanceLimit;
- - (void) setLowerDistanceLimit:(double)a;
- - (void) setUpperDistanceLimit:(double)a;
+ - (void) setLowerDistanceLimit:(double)a ;
+ - (void) setUpperDistanceLimit:(double)a ;
 
 
 @end

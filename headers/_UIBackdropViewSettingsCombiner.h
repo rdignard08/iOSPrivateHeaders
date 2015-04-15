@@ -9,17 +9,17 @@
 }
 
  - (void) dealloc;
- - (void) computeOutputSettingsUsingModel:(id)a;
- - (void) setInputSettingsA:(id)a;
- - (void) setInputSettingsB:(id)a;
- - (void) setOutputSettingsA:(id)a;
- - (void) setOutputSettingsB:(id)a;
+ - (void) computeOutputSettingsUsingModel:(id)a ;
+ - (void) setInputSettingsA:(id)a ;
+ - (void) setInputSettingsB:(id)a ;
+ - (void) setOutputSettingsA:(id)a ;
+ - (void) setOutputSettingsB:(id)a ;
  - (id) outputSettingsA;
  - (id) inputSettingsA;
  - (id) outputSettingsB;
  - (id) inputSettingsB;
  - (double) weighting;
- - (void) setWeighting:(double)a;
+ - (void) setWeighting:(double)a ;
 
 
 @end

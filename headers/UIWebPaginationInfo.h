@@ -12,13 +12,13 @@
 @property (nonatomic, retain, readwrite) UIWebDocumentView* webDocumentView;
 
  - (void) dealloc;
- - (id) initWithDocumentView:(id)ascaleFactor:(double)blayoutSize:({CGSize=dd})cpageRects:(id)d;
- - (void) setWebDocumentView:(id)a;
+ - (id) initWithDocumentView:(id)a scaleFactor:(double)b layoutSize:({CGSize=dd})c pageRects:(id)d ;
+ - (void) setWebDocumentView:(id)a ;
  - (double) scaleFactor;
  - ({CGSize=dd}) layoutSize;
  - (unsigned long long) pageCount;
  - (double) lastPageHeight;
- - ({CGSize=dd}) sizeForPageAtIndex:(long long)a;
+ - ({CGSize=dd}) sizeForPageAtIndex:(long long)a ;
  - (id) webDocumentView;
  - (id) pageRects;
  - (id) documentView;

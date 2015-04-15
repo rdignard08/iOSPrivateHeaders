@@ -7,13 +7,13 @@
 
  - (void) dealloc;
  - (BOOL) isFlipped;
- - (void) layoutSublayers:(id)a;
- - (id) initWithWebNodeHighlight:(id)a;
+ - (void) layoutSublayers:(id)a ;
+ - (id) initWithWebNodeHighlight:(id)a ;
  - (void) detachFromWebNodeHighlight;
  - (void) _removeAllLayers;
- - (void) _attach:(id)anumLayers:(unsigned long long)b;
- - (void) _layoutForNodeHighlight:(^{Highlight={Color=IB}{Color=IB}{Color=IB}{Color=IB}{Color=IB}i{Vector<WebCore::FloatQuad, 0, WTF::CrashOnOverflow>=^{FloatQuad}II}B})aparent:(id)b;
- - (void) _layoutForRectsHighlight:(^{Highlight={Color=IB}{Color=IB}{Color=IB}{Color=IB}{Color=IB}i{Vector<WebCore::FloatQuad, 0, WTF::CrashOnOverflow>=^{FloatQuad}II}B})aparent:(id)b;
+ - (void) _attach:(id)a numLayers:(unsigned long long)b ;
+ - (void) _layoutForNodeHighlight:(^{Highlight={Color=IB}{Color=IB}{Color=IB}{Color=IB}{Color=IB}i{Vector<WebCore::FloatQuad, 0, WTF::CrashOnOverflow>=^{FloatQuad}II}B})a parent:(id)b ;
+ - (void) _layoutForRectsHighlight:(^{Highlight={Color=IB}{Color=IB}{Color=IB}{Color=IB}{Color=IB}i{Vector<WebCore::FloatQuad, 0, WTF::CrashOnOverflow>=^{FloatQuad}II}B})a parent:(id)b ;
  - (id) webNodeHighlight;
 
 

@@ -7,27 +7,27 @@
 }
  + (id) allocWithZone:(^{_NSZone=})a;
 
- - (id) _newSubstringWithRange:({_NSRange=QQ})azone:(^{_NSZone=})b;
- - (BOOL) hasPrefix:(id)a;
- - (long long) compare:(id)aoptions:(unsigned long long)brange:({_NSRange=QQ})c;
+ - (id) _newSubstringWithRange:({_NSRange=QQ})a zone:(^{_NSZone=})b ;
+ - (BOOL) hasPrefix:(id)a ;
+ - (long long) compare:(id)a options:(unsigned long long)b range:({_NSRange=QQ})c ;
  - (unsigned long long) fastestEncoding;
  - (unsigned long long) smallestEncoding;
- - (BOOL) canBeConvertedToEncoding:(unsigned long long)a;
- - (id) initWithCStringNoCopy:(char*)alength:(unsigned long long)b;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (BOOL) canBeConvertedToEncoding:(unsigned long long)a ;
+ - (id) initWithCStringNoCopy:(char*)a length:(unsigned long long)b ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (void) finalize;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned long long) cStringLength;
- - (unsigned short) characterAtIndex:(unsigned long long)a;
- - (void) getCharacters:(^S)arange:({_NSRange=QQ})b;
- - (r*) _fastCStringContents:(BOOL)a;
- - (BOOL) isEqualToString:(id)a;
- - (BOOL) hasSuffix:(id)a;
+ - (unsigned short) characterAtIndex:(unsigned long long)a ;
+ - (void) getCharacters:(^S)a range:({_NSRange=QQ})b ;
+ - (r*) _fastCStringContents:(BOOL)a ;
+ - (BOOL) isEqualToString:(id)a ;
+ - (BOOL) hasSuffix:(id)a ;
  - (unsigned long long) length;
- - (BOOL) getBytes:(^v)amaxLength:(unsigned long long)busedLength:(^Q)cencoding:(unsigned long long)doptions:(unsigned long long)erange:({_NSRange=QQ})fremainingRange:(^{_NSRange=QQ})g;
- - (id) stringByAppendingString:(id)a;
+ - (BOOL) getBytes:(^v)a maxLength:(unsigned long long)b usedLength:(^Q)c encoding:(unsigned long long)d options:(unsigned long long)e range:({_NSRange=QQ})f remainingRange:(^{_NSRange=QQ})g ;
+ - (id) stringByAppendingString:(id)a ;
 
 
 @end

@@ -8,8 +8,8 @@
 
  - (void) dealloc;
  - (id) webRect;
- - (void) setWebRect:(id)a;
- - (id) initWithWebRect:(id)a;
+ - (void) setWebRect:(id)a ;
+ - (id) initWithWebRect:(id)a ;
  - (id) range;
  - (BOOL) isVertical;
  - (BOOL) containsStart;

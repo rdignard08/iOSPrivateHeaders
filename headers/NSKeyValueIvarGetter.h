@@ -3,7 +3,7 @@
 
 }
 
- - (id) initWithContainerClassID:(id)akey:(id)bivar:(^{objc_ivar=})c;
+ - (id) initWithContainerClassID:(id)a key:(id)b ivar:(^{objc_ivar=})c ;
 
 
 @end

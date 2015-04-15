@@ -34,18 +34,18 @@
  + (id) alloc;
  + (id) allocWithZone:(^{_NSZone=})a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (BOOL) isValid;
  - (void) validate;
- - (id) nextFireDateForLastFireDate:(id)a;
+ - (id) nextFireDateForLastFireDate:(id)a ;
  - (BOOL) isTriggeredByDate;
- - (id) nextFireDateAfterDate:(id)alocalTimeZone:(id)b;
- - (long long) compareFireDates:(id)a;
+ - (id) nextFireDateAfterDate:(id)a localTimeZone:(id)b ;
+ - (long long) compareFireDates:(id)a ;
  - (void) clearNonSystemProperties;
  - (BOOL) isTriggeredByRegion;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

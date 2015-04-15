@@ -10,12 +10,12 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) count;
- - (id) objectForKey:(id)a;
- - (id) initWithMappingBlock:(@?)a;
+ - (id) objectForKey:(id)a ;
+ - (id) initWithMappingBlock:(@?)a ;
  - (id) cachedObjectEnumerable;
- - (void) registerClient:(id)aofObjectForKey:(id)b;
- - (BOOL) hasCachedObjectForKey:(id)a;
- - (void) unregisterClient:(id)aofObjectForKey:(id)b;
+ - (void) registerClient:(id)a ofObjectForKey:(id)b ;
+ - (BOOL) hasCachedObjectForKey:(id)a ;
+ - (void) unregisterClient:(id)a ofObjectForKey:(id)b ;
  - (id) cachedObjects;
  - (id) keys;
  - (id) keyEnumerable;

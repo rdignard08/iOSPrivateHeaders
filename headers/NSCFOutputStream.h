@@ -6,8 +6,8 @@
  + (id) allocWithZone:(^{_NSZone=})a;
 
  - (id) initToMemory;
- - (id) initToBuffer:(char*)acapacity:(unsigned long long)b;
- - (id) initToFileAtPath:(id)aappend:(BOOL)b;
+ - (id) initToBuffer:(char*)a capacity:(unsigned long long)b ;
+ - (id) initToFileAtPath:(id)a append:(BOOL)b ;
  - (id) retain;
  - (Vv) release;
  - (unsigned long long) retainCount;
@@ -15,21 +15,21 @@
  - (BOOL) retainWeakReference;
  - (BOOL) allowsWeakReference;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (void) open;
  - (void) close;
- - (void) setDelegate:(id)a;
- - (id) propertyForKey:(id)a;
- - (BOOL) setProperty:(id)aforKey:(id)b;
- - (void) scheduleInRunLoop:(id)aforMode:(id)b;
- - (void) removeFromRunLoop:(id)aforMode:(id)b;
+ - (void) setDelegate:(id)a ;
+ - (id) propertyForKey:(id)a ;
+ - (BOOL) setProperty:(id)a forKey:(id)b ;
+ - (void) scheduleInRunLoop:(id)a forMode:(id)b ;
+ - (void) removeFromRunLoop:(id)a forMode:(id)b ;
  - (unsigned long long) streamStatus;
  - (id) streamError;
- - (BOOL) _setCFClientFlags:(unsigned long long)acallback:(^?)bcontext:(^{?=q^v^?^?^?})c;
- - (void) _scheduleInCFRunLoop:(^{__CFRunLoop=})aforMode:(^{__CFString=})b;
- - (void) _unscheduleFromCFRunLoop:(^{__CFRunLoop=})aforMode:(^{__CFString=})b;
- - (id) initWithURL:(id)aappend:(BOOL)b;
- - (long long) write:(r*)amaxLength:(unsigned long long)b;
+ - (BOOL) _setCFClientFlags:(unsigned long long)a callback:(^?)b context:(^{?=q^v^?^?^?})c ;
+ - (void) _scheduleInCFRunLoop:(^{__CFRunLoop=})a forMode:(^{__CFString=})b ;
+ - (void) _unscheduleFromCFRunLoop:(^{__CFRunLoop=})a forMode:(^{__CFString=})b ;
+ - (id) initWithURL:(id)a append:(BOOL)b ;
+ - (long long) write:(r*)a maxLength:(unsigned long long)b ;
  - (BOOL) hasSpaceAvailable;
  - (id) delegate;
 

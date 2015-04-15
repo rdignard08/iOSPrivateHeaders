@@ -30,29 +30,29 @@
  - (id) copy;
  - ({CGSize=dd}) contentSize;
  - (id) snapshot;
- - (void) setContentSize:({CGSize=dd})a;
- - (void) setHorizontal:(BOOL)a;
+ - (void) setContentSize:({CGSize=dd})a ;
+ - (void) setHorizontal:(BOOL)a ;
  - (id) sections;
- - (void) invalidate:(BOOL)a;
+ - (void) invalidate:(BOOL)a ;
  - (BOOL) horizontal;
  - ({?=iii}) rowAlignmentOptions;
- - (void) setSize:({CGSize=dd})aforItemAtIndexPath:(id)b;
+ - (void) setSize:({CGSize=dd})a forItemAtIndexPath:(id)b ;
  - (id) invalidatedIndexPaths;
  - (double) dimension;
  - (id) addSection;
- - (void) setRowAlignmentOptions:({?=iii})a;
- - (void) setDimension:(double)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) frameForItemAtIndexPath:(id)a;
- - (void) didUpdateSizeForSection:(long long)awithDelta:(double)b;
+ - (void) setRowAlignmentOptions:({?=iii})a ;
+ - (void) setDimension:(double)a ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) frameForItemAtIndexPath:(id)a ;
+ - (void) didUpdateSizeForSection:(long long)a withDelta:(double)b ;
  - (BOOL) usesFloatingHeaderFooter;
- - (void) setUsesFloatingHeaderFooter:(BOOL)a;
+ - (void) setUsesFloatingHeaderFooter:(BOOL)a ;
  - (BOOL) leftToRight;
- - (void) setLeftToRight:(BOOL)a;
+ - (void) setLeftToRight:(BOOL)a ;
  - (BOOL) estimatesSizes;
- - (void) setEstimatesSizes:(BOOL)a;
+ - (void) setEstimatesSizes:(BOOL)a ;
  - (id) init;
  - (id) layout;
- - (void) setLayout:(id)a;
+ - (void) setLayout:(id)a ;
 
 
 @end

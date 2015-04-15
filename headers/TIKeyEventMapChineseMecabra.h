@@ -5,7 +5,7 @@
  + (BOOL) supportsSecureCoding;
  + (id) inlineNumbersAndPunctuationSet;
 
- - (id) remapKeyWithString:(id)astringWithoutModifiers:(id)bmodifierFlags:(unsigned long long)ckeyboardState:(id)d;
+ - (id) remapKeyWithString:(id)a stringWithoutModifiers:(id)b modifierFlags:(unsigned long long)c keyboardState:(id)d ;
 
 
 @end

@@ -5,10 +5,10 @@
 }
 
  - (@?) errorBlock;
- - (void) setErrorBlock:(@?)a;
- - (id) _initWithConnection:(id)aproxyNumber:(unsigned long long)bgenerationCount:(unsigned long long)cinterface:(id)derror:(@?)e;
+ - (void) setErrorBlock:(@?)a ;
+ - (id) _initWithConnection:(id)a proxyNumber:(unsigned long long)b generationCount:(unsigned long long)c interface:(id)d error:(@?)e ;
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
+ - (void) forwardInvocation:(id)a ;
 
 
 @end

@@ -17,7 +17,7 @@
  - (void) .cxx_destruct;
  - (void) dealloc;
  - (void) finalize;
- - (void) setWebFrameView:(id)a;
+ - (void) setWebFrameView:(id)a ;
 
 
 @end

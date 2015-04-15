@@ -11,9 +11,9 @@
  - (void) dealloc;
  - (void) startLoading;
  - (void) stopLoading;
- - (id) initWithRequest:(id)acachedResponse:(id)bclient:(id)c;
- - (void) scheduleOnRunloop:(^{__CFRunLoop=})amode:(^{__CFString=})b;
- - (void) unscheduleOnRunloop:(^{__CFRunLoop=})amode:(^{__CFString=})b;
+ - (id) initWithRequest:(id)a cachedResponse:(id)b client:(id)c ;
+ - (void) scheduleOnRunloop:(^{__CFRunLoop=})a mode:(^{__CFString=})b ;
+ - (void) unscheduleOnRunloop:(^{__CFRunLoop=})a mode:(^{__CFString=})b ;
 
 
 @end

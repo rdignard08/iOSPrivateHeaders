@@ -8,8 +8,8 @@
  - (void) dealloc;
  - (void) finalize;
  - (^v) bytes;
- - (id) initWithFileDescriptor:(int)asize:(unsigned long long)ballowMappingIfSafe:(BOOL)c;
- - (id) initWithSize:(unsigned long long)abufferPtr:(^^v)b;
+ - (id) initWithFileDescriptor:(int)a size:(unsigned long long)b allowMappingIfSafe:(BOOL)c ;
+ - (id) initWithSize:(unsigned long long)a bufferPtr:(^^v)b ;
  - (unsigned long long) length;
 
 

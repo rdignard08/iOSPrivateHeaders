@@ -12,7 +12,7 @@
  - (BOOL) retainWeakReference;
  - (BOOL) allowsWeakReference;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned long long) _cfTypeID;
 
 

@@ -9,12 +9,12 @@
  + (id) filesystemItemMoveOperationWithSourcePath:(id)adestinationPath:(id)b;
  + (id) _errorWithErrno:(int)asourcePath:(id)bdestinationPath:(id)c;
 
- - (BOOL) filesystemItemCopyOperation:(id)ashouldProceedAfterError:(id)bcopyingItemAtPath:(id)ctoPath:(id)d;
- - (void) _setError:(id)a;
+ - (BOOL) filesystemItemCopyOperation:(id)a shouldProceedAfterError:(id)b copyingItemAtPath:(id)c toPath:(id)d ;
+ - (void) _setError:(id)a ;
  - (void) main;
- - (void) initWithSourcePath:(id)adestinationPath:(id)b;
+ - (void) initWithSourcePath:(id)a destinationPath:(id)b ;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) error;
  - (id) delegate;
 

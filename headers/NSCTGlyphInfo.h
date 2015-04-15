@@ -10,10 +10,10 @@
  - (BOOL) retainWeakReference;
  - (BOOL) allowsWeakReference;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned long long) _cfTypeID;
- - (void) encodeWithCoder:(id)a;
- - (unsigned int) _glyphForFont:(id)abaseString:(id)b;
+ - (void) encodeWithCoder:(id)a ;
+ - (unsigned int) _glyphForFont:(id)a baseString:(id)b ;
  - (id) _baseString;
  - (unsigned long long) characterIdentifier;
  - (unsigned long long) characterCollection;

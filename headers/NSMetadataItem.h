@@ -6,13 +6,13 @@
 }
 @property (atomic, copy, readonly) NSArray* attributes;
 
- - (void) _setQuery:(id)a;
+ - (void) _setQuery:(id)a ;
  - (id) _item;
- - (id) _init:((?=@@))a;
- - (id) valueForAttribute:(id)a;
- - (id) valuesForAttributes:(id)a;
+ - (id) _init:((?=@@))a ;
+ - (id) valueForAttribute:(id)a ;
+ - (id) valuesForAttributes:(id)a ;
  - (void) dealloc;
- - (id) valueForKey:(id)a;
+ - (id) valueForKey:(id)a ;
  - (id) attributes;
 
 

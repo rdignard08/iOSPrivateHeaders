@@ -21,34 +21,34 @@
  + (id) timeZoneWithName:(id)adata:(id)b;
  + (id) timeZoneWithName:(id)a;
 
- - (id) replacementObjectForPortCoder:(id)a;
+ - (id) replacementObjectForPortCoder:(id)a ;
  - (Class) classForCoder;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (id) data;
  - (id) name;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned long long) _cfTypeID;
  - (BOOL) isNSTimeZone__;
- - (double) daylightSavingTimeOffsetForDate:(id)a;
- - (long long) secondsFromGMTForDate:(id)a;
- - (id) abbreviationForDate:(id)a;
- - (BOOL) isDaylightSavingTimeForDate:(id)a;
- - (id) nextDaylightSavingTimeTransitionAfterDate:(id)a;
- - (id) localizedName:(long long)alocale:(id)b;
- - (id) initWithName:(id)adata:(id)b;
- - (id) initWithName:(id)a;
- - (BOOL) isEqualToTimeZone:(id)a;
+ - (double) daylightSavingTimeOffsetForDate:(id)a ;
+ - (long long) secondsFromGMTForDate:(id)a ;
+ - (id) abbreviationForDate:(id)a ;
+ - (BOOL) isDaylightSavingTimeForDate:(id)a ;
+ - (id) nextDaylightSavingTimeTransitionAfterDate:(id)a ;
+ - (id) localizedName:(long long)a locale:(id)b ;
+ - (id) initWithName:(id)a data:(id)b ;
+ - (id) initWithName:(id)a ;
+ - (BOOL) isEqualToTimeZone:(id)a ;
  - (id) abbreviation;
  - (long long) secondsFromGMT;
  - (BOOL) isDaylightSavingTime;
  - (double) daylightSavingTimeOffset;
  - (id) nextDaylightSavingTimeTransition;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

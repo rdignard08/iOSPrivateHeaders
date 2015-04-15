@@ -7,23 +7,23 @@
 @property (atomic, weak, readwrite) NSNumber* delegate;
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) delegate;
- - (id) initWithLayer:(id)a;
- - (void) _applyTransition:(id)alayer:(id)bundo:(id)cspeed:(float)d;
- - (void) _nextStateTimer:(id)a;
- - (void) setState:(id)aofLayer:(id)btransitionSpeed:(float)c;
- - (void) setInitialStatesOfLayer:(id)atransitionSpeed:(float)b;
- - (void) _applyTransitionElement:(id)alayer:(id)bundo:(id)cspeed:(float)d;
- - (void) _addAnimation:(id)aforKey:(id)btarget:(id)cundo:(id)d;
+ - (id) initWithLayer:(id)a ;
+ - (void) _applyTransition:(id)a layer:(id)b undo:(id)c speed:(float)d ;
+ - (void) _nextStateTimer:(id)a ;
+ - (void) setState:(id)a ofLayer:(id)b transitionSpeed:(float)c ;
+ - (void) setInitialStatesOfLayer:(id)a transitionSpeed:(float)b ;
+ - (void) _applyTransitionElement:(id)a layer:(id)b undo:(id)c speed:(float)d ;
+ - (void) _addAnimation:(id)a forKey:(id)b target:(id)c undo:(id)d ;
  - (id) layer;
- - (id) stateOfLayer:(id)a;
- - (void) setState:(id)aofLayer:(id)b;
- - (void) setInitialStatesOfLayer:(id)a;
+ - (id) stateOfLayer:(id)a ;
+ - (void) setState:(id)a ofLayer:(id)b ;
+ - (void) setInitialStatesOfLayer:(id)a ;
  - (id) removeAllStateChanges;
- - (void) restoreStateChanges:(id)a;
+ - (void) restoreStateChanges:(id)a ;
  - (void) cancelTimers;
- - (void) _removeTransition:(id)alayer:(id)b;
+ - (void) _removeTransition:(id)a layer:(id)b ;
 
 
 @end

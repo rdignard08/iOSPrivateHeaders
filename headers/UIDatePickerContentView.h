@@ -13,14 +13,14 @@
  - (BOOL) _canBeReusedInPickerView;
  - (id) titleLabel;
  - (BOOL) isAmPm;
- - (void) setIsAmPm:(BOOL)a;
- - (void) setTitleLabelMaxX:(double)a;
- - (void) setTitleAlignment:(long long)a;
+ - (void) setIsAmPm:(BOOL)a ;
+ - (void) setTitleLabelMaxX:(double)a ;
+ - (void) setTitleAlignment:(long long)a ;
  - (double) titleLabelMaxX;
  - (long long) titleAlignment;
  - (BOOL) isModern;
- - (void) setIsModern:(BOOL)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setIsModern:(BOOL)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

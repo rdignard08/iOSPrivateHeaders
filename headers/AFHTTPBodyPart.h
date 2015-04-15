@@ -24,31 +24,31 @@
 @property (nonatomic, assign, readonly, getter=hasBytesAvailable) NSNumber* bytesAvailable;
 @property (nonatomic, assign, readonly) NSNumber* contentLength;
 
- - (void) setStringEncoding:(unsigned long long)a;
+ - (void) setStringEncoding:(unsigned long long)a ;
  - (unsigned long long) stringEncoding;
- - (void) setBoundary:(id)a;
- - (void) setHeaders:(id)a;
+ - (void) setBoundary:(id)a ;
+ - (void) setHeaders:(id)a ;
  - (id) boundary;
- - (void) setBodyContentLength:(unsigned long long)a;
+ - (void) setBodyContentLength:(unsigned long long)a ;
  - (unsigned long long) contentLength;
- - (void) setHasInitialBoundary:(BOOL)a;
- - (void) setHasFinalBoundary:(BOOL)a;
+ - (void) setHasInitialBoundary:(BOOL)a ;
+ - (void) setHasFinalBoundary:(BOOL)a ;
  - (id) inputStream;
- - (void) setInputStream:(id)a;
+ - (void) setInputStream:(id)a ;
  - (BOOL) transitionToNextPhase;
  - (id) headers;
  - (BOOL) hasInitialBoundary;
  - (id) stringForHeaders;
  - (BOOL) hasFinalBoundary;
- - (long long) readData:(id)aintoBuffer:(char*)bmaxLength:(unsigned long long)c;
+ - (long long) readData:(id)a intoBuffer:(char*)b maxLength:(unsigned long long)c ;
  - (unsigned long long) bodyContentLength;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) .cxx_destruct;
  - (void) dealloc;
- - (long long) read:(char*)amaxLength:(unsigned long long)b;
+ - (long long) read:(char*)a maxLength:(unsigned long long)b ;
  - (BOOL) hasBytesAvailable;
  - (id) init;
- - (void) setBody:(id)a;
+ - (void) setBody:(id)a ;
  - (id) body;
 
 

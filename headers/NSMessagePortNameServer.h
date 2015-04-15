@@ -4,10 +4,10 @@
 }
  + (id) sharedInstance;
 
- - (id) portForName:(id)ahost:(id)b;
- - (BOOL) removePortForName:(id)a;
- - (BOOL) registerPort:(id)aname:(id)b;
- - (id) portForName:(id)a;
+ - (id) portForName:(id)a host:(id)b ;
+ - (BOOL) removePortForName:(id)a ;
+ - (BOOL) registerPort:(id)a name:(id)b ;
+ - (id) portForName:(id)a ;
 
 
 @end

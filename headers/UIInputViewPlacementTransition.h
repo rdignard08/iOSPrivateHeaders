@@ -24,24 +24,24 @@
 
  - (BOOL) cancelled;
  - (void) dealloc;
- - (void) setAnimationController:(id)a;
+ - (void) setAnimationController:(id)a ;
  - (id) animationController;
- - (void) setCancelled:(BOOL)a;
+ - (void) setCancelled:(BOOL)a ;
  - (id) animationStyle;
  - (int) animationState;
- - (void) setAnimationState:(int)a;
- - (void) setAnimationStyle:(id)a;
- - (void) setFromPlacement:(id)a;
- - (void) setToPlacement:(id)a;
+ - (void) setAnimationState:(int)a ;
+ - (void) setAnimationStyle:(id)a ;
+ - (void) setFromPlacement:(id)a ;
+ - (void) setToPlacement:(id)a ;
  - (id) fromPlacement;
  - (id) toPlacement;
- - (BOOL) didAdvanceAnimationToState:(int)a;
+ - (BOOL) didAdvanceAnimationToState:(int)a ;
  - (id) notificationInfo;
- - (void) setNotificationInfo:(id)a;
+ - (void) setNotificationInfo:(id)a ;
  - (unsigned long long) notifications;
- - (void) setNotifications:(unsigned long long)a;
+ - (void) setNotifications:(unsigned long long)a ;
  - (id) animationContext;
- - (void) setAnimationContext:(id)a;
+ - (void) setAnimationContext:(id)a ;
 
 
 @end

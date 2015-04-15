@@ -8,13 +8,13 @@
 }
 
  - (BOOL) _isCompact;
- - (id) initWithData:(id)arange:({_NSRange=QQ})b;
- - (void) getBytes:(^v)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) initWithData:(id)a range:({_NSRange=QQ})b ;
+ - (void) getBytes:(^v)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (r^v) bytes;
- - (void) getBytes:(^v)arange:({_NSRange=QQ})b;
- - (void) getBytes:(^v)alength:(unsigned long long)b;
+ - (void) getBytes:(^v)a range:({_NSRange=QQ})b ;
+ - (void) getBytes:(^v)a length:(unsigned long long)b ;
  - (unsigned long long) length;
  - (id) init;
 

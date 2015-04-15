@@ -5,12 +5,12 @@
 
  - (void) dealloc;
  - (void) finalize;
- - (id) initWithKeys:(^@)acount:(unsigned long long)b;
+ - (id) initWithKeys:(^@)a count:(unsigned long long)b ;
  - (BOOL) isEmpty;
- - (unsigned long long) indexForCString:(r*)alength:(unsigned long long)bkey:(r^^{__CFString})c;
+ - (unsigned long long) indexForCString:(r*)a length:(unsigned long long)b key:(r^^{__CFString})c ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

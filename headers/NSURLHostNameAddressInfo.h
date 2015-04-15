@@ -8,7 +8,7 @@
  + (void) asyncResolveWithCallbackClient:(id)a;
 
  - (double) _timestamp;
- - (id) _initWithAddressInfo:(^{addrinfo=iiiiI*^{sockaddr}^{addrinfo}})a;
+ - (id) _initWithAddressInfo:(^{addrinfo=iiiiI*^{sockaddr}^{addrinfo}})a ;
  - (^{addrinfo=iiiiI*^{sockaddr}^{addrinfo}}) addrinfo;
  - (void) dealloc;
  - (void) finalize;

@@ -13,17 +13,17 @@
  - (id) activityType;
  - (id) item;
  - (float) progress;
- - (void) setProgress:(float)a;
+ - (void) setProgress:(float)a ;
  - (void) dealloc;
- - (id) initWithPlaceholderItem:(id)a;
+ - (id) initWithPlaceholderItem:(id)a ;
  - (id) placeholderItem;
- - (id) activityViewControllerPlaceholderItem:(id)a;
- - (id) activityViewController:(id)aitemForActivityType:(id)b;
- - (void) setPlaceholderItem:(id)a;
- - (void) setProvidedItem:(id)a;
+ - (id) activityViewControllerPlaceholderItem:(id)a ;
+ - (id) activityViewController:(id)a itemForActivityType:(id)b ;
+ - (void) setPlaceholderItem:(id)a ;
+ - (void) setProvidedItem:(id)a ;
  - (id) providedItem;
- - (void) _setActivityType:(id)a;
- - (void) setStatus:(id)a;
+ - (void) _setActivityType:(id)a ;
+ - (void) setStatus:(id)a ;
  - (id) status;
 
 

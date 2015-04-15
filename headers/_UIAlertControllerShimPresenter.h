@@ -23,14 +23,14 @@
 
  - (void) dealloc;
  - (id) _popoverController;
- - (void) setAlertController:(id)a;
- - (void) setLegacyAlert:(id)a;
- - (void) _presentAlertControllerAnimated:(BOOL)acompletion:(@?)b;
- - (void) _dismissAlertControllerAnimated:(BOOL)acompletion:(@?)b;
+ - (void) setAlertController:(id)a ;
+ - (void) setLegacyAlert:(id)a ;
+ - (void) _presentAlertControllerAnimated:(BOOL)a completion:(@?)b ;
+ - (void) _dismissAlertControllerAnimated:(BOOL)a completion:(@?)b ;
  - (id) alertController;
- - (void) setPopoverDelegate:(id)a;
- - (void) _presentAlertControllerFromBarButtonItem:(id)aanimated:(BOOL)bcompletion:(@?)c;
- - (void) _presentAlertControllerFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})ainView:(id)bdirection:(unsigned long long)canimated:(BOOL)dcompletion:(@?)e;
+ - (void) setPopoverDelegate:(id)a ;
+ - (void) _presentAlertControllerFromBarButtonItem:(id)a animated:(BOOL)b completion:(@?)c ;
+ - (void) _presentAlertControllerFromRect:({CGRect={CGPoint=dd}{CGSize=dd}})a inView:(id)b direction:(unsigned long long)c animated:(BOOL)d completion:(@?)e ;
  - (void) _createWindowIfNecessary;
  - (void) _tearDownInPopoverViewController;
  - (id) legacyAlert;

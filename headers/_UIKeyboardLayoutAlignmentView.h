@@ -10,14 +10,14 @@
 
  - (void) dealloc;
  - (void) didMoveToWindow;
- - (void) willMoveToWindow:(id)a;
+ - (void) willMoveToWindow:(id)a ;
  - (void) updateConstraints;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) _frameInBoundsForKeyboardFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) _updateConstraintsToMatchKeyboardFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) _keyboardChanged:(id)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) _frameInBoundsForKeyboardFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) _updateConstraintsToMatchKeyboardFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) _keyboardChanged:(id)a ;
  - (void) _removeConstraints;
  - (void) _addConstraints;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

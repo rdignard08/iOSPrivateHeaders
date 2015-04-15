@@ -16,10 +16,10 @@
  - (void) dealloc;
  - (void) invalidate;
  - (id) currentState;
- - (id) initWithLayer:(id)a;
- - (void) setCurrentState:(id)a;
- - (void) addTransition:(id)a;
- - (void) removeTransition:(id)a;
+ - (id) initWithLayer:(id)a ;
+ - (void) setCurrentState:(id)a ;
+ - (void) addTransition:(id)a ;
+ - (void) removeTransition:(id)a ;
  - (id) layer;
  - (id) undoStack;
 

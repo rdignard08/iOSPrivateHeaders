@@ -13,24 +13,24 @@
  + (id) allocWithZone:(^{_NSZone=})a;
  + (id) __new:(r^@)a;
 
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (void) finalize;
  - (unsigned long long) count;
  - (void) removeAllObjects;
- - (id) objectForKey:(id)a;
- - (void) __setObject:(id)aforKey:(id)b;
- - (void) removeObjectForKey:(id)a;
- - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})aobjects:(^@)bcount:(unsigned long long)c;
+ - (id) objectForKey:(id)a ;
+ - (void) __setObject:(id)a forKey:(id)b ;
+ - (void) removeObjectForKey:(id)a ;
+ - (unsigned long long) countByEnumeratingWithState:(^{?=Q^@^Q[5Q]})a objects:(^@)b count:(unsigned long long)c ;
  - (void) _mutate;
  - (id) keyEnumerator;
- - (void) setObject:(id)aforKey:(id)b;
- - (void) getObjects:(^@)aandKeys:(^@)bcount:(unsigned long long)c;
- - (void) enumerateKeysAndObjectsWithOptions:(unsigned long long)ausingBlock:(@?)b;
+ - (void) setObject:(id)a forKey:(id)b ;
+ - (void) getObjects:(^@)a andKeys:(^@)b count:(unsigned long long)c ;
+ - (void) enumerateKeysAndObjectsWithOptions:(unsigned long long)a usingBlock:(@?)b ;
  - (double) _clumpingFactor;
  - (double) _clumpingInterestingThreshold;
- - (void) setObservationInfo:(^v)a;
+ - (void) setObservationInfo:(^v)a ;
 
 
 @end

@@ -12,14 +12,14 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
- - (void) setInputRadius:(id)a;
+ - (void) setInputImage:(id)a ;
+ - (void) setInputRadius:(id)a ;
  - (id) inputRadius;
  - (id) _kernel;
- - (void) setInputColor:(id)a;
+ - (void) setInputColor:(id)a ;
  - (id) inputColor;
- - (void) setInputOffset:(id)a;
- - (void) setInputRange:(id)a;
+ - (void) setInputOffset:(id)a ;
+ - (void) setInputRange:(id)a ;
  - (id) inputOffset;
  - (id) inputRange;
 

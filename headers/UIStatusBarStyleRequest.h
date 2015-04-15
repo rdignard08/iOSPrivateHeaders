@@ -14,19 +14,19 @@
 @property (nonatomic, retain, readonly) UIColor* foregroundColor;
 @property (nonatomic, retain, readonly) NSNumber* overrideHeight;
 
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (BOOL) isTranslucent;
  - (BOOL) isDoubleHeight;
  - (long long) legibilityStyle;
  - (id) overrideHeight;
  - (BOOL) isLegacy;
- - (id) initWithStyle:(long long)alegacy:(BOOL)blegibilityStyle:(long long)cforegroundColor:(id)doverrideHeight:(id)e;
- - (id) initWithStyle:(long long)alegacy:(BOOL)blegibilityStyle:(long long)cforegroundColor:(id)d;
- - (id) _copyWithZone:(^{_NSZone=})aclass:(Class)b;
+ - (id) initWithStyle:(long long)a legacy:(BOOL)b legibilityStyle:(long long)c foregroundColor:(id)d overrideHeight:(id)e ;
+ - (id) initWithStyle:(long long)a legacy:(BOOL)b legibilityStyle:(long long)c foregroundColor:(id)d ;
+ - (id) _copyWithZone:(^{_NSZone=})a class:(Class)b ;
  - (id) init;
  - (long long) style;
  - (id) foregroundColor;

@@ -10,9 +10,9 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
- - (void) setInputNeutral:(id)a;
- - (void) setInputTargetNeutral:(id)a;
+ - (void) setInputImage:(id)a ;
+ - (void) setInputNeutral:(id)a ;
+ - (void) setInputTargetNeutral:(id)a ;
  - (id) inputNeutral;
  - (id) inputTargetNeutral;
 

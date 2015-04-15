@@ -3,8 +3,8 @@
 
 }
 
- - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;
- - (void) touchesEnded:(id)awithEvent:(id)b;
+ - (id) hitTest:({CGPoint=dd})a withEvent:(id)b ;
+ - (void) touchesEnded:(id)a withEvent:(id)b ;
  - (BOOL) _shouldSeekHigherPriorityTouchTarget;
 
 

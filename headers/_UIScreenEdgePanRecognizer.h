@@ -37,33 +37,33 @@
 
  - (void) reset;
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) settings;
  - (long long) _type;
- - (void) incorporateTouchSampleAtLocation:({CGPoint=dd})atimestamp:(double)bmodifier:(long long)cinterfaceOrientation:(long long)d;
+ - (void) incorporateTouchSampleAtLocation:({CGPoint=dd})a timestamp:(double)b modifier:(long long)c interfaceOrientation:(long long)d ;
  - (unsigned long long) recognizedRegion;
- - (void) setScreenBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setScreenBounds:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
  - (unsigned long long) targetEdges;
- - (void) setTargetEdges:(unsigned long long)a;
+ - (void) setTargetEdges:(unsigned long long)a ;
  - ({CGPoint=dd}) _lastTouchLocation;
- - (void) settings:(id)achangedValueForKey:(id)b;
- - (void) setShouldUseGrapeFlags:(BOOL)a;
- - (void) _incorporateIncrementalSampleAtLocation:({CGPoint=dd})atimestamp:(double)bmodifier:(long long)cinterfaceOrientation:(long long)d;
- - (void) _incorporateInitialTouchAtLocation:({CGPoint=dd})atimestamp:(double)bmodifier:(long long)cinterfaceOrientation:(long long)d;
+ - (void) settings:(id)a changedValueForKey:(id)b ;
+ - (void) setShouldUseGrapeFlags:(BOOL)a ;
+ - (void) _incorporateIncrementalSampleAtLocation:({CGPoint=dd})a timestamp:(double)b modifier:(long long)c interfaceOrientation:(long long)d ;
+ - (void) _incorporateInitialTouchAtLocation:({CGPoint=dd})a timestamp:(double)b modifier:(long long)c interfaceOrientation:(long long)d ;
  - (unsigned long long) _targetEdges;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) screenBounds;
- - (void) _longPressTimerElapsed:(id)a;
- - (void) _idleTimerElapsed:(id)a;
+ - (void) _longPressTimerElapsed:(id)a ;
+ - (void) _idleTimerElapsed:(id)a ;
  - (void) _createOrDestoryAnalysisWindowIfNeeded;
  - (BOOL) isRequiringLongPress;
- - (void) setSettings:(id)a;
- - (void) setRequiresFlatThumb:(BOOL)a;
+ - (void) setSettings:(id)a ;
+ - (void) setRequiresFlatThumb:(BOOL)a ;
  - (BOOL) shouldUseGrapeFlags;
  - (BOOL) requiresFlatThumb;
  - (long long) state;
  - (id) delegate;
- - (void) _setState:(long long)a;
- - (id) initWithType:(long long)a;
+ - (void) _setState:(long long)a ;
+ - (id) initWithType:(long long)a ;
 
 
 @end

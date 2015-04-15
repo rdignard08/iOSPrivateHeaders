@@ -7,9 +7,9 @@
     BOOL _adjustsForContentOffsetDelta;
 }
 
- - (void) setProgress:(float)a;
+ - (void) setProgress:(float)a ;
  - (void) dealloc;
- - (void) adjustForContentOffsetDelta:({CGPoint=dd})a;
+ - (void) adjustForContentOffsetDelta:({CGPoint=dd})a ;
 
 
 @end

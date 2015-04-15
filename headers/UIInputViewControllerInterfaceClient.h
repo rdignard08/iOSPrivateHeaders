@@ -9,9 +9,9 @@
  - (void) dealloc;
  - (id) responseDelegate;
  - (id) forwardingInterface;
- - (void) _handleInputViewControllerState:(id)a;
+ - (void) _handleInputViewControllerState:(id)a ;
  - (void) _tearDownRemoteService;
- - (void) setForwardingInterface:(id)a;
+ - (void) setForwardingInterface:(id)a ;
 
 
 @end

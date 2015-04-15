@@ -3,7 +3,7 @@
 
 }
 
- - (id) actionForKey:(id)a;
+ - (id) actionForKey:(id)a ;
 
 
 @end

@@ -25,33 +25,33 @@
  - (id) promptBackgroundImage;
  - (id) miniPromptBackgroundImage;
  - (id) condensedBackgroundImage;
- - (void) setTitleVerticalAdjustment:(double)aforBarMetrics:(long long)b;
- - (double) titleVerticalAdjustmentForBarMetrics:(long long)a;
+ - (void) setTitleVerticalAdjustment:(double)a forBarMetrics:(long long)b ;
+ - (double) titleVerticalAdjustmentForBarMetrics:(long long)a ;
  - (id) _barButtonAppearanceStorage;
  - (id) barButtonAppearanceStorage;
- - (id) representativeImageForIdiom:(long long)a;
+ - (id) representativeImageForIdiom:(long long)a ;
  - (BOOL) hidesShadow;
- - (void) setHidesShadow:(BOOL)a;
+ - (void) setHidesShadow:(BOOL)a ;
  - (id) textAttributes;
- - (void) setTextAttributes:(id)a;
+ - (void) setTextAttributes:(id)a ;
  - (BOOL) reversesShadowOffset;
- - (void) setReversesShadowOffset:(BOOL)a;
+ - (void) setReversesShadowOffset:(BOOL)a ;
  - (id) shadowImage;
- - (void) setShadowImage:(id)a;
+ - (void) setShadowImage:(id)a ;
  - (long long) defaultBarMetrics;
- - (void) setDefaultBarMetrics:(long long)a;
+ - (void) setDefaultBarMetrics:(long long)a ;
  - (long long) activeBarMetrics;
- - (void) setActiveBarMetrics:(long long)a;
+ - (void) setActiveBarMetrics:(long long)a ;
  - (id) backIndicatorImage;
- - (void) setBackIndicatorImage:(id)a;
+ - (void) setBackIndicatorImage:(id)a ;
  - (id) backIndicatorTransitionMaskImage;
- - (void) setBackIndicatorTransitionMaskImage:(id)a;
+ - (void) setBackIndicatorTransitionMaskImage:(id)a ;
  - (id) backIndicatorLeftMargin;
- - (void) setBackIndicatorLeftMargin:(id)a;
+ - (void) setBackIndicatorLeftMargin:(id)a ;
  - (BOOL) deferShadowToSearchBar;
- - (void) setDeferShadowToSearchBar:(BOOL)a;
+ - (void) setDeferShadowToSearchBar:(BOOL)a ;
  - (id) backdropViewGroupName;
- - (void) setBackdropViewGroupName:(id)a;
+ - (void) setBackdropViewGroupName:(id)a ;
 
 
 @end

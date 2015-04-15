@@ -3,7 +3,7 @@
 
 }
 
- - (id) _presentationControllerForTraitCollection:(id)a;
+ - (id) _presentationControllerForTraitCollection:(id)a ;
  - (long long) attributeToAlignAlertControllerViewBy;
 
 

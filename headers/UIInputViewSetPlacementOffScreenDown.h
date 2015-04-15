@@ -3,7 +3,7 @@
 
 }
 
- - (id) verticalConstraintForInputViewSet:(id)ahostView:(id)bcontainerView:(id)c;
+ - (id) verticalConstraintForInputViewSet:(id)a hostView:(id)b containerView:(id)c ;
 
 
 @end

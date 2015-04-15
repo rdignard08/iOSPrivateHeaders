@@ -8,7 +8,7 @@
  - (void) dealloc;
  - (void) layoutSubviews;
  - (double) titleOffset;
- - (void) setTitleOffset:(double)a;
+ - (void) setTitleOffset:(double)a ;
  - (id) typeLabel;
 
 

@@ -12,12 +12,12 @@
  - (void) dealloc;
  - (id) _activityImage;
  - (id) activityTitle;
- - (id) initWithApplicationIdentifier:(id)adocumentInteractionController:(id)b;
+ - (id) initWithApplicationIdentifier:(id)a documentInteractionController:(id)b ;
  - (id) _activitySettingsImage;
- - (BOOL) canPerformWithActivityItems:(id)a;
+ - (BOOL) canPerformWithActivityItems:(id)a ;
  - (void) performActivity;
  - (BOOL) isDefaultApp;
- - (void) setDefaultApp:(BOOL)a;
+ - (void) setDefaultApp:(BOOL)a ;
 
 
 @end

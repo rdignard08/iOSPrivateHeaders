@@ -5,7 +5,7 @@
 }
  + (id) wrapperWithTarget:(id)a;
 
- - (id) forwardingTargetForSelector:(SEL)a;
+ - (id) forwardingTargetForSelector:(SEL)a ;
 
 
 @end

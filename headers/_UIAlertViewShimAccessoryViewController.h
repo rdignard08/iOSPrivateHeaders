@@ -7,7 +7,7 @@
 
  - (void) dealloc;
  - ({CGSize=dd}) preferredContentSize;
- - (id) initWithAccessoryViewController:(id)a;
+ - (id) initWithAccessoryViewController:(id)a ;
 
 
 @end

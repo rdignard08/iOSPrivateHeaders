@@ -8,16 +8,16 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (void) scrollViewDidScroll:(id)a;
- - (int) _clipCornersOfView:(id)a;
- - (void) setCandidateViewExtended:(BOOL)a;
+ - (void) scrollViewDidScroll:(id)a ;
+ - (int) _clipCornersOfView:(id)a ;
+ - (void) setCandidateViewExtended:(BOOL)a ;
  - (void) didEndSplitTransition;
- - (void) candidateBarDidScroll:(id)a;
+ - (void) candidateBarDidScroll:(id)a ;
  - (void) updatePageControlStatus;
- - (unsigned long long) _numberOfColumns:(BOOL)a;
+ - (unsigned long long) _numberOfColumns:(BOOL)a ;
  - (double) _additionalClipHeight;
  - (double) rightButtonYOffset;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

@@ -4,7 +4,7 @@
 }
 
  - (id) profile;
- - (void) setProfile:(id)a;
+ - (void) setProfile:(id)a ;
 
 
 @end

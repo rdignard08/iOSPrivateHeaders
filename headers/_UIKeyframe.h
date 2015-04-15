@@ -9,8 +9,8 @@
 @property (nonatomic, retain, readwrite) NSNumber* value;
 
  - (void) dealloc;
- - (id) initWithKey:(id)astartTime:(double)bduration:(double)c;
- - (void) setValue:(id)a;
+ - (id) initWithKey:(id)a startTime:(double)b duration:(double)c ;
+ - (void) setValue:(id)a ;
  - (id) value;
 
 

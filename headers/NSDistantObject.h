@@ -19,15 +19,15 @@
 
  - (Class) classForCoder;
  - (^{_NSZone=}) zone;
- - (void) _releaseWireCount:(unsigned long long)a;
+ - (void) _releaseWireCount:(unsigned long long)a ;
  - (void) retainWireCount;
- - (id) initWithTarget:(id)aconnection:(id)b;
- - (id) initWithLocal:(id)aconnection:(id)b;
+ - (id) initWithTarget:(id)a connection:(id)b ;
+ - (id) initWithLocal:(id)a connection:(id)b ;
  - (id) connectionForProxy;
- - (void) setProtocolForProxy:(id)a;
+ - (void) setProtocolForProxy:(id)a ;
  - (id) protocolForProxy;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (id) retain;
  - (Vv) release;
@@ -35,19 +35,19 @@
  - (void) dealloc;
  - (id) copy;
  - (void) finalize;
- - (void) forwardInvocation:(id)a;
+ - (void) forwardInvocation:(id)a ;
  - (BOOL) _tryRetain;
  - (BOOL) _isDeallocating;
  - (id) mutableCopy;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) appendFormat:(id)a;
- - (BOOL) conformsToProtocol:(id)a;
- - (id) methodSignatureForSelector:(SEL)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) appendFormat:(id)a ;
+ - (BOOL) conformsToProtocol:(id)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
  - (Class) class;
- - (id) stringByAppendingFormat:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (id) stringByAppendingFormat:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

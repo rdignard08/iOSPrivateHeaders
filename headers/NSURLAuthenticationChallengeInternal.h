@@ -10,7 +10,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithProtectionSpace:(id)aproposedCredential:(id)bpreviousFailureCount:(long long)cfailureResponse:(id)derror:(id)esender:(id)f;
+ - (id) initWithProtectionSpace:(id)a proposedCredential:(id)b previousFailureCount:(long long)c failureResponse:(id)d error:(id)e sender:(id)f ;
 
 
 @end

@@ -7,10 +7,10 @@
     unsigned long long repliesReceived;
 }
 
- - (void) addStatistics:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (void) addStatistics:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (unsigned long long) count;
- - (id) objectForKey:(id)a;
+ - (id) objectForKey:(id)a ;
  - (id) keyEnumerator;
  - (id) allKeys;
 

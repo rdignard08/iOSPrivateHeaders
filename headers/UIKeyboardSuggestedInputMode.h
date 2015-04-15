@@ -6,8 +6,8 @@
 
  - (id) description;
  - (BOOL) enabled;
- - (id) initWithIdentifier:(id)aenabled:(BOOL)b;
- - (void) setEnabled:(BOOL)a;
+ - (id) initWithIdentifier:(id)a enabled:(BOOL)b ;
+ - (void) setEnabled:(BOOL)a ;
 
 
 @end

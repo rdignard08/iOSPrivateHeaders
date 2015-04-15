@@ -15,8 +15,8 @@
  - (Vv) _webcore_releaseOnWebThread;
  - ({String={RefPtr<WTF::StringImpl>=^{StringImpl}}}) bundleVersion;
  - (void) unload;
- - (id) initWithPath:(id)a;
- - (id) MIMETypeForExtension:(r^{String={RefPtr<WTF::StringImpl>=^{StringImpl}}})a;
+ - (id) initWithPath:(id)a ;
+ - (id) MIMETypeForExtension:(r^{String={RefPtr<WTF::StringImpl>=^{StringImpl}}})a ;
  - (BOOL) load;
  - (id) .cxx_construct;
  - (void) .cxx_destruct;
@@ -25,18 +25,18 @@
  - ({String={RefPtr<WTF::StringImpl>=^{StringImpl}}}) bundleIdentifier;
  - (r^{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}) path;
  - (void) createPropertyListFile;
- - (id) _objectForInfoDictionaryKey:(id)a;
- - (id) pListForPath:(id)acreateFile:(BOOL)b;
+ - (id) _objectForInfoDictionaryKey:(id)a ;
+ - (id) pListForPath:(id)a createFile:(BOOL)b ;
  - (BOOL) getPluginInfoFromPLists;
  - (r^{PluginInfo={String={RefPtr<WTF::StringImpl>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl>=^{StringImpl}}}{Vector<WebCore::MimeClassInfo, 0, WTF::CrashOnOverflow>=^{MimeClassInfo}II}B}) pluginInfo;
- - (BOOL) supportsExtension:(r^{String={RefPtr<WTF::StringImpl>=^{StringImpl}}})a;
- - (BOOL) supportsMIMEType:(r^{String={RefPtr<WTF::StringImpl>=^{StringImpl}}})a;
+ - (BOOL) supportsExtension:(r^{String={RefPtr<WTF::StringImpl>=^{StringImpl}}})a ;
+ - (BOOL) supportsMIMEType:(r^{String={RefPtr<WTF::StringImpl>=^{StringImpl}}})a ;
  - (BOOL) isQuickTimePlugIn;
  - (BOOL) isJavaPlugIn;
- - (BOOL) isNativeLibraryData:(id)a;
+ - (BOOL) isNativeLibraryData:(id)a ;
  - (unsigned int) versionNumber;
- - (void) wasAddedToPluginDatabase:(id)a;
- - (void) wasRemovedFromPluginDatabase:(id)a;
+ - (void) wasAddedToPluginDatabase:(id)a ;
+ - (void) wasRemovedFromPluginDatabase:(id)a ;
 
 
 @end

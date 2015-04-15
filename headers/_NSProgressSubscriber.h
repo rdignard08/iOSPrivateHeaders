@@ -10,12 +10,12 @@
 }
 
  - (void) stop;
- - (Vv) observePublisherForID:(id)avalue:(id)bforKey:(id)cinUserInfo:(BOOL)d;
- - (Vv) removePublisherForID:(id)a;
- - (id) initWithPublishingHandler:(@?)a;
- - (void) startForFileURL:(id)a;
- - (void) startForCategory:(id)a;
- - (Vv) addPublisher:(id)aforID:(id)bwithValues:(id)cisOld:(BOOL)d;
+ - (Vv) observePublisherForID:(id)a value:(id)b forKey:(id)c inUserInfo:(BOOL)d ;
+ - (Vv) removePublisherForID:(id)a ;
+ - (id) initWithPublishingHandler:(@?)a ;
+ - (void) startForFileURL:(id)a ;
+ - (void) startForCategory:(id)a ;
+ - (Vv) addPublisher:(id)a forID:(id)b withValues:(id)c isOld:(BOOL)d ;
  - (void) dealloc;
 
 

@@ -8,11 +8,11 @@
  + (id) _extensionAuxiliaryVendorProtocol;
 
  - (id) responseDelegate;
- - (void) setResponseDelegate:(id)a;
- - (void) _performInputViewControllerOutput:(id)a;
- - (void) _handleInputViewControllerState:(id)a;
+ - (void) setResponseDelegate:(id)a ;
+ - (void) _performInputViewControllerOutput:(id)a ;
+ - (void) _handleInputViewControllerState:(id)a ;
  - (void) _tearDownRemoteService;
- - (void) _openURL:(id)acompletion:(@?)b;
+ - (void) _openURL:(id)a completion:(@?)b ;
 
 
 @end

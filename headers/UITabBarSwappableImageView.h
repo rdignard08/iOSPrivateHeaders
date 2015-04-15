@@ -12,13 +12,13 @@
 }
 
  - (void) dealloc;
- - (void) showAlternateImage:(BOOL)a;
+ - (void) showAlternateImage:(BOOL)a ;
  - (void) setCurrentImage;
- - (id) initWithImage:(id)aalternateImage:(id)b;
- - (void) animateImage:(float)awithTabBar:(id)bwithTag:(int)c;
- - (void) setAlternateImage:(id)a;
- - (void) setImage:(id)a;
- - (void) animationDidStop:(id)afinished:(BOOL)b;
+ - (id) initWithImage:(id)a alternateImage:(id)b ;
+ - (void) animateImage:(float)a withTabBar:(id)b withTag:(int)c ;
+ - (void) setAlternateImage:(id)a ;
+ - (void) setImage:(id)a ;
+ - (void) animationDidStop:(id)a finished:(BOOL)b ;
 
 
 @end

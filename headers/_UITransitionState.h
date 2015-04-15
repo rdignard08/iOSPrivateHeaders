@@ -13,10 +13,10 @@
  - (BOOL) isActive;
  - (id) description;
  - (void) dealloc;
- - (id) initWithTransitionDirection:(long long)acompletion:(@?)b;
+ - (id) initWithTransitionDirection:(long long)a completion:(@?)b ;
  - (long long) transitionDirection;
- - (void) cleanupWithFinishedState:(BOOL)acompletedState:(BOOL)b;
- - (BOOL) isCompatibleWithTransitionInDirection:(long long)a;
+ - (void) cleanupWithFinishedState:(BOOL)a completedState:(BOOL)b ;
+ - (BOOL) isCompatibleWithTransitionInDirection:(long long)a ;
  - (long long) effectiveTransitionDirection;
  - (id) beginDate;
  - (void) markBeginDate;

@@ -11,12 +11,12 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) valueToDelete;
  - (id) valueToInsert;
- - (void) setValueToDelete:(id)a;
- - (void) setValueToInsert:(id)a;
+ - (void) setValueToDelete:(id)a ;
+ - (void) setValueToInsert:(id)a ;
 
 
 @end

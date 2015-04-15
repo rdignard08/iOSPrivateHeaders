@@ -10,8 +10,8 @@
  - (long long) UIActionType;
  - (id) activityTypeIdentifier;
  - (id) identifier;
- - (id) initWithSettings:(id)a;
- - (id) keyDescriptionForSetting:(unsigned long long)a;
+ - (id) initWithSettings:(id)a ;
+ - (id) keyDescriptionForSetting:(unsigned long long)a ;
 
 
 @end

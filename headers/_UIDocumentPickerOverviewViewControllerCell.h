@@ -7,13 +7,13 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)a reuseIdentifier:(id)b ;
  - (void) prepareForReuse;
  - (id) _dotImage;
  - (id) iconView;
- - (void) setIconView:(id)a;
- - (void) setShowNewlyAdded:(BOOL)a;
- - (void) setNewlyAddedView:(id)a;
+ - (void) setIconView:(id)a ;
+ - (void) setShowNewlyAdded:(BOOL)a ;
+ - (void) setNewlyAddedView:(id)a ;
  - (id) newlyAddedView;
  - (BOOL) showNewlyAdded;
 

@@ -9,25 +9,25 @@
 }
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - (id) _textInputTraits;
  - (BOOL) hasText;
  - (void) deleteBackward;
  - (BOOL) isSecureTextEntry;
- - (void) _handleInputViewControllerState:(id)a;
- - (void) setForwardingInterface:(id)a;
+ - (void) _handleInputViewControllerState:(id)a ;
+ - (void) setForwardingInterface:(id)a ;
  - (id) _controllerState;
  - (void) _createControllerOutputIfNecessary;
  - (id) _documentState;
  - (void) _willPerformOutputOperation;
  - (id) _controllerOutput;
  - (void) _didPerformOutputOperation;
- - (void) adjustTextPositionByCharacterOffset:(long long)a;
- - (void) setControllerState:(id)a;
- - (void) setControllerOutput:(id)a;
+ - (void) adjustTextPositionByCharacterOffset:(long long)a ;
+ - (void) setControllerState:(id)a ;
+ - (void) setControllerOutput:(id)a ;
  - (id) documentContextBeforeInput;
  - (id) documentContextAfterInput;
- - (void) _setPrimaryLanguage:(id)a;
+ - (void) _setPrimaryLanguage:(id)a ;
  - (void) _setShouldDismiss;
  - (void) _setShouldAdvanceInputMode;
  - (id) _keyboardOutput;
@@ -39,7 +39,7 @@
  - (long long) keyboardAppearance;
  - (long long) returnKeyType;
  - (BOOL) enablesReturnKeyAutomatically;
- - (void) insertText:(id)a;
+ - (void) insertText:(id)a ;
 
 
 @end

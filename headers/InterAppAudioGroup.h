@@ -4,7 +4,7 @@
 }
  + (id) sharedInstance;
 
- - (id) getApps:(float)a;
+ - (id) getApps:(float)a ;
 
 
 @end

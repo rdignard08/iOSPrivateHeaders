@@ -12,21 +12,21 @@
 
  - (void) dealloc;
  - (void) _initializeStatusBarOrientation;
- - (void) setStatusBarStyle:(long long)aanimationParameters:(id)b;
- - (void) setStatusBarHidden:(BOOL)aanimationParameters:(id)b;
- - (void) setStatusBarOrientation:(long long)aanimationParameters:(id)b;
+ - (void) setStatusBarStyle:(long long)a animationParameters:(id)b ;
+ - (void) setStatusBarHidden:(BOOL)a animationParameters:(id)b ;
+ - (void) setStatusBarOrientation:(long long)a animationParameters:(id)b ;
  - (id) _window;
  - (void) _setupWindow;
- - (BOOL) isClassicControlWindow:(id)a;
- - (void) setZoomed:(BOOL)aanimated:(BOOL)b;
+ - (BOOL) isClassicControlWindow:(id)a ;
+ - (void) setZoomed:(BOOL)a animated:(BOOL)b ;
  - (BOOL) _supportsZoom;
  - (BOOL) _shouldHideStatusBar;
  - (BOOL) isZoomed;
- - (void) setZoomed:(BOOL)a;
- - (void) _classicChangeStatusBarOrientation:(id)a;
- - (void) _classicChangeStatusBarOrientationFinished:(id)afinished:(BOOL)bcontext:(id)c;
+ - (void) setZoomed:(BOOL)a ;
+ - (void) _classicChangeStatusBarOrientation:(id)a ;
+ - (void) _classicChangeStatusBarOrientationFinished:(id)a finished:(BOOL)b context:(id)c ;
  - (BOOL) drawsStatusBarFiller;
- - (void) setDrawsStatusBarFiller:(BOOL)a;
+ - (void) setDrawsStatusBarFiller:(BOOL)a ;
 
 
 @end

@@ -4,8 +4,8 @@
     ^@ _outInvocation;
 }
 
- - (void) forwardInvocation:(id)a;
- - (id) initWithTarget:(id)aoutInvocation:(^@)b;
+ - (void) forwardInvocation:(id)a ;
+ - (id) initWithTarget:(id)a outInvocation:(^@)b ;
 
 
 @end

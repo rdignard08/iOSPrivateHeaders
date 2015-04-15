@@ -13,18 +13,18 @@
     long long _readingLinkResolutionCount;
 }
 
- - (id) initWithPurposeID:(id)areadingURL:(id)boptions:(unsigned long long)cwritingURL:(id)doptions:(unsigned long long)eclaimer:(@?)f;
+ - (id) initWithPurposeID:(id)a readingURL:(id)b options:(unsigned long long)c writingURL:(id)d options:(unsigned long long)e claimer:(@?)f ;
  - (void) granted;
  - (void) invokeClaimer;
- - (BOOL) blocksClaim:(id)a;
+ - (BOOL) blocksClaim:(id)a ;
  - (void) devalueSelf;
- - (id) initWithClient:(id)amessageParameters:(id)breplySender:(@?)c;
- - (void) forwardUsingMessageSender:(@?)acrashHandler:(@?)b;
- - (BOOL) evaluateSelfWithRootNode:(id)acheckSubarbitrability:(BOOL)b;
- - (BOOL) isBlockedByReadingItemAtLocation:(id)aoptions:(unsigned long long)b;
- - (BOOL) isBlockedByWritingItemAtLocation:(id)aoptions:(unsigned long long)b;
- - (void) itemAtLocation:(id)awasReplacedByItemAtLocation:(id)b;
- - (void) resolveURLsThenMaybeContinueInvokingClaimer:(@?)a;
+ - (id) initWithClient:(id)a messageParameters:(id)b replySender:(@?)c ;
+ - (void) forwardUsingMessageSender:(@?)a crashHandler:(@?)b ;
+ - (BOOL) evaluateSelfWithRootNode:(id)a checkSubarbitrability:(BOOL)b ;
+ - (BOOL) isBlockedByReadingItemAtLocation:(id)a options:(unsigned long long)b ;
+ - (BOOL) isBlockedByWritingItemAtLocation:(id)a options:(unsigned long long)b ;
+ - (void) itemAtLocation:(id)a wasReplacedByItemAtLocation:(id)b ;
+ - (void) resolveURLsThenMaybeContinueInvokingClaimer:(@?)a ;
  - (void) dealloc;
 
 

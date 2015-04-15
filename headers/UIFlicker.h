@@ -11,15 +11,15 @@
     {CGPoint="x"d"y"d} _offset;
 }
 
- - (void) setDelegate:(id)a;
- - (void) setTarget:(id)a;
- - (void) setDelay:(float)a;
- - (void) setIterations:(int)a;
- - (void) setStartLocation:({CGPoint=dd})a;
+ - (void) setDelegate:(id)a ;
+ - (void) setTarget:(id)a ;
+ - (void) setDelay:(float)a ;
+ - (void) setIterations:(int)a ;
+ - (void) setStartLocation:({CGPoint=dd})a ;
  - (id) init;
  - (void) run;
  - ({CGPoint=dd}) offset;
- - (void) setOffset:({CGPoint=dd})a;
+ - (void) setOffset:({CGPoint=dd})a ;
 
 
 @end

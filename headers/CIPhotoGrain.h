@@ -10,17 +10,17 @@
  - (id) customAttributes;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
- - (void) setInputAmount:(id)a;
+ - (void) setInputImage:(id)a ;
+ - (void) setInputAmount:(id)a ;
  - (id) inputAmount;
  - (id) _interpolateGrainKernel;
  - (id) _paddedTileKernel;
- - (void) paramtersFor:(float)adestination:(^{GrainParameters=ffff})bimageScaleFactor:(float)c;
+ - (void) paramtersFor:(float)a destination:(^{GrainParameters=ffff})b imageScaleFactor:(float)c ;
  - (id) _grainBlendAndMixKernel;
  - (id) inputISO;
- - (void) setInputISO:(id)a;
+ - (void) setInputISO:(id)a ;
  - (id) inputSeed;
- - (void) setInputSeed:(id)a;
+ - (void) setInputSeed:(id)a ;
 
 
 @end

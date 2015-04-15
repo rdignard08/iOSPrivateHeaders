@@ -19,21 +19,21 @@
  - (id) .cxx_construct;
  - (void) .cxx_destruct;
  - (void) dealloc;
- - (BOOL) callProgressCallbak:(unsigned int)a;
+ - (BOOL) callProgressCallbak:(unsigned int)a ;
  - (id) getUnmatchedDescriptors;
- - (id) mobileAssetsForUnmatched:(id)aandFontFilePaths:(id)b;
- - (unsigned long long) calculateDownloadSize:(id)a;
- - (void) setProgressParam:(id)aforKey:(id)b;
- - (BOOL) executeDownloadingFontAssets:(id)aforDescriptors:(id)bandFontFilePaths:(id)c;
+ - (id) mobileAssetsForUnmatched:(id)a andFontFilePaths:(id)b ;
+ - (unsigned long long) calculateDownloadSize:(id)a ;
+ - (void) setProgressParam:(id)a forKey:(id)b ;
+ - (BOOL) executeDownloadingFontAssets:(id)a forDescriptors:(id)b andFontFilePaths:(id)c ;
  - (id) doFinalMatching;
- - (id) availableMobileAssets:(BOOL)aerror:(^@)b;
- - (id) extractMatchingAssetsForDescriptor:(^{__CTFontDescriptor=})afrom:(id)bwithFailInfo:(^B)candFontFilePaths:(id)d;
+ - (id) availableMobileAssets:(BOOL)a error:(^@)b ;
+ - (id) extractMatchingAssetsForDescriptor:(^{__CTFontDescriptor=})a from:(id)b withFailInfo:(^B)c andFontFilePaths:(id)d ;
  - (void) setDownloadOptionsForMobileAsset;
- - (BOOL) assetStalled:(id)a;
- - (void) setGarbageCollectionBehaviorForAsset:(id)a;
- - (BOOL) activateFontsFromAssetURL:(id)a;
+ - (BOOL) assetStalled:(id)a ;
+ - (void) setGarbageCollectionBehaviorForAsset:(id)a ;
+ - (BOOL) activateFontsFromAssetURL:(id)a ;
  - (id) preciousFontLanguages;
- - (id) initWithDescriptors:(^{__CFArray=})aandMandatoryAttributes:(^{__CFSet=})bwithBlock:(@?)c;
+ - (id) initWithDescriptors:(^{__CFArray=})a andMandatoryAttributes:(^{__CFSet=})b withBlock:(@?)c ;
  - (void) downloadFontAssets;
 
 

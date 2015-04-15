@@ -11,7 +11,7 @@
 
  - (id) title;
  - (void) dealloc;
- - (id) initWithItem:(id)a;
+ - (id) initWithItem:(id)a ;
  - (void) _valuesChanged;
  - (id) sortDate;
  - (void) _modelChanged;

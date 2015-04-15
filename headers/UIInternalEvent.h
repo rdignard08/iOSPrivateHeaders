@@ -9,8 +9,8 @@
  - (id) _screen;
  - (^{__GSEvent=}) _gsEvent;
  - (^{__IOHIDEvent=}) _hidEvent;
- - (void) _setHIDEvent:(^{__IOHIDEvent=})a;
- - (void) _setGSEvent:(^{__GSEvent=})a;
+ - (void) _setHIDEvent:(^{__IOHIDEvent=})a ;
+ - (void) _setGSEvent:(^{__GSEvent=})a ;
 
 
 @end

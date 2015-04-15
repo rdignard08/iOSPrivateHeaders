@@ -7,13 +7,13 @@
 }
 
  - (void) candidatesDidChange;
- - (void) setCandidateViewExtended:(BOOL)a;
+ - (void) setCandidateViewExtended:(BOOL)a ;
  - (id) activeCandidateList;
- - (unsigned long long) _numberOfColumns:(BOOL)a;
+ - (unsigned long long) _numberOfColumns:(BOOL)a ;
  - (BOOL) _shouldShowHideKeyboard;
  - (BOOL) _shouldUseFullMetrics;
- - (void) _collapse:(id)a;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) _collapse:(id)a ;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

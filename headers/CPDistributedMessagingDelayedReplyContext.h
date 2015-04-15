@@ -8,11 +8,11 @@
 @property (nonatomic, assign, readwrite) NSNumber* portPassing;
 
  - (void) dealloc;
- - (id) initWithReplyPort:(unsigned int)aportPassing:(BOOL)b;
+ - (id) initWithReplyPort:(unsigned int)a portPassing:(BOOL)b ;
  - (unsigned int) replyPort;
- - (void) setReplyPort:(unsigned int)a;
+ - (void) setReplyPort:(unsigned int)a ;
  - (BOOL) portPassing;
- - (void) setPortPassing:(BOOL)a;
+ - (void) setPortPassing:(BOOL)a ;
 
 
 @end

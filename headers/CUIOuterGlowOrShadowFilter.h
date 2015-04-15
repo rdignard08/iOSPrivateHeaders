@@ -14,19 +14,19 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
- - (void) setInputRadius:(id)a;
+ - (void) setInputImage:(id)a ;
+ - (void) setInputRadius:(id)a ;
  - (id) inputRadius;
  - (id) _kernel;
- - (void) setInputColor:(id)a;
+ - (void) setInputColor:(id)a ;
  - (id) inputColor;
- - (void) setInputSize:(id)a;
+ - (void) setInputSize:(id)a ;
  - (id) inputSize;
- - (void) setInputOffset:(id)a;
- - (void) setInputRange:(id)a;
+ - (void) setInputOffset:(id)a ;
+ - (void) setInputRange:(id)a ;
  - (id) inputOffset;
  - (id) inputRange;
- - (void) setInputSpread:(id)a;
+ - (void) setInputSpread:(id)a ;
  - (id) inputSpread;
 
 

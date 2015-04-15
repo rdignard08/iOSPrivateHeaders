@@ -6,8 +6,8 @@
 }
 
  - (int) textEffectsVisibilityLevel;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})aleft:(BOOL)b;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a left:(BOOL)b ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

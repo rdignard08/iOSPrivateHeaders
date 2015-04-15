@@ -4,7 +4,7 @@
 }
 
  - (BOOL) compact;
- - (void) setCompact:(BOOL)a;
+ - (void) setCompact:(BOOL)a ;
 
 
 @end

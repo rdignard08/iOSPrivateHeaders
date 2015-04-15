@@ -9,11 +9,11 @@
  + (id) assetManager;
 
  - (void) dealloc;
- - (BOOL) _hasDefinitionForTerm:(id)a;
+ - (BOOL) _hasDefinitionForTerm:(id)a ;
  - (id) _currentlyAvailableDefinitionDictionaries;
- - (id) _availableDictionaryAssetsUsingRemoteInfo:(BOOL)a;
- - (id) _allAvailableDefinitionDictionariesUsingRemoteInfo:(BOOL)a;
- - (id) _definitionValuesForTerm:(id)a;
+ - (id) _availableDictionaryAssetsUsingRemoteInfo:(BOOL)a ;
+ - (id) _allAvailableDefinitionDictionariesUsingRemoteInfo:(BOOL)a ;
+ - (id) _definitionValuesForTerm:(id)a ;
  - (id) _availableDictionaryAssets;
  - (id) availableDefinitionDictionaries;
  - (id) init;

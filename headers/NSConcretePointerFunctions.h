@@ -6,14 +6,14 @@
  + (BOOL) initializeSlice:(^{NSSlice=^^vBBBBBBBBBBB@^?^?^?^?^?^?^?^?^?^?^?})awithOptions:(unsigned long long)b;
  + (void) initializeBackingStore:(^{NSSlice=^^vBBBBBBBBBBB@^?^?^?^?^?^?^?^?^?^?^?})asentinel:(BOOL)bcompactable:(BOOL)c;
 
- - (id) initWithOptions:(unsigned long long)a;
- - (void) setHashFunction:(^?)a;
- - (void) setIsEqualFunction:(^?)a;
- - (void) setSizeFunction:(^?)a;
- - (void) setAcquireFunction:(^?)a;
- - (void) setRelinquishFunction:(^?)a;
- - (void) setUsesStrongWriteBarrier:(BOOL)a;
- - (void) setUsesWeakReadAndWriteBarriers:(BOOL)a;
+ - (id) initWithOptions:(unsigned long long)a ;
+ - (void) setHashFunction:(^?)a ;
+ - (void) setIsEqualFunction:(^?)a ;
+ - (void) setSizeFunction:(^?)a ;
+ - (void) setAcquireFunction:(^?)a ;
+ - (void) setRelinquishFunction:(^?)a ;
+ - (void) setUsesStrongWriteBarrier:(BOOL)a ;
+ - (void) setUsesWeakReadAndWriteBarriers:(BOOL)a ;
  - (^?) sizeFunction;
  - (^?) hashFunction;
  - (^?) isEqualFunction;
@@ -22,10 +22,10 @@
  - (^?) relinquishFunction;
  - (BOOL) usesStrongWriteBarrier;
  - (BOOL) usesWeakReadAndWriteBarriers;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (void) setDescriptionFunction:(^?)a;
+ - (BOOL) isEqual:(id)a ;
+ - (void) setDescriptionFunction:(^?)a ;
 
 
 @end

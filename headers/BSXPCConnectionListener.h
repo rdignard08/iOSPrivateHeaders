@@ -14,7 +14,7 @@
  - (void) dealloc;
  - (void) invalidate;
  - (id) queue;
- - (id) initWithConnection:(id)aforService:(id)bwithHandler:(id)conQueue:(id)d;
+ - (id) initWithConnection:(id)a forService:(id)b withHandler:(id)c onQueue:(id)d ;
  - (id) handler;
  - (id) service;
 

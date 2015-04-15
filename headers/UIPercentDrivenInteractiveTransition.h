@@ -25,23 +25,23 @@
  - (void) finishInteractiveTransition;
  - (void) _stopInteractiveTransition;
  - (double) percentComplete;
- - (void) startInteractiveTransition:(id)a;
- - (void) updateInteractiveTransition:(double)a;
- - (void) setCompletionSpeed:(double)a;
+ - (void) startInteractiveTransition:(id)a ;
+ - (void) updateInteractiveTransition:(double)a ;
+ - (void) setCompletionSpeed:(double)a ;
  - (id) _uuid;
  - (long long) completionCurve;
- - (void) setCompletionCurve:(long long)a;
+ - (void) setCompletionCurve:(long long)a ;
  - (double) completionSpeed;
- - (void) _setOriginalFillMode:(id)a;
- - (void) _setUuid:(id)a;
+ - (void) _setOriginalFillMode:(id)a ;
+ - (void) _setUuid:(id)a ;
  - (BOOL) _isTransitionInterrupted;
- - (void) _setTransitionInterrupted:(BOOL)a;
- - (void) _stopInteractiveTransition:(id)a;
- - (void) _updateInteractiveTransition:(id)apercent:(double)bisFinished:(BOOL)cdidComplete:(BOOL)d;
- - (void) startInteractiveTransition:(id)acontainerViews:(id)banimation:(@?)c;
+ - (void) _setTransitionInterrupted:(BOOL)a ;
+ - (void) _stopInteractiveTransition:(id)a ;
+ - (void) _updateInteractiveTransition:(id)a percent:(double)b isFinished:(BOOL)c didComplete:(BOOL)d ;
+ - (void) startInteractiveTransition:(id)a containerViews:(id)b animation:(@?)c ;
  - (id) _originalFillMode;
  - (id) init;
- - (void) _setDuration:(double)a;
+ - (void) _setDuration:(double)a ;
 
 
 @end

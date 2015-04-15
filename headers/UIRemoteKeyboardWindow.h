@@ -11,11 +11,11 @@
  - (BOOL) _isHostedInAnotherProcess;
  - (BOOL) _usesWindowServerHitTesting;
  - (BOOL) _alwaysGetsContexts;
- - (void) _didRemoveSubview:(id)a;
- - (id) _basicInitWithScreen:(id)aoptions:(id)b;
- - (BOOL) _matchingOptions:(id)a;
+ - (void) _didRemoveSubview:(id)a ;
+ - (id) _basicInitWithScreen:(id)a options:(id)b ;
+ - (BOOL) _matchingOptions:(id)a ;
  - (id) viewServiceHostView;
- - (void) setViewServiceHostView:(id)a;
+ - (void) setViewServiceHostView:(id)a ;
 
 
 @end

@@ -16,21 +16,21 @@
 }
 
  - (void) dealloc;
- - (void) touchesBegan:(id)awithEvent:(id)b;
- - (void) touchesMoved:(id)awithEvent:(id)b;
- - (void) touchesEnded:(id)awithEvent:(id)b;
- - (void) touchesCancelled:(id)awithEvent:(id)b;
- - (void) setRotation:(double)a;
+ - (void) touchesBegan:(id)a withEvent:(id)b ;
+ - (void) touchesMoved:(id)a withEvent:(id)b ;
+ - (void) touchesEnded:(id)a withEvent:(id)b ;
+ - (void) touchesCancelled:(id)a withEvent:(id)b ;
+ - (void) setRotation:(double)a ;
  - (void) _resetGestureRecognizer;
  - (void) _updateTransformAnalyzerWeights;
- - (void) _setPreRecognitionWeight:(double)a;
+ - (void) _setPreRecognitionWeight:(double)a ;
  - (double) _preRecognitionWeight;
- - (void) _setPostRecognitionWeight:(double)a;
+ - (void) _setPostRecognitionWeight:(double)a ;
  - (double) _postRecognitionWeight;
- - (id) initWithCoder:(id)a;
+ - (id) initWithCoder:(id)a ;
  - ({CGPoint=dd}) anchorPoint;
  - (double) rotation;
- - (id) initWithTarget:(id)aaction:(SEL)b;
+ - (id) initWithTarget:(id)a action:(SEL)b ;
  - (double) velocity;
 
 

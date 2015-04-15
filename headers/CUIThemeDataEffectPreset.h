@@ -4,7 +4,7 @@
 }
 
  - (id) description;
- - (id) initWithEffectData:(r^{_cuieffectdata=IIII{_cuieffectlist=I[0I]}})aforScaleFactor:(double)b;
+ - (id) initWithEffectData:(r^{_cuieffectdata=IIII{_cuieffectlist=I[0I]}})a forScaleFactor:(double)b ;
 
 
 @end

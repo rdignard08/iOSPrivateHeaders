@@ -12,26 +12,26 @@
 }
 
  - (void) dealloc;
- - (void) touchesBegan:(id)awithEvent:(id)b;
- - (void) touchesMoved:(id)awithEvent:(id)b;
- - (void) touchesEnded:(id)awithEvent:(id)b;
- - (void) touchesCancelled:(id)awithEvent:(id)b;
+ - (void) touchesBegan:(id)a withEvent:(id)b ;
+ - (void) touchesMoved:(id)a withEvent:(id)b ;
+ - (void) touchesEnded:(id)a withEvent:(id)b ;
+ - (void) touchesCancelled:(id)a withEvent:(id)b ;
  - (id) touch;
- - (void) setAllowableMovement:(double)a;
- - (void) setTouch:(id)a;
+ - (void) setAllowableMovement:(double)a ;
+ - (void) setTouch:(id)a ;
  - (void) _resetGestureRecognizer;
  - (double) allowableMovement;
  - (void) clearTapTimer;
- - (void) tooSlow:(id)a;
- - (void) startTapTimer:(double)a;
+ - (void) tooSlow:(id)a ;
+ - (void) startTapTimer:(double)a ;
  - (int) numberOfFullTaps;
- - (void) recognized:(id)a;
+ - (void) recognized:(id)a ;
  - (double) minimumFinalPressDuration;
- - (void) startRecognitionTimer:(double)a;
+ - (void) startRecognitionTimer:(double)a ;
  - (void) _verifyMovementInAllowableRange;
- - (void) setNumberOfFullTaps:(int)a;
- - (void) setMinimumFinalPressDuration:(double)a;
- - (id) initWithTarget:(id)aaction:(SEL)b;
+ - (void) setNumberOfFullTaps:(int)a ;
+ - (void) setMinimumFinalPressDuration:(double)a ;
+ - (id) initWithTarget:(id)a action:(SEL)b ;
 
 
 @end

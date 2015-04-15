@@ -18,28 +18,28 @@
  + (id) filterWithType:(id)a;
  + (id) filterTypes;
 
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (void) setValue:(id)aforKey:(id)b;
+ - (void) setValue:(id)a forKey:(id)b ;
  - (id) name;
- - (id) initWithName:(id)a;
+ - (id) initWithName:(id)a ;
  - (BOOL) enabled;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) type;
- - (id) valueForKey:(id)a;
- - (void) setName:(id)a;
+ - (id) valueForKey:(id)a ;
+ - (void) setName:(id)a ;
  - (void) setDefaults;
- - (void) CAMLParser:(id)asetValue:(id)bforKey:(id)c;
- - (void) encodeWithCAMLWriter:(id)a;
- - (id) CAMLTypeForKey:(id)a;
+ - (void) CAMLParser:(id)a setValue:(id)b forKey:(id)c ;
+ - (void) encodeWithCAMLWriter:(id)a ;
+ - (id) CAMLTypeForKey:(id)a ;
  - (^{Object=^^?{Atomic={?=i}}}) CA_copyRenderValue;
- - (id) initWithType:(id)a;
- - (void) setCachesInputImage:(BOOL)a;
+ - (id) initWithType:(id)a ;
+ - (void) setCachesInputImage:(BOOL)a ;
  - (BOOL) cachesInputImage;
  - (BOOL) isEnabled;
- - (void) setEnabled:(BOOL)a;
+ - (void) setEnabled:(BOOL)a ;
 
 
 @end

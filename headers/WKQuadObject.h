@@ -5,7 +5,7 @@
 }
 
  - (id) .cxx_construct;
- - (id) initWithQuad:({_WKQuad={CGPoint=dd}{CGPoint=dd}{CGPoint=dd}{CGPoint=dd}})a;
+ - (id) initWithQuad:({_WKQuad={CGPoint=dd}{CGPoint=dd}{CGPoint=dd}{CGPoint=dd}})a ;
  - ({_WKQuad={CGPoint=dd}{CGPoint=dd}{CGPoint=dd}{CGPoint=dd}}) quad;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) boundingBox;
 

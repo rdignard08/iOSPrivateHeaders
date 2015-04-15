@@ -8,12 +8,12 @@
     BOOL _valid;
 }
 
- - (id) exportedObjectForProxyNumber:(unsigned long long)a;
- - (id) interfaceForProxyNumber:(unsigned long long)a;
- - (void) setExportedObject:(id)aforProxyNumber:(unsigned long long)b;
- - (void) setInterface:(id)aforProxyNumber:(unsigned long long)b;
- - (void) releaseExportedObject:(unsigned long long)a;
- - (unsigned long long) proxyNumberForExportedObject:(id)ainterface:(id)b;
+ - (id) exportedObjectForProxyNumber:(unsigned long long)a ;
+ - (id) interfaceForProxyNumber:(unsigned long long)a ;
+ - (void) setExportedObject:(id)a forProxyNumber:(unsigned long long)b ;
+ - (void) setInterface:(id)a forProxyNumber:(unsigned long long)b ;
+ - (void) releaseExportedObject:(unsigned long long)a ;
+ - (unsigned long long) proxyNumberForExportedObject:(id)a interface:(id)b ;
  - (id) description;
  - (void) dealloc;
  - (void) finalize;

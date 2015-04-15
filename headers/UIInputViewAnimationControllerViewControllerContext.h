@@ -21,7 +21,7 @@
  - (id) fromKeyboard;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) fromKeyboardFrame;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) toKeyboardFrame;
- - (id) initWithHost:(id)astartPlacement:(id)bendPlacement:(id)ctransitionContext:(id)d;
+ - (id) initWithHost:(id)a startPlacement:(id)b endPlacement:(id)c transitionContext:(id)d ;
  - (id) mainContext;
 
 

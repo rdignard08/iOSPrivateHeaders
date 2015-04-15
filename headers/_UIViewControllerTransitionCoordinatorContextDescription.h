@@ -32,22 +32,22 @@
  - (BOOL) isAnimated;
  - (long long) toOrientation;
  - (long long) fromOrientation;
- - (void) setCancelled:(BOOL)a;
+ - (void) setCancelled:(BOOL)a ;
  - (double) transitionDuration;
  - (long long) completionCurve;
- - (void) setAnimated:(BOOL)a;
+ - (void) setAnimated:(BOOL)a ;
  - ({CGAffineTransform=dddddd}) targetTransform;
  - (double) completionVelocity;
- - (void) setInteractive:(BOOL)a;
- - (void) setTransitionDuration:(double)a;
- - (void) setPercentComplete:(double)a;
- - (void) setCompletionVelocity:(double)a;
- - (void) setCompletionCurve:(long long)a;
- - (void) setTargetTransform:({CGAffineTransform=dddddd})a;
- - (void) setToOrientation:(long long)a;
- - (void) setFromOrientation:(long long)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) setInteractive:(BOOL)a ;
+ - (void) setTransitionDuration:(double)a ;
+ - (void) setPercentComplete:(double)a ;
+ - (void) setCompletionVelocity:(double)a ;
+ - (void) setCompletionCurve:(long long)a ;
+ - (void) setTargetTransform:({CGAffineTransform=dddddd})a ;
+ - (void) setToOrientation:(long long)a ;
+ - (void) setFromOrientation:(long long)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

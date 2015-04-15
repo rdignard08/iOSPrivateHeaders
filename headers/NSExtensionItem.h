@@ -10,19 +10,19 @@
 @property (nonatomic, copy, readwrite) NSDictionary* userInfo;
  + (BOOL) supportsSecureCoding;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (id) userInfo;
- - (void) setAttributedTitle:(id)a;
+ - (void) setAttributedTitle:(id)a ;
  - (id) attributedTitle;
- - (void) setAttachments:(id)a;
- - (void) setAttributedContentText:(id)a;
+ - (void) setAttachments:(id)a ;
+ - (void) setAttributedContentText:(id)a ;
  - (id) _matchingDictionaryRepresentation;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) setUserInfo:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) setUserInfo:(id)a ;
  - (id) attachments;
  - (id) attributedContentText;
 

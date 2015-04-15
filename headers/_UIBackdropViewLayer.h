@@ -5,9 +5,9 @@
 }
 
  - (void) dealloc;
- - (void) setBackdropView:(id)a;
+ - (void) setBackdropView:(id)a ;
  - (id) backdropView;
- - (void) renderInContext:(^{CGContext=})a;
+ - (void) renderInContext:(^{CGContext=})a ;
 
 
 @end

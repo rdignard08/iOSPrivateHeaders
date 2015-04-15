@@ -3,7 +3,7 @@
 
 }
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) retain;
  - (Vv) release;
  - (id) autorelease;

@@ -5,11 +5,11 @@
     @? _reacquirer;
 }
 
- - (BOOL) addBlockingAccessClaimID:(id)a;
- - (void) setReacquirer:(@?)a;
- - (void) removeBlockingAccessClaimID:(id)a;
+ - (BOOL) addBlockingAccessClaimID:(id)a ;
+ - (void) setReacquirer:(@?)a ;
+ - (void) removeBlockingAccessClaimID:(id)a ;
  - (void) removeAllBlockingAccessClaimIDs;
- - (void) removeBlockingAccessClaimID:(id)athenContinue:(@?)b;
+ - (void) removeBlockingAccessClaimID:(id)a thenContinue:(@?)b ;
  - (void) dealloc;
 
 

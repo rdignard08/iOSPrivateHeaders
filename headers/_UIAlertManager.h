@@ -32,7 +32,7 @@
  + (void) showDimmingViewAnimated:(BOOL)a;
  + (void) alertPopoutCompleted;
 
- - (void) _didHideDimmingView:(id)afinished:(id)b;
+ - (void) _didHideDimmingView:(id)a finished:(id)b ;
 
 
 @end

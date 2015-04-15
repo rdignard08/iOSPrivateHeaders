@@ -8,7 +8,7 @@
 
  - (void) dealloc;
  - (id) tintColor;
- - (void) configureLayerView:(id)a;
+ - (void) configureLayerView:(id)a ;
  - (id) vibrantColor;
 
 

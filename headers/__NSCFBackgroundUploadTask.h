@@ -3,7 +3,7 @@
 
 }
 
- - (BOOL) isKindOfClass:(Class)a;
+ - (BOOL) isKindOfClass:(Class)a ;
 
 
 @end

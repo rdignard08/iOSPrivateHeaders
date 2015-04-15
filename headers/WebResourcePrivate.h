@@ -8,7 +8,7 @@
  - (void) dealloc;
  - (void) finalize;
  - (id) init;
- - (id) initWithCoreResource:({PassRefPtr<WebCore::ArchiveResource>=^{ArchiveResource}})a;
+ - (id) initWithCoreResource:({PassRefPtr<WebCore::ArchiveResource>=^{ArchiveResource}})a ;
 
 
 @end

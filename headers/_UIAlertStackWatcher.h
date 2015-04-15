@@ -4,8 +4,8 @@
 }
 
  - (void) dealloc;
- - (void) _appSuspended:(id)a;
- - (void) _appResumed:(id)a;
+ - (void) _appSuspended:(id)a ;
+ - (void) _appResumed:(id)a ;
  - (id) init;
 
 

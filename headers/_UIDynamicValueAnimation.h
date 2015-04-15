@@ -15,31 +15,31 @@
 }
  + (id) _dynamicValueAnimationMatchingCASpringAnimationWithMass:(double)astiffness:(double)bdamping:(float)cvelocity:(float)dfromValue:(double)etoValue:(double)f;
 
- - (void) observeValueForKeyPath:(id)aofObject:(id)bchange:(id)ccontext:(^v)d;
- - (void) _setMultiplier:(double)a;
+ - (void) observeValueForKeyPath:(id)a ofObject:(id)b change:(id)c context:(^v)d ;
+ - (void) _setMultiplier:(double)a ;
  - (void) dealloc;
- - (void) runWithValueApplier:(@?)acompletion:(@?)b;
- - (void) runWithCompletion:(@?)a;
- - (BOOL) _animateForInterval:(double)a;
+ - (void) runWithValueApplier:(@?)a completion:(@?)b ;
+ - (void) runWithCompletion:(@?)a ;
+ - (BOOL) _animateForInterval:(double)a ;
  - (void) _stopAnimation;
- - (id) initWithValue:(double)avelocity:(double)bunitSize:(double)c;
- - (void) _appendSubclassDescription:(id)aatLevel:(int)b;
- - (void) _setDecelerationFactor:(double)a;
- - (void) addActiveValue:(id)a;
+ - (id) initWithValue:(double)a velocity:(double)b unitSize:(double)c ;
+ - (void) _appendSubclassDescription:(id)a atLevel:(int)b ;
+ - (void) _setDecelerationFactor:(double)a ;
+ - (void) addActiveValue:(id)a ;
  - (void) _updateStepFunction;
- - (void) runWithValueApplier:(@?)acompletion:(@?)bforScreen:(id)crunLoopMode:(id)d;
- - (void) removeActiveValue:(id)a;
- - (void) setActiveValues:(id)a;
+ - (void) runWithValueApplier:(@?)a completion:(@?)b forScreen:(id)c runLoopMode:(id)d ;
+ - (void) removeActiveValue:(id)a ;
+ - (void) setActiveValues:(id)a ;
  - (double) _multiplier;
- - (void) _setVelocity:(double)a;
+ - (void) _setVelocity:(double)a ;
  - (id) activeValues;
  - (id) init;
- - (void) setValue:(double)a;
+ - (void) setValue:(double)a ;
  - (double) value;
  - (double) friction;
  - (double) velocity;
- - (void) setFriction:(double)a;
- - (void) setVelocity:(double)a;
+ - (void) setFriction:(double)a ;
+ - (void) setVelocity:(double)a ;
 
 
 @end

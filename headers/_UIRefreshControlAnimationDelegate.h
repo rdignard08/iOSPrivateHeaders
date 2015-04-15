@@ -6,7 +6,7 @@
  + (id) delegateWithCompletionBlock:(@?)a;
 
  - (void) dealloc;
- - (void) animationDidStop:(id)afinished:(BOOL)b;
+ - (void) animationDidStop:(id)a finished:(BOOL)b ;
 
 
 @end

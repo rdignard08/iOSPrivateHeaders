@@ -6,7 +6,7 @@
 
  - (void) dealloc;
  - (id) gradient;
- - (id) initWithGradient:(id)a;
+ - (id) initWithGradient:(id)a ;
 
 
 @end

@@ -21,23 +21,23 @@
  - (long long) item;
  - (long long) row;
  - (long long) section;
- - (id) initWithIndexes:(r^Q)alength:(unsigned long long)b;
- - (void) getIndexes:(^Q)arange:({_NSRange=QQ})b;
- - (unsigned long long) indexAtPosition:(unsigned long long)a;
- - (id) initWithIndex:(unsigned long long)a;
- - (void) getIndexes:(^Q)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) initWithIndexes:(r^Q)a length:(unsigned long long)b ;
+ - (void) getIndexes:(^Q)a range:({_NSRange=QQ})b ;
+ - (unsigned long long) indexAtPosition:(unsigned long long)a ;
+ - (id) initWithIndex:(unsigned long long)a ;
+ - (void) getIndexes:(^Q)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
- - (long long) compare:(id)a;
- - (id) indexPathByAddingIndex:(unsigned long long)a;
+ - (BOOL) isEqual:(id)a ;
+ - (long long) compare:(id)a ;
+ - (id) indexPathByAddingIndex:(unsigned long long)a ;
  - (id) indexPathByRemovingLastIndex;
  - (unsigned long long) length;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

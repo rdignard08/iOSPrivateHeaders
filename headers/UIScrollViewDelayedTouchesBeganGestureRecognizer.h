@@ -6,15 +6,15 @@
 }
 
  - (void) dealloc;
- - (void) touchesBegan:(id)awithEvent:(id)b;
- - (void) touchesMoved:(id)awithEvent:(id)b;
- - (void) touchesEnded:(id)awithEvent:(id)b;
- - (void) touchesCancelled:(id)awithEvent:(id)b;
+ - (void) touchesBegan:(id)a withEvent:(id)b ;
+ - (void) touchesMoved:(id)a withEvent:(id)b ;
+ - (void) touchesEnded:(id)a withEvent:(id)b ;
+ - (void) touchesCancelled:(id)a withEvent:(id)b ;
  - (void) sendDelayedTouches;
  - (void) _resetGestureRecognizer;
  - (void) clearTimer;
- - (void) sendTouchesShouldBeginForDelayedTouches:(id)a;
- - (void) sendTouchesShouldBeginForTouches:(id)awithEvent:(id)b;
+ - (void) sendTouchesShouldBeginForDelayedTouches:(id)a ;
+ - (void) sendTouchesShouldBeginForTouches:(id)a withEvent:(id)b ;
 
 
 @end

@@ -9,11 +9,11 @@
  - (void) dealloc;
  - ({CGSize=dd}) _thumbnailSize;
  - (void) performActivity;
- - (void) prepareWithActivityItems:(id)a;
+ - (void) prepareWithActivityItems:(id)a ;
  - (id) airDropViewController;
  - (@?) airdropCompletion;
- - (void) setAirdropCompletion:(@?)a;
- - (void) setAirDropViewController:(id)a;
+ - (void) setAirdropCompletion:(@?)a ;
+ - (void) setAirDropViewController:(id)a ;
 
 
 @end

@@ -10,12 +10,12 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) _kernel;
  - (id) inputAngle;
- - (void) setInputAngle:(id)a;
- - (void) setInputPoint:(id)a;
- - ({Rectangle=dddd}) computeDOD:({vec2=ff})atst:({vec3=fff})boff:({vec4=ffff})cmtx:({vec4=ffff})d;
+ - (void) setInputAngle:(id)a ;
+ - (void) setInputPoint:(id)a ;
+ - ({Rectangle=dddd}) computeDOD:({vec2=ff})a tst:({vec3=fff})b off:({vec4=ffff})c mtx:({vec4=ffff})d ;
  - (id) inputPoint;
 
 

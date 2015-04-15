@@ -7,11 +7,11 @@
  - (void) removeLastObject;
  - (void) dealloc;
  - (unsigned long long) count;
- - (id) objectAtIndex:(unsigned long long)a;
- - (void) addObject:(id)a;
- - (void) insertObject:(id)aatIndex:(unsigned long long)b;
- - (void) removeObjectAtIndex:(unsigned long long)a;
- - (void) replaceObjectAtIndex:(unsigned long long)awithObject:(id)b;
+ - (id) objectAtIndex:(unsigned long long)a ;
+ - (void) addObject:(id)a ;
+ - (void) insertObject:(id)a atIndex:(unsigned long long)b ;
+ - (void) removeObjectAtIndex:(unsigned long long)a ;
+ - (void) replaceObjectAtIndex:(unsigned long long)a withObject:(id)b ;
  - (id) _array;
 
 

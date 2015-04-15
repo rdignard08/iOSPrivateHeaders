@@ -15,7 +15,7 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
+ - (id) initWithStyle:(long long)a reuseIdentifier:(id)b ;
  - (void) prepareForReuse;
  - (id) textLabel;
  - (id) detailTextLabel;
@@ -23,31 +23,31 @@
  - (id) _searchImageView;
  - (long long) locationImageType;
  - (double) _defaultCellTopMargin;
- - (void) setTopMarginConstraint:(id)a;
+ - (void) setTopMarginConstraint:(id)a ;
  - (double) _defaultCellBottomMargin;
- - (void) setBottomMarginConstraint:(id)a;
+ - (void) setBottomMarginConstraint:(id)a ;
  - (double) _subtitleCellTopMargin;
- - (void) _applyLeftAndRightAlignmentConstraints:(id)a;
+ - (void) _applyLeftAndRightAlignmentConstraints:(id)a ;
  - (double) _subtitleCellBottomMargin;
  - (double) _subtitleCellInterLabelSpace;
- - (void) setInterLabelSpaceConstraint:(id)a;
+ - (void) setInterLabelSpaceConstraint:(id)a ;
  - (void) _updateLabelFontsAndConstraints;
- - (void) setLocationImageType:(long long)a;
- - (void) setCustomLocationImage:(id)a;
+ - (void) setLocationImageType:(long long)a ;
+ - (void) setCustomLocationImage:(id)a ;
  - (id) customLocationImage;
  - (id) searchTextLabel;
- - (void) setSearchTextLabel:(id)a;
+ - (void) setSearchTextLabel:(id)a ;
  - (id) searchDetailTextLabel;
- - (void) setSearchDetailTextLabel:(id)a;
+ - (void) setSearchDetailTextLabel:(id)a ;
  - (id) searchImageView;
- - (void) setSearchImageView:(id)a;
+ - (void) setSearchImageView:(id)a ;
  - (id) topMarginConstraint;
  - (id) interLabelSpaceConstraint;
  - (id) bottomMarginConstraint;
  - (id) cellHeightStrut;
- - (void) setCellHeightStrut:(id)a;
+ - (void) setCellHeightStrut:(id)a ;
  - (double) additionalLeftSidePadding;
- - (void) setAdditionalLeftSidePadding:(double)a;
+ - (void) setAdditionalLeftSidePadding:(double)a ;
  - (id) contentView;
 
 

@@ -9,24 +9,24 @@
     long long cachedColorOnceToken;
 }
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (void) set;
- - (id) initWithHue:(double)asaturation:(double)bbrightness:(double)calpha:(double)d;
+ - (id) initWithHue:(double)a saturation:(double)b brightness:(double)c alpha:(double)d ;
  - (id) colorSpaceName;
- - (^{CGColor=}) _createCGColorWithAlpha:(double)a;
- - (BOOL) getHue:(^d)asaturation:(^d)bbrightness:(^d)calpha:(^d)d;
+ - (^{CGColor=}) _createCGColorWithAlpha:(double)a ;
+ - (BOOL) getHue:(^d)a saturation:(^d)b brightness:(^d)c alpha:(^d)d ;
  - (^{CGColor=}) CGColor;
- - (BOOL) getRed:(^d)agreen:(^d)bblue:(^d)calpha:(^d)d;
+ - (BOOL) getRed:(^d)a green:(^d)b blue:(^d)c alpha:(^d)d ;
  - (void) setFill;
- - (id) colorWithAlphaComponent:(double)a;
+ - (id) colorWithAlphaComponent:(double)a ;
  - (double) alphaComponent;
- - (BOOL) getWhite:(^d)aalpha:(^d)b;
- - (id) initWithCGColor:(^{CGColor=})a;
- - (id) initWithRed:(double)agreen:(double)bblue:(double)calpha:(double)d;
+ - (BOOL) getWhite:(^d)a alpha:(^d)b ;
+ - (id) initWithCGColor:(^{CGColor=})a ;
+ - (id) initWithRed:(double)a green:(double)b blue:(double)c alpha:(double)d ;
  - (void) setStroke;
 
 

@@ -26,10 +26,10 @@
  - (id) block;
  - (id) description;
  - (void) dealloc;
- - (id) initWithTextBlock:(id)acharRange:({_NSRange=QQ})bglyphRange:({_NSRange=QQ})clayoutRect:({CGRect={CGPoint=dd}{CGSize=dd}})dboundsRect:({CGRect={CGPoint=dd}{CGSize=dd}})econtainerWidth:(double)fallowMargins:(BOOL)gcollapseBorders:(BOOL)hallowPadding:(BOOL)i;
- - (id) initWithTextBlock:(id)acharRange:({_NSRange=QQ})btext:(id)clayoutManager:(id)dcontainerWidth:(double)ecollapseBorders:(BOOL)f;
- - (id) initWithTextBlock:(id)acharIndex:(unsigned long long)btext:(id)clayoutManager:(id)dcontainerWidth:(double)ecollapseBorders:(BOOL)f;
- - (id) initWithTextTable:(id)acharIndex:(unsigned long long)btext:(id)clayoutManager:(id)dcontainerWidth:(double)ecollapseBorders:(BOOL)f;
+ - (id) initWithTextBlock:(id)a charRange:({_NSRange=QQ})b glyphRange:({_NSRange=QQ})c layoutRect:({CGRect={CGPoint=dd}{CGSize=dd}})d boundsRect:({CGRect={CGPoint=dd}{CGSize=dd}})e containerWidth:(double)f allowMargins:(BOOL)g collapseBorders:(BOOL)h allowPadding:(BOOL)i ;
+ - (id) initWithTextBlock:(id)a charRange:({_NSRange=QQ})b text:(id)c layoutManager:(id)d containerWidth:(double)e collapseBorders:(BOOL)f ;
+ - (id) initWithTextBlock:(id)a charIndex:(unsigned long long)b text:(id)c layoutManager:(id)d containerWidth:(double)e collapseBorders:(BOOL)f ;
+ - (id) initWithTextTable:(id)a charIndex:(unsigned long long)b text:(id)c layoutManager:(id)d containerWidth:(double)e collapseBorders:(BOOL)f ;
 
 
 @end

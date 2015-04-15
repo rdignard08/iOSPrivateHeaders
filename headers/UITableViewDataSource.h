@@ -8,24 +8,24 @@
  + (id) staticDataSourceWithSections:(id)a;
 
  - (void) dealloc;
- - (double) tableView:(id)aheightForRowAtIndexPath:(id)b;
- - (double) tableView:(id)aheightForHeaderInSection:(long long)b;
- - (double) tableView:(id)aheightForFooterInSection:(long long)b;
- - (id) tableView:(id)aviewForHeaderInSection:(long long)b;
- - (id) tableView:(id)aviewForFooterInSection:(long long)b;
- - (long long) tableView:(id)aeditingStyleForRowAtIndexPath:(id)b;
- - (long long) tableView:(id)aindentationLevelForRowAtIndexPath:(id)b;
- - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (long long) numberOfSectionsInTableView:(id)a;
- - (id) tableView:(id)atitleForHeaderInSection:(long long)b;
- - (id) tableView:(id)atitleForFooterInSection:(long long)b;
- - (BOOL) tableView:(id)acanEditRowAtIndexPath:(id)b;
- - (BOOL) tableView:(id)acanMoveRowAtIndexPath:(id)b;
- - (void) setSections:(id)a;
+ - (double) tableView:(id)a heightForRowAtIndexPath:(id)b ;
+ - (double) tableView:(id)a heightForHeaderInSection:(long long)b ;
+ - (double) tableView:(id)a heightForFooterInSection:(long long)b ;
+ - (id) tableView:(id)a viewForHeaderInSection:(long long)b ;
+ - (id) tableView:(id)a viewForFooterInSection:(long long)b ;
+ - (long long) tableView:(id)a editingStyleForRowAtIndexPath:(id)b ;
+ - (long long) tableView:(id)a indentationLevelForRowAtIndexPath:(id)b ;
+ - (long long) tableView:(id)a numberOfRowsInSection:(long long)b ;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
+ - (long long) numberOfSectionsInTableView:(id)a ;
+ - (id) tableView:(id)a titleForHeaderInSection:(long long)b ;
+ - (id) tableView:(id)a titleForFooterInSection:(long long)b ;
+ - (BOOL) tableView:(id)a canEditRowAtIndexPath:(id)b ;
+ - (BOOL) tableView:(id)a canMoveRowAtIndexPath:(id)b ;
+ - (void) setSections:(id)a ;
  - (id) sections;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

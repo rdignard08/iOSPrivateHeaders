@@ -6,7 +6,7 @@
  - (BOOL) shouldCompleteOnSuspend;
  - (BOOL) shouldRecomputeEndFrame;
  - (BOOL) fadeAccessoryView;
- - (BOOL) subsumesTransition:(id)a;
+ - (BOOL) subsumesTransition:(id)a ;
  - (void) postNotificationsForTransitionEnd;
  - (void) postNotificationsForTransitionStart;
 

@@ -3,7 +3,7 @@
 
 }
 
- - (id) initWithContainerClassID:(id)akey:(id)bmethod:(^{objc_method=})c;
+ - (id) initWithContainerClassID:(id)a key:(id)b method:(^{objc_method=})c ;
 
 
 @end

@@ -3,19 +3,19 @@
 
 }
 
- - (void) setText:(id)a;
+ - (void) setText:(id)a ;
  - (id) background;
- - (void) setBackground:(id)a;
+ - (void) setBackground:(id)a ;
  - (int) structuralComplexityContribution;
- - (void) setLink:(id)a;
+ - (void) setLink:(id)a ;
  - (id) link;
  - (id) text;
  - (id) aLink;
- - (void) setALink:(id)a;
+ - (void) setALink:(id)a ;
  - (id) bgColor;
- - (void) setBgColor:(id)a;
+ - (void) setBgColor:(id)a ;
  - (id) vLink;
- - (void) setVLink:(id)a;
+ - (void) setVLink:(id)a ;
 
 
 @end

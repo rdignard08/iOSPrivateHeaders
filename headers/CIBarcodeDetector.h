@@ -7,10 +7,10 @@
     NSMutableDictionary* featureOptions;
 }
 
- - (void) setContext:(id)a;
- - (id) featuresInImage:(id)aoptions:(id)b;
- - (id) initWithContext:(id)aoptions:(id)b;
- - (id) featuresInImage:(id)a;
+ - (void) setContext:(id)a ;
+ - (id) featuresInImage:(id)a options:(id)b ;
+ - (id) initWithContext:(id)a options:(id)b ;
+ - (id) featuresInImage:(id)a ;
  - (id) context;
 
 

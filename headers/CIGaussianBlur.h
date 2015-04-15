@@ -9,8 +9,8 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
- - (void) setInputRadius:(id)a;
+ - (void) setInputImage:(id)a ;
+ - (void) setInputRadius:(id)a ;
  - (BOOL) _isIdentity;
  - (id) inputRadius;
 

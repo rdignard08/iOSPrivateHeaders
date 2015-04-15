@@ -15,16 +15,16 @@
  + (id) textServiceSessionForType:(long long)a;
 
  - (void) dealloc;
- - (void) dismissTextServiceAnimated:(BOOL)a;
- - (void) setDismissedHandler:(@?)a;
+ - (void) dismissTextServiceAnimated:(BOOL)a ;
+ - (void) setDismissedHandler:(@?)a ;
  - (BOOL) isDisplaying;
- - (void) popoverControllerDidDismissPopover:(id)a;
+ - (void) popoverControllerDidDismissPopover:(id)a ;
  - (void) _endSession;
  - (void) sessionDidDismiss;
  - (@?) dismissedHandler;
  - (id) init;
  - (long long) type;
- - (id) initWithType:(long long)a;
+ - (id) initWithType:(long long)a ;
 
 
 @end

@@ -5,12 +5,12 @@
 }
 @property (atomic, assign, readwrite) NSNumber* parent;
 
- - (void) observeValueForKeyPath:(id)aofObject:(id)bchange:(id)ccontext:(^v)d;
+ - (void) observeValueForKeyPath:(id)a ofObject:(id)b change:(id)c context:(^v)d ;
  - (^{TextTrackRepresentationIOS=^^?^{TextTrackRepresentationClient}{RetainPtr<CALayer>=^v}{RetainPtr<WebCoreTextTrackRepresentationIOSHelper>=^v}}) parent;
  - (void) dealloc;
- - (id) actionForLayer:(id)aforKey:(id)b;
- - (void) setParent:(^{TextTrackRepresentationIOS=^^?^{TextTrackRepresentationClient}{RetainPtr<CALayer>=^v}{RetainPtr<WebCoreTextTrackRepresentationIOSHelper>=^v}})a;
- - (id) initWithParent:(^{TextTrackRepresentationIOS=^^?^{TextTrackRepresentationClient}{RetainPtr<CALayer>=^v}{RetainPtr<WebCoreTextTrackRepresentationIOSHelper>=^v}})a;
+ - (id) actionForLayer:(id)a forKey:(id)b ;
+ - (void) setParent:(^{TextTrackRepresentationIOS=^^?^{TextTrackRepresentationClient}{RetainPtr<CALayer>=^v}{RetainPtr<WebCoreTextTrackRepresentationIOSHelper>=^v}})a ;
+ - (id) initWithParent:(^{TextTrackRepresentationIOS=^^?^{TextTrackRepresentationClient}{RetainPtr<CALayer>=^v}{RetainPtr<WebCoreTextTrackRepresentationIOSHelper>=^v}})a ;
 
 
 @end

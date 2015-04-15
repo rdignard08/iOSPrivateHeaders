@@ -10,9 +10,9 @@
  - (id) description;
  - (void) dealloc;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) object;
- - (id) initWithObject:(id)a;
+ - (id) initWithObject:(id)a ;
  - (id) init;
 
 

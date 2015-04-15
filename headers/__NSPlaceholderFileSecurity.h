@@ -6,15 +6,15 @@
  + (void) initialize;
  + (id) immutablePlaceholder;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) retain;
  - (Vv) release;
  - (unsigned long long) retainCount;
  - (void) dealloc;
- - (id) initWithFileSec:(^{_filesec=})a;
+ - (id) initWithFileSec:(^{_filesec=})a ;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

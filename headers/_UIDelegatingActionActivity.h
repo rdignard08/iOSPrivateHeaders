@@ -8,9 +8,9 @@
  - (id) activityType;
  - (id) _activityImage;
  - (id) activityTitle;
- - (BOOL) canPerformWithActivityItems:(id)a;
+ - (BOOL) canPerformWithActivityItems:(id)a ;
  - (void) performActivity;
- - (id) initWithDocumentInteractionController:(id)aforAction:(SEL)b;
+ - (id) initWithDocumentInteractionController:(id)a forAction:(SEL)b ;
 
 
 @end

@@ -9,8 +9,8 @@
 
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) firstRect;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) lastRect;
- - (void) setFirstRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setLastRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (void) setFirstRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setLastRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

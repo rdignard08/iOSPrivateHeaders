@@ -15,13 +15,13 @@
 
  - (id) description;
  - (void) dealloc;
- - (id) initWithLocalizedDictionaryName:(id)aterm:(id)bdefinition:(id)clongDefinition:(id)d;
+ - (id) initWithLocalizedDictionaryName:(id)a term:(id)b definition:(id)c longDefinition:(id)d ;
  - (id) localizedDictionaryName;
  - (id) term;
  - (id) definition;
  - (id) longDefinition;
  - (id) rawAsset;
- - (void) setRawAsset:(id)a;
+ - (void) setRawAsset:(id)a ;
 
 
 @end

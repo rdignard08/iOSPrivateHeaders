@@ -34,33 +34,33 @@
  + (Class) layerClass;
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
- - (void) setMode:(int)a;
+ - (void) setDelegate:(id)a ;
+ - (void) setMode:(int)a ;
  - (void) layoutSubviews;
  - (void) didMoveToSuperview;
  - (int) mode;
  - (void) startListening;
- - (float) _updateMedianWithNewValue:(float)a;
- - (float) _powerLevelForMicPower:(float)a;
+ - (float) _updateMedianWithNewValue:(float)a ;
+ - (float) _powerLevelForMicPower:(float)a ;
  - (float) _currentMicPowerLevel;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})ascreen:(id)b;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a screen:(id)b ;
  - (void) _tearDownDisplayLink;
  - (void) _cleanupGL;
  - (void) _setupDisplayLink;
- - (void) _updateCurveLayer:(id)a;
+ - (void) _updateCurveLayer:(id)a ;
  - (BOOL) _setupFramebuffer;
  - (BOOL) _setupShaders;
  - (BOOL) _setupVertexBuffer;
  - (BOOL) _setupTexture;
  - (BOOL) _initGL;
- - (BOOL) _resizeFromLayer:(id)a;
+ - (BOOL) _resizeFromLayer:(id)a ;
  - (void) _updateOrthoProjection;
  - (BOOL) inDictationMode;
  - (BOOL) inSiriMode;
  - (id) delegate;
  - (void) start;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setHidden:(BOOL)a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setHidden:(BOOL)a ;
 
 
 @end

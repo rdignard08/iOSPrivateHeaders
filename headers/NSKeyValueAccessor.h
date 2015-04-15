@@ -11,7 +11,7 @@
     ^v _extraArgument3;
 }
 
- - (id) initWithContainerClassID:(id)akey:(id)bimplementation:(^?)cselector:(SEL)dextraArguments:([3^v])ecount:(unsigned long long)f;
+ - (id) initWithContainerClassID:(id)a key:(id)b implementation:(^?)c selector:(SEL)d extraArguments:([3^v])e count:(unsigned long long)f ;
  - (id) containerClassID;
  - (unsigned long long) extraArgumentCount;
  - (^v) extraArgument1;

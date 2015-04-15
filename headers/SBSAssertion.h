@@ -13,7 +13,7 @@
  - (void) invalidate;
  - (id) reason;
  - (id) assertionName;
- - (id) initWithAssertionName:(id)areason:(id)bport:(unsigned int)c;
+ - (id) initWithAssertionName:(id)a reason:(id)b port:(unsigned int)c ;
 
 
 @end

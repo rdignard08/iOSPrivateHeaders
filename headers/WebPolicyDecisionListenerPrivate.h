@@ -6,7 +6,7 @@
 }
 
  - (void) dealloc;
- - (id) initWithTarget:(id)aaction:(SEL)b;
+ - (id) initWithTarget:(id)a action:(SEL)b ;
 
 
 @end

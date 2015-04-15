@@ -5,7 +5,7 @@
 }
 
  - (void) dealloc;
- - (void) _setInvalidationContextTable:(id)a;
+ - (void) _setInvalidationContextTable:(id)a ;
  - (id) _invalidationContextTable;
 
 

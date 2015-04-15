@@ -11,22 +11,22 @@
  + (BOOL) supportsSecureCoding;
  + (void) initialize;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (id) data;
  - (id) userInfo;
  - (^{_CFCachedURLResponse={__CFRuntimeBase=Q[4C]I}^{__CFCachedURLResponse}}) _CFCachedURLResponse;
- - (id) _initWithCFCachedURLResponse:(^{_CFCachedURLResponse={__CFRuntimeBase=Q[4C]I}^{__CFCachedURLResponse}})a;
+ - (id) _initWithCFCachedURLResponse:(^{_CFCachedURLResponse={__CFRuntimeBase=Q[4C]I}^{__CFCachedURLResponse}})a ;
  - (id) response;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) _reestablishInternalCFCachedURLResponse:(^{_CFCachedURLResponse={__CFRuntimeBase=Q[4C]I}^{__CFCachedURLResponse}})a;
- - (id) initWithResponse:(id)adata:(id)buserInfo:(id)cstoragePolicy:(unsigned long long)d;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) _reestablishInternalCFCachedURLResponse:(^{_CFCachedURLResponse={__CFRuntimeBase=Q[4C]I}^{__CFCachedURLResponse}})a ;
+ - (id) initWithResponse:(id)a data:(id)b userInfo:(id)c storagePolicy:(unsigned long long)d ;
  - (unsigned long long) storagePolicy;
- - (id) _private_initWithCoder:(id)a;
- - (void) _private_encodeWithCoder:(id)a;
- - (id) initWithResponse:(id)adata:(id)b;
- - (id) initWithResponse:(id)adataArray:(id)buserInfo:(id)cstoragePolicy:(unsigned long long)d;
+ - (id) _private_initWithCoder:(id)a ;
+ - (void) _private_encodeWithCoder:(id)a ;
+ - (id) initWithResponse:(id)a data:(id)b ;
+ - (id) initWithResponse:(id)a dataArray:(id)b userInfo:(id)c storagePolicy:(unsigned long long)d ;
  - (id) dataArray;
  - (void) _deallocInternalCFCachedURLResponse;
 

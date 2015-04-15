@@ -16,7 +16,7 @@
  - (void) invalidate;
  - (void) _didLaunch;
  - (void) _didFailToLaunch;
- - (id) initWithBundleIdentifier:(id)ahandlerBlock:(@?)b;
+ - (id) initWithBundleIdentifier:(id)a handlerBlock:(@?)b ;
 
 
 @end

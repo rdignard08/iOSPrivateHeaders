@@ -16,8 +16,8 @@
  - (void) discardContentIfPossible;
  - (BOOL) isContentDiscarded;
  - (id) images;
- - (void) setImages:(id)a;
- - (id) initWithArtKey:(id)a;
+ - (void) setImages:(id)a ;
+ - (id) initWithArtKey:(id)a ;
  - (id) artKey;
 
 

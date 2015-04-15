@@ -5,7 +5,7 @@
 }
 @property (nonatomic, assign, readonly) NSNumber* interactionLocation;
 
- - (void) _setInteractionLocation:({CGPoint=dd})a;
+ - (void) _setInteractionLocation:({CGPoint=dd})a ;
  - ({CGPoint=dd}) interactionLocation;
 
 

@@ -7,11 +7,11 @@
 
  - (void) dealloc;
  - (id) init;
- - (void) _routerUpdated:(id)a;
- - (void) setEventRouters:(id)a;
+ - (void) _routerUpdated:(id)a ;
+ - (void) setEventRouters:(id)a ;
  - (void) _flushTrigger;
  - (BOOL) needsFlush;
- - (void) setNeedsFlush:(BOOL)a;
+ - (void) setNeedsFlush:(BOOL)a ;
  - (void) _flush;
 
 

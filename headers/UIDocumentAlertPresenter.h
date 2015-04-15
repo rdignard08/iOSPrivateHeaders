@@ -9,9 +9,9 @@
  + (id) _presentAlertWithError:(id)acompletionHandler:(@?)b;
 
  - (void) dealloc;
- - (void) alertView:(id)aclickedButtonAtIndex:(long long)b;
- - (void) alertViewCancel:(id)a;
- - (id) initWithError:(id)acompletionHandler:(@?)b;
+ - (void) alertView:(id)a clickedButtonAtIndex:(long long)b ;
+ - (void) alertViewCancel:(id)a ;
+ - (id) initWithError:(id)a completionHandler:(@?)b ;
  - (void) _forceFinishNow;
 
 

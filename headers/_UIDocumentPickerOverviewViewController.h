@@ -11,28 +11,28 @@
 }
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
- - (void) setMode:(unsigned long long)a;
- - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (long long) numberOfSectionsInTableView:(id)a;
- - (void) viewWillAppear:(BOOL)a;
- - (void) viewDidAppear:(BOOL)a;
- - (void) viewWillDisappear:(BOOL)a;
+ - (void) setDelegate:(id)a ;
+ - (void) setMode:(unsigned long long)a ;
+ - (void) tableView:(id)a didSelectRowAtIndexPath:(id)b ;
+ - (long long) tableView:(id)a numberOfRowsInSection:(long long)b ;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
+ - (long long) numberOfSectionsInTableView:(id)a ;
+ - (void) viewWillAppear:(BOOL)a ;
+ - (void) viewDidAppear:(BOOL)a ;
+ - (void) viewWillDisappear:(BOOL)a ;
  - (unsigned long long) mode;
- - (void) setAuxiliaryOptions:(id)a;
+ - (void) setAuxiliaryOptions:(id)a ;
  - (id) auxiliaryOptions;
  - (id) allPickers;
- - (id) initWithFileTypes:(id)amode:(unsigned long long)bauxiliaryOptions:(id)cincludeManagementItem:(BOOL)d;
+ - (id) initWithFileTypes:(id)a mode:(unsigned long long)b auxiliaryOptions:(id)c includeManagementItem:(BOOL)d ;
  - (void) updateContents;
- - (void) setFileTypes:(id)a;
- - (void) setManage:(BOOL)a;
+ - (void) setFileTypes:(id)a ;
+ - (void) setManage:(BOOL)a ;
  - (id) fileTypes;
  - (BOOL) manage;
- - (void) setAllPickers:(id)a;
+ - (void) setAllPickers:(id)a ;
  - (void) updatePreferredContentSize;
- - (void) setCurrentExtensionIdentifier:(id)a;
+ - (void) setCurrentExtensionIdentifier:(id)a ;
  - (id) currentExtensionIdentifier;
  - (id) delegate;
 

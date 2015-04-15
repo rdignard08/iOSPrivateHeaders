@@ -24,34 +24,34 @@
  + (BOOL) supportsSecureCoding;
 
  - (id) title;
- - (void) setTitle:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (void) setTitle:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - (void) dealloc;
  - (id) userInfo;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) sortDate;
- - (void) setThumbnail:(id)a;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (void) setUserInfo:(id)a;
+ - (void) setThumbnail:(id)a ;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (void) setUserInfo:(id)a ;
  - (id) identifier;
- - (void) setIdentifier:(id)a;
+ - (void) setIdentifier:(id)a ;
  - (id) thumbnail;
- - (void) setIconData:(id)a;
- - (void) setBody:(id)a;
- - (void) setRequiresPasscode:(BOOL)a;
- - (void) setBundleName:(id)a;
- - (id) initWithIdentifier:(id)aiconData:(id)btitle:(id)cbody:(id)drequiresPasscode:(BOOL)ebundleName:(id)fattachmentData:(id)guserInfo:(id)h;
- - (id) initWithIdentifier:(id)aiconData:(id)btitle:(id)cbody:(id)drequiresPasscode:(BOOL)ebundleName:(id)fuserInfo:(id)g;
+ - (void) setIconData:(id)a ;
+ - (void) setBody:(id)a ;
+ - (void) setRequiresPasscode:(BOOL)a ;
+ - (void) setBundleName:(id)a ;
+ - (id) initWithIdentifier:(id)a iconData:(id)b title:(id)c body:(id)d requiresPasscode:(BOOL)e bundleName:(id)f attachmentData:(id)g userInfo:(id)h ;
+ - (id) initWithIdentifier:(id)a iconData:(id)b title:(id)c body:(id)d requiresPasscode:(BOOL)e bundleName:(id)f userInfo:(id)g ;
  - (id) iconData;
  - (id) body;
  - (BOOL) requiresPasscode;
  - (id) bundleName;
  - (id) attachmentData;
- - (void) setAttachmentData:(id)a;
- - (id) initWithIdentifier:(id)aiconData:(id)btitle:(id)cbody:(id)dclassification:(long long)ebundleName:(id)fuserInfo:(id)g;
+ - (void) setAttachmentData:(id)a ;
+ - (id) initWithIdentifier:(id)a iconData:(id)b title:(id)c body:(id)d classification:(long long)e bundleName:(id)f userInfo:(id)g ;
 
 
 @end

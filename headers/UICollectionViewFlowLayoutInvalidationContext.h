@@ -4,9 +4,9 @@
     {?="invalidateDelegateMetrics"b1"invalidateAttributes"b1} _flowLayoutInvalidationFlags;
 }
 
- - (void) setInvalidateFlowLayoutAttributes:(BOOL)a;
+ - (void) setInvalidateFlowLayoutAttributes:(BOOL)a ;
  - (BOOL) invalidateFlowLayoutAttributes;
- - (void) setInvalidateFlowLayoutDelegateMetrics:(BOOL)a;
+ - (void) setInvalidateFlowLayoutDelegateMetrics:(BOOL)a ;
  - (BOOL) invalidateFlowLayoutDelegateMetrics;
  - (id) init;
 

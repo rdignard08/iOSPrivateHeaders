@@ -12,21 +12,21 @@
 }
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
+ - (void) setDelegate:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) frameOfPresentedViewInContainerView;
  - (void) _containerViewWillLayoutSubviews;
  - (BOOL) shouldRemovePresentersView;
  - (BOOL) shouldPresentInFullscreen;
  - (BOOL) _shouldRespectDefinesPresentationContext;
  - (id) presentedView;
- - (void) presentationTransitionDidEnd:(BOOL)a;
+ - (void) presentationTransitionDidEnd:(BOOL)a ;
  - (void) presentationTransitionWillBegin;
  - (void) dismissalTransitionWillBegin;
  - (void) containerViewWillLayoutSubviews;
- - (long long) adaptivePresentationStyleForPresentationController:(id)a;
+ - (long long) adaptivePresentationStyleForPresentationController:(id)a ;
  - (long long) adaptivePresentationStyle;
- - (id) initWithPresentedViewController:(id)apresentingViewController:(id)b;
- - (id) presentationController:(id)aviewControllerForAdaptivePresentationStyle:(long long)b;
+ - (id) initWithPresentedViewController:(id)a presentingViewController:(id)b ;
+ - (id) presentationController:(id)a viewControllerForAdaptivePresentationStyle:(long long)b ;
  - (BOOL) _shouldChangeStatusBarViewController;
  - (BOOL) _preserveResponderAcrossWindows;
  - (id) _dimmingView;
@@ -34,14 +34,14 @@
  - (BOOL) _isCurrentContext;
  - (BOOL) _shouldRespectNearestCurrentContextPresenter;
  - (void) _prepareDimmingViewIfNecessary;
- - (void) _occludePresentingWindow:(BOOL)a;
+ - (void) _occludePresentingWindow:(BOOL)a ;
  - (id) _presentedAlertController;
  - (long long) attributeToAlignAlertControllerViewBy;
  - (double) constantForAligningAlertControllerToAvailableSpace;
- - (void) _setChromeHidden:(BOOL)a;
+ - (void) _setChromeHidden:(BOOL)a ;
  - (BOOL) _isChromeHidden;
- - (void) _setIsCurrentContext:(BOOL)a;
- - (void) _setShouldRespectNearestCurrentContextPresenter:(BOOL)a;
+ - (void) _setIsCurrentContext:(BOOL)a ;
+ - (void) _setShouldRespectNearestCurrentContextPresenter:(BOOL)a ;
 
 
 @end

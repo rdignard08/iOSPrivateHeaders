@@ -9,15 +9,15 @@
 }
 
  - (void) dealloc;
- - (void) setDelegate:(id)a;
- - (void) show:(BOOL)afromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) popoverControllerDidDismissPopover:(id)a;
- - (void) _windowWillRotate:(id)a;
+ - (void) setDelegate:(id)a ;
+ - (void) show:(BOOL)a fromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b ;
+ - (void) popoverControllerDidDismissPopover:(id)a ;
+ - (void) _windowWillRotate:(id)a ;
  - (void) _dismissAirPlayRoutePickerIPad;
- - (void) _windowDidRotate:(id)a;
- - (void) _presentAirPlayPopoverAnimated:(BOOL)afromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) showAirPlayPickerIPad:(unsigned long long)afromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
- - (void) showAirPlayPickerIPhone:(unsigned long long)a;
+ - (void) _windowDidRotate:(id)a ;
+ - (void) _presentAirPlayPopoverAnimated:(BOOL)a fromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b ;
+ - (void) showAirPlayPickerIPad:(unsigned long long)a fromRect:({CGRect={CGPoint=dd}{CGSize=dd}})b ;
+ - (void) showAirPlayPickerIPhone:(unsigned long long)a ;
 
 
 @end

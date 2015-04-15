@@ -27,8 +27,8 @@
  - (id) autorelease;
  - (unsigned long long) retainCount;
  - (void) dealloc;
- - (void) addObject:(id)a;
- - (id) initWithCapacity:(unsigned long long)a;
+ - (void) addObject:(id)a ;
+ - (id) initWithCapacity:(unsigned long long)a ;
  - (id) init;
  - (void) drain;
 

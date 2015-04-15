@@ -4,7 +4,7 @@
 }
  + (Class) transformedValueClass;
 
- - (id) transformedValue:(id)a;
+ - (id) transformedValue:(id)a ;
  - (BOOL) _isBooleanTransformer;
  - (id) description;
 

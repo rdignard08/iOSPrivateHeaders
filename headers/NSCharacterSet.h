@@ -32,27 +32,27 @@
  + (id) characterSetWithCharactersInString:(id)a;
  + (id) characterSetWithRange:({_NSRange=QQ})a;
 
- - (BOOL) characterIsMember:(unsigned short)a;
+ - (BOOL) characterIsMember:(unsigned short)a ;
  - (BOOL) isMutable;
  - (void) makeImmutable;
- - (BOOL) isSupersetOfSet:(id)a;
- - (id) replacementObjectForPortCoder:(id)a;
- - (id) copyWithZone:(^{_NSZone=})a;
- - (id) mutableCopyWithZone:(^{_NSZone=})a;
+ - (BOOL) isSupersetOfSet:(id)a ;
+ - (id) replacementObjectForPortCoder:(id)a ;
+ - (id) copyWithZone:(^{_NSZone=})a ;
+ - (id) mutableCopyWithZone:(^{_NSZone=})a ;
  - (unsigned long long) count;
  - (BOOL) isEmpty;
  - (id) invertedSet;
- - (BOOL) longCharacterIsMember:(unsigned int)a;
- - (BOOL) hasMemberInPlane:(unsigned char)a;
+ - (BOOL) longCharacterIsMember:(unsigned int)a ;
+ - (BOOL) hasMemberInPlane:(unsigned char)a ;
  - (id) _retainedBitmapRepresentation;
  - (^{__CFCharacterSet=}) _expandedCFCharacterSet;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (unsigned long long) _cfTypeID;
  - (id) bitmapRepresentation;
  - (id) init;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
 
 
 @end

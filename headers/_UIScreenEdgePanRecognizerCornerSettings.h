@@ -8,11 +8,11 @@
  + (id) keyPathsForValuesAffectingCornerAngleWindowDegreees;
 
  - (void) setDefaultValues;
- - (void) setCornerSize:(double)a;
- - (void) setCornerAngleWindow:(double)a;
+ - (void) setCornerSize:(double)a ;
+ - (void) setCornerAngleWindow:(double)a ;
  - (double) cornerAngleWindow;
  - (double) cornerAngleWindowDegreees;
- - (void) setCornerAngleWindowDegreees:(double)a;
+ - (void) setCornerAngleWindowDegreees:(double)a ;
  - (double) cornerSize;
 
 

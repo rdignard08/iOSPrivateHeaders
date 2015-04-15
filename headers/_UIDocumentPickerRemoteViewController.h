@@ -11,23 +11,23 @@
  + (id) serviceViewControllerInterface;
 
  - (void) invalidate;
- - (void) setExtensionRequestIdentifier:(id)a;
- - (void) setExtension:(id)a;
+ - (void) setExtensionRequestIdentifier:(id)a ;
+ - (void) setExtension:(id)a ;
  - (void) _dismissViewController;
- - (void) setPublicController:(id)a;
- - (void) setPreferredContentSize:({CGSize=dd})a;
+ - (void) setPublicController:(id)a ;
+ - (void) setPreferredContentSize:({CGSize=dd})a ;
  - (void) _didSelectPicker;
- - (void) _dismissWithOption:(id)a;
- - (void) _stitchFileCreationAtURL:(id)a;
+ - (void) _dismissWithOption:(id)a ;
+ - (void) _stitchFileCreationAtURL:(id)a ;
  - (void) viewDidLoad;
- - (void) _tintColorDidChangeToColor:(id)a;
- - (void) _didSelectURLWrapper:(id)a;
+ - (void) _tintColorDidChangeToColor:(id)a ;
+ - (void) _didSelectURLWrapper:(id)a ;
  - (id) publicController;
- - (void) viewServiceDidTerminateWithError:(id)a;
+ - (void) viewServiceDidTerminateWithError:(id)a ;
  - (id) extension;
  - (id) extensionRequestIdentifier;
  - (id) identifier;
- - (void) setIdentifier:(id)a;
+ - (void) setIdentifier:(id)a ;
 
 
 @end

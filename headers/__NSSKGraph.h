@@ -13,8 +13,8 @@
  - (void) dealloc;
  - (void) finalize;
  - (BOOL) isEmpty;
- - (id) initWithNumberOfVertices:(long long)anumberOfEdges:(long long)b;
- - (BOOL) addEdgeWithH1:(unsigned long long)awithH2:(unsigned long long)b;
+ - (id) initWithNumberOfVertices:(long long)a numberOfEdges:(long long)b ;
+ - (BOOL) addEdgeWithH1:(unsigned long long)a withH2:(unsigned long long)b ;
  - (unsigned long long) numOfEdges;
  - (^^{edge}) isAcyclic;
 

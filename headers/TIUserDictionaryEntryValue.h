@@ -14,15 +14,15 @@
 
  - (id) description;
  - (void) dealloc;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - (id) timestamp;
  - (id) phrase;
- - (void) setPhrase:(id)a;
+ - (void) setPhrase:(id)a ;
  - (id) shortcut;
- - (void) setShortcut:(id)a;
- - (void) setTimestamp:(id)a;
- - (BOOL) matchesEntry:(id)a;
+ - (void) setShortcut:(id)a ;
+ - (void) setTimestamp:(id)a ;
+ - (BOOL) matchesEntry:(id)a ;
  - (id) shortcutForSorting;
 
 

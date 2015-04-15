@@ -8,11 +8,11 @@
 @property (nonatomic, assign, readwrite) NSNumber* errorCount;
  + (id) untargetedInvocationWithInvocation:(id)awithCompletion:(BOOL)b;
 
- - (id) initWithInvocation:(id)a;
+ - (id) initWithInvocation:(id)a ;
  - (void) dealloc;
  - (id) invocation;
  - (unsigned long long) errorCount;
- - (void) setErrorCount:(unsigned long long)a;
+ - (void) setErrorCount:(unsigned long long)a ;
 
 
 @end

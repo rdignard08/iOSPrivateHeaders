@@ -11,15 +11,15 @@
 @property (nonatomic, assign, readonly) NSNumber* destinationRect;
 @property (nonatomic, assign, readonly) NSNumber* edgeInsets;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) destinationRect;
- - (double) positionOfSliceBoundary:(unsigned long long)a;
- - (id) initWithSliceInformation:(id)adestinationRect:({CGRect={CGPoint=dd}{CGSize=dd}})b;
+ - (double) positionOfSliceBoundary:(unsigned long long)a ;
+ - (id) initWithSliceInformation:(id)a destinationRect:({CGRect={CGPoint=dd}{CGSize=dd}})b ;
  - (long long) renditionType;
  - ({CGSize=dd}) _topLeftCapSize;
  - ({CGSize=dd}) _bottomRightCapSize;
- - (id) initWithRenditionType:(long long)adestinationRect:({CGRect={CGPoint=dd}{CGSize=dd}})btopLeftInset:({CGSize=dd})cbottomRightInset:({CGSize=dd})d;
+ - (id) initWithRenditionType:(long long)a destinationRect:({CGRect={CGPoint=dd}{CGSize=dd}})b topLeftInset:({CGSize=dd})c bottomRightInset:({CGSize=dd})d ;
  - ({?=dddd}) edgeInsets;
 
 

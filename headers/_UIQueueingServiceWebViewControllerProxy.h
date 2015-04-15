@@ -9,11 +9,11 @@
 @property (nonatomic, assign, readwrite) NSNumber* delegate;
 
  - (void) dealloc;
- - (void) forwardInvocation:(id)a;
- - (void) setDelegate:(id)a;
- - (id) methodSignatureForSelector:(SEL)a;
+ - (void) forwardInvocation:(id)a ;
+ - (void) setDelegate:(id)a ;
+ - (id) methodSignatureForSelector:(SEL)a ;
  - (id) serviceViewControllerProxy;
- - (void) setServiceViewControllerProxy:(id)a;
+ - (void) setServiceViewControllerProxy:(id)a ;
  - (id) init;
  - (id) delegate;
 

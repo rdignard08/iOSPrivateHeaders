@@ -4,8 +4,8 @@
     NSLocale* _locale;
 }
 
- - (void) startQuery:(@?)a;
- - (id) initWithAssetLocale:(id)a;
+ - (void) startQuery:(@?)a ;
+ - (id) initWithAssetLocale:(id)a ;
 
 
 @end

@@ -4,7 +4,7 @@
     int _tetheringConnectionCount;
 }
 
- - (BOOL) updateForNewData:(id)aactions:(int)b;
+ - (BOOL) updateForNewData:(id)a actions:(int)b ;
  - (id) contentsImage;
 
 

@@ -5,11 +5,11 @@
 }
  + (^{?=Q[4@]}) _proxyNonGCPoolPointer;
 
- - (id) _proxyInitWithContainer:(id)agetter:(id)b;
+ - (id) _proxyInitWithContainer:(id)a getter:(id)b ;
  - (void) _proxyNonGCFinalize;
- - (id) _nonNilSetValueWithSelector:(SEL)a;
+ - (id) _nonNilSetValueWithSelector:(SEL)a ;
  - (unsigned long long) count;
- - (id) member:(id)a;
+ - (id) member:(id)a ;
  - (id) objectEnumerator;
 
 

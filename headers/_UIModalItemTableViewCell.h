@@ -10,10 +10,10 @@
 
  - (void) dealloc;
  - (void) layoutSubviews;
- - (id) initWithStyle:(long long)areuseIdentifier:(id)b;
- - (void) setShowFullWidthSeparator:(BOOL)a;
- - (void) setFullWidthSeparatorColor:(id)a;
- - (void) setIsEnabled:(BOOL)a;
+ - (id) initWithStyle:(long long)a reuseIdentifier:(id)b ;
+ - (void) setShowFullWidthSeparator:(BOOL)a ;
+ - (void) setFullWidthSeparatorColor:(id)a ;
+ - (void) setIsEnabled:(BOOL)a ;
  - (id) topSeparatorView;
  - (BOOL) showFullWidthSeparator;
  - (id) fullWidthSeparatorColor;

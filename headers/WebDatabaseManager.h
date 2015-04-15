@@ -12,11 +12,11 @@
 
  - (id) init;
  - (id) origins;
- - (id) databasesWithOrigin:(id)a;
- - (id) detailsForDatabase:(id)awithOrigin:(id)b;
+ - (id) databasesWithOrigin:(id)a ;
+ - (id) detailsForDatabase:(id)a withOrigin:(id)b ;
  - (void) deleteAllDatabases;
- - (BOOL) deleteOrigin:(id)a;
- - (BOOL) deleteDatabase:(id)awithOrigin:(id)b;
+ - (BOOL) deleteOrigin:(id)a ;
+ - (BOOL) deleteDatabase:(id)a withOrigin:(id)b ;
 
 
 @end

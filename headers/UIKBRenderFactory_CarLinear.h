@@ -3,7 +3,7 @@
 
 }
 
- - (id) _traitsForKey:(id)aonKeyplane:(id)b;
+ - (id) _traitsForKey:(id)a onKeyplane:(id)b ;
  - (id) lightTextFontName;
  - (void) setupLayoutSegments;
  - (double) defaultKeyFontSize;

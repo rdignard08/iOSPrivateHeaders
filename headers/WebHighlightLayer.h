@@ -5,9 +5,9 @@
     WebView* _webView;
 }
 
- - (id) actionForKey:(id)a;
+ - (id) actionForKey:(id)a ;
  - (void) layoutSublayers;
- - (id) initWithHighlightView:(id)awebView:(id)b;
+ - (id) initWithHighlightView:(id)a webView:(id)b ;
 
 
 @end

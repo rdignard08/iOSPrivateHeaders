@@ -8,23 +8,23 @@
 }
 
  - (void) verifyInternalIntegrity;
- - (void) enumerateVariables:(@?)a;
- - (void) removeVariable:(id)a;
- - (void) addVariable:(id)apriority:(double)btimes:(double)cprocessVariableNewToReceiver:(@?)dprocessVariableDroppedFromReceiver:(@?)e;
- - (void) addExpression:(id)apriority:(double)btimes:(double)cprocessVariableNewToReceiver:(@?)dprocessVariableDroppedFromReceiver:(@?)e;
- - (void) replaceVariable:(id)awithExpression:(id)bprocessVariableNewToReceiver:(@?)cprocessVariableDroppedFromReceiver:(@?)d;
- - (void) replaceVariable:(id)awithVariablePlusDelta:(double)btimesVariable:(id)cprocessVariableNewToReceiver:(@?)dprocessVariableDroppedFromReceiver:(@?)e;
+ - (void) enumerateVariables:(@?)a ;
+ - (void) removeVariable:(id)a ;
+ - (void) addVariable:(id)a priority:(double)b times:(double)c processVariableNewToReceiver:(@?)d processVariableDroppedFromReceiver:(@?)e ;
+ - (void) addExpression:(id)a priority:(double)b times:(double)c processVariableNewToReceiver:(@?)d processVariableDroppedFromReceiver:(@?)e ;
+ - (void) replaceVariable:(id)a withExpression:(id)b processVariableNewToReceiver:(@?)c processVariableDroppedFromReceiver:(@?)d ;
+ - (void) replaceVariable:(id)a withVariablePlusDelta:(double)b timesVariable:(id)c processVariableNewToReceiver:(@?)d processVariableDroppedFromReceiver:(@?)e ;
  - (id) restrictedVariableWithCoefficientOfLargestNegativeMagnitude;
- - (void) leadingPriority:(^d)aandValue:(^d)bforVariable:(id)c;
- - (void) addVariable:(id)apriority:(double)btimes:(double)c;
- - (id) initWithLinearExpression:(id)apriority:(double)b;
+ - (void) leadingPriority:(^d)a andValue:(^d)b forVariable:(id)c ;
+ - (void) addVariable:(id)a priority:(double)b times:(double)c ;
+ - (id) initWithLinearExpression:(id)a priority:(double)b ;
  - (BOOL) constantTermIsZero;
- - (void) replaceVariable:(id)awithVariablePlusDelta:(double)b;
+ - (void) replaceVariable:(id)a withVariablePlusDelta:(double)b ;
  - (unsigned long long) variableCount;
- - (void) incrementConstantWithPriority:(double)avalue:(double)b;
- - (^{__CFData=}) priorityVectorForVariable:(id)a;
- - (void) setPriorityVector:(^{__CFData=})aforKnownAbsentVariable:(id)b;
- - (void) incrementConstantWithPriorityVector:(^{__CFData=})atimesScalarCoefficient:(double)b;
+ - (void) incrementConstantWithPriority:(double)a value:(double)b ;
+ - (^{__CFData=}) priorityVectorForVariable:(id)a ;
+ - (void) setPriorityVector:(^{__CFData=})a forKnownAbsentVariable:(id)b ;
+ - (void) incrementConstantWithPriorityVector:(^{__CFData=})a timesScalarCoefficient:(double)b ;
  - (id) description;
  - (void) dealloc;
  - (id) init;

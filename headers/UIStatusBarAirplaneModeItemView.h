@@ -3,7 +3,7 @@
 
 }
 
- - (void) setVisible:(BOOL)aframe:({CGRect={CGPoint=dd}{CGSize=dd}})bduration:(double)c;
+ - (void) setVisible:(BOOL)a frame:({CGRect={CGPoint=dd}{CGSize=dd}})b duration:(double)c ;
 
 
 @end

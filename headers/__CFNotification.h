@@ -9,15 +9,15 @@
     BOOL _dyingObject;
 }
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
  - (void) finalize;
  - (id) userInfo;
  - (id) name;
  - (unsigned long long) hash;
- - (BOOL) isEqual:(id)a;
+ - (BOOL) isEqual:(id)a ;
  - (id) object;
- - (id) initWithName:(^{__CFString=})aobject:(r^v)buserInfo:(^{__CFDictionary=})cfoundation:(BOOL)d;
+ - (id) initWithName:(^{__CFString=})a object:(r^v)b userInfo:(^{__CFDictionary=})c foundation:(BOOL)d ;
 
 
 @end

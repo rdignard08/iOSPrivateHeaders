@@ -8,8 +8,8 @@
  - (id) newValue;
  - (id) attrName;
  - (unsigned short) attrChange;
- - (void) initMutationEvent:(id)acanBubble:(BOOL)bcancelable:(BOOL)crelatedNode:(id)dprevValue:(id)enewValue:(id)fattrName:(id)gattrChange:(unsigned short)h;
- - (void) initMutationEvent:(id)a;
+ - (void) initMutationEvent:(id)a canBubble:(BOOL)b cancelable:(BOOL)c relatedNode:(id)d prevValue:(id)e newValue:(id)f attrName:(id)g attrChange:(unsigned short)h ;
+ - (void) initMutationEvent:(id)a ;
 
 
 @end

@@ -8,12 +8,12 @@
 @property (nonatomic, assign, readwrite) UITextInputController* inputController;
 
  - (id) inputController;
- - (void) setInputController:(id)a;
- - (id) initWithAffectedRange:({_NSRange=QQ})ainputController:(id)b;
+ - (void) setInputController:(id)a ;
+ - (id) initWithAffectedRange:({_NSRange=QQ})a inputController:(id)b ;
  - (void) undoRedo;
  - (BOOL) supportsCoalescing;
  - ({_NSRange=QQ}) affectedRange;
- - (void) setAffectedRange:({_NSRange=QQ})a;
+ - (void) setAffectedRange:({_NSRange=QQ})a ;
 
 
 @end

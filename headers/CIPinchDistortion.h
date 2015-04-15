@@ -8,17 +8,17 @@
 }
  + (id) customAttributes;
 
- - (void) setInputScale:(id)a;
+ - (void) setInputScale:(id)a ;
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
+ - (void) setInputImage:(id)a ;
  - (id) inputScale;
- - (void) setInputRadius:(id)a;
+ - (void) setInputRadius:(id)a ;
  - (id) inputRadius;
  - (id) inputCenter;
- - (void) setInputCenter:(id)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) computeDOD:(float)ascale:(float)b;
+ - (void) setInputCenter:(id)a ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) computeDOD:(float)a scale:(float)b ;
  - (id) _pinchDistortionScaleLT1;
  - (id) _pinchDistortionScaleGE1;
 

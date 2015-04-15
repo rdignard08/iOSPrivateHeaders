@@ -21,7 +21,7 @@
  + (double) diameterForLineHeight:(double)a;
 
  - (void) dealloc;
- - (id) _basicAnimationForView:(id)awithKeyPath:(id)b;
+ - (id) _basicAnimationForView:(id)a withKeyPath:(id)b ;
  - (id) _timingFunctionForAnimation;
  - (BOOL) delegateWasEmpty;
  - (double) fadeOutDuration;
@@ -29,18 +29,18 @@
  - (void) startLandingIfNecessary;
  - (void) stopLandingForError;
  - (void) stopLanding;
- - (void) setWillInsertResult:(BOOL)a;
+ - (void) setWillInsertResult:(BOOL)a ;
  - (void) clearRotation;
- - (void) rotateBy:(double)a;
- - (void) advanceLanding:(id)a;
+ - (void) rotateBy:(double)a ;
+ - (void) advanceLanding:(id)a ;
  - (void) startDisplayLinkIfNecessary;
  - (void) hideCursor;
  - (void) showCursor;
- - (void) shrinkWithCompletion:(id)a;
+ - (void) shrinkWithCompletion:(id)a ;
  - (void) errorShakeDidFinish;
  - (BOOL) willInsertResult;
- - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a;
+ - (id) initWithFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) drawRect:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
 
 
 @end

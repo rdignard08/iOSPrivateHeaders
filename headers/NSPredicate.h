@@ -16,20 +16,20 @@
  + (id) predicateWithBlock:(@?)a;
  + (id) predicateWithFormat:(id)a;
 
- - (id) minimalFormInContext:(id)a;
+ - (id) minimalFormInContext:(id)a ;
  - (void) allowEvaluation;
  - (id) predicateFormat;
  - (BOOL) _allowsEvaluation;
- - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
- - (BOOL) evaluateWithObject:(id)asubstitutionVariables:(id)b;
- - (void) _validateForMetadataQueryScopes:(id)a;
+ - (void) acceptVisitor:(id)a flags:(unsigned long long)b ;
+ - (BOOL) evaluateWithObject:(id)a substitutionVariables:(id)b ;
+ - (void) _validateForMetadataQueryScopes:(id)a ;
  - (id) generateMetadataDescription;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (BOOL) evaluateWithObject:(id)a;
- - (id) predicateWithSubstitutionVariables:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (BOOL) evaluateWithObject:(id)a ;
+ - (id) predicateWithSubstitutionVariables:(id)a ;
 
 
 @end

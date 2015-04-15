@@ -6,11 +6,11 @@
 }
 
  - (void) dealloc;
- - (void) viewWillAppear:(BOOL)a;
+ - (void) viewWillAppear:(BOOL)a ;
  - (void) viewDidLoad;
  - (BOOL) presentedPrintInteractionController;
- - (void) setPresentedPrintInteractionController:(BOOL)a;
- - (id) initWithCompletion:(@?)a;
+ - (void) setPresentedPrintInteractionController:(BOOL)a ;
+ - (id) initWithCompletion:(@?)a ;
 
 
 @end

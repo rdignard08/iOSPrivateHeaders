@@ -11,15 +11,15 @@
  - (void) setDefaults;
  - (id) outputImage;
  - (id) inputImage;
- - (void) setInputImage:(id)a;
- - (void) setInputRadius:(id)a;
+ - (void) setInputImage:(id)a ;
+ - (void) setInputRadius:(id)a ;
  - (BOOL) _isIdentity;
  - (id) inputRadius;
  - (id) _kernel;
  - (id) inputAngle;
- - (void) setInputAngle:(id)a;
+ - (void) setInputAngle:(id)a ;
  - (id) inputCenter;
- - (void) setInputCenter:(id)a;
+ - (void) setInputCenter:(id)a ;
 
 
 @end

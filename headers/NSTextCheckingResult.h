@@ -24,10 +24,10 @@
 
  - (id) components;
  - (unsigned long long) numberOfRanges;
- - (void) encodeRangeWithCoder:(id)a;
- - ({_NSRange=QQ}) decodeRangeWithCoder:(id)a;
- - (id) resultByAdjustingRangesWithOffset:(long long)a;
- - (BOOL) _adjustRangesWithOffset:(long long)a;
+ - (void) encodeRangeWithCoder:(id)a ;
+ - ({_NSRange=QQ}) decodeRangeWithCoder:(id)a ;
+ - (id) resultByAdjustingRangesWithOffset:(long long)a ;
+ - (BOOL) _adjustRangesWithOffset:(long long)a ;
  - (id) orthography;
  - (id) grammarDetails;
  - (double) duration;
@@ -37,14 +37,14 @@
  - (id) regularExpression;
  - (id) phoneNumber;
  - (^v) underlyingResult;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (id) description;
- - ({_NSRange=QQ}) rangeAtIndex:(unsigned long long)a;
+ - ({_NSRange=QQ}) rangeAtIndex:(unsigned long long)a ;
  - (id) date;
  - (id) timeZone;
  - (id) URL;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
  - ({_NSRange=QQ}) range;
  - (unsigned long long) resultType;
 

@@ -6,8 +6,8 @@
 }
 
  - (void) dealloc;
- - (id) initWithAttributes:(id)arange:({_NSRange=QQ})b;
- - (void) setAttributesInTextStorage:(id)a;
+ - (id) initWithAttributes:(id)a range:({_NSRange=QQ})b ;
+ - (void) setAttributesInTextStorage:(id)a ;
 
 
 @end

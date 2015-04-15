@@ -23,10 +23,10 @@
  - (id) supportedInputModeLanguageAndRegions;
  - (id) supportedInputModeIdentifiers;
  - (id) enabledInputModeIdentifiers;
- - (void) setCurrentLocale:(id)a;
- - (void) setCurrentLanguage:(id)a;
- - (void) setEnabledInputModes:(id)a;
- - (void) setDefaultInputModes:(id)a;
+ - (void) setCurrentLocale:(id)a ;
+ - (void) setCurrentLanguage:(id)a ;
+ - (void) setEnabledInputModes:(id)a ;
+ - (void) setDefaultInputModes:(id)a ;
  - (id) defaultInputModes;
  - (id) currentLanguage;
  - (id) defaultEnabledInputModesForCurrentLocale;

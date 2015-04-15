@@ -6,15 +6,15 @@
 
  - (BOOL) supportsSecureCoding;
  - (id) predicateFormat;
- - (void) acceptVisitor:(id)aflags:(unsigned long long)b;
- - (BOOL) evaluateWithObject:(id)asubstitutionVariables:(id)b;
+ - (void) acceptVisitor:(id)a flags:(unsigned long long)b ;
+ - (BOOL) evaluateWithObject:(id)a substitutionVariables:(id)b ;
  - (@?) _predicateBlock;
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (void) dealloc;
- - (void) encodeWithCoder:(id)a;
- - (id) initWithCoder:(id)a;
- - (id) initWithBlock:(@?)a;
- - (id) predicateWithSubstitutionVariables:(id)a;
+ - (void) encodeWithCoder:(id)a ;
+ - (id) initWithCoder:(id)a ;
+ - (id) initWithBlock:(@?)a ;
+ - (id) predicateWithSubstitutionVariables:(id)a ;
 
 
 @end

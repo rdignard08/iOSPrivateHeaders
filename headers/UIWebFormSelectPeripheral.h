@@ -12,10 +12,10 @@
  - (void) dealloc;
  - (void) beginEditing;
  - (void) endEditing;
- - (void) set_selectionNode:(id)a;
+ - (void) set_selectionNode:(id)a ;
  - (id) _selectionNode;
- - (void) set_selectControl:(id)a;
- - (id) initWithDOMHTMLSelectElement:(id)a;
+ - (void) set_selectControl:(id)a ;
+ - (id) initWithDOMHTMLSelectElement:(id)a ;
  - (id) assistantView;
  - (id) _selectControl;
 

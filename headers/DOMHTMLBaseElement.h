@@ -4,9 +4,9 @@
 }
 
  - (id) target;
- - (void) setTarget:(id)a;
+ - (void) setTarget:(id)a ;
  - (id) href;
- - (void) setHref:(id)a;
+ - (void) setHref:(id)a ;
 
 
 @end

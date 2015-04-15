@@ -29,24 +29,24 @@
  - (id) items;
  - (long long) index;
  - ({CGSize=dd}) rowSize;
- - (void) setRowSize:({CGSize=dd})a;
+ - (void) setRowSize:({CGSize=dd})a ;
  - (BOOL) fixedItemSize;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) rowFrame;
- - (void) setFixedItemSize:(BOOL)a;
- - (void) setSection:(id)a;
- - (void) addItem:(id)aatEnd:(BOOL)b;
- - (void) setComplete:(BOOL)a;
+ - (void) setFixedItemSize:(BOOL)a ;
+ - (void) setSection:(id)a ;
+ - (void) addItem:(id)a atEnd:(BOOL)b ;
+ - (void) setComplete:(BOOL)a ;
  - (void) layoutRow;
- - (void) setRowFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (long long) indexOfNearestItemAtPoint:({CGPoint=dd})a;
- - (id) copyFromSection:(id)a;
+ - (void) setRowFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (long long) indexOfNearestItemAtPoint:({CGPoint=dd})a ;
+ - (id) copyFromSection:(id)a ;
  - (BOOL) complete;
- - (void) insertItem:(id)aatIndex:(long long)b;
- - (void) removeItemAtIndex:(long long)a;
+ - (void) insertItem:(id)a atIndex:(long long)b ;
+ - (void) removeItemAtIndex:(long long)a ;
  - (double) availableSpace;
- - (void) setAvailableSpace:(double)a;
+ - (void) setAvailableSpace:(double)a ;
  - (id) init;
- - (void) setIndex:(long long)a;
+ - (void) setIndex:(long long)a ;
 
 
 @end

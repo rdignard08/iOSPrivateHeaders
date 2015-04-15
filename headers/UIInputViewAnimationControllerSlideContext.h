@@ -11,9 +11,9 @@
 
  - (void) dealloc;
  - (id) snapshot;
- - (void) setSnapshot:(id)a;
- - (void) setSnapshotEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a;
- - (void) setEndPlacement:(id)a;
+ - (void) setSnapshot:(id)a ;
+ - (void) setSnapshotEndFrame:({CGRect={CGPoint=dd}{CGSize=dd}})a ;
+ - (void) setEndPlacement:(id)a ;
  - ({CGRect={CGPoint=dd}{CGSize=dd}}) snapshotEndFrame;
  - (id) endPlacement;
 

@@ -18,7 +18,7 @@
  - (id) description;
  - (void) dealloc;
  - (id) URL;
- - (void) setURL:(id)a;
+ - (void) setURL:(id)a ;
 
 
 @end

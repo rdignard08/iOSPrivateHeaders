@@ -8,7 +8,7 @@
 
  - (id) connection;
  - (id) conversation;
- - (void) replyWithException:(id)a;
+ - (void) replyWithException:(id)a ;
  - (id) invocation;
 
 

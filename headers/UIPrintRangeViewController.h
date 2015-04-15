@@ -12,22 +12,22 @@
 }
 
  - (void) dealloc;
- - (long long) numberOfComponentsInPickerView:(id)a;
- - (long long) pickerView:(id)anumberOfRowsInComponent:(long long)b;
- - (id) pickerView:(id)atitleForRow:(long long)bforComponent:(long long)c;
- - (double) pickerView:(id)awidthForComponent:(long long)b;
- - (void) pickerView:(id)adidSelectRow:(long long)binComponent:(long long)c;
- - (void) tableView:(id)adidSelectRowAtIndexPath:(id)b;
- - (long long) tableView:(id)anumberOfRowsInSection:(long long)b;
- - (id) tableView:(id)acellForRowAtIndexPath:(id)b;
- - (long long) numberOfSectionsInTableView:(id)a;
+ - (long long) numberOfComponentsInPickerView:(id)a ;
+ - (long long) pickerView:(id)a numberOfRowsInComponent:(long long)b ;
+ - (id) pickerView:(id)a titleForRow:(long long)b forComponent:(long long)c ;
+ - (double) pickerView:(id)a widthForComponent:(long long)b ;
+ - (void) pickerView:(id)a didSelectRow:(long long)b inComponent:(long long)c ;
+ - (void) tableView:(id)a didSelectRowAtIndexPath:(id)b ;
+ - (long long) tableView:(id)a numberOfRowsInSection:(long long)b ;
+ - (id) tableView:(id)a cellForRowAtIndexPath:(id)b ;
+ - (long long) numberOfSectionsInTableView:(id)a ;
  - (unsigned long long) supportedInterfaceOrientations;
- - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a;
- - (void) viewWillAppear:(BOOL)a;
+ - (BOOL) shouldAutorotateToInterfaceOrientation:(long long)a ;
+ - (void) viewWillAppear:(BOOL)a ;
  - (void) viewDidLoad;
- - (void) viewDidDisappear:(BOOL)a;
- - (void) willAnimateRotationToInterfaceOrientation:(long long)aduration:(double)b;
- - (id) initWithPrintPanelViewController:(id)a;
+ - (void) viewDidDisappear:(BOOL)a ;
+ - (void) willAnimateRotationToInterfaceOrientation:(long long)a duration:(double)b ;
+ - (id) initWithPrintPanelViewController:(id)a ;
 
 
 @end

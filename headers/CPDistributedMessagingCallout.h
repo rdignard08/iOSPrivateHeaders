@@ -13,7 +13,7 @@
  - (id) target;
  - (SEL) selector;
  - (void) dealloc;
- - (id) initWithTarget:(id)aselector:(SEL)b;
+ - (id) initWithTarget:(id)a selector:(SEL)b ;
  - (BOOL) returnsVoid;
 
 

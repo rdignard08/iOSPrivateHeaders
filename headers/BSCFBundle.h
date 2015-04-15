@@ -5,19 +5,19 @@
 }
 
  - (id) bundlePath;
- - (id) initWithPath:(id)a;
+ - (id) initWithPath:(id)a ;
  - (id) localizedInfoDictionary;
- - (id) pathForResource:(id)aofType:(id)b;
- - (id) localizedStringForKey:(id)avalue:(id)btable:(id)c;
+ - (id) pathForResource:(id)a ofType:(id)b ;
+ - (id) localizedStringForKey:(id)a value:(id)b table:(id)c ;
  - (id) description;
  - (void) dealloc;
  - (id) bundleIdentifier;
  - (id) infoDictionary;
  - (id) executablePath;
- - (id) initWithCFBundle:(^{__CFBundle=})a;
- - (id) _pathsForResource:(id)aofType:(id)binDirectory:(id)c;
+ - (id) initWithCFBundle:(^{__CFBundle=})a ;
+ - (id) _pathsForResource:(id)a ofType:(id)b inDirectory:(id)c ;
  - (^{__CFBundle=}) cfBundle;
- - (id) pathForResource:(id)aofType:(id)binDirectory:(id)c;
+ - (id) pathForResource:(id)a ofType:(id)b inDirectory:(id)c ;
 
 
 @end

@@ -3,7 +3,7 @@
 
 }
 
- - (id) hitTest:({CGPoint=dd})awithEvent:(id)b;
+ - (id) hitTest:({CGPoint=dd})a withEvent:(id)b ;
 
 
 @end

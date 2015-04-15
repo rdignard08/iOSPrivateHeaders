@@ -11,10 +11,10 @@
 
  - ({CGSize=dd}) _shadowOffset;
  - (unsigned long long) arrowDirection;
- - (void) setArrowDirection:(unsigned long long)a;
+ - (void) setArrowDirection:(unsigned long long)a ;
  - (double) _shadowRadius;
  - (double) _shadowOpacity;
- - (void) setArrowOffset:(double)a;
+ - (void) setArrowOffset:(double)a ;
  - (double) arrowOffset;
 
 

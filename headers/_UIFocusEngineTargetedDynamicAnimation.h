@@ -9,16 +9,16 @@
 }
 
  - (void) dealloc;
- - (id) initWithValue:(double)atargetValue:(double)bconvergenceRate:(double)cminimumDifference:(double)d;
- - (void) runWithValueApplier:(@?)acompletion:(@?)b;
- - (BOOL) _animateForInterval:(double)a;
+ - (id) initWithValue:(double)a targetValue:(double)b convergenceRate:(double)c minimumDifference:(double)d ;
+ - (void) runWithValueApplier:(@?)a completion:(@?)b ;
+ - (BOOL) _animateForInterval:(double)a ;
  - (double) targetValue;
- - (void) setTargetValue:(double)a;
+ - (void) setTargetValue:(double)a ;
  - (double) convergenceRate;
- - (void) setConvergenceRate:(double)a;
+ - (void) setConvergenceRate:(double)a ;
  - (double) minimumDifference;
- - (void) setMinimumDifference:(double)a;
- - (void) setValue:(double)a;
+ - (void) setMinimumDifference:(double)a ;
+ - (void) setValue:(double)a ;
  - (double) value;
 
 

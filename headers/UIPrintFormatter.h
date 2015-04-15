@@ -19,26 +19,26 @@
 @property (nonatomic, assign, readwrite) NSNumber* startPage;
 @property (nonatomic, assign, readonly) NSNumber* pageCount;
 
- - (id) copyWithZone:(^{_NSZone=})a;
+ - (id) copyWithZone:(^{_NSZone=})a ;
  - (long long) pageCount;
  - (void) _setNeedsRecalc;
  - (long long) _recalcPageCount;
  - (void) _recalcIfNecessary;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) _pageContentRect:(BOOL)a;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) _pageContentRect:(BOOL)a ;
  - (void) removeFromPrintPageRenderer;
- - (void) setMaximumContentWidth:(double)a;
- - (void) setMaximumContentHeight:(double)a;
- - (void) setContentInsets:({UIEdgeInsets=dddd})a;
- - (void) setPerPageContentInsets:({UIEdgeInsets=dddd})a;
- - (void) setPrintPageRenderer:(id)a;
- - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageAtIndex:(long long)a;
- - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})aforPageAtIndex:(long long)b;
+ - (void) setMaximumContentWidth:(double)a ;
+ - (void) setMaximumContentHeight:(double)a ;
+ - (void) setContentInsets:({UIEdgeInsets=dddd})a ;
+ - (void) setPerPageContentInsets:({UIEdgeInsets=dddd})a ;
+ - (void) setPrintPageRenderer:(id)a ;
+ - ({CGRect={CGPoint=dd}{CGSize=dd}}) rectForPageAtIndex:(long long)a ;
+ - (void) drawInRect:({CGRect={CGPoint=dd}{CGSize=dd}})a forPageAtIndex:(long long)b ;
  - (id) printPageRenderer;
  - (double) maximumContentHeight;
  - (double) maximumContentWidth;
  - ({UIEdgeInsets=dddd}) perPageContentInsets;
  - (long long) startPage;
- - (void) setStartPage:(long long)a;
+ - (void) setStartPage:(long long)a ;
  - (id) init;
  - ({UIEdgeInsets=dddd}) contentInsets;
 
